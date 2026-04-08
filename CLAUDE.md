@@ -1,25 +1,93 @@
-# StorePep React Knowledge Base - Schema & Workflows
+# StorePep Knowledge Base - Schema & Workflows
 
 ## Purpose
 
-This is an **LLM-maintained knowledge base** for the StorePep React codebase (`../storepep-react/storepepSAAS`). The goal is to create a living, evolving wiki that serves as an active development companion - documentation that stays current as the code evolves, tracks architectural decisions, and maintains dependency maps.
+This is an **LLM-maintained knowledge base** for the StorePep product ecosystem. The goal is to create a living, evolving wiki that serves as an active development companion - documentation that stays current as the code evolves, tracks architectural decisions, maintains dependency maps, and aggregates insights from multiple sources (code, tests, support tickets, regression plans, etc.).
 
 **Key Principle**: The wiki is a persistent, compounding artifact. You (Claude) write and maintain all wiki pages. The user curates what to ingest, asks questions, and directs the analysis. The wiki keeps getting richer with every source ingested and every question asked.
 
 ## Architecture
 
-There are three layers:
+There are four layers:
 
-1. **Raw Source** (`../storepep-react/storepepSAAS`) - The actual codebase. Immutable from the wiki's perspective. You read from it but never modify it.
+1. **Raw** (`raw/`) - All input sources. Immutable from the wiki's perspective. You read from `raw/` but **never modify it**. Contains multiple source types (git submodules, webhook-populated data, exported sheets, etc.) registered in `raw/sources.yaml`.
 
-2. **The Wiki** (`wiki/`) - LLM-generated markdown files. You own this layer entirely. You create pages, update them when ingesting new code, maintain cross-references, and keep everything consistent.
+2. **The Wiki** (`wiki/`) - LLM-generated markdown files. You own this layer entirely. You create pages, update them when ingesting new material, maintain cross-references, and keep everything consistent.
 
 3. **This Schema** (`CLAUDE.md`) - Instructions for how to maintain the wiki. Workflows, templates, conventions.
+
+4. **Source Registry** (`raw/sources.yaml`) - Declares every raw source: its type, local path, sync method, and description. This is the single source of truth for where raw data lives. When resolving a source, always read `raw/sources.yaml` first.
+
+## Source Registry (`raw/sources.yaml`)
+
+The registry declares every raw source. When resolving paths, always read this file first rather than hardcoding paths.
+
+### Source Types
+
+| Type | How it gets into `raw/` | Git-trackable? | Example |
+|------|------------------------|----------------|---------|
+| `git-submodule` | `git submodule add <repo> raw/<name>` | Yes (pinned commit) | Codebase, test suite |
+| `webhook-json` | External webhook writes `{id}.json` files | Yes (commit on receive) | Zendesk tickets |
+| `google-sheet` | Manual CSV export or automated sync script | Yes (commit after export) | Regression scenarios |
+| `manual` | User places files directly | Yes | Ad-hoc documents, specs |
+
+### `sources.yaml` Format
+
+```yaml
+sources:
+  storepep-react:
+    type: git-submodule
+    path: raw/storepep-react
+    description: "Main StorePep SaaS codebase"
+    repo: <git-url>
+
+  mcsl-test-automation:
+    type: git-submodule
+    path: raw/mcsl-test-automation
+    description: "Playwright E2E test suite"
+    repo: <git-url>
+
+  zendesk:
+    type: webhook-json
+    path: raw/zendesk
+    pattern: "{ticketId}.json"
+    description: "Customer support tickets via webhook"
+    # Workflow: TBD — will be defined when Zendesk ingestion is ready
+
+  regression-scenarios:
+    type: google-sheet
+    path: raw/sheets/regression-scenarios.csv
+    url: "https://docs.google.com/spreadsheets/d/1oVtOaM2PesVR_TkuVaBKpbp_qQdmq4FQnN43Xew0FuY"
+    sync: manual
+    description: "Master regression test plan"
+```
+
+### Adding a New Source
+
+1. Choose the appropriate type from the table above
+2. Add the source to `raw/` (e.g., `git submodule add`, place files, configure webhook)
+3. Register it in `raw/sources.yaml` with type, path, and description
+4. If the source needs an ingestion workflow, define it in the Ingestion Workflows section below
+5. Commit the changes to the wiki repo
+
+### Immutability Rule
+
+Everything under `raw/` is **read-only from the wiki's perspective**. Claude reads from `raw/` but never modifies files there. The only writes to `raw/` come from external processes (git pulls, webhooks, manual exports).
 
 ## Directory Structure
 
 ```
 mcsl-wiki/
+├── raw/                               # ALL input sources (immutable)
+│   ├── sources.yaml                   # Source registry — single source of truth
+│   ├── storepep-react/                # git submodule → main codebase
+│   ├── mcsl-test-automation/          # git submodule → Playwright E2E tests
+│   ├── zendesk/                       # webhook-populated JSON (one file per ticket)
+│   │   ├── <ticketId>.json
+│   │   └── ...
+│   ├── sheets/                        # Google Sheets exported as CSV
+│   │   └── regression-scenarios.csv
+│   └── <future-source>/               # Extensible — add new sources here
 ├── wiki/
 │   ├── architecture/          # System-level documentation
 │   │   ├── overview.md
@@ -60,6 +128,7 @@ Every wiki page should follow this structure:
 title: <Page Title>
 category: <architecture|module|pattern|operation>
 domain: <orders|shipping|products|etc.> # if category=module
+sources: [storepep-react, mcsl-test-automation] # which raw sources this page draws from (keys from sources.yaml)
 status: <complete|partial|needs-update>
 last_updated: <YYYY-MM-DD>
 git_reference: <commit hash or "current">
@@ -126,7 +195,7 @@ Typical usage patterns, code examples if useful.
 - ❌ Scenario 3
 - ❌ Scenario 4
 
-**Test Suite Location**: `mcsl-test-automation/tests/<domain>/`
+**Test Suite Location**: `raw/mcsl-test-automation/tests/<domain>/`
 
 **Documentation**: See [Features List](../../features.md) for complete test coverage
 
@@ -218,11 +287,11 @@ When the user asks to document test coverage (e.g., "Extract features from Playw
 
 ### 1. **Analyze Test Files**
 
-**Test Suite Location**: `../mcsl-test-automation/tests/`
+**Test Suite Location**: `raw/mcsl-test-automation/tests/`
 
 **Discovery**:
 ```bash
-find ../mcsl-test-automation/tests -name "*.spec.ts" -o -name "*.spec.js"
+find raw/mcsl-test-automation/tests -name "*.spec.ts" -o -name "*.spec.js"
 ```
 
 **For each test file**:
@@ -320,7 +389,7 @@ mcsl-test-automation/tests/
 - ❌ Untested scenario 1
 - ❌ Untested scenario 2
 
-**Test Suite Location**: `mcsl-test-automation/tests/<category>/`
+**Test Suite Location**: `raw/mcsl-test-automation/tests/<category>/`
 
 **Documentation**: See [Features List](../../features.md) for complete test coverage
 ```
@@ -440,6 +509,16 @@ mcsl-test-automation/tests/
 - **Low (🟠 40-69%)**: Basic automation exists but significant manual testing still required
 - **None (🔴 0-39%)**: Primarily manual testing, minimal or no automation
 
+## Zendesk Ingestion Workflow
+
+> **Status: Placeholder** — This workflow will be defined when the Zendesk webhook pipeline is ready. The `raw/zendesk/` directory will contain one JSON file per ticket (`{ticketId}.json`). The planned flow is: Ticket JSON → process/extract insights → write to `wiki/backlog/` or fold into relevant module pages.
+
+**Planned source**: `raw/zendesk/` (registered in `raw/sources.yaml`)
+
+**Planned wiki output**: `wiki/backlog/` or aggregated into module "Known Issues" sections
+
+**To activate**: Define the ingestion rules here once the webhook is producing data.
+
 ## Index Format
 
 `wiki/index.md` is organized by category:
@@ -518,9 +597,10 @@ Total pages: <count>
 - Include git commit hash when available
 
 ### Git Integration
-- When ingesting, check current commit: `cd ../storepep-react/storepepSAAS && git rev-parse HEAD`
+- When ingesting from a git-submodule source, check its current commit: `cd raw/<source-name> && git rev-parse HEAD`
 - Store in page frontmatter: `git_reference: abc123def`
-- If repo is not in git or user specifies a snapshot, use `git_reference: "current"`
+- For non-git sources (sheets, webhook JSON), use `git_reference: "current"` or the wiki repo's own commit hash
+- Always record which source(s) a page draws from in the `sources:` frontmatter field
 
 ### Status Tags
 - `complete`: Comprehensive documentation, up-to-date
@@ -577,7 +657,7 @@ Organize modules by these primary domains:
 - Access control (ACL) system
 - Database migration strategy (106+ migrations)
 - Real-time updates (Socket.io)
-- **Test coverage**: Playwright E2E tests from `mcsl-test-automation`
+- **Test coverage**: Playwright E2E tests from `raw/mcsl-test-automation`
 
 ### Complexity Markers
 Note when documenting:
@@ -619,7 +699,7 @@ At small scale (<100 pages), the index.md file is sufficient for finding relevan
 
 **Workflow**:
 1. **Read code**: Use Glob/Grep to find `bulkactionHelper.js` and related files
-2. **Analyze tests**: Use Task tool with Explore agent to find tests in `mcsl-test-automation/tests/orderGrid/actionMenu/`
+2. **Analyze tests**: Use Task tool with Explore agent to find tests in `raw/mcsl-test-automation/tests/orderGrid/actionMenu/`
 3. **Discuss findings**:
    - "Found 40+ bulk actions in `bulkactionHelper.js` (2500+ lines)"
    - "Found 12 Playwright tests covering actions: cancel shipment, change carrier, create return label, etc."
@@ -637,7 +717,7 @@ At small scale (<100 pages), the index.md file is sufficient for finding relevan
 **Workflow**:
 1. **Discover tests**:
    ```bash
-   find ../mcsl-test-automation/tests -name "*.spec.ts" | wc -l
+   find raw/mcsl-test-automation/tests -name "*.spec.ts" | wc -l
    # Output: 58 test files
    ```
 
@@ -731,7 +811,7 @@ On first use:
 
 **With test coverage**:
 1. After initial ingestion, ask: "Should I analyze test coverage for this module?"
-2. If yes, find relevant tests in `mcsl-test-automation/tests/`
+2. If yes, find relevant tests in `raw/mcsl-test-automation/tests/`
 3. Extract features from tests
 4. Add Test Coverage section to module page
 5. Update or create features.md with tested features

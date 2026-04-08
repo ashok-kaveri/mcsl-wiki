@@ -1,0 +1,30 @@
+# StorePep Knowledge Base — Source Registry
+# This file is the single source of truth for all raw input sources.
+# Claude reads this to resolve paths. Never hardcode raw/ paths elsewhere.
+
+sources:
+  storepep-react:
+    type: git-submodule
+    path: raw/storepep-react
+    description: "Main StorePep SaaS codebase (React frontend + Node backend)"
+    # repo: <add git URL when submodule is configured>
+
+  mcsl-test-automation:
+    type: git-submodule
+    path: raw/mcsl-test-automation
+    description: "Playwright E2E test suite"
+    # repo: <add git URL when submodule is configured>
+
+  zendesk:
+    type: webhook-json
+    path: raw/zendesk
+    pattern: "{ticketId}.json"
+    description: "Customer support tickets populated via webhook"
+    # workflow: TBD — will be defined when pipeline is ready
+
+  regression-scenarios:
+    type: google-sheet
+    path: raw/sheets/regression-scenarios.csv
+    url: "https://docs.google.com/spreadsheets/d/1oVtOaM2PesVR_TkuVaBKpbp_qQdmq4FQnN43Xew0FuY"
+    sync: manual
+    description: "Master regression test plan with manual + automated test mapping"
