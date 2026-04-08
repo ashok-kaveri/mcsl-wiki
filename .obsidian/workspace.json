@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/log.md",
+                "file": "wiki/operations/monitoring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "log"
+              "title": "monitoring"
             }
           }
         ],
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -200,6 +201,15 @@
   },
   "active": "a7930919fd3ea2f9",
   "lastOpenFiles": [
+    "raw/zendesk/382999.json",
+    "scripts/sync-zendesk.sh",
+    "raw/zendesk/382987.json",
+    "raw/zendesk/382982.json",
+    "raw/zendesk/382795.json",
+    "raw/zendesk/382780.json",
+    "wiki/operations/database-migrations.md",
+    "wiki/operations/local-setup.md",
+    "wiki/log.md",
     "wiki/index.md",
     "CLAUDE.md",
     "wiki/modules/orders/order-address-management.md",
@@ -219,19 +229,14 @@
     "wiki/features.md",
     "wiki/adding-new-carrier-customer-journey.md",
     "wiki/system-features-analysis.md",
-    "wiki/log.md",
     "README.md",
     "Flow chart.md",
     "wiki/modules/stores/platform-connectors.md",
-    "wiki/modules/warehouses/warehouse-selection.md",
     "wiki/modules/warehouses",
-    "wiki/modules/products/product-import-export.md",
-    "wiki/modules/products/product-management.md",
     "wiki/modules/products",
     "wiki/modules/stores",
     "wiki/modules/automation",
     "wiki/modules/shipping",
-    "Untitled.canvas",
-    "wiki/modules/orders"
+    "Untitled.canvas"
   ]
 }
