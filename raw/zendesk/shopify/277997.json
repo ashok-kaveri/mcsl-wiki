@@ -1,0 +1,1233 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/277997.json",
+    "id": 277997,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2024-07-05T03:36:58Z",
+    "updated_at": "2025-11-17T05:16:27Z",
+    "generated_timestamp": 1763356588,
+    "type": null,
+    "subject": "I would like to follow up with regarding the statu...",
+    "raw_subject": "I would like to follow up with regarding the statu...",
+    "description": "I would like to follow up with regarding the status of adding the \"mark as fufilled\" button to the individual order label screens (i was told this was being worked on but this was 6+ months ago). Also, why do deleted shopify products not get removed from PH? Also if a product name is changed and/or a variant status is changed it becomes a duplicate product on PH. PluginHive is becoming a mess to manage. Another issue i broght up before and STILL hasnt been fixed is the fact that products that include variants do not appear in product search when using SKU (must use product name). I was told this would be fixed and still hasn't. \n\nCould you please provide timelines on the stuff that were meant to be fixed. Also, advice on the issues that are not being worked on. If there is no plan to fix the broken application we should not be getting charged full price and would request a discount if no timeline can be provided. \n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.com/home/products/view/status/allproducts?pageNumber=1",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 9159388924313,
+    "submitter_id": 9159388924313,
+    "assignee_id": 388269142331,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "back-log",
+      "dev_needed",
+      "last_reply_agent",
+      "other",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "aandswelding.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0451406764"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "back-log"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "64afa79aa203c3ad290513ae"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "WRKMJE-WNE02",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "aandswelding.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0451406764"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "back-log"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "64afa79aa203c3ad290513ae"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 34660111329689,
+      "type": "Comment",
+      "author_id": 9159388924313,
+      "body": "I would like to follow up with regarding the status of adding the \"mark as fufilled\" button to the individual order label screens (i was told this was being worked on but this was 6+ months ago). Also, why do deleted shopify products not get removed from PH? Also if a product name is changed and/or a variant status is changed it becomes a duplicate product on PH. PluginHive is becoming a mess to manage. Another issue i broght up before and STILL hasnt been fixed is the fact that products that include variants do not appear in product search when using SKU (must use product name). I was told this would be fixed and still hasn't. \n\nCould you please provide timelines on the stuff that were meant to be fixed. Also, advice on the issues that are not being worked on. If there is no plan to fix the broken application we should not be getting charged full price and would request a discount if no timeline can be provided. \n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.com/home/products/view/status/allproducts?pageNumber=1",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">I would like to follow up with regarding the status of adding the \"mark as fufilled\" button to the individual order label screens (i was told this was being worked on but this was 6+ months ago). Also, why do deleted shopify products not get removed from PH? Also if a product name is changed and/or a variant status is changed it becomes a duplicate product on PH. PluginHive is becoming a mess to manage. Another issue i broght up before and STILL hasnt been fixed is the fact that products that include variants do not appear in product search when using SKU (must use product name). I was told this would be fixed and still hasn't. </p>\n\n<p dir=\"auto\">Could you please provide timelines on the stuff that were meant to be fixed. Also, advice on the issues that are not being worked on. If there is no plan to fix the broken application we should not be getting charged full price and would request a discount if no timeline can be provided. </p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.com/home/products/view/status/allproducts?pageNumber=1\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.com/home/products/view/status/allproducts?pageNumber=1</a></p></div>",
+      "plain_body": "I would like to follow up with regarding the status of adding the \"mark as fufilled\" button to the individual order label screens (i was told this was being worked on but this was 6+ months ago). Also, why do deleted shopify products not get removed from PH? Also if a product name is changed and/or a variant status is changed it becomes a duplicate product on PH. PluginHive is becoming a mess to manage. Another issue i broght up before and STILL hasnt been fixed is the fact that products that include variants do not appear in product search when using SKU (must use product name). I was told this would be fixed and still hasn't.  \n\n Could you please provide timelines on the stuff that were meant to be fixed. Also, advice on the issues that are not being worked on. If there is no plan to fix the broken application we should not be getting charged full price and would request a discount if no timeline can be provided.  \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.com/home/products/view/status/allproducts?pageNumber=1",
+      "public": true,
+      "attachments": [],
+      "audit_id": 34660111329561,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2024-07-05T03:36:58Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15",
+          "ip_address": "203.45.147.248",
+          "location": "Sydney, NSW, Australia",
+          "latitude": -33.8715,
+          "longitude": 151.2006
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 34673535730457,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Posted in L3 (Will reply based on Senior team's input)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Posted in L3 (Will reply based on Senior team's input)<br></div>",
+      "plain_body": "Posted in L3 (Will reply based on Senior team's input)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 34673535730329,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-05T08:08:35Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 34682867136153,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Ashur,\n\nGood Day!\n\nThank you for following up on your request.\n\nWe are checking this request with the team internally.\n\nWe will update you once we have more information.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ashur,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>Thank you for following up on your request.<br>&nbsp;<br>We are checking this request with the team internally.<br>&nbsp;<br>We will update you once we have more information.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Ashur,\n&nbsp;\nGood Day!\n&nbsp;\nThank you for following up on your request.\n&nbsp;\nWe are checking this request with the team internally.\n&nbsp;\nWe will update you once we have more information.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 34682867136025,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-05T12:03:03Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 34682891587097,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Posted in L3 (Will reply based on Senior team's input)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Posted in L3 (Will reply based on Senior team's input)<br></div>",
+      "plain_body": "Posted in L3 (Will reply based on Senior team's input)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 34682891585561,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-05T12:03:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 34984584614425,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We will take up the merchant's requirement in future, We currently do not have any ETA. We can offer 3 months free subscription for merchant.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will take up the merchant's requirement in future, We currently do not have any ETA. We can offer 3 months free subscription for merchant.<br>[Veena]<br></div>",
+      "plain_body": "We will take up the merchant's requirement in future, We currently do not have any ETA. We can offer 3 months free subscription for merchant.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 34984584614297,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-12T11:16:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 34993224718489,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Hello Ashur,\n\nThank you for your patience.\n\nOur team is currently working on enhancing the Single Label Generation flow and the UX of the app. The requested features will also be available as part of this enhancement. As this is a major release, we do not have an exact ETA at the moment.\n\nHowever, considering your request and commitment to your satisfaction, we can offer a 3-month free subscription for your store. I hope this helps and we appreciate your understanding and support.\n\nBest regards,\nKeerthi\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ashur,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Our team is currently working on enhancing the Single Label Generation flow and the UX of the app. The requested features will also be available as part of this enhancement. As this is a major release, we do not have an exact ETA at the moment.<br>&nbsp;<br>However, considering your request and commitment to your satisfaction, we can offer a 3-month free subscription for your store. I hope this helps and we appreciate your understanding and support.<br>&nbsp;<br>Best regards,<br>Keerthi<br>PluginHive<br></div>",
+      "plain_body": "Hello Ashur,\n&nbsp;\nThank you for your patience.\n&nbsp;\nOur team is currently working on enhancing the Single Label Generation flow and the UX of the app. The requested features will also be available as part of this enhancement. As this is a major release, we do not have an exact ETA at the moment.\n&nbsp;\nHowever, considering your request and commitment to your satisfaction, we can offer a 3-month free subscription for your store. I hope this helps and we appreciate your understanding and support.\n&nbsp;\nBest regards,\nKeerthi\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 34993224718105,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-12T17:10:44Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+          "ip_address": "152.58.242.209",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 35061175506073,
+      "type": "Comment",
+      "author_id": 9159388924313,
+      "body": "Hi Keerthi,\n\n\nThank you for your reply and assistance.\n\n\n\nWe appreciate the 3-month free subscription offer and would like to take this up.\n\n\n\nWe will keep an eye out for the upcoming improvements to streamline the Ph app and address the errors existing in the future.\n\n\n\nKind regards,\n\nDavid B.\n\n ![Screen Shot 2022-07-04 at 9.14.55 am.png](https://support.pluginhive.com/attachments/token/msDsa3eiM5AfUg6A4AwMWI32G/?name=Screen+Shot+2022-07-04+at+9.14.55+am.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Keerthi,&nbsp;<div><br></div><div>Thank you for your reply and assistance.&nbsp;</div><div><br></div><div>We appreciate the 3-month free subscription offer and would like to take this up.&nbsp;</div><div><br></div><div>We will keep an eye out for the upcoming improvements to streamline the Ph app and address the errors existing in the future.&nbsp;</div><div><br></div><div>Kind regards,</div><div>David B.&nbsp;<br><div>\n<span><img alt=\"Screen Shot 2022-07-04 at 9.14.55 am.png\" src=\"https://support.pluginhive.com/attachments/token/msDsa3eiM5AfUg6A4AwMWI32G/?name=Screen+Shot+2022-07-04+at+9.14.55+am.png\" width=\"624\"></span>\n</div>\n<div><br></div></div></div>",
+      "plain_body": "Hi Keerthi,&nbsp; \n  Thank you for your reply and assistance.&nbsp;  \n  We appreciate the 3-month free subscription offer and would like to take this up.&nbsp;  \n  We will keep an eye out for the upcoming improvements to streamline the Ph app and address the errors existing in the future.&nbsp;  \n  Kind regards,  David B.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 35061175505945,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "office@aandswelding.com.au",
+            "name": "Ashur",
+            "original_recipients": [
+              "office@aandswelding.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-14T23:21:11Z",
+      "metadata": {
+        "system": {
+          "message_id": "<09F34CC4-4B59-4A8E-959A-04CD3C869B64@aandswelding.com.au>",
+          "client": "Apple Mail (2.3812.100.13.1.1)",
+          "email_id": "01J2SRSJHRJJ30V8J52HGB4QWV",
+          "ip_address": "203.45.147.248",
+          "raw_email_identifier": "2369120/696addac-f8d2-4127-b379-d994e9ff0549.eml",
+          "json_email_identifier": "2369120/696addac-f8d2-4127-b379-d994e9ff0549.json",
+          "eml_redacted": false,
+          "location": "Sydney, NSW, Australia",
+          "latitude": -33.8715,
+          "longitude": 151.2006
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 35090506357785,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "L3: 3 months subscription to be extended",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: 3 months subscription to be extended<br></div>",
+      "plain_body": "L3: 3 months subscription to be extended",
+      "public": false,
+      "attachments": [],
+      "audit_id": 35090506357401,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-15T09:27:38Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 35095014969625,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "extended.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">extended.<br>[Veena]<br></div>",
+      "plain_body": "extended.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 35095014969497,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-15T11:16:46Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+          "ip_address": "106.51.67.57",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 35097449442713,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Hello Ashur,\n\nThank you for your understanding.\n\nWe have activated the 3-month free subscription plan for your store. Kindly navigate to the App settings and approve the new cycle.\n\nPlease feel free to reach out to us should you require any assistance from our end.\n\nBest regards,\nKeerthi\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ashur,<br>&nbsp;<br>Thank you for your understanding.<br>&nbsp;<br>We have activated the 3-month free subscription plan for your store. Kindly navigate to the App settings and approve the new cycle.<br>&nbsp;<br>Please feel free to reach out to us should you require any assistance from our end.<br>&nbsp;<br>Best regards,<br>Keerthi<br>PluginHive<br></div>",
+      "plain_body": "Hello Ashur,\n&nbsp;\nThank you for your understanding.\n&nbsp;\nWe have activated the 3-month free subscription plan for your store. Kindly navigate to the App settings and approve the new cycle.\n&nbsp;\nPlease feel free to reach out to us should you require any assistance from our end.\n&nbsp;\nBest regards,\nKeerthi\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 35097449442585,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-15T12:22:32Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 35110551286553,
+      "type": "Comment",
+      "author_id": 9159388924313,
+      "body": "Hi Keerthi,\n\n\nWhen trying to access the app after the changes made on your side I am presented with a blank screen. This is occurring on two different computers, one of which has attempted to access using private browsing and still experiences the same result.\n\n\n\nIn the Shopify admin, there is also no prompt to approve a new billing cycle, and it cannot be done via the app either as it is not loading.\n\n\n\nYour prompt assistance is appreciated.\n\n\n\nKind regards,\n\nDavid B.\n\n ![Screenshot 2024-07-16 at 9.41.43 am.png](https://support.pluginhive.com/attachments/token/hF109vyOJyO5kO9wtVHrpNAFs/?name=Screenshot+2024-07-16+at+9.41.43%E2%80%AFam.png) ![Screenshot 2024-07-16 at 9.40.05 am.png](https://support.pluginhive.com/attachments/token/MtOljbVpXUjakMUV2JtDR4r5u/?name=Screenshot+2024-07-16+at+9.40.05%E2%80%AFam.png) ![Screen Shot 2022-07-04 at 9.14.55 am.png](https://support.pluginhive.com/attachments/token/lYJdEcG6W8xXlD0bsGHhPtOOr/?name=Screen+Shot+2022-07-04+at+9.14.55+am.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Keerthi,&nbsp;<div><br></div><div>When trying to access the app after the changes made on your side I am presented with a blank screen. This is occurring on two different computers, one of which has attempted to access using private browsing and still experiences the same result.&nbsp;</div><div><br></div><div>In the Shopify admin, there is also no prompt to approve a new billing cycle, and it cannot be done via the app either as it is not loading.&nbsp;</div><div><br></div><div>Your prompt assistance is appreciated.</div><div><br></div><div>Kind regards,</div><div>David B.&nbsp;</div><div><div>\n<span><img src=\"https://support.pluginhive.com/attachments/token/hF109vyOJyO5kO9wtVHrpNAFs/?name=Screenshot+2024-07-16+at+9.41.43%E2%80%AFam.png\" alt=\"Screenshot 2024-07-16 at 9.41.43 am.png\" width=\"1280\"><img src=\"https://support.pluginhive.com/attachments/token/MtOljbVpXUjakMUV2JtDR4r5u/?name=Screenshot+2024-07-16+at+9.40.05%E2%80%AFam.png\" alt=\"Screenshot 2024-07-16 at 9.40.05 am.png\" width=\"1280\"><img alt=\"Screen Shot 2022-07-04 at 9.14.55 am.png\" src=\"https://support.pluginhive.com/attachments/token/lYJdEcG6W8xXlD0bsGHhPtOOr/?name=Screen+Shot+2022-07-04+at+9.14.55+am.png\" width=\"624\"></span>\n</div>\n<div><br></div></div></div>",
+      "plain_body": "Hi Keerthi,&nbsp; \n  When trying to access the app after the changes made on your side I am presented with a blank screen. This is occurring on two different computers, one of which has attempted to access using private browsing and still experiences the same result.&nbsp;  \n  In the Shopify admin, there is also no prompt to approve a new billing cycle, and it cannot be done via the app either as it is not loading.&nbsp;  \n  Your prompt assistance is appreciated.  \n  Kind regards,  David B.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 35110551286425,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "office@aandswelding.com.au",
+            "name": "Ashur",
+            "original_recipients": [
+              "office@aandswelding.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-15T23:43:22Z",
+      "metadata": {
+        "system": {
+          "message_id": "<0386833F-E868-4E11-9E6A-0CF66BA0CC02@aandswelding.com.au>",
+          "client": "Apple Mail (2.3812.100.13.1.1)",
+          "email_id": "01J2WCEVH0CSKKCT91SK1G501S",
+          "ip_address": "203.45.147.248",
+          "raw_email_identifier": "2369120/f46844a3-478c-4214-b7d1-114fefaa254d.eml",
+          "json_email_identifier": "2369120/f46844a3-478c-4214-b7d1-114fefaa254d.json",
+          "eml_redacted": false,
+          "location": "Sydney, NSW, Australia",
+          "latitude": -33.8715,
+          "longitude": 151.2006
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 35112028846105,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello David & Team,\n\nThis might happen when the app charges are not accepted by the admin of the store. Could you please inform the store admin to access the app and approve the charges?\n\nIf the problem persists, could you please approve the collaborator request we sent to email office@aandswelding.com.au and give us permission to approve the charges so that we can check and get back to you?\n\nDo let us know how it goes.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello David &amp; Team,<br>&nbsp;<br>This might happen when the app charges are not accepted by the admin of the store. Could you please inform the store admin to access the app and approve the charges?<br>&nbsp;<br>If the problem persists, could you please approve the collaborator request we sent to email <a href=\"mailto:office@aandswelding.com.au\" rel=\"noreferrer\"><u>office@aandswelding.com.au</u></a> and give us permission to approve the charges so that we can check and get back to you?<br>&nbsp;<br>Do let us know how it goes.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello David &amp; Team,\n&nbsp;\nThis might happen when the app charges are not accepted by the admin of the store. Could you please inform the store admin to access the app and approve the charges?\n&nbsp;\nIf the problem persists, could you please approve the collaborator request we sent to email office@aandswelding.com.au and give us permission to approve the charges so that we can check and get back to you?\n&nbsp;\nDo let us know how it goes.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 35112028845977,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-16T00:21:35Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 35112561664153,
+      "type": "Comment",
+      "author_id": 9159388924313,
+      "body": "Hi Manohar,\n\n\nThank you for your reply. I am the store owner and admin and there are no prompts to accept any charges in the shopify admin itself, for the app page there is no prompts presented either as the page will not load (have tried on different computers and browsers and private browsing)\n\n\n\nI have provided collaborator access as of this email being sent\n\n\n\nThanks for your help,\n\nDavid B.\n\n ![Screen Shot 2022-07-04 at 9.14.55 am.png](https://support.pluginhive.com/attachments/token/1YXNbUazEkUO1aRAlfTJudeVC/?name=Screen+Shot+2022-07-04+at+9.14.55+am.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Manohar,&nbsp;<div><br></div><div>Thank you for your reply. I am the store owner and admin and there are no prompts to accept any charges in the shopify admin itself, for the app page there is no prompts presented either as the page will not load (have tried on different computers and browsers and private browsing)</div><div><br></div><div>I have provided collaborator access as of this email being sent</div><div><br></div><div>Thanks for your help,</div><div>David B.&nbsp;<br><div>\n<span><img alt=\"Screen Shot 2022-07-04 at 9.14.55 am.png\" src=\"https://support.pluginhive.com/attachments/token/1YXNbUazEkUO1aRAlfTJudeVC/?name=Screen+Shot+2022-07-04+at+9.14.55+am.png\" width=\"624\"></span>\n</div>\n<div><br></div></div></div>",
+      "plain_body": "Hi Manohar,&nbsp; \n  Thank you for your reply. I am the store owner and admin and there are no prompts to accept any charges in the shopify admin itself, for the app page there is no prompts presented either as the page will not load (have tried on different computers and browsers and private browsing)  \n  I have provided collaborator access as of this email being sent  \n  Thanks for your help,  David B.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 35112561664025,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "office@aandswelding.com.au",
+            "name": "Ashur",
+            "original_recipients": [
+              "office@aandswelding.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-16T00:33:26Z",
+      "metadata": {
+        "system": {
+          "message_id": "<70B80949-F57C-4F35-9A6D-D5503A5ED8E5@aandswelding.com.au>",
+          "client": "Apple Mail (2.3812.100.13.1.1)",
+          "email_id": "01J2WFAHKFHG28E1ZSVNB95P8J",
+          "ip_address": "203.45.147.248",
+          "raw_email_identifier": "2369120/97e6de3e-babf-4720-9c0c-86796993b0c2.eml",
+          "json_email_identifier": "2369120/97e6de3e-babf-4720-9c0c-86796993b0c2.json",
+          "eml_redacted": false,
+          "location": "Sydney, NSW, Australia",
+          "latitude": -33.8715,
+          "longitude": 151.2006
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 35113630596249,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+61343283339",
+        "to": "+61297291127",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA6abffc43b737e7f31543ecb2fe526a0e/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 35113555820313,
+        "call_duration": 146,
+        "answered_by_id": 9977129389337,
+        "started_at": "2024-07-16T00:50:36Z",
+        "location": "",
+        "author_id": 9977129389337,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Manohar V",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+61 3 4328 3339",
+      "formatted_to": "+61 2 9729 1127",
+      "transcription_visible": false,
+      "author_id": 9977129389337,
+      "body": "Outbound call to +61 2 9729 1127\nCall Details:\n\nCall from: +61 3 4328 3339\nCall to: +61 2 9729 1127\nTime of call: 2024-07-16 00:50:36 UTC\nCalled by: Manohar V\nLength of phone call: 2 minutes, 26 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA6abffc43b737e7f31543ecb2fe526a0e/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +61 2 9729 1127<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +61 3 4328 3339<br>\nCall to: +61 2 9729 1127<br>\nTime of call: 2024-07-16 00:50:36 UTC<br>\nCalled by: Manohar V<br>\nLength of phone call: 2 minutes, 26 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA6abffc43b737e7f31543ecb2fe526a0e/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA6abffc43b737e7f31543ecb2fe526a0e/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2024-07-16T00:53:05Z",
+      "audit_id": 35113614158489,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+61 3 4328 3339",
+            "phone": "+61343283339",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+61 2 9729 1127",
+            "phone": "+61297291127",
+            "name": "+61 2 9729 1127"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Hyderabad, TS, India",
+          "latitude": 17.3724,
+          "longitude": 78.4378
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 35113687890073,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello David,\n\nThank you for your valuable time over the call and it was nice talking to you.\n\nFeel free to reachout to us if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello David,<br>&nbsp;<br>Thank you for your valuable time over the call and it was nice talking to you.<br>&nbsp;<br>Feel free to reachout to us if you need any assistance.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello David,\n&nbsp;\nThank you for your valuable time over the call and it was nice talking to you.\n&nbsp;\nFeel free to reachout to us if you need any assistance.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 35113687889945,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-16T00:54:06Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 35113792454937,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Customer was not able to see approve charges option from their end even though David as an admin. They were telling popup and redirects are allowed.\n\nI tried and I was able to see approve charges option and with customer permision I did from my end. Now customer was able to access the app.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer was not able to see approve charges option from their end even though David as an admin. They were telling popup and redirects are allowed.<br>&nbsp;<br>I tried and I was able to see approve charges option and with customer permision I did from my end. Now customer was able to access the app.<br>&nbsp;<br></div>",
+      "plain_body": "Customer was not able to see approve charges option from their end even though David as an admin. They were telling popup and redirects are allowed.\n&nbsp;\nI tried and I was able to see approve charges option and with customer permision I did from my end. Now customer was able to access the app.\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 35113792454041,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-07-16T00:56:19Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 37668509779737,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+61343283339",
+        "to": "+61297291127",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAbf185569a561860f00ddcf3ba592f15d/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 37668453403033,
+        "call_duration": 58,
+        "answered_by_id": 388269142331,
+        "started_at": "2024-09-13T08:13:29Z",
+        "location": "",
+        "author_id": 388269142331,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Keerthi",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+61 3 4328 3339",
+      "formatted_to": "+61 2 9729 1127",
+      "transcription_visible": false,
+      "author_id": 388269142331,
+      "body": "Outbound call to +61 2 9729 1127\nCall Details:\n\nCall from: +61 3 4328 3339\nCall to: +61 2 9729 1127\nTime of call: 2024-09-13 08:13:29 UTC\nCalled by: Keerthi\nLength of phone call: 58 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAbf185569a561860f00ddcf3ba592f15d/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +61 2 9729 1127<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +61 3 4328 3339<br>\nCall to: +61 2 9729 1127<br>\nTime of call: 2024-09-13 08:13:29 UTC<br>\nCalled by: Keerthi<br>\nLength of phone call: 58 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAbf185569a561860f00ddcf3ba592f15d/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAbf185569a561860f00ddcf3ba592f15d/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2024-09-13T08:14:29Z",
+      "audit_id": 37668479542297,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+61 3 4328 3339",
+            "phone": "+61343283339",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+61 2 9729 1127",
+            "phone": "+61297291127",
+            "name": "+61 2 9729 1127"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 37668569288089,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+61343283339",
+        "to": "+61297291127",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAbcf1b97d8f4a37fd33a177828ee3ff7a/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 37668495833369,
+        "call_duration": 50,
+        "answered_by_id": 388269142331,
+        "started_at": "2024-09-13T08:14:49Z",
+        "location": "",
+        "author_id": 388269142331,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Keerthi",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+61 3 4328 3339",
+      "formatted_to": "+61 2 9729 1127",
+      "transcription_visible": false,
+      "author_id": 388269142331,
+      "body": "Outbound call to +61 2 9729 1127\nCall Details:\n\nCall from: +61 3 4328 3339\nCall to: +61 2 9729 1127\nTime of call: 2024-09-13 08:14:49 UTC\nCalled by: Keerthi\nLength of phone call: 50 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAbcf1b97d8f4a37fd33a177828ee3ff7a/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +61 2 9729 1127<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +61 3 4328 3339<br>\nCall to: +61 2 9729 1127<br>\nTime of call: 2024-09-13 08:14:49 UTC<br>\nCalled by: Keerthi<br>\nLength of phone call: 50 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAbcf1b97d8f4a37fd33a177828ee3ff7a/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAbcf1b97d8f4a37fd33a177828ee3ff7a/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2024-09-13T08:15:42Z",
+      "audit_id": 37668569286809,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+61 3 4328 3339",
+            "phone": "+61343283339",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+61 2 9729 1127",
+            "phone": "+61297291127",
+            "name": "+61 2 9729 1127"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 37669262658585,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Hello David,\n\nI hope you’re doing well!\n\nI’m reaching out to inform you that the \"Mark as Fulfilled\" option you requested is now live and available on the single order edit page. We appreciate your feedback and are glad to make this enhancement for you.\n\nAdditionally, we have introduced more new UI enhancements designed to make the shipment process flow even easier. I’d be happy to connect with you over a call to walk you through these updates and ensure you're getting the most out of the new features.\n\nPlease let me know your availability, and we can schedule a call at your convenience.\n\nLooking forward to your response.\n\n ![](https://pluginhive.zendesk.com/attachments/token/HvLWnuZV55PdfBhvyPAcbKEwv/?name=Screenshot+2024-09-13+at+2.01.13+PM.png)\n\nBest regards,\nKeerthi\nPluginHive | Customer Success Manager",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello David,<br>&nbsp;<br>I hope you’re doing well!<br>&nbsp;<br>I’m reaching out to inform you that the \"Mark as Fulfilled\" option you requested is now live and available on the single order edit page. We appreciate your feedback and are glad to make this enhancement for you.<br>&nbsp;<br>Additionally, we have introduced more new UI enhancements designed to make the shipment process flow even easier. I’d be happy to connect with you over a call to walk you through these updates and ensure you're getting the most out of the new features.<br>&nbsp;<br>Please let me know your availability, and we can schedule a call at your convenience.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\"width: 996px;\" src=\"https://pluginhive.zendesk.com/attachments/token/HvLWnuZV55PdfBhvyPAcbKEwv/?name=Screenshot+2024-09-13+at+2.01.13+PM.png\"></span><br>&nbsp;<br>Best regards,<br>Keerthi<br>PluginHive | Customer Success Manager<br></div>",
+      "plain_body": "Hello David,\n&nbsp;\nI hope you’re doing well!\n&nbsp;\nI’m reaching out to inform you that the \"Mark as Fulfilled\" option you requested is now live and available on the single order edit page. We appreciate your feedback and are glad to make this enhancement for you.\n&nbsp;\nAdditionally, we have introduced more new UI enhancements designed to make the shipment process flow even easier. I’d be happy to connect with you over a call to walk you through these updates and ensure you're getting the most out of the new features.\n&nbsp;\nPlease let me know your availability, and we can schedule a call at your convenience.\n&nbsp;\nLooking forward to your response.\n&nbsp;\n\n&nbsp;\nBest regards,\nKeerthi\nPluginHive | Customer Success Manager",
+      "public": true,
+      "attachments": [],
+      "audit_id": 37669262658457,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-09-13T08:31:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+          "ip_address": "152.58.194.24",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 38215789730713,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+61343283339",
+        "to": "+61297291127",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAf9b6b754d350e4855006176e6bb3602d/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 38215749820057,
+        "call_duration": 44,
+        "answered_by_id": 388269142331,
+        "started_at": "2024-09-27T07:10:12Z",
+        "location": "",
+        "author_id": 388269142331,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Keerthi",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+61 3 4328 3339",
+      "formatted_to": "+61 2 9729 1127",
+      "transcription_visible": false,
+      "author_id": 388269142331,
+      "body": "Outbound call to +61 2 9729 1127\nCall Details:\n\nCall from: +61 3 4328 3339\nCall to: +61 2 9729 1127\nTime of call: 2024-09-27 07:10:12 UTC\nCalled by: Keerthi\nLength of phone call: 44 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAf9b6b754d350e4855006176e6bb3602d/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +61 2 9729 1127<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +61 3 4328 3339<br>\nCall to: +61 2 9729 1127<br>\nTime of call: 2024-09-27 07:10:12 UTC<br>\nCalled by: Keerthi<br>\nLength of phone call: 44 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAf9b6b754d350e4855006176e6bb3602d/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAf9b6b754d350e4855006176e6bb3602d/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2024-09-27T07:10:59Z",
+      "audit_id": 38215775861529,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+61 3 4328 3339",
+            "phone": "+61343283339",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+61 2 9729 1127",
+            "phone": "+61297291127",
+            "name": "+61 2 9729 1127"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 38215876255257,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Hello David,\n\nI hope you’re doing well!\n\nI wanted to follow up on this request to confirm if you have had the chance to checkout the new UI changes and also the \"Mark as Fulfilled\" option on the single order edit page. We appreciate your feedback and insights you'd like to share.\n\nAdditionally, as informed in my earlier message, we have introduced more new UI enhancements designed to make the shipment process flow even easier. I’d be happy to connect with you over a call to walk you through these updates and ensure you're getting the most out of the new features.\n\nPlease let me know your availability, and we can schedule a call at your convenience.\n\nLooking forward to your response.\n\n ![](https://pluginhive.zendesk.com/attachments/token/HvLWnuZV55PdfBhvyPAcbKEwv/?name=Screenshot+2024-09-13+at+2.01.13+PM.png)\n\nBest regards,\nKeerthi\nPluginHive | Customer Success Manager",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello David,<br>&nbsp;<br>I hope you’re doing well!<br>&nbsp;<br>I wanted to follow up on this request to confirm if you have had the chance to checkout the new UI changes and also the \"Mark as Fulfilled\" option on the single order edit page. We appreciate your feedback and insights you'd like to share.<br>&nbsp;<br>Additionally, as informed in my earlier message, we have introduced more new UI enhancements designed to make the shipment process flow even easier. I’d be happy to connect with you over a call to walk you through these updates and ensure you're getting the most out of the new features.<br>&nbsp;<br>Please let me know your availability, and we can schedule a call at your convenience.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br><img style=\"width: 996px;\" src=\"https://pluginhive.zendesk.com/attachments/token/HvLWnuZV55PdfBhvyPAcbKEwv/?name=Screenshot+2024-09-13+at+2.01.13+PM.png\"><br>&nbsp;<br>Best regards,<br>Keerthi<br>PluginHive | Customer Success Manager<br></div>",
+      "plain_body": "Hello David,\n&nbsp;\nI hope you’re doing well!\n&nbsp;\nI wanted to follow up on this request to confirm if you have had the chance to checkout the new UI changes and also the \"Mark as Fulfilled\" option on the single order edit page. We appreciate your feedback and insights you'd like to share.\n&nbsp;\nAdditionally, as informed in my earlier message, we have introduced more new UI enhancements designed to make the shipment process flow even easier. I’d be happy to connect with you over a call to walk you through these updates and ensure you're getting the most out of the new features.\n&nbsp;\nPlease let me know your availability, and we can schedule a call at your convenience.\n&nbsp;\nLooking forward to your response.\n&nbsp;\n\n&nbsp;\nBest regards,\nKeerthi\nPluginHive | Customer Success Manager",
+      "public": true,
+      "attachments": [],
+      "audit_id": 38215876255129,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-09-27T07:13:34Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 38290680077593,
+      "type": "Comment",
+      "author_id": 9159388924313,
+      "body": "Hi Keerthi,\n\n\nThank you very much for your reply and the addition of these new features which we have immediately picked up on and have helped us improve our workflow in the creation of labels and fulfilment of orders.\n\n\n\nDoes this update release include fixes for the product search function not displaying products when searching by SKUs for variant products? As well as products remaining on PH product lists despite being deleted from Shopify or are these still being worked on?\n\n\n\nKind regards,\n\nDavid B.\n\n ![Screen Shot 2022-07-04 at 9.14.55 am.png](https://support.pluginhive.com/attachments/token/qpNteExD4XmIjBMlAFAf0Bwu2/?name=Screen+Shot+2022-07-04+at+9.14.55+am.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Keerthi,&nbsp;<div><br></div><div>Thank you very much for your reply and the addition of these new features which we have immediately picked up on and have helped us improve our workflow in the creation of labels and fulfilment of orders.&nbsp;</div><div><br></div><div>Does this update release include fixes for the product search function not displaying products when searching by SKUs for variant products? As well as products remaining on PH product lists despite being deleted from Shopify or are these still being worked on?&nbsp;</div><div><br></div><div>Kind regards,</div><div>David B.&nbsp;<br><div>\n<span><img alt=\"Screen Shot 2022-07-04 at 9.14.55 am.png\" src=\"https://support.pluginhive.com/attachments/token/qpNteExD4XmIjBMlAFAf0Bwu2/?name=Screen+Shot+2022-07-04+at+9.14.55+am.png\" width=\"624\"></span>\n</div>\n<div><br></div></div></div>",
+      "plain_body": "Hi Keerthi,&nbsp; \n  Thank you very much for your reply and the addition of these new features which we have immediately picked up on and have helped us improve our workflow in the creation of labels and fulfilment of orders.&nbsp;  \n  Does this update release include fixes for the product search function not displaying products when searching by SKUs for variant products? As well as products remaining on PH product lists despite being deleted from Shopify or are these still being worked on?&nbsp;  \n  Kind regards,  David B.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 38290680077465,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "office@aandswelding.com.au",
+            "name": "Ashur",
+            "original_recipients": [
+              "office@aandswelding.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-09-30T00:50:01Z",
+      "metadata": {
+        "system": {
+          "message_id": "<A8FBBFBC-6121-4B5A-B9C9-3D67D3A7AA87@aandswelding.com.au>",
+          "client": "Apple Mail (2.3818.100.11.1.3)",
+          "email_id": "01J906FH8QG3HFBVYD46FAGE69",
+          "ip_address": "203.45.147.248",
+          "raw_email_identifier": "2369120/62f47a0e-fd97-42d6-8448-36b84fd4995b.eml",
+          "json_email_identifier": "2369120/62f47a0e-fd97-42d6-8448-36b84fd4995b.json",
+          "eml_redacted": false,
+          "location": "Sydney, NSW, Australia",
+          "latitude": -33.8715,
+          "longitude": 151.2006
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 38294647522201,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Informed Keerthi to check",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Informed Keerthi to check<br></div>",
+      "plain_body": "Informed Keerthi to check",
+      "public": false,
+      "attachments": [],
+      "audit_id": 38294660528025,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-09-30T02:08:33Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+          "ip_address": "27.7.127.23",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 38310271874073,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+61343283339",
+        "to": "+61451406764",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAa5284ed35d9b3824f7de508e37f0947c/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 38310233045657,
+        "call_duration": 12,
+        "answered_by_id": 388269142331,
+        "started_at": "2024-09-30T07:41:50Z",
+        "location": "",
+        "author_id": 388269142331,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Keerthi",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+61 3 4328 3339",
+      "formatted_to": "+61 451 406 764",
+      "transcription_visible": false,
+      "author_id": 388269142331,
+      "body": "Outbound call to +61 451 406 764\nCall Details:\n\nCall from: +61 3 4328 3339\nCall to: +61 451 406 764\nTime of call: 2024-09-30 07:41:50 UTC\nCalled by: Keerthi\nLength of phone call: 12 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAa5284ed35d9b3824f7de508e37f0947c/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +61 451 406 764<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +61 3 4328 3339<br>\nCall to: +61 451 406 764<br>\nTime of call: 2024-09-30 07:41:50 UTC<br>\nCalled by: Keerthi<br>\nLength of phone call: 12 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAa5284ed35d9b3824f7de508e37f0947c/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAa5284ed35d9b3824f7de508e37f0947c/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2024-09-30T07:42:05Z",
+      "audit_id": 38310271873177,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+61 3 4328 3339",
+            "phone": "+61343283339",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+61 451 406 764",
+            "phone": "+61451406764",
+            "name": "+61 451 406 764"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 38358765261593,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Hello David,\n\nThank you for getting back to me. We are glad to know that your workflow has been improved with this feature.\n\nI also wanted to inform you that we have added additional enhancements to the Label Batch Processing flow, Live Tracking updates to Shopify orders page and more. These features have been enabled for your store as well. Please feel free to explore them and share your feedback.\n\nOur team is actively working on app enhancements. We’re currently rolling out improvements for the **Label Processing** flow, and soon, we will focus on enhancing the **Settings UI and Products UI.**\n\nIn the meantime, I wanted to understand your workflow for Product Variant SKUs better. Specifically, how and when you use them and how you’re currently managing them. It would be great if we could connect for a call to discuss this further. Please let me know when you’d be available.\n\nLooking forward to your response.\n\nBest regards,\nKeerthi\nPluginHive | Customer Success Manager",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello David,<br>&nbsp;<br>Thank you for getting back to me. We are glad to know that your workflow has been improved with this feature.&nbsp;<br>&nbsp;<br>I also wanted to inform you that we have added additional enhancements to the Label Batch Processing flow, Live Tracking updates to Shopify orders page and more. These features have been enabled for your store as well. Please feel free to explore them and share your feedback.<br>&nbsp;<br>Our team is actively working on app enhancements. We’re currently rolling out improvements for the <strong>Label Processing</strong> flow, and soon, we will focus on enhancing the <strong>Settings UI and Products UI.</strong><br>&nbsp;<br>In the meantime, I wanted to understand your workflow for Product Variant SKUs better. Specifically, how and when you use them and how you’re currently managing them. It would be great if we could connect for a call to discuss this further. Please let me know when you’d be available.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>Best regards,<br>Keerthi<br>PluginHive | Customer Success Manager<br></div>",
+      "plain_body": "Hello David,\n&nbsp;\nThank you for getting back to me. We are glad to know that your workflow has been improved with this feature.&nbsp;\n&nbsp;\nI also wanted to inform you that we have added additional enhancements to the Label Batch Processing flow, Live Tracking updates to Shopify orders page and more. These features have been enabled for your store as well. Please feel free to explore them and share your feedback.\n&nbsp;\nOur team is actively working on app enhancements. We’re currently rolling out improvements for the Label Processing flow, and soon, we will focus on enhancing the Settings UI and Products UI.\n&nbsp;\nIn the meantime, I wanted to understand your workflow for Product Variant SKUs better. Specifically, how and when you use them and how you’re currently managing them. It would be great if we could connect for a call to discuss this further. Please let me know when you’d be available.\n&nbsp;\nLooking forward to your response.\n&nbsp;\nBest regards,\nKeerthi\nPluginHive | Customer Success Manager",
+      "public": true,
+      "attachments": [],
+      "audit_id": 38358765261465,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-10-01T15:27:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+          "ip_address": "152.58.244.161",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 38497678466329,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Moving it back to dev_need regarding the Variants SKU issue.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving it back to dev_need regarding the Variants SKU issue.<br></div>",
+      "plain_body": "Moving it back to dev_need regarding the Variants SKU issue.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 38497678466201,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-10-05T13:30:25Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+          "ip_address": "152.58.232.134",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

@@ -62,15 +62,15 @@ Aggregated signals from Zendesk tickets, test coverage gaps, and code complexity
 
 Features with low automation and high customer impact. Cross-referenced from [features.md](../features.md) and [system-features-analysis.md](../system-features-analysis.md).
 
-| Feature | Automation % | Code Complexity | Zendesk Tickets | Risk | Recommended Action |
-|---------|-------------|----------------|-----------------|------|--------------------|
-| Rate Shopping | 0% | High (300+ LOC) | 2 open | 🔴 Critical | Automate core rate fetch flow |
-| Product Management | 0% | High (191-line model) | 2 open | 🔴 Critical | Automate CRUD + import |
+| Feature               | Automation %  | Code Complexity                         | Zendesk Tickets      | Risk        | Recommended Action                     |
+| --------------------- | ------------- | --------------------------------------- | -------------------- | ----------- | -------------------------------------- |
+| Rate Shopping         | 0%            | High (300+ LOC)                         | 2 open               | 🔴 Critical | Automate core rate fetch flow          |
+| Product Management    | 0%            | High (191-line model)                   | 2 open               | 🔴 Critical | Automate CRUD + import                 |
 | Carrier Configuration | 7% (UPS only) | Very High (487-line model, 43 carriers) | 8 open + 4 migration | 🔴 Critical | Expand beyond UPS, add migration tests |
-| Tracking | 7% (1 test) | Very High (6800 LOC mapper) | 1 open | 🟡 Watch | Add status mapping + cron tests |
-| Auto Import | 0% | High | 0 open | 🟡 Watch | Automate Shopify/WooCommerce import |
-| Bulk Actions | 30% (12/40+) | Very High (2500+ LOC) | 0 directly | 🟡 Watch | Expand action coverage |
-| Reports | 0% | Medium | 0 open | 🟠 Low | Defer unless tickets increase |
+| Tracking              | 7% (1 test)   | Very High (6800 LOC mapper)             | 1 open               | 🟡 Watch    | Add status mapping + cron tests        |
+| Auto Import           | 0%            | High                                    | 0 open               | 🟡 Watch    | Automate Shopify/WooCommerce import    |
+| Bulk Actions          | 30% (12/40+)  | Very High (2500+ LOC)                   | 0 directly           | 🟡 Watch    | Expand action coverage                 |
+| Reports               | 0%            | Medium                                  | 0 open               | 🟠 Low      | Defer unless tickets increase          |
 
 ---
 

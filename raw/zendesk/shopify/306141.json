@@ -1,0 +1,824 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/306141.json",
+    "id": 306141,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2024-12-30T18:52:47Z",
+    "updated_at": "2026-01-12T10:29:06Z",
+    "generated_timestamp": 1768213746,
+    "type": null,
+    "subject": "Hello! The PH Multicarrier app has worked great so...",
+    "raw_subject": "Hello! The PH Multicarrier app has worked great so...",
+    "description": "Hello! The PH Multicarrier app has worked great so far, except we have run into one issue. We use the app for our FedEx shipping. FedEx allows us to do Saturday shipments, allowing for our perishable items to be delivered on time. However, there doesn't seem to be an option to add/select Saturday shipments through the PH Multicarrier App (On the FedEx website this is an option). For best condition upon arrival, we aim to have shipments arrive in 2 or less business days.\n\nMy question for you is this: Is there a way to add FedEx Saturday shipping for our orders? it's possible I may have missed this option. If not, what is the best way to proceed with Saturday shipments using PH MultiCarrier?\n\nPLEASE RESPOND VIA EMAIL\n\nThanks!\nSam\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.com/home/views/orders/status/allorders",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 38833811035161,
+    "submitter_id": 38833811035161,
+    "assignee_id": 6932179641113,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "back-log",
+      "dev_needed",
+      "issues_with_setting_up_the_plugin",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "cce77f-ea.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "4022012475x2159"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "back-log"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "691be964cd713b54b21cfea4"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "offered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "GMP6DR-7E1XX",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "cce77f-ea.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "4022012475x2159"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "back-log"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "691be964cd713b54b21cfea4"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 41793640306841,
+      "type": "Comment",
+      "author_id": 38833811035161,
+      "body": "Hello! The PH Multicarrier app has worked great so far, except we have run into one issue. We use the app for our FedEx shipping. FedEx allows us to do Saturday shipments, allowing for our perishable items to be delivered on time. However, there doesn't seem to be an option to add/select Saturday shipments through the PH Multicarrier App (On the FedEx website this is an option). For best condition upon arrival, we aim to have shipments arrive in 2 or less business days.\n\nMy question for you is this: Is there a way to add FedEx Saturday shipping for our orders? it's possible I may have missed this option. If not, what is the best way to proceed with Saturday shipments using PH MultiCarrier?\n\nPLEASE RESPOND VIA EMAIL\n\nThanks!\nSam\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.com/home/views/orders/status/allorders",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hello! The PH Multicarrier app has worked great so far, except we have run into one issue. We use the app for our FedEx shipping. FedEx allows us to do Saturday shipments, allowing for our perishable items to be delivered on time. However, there doesn't seem to be an option to add/select Saturday shipments through the PH Multicarrier App (On the FedEx website this is an option). For best condition upon arrival, we aim to have shipments arrive in 2 or less business days.</p>\n\n<p dir=\"auto\">My question for you is this: Is there a way to add FedEx Saturday shipping for our orders? it's possible I may have missed this option. If not, what is the best way to proceed with Saturday shipments using PH MultiCarrier?</p>\n\n<p dir=\"auto\">PLEASE RESPOND VIA EMAIL</p>\n\n<p dir=\"auto\">Thanks!\n<br>Sam</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.com/home/views/orders/status/allorders\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.com/home/views/orders/status/allorders</a></p></div>",
+      "plain_body": "Hello! The PH Multicarrier app has worked great so far, except we have run into one issue. We use the app for our FedEx shipping. FedEx allows us to do Saturday shipments, allowing for our perishable items to be delivered on time. However, there doesn't seem to be an option to add/select Saturday shipments through the PH Multicarrier App (On the FedEx website this is an option). For best condition upon arrival, we aim to have shipments arrive in 2 or less business days. \n\n My question for you is this: Is there a way to add FedEx Saturday shipping for our orders? it's possible I may have missed this option. If not, what is the best way to proceed with Saturday shipments using PH MultiCarrier? \n\n PLEASE RESPOND VIA EMAIL \n\n Thanks!\n\nSam \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.com/home/views/orders/status/allorders",
+      "public": true,
+      "attachments": [],
+      "audit_id": 41793640306713,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2024-12-30T18:52:47Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "98.161.41.73",
+          "location": "Omaha, NE, United States",
+          "latitude": 41.2132,
+          "longitude": -96.1668
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 41793748232729,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Dear Sam,\n\nGreetings!\n\nTo enable Saturday service,  you can go to the App > Settings > Carriers > FedEx > Other Details > Enable \"FedEx Saturday Service\" as shown in the screenshot below:\n\n ![](https://pluginhive.zendesk.com/attachments/token/XBWiXxjiZmMGODJSLZPgR45F8/?name=image.png)\n\nPlease do check and let me know if you need any further assistance.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Dear Sam,<br>&nbsp;<br>Greetings!<br>&nbsp;<br>To enable Saturday service, &nbsp;you can go to the App &gt; Settings &gt; Carriers &gt; FedEx &gt; Other Details &gt; Enable \"FedEx Saturday Service\" as shown in the screenshot below:<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/XBWiXxjiZmMGODJSLZPgR45F8/?name=image.png\"></span><br>&nbsp;<br>Please do check and let me know if you need any further assistance.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Dear Sam,\n&nbsp;\nGreetings!\n&nbsp;\nTo enable Saturday service, &nbsp;you can go to the App &gt; Settings &gt; Carriers &gt; FedEx &gt; Other Details &gt; Enable \"FedEx Saturday Service\" as shown in the screenshot below:\n&nbsp;\n\n&nbsp;\nPlease do check and let me know if you need any further assistance.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 41793748232601,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-30T19:02:53Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "49.37.241.230",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42068730050713,
+      "type": "Comment",
+      "author_id": 38833811035161,
+      "body": "Hello,\n\n\n\nApologies for the delay. We are still having issues activating FedEx Saturday Delivery. I enabled the Saturday Delivery checkbox in the FedEx settings as previously instructed. However, when we attempt to fulfill an order, this notification pops up: ![](https://support.pluginhive.com/attachments/token/lu6Evk7iYgWc3IvK7DCe9itTO/?name=image.png). Why is this showing up and how do we fix it? When we reached out to FedEx, they were able to switch the packages to Saturday Delivery, however, that is not an option on PH MultiCarrier for us.\n\nThanks!\n\nSam Rehal\n\n\n\n**SAMUEL REHAL**\n\n**Biomedical Associate** **|**** BioPocrates**** **Innovator of Zōguri Probiotic\n\n**p:** 402-201-2475 x2159 **|** **e:** samuel.rehal@biopocrates.com\n\n_17670 Welch Plaza, Suite 101, Omaha, NE 68135_\n\n**BioPocrates.com****   ****•****   ****Zoguri.com**\n\n ![](https://vision2voice.net/email_signatures/BioPocrates2Color_Web.png)\n\n_This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited._",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHello,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nApologies for the&nbsp;delay. We are still having issues activating FedEx Saturday Delivery. I enabled the Saturday Delivery checkbox in the FedEx settings as previously instructed. However, when we attempt to fulfill an order, this notification pops up:\n<img style=\"max-width: 1218px;\" src=\"https://support.pluginhive.com/attachments/token/lu6Evk7iYgWc3IvK7DCe9itTO/?name=image.png\">. Why is this showing up and how do we fix it? When we reached out to FedEx, they were able to switch the packages\n to Saturday Delivery, however, that is not an option on PH MultiCarrier for us.<br>\n<br>\nThanks!</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nSam Rehal</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(30, 65, 123); margin: 0px;\" align=\"left\">\n<b>SAMUEL REHAL</b></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<span style=\"color: rgb(44, 103, 178);\"><b>Biomedical Associate </b></span><span style=\"color: rgb(51, 164, 72);\"><b>|</b></span><span style=\"color: rgb(44, 103, 178);\"><b>&nbsp;BioPocrates</b></span><b>&nbsp;</b><span style=\"color: rgb(51, 164, 72);\">Innovator of Zōguri\n Probiotic</span></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(44, 103, 178); margin: 0px;\" align=\"left\">\n<b>p:</b>&nbsp;402-201-2475 x2159 <span style=\"color: rgb(51, 164, 72);\"><b>|</b></span>&nbsp;<b>e:</b>&nbsp;<a href=\"mailto:samuel.rehal@biopocrates.com\" title=\"samuel.rehal@biopocrates.com\" style=\"color: rgb(44, 103, 178); margin: 0px;\" rel=\"noreferrer\">samuel.rehal</a><u><a href=\"mailto:samuel.rehal@biopocrates.com\" title=\"samuel.rehal@biopocrates.com\" style=\"color: rgb(44, 103, 178); margin: 0px;\" rel=\"noreferrer\">@biopocrates.com</a></u></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(44, 103, 178); margin: 0px;\" align=\"left\">\n<i>17670 Welch Plaza, Suite 101, Omaha, NE 68135</i></div>\n<div style=\"margin: 0px 0px 12pt;\">\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<span style=\"color: rgb(51, 164, 72);\"><b><a href=\"https://www.biopocrates.com/\" title=\"Original URL: https://www.biopocrates.com/. Click or tap if you trust this link.\" style=\"color: rgb(51, 164, 72); text-decoration: none; margin: 0px;\" rel=\"noreferrer\">BioPocrates.com</a></b></span><b>&nbsp;\n &nbsp;</b><span style=\"color: rgb(51, 164, 72);\"><b>•</b></span><b>&nbsp; &nbsp;</b><span style=\"color: rgb(51, 164, 72);\"><b><a href=\"https://www.zoguri.com/\" title=\"Original URL: https://www.zoguri.com/. Click or tap if you trust this link.\" style=\"color: rgb(51, 164, 72); text-decoration: none; margin: 0px;\" rel=\"noreferrer\">Zoguri.com</a></b></span></div>\n</div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<a href=\"https://www.biopocrates.com/\" title=\"Original URL: https://www.biopocrates.com/. Click or tap if you trust this link.\" style=\"margin: 0px;\" rel=\"noreferrer\"><img style=\"max-width: 552px;\" src=\"https://vision2voice.net/email_signatures/BioPocrates2Color_Web.png\"></a></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 8pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<i>This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential\n information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete\n this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.</i></div>\n</div>\n<div></div>\n<div style=\" font-size: 12pt; color: rgb(0,0,0);\">\n<br>\n</div></div>",
+      "plain_body": "Hello, \n \n\n\n \n \nApologies for the&nbsp;delay. We are still having issues activating FedEx Saturday Delivery. I enabled the Saturday Delivery checkbox in the FedEx settings as previously instructed. However, when we attempt to fulfill an order, this notification pops up:\n. Why is this showing up and how do we fix it? When we reached out to FedEx, they were able to switch the packages\n to Saturday Delivery, however, that is not an option on PH MultiCarrier for us.\n\n\n\nThanks! \n \nSam Rehal \n \n\n\n \n \n \nSAMUEL REHAL \n \nBiomedical Associate |&nbsp;BioPocrates&nbsp;Innovator of Zōguri\n Probiotic \n \np:&nbsp;402-201-2475 x2159 |&nbsp;e:&nbsp;samuel.rehal@biopocrates.com \n \n17670 Welch Plaza, Suite 101, Omaha, NE 68135 \n \n \nBioPocrates.com&nbsp;\n &nbsp;•&nbsp; &nbsp;Zoguri.com \n \n \n \n \nThis email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential\n information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete\n this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 42068730050585,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "samuel.rehal@biopocrates.com",
+            "name": "Samuel Rehal",
+            "original_recipients": [
+              "samuel.rehal@biopocrates.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-07T16:10:42Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DM6PR16MB3450C7E45B3C578D99F9E6F983112@DM6PR16MB3450.namprd16.prod.outlook.com>",
+          "email_id": "01JH0RGKBDYXD22HDX58WK0Z9M",
+          "raw_email_identifier": "2369120/726123e7-ca3b-4e77-995f-ca0e5a557f42.eml",
+          "json_email_identifier": "2369120/726123e7-ca3b-4e77-995f-ca0e5a557f42.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 42069092016793,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hi Samuel,\n\nThank you for your response.\n\nI could notice that you have tried generating the label for the orders yesterday (06/01/2025) and the labels failed due to enabling of Saturday_Delivery special service.\n\nCould you please disable the Saturday Delivery option under Settings > Carriers > FedEx > Other Details and reprocess the order and try generating the label and let me know if you were able to?\n\nLooking forward to hearing from you.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Samuel,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>I could notice that you have tried generating the label for the orders yesterday (06/01/2025) and the labels failed due to enabling of Saturday_Delivery special service.<br>&nbsp;<br>Could you please disable the Saturday Delivery option under Settings &gt; Carriers &gt; FedEx &gt; Other Details and reprocess the order and try generating the label and let me know if you were able to?<br>&nbsp;<br>Looking forward to hearing from you.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Samuel,\n&nbsp;\nThank you for your response.\n&nbsp;\nI could notice that you have tried generating the label for the orders yesterday (06/01/2025) and the labels failed due to enabling of Saturday_Delivery special service.\n&nbsp;\nCould you please disable the Saturday Delivery option under Settings &gt; Carriers &gt; FedEx &gt; Other Details and reprocess the order and try generating the label and let me know if you were able to?\n&nbsp;\nLooking forward to hearing from you.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 42069092016665,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-07T16:39:52Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "116.73.137.165",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42069774018073,
+      "type": "Comment",
+      "author_id": 38833811035161,
+      "body": "Hi Sibi,\n\n\n\nI can have the team try that out. However, are we going to have to disable Saturday delivery every Monday and enable it again near the end of the week? Is it possible to leave the Saturday_Delivery setting always on without it affecting shipments that aren't intended to be shipped over a Saturday?\n\n\n\nHopefully this makes sense,\n\nThanks!\n\nSam\n\n\n\n\n\n**SAMUEL REHAL**\n\n**Biomedical Associate** **|**** BioPocrates**** **Innovator of Zōguri Probiotic\n\n**p:** 402-201-2475 x2159 **|** **e:** samuel.rehal@biopocrates.com\n\n_17670 Welch Plaza, Suite 101, Omaha, NE 68135_\n\n**BioPocrates.com****   ****•****   ****Zoguri.com**\n\n ![](https://vision2voice.net/email_signatures/BioPocrates2Color_Web.png)\n\n_This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited._",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHi Sibi,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nI can have the team try that out. However, are we going to have to disable Saturday delivery every Monday and enable it again near the end of the week? Is it&nbsp;possible to leave the Saturday_Delivery setting always on without it affecting shipments that aren't\n intended to be shipped over a Saturday?</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHopefully this makes&nbsp;sense,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nThanks!</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nSam</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(30, 65, 123); margin: 0px;\" align=\"left\">\n<b>SAMUEL REHAL</b></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<span style=\"color: rgb(44, 103, 178);\"><b>Biomedical Associate </b></span><span style=\"color: rgb(51, 164, 72);\"><b>|</b></span><span style=\"color: rgb(44, 103, 178);\"><b>&nbsp;BioPocrates</b></span><b>&nbsp;</b><span style=\"color: rgb(51, 164, 72);\">Innovator of Zōguri\n Probiotic</span></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(44, 103, 178); margin: 0px;\" align=\"left\">\n<b>p:</b>&nbsp;402-201-2475 x2159 <span style=\"color: rgb(51, 164, 72);\"><b>|</b></span>&nbsp;<b>e:</b>&nbsp;<a href=\"mailto:samuel.rehal@biopocrates.com\" title=\"samuel.rehal@biopocrates.com\" style=\"color: rgb(44, 103, 178); margin: 0px;\" rel=\"noreferrer\">samuel.rehal</a><u><a href=\"mailto:samuel.rehal@biopocrates.com\" title=\"samuel.rehal@biopocrates.com\" style=\"color: rgb(44, 103, 178); margin: 0px;\" rel=\"noreferrer\">@biopocrates.com</a></u></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(44, 103, 178); margin: 0px;\" align=\"left\">\n<i>17670 Welch Plaza, Suite 101, Omaha, NE 68135</i></div>\n<div style=\"margin: 0px 0px 12pt;\">\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<span style=\"color: rgb(51, 164, 72);\"><b><a href=\"https://www.biopocrates.com/\" title=\"Original URL: https://www.biopocrates.com/. Click or tap if you trust this link.\" style=\"color: rgb(51, 164, 72); text-decoration: none; margin: 0px;\" rel=\"noreferrer\">BioPocrates.com</a></b></span><b>&nbsp;\n &nbsp;</b><span style=\"color: rgb(51, 164, 72);\"><b>•</b></span><b>&nbsp; &nbsp;</b><span style=\"color: rgb(51, 164, 72);\"><b><a href=\"https://www.zoguri.com/\" title=\"Original URL: https://www.zoguri.com/. Click or tap if you trust this link.\" style=\"color: rgb(51, 164, 72); text-decoration: none; margin: 0px;\" rel=\"noreferrer\">Zoguri.com</a></b></span></div>\n</div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<a href=\"https://www.biopocrates.com/\" title=\"Original URL: https://www.biopocrates.com/. Click or tap if you trust this link.\" style=\"margin: 0px;\" rel=\"noreferrer\"><img style=\"max-width: 552px;\" src=\"https://vision2voice.net/email_signatures/BioPocrates2Color_Web.png\"></a></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 8pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<i>This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential\n information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete\n this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.</i></div>\n</div>\n<div></div>\n<div style=\" font-size: 12pt; color: rgb(0,0,0);\">\n<br>\n</div></div>",
+      "plain_body": "Hi Sibi, \n \n\n\n \n \nI can have the team try that out. However, are we going to have to disable Saturday delivery every Monday and enable it again near the end of the week? Is it&nbsp;possible to leave the Saturday_Delivery setting always on without it affecting shipments that aren't\n intended to be shipped over a Saturday? \n \n\n\n \n \nHopefully this makes&nbsp;sense, \n \nThanks! \n \nSam \n \n\n\n \n \n\n\n \n \n \nSAMUEL REHAL \n \nBiomedical Associate |&nbsp;BioPocrates&nbsp;Innovator of Zōguri\n Probiotic \n \np:&nbsp;402-201-2475 x2159 |&nbsp;e:&nbsp;samuel.rehal@biopocrates.com \n \n17670 Welch Plaza, Suite 101, Omaha, NE 68135 \n \n \nBioPocrates.com&nbsp;\n &nbsp;•&nbsp; &nbsp;Zoguri.com \n \n \n \n \nThis email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential\n information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete\n this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 42069774017945,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "samuel.rehal@biopocrates.com",
+            "name": "Samuel Rehal",
+            "original_recipients": [
+              "samuel.rehal@biopocrates.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-07T17:38:56Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DM6PR16MB345070F7070773D34A9D3B9C83112@DM6PR16MB3450.namprd16.prod.outlook.com>",
+          "email_id": "01JH0XJ5SP72QQ9YVP95RGE4AC",
+          "raw_email_identifier": "2369120/013901b4-8d76-4495-95c3-06ff296444f2.eml",
+          "json_email_identifier": "2369120/013901b4-8d76-4495-95c3-06ff296444f2.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 42072021393817,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Samuel,\n\nThank you for your reply.\n\nCould you please try and let me know if you were able to generate the shipping labels without failing?\n\nOnce done, please let us know and also I will be checking if there is an option to set it automatically. However, as a workaround, I request you to disable and try it now.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Samuel,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>Could you please try and let me know if you were able to generate the shipping labels without failing?<br>&nbsp;<br>Once done, please let us know and also I will be checking if there is an option to set it automatically. However, as a workaround, I request you to disable and try it now.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Samuel,\n&nbsp;\nThank you for your reply.\n&nbsp;\nCould you please try and let me know if you were able to generate the shipping labels without failing?\n&nbsp;\nOnce done, please let us know and also I will be checking if there is an option to set it automatically. However, as a workaround, I request you to disable and try it now.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 42072021393689,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-07T21:13:07Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "116.73.137.165",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42072580839065,
+      "type": "Comment",
+      "author_id": 38833811035161,
+      "body": "Sibi,\n\n\n\nI turned off Saturday delivery and the label generated successfully. What are the next steps to automating this process?\n\n\n\nThanks!\n\nSam Rehal\n\n\n\n**SAMUEL REHAL**\n\n**Biomedical Associate** **|**** BioPocrates**** **Innovator of Zōguri Probiotic\n\n**p:** 402-201-2475 x2159 **|** **e:** samuel.rehal@biopocrates.com\n\n_17670 Welch Plaza, Suite 101, Omaha, NE 68135_\n\n**BioPocrates.com****   ****•****   ****Zoguri.com**\n\n ![](https://vision2voice.net/email_signatures/BioPocrates2Color_Web.png)\n\n_This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited._",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nSibi,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nI turned off Saturday delivery and the label generated successfully. What are the next steps to automating this process?</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nThanks!</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nSam Rehal</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(30, 65, 123); margin: 0px;\" align=\"left\">\n<b>SAMUEL REHAL</b></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<span style=\"color: rgb(44, 103, 178);\"><b>Biomedical Associate </b></span><span style=\"color: rgb(51, 164, 72);\"><b>|</b></span><span style=\"color: rgb(44, 103, 178);\"><b>&nbsp;BioPocrates</b></span><b>&nbsp;</b><span style=\"color: rgb(51, 164, 72);\">Innovator of Zōguri\n Probiotic</span></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(44, 103, 178); margin: 0px;\" align=\"left\">\n<b>p:</b>&nbsp;402-201-2475 x2159 <span style=\"color: rgb(51, 164, 72);\"><b>|</b></span>&nbsp;<b>e:</b>&nbsp;<a href=\"mailto:samuel.rehal@biopocrates.com\" title=\"samuel.rehal@biopocrates.com\" style=\"color: rgb(44, 103, 178); margin: 0px;\" rel=\"noreferrer\">samuel.rehal</a><u><a href=\"mailto:samuel.rehal@biopocrates.com\" title=\"samuel.rehal@biopocrates.com\" style=\"color: rgb(44, 103, 178); margin: 0px;\" rel=\"noreferrer\">@biopocrates.com</a></u></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(44, 103, 178); margin: 0px;\" align=\"left\">\n<i>17670 Welch Plaza, Suite 101, Omaha, NE 68135</i></div>\n<div style=\"margin: 0px 0px 12pt;\">\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<span style=\"color: rgb(51, 164, 72);\"><b><a href=\"https://www.biopocrates.com/\" title=\"Original URL: https://www.biopocrates.com/. Click or tap if you trust this link.\" style=\"color: rgb(51, 164, 72); text-decoration: none; margin: 0px;\" rel=\"noreferrer\">BioPocrates.com</a></b></span><b>&nbsp;\n &nbsp;</b><span style=\"color: rgb(51, 164, 72);\"><b>•</b></span><b>&nbsp; &nbsp;</b><span style=\"color: rgb(51, 164, 72);\"><b><a href=\"https://www.zoguri.com/\" title=\"Original URL: https://www.zoguri.com/. Click or tap if you trust this link.\" style=\"color: rgb(51, 164, 72); text-decoration: none; margin: 0px;\" rel=\"noreferrer\">Zoguri.com</a></b></span></div>\n</div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<a href=\"https://www.biopocrates.com/\" title=\"Original URL: https://www.biopocrates.com/. Click or tap if you trust this link.\" style=\"margin: 0px;\" rel=\"noreferrer\"><img style=\"max-width: 552px;\" src=\"https://vision2voice.net/email_signatures/BioPocrates2Color_Web.png\"></a></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 8pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<i>This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential\n information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete\n this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.</i></div>\n</div>\n<div></div>\n<div style=\" font-size: 12pt; color: rgb(0,0,0);\">\n<br>\n</div></div>",
+      "plain_body": "Sibi, \n \n\n\n \n \nI turned off Saturday delivery and the label generated successfully. What are the next steps to automating this process? \n \n\n\n \n \nThanks! \n \nSam Rehal \n \n\n\n \n \n \nSAMUEL REHAL \n \nBiomedical Associate |&nbsp;BioPocrates&nbsp;Innovator of Zōguri\n Probiotic \n \np:&nbsp;402-201-2475 x2159 |&nbsp;e:&nbsp;samuel.rehal@biopocrates.com \n \n17670 Welch Plaza, Suite 101, Omaha, NE 68135 \n \n \nBioPocrates.com&nbsp;\n &nbsp;•&nbsp; &nbsp;Zoguri.com \n \n \n \n \nThis email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential\n information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete\n this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 42072580838937,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "samuel.rehal@biopocrates.com",
+            "name": "Samuel Rehal",
+            "original_recipients": [
+              "samuel.rehal@biopocrates.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-07T21:57:56Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DM6PR16MB345033F8A11130A6B618508483112@DM6PR16MB3450.namprd16.prod.outlook.com>",
+          "email_id": "01JH1CCD669TSS6P3WY44Q7Q08",
+          "raw_email_identifier": "2369120/a385398f-0392-482c-89f5-0a6f0b2408bd.eml",
+          "json_email_identifier": "2369120/a385398f-0392-482c-89f5-0a6f0b2408bd.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 42073128293657,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Sam,\n\nThank you for your response.\n\nPlease allow us some time to check this case.\n\nWe will keep you updated on the progress.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sam,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Please allow us some time to check this case.<br>&nbsp;<br>We will keep you updated on the progress.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sam,\n&nbsp;\nThank you for your response.\n&nbsp;\nPlease allow us some time to check this case.\n&nbsp;\nWe will keep you updated on the progress.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 42073128293529,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-07T22:33:07Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "116.73.137.165",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42078963962905,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "### L3:\n\n**Issue:**\n\nThe customer enabled the \"Saturday Delivery\" option under **Settings > Carriers > FedEx > Other Details**. On January 6, 2025, they successfully generated labels using FedEx 2Day with Saturday Delivery. However, on January 7, 2025, label generation failed with the error:\n`\"SATURDAY_DELIVERY is not allowed for the origin/destination pair.\"`\nI advised the customer to disable the Saturday Delivery option, which resolved the issue, and they were able to generate the labels successfully.\n\n**Customer Concern:**\n\nThe customer finds it impractical to manually toggle the Saturday Delivery option every time they generate labels. They are seeking a way to automate this process to prevent similar issues in the future.\n\n**Reference:**\n\nOrder: **#1278BioP**\nI have attached the **Request/Response XML** and a **screenshot of the error** for your reference.\n\n ![](https://pluginhive.zendesk.com/attachments/token/cxIwCYx49xAGdTwquawz6jc2r/?name=image.png)\n\n**Store Details:**\n\n- **Store URL:** cce77f-ea.myshopify.com\n- **Account ID:** 4e5f570f-9d57-47f3-abb6-c9605fb989b9\n- **Active From:** October 15, 2024\n- **Labels Generated:** 24 labels to date\nLet me know if further details are required!\n\nSlack Thread: https://pluginhive.slack.com/archives/C02E15X8X0C/p1736299343258699",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><h3 dir=\"auto\">L3:</h3>&nbsp;<br><strong>Issue:</strong><br>&nbsp;<br>The customer enabled the \"Saturday Delivery\" option under <strong>Settings &gt; Carriers &gt; FedEx &gt; Other Details</strong>. On January 6, 2025, they successfully generated labels using FedEx 2Day with Saturday Delivery. However, on January 7, 2025, label generation failed with the error:<br><code>\"SATURDAY_DELIVERY is not allowed for the origin/destination pair.\"</code><br>I advised the customer to disable the Saturday Delivery option, which resolved the issue, and they were able to generate the labels successfully.<br>&nbsp;<br><strong>Customer Concern:</strong><br>&nbsp;<br>The customer finds it impractical to manually toggle the Saturday Delivery option every time they generate labels. They are seeking a way to automate this process to prevent similar issues in the future.<br>&nbsp;<br><strong>Reference:</strong><br>&nbsp;<br>Order: <strong>#1278BioP</strong><br>I have attached the <strong>Request/Response XML</strong> and a <strong>screenshot of the error</strong> for your reference.<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/cxIwCYx49xAGdTwquawz6jc2r/?name=image.png\"></span><br>&nbsp;<br><strong>Store Details:</strong><br><ul dir=\"auto\"><li><strong>Store URL:</strong> cce77f-ea.myshopify.com</li><li><strong>Account ID:</strong> 4e5f570f-9d57-47f3-abb6-c9605fb989b9</li><li><strong>Active From:</strong> October 15, 2024</li><li><strong>Labels Generated:</strong> 24 labels to date</li></ul>Let me know if further details are required!<br>&nbsp;<br>Slack Thread: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1736299343258699\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1736299343258699</a><br></div>",
+      "plain_body": "L3: &nbsp;\nIssue:\n&nbsp;\nThe customer enabled the \"Saturday Delivery\" option under Settings &gt; Carriers &gt; FedEx &gt; Other Details. On January 6, 2025, they successfully generated labels using FedEx 2Day with Saturday Delivery. However, on January 7, 2025, label generation failed with the error:\n\"SATURDAY_DELIVERY is not allowed for the origin/destination pair.\"\nI advised the customer to disable the Saturday Delivery option, which resolved the issue, and they were able to generate the labels successfully.\n&nbsp;\nCustomer Concern:\n&nbsp;\nThe customer finds it impractical to manually toggle the Saturday Delivery option every time they generate labels. They are seeking a way to automate this process to prevent similar issues in the future.\n&nbsp;\nReference:\n&nbsp;\nOrder: #1278BioP\nI have attached the Request/Response XML and a screenshot of the error for your reference.\n&nbsp;\n\n&nbsp;\nStore Details:\n  Store URL: cce77f-ea.myshopify.com  Account ID: 4e5f570f-9d57-47f3-abb6-c9605fb989b9  Active From: October 15, 2024  Labels Generated: 24 labels to date  Let me know if further details are required!\n&nbsp;\nSlack Thread: https://pluginhive.slack.com/archives/C02E15X8X0C/p1736299343258699",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/42073326502041.json",
+          "id": 42073326502041,
+          "file_name": "RequestResponse.zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/x3347MoVHi1uaQILiRZRUPmVr/?name=RequestResponse.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/x3347MoVHi1uaQILiRZRUPmVr/?name=RequestResponse.zip",
+          "content_type": "application/zip",
+          "size": 6940,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 42078963962777,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-08T01:22:40Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "116.73.137.165",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42105426596633,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "SATURDAY_DELIVERY will be available only on Thursday and Friday for the services that merchant enabled. We will figure out a way to automatically avoid SATURDAY_DELIVERY on other days. For now merchant needs to enable the Saturday delivery on Thursdays.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">SATURDAY_DELIVERY will be available only on Thursday and Friday for the services that merchant enabled. We will figure out a way to automatically avoid SATURDAY_DELIVERY on other days. For now merchant needs to enable the Saturday delivery on Thursdays.<br>[Veena]<br></div>",
+      "plain_body": "SATURDAY_DELIVERY will be available only on Thursday and Friday for the services that merchant enabled. We will figure out a way to automatically avoid SATURDAY_DELIVERY on other days. For now merchant needs to enable the Saturday delivery on Thursdays.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 42105426596505,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-08T11:15:55Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+          "ip_address": "103.163.65.25",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42108017297945,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Samuel Rehal,\n\nThank you for your patience.\n\nI have an update for your query about Saturday Delivery option in the app.\n\nAs of now SATURDAY_DELIVERY will be available only on Thursday and Friday for the services that you have enabled in the app.\n\nWe will enhance the app to automatically avoid SATURDAY_DELIVERY on other days in the near future.\n\nFor now you will have to enable the Saturday delivery on Thursdays manually and use it for your requirements.\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Samuel Rehal,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>I have an update for your query about Saturday Delivery option in the app.<br>&nbsp;<br>As of now SATURDAY_DELIVERY will be available only on Thursday and Friday for the services that you have enabled in the app.<br>&nbsp;<br>We will enhance the app to automatically avoid SATURDAY_DELIVERY on other days in the near future.<br>&nbsp;<br>For now you will have to enable the Saturday delivery on Thursdays manually and use it for your requirements.<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Samuel Rehal,\n&nbsp;\nThank you for your patience.\n&nbsp;\nI have an update for your query about Saturday Delivery option in the app.\n&nbsp;\nAs of now SATURDAY_DELIVERY will be available only on Thursday and Friday for the services that you have enabled in the app.\n&nbsp;\nWe will enhance the app to automatically avoid SATURDAY_DELIVERY on other days in the near future.\n&nbsp;\nFor now you will have to enable the Saturday delivery on Thursdays manually and use it for your requirements.\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 42108017297817,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-08T12:57:57Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42112514064153,
+      "type": "Comment",
+      "author_id": 38833811035161,
+      "body": "Sibi,\n\n\n\nThank you for the update. I appreciate your help! Just to clarify, we will have to uncheck this box for Mon-Wed, and check it Thurs-Fri, correct?\n\n ![](https://support.pluginhive.com/attachments/token/vZjn7VL7Bc8Vg6PaslLgGh8BL/?name=image.png)\n\nOr, perhaps, is there another location where we have to manually enable/disable Saturday delivery?\n\n\n\nAs a suggestion to the PluginHive team as you work on enhancing the SATURDAY_DELIVERY feature, it would be very helpful if there is a check box in each order to enable/disable Saturday delivery for individual orders.\n\n\n\nThank you again!\n\nSam Rehal\n\n\n\n**SAMUEL REHAL**\n\n**Biomedical Associate** **|**** BioPocrates**** **Innovator of Zōguri Probiotic\n\n**p:** 402-201-2475 x2159 **|** **e:** samuel.rehal@biopocrates.com\n\n_17670 Welch Plaza, Suite 101, Omaha, NE 68135_\n\n**BioPocrates.com****   ****•****   ****Zoguri.com**\n\n ![](https://vision2voice.net/email_signatures/BioPocrates2Color_Web.png)\n\n_This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited._",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nSibi,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nThank you for the update. I appreciate your help! Just to clarify, we will have to uncheck this box for Mon-Wed, and check it Thurs-Fri, correct?</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<img style=\"max-width: 579px;\" src=\"https://support.pluginhive.com/attachments/token/vZjn7VL7Bc8Vg6PaslLgGh8BL/?name=image.png\"></div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nOr, perhaps, is there another location where we have to manually enable/disable Saturday delivery?</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nAs a suggestion to the PluginHive team as you work on enhancing the SATURDAY_DELIVERY feature, it would be very helpful if there is a check box in each order to enable/disable Saturday delivery for individual orders.</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nThank you again!</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nSam Rehal</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(30, 65, 123); margin: 0px;\" align=\"left\">\n<b>SAMUEL REHAL</b></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<span style=\"color: rgb(44, 103, 178);\"><b>Biomedical Associate </b></span><span style=\"color: rgb(51, 164, 72);\"><b>|</b></span><span style=\"color: rgb(44, 103, 178);\"><b>&nbsp;BioPocrates</b></span><b>&nbsp;</b><span style=\"color: rgb(51, 164, 72);\">Innovator of Zōguri\n Probiotic</span></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(44, 103, 178); margin: 0px;\" align=\"left\">\n<b>p:</b>&nbsp;402-201-2475 x2159 <span style=\"color: rgb(51, 164, 72);\"><b>|</b></span>&nbsp;<b>e:</b>&nbsp;<a href=\"mailto:samuel.rehal@biopocrates.com\" title=\"samuel.rehal@biopocrates.com\" style=\"color: rgb(44, 103, 178); margin: 0px;\" rel=\"noreferrer\">samuel.rehal</a><u><a href=\"mailto:samuel.rehal@biopocrates.com\" title=\"samuel.rehal@biopocrates.com\" style=\"color: rgb(44, 103, 178); margin: 0px;\" rel=\"noreferrer\">@biopocrates.com</a></u></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(44, 103, 178); margin: 0px;\" align=\"left\">\n<i>17670 Welch Plaza, Suite 101, Omaha, NE 68135</i></div>\n<div style=\"margin: 0px 0px 12pt;\">\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<span style=\"color: rgb(51, 164, 72);\"><b><a href=\"https://www.biopocrates.com/\" title=\"Original URL: https://www.biopocrates.com/. Click or tap if you trust this link.\" style=\"color: rgb(51, 164, 72); text-decoration: none; margin: 0px;\" rel=\"noreferrer\">BioPocrates.com</a></b></span><b>&nbsp;\n &nbsp;</b><span style=\"color: rgb(51, 164, 72);\"><b>•</b></span><b>&nbsp; &nbsp;</b><span style=\"color: rgb(51, 164, 72);\"><b><a href=\"https://www.zoguri.com/\" title=\"Original URL: https://www.zoguri.com/. Click or tap if you trust this link.\" style=\"color: rgb(51, 164, 72); text-decoration: none; margin: 0px;\" rel=\"noreferrer\">Zoguri.com</a></b></span></div>\n</div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<a href=\"https://www.biopocrates.com/\" title=\"Original URL: https://www.biopocrates.com/. Click or tap if you trust this link.\" style=\"margin: 0px;\" rel=\"noreferrer\"><img style=\"max-width: 552px;\" src=\"https://vision2voice.net/email_signatures/BioPocrates2Color_Web.png\"></a></div>\n<div style=\"direction: ltr; text-align: left; text-indent: 0px; font-size: 8pt; color: rgb(0, 0, 0); margin: 0px;\" align=\"left\">\n<i>This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential\n information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete\n this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.</i></div>\n</div>\n<div></div>\n<div style=\" font-size: 12pt; color: rgb(0,0,0);\">\n<br>\n</div></div>",
+      "plain_body": "Sibi, \n \n\n\n \n \nThank you for the update. I appreciate your help! Just to clarify, we will have to uncheck this box for Mon-Wed, and check it Thurs-Fri, correct? \n \n \n \nOr, perhaps, is there another location where we have to manually enable/disable Saturday delivery? \n \n\n\n \n \nAs a suggestion to the PluginHive team as you work on enhancing the SATURDAY_DELIVERY feature, it would be very helpful if there is a check box in each order to enable/disable Saturday delivery for individual orders. \n \n\n\n \n \nThank you again! \n \nSam Rehal \n \n\n\n \n \n \nSAMUEL REHAL \n \nBiomedical Associate |&nbsp;BioPocrates&nbsp;Innovator of Zōguri\n Probiotic \n \np:&nbsp;402-201-2475 x2159 |&nbsp;e:&nbsp;samuel.rehal@biopocrates.com \n \n17670 Welch Plaza, Suite 101, Omaha, NE 68135 \n \n \nBioPocrates.com&nbsp;\n &nbsp;•&nbsp; &nbsp;Zoguri.com \n \n \n \n \nThis email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential\n information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete\n this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 42112514064025,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "samuel.rehal@biopocrates.com",
+            "name": "Samuel Rehal",
+            "original_recipients": [
+              "samuel.rehal@biopocrates.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-08T17:09:26Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DM6PR16MB34501BABC8AC04A404430F1983122@DM6PR16MB3450.namprd16.prod.outlook.com>",
+          "email_id": "01JH3E8VKDE7SR5J5F7RR2JCYJ",
+          "raw_email_identifier": "2369120/026334e7-74cf-4c5e-9d45-62d50742a270.eml",
+          "json_email_identifier": "2369120/026334e7-74cf-4c5e-9d45-62d50742a270.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 42112767089817,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Dear Sam,\n\nThank you for your patience and for providing valuable feedback on enhancing the SATURDAY_DELIVERY functionality.\n\nTo clarify, yes, you will need to uncheck the Saturday Delivery option from **Monday to Wednesday** and re-enable it on **Thursday and Friday** to use it as required. Currently, this setting is located in the app under **Settings > Carriers > FedEx > Other Details**.\n\nWe truly appreciate your suggestion to include a checkbox for enabling/disabling Saturday Delivery on individual orders. I will be sharing it with our development team to evaluate its feasibility as part of future updates.\n\nIn the meantime, if you encounter any further issues or have additional feedback, please don’t hesitate to reach out. We’re here to assist!\n\nThank you again for your understanding and cooperation.\n\nBest regards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Dear Sam,<br>&nbsp;<br>Thank you for your patience and for providing valuable feedback on enhancing the SATURDAY_DELIVERY functionality.<br>&nbsp;<br>To clarify, yes, you will need to uncheck the Saturday Delivery option from <strong>Monday to Wednesday</strong> and re-enable it on <strong>Thursday and Friday</strong> to use it as required. Currently, this setting is located in the app under <strong>Settings &gt; Carriers &gt; FedEx &gt; Other Details</strong>.<br>&nbsp;<br>We truly appreciate your suggestion to include a checkbox for enabling/disabling Saturday Delivery on individual orders. I will be sharing it with our development team to evaluate its feasibility as part of future updates.<br>&nbsp;<br>In the meantime, if you encounter any further issues or have additional feedback, please don’t hesitate to reach out. We’re here to assist!<br>&nbsp;<br>Thank you again for your understanding and cooperation.<br>&nbsp;<br>Best regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Dear Sam,\n&nbsp;\nThank you for your patience and for providing valuable feedback on enhancing the SATURDAY_DELIVERY functionality.\n&nbsp;\nTo clarify, yes, you will need to uncheck the Saturday Delivery option from Monday to Wednesday and re-enable it on Thursday and Friday to use it as required. Currently, this setting is located in the app under Settings &gt; Carriers &gt; FedEx &gt; Other Details.\n&nbsp;\nWe truly appreciate your suggestion to include a checkbox for enabling/disabling Saturday Delivery on individual orders. I will be sharing it with our development team to evaluate its feasibility as part of future updates.\n&nbsp;\nIn the meantime, if you encounter any further issues or have additional feedback, please don’t hesitate to reach out. We’re here to assist!\n&nbsp;\nThank you again for your understanding and cooperation.\n&nbsp;\nBest regards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 42112767089689,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-08T17:23:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 45607853557017,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Dear Samuel,\n\nGreetings!\n\nI am following up on your requirement to enhance the app to automatically avoid SATURDAY_DELIVERY on other days.\n\nIf you are still looking for this enhancement, please confirm and let us know by responding.\n\nLooking forward to your response.\n\nThanks and Regards,\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Dear Samuel,<br>&nbsp;<br>Greetings!<br>&nbsp;<br>I am following up on your requirement to enhance the app to automatically avoid SATURDAY_DELIVERY on other days.<br>&nbsp;<br>If you are still looking for this enhancement, please confirm and let us know by responding.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>Thanks and Regards,<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Dear Samuel,\n&nbsp;\nGreetings!\n&nbsp;\nI am following up on your requirement to enhance the app to automatically avoid SATURDAY_DELIVERY on other days.\n&nbsp;\nIf you are still looking for this enhancement, please confirm and let us know by responding.\n&nbsp;\nLooking forward to your response.\n&nbsp;\nThanks and Regards,\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 45607853556889,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-04-10T18:20:11Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 45608073225113,
+      "type": "Comment",
+      "author_id": 38833811035161,
+      "body": "Hello Sibi,\n\n\n\nYes! If that is possible it would be very beneficial for our shipping system.\n\n\n\nThanks!\n\nSam\n\n\n\n**SAMUEL REHAL**\n\n**Biomedical Associate** **|**** BioPocrates**** **Innovator of Zōguri Probiotic\n\n**p:** 402-201-2475 x2159 **|** **e:** samuel.rehal@biopocrates.com\n\n_17670 Welch Plaza, Suite 101, Omaha, NE 68135_\n\n**BioPocrates.com****   ****•****   ****Zoguri.com**\n\n ![Image](https://vision2voice.net/email_signatures/BioPocrates2Color_Web.png)\n\n_This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited._",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello Sibi,</div>\n<div dir=\"ltr\"><br>\n</div>\n<div dir=\"ltr\">Yes! If that is possible it would be very beneficial for our shipping system.&nbsp;</div>\n<div dir=\"ltr\"><br>\n</div>\n<div dir=\"ltr\">Thanks!</div>\n<div dir=\"ltr\">Sam</div>\n<div dir=\"ltr\"><br>\n</div>\n<div>\n<div dir=\"ltr\" style=\" color: rgb(30, 65, 123);\">\n<b>SAMUEL REHAL</b></div>\n<div dir=\"ltr\" style=\"text-align: left; text-indent: 0px; margin: 0px;\" align=\"left\">\n<span style=\"color: rgb(44, 103, 178);\"><b>Biomedical Associate </b></span><span style=\"color: rgb(51, 164, 72);\"><b>|</b></span><span style=\"color: rgb(44, 103, 178);\"><b>&nbsp;BioPocrates</b></span><span style=\"color: black;\"><b>&nbsp;</b></span><span style=\"color: rgb(51, 164, 72);\">Innovator\n of Zōguri Probiotic</span></div>\n<div dir=\"ltr\" style=\"text-align: left; text-indent: 0px; margin: 0px;\" align=\"left\">\n<span style=\"color: rgb(44, 103, 178);\"><b>p:</b>&nbsp;</span><span style=\"color: rgb(0, 134, 240);\">402-201-2475 x2159</span><span style=\"color: rgb(44, 103, 178);\">&nbsp;</span><span style=\"color: rgb(51, 164, 72);\"><b>|</b></span><span style=\"color: rgb(44, 103, 178);\">&nbsp;<b>e:</b>&nbsp;<a href=\"mailto:samuel.rehal@biopocrates.com\" title=\"samuel.rehal@biopocrates.com\" style=\"margin: 0px;\" rel=\"noreferrer\">samuel.rehal</a><u><a href=\"mailto:samuel.rehal@biopocrates.com\" title=\"samuel.rehal@biopocrates.com\" style=\"margin: 0px;\" rel=\"noreferrer\">@biopocrates.com</a></u></span></div>\n<div dir=\"ltr\" style=\"text-align: left; text-indent: 0px; color: currentcolor; margin: 0px;\" align=\"left\">\n<i>17670 Welch Plaza, Suite 101, Omaha, NE 68135</i></div>\n<div style=\"margin: 0px 0px 12pt;\">\n<div dir=\"ltr\" style=\"text-align: left; text-indent: 0px; color: black; margin: 0px;\" align=\"left\">\n<span style=\"color: rgb(51, 164, 72);\"><b><a href=\"https://www.biopocrates.com/\" title=\"Original URL: https://www.biopocrates.com/. Click or tap if you trust this link.\" style=\"text-decoration: none; margin: 0px;\" rel=\"noreferrer\">BioPocrates.com</a></b></span><b>&nbsp;\n &nbsp;</b><span style=\"color: rgb(51, 164, 72);\"><b>•</b></span><b>&nbsp; &nbsp;</b><span style=\"color: rgb(51, 164, 72);\"><b><a href=\"https://www.zoguri.com/\" title=\"Original URL: https://www.zoguri.com/. Click or tap if you trust this link.\" style=\"text-decoration: none; margin: 0px;\" rel=\"noreferrer\">Zoguri.com</a></b></span></div>\n</div>\n<div dir=\"ltr\" style=\"text-align: left; text-indent: 0px; color: rgb(0, 134, 240); margin: 0px;\" align=\"left\">\n<a href=\"https://www.biopocrates.com/\" title=\"Original URL: https://www.biopocrates.com/. Click or tap if you trust this link.\" style=\"margin: 0px;\" rel=\"noreferrer\"><img src=\"https://vision2voice.net/email_signatures/BioPocrates2Color_Web.png\" alt=\"Image\" style=\"height: auto; max-width: 370px; border: medium none currentcolor;\"></a></div>\n<div style=\" font-size: 8pt; color: black;\">\n<i>This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential\n information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete\n this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.</i></div>\n<div dir=\"ltr\"><br>\n</div>\n</div></div>",
+      "plain_body": "Hello Sibi, \n \n\n \n Yes! If that is possible it would be very beneficial for our shipping system.&nbsp; \n \n\n \n Thanks! \n Sam \n \n\n \n \n \nSAMUEL REHAL \n \nBiomedical Associate |&nbsp;BioPocrates&nbsp;Innovator\n of Zōguri Probiotic \n \np:&nbsp;402-201-2475 x2159&nbsp;|&nbsp;e:&nbsp;samuel.rehal@biopocrates.com \n \n17670 Welch Plaza, Suite 101, Omaha, NE 68135 \n \n \nBioPocrates.com&nbsp;\n &nbsp;•&nbsp; &nbsp;Zoguri.com \n \n \n \n \nThis email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential\n information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete\n this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 45608073224985,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "samuel.rehal@biopocrates.com",
+            "name": "Samuel Rehal",
+            "original_recipients": [
+              "samuel.rehal@biopocrates.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-04-10T18:41:35Z",
+      "metadata": {
+        "system": {
+          "message_id": "<MN2PR16MB34547207EDD55AEF3ED3CC9683B72@MN2PR16MB3454.namprd16.prod.outlook.com>",
+          "email_id": "01JRGG3QB7PKSD8JKJVFFNGBXP",
+          "raw_email_identifier": "2369120/4b791cb1-26e0-4fc4-a38a-8bad3ad7eb27.eml",
+          "json_email_identifier": "2369120/4b791cb1-26e0-4fc4-a38a-8bad3ad7eb27.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 45608169512473,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Samuel,\n\nThank you for your confirmation.\n\nPlease do allow us some time and we will keep you updated on the progress.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Samuel,<br>&nbsp;<br>Thank you for your confirmation.<br>&nbsp;<br>Please do allow us some time and we will keep you updated on the progress.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Samuel,\n&nbsp;\nThank you for your confirmation.\n&nbsp;\nPlease do allow us some time and we will keep you updated on the progress.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 45608169512345,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-04-10T18:51:17Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 45608171490073,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Customer is still looking for this feature. Automatically avoid SATURDAY_DELIVERY on other days and add a toggle for Saturday Delivery under Order Summary.\nBack to dev_needed",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer is still looking for this feature. Automatically avoid SATURDAY_DELIVERY on other days and add a toggle for Saturday Delivery under Order Summary.<br>Back to dev_needed<br></div>",
+      "plain_body": "Customer is still looking for this feature. Automatically avoid SATURDAY_DELIVERY on other days and add a toggle for Saturday Delivery under Order Summary.\nBack to dev_needed",
+      "public": false,
+      "attachments": [],
+      "audit_id": 45608171488665,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-04-10T18:52:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,757 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/354696.json",
+    "id": 354696,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2025-10-16T20:54:09Z",
+    "updated_at": "2026-01-12T08:51:45Z",
+    "generated_timestamp": 1768207906,
+    "type": null,
+    "subject": "Hey Guys, \n\nIs there any way I can export a large ...",
+    "raw_subject": "Hey Guys, \n\nIs there any way I can export a large ...",
+    "description": "Hey Guys, \n\nIs there any way I can export a large chunk of our orders (1000~) into a .CSV file? \nI need to asses our shipping rates and free shipping thresholds across Canada, but am struggling to find a way to access all the data I need! \n\nThank you,\nZac\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/settings/automation/setup/9bbe3e85-ff8e-4eff-b040-d35a3a32ad2a",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 5934053585305,
+    "submitter_id": 5934053585305,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "to-do",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "agro-coffee.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "2369794060"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": "2026-01-27"
+      },
+      {
+        "id": 11144851505177,
+        "value": "690d955a81038ffdea23bdcf"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "V0VL5M-W93K5",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "agro-coffee.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "2369794060"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": "2026-01-27"
+      },
+      {
+        "id": 11144851505177,
+        "value": "690d955a81038ffdea23bdcf"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 51595004650649,
+      "type": "Comment",
+      "author_id": 5934053585305,
+      "body": "Hey Guys, \n\nIs there any way I can export a large chunk of our orders (1000~) into a .CSV file? \nI need to asses our shipping rates and free shipping thresholds across Canada, but am struggling to find a way to access all the data I need! \n\nThank you,\nZac\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/settings/automation/setup/9bbe3e85-ff8e-4eff-b040-d35a3a32ad2a",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hey Guys, </p>\n\n<p dir=\"auto\">Is there any way I can export a large chunk of our orders (1000~) into a .CSV file? \n<br>I need to asses our shipping rates and free shipping thresholds across Canada, but am struggling to find a way to access all the data I need! </p>\n\n<p dir=\"auto\">Thank you,\n<br>Zac</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/settings/automation/setup/9bbe3e85-ff8e-4eff-b040-d35a3a32ad2a\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/settings/automation/setup/9bbe3e85-ff8e-4eff-b040-d35a3a32ad2a</a></p></div>",
+      "plain_body": "Hey Guys,  \n\n Is there any way I can export a large chunk of our orders (1000~) into a .CSV file? \n\nI need to asses our shipping rates and free shipping thresholds across Canada, but am struggling to find a way to access all the data I need!  \n\n Thank you,\n\nZac \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/settings/automation/setup/9bbe3e85-ff8e-4eff-b040-d35a3a32ad2a",
+      "public": true,
+      "attachments": [],
+      "audit_id": 51595004650521,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2025-10-16T20:54:09Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "50.92.129.208",
+          "location": "Vancouver, BC, Canada",
+          "latitude": 49.2773,
+          "longitude": -123.0679
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 51595145627801,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Canada store\n651 orders\nFedEx and Canada Post added\n$49 plan\nusing for rates and labels\nActive from: 2025-05-23",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Canada store<br>651 orders<br>FedEx and Canada Post added<br>$49 plan<br>using for rates and labels<br>Active from: 2025-05-23<br></div>",
+      "plain_body": "Canada store\n651 orders\nFedEx and Canada Post added\n$49 plan\nusing for rates and labels\nActive from: 2025-05-23",
+      "public": false,
+      "attachments": [],
+      "audit_id": 51595145627673,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-16T21:04:08Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "49.37.176.167",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 51595163808153,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Zac,\n\nWe can generate and share the order report from our end. Could you please confirm the start and end date range you would like the report for? Once confirmed, we’ll check and get back to you with the details.\n\nLooking forward to your response.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Zac,<br>&nbsp;<br>We can generate and share the order report from our end. Could you please confirm the start and end date range you would like the report for? Once confirmed, we’ll check and get back to you with the details.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Zac,\n&nbsp;\nWe can generate and share the order report from our end. Could you please confirm the start and end date range you would like the report for? Once confirmed, we’ll check and get back to you with the details.\n&nbsp;\nLooking forward to your response.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 51595163808025,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-16T21:05:45Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "49.37.176.167",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 51595622248089,
+      "type": "Comment",
+      "author_id": 5934053585305,
+      "body": "Hey Manohar,\n\n\nThat's amazing, thank you very much for your help.\n\nFor now could you please generate a report from August 1st - August 31st? That will give us date before the Canada Post strike.\n\n\n\nThank you!\n\nZac",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hey Manohar,&nbsp;<div><br></div><div>That's amazing, thank you very much for your help.&nbsp;</div><div>For now could you please generate a report from August 1st - August 31st? That will give us date before the Canada Post strike.&nbsp;</div><div><br></div><div>Thank you!</div><div>Zac</div></div><br><div></div></div>",
+      "plain_body": "Hey Manohar,&nbsp; \n  That's amazing, thank you very much for your help.&nbsp;  For now could you please generate a report from August 1st - August 31st? That will give us date before the Canada Post strike.&nbsp;  \n  Thank you!  Zac",
+      "public": true,
+      "attachments": [],
+      "audit_id": 51595622247961,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "zac@agroroasters.com",
+            "name": "Zac",
+            "original_recipients": [
+              "zac@agroroasters.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-16T21:58:09Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMf0ca+dWGbZ_bC1Vviyhk7ZU28zT4MepqUAj3Trehb1FNUkjw@mail.gmail.com>",
+          "email_id": "01K7QGFG1CDFRW15QQK4AXVP6P",
+          "raw_email_identifier": "2369120/25078cce-3bb6-4808-a7a9-3c3a2de2eb3a.eml",
+          "json_email_identifier": "2369120/25078cce-3bb6-4808-a7a9-3c3a2de2eb3a.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 51596639704217,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Zac,\n\nThank you for your reply.\n\nPlease allow us some time we check and get back to you with an update.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Zac,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br>&nbsp;<br>We appreciate your time and patience.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Zac,\n&nbsp;\nThank you for your reply.\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n&nbsp;\nWe appreciate your time and patience.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 51596639704089,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-16T22:47:56Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "49.37.176.167",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 51596717657625,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "We need assistance from the L3 team regarding a $49 Premium plan MCSL customer.\n\nThe customer has generated 1000+ labels and has requested an **order report for the period August 1 – August 31, 2025**.\n\nCould you please share the order report for August 2025?\n\nAdditionally, if possible, could you please enable the **Order Report** feature for the following store?\n\n**Store Details:**\n\n- Store URL: agro-coffee.myshopify.com\n- Account ID: 2d8bd666-ea7e-48b6-bca7-2dd550306af5",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We need assistance from the L3 team regarding a $49 Premium plan MCSL customer.&nbsp;<br>&nbsp;<br>The customer has generated 1000+ labels and has requested an <strong>order report for the period August 1 – August 31, 2025</strong>.<br>&nbsp;<br>Could you please share the order report for August 2025?<br>&nbsp;<br>Additionally, if possible, could you please enable the <strong>Order Report</strong> feature for the following store?<br>&nbsp;<br><strong>Store Details:</strong><br><ul dir=\"auto\"><li>Store URL: <a rel=\"noopener noreferrer\" href=\"http://agro-coffee.myshopify.com\">agro-coffee.myshopify.com</a> </li><li>Account ID: 2d8bd666-ea7e-48b6-bca7-2dd550306af5</li></ul></div>",
+      "plain_body": "We need assistance from the L3 team regarding a $49 Premium plan MCSL customer.&nbsp;\n&nbsp;\nThe customer has generated 1000+ labels and has requested an order report for the period August 1 – August 31, 2025.\n&nbsp;\nCould you please share the order report for August 2025?\n&nbsp;\nAdditionally, if possible, could you please enable the Order Report feature for the following store?\n&nbsp;\nStore Details:\n  Store URL: agro-coffee.myshopify.com   Account ID: 2d8bd666-ea7e-48b6-bca7-2dd550306af5",
+      "public": false,
+      "attachments": [],
+      "audit_id": 51596717656985,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-16T22:52:07Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "49.37.176.167",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 51618541242649,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Order Report enabled. Kindly test and inform the merchant.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Order Report enabled. Kindly test and inform the merchant.<br>[Veena]<br></div>",
+      "plain_body": "Order Report enabled. Kindly test and inform the merchant.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 51618541242521,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-17T10:22:09Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 51620354156313,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Zac,\n\nWe have enabled a feature for your store where you can export an order report and check for the details of the orders processed. Click on Export, Select the Date Range, provide the email ID for which the report to be shared and click on Export Orders.\n\nPlease give this a try and check if it works.\n\n ![](https://pluginhive.zendesk.com/attachments/token/nniZTceTQzsCxI8Nfg0qKSeAI/?name=image.png)\n\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Zac,<br>&nbsp;<br>We have enabled a feature for your store where you can export an order report and check for the details of the orders processed. Click on Export, Select the Date Range, provide the email ID for which the report to be shared and click on Export Orders.&nbsp;<br>&nbsp;<br>Please give this a try and check if it works.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 977px;\" src=\"https://pluginhive.zendesk.com/attachments/token/nniZTceTQzsCxI8Nfg0qKSeAI/?name=image.png\"></span><br>&nbsp;<br>Thanks and Regards,<br>Sagar K S<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Zac,\n&nbsp;\nWe have enabled a feature for your store where you can export an order report and check for the details of the orders processed. Click on Export, Select the Date Range, provide the email ID for which the report to be shared and click on Export Orders.&nbsp;\n&nbsp;\nPlease give this a try and check if it works.\n&nbsp;\n\n&nbsp;\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 51620354156185,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-17T11:37:04Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 51701076578585,
+      "type": "Comment",
+      "author_id": 5934053585305,
+      "body": "Good morning, Sagar!\n\n\nThank you very much for enabling that in our account!\n\n\n\nIt works brilliantly, we have Province, Zip code and Street address in the .csv, but would it be possible to also add City/Town?\n\nWe're trying to assess how we can better serve remote locations within BC and beyond.\n\n\n\nThank you!\n\nZac",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Good morning, Sagar!<div><br></div><div>Thank you very much for enabling that in our account!&nbsp;</div><div><br></div><div>It works brilliantly, we have Province, Zip code and Street address in the .csv, but would it be possible to also add City/Town?&nbsp;</div><div>We're trying to assess how we can better serve remote locations within BC and beyond.&nbsp;</div><div><br></div><div>Thank you!</div><div>Zac</div></div><br><div></div></div>",
+      "plain_body": "Good morning, Sagar! \n  Thank you very much for enabling that in our account!&nbsp;  \n  It works brilliantly, we have Province, Zip code and Street address in the .csv, but would it be possible to also add City/Town?&nbsp;  We're trying to assess how we can better serve remote locations within BC and beyond.&nbsp;  \n  Thank you!  Zac",
+      "public": true,
+      "attachments": [],
+      "audit_id": 51701076578457,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "zac@agroroasters.com",
+            "name": "Zac",
+            "original_recipients": [
+              "zac@agroroasters.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-20T17:05:48Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMf0ca+T3UM4wJrkFjJcfGmw80nsC3BdurbKUKaOZkGVdJ=P+g@mail.gmail.com>",
+          "email_id": "01K819B271R8J3T4EGGERD9CVW",
+          "raw_email_identifier": "2369120/fa8c4882-112e-45af-9b12-b346d4a5377c.eml",
+          "json_email_identifier": "2369120/fa8c4882-112e-45af-9b12-b346d4a5377c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 51701782689433,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Zac,\n\nThank you for your response.\n\nCurrently, the Order Report does not contain the Ship To Address City details.\n\nI have conveyed your request to our team and we will update you once we hear back from them.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Zac,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Currently, the Order Report does not contain the Ship To Address City details.<br>&nbsp;<br>I have conveyed your request to our team and we will update you once we hear back from them.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Zac,\n&nbsp;\nThank you for your response.\n&nbsp;\nCurrently, the Order Report does not contain the Ship To Address City details.\n&nbsp;\nI have conveyed your request to our team and we will update you once we hear back from them.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 51701782689305,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-20T18:27:54Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "115.99.108.2",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 51701815283225,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Back to L3:\n\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1760985037673839?thread_ts=1760655188.717919&cid=C02E15X8X0C\nCustomer is requesting for Ship To Address City details to be included in the Exported Order Reports from the app.\nChecked and currently it is not available. Only Street Address, State and Postal Codes columns are available in the Order Report.\nLet us know if the City column can be made available? If yes, then by when?\n\n\n- Store URL: agro-coffee.myshopify.com\n- Account ID: 2d8bd666-ea7e-48b6-bca7-2dd550306af5",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Back to L3:<br>&nbsp;<br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1760985037673839?thread_ts=1760655188.717919&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1760985037673839?thread_ts=1760655188.717919&amp;cid=C02E15X8X0C</a><br>Customer is requesting for Ship To Address City details to be included in the Exported Order Reports from the app.<br>Checked and currently it is not available. Only Street Address, State and Postal Codes columns are available in the Order Report.<br>Let us know if the City column can be made available? If yes, then by when?<br>&nbsp;<br><ul dir=\"auto\"><li>Store URL: <a rel=\"noopener noreferrer\" href=\"http://agro-coffee.myshopify.com/\">agro-coffee.myshopify.com</a></li><li>Account ID: 2d8bd666-ea7e-48b6-bca7-2dd550306af5</li></ul></div>",
+      "plain_body": "Back to L3:\n&nbsp;\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1760985037673839?thread_ts=1760655188.717919&amp;cid=C02E15X8X0C\nCustomer is requesting for Ship To Address City details to be included in the Exported Order Reports from the app.\nChecked and currently it is not available. Only Street Address, State and Postal Codes columns are available in the Order Report.\nLet us know if the City column can be made available? If yes, then by when?\n&nbsp;\n  Store URL: agro-coffee.myshopify.com  Account ID: 2d8bd666-ea7e-48b6-bca7-2dd550306af5",
+      "public": false,
+      "attachments": [],
+      "audit_id": 51701815283097,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-20T18:30:52Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "115.99.108.2",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 51702779128217,
+      "type": "Comment",
+      "author_id": 5934053585305,
+      "body": "Great, thank you very much!",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Great, thank you very much!</div><br><div></div></div>",
+      "plain_body": "Great, thank you very much!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 51702779128089,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "zac@agroroasters.com",
+            "name": "Zac",
+            "original_recipients": [
+              "zac@agroroasters.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-20T20:22:19Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMf0caKN0=GZDS7EWxx2yHXFD-9ckEZSPV_439xGWHwEUZDD9w@mail.gmail.com>",
+          "email_id": "01K81MJXS9D7G270N385G1WFJV",
+          "raw_email_identifier": "2369120/b5d5e1cc-0c7a-46de-88f3-160f165a4416.eml",
+          "json_email_identifier": "2369120/b5d5e1cc-0c7a-46de-88f3-160f165a4416.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 51763581937305,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We will enhance the app to include the _Ship To Address City_ field in the exported order report in the upcoming release. Please inform the customer and move this ticket to dev_needed\n-[Athul]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will enhance the app to include the <i>Ship To Address City</i> field in the exported order report in the upcoming release. Please inform the customer and move this ticket to dev_needed&nbsp;<br>-[Athul]<br></div>",
+      "plain_body": "We will enhance the app to include the Ship To Address City field in the exported order report in the upcoming release. Please inform the customer and move this ticket to dev_needed&nbsp;\n-[Athul]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 51763581937177,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-22T12:27:06Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "103.163.65.25",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 51765974597273,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Zac,\n\nThank you for your patience.\n\nOur team has reviewed your requirement and the _Ship To Address City_ column in the Exported Order Report will be made available in the upcoming release of the app.\n\nWe will update you once the enhancement is made available.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Zac,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Our team has reviewed your requirement and the <i>Ship To Address City </i>column in the Exported Order Report will be made available in the upcoming release of the app.<br>&nbsp;<br>We will update you once the enhancement is made available.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Zac,\n&nbsp;\nThank you for your patience.\n&nbsp;\nOur team has reviewed your requirement and the Ship To Address City column in the Exported Order Report will be made available in the upcoming release of the app.\n&nbsp;\nWe will update you once the enhancement is made available.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 51765974597145,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-22T14:43:54Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "115.99.108.2",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 51766155052185,
+      "type": "Comment",
+      "author_id": 5934053585305,
+      "body": "Awesome, thanks so much for the update! This will continually help us in the future as the courier landscape changes in Canada.\n\n\nIn the meantime it forced me to learn some Google Sheets prompts to reference a post code database!\n\n\n\nCheers,\n\nZac",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Awesome, thanks so much for the update! This will continually help us in the future as the courier landscape changes in Canada.&nbsp;<div><br></div><div>In the meantime it forced me to learn some Google Sheets prompts to reference a post code database!&nbsp;</div><div><br></div><div>Cheers,</div><div>Zac</div></div><br><div></div></div>",
+      "plain_body": "Awesome, thanks so much for the update! This will continually help us in the future as the courier landscape changes in Canada.&nbsp; \n  In the meantime it forced me to learn some Google Sheets prompts to reference a post code database!&nbsp;  \n  Cheers,  Zac",
+      "public": true,
+      "attachments": [],
+      "audit_id": 51766155052057,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "zac@agroroasters.com",
+            "name": "Zac",
+            "original_recipients": [
+              "zac@agroroasters.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-22T14:55:07Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMf0ca+jqB+qkj0Sk+_H4phBoUmA1z_82Njm+0b4A3n3t7GdRg@mail.gmail.com>",
+          "email_id": "01K866N6Q69FW6CNK7ASKAE25R",
+          "raw_email_identifier": "2369120/37200fd8-606f-4ad6-8a35-55f474dda40b.eml",
+          "json_email_identifier": "2369120/37200fd8-606f-4ad6-8a35-55f474dda40b.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 51766280853273,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Zac,\n\nThank you for your acknowledgement.\n\nFeel free to reach out if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Zac,<br>&nbsp;<br>Thank you for your acknowledgement.<br>&nbsp;<br>Feel free to reach out if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Zac,\n&nbsp;\nThank you for your acknowledgement.\n&nbsp;\nFeel free to reach out if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 51766280853145,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-10-22T15:03:47Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "115.99.108.2",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

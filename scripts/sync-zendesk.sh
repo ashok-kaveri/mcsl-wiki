@@ -21,10 +21,21 @@ if [ -f ".claude/settings.local.json" ]; then
   done < ".claude/settings.local.json"
 fi
 
-# --- Config ---
-ZENDESK_DIR="raw/zendesk"
-LAST_SYNC_FILE="$ZENDESK_DIR/.last_sync"
-SEARCH_TAG="shopify_multi_carrier_shipping_label_app"
+# --- Product sync definitions ---
+# Each product has: tag, output subdirectory, Zendesk search filters
+# Format: PRODUCT_TAG|OUTPUT_DIR|EXTRA_QUERY_FILTERS
+#
+# Filters match Zendesk views:
+#   - status<pending  → status is "new" or "open" (less than pending)
+#   - Tags filter     → product name tag
+#   - Support type    → filtered server-side where possible, or post-filtered
+#
+# To add a new product, add a line here:
+PRODUCTS=(
+  "shopify_multi_carrier_shipping_label_app|shopify|status<pending"
+  # Future products:
+  # "woocommerce_multi_carrier_shipping_label_app|woocommerce|status<pending"
+)
 
 # --- Validate env vars ---
 for var in ZENDESK_SUBDOMAIN ZENDESK_EMAIL ZENDESK_API_TOKEN; do
@@ -39,76 +50,104 @@ done
 AUTH="$ZENDESK_EMAIL/token:$ZENDESK_API_TOKEN"
 BASE_URL="https://$ZENDESK_SUBDOMAIN.zendesk.com/api/v2"
 
-mkdir -p "$ZENDESK_DIR"
+ZENDESK_BASE="raw/zendesk"
 
-# --- Determine date range ---
-if [ -n "${1:-}" ]; then
-  start_date="$1"
-elif [ -f "$LAST_SYNC_FILE" ]; then
-  start_date=$(cat "$LAST_SYNC_FILE")
-else
-  start_date=$(date -v-30d +%Y-%m-%d 2>/dev/null || date -d '30 days ago' +%Y-%m-%d)
-fi
+# --- Sync each product ---
+for product_def in "${PRODUCTS[@]}"; do
+  IFS='|' read -r tag subdir query_filter <<< "$product_def"
 
-end_date=$(date +%Y-%m-%d)
+  ZENDESK_DIR="$ZENDESK_BASE/$subdir"
+  LAST_SYNC_FILE="$ZENDESK_DIR/.last_sync"
 
-echo "==> Fetching open MCSL tickets: $start_date to $end_date"
+  mkdir -p "$ZENDESK_DIR"
 
-# --- Search for tickets (with pagination) ---
-ticket_ids=()
-page_url="$BASE_URL/search.json"
-page_num=1
-
-while [ -n "$page_url" ] && [ "$page_url" != "null" ]; do
-  echo "  Fetching search results (page $page_num)..."
-
-  if [ "$page_num" -eq 1 ]; then
-    response=$(curl -s -G "$page_url" \
-      --data-urlencode "query=type:ticket status:open tags:$SEARCH_TAG created>=$start_date created<=$end_date" \
-      --data-urlencode "sort_by=created_at" \
-      --data-urlencode "sort_order=desc" \
-      -u "$AUTH")
+  # --- Determine date range ---
+  if [ -n "${1:-}" ]; then
+    start_date="$1"
+  elif [ -f "$LAST_SYNC_FILE" ]; then
+    start_date=$(cat "$LAST_SYNC_FILE")
   else
-    response=$(curl -s "$page_url" -u "$AUTH")
+    start_date=$(date -v-30d +%Y-%m-%d 2>/dev/null || date -d '30 days ago' +%Y-%m-%d)
   fi
 
-  ids=$(echo "$response" | jq -r '.results[].id')
+  end_date=$(date +%Y-%m-%d)
 
-  while IFS= read -r id; do
-    [ -n "$id" ] && ticket_ids+=("$id")
-  done <<< "$ids"
+  echo "==> [$subdir] Fetching tickets: $start_date to $end_date"
+  echo "    Filter: $query_filter tags:$tag"
 
-  page_url=$(echo "$response" | jq -r '.next_page // ""')
+  # --- Search for tickets (with pagination) ---
+  ticket_ids=()
+  page_url="$BASE_URL/search.json"
+  page_num=1
 
-  page_num=$((page_num + 1))
-done
+  while [ -n "$page_url" ] && [ "$page_url" != "null" ]; do
+    echo "  Fetching search results (page $page_num)..."
 
-total=${#ticket_ids[@]}
-echo "  Found $total tickets"
+    if [ "$page_num" -eq 1 ]; then
+      response=$(curl -s -G "$page_url" \
+        --data-urlencode "query=type:ticket $query_filter tags:$tag created>=$start_date created<=$end_date" \
+        --data-urlencode "sort_by=created_at" \
+        --data-urlencode "sort_order=desc" \
+        -u "$AUTH")
+    else
+      response=$(curl -s "$page_url" -u "$AUTH")
+    fi
 
-if [ "$total" -eq 0 ]; then
-  echo "  No tickets to sync."
+    ids=$(echo "$response" | jq -r '.results[].id')
+
+    while IFS= read -r id; do
+      [ -n "$id" ] && ticket_ids+=("$id")
+    done <<< "$ids"
+
+    page_url=$(echo "$response" | jq -r '.next_page // ""')
+
+    page_num=$((page_num + 1))
+  done
+
+  total=${#ticket_ids[@]}
+  echo "  Found $total tickets"
+
+  if [ "$total" -eq 0 ]; then
+    echo "  No tickets to sync."
+    echo "$end_date" > "$LAST_SYNC_FILE"
+    echo "==> [$subdir] Updated last sync date to $end_date"
+    continue
+  fi
+
+  # --- Fetch each ticket's details + comments ---
+  count=0
+  new_count=0
+  for tid in "${ticket_ids[@]}"; do
+    count=$((count + 1))
+
+    # Skip if ticket already exists (delta sync)
+    if [ -f "$ZENDESK_DIR/$tid.json" ]; then
+      echo "  [$count/$total] Skipping #$tid (already synced)"
+      continue
+    fi
+
+    echo "  [$count/$total] Fetching ticket #$tid..."
+
+    ticket=$(curl -s "$BASE_URL/tickets/$tid.json" -u "$AUTH")
+    comments=$(curl -s "$BASE_URL/tickets/$tid/comments.json" -u "$AUTH")
+
+    # Post-filter: only save tickets with support_type=agent
+    support_type=$(echo "$ticket" | jq -r '.ticket.support_type // "unknown"')
+    if [ "$support_type" != "agent" ]; then
+      echo "  [$count/$total] Skipping #$tid (support_type=$support_type, want agent)"
+      continue
+    fi
+
+    jq -n --argjson t "$ticket" --argjson c "$comments" \
+      '{ticket: $t.ticket, comments: $c.comments}' \
+      > "$ZENDESK_DIR/$tid.json"
+
+    new_count=$((new_count + 1))
+  done
+
+  # --- Update last sync date ---
   echo "$end_date" > "$LAST_SYNC_FILE"
-  echo "==> Updated last sync date to $end_date"
-  exit 0
-fi
 
-# --- Fetch each ticket's details + comments ---
-count=0
-for tid in "${ticket_ids[@]}"; do
-  count=$((count + 1))
-  echo "  [$count/$total] Fetching ticket #$tid..."
-
-  ticket=$(curl -s "$BASE_URL/tickets/$tid.json" -u "$AUTH")
-  comments=$(curl -s "$BASE_URL/tickets/$tid/comments.json" -u "$AUTH")
-
-  jq -n --argjson t "$ticket" --argjson c "$comments" \
-    '{ticket: $t.ticket, comments: $c.comments}' \
-    > "$ZENDESK_DIR/$tid.json"
+  echo "==> [$subdir] Synced $new_count new tickets to $ZENDESK_DIR/ ($total total matched)"
+  echo "==> [$subdir] Updated last sync date to $end_date"
 done
-
-# --- Update last sync date ---
-echo "$end_date" > "$LAST_SYNC_FILE"
-
-echo "==> Synced $total tickets to $ZENDESK_DIR/"
-echo "==> Updated last sync date to $end_date"

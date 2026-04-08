@@ -42,19 +42,19 @@ Per-feature health metrics for **Shopify Multi Carrier Shipping Label App**.
 
 ## Ticket Volume by Feature Area
 
-| Feature Area | Total Open | With `dev_needed` | With `high_agent_replies` | With `l3` (escalated) | With `to-do` |
-|-------------|-----------|-------------------|--------------------------|----------------------|-------------|
-| Onboarding | 9 | 3 | 1 | 0 | 3 |
-| Carrier Config | 8 | 5 | 3 | 2 | 2 |
-| Label Generation | 6 | 5 | 2 | 0 | 3 |
-| Carrier Migration | 4 | 2 | 2 | 2 | 0 |
-| Order Management | 3 | 2 | 0 | 0 | 1 |
-| Australia Post | 2 | 2 | 0 | 0 | 0 |
-| International / DG | 2 | 0 | 1 | 1 | 0 |
-| Rate Shopping | 2 | 2 | 1 | 0 | 1 |
-| Tracking | 1 | 0 | 0 | 1 | 0 |
-| Other | 14 | 11 | 8 | 1 | 5 |
-| **Total** | **52** | **34** | **18** | **7** | **15** |
+| Feature Area       | Total Open | With `dev_needed` | With `high_agent_replies` | With `l3` (escalated) | With `to-do` |
+| ------------------ | ---------- | ----------------- | ------------------------- | --------------------- | ------------ |
+| Onboarding         | 9          | 3                 | 1                         | 0                     | 3            |
+| Carrier Config     | 8          | 5                 | 3                         | 2                     | 2            |
+| Label Generation   | 6          | 5                 | 2                         | 0                     | 3            |
+| Carrier Migration  | 4          | 2                 | 2                         | 2                     | 0            |
+| Order Management   | 3          | 2                 | 0                         | 0                     | 1            |
+| Australia Post     | 2          | 2                 | 0                         | 0                     | 0            |
+| International / DG | 2          | 0                 | 1                         | 1                     | 0            |
+| Rate Shopping      | 2          | 2                 | 1                         | 0                     | 1            |
+| Tracking           | 1          | 0                 | 0                         | 1                     | 0            |
+| Other              | 14         | 11                | 8                         | 1                     | 5            |
+| **Total**          | **52**     | **34**            | **18**                    | **7**                 | **15**       |
 
 ---
 
@@ -64,17 +64,17 @@ Composite score: `(ticket_volume x severity_weight) / automation_confidence`
 
 Severity weights: `dev_needed` = 2, `high_agent_replies` = 1.5, `l3` = 3, `to-do` = 1
 
-| Feature Area | Raw Pain | Automation Factor | Pain Index | Action Priority |
-|-------------|----------|-------------------|------------|----------------|
-| Carrier Config | 26.0 | / 0.07 = | **371** | P0 - Immediate |
-| Carrier Migration | 17.0 | / 0.01 = | **1700** | P0 - Immediate (time-sensitive) |
-| Onboarding | 14.0 | / 0.40 = | **35** | P1 - High |
-| Label Generation | 16.5 | / 1.00 = | **17** | P2 - Medium |
-| Rate Shopping | 7.5 | / 0.01 = | **750** | P1 - High |
-| Order Management | 5.0 | / 0.58 = | **9** | P3 - Low |
-| Australia Post | 6.0 | / 0.01 = | **600** | P1 - High (emerging) |
-| International / DG | 5.5 | / 0.80 = | **7** | P3 - Low |
-| Tracking | 3.0 | / 0.07 = | **43** | P2 - Medium |
+| Feature Area       | Raw Pain | Automation Factor | Pain Index | Action Priority                 |
+| ------------------ | -------- | ----------------- | ---------- | ------------------------------- |
+| Carrier Config     | 26.0     | / 0.07 =          | **371**    | P0 - Immediate                  |
+| Carrier Migration  | 17.0     | / 0.01 =          | **1700**   | P0 - Immediate (time-sensitive) |
+| Onboarding         | 14.0     | / 0.40 =          | **35**     | P1 - High                       |
+| Label Generation   | 16.5     | / 1.00 =          | **17**     | P2 - Medium                     |
+| Rate Shopping      | 7.5      | / 0.01 =          | **750**    | P1 - High                       |
+| Order Management   | 5.0      | / 0.58 =          | **9**      | P3 - Low                        |
+| Australia Post     | 6.0      | / 0.01 =          | **600**    | P1 - High (emerging)            |
+| International / DG | 5.5      | / 0.80 =          | **7**      | P3 - Low                        |
+| Tracking           | 3.0      | / 0.07 =          | **43**     | P2 - Medium                     |
 
 **Top 3 by Pain Index**: Carrier Migration (1700), Rate Shopping (750), Australia Post (600)
 

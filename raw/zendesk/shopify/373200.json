@@ -1,0 +1,591 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/373200.json",
+    "id": 373200,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "carlos.brohlin@postnord.com",
+          "name": "Carlos Brohlin, PostNord"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-02-09T13:33:42Z",
+    "updated_at": "2026-02-23T05:23:43Z",
+    "generated_timestamp": 1771824223,
+    "type": null,
+    "subject": "PostNord-Discontinued, updated and changed services",
+    "raw_subject": "PostNord-Discontinued, updated and changed services",
+    "description": "Hi there!\n\n \n\nIt is time for PostNord to present Nordic changes that will take place 1st of May!\n\n \n\nWhat is this?\n\nYou are hereby invited to take part in a webinar concerning the changes that will be implemented at the Nordic level regarding PostNord services. We will go through in detail what you as a partner need to consider and answer any questions or thoughts you might have.\n\n \n\nHow can I join?\n\nPut the date and time February 19th 14.00-15.00 (Swedish time) in your calendar.\n\nYou can also add the link to the webinar in your own calendar notes.\n\nA reminder will be emailed a couple of days before the webinar.\n\n \n\nIf I have some questions?\n\nIf you have any questions before the webinar, you are welcome to send us an email. Attached are also the changes that will apply starting May 1st for you to read. You can also send us questions after the webinar.\n\n \n\nIs that all?\n\nRemember, we are not making a traditional calendar invitation as there were problems on the last occasion and the meeting booking was cancelled for some participants. Also, feel free to send this invite to whom it may concern.\n\n \n\nSee you online 19th of February at 14:00. 😉\n\n \n\nPresenter:\n\nChristian Wankowicz, PostNord International\n\n \n\nhttps://teams.microsoft.com/meet/32574219688339?p=drZGBVEfuWKVMyLO5O\n\nMeeting-ID: 325 742 196 883 39\n\nPassword: eu2Ss93M\n\n \n\n \n\nBest Regards\n\nCarlos Brohlin/Martin Wennerholm\n\nDigital Partner/e-Commerce\n\ncarlos.brohlin@postnord.com\n\nmartin.wennerholm@postnord.com\n\n \n\n \n\n____________\n\n \n\nPostNord Sverige\n\nAO Paket/ Produktledning\n\nSE-105 00 Stockholm\n\nSweden\n\n \n\nVisiting address: Terminalvägen 24, Solna\n\n \n\nWe make everyday life easier.\n\nPostNord provides solutions for communications, logistics, distribution and e-commerce to, from and within the Nordic region. Visit us at postnord.se (http://www.postnord.se/) .",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 51117123860889,
+    "submitter_id": 51117123860889,
+    "assignee_id": 6932179641113,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      36259900414617,
+      51117214802713,
+      903409790923,
+      410186940351,
+      390739881171
+    ],
+    "follower_ids": [
+      36259900414617,
+      51117214802713,
+      903409790923,
+      410186940351,
+      390739881171
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "issues_with_setting_up_the_plugin",
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "to-do"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "n/a"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69982f4e12d4bced692244f4"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "LE1Y2P-G6PJN",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "n/a"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69982f4e12d4bced692244f4"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 55026246736025,
+      "type": "Comment",
+      "author_id": 51117123860889,
+      "body": "Hi there!\n\n\n\nIt is time for PostNord to present Nordic changes that will take place 1st of May!\n\n\n\n**What is this?**\n\nYou are hereby invited to take part in a webinar concerning the changes that will be implemented at the Nordic level regarding PostNord services. We will go through in detail what you as a partner need to consider and answer any questions or thoughts you might have.\n\n\n\n**How can I join?**\n\nPut the date and time **February 19th 14.00-15.00 (Swedish time)** in your calendar.\n\nYou can also add the link to the webinar in your own calendar notes.\n\nA reminder will be emailed a couple of days before the webinar.\n\n\n\n**If I have some questions?**\n\nIf you have any questions before the webinar, you are welcome to send us an email. Attached are also the changes that will apply starting May 1st for you to read. You can also send us questions after the webinar.\n\n\n\n**Is that all?**\n\nRemember, we are not making a traditional calendar invitation as there were problems on the last occasion and the meeting booking was cancelled for some participants. Also, feel free to send this invite to whom it may concern.\n\n\n\nSee you online 19th of February at 14:00.😉\n\n\n\nPresenter:\n\n**Christian Wankowicz, PostNord International**\n\n\n\nhttps://teams.microsoft.com/meet/32574219688339?p=drZGBVEfuWKVMyLO5O\n\nMeeting-ID:325 742 196 883 39\n\nPassword:eu2Ss93M\n\n\n\n\n\n**Best Regards**\n\n_Carlos Brohlin/Martin Wennerholm_\n\nDigital Partner/e-Commerce\n\ncarlos.brohlin@postnord.com\n\nmartin.wennerholm@postnord.com\n\n\n\n\n\n**____________**\n\n\n\n**PostNord Sverige**\n\nAO Paket/ Produktledning\n\nSE-105 00 Stockholm\n\nSweden\n\n\n\nVisiting address:Terminalvägen 24, Solna\n\n\n\n**We make everyday life easier**.\n\nPostNord provides solutions for communications, logistics, distribution and e-commerce to, from and within the Nordic region. Visit us atpostnord.se.\n\n\n\n![](https://support.pluginhive.com/attachments/token/Y4wvCd3RsuIlRIsi13CIUlAr6/?name=image002.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">\n<div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\">Hi there!</p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\">&nbsp;</p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>It is time for PostNord to present Nordic changes that will take place 1<sup>st</sup> of May!</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><b><span>What is this?</span></b></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>You are hereby invited to take part in a webinar concerning the changes that will be implemented at the Nordic level regarding PostNord services. We will go through in detail what you as a partner need to consider and\n answer any questions or thoughts you might have.</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><b><span>How can I join?</span></b></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>Put the date and time <b>February 19th 14.00-15.00 (Swedish time)</b> in your calendar.\n</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>You can also add the link to the webinar in your own calendar notes.<b></b></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>A reminder will be emailed a couple of days before the webinar.</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><b><span>If I have some questions?</span></b></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>If you have any questions before the webinar, you are welcome to send us an email. Attached are also the changes that will apply starting May 1<sup>st</sup> for you to read. You can also send us questions after the webinar.</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><b><span>Is that all?</span></b></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>Remember, we are not making a traditional calendar invitation as there were problems on the last occasion and the meeting booking was cancelled for some participants. Also, feel free to send this invite to whom it may\n concern.</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>See you online 19<sup>th</sup> of February at 14:00.\n</span><span>😉</span><span>\n</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">Presenter:<b>\n</b></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><b><span style=\"font-size: 10.0pt; color: black; \">Christian Wankowicz, PostNord International</span></b><b><span style=\"font-size: 8.0pt; color: black; \"></span></b></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\" color: #242424;\"><a href=\"https://teams.microsoft.com/meet/32574219688339?p=drZGBVEfuWKVMyLO5O\" title=\"Meeting join\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 15.0pt; color: #5B5FC7;\">https://teams.microsoft.com/meet/32574219688339?p=drZGBVEfuWKVMyLO5O</span></a></span><span style=\" color: #242424;\">\n<span></span></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span><span style=\"font-size: 10.5pt; color: #616161;\">Meeting-ID:\n</span></span><span><span style=\"font-size: 10.5pt; color: #242424;\">325 742 196 883 39</span></span><span style=\" color: #242424;\">\n</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span><span style=\"font-size: 10.5pt; color: #616161;\">Password:\n</span></span><span><span style=\"font-size: 10.5pt; color: #242424;\">eu2Ss93M</span></span><span style=\" color: #242424;\">\n</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p style=\"font-size: 11.0pt; margin: 0cm 0cm 12.0pt;\" dir=\"auto\"><b><span style=\"font-size: 8.0pt; color: black; \">Best Regards</span></b></p>\n<p style=\"font-size: 11.0pt; margin: 0cm 0cm 12.0pt;\" dir=\"auto\"><i><span style=\"font-size: 8.0pt; color: black; \">Carlos Brohlin/Martin Wennerholm</span></i></p>\n<p style=\"font-size: 11.0pt; margin: 0cm 0cm 12.0pt;\" dir=\"auto\"><span style=\"font-size: 8.0pt; color: black; \">Digital Partner/e-Commerce<i></i></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \"><a href=\"mailto:carlos.brohlin@postnord.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: blue;\">carlos.brohlin@postnord.com</span></a></span><span style=\"font-size: 8.0pt; color: black; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \"><a href=\"mailto:martin.wennerholm@postnord.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span>martin.wennerholm@postnord.com</span></a></span><span style=\"font-size: 8.0pt; color: black; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><b><span style=\"font-size: 8.0pt; color: #0099BB; \">____________</span></b><span style=\"font-size: 8.0pt; color: black; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><b><span style=\"font-size: 8.0pt; color: black; \">PostNord Sverige</span></b><span style=\"font-size: 8.0pt; color: black; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">AO Paket/ Produktledning</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">SE-105 00 Stockholm</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">Sweden</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">Visiting address:\n</span><span style=\"font-size: 8.0pt; color: black; \">Terminalvägen 24, Solna</span><span style=\"font-size: 8.0pt; color: black; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; \">&nbsp;</span></p>\n<p style=\" font-size: 11.0pt; margin: 0cm 0cm 8.0pt;\" dir=\"auto\"><b><span style=\"font-size: 8.0pt; color: #00A0D6; \">We make everyday life easier</span></b><span style=\"font-size: 8.0pt; color: #00A0D6; \">.\n</span></p>\n<p style=\" font-size: 11.0pt; margin: 0cm 0cm 8.0pt;\" dir=\"auto\"><span style=\"font-size: 8.0pt; color: #00A0D6; \">PostNord provides solutions for communications, logistics, distribution and e-commerce\n to, from and within the Nordic region. </span><span style=\"font-size: 8.0pt; color: #00A0D6; \">Visit us at\n</span><span><a href=\"http://www.postnord.se/\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 8.0pt; color: #00A0D6;\">postnord.se</span></a></span><u><span style=\"font-size: 8.0pt; color: #00A0D6; \">.</span></u></p>\n<p style=\" font-size: 11.0pt; margin: 0cm 0cm 8.0pt;\" dir=\"auto\"><u><span style=\"font-size: 8.0pt; color: #00A0D6; \"><span style=\"text-decoration: none;\">&nbsp;</span></span></u></p>\n<p style=\" font-size: 11.0pt; margin: 0cm 0cm 8.0pt;\" dir=\"auto\"><span style=\"font-size: 8.0pt; \"><img border=\"0\" width=\"287\" height=\"77\" style=\"width: 2.9861in; height: .8055in;\" src=\"https://support.pluginhive.com/attachments/token/Y4wvCd3RsuIlRIsi13CIUlAr6/?name=image002.png\"></span><span></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\">&nbsp;</p>\n</div></div>",
+      "plain_body": "Hi there! \n &nbsp; \n It is time for PostNord to present Nordic changes that will take place 1st of May! \n &nbsp; \n What is this? \n You are hereby invited to take part in a webinar concerning the changes that will be implemented at the Nordic level regarding PostNord services. We will go through in detail what you as a partner need to consider and\n answer any questions or thoughts you might have. \n &nbsp; \n How can I join? \n Put the date and time February 19th 14.00-15.00 (Swedish time) in your calendar.\n \n You can also add the link to the webinar in your own calendar notes. \n A reminder will be emailed a couple of days before the webinar. \n &nbsp; \n If I have some questions? \n If you have any questions before the webinar, you are welcome to send us an email. Attached are also the changes that will apply starting May 1st for you to read. You can also send us questions after the webinar. \n &nbsp; \n Is that all? \n Remember, we are not making a traditional calendar invitation as there were problems on the last occasion and the meeting booking was cancelled for some participants. Also, feel free to send this invite to whom it may\n concern. \n &nbsp; \n See you online 19th of February at 14:00.\n😉\n \n &nbsp; \n Presenter:\n \n Christian Wankowicz, PostNord International \n &nbsp; \n https://teams.microsoft.com/meet/32574219688339?p=drZGBVEfuWKVMyLO5O\n \n Meeting-ID:\n325 742 196 883 39\n \n Password:\neu2Ss93M\n \n &nbsp; \n &nbsp; \n Best Regards \n Carlos Brohlin/Martin Wennerholm \n Digital Partner/e-Commerce \n carlos.brohlin@postnord.com \n martin.wennerholm@postnord.com \n &nbsp; \n &nbsp; \n ____________ \n &nbsp; \n PostNord Sverige \n AO Paket/ Produktledning \n SE-105 00 Stockholm \n Sweden \n &nbsp; \n Visiting address:\nTerminalvägen 24, Solna \n &nbsp; \n We make everyday life easier.\n \n PostNord provides solutions for communications, logistics, distribution and e-commerce\n to, from and within the Nordic region. Visit us at\npostnord.se. \n &nbsp; \n  \n &nbsp; \n &nbsp;",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55026246745881.json",
+          "id": 55026246745881,
+          "file_name": "Transport Data Changes May V1 (3).pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/l3AgZR9MBO3Hw9tmUCSEaIrej/?name=Transport+Data+Changes+May+V1+%283%29.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/l3AgZR9MBO3Hw9tmUCSEaIrej/?name=Transport+Data+Changes+May+V1+%283%29.pdf",
+          "content_type": "application/pdf",
+          "size": 372075,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 55026246735897,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "carlos.brohlin@postnord.com",
+            "name": "Carlos Brohlin, PostNord",
+            "original_recipients": [
+              "carlos.brohlin@postnord.com",
+              "martin.wennerholm@postnord.com",
+              "christian.wankowicz@postnord.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-09T13:33:42Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DU0PR02MB90289F70927B9FBF781FE2EFE865A@DU0PR02MB9028.eurprd02.prod.outlook.com>",
+          "email_id": "01KH19PX2SMFX4Z7BZJ9W2DTWP",
+          "raw_email_identifier": "2369120/cdd69601-c7df-4461-8741-efeca582b35d.eml",
+          "json_email_identifier": "2369120/cdd69601-c7df-4461-8741-efeca582b35d.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55027366010265,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Carlos,\n\nThank you for reaching out to PluginHive.\n\nI have included Abhilash to this conversation, who is our Partnership Manager and works closely with PostNord.\n\nHe would reach out to you on this.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Carlos,<br>&nbsp;<br>Thank you for reaching out to PluginHive.<br>&nbsp;<br>I have included Abhilash to this conversation, who is our Partnership Manager and works closely with PostNord.&nbsp;<br>&nbsp;<br>He would reach out to you on this.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Carlos,\n&nbsp;\nThank you for reaching out to PluginHive.\n&nbsp;\nI have included Abhilash to this conversation, who is our Partnership Manager and works closely with PostNord.&nbsp;\n&nbsp;\nHe would reach out to you on this.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55027366010137,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-09T14:38:12Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55027415878297,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Have informed Abhilash and the team on this in slack https://pluginhive.slack.com/archives/C09FMQNEV9P/p1770648003556619\n\nNRN further from support. Moving to Pending",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Have informed Abhilash and the team on this in slack <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C09FMQNEV9P/p1770648003556619\">https://pluginhive.slack.com/archives/C09FMQNEV9P/p1770648003556619</a><br>&nbsp;<br>NRN further from support. Moving to Pending<br></div>",
+      "plain_body": "Have informed Abhilash and the team on this in slack https://pluginhive.slack.com/archives/C09FMQNEV9P/p1770648003556619\n&nbsp;\nNRN further from support. Moving to Pending",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55027415877657,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-09T14:40:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55053481152665,
+      "type": "Comment",
+      "author_id": 903409790923,
+      "body": "Hi Carlos,\n\n\nThank you for the invitation and for sharing the details.\n\n\n\nWe’ve noted the webinar on February 19th (14:00–15:00 Swedish time) and will attend. We’ll also review the attached document in advance.\n\n\n\nLooking forward to the session.\n\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Carlos,&nbsp;<div><br></div><div>Thank you for the invitation and for sharing the details.&nbsp;</div><div><br></div><div>We’ve noted the webinar on February 19th (14:00–15:00 Swedish time) and will attend. We’ll also review the attached document in advance.&nbsp;</div><div><br></div><div>Looking forward to the session.<div><br><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n<div><br></div></div></div></div>",
+      "plain_body": "Hi Carlos,&nbsp; \n  Thank you for the invitation and for sharing the details.&nbsp;  \n  We’ve noted the webinar on February 19th (14:00–15:00 Swedish time) and will attend. We’ll also review the attached document in advance.&nbsp;  \n  Looking forward to the session. \n \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55053481152537,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "carlos.brohlin@postnord.com",
+            "name": "Carlos Brohlin, PostNord",
+            "original_recipients": [
+              "abhilash@pluginhive.com",
+              "carlos.brohlin@postnord.com",
+              "martin.wennerholm@postnord.com",
+              "christian.wankowicz@postnord.com",
+              "support@pluginhive.com",
+              "vimal@pluginhive.com",
+              "veena@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-10T09:29:28Z",
+      "metadata": {
+        "system": {
+          "message_id": "<A3565EA8-BCDA-4C44-AD13-9FBE494BDE03@pluginhive.com>",
+          "client": "Apple Mail (2.3864.300.41.1.7)",
+          "email_id": "01KH3E4N7KDFAS1VB03A3K808W",
+          "raw_email_identifier": "2369120/1072428e-1056-4392-9a71-252f838b3672.eml",
+          "json_email_identifier": "2369120/1072428e-1056-4392-9a71-252f838b3672.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          51117123860889
+        ]
+      }
+    },
+    {
+      "id": 55061673040025,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "NRN from support. Concerned team is aware of the call. Keeping the ticket OnHold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">NRN from support. Concerned team is aware of the call. Keeping the ticket OnHold<br></div>",
+      "plain_body": "NRN from support. Concerned team is aware of the call. Keeping the ticket OnHold",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55061673039897,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-10T15:46:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55268073805209,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Request #374682 \"Reminder 19th of February 14.00-...\" was closed and merged into this request. Last comment in request #374682:\r\n\r\nHi!\r\n\r\n\r\n\r\nHere is a reminder regarding tomorrows webinar starting at 14:00 Swedish time.😉\r\n\r\nWe will go through upcoming changes, updates and ending of some of PostNord services in the Nordics starting May 2026.\r\n\r\n\r\n\r\nMore info in your previous invite sent a couple of weeks ago.\r\n\r\n\r\n\r\nJoin by clicking the Teamslink: **:**https://teams.microsoft.com/meet/32574219688339?p=drZGBVEfuWKVMyLO5O\r\n\r\n\r\n\r\nBest Regards\r\n\r\n\r\n\r\n/_Carlos and Martin_\r\n\r\n\r\n\r\n** **\r\n\r\n**Carlos Brohlin**\r\nDigital Partner\r\n\r\n+46 72 562 2101\r\n\r\n\r\n\r\ncarlos.brohlin@postnord.com\r\n\r\n\r\n\r\n\r\n\r\n**____________**\r\n\r\n\r\n\r\n**PostNord Sverige**\r\n\r\nAO Paket/ Produktledning\r\n\r\nSE-105 00 Stockholm\r\n\r\nSweden\r\n\r\n\r\n\r\nVisiting address:Terminalvägen 24, Solna\r\n\r\n\r\n\r\n**We make everyday life easier**.\r\n\r\nPostNord provides solutions for communications, logistics, distribution and e-commerce to, from and within the Nordic region. Visit us atpostnord.se.\r\n\r\n\r\n\r\n![](https://support.pluginhive.com/attachments/token/WTsFi4rm6OPLMaHY69XoMiPgh/?name=image003.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/374682\" target=\"_blank\" rel=\"ticket\">#374682</a> \"Reminder 19th of February 14.00-...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/374682\" target=\"_blank\" rel=\"ticket\">#374682</a>:</p>\n<p dir=\"auto\">Hi!</p>\n<p dir=\"auto\">Here is a reminder regarding tomorrows webinar starting at 14:00 Swedish time.😉</p>\n<p dir=\"auto\">We will go through upcoming changes, updates and ending of some of PostNord services in the Nordics starting May 2026.</p>\n<p dir=\"auto\">More info in your previous invite sent a couple of weeks ago.</p>\n<p dir=\"auto\">Join by clicking the Teamslink: <strong>:</strong><a href=\"https://teams.microsoft.com/meet/32574219688339?p=drZGBVEfuWKVMyLO5O\" rel=\"noreferrer\">https://teams.microsoft.com/meet/32574219688339?p=drZGBVEfuWKVMyLO5O</a></p>\n<p dir=\"auto\">Best Regards</p>\n<p dir=\"auto\">/<em>Carlos and Martin</em></p>\n<hr>\n<p dir=\"auto\"><strong>Carlos Brohlin</strong><br>\nDigital Partner</p>\n<p dir=\"auto\">+46 72 562 2101</p>\n<p dir=\"auto\"><a href=\"mailto:carlos.brohlin@postnord.com\" rel=\"noreferrer\">carlos.brohlin@postnord.com</a></p>\n<p dir=\"auto\"><strong>____________</strong></p>\n<p dir=\"auto\"><strong>PostNord Sverige</strong></p>\n<p dir=\"auto\">AO Paket/ Produktledning</p>\n<p dir=\"auto\">SE-105 00 Stockholm</p>\n<p dir=\"auto\">Sweden</p>\n<p dir=\"auto\">Visiting address:Terminalvägen 24, Solna</p>\n<p dir=\"auto\"><strong>We make everyday life easier</strong>.</p>\n<p dir=\"auto\">PostNord provides solutions for communications, logistics, distribution and e-commerce to, from and within the Nordic region. Visit us atpostnord.se.</p>\n<p dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/WTsFi4rm6OPLMaHY69XoMiPgh/?name=image003.png\" alt=\"\"></p></div>",
+      "plain_body": "Request #374682 \"Reminder 19th of February 14.00-...\" was closed and merged into this request. Last comment in request #374682: \n Hi! \n Here is a reminder regarding tomorrows webinar starting at 14:00 Swedish time.😉 \n We will go through upcoming changes, updates and ending of some of PostNord services in the Nordics starting May 2026. \n More info in your previous invite sent a couple of weeks ago. \n Join by clicking the Teamslink: :https://teams.microsoft.com/meet/32574219688339?p=drZGBVEfuWKVMyLO5O \n Best Regards \n /Carlos and Martin \n \n Carlos Brohlin\n\nDigital Partner \n +46 72 562 2101 \n carlos.brohlin@postnord.com \n ____________ \n PostNord Sverige \n AO Paket/ Produktledning \n SE-105 00 Stockholm \n Sweden \n Visiting address:Terminalvägen 24, Solna \n We make everyday life easier. \n PostNord provides solutions for communications, logistics, distribution and e-commerce to, from and within the Nordic region. Visit us atpostnord.se.",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55268075734809.json",
+          "id": 55268075734809,
+          "file_name": "image003.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/LF6GcAOMdtebr17j5kx8Oc8v9/?name=image003.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/LF6GcAOMdtebr17j5kx8Oc8v9/?name=image003.png",
+          "content_type": "image/png",
+          "size": 23537,
+          "width": 430,
+          "height": 116,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/55268073825177.json",
+              "id": 55268073825177,
+              "file_name": "image003_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/Df7pwRmU0k0gX3HUiPJiUekK8/?name=image003_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/Df7pwRmU0k0gX3HUiPJiUekK8/?name=image003_thumb.png",
+              "content_type": "image/png",
+              "size": 2269,
+              "width": 80,
+              "height": 22,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 55268073804697,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              374682
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-02-18T08:25:07Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55307108454809,
+      "type": "Comment",
+      "author_id": 51117123860889,
+      "body": "\n\n\n\nHi,\n\n\n\nThank you to those attending the meeting today.\n\n\n\nThe new updated document is attached for all of you.\n\nThe same will be uploaded to developer.postnord.com tomorrow.\n\nIf you have any questions, please reach out to your local integration team:\n\nGermany (z10): logistics.it.de@postnord.com\nDenmark (z11): kundeintegration@postnord.com\nSweden (z12): kundintegration.se@postnord.com\nNorway (z13): edi.no@postnord.com\nFinland (z14): it.fi@postnord.com\nInternational (ZDL): dluk.integration@intl.postnord.com\n\nAlso mentioned in the meeting, not added in the documentation:\n\nYou should not be able to choose INCO terms when using Postal shipments outside of the Nordics, if your clients can do that, please ensure that you remove that possibility.\n\n\n\nAny feedback, please let us know by reaching out to our presenter:\n\n**Christian****Wankowicz**\n\nIntegration Specialist\n\n\n\nT  +46 10 436 03 90\n\nChristian.wankowicz@postnord.com\n\n**__________**\n\n**PostNord International**\nGroup Operations & IT\n\nTerminalvägen 24\n\nSE-171 73 Stockholm\n\nSweden\nwww.postnord.com\n\n**Whatever the destination. We deliver.**\n\n\n\n**Från:** Carlos Brohlin, PostNord <Carlos.Brohlin@postnord.com>\n**Skickat:** den 18 februari 2026 09:13\n**Till:** Martin Wennerholm, PostNord <Martin.Wennerholm@Postnord.com>; Christian Wankowicz, PostNord <christian.wankowicz@postnord.com>\n**Ämne:** Reminder 19th of February 14.00-15.00\n\n\n\nHi!\n\n\n\nHere is a reminder regarding tomorrows webinar starting at 14:00 Swedish time.😉\n\nWe will go through upcoming changes, updates and ending of some of PostNord services in the Nordics starting May 2026.\n\n\n\nMore info in your previous invite sent a couple of weeks ago.\n\n\n\nJoin by clicking the Teamslink: **:**https://teams.microsoft.com/meet/32574219688339?p=drZGBVEfuWKVMyLO5O\n\n\n\nBest Regards\n\n\n\n/_Carlos and Martin_\n\n\n\n** **\n\n**Carlos Brohlin**\nDigital Partner\n\n+46 72 562 2101\n\n\n\ncarlos.brohlin@postnord.com\n\n\n\n\n\n**____________**\n\n\n\n**PostNord Sverige**\n\nAO Paket/ Produktledning\n\nSE-105 00 Stockholm\n\nSweden\n\n\n\nVisiting address:Terminalvägen 24, Solna\n\n\n\n**We make everyday life easier**.\n\nPostNord provides solutions for communications, logistics, distribution and e-commerce to, from and within the Nordic region. Visit us atpostnord.se.\n\n\n\n![](https://support.pluginhive.com/attachments/token/FBK0GT86fYXF8Ouio6B7uw9Vp/?name=image001.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">\n<div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\">&nbsp;</p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\">&nbsp;</p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>Hi,</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>Thank you to those attending the meeting today.</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>The new updated document is attached for all of you.</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>The same will be uploaded to developer.postnord.com tomorrow.</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span><br>\nIf you have any questions, please reach out to your local integration team:<br>\n<br>\nGermany (z10): </span><a href=\"mailto:logistics.it.de@postnord.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span>logistics.it.de@postnord.com</span></a><span>&nbsp;<br>\nDenmark (z11): </span><a href=\"mailto:kundeintegration@postnord.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span>kundeintegration@postnord.com</span></a><span>&nbsp;&nbsp;<br>\nSweden (z12): </span><a href=\"mailto:kundintegration.se@postnord.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span>kundintegration.se@postnord.com</span></a><span>&nbsp;<br>\nNorway (z13): </span><a href=\"mailto:edi.no@postnord.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span>edi.no@postnord.com</span></a><span>&nbsp;<br>\n</span><span>Finland (z14): </span>\n<a href=\"mailto:it.fi@postnord.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span>it.fi@postnord.com</span></a><span>&nbsp;<br>\n</span><span>International&nbsp;(ZDL):&nbsp;</span><a href=\"mailto:dluk.integration@intl.postnord.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span>dluk.integration@intl.postnord.com</span></a><span><br>\n<br>\n<span style=\"color: red;\">Also mentioned in the meeting, not added in the documentation:</span></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>You should not be able to choose INCO terms when using Postal shipments outside of the Nordics, if your clients can do that, please ensure that you remove that possibility.</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p style=\"font-size: 11.0pt; margin: 0cm 0cm 12.0pt;\" dir=\"auto\"><span>Any feedback, please let us know by reaching out to our presenter:</span></p>\n<div>\n<p style=\" font-size: 11.0pt; margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 8.0pt; \">Christian</span></b><b><span style=\"font-size: 10.0pt; \">\n</span></b><b><span style=\"font-size: 9.0pt; \">Wankowicz</span></b><span style=\"font-size: 10.0pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; \">Integration Specialist</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; \">&nbsp;</span></p>\n<p style=\" font-size: 11.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 8.0pt; \">T&nbsp; +46 10&nbsp;436 03 90</span><span style=\"font-size: 8.0pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><a href=\"mailto:Christian.wankowicz@postnord.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 8.0pt; color: #0563C1; \">Christian.wankowicz@postnord.com</span></a><span style=\"font-size: 8.0pt; \">\n<span></span></span></p>\n<p style=\" font-size: 11.0pt; margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 20.0pt; color: #00A0D6; \">__________</span></b><span style=\"font-size: 8.0pt; \"><br>\n<br>\n<b>PostNord International<br>\n</b>Group </span><span style=\"font-size: 8.0pt; \">Operations &amp; IT</span><span style=\"font-size: 8.0pt; color: black; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; \">Terminalvägen 24&nbsp;</span><span></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">SE-171 73 Stockholm</span><span style=\"font-size: 12.0pt; \"></span></p>\n<p style=\"font-size: 11.0pt; margin: 0cm 0cm 12.0pt;\" dir=\"auto\"><span style=\"font-size: 8.0pt; color: black; \">Sweden<br>\n</span><a href=\"http://www.postnord.com/\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 8.0pt; color: windowtext; text-decoration: none;\">www.postnord.com</span></a><span style=\"font-size: 12.0pt; \"></span></p>\n<p style=\"font-size: 11.0pt; margin: 0cm 0cm 12.0pt;\" dir=\"auto\"><b><span style=\"font-size: 8.0pt; color: #00A0D6; \">Whatever the destination. We deliver.</span></b></p>\n</div>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<div>\n<div style=\"border-top-width: 1.0pt; border-top-color: #E1E1E1; padding: 3.0pt 0cm 0cm; border-style: solid none none;\">\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><b><span>Från:</span></b><span> Carlos\n Brohlin, PostNord &lt;</span><a href=\"mailto:Carlos.Brohlin@postnord.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span>Carlos.Brohlin@postnord.com</span></a><span>&gt;\n<br>\n<b>Skickat:</b> den 18 februari 2026 09:13<br>\n<b>Till:</b> Martin Wennerholm, PostNord &lt;</span><a href=\"mailto:Martin.Wennerholm@Postnord.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span>Martin.Wennerholm@Postnord.com</span></a><span>&gt;;\n Christian Wankowicz, PostNord &lt;</span><a href=\"mailto:christian.wankowicz@postnord.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span>christian.wankowicz@postnord.com</span></a><span>&gt;<br>\n<b>Ämne:</b> Reminder 19th of February 14.00-15.00</span></p>\n</div>\n</div>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>Hi!</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>Here is a reminder regarding tomorrows webinar starting at 14:00 Swedish time.\n</span><span>😉</span><span>\n</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>We will go through upcoming changes, updates and ending of some of PostNord services in the Nordics starting May 2026.</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>More info in your previous invite sent a couple of weeks ago.\n</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>Join by clicking the Teamslink: </span><b><span style=\"font-size: 15.0pt; color: #242424;\">:\n</span></b><a href=\"https://teams.microsoft.com/meet/32574219688339?p=drZGBVEfuWKVMyLO5O\" title=\"Meeting join\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 15.0pt; color: #5B5FC7;\">https://teams.microsoft.com/meet/32574219688339?p=drZGBVEfuWKVMyLO5O</span></a><span></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>Best Regards</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>/<i>Carlos and Martin</i></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p style=\"font-size: 11.0pt; margin: 0cm 0cm 12.0pt;\" dir=\"auto\"><b><span style=\"font-size: 8.0pt; color: black; \">&nbsp;</span></b></p>\n<p style=\"font-size: 11.0pt; margin: 0cm 0cm 12.0pt;\" dir=\"auto\"><b><span style=\"font-size: 8.0pt; color: black; \">Carlos Brohlin</span></b><span style=\"font-size: 8.0pt; color: black; \"><br>\nDigital Partner</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">+46 72&nbsp;562 2101</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><a href=\"mailto:carlos.brohlin@postnord.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 8.0pt; color: blue; \">carlos.brohlin@postnord.com</span></a><span style=\"font-size: 8.0pt; color: black; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><b><span style=\"font-size: 8.0pt; color: #0099BB; \">____________</span></b><span style=\"font-size: 8.0pt; color: black; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><b><span style=\"font-size: 8.0pt; color: black; \">PostNord Sverige</span></b><span style=\"font-size: 8.0pt; color: black; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">AO Paket/ Produktledning</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">SE-105 00 Stockholm</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">Sweden</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; color: black; \">Visiting address:\n</span><span style=\"font-size: 8.0pt; color: black; \">Terminalvägen 24, Solna</span><span style=\"font-size: 8.0pt; color: black; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span style=\"font-size: 8.0pt; \">&nbsp;</span></p>\n<p style=\" font-size: 11.0pt; margin: 0cm 0cm 8.0pt;\" dir=\"auto\"><b><span style=\"font-size: 8.0pt; color: #00A0D6; \">We make everyday life easier</span></b><span style=\"font-size: 8.0pt; color: #00A0D6; \">.\n</span></p>\n<p style=\" font-size: 11.0pt; margin: 0cm 0cm 8.0pt;\" dir=\"auto\"><span style=\"font-size: 8.0pt; color: #00A0D6; \">PostNord provides solutions for communications, logistics, distribution and e-commerce\n to, from and within the Nordic region. </span><span style=\"font-size: 8.0pt; color: #00A0D6; \">Visit us at\n</span><a href=\"http://www.postnord.se/\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 8.0pt; color: #00A0D6; \">postnord.se</span></a><u><span style=\"font-size: 8.0pt; color: #00A0D6; \">.</span></u></p>\n<p style=\" font-size: 11.0pt; margin: 0cm 0cm 8.0pt;\" dir=\"auto\"><u><span style=\"font-size: 8.0pt; color: #00A0D6; \"><span style=\"text-decoration: none;\">&nbsp;</span></span></u></p>\n<p style=\" font-size: 11.0pt; margin: 0cm 0cm 8.0pt;\" dir=\"auto\"><span style=\"font-size: 8.0pt; \"><img border=\"0\" width=\"287\" height=\"77\" style=\"width: 2.9895in; height: .802in;\" src=\"https://support.pluginhive.com/attachments/token/FBK0GT86fYXF8Ouio6B7uw9Vp/?name=image001.png\"></span><span></span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 11.0pt; margin: 0cm;\">&nbsp;</p>\n</div></div>",
+      "plain_body": "&nbsp; \n &nbsp; \n Hi, \n &nbsp; \n Thank you to those attending the meeting today. \n &nbsp; \n The new updated document is attached for all of you. \n The same will be uploaded to developer.postnord.com tomorrow. \n \n\nIf you have any questions, please reach out to your local integration team:\n\n\n\nGermany (z10): logistics.it.de@postnord.com&nbsp;\n\nDenmark (z11): kundeintegration@postnord.com&nbsp;&nbsp;\n\nSweden (z12): kundintegration.se@postnord.com&nbsp;\n\nNorway (z13): edi.no@postnord.com&nbsp;\n\nFinland (z14): \nit.fi@postnord.com&nbsp;\n\nInternational&nbsp;(ZDL):&nbsp;dluk.integration@intl.postnord.com\n\n\n\nAlso mentioned in the meeting, not added in the documentation: \n You should not be able to choose INCO terms when using Postal shipments outside of the Nordics, if your clients can do that, please ensure that you remove that possibility. \n &nbsp; \n Any feedback, please let us know by reaching out to our presenter: \n \n Christian\nWankowicz \n Integration Specialist \n &nbsp; \n T&nbsp; +46 10&nbsp;436 03 90 \n Christian.wankowicz@postnord.com\n \n __________\n\n\n\nPostNord International\n\nGroup Operations &amp; IT \n Terminalvägen 24&nbsp; \n SE-171 73 Stockholm \n Sweden\n\nwww.postnord.com \n Whatever the destination. We deliver. \n \n &nbsp; \n \n \n Från: Carlos\n Brohlin, PostNord &lt;Carlos.Brohlin@postnord.com&gt;\n\n\nSkickat: den 18 februari 2026 09:13\n\nTill: Martin Wennerholm, PostNord &lt;Martin.Wennerholm@Postnord.com&gt;;\n Christian Wankowicz, PostNord &lt;christian.wankowicz@postnord.com&gt;\n\nÄmne: Reminder 19th of February 14.00-15.00 \n \n \n &nbsp; \n Hi! \n &nbsp; \n Here is a reminder regarding tomorrows webinar starting at 14:00 Swedish time.\n😉\n \n We will go through upcoming changes, updates and ending of some of PostNord services in the Nordics starting May 2026. \n &nbsp; \n More info in your previous invite sent a couple of weeks ago.\n \n &nbsp; \n Join by clicking the Teamslink: :\nhttps://teams.microsoft.com/meet/32574219688339?p=drZGBVEfuWKVMyLO5O \n &nbsp; \n Best Regards \n &nbsp; \n /Carlos and Martin \n &nbsp; \n &nbsp; \n Carlos Brohlin\n\nDigital Partner \n +46 72&nbsp;562 2101 \n &nbsp; \n carlos.brohlin@postnord.com \n &nbsp; \n &nbsp; \n ____________ \n &nbsp; \n PostNord Sverige \n AO Paket/ Produktledning \n SE-105 00 Stockholm \n Sweden \n &nbsp; \n Visiting address:\nTerminalvägen 24, Solna \n &nbsp; \n We make everyday life easier.\n \n PostNord provides solutions for communications, logistics, distribution and e-commerce\n to, from and within the Nordic region. Visit us at\npostnord.se. \n &nbsp; \n  \n &nbsp; \n &nbsp;",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55307106420633.json",
+          "id": 55307106420633,
+          "file_name": "Transport Data Changes May V2.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/uRHmj8SBL4BMzziN8OuHth8Qu/?name=Transport+Data+Changes+May+V2.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/uRHmj8SBL4BMzziN8OuHth8Qu/?name=Transport+Data+Changes+May+V2.pdf",
+          "content_type": "application/pdf",
+          "size": 373843,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 55307108454681,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "carlos.brohlin@postnord.com",
+            "name": "Carlos Brohlin, PostNord",
+            "original_recipients": [
+              "carlos.brohlin@postnord.com",
+              "christian.wankowicz@postnord.com",
+              "martin.wennerholm@postnord.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-19T14:16:23Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DU0PR02MB9028AAAED3B12C796351DA4CE86BA@DU0PR02MB9028.eurprd02.prod.outlook.com>",
+          "email_id": "01KHV44ED5AP0KZD13S8FJVEYP",
+          "raw_email_identifier": "2369120/7b2b497d-74f3-45eb-961f-7cc062cf213f.eml",
+          "json_email_identifier": "2369120/7b2b497d-74f3-45eb-961f-7cc062cf213f.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55326713096345,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "The Postnord team have shared the developer document for the team's reference.\nMoving to dev_needed as per Veena.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">The Postnord team have shared the developer document for the team's reference.<br>Moving to dev_needed as per Veena.<br>&nbsp;<br></div>",
+      "plain_body": "The Postnord team have shared the developer document for the team's reference.\nMoving to dev_needed as per Veena.\n&nbsp;",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55326660570905.json",
+          "id": 55326660570905,
+          "file_name": "Transport Data Changes May V2.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/LbATILsNvJqLTeQHwGoo5ua4k/?name=Transport+Data+Changes+May+V2.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/LbATILsNvJqLTeQHwGoo5ua4k/?name=Transport+Data+Changes+May+V2.pdf",
+          "content_type": "application/pdf",
+          "size": 373843,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 55326713096217,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-20T06:40:45Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "49.37.251.82",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

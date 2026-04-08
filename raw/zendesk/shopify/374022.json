@@ -1,0 +1,886 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/374022.json",
+    "id": 374022,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-02-13T13:00:17Z",
+    "updated_at": "2026-02-25T04:58:57Z",
+    "generated_timestamp": 1771995537,
+    "type": null,
+    "subject": "We would like to fix how much our UK customer get ...",
+    "raw_subject": "We would like to fix how much our UK customer get ...",
+    "description": "We would like to fix how much our UK customer get charged with imprt fees by our BUY1 GET1 FREE promotion on PH MultiCarrier Shipping Label.\n\nThis time, we got an email from UK customer saying they got charged import fees for 2 boxes (300euro) even though they paid 150euro for the 2 boxes with BUY1 GET1 FREE promotion.\n\nOn PH MultiCarrier Shipping Label app, it shows the total charge is 150 euro for 2 boxes, which is correct. However, on the commercial invoice, it says total value is 300euro for 2 boxes.\n\nCould you please fix this for us?\nSince we have many customers from the UK, we'd appreciate if you could help this as soon as possible.\n\nPlease find the attached photos for referance.\n\nThank you in advance.\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/1a68d01a-8e41-4e11-b3a3-b56c9892528d/bb95e8d2-8452-4b01-a666-b1515b3c5128/new",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 53959783356441,
+    "submitter_id": 53959783356441,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "to-do",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "e20301.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+447471673723"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "699e7f3c8fb8b3328dcca0f5"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "LEYNLZ-2L39W",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "e20301.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+447471673723"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "699e7f3c8fb8b3328dcca0f5"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 55155896242585,
+      "type": "Comment",
+      "author_id": 53959783356441,
+      "body": "We would like to fix how much our UK customer get charged with imprt fees by our BUY1 GET1 FREE promotion on PH MultiCarrier Shipping Label.\n\nThis time, we got an email from UK customer saying they got charged import fees for 2 boxes (300euro) even though they paid 150euro for the 2 boxes with BUY1 GET1 FREE promotion.\n\nOn PH MultiCarrier Shipping Label app, it shows the total charge is 150 euro for 2 boxes, which is correct. However, on the commercial invoice, it says total value is 300euro for 2 boxes.\n\nCould you please fix this for us?\nSince we have many customers from the UK, we'd appreciate if you could help this as soon as possible.\n\nPlease find the attached photos for referance.\n\nThank you in advance.\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/1a68d01a-8e41-4e11-b3a3-b56c9892528d/bb95e8d2-8452-4b01-a666-b1515b3c5128/new",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">We would like to fix how much our UK customer get charged with imprt fees by our BUY1 GET1 FREE promotion on PH MultiCarrier Shipping Label.</p>\n\n<p dir=\"auto\">This time, we got an email from UK customer saying they got charged import fees for 2 boxes (300euro) even though they paid 150euro for the 2 boxes with BUY1 GET1 FREE promotion.</p>\n\n<p dir=\"auto\">On PH MultiCarrier Shipping Label app, it shows the total charge is 150 euro for 2 boxes, which is correct. However, on the commercial invoice, it says total value is 300euro for 2 boxes.</p>\n\n<p dir=\"auto\">Could you please fix this for us?\n<br>Since we have many customers from the UK, we'd appreciate if you could help this as soon as possible.</p>\n\n<p dir=\"auto\">Please find the attached photos for referance.</p>\n\n<p dir=\"auto\">Thank you in advance.</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/summary/1a68d01a-8e41-4e11-b3a3-b56c9892528d/bb95e8d2-8452-4b01-a666-b1515b3c5128/new\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/summary/1a68d01a-8e41-4e11-b3a3-b56c9892528d/bb95e8d2-8452-4b01-a666-b1515b3c5128/new</a></p></div>",
+      "plain_body": "We would like to fix how much our UK customer get charged with imprt fees by our BUY1 GET1 FREE promotion on PH MultiCarrier Shipping Label. \n\n This time, we got an email from UK customer saying they got charged import fees for 2 boxes (300euro) even though they paid 150euro for the 2 boxes with BUY1 GET1 FREE promotion. \n\n On PH MultiCarrier Shipping Label app, it shows the total charge is 150 euro for 2 boxes, which is correct. However, on the commercial invoice, it says total value is 300euro for 2 boxes. \n\n Could you please fix this for us?\n\nSince we have many customers from the UK, we'd appreciate if you could help this as soon as possible. \n\n Please find the attached photos for referance. \n\n Thank you in advance. \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/1a68d01a-8e41-4e11-b3a3-b56c9892528d/bb95e8d2-8452-4b01-a666-b1515b3c5128/new",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55155867476633.json",
+          "id": 55155867476633,
+          "file_name": "COMMERCIAL INVOICE1.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/XGwjHTRbJ7N4h4mTK74mUoDx4/?name=COMMERCIAL+INVOICE1.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/XGwjHTRbJ7N4h4mTK74mUoDx4/?name=COMMERCIAL+INVOICE1.pdf",
+          "content_type": "application/pdf",
+          "size": 57768,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55155883965849.json",
+          "id": 55155883965849,
+          "file_name": "Invoice-WING15886.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/U0d1p6SMNVB18aCM0YkbxusxJ/?name=Invoice-WING15886.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/U0d1p6SMNVB18aCM0YkbxusxJ/?name=Invoice-WING15886.pdf",
+          "content_type": "application/pdf",
+          "size": 35540,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55155887690521.json",
+          "id": 55155887690521,
+          "file_name": "Screenshot of PH MultiCarrier Shipping Label.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/LwSKWhKyFzPvv70CNdoGnJdwz/?name=Screenshot+of+PH+MultiCarrier+Shipping+Label.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/LwSKWhKyFzPvv70CNdoGnJdwz/?name=Screenshot+of+PH+MultiCarrier+Shipping+Label.png",
+          "content_type": "image/png",
+          "size": 121853,
+          "width": 1453,
+          "height": 869,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 55155896242457,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-02-13T13:00:17Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "92.71.229.41",
+          "location": "Amsterdam, NH, Netherlands",
+          "latitude": 52.3109,
+          "longitude": 4.9453
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 55157253631257,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Netherland Store\n152 orders\n\nUPS account added\n\nActively using app for both rates and labels\n\n$29 popular plan",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Netherland Store<br>152 orders<br>&nbsp;<br>UPS account added<br>&nbsp;<br>Actively using app for both rates and labels<br>&nbsp;<br>$29 popular plan<br></div>",
+      "plain_body": "Netherland Store\n152 orders\n&nbsp;\nUPS account added\n&nbsp;\nActively using app for both rates and labels\n&nbsp;\n$29 popular plan",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55157253631129,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-13T14:15:03Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55157361750425,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Discussed this case with Veena\n\nSince the package is not edited and product price is reflecting correctly. (i.e 1 quantity with $150 and another quantity with 0)\n\nBut on commercail invoice actual price is taken instead of the updated price i.e. $0 for one quantity.\n\nWe need a sample order",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed this case with Veena<br>&nbsp;<br>Since the package is not edited and product price is reflecting correctly. (i.e 1 quantity with $150 and another quantity with 0)<br>&nbsp;<br>But on commercail invoice actual price is taken instead of the updated price i.e. $0 for one quantity.<br>&nbsp;<br>We need a sample order<br>&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "Discussed this case with Veena\n&nbsp;\nSince the package is not edited and product price is reflecting correctly. (i.e 1 quantity with $150 and another quantity with 0)\n&nbsp;\nBut on commercail invoice actual price is taken instead of the updated price i.e. $0 for one quantity.\n&nbsp;\nWe need a sample order\n&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55157361750169,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-13T14:24:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55157464583193,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Hamza,\n\nWe would like to review this case in detail and assist you further.\n\nTo help us investigate, could you please create a sample order using the **Buy One Get One** promotion and grant us permission to generate the label from our end? Reviewing a sample order will allow us to identify the cause and guide you on the correct fix. We will ensure to cancel the label from our end, so you will not be charged.\n\nWe appreciate your understanding and cooperation.\n\nWe look forward to hearing back from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Hamza,<br>&nbsp;<br>We would like to review this case in detail and assist you further.<br>&nbsp;<br>To help us investigate, could you please create a sample order using the <strong>Buy One Get One</strong> promotion and grant us permission to generate the label from our end? Reviewing a sample order will allow us to identify the cause and guide you on the correct fix. We will ensure to cancel the label from our end, so you will not be charged.<br>&nbsp;<br>We appreciate your understanding and cooperation.<br>&nbsp;<br>We look forward to hearing back from you.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Hamza,\n&nbsp;\nWe would like to review this case in detail and assist you further.\n&nbsp;\nTo help us investigate, could you please create a sample order using the Buy One Get One promotion and grant us permission to generate the label from our end? Reviewing a sample order will allow us to identify the cause and guide you on the correct fix. We will ensure to cancel the label from our end, so you will not be charged.\n&nbsp;\nWe appreciate your understanding and cooperation.\n&nbsp;\nWe look forward to hearing back from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55157464583065,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-13T14:26:45Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55157418666265,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need to followup if no response from customer",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need to followup if no response from customer<br></div>",
+      "plain_body": "Need to followup if no response from customer",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55157402785433,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-13T14:26:58Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55245392792473,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Hamza,\n\nI hope you are doing well. I wanted to follow up regarding our previous email about reviewing the Buy One Get One promotion case.\n\nIf possible, could you please create a sample order and allow us to generate the label from our end? This will help us identify the cause and provide the correct solution. As mentioned earlier, the label will be canceled from our side, so no charges will be incurred.\n\nWe appreciate your time and cooperation and look forward to your response.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Hamza,<br>&nbsp;<br>I hope you are doing well. I wanted to follow up regarding our previous email about reviewing the Buy One Get One promotion case.<br>&nbsp;<br>If possible, could you please create a sample order and allow us to generate the label from our end? This will help us identify the cause and provide the correct solution. As mentioned earlier, the label will be canceled from our side, so no charges will be incurred.<br>&nbsp;<br>We appreciate your time and cooperation and look forward to your response.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Hamza,\n&nbsp;\nI hope you are doing well. I wanted to follow up regarding our previous email about reviewing the Buy One Get One promotion case.\n&nbsp;\nIf possible, could you please create a sample order and allow us to generate the label from our end? This will help us identify the cause and provide the correct solution. As mentioned earlier, the label will be canceled from our side, so no charges will be incurred.\n&nbsp;\nWe appreciate your time and cooperation and look forward to your response.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55245392792345,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-17T10:41:40Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55248717776665,
+      "type": "Comment",
+      "author_id": 53959783356441,
+      "body": "Hi Manohar,\n\nThank you for your email.\n\n\nI tried to make a test order with \"Shopify's Bogus Gateway\", and I followed the instructions for setting. However, when I look at \"Payment\" on our Shopify admin, there are only options for gift cards, unlike the instructions from the link below.\nhttps://help.shopify.com/en/manual/checkout-settings/test-orders/payments-test-mode#bogus-gateway\n\n\n\nI'd really appreciate it if you could help me with this.\n\n\n\nWhat I see is attached to this email.\n\n\n\nThank you for your help.\n\n\n\nKind Regards,\n\n**Team Wing 999**\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4xJdn26kfwPU_oly0gIbFFZo7J1Wf9tJnIUDUBYABAU9uOkaFfzdizKddFMfg_z9jJClKBTS2ePSCdd)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Manohar,<br><br>Thank you&nbsp;for your email.<div><br><br>I tried to make a test order with \"<span style=\"color: rgb(17,24,39); \">Shopify's Bogus Gateway\", and I followed the instructions for setting. However, when I look at \"Payment\" on our Shopify admin, there are only options for gift&nbsp;cards, unlike the instructions from the link below.</span><div><a href=\"https://help.shopify.com/en/manual/checkout-settings/test-orders/payments-test-mode#bogus-gateway\" rel=\"noreferrer\">https://help.shopify.com/en/manual/checkout-settings/test-orders/payments-test-mode#bogus-gateway</a><font color=\"#111827\"><br></font><div><font color=\"#111827\"><br></font></div><div><font color=\"#111827\">I'd really appreciate it if you could help me&nbsp;with this.</font></div><div><font color=\"#111827\"><br></font></div><div><font color=\"#111827\">What I see is attached to this email.</font></div><div><font color=\"#111827\"><br></font></div><div><font color=\"#111827\">Thank you for your help.</font></div><div><br><div><div dir=\"ltr\"><div dir=\"ltr\"><div>Kind Regards,</div><div><b>Team Wing 999</b></div><img width=\"200\" height=\"100\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4xJdn26kfwPU_oly0gIbFFZo7J1Wf9tJnIUDUBYABAU9uOkaFfzdizKddFMfg_z9jJClKBTS2ePSCdd\"><br></div></div></div><br></div></div></div></div><br><div></div></div>",
+      "plain_body": "Hi Manohar,\n\nThank you&nbsp;for your email. \n\nI tried to make a test order with \"Shopify's Bogus Gateway\", and I followed the instructions for setting. However, when I look at \"Payment\" on our Shopify admin, there are only options for gift&nbsp;cards, unlike the instructions from the link below. https://help.shopify.com/en/manual/checkout-settings/test-orders/payments-test-mode#bogus-gateway\n \n  I'd really appreciate it if you could help me&nbsp;with this.  \n  What I see is attached to this email.  \n  Thank you for your help.  \n    Kind Regards,  Team Wing 999",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55248728016025.json",
+          "id": 55248728016025,
+          "file_name": "TEST ORDER SETTING.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/dEsOqldMzvVElFe3kj40z7iug/?name=TEST+ORDER+SETTING.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/dEsOqldMzvVElFe3kj40z7iug/?name=TEST+ORDER+SETTING.png",
+          "content_type": "image/png",
+          "size": 284200,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/55248704296601.json",
+              "id": 55248704296601,
+              "file_name": "TEST_ORDER_SETTING_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/mk1zP69ZzWnBDMXxlPapOxSBd/?name=TEST_ORDER_SETTING_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/mk1zP69ZzWnBDMXxlPapOxSBd/?name=TEST_ORDER_SETTING_thumb.png",
+              "content_type": "image/png",
+              "size": 2671,
+              "width": 80,
+              "height": 38,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 55248717776537,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@wingvintagewholesale.com",
+            "name": "Hamza",
+            "original_recipients": [
+              "info@wingvintagewholesale.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-17T13:38:17Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKcewa6dM4LusK_tt1Pi_k+_WONZ5Pfs2LNiKDQcwe+tXu4SrA@mail.gmail.com>",
+          "email_id": "01KHNX590FGT7PQ3XGV2H2YSQX",
+          "raw_email_identifier": "2369120/62793ab7-1f55-4041-9bb7-eb577044829e.eml",
+          "json_email_identifier": "2369120/62793ab7-1f55-4041-9bb7-eb577044829e.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55249183280665,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Hamza,\n\nYou may try creating a test order directly in Shopify and check whether you are able to apply the Buy One Get One coupon. If it does not work, no problem at all.\n\nAlternatively, please share an upcoming new order from a customer where the Buy One Get One discount has been applied. We can use that order to cross-check and review the behaviour. In this case, please do not generate a label and do not fulfil the orders so that we can check.\n\nWe appreciate your understanding and cooperation.\n\nLooking forward to hearing from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Hamza,<br>&nbsp;<br>You may try creating a test order directly in Shopify and check whether you are able to apply the Buy One Get One coupon. If it does not work, no problem at all.<br>&nbsp;<br>Alternatively, please share an upcoming new order from a customer where the Buy One Get One discount has been applied. We can use that order to cross-check and review the behaviour. In this case, please do not generate a label and do not fulfil the orders so that we can check.<br>&nbsp;<br>We appreciate your understanding and cooperation.<br>&nbsp;<br>Looking forward to hearing from you.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Hamza,\n&nbsp;\nYou may try creating a test order directly in Shopify and check whether you are able to apply the Buy One Get One coupon. If it does not work, no problem at all.\n&nbsp;\nAlternatively, please share an upcoming new order from a customer where the Buy One Get One discount has been applied. We can use that order to cross-check and review the behaviour. In this case, please do not generate a label and do not fulfil the orders so that we can check.\n&nbsp;\nWe appreciate your understanding and cooperation.\n&nbsp;\nLooking forward to hearing from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55249183280537,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-17T14:08:03Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55249920809369,
+      "type": "Comment",
+      "author_id": 53959783356441,
+      "body": "Hi PluginHive,\n\n\n\nOne of the recent orders with BUY 1 GET 1 FREE promotion is attached to this email.\n\nIf you want more information or if you want to take a look at an order from the UK customer, please let me know.\n\n\n\nThank you for your help.\n\n\n\nKind Regards,\n\n**Team Wing 999**\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4xJdn26kfwPU_oly0gIbFFZo7J1Wf9tJnIUDUBYABAU9uOkaFfzdizKddFMfg_z9jJClKBTS2ePSCdd)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi&nbsp;PluginHive,</div><div><br></div><div>One of the recent orders with BUY 1 GET 1 FREE promotion is attached to this&nbsp;email.</div><div>If you want more information or if you want to take a look at an order from the UK customer, please let&nbsp;me know.</div><div><br></div><div>Thank you for your help.</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div>Kind Regards,</div><div><b>Team Wing 999</b></div><img width=\"200\" height=\"100\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4xJdn26kfwPU_oly0gIbFFZo7J1Wf9tJnIUDUBYABAU9uOkaFfzdizKddFMfg_z9jJClKBTS2ePSCdd\"><br></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi&nbsp;PluginHive,  \n  One of the recent orders with BUY 1 GET 1 FREE promotion is attached to this&nbsp;email.  If you want more information or if you want to take a look at an order from the UK customer, please let&nbsp;me know.  \n  Thank you for your help.  \n     Kind Regards,  Team Wing 999",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55249942481689.json",
+          "id": 55249942481689,
+          "file_name": "Wing 999 · Orders · #WING15975 · Shopify Plus.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/l9JKVF7I1GPblXk6Y7ZCFoRP5/?name=Wing+999+%C2%B7+Orders+%C2%B7+%23WING15975+%C2%B7+Shopify+Plus.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/l9JKVF7I1GPblXk6Y7ZCFoRP5/?name=Wing+999+%C2%B7+Orders+%C2%B7+%23WING15975+%C2%B7+Shopify+Plus.pdf",
+          "content_type": "application/pdf",
+          "size": 274327,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 55249920809241,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@wingvintagewholesale.com",
+            "name": "Hamza",
+            "original_recipients": [
+              "info@wingvintagewholesale.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-17T14:56:51Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKcewa75xg8OMbZux_s2rp4irtivs8-Z7qE5SOYpF90Ftw-JOg@mail.gmail.com>",
+          "email_id": "01KHP1N4RRGF8VSB240MQV7183",
+          "raw_email_identifier": "2369120/60261805-9de5-40f0-a6f7-ab621878ac08.eml",
+          "json_email_identifier": "2369120/60261805-9de5-40f0-a6f7-ab621878ac08.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55250320840729,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Hamza,\n\nCould you please share the order number and grant us permission to try generating the shipping label from our end? We will cancel the label after checking.\n\nLooking forward to hearing back from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Hamza,<br>&nbsp;<br>Could you please share the order number and grant us permission to try generating the shipping label from our end? We will cancel the label after checking.<br>&nbsp;<br>Looking forward to hearing back from you.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Hamza,\n&nbsp;\nCould you please share the order number and grant us permission to try generating the shipping label from our end? We will cancel the label after checking.\n&nbsp;\nLooking forward to hearing back from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55250320840601,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-17T15:21:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55268429437593,
+      "type": "Comment",
+      "author_id": 53959783356441,
+      "body": "Hi PluginHive,\n\n\n\nThis is the order number attached to the previous email #WING15975.\n\nAnd this is the order number we would like to fix #WING15886.\n\n\n\nFor permission to generate labels, should I add you with your email address?\n\n\n\nKind Regards,\n\n**Team Wing 999**\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4xJdn26kfwPU_oly0gIbFFZo7J1Wf9tJnIUDUBYABAU9uOkaFfzdizKddFMfg_z9jJClKBTS2ePSCdd)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi&nbsp;PluginHive,</div><div><br></div><div>This is the order&nbsp;number attached to the previous email #WING15975.</div><div>And this is the order number we would like to fix #<span style=\"color: rgb(31,31,31); font-variant-ligatures: no-contextual;\">WING15886.</span></div><div><span style=\"color: rgb(31,31,31); font-variant-ligatures: no-contextual;\"><br></span></div><div><span style=\"color: rgb(31,31,31); font-variant-ligatures: no-contextual;\">For permission to generate labels, should I add you with your email&nbsp;address?&nbsp;</span></div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div>Kind Regards,</div><div><b>Team Wing 999</b></div><img width=\"200\" height=\"100\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4xJdn26kfwPU_oly0gIbFFZo7J1Wf9tJnIUDUBYABAU9uOkaFfzdizKddFMfg_z9jJClKBTS2ePSCdd\"><br></div></div></div><br></div><br></div>",
+      "plain_body": "Hi&nbsp;PluginHive,  \n  This is the order&nbsp;number attached to the previous email #WING15975.  And this is the order number we would like to fix #WING15886.  \n  For permission to generate labels, should I add you with your email&nbsp;address?&nbsp;  \n     Kind Regards,  Team Wing 999",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55268429437465,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@wingvintagewholesale.com",
+            "name": "Hamza",
+            "original_recipients": [
+              "info@wingvintagewholesale.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-18T08:38:36Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKcewa7T27JiEpNyJ+xQmigOQR3zHdOmgE33oSZ4qLwr+XhCHA@mail.gmail.com>",
+          "email_id": "01KHQYDAKZNMJK9Q06W1KHHD9T",
+          "raw_email_identifier": "2369120/5edb8798-ad29-4c69-b200-cfcfb97baefb.eml",
+          "json_email_identifier": "2369120/5edb8798-ad29-4c69-b200-cfcfb97baefb.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55269436198809,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Hamza,\n\nThank you for your reply.\n\nPlease allow us some time to review this from our end. We will get back to you with an update shortly.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Hamza,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>Please allow us some time to review this from our end. We will get back to you with an update shortly.<br>&nbsp;<br>We appreciate your time and patience.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Hamza,\n&nbsp;\nThank you for your reply.\n&nbsp;\nPlease allow us some time to review this from our end. We will get back to you with an update shortly.\n&nbsp;\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55269436198681,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-18T09:20:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55269638924313,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "We require assistance from the L3 team regarding a customs value mismatch issue.\n\n###\n\n### Case Details:\nThe customer is offering a **Buy One Get One Free** discount. When such orders are placed, the second item is discounted at 100% (free).\n\nThe pricing reflects correctly on the **order details page and packing slip**. However, on the **commercial invoice**, instead of showing the discounted value (1 paid item + 1 free item), the full product value is being printed for both items. As a result, the total customs value becomes double the amount actually paid by the customer.\n\nFor example, in order **WING15975**:\n\n- Item: _25X PRINTED SWEATSHIRT_\n- Actual price: 60 EUR\n- Free item: 0 EUR (as shown in the order screenshot)\nHowever, on the commercial invoice, the total value is shown as **120 EUR instead of 60 EUR**.\n\nWe have confirmed that the customer has not manually edited the package details.\n\nAdditional reference orders shared by the customer:\n\n- #WING15886\n- #WING15975\n\nCould you please review this and share your input?\n\n###\n\n### Store Details:\nStore URL – e20301.myshopify.com\nAccount ID –b5760484-b15b-4b20-a918-8b1a00dd0f7e\nPlan – $29 Popular Plan\nActive since – January 2026\n\n ![](https://pluginhive.zendesk.com/attachments/token/fKQbNYpGm3x9I7doFVUWI9CX7/?name=image.png)\n ![](https://pluginhive.zendesk.com/attachments/token/aY76u0Q9WHsyrg6SoBkEQLwNE/?name=image.png)\n ![](https://pluginhive.zendesk.com/attachments/token/KcZKGECdGTLohz1E66ffXBzBj/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We require assistance from the L3 team regarding a customs value mismatch issue.<br><h3 dir=\"auto\">&nbsp;</h3><h3 dir=\"auto\">Case Details:</h3>The customer is offering a <strong>Buy One Get One Free</strong> discount. When such orders are placed, the second item is discounted at 100% (free).<br>&nbsp;<br>The pricing reflects correctly on the <strong>order details page and packing slip</strong>. However, on the <strong>commercial invoice</strong>, instead of showing the discounted value (1 paid item + 1 free item), the full product value is being printed for both items. As a result, the total customs value becomes double the amount actually paid by the customer.<br>&nbsp;<br>For example, in order <strong>WING15975</strong>:<br><ul dir=\"auto\"><li>Item: <i>25X PRINTED SWEATSHIRT</i></li><li>Actual price: 60 EUR</li><li>Free item: 0 EUR (as shown in the order screenshot)</li></ul>However, on the commercial invoice, the total value is shown as <strong>120 EUR instead of 60 EUR</strong>.<br>&nbsp;<br>We have confirmed that the customer has not manually edited the package details.<br>&nbsp;<br>Additional reference orders shared by the customer:<br><ul dir=\"auto\"><li>#WING15886</li><li>#WING15975</li></ul>&nbsp;<br>Could you please review this and share your input?<br><h3 dir=\"auto\">&nbsp;</h3><h3 dir=\"auto\">Store Details:</h3>Store URL – <a rel=\"noopener noreferrer\" href=\"http://e20301.myshopify.com\">e20301.myshopify.com</a>&nbsp;<br>Account ID –b5760484-b15b-4b20-a918-8b1a00dd0f7e&nbsp;<br>Plan – $29 Popular Plan<br>Active since – January 2026<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/fKQbNYpGm3x9I7doFVUWI9CX7/?name=image.png\"></span><br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/aY76u0Q9WHsyrg6SoBkEQLwNE/?name=image.png\"></span><br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/KcZKGECdGTLohz1E66ffXBzBj/?name=image.png\"></span><br></div>",
+      "plain_body": "We require assistance from the L3 team regarding a customs value mismatch issue.\n &nbsp;  Case Details: The customer is offering a Buy One Get One Free discount. When such orders are placed, the second item is discounted at 100% (free).\n&nbsp;\nThe pricing reflects correctly on the order details page and packing slip. However, on the commercial invoice, instead of showing the discounted value (1 paid item + 1 free item), the full product value is being printed for both items. As a result, the total customs value becomes double the amount actually paid by the customer.\n&nbsp;\nFor example, in order WING15975:\n  Item: 25X PRINTED SWEATSHIRT  Actual price: 60 EUR  Free item: 0 EUR (as shown in the order screenshot)  However, on the commercial invoice, the total value is shown as 120 EUR instead of 60 EUR.\n&nbsp;\nWe have confirmed that the customer has not manually edited the package details.\n&nbsp;\nAdditional reference orders shared by the customer:\n  #WING15886  #WING15975  &nbsp;\nCould you please review this and share your input?\n &nbsp;  Store Details: Store URL – e20301.myshopify.com&nbsp;\nAccount ID –b5760484-b15b-4b20-a918-8b1a00dd0f7e&nbsp;\nPlan – $29 Popular Plan\nActive since – January 2026\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55269638924185,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-18T09:29:36Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55295758859545,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We have identified the issue with discounted amount not being printed on CI. This will be handled in next release.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have identified the issue with discounted amount not being printed on CI. This will be handled in next release.<br>[Veena]<br></div>",
+      "plain_body": "We have identified the issue with discounted amount not being printed on CI. This will be handled in next release.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55295758859417,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-19T06:48:36Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55300720776857,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Hamza,\n\nThank you for your time and patience while we review this case.\n\nI would like to inform you that we have identified the root cause of the problem where discounted product prices are not being considered correctly. We are actively working on implementing a fix, and we will keep you updated on the progress.\n\nFor your reference, this problem occurs only when the discounted product is the same as the original product. When the discounted product is different from the original item, the functionality works as expected. This will be resolved in the upcoming release.\n\nWe truly appreciate your understanding and patience.\n\nPlease feel free to reach out anytime if you need any further assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Hamza,<br>&nbsp;<br>Thank you for your time and patience while we review this case.<br>&nbsp;<br>I would like to inform you that we have identified the root cause of the problem where discounted product prices are not being considered correctly. We are actively working on implementing a fix, and we will keep you updated on the progress.<br>&nbsp;<br>For your reference, this problem occurs only when the discounted product is the same as the original product. When the discounted product is different from the original item, the functionality works as expected. This will be resolved in the upcoming release.<br>&nbsp;<br>We truly appreciate your understanding and patience.<br>&nbsp;<br>Please feel free to reach out anytime if you need any further assistance from our end.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Hamza,\n&nbsp;\nThank you for your time and patience while we review this case.\n&nbsp;\nI would like to inform you that we have identified the root cause of the problem where discounted product prices are not being considered correctly. We are actively working on implementing a fix, and we will keep you updated on the progress.\n&nbsp;\nFor your reference, this problem occurs only when the discounted product is the same as the original product. When the discounted product is different from the original item, the functionality works as expected. This will be resolved in the upcoming release.\n&nbsp;\nWe truly appreciate your understanding and patience.\n&nbsp;\nPlease feel free to reach out anytime if you need any further assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55300720776729,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-19T09:25:18Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55305823690777,
+      "type": "Comment",
+      "author_id": 53959783356441,
+      "body": "Hi PluginHive,\n\n\n\nThank you for your help.\n\nPlease let us know once you implement the fix, we really appreciate it.\n\n\n\nKind Regards,\n\n**Team Wing 999**\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4xJdn26kfwPU_oly0gIbFFZo7J1Wf9tJnIUDUBYABAU9uOkaFfzdizKddFMfg_z9jJClKBTS2ePSCdd)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi&nbsp;PluginHive,</div><div><br></div><div>Thank you for your help.</div><div>Please let us know once you implement&nbsp;the fix, we really&nbsp;appreciate it.</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div>Kind Regards,</div><div><b>Team Wing 999</b></div><img width=\"200\" height=\"100\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4xJdn26kfwPU_oly0gIbFFZo7J1Wf9tJnIUDUBYABAU9uOkaFfzdizKddFMfg_z9jJClKBTS2ePSCdd\"><br></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi&nbsp;PluginHive,  \n  Thank you for your help.  Please let us know once you implement&nbsp;the fix, we really&nbsp;appreciate it.  \n     Kind Regards,  Team Wing 999",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55305823690649,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@wingvintagewholesale.com",
+            "name": "Hamza",
+            "original_recipients": [
+              "info@wingvintagewholesale.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-19T13:05:08Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKcewa7LMJFcWFi2moW9FGZycO8ss75oxSkX2sNj08ZPjbfnWg@mail.gmail.com>",
+          "email_id": "01KHV0229RV5Z5NG5F85FHWTB6",
+          "raw_email_identifier": "2369120/654c41d4-7e47-4d7a-a75b-bbfd339ba961.eml",
+          "json_email_identifier": "2369120/654c41d4-7e47-4d7a-a75b-bbfd339ba961.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55305854434969,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Hamza,\n\nThank you for your response.\n\nSure, we will let you know once the enhancement is released.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Hamza,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Sure, we will let you know once the enhancement is released.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Hamza,\n&nbsp;\nThank you for your response.\n&nbsp;\nSure, we will let you know once the enhancement is released.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55305854434841,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-19T13:07:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "49.37.251.82",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

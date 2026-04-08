@@ -1,0 +1,280 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/383002.json",
+    "id": 383002,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-04-08T10:50:56Z",
+    "updated_at": "2026-04-08T10:58:05Z",
+    "generated_timestamp": 1775645885,
+    "type": null,
+    "subject": "This was sent to us from Australia Post, can you c...",
+    "raw_subject": "This was sent to us from Australia Post, can you c...",
+    "description": "This was sent to us from Australia Post, can you confirm you have this in hand?\n \nWe're writing to advise that from 7 July, we will uplift our security policy for Transport Layer Security (TLS), disabling TLS 1.0 and TLS 1.1 across our Shipping and Tracking APIs. TLS certificates are used for API based services.\n\nThese changes help ensure compliance with current industry security standards.\n\nWhat this means for you\n\nAfter this change, only TLS 1.2 and above will be accepted, and all integrations will be required to support Server Name Indication (SNI). Clients that do not support TLS 1.2+ and SNI will no longer be able to connect.\n\nThis change applies to all APIs and endpoints listed in our developer documentation:\n\nPostage Assessment Calculator (PAC) API: https://developers.auspost.com.au/apis/pac/reference\n Shipping & Tracking API: https://developers.auspost.com.au/apis/shipping-and-tracking/reference\n\nWhat you need to do\n\nPlease work with your IT team, developers, or integration partner to ensure:\n\nYour API integration, middleware, or partner platform explicitly supports TLS 1.2 or higher.\n Your integration libraries, frameworks, or network components are configured to initiate outbound connections using TLS 1.2 or higher.\n Your integration uses a client library or framework that supports SNI.\n\nIf you are unsure, we recommend explicitly configuring your client to enforce TLS 1.2 (or higher) for all outbound API calls to Australia Post. Visit our Developer Centre for more information. \n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 19353527524761,
+    "submitter_id": 388269142331,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "the-basket-case-staging.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0409514149"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "GZV55R-NYK23",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "the-basket-case-staging.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0409514149"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56774953403673,
+      "type": "Comment",
+      "author_id": 19353527524761,
+      "body": "This was sent to us from Australia Post, can you confirm you have this in hand?\n \nWe're writing to advise that from 7 July, we will uplift our security policy for Transport Layer Security (TLS), disabling TLS 1.0 and TLS 1.1 across our Shipping and Tracking APIs. TLS certificates are used for API based services.\n\nThese changes help ensure compliance with current industry security standards.\n\nWhat this means for you\n\nAfter this change, only TLS 1.2 and above will be accepted, and all integrations will be required to support Server Name Indication (SNI). Clients that do not support TLS 1.2+ and SNI will no longer be able to connect.\n\nThis change applies to all APIs and endpoints listed in our developer documentation:\n\nPostage Assessment Calculator (PAC) API: https://developers.auspost.com.au/apis/pac/reference\n Shipping & Tracking API: https://developers.auspost.com.au/apis/shipping-and-tracking/reference\n\nWhat you need to do\n\nPlease work with your IT team, developers, or integration partner to ensure:\n\nYour API integration, middleware, or partner platform explicitly supports TLS 1.2 or higher.\n Your integration libraries, frameworks, or network components are configured to initiate outbound connections using TLS 1.2 or higher.\n Your integration uses a client library or framework that supports SNI.\n\nIf you are unsure, we recommend explicitly configuring your client to enforce TLS 1.2 (or higher) for all outbound API calls to Australia Post. Visit our Developer Centre for more information. \n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">This was sent to us from Australia Post, can you confirm you have this in hand?\n<br> \n<br>We're writing to advise that from 7 July, we will uplift our security policy for Transport Layer Security (TLS), disabling TLS 1.0 and TLS 1.1 across our Shipping and Tracking APIs. TLS certificates are used for API based services.</p>\n\n<p dir=\"auto\">These changes help ensure compliance with current industry security standards.</p>\n\n<p dir=\"auto\">What this means for you</p>\n\n<p dir=\"auto\">After this change, only TLS 1.2 and above will be accepted, and all integrations will be required to support Server Name Indication (SNI). Clients that do not support TLS 1.2+ and SNI will no longer be able to connect.</p>\n\n<p dir=\"auto\">This change applies to all APIs and endpoints listed in our developer documentation:</p>\n\n<p dir=\"auto\">Postage Assessment Calculator (PAC) API: <a href=\"https://developers.auspost.com.au/apis/pac/reference\" target=\"_blank\" rel=\"nofollow noreferrer\">https://developers.auspost.com.au/apis/pac/reference</a>\n<br> Shipping &amp; Tracking API: <a href=\"https://developers.auspost.com.au/apis/shipping-and-tracking/reference\" target=\"_blank\" rel=\"nofollow noreferrer\">https://developers.auspost.com.au/apis/shipping-and-tracking/reference</a></p>\n\n<p dir=\"auto\">What you need to do</p>\n\n<p dir=\"auto\">Please work with your IT team, developers, or integration partner to ensure:</p>\n\n<p dir=\"auto\">Your API integration, middleware, or partner platform explicitly supports TLS 1.2 or higher.\n<br> Your integration libraries, frameworks, or network components are configured to initiate outbound connections using TLS 1.2 or higher.\n<br> Your integration uses a client library or framework that supports SNI.</p>\n\n<p dir=\"auto\">If you are unsure, we recommend explicitly configuring your client to enforce TLS 1.2 (or higher) for all outbound API calls to Australia Post. Visit our Developer Centre for more information. </p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/status/allorders\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/status/allorders</a></p></div>",
+      "plain_body": "This was sent to us from Australia Post, can you confirm you have this in hand?\n\n \n\nWe're writing to advise that from 7 July, we will uplift our security policy for Transport Layer Security (TLS), disabling TLS 1.0 and TLS 1.1 across our Shipping and Tracking APIs. TLS certificates are used for API based services. \n\n These changes help ensure compliance with current industry security standards. \n\n What this means for you \n\n After this change, only TLS 1.2 and above will be accepted, and all integrations will be required to support Server Name Indication (SNI). Clients that do not support TLS 1.2+ and SNI will no longer be able to connect. \n\n This change applies to all APIs and endpoints listed in our developer documentation: \n\n Postage Assessment Calculator (PAC) API: https://developers.auspost.com.au/apis/pac/reference\n\n Shipping &amp; Tracking API: https://developers.auspost.com.au/apis/shipping-and-tracking/reference \n\n What you need to do \n\n Please work with your IT team, developers, or integration partner to ensure: \n\n Your API integration, middleware, or partner platform explicitly supports TLS 1.2 or higher.\n\n Your integration libraries, frameworks, or network components are configured to initiate outbound connections using TLS 1.2 or higher.\n\n Your integration uses a client library or framework that supports SNI. \n\n If you are unsure, we recommend explicitly configuring your client to enforce TLS 1.2 (or higher) for all outbound API calls to Australia Post. Visit our Developer Centre for more information.  \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56774953403417,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-04-08T03:45:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "103.89.11.6",
+          "location": "Merimbula, NSW, Australia",
+          "latitude": -36.8893,
+          "longitude": 149.9121
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56775137501977,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Kerry,\n\nGood Day!\n\nThank you for bringing the message to our attention.\n\nWe are aware of this change from Australia Post and our team will be checking and addressing it, and if any changes are needed in the app, we will take it up.\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Kerry,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>Thank you for bringing the message to our attention.<br>&nbsp;<br>We are aware of this change from Australia Post and our team will be checking and addressing it, and if any changes are needed in the app, we will take it up.<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Kerry,\n&nbsp;\nGood Day!\n&nbsp;\nThank you for bringing the message to our attention.\n&nbsp;\nWe are aware of this change from Australia Post and our team will be checking and addressing it, and if any changes are needed in the app, we will take it up.\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56775137501849,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T10:57:45Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56775156542233,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Same as https://pluginhive.zendesk.com/agent/tickets/382780\nMoving to Dev.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Same as <a rel=\"noopener noreferrer\" href=\"https://pluginhive.zendesk.com/agent/tickets/382780\">https://pluginhive.zendesk.com/agent/tickets/382780</a><br>Moving to Dev.<br></div>",
+      "plain_body": "Same as https://pluginhive.zendesk.com/agent/tickets/382780\nMoving to Dev.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56775139836825,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T10:58:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

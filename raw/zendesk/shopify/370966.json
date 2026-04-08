@@ -1,0 +1,1873 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/370966.json",
+    "id": 370966,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "sales@labienaimee.com",
+          "name": "La"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-01-27T09:38:59Z",
+    "updated_at": "2026-03-09T15:10:57Z",
+    "generated_timestamp": 1773069057,
+    "type": null,
+    "subject": "Need help generating labels",
+    "raw_subject": "Need help generating labels",
+    "description": "Hello, \n\nWe are having issues generating these labels, can you help please?\n\n73019\n73008\n\nThanks,\nAza\n___\n\nInstagram @labienaimee (https://www.instagram.com/labienaimee/)  Facebook La Bien Aimée (https://www.facebook.com/labienaimeeyarn/)  Ravelry La Bien Aimée group (https://www.ravelry.com/groups/la-bien-aimee)\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at sales@labienaimee.com \n\nOur online customer service hours are: Monday - Friday 10AM to 5:00 PM.  Emails sent during non-office hours will be responded to on the next business day. \n\nNotre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 5029975802009,
+    "submitter_id": 5029975802009,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      51794070621593,
+      49957893768473,
+      50686202006041
+    ],
+    "follower_ids": [
+      51794070621593,
+      49957893768473,
+      50686202006041
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "high_agent_replies",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "to-do"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "loisivethe.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "6985b40f89408594d154656f"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "offered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "LEK6PJ-PPWJN",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "loisivethe.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "6985b40f89408594d154656f"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 54626286475161,
+      "type": "Comment",
+      "author_id": 5029975802009,
+      "body": "Hello,\n\n\n\nWe are having issues generating these labels, can you help please?\n\n\n\n73019\n\n73008\n\n\n\nThanks,\n\nAza\n\n___\n\n\n\nInstagram @labienaimee Facebook La Bien Aimée Ravelry La Bien Aimée group\n\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at **sales@labienaimee.com **\n\n\n\nOur online customer service hours are: **Monday - Friday**** 10AM to 5:00 PM**.  Emails sent during non-office hours will be responded to on the next business day.\n\n\n\nNotre service client est joignable **du lundi au vendredi de 10h à 17h**. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hello,&nbsp;</div><div><br></div><div>We are having issues generating these labels, can you help please?</div><div><br></div><div>73019</div><div>73008</div><div><br></div><div>Thanks,</div><div>Aza</div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div>___</div><div><br></div><div><span style=\"color: rgb(34,35,35); \">Instagram </span><a href=\"https://www.instagram.com/labienaimee/\" rel=\"noreferrer\">@labienaimee</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Facebook </span><a href=\"https://www.facebook.com/labienaimeeyarn/\" rel=\"noreferrer\">La Bien Aimée</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Ravelry </span><a href=\"https://www.ravelry.com/groups/la-bien-aimee\" rel=\"noreferrer\">La Bien Aimée group</a><br></div></div></div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><font color=\"#000000\">Pour toute question sur votre commande, écrivez-nous à /&nbsp;</font><span style=\"color: rgb(0,0,0); \">Do you have a question about your order? Email us at&nbsp;</span><b><a style=\"color: rgb(17,85,204);\" href=\"mailto:sales@labienaimee.com\" rel=\"noreferrer\">sales@labienaimee.com</a>&nbsp;</b><br></div></div><div dir=\"ltr\"><font><b><br></b></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\">Our online customer service hours are: <b>Monday&nbsp;- Friday</b><b>&nbsp;10AM to 5:00 PM</b>.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;</span></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\"><br></span></font></div><div><font><span style=\"color: rgb(34,35,35);\">Notre service client est joignable <b>du lundi au vendredi de 10h à 17h</b>. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;</span></font></div><div dir=\"ltr\"><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>",
+      "plain_body": "Hello,&nbsp;  \n  We are having issues generating these labels, can you help please?  \n  73019  73008  \n  Thanks,  Aza                         ___  \n  Instagram @labienaimee&nbsp;Facebook La Bien Aimée&nbsp;Ravelry La Bien Aimée group\n      Pour toute question sur votre commande, écrivez-nous à /&nbsp;Do you have a question about your order? Email us at&nbsp;sales@labienaimee.com&nbsp;\n   \n  Our online customer service hours are: Monday&nbsp;- Friday&nbsp;10AM to 5:00 PM.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;  \n  Notre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54626286475033,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "sales@labienaimee.com",
+              "support@pluginhive.com",
+              "manvimeshram@pluginhive.com",
+              "tovan@labienaimee.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-01-27T09:38:59Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJ_aSBF1zU+a4uR18=0dJhpbAVxbX1uS5610e56cXq2zxVN6rQ@mail.gmail.com>",
+          "email_id": "01KFZD42Y133CSX6QHZ39G2VTZ",
+          "raw_email_identifier": "2369120/4e9716fb-b130-4007-a737-62e4244aa657.eml",
+          "json_email_identifier": "2369120/4e9716fb-b130-4007-a737-62e4244aa657.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 54626394915993,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "France store\n525 orders\n\nUPS account connected\n\nActively using app for both rates and labels\n\n$49 Premium plan",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">France store<br>525 orders<br>&nbsp;<br>UPS account connected<br>&nbsp;<br>Actively using app for both rates and labels<br>&nbsp;<br>$49 Premium plan<br></div>",
+      "plain_body": "France store\n525 orders\n&nbsp;\nUPS account connected\n&nbsp;\nActively using app for both rates and labels\n&nbsp;\n$49 Premium plan",
+      "public": false,
+      "attachments": [],
+      "audit_id": 54626394915865,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-01-27T09:42:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54626895439641,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Aza,\n\nPlease allow us some time we check and get back to you with an update.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Aza,<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br>&nbsp;<br>We appreciate your time and patience.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Aza,\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n&nbsp;\nWe appreciate your time and patience.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54626895439513,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-01-27T09:58:39Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54627108474137,
+      "type": "Comment",
+      "author_id": 5029975802009,
+      "body": "Hi Manohar,\n\n\n\nThank you for the quick reply. Can you also check 73006 please?\n\n\n\nThanks,\n\naza\n\n___\n\n\n\nInstagram @labienaimee Facebook La Bien Aimée Ravelry La Bien Aimée group\n\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at **sales@labienaimee.com **\n\n\n\nOur online customer service hours are: **Monday - Friday**** 10AM to 5:00 PM**.  Emails sent during non-office hours will be responded to on the next business day.\n\n\n\nNotre service client est joignable **du lundi au vendredi de 10h à 17h**. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi Manohar,</div><div><br></div><div>Thank you for the quick reply. Can you also check 73006 please?</div><div><br></div><div>Thanks,</div><div>aza</div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div>___</div><div><br></div><div><span style=\"color: rgb(34,35,35); \">Instagram </span><a href=\"https://www.instagram.com/labienaimee/\" rel=\"noreferrer\">@labienaimee</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Facebook </span><a href=\"https://www.facebook.com/labienaimeeyarn/\" rel=\"noreferrer\">La Bien Aimée</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Ravelry </span><a href=\"https://www.ravelry.com/groups/la-bien-aimee\" rel=\"noreferrer\">La Bien Aimée group</a><br></div></div></div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><font color=\"#000000\">Pour toute question sur votre commande, écrivez-nous à /&nbsp;</font><span style=\"color: rgb(0,0,0); \">Do you have a question about your order? Email us at&nbsp;</span><b><a style=\"color: rgb(17,85,204);\" href=\"mailto:sales@labienaimee.com\" rel=\"noreferrer\">sales@labienaimee.com</a>&nbsp;</b><br></div></div><div dir=\"ltr\"><font><b><br></b></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\">Our online customer service hours are: <b>Monday&nbsp;- Friday</b><b>&nbsp;10AM to 5:00 PM</b>.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;</span></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\"><br></span></font></div><div><font><span style=\"color: rgb(34,35,35);\">Notre service client est joignable <b>du lundi au vendredi de 10h à 17h</b>. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;</span></font></div><div dir=\"ltr\"><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi Manohar,  \n  Thank you for the quick reply. Can you also check 73006 please?  \n  Thanks,  aza                         ___  \n  Instagram @labienaimee&nbsp;Facebook La Bien Aimée&nbsp;Ravelry La Bien Aimée group\n      Pour toute question sur votre commande, écrivez-nous à /&nbsp;Do you have a question about your order? Email us at&nbsp;sales@labienaimee.com&nbsp;\n   \n  Our online customer service hours are: Monday&nbsp;- Friday&nbsp;10AM to 5:00 PM.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;  \n  Notre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54627108474009,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "sales@labienaimee.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-01-27T10:05:02Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJ_aSBGCRwDCJYHOrc+yeEGkVf=7dZJyaXd01y_7S5SjHe4akA@mail.gmail.com>",
+          "email_id": "01KFZEKS28ZD9EH6ZEB8C5X6J8",
+          "raw_email_identifier": "2369120/8b670e0a-402c-4da7-af55-0db825fd0bba.eml",
+          "json_email_identifier": "2369120/8b670e0a-402c-4da7-af55-0db825fd0bba.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 54627899891481,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Aza,\n\nThank you for your reply and for sharing the order number.\n\nPlease allow us some time we check and get back to you with an update.\n\nWe appricate your time and patience\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Aza,<br>&nbsp;<br>Thank you for your reply and for sharing the order number.<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br>&nbsp;<br>We appricate your time and patience<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Aza,\n&nbsp;\nThank you for your reply and for sharing the order number.\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n&nbsp;\nWe appricate your time and patience\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54627899891353,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-01-27T10:32:43Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54627993921049,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need assistance from L3 team:\n\n**Case:** Shopify unfulfilled orders missing in MCSL\n\n**Details:**\nA customer on the **$49 Premium plan** has reported that order imports usually work after force-importing products and orders. However, in this instance, the customer shared three orders, out of which **two orders are not importing** despite multiple force import attempts.\n\nWe have verified that the products are already imported and that the orders are in **unfulfilled** status in Shopify. Could you please review this and share your inputs on why these orders are not being imported into MCSL?\n\n**Orders in question:**\n#LBA-73008, #LBA-73006\n\n**Store details:**\nStore URL: loisivethe.myshopify.com\nStore UID: 7bb06e79-0355-4e1c-a6ba-fbd1da3c24d3\n\n ![](https://pluginhive.zendesk.com/attachments/token/Xk1fr5YEk8kq4fdUNEm5gBeO5/?name=image.png)\n ![](https://pluginhive.zendesk.com/attachments/token/3rux2ZMd9dEjupoEY95u9xN0d/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need assistance from L3 team:<br>&nbsp;<br><strong>Case:</strong> Shopify unfulfilled orders missing in MCSL<br>&nbsp;<br><strong>Details:</strong><br>A customer on the <strong>$49 Premium plan</strong> has reported that order imports usually work after force-importing products and orders. However, in this instance, the customer shared three orders, out of which <strong>two orders are not importing</strong> despite multiple force import attempts.<br>&nbsp;<br>We have verified that the products are already imported and that the orders are in <strong>unfulfilled</strong> status in Shopify. Could you please review this and share your inputs on why these orders are not being imported into MCSL?<br>&nbsp;<br><strong>Orders in question:</strong><br>#LBA-73008, #LBA-73006<br>&nbsp;<br><strong>Store details:</strong><br>Store URL: loisivethe.myshopify.com<br>Store UID: 7bb06e79-0355-4e1c-a6ba-fbd1da3c24d3<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/Xk1fr5YEk8kq4fdUNEm5gBeO5/?name=image.png\"></span><br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/3rux2ZMd9dEjupoEY95u9xN0d/?name=image.png\"></span><br></div>",
+      "plain_body": "Need assistance from L3 team:\n&nbsp;\nCase: Shopify unfulfilled orders missing in MCSL\n&nbsp;\nDetails:\nA customer on the $49 Premium plan has reported that order imports usually work after force-importing products and orders. However, in this instance, the customer shared three orders, out of which two orders are not importing despite multiple force import attempts.\n&nbsp;\nWe have verified that the products are already imported and that the orders are in unfulfilled status in Shopify. Could you please review this and share your inputs on why these orders are not being imported into MCSL?\n&nbsp;\nOrders in question:\n#LBA-73008, #LBA-73006\n&nbsp;\nStore details:\nStore URL: loisivethe.myshopify.com\nStore UID: 7bb06e79-0355-4e1c-a6ba-fbd1da3c24d3\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 54627993920921,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-01-27T10:36:51Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54628300887449,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Orders #LBA-73008, #LBA-73006 are already imported in the app.\n\nIs merchant actively making any changes to products?  We could see all the products are imported in the app.\nKindly ask merchant to not make manual force import and let the orders import automatically and let us know if any order is missing.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Orders #LBA-73008, #LBA-73006 are already imported in the app.<br>&nbsp;<br>Is merchant actively making any changes to products? &nbsp;We could see all the products are imported in the app.&nbsp;<br>Kindly ask merchant to not make manual force import and let the orders import automatically and let us know if any order is missing.<br>[Veena]<br>&nbsp;<br></div>",
+      "plain_body": "Orders #LBA-73008, #LBA-73006 are already imported in the app.\n&nbsp;\nIs merchant actively making any changes to products? &nbsp;We could see all the products are imported in the app.&nbsp;\nKindly ask merchant to not make manual force import and let the orders import automatically and let us know if any order is missing.\n[Veena]\n&nbsp;",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/54628283809049.json",
+          "id": 54628283809049,
+          "file_name": "Screenshot 2026-01-27 at 4.15.20 PM.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/oEXj4UhTTssldbNodHjVzVw61/?name=Screenshot+2026-01-27+at+4.15.20%E2%80%AFPM.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/oEXj4UhTTssldbNodHjVzVw61/?name=Screenshot+2026-01-27+at+4.15.20%E2%80%AFPM.png",
+          "content_type": "image/png",
+          "size": 164951,
+          "width": 2518,
+          "height": 686,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/54628328730393.json",
+              "id": 54628328730393,
+              "file_name": "Screenshot_2026-01-27_at_4.15.20_PM_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/7J9SrsF3eeyfgB03OMHS2MjwZ/?name=Screenshot_2026-01-27_at_4.15.20_PM_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/7J9SrsF3eeyfgB03OMHS2MjwZ/?name=Screenshot_2026-01-27_at_4.15.20_PM_thumb.png",
+              "content_type": "image/png",
+              "size": 1725,
+              "width": 80,
+              "height": 22,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 54628300887321,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-01-27T10:49:23Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "152.57.44.234",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54628438597017,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Aza,\n\nWe’ve imported all three orders into the app and can confirm that they’re now ready for shipping label generation. Could you please cross-check this from your end and proceed with processing the shipments?\n\nFeel free to reach out to us anytime if you need any assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Aza,<br>&nbsp;<br>We’ve imported all three orders into the app and can confirm that they’re now ready for shipping label generation. Could you please cross-check this from your end and proceed with processing the shipments?<br>&nbsp;<br>Feel free to reach out to us anytime if you need any assistance from our end.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Aza,\n&nbsp;\nWe’ve imported all three orders into the app and can confirm that they’re now ready for shipping label generation. Could you please cross-check this from your end and proceed with processing the shipments?\n&nbsp;\nFeel free to reach out to us anytime if you need any assistance from our end.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54628438596889,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-01-27T10:53:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54634130307225,
+      "type": "Comment",
+      "author_id": 5029975802009,
+      "body": "Hi Manohar,\n\n\n\nIt worked, thank you. Were you able to investigate what is causing the labels not to appear?\n\n\n\nThank you,\n\nAza\n\n___\n\n\n\nInstagram @labienaimee Facebook La Bien Aimée Ravelry La Bien Aimée group\n\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at **sales@labienaimee.com **\n\n\n\nOur online customer service hours are: **Monday - Friday**** 10AM to 5:00 PM**.  Emails sent during non-office hours will be responded to on the next business day.\n\n\n\nNotre service client est joignable **du lundi au vendredi de 10h à 17h**. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi Manohar,</div><div><br></div><div>It worked, thank you. Were you able to investigate what is causing the labels not to appear?</div><div><br></div><div>Thank you,</div><div>Aza</div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div>___</div><div><br></div><div><span style=\"color: rgb(34,35,35); \">Instagram </span><a href=\"https://www.instagram.com/labienaimee/\" rel=\"noreferrer\">@labienaimee</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Facebook </span><a href=\"https://www.facebook.com/labienaimeeyarn/\" rel=\"noreferrer\">La Bien Aimée</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Ravelry </span><a href=\"https://www.ravelry.com/groups/la-bien-aimee\" rel=\"noreferrer\">La Bien Aimée group</a><br></div></div></div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><font color=\"#000000\">Pour toute question sur votre commande, écrivez-nous à /&nbsp;</font><span style=\"color: rgb(0,0,0); \">Do you have a question about your order? Email us at&nbsp;</span><b><a style=\"color: rgb(17,85,204);\" href=\"mailto:sales@labienaimee.com\" rel=\"noreferrer\">sales@labienaimee.com</a>&nbsp;</b><br></div></div><div dir=\"ltr\"><font><b><br></b></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\">Our online customer service hours are: <b>Monday&nbsp;- Friday</b><b>&nbsp;10AM to 5:00 PM</b>.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;</span></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\"><br></span></font></div><div><font><span style=\"color: rgb(34,35,35);\">Notre service client est joignable <b>du lundi au vendredi de 10h à 17h</b>. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;</span></font></div><div dir=\"ltr\"><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi Manohar,  \n  It worked, thank you. Were you able to investigate what is causing the labels not to appear?  \n  Thank you,  Aza                         ___  \n  Instagram @labienaimee&nbsp;Facebook La Bien Aimée&nbsp;Ravelry La Bien Aimée group\n      Pour toute question sur votre commande, écrivez-nous à /&nbsp;Do you have a question about your order? Email us at&nbsp;sales@labienaimee.com&nbsp;\n   \n  Our online customer service hours are: Monday&nbsp;- Friday&nbsp;10AM to 5:00 PM.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;  \n  Notre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54634130307097,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "sales@labienaimee.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-01-27T15:35:35Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJ_aSBH3eWZwyEU_N4A8xAotFmousk74Nbvr=kZ63zjGnDjYFA@mail.gmail.com>",
+          "email_id": "01KG01H1CT8NY314N29W7XJ7MP",
+          "raw_email_identifier": "2369120/4185dace-dbba-4c54-b64c-8257e55821e5.eml",
+          "json_email_identifier": "2369120/4185dace-dbba-4c54-b64c-8257e55821e5.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 54634682770969,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Aza,\n\nOur team has checked about this and confirm that all the products are imported to the app and the orders would also get imported automatically.\n\nIf this happen again, please do not Force Import the products manually and wait for sometime for the orders to get imported automatically. If this is not happening even after sometime, reach out to us and share the order number.\n\nAlso, do not take any further action from your end for us to investigate the case.\n\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Aza,<br>&nbsp;<br>Our team has checked about this and confirm that all the products are imported to the app and the orders would also get imported automatically.&nbsp;<br>&nbsp;<br>If this happen again, please do not Force Import the products manually and wait for sometime for the orders to get imported automatically. If this is not happening even after sometime, reach out to us and share the order number.&nbsp;<br>&nbsp;<br>Also, do not take any further action from your end for us to investigate the case.<br>&nbsp;<br>Thanks and Regards,<br>Sagar K S<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Aza,\n&nbsp;\nOur team has checked about this and confirm that all the products are imported to the app and the orders would also get imported automatically.&nbsp;\n&nbsp;\nIf this happen again, please do not Force Import the products manually and wait for sometime for the orders to get imported automatically. If this is not happening even after sometime, reach out to us and share the order number.&nbsp;\n&nbsp;\nAlso, do not take any further action from your end for us to investigate the case.\n&nbsp;\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54634682770841,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-01-27T16:11:27Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "116.73.79.115",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54839495933721,
+      "type": "Comment",
+      "author_id": 5029975802009,
+      "body": "Hello,\n\n\n\nWe are having issues generating these labels, can you help please?\n\n\n\n73059\n\n73073\n\n72941\n\n\n\nThanks,\n\nMingxia\n\n___\n\n\n\nInstagram @labienaimee Facebook La Bien Aimée Ravelry La Bien Aimée group\n\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at **sales@labienaimee.com **\n\n\n\nOur online customer service hours are: **Monday - Friday**** 10AM to 5:00 PM**.  Emails sent during non-office hours will be responded to on the next business day.\n\n\n\nNotre service client est joignable **du lundi au vendredi de 10h à 17h**. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div><div style=\"color: rgb(68,68,68); font-size: 12px;\">Hello,&nbsp;</div><div style=\"color: rgb(68,68,68); font-size: 12px;\"><br></div><div style=\"color: rgb(68,68,68); font-size: 12px;\">We are having issues generating these labels, can you help please?</div><div style=\"color: rgb(68,68,68); font-size: 12px;\"><br></div><div style=\"color: rgb(68,68,68); font-size: 12px;\">73059</div><div style=\"color: rgb(68,68,68); font-size: 12px;\">73073</div><div style=\"color: rgb(68,68,68); font-size: 12px;\">72941</div><div style=\"color: rgb(68,68,68); font-size: 12px;\"><br></div><div style=\"color: rgb(68,68,68); font-size: 12px;\">Thanks,</div><div style=\"color: rgb(68,68,68); font-size: 12px;\">Mingxia</div></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div>___</div><div><br></div><div><span style=\"color: rgb(34,35,35); \">Instagram </span><a href=\"https://www.instagram.com/labienaimee/\" rel=\"noreferrer\">@labienaimee</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Facebook </span><a href=\"https://www.facebook.com/labienaimeeyarn/\" rel=\"noreferrer\">La Bien Aimée</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Ravelry </span><a href=\"https://www.ravelry.com/groups/la-bien-aimee\" rel=\"noreferrer\">La Bien Aimée group</a><br></div></div></div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><font color=\"#000000\">Pour toute question sur votre commande, écrivez-nous à /&nbsp;</font><span style=\"color: rgb(0,0,0); \">Do you have a question about your order? Email us at&nbsp;</span><b><a style=\"color: rgb(17,85,204);\" href=\"mailto:sales@labienaimee.com\" rel=\"noreferrer\">sales@labienaimee.com</a>&nbsp;</b><br></div></div><div dir=\"ltr\"><font><b><br></b></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\">Our online customer service hours are: <b>Monday&nbsp;- Friday</b><b>&nbsp;10AM to 5:00 PM</b>.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;</span></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\"><br></span></font></div><div><font><span style=\"color: rgb(34,35,35);\">Notre service client est joignable <b>du lundi au vendredi de 10h à 17h</b>. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;</span></font></div><div dir=\"ltr\"><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hello,&nbsp;  \n  We are having issues generating these labels, can you help please?  \n  73059  73073  72941  \n  Thanks,  Mingxia                          ___  \n  Instagram @labienaimee&nbsp;Facebook La Bien Aimée&nbsp;Ravelry La Bien Aimée group\n      Pour toute question sur votre commande, écrivez-nous à /&nbsp;Do you have a question about your order? Email us at&nbsp;sales@labienaimee.com&nbsp;\n   \n  Our online customer service hours are: Monday&nbsp;- Friday&nbsp;10AM to 5:00 PM.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;  \n  Notre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54839495933593,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "sales@labienaimee.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-03T10:07:47Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJ_aSBFFggA1gPBytjqnN_06QrE=weyBYiWm++6A3Bw=7ryDug@mail.gmail.com>",
+          "email_id": "01KGHFHW0Z6XYM9904MM6440TP",
+          "raw_email_identifier": "2369120/15f2bcdd-2fa0-4e7d-9ed9-a7191a2396eb.eml",
+          "json_email_identifier": "2369120/15f2bcdd-2fa0-4e7d-9ed9-a7191a2396eb.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 54839671570713,
+      "type": "Comment",
+      "author_id": 5029975802009,
+      "body": "Hello,\n\n\n\nWe are having issues generating these labels, can you help please?\n\n\n\n73059\n\n73073\n\n72941\n\n73096\n\n\n\nThanks,\n\nMingxia\n\n___\n\n\n\nInstagram @labienaimee Facebook La Bien Aimée Ravelry La Bien Aimée group\n\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at **sales@labienaimee.com **\n\n\n\nOur online customer service hours are: **Monday - Friday**** 10AM to 5:00 PM**.  Emails sent during non-office hours will be responded to on the next business day.\n\n\n\nNotre service client est joignable **du lundi au vendredi de 10h à 17h**. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div><span><div style=\"color: rgb(68,68,68); font-size: 12px;\">Hello,&nbsp;</div><div style=\"color: rgb(68,68,68); font-size: 12px;\"><br></div><div style=\"color: rgb(68,68,68); font-size: 12px;\">We are having issues generating these labels, can you help please?</div><div style=\"color: rgb(68,68,68); font-size: 12px;\"><br></div></span><div style=\"color: rgb(68,68,68); font-size: 12px;\">73059</div><div style=\"color: rgb(68,68,68); font-size: 12px;\">73073</div><div style=\"color: rgb(68,68,68); font-size: 12px;\">72941</div><div style=\"color: rgb(68,68,68); font-size: 12px;\">73096</div><div style=\"color: rgb(68,68,68); font-size: 12px;\"><br></div><div style=\"color: rgb(68,68,68); font-size: 12px;\">Thanks,</div><div style=\"color: rgb(68,68,68); font-size: 12px;\">Mingxia</div></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div>___</div><div><br></div><div><span style=\"color: rgb(34,35,35); \">Instagram </span><a href=\"https://www.instagram.com/labienaimee/\" rel=\"noreferrer\">@labienaimee</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Facebook </span><a href=\"https://www.facebook.com/labienaimeeyarn/\" rel=\"noreferrer\">La Bien Aimée</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Ravelry </span><a href=\"https://www.ravelry.com/groups/la-bien-aimee\" rel=\"noreferrer\">La Bien Aimée group</a><br></div></div></div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><font color=\"#000000\">Pour toute question sur votre commande, écrivez-nous à /&nbsp;</font><span style=\"color: rgb(0,0,0); \">Do you have a question about your order? Email us at&nbsp;</span><b><a style=\"color: rgb(17,85,204);\" href=\"mailto:sales@labienaimee.com\" rel=\"noreferrer\">sales@labienaimee.com</a>&nbsp;</b><br></div></div><div dir=\"ltr\"><font><b><br></b></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\">Our online customer service hours are: <b>Monday&nbsp;- Friday</b><b>&nbsp;10AM to 5:00 PM</b>.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;</span></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\"><br></span></font></div><div><font><span style=\"color: rgb(34,35,35);\">Notre service client est joignable <b>du lundi au vendredi de 10h à 17h</b>. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;</span></font></div><div dir=\"ltr\"><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hello,&nbsp;  \n  We are having issues generating these labels, can you help please?  \n  73059  73073  72941  73096  \n  Thanks,  Mingxia                          ___  \n  Instagram @labienaimee&nbsp;Facebook La Bien Aimée&nbsp;Ravelry La Bien Aimée group\n      Pour toute question sur votre commande, écrivez-nous à /&nbsp;Do you have a question about your order? Email us at&nbsp;sales@labienaimee.com&nbsp;\n   \n  Our online customer service hours are: Monday&nbsp;- Friday&nbsp;10AM to 5:00 PM.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;  \n  Notre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54839714523801,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "sales@labienaimee.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-03T10:14:51Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJ_aSBEnXLqmRGZ4a0GGbPdcUXZR50PF5wkJNL-LDD7-ab6+9Q@mail.gmail.com>",
+          "email_id": "01KGHFYSV3A3NPKNV4VCM9NQZ7",
+          "raw_email_identifier": "2369120/0f4441b0-441b-454a-a051-8bcbbece0705.eml",
+          "json_email_identifier": "2369120/0f4441b0-441b-454a-a051-8bcbbece0705.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 54840562768025,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Mingxia,\n\nGood Day!\n\nChecking your orders, we could observe the following -\n\n- Order 72941 is failing with the error \"Invalid Destination.\" As such, please cross check the recipient address and update it if needed to try generating the labels again with the app.\n- Other 3 orders are now available for label generation in the app.\n\nPlease cross check and let us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mingxia,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>Checking your orders, we could observe the following -&nbsp;<br><ul dir=\"auto\"><li>Order 72941 is failing with the error \"Invalid Destination.\" As such, please cross check the recipient address and update it if needed to try generating the labels again with the app.</li><li>Other 3 orders are now available for label generation in the app.</li></ul>&nbsp;<br>Please cross check and let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Mingxia,\n&nbsp;\nGood Day!\n&nbsp;\nChecking your orders, we could observe the following -&nbsp;\n  Order 72941 is failing with the error \"Invalid Destination.\" As such, please cross check the recipient address and update it if needed to try generating the labels again with the app.  Other 3 orders are now available for label generation in the app.  &nbsp;\nPlease cross check and let us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54840562767897,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-03T10:46:42Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54841375934361,
+      "type": "Comment",
+      "author_id": 49957893768473,
+      "body": "Hello Touseef,\n\n\nThank you for your help.\n\nHow can we avoid these in the future ? During a high volume sale period these bugs are impacting our efficiency and force us to do manual labels sometimes.\n\nI'm looping our webmaster that has contacted you on other topics.\n\n\n\nMany thanks,\n\n\n\nBest,",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello Touseef,<div><br></div><div>Thank you for your help.</div><div>How can we avoid these in the future ? During a high volume sale period these bugs are impacting our efficiency and force us to do manual labels sometimes.</div><div>I'm looping our webmaster that has contacted you on other topics.</div><div><br></div><div>Many thanks,</div><div><br></div><div>Best,</div></div><br><div></div></div>",
+      "plain_body": "Hello Touseef, \n  Thank you for your help.  How can we avoid these in the future ? During a high volume sale period these bugs are impacting our efficiency and force us to do manual labels sometimes.  I'm looping our webmaster that has contacted you on other topics.  \n  Many thanks,  \n  Best,",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54841375934233,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "tovan@labienaimee.com",
+              "support@pluginhive.com",
+              "manvimeshram@pluginhive.com",
+              "s.thoorens@gmail.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-03T11:15:45Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAFxCprzroKG_c05c1MmFyKFG2BUavZc_U1-BzZYGO+Xi7hznfw@mail.gmail.com>",
+          "email_id": "01KGHKE9BZ29118PAW941716G4",
+          "raw_email_identifier": "2369120/1e84ff3b-3584-4c00-9d9e-6ea93b51dc1c.eml",
+          "json_email_identifier": "2369120/1e84ff3b-3584-4c00-9d9e-6ea93b51dc1c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 54841353191833,
+      "type": "Comment",
+      "author_id": 5029975802009,
+      "body": "Hi Touseef,\n\n\n\nI think 72941 is not working due to the letters in the post code, but it is correct. We had issues with that in the past.\n\n\n\nCan you make it so that the app still lets us keep the letters in the post code for Ireland?\n\n\n\nThanks,\n\n\nAza\n\n___\n\n\n\nInstagram @labienaimee Facebook La Bien Aimée Ravelry La Bien Aimée group\n\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at **sales@labienaimee.com **\n\n\n\nOur online customer service hours are: **Monday - Friday**** 10AM to 5:00 PM**.  Emails sent during non-office hours will be responded to on the next business day.\n\n\n\nNotre service client est joignable **du lundi au vendredi de 10h à 17h**. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi Touseef,</div><div><br></div><div>I think 72941 is not working due to the letters in the post code, but it is correct. We had issues with that in the past.</div><div><br></div><div>Can you make it so that the app still lets us keep the letters in the post code for Ireland?</div><div><br></div><div>Thanks,</div><div><br>Aza</div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div>___</div><div><br></div><div><span style=\"color: rgb(34,35,35); \">Instagram </span><a href=\"https://www.instagram.com/labienaimee/\" rel=\"noreferrer\">@labienaimee</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Facebook </span><a href=\"https://www.facebook.com/labienaimeeyarn/\" rel=\"noreferrer\">La Bien Aimée</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Ravelry </span><a href=\"https://www.ravelry.com/groups/la-bien-aimee\" rel=\"noreferrer\">La Bien Aimée group</a><br></div></div></div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><font color=\"#000000\">Pour toute question sur votre commande, écrivez-nous à /&nbsp;</font><span style=\"color: rgb(0,0,0); \">Do you have a question about your order? Email us at&nbsp;</span><b><a style=\"color: rgb(17,85,204);\" href=\"mailto:sales@labienaimee.com\" rel=\"noreferrer\">sales@labienaimee.com</a>&nbsp;</b><br></div></div><div dir=\"ltr\"><font><b><br></b></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\">Our online customer service hours are: <b>Monday&nbsp;- Friday</b><b>&nbsp;10AM to 5:00 PM</b>.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;</span></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\"><br></span></font></div><div><font><span style=\"color: rgb(34,35,35);\">Notre service client est joignable <b>du lundi au vendredi de 10h à 17h</b>. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;</span></font></div><div dir=\"ltr\"><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi Touseef,  \n  I think 72941 is not working due to the letters in the post code, but it is correct. We had issues with that in the past.  \n  Can you make it so that the app still lets us keep the letters in the post code for Ireland?  \n  Thanks,  \nAza                         ___  \n  Instagram @labienaimee&nbsp;Facebook La Bien Aimée&nbsp;Ravelry La Bien Aimée group\n      Pour toute question sur votre commande, écrivez-nous à /&nbsp;Do you have a question about your order? Email us at&nbsp;sales@labienaimee.com&nbsp;\n   \n  Our online customer service hours are: Monday&nbsp;- Friday&nbsp;10AM to 5:00 PM.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;  \n  Notre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54841353191577,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "sales@labienaimee.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-03T11:16:38Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJ_aSBFu+wUhYVj4J4sMqMzVAZ2Ya1d-vEa0EV19FiSWDy0dyg@mail.gmail.com>",
+          "email_id": "01KGHKFXFK2H7JV59B9B0WCZ0F",
+          "raw_email_identifier": "2369120/656054b5-2dc0-480b-99d1-9609be628922.eml",
+          "json_email_identifier": "2369120/656054b5-2dc0-480b-99d1-9609be628922.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 54843631465497,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Aza & Team,\n\nThank you for your reply.\n\nFor Ireland, postal codes are alphanumeric and are fully supported, so there should be no problem with the format itself. However, it appears that the postal code or address details may be incorrect, which is causing the shipping rates and label generation to fail. Please note that the app passes the address exactly as entered, and UPS is responsible for validating the shipping address.\n\nBased on the Google address, the city name is **Castleblayney**, whereas the order currently shows **Castleblaney**. I kindly request you to cross-check and update the address with the correct details, then try processing the order again.\nTo update the address, please go to **App → Orders**, search for **Order #72941**, open the order, edit the shipping address, and then try generating the label.\n\nRegarding your query about fixing this case permanently, we are happy to investigate this further and provide a long-term solution. To do so, we would need some time (a couple of hours) to review the logs. Since you need to process the order immediately, we have force-imported the order from our end to allow you to generate the label for now.\n\nPlease let us know if you are okay with waiting for some time if this case occurs again. We can then review the case in detail and provide a proper fix.\n\nFeel free to reach out to us anytime if you need assistance from our end.\n\nBest regards,\nManohar V\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Aza &amp; Team,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>For Ireland, postal codes are alphanumeric and are fully supported, so there should be no problem with the format itself. However, it appears that the postal code or address details may be incorrect, which is causing the shipping rates and label generation to fail. Please note that the app passes the address exactly as entered, and UPS is responsible for validating the shipping address.<br>&nbsp;<br>Based on the Google address, the city name is <strong>Castleblayney</strong>, whereas the order currently shows <strong>Castleblaney</strong>. I kindly request you to cross-check and update the address with the correct details, then try processing the order again.<br>To update the address, please go to <strong>App → Orders</strong>, search for <strong>Order <a href=\"/agent/tickets/72941\" target=\"_blank\" rel=\"ticket\">#72941</a></strong>, open the order, edit the shipping address, and then try generating the label.<br>&nbsp;<br>Regarding your query about fixing this case permanently, we are happy to investigate this further and provide a long-term solution. To do so, we would need some time (a couple of hours) to review the logs. Since you need to process the order immediately, we have force-imported the order from our end to allow you to generate the label for now.<br>&nbsp;<br>Please let us know if you are okay with waiting for some time if this case occurs again. We can then review the case in detail and provide a proper fix.<br>&nbsp;<br>Feel free to reach out to us anytime if you need assistance from our end.<br>&nbsp;<br>Best regards,<br>Manohar V<br>PluginHive<br></div>",
+      "plain_body": "Hello Aza &amp; Team,\n&nbsp;\nThank you for your reply.\n&nbsp;\nFor Ireland, postal codes are alphanumeric and are fully supported, so there should be no problem with the format itself. However, it appears that the postal code or address details may be incorrect, which is causing the shipping rates and label generation to fail. Please note that the app passes the address exactly as entered, and UPS is responsible for validating the shipping address.\n&nbsp;\nBased on the Google address, the city name is Castleblayney, whereas the order currently shows Castleblaney. I kindly request you to cross-check and update the address with the correct details, then try processing the order again.\nTo update the address, please go to App → Orders, search for Order #72941, open the order, edit the shipping address, and then try generating the label.\n&nbsp;\nRegarding your query about fixing this case permanently, we are happy to investigate this further and provide a long-term solution. To do so, we would need some time (a couple of hours) to review the logs. Since you need to process the order immediately, we have force-imported the order from our end to allow you to generate the label for now.\n&nbsp;\nPlease let us know if you are okay with waiting for some time if this case occurs again. We can then review the case in detail and provide a proper fix.\n&nbsp;\nFeel free to reach out to us anytime if you need assistance from our end.\n&nbsp;\nBest regards,\nManohar V\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54843631465369,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-03T12:53:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54843654703897,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Would like to followup once",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Would like to followup once<br></div>",
+      "plain_body": "Would like to followup once",
+      "public": false,
+      "attachments": [],
+      "audit_id": 54843632477977,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-03T12:53:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54872988689177,
+      "type": "Comment",
+      "author_id": 5029975802009,
+      "body": "Hi Manohar,\n\n\n\nWe will contact the client. In the meantime, we still have labels that have not been generated\n\n73104\n\n73102\n\n\n\nCan you help us with that?\n\n\n\nThanks,\n\nAza\n\n___\n\n\n\nInstagram @labienaimee Facebook La Bien Aimée Ravelry La Bien Aimée group\n\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at **sales@labienaimee.com **\n\n\n\nOur online customer service hours are: **Monday - Friday**** 10AM to 5:00 PM**.  Emails sent during non-office hours will be responded to on the next business day.\n\n\n\nNotre service client est joignable **du lundi au vendredi de 10h à 17h**. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi Manohar,</div><div><br></div><div>We will contact the client. In the meantime, we still have labels that have not been generated&nbsp;</div><div>73104</div><div>73102</div><div><br></div><div>Can you help us with that?</div><div><br></div><div>Thanks,</div><div>Aza</div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div>___</div><div><br></div><div><span style=\"color: rgb(34,35,35); \">Instagram </span><a href=\"https://www.instagram.com/labienaimee/\" rel=\"noreferrer\">@labienaimee</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Facebook </span><a href=\"https://www.facebook.com/labienaimeeyarn/\" rel=\"noreferrer\">La Bien Aimée</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Ravelry </span><a href=\"https://www.ravelry.com/groups/la-bien-aimee\" rel=\"noreferrer\">La Bien Aimée group</a><br></div></div></div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><font color=\"#000000\">Pour toute question sur votre commande, écrivez-nous à /&nbsp;</font><span style=\"color: rgb(0,0,0); \">Do you have a question about your order? Email us at&nbsp;</span><b><a style=\"color: rgb(17,85,204);\" href=\"mailto:sales@labienaimee.com\" rel=\"noreferrer\">sales@labienaimee.com</a>&nbsp;</b><br></div></div><div dir=\"ltr\"><font><b><br></b></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\">Our online customer service hours are: <b>Monday&nbsp;- Friday</b><b>&nbsp;10AM to 5:00 PM</b>.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;</span></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\"><br></span></font></div><div><font><span style=\"color: rgb(34,35,35);\">Notre service client est joignable <b>du lundi au vendredi de 10h à 17h</b>. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;</span></font></div><div dir=\"ltr\"><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi Manohar,  \n  We will contact the client. In the meantime, we still have labels that have not been generated&nbsp;  73104  73102  \n  Can you help us with that?  \n  Thanks,  Aza                         ___  \n  Instagram @labienaimee&nbsp;Facebook La Bien Aimée&nbsp;Ravelry La Bien Aimée group\n      Pour toute question sur votre commande, écrivez-nous à /&nbsp;Do you have a question about your order? Email us at&nbsp;sales@labienaimee.com&nbsp;\n   \n  Our online customer service hours are: Monday&nbsp;- Friday&nbsp;10AM to 5:00 PM.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;  \n  Notre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54872988689049,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "sales@labienaimee.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-04T09:40:12Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJ_aSBE3wwL2c3FrwysBaVZFzzibm4RAOpJcHHeJTaxF9s3ybQ@mail.gmail.com>",
+          "email_id": "01KGM0C21FM4W9P7TAS23X1QS5",
+          "raw_email_identifier": "2369120/41454d77-1ba3-4a7f-a537-f2ae76742b31.eml",
+          "json_email_identifier": "2369120/41454d77-1ba3-4a7f-a537-f2ae76742b31.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 54873908297753,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Aza,\n\nGood Day!\n\nOrders 73104 and 73102 are now available in the app for label generation.\n\nCould you please let us know if you are adding new products in Shopify on a regular basis as it seems like some new products are not syncing with the app right away resulting in the orders not importing having those products.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Aza,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>Orders 73104 and 73102 are now available in the app for label generation.<br>&nbsp;<br>Could you please let us know if you are adding new products in Shopify on a regular basis as it seems like some new products are not syncing with the app right away resulting in the orders not importing having those products.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Aza,\n&nbsp;\nGood Day!\n&nbsp;\nOrders 73104 and 73102 are now available in the app for label generation.\n&nbsp;\nCould you please let us know if you are adding new products in Shopify on a regular basis as it seems like some new products are not syncing with the app right away resulting in the orders not importing having those products.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54873908297625,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-04T10:10:07Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55028013587481,
+      "type": "Comment",
+      "author_id": 5029975802009,
+      "body": "Hi,\n\nI'm reaching out for order 73136 for which we can't generate the label on the app.\n\nCan you help us with that?\n\nThank you,\n\nMingxia\n\n___\n\n\n\nInstagram @labienaimee Facebook La Bien Aimée Ravelry La Bien Aimée group\n\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at **sales@labienaimee.com **\n\n\n\nOur online customer service hours are: **Monday - Friday**** 10AM to 5:00 PM**.  Emails sent during non-office hours will be responded to on the next business day.\n\n\n\nNotre service client est joignable **du lundi au vendredi de 10h à 17h**. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi,&nbsp;</div><div>I'm reaching out for order 73136 for which we can't generate the label on the app.&nbsp;</div><div><span style=\"color: rgb(68,68,68); font-size: 12px;\">Can you help us with that?</span></div><div><span style=\"color: rgb(68,68,68); font-size: 12px;\">Thank you,&nbsp;</span></div><div><span style=\"color: rgb(68,68,68); font-size: 12px;\">Mingxia&nbsp;</span></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div>___</div><div><br></div><div><span style=\"color: rgb(34,35,35); \">Instagram </span><a href=\"https://www.instagram.com/labienaimee/\" rel=\"noreferrer\">@labienaimee</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Facebook </span><a href=\"https://www.facebook.com/labienaimeeyarn/\" rel=\"noreferrer\">La Bien Aimée</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Ravelry </span><a href=\"https://www.ravelry.com/groups/la-bien-aimee\" rel=\"noreferrer\">La Bien Aimée group</a><br></div></div></div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><font color=\"#000000\">Pour toute question sur votre commande, écrivez-nous à /&nbsp;</font><span style=\"color: rgb(0,0,0); \">Do you have a question about your order? Email us at&nbsp;</span><b><a style=\"color: rgb(17,85,204);\" href=\"mailto:sales@labienaimee.com\" rel=\"noreferrer\">sales@labienaimee.com</a>&nbsp;</b><br></div></div><div dir=\"ltr\"><font><b><br></b></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\">Our online customer service hours are: <b>Monday&nbsp;- Friday</b><b>&nbsp;10AM to 5:00 PM</b>.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;</span></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\"><br></span></font></div><div><font><span style=\"color: rgb(34,35,35);\">Notre service client est joignable <b>du lundi au vendredi de 10h à 17h</b>. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;</span></font></div><div dir=\"ltr\"><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi,&nbsp;  I'm reaching out for order 73136 for which we can't generate the label on the app.&nbsp;  Can you help us with that?  Thank you,&nbsp;  Mingxia&nbsp;                         ___  \n  Instagram @labienaimee&nbsp;Facebook La Bien Aimée&nbsp;Ravelry La Bien Aimée group\n      Pour toute question sur votre commande, écrivez-nous à /&nbsp;Do you have a question about your order? Email us at&nbsp;sales@labienaimee.com&nbsp;\n   \n  Our online customer service hours are: Monday&nbsp;- Friday&nbsp;10AM to 5:00 PM.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;  \n  Notre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55028013587353,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "sales@labienaimee.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-09T15:20:08Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJ_aSBHzDe_=_0D3VN25HHZ0JAvoake3QTPthoZomK=0yV8SQg@mail.gmail.com>",
+          "email_id": "01KH1FT32TV4KVZSC759E715MJ",
+          "raw_email_identifier": "2369120/5936b0b5-5069-46cc-b8a7-361e46cab392.eml",
+          "json_email_identifier": "2369120/5936b0b5-5069-46cc-b8a7-361e46cab392.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55028914631321,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Mingxia & Team,\n\nOrder 73136 has been imported and is ready to generate shipping labels\n\nFeel free to reachout to us anytime you need assistance\n\nBest regards,\nManohar V\nPluginHive\n\n ![](https://pluginhive.zendesk.com/attachments/token/zVNDJBTrVC6Y5sc7Dt7TJSq7L/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mingxia &amp; Team,<br>&nbsp;<br>Order 73136 has been imported and is ready to generate shipping labels<br>&nbsp;<br>Feel free to reachout to us anytime you need assistance<br>&nbsp;<br>Best regards,<br>Manohar V<br>PluginHive<br>&nbsp;<br><img src=\"https://pluginhive.zendesk.com/attachments/token/zVNDJBTrVC6Y5sc7Dt7TJSq7L/?name=image.png\" style=\"width: 1277px;\"><br></div>",
+      "plain_body": "Hello Mingxia &amp; Team,\n&nbsp;\nOrder 73136 has been imported and is ready to generate shipping labels\n&nbsp;\nFeel free to reachout to us anytime you need assistance\n&nbsp;\nBest regards,\nManohar V\nPluginHive\n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55028914631193,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-09T16:29:32Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55084727607705,
+      "type": "Comment",
+      "author_id": 49957893768473,
+      "body": "Hello Manohar,\n\n\nHope you're well.\n\nDo you have visibility on the lead time to have our permanent fix as you mentionned formerly ?\n\nThanks a lot,\n\n\n\nBest,\n\n\n\nTo Van",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello Manohar,<div><br></div><div>Hope you're well.</div><div>Do you have visibility on the lead time to have our permanent fix as you mentionned formerly ?</div><div>Thanks a lot,</div><div><br></div><div>Best,</div><div><br></div><div>To Van</div></div><br><div></div></div>",
+      "plain_body": "Hello Manohar, \n  Hope you're well.  Do you have visibility on the lead time to have our permanent fix as you mentionned formerly ?  Thanks a lot,  \n  Best,  \n  To Van",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55084727607577,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "tovan@labienaimee.com",
+              "support@pluginhive.com",
+              "s.thoorens@gmail.com",
+              "manvimeshram@pluginhive.com",
+              "sales@labienaimee.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-11T08:42:17Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAFxCpryCH7EWYg-EeipwUu5kaX7siBiOf6AnSnJ+XpaYONebTw@mail.gmail.com>",
+          "email_id": "01KH5XV0B786J229987SPTT00E",
+          "raw_email_identifier": "2369120/c32c55c0-6330-4e39-b1fa-fcf3827516a4.eml",
+          "json_email_identifier": "2369120/c32c55c0-6330-4e39-b1fa-fcf3827516a4.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          5029975802009
+        ]
+      }
+    },
+    {
+      "id": 55086226757401,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello To Van & Team,\n\nWe are actively working on this case. At the moment, we do not have an estimated timeline to share, but we will keep you informed of any updates.\n\nIf you encounter the order import failure again, please share the order number before attempting to re-import it. This will help us capture the updated logs and investigate the issue more effectively.\n\nLooking forward to your response.\n\nBest regards,\nManohar V\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello To Van &amp; Team,<br>&nbsp;<br>We are actively working on this case. At the moment, we do not have an estimated timeline to share, but we will keep you informed of any updates.<br>&nbsp;<br>If you encounter the order import failure again, please share the order number before attempting to re-import it. This will help us capture the updated logs and investigate the issue more effectively.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>Best regards,<br>Manohar V<br>PluginHive<br></div>",
+      "plain_body": "Hello To Van &amp; Team,\n&nbsp;\nWe are actively working on this case. At the moment, we do not have an estimated timeline to share, but we will keep you informed of any updates.\n&nbsp;\nIf you encounter the order import failure again, please share the order number before attempting to re-import it. This will help us capture the updated logs and investigate the issue more effectively.\n&nbsp;\nLooking forward to your response.\n&nbsp;\nBest regards,\nManohar V\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55086226757273,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-11T09:31:18Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55086282098073,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Please do not force import order\n\nInstead, inform L3 team or inform me",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Please do not force import order<br>&nbsp;<br>Instead, inform L3 team or inform me<br></div>",
+      "plain_body": "Please do not force import order\n&nbsp;\nInstead, inform L3 team or inform me",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55086268978841,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-11T09:32:14Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55092991541401,
+      "type": "Comment",
+      "author_id": 5029975802009,
+      "body": "Hi Manohar,\n\n\n\nWe have two more orders that have been fullfilled on the app but are not fullfilled on Shopify :\n\n\n\n73164\n\n72624\n\n\n\nI have not fulfilled them manually so you can investigate.\n\n\n\nBest wishes,\n\nAza\n\n___\n\n\n\nInstagram @labienaimee Facebook La Bien Aimée Ravelry La Bien Aimée group\n\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at **sales@labienaimee.com **\n\n\n\nOur online customer service hours are: **Monday - Friday**** 10AM to 5:00 PM**.  Emails sent during non-office hours will be responded to on the next business day.\n\n\n\nNotre service client est joignable **du lundi au vendredi de 10h à 17h**. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi Manohar,</div><div><br></div><div>We have two more orders that have been fullfilled&nbsp;on the app but are not fullfilled&nbsp;on Shopify :&nbsp;</div><div><br></div><div>73164&nbsp;</div><div>72624</div><div><br></div><div>I have not fulfilled&nbsp;them manually so you can investigate.</div><div><br></div><div>Best wishes,</div><div>Aza</div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div>___</div><div><br></div><div><span style=\"color: rgb(34,35,35); \">Instagram </span><a href=\"https://www.instagram.com/labienaimee/\" rel=\"noreferrer\">@labienaimee</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Facebook </span><a href=\"https://www.facebook.com/labienaimeeyarn/\" rel=\"noreferrer\">La Bien Aimée</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Ravelry </span><a href=\"https://www.ravelry.com/groups/la-bien-aimee\" rel=\"noreferrer\">La Bien Aimée group</a><br></div></div></div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><font color=\"#000000\">Pour toute question sur votre commande, écrivez-nous à /&nbsp;</font><span style=\"color: rgb(0,0,0); \">Do you have a question about your order? Email us at&nbsp;</span><b><a style=\"color: rgb(17,85,204);\" href=\"mailto:sales@labienaimee.com\" rel=\"noreferrer\">sales@labienaimee.com</a>&nbsp;</b><br></div></div><div dir=\"ltr\"><font><b><br></b></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\">Our online customer service hours are: <b>Monday&nbsp;- Friday</b><b>&nbsp;10AM to 5:00 PM</b>.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;</span></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\"><br></span></font></div><div><font><span style=\"color: rgb(34,35,35);\">Notre service client est joignable <b>du lundi au vendredi de 10h à 17h</b>. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;</span></font></div><div dir=\"ltr\"><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi Manohar,  \n  We have two more orders that have been fullfilled&nbsp;on the app but are not fullfilled&nbsp;on Shopify :&nbsp;  \n  73164&nbsp;  72624  \n  I have not fulfilled&nbsp;them manually so you can investigate.  \n  Best wishes,  Aza                         ___  \n  Instagram @labienaimee&nbsp;Facebook La Bien Aimée&nbsp;Ravelry La Bien Aimée group\n      Pour toute question sur votre commande, écrivez-nous à /&nbsp;Do you have a question about your order? Email us at&nbsp;sales@labienaimee.com&nbsp;\n   \n  Our online customer service hours are: Monday&nbsp;- Friday&nbsp;10AM to 5:00 PM.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;  \n  Notre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55092991541273,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "sales@labienaimee.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-11T14:24:43Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJ_aSBHoDDWtJ9w071Y6Qs_Sc_u_eMbeQJ05x-KLPGOrA=0P2A@mail.gmail.com>",
+          "email_id": "01KH6HE0TTDD26M24K3C3E6MRH",
+          "raw_email_identifier": "2369120/8056d737-6f32-41f8-928f-cb5c5d0e61e2.eml",
+          "json_email_identifier": "2369120/8056d737-6f32-41f8-928f-cb5c5d0e61e2.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55093155945497,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Aza & Team,\n\nI have attached a short video explaining why the orders are not fulfilled. Could you please take a look?\n\nFYI, it's because of the order update. Please click on the order update icon (explained in the video) before generating a label for any order changes made.\n\nDo let us know how it goes or if you need any assistance\n\nBest regards,\nManohar V\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Aza &amp; Team,<br>&nbsp;<br>I have attached a short video explaining why the orders are not fulfilled. Could you please take a look?<br>&nbsp;<br>FYI, it's because of the order update. Please click on the order update icon (explained in the video) before generating a label for any order changes made.<br>&nbsp;<br>Do let us know how it goes or if you need any assistance<br>&nbsp;<br>Best regards,<br>Manohar V<br>PluginHive<br></div>",
+      "plain_body": "Hello Aza &amp; Team,\n&nbsp;\nI have attached a short video explaining why the orders are not fulfilled. Could you please take a look?\n&nbsp;\nFYI, it's because of the order update. Please click on the order update icon (explained in the video) before generating a label for any order changes made.\n&nbsp;\nDo let us know how it goes or if you need any assistance\n&nbsp;\nBest regards,\nManohar V\nPluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55093186635801.json",
+          "id": 55093186635801,
+          "file_name": "Screen Recording 2026-02-11 at 8.02.42 PM.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/ks6VDroLcie8yEdnPL7VoUETe/?name=Screen+Recording+2026-02-11+at+8.02.42+PM.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/ks6VDroLcie8yEdnPL7VoUETe/?name=Screen+Recording+2026-02-11+at+8.02.42+PM.mov",
+          "content_type": "video/quicktime",
+          "size": 34923589,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 55093155945369,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-11T14:37:28Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55093163699609,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need to followup if no response from customer",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need to followup if no response from customer<br></div>",
+      "plain_body": "Need to followup if no response from customer",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55093163699481,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-11T14:37:47Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55093301714969,
+      "type": "Comment",
+      "author_id": 5029975802009,
+      "body": "Thank you Manohar, we will try next time.\n\n___\n\n\n\nInstagram @labienaimee Facebook La Bien Aimée Ravelry La Bien Aimée group\n\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at **sales@labienaimee.com **\n\n\n\nOur online customer service hours are: **Monday - Friday**** 10AM to 5:00 PM**.  Emails sent during non-office hours will be responded to on the next business day.\n\n\n\nNotre service client est joignable **du lundi au vendredi de 10h à 17h**. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Thank you Manohar, we will try next time.</div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div>___</div><div><br></div><div><span style=\"color: rgb(34,35,35); \">Instagram </span><a href=\"https://www.instagram.com/labienaimee/\" rel=\"noreferrer\">@labienaimee</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Facebook </span><a href=\"https://www.facebook.com/labienaimeeyarn/\" rel=\"noreferrer\">La Bien Aimée</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Ravelry </span><a href=\"https://www.ravelry.com/groups/la-bien-aimee\" rel=\"noreferrer\">La Bien Aimée group</a><br></div></div></div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><font color=\"#000000\">Pour toute question sur votre commande, écrivez-nous à /&nbsp;</font><span style=\"color: rgb(0,0,0); \">Do you have a question about your order? Email us at&nbsp;</span><b><a style=\"color: rgb(17,85,204);\" href=\"mailto:sales@labienaimee.com\" rel=\"noreferrer\">sales@labienaimee.com</a>&nbsp;</b><br></div></div><div dir=\"ltr\"><font><b><br></b></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\">Our online customer service hours are: <b>Monday&nbsp;- Friday</b><b>&nbsp;10AM to 5:00 PM</b>.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;</span></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\"><br></span></font></div><div><font><span style=\"color: rgb(34,35,35);\">Notre service client est joignable <b>du lundi au vendredi de 10h à 17h</b>. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;</span></font></div><div dir=\"ltr\"><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Thank you Manohar, we will try next time.                         ___  \n  Instagram @labienaimee&nbsp;Facebook La Bien Aimée&nbsp;Ravelry La Bien Aimée group\n      Pour toute question sur votre commande, écrivez-nous à /&nbsp;Do you have a question about your order? Email us at&nbsp;sales@labienaimee.com&nbsp;\n   \n  Our online customer service hours are: Monday&nbsp;- Friday&nbsp;10AM to 5:00 PM.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;  \n  Notre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55093301714841,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "sales@labienaimee.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-11T14:44:01Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJ_aSBFwj7W-iJVkGLbKtmJUXkrU03Drj8aSHtEKS245KH2wkg@mail.gmail.com>",
+          "email_id": "01KH6JHBZ5AM65S4SC5P9J92DZ",
+          "raw_email_identifier": "2369120/880a52d2-1f9a-410c-b342-65c4ec5f8613.eml",
+          "json_email_identifier": "2369120/880a52d2-1f9a-410c-b342-65c4ec5f8613.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55095279848985,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello La & Team,\n\nThank you for your response.\n\nPlease let us know how it goes, and feel free to reach out if you need any assistance from our end. Additionally, do keep us informed if you notice any orders missing or not imported.\n\nBest regards,\nManohar V\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello La &amp; Team,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Please let us know how it goes, and feel free to reach out if you need any assistance from our end. Additionally, do keep us informed if you notice any orders missing or not imported.<br>&nbsp;<br>Best regards,<br>Manohar V<br>PluginHive<br></div>",
+      "plain_body": "Hello La &amp; Team,\n&nbsp;\nThank you for your response.\n&nbsp;\nPlease let us know how it goes, and feel free to reach out if you need any assistance from our end. Additionally, do keep us informed if you notice any orders missing or not imported.\n&nbsp;\nBest regards,\nManohar V\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55095279848857,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-11T17:13:49Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55117049622553,
+      "type": "Comment",
+      "author_id": 5029975802009,
+      "body": "Hi Manohar,\n\n\n\nWe are having trouble generating the label 73192, can you help please?\n\n\n\nThanks,\n\nAza\n\n___\n\n\n\nInstagram @labienaimee Facebook La Bien Aimée Ravelry La Bien Aimée group\n\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at **sales@labienaimee.com **\n\n\n\nOur online customer service hours are: **Monday - Friday**** 10AM to 5:00 PM**.  Emails sent during non-office hours will be responded to on the next business day.\n\n\n\nNotre service client est joignable **du lundi au vendredi de 10h à 17h**. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi Manohar,</div><div><br></div><div>We are having trouble generating the label 73192, can you help please?</div><div><br></div><div>Thanks,</div><div>Aza</div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div>___</div><div><br></div><div><span style=\"color: rgb(34,35,35); \">Instagram </span><a href=\"https://www.instagram.com/labienaimee/\" rel=\"noreferrer\">@labienaimee</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Facebook </span><a href=\"https://www.facebook.com/labienaimeeyarn/\" rel=\"noreferrer\">La Bien Aimée</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Ravelry </span><a href=\"https://www.ravelry.com/groups/la-bien-aimee\" rel=\"noreferrer\">La Bien Aimée group</a><br></div></div></div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><font color=\"#000000\">Pour toute question sur votre commande, écrivez-nous à /&nbsp;</font><span style=\"color: rgb(0,0,0); \">Do you have a question about your order? Email us at&nbsp;</span><b><a style=\"color: rgb(17,85,204);\" href=\"mailto:sales@labienaimee.com\" rel=\"noreferrer\">sales@labienaimee.com</a>&nbsp;</b><br></div></div><div dir=\"ltr\"><font><b><br></b></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\">Our online customer service hours are: <b>Monday&nbsp;- Friday</b><b>&nbsp;10AM to 5:00 PM</b>.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;</span></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\"><br></span></font></div><div><font><span style=\"color: rgb(34,35,35);\">Notre service client est joignable <b>du lundi au vendredi de 10h à 17h</b>. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;</span></font></div><div dir=\"ltr\"><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi Manohar,  \n  We are having trouble generating the label 73192, can you help please?  \n  Thanks,  Aza                         ___  \n  Instagram @labienaimee&nbsp;Facebook La Bien Aimée&nbsp;Ravelry La Bien Aimée group\n      Pour toute question sur votre commande, écrivez-nous à /&nbsp;Do you have a question about your order? Email us at&nbsp;sales@labienaimee.com&nbsp;\n   \n  Our online customer service hours are: Monday&nbsp;- Friday&nbsp;10AM to 5:00 PM.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;  \n  Notre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55117049622425,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "sales@labienaimee.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-12T08:30:19Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJ_aSBHVtsDJs2g6agYNRnD5HfvLvyoe1HEN5mrs2QWoWNu=Kg@mail.gmail.com>",
+          "email_id": "01KH8FHHSAHC3KQ84N3J9YPJ2A",
+          "raw_email_identifier": "2369120/5d34e7d2-8986-4904-9cfe-d741f9ea2718.eml",
+          "json_email_identifier": "2369120/5d34e7d2-8986-4904-9cfe-d741f9ea2718.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55119137725849,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Aza,\n\nPlease allow us some time we check and get back to you with an update.\n\nWe appricate your time and patience.\n\nBest regards,\nManohar V\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Aza,<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br>&nbsp;<br>We appricate your time and patience.<br>&nbsp;<br>Best regards,<br>Manohar V<br>PluginHive<br></div>",
+      "plain_body": "Hello Aza,\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n&nbsp;\nWe appricate your time and patience.\n&nbsp;\nBest regards,\nManohar V\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55119137725721,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-12T09:37:24Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55119264003609,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need assistance from L3 team\n\n**Case:** Order not imported\n**Reason:** Product variant not imported\n\n**Details:**\nThis is a $49 Premium Plan customer who has reported this order import issue multiple times. They have mentioned that the problem is recurring daily, resulting in missed orders and unfulfilled shipments.\n\nIf we are unable to provide a permanent fix, the customer has indicated that they may consider uninstalling the app.\n\nWe kindly request your support in reviewing this case and providing a permanent resolution at the earliest.\n\n**Store Details:**\nStore URL: loisivethe.myshopify.com\nStore UID: 7bb06e79-0355-4e1c-a6ba-fbd1da3c24d3\n\n ![](https://pluginhive.zendesk.com/attachments/token/KVR4d5sxF1ytXLPNXa4vtwiVJ/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need assistance from L3 team<br>&nbsp;<br><strong>Case:</strong> Order not imported<br><strong>Reason:</strong> Product variant not imported<br>&nbsp;<br><strong>Details:</strong><br>This is a $49 Premium Plan customer who has reported this order import issue multiple times. They have mentioned that the problem is recurring daily, resulting in missed orders and unfulfilled shipments.<br>&nbsp;<br>If we are unable to provide a permanent fix, the customer has indicated that they may consider uninstalling the app.<br>&nbsp;<br>We kindly request your support in reviewing this case and providing a permanent resolution at the earliest.<br>&nbsp;<br><strong>Store Details:</strong><br>Store URL: <a rel=\"noopener noreferrer\" href=\"http://loisivethe.myshopify.com\">loisivethe.myshopify.com</a>&nbsp;<br>Store UID: 7bb06e79-0355-4e1c-a6ba-fbd1da3c24d3<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/KVR4d5sxF1ytXLPNXa4vtwiVJ/?name=image.png\"></span><br></div>",
+      "plain_body": "Need assistance from L3 team\n&nbsp;\nCase: Order not imported\nReason: Product variant not imported\n&nbsp;\nDetails:\nThis is a $49 Premium Plan customer who has reported this order import issue multiple times. They have mentioned that the problem is recurring daily, resulting in missed orders and unfulfilled shipments.\n&nbsp;\nIf we are unable to provide a permanent fix, the customer has indicated that they may consider uninstalling the app.\n&nbsp;\nWe kindly request your support in reviewing this case and providing a permanent resolution at the earliest.\n&nbsp;\nStore Details:\nStore URL: loisivethe.myshopify.com&nbsp;\nStore UID: 7bb06e79-0355-4e1c-a6ba-fbd1da3c24d3\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55119264003481,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-12T09:40:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55142686057881,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "The variant import is only happening for this merchant and we would need some more time to look into it.\n\nWe have enabled the Force Import All option for the store. Kindly ask merchant to click on it once, as and when they make changes in Shopify.\nMove the ticket to dev_needed after reply.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">The variant import is only happening for this merchant and we would need some more time to look into it.<br>&nbsp;<br>We have enabled the Force Import All option for the store. Kindly ask merchant to click on it once, as and when they make changes in Shopify.<br>Move the ticket to dev_needed after reply.<br>[Veena]<br></div>",
+      "plain_body": "The variant import is only happening for this merchant and we would need some more time to look into it.\n&nbsp;\nWe have enabled the Force Import All option for the store. Kindly ask merchant to click on it once, as and when they make changes in Shopify.\nMove the ticket to dev_needed after reply.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55142686057753,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-13T05:11:49Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55143089349785,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Aza & Team,\n\nGood day!\n\nI’m pleased to inform you that we are actively working on this case and will be providing a permanent fix soon.\n\nIn the meantime, I have a workaround that will help you quickly retrieve the missing orders and proceed with shipment processing. I’ve attached a short video explaining the steps. Could you please take a look and try it the next time you notice that an order has not been imported?\n\nPlease let us know if you need any assistance or additional information from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Aza &amp; Team,<br>&nbsp;<br>Good day!<br>&nbsp;<br>I’m pleased to inform you that we are actively working on this case and will be providing a permanent fix soon.<br>&nbsp;<br>In the meantime, I have a workaround that will help you quickly retrieve the missing orders and proceed with shipment processing. I’ve attached a short video explaining the steps. Could you please take a look and try it the next time you notice that an order has not been imported?<br>&nbsp;<br>Please let us know if you need any assistance or additional information from our end.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Aza &amp; Team,\n&nbsp;\nGood day!\n&nbsp;\nI’m pleased to inform you that we are actively working on this case and will be providing a permanent fix soon.\n&nbsp;\nIn the meantime, I have a workaround that will help you quickly retrieve the missing orders and proceed with shipment processing. I’ve attached a short video explaining the steps. Could you please take a look and try it the next time you notice that an order has not been imported?\n&nbsp;\nPlease let us know if you need any assistance or additional information from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55143081098137.json",
+          "id": 55143081098137,
+          "file_name": "Screen Recording 2026-02-13 at 10.48.18 AM.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/hnYrwxoge2SlQH6OkVxU408G2/?name=Screen+Recording+2026-02-13+at+10.48.18+AM.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/hnYrwxoge2SlQH6OkVxU408G2/?name=Screen+Recording+2026-02-13+at+10.48.18+AM.mov",
+          "content_type": "video/quicktime",
+          "size": 38974640,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 55143089349657,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-13T05:24:54Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55143113837721,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Moving this ticket to dev needed\n\nCase: Orders not importing due to missing products varients",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving this ticket to dev needed<br>&nbsp;<br>Case: Orders not importing due to missing products varients<br></div>",
+      "plain_body": "Moving this ticket to dev needed\n&nbsp;\nCase: Orders not importing due to missing products varients",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55143113837465,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-13T05:25:58Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55406228163865,
+      "type": "Comment",
+      "author_id": 49957893768473,
+      "body": "Hello Manohar,\n\n\n\nI hope this mail finds you well.\n\nCan you please let us know about the permanent fix ?\n\n\n\nMany thanks,\n\nTo Van",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hello Manohar,</div><div><br></div><div>I hope this mail finds you well.</div><div>Can you please let us know about the permanent fix ?&nbsp;</div><div><br></div><div>Many thanks,</div><div>To Van</div><br><div></div></div></div>",
+      "plain_body": "Hello Manohar,  \n  I hope this mail finds you well.  Can you please let us know about the permanent fix ?&nbsp;  \n  Many thanks,  To Van",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55406228163737,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "tovan@labienaimee.com",
+              "support@pluginhive.com",
+              "s.thoorens@gmail.com",
+              "manvimeshram@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-23T09:06:06Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAFxCprzokZ+_=CT8kYOScHmt=3FMLNjwx51OX8DejvM=JcUUuQ@mail.gmail.com>",
+          "email_id": "01KJ4VZ7K3ZGKRBRCK8SXBKD0N",
+          "raw_email_identifier": "2369120/1500dd81-8f27-490d-b7d8-5bf780d2bd2c.eml",
+          "json_email_identifier": "2369120/1500dd81-8f27-490d-b7d8-5bf780d2bd2c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55406544373145,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Team,\n\nGood day!\n\nWe are actively working on this case and will keep you informed as soon as we have an update.\n\nIn the meantime, we have provided the **Bulk Force Import Product** option, which allows you to sync the missing products in one click and proceed with processing the orders. Please refer to the attached short video for guidance.\n\nRest assured, we will share further updates as soon as they are available.\n\nWe appreciate your cooperation, and please feel free to reach out to us anytime if you need any assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Good day!<br>&nbsp;<br>We are actively working on this case and will keep you informed as soon as we have an update.<br>&nbsp;<br>In the meantime, we have provided the <strong>Bulk Force Import Product</strong> option, which allows you to sync the missing products in one click and proceed with processing the orders. Please refer to the attached short video for guidance.<br>&nbsp;<br>Rest assured, we will share further updates as soon as they are available.<br>&nbsp;<br>We appreciate your cooperation, and please feel free to reach out to us anytime if you need any assistance from our end.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nGood day!\n&nbsp;\nWe are actively working on this case and will keep you informed as soon as we have an update.\n&nbsp;\nIn the meantime, we have provided the Bulk Force Import Product option, which allows you to sync the missing products in one click and proceed with processing the orders. Please refer to the attached short video for guidance.\n&nbsp;\nRest assured, we will share further updates as soon as they are available.\n&nbsp;\nWe appreciate your cooperation, and please feel free to reach out to us anytime if you need any assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55406544373017,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-23T09:18:31Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55406574733977,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Team,\n\nGood day!\n\nWe are actively working on this case and will keep you informed as soon as we have an update.\n\nIn the meantime, we have provided the **Bulk Force Import Product** option, which allows you to sync the missing products in one click and proceed with processing the orders. Please refer to the attached short video for guidance.\n\nRest assured, we will share further updates as soon as they are available.\n\nWe appreciate your cooperation, and please feel free to reach out to us anytime if you need any assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Good day!<br>&nbsp;<br>We are actively working on this case and will keep you informed as soon as we have an update.<br>&nbsp;<br>In the meantime, we have provided the <strong>Bulk Force Import Product</strong> option, which allows you to sync the missing products in one click and proceed with processing the orders. Please refer to the attached short video for guidance.<br>&nbsp;<br>Rest assured, we will share further updates as soon as they are available.<br>&nbsp;<br>We appreciate your cooperation, and please feel free to reach out to us anytime if you need any assistance from our end.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nGood day!\n&nbsp;\nWe are actively working on this case and will keep you informed as soon as we have an update.\n&nbsp;\nIn the meantime, we have provided the Bulk Force Import Product option, which allows you to sync the missing products in one click and proceed with processing the orders. Please refer to the attached short video for guidance.\n&nbsp;\nRest assured, we will share further updates as soon as they are available.\n&nbsp;\nWe appreciate your cooperation, and please feel free to reach out to us anytime if you need any assistance from our end.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55406574572697.json",
+          "id": 55406574572697,
+          "file_name": "Screen Recording 2026-02-13 at 10.48.18 AM.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/ce55s89C6vHkrrvz5ftpZigsv/?name=Screen+Recording+2026-02-13+at+10.48.18+AM.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/ce55s89C6vHkrrvz5ftpZigsv/?name=Screen+Recording+2026-02-13+at+10.48.18+AM.mov",
+          "content_type": "video/quicktime",
+          "size": 38974640,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 55406545787673,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-23T09:18:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55849141734937,
+      "type": "Comment",
+      "author_id": 5029975802009,
+      "body": "Hello,\n\nI'm reaching out regarding a label issue with the following orders:\n73526, 73528, 73531.\n\nWe can't find these orders in the app. We've tried forcing a product import and then importing the orders, but it still doesn't work.\n\nThank you in advance for your help.\n\nWarm regards,\nMingxia\n\n___\n\n\n\nInstagram @labienaimee Facebook La Bien Aimée Ravelry La Bien Aimée group\n\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at **sales@labienaimee.com **\n\n\n\nOur online customer service hours are: **Monday - Friday**** 10AM to 5:00 PM**.  Emails sent during non-office hours will be responded to on the next business day.\n\n\n\nNotre service client est joignable **du lundi au vendredi de 10h à 17h**. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div><p dir=\"auto\">Hello,</p><p dir=\"auto\">I'm reaching out regarding a label issue with the following orders:<br>73526, 73528, 73531.</p><p dir=\"auto\">We can't find these orders in the app. We've tried forcing a product import and then importing the orders, but it still doesn't work.</p><p dir=\"auto\">Thank you in advance for your help.</p><p dir=\"auto\">Warm regards,<br>Mingxia</p></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div>___</div><div><br></div><div><span style=\"color: rgb(34,35,35); \">Instagram </span><a href=\"https://www.instagram.com/labienaimee/\" rel=\"noreferrer\">@labienaimee</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Facebook </span><a href=\"https://www.facebook.com/labienaimeeyarn/\" rel=\"noreferrer\">La Bien Aimée</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Ravelry </span><a href=\"https://www.ravelry.com/groups/la-bien-aimee\" rel=\"noreferrer\">La Bien Aimée group</a><br></div></div></div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><font color=\"#000000\">Pour toute question sur votre commande, écrivez-nous à /&nbsp;</font><span style=\"color: rgb(0,0,0); \">Do you have a question about your order? Email us at&nbsp;</span><b><a style=\"color: rgb(17,85,204);\" href=\"mailto:sales@labienaimee.com\" rel=\"noreferrer\">sales@labienaimee.com</a>&nbsp;</b><br></div></div><div dir=\"ltr\"><font><b><br></b></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\">Our online customer service hours are: <b>Monday&nbsp;- Friday</b><b>&nbsp;10AM to 5:00 PM</b>.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;</span></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\"><br></span></font></div><div><font><span style=\"color: rgb(34,35,35);\">Notre service client est joignable <b>du lundi au vendredi de 10h à 17h</b>. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;</span></font></div><div dir=\"ltr\"><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hello,  I'm reaching out regarding a label issue with the following orders:\n73526, 73528, 73531.  We can't find these orders in the app. We've tried forcing a product import and then importing the orders, but it still doesn't work.  Thank you in advance for your help.  Warm regards,\nMingxia                          ___  \n  Instagram @labienaimee&nbsp;Facebook La Bien Aimée&nbsp;Ravelry La Bien Aimée group\n      Pour toute question sur votre commande, écrivez-nous à /&nbsp;Do you have a question about your order? Email us at&nbsp;sales@labienaimee.com&nbsp;\n   \n  Our online customer service hours are: Monday&nbsp;- Friday&nbsp;10AM to 5:00 PM.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;  \n  Notre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55849141734809,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "sales@labienaimee.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-09T13:31:24Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJ_aSBGgmfocoddyF8qyc77O=kogNhZ4+OsDAwt2DRAbKeBaDQ@mail.gmail.com>",
+          "email_id": "01KK9CQ21SE4MJ76RQGM117THB",
+          "raw_email_identifier": "2369120/af374b50-4219-47dc-be9e-0b5812f31bb4.eml",
+          "json_email_identifier": "2369120/af374b50-4219-47dc-be9e-0b5812f31bb4.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55850700459417,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Mingxia,\n\nApologies for the delay.\n\nUpon checking, all three orders have already been **fulfilled manually in Shopify**, and therefore, they cannot be imported into the app.\n\nMay I confirm if the shipping labels were created outside the app? If not, could you please **unfulfill the orders in Shopify**? Once that is done, we will quickly check from our end and assist with importing the orders.\n\nLooking forward to hearing back from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mingxia,<br>&nbsp;<br>Apologies for the delay.<br>&nbsp;<br>Upon checking, all three orders have already been <strong>fulfilled manually in Shopify</strong>, and therefore, they cannot be imported into the app.<br>&nbsp;<br>May I confirm if the shipping labels were created outside the app? If not, could you please <strong>unfulfill the orders in Shopify</strong>? Once that is done, we will quickly check from our end and assist with importing the orders.<br>&nbsp;<br>Looking forward to hearing back from you.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Mingxia,\n&nbsp;\nApologies for the delay.\n&nbsp;\nUpon checking, all three orders have already been fulfilled manually in Shopify, and therefore, they cannot be imported into the app.\n&nbsp;\nMay I confirm if the shipping labels were created outside the app? If not, could you please unfulfill the orders in Shopify? Once that is done, we will quickly check from our end and assist with importing the orders.\n&nbsp;\nLooking forward to hearing back from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55850700459289,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-09T15:00:03Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55850764286745,
+      "type": "Comment",
+      "author_id": 5029975802009,
+      "body": "Hello Manohar,\n\n\n\nI'm sorry, we had to rush and do the labels manually in order to meet our UPS pick-up time.\n\nYou can cancel this request.\n\n\n\nThank you,\n\nAmanda\n\n___\n\n\n\nInstagram @labienaimee Facebook La Bien Aimée Ravelry La Bien Aimée group\n\nPour toute question sur votre commande, écrivez-nous à / Do you have a question about your order? Email us at **sales@labienaimee.com **\n\n\n\nOur online customer service hours are: **Monday - Friday**** 10AM to 5:00 PM**.  Emails sent during non-office hours will be responded to on the next business day.\n\n\n\nNotre service client est joignable **du lundi au vendredi de 10h à 17h**. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hello Manohar,</div><div><br></div><div>I'm sorry, we had to rush and do the labels manually in order to meet our UPS pick-up time.</div><div>You can cancel this request.</div><div><br></div><div>Thank you,</div><div>Amanda</div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div>___</div><div><br></div><div><span style=\"color: rgb(34,35,35); \">Instagram </span><a href=\"https://www.instagram.com/labienaimee/\" rel=\"noreferrer\">@labienaimee</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Facebook </span><a href=\"https://www.facebook.com/labienaimeeyarn/\" rel=\"noreferrer\">La Bien Aimée</a>&nbsp;<span style=\"color: rgb(34,35,35); \">Ravelry </span><a href=\"https://www.ravelry.com/groups/la-bien-aimee\" rel=\"noreferrer\">La Bien Aimée group</a><br></div></div></div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><font color=\"#000000\">Pour toute question sur votre commande, écrivez-nous à /&nbsp;</font><span style=\"color: rgb(0,0,0); \">Do you have a question about your order? Email us at&nbsp;</span><b><a style=\"color: rgb(17,85,204);\" href=\"mailto:sales@labienaimee.com\" rel=\"noreferrer\">sales@labienaimee.com</a>&nbsp;</b><br></div></div><div dir=\"ltr\"><font><b><br></b></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\">Our online customer service hours are: <b>Monday&nbsp;- Friday</b><b>&nbsp;10AM to 5:00 PM</b>.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;</span></font></div><div dir=\"ltr\"><font><span style=\"color: rgb(34,35,35);\"><br></span></font></div><div><font><span style=\"color: rgb(34,35,35);\">Notre service client est joignable <b>du lundi au vendredi de 10h à 17h</b>. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;</span></font></div><div dir=\"ltr\"><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hello Manohar,  \n  I'm sorry, we had to rush and do the labels manually in order to meet our UPS pick-up time.  You can cancel this request.  \n  Thank you,  Amanda                         ___  \n  Instagram @labienaimee&nbsp;Facebook La Bien Aimée&nbsp;Ravelry La Bien Aimée group\n      Pour toute question sur votre commande, écrivez-nous à /&nbsp;Do you have a question about your order? Email us at&nbsp;sales@labienaimee.com&nbsp;\n   \n  Our online customer service hours are: Monday&nbsp;- Friday&nbsp;10AM to 5:00 PM.&nbsp; Emails sent during non-office hours will be responded to on the next business day.&nbsp;  \n  Notre service client est joignable du lundi au vendredi de 10h à 17h. les emails envoyés en-dehors de ces heures seront traités dans les jours qui suivent.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55850764286617,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sales@labienaimee.com",
+            "name": "La",
+            "original_recipients": [
+              "sales@labienaimee.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-09T15:04:03Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJ_aSBFRLGDCEcoa_RtmFbKtMrRQ=0+dCM+8gXrJVVGef8dWsw@mail.gmail.com>",
+          "email_id": "01KK9J0PWQN63X38WETHTSZA0V",
+          "raw_email_identifier": "2369120/1e9a02c5-3ed1-4c51-82f0-212c8aba5cfa.eml",
+          "json_email_identifier": "2369120/1e9a02c5-3ed1-4c51-82f0-212c8aba5cfa.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55850917742873,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Amanda,\n\nThank you for your reply.\n\nFeel free to reachout to us anytime you need assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Amanda,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>Feel free to reachout to us anytime you need assistance from our end.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Amanda,\n&nbsp;\nThank you for your reply.\n&nbsp;\nFeel free to reachout to us anytime you need assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55850917742745,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-09T15:10:56Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

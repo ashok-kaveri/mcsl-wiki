@@ -1,0 +1,877 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/372492.json",
+    "id": 372492,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-02-04T23:04:55Z",
+    "updated_at": "2026-03-03T06:17:12Z",
+    "generated_timestamp": 1772518633,
+    "type": "question",
+    "subject": "Hello,\nOrder 11622 - there are 20 items in total, ...",
+    "raw_subject": "Hello,\nOrder 11622 - there are 20 items in total, ...",
+    "description": "Hello,\nOrder 11622 - there are 20 items in total, but when I printed the packing slip it gives me only 18. I did change the package size manually but didn't make any changes to the items. Can you look into this? Thank you\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+    "priority": "normal",
+    "status": "open",
+    "recipient": null,
+    "requester_id": 25227457835161,
+    "submitter_id": 25227457835161,
+    "assignee_id": 44512844768153,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "other",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "to-do",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "red-jade-online-store.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0422077524"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69a67ce74426b8f7150010de"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "45G7ZM-X1Z2W",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "red-jade-online-store.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0422077524"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69a67ce74426b8f7150010de"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 54885954034841,
+      "type": "Comment",
+      "author_id": 25227457835161,
+      "body": "Hello,\nOrder 11622 - there are 20 items in total, but when I printed the packing slip it gives me only 18. I did change the package size manually but didn't make any changes to the items. Can you look into this? Thank you\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hello,\n<br>Order 11622 - there are 20 items in total, but when I printed the packing slip it gives me only 18. I did change the package size manually but didn't make any changes to the items. Can you look into this? Thank you</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/status/allorders\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/status/allorders</a></p></div>",
+      "plain_body": "Hello,\n\nOrder 11622 - there are 20 items in total, but when I printed the packing slip it gives me only 18. I did change the package size manually but didn't make any changes to the items. Can you look into this? Thank you \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54885954034713,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-02-04T23:04:55Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+          "ip_address": "175.33.173.109",
+          "location": "Melbourne, VIC, Australia",
+          "latitude": -37.7835,
+          "longitude": 144.8144
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 54886184065561,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "AU store\n$29 plan\nAU post added\nUsing the app for rates and labels\nMultiple payments done\n76 orders\nActive from: 2025-09-25",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">AU store<br>$29 plan&nbsp;<br>AU post added<br>Using the app for rates and labels&nbsp;<br>Multiple payments done&nbsp;<br>76 orders<br>Active from: 2025-09-25<br></div>",
+      "plain_body": "AU store\n$29 plan&nbsp;\nAU post added\nUsing the app for rates and labels&nbsp;\nMultiple payments done&nbsp;\n76 orders\nActive from: 2025-09-25",
+      "public": false,
+      "attachments": [],
+      "audit_id": 54886184065433,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-04T23:17:49Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.163.22",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54887145442841,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Checks done :\nCross checked the product import of all the items, product is imported\n\nMini Moon Cakes - Coconut\nMini Moon Cakes - Royale\nMini Moon Cakes - Matcha\nMini Moon Cakes - Pandan\nMini Moon Cakes - Envy\nMini Moon Cakes - Durian\nMini Pia Cakes (Bánh Pia)\nMini Pia Cakes (Bánh Pia) - Pandan & Mung Bean\nLunar New Year Candy Mix - 315g\nWhite Sesame Brittle Candy (200g)\n\nClassic Peanut Brittle Candy (200g)\nBlack Sesame Brittle Candy (200g)\n\n\nHowever the order has been edited in shopify, but the overall quantity 20 is being reflected on the app\nThe total quantity on packing slip is 20, but weight on packingb slip is 5.68\nI discussed with sagar and cross checked\n\nI snynced the store and requesting customer to try again\nif it's still the same, we need to raise l3",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Checks done :&nbsp;<br>Cross checked the product import of all the items, product is imported<br>&nbsp;<br>Mini Moon Cakes - Coconut&nbsp;<br>Mini Moon Cakes - Royale<br>Mini Moon Cakes - Matcha<br>Mini Moon Cakes - Pandan<br>Mini Moon Cakes - Envy<br>Mini Moon Cakes - Durian<br>Mini Pia Cakes (Bánh Pia)<br>Mini Pia Cakes (Bánh Pia) - Pandan &amp; Mung Bean<br>Lunar New Year Candy Mix - 315g<br>White Sesame Brittle Candy (200g)<br>&nbsp;<br>Classic Peanut Brittle Candy (200g)<br>Black Sesame Brittle Candy (200g)<br>&nbsp;<br>&nbsp;<br>However the order has been edited in shopify, but the overall quantity 20 is being reflected on the app&nbsp;<br>The total quantity on packing slip is 20, but weight on packingb slip is 5.68<br>I discussed with sagar and cross checked&nbsp;<br>&nbsp;<br>I snynced the store and requesting customer to try again&nbsp;<br>if it's still the same, we need to raise l3<br></div>",
+      "plain_body": "Checks done :&nbsp;\nCross checked the product import of all the items, product is imported\n&nbsp;\nMini Moon Cakes - Coconut&nbsp;\nMini Moon Cakes - Royale\nMini Moon Cakes - Matcha\nMini Moon Cakes - Pandan\nMini Moon Cakes - Envy\nMini Moon Cakes - Durian\nMini Pia Cakes (Bánh Pia)\nMini Pia Cakes (Bánh Pia) - Pandan &amp; Mung Bean\nLunar New Year Candy Mix - 315g\nWhite Sesame Brittle Candy (200g)\n&nbsp;\nClassic Peanut Brittle Candy (200g)\nBlack Sesame Brittle Candy (200g)\n&nbsp;\n&nbsp;\nHowever the order has been edited in shopify, but the overall quantity 20 is being reflected on the app&nbsp;\nThe total quantity on packing slip is 20, but weight on packingb slip is 5.68\nI discussed with sagar and cross checked&nbsp;\n&nbsp;\nI snynced the store and requesting customer to try again&nbsp;\nif it's still the same, we need to raise l3",
+      "public": false,
+      "attachments": [],
+      "audit_id": 54887174292505,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-05T00:06:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.163.22",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54887631592857,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Lawrence,\n\nGreetings from PluginHive!\n\nI have resynced your store to ensure all order details are up to date.\n\nCould you please cancel the current shipment, then generate a new shipping label along with the packing slip? After doing so, kindly let us know how it goes so we can confirm everything is correct.\n\nWe appreciate your patience and are here to assist further if needed.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Lawrence,<br><br>Greetings from PluginHive!<br>&nbsp;<br>I have resynced your store to ensure all order details are up to date.<br>&nbsp;<br>Could you please cancel the current shipment, then generate a new shipping label along with the packing slip? After doing so, kindly let us know how it goes so we can confirm everything is correct.<br>&nbsp;<br>We appreciate your patience and are here to assist further if needed.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Lawrence,\n\nGreetings from PluginHive!\n&nbsp;\nI have resynced your store to ensure all order details are up to date.\n&nbsp;\nCould you please cancel the current shipment, then generate a new shipping label along with the packing slip? After doing so, kindly let us know how it goes so we can confirm everything is correct.\n&nbsp;\nWe appreciate your patience and are here to assist further if needed.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54887631592729,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-05T00:23:16Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.163.22",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54888802681625,
+      "type": "Comment",
+      "author_id": 25227457835161,
+      "body": "Hi Priyanka,\n\nThank you for getting back to me!\n\nThe order has been packed already so I am unable to make those changes.\n\nI was just wondering what could have caused it. I haven't encountered this before.\n\nThank you,\n\n\n\nSintija\n\n\n\n ![](https://support.pluginhive.com/attachments/token/OiYczYPwfLv6G7IT6RrPUPGGG/?name=Outlook-5byloxqx.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHi Priyanka,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nThank you for getting back to me!</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nThe order has been packed already so I am unable to make those changes.</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nI was just wondering what could have caused it. I haven't encountered this before.</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nThank you,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nSintija</div>\n<div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<img style=\"width: 507px; height: 169px; max-width: 722px;\" height=\"169\" width=\"507\" src=\"https://support.pluginhive.com/attachments/token/OiYczYPwfLv6G7IT6RrPUPGGG/?name=Outlook-5byloxqx.png\"></div>\n</div>\n<div></div></div>",
+      "plain_body": "Hi Priyanka, \n \nThank you for getting back to me! \n \nThe order has been packed already so I am unable to make those changes. \n \nI was just wondering what could have caused it. I haven't encountered this before. \n \nThank you, \n \n\n\n \n \nSintija",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54888802681497,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "inquiries@redjadefoods.com.au",
+            "name": "Lawrence",
+            "original_recipients": [
+              "inquiries@redjadefoods.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-05T01:00:03Z",
+      "metadata": {
+        "system": {
+          "message_id": "<SY0P300MB011236220F6BB102AFB76060FD99A@SY0P300MB0112.AUSP300.PROD.OUTLOOK.COM>",
+          "email_id": "01KGNN09QV6AKARM14EYJPTXV4",
+          "ip_address": "40.99.134.69",
+          "raw_email_identifier": "2369120/e7946e74-01ec-43d7-ad52-6cf2838d7c52.eml",
+          "json_email_identifier": "2369120/e7946e74-01ec-43d7-ad52-6cf2838d7c52.json",
+          "eml_redacted": false,
+          "location": "Sydney, NSW, Australia",
+          "latitude": -33.8672,
+          "longitude": 151.1997
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 54890317474329,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Lawrence,\n\nAs the order has already been fulfilled, we won’t be able to determine the cause at this stage.\n\nIf this happens again with any future orders, please let us know immediately so that we can investigate further and assist you promptly.\n\nWe appreciate your understanding and are always here to help.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Lawrence,<br>&nbsp;<br>As the order has already been fulfilled, we won’t be able to determine the cause at this stage.<br>&nbsp;<br>If this happens again with any future orders, please let us know immediately so that we can investigate further and assist you promptly.<br>&nbsp;<br>We appreciate your understanding and are always here to help.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Lawrence,\n&nbsp;\nAs the order has already been fulfilled, we won’t be able to determine the cause at this stage.\n&nbsp;\nIf this happens again with any future orders, please let us know immediately so that we can investigate further and assist you promptly.\n&nbsp;\nWe appreciate your understanding and are always here to help.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54890317474201,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-05T01:42:44Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.163.22",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54945163296921,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Request #372777 \"Order 11617 - just received an e...\" was closed and merged into this request. Last comment in request #372777:\r\n\r\nOrder 11617 - just received an email from the customer that they are missing 1 item. There should be 16 items in total but on the packing slip there are only 15! in this case Mini mooncake Royale has changed from 3 to 2. Can you please look into this? This is the second case this week!\r\nThank you\r\n\r\n------------------\r\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/3c44fbbb-0618-4515-ab1e-ef6226a7eed8/2fbdc177-6092-44aa-8696-2e37dc500b1f/new",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/372777\" target=\"_blank\" rel=\"ticket\">#372777</a> \"Order 11617 - just received an e...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/372777\" target=\"_blank\" rel=\"ticket\">#372777</a>:</p>\n<p dir=\"auto\">Order 11617 - just received an email from the customer that they are missing 1 item. There should be 16 items in total but on the packing slip there are only 15! in this case Mini mooncake Royale has changed from 3 to 2. Can you please look into this? This is the second case this week!<br>\nThank you</p>\n<hr>\n<p dir=\"auto\">Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/summary/3c44fbbb-0618-4515-ab1e-ef6226a7eed8/2fbdc177-6092-44aa-8696-2e37dc500b1f/new\" rel=\"noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/summary/3c44fbbb-0618-4515-ab1e-ef6226a7eed8/2fbdc177-6092-44aa-8696-2e37dc500b1f/new</a></p></div>",
+      "plain_body": "Request #372777 \"Order 11617 - just received an e...\" was closed and merged into this request. Last comment in request #372777: \n Order 11617 - just received an email from the customer that they are missing 1 item. There should be 16 items in total but on the packing slip there are only 15! in this case Mini mooncake Royale has changed from 3 to 2. Can you please look into this? This is the second case this week!\n\nThank you \n \n Submitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/3c44fbbb-0618-4515-ab1e-ef6226a7eed8/2fbdc177-6092-44aa-8696-2e37dc500b1f/new",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54945163296409,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              372777
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-02-06T13:21:53Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54945263635993,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Lawrence,\n\nPlease allow us some time to check and get back to you with an update.\n\nWe appreciate your time and patience.\n\nBest regards,\nManohar V\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Lawrence,<br>&nbsp;<br>Please allow us some time to check and get back to you with an update.<br>&nbsp;<br>We appreciate your time and patience.<br>&nbsp;<br>Best regards,<br>Manohar V<br>PluginHive<br></div>",
+      "plain_body": "Hello Lawrence,\n&nbsp;\nPlease allow us some time to check and get back to you with an update.\n&nbsp;\nWe appreciate your time and patience.\n&nbsp;\nBest regards,\nManohar V\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54945263635865,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-06T13:27:10Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54946554510233,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need assistance from L3 team:\n\n**Case:** Product quantity mismatch on packing slip\n\n**Details:**\nThe customer has reported this concern for the second time. In the Shopify order, the total product quantity is 16, and the same count is correctly reflected in the order grid and picklist. However, on the packing slip, only 15 quantities are being displayed.\n\nWhile the packing slip shows the total order quantity as 16, the combined quantity of individual products adds up to only 15.\n\nThe customer has shared the following order IDs for reference: **11617** and **11622**.\n\nCould you please cross-check this behavior and share your inputs?\n\n**Store Details:**\nStore URL: red-jade-online-store.myshopify.com\nAccount ID:20463e40-9522-463f-9ea6-e56a86ba8709",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need assistance from L3 team:<br>&nbsp;<br><strong>Case:</strong> Product quantity mismatch on packing slip<br>&nbsp;<br><strong>Details:</strong><br>The customer has reported this concern for the second time. In the Shopify order, the total product quantity is 16, and the same count is correctly reflected in the order grid and picklist. However, on the packing slip, only 15 quantities are being displayed.<br>&nbsp;<br>While the packing slip shows the total order quantity as 16, the combined quantity of individual products adds up to only 15.<br>&nbsp;<br>The customer has shared the following order IDs for reference: <strong>11617</strong> and <strong>11622</strong>.<br>&nbsp;<br>Could you please cross-check this behavior and share your inputs?<br>&nbsp;<br><strong>Store Details:</strong><br>Store URL: <a rel=\"noopener noreferrer\" href=\"http://red-jade-online-store.myshopify.com\">red-jade-online-store.myshopify.com</a>&nbsp;<br>Account ID:20463e40-9522-463f-9ea6-e56a86ba8709<br></div>",
+      "plain_body": "Need assistance from L3 team:\n&nbsp;\nCase: Product quantity mismatch on packing slip\n&nbsp;\nDetails:\nThe customer has reported this concern for the second time. In the Shopify order, the total product quantity is 16, and the same count is correctly reflected in the order grid and picklist. However, on the packing slip, only 15 quantities are being displayed.\n&nbsp;\nWhile the packing slip shows the total order quantity as 16, the combined quantity of individual products adds up to only 15.\n&nbsp;\nThe customer has shared the following order IDs for reference: 11617 and 11622.\n&nbsp;\nCould you please cross-check this behavior and share your inputs?\n&nbsp;\nStore Details:\nStore URL: red-jade-online-store.myshopify.com&nbsp;\nAccount ID:20463e40-9522-463f-9ea6-e56a86ba8709",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/54946543757337.json",
+          "id": 54946543757337,
+          "file_name": "Shopify order - part-1.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/rRT5ShqL2xJZbithCHs2EORnt/?name=Shopify+order+-+part-1.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/rRT5ShqL2xJZbithCHs2EORnt/?name=Shopify+order+-+part-1.png",
+          "content_type": "image/png",
+          "size": 136613,
+          "width": 912,
+          "height": 741,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/54946566815897.json",
+              "id": 54946566815897,
+              "file_name": "Shopify_order_-_part-1_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/tXYh7Y0ZWqOvrPObjpH1wu86Y/?name=Shopify_order_-_part-1_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/tXYh7Y0ZWqOvrPObjpH1wu86Y/?name=Shopify_order_-_part-1_thumb.png",
+              "content_type": "image/png",
+              "size": 3614,
+              "width": 80,
+              "height": 65,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/54946559271449.json",
+          "id": 54946559271449,
+          "file_name": "picklist.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/jxCc9avbWPVnVNZf6nqyyzGpo/?name=picklist.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/jxCc9avbWPVnVNZf6nqyyzGpo/?name=picklist.png",
+          "content_type": "image/png",
+          "size": 80908,
+          "width": 828,
+          "height": 477,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/54946559274521.json",
+              "id": 54946559274521,
+              "file_name": "picklist_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/91NXc8vhrOOQFXR1jIOBHfsoL/?name=picklist_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/91NXc8vhrOOQFXR1jIOBHfsoL/?name=picklist_thumb.png",
+              "content_type": "image/png",
+              "size": 3352,
+              "width": 80,
+              "height": 46,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/54946559275417.json",
+          "id": 54946559275417,
+          "file_name": "packing slip - part -2 (count mismatch).png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/ImBBO99bLNVNMbP0n9QmouAGF/?name=packing+slip+-+part+-2+%28count+mismatch%29.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/ImBBO99bLNVNMbP0n9QmouAGF/?name=packing+slip+-+part+-2+%28count+mismatch%29.png",
+          "content_type": "image/png",
+          "size": 153359,
+          "width": 1182,
+          "height": 802,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/54946566810393.json",
+          "id": 54946566810393,
+          "file_name": "order grid showing 16 items.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/SMXIZceGiy9Kkn5kn1PHwtjYp/?name=order+grid+showing+16+items.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/SMXIZceGiy9Kkn5kn1PHwtjYp/?name=order+grid+showing+16+items.png",
+          "content_type": "image/png",
+          "size": 67604,
+          "width": 912,
+          "height": 376,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/54946538788505.json",
+          "id": 54946538788505,
+          "file_name": "Shopify order - part-2.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/3x5cJzBymvOzFy6UhlUTFa4BT/?name=Shopify+order+-+part-2.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/3x5cJzBymvOzFy6UhlUTFa4BT/?name=Shopify+order+-+part-2.png",
+          "content_type": "image/png",
+          "size": 107176,
+          "width": 912,
+          "height": 741,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/54946538798361.json",
+              "id": 54946538798361,
+              "file_name": "Shopify_order_-_part-2_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/uVIapR8JClabhqdF51Y98PQ4q/?name=Shopify_order_-_part-2_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/uVIapR8JClabhqdF51Y98PQ4q/?name=Shopify_order_-_part-2_thumb.png",
+              "content_type": "image/png",
+              "size": 1730,
+              "width": 80,
+              "height": 65,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/54946566857113.json",
+          "id": 54946566857113,
+          "file_name": "packing slip- part-1.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/OTMURN9bJcCLmynQGKGzKrmwN/?name=packing+slip-+part-1.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/OTMURN9bJcCLmynQGKGzKrmwN/?name=packing+slip-+part-1.png",
+          "content_type": "image/png",
+          "size": 146717,
+          "width": 905,
+          "height": 736,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 54946554510105,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-06T14:38:34Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 54946614334489,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Lawrence,\n\nWe are currently reviewing this case internally and will get back to you with an update shortly.\n\nIn the meantime, we would like to clarify a couple of points to better understand the scenario:\n\n1. We noticed that the package was edited. Could you please let us know what changes were made, such as updating the dimensions or weight? Also, was any product removed during this process?\n\n2. In Shopify, the same product appears twice, listed as 1 × 1 and 1 × 2. Could you please confirm the reason for this behavior?\n\nLooking forward to hearing back from you.\n\nBest regards,\nManohar V\nPluginHive\n\n ![](https://pluginhive.zendesk.com/attachments/token/u8MMzaBlpLwvvt09m6dORwIQX/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Lawrence,<br>&nbsp;<br>We are currently reviewing this case internally and will get back to you with an update shortly.<br>&nbsp;<br>In the meantime, we would like to clarify a couple of points to better understand the scenario:<br><ol dir=\"auto\"><li>We noticed that the package was edited. Could you please let us know what changes were made, such as updating the dimensions or weight? Also, was any product removed during this process?<br>&nbsp;</li><li>In Shopify, the same product appears twice, listed as 1 × 1 and 1 × 2. Could you please confirm the reason for this behavior?</li></ol>&nbsp;<br>Looking forward to hearing back from you.<br>&nbsp;<br>Best regards,<br>Manohar V<br>PluginHive<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/u8MMzaBlpLwvvt09m6dORwIQX/?name=image.png\"></span><br></div>",
+      "plain_body": "Hello Lawrence,\n&nbsp;\nWe are currently reviewing this case internally and will get back to you with an update shortly.\n&nbsp;\nIn the meantime, we would like to clarify a couple of points to better understand the scenario:\n  We noticed that the package was edited. Could you please let us know what changes were made, such as updating the dimensions or weight? Also, was any product removed during this process?\n&nbsp;  In Shopify, the same product appears twice, listed as 1 × 1 and 1 × 2. Could you please confirm the reason for this behavior?  &nbsp;\nLooking forward to hearing back from you.\n&nbsp;\nBest regards,\nManohar V\nPluginHive\n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 54946614333977,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-06T14:43:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55024790450457,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We currently do not support bundled products, However, we are looking into this. We will get back with an update.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We currently do not support bundled products, However, we are looking into this. We will get back with an update.<br>[Veena]<br></div>",
+      "plain_body": "We currently do not support bundled products, However, we are looking into this. We will get back with an update.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55024790450329,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-09T12:21:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55053454410265,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Discussed this case with L3 team and moving this case to dev needed\n\nThe quantity mismatch is happening only if the package is edited, and we do not support bundle products.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed this case with L3 team and moving this case to dev needed<br>&nbsp;<br>The quantity mismatch is happening only if the package is edited, and we do not support bundle products.<br></div>",
+      "plain_body": "Discussed this case with L3 team and moving this case to dev needed\n&nbsp;\nThe quantity mismatch is happening only if the package is edited, and we do not support bundle products.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55053454410137,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-10T09:28:14Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55053569736857,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Lawrence,\n\nThank you for your time and patience while we reviewed this case internally.\n\nWe would like to inform you that this behavior occurs specifically when editing packages for orders that contain bundle products. At present, bundle products are not supported, which is why the problem is being encountered in this scenario.\n\nThat said, we are actively working on this case and addressing this case. Please rest assured that we will keep you informed and share an update as soon as we have progress to report.\n\nIn the meantime, we kindly recommend avoiding package edits for orders that include bundle products.\n\nPlease feel free to reach out to us anytime if you need further assistance from our end.\n\nBest regards,\nManohar V\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Lawrence,<br>&nbsp;<br>Thank you for your time and patience while we reviewed this case internally.<br>&nbsp;<br>We would like to inform you that this behavior occurs specifically when editing packages for orders that contain bundle products. At present, bundle products are not supported, which is why the problem is being encountered in this scenario.<br>&nbsp;<br>That said, we are actively working on this case and addressing this case. Please rest assured that we will keep you informed and share an update as soon as we have progress to report.<br>&nbsp;<br>In the meantime, we kindly recommend avoiding package edits for orders that include bundle products.<br>&nbsp;<br>Please feel free to reach out to us anytime if you need further assistance from our end.<br>&nbsp;<br>Best regards,<br>Manohar V<br>PluginHive<br></div>",
+      "plain_body": "Hello Lawrence,\n&nbsp;\nThank you for your time and patience while we reviewed this case internally.\n&nbsp;\nWe would like to inform you that this behavior occurs specifically when editing packages for orders that contain bundle products. At present, bundle products are not supported, which is why the problem is being encountered in this scenario.\n&nbsp;\nThat said, we are actively working on this case and addressing this case. Please rest assured that we will keep you informed and share an update as soon as we have progress to report.\n&nbsp;\nIn the meantime, we kindly recommend avoiding package edits for orders that include bundle products.\n&nbsp;\nPlease feel free to reach out to us anytime if you need further assistance from our end.\n&nbsp;\nBest regards,\nManohar V\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55053575741721,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-10T09:32:25Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55099065655449,
+      "type": "Comment",
+      "author_id": 25227457835161,
+      "body": "Hello,\n\nThank you for that explanation. Now that I am aware that the bundle products are not supported, I can be more careful. Sometimes (actually quite often) I need to edit the packaging because the system tends to offer a larger size pack than needed.\n\nOrder 11673 - bundle products included; I edited the pack size and PH dropped 5 items. I will leave this order open for a little while so you can resync the shop.\n\nThank you,\n\n\n\nSintija\n\n\n\n ![](https://support.pluginhive.com/attachments/token/k9sm6RPuR0MQMbxI3kXrdXfjC/?name=Outlook-0jlksgdq.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHello,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nThank you for that explanation. Now that I am aware that the bundle products are not supported, I can be more careful. Sometimes (actually quite often) I need to edit the packaging because the system tends to offer a larger size pack than needed.&nbsp;</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nOrder 11673 - bundle products included; I edited the pack size and PH dropped 5 items. I will leave this order open for a little while so you can resync the shop.</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nThank you,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nSintija</div>\n<div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<img style=\"width: 507px; height: 169px; max-width: 722px;\" height=\"169\" width=\"507\" src=\"https://support.pluginhive.com/attachments/token/k9sm6RPuR0MQMbxI3kXrdXfjC/?name=Outlook-0jlksgdq.png\"></div>\n</div>\n<div></div></div>",
+      "plain_body": "Hello, \n \nThank you for that explanation. Now that I am aware that the bundle products are not supported, I can be more careful. Sometimes (actually quite often) I need to edit the packaging because the system tends to offer a larger size pack than needed.&nbsp; \n \nOrder 11673 - bundle products included; I edited the pack size and PH dropped 5 items. I will leave this order open for a little while so you can resync the shop. \n \nThank you, \n \n\n\n \n \nSintija",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55099065655321,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "inquiries@redjadefoods.com.au",
+            "name": "Lawrence",
+            "original_recipients": [
+              "inquiries@redjadefoods.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-11T23:17:07Z",
+      "metadata": {
+        "system": {
+          "message_id": "<SY0P300MB0112F7B7FB4006F9C6D15636FD63A@SY0P300MB0112.AUSP300.PROD.OUTLOOK.COM>",
+          "email_id": "01KH7FWVEKQ005ABZGEEDTQJ13",
+          "ip_address": "40.99.134.69",
+          "raw_email_identifier": "2369120/d8e4b612-0e4c-4b83-bac8-4c8f77726c47.eml",
+          "json_email_identifier": "2369120/d8e4b612-0e4c-4b83-bac8-4c8f77726c47.json",
+          "eml_redacted": false,
+          "location": "Sydney, NSW, Australia",
+          "latitude": -33.8672,
+          "longitude": 151.1997
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55099302044825,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Sintija,\n\nThank you for your update and for the detailed explanation regarding your order. I appreciate your careful approach and your patience.\n\nThat said, we are actively working on this case and addressing the bundle product scenario. Please rest assured that we will keep you informed and share an update as soon as we have progress to report.\n\nIn the meantime, feel free to reach out if you have any further questions or need assistance.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Sintija,<br>&nbsp;<br>Thank you for your update and for the detailed explanation regarding your order. I appreciate your careful approach and your patience.<br>&nbsp;<br>That said, we are actively working on this case and addressing the bundle product scenario. Please rest assured that we will keep you informed and share an update as soon as we have progress to report.<br>&nbsp;<br>In the meantime, feel free to reach out if you have any further questions or need assistance.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Sintija,\n&nbsp;\nThank you for your update and for the detailed explanation regarding your order. I appreciate your careful approach and your patience.\n&nbsp;\nThat said, we are actively working on this case and addressing the bundle product scenario. Please rest assured that we will keep you informed and share an update as soon as we have progress to report.\n&nbsp;\nIn the meantime, feel free to reach out if you have any further questions or need assistance.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55099302044697,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-11T23:30:51Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.160.149",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55099334193305,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": " ![](https://pluginhive.zendesk.com/attachments/token/PLyjAhTaaDYjnjn7ACQRcrCHE/?name=Screenshot+2026-02-12+at+5.01.02%E2%80%AFAM.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/PLyjAhTaaDYjnjn7ACQRcrCHE/?name=Screenshot+2026-02-12+at+5.01.02%E2%80%AFAM.png\"></span><br></div>",
+      "plain_body": "",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55099339286937,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-11T23:31:24Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "106.51.160.149",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

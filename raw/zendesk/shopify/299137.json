@@ -1,0 +1,720 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/299137.json",
+    "id": 299137,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "to": {},
+        "from": {
+          "ticket_id": 297082,
+          "subject": "Re: **EXTERNAL:** Welcome to Shopify Partner PluginHive! We’re here to help you save both time and money",
+          "channel": "web"
+        },
+        "rel": "follow_up"
+      }
+    },
+    "created_at": "2024-11-18T16:40:53Z",
+    "updated_at": "2025-03-24T11:54:57Z",
+    "generated_timestamp": 1742817297,
+    "type": null,
+    "subject": "Re: **EXTERNAL:** Welcome to Shopify Partner PluginHive! We’re here to help you save both time and money",
+    "raw_subject": "Re: **EXTERNAL:** Welcome to Shopify Partner PluginHive! We’re here to help you save both time and money",
+    "description": "This is a follow-up to your previous request #297082 \"Re: **EXTERNAL:** Welcome t...\"\n\nHello,\n\nBoth boxes we have inputted on PH Multicarrier are valid boxes for the USPS Ground Advantage Cubic rate shipping option.\n\nThe 9.75 X 6.5 X 7.25 falls within the Cubic Tier 4 rate.\n\nThe 14.25 X 9.75 X 7.25 falls within the Cubic Tier 7 rate.\n\nNeither are purchased from the USPS website.\n\nThanks,\nNikolas Karavidas",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 38476486494105,
+    "submitter_id": 38476622280345,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      39665618673817,
+      38476622280345
+    ],
+    "follower_ids": [
+      39665618673817,
+      38476622280345
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "issues_with_setting_up_the_plugin",
+      "last_reply_agent",
+      "mcsl-installation",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "to-do"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "drinkjuvee.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "67e14810102a3a8dd52da38f"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "V1902R-4PM54",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "drinkjuvee.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "67e14810102a3a8dd52da38f"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 40158037640345,
+      "type": "Comment",
+      "author_id": 38476622280345,
+      "body": "This is a follow-up to your previous request #297082 \"Re: **EXTERNAL:** Welcome t...\"\n\nHello,\n\n\n\nBoth boxes we have inputted on PH Multicarrier are valid boxes for the USPS Ground Advantage Cubic rate shipping option.\n\n\n\nThe 9.75 X 6.5 X 7.25 falls within the Cubic Tier 4 rate.\n\n\n\nThe 14.25 X 9.75 X 7.25 falls within the Cubic Tier 7 rate.\n\n\n\nNeither are purchased from the USPS website.\n\n\n\nThanks,\n\nNikolas Karavidas",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><div>This is a follow-up to your previous request <a href=\"/agent/tickets/297082\" target=\"_blank\" rel=\"ticket\">#297082</a> \"Re: **EXTERNAL:** Welcome t...\"</div><div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nHello,</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nBoth boxes we have inputted on PH Multicarrier are valid boxes for the USPS Ground Advantage Cubic rate shipping option.</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nThe 9.75 X 6.5 X 7.25 falls within the Cubic Tier 4 rate.</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nThe 14.25 X 9.75 X 7.25 falls within the Cubic Tier 7 rate.</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nNeither are purchased from the USPS website.</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nThanks,</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nNikolas Karavidas</div>\n<div></div></div>",
+      "plain_body": "This is a follow-up to your previous request #297082 \"Re: **EXTERNAL:** Welcome t...\"  \nHello, \n \n\n\n \n \nBoth boxes we have inputted on PH Multicarrier are valid boxes for the USPS Ground Advantage Cubic rate shipping option. \n \n\n\n \n \nThe 9.75 X 6.5 X 7.25 falls within the Cubic Tier 4 rate. \n \n\n\n \n \nThe 14.25 X 9.75 X 7.25 falls within the Cubic Tier 7 rate. \n \n\n\n \n \nNeither are purchased from the USPS website. \n \n\n\n \n \nThanks, \n \nNikolas Karavidas",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40158037640217,
+      "via": {
+        "channel": "web",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": 297082,
+            "subject": "Re: **EXTERNAL:** Welcome to Shopify Partner PluginHive! We’re here to help you save both time and money",
+            "channel": "web"
+          },
+          "rel": "follow_up"
+        }
+      },
+      "created_at": "2024-11-18T16:40:53Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DM6PR17MB3740E91E517A937F29902786CF272@DM6PR17MB3740.namprd17.prod.outlook.com>",
+          "email_id": "01JD02BXYEPTH22E9GAY1DKTTR",
+          "raw_email_identifier": "2369120/9e1a5f78-ca5c-4a31-9e0f-19a347c51ade.eml",
+          "json_email_identifier": "2369120/9e1a5f78-ca5c-4a31-9e0f-19a347c51ade.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 40158760604441,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Nikolas,\n\nIn the app, you are using your own boxes, so the shipping rates are calculated accordingly. Are you checking the rates with USPS Flat Rate Boxes?\n\nCould you please share a screenshot from the USPS website showing the package and shipping details for an order so that we can cross-check?\n\nLooking forward to hearing back from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nikolas,<br>&nbsp;<br>In the app, you are using your own boxes, so the shipping rates are calculated accordingly. Are you checking the rates with USPS Flat Rate Boxes?<br>&nbsp;<br>Could you please share a screenshot from the USPS website showing the package and shipping details for an order so that we can cross-check?<br>&nbsp;<br>Looking forward to hearing back from you.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nikolas,\n&nbsp;\nIn the app, you are using your own boxes, so the shipping rates are calculated accordingly. Are you checking the rates with USPS Flat Rate Boxes?\n&nbsp;\nCould you please share a screenshot from the USPS website showing the package and shipping details for an order so that we can cross-check?\n&nbsp;\nLooking forward to hearing back from you.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40158760604313,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-11-18T17:39:56Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40159504097689,
+      "type": "Comment",
+      "author_id": 38476622280345,
+      "body": "Hi,\n\n\n\nThe shipping rates are calculated correctly for Ground advantage; however, USPS Ground Advantage Cubic is the option that Plugin Hive is not showing available. I have spoken with USPS and they have verified everything on their end is correct, and that the Cubic Rate should be available.\n\n\n\nSee screenshots below referencing order #JUVEE-72420.\n\n\n\nUSPS Ground Advantage™ Cubic Choose Your Own Box -  Via USPS' website.\n\n ![](https://support.pluginhive.com/attachments/token/ZigF4E7Xw2kMYNccc4qIj5fKG/?name=image.png)\n\n ![](https://support.pluginhive.com/attachments/token/epqheakdsMkD2KPQLFGpisM0I/?name=image.png)\n\n\n\nPH Multicarrier does not show an option for Cubic Rate, which is the problem we are facing.\n\n\n\nThanks,\n\nNikolas Karavidas\n\n* * *",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nHi,</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nThe shipping rates are calculated correctly for Ground advantage; however, USPS Ground Advantage Cubic is the option that Plugin Hive is not showing available. I have spoken with USPS and they have verified everything on their end is correct, and that the Cubic\n Rate should be available.&nbsp;</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nSee screenshots below referencing order #JUVEE-72420.</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"text-align: left; text-indent: 0px; line-height: 1.2; margin-top: 0px; margin-bottom: 0px; font-size: 11pt; color: rgb(0, 0, 0);\" align=\"left\">\n<span style=\"font-weight: 500;\">USPS Ground Advantage™ Cubic Choose Your Own Box -&nbsp; Via USPS' website.</span></div>\n<div style=\"text-align: left; text-indent: 0px; line-height: 1.2; margin-top: 0px; margin-bottom: 0px; font-size: 11pt; color: rgb(0, 0, 0);\" align=\"left\">\n<span style=\"font-weight: 500;\"><img style=\"max-width: 1267px;\" src=\"https://support.pluginhive.com/attachments/token/ZigF4E7Xw2kMYNccc4qIj5fKG/?name=image.png\"></span></div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<img style=\"max-width: 1267px;\" src=\"https://support.pluginhive.com/attachments/token/epqheakdsMkD2KPQLFGpisM0I/?name=image.png\"></div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nPH Multicarrier does not show an option for Cubic Rate, which is the problem we are facing.&nbsp;</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nThanks,</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nNikolas Karavidas</div>\n<div></div>\n<hr style=\"display: inline-block; width: 98%;\"></div>",
+      "plain_body": "Hi, \n \n\n\n \n \nThe shipping rates are calculated correctly for Ground advantage; however, USPS Ground Advantage Cubic is the option that Plugin Hive is not showing available. I have spoken with USPS and they have verified everything on their end is correct, and that the Cubic\n Rate should be available.&nbsp; \n \n\n\n \n \nSee screenshots below referencing order #JUVEE-72420. \n \n\n\n \n \nUSPS Ground Advantage™ Cubic Choose Your Own Box -&nbsp; Via USPS' website. \n \n \n \n \n \n\n\n \n \nPH Multicarrier does not show an option for Cubic Rate, which is the problem we are facing.&nbsp; \n \n\n\n \n \nThanks, \n \nNikolas Karavidas",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40159504097561,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "support@drinkjuvee.com",
+            "name": "Francis",
+            "original_recipients": [
+              "gwolski@sprecherbrewery.com",
+              "nkaravidas@sprecherbrewery.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-11-18T18:56:00Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DM6PR17MB3740ED232EC41C7CD5390AAFCF272@DM6PR17MB3740.namprd17.prod.outlook.com>",
+          "email_id": "01JD0A36RGB4ESDG2W92ZHCMM2",
+          "raw_email_identifier": "2369120/4dd19dc2-2ebf-47dd-ac80-2fd8a86506de.eml",
+          "json_email_identifier": "2369120/4dd19dc2-2ebf-47dd-ac80-2fd8a86506de.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 40160373951129,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "On response we are getting 2 ground advantage services i.e. USPS ground advantage and USPS ground advantage cubic.\n\nWhen I recreate the order on USPS.com we could not see this service.\n\n ![](https://pluginhive.zendesk.com/attachments/token/JaqeOrJ5RkETSkY711M6O61Jp/?name=image.png) ![](https://pluginhive.zendesk.com/attachments/token/Z3VKBozGSRZVTHSIwITWO0KJy/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">On response we are getting 2 ground advantage services i.e. USPS ground advantage and USPS ground advantage cubic.<br>&nbsp;<br>When I recreate the order on <a rel=\"noopener noreferrer\" href=\"http://usps.com\">USPS.com</a> we could not see this service.<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/JaqeOrJ5RkETSkY711M6O61Jp/?name=image.png\"><img src=\"https://pluginhive.zendesk.com/attachments/token/Z3VKBozGSRZVTHSIwITWO0KJy/?name=image.png\"></span><br></div>",
+      "plain_body": "On response we are getting 2 ground advantage services i.e. USPS ground advantage and USPS ground advantage cubic.\n&nbsp;\nWhen I recreate the order on USPS.com we could not see this service.\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 40160387933849,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-11-18T20:15:45Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40160777354649,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Nikolas,\n\nWe would like to cross-check this case in detail from our end.\n\nIn order for us to proceed, could you please provide USPS Ground Advantage Cubic service-related documents, along with information on how and when the USPS Ground Advantage service is considered as USPS Ground Advantage Cubic?\n\nAdditionally, if you could get confirmation on how to differentiate between the two and the criteria used, it would be helpful for us to investigate further.\n\nLooking forward to hearing back from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nikolas,<br>&nbsp;<br>We would like to cross-check this case in detail from our end.<br>&nbsp;<br>In order for us to proceed, could you please provide USPS Ground Advantage Cubic service-related documents, along with information on how and when the USPS Ground Advantage service is considered as USPS Ground Advantage Cubic?<br>&nbsp;<br>Additionally, if you could get confirmation on how to differentiate between the two and the criteria used, it would be helpful for us to investigate further.<br>&nbsp;<br>Looking forward to hearing back from you.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nikolas,\n&nbsp;\nWe would like to cross-check this case in detail from our end.\n&nbsp;\nIn order for us to proceed, could you please provide USPS Ground Advantage Cubic service-related documents, along with information on how and when the USPS Ground Advantage service is considered as USPS Ground Advantage Cubic?\n&nbsp;\nAdditionally, if you could get confirmation on how to differentiate between the two and the criteria used, it would be helpful for us to investigate further.\n&nbsp;\nLooking forward to hearing back from you.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40160777354521,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-11-18T21:01:21Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40244825995801,
+      "type": "Comment",
+      "author_id": 38476622280345,
+      "body": "Hello,\n\n\n\nPlease find the attached PDF. I believe it should have all the information you need. Let me know if there is anything else.\n\n\n\nThanks,\n\nNikolas Karavidas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nHello,&nbsp;</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nPlease find the attached PDF. I believe it should have all the information you need. Let me know if there is anything else.</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nThanks,</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nNikolas Karavidas&nbsp;</div>\n<div></div>\n<div style=\" font-size: 11pt; color: rgb(0,0,0);\">\n<br>\n</div></div>",
+      "plain_body": "Hello,&nbsp; \n \n\n\n \n \nPlease find the attached PDF. I believe it should have all the information you need. Let me know if there is anything else. \n \n\n\n \n \nThanks, \n \nNikolas Karavidas&nbsp;",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/40244825997849.json",
+          "id": 40244825997849,
+          "file_name": "HR_GroundAdvantageCubicSellSheet_v9 (1).pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/QHN0HhJkRF74pnrn9zJAsA3Rv/?name=HR_GroundAdvantageCubicSellSheet_v9+%281%29.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/QHN0HhJkRF74pnrn9zJAsA3Rv/?name=HR_GroundAdvantageCubicSellSheet_v9+%281%29.pdf",
+          "content_type": "application/pdf",
+          "size": 933636,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 40244825995673,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "support@drinkjuvee.com",
+            "name": "Francis",
+            "original_recipients": [
+              "gwolski@sprecherbrewery.com",
+              "nkaravidas@sprecherbrewery.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-11-20T21:59:46Z",
+      "metadata": {
+        "system": {
+          "message_id": "<MN2PR17MB37436119B4DFA36C623053C4CF212@MN2PR17MB3743.namprd17.prod.outlook.com>",
+          "email_id": "01JD5SD5WS92BXNSTTY12AASA1",
+          "raw_email_identifier": "2369120/f703c2e6-d1ef-40eb-97aa-5166f826c7da.eml",
+          "json_email_identifier": "2369120/f703c2e6-d1ef-40eb-97aa-5166f826c7da.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 40246076805273,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Nikolas,\n\nThank you for your reply.\n\nPlease allow us some time we check and get back to you with an update.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nikolas,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br>&nbsp;<br>We appreciate your time and patience.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nikolas,\n&nbsp;\nThank you for your reply.\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n&nbsp;\nWe appreciate your time and patience.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40246076805145,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-11-20T23:05:11Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40246231480345,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need to check with team:\n\nA USA customer who has 473 orders in the last 14 days reported USPS Ground Advantage Cubic service is not showing as an option which they are looking for generating a shipping label.\n\nWhen we check the USPS rates request, we are getting both USPS Ground Advantage and USPS Ground Advantage Cubic with different rates.\n\nThe customer shared shared attached document to know more details about it. Also attached screenshot and rates XML from order.\n\nCould you please check and provide your input?\n\nStore Details:\nStore URL -drinkjuvee.myshopify.com\nStore UID - 1ae955d8-4d39-40db-8f0e-d0d162090cae\nActive From - 2024-10-05\n\n ![](https://pluginhive.zendesk.com/attachments/token/JaqeOrJ5RkETSkY711M6O61Jp/?name=image.png)\n ![](https://pluginhive.zendesk.com/attachments/token/Z3VKBozGSRZVTHSIwITWO0KJy/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need to check with team:<br>&nbsp;<br>A USA customer who has 473 orders in the last 14 days reported USPS Ground Advantage Cubic service is not showing as an option which they are looking for generating a shipping label.<br>&nbsp;<br>When we check the USPS rates request, we are getting both USPS Ground Advantage and USPS Ground Advantage Cubic with different rates.<br>&nbsp;<br>The customer shared shared attached document to know more details about it. Also attached screenshot and rates XML from order.<br>&nbsp;<br>Could you please check and provide your input?<br>&nbsp;<br>Store Details:<br>Store URL -<a rel=\"noopener noreferrer\" href=\"http://drinkjuvee.myshopify.com\">drinkjuvee.myshopify.com</a>&nbsp;<br>Store UID - 1ae955d8-4d39-40db-8f0e-d0d162090cae&nbsp;<br>Active From - 2024-10-05<br>&nbsp;<br><img src=\"https://pluginhive.zendesk.com/attachments/token/JaqeOrJ5RkETSkY711M6O61Jp/?name=image.png\"><br><img src=\"https://pluginhive.zendesk.com/attachments/token/Z3VKBozGSRZVTHSIwITWO0KJy/?name=image.png\"><br>&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "Need to check with team:\n&nbsp;\nA USA customer who has 473 orders in the last 14 days reported USPS Ground Advantage Cubic service is not showing as an option which they are looking for generating a shipping label.\n&nbsp;\nWhen we check the USPS rates request, we are getting both USPS Ground Advantage and USPS Ground Advantage Cubic with different rates.\n&nbsp;\nThe customer shared shared attached document to know more details about it. Also attached screenshot and rates XML from order.\n&nbsp;\nCould you please check and provide your input?\n&nbsp;\nStore Details:\nStore URL -drinkjuvee.myshopify.com&nbsp;\nStore UID - 1ae955d8-4d39-40db-8f0e-d0d162090cae&nbsp;\nActive From - 2024-10-05\n&nbsp;\n\n\n&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/40246231060633.json",
+          "id": 40246231060633,
+          "file_name": "HR_GroundAdvantageCubicSellSheet_v9 (1).pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/pt1WvF4MDqyug8z0AIVcQxY5x/?name=HR_GroundAdvantageCubicSellSheet_v9+%281%29.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/pt1WvF4MDqyug8z0AIVcQxY5x/?name=HR_GroundAdvantageCubicSellSheet_v9+%281%29.pdf",
+          "content_type": "application/pdf",
+          "size": 933636,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/40246273079193.json",
+          "id": 40246273079193,
+          "file_name": "RequestResponse (19).zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/7Besdf9J4JhCP3A4wqKYRp8Rt/?name=RequestResponse+%2819%29.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/7Besdf9J4JhCP3A4wqKYRp8Rt/?name=RequestResponse+%2819%29.zip",
+          "content_type": "application/zip",
+          "size": 890772,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 40246231479577,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-11-20T23:13:43Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40317663721369,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "This service is not implemented in the USPS rest. This would need dev",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This service is not implemented in the USPS rest. This would need dev<br></div>",
+      "plain_body": "This service is not implemented in the USPS rest. This would need dev",
+      "public": false,
+      "attachments": [],
+      "audit_id": 40317663721241,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-11-22T13:32:04Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "106.51.111.242",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40401226237465,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "This will be enhanced in the upcoming release. Please move to dev needed after replying.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This will be enhanced in the upcoming release. Please move to dev needed after replying.<br>[Veena]<br></div>",
+      "plain_body": "This will be enhanced in the upcoming release. Please move to dev needed after replying.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 40401226237337,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-11-25T08:57:17Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40401386407705,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Nikolas,\n\nGood Day!\n\nWe will be enhancing the app to include the USPS Ground Advantage Cubic service and this will be available in the upcoming releases.\n\nWe will let you know of the updates.\n\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nikolas,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>We will be enhancing the app to include the USPS Ground Advantage Cubic service and this will be available in the upcoming releases.<br>&nbsp;<br>We will let you know of the updates.<br>&nbsp;<br>Thanks and Regards,<br>Sagar K S<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nikolas,\n&nbsp;\nGood Day!\n&nbsp;\nWe will be enhancing the app to include the USPS Ground Advantage Cubic service and this will be available in the upcoming releases.\n&nbsp;\nWe will let you know of the updates.\n&nbsp;\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40401386407577,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-11-25T09:01:39Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40409342545049,
+      "type": "Comment",
+      "author_id": 38476622280345,
+      "body": "Hello,\n\n\n\nThat is great to hear, do you have an expected release date?\n\n\n\nThanks,\n\nNikolas Karavidas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nHello,</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nThat is great to hear, do you have an expected release date?</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nThanks,</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nNikolas Karavidas</div>\n<div></div>\n<div style=\" font-size: 11pt; color: rgb(0,0,0);\">\n<br>\n</div></div>",
+      "plain_body": "Hello, \n \n\n\n \n \nThat is great to hear, do you have an expected release date? \n \n\n\n \n \nThanks, \n \nNikolas Karavidas",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40409342544921,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "support@drinkjuvee.com",
+            "name": "Francis",
+            "original_recipients": [
+              "gwolski@sprecherbrewery.com",
+              "nkaravidas@sprecherbrewery.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-11-25T13:33:49Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DM6PR17MB37402A245B2457A0B4915E6FCF2E2@DM6PR17MB3740.namprd17.prod.outlook.com>",
+          "email_id": "01JDHREE31A7R1NKHEQVJVQK7Z",
+          "raw_email_identifier": "2369120/4d74c928-4600-4e33-9113-75d17549f096.eml",
+          "json_email_identifier": "2369120/4d74c928-4600-4e33-9113-75d17549f096.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 40410543281561,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Nikolas,\n\nThank you for your reply.\n\nAt present, we do not have an exact ETA to share with you. Rest assured we will keep you posted on the updates.\n\nWe appreciate your understanding and patience.\n\nFeel free to reachout to us if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nikolas,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>At present, we do not have an exact ETA to share with you. Rest assured we will keep you posted on the updates.<br>&nbsp;<br>We appreciate your understanding and patience.<br>&nbsp;<br>Feel free to reachout to us if you need any assistance.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nikolas,\n&nbsp;\nThank you for your reply.\n&nbsp;\nAt present, we do not have an exact ETA to share with you. Rest assured we will keep you posted on the updates.\n&nbsp;\nWe appreciate your understanding and patience.\n&nbsp;\nFeel free to reachout to us if you need any assistance.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40410543281433,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-11-25T14:30:33Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,1697 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/377574.json",
+    "id": 377574,
+    "external_id": null,
+    "via": {
+      "channel": "api",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-07T04:32:13Z",
+    "updated_at": "2026-04-08T10:32:14Z",
+    "generated_timestamp": 1775644334,
+    "type": "question",
+    "subject": "Use case is to only update Tracking status on Shopify admin",
+    "raw_subject": "Use case is to only update Tracking status on Shopify admin",
+    "description": "We are using bluedart and we wish to update shipping status of bluedart on Shopify.\r\n\r\n",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 55780866456217,
+    "submitter_id": 55780866456217,
+    "assignee_id": 44512844768153,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      903409790923,
+      55874476419737,
+      388269142331,
+      410186940351
+    ],
+    "follower_ids": [
+      903409790923,
+      55874476419737,
+      388269142331,
+      410186940351
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "issues_with_setting_up_the_plugin",
+      "l3",
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "jhp1rz-f8.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "09820949076"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69b7e1089e8bab5918b4856d"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "44RGJX-9X23L",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "jhp1rz-f8.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "09820949076"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69b7e1089e8bab5918b4856d"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 55780917710105,
+      "type": "Comment",
+      "author_id": 55780866456217,
+      "body": "We are using bluedart and we wish to update shipping status of bluedart on Shopify.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">We are using bluedart and we wish to update shipping status of bluedart on Shopify.</p></div>",
+      "plain_body": "We are using bluedart and we wish to update shipping status of bluedart on Shopify.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55780917709977,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-07T04:32:13Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.8.3; https://www.pluginhive.com",
+          "ip_address": "159.65.74.253",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55784378571417,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Yash,\n\nThank you for reaching out with your query.\n\nOur app can be used to show tracking status for your Shopify Orders fulfilled using BlueDart. The tracking status will be available in the app UI where all your orders will be visible with the tracking details and their status.\n\nYou can install the app and give it a try. The app comes with 7 days of Free Trail which can be extended case-to-case basis.\n\nWe can also connect over a Zoom call to assist you with the integration and answer your queries. You can **CLICK HERE** to schedule the call as per your availability.\n\nLooking forward to your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Yash,<br>&nbsp;<br>Thank you for reaching out with your query.<br>&nbsp;<br>Our app can be used to show tracking status for your Shopify Orders fulfilled using BlueDart. The tracking status will be available in the app UI where all your orders will be visible with the tracking details and their status.<br>&nbsp;<br>You can install the app and give it a try. The app comes with 7 days of Free Trail which can be extended case-to-case basis.<br>&nbsp;<br>We can also connect over a Zoom call to assist you with the integration and answer your queries. You can <a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=www.vibenest.life&amp;email=yashagarwal297@gmail.com&amp;ticket=377574&amp;key=1772867065082\"><strong><u>CLICK HERE</u></strong></a> to schedule the call as per your availability.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Yash,\n&nbsp;\nThank you for reaching out with your query.\n&nbsp;\nOur app can be used to show tracking status for your Shopify Orders fulfilled using BlueDart. The tracking status will be available in the app UI where all your orders will be visible with the tracking details and their status.\n&nbsp;\nYou can install the app and give it a try. The app comes with 7 days of Free Trail which can be extended case-to-case basis.\n&nbsp;\nWe can also connect over a Zoom call to assist you with the integration and answer your queries. You can CLICK HERE to schedule the call as per your availability.\n&nbsp;\nLooking forward to your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55784378571289,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-07T07:04:36Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "122.171.22.194",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55840071072409,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: YASH KAMAL KUMAR AGRAWAL\nEmail: yashagarwal297@gmail.com\nPhone Number: 09820949076\nStore URL: www.vibenest.life\nDate & Time: March 9, 2026 05:45 pm (Asia/Calcutta +05:30)\n\nPluginHive Date & Time: March 9, 2026 5:45 pm",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Appointment Scheduled with PluginHive Support</p>\n<p dir=\"auto\">Customer Details:<br>\nName: YASH KAMAL KUMAR AGRAWAL<br>\nEmail: <a href=\"mailto:yashagarwal297@gmail.com\" rel=\"noreferrer\">yashagarwal297@gmail.com</a><br>\nPhone Number: 09820949076<br>\nStore URL: <a href=\"http://www.vibenest.life\" rel=\"noreferrer\">www.vibenest.life</a><br>\nDate &amp; Time: March 9, 2026 05:45 pm (Asia/Calcutta +05:30)</p>\n<p dir=\"auto\">PluginHive Date &amp; Time: March 9, 2026 5:45 pm</p></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support \n Customer Details:\n\nName: YASH KAMAL KUMAR AGRAWAL\n\nEmail: yashagarwal297@gmail.com\n\nPhone Number: 09820949076\n\nStore URL: www.vibenest.life\n\nDate &amp; Time: March 9, 2026 05:45 pm (Asia/Calcutta +05:30) \n PluginHive Date &amp; Time: March 9, 2026 5:45 pm",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55840071072281,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-09T08:04:25Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.9.1; https://appointments.pluginhive.com",
+          "ip_address": "159.89.131.157",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55847229236377,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Yash,\n\nI am Priyanka from PluginHive, and we have a meeting scheduled at 05:45 pm (Asia/Calcutta +05:30) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n\nMeeting Link:\n\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/74985817850?pwd=Dr8R5RfItnj8XD1ceUgepkALcWPwuR.1\n\nMeeting ID: 749 8581 7850\nPasscode: 3Vt2f3\n\nNOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.\n\nPrerequisites:\nEnsure that your system has a working microphone.\nPermissions to share the screen\n\nRegards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Yash,<br><br>I am Priyanka from PluginHive, and we have a meeting scheduled at 05:45 pm (Asia/Calcutta +05:30) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.<br><br>Meeting Link:<br><br>Join Zoom Meeting<br><a rel=\"noopener noreferrer\" href=\"https://us04web.zoom.us/j/74985817850?pwd=Dr8R5RfItnj8XD1ceUgepkALcWPwuR.1\">https://us04web.zoom.us/j/74985817850?pwd=Dr8R5RfItnj8XD1ceUgepkALcWPwuR.1</a><br>&nbsp;<br>Meeting ID: 749 8581 7850<br>Passcode: 3Vt2f3<br><br>NOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.<br><br>Prerequisites:<br>Ensure that your system has a working microphone.<br>Permissions to share the screen<br><br>Regards,<br>Priyanka<br>Team PluginHive<br>&nbsp;<br></div>",
+      "plain_body": "Hello Yash,\n\nI am Priyanka from PluginHive, and we have a meeting scheduled at 05:45 pm (Asia/Calcutta +05:30) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n\nMeeting Link:\n\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/74985817850?pwd=Dr8R5RfItnj8XD1ceUgepkALcWPwuR.1\n&nbsp;\nMeeting ID: 749 8581 7850\nPasscode: 3Vt2f3\n\nNOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.\n\nPrerequisites:\nEnsure that your system has a working microphone.\nPermissions to share the screen\n\nRegards,\nPriyanka\nTeam PluginHive\n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55847229234841,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-09T12:02:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55848544480153,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Call summary : Customer ships from india and ships about 5000 orders. Customer wanted to tracking details to be updated on shopify, he was currently generating the labels from eships. I recommended if he generates from our app the details would be updated . He wanted some discount as he would ship about 5000 orders and more in a month. I spoke with abhilash and he is taking it forward,\nsent mail\nmoving on hold\nStore: www.vibenest.life",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Call summary : Customer ships from india and ships about 5000 orders. Customer wanted to tracking details to be updated on shopify, he was currently generating the labels from eships. I recommended if he generates from our app the details would be updated . He wanted some discount as he would ship about 5000 orders and more in a month. I spoke with abhilash and he is taking it forward,&nbsp;<br>sent mail&nbsp;<br>moving on hold<br>Store: <a rel=\"noopener noreferrer\" href=\"http://www.vibenest.life\">www.vibenest.life</a><br></div>",
+      "plain_body": "Call summary : Customer ships from india and ships about 5000 orders. Customer wanted to tracking details to be updated on shopify, he was currently generating the labels from eships. I recommended if he generates from our app the details would be updated . He wanted some discount as he would ship about 5000 orders and more in a month. I spoke with abhilash and he is taking it forward,&nbsp;\nsent mail&nbsp;\nmoving on hold\nStore: www.vibenest.life",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55848544480025,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-09T13:01:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55848574600729,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Yash\n\nThank you so much for taking the time to speak with us over the call.\n\nYou can install the PH Multi Carrier Shipping Label app from Shopify using the link below:\n[Install App]\n\nI have also added Abhilash from our Partnerships team to this conversation. He will get in touch with you and take things forward regarding your shipping requirements and any potential discounts.\n\nWe look forward to helping you streamline your shipping process.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Yash<br>&nbsp;<br>Thank you so much for taking the time to speak with us over the call.<br>&nbsp;<br>You can install the PH Multi Carrier Shipping Label app from Shopify using the link below:<br>[<a rel=\"noopener noreferrer\" href=\"https://apps.shopify.com/multi-carrier-shipping-label\">Install App</a>]<br>&nbsp;<br>I have also added Abhilash from our Partnerships team to this conversation. He will get in touch with you and take things forward regarding your shipping requirements and any potential discounts.<br>&nbsp;<br>We look forward to helping you streamline your shipping process.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Yash\n&nbsp;\nThank you so much for taking the time to speak with us over the call.\n&nbsp;\nYou can install the PH Multi Carrier Shipping Label app from Shopify using the link below:\n[Install App]\n&nbsp;\nI have also added Abhilash from our Partnerships team to this conversation. He will get in touch with you and take things forward regarding your shipping requirements and any potential discounts.\n&nbsp;\nWe look forward to helping you streamline your shipping process.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55848574600601,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-09T13:03:51Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55849220836761,
+      "type": "Comment",
+      "author_id": 55780866456217,
+      "body": "So should i install the app or wait till tomorrow?",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">So should i install the app or wait till tomorrow?</div><br><div></div></div>",
+      "plain_body": "So should i install the app or wait till tomorrow?",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55849220836633,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "yashagarwal297@gmail.com",
+            "name": "Yash",
+            "original_recipients": [
+              "yashagarwal297@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-09T13:36:11Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAELm0TJa2eECeJ8j_t9vRHsXvY_G76ZtN5tRgZZ2ii+qQQ8_+g@mail.gmail.com>",
+          "email_id": "01KK9CZVTTJQ69T2QZGVTDP84J",
+          "raw_email_identifier": "2369120/9689d78f-4462-46d4-aba2-0d4748d09e5f.eml",
+          "json_email_identifier": "2369120/9689d78f-4462-46d4-aba2-0d4748d09e5f.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55850572972057,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Yash,\n\nYou can wait for now—Abhilash from our team will get in touch and update you tomorrow.\n\nWe appreciate your patience and will ensure everything is set up smoothly.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Yash,<br>&nbsp;<br>You can wait for now—Abhilash from our team will get in touch and update you tomorrow.<br>&nbsp;<br>We appreciate your patience and will ensure everything is set up smoothly.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Yash,\n&nbsp;\nYou can wait for now—Abhilash from our team will get in touch and update you tomorrow.\n&nbsp;\nWe appreciate your patience and will ensure everything is set up smoothly.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55850572971929,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-09T14:51:34Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.160.149",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55870268043801,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Hi Team,\n\nThe onboarding is at 1 PM IST today.\n\n(Abhilash)\n\n**Background:** They are currently using Eshipz to ship with BlueDart for free, but they want live tracking, which is not available on their free plan. Because of this, they are considering moving to our app. They ship around 3,000 orders per month during the initial months and expect their business to grow. They asked if we could offer some discount.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br>The onboarding is at 1 PM IST today.&nbsp;<br>&nbsp;<br>(Abhilash)<br>&nbsp;<br><strong>Background: </strong>They are currently using Eshipz to ship with BlueDart for free, but they want live tracking, which is not available on their free plan. Because of this, they are considering moving to our app. They ship around 3,000 orders per month during the initial months and expect their business to grow. They asked if we could offer some discount.<br></div>",
+      "plain_body": "Hi Team,\n&nbsp;\nThe onboarding is at 1 PM IST today.&nbsp;\n&nbsp;\n(Abhilash)\n&nbsp;\nBackground: They are currently using Eshipz to ship with BlueDart for free, but they want live tracking, which is not available on their free plan. Because of this, they are considering moving to our app. They ship around 3,000 orders per month during the initial months and expect their business to grow. They asked if we could offer some discount.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55870268043673,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-10T05:51:37Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55875578472857,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Request #378000 \"Welcome to Shopify Partner Plugi...\" was closed and merged into this request. Last comment in request #378000:\r\n\r\nHello My,\r\n\r\n Greeting from Shopify Partner PluginHive!\r\n\r\n Thank you for installing our Shopify App - **“PH Multi Carrier Shipping Label App”** on jhp1rz-f8.myshopify.com\r\n\r\n Our team would like to assist you with the complete app onboarding.\r\n\r\n We request you let us know a suitable time for the onboarding session, which will not take more than 10 mins. Feel free to reply to this email (or) share your contact number, we will get in touch with you.\r\n\r\n You can also refer our documentation to set up the app and start shipping - click here to know more\r\n\r\n Looking forward to hearing from you.\r\n\r\n Thanks and Regards,\r\n Team PluginHive\r\nhttps://www.pluginhive.com/about/#team",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/378000\" target=\"_blank\" rel=\"ticket\">#378000</a> \"Welcome to Shopify Partner Plugi...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/378000\" target=\"_blank\" rel=\"ticket\">#378000</a>:</p>\n<p dir=\"auto\">Hello My,</p>\n<p dir=\"auto\">Greeting from Shopify Partner PluginHive!</p>\n<p dir=\"auto\">Thank you for installing our Shopify App - <strong>“PH Multi Carrier Shipping Label App”</strong> on jhp1rz-f8.myshopify.com</p>\n<p dir=\"auto\">Our team would like to assist you with the complete app onboarding.</p>\n<p dir=\"auto\">We request you let us know a suitable time for the onboarding session, which will not take more than 10 mins. Feel free to reply to this email (or) share your contact number, we will get in touch with you.</p>\n<p dir=\"auto\">You can also refer our documentation to set up the app and start shipping - click here to know more</p>\n<p dir=\"auto\">Looking forward to hearing from you.</p>\n<p dir=\"auto\">Thanks and Regards,<br>\n Team PluginHive<br>\n<a href=\"https://www.pluginhive.com/about/#team\" rel=\"noreferrer\">https://www.pluginhive.com/about/#team</a></p></div>",
+      "plain_body": "Request #378000 \"Welcome to Shopify Partner Plugi...\" was closed and merged into this request. Last comment in request #378000: \n Hello My, \n Greeting from Shopify Partner PluginHive! \n Thank you for installing our Shopify App - “PH Multi Carrier Shipping Label App” on jhp1rz-f8.myshopify.com \n Our team would like to assist you with the complete app onboarding. \n We request you let us know a suitable time for the onboarding session, which will not take more than 10 mins. Feel free to reply to this email (or) share your contact number, we will get in touch with you. \n You can also refer our documentation to set up the app and start shipping - click here to know more \n Looking forward to hearing from you. \n Thanks and Regards,\n\n Team PluginHive\n\nhttps://www.pluginhive.com/about/#team",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55875578472729,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              378000
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-03-10T08:14:14Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55879053134489,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Summary - Potential ($49 plan) customer.  Onboarded Successfully.\nMajority of their orders are for mainly for 2 specific SKUs and they prefer to update the packaging dimensions at the time of label creation in bulk for multiple orders. With Quick Ship with SKU, Order Status (Processing) and \"Item\" count filter, their requirements can be easily handled.\n\nUUID: d23046da-6ce8-4e04-a8b9-15009150d1c5\nURL: jhp1rz-f8.myshopify.com\n\nL3: Please enable:\n• 100 orders per page\n• \"Items\" Filter option\n• Order Export report\n• Priority Tracking",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Summary - Potential ($49 plan) customer. &nbsp;Onboarded Successfully.&nbsp;<br>Majority of their orders are for mainly for 2 specific SKUs and they prefer to update the packaging dimensions at the time of label creation in bulk for multiple orders. With Quick Ship with SKU, Order Status (Processing) and \"Item\" count filter, their requirements can be easily handled.<br>&nbsp;<br>UUID: d23046da-6ce8-4e04-a8b9-15009150d1c5<br>URL: <a rel=\"noopener noreferrer\" href=\"http://jhp1rz-f8.myshopify.com\">jhp1rz-f8.myshopify.com</a><br>&nbsp;<br>L3: Please enable:<br>• 100 orders per page<br>• \"Items\" Filter option<br>• Order Export report<br>• Priority Tracking<br></div>",
+      "plain_body": "Summary - Potential ($49 plan) customer. &nbsp;Onboarded Successfully.&nbsp;\nMajority of their orders are for mainly for 2 specific SKUs and they prefer to update the packaging dimensions at the time of label creation in bulk for multiple orders. With Quick Ship with SKU, Order Status (Processing) and \"Item\" count filter, their requirements can be easily handled.\n&nbsp;\nUUID: d23046da-6ce8-4e04-a8b9-15009150d1c5\nURL: jhp1rz-f8.myshopify.com\n&nbsp;\nL3: Please enable:\n• 100 orders per page\n• \"Items\" Filter option\n• Order Export report\n• Priority Tracking",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55879053134361,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-10T09:57:25Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "115.99.108.2",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55884595469849,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We have enabled features for the store\n-[Athul]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have enabled features for the store<br>-[Athul]<br></div>",
+      "plain_body": "We have enabled features for the store\n-[Athul]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55884595469721,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-10T13:45:18Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "103.163.65.25",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55885599876889,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "L3: Priority Tracking is not yet enabled for the store. The tracking details are not updated in Shopify order dashboard, this is major requirement for the customer.\nEx: #VNS2319 should be in InTransit",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: Priority Tracking is not yet enabled for the store. The tracking details are not updated in Shopify order dashboard, this is major requirement for the customer.<br>Ex: #VNS2319 should be in InTransit<br>&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "L3: Priority Tracking is not yet enabled for the store. The tracking details are not updated in Shopify order dashboard, this is major requirement for the customer.\nEx: #VNS2319 should be in InTransit\n&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55885615424537.json",
+          "id": 55885615424537,
+          "file_name": "redacted.txt",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/k30goMUTCFscL1HHg3cJWTSNL/?name=redacted.txt",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/k30goMUTCFscL1HHg3cJWTSNL/?name=redacted.txt",
+          "content_type": "text/plain",
+          "size": 1,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 55885599876761,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-10T14:41:00Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "122.168.71.252",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591,
+          "email_id": null
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55899687170969,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Live tracking is enabled. Details are updated now.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Live tracking is enabled. Details are updated now.<br>[Veena]<br></div>",
+      "plain_body": "Live tracking is enabled. Details are updated now.\n[Veena]",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55899669269657.json",
+          "id": 55899669269657,
+          "file_name": "Screenshot 2026-03-11 at 8.43.25 AM.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/Sxl6bnm6f2FkKd9SF8T9slmn3/?name=Screenshot+2026-03-11+at+8.43.25%E2%80%AFAM.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/Sxl6bnm6f2FkKd9SF8T9slmn3/?name=Screenshot+2026-03-11+at+8.43.25%E2%80%AFAM.png",
+          "content_type": "image/png",
+          "size": 131005,
+          "width": 2552,
+          "height": 720,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/55899717336345.json",
+              "id": 55899717336345,
+              "file_name": "Screenshot_2026-03-11_at_8.43.25_AM_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/JfHv2A9zlrFf4MWQWAhi7aRhJ/?name=Screenshot_2026-03-11_at_8.43.25_AM_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/JfHv2A9zlrFf4MWQWAhi7aRhJ/?name=Screenshot_2026-03-11_at_8.43.25_AM_thumb.png",
+              "content_type": "image/png",
+              "size": 1078,
+              "width": 80,
+              "height": 23,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 55899687170841,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-11T03:14:54Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55903018708121,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Yash,\n\nThank you for your patience.\n\nLive Tracking updates are now enabled in the app on your store and the tracking status is also reflected in your Shopify orders page as in the attached screenshot for Order VNS2290.\n\nPlease cross-check and let us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Yash,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Live Tracking updates are now enabled in the app on your store and the tracking status is also reflected in your Shopify orders page as in the attached screenshot for Order VNS2290.<br>&nbsp;<br>Please cross-check and let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Yash,\n&nbsp;\nThank you for your patience.\n&nbsp;\nLive Tracking updates are now enabled in the app on your store and the tracking status is also reflected in your Shopify orders page as in the attached screenshot for Order VNS2290.\n&nbsp;\nPlease cross-check and let us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55902952577945.json",
+          "id": 55902952577945,
+          "file_name": "Screenshot 2026-03-11 at 8.43.25 AM.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/szIz2iAXy0nUOxAanqOGgQi5U/?name=Screenshot+2026-03-11+at+8.43.25%E2%80%AFAM.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/szIz2iAXy0nUOxAanqOGgQi5U/?name=Screenshot+2026-03-11+at+8.43.25%E2%80%AFAM.png",
+          "content_type": "image/png",
+          "size": 131005,
+          "width": 2552,
+          "height": 720,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/55902952595609.json",
+              "id": 55902952595609,
+              "file_name": "Screenshot_2026-03-11_at_8.43.25_AM_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/fP6yUGVo9lEbkmvBFsT8lEd6Q/?name=Screenshot_2026-03-11_at_8.43.25_AM_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/fP6yUGVo9lEbkmvBFsT8lEd6Q/?name=Screenshot_2026-03-11_at_8.43.25_AM_thumb.png",
+              "content_type": "image/png",
+              "size": 1078,
+              "width": 80,
+              "height": 23,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 55903018707993,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-11T04:51:40Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55903362353049,
+      "type": "Comment",
+      "author_id": 55780866456217,
+      "body": "Thanks i have couple of questions.\n\n\n1. It is refreshed every 3 hours\n\n2. Can we update the old orders too?",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Thanks i have couple&nbsp;of questions.<div><br></div><div>1. It is refreshed every 3 hours</div><div>2. Can we update the old orders too?</div></div><br><div></div></div>",
+      "plain_body": "Thanks i have couple&nbsp;of questions. \n  1. It is refreshed every 3 hours  2. Can we update the old orders too?",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55903362352921,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "yashagarwal297@gmail.com",
+            "name": "Yash",
+            "original_recipients": [
+              "yashagarwal297@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-11T05:01:24Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAELm0TLZR6FpJLiK=0-Ed9qyy-2wvUbMK3xG2AvOjZkq7L2akg@mail.gmail.com>",
+          "email_id": "01KKDMAM1KKZ9VD70FJ9SR53MV",
+          "raw_email_identifier": "2369120/bfff51e9-bc80-4c1d-841f-7a6236f2b04c.eml",
+          "json_email_identifier": "2369120/bfff51e9-bc80-4c1d-841f-7a6236f2b04c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55903639736473,
+      "type": "Comment",
+      "author_id": 903409790923,
+      "body": "Hi Yash,\n\n\n\nThank you for your patience.\n\n\n\nPagination limit, item filter & Live tracking updates are now enabled in the app, and the tracking status is reflected on your Shopify Orders page. Please cross-check on your end.\n\n\n\nRegarding the RTO tag, Keerthi will get back to you shortly.\n\n\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn\n\n\n\n> On 10 Mar 2026, at 6:19 PM, Yash Agarwal <yashagarwal297@gmail.com> wrote:\n>\n>\n> Hi team, Thank you so much for the call. As discussed, there are a few open points which need to be closed. Below are the ones:\n> 1. Can you let me know about the RTO tag?\n> 2. Please enable the pagination limit to 100 and also enable the item filter.\n>\n> Also the tracking is not getting updated. I was told that every 3 hours it will be updated, but we did the activity at around 2:00, and it's 6:18 while I write this mail, and it is still not updated.\n>\n>\n>\n> ![image.png](https://support.pluginhive.com/attachments/token/lsXfdjvItsFH9sMLKXCErY3Wc/?name=image.png)\n>\n>\n>\n> On Tue, Mar 10, 2026 at 12:29 PM Abhilash S <abhilash@pluginhive.com> wrote:\n>\n> > Hi Yash,\n> >\n> >\n> > I hope you are doing well.\n> >\n> >\n> >\n> > As discussed over the phone we can connect at **1:00 PM IST today**.\n> >\n> > Please find the meeting link for the call below: [https://meet.google.com/eww-uqbs-cjj]\n> >\n> >\n> >\n> > Also, as mentioned during our discussion, we currently don’t have a $35 custom plan available. You can proceed with the $49 plan for 3000 shipments, and we will ensure that the effective monthly cost comes down to $35 or less by refunding the difference accordingly.\n> >\n> >\n> >\n> > Looking forward to speaking with you.\n> >\n> >\n> >\n> > Best Regards,\n> >\n> > Abhilash S | Digital Marketing & Partnerships\n> > Connect with us on LinkedIn",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Hi Yash,&nbsp;</div><div><br></div><div>Thank you for your patience.&nbsp;</div><div><br></div><div>Pagination limit, item filter &amp; Live tracking updates are now enabled in the app, and the tracking status is reflected on your Shopify Orders page. Please cross-check on your end.&nbsp;</div><div><br></div><div>Regarding the RTO tag, Keerthi will get back to you shortly.</div><div><br><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n<div><br><blockquote><div>On 10 Mar 2026, at 6:19 PM, Yash Agarwal &lt;yashagarwal297@gmail.com&gt; wrote:</div><br><div><div dir=\"ltr\"><div style=\"font-style: normal; font-variant: normal; font-weight: normal; font-size: normal; line-height: normal;\">Hi team,\n\nThank you so much for the call. As discussed, there are a few open points which need to be closed. Below are the ones:\n\n<ol dir=\"auto\">\n\n<li>Can you let me know about the RTO tag?</li>\n\n<li>Please enable the pagination limit to 100 and also enable the item filter.</li>\n\n</ol><div>Also&nbsp;the tracking is not getting updated. I was told that every 3 hours it will be updated, but we did the activity at around 2:00, and it's 6:18 while I write this mail, and it is still not updated. </div><div><br></div><div><img alt=\"image.png\" src=\"https://support.pluginhive.com/attachments/token/lsXfdjvItsFH9sMLKXCErY3Wc/?name=image.png\" width=\"640\"><br></div></div></div><br><div><div dir=\"ltr\">On Tue, Mar 10, 2026 at 12:29 PM Abhilash S &lt;<a href=\"mailto:abhilash@pluginhive.com\" rel=\"noreferrer\">abhilash@pluginhive.com</a>&gt; wrote:<br></div><blockquote style=\"border-left-width: 1px; border-left-color: rgb(204,204,204); border-left-style: solid; padding-left: 1ex; margin: 0px 0px 0px 0.8ex;\"><div>Hi Yash,&nbsp;<div><br></div><div>I hope you are doing well.&nbsp;</div><div><br></div><div>As discussed over the phone we can connect at <b>1:00 PM IST today</b>.&nbsp;</div><div>Please find the meeting link for the call below: [<a href=\"https://meet.google.com/eww-uqbs-cjj\" rel=\"noreferrer\">https://meet.google.com/eww-uqbs-cjj</a>]&nbsp;</div><div><br></div><div>Also, as mentioned during our discussion, we currently don’t have a $35 custom plan available. You can proceed with the $49 plan for 3000 shipments, and we will ensure that the effective monthly cost comes down to $35 or less by refunding the difference accordingly.&nbsp;</div><div><br></div><div>Looking forward to speaking with you.</div><div><div><div><br><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n</div></div></div></div></blockquote></div>\n</div></blockquote></div></div></div>",
+      "plain_body": "Hi Yash,&nbsp;  \n  Thank you for your patience.&nbsp;  \n  Pagination limit, item filter &amp; Live tracking updates are now enabled in the app, and the tracking status is reflected on your Shopify Orders page. Please cross-check on your end.&nbsp;  \n  Regarding the RTO tag, Keerthi will get back to you shortly.  \n \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn \n \n \n  On 10 Mar 2026, at 6:19 PM, Yash Agarwal &lt;yashagarwal297@gmail.com&gt; wrote: \n   Hi team,\n\nThank you so much for the call. As discussed, there are a few open points which need to be closed. Below are the ones:\n\n \n\n Can you let me know about the RTO tag? \n\n Please enable the pagination limit to 100 and also enable the item filter. \n\n  Also&nbsp;the tracking is not getting updated. I was told that every 3 hours it will be updated, but we did the activity at around 2:00, and it's 6:18 while I write this mail, and it is still not updated.   \n  \n   \n  On Tue, Mar 10, 2026 at 12:29 PM Abhilash S &lt;abhilash@pluginhive.com&gt; wrote:\n   Hi Yash,&nbsp; \n  I hope you are doing well.&nbsp;  \n  As discussed over the phone we can connect at 1:00 PM IST today.&nbsp;  Please find the meeting link for the call below: [https://meet.google.com/eww-uqbs-cjj]&nbsp;  \n  Also, as mentioned during our discussion, we currently don’t have a $35 custom plan available. You can proceed with the $49 plan for 3000 shipments, and we will ensure that the effective monthly cost comes down to $35 or less by refunding the difference accordingly.&nbsp;  \n  Looking forward to speaking with you.    \n \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55903639736345,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "yashagarwal297@gmail.com",
+            "name": "Yash",
+            "original_recipients": [
+              "abhilash@pluginhive.com",
+              "yashagarwal297@gmail.com",
+              "vimal@pluginhive.com",
+              "keerthishree@pluginhive.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-11T05:08:49Z",
+      "metadata": {
+        "system": {
+          "message_id": "<5E0521F5-B84B-4C98-9580-30193FACEA6A@pluginhive.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KKDMR778X136HV297Y9XA7HC",
+          "raw_email_identifier": "2369120/34662270-f511-4b20-bb4a-2cce7b0c7a84.eml",
+          "json_email_identifier": "2369120/34662270-f511-4b20-bb4a-2cce7b0c7a84.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          55780866456217
+        ]
+      }
+    },
+    {
+      "id": 55904843085337,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Customer is already informed, spoke to Yash last night.\n[Keerthi]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer is already informed, spoke to Yash last night.<br>[Keerthi]<br></div>",
+      "plain_body": "Customer is already informed, spoke to Yash last night.\n[Keerthi]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55904843085209,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-11T05:43:31Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "103.163.65.25",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55905429295257,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Hi Yash,\n\nGood day!\n\nAs discussed on our call yesterday, the tracking status in Shopify will be updated to **\"Failed Delivery\"** for RTO orders.\n\nPlease note that the tracking status refreshes every **2–3 hours**, and this update will only apply to orders that have been **fulfilled through the app**.\n\nIf you are referring to **older orders that were fulfilled outside the app**, the app will not be able to update their tracking status.\n\nPlease let us know if you need any further clarification.\n ![](https://pluginhive.zendesk.com/attachments/token/aGrWY3ZdUpZMkppjVtVsRw19o/?name=Screenshot+2026-03-10+at+3.12.39+PM.png)\n\nBest regards,\nKeerthi\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Yash,<br>&nbsp;<br>Good day!<br>&nbsp;<br>As discussed on our call yesterday, the tracking status in Shopify will be updated to <strong>\"Failed Delivery\"</strong> for RTO orders.<br>&nbsp;<br>Please note that the tracking status refreshes every <strong>2–3 hours</strong>, and this update will only apply to orders that have been <strong>fulfilled through the app</strong>.<br>&nbsp;<br>If you are referring to <strong>older orders that were fulfilled outside the app</strong>, the app will not be able to update their tracking status.<br>&nbsp;<br>Please let us know if you need any further clarification.<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/aGrWY3ZdUpZMkppjVtVsRw19o/?name=Screenshot+2026-03-10+at+3.12.39+PM.png\"></span><br>&nbsp;<br>Best regards,<br>Keerthi<br>PluginHive<br></div>",
+      "plain_body": "Hi Yash,\n&nbsp;\nGood day!\n&nbsp;\nAs discussed on our call yesterday, the tracking status in Shopify will be updated to \"Failed Delivery\" for RTO orders.\n&nbsp;\nPlease note that the tracking status refreshes every 2–3 hours, and this update will only apply to orders that have been fulfilled through the app.\n&nbsp;\nIf you are referring to older orders that were fulfilled outside the app, the app will not be able to update their tracking status.\n&nbsp;\nPlease let us know if you need any further clarification.\n\n&nbsp;\nBest regards,\nKeerthi\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55905429295129,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-11T06:00:56Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "103.163.65.25",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55937910847513,
+      "type": "Comment",
+      "author_id": 55874476419737,
+      "body": "My team,\n\nThe first day of the product has been very, very poor. Neither the token issue is getting resolved, nor is there any clarity about any of the parcels which are not serviceable. The platform doesn't even give you clarity about the pin code serviceability issue; it simply writes \"in progress\" against it.\n\nI would be planning to uninstall the software. Please, Abhilash, proceed ahead with the uninstallation phase. I don't want to use the platform anymore.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">My team,<br><br>The first day of the product has been very, very poor. Neither the token issue is getting resolved, nor is there any clarity about any of the parcels which are not serviceable. The platform doesn't even give you clarity about the pin code serviceability issue; it simply writes \"in progress\" against it.<br><br>I would be planning to uninstall the software. Please, Abhilash, proceed ahead with the uninstallation phase. I don't want to use the platform anymore.</div><br><div></div></div>",
+      "plain_body": "My team,\n\nThe first day of the product has been very, very poor. Neither the token issue is getting resolved, nor is there any clarity about any of the parcels which are not serviceable. The platform doesn't even give you clarity about the pin code serviceability issue; it simply writes \"in progress\" against it.\n\nI would be planning to uninstall the software. Please, Abhilash, proceed ahead with the uninstallation phase. I don't want to use the platform anymore.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55937910847385,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "yashagarwal297@gmail.com",
+            "name": "Yash",
+            "original_recipients": [
+              "hi@vibenest.life",
+              "support@pluginhive.com",
+              "vimal@pluginhive.com",
+              "abhilash@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-12T04:58:31Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAPJC-zJdtVmWAB4u0iUWnex6j7texBoxkUX0MqhgVCvqLGderg@mail.gmail.com>",
+          "email_id": "01KKG6J4BVTGDXCBG72ACWBZ07",
+          "raw_email_identifier": "2369120/7ebabc16-88bf-4abe-86e1-d791cd345c41.eml",
+          "json_email_identifier": "2369120/7ebabc16-88bf-4abe-86e1-d791cd345c41.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55938492520089,
+      "type": "Comment",
+      "author_id": 55780866456217,
+      "body": "Hi Team for God sake please call and uninstall these pathetic platform",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Team for God sake please call and uninstall these pathetic&nbsp;platform</div><br><div></div></div>",
+      "plain_body": "Hi Team for God sake please call and uninstall these pathetic&nbsp;platform",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55938483274777,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "yashagarwal297@gmail.com",
+            "name": "Yash",
+            "original_recipients": [
+              "yashagarwal297@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-12T05:14:00Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAELm0TLxx_hyH3vYPrtQ8fMjt_mmFEoVUETD1-qCuyRHHb6hMg@mail.gmail.com>",
+          "email_id": "01KKG7EG5128H86KY3MXH8A6DA",
+          "raw_email_identifier": "2369120/a60581c2-a9d0-4042-abe7-d168939daeb5.eml",
+          "json_email_identifier": "2369120/a60581c2-a9d0-4042-abe7-d168939daeb5.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55938695450905,
+      "type": "Comment",
+      "author_id": 55874476419737,
+      "body": "Hi @Abhilash ,\n\n\nKindly call back uninstall this and refund every buck. We had built such a great business in a month and your platform ensured its collapse in an hour, The most poorly engineered platform i have seen till date",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi&nbsp;<a href=\"mailto:abhilash@pluginhive.com\" rel=\"noreferrer\">@Abhilash</a>&nbsp;,<div><br></div><div>Kindly call back uninstall this and refund every buck.&nbsp;We had built such a great business in a month and your platform ensured its collapse&nbsp;in an hour, The most poorly engineered platform i have seen till date</div></div><br><div></div></div>",
+      "plain_body": "Hi&nbsp;@Abhilash&nbsp;, \n  Kindly call back uninstall this and refund every buck.&nbsp;We had built such a great business in a month and your platform ensured its collapse&nbsp;in an hour, The most poorly engineered platform i have seen till date",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55938695450521,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "yashagarwal297@gmail.com",
+            "name": "Yash",
+            "original_recipients": [
+              "hi@vibenest.life",
+              "support@pluginhive.com",
+              "vimal@pluginhive.com",
+              "abhilash@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-12T05:19:26Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAPJC-z+tKySNNYwm1E9mSgxnQ_kUtH6OTmp4rrDT2_Lhr9EhuA@mail.gmail.com>",
+          "email_id": "01KKG7REE0E2624FZAET3GKF4R",
+          "raw_email_identifier": "2369120/87a68f36-7cab-442f-aa8f-ee11ec336450.eml",
+          "json_email_identifier": "2369120/87a68f36-7cab-442f-aa8f-ee11ec336450.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55939753389465,
+      "type": "Comment",
+      "author_id": 903409790923,
+      "body": "Hi Yash,\n\n\nLet’s meet right away. Join the call - https://meet.google.com/qrd-wcag-vgb\n\n\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Yash,<div><br></div><div>Let’s meet right away. Join the call -&nbsp;<a href=\"https://meet.google.com/qrd-wcag-vgb\" rel=\"noreferrer\">https://meet.google.com/qrd-wcag-vgb</a></div><div><br><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n<div><br></div></div></div>",
+      "plain_body": "Hi Yash, \n  Let’s meet right away. Join the call -&nbsp;https://meet.google.com/qrd-wcag-vgb  \n \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55939753388441,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "yashagarwal297@gmail.com",
+            "name": "Yash",
+            "original_recipients": [
+              "abhilash@pluginhive.com",
+              "yashagarwal297@gmail.com",
+              "support@pluginhive.com",
+              "vimal@pluginhive.com",
+              "hi@vibenest.life"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-12T05:51:23Z",
+      "metadata": {
+        "system": {
+          "message_id": "<44FF06C3-90C9-4F08-9DC3-520CF7537246@pluginhive.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KKG9JYNK02CY72CN3D59JTHH",
+          "raw_email_identifier": "2369120/06bf6258-1920-42f1-8b6a-5b69cd1f0477.eml",
+          "json_email_identifier": "2369120/06bf6258-1920-42f1-8b6a-5b69cd1f0477.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          55780866456217
+        ]
+      }
+    },
+    {
+      "id": 55942080802713,
+      "type": "Comment",
+      "author_id": 903409790923,
+      "body": "Hi Yash,\n\n\nPlease find the requests and responses for yesterday’s and today’s pickup requests.\n\n\n\n\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn\n\n\n\n> On 12 Mar 2026, at 11:21 AM, Abhilash S <abhilash@pluginhive.com> wrote:\n>\n>\n> Hi Yash,\n>\n>\n> Let’s meet right away. Join the call - https://meet.google.com/qrd-wcag-vgb\n>\n>\n>\n> Best Regards,\n>\n> Abhilash S | Digital Marketing & Partnerships\n> Connect with us on LinkedIn",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Yash,&nbsp;<div><br></div><div>Please find the requests and responses for yesterday’s and today’s pickup requests.&nbsp;</div><div><br></div><div></div><div></div><div><br></div><div><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n<div><br><blockquote><div>On 12 Mar 2026, at 11:21 AM, Abhilash S &lt;abhilash@pluginhive.com&gt; wrote:</div><br><div><div style=\"overflow-wrap: break-word; line-break: after-white-space;\">Hi Yash,<div><br></div><div>Let’s meet right away. Join the call -&nbsp;<a href=\"https://meet.google.com/qrd-wcag-vgb\" rel=\"noreferrer\">https://meet.google.com/qrd-wcag-vgb</a></div><div><br><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n</div></div></div></blockquote></div></div></div>",
+      "plain_body": "Hi Yash,&nbsp; \n  Please find the requests and responses for yesterday’s and today’s pickup requests.&nbsp;  \n    \n   \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn \n \n \n  On 12 Mar 2026, at 11:21 AM, Abhilash S &lt;abhilash@pluginhive.com&gt; wrote: \n  Hi Yash, \n  Let’s meet right away. Join the call -&nbsp;https://meet.google.com/qrd-wcag-vgb  \n \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55942056823321.json",
+          "id": 55942056823321,
+          "file_name": "Request & Response.zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/AoNX7zhixhA5Rqs8QE4LkjyU9/?name=Request+%26+Response.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/AoNX7zhixhA5Rqs8QE4LkjyU9/?name=Request+%26+Response.zip",
+          "content_type": "application/zip",
+          "size": 6285,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 55942080802585,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "yashagarwal297@gmail.com",
+            "name": "Yash",
+            "original_recipients": [
+              "abhilash@pluginhive.com",
+              "yashagarwal297@gmail.com",
+              "support@pluginhive.com",
+              "vimal@pluginhive.com",
+              "hi@vibenest.life"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-12T06:57:45Z",
+      "metadata": {
+        "system": {
+          "message_id": "<FCCA2B4F-24AF-4167-B517-4BD8AD31BD5D@pluginhive.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KKGDCDWSEX52JZ7KB4V4NXCM",
+          "raw_email_identifier": "2369120/3f410662-734c-4ff8-9dfd-d7776d4f92da.eml",
+          "json_email_identifier": "2369120/3f410662-734c-4ff8-9dfd-d7776d4f92da.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          55780866456217
+        ]
+      }
+    },
+    {
+      "id": 55944604934809,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "L3:\n**ISSUES:**\n\n- **Pickup Token Number:** Customer was informed by BlueDart team that our app is not creating Pickup Token Number when requesting pickup in bulk manually. (Veena is checking with BlueDart team)\n- **Delay in Label Creation Flow:** When they used \"Generate label\" option to create labels for 6 orders, it took about 6 minutes.\n\n\n**Complaints:**\n\n- **Order Report** currently shows orders that are **not serviceable by BlueDart** with status as **Error/Failed**. The customer suggests using more user-friendly statuses such as **\"Initial\"** or **\"Pending\"**.\n- Payment Filter to filter COD/Pre-Paid\n- SKU equal to / not equal to (or) list of SKUs similar to eShipz.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3:<br><strong>ISSUES:</strong><br><ul dir=\"auto\"><li><strong>Pickup Token Number: </strong>Customer was informed by BlueDart team that our app is not creating Pickup Token Number when requesting pickup in bulk manually. (Veena is checking with BlueDart team)</li><li><strong>Delay in Label Creation Flow: </strong>When they used \"Generate label\" option to create labels for 6 orders, it took about 6 minutes.</li></ul><br><br><strong>Complaints:</strong><br><ul dir=\"auto\"><li><strong>Order Report</strong> currently shows orders that are <strong>not serviceable by BlueDart</strong> with status as <strong>Error/Failed</strong>. The customer suggests using more user-friendly statuses such as <strong>\"Initial\"</strong> or <strong>\"Pending\"</strong>.</li><li>Payment Filter to filter COD/Pre-Paid</li><li>SKU equal to / not equal to (or) list of SKUs similar to eShipz.</li></ul></div>",
+      "plain_body": "L3:\nISSUES:\n  Pickup Token Number: Customer was informed by BlueDart team that our app is not creating Pickup Token Number when requesting pickup in bulk manually. (Veena is checking with BlueDart team)  Delay in Label Creation Flow: When they used \"Generate label\" option to create labels for 6 orders, it took about 6 minutes.  \n\nComplaints:\n  Order Report currently shows orders that are not serviceable by BlueDart with status as Error/Failed. The customer suggests using more user-friendly statuses such as \"Initial\" or \"Pending\".  Payment Filter to filter COD/Pre-Paid  SKU equal to / not equal to (or) list of SKUs similar to eShipz.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55944604934681,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-12T08:08:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "115.99.108.2",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55950116328473,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Waiting for request from Bluedart team.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Waiting for request from Bluedart team.<br>[Veena]<br></div>",
+      "plain_body": "Waiting for request from Bluedart team.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55950116327321,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-12T11:03:47Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56001536696345,
+      "type": "Comment",
+      "author_id": 55874476419737,
+      "body": "Team, We will be forced to move out of this issue. The day you fix the below three issues, I will move back to PluginHive.\n1. The token management: sending one token across multiple AWB numbers.\n2. Adding a filter for payment status.\n3. Managing the partially paid order. Currently, if someone has partially paid, let's say ₹50, then the COD amount should be subtracted equivalently, which is not happening. The consumers are being charged the full COD amount, so I guess the partial COD case hasn't been handled well.\nThe day these three issues are resolved and I test, I move back to PluginHive.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div><div style=\"font-style: normal; font-variant: normal; font-weight: normal; font-size: normal; line-height: normal;\">Team,\n\nWe will be forced to move out of this issue. The day you fix the below three issues, I will move back to PluginHive.\n\n<ol dir=\"auto\">\n\n<li>The token management: sending one token across multiple AWB numbers.</li>\n\n<li>Adding a filter for payment status.</li>\n\n<li>Managing the partially paid order. Currently, if someone has partially paid, let's say ₹50, then the COD amount should be subtracted equivalently, which is not happening. The consumers are being charged the full COD amount, so I guess the partial COD case hasn't been handled well.</li>\n\n</ol>\n\nThe day these three issues are resolved and I test, I move back to PluginHive.</div></div><div><br></div>\n</div></div>",
+      "plain_body": "Team,\n\nWe will be forced to move out of this issue. The day you fix the below three issues, I will move back to PluginHive.\n\n \n\n The token management: sending one token across multiple AWB numbers. \n\n Adding a filter for payment status. \n\n Managing the partially paid order. Currently, if someone has partially paid, let's say ₹50, then the COD amount should be subtracted equivalently, which is not happening. The consumers are being charged the full COD amount, so I guess the partial COD case hasn't been handled well. \n\n \n\nThe day these three issues are resolved and I test, I move back to PluginHive.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56001489719449,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "yashagarwal297@gmail.com",
+            "name": "Yash",
+            "original_recipients": [
+              "hi@vibenest.life",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-14T06:09:35Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAPJC-z+tS079TAebcnZnTLV-YuBDc21=o5GL38iDxce9ZH9pMw@mail.gmail.com>",
+          "email_id": "01KKNFDQ2GJ1807RTGWNX2M0PF",
+          "raw_email_identifier": "2369120/f4d9beb2-bd0c-4b3b-ac72-fcc173b7ec11.eml",
+          "json_email_identifier": "2369120/f4d9beb2-bd0c-4b3b-ac72-fcc173b7ec11.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56007056690969,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Yash,\n\nThank you for reaching out with the update.\n\nWe are sorry to see you go.\n\nWe will reach out to you once we have addressed the cases you have shared with us so that you give the app another try.\n\nFeel free to reach out if you have any other concerns for now.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Yash,<br>&nbsp;<br>Thank you for reaching out with the update.<br>&nbsp;<br>We are sorry to see you go.<br>&nbsp;<br>We will reach out to you once we have addressed the cases you have shared with us so that you give the app another try.<br>&nbsp;<br>Feel free to reach out if you have any other concerns for now.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Yash,\n&nbsp;\nThank you for reaching out with the update.\n&nbsp;\nWe are sorry to see you go.\n&nbsp;\nWe will reach out to you once we have addressed the cases you have shared with us so that you give the app another try.\n&nbsp;\nFeel free to reach out if you have any other concerns for now.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56007056690841,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-14T10:18:37Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "122.171.21.161",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56007092337561,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Discussed with Abhilash and replied accordingly.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with Abhilash and replied accordingly.<br></div>",
+      "plain_body": "Discussed with Abhilash and replied accordingly.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56007092337049,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-14T10:18:54Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "122.171.21.161",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56064510290841,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Will update on this case.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Will update on this case.<br>[Veena]<br></div>",
+      "plain_body": "Will update on this case.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56064519675289,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-16T12:00:53Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56095929935001,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "1. Pickup Token Number -> This needs enhancements and will be available in next release.\n2. Filter based on payment type -> Development is in queue\n3. Partial COD handling -> Enabled.\n\n\nKindly check with Abhilash and reply and move the ticket to dev_needed\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><ol dir=\"auto\"><li>Pickup Token Number -&gt; This needs enhancements and will be available in next release.</li><li>Filter based on payment type -&gt; Development is in queue</li><li>Partial COD handling -&gt; Enabled.<br><br><br>Kindly check with Abhilash and reply and move the ticket to dev_needed<br><br>[Veena]</li></ol></div>",
+      "plain_body": "Pickup Token Number -&gt; This needs enhancements and will be available in next release.  Filter based on payment type -&gt; Development is in queue  Partial COD handling -&gt; Enabled.\n\n\nKindly check with Abhilash and reply and move the ticket to dev_needed\n\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56095929934873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T10:03:58Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56096802015257,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Customer will continue using the app only after the BlueDart Pickup Token enhancement is released. (expected ETA is 2 to 3 weeks)\n\nMoving to dev-needed.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer will continue using the app only after the BlueDart Pickup Token enhancement is released. (expected ETA is 2 to 3 weeks)<br>&nbsp;<br>Moving to dev-needed.<br></div>",
+      "plain_body": "Customer will continue using the app only after the BlueDart Pickup Token enhancement is released. (expected ETA is 2 to 3 weeks)\n&nbsp;\nMoving to dev-needed.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56096802015129,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T10:34:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "115.99.108.2",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56278697562649,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Request #380362 \"Give Multi Carrier Shipping Labe...\" was closed and merged into this request. Last comment in request #380362:\r\n\r\nHello My,\r\n\r\n We regret that you had to uninstall our Shopify App - **“PH Multi Carrier Shipping Label App”** from jhp1rz-f8.myshopify.com\r\n\r\n If you have faced any difficulties with the app, we can hop on a call to assist you. Or if you are awaiting your store launch, do let us know so we can extend your free trial period.\r\n\r\n\r\n> **Did you know?**\r\n>\r\n> - _Our shipping app is certified by top shipping carriers like UPS, FedEx, USPS, Stamps.com, DHL Express, Australia Post, Canada Post, Post Nord & many more._\r\n> - _This app will allow you to ship with multiple carrier(s)._\r\n> - _Print 100 (s) of shipping labels in a single click._\r\n> - _Our shipping experts will provide you with quick and reliable support._\r\n\r\n\r\n\r\n Let’s schedule a quick call to discuss how exactly we can help you reach your shipping requirements.\r\n\r\n We would like to hear from you.\r\n\r\n Thanks and Regards,\r\n Team PluginHive\r\nhttps://www.pluginhive.com/about/#team",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/380362\" target=\"_blank\" rel=\"ticket\">#380362</a> \"Give Multi Carrier Shipping Labe...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/380362\" target=\"_blank\" rel=\"ticket\">#380362</a>:</p>\n<p dir=\"auto\">Hello My,</p>\n<p dir=\"auto\">We regret that you had to uninstall our Shopify App - <strong>“PH Multi Carrier Shipping Label App”</strong> from jhp1rz-f8.myshopify.com</p>\n<p dir=\"auto\">If you have faced any difficulties with the app, we can hop on a call to assist you. Or if you are awaiting your store launch, do let us know so we can extend your free trial period.</p>\n<blockquote dir=\"ltr\">\n<p dir=\"auto\"><strong>Did you know?</strong></p>\n<ul type=\"disc\" dir=\"auto\">\n<li type=\"disc\"><em>Our shipping app is certified by top shipping carriers like UPS, FedEx, USPS, Stamps.com, DHL Express, Australia Post, Canada Post, Post Nord &amp; many more.</em></li>\n<li type=\"disc\"><em>This app will allow you to ship with multiple carrier(s).</em></li>\n<li type=\"disc\"><em>Print 100 (s) of shipping labels in a single click.</em></li>\n<li type=\"disc\"><em>Our shipping experts will provide you with quick and reliable support.</em></li>\n</ul>\n</blockquote>\n<p dir=\"auto\">Let’s schedule a quick call to discuss how exactly we can help you reach your shipping requirements.</p>\n<p dir=\"auto\">We would like to hear from you.</p>\n<p dir=\"auto\">Thanks and Regards,<br>\n Team PluginHive<br>\n<a href=\"https://www.pluginhive.com/about/#team\" rel=\"noreferrer\">https://www.pluginhive.com/about/#team</a></p></div>",
+      "plain_body": "Request #380362 \"Give Multi Carrier Shipping Labe...\" was closed and merged into this request. Last comment in request #380362: \n Hello My, \n We regret that you had to uninstall our Shopify App - “PH Multi Carrier Shipping Label App” from jhp1rz-f8.myshopify.com \n If you have faced any difficulties with the app, we can hop on a call to assist you. Or if you are awaiting your store launch, do let us know so we can extend your free trial period. \n \n Did you know? \n \n Our shipping app is certified by top shipping carriers like UPS, FedEx, USPS, Stamps.com, DHL Express, Australia Post, Canada Post, Post Nord &amp; many more. \n This app will allow you to ship with multiple carrier(s). \n Print 100 (s) of shipping labels in a single click. \n Our shipping experts will provide you with quick and reliable support. \n \n \n Let’s schedule a quick call to discuss how exactly we can help you reach your shipping requirements. \n We would like to hear from you. \n Thanks and Regards,\n\n Team PluginHive\n\nhttps://www.pluginhive.com/about/#team",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56278697561753,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              380362
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-03-23T15:04:37Z",
+      "metadata": {
+        "system": {
+          "location": "Hyderabad, TS, India",
+          "latitude": 17.3843,
+          "longitude": 78.4583
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56770490108185,
+      "type": "Comment",
+      "author_id": 55874476419737,
+      "body": "Hi Abhilash,\n\nHow are you? Can you please send me a report of all the orders delivered through PluginHive, along with the sales number and everything? I need it for accounting purposes.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Abhilash,<br><br>How are you? Can you please send me a report of all the orders delivered through PluginHive, along with the sales number and everything? I need it for accounting purposes.</div><br><div></div></div>",
+      "plain_body": "Hi Abhilash,\n\nHow are you? Can you please send me a report of all the orders delivered through PluginHive, along with the sales number and everything? I need it for accounting purposes.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56770490108057,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "yashagarwal297@gmail.com",
+            "name": "Yash",
+            "original_recipients": [
+              "hi@vibenest.life",
+              "support@pluginhive.com",
+              "vimal@pluginhive.com",
+              "abhilash@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T08:28:13Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAPJC-zLrcuEo+aWkN434eKr3kuoQbpm6NLux4CuvZPLTFw4-Cg@mail.gmail.com>",
+          "email_id": "01KNP39G1RD9QYHRWH224J9QPA",
+          "raw_email_identifier": "2369120/42b56ecc-7b7c-4fd3-97fd-ca53d89bb84f.eml",
+          "json_email_identifier": "2369120/42b56ecc-7b7c-4fd3-97fd-ca53d89bb84f.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56772249567001,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Yash,\n\nThank you for reaching out with your requirement.\n\nPlease allow us some time so that we can provide you a order report with the Order details processed using the app. Using the Order report, you can check your cases.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Yash,<br>&nbsp;<br>Thank you for reaching out with your requirement.<br>&nbsp;<br>Please allow us some time so that we can provide you a order report with the Order details processed using the app. Using the Order report, you can check your cases.<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Yash,\n&nbsp;\nThank you for reaching out with your requirement.\n&nbsp;\nPlease allow us some time so that we can provide you a order report with the Order details processed using the app. Using the Order report, you can check your cases.\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56772249566873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T09:16:40Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56772497892633,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775640304920729\n\nIndian Customer who used our app in March but uninstalled the app as he had some feature requirements which are taken up by us.\nReference - https://pluginhive.slack.com/archives/C02E15X8X0C/p1773299301292389?thread_ts=1773135651.027159&cid=C02E15X8X0C\nHe used the app with BlueDart is requesting for an Order Report for all the orders processed using the app.\nPlease check and provide the Order Report.\n\nURL - jhp1rz-f8.myshopify.com\nAccount ID - d23046da-6ce8-4e04-a8b9-15009150d1c5",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1775640304920729\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1775640304920729</a><br>&nbsp;<br>Indian Customer who used our app in March but uninstalled the app as he had some feature requirements which are taken up by us.<br>Reference - <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1773299301292389?thread_ts=1773135651.027159&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1773299301292389?thread_ts=1773135651.027159&amp;cid=C02E15X8X0C</a><br>He used the app with BlueDart is requesting for an Order Report for all the orders processed using the app.<br>Please check and provide the Order Report.<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://jhp1rz-f8.myshopify.com\">jhp1rz-f8.myshopify.com</a><br>Account ID - d23046da-6ce8-4e04-a8b9-15009150d1c5<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775640304920729\n&nbsp;\nIndian Customer who used our app in March but uninstalled the app as he had some feature requirements which are taken up by us.\nReference - https://pluginhive.slack.com/archives/C02E15X8X0C/p1773299301292389?thread_ts=1773135651.027159&amp;cid=C02E15X8X0C\nHe used the app with BlueDart is requesting for an Order Report for all the orders processed using the app.\nPlease check and provide the Order Report.\n&nbsp;\nURL - jhp1rz-f8.myshopify.com\nAccount ID - d23046da-6ce8-4e04-a8b9-15009150d1c5",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56772497892505,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T09:25:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56772516262937,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Ticket to go back to dev_needed after sharing the order report.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Ticket to go back to dev_needed after sharing the order report.<br></div>",
+      "plain_body": "Ticket to go back to dev_needed after sharing the order report.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56772516256025,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T09:25:46Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56774483779865,
+      "type": "Comment",
+      "author_id": 55874476419737,
+      "body": "Sure, kindly expedite if possible.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Sure, kindly expedite if possible.<div><br></div></div><br><div></div></div>",
+      "plain_body": "Sure, kindly expedite if possible.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56774483779737,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "yashagarwal297@gmail.com",
+            "name": "Yash",
+            "original_recipients": [
+              "hi@vibenest.life",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T10:32:14Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAPJC-zLAPjxj_H1cSfPXFbr8ER8TX+99wCnS2woj=Wa5ZQidkA@mail.gmail.com>",
+          "email_id": "01KNPACJNXAS21V69QEAV958YY",
+          "raw_email_identifier": "2369120/14f4b72b-27c6-474b-a38e-21c109500319.eml",
+          "json_email_identifier": "2369120/14f4b72b-27c6-474b-a38e-21c109500319.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    }
+  ]
+}

@@ -18,9 +18,15 @@ sources:
   zendesk:
     type: webhook-json
     path: raw/zendesk
-    pattern: "{ticketId}.json"
-    description: "Customer support tickets synced from Zendesk API"
+    description: "Customer support tickets synced from Zendesk API, categorized by product"
     sync: "scripts/sync-zendesk.sh"
+    products:
+      shopify:
+        path: raw/zendesk/shopify
+        pattern: "{ticketId}.json"
+        tag: shopify_multi_carrier_shipping_label_app
+        filters: "status<pending, support_type=agent"
+        description: "Shopify Multi Carrier Shipping Label App tickets"
 
   regression-scenarios:
     type: google-sheet
