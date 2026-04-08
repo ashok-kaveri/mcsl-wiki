@@ -112,6 +112,16 @@ mcsl-wiki/
 │   │   ├── database-migrations.md
 │   │   ├── deployment.md
 │   │   └── monitoring.md
+│   ├── product/               # Product management layer
+│   │   ├── backlog.md         # Scored, prioritized work items
+│   │   ├── insights.md        # Aggregated signals from all sources
+│   │   ├── metrics.md         # Customer metrics dashboard
+│   │   ├── features/          # Feature stories with acceptance criteria
+│   │   │   └── <slug>.md
+│   │   ├── decisions/         # Product decision records
+│   │   │   └── YYYY-MM-DD-<slug>.md
+│   │   └── releases/          # Release notes with metrics delta
+│   │       └── YYYY-MM-DD.md
 │   ├── features.md            # User-facing features with test coverage
 │   ├── index.md               # Catalog of all pages
 │   └── log.md                 # Chronological activity log
@@ -509,15 +519,283 @@ mcsl-test-automation/tests/
 - **Low (🟠 40-69%)**: Basic automation exists but significant manual testing still required
 - **None (🔴 0-39%)**: Primarily manual testing, minimal or no automation
 
-## Zendesk Ingestion Workflow
+## Product Management
 
-> **Status: Placeholder** — This workflow will be defined when the Zendesk webhook pipeline is ready. The `raw/zendesk/` directory will contain one JSON file per ticket (`{ticketId}.json`). The planned flow is: Ticket JSON → process/extract insights → write to `wiki/backlog/` or fold into relevant module pages.
+The wiki includes a **product management layer** under `wiki/product/` that synthesizes signals from all raw sources (Zendesk tickets, test coverage, code complexity, regression matrix) into actionable product intelligence.
 
-**Planned source**: `raw/zendesk/` (registered in `raw/sources.yaml`)
+### Product Directory Structure
 
-**Planned wiki output**: `wiki/backlog/` or aggregated into module "Known Issues" sections
+```
+wiki/product/
+├── backlog.md                    # Scored, prioritized work items
+├── insights.md                   # Aggregated signals from all sources
+├── metrics.md                    # Customer metrics dashboard (ticket trends, feature health)
+├── features/
+│   └── <feature-slug>.md         # Feature story: problem, user stories, acceptance criteria, metrics
+├── decisions/
+│   └── YYYY-MM-DD-<slug>.md      # Product decision records
+└── releases/
+    └── YYYY-MM-DD.md             # Release notes with metrics delta
+```
 
-**To activate**: Define the ingestion rules here once the webhook is producing data.
+### Product Page Categories
+
+Add these to the existing `category` frontmatter options:
+
+- `product` — backlog, insights, metrics
+- `product-feature` — feature stories
+- `product-decision` — decision records
+- `product-release` — release notes
+
+### Ticket Categorization
+
+Zendesk tickets are categorized by **product** and **feature area**:
+
+**Products** (from Zendesk `product_name` tag):
+- `shopify_multi_carrier_shipping_label_app` → categorized under **shopify**
+- Future products get their own category
+
+**Feature Areas** (derived from ticket subject + tags):
+- `onboarding` — installation, setup, welcome tickets, uninstalls
+- `carrier-config` — carrier-specific setup, credentials, account issues
+- `carrier-migration` — API migrations (e.g., FedEx SOAP→REST)
+- `label-generation` — label creation, manifests, label errors
+- `rate-shopping` — rate fetch, rate display, rate rules
+- `tracking` — shipment tracking, status updates
+- `returns` — return label generation, return tracking
+- `international` — customs, dangerous goods, country of manufacture, commercial invoices
+- `order-management` — order data, line items, order errors
+- `product-management` — product import, product data
+- `feature-request` — customer feature suggestions
+- `other` — uncategorized / multi-issue
+
+### Delta-Aware Resync Workflow
+
+All product pages use **git-based delta detection**. Each page records `git_reference` in its frontmatter — the wiki repo commit at which the page was last synced.
+
+#### How Delta Detection Works
+
+1. **On resync**, read `git_reference` from the product page's frontmatter
+2. **Diff raw/ against that commit**:
+   ```bash
+   # New/changed Zendesk tickets since last sync
+   git diff <git_reference>..HEAD --name-only -- raw/zendesk/
+   
+   # Changed regression sheet
+   git diff <git_reference>..HEAD --name-only -- raw/sheets/
+   
+   # Updated submodules
+   git diff <git_reference>..HEAD -- raw/storepep-react raw/mcsl-test-automation
+   ```
+3. **Process only the delta** — new tickets, changed test files, updated sheet
+4. **Update page frontmatter** with current commit hash after processing
+
+#### What Triggers a Resync
+
+Any change in `raw/` can trigger an update:
+- **New Zendesk tickets** → update insights.md, metrics.md, potentially create backlog items
+- **Updated git submodules** → update test coverage in metrics.md, feature stories
+- **Re-exported regression sheet** → update regression coverage in features, metrics
+- **User command** — "resync PM", "triage new tickets", "refresh metrics"
+
+### Triage Workflow
+
+When the user asks to triage or when new tickets arrive in `raw/zendesk/`:
+
+1. **Detect delta**:
+   ```bash
+   git diff <last_git_reference>..HEAD --name-only -- raw/zendesk/
+   ```
+2. **Read only new/changed ticket JSONs**
+3. **Categorize** each ticket by product and feature area (see Ticket Categorization above)
+4. **Update `product/insights.md`**:
+   - Add new themes or increment counts on existing themes
+   - Flag if a theme is escalating (ticket count increasing)
+5. **Update `product/metrics.md`**:
+   - Refresh ticket counts per feature area
+   - Recalculate health scores and pain index
+6. **Map to existing features**: If a ticket maps to an existing feature story → update its metrics section
+7. **Propose backlog items**: If tickets reveal a new problem pattern → add proposed item to backlog.md
+8. **Update `git_reference`** in all modified pages to current HEAD
+9. **Log** the triage in `wiki/log.md`
+
+### Feature Story Workflow
+
+When the user says "create feature story for X":
+
+1. **Gather signals**:
+   - Read relevant wiki module pages
+   - Read related Zendesk tickets (search by feature area tag)
+   - Read test coverage from features.md
+   - Read regression scenarios from the sheet (if applicable)
+2. **Create `product/features/<slug>.md`** using the Feature Story Template
+3. **Write user stories** with acceptance criteria:
+   - Map regression scenarios from the spreadsheet to stories
+   - Link Zendesk tickets as evidence
+4. **Cross-link**:
+   - Link to wiki module pages (implementation details)
+   - Link to Zendesk tickets (customer evidence)
+   - Link to regression test rows (manual test scenarios)
+   - Link to features.md (automation status)
+   - Add to backlog.md if not already there
+5. **Update `git_reference`** to current HEAD
+
+### Metrics Refresh Workflow
+
+When the user says "refresh metrics":
+
+1. **Detect delta** via git diff on `raw/zendesk/`
+2. **Scan new/changed tickets**, group by product and feature area
+3. **Calculate per-feature metrics**:
+   - Ticket volume (total, open, pending, solved)
+   - Trend (↑ increasing, → stable, ↓ decreasing) — compare to previous count
+   - Top issue (most common subject theme)
+4. **Cross-reference with automation data** from `features.md`:
+   - Automation confidence per feature
+   - Regression coverage per feature
+5. **Compute Customer Pain Index**: `(ticket_volume × severity_weight) / automation_confidence`
+6. **Compute Feature Health**: 🟢 Healthy / 🟡 Watch / 🔴 At Risk based on composite score
+7. **Update `product/metrics.md`** with refreshed data
+8. **Update `git_reference`** to current HEAD
+
+### Release Workflow
+
+When the user says "draft release notes for X":
+
+1. Check which backlog items moved to "shipped"
+2. Pull metrics before/after from metrics.md history (git blame or previous values)
+3. Link to feature stories and decisions that drove the release
+4. Create `product/releases/YYYY-MM-DD.md`
+
+### Cross-Linking Rules
+
+Every product page must link in three directions:
+
+- **Upstream** (raw sources): Zendesk ticket IDs, regression matrix rows, code file paths
+- **Lateral** (wiki): Related features, decisions, module pages, features.md sections
+- **Downstream** (outputs): Backlog items, releases, metrics affected
+
+### Feature Story Template
+
+```markdown
+---
+title: <Feature Name>
+category: product-feature
+domain: <orders|shipping|etc.>
+sources: [zendesk, regression-scenarios, storepep-react, mcsl-test-automation]
+status: <proposed|accepted|in-progress|shipped>
+last_updated: YYYY-MM-DD
+git_reference: <commit hash>
+---
+
+# <Feature Name>
+
+## Problem Statement
+
+What problem does this solve? Who experiences it? How do we know?
+- **Evidence**: [Ticket #XXXXX](../../../raw/zendesk/XXXXX.json), ...
+- **Affected users**: X customers reported this
+- **Impact**: Revenue / reliability / UX
+
+## User Stories
+
+### Story 1: As a [role], I want [goal], so that [benefit]
+
+**Acceptance Criteria**:
+- [ ] Given [context], when [action], then [outcome]
+
+**Regression Scenarios** (from regression matrix):
+- Sheet row/scenario → maps to this story
+
+### Story 2: ...
+
+## Cross-Links
+
+| Type | Link | Relationship |
+|------|------|-------------|
+| Wiki Module | [Module](../../modules/...) | Implementation details |
+| Test Coverage | [Features](../../features.md#section) | Automation status |
+| Zendesk | #XXXXX, #YYYYY | Customer reports |
+| Regression | Sheet rows | Manual test scenarios |
+| Backlog | [Item](../backlog.md) | Prioritization |
+| Decision | [Record](../decisions/...) | Why this approach |
+
+## Customer Metrics
+
+| Metric | Value | Trend |
+|--------|-------|-------|
+| Related tickets (30d) | X | ↑/→/↓ |
+| Automation confidence | 🟠 X% | |
+| Regression coverage | X% | |
+
+## Acceptance Sign-off
+
+| Criteria | Status | Verified By |
+|----------|--------|------------|
+| All stories implemented | ⬜ | |
+| Regression scenarios pass | ⬜ | |
+| No open P1/P2 tickets | ⬜ | |
+| Automation confidence >= 70% | ⬜ | |
+```
+
+### Decision Record Template
+
+```markdown
+---
+title: "<Decision Title>"
+category: product-decision
+status: <proposed|accepted|superseded>
+date: YYYY-MM-DD
+git_reference: <commit hash>
+---
+
+# <Decision Title>
+
+## Context
+What prompted this decision?
+
+## Decision
+What did we decide?
+
+## Alternatives Considered
+What else was on the table?
+
+## Signals
+- Zendesk: [ticket links]
+- Test gaps: [coverage data]
+- Code complexity: [hotspot data]
+
+## Consequences
+What changes as a result?
+
+## Related
+- Feature: [link]
+- Backlog: [link]
+- Module: [link]
+```
+
+### Release Notes Template
+
+```markdown
+---
+title: "Release YYYY-MM-DD"
+category: product-release
+git_reference: <commit hash>
+---
+
+# Release YYYY-MM-DD
+
+## Features Shipped
+| Feature | Stories Completed | Acceptance Met |
+|---------|-----------------|----------------|
+
+## Metrics Delta
+| Feature | Tickets Before | Tickets After | Automation Before | Automation After |
+|---------|---------------|---------------|------------------|-----------------|
+
+## Decisions Referenced
+- [Decision](../decisions/...)
+```
 
 ## Index Format
 
