@@ -3,20 +3,41 @@ set -euo pipefail
 
 cd "$(git rev-parse --show-toplevel)"
 
+# --- Load env vars from .claude/settings.json (non-sensitive) ---
+if [ -f ".claude/settings.json" ]; then
+  while IFS= read -r line; do
+    if [[ "$line" =~ \"(ZENDESK_SUBDOMAIN|ZENDESK_EMAIL)\":[[:space:]]*\"([^\"]+)\" ]]; then
+      export "${BASH_REMATCH[1]}"="${BASH_REMATCH[2]}"
+    fi
+  done < ".claude/settings.json"
+fi
+
+# --- Load API token from .claude/settings.local.json (sensitive) ---
+if [ -f ".claude/settings.local.json" ]; then
+  while IFS= read -r line; do
+    if [[ "$line" =~ \"(ZENDESK_API_TOKEN)\":[[:space:]]*\"([^\"]+)\" ]]; then
+      export "${BASH_REMATCH[1]}"="${BASH_REMATCH[2]}"
+    fi
+  done < ".claude/settings.local.json"
+fi
+
 # --- Config ---
 ZENDESK_DIR="raw/zendesk"
 LAST_SYNC_FILE="$ZENDESK_DIR/.last_sync"
-AUTH="$ZENDESK_EMAIL/token:$ZENDESK_API_TOKEN"
-BASE_URL="https://$ZENDESK_SUBDOMAIN.zendesk.com/api/v2"
 SEARCH_TAG="shopify_multi_carrier_shipping_label_app"
 
 # --- Validate env vars ---
 for var in ZENDESK_SUBDOMAIN ZENDESK_EMAIL ZENDESK_API_TOKEN; do
   if [ -z "${!var:-}" ]; then
-    echo "ERROR: $var is not set. Add it to ~/.claude/settings.json under env." >&2
+    echo "ERROR: $var is not set." >&2
+    echo "  ZENDESK_SUBDOMAIN, ZENDESK_EMAIL → .claude/settings.json" >&2
+    echo "  ZENDESK_API_TOKEN               → .claude/settings.local.json" >&2
     exit 1
   fi
 done
+
+AUTH="$ZENDESK_EMAIL/token:$ZENDESK_API_TOKEN"
+BASE_URL="https://$ZENDESK_SUBDOMAIN.zendesk.com/api/v2"
 
 mkdir -p "$ZENDESK_DIR"
 
@@ -51,24 +72,13 @@ while [ -n "$page_url" ] && [ "$page_url" != "null" ]; do
     response=$(curl -s "$page_url" -u "$AUTH")
   fi
 
-  # Extract ticket IDs from this page
-  ids=$(echo "$response" | python3 -c "
-import json, sys
-data = json.load(sys.stdin)
-for r in data.get('results', []):
-    print(r['id'])
-")
+  ids=$(echo "$response" | jq -r '.results[].id')
 
   while IFS= read -r id; do
     [ -n "$id" ] && ticket_ids+=("$id")
   done <<< "$ids"
 
-  # Check for next page
-  page_url=$(echo "$response" | python3 -c "
-import json, sys
-data = json.load(sys.stdin)
-print(data.get('next_page') or '')
-")
+  page_url=$(echo "$response" | jq -r '.next_page // ""')
 
   page_num=$((page_num + 1))
 done
@@ -92,17 +102,9 @@ for tid in "${ticket_ids[@]}"; do
   ticket=$(curl -s "$BASE_URL/tickets/$tid.json" -u "$AUTH")
   comments=$(curl -s "$BASE_URL/tickets/$tid/comments.json" -u "$AUTH")
 
-  # Combine ticket + comments into one JSON file
-  python3 -c "
-import json, sys
-ticket_resp = json.loads(sys.argv[1])
-comments_resp = json.loads(sys.argv[2])
-combined = {
-    'ticket': ticket_resp.get('ticket', {}),
-    'comments': comments_resp.get('comments', [])
-}
-print(json.dumps(combined, indent=2))
-" "$ticket" "$comments" > "$ZENDESK_DIR/$tid.json"
+  jq -n --argjson t "$ticket" --argjson c "$comments" \
+    '{ticket: $t.ticket, comments: $c.comments}' \
+    > "$ZENDESK_DIR/$tid.json"
 done
 
 # --- Update last sync date ---
