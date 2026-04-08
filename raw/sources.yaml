@@ -19,8 +19,8 @@ sources:
     type: webhook-json
     path: raw/zendesk
     pattern: "{ticketId}.json"
-    description: "Customer support tickets populated via webhook"
-    # workflow: TBD — will be defined when pipeline is ready
+    description: "Customer support tickets synced from Zendesk API"
+    sync: "scripts/sync-zendesk.sh"
 
   regression-scenarios:
     type: google-sheet

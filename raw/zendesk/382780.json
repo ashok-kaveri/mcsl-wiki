@@ -1,0 +1,358 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/382780.json",
+    "id": 382780,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "pearl60648@yahoo.com",
+          "name": "Bhavik patel"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-04-07T06:16:53Z",
+    "updated_at": "2026-04-07T09:04:57Z",
+    "generated_timestamp": 1775552698,
+    "type": null,
+    "subject": "Fw: Important security update for Australia Post APIs",
+    "raw_subject": "Fw: Important security update for Australia Post APIs",
+    "description": "Hi,\u00a0\u00a0\nDo we have to do with this in our Api.\n\nThanks and regards\n\nBHAVIK  \n \n   ----- Forwarded message ----- From: \"Australia Post\" <noreply@email.auspost.com.au> To: \"pearl60648@yahoo.com\" <pearl60648@yahoo.com> Cc:  Sent: Tue, 7 Apr 2026 at 4:01 pm Subject: Important security update for Australia Post APIs   \nAustralia Post#yiv7438842034 filtered {}#yiv7438842034 :root {}#yiv7438842034 body {color:#4D4D54;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;}#yiv7438842034 p, #yiv7438842034 ul, #yiv7438842034 ol {margin:1.5em 0;}#yiv7438842034 table {border-collapse:collapse;}#yiv7438842034 a {}#yiv7438842034 u + .yiv7438842034body a {color:inherit;font-size:inherit;font-weight:inherit;line-height:inherit;}#yiv7438842034 a .yiv7438842034filtered99999 {color:inherit !important;text-decoration:none !important;font-size:inherit !important;font-family:inherit !important;font-weight:inherit !important;line-height:inherit !important;}#yiv7438842034 #yiv7438842034MessageViewBody a {color:inherit;text-decoration:none;font-size:inherit;font-family:inherit;font-weight:inherit;line-height:inherit;}#yiv7438842034 .yiv7438842034ms-outlook-linkify {color:inherit !important;}#yiv7438842034 #yiv7438842034emailBody #yiv7438842034emailCenter a .yiv7438842034filtered99999 {color:inherit !important;text-decoration:inherit !important;}#yiv7438842034 [class=yiv7438842034x_body] .yiv7438842034filtered99999 {border:none !important;padding:0 !important;color:inherit !important;}#yiv7438842034 :root {}@media () {#yiv7438842034 .yiv7438842034darkmode {background-color:#272623 !important;}#yiv7438842034 .yiv7438842034darkmode--grey {background-color:#333333 !important;}#yiv7438842034 h1, #yiv7438842034 h2, #yiv7438842034 p, #yiv7438842034 ul, #yiv7438842034 ol, #yiv7438842034 .yiv7438842034dm-white {color:#ffffff !important;}#yiv7438842034 a, #yiv7438842034 .yiv7438842034dm-link {color:#EF7879 !important;}#yiv7438842034 .yiv7438842034dm-link-white, #yiv7438842034 .yiv7438842034dm-link-white span {color:#FFFFFF !important;#yiv7438842034 .yiv7438842034filtered99999 .yiv7438842034darkmode {background-color:#272623 !important;}#yiv7438842034 .yiv7438842034filtered99999 .yiv7438842034darkmode--grey {background-color:#333333 !important;}#yiv7438842034 .yiv7438842034filtered99999 h1, #yiv7438842034 .yiv7438842034filtered99999 h2, #yiv7438842034 .yiv7438842034filtered99999 p, #yiv7438842034 .yiv7438842034filtered99999 ul, #yiv7438842034 .yiv7438842034filtered99999 ol {color:#ffffff !important;}#yiv7438842034 .yiv7438842034filtered99999 a {color:#EF7879 !important;}#yiv7438842034 .yiv7438842034filtered99999 .yiv7438842034dm-link-white, #yiv7438842034 .yiv7438842034filtered99999 .yiv7438842034dm-link-white span {color:#FFFFFF !important;}@media only screen and (max-width:650px) {#yiv7438842034 .yiv7438842034mobile-hide {display:none !important;}#yiv7438842034 .yiv7438842034container {width:100% !important;}#yiv7438842034 .yiv7438842034col, #yiv7438842034 .yiv7438842034footer__item {display:block !important;width:100% !important;}#yiv7438842034 .yiv7438842034pad-lr {padding-left:32px !important;padding-right:32px !important;}#yiv7438842034 .yiv7438842034pad-lr-0 {padding-left:0 !important;padding-right:0 !important;}#yiv7438842034 .yiv7438842034pad-tb {padding-top:32px !important;padding-bottom:32px !important;}#yiv7438842034 .yiv7438842034header {padding:0 !important;border:none !important;}#yiv7438842034 .yiv7438842034header__title {font-size:26px !important;line-height:32px !important;#yiv7438842034 div.yiv7438842034preheader {display:none !important;}Upcoming requirements for Shipping & Tracking integrations.\n|  \n| \n| \n|  \n|  \n|  \u00a0 |\n|  \n|   |\n\n |  \n|  VIEW\u00a0ONLINE  |\n\n |\n|  \u00a0 |\n\n |\n\n |\n\n |\n\n |\n|  \n|  \n|  \nKeeping your API connections secure\n  |\n\n  |\n\n  |\n|  \n|  \n| \n| \n|  \nHi Bhavik,\n\nAt Australia\u00a0Post, we are committed to continually strengthening the security of our digital services.\n \n We're writing to advise that from 7\u00a0July, we will uplift our security policy for Transport Layer Security (TLS), disabling TLS\u00a01.0 and TLS\u00a01.1 across our Shipping and Tracking APIs. TLS certificates are used for API based services. \n\n These changes help ensure compliance with current industry security standards. \n\nWhat this means for you\n \n After this change, only TLS\u00a01.2 and above will be accepted, and all integrations will be required to support Server Name Indication (SNI). Clients that do not support TLS\u00a01.2+ and SNI will no longer be able to connect. \n \nThis change applies to all APIs and endpoints listed in our developer documentation:\n    \n   -  Postage Assessment Calculator (PAC) API: https://developers.auspost.com.au/apis/pac/reference\n   - Shipping & Tracking API: https://developers.auspost.com.au/apis/shipping-and-tracking/reference\n \nWhat you need to do\n \nPlease work with your IT team, developers, or integration partner to ensure:\n    \n   - Your API integration, middleware, or partner platform explicitly supports TLS\u00a01.2 or higher.\n   - Your integration libraries, frameworks, or network components are configured to initiate outbound connections using TLS\u00a01.2 or higher.\n   - Your integration uses a client library or framework that supports SNI.\n \n If you are unsure, we recommend explicitly configuring your client to enforce TLS\u00a01.2 (or higher) for all outbound API calls to Australia\u00a0Post. Visit our Developer Centre for more information. \n \nNeed assistance?\n \nIf you have questions or need support validating your integration, please contact Lodgement Support or your usual Australia\u00a0Post representative.\n \nThanks,\n\nThe Australia\u00a0Post team\n  |\n\n  |\n\n  |\n\n  |\n\n  |\n|  \n|  \n|  \n|  \n|  |\n\n  | Australia\u00a0Post will never send you an unsolicited email asking for your password, credit card details or account information. |\n\n  |\n\n  |\n| \n| \n|  This email was sent by Australia Post, 480 Swan Street, RICHMOND VIC 3121. You're receiving this email because you're an Australia Post customer. This is a service communication. If you have any concerns, or don't think you should have received this email, please call us on 13\u00a0POST (13\u00a07678). For more information, visit Australia Post \u2013 Online security.\n \n Australia Post does not represent, warrant or guarantee that the integrity of this email communication has been maintained nor that the communication is free of errors, viruses or interference. |\n\n |\n\n |\n| \n| \n|  \n|  Terms and Conditions\u00a0\u00a0\u00a0\u00a0\u00a0 |  Help & Support\u00a0\u00a0\u00a0\u00a0\u00a0 |  Privacy Statement\u00a0\u00a0\u00a0\u00a0\u00a0 |\n\n |\n\n |\n\n |\n| \u00a0 |\n| \u00a9 2026 Australia Post. All Rights Reserved. |\n\n  |\n| \n|  \n|    |\n\n  |  \n| Australia Post acknowledges the Traditional Custodians of the land on which we operate, live and gather as employees, and recognise their continuing connection to land, water and community. We pay respect to Elders past, present and emerging. |\n\n  |\n\n  |\n\n |",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 51510409699609,
+    "submitter_id": 51510409699609,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "n1hi4y-5u.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "LYVJGK-2WKNN",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "n1hi4y-5u.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56730196672153,
+      "type": "Comment",
+      "author_id": 51510409699609,
+      "body": "Hi,\n\n\nDo we have to do with this in our Api.\n\n\nThanks and regards\n\nBHAVIK\n\n\n\n> ----- Forwarded message -----\n>\n> **From:**\"Australia Post\" <noreply@email.auspost.com.au>\n>\n> **To:**\"pearl60648@yahoo.com\" <pearl60648@yahoo.com>\n>\n> **Cc:**\n>\n> **Sent:** Tue, 7 Apr 2026 at 4:01 pm\n>\n> **Subject:** Important security update for Australia Post APIs\n>\n>\n> Australia Post\n>\n> Upcoming requirements for Shipping & Tracking integrations.\n>\n>\n>\n> ![Australia Post](https://image.email.auspost.com.au/lib/fe6415707c66047a7215/m/6/23e79eb2-6bbd-4db6-a9f4-6fd7cd3e6d9a.png)\n>\n> VIEW ONLINE\n>\n>\n> # Keeping your API connections secure\n>\n> Hi Bhavik,\n>\n> At Australia Post, we are committed to continually strengthening the security of our digital services.\n>\n> We're writing to advise that from **7 July**, we will uplift our security policy for Transport Layer Security (TLS), disabling TLS 1.0 and TLS 1.1 across our Shipping and Tracking APIs. TLS certificates are used for API based services.\n>\n> These changes help ensure compliance with current industry security standards.\n>\n> **What this means for you**\n>\n> After this change, only TLS 1.2 and above will be accepted, and all integrations will be required to support Server Name Indication (SNI). Clients that do not support TLS 1.2+ and SNI will no longer be able to connect.\n>\n> This change applies to all APIs and endpoints listed in our developer documentation:\n>\n> - **Postage Assessment Calculator (PAC) API**: https://developers.auspost.com.au/apis/pac/reference\n> - **Shipping & Tracking API**: https://developers.auspost.com.au/apis/shipping-and-tracking/reference\n>\n> **What you need to do**\n>\n> Please work with your IT team, developers, or integration partner to ensure:\n>\n> - Your API integration, middleware, or partner platform explicitly supports TLS 1.2 or higher.\n> - Your integration libraries, frameworks, or network components are configured to initiate outbound connections using TLS 1.2 or higher.\n> - Your integration uses a client library or framework that supports SNI.\n>\n> If you are unsure, we recommend explicitly configuring your client to enforce TLS 1.2 (or higher) for all outbound API calls to Australia Post. Visit our Developer Centre for more information.\n>\n> **Need assistance?**\n>\n> If you have questions or need support validating your integration, please contact **Lodgement Support** or your usual Australia Post representative.\n>\n> Thanks,\n>\n> **The Australia Post team**\n>\n> ![](https://image.email.auspost.com.au/lib/fe6415707c66047a7215/m/6/15f0d072-2bab-47f9-a626-5020fb4442f0.png) Australia Post will never send you an unsolicited email asking for your password, credit card details or account information.\n>\n> This email was sent by Australia Post, 480 Swan Street, RICHMOND VIC 3121. You're receiving this email because you're an Australia Post customer. This is a service communication. If you have any concerns, or don't think you should have received this email, please call us on 13 POST (13 7678). For more information, visit Australia Post \u2013 Online security.\n>\n> Australia Post does not represent, warrant or guarantee that the integrity of this email communication has been maintained nor that the communication is free of errors, viruses or interference.\n>\n> Terms and Conditions      Help & Support      Privacy Statement\n>\n> \u00a9 2026 Australia Post. All Rights Reserved.\n>\n> ![](https://image.email.auspost.com.au/lib/fe6415707c66047a7215/m/6/12cb1805-f422-4173-915c-ce6ec54a4b97.png)\n>\n> Australia Post acknowledges the Traditional Custodians of the land on which we operate, live and gather as employees, and recognise their continuing connection to land, water and community. We pay respect to Elders past, present and emerging.\n>\n> ![](https://click.email.auspost.com.au/open.aspx?3M2QEUDWUR2UDHVJDZD4LTRT6I.10190&d=10190&bmt=0)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi,&nbsp;&nbsp;<div><br></div><div>Do we have to do with this in our Api.<br><br><div>Thanks and regards<br><br>BHAVIK </div> <br> <blockquote style=\"margin: 0 0 20px;\"> <div style=\"border-left-width: 1px; border-left-color: #6D00F6; border-left-style: solid; margin: 10px 0 0; padding: 10px 0 0 20px;\"> <div style=\" color: #6D00F6;\"> <div>----- Forwarded message -----</div> <div><b>From:</b> \"Australia Post\" &lt;noreply@email.auspost.com.au&gt;</div> <div><b>To:</b> \"pearl60648@yahoo.com\" &lt;pearl60648@yahoo.com&gt;</div> <div style=\"display: &quot;none&quot;;\"><b>Cc:</b> </div> <div><b>Sent:</b> Tue, 7 Apr 2026 at 4:01 pm</div> <div><b>Subject:</b> Important security update for Australia Post APIs</div> </div> <div>\n\nAustralia Post\n \n\n<div>\n<div style=\"font-size: 1px; display: none !important;\">Upcoming requirements for Shipping &amp; Tracking integrations.</div>\n\n<div style=\"display: none !important;\">\n<span style=\"color: #f3f3f3; display: none !important; font-size: 1px; line-height: 1px; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; visibility: hidden;\">\n</span>\n</div>\n\n<div dir=\"ltr\" style=\"font-size: medium; background-color: #E5E5E5;\">\n<center>\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"650\" style=\"border-collapse: collapse;\">\n<tbody><tr>\n<td style=\"background-color: #ffffff; background-color: #ffffff\">\n <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\">\n <tbody><tr>\n <td><table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; border-collapse: collapse;\"><tbody><tr><td><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color: #FFF; width: 100%; border-collapse: collapse; background-color: #FFFFFF\" width=\"100%\">\n \n <tbody><tr>\n <th style=\"text-align: left;\" align=\"left\">\n <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\" width=\"100%\">\n \n <tbody><tr>\n <th style=\"border-bottom-width: 1px; border-bottom-color: #EEE; border-bottom-style: solid; font-weight: 400; text-align: left;\" align=\"left\">\n <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\" width=\"100%\">\n \n <tbody><tr>\n <td colspan=\"2\" height=\"24\" style=\"font-size: 24px; line-height: 24px; margin: 0; padding: 0;\">\n &nbsp;</td></tr><tr>\n <th style=\"text-align: left; width: 50%;\" align=\"left\">\n <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\" width=\"100%\">\n \n <tbody><tr>\n <th style=\"text-align: left; padding: 0 0 0 40px;\" align=\"left\">\n <img alt=\"Australia Post\" height=\"32\" src=\"https://image.email.auspost.com.au/lib/fe6415707c66047a7215/m/6/23e79eb2-6bbd-4db6-a9f4-6fd7cd3e6d9a.png\" style=\"display: block; outline: 0; text-decoration: none; width: 152px; height: auto;\" width=\"152\"></th></tr></tbody></table></th><th style=\"text-align: left; width: 50%;\" align=\"left\">\n <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\" width=\"100%\">\n \n <tbody><tr>\n <th style=\"color: #4D4D54; font-size: 10px; font-weight: 400; letter-spacing: .8px; line-height: 14px; text-align: right; text-transform: uppercase; padding: 0 40px 0 0;\" align=\"right\">\n <a href=\"https://click.email.auspost.com.au/?qs=eyJkZWtJZCI6ImVjZDU4YmE3LWYzZjEtNDdiMi04NTRmLWMwZjU5NTYyZTkyMSIsImRla1ZlcnNpb24iOjEsIml2IjoiZ3BhTmdzTHp3TXhlZmpoTDZBN2tKZz09IiwiY2lwaGVyVGV4dCI6IkdweWF3elZqQkFXWHNWWDhFQ0YzT1RXZThjSmp2S3ZFdWd3OTlCckFtY296QlNMRDZzMDBIYTNmM3NxRzcwcGNselF6UkRNWXo5V0Z0YlJmWDNjT0VSNzB1UENDbG8yQ3d2UEF6RjUrT0V2b0R1UW0iLCJhdXRoVGFnIjoiTXhqUDFZVzF0RjlmZHc0Ukh2UzQ4QT09In0%3D\" style=\"color: #4D4D54; font-size: 10px; font-weight: 400; letter-spacing: .8px; line-height: 14px; text-align: right; text-decoration: underline; text-transform: uppercase;\" rel=\"noreferrer\">VIEW&nbsp;ONLINE</a> </th></tr></tbody></table></th></tr><tr>\n <td colspan=\"2\" height=\"24\" style=\"font-size: 24px; line-height: 24px; margin: 0; padding: 0;\">\n &nbsp;</td></tr></tbody></table></th></tr></tbody></table></th></tr></tbody></table></td></tr></tbody></table></td>\n </tr>\n \n <tr>\n <td style=\"background-color: #f5f5f5; padding: 40px 0; background-color: #f5f5f5\">\n <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\">\n <tbody><tr>\n \n <td style=\"padding: 0 40px;\">\n \n <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\">\n <tbody><tr>\n <td style=\"border-left-width: 3px; border-left-color: #DC1928; border-left-style: solid; text-align: left; padding: 0 90px 0 24px;\" align=\"left\">\n <h1 style=\"color: #212129; font-size: 40px; line-height: 44px; margin: 0; padding: 0;\" dir=\"auto\">Keeping your API connections secure</h1>\n </td>\n </tr>\n </tbody></table>\n </td>\n </tr>\n </tbody></table>\n </td>\n </tr>\n \n <tr>\n <td>\n <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\">\n <tbody><tr>\n <td style=\"padding: 0 40px 40px;\">\n <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\">\n <tbody><tr>\n <td style=\"background-color: #ffffff; border: 1px solid #E2E2E2; background-color: #ffffff\">\n\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\">\n <tbody><tr>\n <td style=\"padding: 16px 40px;\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\">\n <tbody><tr>\n <td>\n \n \n\n<p style=\"margin: 1.5em 0;\" dir=\"auto\">Hi Bhavik,</p>\n\n<p style=\"margin: 1.5em 0;\" dir=\"auto\">At Australia&nbsp;Post, we are committed to continually strengthening the security of our digital services.\n</p>\n <p style=\"margin: 1.5em 0;\" dir=\"auto\">\n We're writing to advise that from <strong>7&nbsp;July</strong>, we will uplift our security policy for Transport Layer Security (TLS), disabling TLS&nbsp;1.0 and TLS&nbsp;1.1 across our Shipping and Tracking APIs. TLS certificates are used for API based services. \n </p>\n<p style=\"margin: 1.5em 0;\" dir=\"auto\">\n These changes help ensure compliance with current industry security standards.\n </p>\n<p style=\"margin: 1.5em 0;\" dir=\"auto\"><strong>What this means for you</strong></p>\n <p style=\"margin: 1.5em 0;\" dir=\"auto\">\n After this change, only TLS&nbsp;1.2 and above will be accepted, and all integrations will be required to support Server Name Indication (SNI). Clients that do not support TLS&nbsp;1.2+ and SNI will no longer be able to connect.\n </p>\n \n<p style=\"margin: 1.5em 0;\" dir=\"auto\">This change applies to all APIs and endpoints listed in our developer documentation:</p>\n \n<ul style=\"margin: 1.5em 0;\" dir=\"auto\">\n<li>\n <strong>Postage Assessment Calculator (PAC) API</strong>: <a href=\"https://click.email.auspost.com.au/?qs=eyJkZWtJZCI6IjQ4ZjA0MDQzLWU5NGUtNDY4MC05NmM2LWI1ZTA4NjNiNzAyNiIsImRla1ZlcnNpb24iOjEsIml2IjoiamVkd2tNMDZpNGpoLzJWYjZrZ1I2Zz09IiwiY2lwaGVyVGV4dCI6Im1tQ0pKbTBhMGdtSWhEMW5QYnB6RnBtbndsSkhleHc1QXNncXZRNDNoSGR5YWlFWldHVmpVUlFZSjVBMHA0aXkvbDNwaVZhbE1aRlhHK08vNzJjK0I3MDNxSU9ONTNDUXpUcUxpT0gvWlZ2cVNCSHEiLCJhdXRoVGFnIjoiVnFVeGtWY2I0Ny92Wno0SHZUZW9ndz09In0%3D\" style=\"color: #dc1928; text-decoration: underline;\" rel=\"noreferrer\">https://developers.auspost.com.au/apis/pac/reference</a>\n</li>\n<li>\n<strong>Shipping &amp; Tracking API</strong>: <a href=\"https://click.email.auspost.com.au/?qs=eyJkZWtJZCI6IjUwNTAzNGI2LWFjYTAtNDUyMC05ZmY1LTZiYmZhY2ZjNjU3ZCIsImRla1ZlcnNpb24iOjEsIml2IjoieVpCeThZMklXa0d1OVg0WmlRcU5VZz09IiwiY2lwaGVyVGV4dCI6IlYwRmc3WUt5V2diclBOL1BVSzVxNjdZTjJhZHF6MlNtWC8rdkRQdHJKR0tmMENhRlFYcWNHUklsbmZHQ21hVXpnSVlPMWtGQ29Ed1BSMzVHOTJjWmpEeThERjNKa0hMeGpZaGFRYTcxZmhtSkNvMVMiLCJhdXRoVGFnIjoiUVVLZ1BBOUhma2IzWnhtTVBMd01YUT09In0%3D\" style=\"color: #dc1928; text-decoration: underline;\" rel=\"noreferrer\">https://developers.auspost.com.au/apis/shipping-and-tracking/reference</a>\n</li>\n</ul>\n \n<p style=\"margin: 1.5em 0;\" dir=\"auto\"><strong>What you need to do</strong></p>\n \n<p style=\"margin: 1.5em 0;\" dir=\"auto\">Please work with your IT team, developers, or integration partner to ensure:</p>\n \n<ul style=\"margin: 1.5em 0;\" dir=\"auto\">\n<li>Your API integration, middleware, or partner platform explicitly supports TLS&nbsp;1.2 or higher.</li>\n<li>Your integration libraries, frameworks, or network components are configured to initiate outbound connections using TLS&nbsp;1.2 or higher.</li>\n<li>Your integration uses a client library or framework that supports SNI.</li>\n</ul> \n \n <p style=\"margin: 1.5em 0;\" dir=\"auto\">\n If you are unsure, we recommend explicitly configuring your client to enforce TLS&nbsp;1.2 (or higher) for all outbound API calls to Australia&nbsp;Post. Visit our <a href=\"https://click.email.auspost.com.au/?qs=eyJkZWtJZCI6IjFhMjE1MzEwLWRlMjYtNDhjMy04YTFhLTQ1M2I1N2MwNjQ4MiIsImRla1ZlcnNpb24iOjEsIml2IjoiNDVVb2pZV21mMGYvSGdpMWJGRWVSQT09IiwiY2lwaGVyVGV4dCI6Ilp2MzJJYWlGcDBkam1ZeTBBU0ppeUc0czJiM1JqZFZZSFU3MkpiOXFuSWFCaVRXRGZHaTFiaXNnYmNNSUlHc1BVYVpaTVl4eEppeGRIdTE0bzI0MkU1SCtHUnJqbFNpTmhhWi9SLzhlQ0xWc1VSNUUiLCJhdXRoVGFnIjoiakhFbUxGMGU3WGlqYmpZVGtmNFpHZz09In0%3D\" style=\"color: #dc1928; text-decoration: underline;\" rel=\"noreferrer\">Developer Centre</a> for more information.\n </p>\n \n<p style=\"margin: 1.5em 0;\" dir=\"auto\"><strong>Need assistance?</strong></p>\n \n <p style=\"margin: 1.5em 0;\" dir=\"auto\">If you have questions or need support validating your integration, please contact <strong><a href=\"https://click.email.auspost.com.au/?qs=eyJkZWtJZCI6IjcyYzFmNTAxLWRiZTEtNDBlMi1hNzcxLTVhNzlmM2M3YTZiNiIsImRla1ZlcnNpb24iOjEsIml2IjoiTDczNGRMRmRVR3dTQVFISElYT2wrdz09IiwiY2lwaGVyVGV4dCI6IjdEeGtGb01PVmpSYTlXZS9CRXN3OFU0T3p1dmltbVN2VzV2amlCZ3lzb3kxZVlURjcrV25NSGczVmdHcUVWVStpSGgrc3lDUjNXYkJaZ2tVYktiWUJ6R0t3SzR2dmZoMHNWMVFiQklCQWNjaGM2WDciLCJhdXRoVGFnIjoiSUpIZFpzRm1DUlJzcHRnSE1ZckFyZz09In0%3D\" style=\"color: #dc1928; text-decoration: underline;\" rel=\"noreferrer\">Lodgement Support</a></strong> or your usual Australia&nbsp;Post representative.</p>\n \n \n<p style=\"margin: 1.5em 0;\" dir=\"auto\">Thanks,</p>\n\n<p style=\"margin: 1.5em 0;\" dir=\"auto\"><strong>The Australia&nbsp;Post team</strong></p>\n \n </td>\n </tr>\n</tbody></table>\n </td>\n </tr>\n</tbody></table>\n\n</td>\n </tr>\n </tbody></table>\n </td>\n </tr>\n </tbody></table>\n </td>\n </tr>\n <tr>\n <td style=\"background-color: #f5f5f5; padding: 24px 40px 0; background-color: #f5f5f5\">\n <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; color: #4D4D54; font-size: 12px; line-height: 16px; border-collapse: collapse;\">\n <tbody><tr>\n <td>\n\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\">\n <tbody><tr>\n <td style=\"background-color: #eee; border-radius: 6px; padding: 16px 0; background-color: #eee\">\n <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; color: #4D4D54; font-size: 12px; line-height: 16px; border-collapse: collapse;\">\n <tbody><tr>\n <td align=\"center\" valign=\"middle\" style=\"width: 15%; vertical-align: middle;\">\n <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse;\">\n <tbody><tr><td><img src=\"https://image.email.auspost.com.au/lib/fe6415707c66047a7215/m/6/15f0d072-2bab-47f9-a626-5020fb4442f0.png\" width=\"24\" height=\"24\" style=\"display: block; width: 24px; height: auto;\"></td></tr>\n </tbody></table> \n </td>\n <td style=\"border-left-width: 1px; border-left-color: #E2E2E2; border-left-style: solid; padding: 0 16px;\">Australia&nbsp;Post will never send you an unsolicited email asking for your password, credit card details or account information.</td>\n </tr>\n </tbody></table>\n </td>\n </tr>\n</tbody></table>\n\n</td>\n </tr>\n <tr>\n <td style=\"padding: 24px 0;\"><table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; border-collapse: collapse;\"><tbody><tr><td><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"color: #4D4D54; font-size: 12px; font-weight: 400; line-height: 16px; text-align: left; width: 100%; border-collapse: collapse;\" width=\"100%\">\n \n <tbody><tr>\n <td>\n This email was sent by Australia Post, 480 Swan Street, RICHMOND VIC 3121. You're receiving this email because you're an Australia Post customer. This is a service communication. If you have any concerns, or don't think you should have received this email, please call us on 13&nbsp;POST (13&nbsp;7678). For more information, visit <a href=\"https://click.email.auspost.com.au/?qs=eyJkZWtJZCI6IjI0YmVjNjAxLWEwMGMtNDFkZC1iNDg3LWNlYjVkNGNjNmJiZiIsImRla1ZlcnNpb24iOjEsIml2IjoiZG9ZVGtvOWJQUEJMdnlKWTBLajRyQT09IiwiY2lwaGVyVGV4dCI6IitiMm5WL1FoQnRrT2FxeTRsRk9sNDV6R29MenBhTkxhMVJ5WjlrY2phK0VhZmZ0Nzlrc2gvcFdkSnUraUo0NzZpc1RFSFI5WmxNSWp4c21PS09VMkNaSnJaRHAyaGhPU2oxczg4RXUvSWxqUXFQaXMiLCJhdXRoVGFnIjoiSDFtVXdpUEd5WTRvNVRZSmttdGtPZz09In0%3D\" style=\"color: #4D4D54; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: #4D4D54; text-decoration: underline;\">Australia Post \u2013 Online security</span></a>.<br>\n <br>\n Australia Post does not represent, warrant or guarantee that the integrity of this email communication has been maintained nor that the communication is free of errors, viruses or interference.</td></tr></tbody></table></td></tr></tbody></table></td>\n </tr>\n <tr>\n <td style=\"padding-bottom: 8px;\"><table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; border-collapse: collapse;\"><tbody><tr><td><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\" width=\"100%\">\n \n <tbody><tr>\n <td>\n <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"color: #4D4D54; font-size: 12px; font-weight: 400; text-align: left; border-collapse: collapse;\">\n \n <tbody><tr>\n <td style=\"padding-bottom: 16px;\">\n <span style=\"color: #212129; display: inline-block; font-size: 12px; font-weight: 700; line-height: 16px; vertical-align: middle;\"><a href=\"https://click.email.auspost.com.au/?qs=eyJkZWtJZCI6IjI5NTM5ZTgzLTk1YzgtNGE5NC05ZDZmLTAzNzMwNWEyOWEyZiIsImRla1ZlcnNpb24iOjEsIml2Ijoid1BPUjVkQ0ZPUHJBSHZZbUxLRGhmZz09IiwiY2lwaGVyVGV4dCI6Im16Z3N0Y0JFU29TRERWaFIxOTNhV3QrVUJEc2p6YWdiTUkyRTdGQ1dMbk9NS2Q2aTBwUXZuLzF2VTZ3aXdhdjBHTGpiNW51eHpka1VmMzZsOEpmdWdpQ094VlRBODVIbDBJVTQrc0FlOWlZc29PRisiLCJhdXRoVGFnIjoiZTdITjJSUi9mcVh3bCs2Q0lJN0ZWQT09In0%3D\" style=\"color: #212129; font-size: 12px !important; font-weight: 700; line-height: 16px !important; text-decoration: none;\" rel=\"noreferrer\">Terms and Conditions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td style=\"padding-bottom: 16px;\">\n <span style=\"color: #212129; display: inline-block; font-size: 12px; font-weight: 700; line-height: 16px; vertical-align: middle;\"><a href=\"https://click.email.auspost.com.au/?qs=eyJkZWtJZCI6IjVkOTUxNmFmLTk3YzEtNDRjMy05Y2M4LTk2Y2U5YTRlZGIzOCIsImRla1ZlcnNpb24iOjEsIml2IjoiSmJiOTl6NmtQMkYzaS85YVNaVmd3QT09IiwiY2lwaGVyVGV4dCI6IjhwTnVteEltbUlFMjRVYSt0TEhoaENVTzJqQlV5M3FrK3dpK3BUcEVrZjIzSmswNWJKRWhMSzRyY3RkempzS09pZWxUUEcrUkFMeVI4d0czWDNXUFpBY2RrRUFsdHYzM1BxUS9ZWGVMLzFwSmxXREEiLCJhdXRoVGFnIjoiYjVFQXZKSHpBYmRmZFk5a0J4MlFRQT09In0%3D\" style=\"color: #212129; font-size: 12px !important; font-weight: 700; line-height: 16px !important; text-decoration: none;\" rel=\"noreferrer\">Help &amp; Support</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td style=\"padding-bottom: 16px;\">\n <span style=\"color: #212129; display: inline-block; font-size: 12px; font-weight: 700; line-height: 16px; vertical-align: middle;\"><a href=\"https://click.email.auspost.com.au/?qs=eyJkZWtJZCI6IjhhYWZkNWQ5LWVhNDEtNGI0NS05MGU2LWMyZTc0MzUzNDkzNyIsImRla1ZlcnNpb24iOjEsIml2IjoidW9heEI1WmhTZ0lHZWoxUytkNW43QT09IiwiY2lwaGVyVGV4dCI6IkI2ckNNMnhRamVzQXliT3o5ckdTOGkzd2JXd2ZNQmNmZE9kQmJWb212RC81SUtVMkZhOGFLU3ZpKzQweGJ0d2VxalZsTCswQUl2MDJ3b2tLdDAzSVRaSDNvb1c2aHJFSGxtRktBZ1o2UFZMNTNtZnMiLCJhdXRoVGFnIjoiN1FBaS9UYkNpUXEzVGNoTmtmZWloUT09In0%3D\" style=\"color: #212129; font-size: 12px !important; font-weight: 700; line-height: 16px !important; text-decoration: none;\" rel=\"noreferrer\">Privacy Statement</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td>\n </tr>\n <tr>\n <td height=\"1\" style=\"background-color: #E2E2E2; font-size: 1px; line-height: 1px; margin: 0; padding: 0; background-color: #E2E2E2\">&nbsp;</td>\n </tr>\n <tr>\n <td style=\"padding: 24px 0;\">\u00a9 2026 Australia Post. All Rights Reserved.</td>\n </tr>\n </tbody></table>\n </td>\n </tr>\n <tr>\n <td style=\"background-color: #31313D; padding: 10px 40px 10px 30px; background-color: #31313D\">\n\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse;\">\n <tbody><tr>\n <td width=\"100\" style=\"width: 100px;\">\n <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; border-collapse: collapse;\">\n <tbody><tr><td style=\"line-height: 40px; padding: 10px;\">\n <img src=\"https://image.email.auspost.com.au/lib/fe6415707c66047a7215/m/6/12cb1805-f422-4173-915c-ce6ec54a4b97.png\" alt=\"\" width=\"80\" height=\"40\" style=\"display: block; width: 80px; height: auto; border-style: none;\">\n </td></tr>\n </tbody></table>\n </td>\n <td>\n <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; color: #ffffff; font-size: 11px; line-height: 14px; border-collapse: collapse;\">\n <tbody><tr><td style=\"padding: 10px;\">Australia Post acknowledges the Traditional Custodians of the land on which we operate, live and gather as employees, and recognise their continuing connection to land, water and community. We pay respect to Elders past, present and emerging.</td></tr>\n </tbody></table>\n\n</td>\n </tr>\n</tbody></table>\n\n</td>\n </tr>\n </tbody></table>\n</td>\n</tr>\n</tbody></table>\n\n\n\n</center>\n</div>\n</div>\n\n</div> </div> </blockquote></div></div>",
+      "plain_body": "Hi,&nbsp;&nbsp; \n  Do we have to do with this in our Api.\n\n Thanks and regards\n\nBHAVIK   \n        ----- Forwarded message -----   From: \"Australia Post\" &lt;noreply@email.auspost.com.au&gt;   To: \"pearl60648@yahoo.com\" &lt;pearl60648@yahoo.com&gt;   Cc:    Sent: Tue, 7 Apr 2026 at 4:01 pm   Subject: Important security update for Australia Post APIs     \n\nAustralia Post\n \n\n \n Upcoming requirements for Shipping &amp; Tracking integrations. \n\n \n\n\n \n\n \n\n\n\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n &nbsp;\n \n \n \n \n \n \n \n \n \n \n VIEW&nbsp;ONLINE \n \n &nbsp;\n \n \n \n \n \n \n \n \n \n \n \n \n  Keeping your API connections secure \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n\n \n \n\n \n \n \n \n\n Hi Bhavik, \n\n At Australia&nbsp;Post, we are committed to continually strengthening the security of our digital services.\n \n  \n We're writing to advise that from 7&nbsp;July, we will uplift our security policy for Transport Layer Security (TLS), disabling TLS&nbsp;1.0 and TLS&nbsp;1.1 across our Shipping and Tracking APIs. TLS certificates are used for API based services. \n  \n \n These changes help ensure compliance with current industry security standards.\n  \n What this means for you \n  \n After this change, only TLS&nbsp;1.2 and above will be accepted, and all integrations will be required to support Server Name Indication (SNI). Clients that do not support TLS&nbsp;1.2+ and SNI will no longer be able to connect.\n  \n \n This change applies to all APIs and endpoints listed in our developer documentation: \n \n \n \n Postage Assessment Calculator (PAC) API: https://developers.auspost.com.au/apis/pac/reference\n \n \nShipping &amp; Tracking API: https://developers.auspost.com.au/apis/shipping-and-tracking/reference\n \n \n \n What you need to do \n \n Please work with your IT team, developers, or integration partner to ensure: \n \n \n Your API integration, middleware, or partner platform explicitly supports TLS&nbsp;1.2 or higher. \n Your integration libraries, frameworks, or network components are configured to initiate outbound connections using TLS&nbsp;1.2 or higher. \n Your integration uses a client library or framework that supports SNI. \n  \n \n  \n If you are unsure, we recommend explicitly configuring your client to enforce TLS&nbsp;1.2 (or higher) for all outbound API calls to Australia&nbsp;Post. Visit our Developer Centre for more information.\n  \n \n Need assistance? \n \n  If you have questions or need support validating your integration, please contact Lodgement Support or your usual Australia&nbsp;Post representative. \n \n \n Thanks, \n\n The Australia&nbsp;Post team \n \n \n \n\n \n \n\n\n\n \n \n \n \n \n \n \n \n \n \n \n \n\n\n \n \n \n \n \n \n \n  \n \n Australia&nbsp;Post will never send you an unsolicited email asking for your password, credit card details or account information.\n \n \n \n \n\n\n\n \n \n \n \n \n \n This email was sent by Australia Post, 480 Swan Street, RICHMOND VIC 3121. You're receiving this email because you're an Australia Post customer. This is a service communication. If you have any concerns, or don't think you should have received this email, please call us on 13&nbsp;POST (13&nbsp;7678). For more information, visit Australia Post \u2013 Online security.\n\n \n\n Australia Post does not represent, warrant or guarantee that the integrity of this email communication has been maintained nor that the communication is free of errors, viruses or interference.\n \n \n \n \n \n \n \n \n \n \n Terms and Conditions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n Help &amp; Support&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n Privacy Statement&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n \n \n &nbsp;\n \n \n \u00a9 2026 Australia Post. All Rights Reserved.\n \n \n \n \n \n \n\n\n \n \n \n \n \n \n \n \n \n \n Australia Post acknowledges the Traditional Custodians of the land on which we operate, live and gather as employees, and recognise their continuing connection to land, water and community. We pay respect to Elders past, present and emerging.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56730196672025,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "pearl60648@yahoo.com",
+            "name": "Bhavik patel",
+            "original_recipients": [
+              "pearl60648@yahoo.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T06:16:53Z",
+      "metadata": {
+        "system": {
+          "message_id": "<1222117894.625050.1775542595473@mail.yahoo.com>",
+          "client": "WebService/1.1.25449 CYahooMailAndroidMobile",
+          "email_id": "01KNK9CA7SVK4AWNXXB2ANG9N1",
+          "raw_email_identifier": "2369120/1a387aed-f56d-443b-b7d6-2692f8640d6e.eml",
+          "json_email_identifier": "2369120/1a387aed-f56d-443b-b7d6-2692f8640d6e.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56730656701849,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Store: Australia\nOrders: 1\nLabels - NA\nCarrier: TNT Australia and Startrack\nRates active\nPlan: $19 Starter\nActive from 2025-11-05",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Store: Australia<br>Orders: 1<br>Labels - NA<br>Carrier: TNT Australia and Startrack<br>Rates active<br>Plan: $19 Starter<br>Active from 2025-11-05<br></div>",
+      "plain_body": "Store: Australia\nOrders: 1\nLabels - NA\nCarrier: TNT Australia and Startrack\nRates active\nPlan: $19 Starter\nActive from 2025-11-05",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56730656701721,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T06:28:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56730667285273,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Bhavik patel,\n\nThank you for sharing the email from Australia Post with us.\n\nWe will review the message internally and if any changes are needed from our end, we will take them forward.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Bhavik patel,<br>&nbsp;<br>Thank you for sharing the email from Australia Post with us.<br>&nbsp;<br>We will review the message internally and if any changes are needed from our end, we will take them forward.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Bhavik patel,\n&nbsp;\nThank you for sharing the email from Australia Post with us.\n&nbsp;\nWe will review the message internally and if any changes are needed from our end, we will take them forward.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56730667285145,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T06:29:42Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56730889657241,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775543549893469\n\nAustralia Customer using MCSL-S has shared an Australia Post email about **Security update for API connections**.\nRequest the team to go through the email using this link - https://view.email.auspost.com.au/?vawpToken=7LJKMTEBPFEUBMBHKKZWNFPBGQ.10190\nLet us know if this update from Australia Post requires any changes from our end as well.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1775543549893469\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1775543549893469</a><br>&nbsp;<br>Australia Customer using MCSL-S has shared an Australia Post email about <strong>Security update for API connections</strong>.<br>Request the team to go through the email using this link - <a rel=\"noopener noreferrer\" href=\"https://view.email.auspost.com.au/?vawpToken=7LJKMTEBPFEUBMBHKKZWNFPBGQ.10190\">https://view.email.auspost.com.au/?vawpToken=7LJKMTEBPFEUBMBHKKZWNFPBGQ.10190</a><br>Let us know if this update from Australia Post requires any changes from our end as well.<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775543549893469\n&nbsp;\nAustralia Customer using MCSL-S has shared an Australia Post email about Security update for API connections.\nRequest the team to go through the email using this link - https://view.email.auspost.com.au/?vawpToken=7LJKMTEBPFEUBMBHKKZWNFPBGQ.10190\nLet us know if this update from Australia Post requires any changes from our end as well.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56730889657113,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T06:34:49Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56736653378201,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Moving to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "Moving to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56736653378073,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T09:04:57Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

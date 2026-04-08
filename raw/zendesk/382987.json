@@ -1,0 +1,266 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/382987.json",
+    "id": 382987,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "warehouse@le-scarf.com",
+          "name": "lescarf - Warehouse"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-04-08T09:26:02Z",
+    "updated_at": "2026-04-08T10:02:25Z",
+    "generated_timestamp": 1775642545,
+    "type": null,
+    "subject": "Order 18501\"amount is a required field\"",
+    "raw_subject": "Order 18501\"amount is a required field\"",
+    "description": "Hi Team,\n\nCould you please assist with an error regarding Order 18501? \nThe system is displaying the following message: \"amount is a required field.\"\n\nKind regards,\nGiuseppe",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 48017045840281,
+    "submitter_id": 48017045840281,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "lescarf.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "LYVL6N-D1GWN",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "lescarf.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56772500787225,
+      "type": "Comment",
+      "author_id": 48017045840281,
+      "body": "Hi Team,\n\n\n\nCould you please assist with an error regarding Order 18501?\n\nThe system is displaying the following message: \"amount is a required field.\"\n\n\n\nKind regards,\n\nGiuseppe",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi Team,</div><div><br></div><div>Could you please assist with an error regarding Order 18501?&nbsp;</div><div>The system is displaying the following message: \"amount is a required field.\"</div><div><br></div><div>Kind regards,</div><div>Giuseppe</div></div></div>",
+      "plain_body": "Hi Team,  \n  Could you please assist with an error regarding Order 18501?&nbsp;  The system is displaying the following message: \"amount is a required field.\"  \n  Kind regards,  Giuseppe",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56772500787097,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "warehouse@le-scarf.com",
+            "name": "lescarf - Warehouse",
+            "original_recipients": [
+              "warehouse@le-scarf.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T09:26:02Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAD6mrhNJU+3SQHGafL+Y6FYxmoitt_SrJq95Xd_yeNBtnBYAJw@mail.gmail.com>",
+          "email_id": "01KNP6KC8DY2JV4SQ4B4N9TYV8",
+          "raw_email_identifier": "2369120/9fe77cf8-3b76-4d6c-ab8d-cdb19aec4750.eml",
+          "json_email_identifier": "2369120/9fe77cf8-3b76-4d6c-ab8d-cdb19aec4750.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56773637617305,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Store: Sweden\nOrders: 87\nCarriers: Postnord and FedEx\nActivity:\n\n- Rates: Inactive\n- Labels: 44 in Apr\nPlan: 29$ Popular\nActive from 2025-05-06",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Store: Sweden<br>Orders: 87<br>Carriers: Postnord and FedEx<br>Activity:<br><ul dir=\"auto\"><li>Rates: Inactive</li><li>Labels: 44 in Apr</li></ul>Plan: 29$ Popular<br>Active from 2025-05-06<br></div>",
+      "plain_body": "Store: Sweden\nOrders: 87\nCarriers: Postnord and FedEx\nActivity:\n  Rates: Inactive  Labels: 44 in Apr  Plan: 29$ Popular\nActive from 2025-05-06",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56773637617177,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T10:02:25Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}
