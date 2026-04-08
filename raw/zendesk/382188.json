@@ -1,0 +1,876 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/382188.json",
+    "id": 382188,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "keerthishree@pluginhive.com",
+          "name": "Keerthi"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-04-02T14:23:02Z",
+    "updated_at": "2026-04-07T18:20:56Z",
+    "generated_timestamp": 1775586056,
+    "type": null,
+    "subject": "Re: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature",
+    "raw_subject": "Re: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature",
+    "description": "Hello Abraham,\n\nThe solution SatisfyRunning is using is the PH Multi-Carrier Shipping Label (PH MCSL) app for Shopify and I have shared the Keys below.\n\n\"l7c13184694b0f49c59beb7dbbf1e35082\" (Shipping)\n\"l7db6ee082c3f74a4abe1c629bd2c0aeae\" (Tracking)\n\nI have also share the API keys mapped to other PluginHive solutions for your reference:\n\nPH Ship, Rate & Track for FedEx / (Shopify FedEx):\n'”l75b57e2561b5c4c13a864e7ab3ff4f73c” (Shipping)\n“l7043871ca2af64e0380534d15d92eb25f” (Tracking)\n\nFedEx Shipping Plugin for WooCommerce with Print Label / (WooCommerce FedEx Shipping):\n“l72cb2d45c40fc42258cecaac28473e9bf” (Shipping)\n“l7f94e2534717749bab8dcb30938fca2e9” (Tracking)\n\nWooCommerce Shipping Services:\n”l7f3821226b8f84cb18e24f29f83161761” (Shipping)\n“l709bd848cca44420cb52e67d5d16c7042” (Tracking)\n\nShopify Shipment Tracking & Notifications App:\n“l7db6ee082c3f74a4abe1c629bd2c0aeae\" (Tracking)\n\nPlease let me know if you need any further details.\n\nBest regards,\nKeerthi\nTeam PluginHive\n\n\n> On 02-Apr-2026, at 7:16 PM, Keerthi <keerthishree@pluginhive.com> wrote:\n> \n> Hello Abraham,\n> \n> Just wanted to let you know that I’m checking this with our technical team. \n> \n> I’ll get back to you as soon as I have an update from them.\n> \n> Best regards, \n> Keerthi\n> Team PluginHive\n> \n>> On 02-Apr-2026, at 6:11 PM, Abraham Ait Gougam <aait-gougam@fedex.com> wrote:\n>> \n>> Keerthi,\n>>  \n>> Is that the API KEYS that you are using for SHOPIFY  ?\n>>  \n>> <image001.png>\n>>  \n>>  \n>>  \n>> Abraham Gougam | Customer Solutions Specialist-Senior (ID) | IT Customer Integrations | FedEx Express, 5 All. des Bas Tilliers, 92230 Gennevilliers <https://www.google.com/maps/place/data=!4m2!3m1!1s0x47e66f4a367c8a73:0xae6a7c61fad0b39e?sa=X&ved=1t:8290&ictx=111>\n>>  \n>> From: Abraham Ait Gougam \n>> Sent: Thursday, April 2, 2026 1:38 PM\n>> To: Keerthi <keerthishree@pluginhive.com <mailto:keerthishree@pluginhive.com>>\n>> Cc: Sofie Bertholdson <s.bertholdson@satisfyrunning.com <mailto:s.bertholdson@satisfyrunning.com>>; Thibaut Dutartre <t.dutartre@satisfyrunning.com <mailto:t.dutartre@satisfyrunning.com>>; Stephane Grosperrin <sgrosperrin@fedex.com <mailto:sgrosperrin@fedex.com>>; Veena <veena@pluginhive.com <mailto:veena@pluginhive.com>>\n>> Subject: RE: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature\n>>  \n>> Hello Keerthi\n>>  \n>> Thanks for the explanation and logs.\n>> Let me review that I’ll get back to you in a minute.\n>>  \n>> Abraham Gougam | Customer Solutions Specialist-Senior (ID) | IT Customer Integrations | FedEx Express, 5 All. des Bas Tilliers, 92230 Gennevilliers <https://www.google.com/maps/place/data=!4m2!3m1!1s0x47e66f4a367c8a73:0xae6a7c61fad0b39e?sa=X&ved=1t:8290&ictx=111>\n>>  \n>> From: Keerthi <keerthishree@pluginhive.com <mailto:keerthishree@pluginhive.com>> \n>> Sent: Thursday, April 2, 2026 1:12 PM\n>> To: Abraham Ait Gougam <aait-gougam@fedex.com <mailto:aait-gougam@fedex.com>>\n>> Cc: Sofie Bertholdson <s.bertholdson@satisfyrunning.com <mailto:s.bertholdson@satisfyrunning.com>>; Thibaut Dutartre <t.dutartre@satisfyrunning.com <mailto:t.dutartre@satisfyrunning.com>>; Stephane Grosperrin <sgrosperrin@fedex.com <mailto:sgrosperrin@fedex.com>>; Veena <veena@pluginhive.com <mailto:veena@pluginhive.com>>\n>> Subject: Re: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature\n>>  \n>> Hello Abraham, \n>>  \n>> Good day!\n>>  \n>> This is Keerthi from PluginHive. \n>>  \n>> SatisfyRunning (Sofie) is currently in the process of migrating their FedEx account to the REST API. \n>>  \n>> However, when attempting to upload documents using the Auto Post - Upload Documents feature, they are encountering the following error: \"Enterprise Document Upload Service Unavailable”.\n>>  \n>> I have attached the request and response files with this email for your reference. \n>>  \n>> Could you please help us understand the cause of this issue and advise on how to resolve it? \n>>  \n>> Additionally, I noticed in the image shared from your end, that the permissions show “TEST STATUS”. Could you please confirm if this means the feature is enabled only in the test environment? If so, could this be the reason for the error they are encountering?\n>>  \n>> Looking forward to your guidance.\n>>  \n>> Best regards,\n>> Keerthi\n>> Team PluginHive\n>>  \n>>  \n>>  \n>> \n>> On 02-Apr-2026, at 4:09 PM, Abraham Ait Gougam <aait-gougam@fedex.com <mailto:aait-gougam@fedex.com>> wrote:\n>>  \n>> Sofie\n>> I have found that this account is linked to our partner Pluginhive as a Child user, and all below sub-APIs activated.\n>> So for me everything is ON .\n>>  \n>>  \n>> <image004.png>\n>> Abraham Gougam | Customer Solutions Specialist-Senior (ID) | IT Customer Integrations | FedEx Express, 5 All. des Bas Tilliers, 92230 Gennevilliers <https://urldefense.com/v3/__https:/www.google.com/maps/place/data=!4m2!3m1!1s0x47e66f4a367c8a73:0xae6a7c61fad0b39e?sa=X&ved=1t:8290&ictx=111__;!!BL9GA0TyTA!bIGCcsEqNhR0-zgO-Tn3bDCrBb0RbJWcjSziBSaBNAASMHRw58DENzmhP91bPEi9v3Z4e8HGok85VwfExQnVcPsVHh24$>\n>>  \n>> From: Sofie Bertholdson <s.bertholdson@satisfyrunning.com <mailto:s.bertholdson@satisfyrunning.com>> \n>> Sent: Thursday, April 2, 2026 12:22 PM\n>> To: Abraham Ait Gougam <aait-gougam@fedex.com <mailto:aait-gougam@fedex.com>>\n>> Cc: Thibaut Dutartre <t.dutartre@satisfyrunning.com <mailto:t.dutartre@satisfyrunning.com>>; Stephane Grosperrin <sgrosperrin@fedex.com <mailto:sgrosperrin@fedex.com>>;keerthishree@pluginhive.com <mailto:keerthishree@pluginhive.com>\n>> Subject: Re: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature\n>>  \n>> Hi Arbraham, \n>>  \n>> Thank you for following up. \n>> Our account number is 933454835.\n>>  \n>>  \n>> Best regards, \n>> Sofie\n>>  \n>> On Thu, 2 Apr 2026 at 12:08, Abraham Ait Gougam <aait-gougam@fedex.com <mailto:aait-gougam@fedex.com>> wrote:\n>> Hi Sofie ,\n>>  \n>> I can check that for you, can you please share with me the FedEx account number you are using to use the FedEx API please?\n>>  \n>> I’ll be able to check if the Document Upload API is set .\n>>  \n>> Abraham Gougam | Customer Solutions Specialist-Senior (ID) | IT Customer Integrations | FedEx Express, 5 All. des Bas Tilliers, 92230 Gennevilliers <https://urldefense.com/v3/__https:/www.google.com/maps/place/data=!4m2!3m1!1s0x47e66f4a367c8a73:0xae6a7c61fad0b39e?sa=X&ved=1t:8290&ictx=111__;!!BL9GA0TyTA!f2J562hJbTAoZp6xKXgF0REqoC90fDqLJtWKgo7pAeKtdr8tOCg_XqkDs0TYQNpK4wb-AhW5nRObUTH-OxsKwaljWbfjd4ao$>\n>>  \n>> From: Sofie Bertholdson <s.bertholdson@satisfyrunning.com <mailto:s.bertholdson@satisfyrunning.com>> \n>> Sent: Thursday, April 2, 2026 11:42 AM\n>> To: Abraham Ait Gougam <aait-gougam@fedex.com <mailto:aait-gougam@fedex.com>>\n>> Cc: Thibaut Dutartre <t.dutartre@satisfyrunning.com <mailto:t.dutartre@satisfyrunning.com>>; Stephane Grosperrin <sgrosperrin@fedex.com <mailto:sgrosperrin@fedex.com>>\n>> Subject: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature\n>>  \n>> Caution! This email originated outside of FedEx. Please do not open attachments or click links from an unknown or suspicious origin.\n>>  \n>> Hi Abraham,\n>>  \n>> Reaching out as we are in the midst of changing the FedEx API connection in our multicarrier app. \n>>  \n>> While doing the switch we have run into some problems, one being unable to upload additional documents.\n>> Can you confirm if the Auto Upload document option is enabled for our FedEx account through Rest API? \n>>  \n>> Best regards, \n>> Sofie\n>>  \n>",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 388269142331,
+    "submitter_id": 388269142331,
+    "assignee_id": 6932179641113,
+    "organization_id": 360081186532,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      30719501759641,
+      390739881171,
+      49887924473369,
+      6932179641113,
+      18854260804761,
+      10478126723609,
+      9977129389337,
+      410186940351,
+      369115090851
+    ],
+    "follower_ids": [
+      30719501759641,
+      390739881171,
+      49887924473369,
+      6932179641113,
+      18854260804761,
+      10478126723609,
+      9977129389337,
+      410186940351,
+      369115090851
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "issues_with_setting_up_the_plugin",
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "GZ04RW-LRL3X",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56596989623449,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Hello Abraham,\n\n\nThe solution SatisfyRunning is using is the **PH Multi-Carrier Shipping Label (PH MCSL) app for Shopify** and I have shared the Keys below.\n\n\n\n\"l7c13184694b0f49c59beb7dbbf1e35082\" _(Shipping)_\n\n\"l7db6ee082c3f74a4abe1c629bd2c0aeae\" _(Tracking)_\n\n\n\nI have also share the API keys mapped to other PluginHive solutions for your reference:\n\n\n\n**PH Ship, Rate & Track for FedEx / (Shopify FedEx):**\n\n'”l75b57e2561b5c4c13a864e7ab3ff4f73c” (_Shipping)_\n\n“l7043871ca2af64e0380534d15d92eb25f” _(Tracking)_\n\n\n\n**FedEx Shipping Plugin for WooCommerce with Print Label / (WooCommerce FedEx Shipping):**\n\n“l72cb2d45c40fc42258cecaac28473e9bf” (_Shipping)_\n\n“l7f94e2534717749bab8dcb30938fca2e9” _(Tracking)_\n\n\n\n**WooCommerce Shipping Services:**\n\n”l7f3821226b8f84cb18e24f29f83161761” (_Shipping)_\n\n“l709bd848cca44420cb52e67d5d16c7042” _(Tracking)_\n\n\n\n**Shopify Shipment Tracking & Notifications App****:**\n\n“l7db6ee082c3f74a4abe1c629bd2c0aeae\" _(Tracking)_\n\n\n\nPlease let me know if you need any further details.\n\n\n\nBest regards,\n\nKeerthi\n\nTeam PluginHive\n\n\n\n\n\n> On 02-Apr-2026, at 7:16 PM, Keerthi <keerthishree@pluginhive.com> wrote:\n>\n>\n> Hello Abraham,\n>\n>\n> Just wanted to let you know that I’m checking this with our technical team.\n>\n>\n>\n> I’ll get back to you as soon as I have an update from them.\n>\n>\n>\n> Best regards,\n>\n> Keerthi\n>\n> Team PluginHive\n>\n>\n>\n> > On 02-Apr-2026, at 6:11 PM, Abraham Ait Gougam <aait-gougam@fedex.com> wrote:\n> >\n> >\n> > Keerthi,\n> >\n> >\n> >\n> > Is that the API KEYS that you are using for SHOPIFY  ?\n> >\n> >\n> >\n> > <image001.png>\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> > **Abraham Gougam**** | **Customer Solutions Specialist-Senior (ID) | IT Customer Integrations | FedEx Express, 5 All. des Bas Tilliers, 92230 Gennevilliers\n> >\n> >\n> >\n> > **From:** Abraham Ait Gougam\n> > **Sent:** Thursday, April 2, 2026 1:38 PM\n> > **To:** Keerthi <keerthishree@pluginhive.com>\n> > **Cc:** Sofie Bertholdson <s.bertholdson@satisfyrunning.com>; Thibaut Dutartre <t.dutartre@satisfyrunning.com>; Stephane Grosperrin <sgrosperrin@fedex.com>; Veena <veena@pluginhive.com>\n> > **Subject:** RE: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature\n> >\n> >\n> >\n> > Hello Keerthi\n> >\n> >\n> >\n> > Thanks for the explanation and logs.\n> >\n> > Let me review that I’ll get back to you in a minute.\n> >\n> >\n> >\n> > **Abraham Gougam**** ****| **Customer Solutions Specialist-Senior (ID) | IT Customer Integrations | FedEx Express, 5 All. des Bas Tilliers, 92230 Gennevilliers\n> >\n> >\n> >\n> > **From:** Keerthi <keerthishree@pluginhive.com>\n> > **Sent:** Thursday, April 2, 2026 1:12 PM\n> > **To:** Abraham Ait Gougam <aait-gougam@fedex.com>\n> > **Cc:** Sofie Bertholdson <s.bertholdson@satisfyrunning.com>; Thibaut Dutartre <t.dutartre@satisfyrunning.com>; Stephane Grosperrin <sgrosperrin@fedex.com>; Veena <veena@pluginhive.com>\n> > **Subject:** Re: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature\n> >\n> >\n> >\n> > Hello Abraham,\n> >\n> >\n> >\n> > Good day!\n> >\n> >\n> >\n> > This is Keerthi from PluginHive.\n> >\n> >\n> >\n> > SatisfyRunning (Sofie) is currently in the process of migrating their FedEx account to the REST API.\n> >\n> >\n> >\n> > However, when attempting to upload documents using the Auto Post - Upload Documents feature, they are encountering the following error: **\"Enterprise Document Upload Service Unavailable”.**\n> >\n> >\n> >\n> > I have attached the request and response files with this email for your reference.\n> >\n> >\n> >\n> > Could you please help us understand the cause of this issue and advise on how to resolve it?\n> >\n> >\n> >\n> > Additionally, I noticed in the image shared from your end, that the permissions show “TEST STATUS”. Could you please confirm if this means the feature is enabled only in the test environment? If so, could this be the reason for the error they are encountering?\n> >\n> >\n> >\n> > Looking forward to your guidance.\n> >\n> >\n> >\n> > Best regards,\n> >\n> > Keerthi\n> >\n> > Team PluginHive\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> > > On 02-Apr-2026, at 4:09 PM, Abraham Ait Gougam <aait-gougam@fedex.com> wrote:\n> > >\n> > >\n> > >\n> > > Sofie\n> > >\n> > > I have found that this account is linked to our partner Pluginhive as a Child user, and all below sub-APIs activated.\n> > >\n> > > So for me everything is ON .\n> > >\n> > >\n> > >\n> > >\n> >\n> > <image004.png>\n> >\n> > > **Abraham Gougam**** ****| **Customer Solutions Specialist-Senior (ID) | IT Customer Integrations | FedEx Express, 5 All. des Bas Tilliers, 92230 Gennevilliers\n> > >\n> > >\n> > >\n> > > **From:** Sofie Bertholdson <s.bertholdson@satisfyrunning.com>\n> > > **Sent:** Thursday, April 2, 2026 12:22 PM\n> > > **To:** Abraham Ait Gougam <aait-gougam@fedex.com>\n> > > **Cc:** Thibaut Dutartre <t.dutartre@satisfyrunning.com>; Stephane Grosperrin <sgrosperrin@fedex.com>;keerthishree@pluginhive.com\n> > > **Subject:** Re: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature\n> > >\n> > >\n> > >\n> > > Hi Arbraham,\n> > >\n> > >\n> > >\n> > > Thank you for following up.\n> > >\n> > > Our account number is 933454835.\n> > >\n> > >\n> > >\n> > >\n> > >\n> > > Best regards,\n> > > Sofie\n> > >\n> > >\n> > >\n> > > On Thu, 2 Apr 2026 at 12:08, Abraham Ait Gougam <aait-gougam@fedex.com> wrote:\n> > >\n> > > > Hi Sofie ,\n> > > >\n> > > >\n> > > >\n> > > > I can check that for you, can you please share with me the FedEx account number you are using to use the FedEx API please?\n> > > >\n> > > >\n> > > >\n> > > > I’ll be able to check if the Document Upload API is set .\n> > > >\n> > > >\n> > > >\n> > > > **Abraham Gougam**** ****| **Customer Solutions Specialist-Senior (ID) | IT Customer Integrations | FedEx Express, 5 All. des Bas Tilliers, 92230 Gennevilliers\n> > > >\n> > > >\n> > > >\n> > > > **From:** Sofie Bertholdson <s.bertholdson@satisfyrunning.com>\n> > > > **Sent:** Thursday, April 2, 2026 11:42 AM\n> > > > **To:** Abraham Ait Gougam <aait-gougam@fedex.com>\n> > > > **Cc:** Thibaut Dutartre <t.dutartre@satisfyrunning.com>; Stephane Grosperrin <sgrosperrin@fedex.com>\n> > > > **Subject:** [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature\n> > > >\n> > > >\n> > > >\n> > > > **Caution! This email originated outside of FedEx. Please do not open attachments or click links from an unknown or suspicious origin**.\n> > > >\n> > > >\n> > > >\n> > > > Hi Abraham,\n> > > >\n> > > >\n> > > >\n> > > > Reaching out as we are in the midst of changing the FedEx API connection in our multicarrier app.\n> > > >\n> > > >\n> > > >\n> > > > While doing the switch we have run into some problems, one being unable to upload additional documents.\n> > > >\n> > > > Can you confirm if the Auto Upload document option is enabled for our FedEx account through Rest API?\n> > > >\n> > > >\n> > > >\n> > > > Best regards,\n> > > > Sofie\n> >\n> >",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hello Abraham,<div><br></div><div>The solution SatisfyRunning is using is the&nbsp;<strong>PH Multi-Carrier Shipping Label (PH MCSL) app for Shopify </strong>and I have shared the Keys below.</div><div><br></div><div>\"l7c13184694b0f49c59beb7dbbf1e35082\"&nbsp;<i>(Shipping)</i></div><div>\"l7db6ee082c3f74a4abe1c629bd2c0aeae\"&nbsp;<i>(Tracking)</i></div><div><br></div><div>I have also share the API keys mapped to other PluginHive solutions for your reference:</div><div><strong><br></strong></div><div><strong>PH Ship, Rate &amp; Track for FedEx / (Shopify FedEx):</strong></div><div>'”l75b57e2561b5c4c13a864e7ab3ff4f73c” (<i>Shipping)</i></div><div>“l7043871ca2af64e0380534d15d92eb25f”&nbsp;<i>(Tracking)</i></div><div><strong><br></strong></div><div><b>FedEx Shipping Plugin for WooCommerce with Print Label / (WooCommerce FedEx Shipping):</b></div><div>“l72cb2d45c40fc42258cecaac28473e9bf” (<i>Shipping)</i></div><div>“l7f94e2534717749bab8dcb30938fca2e9”&nbsp;<i>(Tracking)</i></div><div><strong><br></strong></div><div><strong>WooCommerce Shipping Services:</strong></div><div>”l7f3821226b8f84cb18e24f29f83161761” (<i>Shipping)</i></div><div>“l709bd848cca44420cb52e67d5d16c7042”&nbsp;<i>(Tracking)</i></div><div><br></div><div><b>Shopify Shipment Tracking &amp; Notifications App</b><strong>:</strong></div><div>“l7db6ee082c3f74a4abe1c629bd2c0aeae\"&nbsp;<i>(Tracking)</i></div><div><br></div><div>Please let me know if you need any further details.</div><div><br></div><div>Best regards,</div><div>Keerthi</div><div>Team PluginHive</div><div><div><br></div><div><div><div><br><blockquote><div>On 02-Apr-2026, at 7:16 PM, Keerthi &lt;keerthishree@pluginhive.com&gt; wrote:</div><br><div><div style=\"overflow-wrap: break-word; line-break: after-white-space;\">Hello Abraham,<div><br></div><div>Just wanted to let you know that I’m checking this with our technical team.&nbsp;</div><div><br></div><div>I’ll get back to you as soon as I have an update from them.</div><div><br><div>Best regards,&nbsp;</div><div>Keerthi<br><div>Team PluginHive</div><div><div><br><blockquote><div>On 02-Apr-2026, at 6:11 PM, Abraham Ait Gougam &lt;aait-gougam@fedex.com&gt; wrote:</div><br><div><div style=\"page: WordSection1; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; text-decoration: none;\" align=\"start\"><div style=\"font-size: 12pt; margin: 0cm;\">Keerthi,</div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0cm;\">Is that the API KEYS that you are using for SHOPIFY &nbsp;?</div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0cm;\"><span>&lt;image001.png&gt;</span></div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div><div><div style=\"font-size: 12pt; margin: 0cm;\"><b><span style=\"font-size: 9pt; \">Abraham Gougam</span></b><b><span style=\"font-size: 10pt; \"><span>&nbsp;</span><span>|<span>&nbsp;</span></span></span></b><span style=\"font-size: 9pt; \">Customer Solutions Specialist-Senior (ID) | IT Customer Integrations</span><span style=\"font-size: 10pt; \"><span>&nbsp;</span><span>|&nbsp;</span></span><span style=\"font-size: 9pt; \">FedEx Express,</span><span style=\"font-size: 10pt; \"><span>&nbsp;</span></span><span style=\"font-size: 9pt; \"><a href=\"https://www.google.com/maps/place/data=!4m2!3m1!1s0x47e66f4a367c8a73:0xae6a7c61fad0b39e?sa=X&amp;ved=1t:8290&amp;ictx=111\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\">5 All. des Bas Tilliers, 92230 Gennevilliers</span></a></span><span style=\"font-size: 9pt; \"></span></div></div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div><div><div style=\"border-image: none; padding: 3pt 0cm 0cm; border-color: rgb(225,225,225) currentcolor currentcolor; border-style: solid none none; border-width: 1pt medium medium;\"><div style=\"font-size: 12pt; margin: 0cm;\"><b><span style=\"font-size: 11pt; \">From:</span></b><span style=\"font-size: 11pt; \"><span>&nbsp;</span>Abraham Ait Gougam<span>&nbsp;</span><br><b>Sent:</b><span>&nbsp;</span>Thursday, April 2, 2026 1:38 PM<br><b>To:</b><span>&nbsp;</span>Keerthi &lt;<a href=\"mailto:keerthishree@pluginhive.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">keerthishree@pluginhive.com</a>&gt;<br><b>Cc:</b><span>&nbsp;</span>Sofie Bertholdson &lt;<a href=\"mailto:s.bertholdson@satisfyrunning.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">s.bertholdson@satisfyrunning.com</a>&gt;; Thibaut Dutartre &lt;<a href=\"mailto:t.dutartre@satisfyrunning.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">t.dutartre@satisfyrunning.com</a>&gt;; Stephane Grosperrin &lt;<a href=\"mailto:sgrosperrin@fedex.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">sgrosperrin@fedex.com</a>&gt;; Veena &lt;<a href=\"mailto:veena@pluginhive.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">veena@pluginhive.com</a>&gt;<br><b>Subject:</b><span>&nbsp;</span>RE: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature</span></div></div></div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0cm;\">Hello Keerthi</div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0cm;\">Thanks for the explanation and logs.</div><div style=\"font-size: 12pt; margin: 0cm;\">Let me review that I’ll get back to you in a minute.</div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div><div><div style=\"font-size: 12pt; margin: 0cm;\"><b><span style=\"font-size: 9pt; \">Abraham Gougam</span></b><b><span style=\"font-size: 10pt; \"><span>&nbsp;</span></span></b><b><span style=\"font-size: 10pt; \">|<span>&nbsp;</span></span></b><span style=\"font-size: 9pt; \">Customer Solutions Specialist-Senior (ID) | IT Customer Integrations</span><span style=\"font-size: 10pt; \"><span>&nbsp;</span></span><span style=\"font-size: 10pt; \">|&nbsp;</span><span style=\"font-size: 9pt; \">FedEx Express,</span><span style=\"font-size: 10pt; \"><span>&nbsp;</span></span><span style=\"font-size: 9pt; \"><a href=\"https://www.google.com/maps/place/data=!4m2!3m1!1s0x47e66f4a367c8a73:0xae6a7c61fad0b39e?sa=X&amp;ved=1t:8290&amp;ictx=111\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\">5 All. des Bas Tilliers, 92230 Gennevilliers</span></a></span></div></div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div><div><div style=\"border-image: none; padding: 3pt 0cm 0cm; border-color: rgb(225,225,225) currentcolor currentcolor; border-style: solid none none; border-width: 1pt medium medium;\"><div style=\"font-size: 12pt; margin: 0cm;\"><b><span style=\"font-size: 11pt; \">From:</span></b><span style=\"font-size: 11pt; \"><span>&nbsp;</span>Keerthi &lt;<a href=\"mailto:keerthishree@pluginhive.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">keerthishree@pluginhive.com</a>&gt;<span>&nbsp;</span><br><b>Sent:</b><span>&nbsp;</span>Thursday, April 2, 2026 1:12 PM<br><b>To:</b><span>&nbsp;</span>Abraham Ait Gougam &lt;<a href=\"mailto:aait-gougam@fedex.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">aait-gougam@fedex.com</a>&gt;<br><b>Cc:</b><span>&nbsp;</span>Sofie Bertholdson &lt;<a href=\"mailto:s.bertholdson@satisfyrunning.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">s.bertholdson@satisfyrunning.com</a>&gt;; Thibaut Dutartre &lt;<a href=\"mailto:t.dutartre@satisfyrunning.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">t.dutartre@satisfyrunning.com</a>&gt;; Stephane Grosperrin &lt;<a href=\"mailto:sgrosperrin@fedex.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">sgrosperrin@fedex.com</a>&gt;; Veena &lt;<a href=\"mailto:veena@pluginhive.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">veena@pluginhive.com</a>&gt;<br><b>Subject:</b><span>&nbsp;</span>Re: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature</span></div></div></div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div><div><div style=\"font-size: 12pt; margin: 0cm;\">Hello Abraham,<span>&nbsp;</span></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">Good day!</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">This is Keerthi from PluginHive.&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">SatisfyRunning (Sofie) is currently in the process of migrating their FedEx account to the REST API.&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">However, when attempting to upload documents using the Auto Post - Upload Documents feature, they are encountering the following error:<span>&nbsp;</span><b>\"Enterprise Document Upload Service Unavailable”.</b></div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">I have attached the request and response files with this email for your reference.&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">Could you please help us understand the cause of this issue and advise on how to resolve it?&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">Additionally, I noticed in the image shared from your end, that the permissions show “TEST STATUS”. Could you please confirm if this means the feature is enabled only in the test environment? If so, could this be the reason for the error they are encountering?</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">Looking forward to your guidance.</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">Best regards,</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">Keerthi</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">Team PluginHive</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div></div><div><div><div><p style=\"font-size: 12pt; margin: 0cm 0cm 12pt;\" dir=\"auto\">&nbsp;</p><blockquote style=\"margin-top: 5pt; margin-bottom: 5pt;\"><div><div style=\"font-size: 12pt; margin: 0cm;\">On 02-Apr-2026, at 4:09 PM, Abraham Ait Gougam &lt;<a href=\"mailto:aait-gougam@fedex.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">aait-gougam@fedex.com</a>&gt; wrote:</div></div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div><div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">Sofie</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">I have found that this account is linked to our partner Pluginhive as a Child user, and all below sub-APIs activated.</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">So for me everything is ON .</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div></div></div></blockquote></div></div></div><div><div style=\"font-size: 12pt; margin: 0cm;\"><span>&lt;image004.png&gt;</span></div></div><div><div><div><blockquote style=\"margin-top: 5pt; margin-bottom: 5pt;\"><div><div><div><div style=\"font-size: 12pt; margin: 0cm;\"><b><span style=\"font-size: 9pt; \">Abraham Gougam</span></b><span><b><span style=\"font-size: 10pt; \">&nbsp;</span></b></span><b><span style=\"font-size: 10pt; \">|<span>&nbsp;</span></span></b><span style=\"font-size: 9pt; \">Customer Solutions Specialist-Senior (ID) | IT Customer Integrations</span><span><span style=\"font-size: 10pt; \">&nbsp;</span></span><span style=\"font-size: 10pt; \">|&nbsp;</span><span style=\"font-size: 9pt; \">FedEx Express,</span><span><span style=\"font-size: 10pt; \">&nbsp;</span></span><span style=\"font-size: 9pt; \"><a href=\"https://urldefense.com/v3/__https:/www.google.com/maps/place/data=!4m2!3m1!1s0x47e66f4a367c8a73:0xae6a7c61fad0b39e?sa=X&amp;ved=1t:8290&amp;ictx=111__;!!BL9GA0TyTA!bIGCcsEqNhR0-zgO-Tn3bDCrBb0RbJWcjSziBSaBNAASMHRw58DENzmhP91bPEi9v3Z4e8HGok85VwfExQnVcPsVHh24$\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\">5 All. des Bas Tilliers, 92230 Gennevilliers</span></a></span></div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div style=\"border-image: none; padding: 3pt 0cm 0cm; border-color: currentcolor; border-style: solid none none; border-width: 1pt medium medium;\"><div><div style=\"font-size: 12pt; margin: 0cm;\"><b><span style=\"font-size: 11pt; \">From:</span></b><span><span style=\"font-size: 11pt; \">&nbsp;</span></span><span style=\"font-size: 11pt; \">Sofie Bertholdson &lt;<a href=\"mailto:s.bertholdson@satisfyrunning.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">s.bertholdson@satisfyrunning.com</a>&gt;<span>&nbsp;</span><br><b>Sent:</b><span>&nbsp;</span>Thursday, April 2, 2026 12:22 PM<br><b>To:</b><span>&nbsp;</span>Abraham Ait Gougam &lt;<a href=\"mailto:aait-gougam@fedex.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">aait-gougam@fedex.com</a>&gt;<br><b>Cc:</b><span>&nbsp;</span>Thibaut Dutartre &lt;<a href=\"mailto:t.dutartre@satisfyrunning.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">t.dutartre@satisfyrunning.com</a>&gt;; Stephane Grosperrin &lt;<a href=\"mailto:sgrosperrin@fedex.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">sgrosperrin@fedex.com</a>&gt;;<a href=\"mailto:keerthishree@pluginhive.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">keerthishree@pluginhive.com</a><br><b>Subject:</b><span>&nbsp;</span>Re: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature</span></div></div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">Hi Arbraham,&nbsp;</div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">Thank you for following up.&nbsp;</div></div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">Our account number is&nbsp;933454835.</div></div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">Best regards,&nbsp;<br>Sofie</div></div></div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">On Thu, 2 Apr 2026 at 12:08, Abraham Ait Gougam &lt;<a href=\"mailto:aait-gougam@fedex.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">aait-gougam@fedex.com</a>&gt; wrote:</div></div></div><blockquote style=\"border-image: none; margin: 5pt 0cm 5pt 4.8pt; padding: 0cm 0cm 0cm 6pt; border-color: currentcolor currentcolor currentcolor rgb(204,204,204); border-style: none none none solid; border-width: medium medium medium 1pt;\"><div><div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">Hi Sofie ,</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">I can check that for you, can you please share with me the FedEx account number you are using to use the FedEx API please?</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">I’ll be able to check if the Document Upload API is set .</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div style=\"font-size: 12pt; margin: 0cm;\"><b><span style=\"font-size: 9pt; \">Abraham Gougam</span></b><span><b><span style=\"font-size: 10pt; \">&nbsp;</span></b></span><b><span style=\"font-size: 10pt; \">|<span>&nbsp;</span></span></b><span style=\"font-size: 9pt; \">Customer Solutions Specialist-Senior (ID) | IT Customer Integrations</span><span><span style=\"font-size: 10pt; \">&nbsp;</span></span><span style=\"font-size: 10pt; \">|&nbsp;</span><span style=\"font-size: 9pt; \">FedEx Express,</span><span><span style=\"font-size: 10pt; \">&nbsp;</span></span><span style=\"font-size: 9pt; \"><a href=\"https://urldefense.com/v3/__https:/www.google.com/maps/place/data=!4m2!3m1!1s0x47e66f4a367c8a73:0xae6a7c61fad0b39e?sa=X&amp;ved=1t:8290&amp;ictx=111__;!!BL9GA0TyTA!f2J562hJbTAoZp6xKXgF0REqoC90fDqLJtWKgo7pAeKtdr8tOCg_XqkDs0TYQNpK4wb-AhW5nRObUTH-OxsKwaljWbfjd4ao$\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\">5 All. des Bas Tilliers, 92230 Gennevilliers</span></a></span></div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div style=\"border-image: none; padding: 3pt 0cm 0cm; border-color: currentcolor; border-style: solid none none; border-width: 1pt medium medium;\"><div><div style=\"font-size: 12pt; margin: 0cm;\"><b><span style=\"font-size: 11pt; \">From:</span></b><span><span style=\"font-size: 11pt; \">&nbsp;</span></span><span style=\"font-size: 11pt; \">Sofie Bertholdson &lt;<a href=\"mailto:s.bertholdson@satisfyrunning.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">s.bertholdson@satisfyrunning.com</a>&gt;<span>&nbsp;</span><br><b>Sent:</b><span>&nbsp;</span>Thursday, April 2, 2026 11:42 AM<br><b>To:</b><span>&nbsp;</span>Abraham Ait Gougam &lt;<a href=\"mailto:aait-gougam@fedex.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">aait-gougam@fedex.com</a>&gt;<br><b>Cc:</b><span>&nbsp;</span>Thibaut Dutartre &lt;<a href=\"mailto:t.dutartre@satisfyrunning.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">t.dutartre@satisfyrunning.com</a>&gt;; Stephane Grosperrin &lt;<a href=\"mailto:sgrosperrin@fedex.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">sgrosperrin@fedex.com</a>&gt;<br><b>Subject:</b><span>&nbsp;</span>[EXTERNAL] FedEx Rest API - Upload Additional Documents Feature</span></div></div></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div><div><div align=\"center\"><table border=\"1\" cellspacing=\"0\" cellpadding=\"0\" style=\"border: 1pt outset black;\"><tbody><tr><td style=\"padding: 0.75pt; border: 1pt inset black;\"><div style=\"font-size: 12pt; text-align: center; margin: 0cm;\" align=\"center\"><b><span style=\"font-size: 10pt; color: rgb(255, 51, 79);\">Caution! This email originated outside of FedEx. Please do not open attachments or click links from an unknown or suspicious origin</span></b><span style=\"font-size: 10pt; color: rgb(255, 51, 79);\">.</span></div></td></tr></tbody></table></div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div></div><div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">Hi Abraham,</div></div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">Reaching out as we are in the midst of changing the FedEx API connection in our multicarrier app.&nbsp;</div></div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">While doing the switch we have run into some problems, one being unable to upload additional documents.</div></div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">Can you confirm if the Auto Upload document option is enabled for our FedEx account through Rest API?&nbsp;</div></div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div></div><div><div><div style=\"font-size: 12pt; margin: 0cm;\">Best regards,&nbsp;<br>Sofie</div></div></div></div></div></div></div></blockquote></div></div></div></blockquote></div><div style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</div></div></div></div></div></blockquote></div><br></div></div></div></div></div></blockquote></div><br></div></div></div></div>",
+      "plain_body": "Hello Abraham, \n  The solution SatisfyRunning is using is the&nbsp;PH Multi-Carrier Shipping Label (PH MCSL) app for Shopify and I have shared the Keys below.  \n  \"l7c13184694b0f49c59beb7dbbf1e35082\"&nbsp;(Shipping)  \"l7db6ee082c3f74a4abe1c629bd2c0aeae\"&nbsp;(Tracking)  \n  I have also share the API keys mapped to other PluginHive solutions for your reference:  \n  PH Ship, Rate &amp; Track for FedEx / (Shopify FedEx):  '”l75b57e2561b5c4c13a864e7ab3ff4f73c” (Shipping)  “l7043871ca2af64e0380534d15d92eb25f”&nbsp;(Tracking)  \n  FedEx Shipping Plugin for WooCommerce with Print Label / (WooCommerce FedEx Shipping):  “l72cb2d45c40fc42258cecaac28473e9bf” (Shipping)  “l7f94e2534717749bab8dcb30938fca2e9”&nbsp;(Tracking)  \n  WooCommerce Shipping Services:  ”l7f3821226b8f84cb18e24f29f83161761” (Shipping)  “l709bd848cca44420cb52e67d5d16c7042”&nbsp;(Tracking)  \n  Shopify Shipment Tracking &amp; Notifications App:  “l7db6ee082c3f74a4abe1c629bd2c0aeae\"&nbsp;(Tracking)  \n  Please let me know if you need any further details.  \n  Best regards,  Keerthi  Team PluginHive   \n    \n  On 02-Apr-2026, at 7:16 PM, Keerthi &lt;keerthishree@pluginhive.com&gt; wrote: \n  Hello Abraham, \n  Just wanted to let you know that I’m checking this with our technical team.&nbsp;  \n  I’ll get back to you as soon as I have an update from them.  \n Best regards,&nbsp;  Keerthi\n Team PluginHive   \n  On 02-Apr-2026, at 6:11 PM, Abraham Ait Gougam &lt;aait-gougam@fedex.com&gt; wrote: \n   Keerthi,  &nbsp;  Is that the API KEYS that you are using for SHOPIFY &nbsp;?  &nbsp;  &lt;image001.png&gt;  &nbsp;  &nbsp;  &nbsp;   Abraham Gougam&nbsp;|&nbsp;Customer Solutions Specialist-Senior (ID) | IT Customer Integrations&nbsp;|&nbsp;FedEx Express,&nbsp;5 All. des Bas Tilliers, 92230 Gennevilliers   &nbsp;    From:&nbsp;Abraham Ait Gougam&nbsp;\nSent:&nbsp;Thursday, April 2, 2026 1:38 PM\nTo:&nbsp;Keerthi &lt;keerthishree@pluginhive.com&gt;\nCc:&nbsp;Sofie Bertholdson &lt;s.bertholdson@satisfyrunning.com&gt;; Thibaut Dutartre &lt;t.dutartre@satisfyrunning.com&gt;; Stephane Grosperrin &lt;sgrosperrin@fedex.com&gt;; Veena &lt;veena@pluginhive.com&gt;\nSubject:&nbsp;RE: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature    &nbsp;  Hello Keerthi  &nbsp;  Thanks for the explanation and logs.  Let me review that I’ll get back to you in a minute.  &nbsp;   Abraham Gougam&nbsp;|&nbsp;Customer Solutions Specialist-Senior (ID) | IT Customer Integrations&nbsp;|&nbsp;FedEx Express,&nbsp;5 All. des Bas Tilliers, 92230 Gennevilliers   &nbsp;    From:&nbsp;Keerthi &lt;keerthishree@pluginhive.com&gt;&nbsp;\nSent:&nbsp;Thursday, April 2, 2026 1:12 PM\nTo:&nbsp;Abraham Ait Gougam &lt;aait-gougam@fedex.com&gt;\nCc:&nbsp;Sofie Bertholdson &lt;s.bertholdson@satisfyrunning.com&gt;; Thibaut Dutartre &lt;t.dutartre@satisfyrunning.com&gt;; Stephane Grosperrin &lt;sgrosperrin@fedex.com&gt;; Veena &lt;veena@pluginhive.com&gt;\nSubject:&nbsp;Re: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature    &nbsp;   Hello Abraham,&nbsp;   &nbsp;    Good day!    &nbsp;    This is Keerthi from PluginHive.&nbsp;    &nbsp;    SatisfyRunning (Sofie) is currently in the process of migrating their FedEx account to the REST API.&nbsp;    &nbsp;    However, when attempting to upload documents using the Auto Post - Upload Documents feature, they are encountering the following error:&nbsp;\"Enterprise Document Upload Service Unavailable”.    &nbsp;    I have attached the request and response files with this email for your reference.&nbsp;    &nbsp;    Could you please help us understand the cause of this issue and advise on how to resolve it?&nbsp;    &nbsp;    Additionally, I noticed in the image shared from your end, that the permissions show “TEST STATUS”. Could you please confirm if this means the feature is enabled only in the test environment? If so, could this be the reason for the error they are encountering?    &nbsp;    Looking forward to your guidance.    &nbsp;    Best regards,    Keerthi    Team PluginHive    &nbsp;    &nbsp;       &nbsp;    On 02-Apr-2026, at 4:09 PM, Abraham Ait Gougam &lt;aait-gougam@fedex.com&gt; wrote:   &nbsp;     Sofie    I have found that this account is linked to our partner Pluginhive as a Child user, and all below sub-APIs activated.    So for me everything is ON .    &nbsp;    &nbsp;          &lt;image004.png&gt;          Abraham Gougam&nbsp;|&nbsp;Customer Solutions Specialist-Senior (ID) | IT Customer Integrations&nbsp;|&nbsp;FedEx Express,&nbsp;5 All. des Bas Tilliers, 92230 Gennevilliers    &nbsp;     From:&nbsp;Sofie Bertholdson &lt;s.bertholdson@satisfyrunning.com&gt;&nbsp;\nSent:&nbsp;Thursday, April 2, 2026 12:22 PM\nTo:&nbsp;Abraham Ait Gougam &lt;aait-gougam@fedex.com&gt;\nCc:&nbsp;Thibaut Dutartre &lt;t.dutartre@satisfyrunning.com&gt;; Stephane Grosperrin &lt;sgrosperrin@fedex.com&gt;;keerthishree@pluginhive.com\nSubject:&nbsp;Re: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature     &nbsp;     Hi Arbraham,&nbsp;     &nbsp;      Thank you for following up.&nbsp;      Our account number is&nbsp;933454835.      &nbsp;      &nbsp;      Best regards,&nbsp;\nSofie      &nbsp;      On Thu, 2 Apr 2026 at 12:08, Abraham Ait Gougam &lt;aait-gougam@fedex.com&gt; wrote:         Hi Sofie ,    &nbsp;    I can check that for you, can you please share with me the FedEx account number you are using to use the FedEx API please?    &nbsp;    I’ll be able to check if the Document Upload API is set .    &nbsp;    Abraham Gougam&nbsp;|&nbsp;Customer Solutions Specialist-Senior (ID) | IT Customer Integrations&nbsp;|&nbsp;FedEx Express,&nbsp;5 All. des Bas Tilliers, 92230 Gennevilliers    &nbsp;     From:&nbsp;Sofie Bertholdson &lt;s.bertholdson@satisfyrunning.com&gt;&nbsp;\nSent:&nbsp;Thursday, April 2, 2026 11:42 AM\nTo:&nbsp;Abraham Ait Gougam &lt;aait-gougam@fedex.com&gt;\nCc:&nbsp;Thibaut Dutartre &lt;t.dutartre@satisfyrunning.com&gt;; Stephane Grosperrin &lt;sgrosperrin@fedex.com&gt;\nSubject:&nbsp;[EXTERNAL] FedEx Rest API - Upload Additional Documents Feature     &nbsp;     Caution! This email originated outside of FedEx. Please do not open attachments or click links from an unknown or suspicious origin.    &nbsp;       Hi Abraham,      &nbsp;      Reaching out as we are in the midst of changing the FedEx API connection in our multicarrier app.&nbsp;      &nbsp;      While doing the switch we have run into some problems, one being unable to upload additional documents.      Can you confirm if the Auto Upload document option is enabled for our FedEx account through Rest API?&nbsp;      &nbsp;      Best regards,&nbsp;\nSofie              &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56596989623321,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "keerthishree@pluginhive.com",
+            "name": "Keerthi",
+            "original_recipients": [
+              "keerthishree@pluginhive.com",
+              "aait-gougam@fedex.com",
+              "sgrosperrin@fedex.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com",
+              "sibi@pluginhive.com",
+              "touseef@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T14:23:02Z",
+      "metadata": {
+        "system": {
+          "message_id": "<2EF813A0-1E56-464F-A699-49F3444DBFF5@pluginhive.com>",
+          "client": "Apple Mail (2.3731.700.6)",
+          "email_id": "01KN796VZ6QHX53FM9YXN9M5TA",
+          "raw_email_identifier": "2369120/d5bba810-80aa-433e-ba56-2153c033de25.eml",
+          "json_email_identifier": "2369120/d5bba810-80aa-433e-ba56-2153c033de25.json",
+          "eml_redacted": false,
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56597535110169,
+      "type": "Comment",
+      "author_id": 30719501759641,
+      "body": "Hello Keerthi\n\n\n\nI have just check in our API backend system, the project named**Shopify Multicarrier API2023 Certification with**\n\nTEST KEY : l741e31f58b8b9462ba38759b739c4f041\n\nPROD KEY : l7c13184694b0f49c59beb7dbbf1e35082\n\nHas Trade Documents Upload API ENABLED .\n\n\n\nCan you please run a new test and share your logs again with me , no problem with the API on my side.\n\n![](https://support.pluginhive.com/attachments/token/L2NjzhJ5EJc7Kb0n5lJdfpZ1T/?name=image001.png)\n\n**Abraham Gougam****|** Customer Solutions Specialist-Senior (ID) | IT Customer Integrations| FedEx Express,5 All. des Bas Tilliers, 92230 Gennevilliers",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">Hello Keerthi</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">I have just check in our API backend system, the project named\n<b>Shopify Multicarrier API2023 Certification with</b></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">TEST KEY : l741e31f58b8b9462ba38759b739c4f041</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">PROD KEY : l7c13184694b0f49c59beb7dbbf1e35082</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">Has Trade Documents Upload API ENABLED .</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">Can you please run a new test and share your logs again with me , no problem with the API on my side.</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><img width=\"1114\" height=\"387\" style=\"width: 11.6041in; height: 4.0312in;\" src=\"https://support.pluginhive.com/attachments/token/L2NjzhJ5EJc7Kb0n5lJdfpZ1T/?name=image001.png\"></p>\n<div>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 9.0pt; color: black; \">Abraham Gougam</span></b><b><span style=\"font-size: 10.0pt; \">\n<span>| </span></span></b><span style=\"font-size: 9.0pt; color: black; \">Customer Solutions Specialist-Senior (ID) | IT Customer Integrations</span><span style=\"font-size: 10.0pt; \">\n<span>|&nbsp;</span></span><span style=\"font-size: 9.0pt; \">FedEx Express,</span><span style=\"font-size: 10.0pt; \">\n</span><span style=\"font-size: 9.0pt; color: black; \"><a href=\"https://www.google.com/maps/place/data=!4m2!3m1!1s0x47e66f4a367c8a73:0xae6a7c61fad0b39e?sa=X&amp;ved=1t:8290&amp;ictx=111\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: black; text-decoration: none;\">5\n All. des Bas Tilliers, 92230 Gennevilliers</span></a></span><span style=\"font-size: 9.0pt; color: black; \"></span></p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n\n</div></div>",
+      "plain_body": "Hello Keerthi \n &nbsp; \n I have just check in our API backend system, the project named\nShopify Multicarrier API2023 Certification with \n TEST KEY : l741e31f58b8b9462ba38759b739c4f041 \n PROD KEY : l7c13184694b0f49c59beb7dbbf1e35082 \n Has Trade Documents Upload API ENABLED . \n &nbsp; \n Can you please run a new test and share your logs again with me , no problem with the API on my side. \n  \n \n Abraham Gougam\n| Customer Solutions Specialist-Senior (ID) | IT Customer Integrations\n|&nbsp;FedEx Express,\n5\n All. des Bas Tilliers, 92230 Gennevilliers \n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56597535110041,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "keerthishree@pluginhive.com",
+            "name": "Keerthi",
+            "original_recipients": [
+              "aait-gougam@fedex.com",
+              "keerthishree@pluginhive.com",
+              "sgrosperrin@fedex.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com",
+              "sibi@pluginhive.com",
+              "touseef@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T14:56:13Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CH3PR12MB8235841CB1901445EF560A3AE951A@CH3PR12MB8235.namprd12.prod.outlook.com>",
+          "email_id": "01KN7B3G3GM1E4TWQC1NEF4NTK",
+          "raw_email_identifier": "2369120/d7fa37b6-abbd-44fb-bf07-91fa24d86f31.eml",
+          "json_email_identifier": "2369120/d7fa37b6-abbd-44fb-bf07-91fa24d86f31.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          388269142331
+        ]
+      }
+    },
+    {
+      "id": 56598872918425,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Abraham,\n\nThank you for confirming that the Trade Documents Upload API is enabled on your end.\n\nWe ran a new test order from our side, and observed that the **Auto Upload** (automatic document upload during label generation) is still failing. However, the **Post Upload** (manual document upload via the app) is working as expected.\n\nAs requested, we have shared the **request and response XML logs** from this test in the link below, as they are too large to include in the email:\n\n**Request/Response XML**\n\nKindly review the logs and let us know your findings.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Abraham,<br>&nbsp;<br>Thank you for confirming that the Trade Documents Upload API is enabled on your end.<br>&nbsp;<br>We ran a new test order from our side, and observed that the <strong>Auto Upload</strong> (automatic document upload during label generation) is still failing. However, the <strong>Post Upload</strong> (manual document upload via the app) is working as expected.<br>&nbsp;<br>As requested, we have shared the <strong>request and response XML logs</strong> from this test in the link below, as they are too large to include in the email:<br>&nbsp;<br><a rel=\"noopener noreferrer\" href=\"https://drive.google.com/drive/folders/16UER5kt_d-GoHckXRMn3wOLzeqLiOBi8?usp=sharing\"><strong><u>Request/Response XML</u></strong></a><br>&nbsp;<br>Kindly review the logs and let us know your findings.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Abraham,\n&nbsp;\nThank you for confirming that the Trade Documents Upload API is enabled on your end.\n&nbsp;\nWe ran a new test order from our side, and observed that the Auto Upload (automatic document upload during label generation) is still failing. However, the Post Upload (manual document upload via the app) is working as expected.\n&nbsp;\nAs requested, we have shared the request and response XML logs from this test in the link below, as they are too large to include in the email:\n&nbsp;\nRequest/Response XML\n&nbsp;\nKindly review the logs and let us know your findings.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56598872918297,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T16:26:39Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.37.249.104",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56598943275801,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Abraham,\n\nThank you for confirming that the Trade Documents Upload API is enabled on your end.\n\nWe ran a new test order from our side, and observed that the **Auto Upload** (automatic document upload during label generation) is still failing. However, the **Post Upload** (manual document upload via the app) is working as expected.\n\nAs requested, we have shared the **request and response XML logs** from this test in the link below, as they are too large to include in the email:\n\n**Request/Response XML**\n\nKindly review the logs and let us know your findings.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><font size=\"2\"><p style=\" font-size: 10pt; overflow-wrap: break-word; margin: 0; padding: 0;\" dir=\"auto\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Hello Abraham,</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">&nbsp;</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Thank you for confirming that the Trade Documents Upload API is enabled on your end.</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">&nbsp;</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">We ran a new test order from our side, and observed that the<span>&nbsp;</span></span><strong style=\"font-weight: 600; outline: 0px; vertical-align: baseline; background-color: #f8f9f9; box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; text-decoration-style: initial; text-decoration-color: initial; margin: 0px; padding: 0px; border-width: 0px;\">Auto Upload</strong><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\"><span>&nbsp;</span>(automatic document upload during label generation) is still failing. However, the<span>&nbsp;</span></span><strong style=\"font-weight: 600; outline: 0px; vertical-align: baseline; background-color: #f8f9f9; box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; text-decoration-style: initial; text-decoration-color: initial; margin: 0px; padding: 0px; border-width: 0px;\">Post Upload</strong><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\"><span>&nbsp;</span>(manual document upload via the app) is working as expected.</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">&nbsp;</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">As requested, we have shared the<span>&nbsp;</span></span><strong style=\"font-weight: 600; outline: 0px; vertical-align: baseline; background-color: #f8f9f9; box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; text-decoration-style: initial; text-decoration-color: initial; margin: 0px; padding: 0px; border-width: 0px;\">request and response XML logs</strong><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\"><span>&nbsp;</span>from this test in the link below, as they are too large to include in the email:</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">&nbsp;</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><a style=\"font-size: 14px; vertical-align: baseline; background-color: #f8f9f9; cursor: pointer; text-decoration: none; color: #1f73b7; box-sizing: border-box; line-height: inherit; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; margin: 0px; padding: 0px;\" rel=\"noopener noreferrer\" href=\"https://drive.google.com/drive/folders/16UER5kt_d-GoHckXRMn3wOLzeqLiOBi8?usp=sharing\"><strong style=\"font-weight: 600; outline: 0px; vertical-align: baseline; background-color: transparent; box-sizing: border-box; line-height: inherit; margin: 0px; padding: 0px; border-width: 0px;\"><span style=\"box-sizing: border-box; line-height: inherit; text-decoration: underline;\">Request/Response XML</span></strong></a><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">&nbsp;</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Kindly review the logs and let us know your findings.</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">&nbsp;</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Regards,</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">&nbsp;</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Sibi Firoz</span><br style=\"box-sizing: border-box; line-height: inherit; color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: #293239; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: #f8f9f9; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Team PluginHive</span></p>\n\n</font></div>",
+      "plain_body": "Hello Abraham, &nbsp; Thank you for confirming that the Trade Documents Upload API is enabled on your end. &nbsp; We ran a new test order from our side, and observed that the&nbsp;Auto Upload&nbsp;(automatic document upload during label generation) is still failing. However, the&nbsp;Post Upload&nbsp;(manual document upload via the app) is working as expected. &nbsp; As requested, we have shared the&nbsp;request and response XML logs&nbsp;from this test in the link below, as they are too large to include in the email: &nbsp; Request/Response XML &nbsp; Kindly review the logs and let us know your findings. &nbsp; Regards, &nbsp; Sibi Firoz Team PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56598943275545,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "keerthishree@pluginhive.com",
+            "name": "Keerthi",
+            "original_recipients": [
+              "sibi@pluginhive.com",
+              "aait-gougam@fedex.com",
+              "keerthishree@pluginhive.com",
+              "sgrosperrin@fedex.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com",
+              "touseef@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T16:33:45Z",
+      "metadata": {
+        "system": {
+          "message_id": "<1775147612.571626987@webmail.emailsrvr.com>",
+          "client": "webmail/19.0.28-RC",
+          "email_id": "01KN7GP22Z1C45H0PJ76DFXKHA",
+          "raw_email_identifier": "2369120/ee94e12f-a3c4-400b-b077-8077f8a06a03.eml",
+          "json_email_identifier": "2369120/ee94e12f-a3c4-400b-b077-8077f8a06a03.json",
+          "eml_redacted": false,
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          388269142331
+        ]
+      }
+    },
+    {
+      "id": 56705565393177,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Hello Abraham,\n\n\nGood day!\n\n\n\nThe problem seems to be with Auto Upload documents.\n\n\n\nCould you please confirm whether the customer’s FedEx account is authorized to access the following endpoint (REST API)?\n\nhttps://documentapi.prod.fedex.com/documents/v1/etds/multiupload\n\n\n\nWe request your confirmation on this at the earliest.\n\n\n\nLooking forward to your response.\n\n\n\nBest regards,\n\nKeerthi\n\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hello Abraham,<div><br></div><div>Good day!</div><div><br></div><div>The problem seems to be with Auto Upload documents.&nbsp;</div><div><br></div><div>Could you please confirm whether the customer’s FedEx account is authorized to access the following endpoint (REST API)?</div><div><a href=\"https://documentapi.prod.fedex.com/documents/v1/etds/multiupload\" rel=\"noreferrer\">https://documentapi.prod.fedex.com/documents/v1/etds/multiupload</a></div><div><br></div><div>We request your confirmation on this at the earliest.&nbsp;</div><div><br></div><div>Looking forward to your response.</div><div><br></div><div>Best regards,</div><div>Keerthi</div><div>Team PluginHive</div><div><div><br></div></div></div>",
+      "plain_body": "Hello Abraham, \n  Good day!  \n  The problem seems to be with Auto Upload documents.&nbsp;  \n  Could you please confirm whether the customer’s FedEx account is authorized to access the following endpoint (REST API)?  https://documentapi.prod.fedex.com/documents/v1/etds/multiupload  \n  We request your confirmation on this at the earliest.&nbsp;  \n  Looking forward to your response.  \n  Best regards,  Keerthi  Team PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56705565393049,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "keerthishree@pluginhive.com",
+            "name": "Keerthi",
+            "original_recipients": [
+              "keerthishree@pluginhive.com",
+              "sibi@pluginhive.com",
+              "aait-gougam@fedex.com",
+              "sgrosperrin@fedex.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com",
+              "touseef@pluginhive.com",
+              "vimal@pluginhive.com",
+              "sanoop@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-06T11:21:47Z",
+      "metadata": {
+        "system": {
+          "message_id": "<FBE05D1B-437F-421C-B7FA-609B1AF88C82@pluginhive.com>",
+          "client": "Apple Mail (2.3731.700.6)",
+          "email_id": "01KNH8DV067S1VDRE1PSVV6F5S",
+          "raw_email_identifier": "2369120/a909a064-7464-4db3-8397-7d20385eba77.eml",
+          "json_email_identifier": "2369120/a909a064-7464-4db3-8397-7d20385eba77.json",
+          "eml_redacted": false,
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56705869520409,
+      "type": "Comment",
+      "author_id": 30719501759641,
+      "body": "Hello Keerthi\n\nThis is Easter Monday in France and we are out of the office, I can review that again for you tomorrow.\n\n\n\nIn my last verification,The API Doc Upload is activated on this account .\n\nStill , the content of the  payload request you have sent to me is unknown and does not look like what the API is expected.\n\nDo you send it as multipart/form-data , it should be formed like a JSON body .\n\n\n\nAbraham ( FedEx I.T )\n\n**Best Regards/Cordialement**\n\n**Abraham Aitgougam** | CT Specialist-Senior (ID) | IT Customer Integrations",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\" style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHello Keerthi</div>\n<div dir=\"ltr\" style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nThis is Easter Monday in France and we are out of the office, I can review that again for you tomorrow.</div>\n<div dir=\"ltr\" style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div dir=\"ltr\" style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nIn my last verification,The API Doc Upload is activated on this account .</div>\n<div dir=\"ltr\" style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nStill , the content of the &nbsp;payload request you have sent to me is unknown and does not look like what the API is expected.</div>\n<div dir=\"ltr\" style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nDo you send it as multipart/form-data , it should be formed like a JSON body .</div>\n<div style=\" font-size: 12pt;\" dir=\"ltr\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<p style=\"text-align: left; text-indent: 0px; text-transform: none; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 16pt; color: rgb(33, 33, 33);\">Abraham ( FedEx I.T )</span></p>\n<p style=\"text-align: left; text-indent: 0px; text-transform: none; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"color: black;\"><b>Best Regards/Cordialement</b></span></p>\n<p style=\"text-align: left; text-indent: 0px; text-transform: none; font-size: 12pt; color: rgb(0, 0, 0); margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"color: black;\"><b>Abraham Aitgougam </b>| CT Specialist-Senior (ID) | IT Customer Integrations</span></p>\n<div dir=\"ltr\" style=\" font-size: 12pt; color: rgb(33, 33, 33);\">\n<br>\n</div>\n</div></div>",
+      "plain_body": "Hello Keerthi \n \nThis is Easter Monday in France and we are out of the office, I can review that again for you tomorrow. \n \n\n\n \n \nIn my last verification,The API Doc Upload is activated on this account . \n \nStill , the content of the &nbsp;payload request you have sent to me is unknown and does not look like what the API is expected. \n \nDo you send it as multipart/form-data , it should be formed like a JSON body . \n \n\n\n \n \n \nAbraham ( FedEx I.T ) \n \nBest Regards/Cordialement \n \nAbraham Aitgougam | CT Specialist-Senior (ID) | IT Customer Integrations",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56705869520281,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "keerthishree@pluginhive.com",
+            "name": "Keerthi",
+            "original_recipients": [
+              "aait-gougam@fedex.com",
+              "keerthishree@pluginhive.com",
+              "sibi@pluginhive.com",
+              "sgrosperrin@fedex.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com",
+              "touseef@pluginhive.com",
+              "vimal@pluginhive.com",
+              "sanoop@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-06T11:34:20Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CH3PR12MB823566B63990E2D766E8BE6BE95DA@CH3PR12MB8235.namprd12.prod.outlook.com>",
+          "email_id": "01KNH94Q7PGZ0VF4P1KMZVH1FH",
+          "raw_email_identifier": "2369120/d94595e6-2115-4cc0-8bfa-13dcf6d6426c.eml",
+          "json_email_identifier": "2369120/d94595e6-2115-4cc0-8bfa-13dcf6d6426c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          388269142331
+        ]
+      }
+    },
+    {
+      "id": 56706648660761,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Hello Abraham,\n\n\nThank you for your response, we appreciate it.\n\n\n\nOur technical team will get back to you on this shortly.\n\n\n\nBest regards,\n\nKeerthi\n\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hello Abraham,<div><br></div><div>Thank you for your response, we appreciate it.</div><div><br></div><div>Our technical team will get back to you on this shortly.</div><div><br></div><div>Best regards,</div><div>Keerthi</div><div>Team PluginHive<br></div></div>",
+      "plain_body": "Hello Abraham, \n  Thank you for your response, we appreciate it.  \n  Our technical team will get back to you on this shortly.  \n  Best regards,  Keerthi  Team PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56706648660633,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "keerthishree@pluginhive.com",
+            "name": "Keerthi",
+            "original_recipients": [
+              "keerthishree@pluginhive.com",
+              "aait-gougam@fedex.com",
+              "sibi@pluginhive.com",
+              "sgrosperrin@fedex.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com",
+              "touseef@pluginhive.com",
+              "vimal@pluginhive.com",
+              "sanoop@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-06T12:10:01Z",
+      "metadata": {
+        "system": {
+          "message_id": "<900BC87A-0345-4BC9-AA41-401787705844@pluginhive.com>",
+          "client": "Apple Mail (2.3731.700.6)",
+          "email_id": "01KNHB63HYXP75JZEZZ6CE7W19",
+          "raw_email_identifier": "2369120/b5fcbb67-b668-45e5-a048-b514793ef656.eml",
+          "json_email_identifier": "2369120/b5fcbb67-b668-45e5-a048-b514793ef656.json",
+          "eml_redacted": false,
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56709030259225,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Hello Abraham,\n\nThis is Veena from the PluginHive team.\n\nWe tested uploading documents using the same payload in the sandbox environment, and it returned a successful response. However, the same request in production is not working as expected. I’ve attached the latest request and response from the production case for your reference.\n\nCould you please advise on how to proceed?\n\nRegards,\nVeena\nTeam PluginHive\n\nRequest:\n\n\"documentInformation  \" : {\n\n    \"workflowName  \": \"ETDPostshipment  \",\n\n    \"carrierCode  \": \"FDXE  \",\n\n    \"originCountryCode  \": \"FR  \",\n\n    \"destinationCountryCode  \": \"US  \",\n\n    \"trackingNumber  \": \"870259913294  \",\n\n    \"shipmentDate  \": \"2026-04-02T15:46:30  \",\n\n    \"metaData  \": [\n\n        {\n\n            \"fileName  \": \"Footwear_declaration_40002 (2).pdf  \",\n\n            \"contentType  \": \"application/pdf  \",\n\n            \"shipDocumentType  \": \"OTHER  \"\n\n        }\n\n    ]\n\n}\n\nResponse:\n\n{\n\n    \"error\": {\n\n        \"customerTransactionId\": \"\",\n\n        \"transactionId\": \"f5f736a7-4a78-4228-94ae-ef639f2b8387\",\n\n        \"errors\": [\n\n            {\n\n                \"code\": \"SERVICE.NOT.AVAILABLE\",\n\n                \"message\": \"Enterprise Document Upload Service Unavailable\",\n\n                \"DetailMessage\": \"\"\n\n            }\n\n        ]\n\n    }\n\n}\n\n\n\n> On 6 Apr 2026, at 5:39 PM, Keerthi <keerthishree@pluginhive.com> wrote:\n>\n>\n> Hello Abraham,\n>\n>\n> Thank you for your response, we appreciate it.\n>\n>\n>\n> Our technical team will get back to you on this shortly.\n>\n>\n>\n> Best regards,\n>\n> Keerthi\n>\n> Team PluginHive\n>\n>\n>\n> > On 06-Apr-2026, at 5:03 PM, Abraham Ait Gougam <aait-gougam@fedex.com> wrote:\n> >\n> >\n> > Hello Keerthi\n> >\n> > This is Easter Monday in France and we are out of the office, I can review that again for you tomorrow.\n> >\n> >\n> >\n> > In my last verification,The API Doc Upload is activated on this account .\n> >\n> > Still , the content of the  payload request you have sent to me is unknown and does not look like what the API is expected.\n> >\n> > Do you send it as multipart/form-data , it should be formed like a JSON body .\n> >\n> >\n> >\n> > Abraham ( FedEx I.T )\n> >\n> > **Best Regards/Cordialement**\n> >\n> > **Abraham Aitgougam** | CT Specialist-Senior (ID) | IT Customer Integrations\n> >\n> >\n> >\n> > * * *\n> >\n> > **From:** Keerthi <keerthishree@pluginhive.com>\n> > **Sent:** Monday, April 6, 2026 1:21:24 PM\n> > **To:** sibi@pluginhive.com <sibi@pluginhive.com>\n> > **Cc:** Abraham Ait Gougam <aait-gougam@fedex.com>; Stephane Grosperrin <sgrosperrin@fedex.com>; Veena <veena@pluginhive.com>; PluginHive <support@pluginhive.com>; touseef@pluginhive.com <touseef@pluginhive.com>; vimal <vimal@pluginhive.com>; Sanoop <sanoop@pluginhive.com>\n> > **Subject:** Re: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature\n> >\n> >\n> > Hello Abraham,\n> >\n> >\n> > Good day!\n> >\n> >\n> >\n> > The problem seems to be with Auto Upload documents.\n> >\n> >\n> >\n> > Could you please confirm whether the customer’s FedEx account is authorized to access the following endpoint (REST API)?\n> >\n> > https://documentapi.prod.fedex.com/documents/v1/etds/multiupload\n> >\n> >\n> >\n> > We request your confirmation on this at the earliest.\n> >\n> >\n> >\n> > Looking forward to your response.\n> >\n> >\n> >\n> > Best regards,\n> >\n> > Keerthi\n> >\n> > Team PluginHive",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">Hello Abraham,</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">This is Veena from the PluginHive team.</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">We tested uploading documents using the same payload in the sandbox environment, and it returned a successful response. However, the same request in production is not working as expected. I’ve attached the latest request and response from the production case for your reference.</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">Could you please advise on how to proceed?</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">Regards,<br>Veena<br>Team PluginHive</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">Request:</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">\"documentInformation &nbsp;\" : {</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; \"workflowName &nbsp;\": \"ETDPostshipment &nbsp;\",</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; \"carrierCode &nbsp;\": \"FDXE &nbsp;\",</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; \"originCountryCode &nbsp;\": \"FR &nbsp;\",</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; \"destinationCountryCode &nbsp;\": \"US &nbsp;\",</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; \"trackingNumber &nbsp;\": \"870259913294 &nbsp;\",</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; \"shipmentDate &nbsp;\": \"2026-04-02T15:46:30 &nbsp;\",</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; \"metaData &nbsp;\": [</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; {</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"fileName &nbsp;\": \"Footwear_declaration_40002 (2).pdf &nbsp;\",</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"contentType &nbsp;\": \"application/pdf &nbsp;\",</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"shipDocumentType &nbsp;\": \"OTHER &nbsp;\"</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; }</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; ]</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">}</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\"><br></p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">Response:</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">{</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; \"error\": {</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; \"customerTransactionId\": \"\",</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; \"transactionId\": \"f5f736a7-4a78-4228-94ae-ef639f2b8387\",</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; \"errors\": [</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"code\": \"SERVICE.NOT.AVAILABLE\",</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"message\": \"Enterprise Document Upload Service Unavailable\",</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"DetailMessage\": \"\"</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; &nbsp; &nbsp; ]</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">&nbsp; &nbsp; }</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">}</p><div><br><blockquote><div>On 6 Apr 2026, at 5:39 PM, Keerthi &lt;keerthishree@pluginhive.com&gt; wrote:</div><br><div><div style=\"overflow-wrap: break-word; line-break: after-white-space;\">Hello Abraham,<div><br></div><div>Thank you for your response, we appreciate it.</div><div><br></div><div>Our technical team will get back to you on this shortly.</div><div><br></div><div>Best regards,</div><div>Keerthi</div><div>Team PluginHive<br><div><br><blockquote><div>On 06-Apr-2026, at 5:03 PM, Abraham Ait Gougam &lt;aait-gougam@fedex.com&gt; wrote:</div><br><div>\n\n<div>\n<div dir=\"ltr\" style=\" font-size: 12pt;\">\nHello Keerthi</div>\n<div dir=\"ltr\" style=\" font-size: 12pt;\">\nThis is Easter Monday in France and we are out of the office, I can review that again for you tomorrow.</div>\n<div dir=\"ltr\" style=\" font-size: 12pt;\">\n<br>\n</div>\n<div dir=\"ltr\" style=\" font-size: 12pt;\">\nIn my last verification,The API Doc Upload is activated on this account .</div>\n<div dir=\"ltr\" style=\" font-size: 12pt;\">\nStill , the content of the &nbsp;payload request you have sent to me is unknown and does not look like what the API is expected.</div>\n<div dir=\"ltr\" style=\" font-size: 12pt;\">\nDo you send it as multipart/form-data , it should be formed like a JSON body .</div>\n<div style=\" font-size: 12pt;\" dir=\"ltr\">\n<br>\n</div>\n<div style=\" font-size: 12pt;\"><div style=\"text-align: left; text-indent: 0px; text-transform: none; font-size: 12pt; margin: 0px;\" align=\"left\">\n<span style=\"font-size: 16pt; color: rgb(33, 33, 33);\">Abraham ( FedEx I.T )</span></div><div style=\"text-align: left; text-indent: 0px; text-transform: none; font-size: 12pt; margin: 0px;\" align=\"left\">\n<span><b>Best Regards/Cordialement</b></span></div><div style=\"text-align: left; text-indent: 0px; text-transform: none; font-size: 12pt; margin: 0px;\" align=\"left\">\n<span><b>Abraham Aitgougam </b>| CT Specialist-Senior (ID) | IT Customer Integrations</span></div>\n<div dir=\"ltr\" style=\" font-size: 12pt; color: rgb(33, 33, 33);\">\n<br>\n</div>\n</div>\n<hr style=\"display: inline-block; width: 98%;\">\n<div dir=\"ltr\"><font style=\"font-size: 11pt;\"><b>From:</b> Keerthi &lt;keerthishree@pluginhive.com&gt;<br>\n<b>Sent:</b> Monday, April 6, 2026 1:21:24 PM<br>\n<b>To:</b> sibi@pluginhive.com &lt;sibi@pluginhive.com&gt;<br>\n<b>Cc:</b> Abraham Ait Gougam &lt;aait-gougam@fedex.com&gt;; Stephane Grosperrin &lt;sgrosperrin@fedex.com&gt;; Veena &lt;veena@pluginhive.com&gt;; PluginHive &lt;support@pluginhive.com&gt;; touseef@pluginhive.com &lt;touseef@pluginhive.com&gt;; vimal &lt;vimal@pluginhive.com&gt;; Sanoop &lt;sanoop@pluginhive.com&gt;<br>\n<b>Subject:</b> Re: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature</font>\n<div>&nbsp;</div>\n</div>\n<div style=\"line-break: after-white-space;\">Hello Abraham,\n<div><br>\n</div>\n<div>Good day!</div>\n<div><br>\n</div>\n<div>The problem seems to be with Auto Upload documents.&nbsp;</div>\n<div><br>\n</div>\n<div>Could you please confirm whether the customer’s FedEx account is authorized to access the following endpoint (REST API)?</div>\n<div><a href=\"https://documentapi.prod.fedex.com/documents/v1/etds/multiupload\" rel=\"noreferrer\">https://documentapi.prod.fedex.com/documents/v1/etds/multiupload</a></div>\n<div><br>\n</div>\n<div>We request your confirmation on this at the earliest.&nbsp;</div>\n<div><br>\n</div>\n<div>Looking forward to your response.</div>\n<div><br>\n</div>\n<div>Best regards,</div>\n<div>Keerthi</div>\n<div>Team PluginHive</div>\n\n</div>\n</div>\n\n</div></blockquote></div></div></div></div></blockquote></div></div>",
+      "plain_body": "Hello Abraham,  This is Veena from the PluginHive team.  We tested uploading documents using the same payload in the sandbox environment, and it returned a successful response. However, the same request in production is not working as expected. I’ve attached the latest request and response from the production case for your reference.  Could you please advise on how to proceed?  Regards,\nVeena\nTeam PluginHive  Request:  \"documentInformation &nbsp;\" : {  &nbsp; &nbsp; \"workflowName &nbsp;\": \"ETDPostshipment &nbsp;\",  &nbsp; &nbsp; \"carrierCode &nbsp;\": \"FDXE &nbsp;\",  &nbsp; &nbsp; \"originCountryCode &nbsp;\": \"FR &nbsp;\",  &nbsp; &nbsp; \"destinationCountryCode &nbsp;\": \"US &nbsp;\",  &nbsp; &nbsp; \"trackingNumber &nbsp;\": \"870259913294 &nbsp;\",  &nbsp; &nbsp; \"shipmentDate &nbsp;\": \"2026-04-02T15:46:30 &nbsp;\",  &nbsp; &nbsp; \"metaData &nbsp;\": [  &nbsp; &nbsp; &nbsp; &nbsp; {  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"fileName &nbsp;\": \"Footwear_declaration_40002 (2).pdf &nbsp;\",  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"contentType &nbsp;\": \"application/pdf &nbsp;\",  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"shipDocumentType &nbsp;\": \"OTHER &nbsp;\"  &nbsp; &nbsp; &nbsp; &nbsp; }  &nbsp; &nbsp; ]  }  \n  Response:  {  &nbsp; &nbsp; \"error\": {  &nbsp; &nbsp; &nbsp; &nbsp; \"customerTransactionId\": \"\",  &nbsp; &nbsp; &nbsp; &nbsp; \"transactionId\": \"f5f736a7-4a78-4228-94ae-ef639f2b8387\",  &nbsp; &nbsp; &nbsp; &nbsp; \"errors\": [  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"code\": \"SERVICE.NOT.AVAILABLE\",  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"message\": \"Enterprise Document Upload Service Unavailable\",  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"DetailMessage\": \"\"  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }  &nbsp; &nbsp; &nbsp; &nbsp; ]  &nbsp; &nbsp; }  }  \n  On 6 Apr 2026, at 5:39 PM, Keerthi &lt;keerthishree@pluginhive.com&gt; wrote: \n  Hello Abraham, \n  Thank you for your response, we appreciate it.  \n  Our technical team will get back to you on this shortly.  \n  Best regards,  Keerthi  Team PluginHive\n \n  On 06-Apr-2026, at 5:03 PM, Abraham Ait Gougam &lt;aait-gougam@fedex.com&gt; wrote: \n \n\n \n \nHello Keerthi \n \nThis is Easter Monday in France and we are out of the office, I can review that again for you tomorrow. \n \n\n\n \n \nIn my last verification,The API Doc Upload is activated on this account . \n \nStill , the content of the &nbsp;payload request you have sent to me is unknown and does not look like what the API is expected. \n \nDo you send it as multipart/form-data , it should be formed like a JSON body . \n \n\n\n \n  \nAbraham ( FedEx I.T )  \nBest Regards/Cordialement  \nAbraham Aitgougam | CT Specialist-Senior (ID) | IT Customer Integrations \n \n\n\n \n \n \n From: Keerthi &lt;keerthishree@pluginhive.com&gt;\n\nSent: Monday, April 6, 2026 1:21:24 PM\n\nTo: sibi@pluginhive.com &lt;sibi@pluginhive.com&gt;\n\nCc: Abraham Ait Gougam &lt;aait-gougam@fedex.com&gt;; Stephane Grosperrin &lt;sgrosperrin@fedex.com&gt;; Veena &lt;veena@pluginhive.com&gt;; PluginHive &lt;support@pluginhive.com&gt;; touseef@pluginhive.com &lt;touseef@pluginhive.com&gt;; vimal &lt;vimal@pluginhive.com&gt;; Sanoop &lt;sanoop@pluginhive.com&gt;\n\nSubject: Re: [EXTERNAL] FedEx Rest API - Upload Additional Documents Feature\n &nbsp; \n \n Hello Abraham,\n \n\n \n Good day! \n \n\n \n The problem seems to be with Auto Upload documents.&nbsp; \n \n\n \n Could you please confirm whether the customer’s FedEx account is authorized to access the following endpoint (REST API)? \n https://documentapi.prod.fedex.com/documents/v1/etds/multiupload \n \n\n \n We request your confirmation on this at the earliest.&nbsp; \n \n\n \n Looking forward to your response. \n \n\n \n Best regards, \n Keerthi \n Team PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56708985765913,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "keerthishree@pluginhive.com",
+            "name": "Keerthi",
+            "original_recipients": [
+              "veena@pluginhive.com",
+              "keerthishree@pluginhive.com",
+              "aait-gougam@fedex.com",
+              "sibi@pluginhive.com",
+              "sgrosperrin@fedex.com",
+              "support@pluginhive.com",
+              "touseef@pluginhive.com",
+              "vimal@pluginhive.com",
+              "sanoop@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-06T14:06:20Z",
+      "metadata": {
+        "system": {
+          "message_id": "<A8700EC2-347E-49A6-B85D-35C0D08F31B0@pluginhive.com>",
+          "client": "Apple Mail (2.3826.500.181.1.5)",
+          "email_id": "01KNHHV2N5A19ANWJR49Y4DW8J",
+          "raw_email_identifier": "2369120/f85f08c4-d8f0-47bd-93d8-ed9517a51219.eml",
+          "json_email_identifier": "2369120/f85f08c4-d8f0-47bd-93d8-ed9517a51219.json",
+          "eml_redacted": false,
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          388269142331
+        ]
+      }
+    },
+    {
+      "id": 56733579125913,
+      "type": "Comment",
+      "author_id": 30719501759641,
+      "body": "Hello Veena,\n\n\n\nThank you for the payload, the error message is clear indeed.\n\n\n\nI have checked again; the Trade Document Upload API is correctly activated in SANDBOX & PRODUCTION for MASTER ( PH ) and CHILD ( SATISFY)\n\nas per account numbers and API Keys you have gently provided to me .\n\nIN general, when it is not activated, the API replies “Credentials Not Authorozied”\n\n\n\nNonetheless, the submitted document has been correctly inserted in our imaging systems, so it means that it worked after all.\n\n![](https://support.pluginhive.com/attachments/token/Aot8XY7BWfpTwLBu2n6EftDf8/?name=image001.png)\n\n**Abraham Gougam****|** Customer Solutions Specialist-Senior (ID) | IT Customer Integrations| FedEx Express,5 All. des Bas Tilliers, 92230 Gennevilliers",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">Hello Veena,</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">Thank you for the payload, the error message is clear indeed.</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">I have checked again; the Trade Document Upload API is correctly activated in SANDBOX &amp; PRODUCTION for MASTER ( PH ) and CHILD ( SATISFY)\n</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">as per account numbers and API Keys you have gently provided to me .</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">IN general, when it is not activated, the API replies “Credentials Not Authorozied”</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">Nonetheless, the submitted document has been correctly inserted in our imaging systems, so it means that it worked after all.</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><img width=\"1230\" height=\"434\" style=\"width: 12.8125in; height: 4.5208in;\" src=\"https://support.pluginhive.com/attachments/token/Aot8XY7BWfpTwLBu2n6EftDf8/?name=image001.png\"></p>\n<div>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 9.0pt; color: black; \">Abraham Gougam</span></b><b><span style=\"font-size: 10.0pt; \">\n<span>| </span></span></b><span style=\"font-size: 9.0pt; color: black; \">Customer Solutions Specialist-Senior (ID) | IT Customer Integrations</span><span style=\"font-size: 10.0pt; \">\n<span>|&nbsp;</span></span><span style=\"font-size: 9.0pt; \">FedEx Express,</span><span style=\"font-size: 10.0pt; \">\n</span><span style=\"font-size: 9.0pt; color: black; \"><a href=\"https://www.google.com/maps/place/data=!4m2!3m1!1s0x47e66f4a367c8a73:0xae6a7c61fad0b39e?sa=X&amp;ved=1t:8290&amp;ictx=111\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: black; text-decoration: none;\">5\n All. des Bas Tilliers, 92230 Gennevilliers</span></a></span><span style=\"font-size: 9.0pt; color: black; \"></span></p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n\n</div></div>",
+      "plain_body": "Hello Veena, \n &nbsp; \n Thank you for the payload, the error message is clear indeed. \n &nbsp; \n I have checked again; the Trade Document Upload API is correctly activated in SANDBOX &amp; PRODUCTION for MASTER ( PH ) and CHILD ( SATISFY)\n \n as per account numbers and API Keys you have gently provided to me . \n IN general, when it is not activated, the API replies “Credentials Not Authorozied” \n &nbsp; \n Nonetheless, the submitted document has been correctly inserted in our imaging systems, so it means that it worked after all. \n  \n \n Abraham Gougam\n| Customer Solutions Specialist-Senior (ID) | IT Customer Integrations\n|&nbsp;FedEx Express,\n5\n All. des Bas Tilliers, 92230 Gennevilliers \n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56733579125785,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "keerthishree@pluginhive.com",
+            "name": "Keerthi",
+            "original_recipients": [
+              "aait-gougam@fedex.com",
+              "veena@pluginhive.com",
+              "keerthishree@pluginhive.com",
+              "sibi@pluginhive.com",
+              "sgrosperrin@fedex.com",
+              "support@pluginhive.com",
+              "touseef@pluginhive.com",
+              "vimal@pluginhive.com",
+              "sanoop@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T07:46:08Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CH3PR12MB8235A303809E64661C887908E95AA@CH3PR12MB8235.namprd12.prod.outlook.com>",
+          "email_id": "01KNKEFMJSYC2P1Y9VSM8WK3QR",
+          "raw_email_identifier": "2369120/54b2b9aa-61d3-4651-8d6b-913137eb1580.eml",
+          "json_email_identifier": "2369120/54b2b9aa-61d3-4651-8d6b-913137eb1580.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          388269142331
+        ]
+      }
+    },
+    {
+      "id": 56736461494809,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Hello Abraham,\n\nThe document upload is successful when using the `documents/v1/etds/upload` API.\n\nYou are able to see the document because it was uploaded using this API.\n\nHowever, when we attempt to upload documents using `/documents/v1/etds/multiupload`, the upload consistently fails.\n\nThis is a critical issue, as the merchant processes a high volume of shipments daily and relies on this functionality.\n\nThe request and response payload I shared earlier is for /multiupload.\n\nCould you please assist us in identifying and resolving the issue?\n\nRegards,\nVeena\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">Hello Abraham,</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">The document upload is successful when using the&nbsp;<code dir=\"ltr\">documents/v1/etds/upload</code>&nbsp;API.</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">You are able to see the document because it was uploaded using this API.&nbsp;</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">However, when we attempt to upload documents using&nbsp;<code dir=\"ltr\">/documents/v1/etds/multiupload</code>, the upload consistently fails.</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">This is a critical issue, as the merchant processes a high volume of shipments daily and relies on this functionality.</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">The request and response payload I shared earlier is for /multiupload.</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">Could you please assist us in identifying and resolving the issue?</p><p style=\" color: rgb(0, 0, 0);\" dir=\"auto\">Regards,<br>Veena<br>Team PluginHive</p><div><div><br></div></div></div>",
+      "plain_body": "Hello Abraham,  The document upload is successful when using the&nbsp;documents/v1/etds/upload&nbsp;API.  You are able to see the document because it was uploaded using this API.&nbsp;  However, when we attempt to upload documents using&nbsp;/documents/v1/etds/multiupload, the upload consistently fails.  This is a critical issue, as the merchant processes a high volume of shipments daily and relies on this functionality.  The request and response payload I shared earlier is for /multiupload.  Could you please assist us in identifying and resolving the issue?  Regards,\nVeena\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56736461494681,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "keerthishree@pluginhive.com",
+            "name": "Keerthi",
+            "original_recipients": [
+              "veena@pluginhive.com",
+              "aait-gougam@fedex.com",
+              "keerthishree@pluginhive.com",
+              "sibi@pluginhive.com",
+              "sgrosperrin@fedex.com",
+              "support@pluginhive.com",
+              "touseef@pluginhive.com",
+              "vimal@pluginhive.com",
+              "sanoop@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T09:01:28Z",
+      "metadata": {
+        "system": {
+          "message_id": "<24A33BA9-52B2-452E-856E-E148C962F9FD@pluginhive.com>",
+          "client": "Apple Mail (2.3826.500.181.1.5)",
+          "email_id": "01KNKJSM3DJ6G7N9X03P03H9M4",
+          "raw_email_identifier": "2369120/6b42716d-d4b8-43e4-84a5-1cc0267b280f.eml",
+          "json_email_identifier": "2369120/6b42716d-d4b8-43e4-84a5-1cc0267b280f.json",
+          "eml_redacted": false,
+          "location": "Thiruvananthapuram, KL, India",
+          "latitude": 8.4832,
+          "longitude": 76.9458
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          388269142331
+        ]
+      }
+    },
+    {
+      "id": 56743869679001,
+      "type": "Comment",
+      "author_id": 30719501759641,
+      "body": "Hello Veena,\n\n\n\nSorry for my late reply we were off yesterday and got to work on a long backlog.\n\n\n\nThanks for the precsion, so only `/multiupload is failing here.`\n\n\n\nOK let me review that quickly.\n\n**Abraham Gougam****|** Customer Solutions Specialist-Senior (ID) | IT Customer Integrations| FedEx Express,5 All. des Bas Tilliers, 92230 Gennevilliers",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\">Hello Veena,</p>\n<p style=\"font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\"font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\">Sorry for my late reply we were off yesterday and got to work on a long backlog.</p>\n<p style=\"font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\"font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\">Thanks for the precsion, so only <code><span style=\"font-size: 10.0pt; color: black;\">/multiupload is failing here.</span></code></p>\n<p style=\"font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\"font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\">OK let me review that quickly.</p>\n<div>\n<p style=\" font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 9.0pt;  color: black; \">Abraham Gougam</span></b><b><span style=\"font-size: 10.0pt;  \">\n<span>| </span></span></b><span style=\"font-size: 9.0pt;  color: black; \">Customer Solutions Specialist-Senior (ID) | IT Customer Integrations</span><span style=\"font-size: 10.0pt;  \">\n<span>|&nbsp;</span></span><span style=\"font-size: 9.0pt;  \">FedEx Express,</span><span style=\"font-size: 10.0pt;  \">\n</span><span style=\"font-size: 9.0pt;  color: black; \"><a href=\"https://www.google.com/maps/place/data=!4m2!3m1!1s0x47e66f4a367c8a73:0xae6a7c61fad0b39e?sa=X&amp;ved=1t:8290&amp;ictx=111\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: black; text-decoration: none;\">5\n All. des Bas Tilliers, 92230 Gennevilliers</span></a></span><span style=\"font-size: 9.0pt;  color: black; \"></span></p>\n</div>\n<p style=\"font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n\n\n\n\n\n\n\n\n\n\n\n</div></div>",
+      "plain_body": "Hello Veena, \n &nbsp; \n Sorry for my late reply we were off yesterday and got to work on a long backlog. \n &nbsp; \n Thanks for the precsion, so only /multiupload is failing here. \n &nbsp; \n OK let me review that quickly. \n \n Abraham Gougam\n| Customer Solutions Specialist-Senior (ID) | IT Customer Integrations\n|&nbsp;FedEx Express,\n5\n All. des Bas Tilliers, 92230 Gennevilliers \n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56743869678873,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "keerthishree@pluginhive.com",
+            "name": "Keerthi",
+            "original_recipients": [
+              "aait-gougam@fedex.com",
+              "veena@pluginhive.com",
+              "keerthishree@pluginhive.com",
+              "sibi@pluginhive.com",
+              "sgrosperrin@fedex.com",
+              "support@pluginhive.com",
+              "touseef@pluginhive.com",
+              "vimal@pluginhive.com",
+              "sanoop@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T13:38:01Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CH3PR12MB8235548506581160328F71C5E95AA@CH3PR12MB8235.namprd12.prod.outlook.com>",
+          "email_id": "01KNM2M0SH80AND9T0WT3SH96C",
+          "raw_email_identifier": "2369120/a6b5bd36-4b2f-4ec9-8bf6-7aee60fe4742.eml",
+          "json_email_identifier": "2369120/a6b5bd36-4b2f-4ec9-8bf6-7aee60fe4742.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          388269142331
+        ]
+      }
+    },
+    {
+      "id": 56748083796377,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Informed Veena internally.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Informed Veena internally.<br></div>",
+      "plain_body": "Informed Veena internally.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56748094363161,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T18:20:56Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

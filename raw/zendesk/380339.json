@@ -1,0 +1,573 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/380339.json",
+    "id": 380339,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "the11mode@gmail.com",
+          "name": "Matt"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-23T09:20:08Z",
+    "updated_at": "2026-03-24T21:42:05Z",
+    "generated_timestamp": 1774388525,
+    "type": null,
+    "subject": "Re: Just Checking In — How’s Your Shipping Experience?",
+    "raw_subject": "Re: Just Checking In — How’s Your Shipping Experience?",
+    "description": "Hi Matt, \n\nThank you for your response. I am forwarding your case to our support team. They will help you with better assistance for your queries.\n\nKind Regards,\nManvi M\nPluginHive\n\n> On 22-Mar-2026, at 4:21 PM, 11MODE <support@11mode.com> wrote:\n> \n> Hi Manvi.\n> \n> Thanks for the reply.\n> \n> Speed - it is consistently 8+ seconds and I have already sent a screen recording previously. Still the same.\n> \n> Rules\n> Set Service = select and override service\n> Add Service = add service to the list but set service has authority and is only selected\n> \n> Address Update They do not update in the app, without me manually updating them.\n> \n> \n> \n> Refresh Button - see above address issue why this would be important\n> \n> Tracking not working on Shopify orders page for international Australia Post shipments (or eParcel). \"Tracking Added\". Works with Australia Post for Australian shipments.\n> \n> Changing HS Code - could add it in the edit item here:\n> \n> \n> \n> Changing Shipment Type - not for every package, only when necessary.\n> \n> \n>  <https://11mode.com/> <https://11mode.com/>\n> Instagram <https://www.instagram.com/go11mode/> | Facebook <https://www.facebook.com/goELEVENMODE/> | TikTok <https://www.tiktok.com/@go11mode> | YouTube <https://www.youtube.com/@go11MODE>{#HS:3257502206-1065#}   \n> On Mon, Mar 16, 2026 at 11:25 PM AEDT, Manvi <manvimeshram@pluginhive.com <mailto:manvimeshram@pluginhive.com>> wrote:\n>> \n>> Hi Matt, Apologies for the delay, and thank you for outlining your concerns in detail. I understand your requirements and the issues you've raised, and I have also discussed them with our support team. Concerns you highlighted:\n>> Speed - Generating a label typically takes about 1-2 seconds per label under normal circumstances. However, delays may occasionally occur due to factors such as internet connectivity, delays from the carrier, or rare instances of higher load on our end. The process should generally work efficiently, but if you are experiencing this delay consistently, please share a screen recording so our team can investigate further.\n>> Address Update - I understand that there may be situations where you need to update or change the address. Once the changes are made in the Shopify store, they should reflect in the app. If they are not reflecting, please share the Order ID or a screenshot so we can check this from our end. That said, please note that all changes must be made before generating the label.\n>> Rules - I see that you had previously reached out to our team regarding this request as well. Please note that the workflow of the \"Set Service\" functionality is designed to override all other rules and apply only the conditions configured in that specific rule. Because of this, it is not possible to display other available services when using this function. In this case, we recommend exploring the \"Add Service\" option, and our support team can assist you with the setup based on feasibility.\n>> Refresh Button & Multiple Order Selection - I understand that auto-refreshing and multiple order selection in the way you suggested would be helpful for your use case. However, at the moment, we are unable to incorporate these flows into our system due to the various use cases we need to support for different users and the potential impact of such changes. That said, if we consider these requests in the future, we will certainly keep you informed.\n>> Tracking for Australia Post - Live tracking updates are part of our Premium Plan. However, considering your case, we have enabled this feature in your current plan, and starting tomorrow you will be able to see the tracking updates on the Shopify order.\n>> Changing HS Code - We may already have a solution for this request. Our team would like to connect with you over a call to better understand your exact requirements and assist you further.\n>> Changing Shipment Type - You can change the shipment type for orders by following these steps:\n>> App Settings → Carriers → Select Carrier → Additional Settings → Classification Type Kindly share the recordings related to the speed issue and the address update concern. I will schedule a call and help you resolve your query. Best Regards, Manvi M PluginHive\n>> \n>> On Mon, Mar 16, 2026 at 8:00 AM AEDT, 11MODE <support@11mode.com <mailto:support@11mode.com>> wrote:\n>>> \n>>> Hi Manvi,\n>>> \n>>> Since you asked, there actually are a few things we noticed / gave feedback on / are waiting on / can suggest improvements on. We've previously asked and submitted tickets for some of these already.\n>>> Speed - slower than other apps (bulk takes 9 seconds a label whereas other apps take seconds for 10s of labels)\n>>> Rules - \"Set service\" should override all options and set the service. \"Add service\" should add the service as an option but not force it selected\n>>> Does not update address if changed in Shopify order page without doing it manually\n>>> Refresh button - too cumbersome to set labels to active then redo again\n>>> Tracking with Australia Post does not work in Shopify Orders page anymore (only shows \"tracking added\")\n>>> Allow for shift clicking multiple orders. Click top order, hold shift, click bottom order, all orders in between should select (like it does on the order page for example).\n>>> Allow for the changing of HS code of the item (next to description / weight etc.)\n>>> Allow for the changing of the shipment type (gift, return, replacement etc.)\n>>> \n>>> These are our thoughts and suggestions on ways the app could be even better, thanks!\n>>> \n>>> \n>>>  <https://11mode.com/> <https://11mode.com/>\n>>> Instagram <https://www.instagram.com/go11mode/> | Facebook <https://www.facebook.com/goELEVENMODE/> | TikTok <https://www.tiktok.com/@go11mode> | YouTube <https://www.youtube.com/@go11MODE>\n>>> On Fri, Mar 13, 2026 at 10:38 PM AEDT, Manvi <manvimeshram@pluginhive.com <mailto:manvimeshram@pluginhive.com>> wrote:\n>>>> \n>>>> Hello Matt and Team, I wanted to follow up quickly to check in and see if everything is working smoothly for you and how your experience has been with our PH Multi Carrier Shipping Label app so far. If there is anything I can help with:\n>>>> Improving workflows\n>>>> Resolving any challenges\n>>>> I would be more than happy to assist. Your feedback truly helps us improve and ensure you are getting the most out of the app. Please take a moment to \"write a review\" for us: [Click Here] <https://apps.shopify.com/multi-carrier-shipping-label/reviews> Please feel free to reply to this email and directly connect with us - support@pluginhive.com <mailto:support@pluginhive.com> Looking forward to hearing from you! Best regards, Manvi M Partnerships PluginHive\n>>>>",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 46900348163865,
+    "submitter_id": 51794070621593,
+    "assignee_id": 388269142331,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      46646990904217,
+      903409790923,
+      410186940351,
+      51794070621593
+    ],
+    "follower_ids": [
+      46646990904217,
+      903409790923,
+      410186940351,
+      51794070621593
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "last_reply_agent",
+      "other",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "95a96e-3.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69c222b6d5469a7ade2c2ac6"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "9JPVJG-M0913",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "95a96e-3.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69c222b6d5469a7ade2c2ac6"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56270938888857,
+      "type": "Comment",
+      "author_id": 51794070621593,
+      "body": "Hi Matt,\n\n\nThank you for your response. I am forwarding your case to our support team. They will help you with better assistance for your queries.\n\n\n\nKind Regards,\n\nManvi M\n\nPluginHive\n\n\n\n> On 22-Mar-2026, at 4:21 PM, 11MODE <support@11mode.com> wrote:\n>\n>\n> Hi Manvi.\n>\n> Thanks for the reply.\n>\n>\n> 1. **Speed** - it is consistently 8+ seconds and I have already sent a screen recording previously. Still the same.\n>\n>\n> 1. **Rules**\n>\n> - Set Service = select and override service\n> - Add Service = add service to the list but set service has authority and is only selected\n>\n>\n> 1. **Address Update** They do not update in the app, without me manually updating them.\n>\n> ![](https://d33v4339jhl8k0.cloudfront.net/inline/200382/e05f5c172dd04435427af7ca3eae738ebfa01171/755275477762f6ff453abee3367236311b251444/Address.png)\n>\n>\n>\n> 1. **Refresh Button** - see above address issue why this would be important\n>\n>\n> 1. **Tracking** not working on Shopify orders page for international Australia Post shipments (or eParcel). \"Tracking Added\". Works with Australia Post for Australian shipments.\n>\n>\n> - **Changing HS Code** - could add it in the edit item here:\n>\n> ![](https://d33v4339jhl8k0.cloudfront.net/inline/200382/5db10bea44680b1ce36e76f551bc92489bafb846/290883b37c318d8946b5b26c27bffae82c69c147/HS.png)\n>\n>\n>\n> - **Changing Shipment Type** - not for every package, only when necessary.\n>\n>\n>\n> ![11MODE](https://11mode.com/cdn/shop/files/Logo_Light_1000.png)\n> Instagram | Facebook | TikTok | YouTube\n> {#HS:3257502206-1065#} ![](https://secure.helpscout.net/notification/convo/read/3257502206/9940849100/)\n>\n> On Mon, Mar 16, 2026 at 11:25 PM AEDT, Manvi <manvimeshram@pluginhive.com> wrote:\n>\n> > Hi Matt, Apologies for the delay, and thank you for outlining your concerns in detail. I understand your requirements and the issues you've raised, and I have also discussed them with our support team.**Concerns you highlighted:**\n> > - **Speed** - Generating a label typically takes about 1-2 seconds per label under normal circumstances. However, delays may occasionally occur due to factors such as internet connectivity, delays from the carrier, or rare instances of higher load on our end. The process should generally work efficiently, but if you are experiencing this delay consistently, please share a screen recording so our team can investigate further.\n> >\n> > - **Address Update** - I understand that there may be situations where you need to update or change the address. Once the changes are made in the Shopify store, they should reflect in the app. If they are not reflecting, please share the Order ID or a screenshot so we can check this from our end. That said, please note that all changes must be made before **generating the label.**\n> >\n> > - **Rules** - I see that you had previously reached out to our team regarding this request as well. Please note that the workflow of the **\"Set Service\"** functionality is designed to override all other rules and apply only the conditions configured in that specific rule. Because of this, it is not possible to display other available services when using this function. In this case, we recommend exploring the **\"Add Service\"** option, and our support team can assist you with the setup based on feasibility.\n> >\n> > - **Refresh Button & Multiple Order Selection** - I understand that auto-refreshing and multiple order selection in the way you suggested would be helpful for your use case. However, at the moment, we are unable to incorporate these flows into our system due to the various use cases we need to support for different users and the potential impact of such changes. That said, if we consider these requests in the future, we will certainly keep you informed.\n> >\n> > - **Tracking for Australia Post** - Live tracking updates are part of our Premium Plan. However, considering your case, we have enabled this feature in your current plan, and starting tomorrow you will be able to see the tracking updates on the Shopify order.\n> >\n> > - **Changing HS Code** - We may already have a solution for this request. Our team would like to connect with you over a call to better understand your exact requirements and assist you further.\n> >\n> > - **Changing Shipment Type** - You can change the shipment type for orders by following these steps:\n> > App Settings → Carriers → Select Carrier → Additional Settings → Classification Type Kindly share the recordings related to the speed issue and the address update concern. I will schedule a call and help you resolve your query. Best Regards, Manvi M PluginHive\n> >\n> >\n> > On Mon, Mar 16, 2026 at 8:00 AM AEDT, 11MODE <support@11mode.com> wrote:\n> >\n> > > Hi Manvi,\n> > >\n> > > Since you asked, there actually are a few things we noticed / gave feedback on / are waiting on / can suggest improvements on. We've previously asked and submitted tickets for some of these already.\n> > >\n> > > 1. Speed - slower than other apps (bulk takes 9 seconds a label whereas other apps take seconds for 10s of labels)\n> > > 2. Rules - \"Set service\" should override all options and set the service. \"Add service\" should add the service as an option but not force it selected\n> > > 3. Does not update address if changed in Shopify order page without doing it manually\n> > > 4. Refresh button - too cumbersome to set labels to active then redo again\n> > > 5. Tracking with Australia Post does not work in Shopify Orders page anymore (only shows \"tracking added\")\n> > > 6. Allow for shift clicking multiple orders. Click top order, hold shift, click bottom order, all orders in between should select (like it does on the order page for example).\n> > > 7. Allow for the changing of HS code of the item (next to description / weight etc.)\n> > > 8. Allow for the changing of the shipment type (gift, return, replacement etc.)\n> > >\n> > > These are our thoughts and suggestions on ways the app could be even better, thanks!\n> > >\n> > >\n> > >\n> > > ![11MODE](https://11mode.com/cdn/shop/files/Logo_Light_1000.png)\n> > > Instagram | Facebook | TikTok | YouTube\n> > > On Fri, Mar 13, 2026 at 10:38 PM AEDT, Manvi <manvimeshram@pluginhive.com> wrote:\n> > >\n> > > > Hello Matt and Team, I wanted to follow up quickly to check in and see if everything is working smoothly for you and how your experience has been with our PH Multi Carrier Shipping Label app so far. If there is anything I can help with:\n> > > > - Improving workflows\n> > > > - Resolving any challenges\n> > > > I would be more than happy to assist. Your feedback truly helps us improve and ensure you are getting the most out of the app. Please take a moment to \"write a review\" for us: [Click Here]Please feel free to reply to this email and directly connect with us - support@pluginhive.comLooking forward to hearing from you! Best regards, Manvi M Partnerships PluginHive",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Matt,&nbsp;<div><br></div><div>Thank you for your response. I am forwarding your case to our support team. They will help you with better assistance for your queries.</div><div><br></div><div>Kind Regards,</div><div>Manvi M</div><div>PluginHive<br><div><br><blockquote><div>On 22-Mar-2026, at 4:21 PM, 11MODE &lt;<a href=\"mailto:support@11mode.com\" rel=\"noreferrer\">support@11mode.com</a>&gt; wrote:</div><br><div>\n\n<div style=\"background-color: #ffffff\">\n<div>\n <div>\n \n <div>Hi Manvi.<br><br>Thanks for the reply.<br><br><ol dir=\"auto\"><li><b>Speed</b> - it is consistently 8+ seconds and I have already sent a screen recording previously. Still the same.<br></li></ol><br><ol start=\"2\" dir=\"auto\"><li><b>Rules</b><br></li></ol><ul dir=\"auto\"><ul dir=\"auto\"><li>Set Service = select and override service<br></li><li>Add Service = add service to the list but set service has authority and is only selected<br></li></ul></ul><br><ol start=\"3\" dir=\"auto\"><li><b>Address Update</b> They do not update in the app, without me manually updating them.<br></li></ol><p dir=\"auto\"><img src=\"https://d33v4339jhl8k0.cloudfront.net/inline/200382/e05f5c172dd04435427af7ca3eae738ebfa01171/755275477762f6ff453abee3367236311b251444/Address.png\" style=\"width: 320px;\"></p><br><ol start=\"4\" dir=\"auto\"><li><b>Refresh Button</b> - see above address issue why this would be important<br></li></ol><br><ol start=\"5\" dir=\"auto\"><li><b>Tracking</b> not working on Shopify orders page for international Australia Post shipments (or eParcel). \"Tracking Added\". Works with Australia Post for Australian shipments.<br></li></ol><br><ul dir=\"auto\"><li><b>Changing HS Code</b> - could add it in the edit item here:<br></li></ul><p dir=\"auto\"><img src=\"https://d33v4339jhl8k0.cloudfront.net/inline/200382/5db10bea44680b1ce36e76f551bc92489bafb846/290883b37c318d8946b5b26c27bffae82c69c147/HS.png\" style=\"width: 508px;\"></p><br><ul dir=\"auto\"><li><b>Changing Shipment Type</b> - not for every package, only when necessary.<br></li></ul></div><br>\n <br><a href=\"https://11mode.com/\" rel=\"noreferrer\"></a><a href=\"https://11mode.com/\" rel=\"noreferrer\"><img src=\"https://11mode.com/cdn/shop/files/Logo_Light_1000.png\" alt=\"11MODE\" style=\"width: 236px;\"></a><br><a href=\"https://www.instagram.com/go11mode/\" rel=\"noreferrer\">Instagram</a> | <a href=\"https://www.facebook.com/goELEVENMODE/\" rel=\"noreferrer\">Facebook</a> | <a href=\"https://www.tiktok.com/@go11mode\" rel=\"noreferrer\">TikTok</a> | <a href=\"https://www.youtube.com/@go11MODE\" rel=\"noreferrer\">YouTube</a>\n </div>\n <span height=\"0\" style=\"font-size: 0px; height: 0px; line-height: 0px; color: #ffffff;\">{#HS:3257502206-1065#}</span>\n <img src=\"https://secure.helpscout.net/notification/convo/read/3257502206/9940849100/\" alt=\"\"> <br>\n</div>\n\n<div>\n <div>\n\tOn Mon, Mar 16, 2026 at 11:25 PM AEDT, Manvi &lt;<a href=\"mailto:manvimeshram@pluginhive.com\" rel=\"noreferrer\">manvimeshram@pluginhive.com</a>&gt; wrote:\n<blockquote style=\"border-left-width: 1px; border-left-color: #cccccc; border-left-style: solid; padding-left: 1ex; margin: 0 0 0 .8ex;\">\n <div>\n <div>Hi Matt,\n\nApologies for the delay, and thank you for outlining your concerns in detail. I understand your requirements and the issues you've raised, and I have also discussed them with our support team.\n\n<strong>Concerns you highlighted:</strong>\n\n<ul dir=\"auto\">\n<li><strong>Speed</strong> - Generating a label typically takes about 1-2 seconds per label under normal circumstances. However, delays may occasionally occur due to factors such as internet connectivity, delays from the carrier, or rare instances of higher load on our end. The process should generally work efficiently, but if you are experiencing this delay consistently, please share a screen recording so our team can investigate further.</li>\n</ul>\n\n<ul dir=\"auto\">\n<li><strong>Address Update</strong> - I understand that there may be situations where you need to update or change the address. Once the changes are made in the Shopify store, they should reflect in the app. If they are not reflecting, please share the Order ID or a screenshot so we can check this from our end. That said, please note that all changes must be made before <strong>generating the label.</strong></li>\n</ul>\n\n<ul dir=\"auto\">\n<li><strong>Rules</strong> - I see that you had previously reached out to our team regarding this request as well. Please note that the workflow of the <strong>\"Set Service\"</strong> functionality is designed to override all other rules and apply only the conditions configured in that specific rule. Because of this, it is not possible to display other available services when using this function. In this case, we recommend exploring the <strong>\"Add Service\"</strong> option, and our support team can assist you with the setup based on feasibility.</li>\n</ul>\n\n<ul dir=\"auto\">\n<li><strong>Refresh Button &amp; Multiple Order Selection</strong> - I understand that auto-refreshing and multiple order selection in the way you suggested would be helpful for your use case. However, at the moment, we are unable to incorporate these flows into our system due to the various use cases we need to support for different users and the potential impact of such changes. That said, if we consider these requests in the future, we will certainly keep you informed.</li>\n</ul>\n\n<ul dir=\"auto\">\n<li><strong>Tracking for Australia Post</strong> - Live tracking updates are part of our Premium Plan. However, considering your case, we have enabled this feature in your current plan, and starting tomorrow you will be able to see the tracking updates on the Shopify order.</li>\n</ul>\n\n<ul dir=\"auto\">\n<li><strong>Changing HS Code</strong> - We may already have a solution for this request. Our team would like to connect with you over a call to better understand your exact requirements and assist you further.</li>\n</ul>\n\n<ul dir=\"auto\">\n<li><strong>Changing Shipment Type</strong> - You can change the shipment type for orders by following these steps:</li>\n</ul>\n\nApp Settings → Carriers → Select Carrier → Additional Settings → Classification Type\n\nKindly share the recordings related to the speed issue and the address update concern. I will schedule a call and help you resolve your query.\n\nBest Regards,\nManvi M\nPluginHive</div>\n <br>\n <div>\n\tOn Mon, Mar 16, 2026 at 8:00 AM AEDT, 11MODE &lt;<a href=\"mailto:support@11mode.com\" rel=\"noreferrer\">support@11mode.com</a>&gt; wrote:\n<blockquote style=\"border-left-width: 1px; border-left-color: #cccccc; border-left-style: solid; padding-left: 1ex; margin: 0 0 0 .8ex;\">\n <div>\n <div>Hi Manvi,<br><br>Since you asked, there actually are a few things we noticed / gave feedback on / are waiting on / can suggest improvements on. We've previously asked and submitted tickets for some of these already.<br><ol dir=\"auto\"><li>Speed - slower than other apps (bulk takes 9 seconds a label whereas other apps take seconds for 10s of labels)<br></li><li>Rules - \"Set service\" should override all options and set the service. \"Add service\" should add the service as an option but not force it selected<br></li><li>Does not update address if changed in Shopify order page without doing it manually<br></li><li>Refresh button - too cumbersome to set labels to active then redo again<br></li><li>Tracking with Australia Post does not work in Shopify Orders page anymore (only shows \"tracking added\")<br></li><li>Allow for shift clicking multiple orders. Click top order, hold shift, click bottom order, all orders in between should select (like it does on the order page for example).<br></li><li>Allow for the changing of HS code of the item (next to description / weight etc.)<br></li><li>Allow for the changing of the shipment type (gift, return, replacement etc.)<br></li></ol><br>These are our thoughts and suggestions on ways the app could be even better, thanks!<br></div><br>\n <br><a href=\"https://11mode.com/\" rel=\"noreferrer\"></a><a href=\"https://11mode.com/\" rel=\"noreferrer\"><img src=\"https://11mode.com/cdn/shop/files/Logo_Light_1000.png\" alt=\"11MODE\" style=\"width: 236px;\"></a><br><a href=\"https://www.instagram.com/go11mode/\" rel=\"noreferrer\">Instagram</a> | <a href=\"https://www.facebook.com/goELEVENMODE/\" rel=\"noreferrer\">Facebook</a> | <a href=\"https://www.tiktok.com/@go11mode\" rel=\"noreferrer\">TikTok</a> | <a href=\"https://www.youtube.com/@go11MODE\" rel=\"noreferrer\">YouTube</a>\n <div>\n\tOn Fri, Mar 13, 2026 at 10:38 PM AEDT, Manvi &lt;<a href=\"mailto:manvimeshram@pluginhive.com\" rel=\"noreferrer\">manvimeshram@pluginhive.com</a>&gt; wrote:\n<blockquote style=\"border-left-width: 1px; border-left-color: #cccccc; border-left-style: solid; padding-left: 1ex; margin: 0 0 0 .8ex;\">\n <div>\n <div>Hello Matt and Team,\n\nI wanted to follow up quickly to check in and see if everything is working smoothly for you and how your experience has been with our PH Multi Carrier Shipping Label app so far.\n\nIf there is anything I can help with:\n<ul dir=\"auto\">\n<li>Improving workflows</li>\n<li>Resolving any challenges</li>\n</ul>\nI would be more than happy to assist.\n\nYour feedback truly helps us improve and ensure you are getting the most out of the app. Please take a moment to \"write a review\" for us: <a href=\"https://apps.shopify.com/multi-carrier-shipping-label/reviews\" rel=\"noreferrer\">[Click Here]</a>\n\nPlease feel free to reply to this email and directly connect with us - <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>\n\nLooking forward to hearing from you!\n\nBest regards,\nManvi M\nPartnerships\nPluginHive</div>\n <br>\n </div>\n</blockquote>\n\n</div>\n\n</div>\n</blockquote>\n\n</div>\n\n</div>\n</blockquote>\n\n</div>\n\n</div>\n</div>\n\n</div></blockquote></div><br></div></div>",
+      "plain_body": "Hi Matt,&nbsp; \n  Thank you for your response. I am forwarding your case to our support team. They will help you with better assistance for your queries.  \n  Kind Regards,  Manvi M  PluginHive\n \n  On 22-Mar-2026, at 4:21 PM, 11MODE &lt;support@11mode.com&gt; wrote: \n \n\n \n \n  \n \n  Hi Manvi.\n\nThanks for the reply.\n\n  Speed - it is consistently 8+ seconds and I have already sent a screen recording previously. Still the same.\n  \n  Rules\n     Set Service = select and override service\n  Add Service = add service to the list but set service has authority and is only selected\n   \n  Address Update They do not update in the app, without me manually updating them.\n    \n  Refresh Button - see above address issue why this would be important\n  \n  Tracking not working on Shopify orders page for international Australia Post shipments (or eParcel). \"Tracking Added\". Works with Australia Post for Australian shipments.\n  \n  Changing HS Code - could add it in the edit item here:\n    \n  Changing Shipment Type - not for every package, only when necessary.\n   \n\n \n\nInstagram | Facebook | TikTok | YouTube\n  \n {#HS:3257502206-1065#}\n  \n\n \n\n \n  \n\tOn Mon, Mar 16, 2026 at 11:25 PM AEDT, Manvi &lt;manvimeshram@pluginhive.com&gt; wrote:\n \n  \n  Hi Matt,\n\nApologies for the delay, and thank you for outlining your concerns in detail. I understand your requirements and the issues you've raised, and I have also discussed them with our support team.\n\nConcerns you highlighted:\n\n \n Speed - Generating a label typically takes about 1-2 seconds per label under normal circumstances. However, delays may occasionally occur due to factors such as internet connectivity, delays from the carrier, or rare instances of higher load on our end. The process should generally work efficiently, but if you are experiencing this delay consistently, please share a screen recording so our team can investigate further. \n \n\n \n Address Update - I understand that there may be situations where you need to update or change the address. Once the changes are made in the Shopify store, they should reflect in the app. If they are not reflecting, please share the Order ID or a screenshot so we can check this from our end. That said, please note that all changes must be made before generating the label. \n \n\n \n Rules - I see that you had previously reached out to our team regarding this request as well. Please note that the workflow of the \"Set Service\" functionality is designed to override all other rules and apply only the conditions configured in that specific rule. Because of this, it is not possible to display other available services when using this function. In this case, we recommend exploring the \"Add Service\" option, and our support team can assist you with the setup based on feasibility. \n \n\n \n Refresh Button &amp; Multiple Order Selection - I understand that auto-refreshing and multiple order selection in the way you suggested would be helpful for your use case. However, at the moment, we are unable to incorporate these flows into our system due to the various use cases we need to support for different users and the potential impact of such changes. That said, if we consider these requests in the future, we will certainly keep you informed. \n \n\n \n Tracking for Australia Post - Live tracking updates are part of our Premium Plan. However, considering your case, we have enabled this feature in your current plan, and starting tomorrow you will be able to see the tracking updates on the Shopify order. \n \n\n \n Changing HS Code - We may already have a solution for this request. Our team would like to connect with you over a call to better understand your exact requirements and assist you further. \n \n\n \n Changing Shipment Type - You can change the shipment type for orders by following these steps: \n \n\nApp Settings → Carriers → Select Carrier → Additional Settings → Classification Type\n\nKindly share the recordings related to the speed issue and the address update concern. I will schedule a call and help you resolve your query.\n\nBest Regards,\nManvi M\nPluginHive \n \n\n  \n\tOn Mon, Mar 16, 2026 at 8:00 AM AEDT, 11MODE &lt;support@11mode.com&gt; wrote:\n \n  \n  Hi Manvi,\n\nSince you asked, there actually are a few things we noticed / gave feedback on / are waiting on / can suggest improvements on. We've previously asked and submitted tickets for some of these already.\n  Speed - slower than other apps (bulk takes 9 seconds a label whereas other apps take seconds for 10s of labels)\n  Rules - \"Set service\" should override all options and set the service. \"Add service\" should add the service as an option but not force it selected\n  Does not update address if changed in Shopify order page without doing it manually\n  Refresh button - too cumbersome to set labels to active then redo again\n  Tracking with Australia Post does not work in Shopify Orders page anymore (only shows \"tracking added\")\n  Allow for shift clicking multiple orders. Click top order, hold shift, click bottom order, all orders in between should select (like it does on the order page for example).\n  Allow for the changing of HS code of the item (next to description / weight etc.)\n  Allow for the changing of the shipment type (gift, return, replacement etc.)\n  \nThese are our thoughts and suggestions on ways the app could be even better, thanks!\n \n\n \n\nInstagram | Facebook | TikTok | YouTube\n  \n\tOn Fri, Mar 13, 2026 at 10:38 PM AEDT, Manvi &lt;manvimeshram@pluginhive.com&gt; wrote:\n \n  \n  Hello Matt and Team,\n\nI wanted to follow up quickly to check in and see if everything is working smoothly for you and how your experience has been with our PH Multi Carrier Shipping Label app so far.\n\nIf there is anything I can help with:\n \n Improving workflows \n Resolving any challenges \n \nI would be more than happy to assist.\n\nYour feedback truly helps us improve and ensure you are getting the most out of the app. Please take a moment to \"write a review\" for us: [Click Here]\n\nPlease feel free to reply to this email and directly connect with us - support@pluginhive.com\n\nLooking forward to hearing from you!\n\nBest regards,\nManvi M\nPartnerships\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56270938888729,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "the11mode@gmail.com",
+            "name": "Matt",
+            "original_recipients": [
+              "manvimeshram@pluginhive.com",
+              "support@11mode.com",
+              "abhilash@pluginhive.com",
+              "vimal@pluginhive.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T09:20:08Z",
+      "metadata": {
+        "system": {
+          "message_id": "<AFE9F301-BC04-4159-9F28-519761F5AC29@pluginhive.com>",
+          "client": "Apple Mail (2.3696.120.41.1.10)",
+          "email_id": "01KMCZX3A6K2FF41J129YJHXC8",
+          "raw_email_identifier": "2369120/172bbebe-0383-481c-baf4-ba043bfc1b44.eml",
+          "json_email_identifier": "2369120/172bbebe-0383-481c-baf4-ba043bfc1b44.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56271151036441,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "**Queries shared by the customer:**\n\n\n1. Bulk label generation speed is consistently slow (~8+ seconds); already shared recording earlier.\n2. Assistance in Rules: _**Set Service**_ should override, _**Add Service**_ should only add without forcing selection (already explained still came with same issue)\n3. Address changes in Shopify are not syncing automatically in the app (manual update required)\n4. Explained refresh button\n5. Australia Post international tracking not reflecting on Shopify orders page (shows “Tracking Added”); works fine for domestic shipments but want for international as well\n6. Requested ability to edit **HS Code** within item section.\n7. Explained shipment type change settings.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><strong>Queries shared by the customer:</strong><br>&nbsp;<br><ol dir=\"auto\"><li>Bulk label generation speed is consistently slow (~8+ seconds); already shared recording earlier.</li><li>Assistance in Rules: <i><strong>Set Service</strong></i> should override, <i><strong>Add Service</strong></i> should only add without forcing selection (already explained still came with same issue)</li><li>Address changes in Shopify are not syncing automatically in the app (manual update required)</li><li>Explained refresh button</li><li>Australia Post international tracking not reflecting on Shopify orders page (shows “Tracking Added”); works fine for domestic shipments but want for international as well</li><li>Requested ability to edit <strong>HS Code</strong> within item section.</li><li>Explained shipment type change settings.</li></ol></div>",
+      "plain_body": "Queries shared by the customer:\n&nbsp;\n  Bulk label generation speed is consistently slow (~8+ seconds); already shared recording earlier.  Assistance in Rules: Set Service should override, Add Service should only add without forcing selection (already explained still came with same issue)  Address changes in Shopify are not syncing automatically in the app (manual update required)  Explained refresh button  Australia Post international tracking not reflecting on Shopify orders page (shows “Tracking Added”); works fine for domestic shipments but want for international as well  Requested ability to edit HS Code within item section.  Explained shipment type change settings.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56271151036313,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T09:25:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "115.99.108.2",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56271193357721,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Internal note by Manvi.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Internal note by Manvi.<br>&nbsp;<br></div>",
+      "plain_body": "Internal note by Manvi.\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56271193355033,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T09:27:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "115.99.108.2",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56276363163545,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Keerthi has already discussed with sibi he will be replying.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Keerthi has already discussed with sibi he will be replying.&nbsp;<br></div>",
+      "plain_body": "Keerthi has already discussed with sibi he will be replying.&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56276389844249,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T12:58:09Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56276616289433,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": " Discuss with Vimal or Sanoop before replying.\n-Mirdas",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">&nbsp;Discuss with Vimal or Sanoop before replying.&nbsp;<br>-Mirdas&nbsp;<br></div>",
+      "plain_body": "&nbsp;Discuss with Vimal or Sanoop before replying.&nbsp;\n-Mirdas&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56276616289177,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T13:06:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15",
+          "ip_address": "223.185.135.185",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56281885584665,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Hello Matt,\n\nGood day!\n\nI am Keerthi, Customer Success Manager at PluginHive. I wanted to personally reach out to address the concerns you have shared. Firstly, thank you for taking the time to provide a detailed feedback.\n\nWe are currently reviewing the **eParcel label processing delay** (8+ seconds) and the **tracking updates for international Australia Post shipments** from our end. We’ll keep you updated on the progress.\n\nRegarding the **HS Code edit requirement**, we have shared this with our product team and will get back to you once we have more clarity on the feasibility.\n\nFor the **address sync and refresh concerns**, we now have an **Auto-Order Sync** feature that ensures order updates (including address changes) are automatically reflected in the app. We will enable this for your store by tomorrow so you won’t need to manually update orders going forward.\n\nFor the **service configuration rules** (Set Service vs Add Service) and **shipment type changes**, we’d like to better understand your workflow and specific use case. A quick call will help us evaluate this more effectively and explore the best possible solution for you.\n\nI am usually available between 3:00 PM to 10:00 PM AEDT, Monday through Friday. Kindly let me know a date and time that works best for you so we can connect accordingly.\n\nLooking forward to your response.\n\nBest regards,\nKeerthi\nPluginHive | Customer Success Manager",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Matt,<br>&nbsp;<br>Good day!<br>&nbsp;<br>I am Keerthi, Customer Success Manager at PluginHive. I wanted to personally reach out to address the concerns you have shared. Firstly, thank you for taking the time to provide a detailed feedback.&nbsp;<br>&nbsp;<br>We are currently reviewing the <strong>eParcel label processing delay</strong> (8+ seconds) and the <strong>tracking updates for international Australia Post shipments</strong> from our end. We’ll keep you updated on the progress.<br>&nbsp;<br>Regarding the <strong>HS Code edit requirement</strong>, we have shared this with our product team and will get back to you once we have more clarity on the feasibility.<br>&nbsp;<br>For the <strong>address sync and refresh concerns</strong>, we now have an <strong>Auto-Order Sync</strong> feature that ensures order updates (including address changes) are automatically reflected in the app. We will enable this for your store by tomorrow so you won’t need to manually update orders going forward.<br>&nbsp;<br>For the <strong>service configuration rules</strong> (Set Service vs Add Service) and <strong>shipment type changes</strong>, we’d like to better understand your workflow and specific use case. A quick call will help us evaluate this more effectively and explore the best possible solution for you.<br>&nbsp;<br>I am usually available between 3:00 PM to 10:00 PM AEDT, Monday through Friday. Kindly let me know a date and time that works best for you so we can connect accordingly.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>Best regards,<br>Keerthi<br>PluginHive | Customer Success Manager<br></div>",
+      "plain_body": "Hello Matt,\n&nbsp;\nGood day!\n&nbsp;\nI am Keerthi, Customer Success Manager at PluginHive. I wanted to personally reach out to address the concerns you have shared. Firstly, thank you for taking the time to provide a detailed feedback.&nbsp;\n&nbsp;\nWe are currently reviewing the eParcel label processing delay (8+ seconds) and the tracking updates for international Australia Post shipments from our end. We’ll keep you updated on the progress.\n&nbsp;\nRegarding the HS Code edit requirement, we have shared this with our product team and will get back to you once we have more clarity on the feasibility.\n&nbsp;\nFor the address sync and refresh concerns, we now have an Auto-Order Sync feature that ensures order updates (including address changes) are automatically reflected in the app. We will enable this for your store by tomorrow so you won’t need to manually update orders going forward.\n&nbsp;\nFor the service configuration rules (Set Service vs Add Service) and shipment type changes, we’d like to better understand your workflow and specific use case. A quick call will help us evaluate this more effectively and explore the best possible solution for you.\n&nbsp;\nI am usually available between 3:00 PM to 10:00 PM AEDT, Monday through Friday. Kindly let me know a date and time that works best for you so we can connect accordingly.\n&nbsp;\nLooking forward to your response.\n&nbsp;\nBest regards,\nKeerthi\nPluginHive | Customer Success Manager",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56281885584537,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T19:53:36Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "223.181.116.151",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56281932591641,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Discussed with Sanoop.\n\nL3:\n\n1. **AuPost eParcel:** Delay in eParcel label processing and tracking updates not syncing properly\n2. Option to **edit HS code at the package level** before label creation\n3. Enable **auto-order updates** toggle for the store.\n\nUUID: 72f79881-3d74-4a1e-b36a-677c75a1d68d\nURL: 95a96e-3.myshopify.com",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with Sanoop.<br>&nbsp;<br>L3:<br><ol dir=\"auto\"><li><strong>AuPost eParcel:</strong> Delay in eParcel label processing and tracking updates not syncing properly</li><li>Option to <strong>edit HS code at the package level </strong>before label creation</li><li>Enable<strong> auto-order updates</strong> toggle for the store.<br>&nbsp;</li></ol>UUID: 72f79881-3d74-4a1e-b36a-677c75a1d68d<br>URL: <a rel=\"noopener noreferrer\" href=\"http://95a96e-3.myshopify.com\">95a96e-3.myshopify.com</a><br>&nbsp;<br></div>",
+      "plain_body": "Discussed with Sanoop.\n&nbsp;\nL3:\n  AuPost eParcel: Delay in eParcel label processing and tracking updates not syncing properly  Option to edit HS code at the package level before label creation  Enable auto-order updates toggle for the store.\n&nbsp;  UUID: 72f79881-3d74-4a1e-b36a-677c75a1d68d\nURL: 95a96e-3.myshopify.com\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56281932591513,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T19:59:19Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "223.181.116.151",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56282060791833,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Store details:\n\nAU store\nAuPost eParcel and DHL Express\n468 orders in last 14 days\nPlan: $29\nBeen using since 2025 (Avg of 500 labels/month)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Store details:<br>&nbsp;<br>AU store<br>AuPost eParcel and DHL Express<br>468 orders in last 14 days<br>Plan: $29<br>Been using since 2025 (Avg of 500 labels/month)<br></div>",
+      "plain_body": "Store details:\n&nbsp;\nAU store\nAuPost eParcel and DHL Express\n468 orders in last 14 days\nPlan: $29\nBeen using since 2025 (Avg of 500 labels/month)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56282048895769,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T20:08:33Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "223.181.116.151",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56299318601881,
+      "type": "Comment",
+      "author_id": 46646990904217,
+      "body": "Hi Keerthi,\n\nThank you very much!\n\nThat' is great, will the **Auto-Order Sync** update as soon as the Shopify order is changed?\n\nRegarding the **service rules**, it is something we've spoken about a few times, but basically:\n\n- Set Service - this should set the rule for the order. It overrides the add service action\n- Add Service - this should add any other services to the order list without setting the actual service. This means if you click on an order, you can see the list of \"added\" services and only one is \"set\"\nIt is not a big deal and is not as important as other items, but it is an improvement suggestion.\n\nRegarding the **shipment type**, instead of every order being \"sale of goods\" there could be an option to set a single order as commercial sample, gift, return etc.\n\nThank you\n\n\n\n ![11MODE](https://11mode.com/cdn/shop/files/Logo_Light_1000.png)\nInstagram | Facebook | TikTok | YouTube\n{#HS:3257502206-1065#} ![](https://secure.helpscout.net/notification/convo/read/3257502206/9962812019/)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>\n <div>\n \n <div>Hi Keerthi,<br><br>Thank you very much!<br><br>That' is great, will the <b>Auto-Order Sync</b> update as soon as the Shopify order is changed?<br><br>Regarding the <b>service rules</b>, it is something we've spoken about a few times, but basically:<br><ul dir=\"auto\"><li>Set Service - this should set the rule for the order. It overrides the add service action<br></li><li>Add Service - this should add any other services to the order list without setting the actual service. This means if you click on an order, you can see the list of \"added\" services and only one is \"set\"<br></li></ul>It is not a big deal and is not as important as other items, but it is an improvement suggestion.<br><br>Regarding the <b>shipment type</b>, instead of every order being \"sale of goods\" there could be an option to set a single order as commercial sample, gift, return etc.<br><br>Thank you<br></div><br>\n <br><a href=\"https://11mode.com/\" rel=\"noreferrer\"></a><a href=\"https://11mode.com/\" rel=\"noreferrer\"><img src=\"https://11mode.com/cdn/shop/files/Logo_Light_1000.png\" alt=\"11MODE\" style=\"width: 236px;\"></a><br><a href=\"https://www.instagram.com/go11mode/\" rel=\"noreferrer\">Instagram</a> | <a href=\"https://www.facebook.com/goELEVENMODE/\" rel=\"noreferrer\">Facebook</a> | <a href=\"https://www.tiktok.com/@go11mode\" rel=\"noreferrer\">TikTok</a> | <a href=\"https://www.youtube.com/@go11MODE\" rel=\"noreferrer\">YouTube</a>\n </div>\n <span height=\"0\" style=\"font-size: 0px; height: 0px; line-height: 0px; color: #ffffff;\">{#HS:3257502206-1065#}</span>\n <img src=\"https://secure.helpscout.net/notification/convo/read/3257502206/9962812019/\" alt=\"\"> <br>\n</div></div>",
+      "plain_body": "Hi Keerthi,\n\nThank you very much!\n\nThat' is great, will the Auto-Order Sync update as soon as the Shopify order is changed?\n\nRegarding the service rules, it is something we've spoken about a few times, but basically:\n  Set Service - this should set the rule for the order. It overrides the add service action\n  Add Service - this should add any other services to the order list without setting the actual service. This means if you click on an order, you can see the list of \"added\" services and only one is \"set\"\n  It is not a big deal and is not as important as other items, but it is an improvement suggestion.\n\nRegarding the shipment type, instead of every order being \"sale of goods\" there could be an option to set a single order as commercial sample, gift, return etc.\n\nThank you\n \n\n \n\nInstagram | Facebook | TikTok | YouTube\n  \n {#HS:3257502206-1065#}",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56299318601753,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "the11mode@gmail.com",
+            "name": "Matt",
+            "original_recipients": [
+              "support@11mode.com",
+              "support@pluginhive.com",
+              "vimal@pluginhive.com",
+              "abhilash@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T06:57:59Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAFPiQ3hiruw_P4D_URDtCC0QOE99DYrcEJv8puc1vkq=jtAmFA@mail.gmail.com>",
+          "email_id": "01KMFA5GY40AJVV3MBFCPMK7EQ",
+          "raw_email_identifier": "2369120/ba88b10a-e6c2-46e4-95c1-cbbab700b202.eml",
+          "json_email_identifier": "2369120/ba88b10a-e6c2-46e4-95c1-cbbab700b202.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56306056748441,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "1. Kindly check with the merchant if they could provide a few orders, where we can try generating labels from our end and check, if merchant is not ready to provide the orders then we can go on a call.\n2. Edit HS Code at package level: Kindly check with merchant, why would they want to edit HS Code every time.\n3. Auto Order Update enabled.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><ol dir=\"auto\"><li>Kindly check with the merchant if they could provide a few orders, where we can try generating labels from our end and check, if merchant is not ready to provide the orders then we can go on a call.</li><li>Edit HS Code at package level: Kindly check with merchant, why would they want to edit HS Code every time.</li><li>Auto Order Update enabled.<br>[Veena]</li></ol></div>",
+      "plain_body": "Kindly check with the merchant if they could provide a few orders, where we can try generating labels from our end and check, if merchant is not ready to provide the orders then we can go on a call.  Edit HS Code at package level: Kindly check with merchant, why would they want to edit HS Code every time.  Auto Order Update enabled.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56306056748313,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T10:09:37Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56316813212697,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Hello Matt,\n\nThank you for getting back to me. I have some updates regarding your previous requests.\n\n**1. Auto-Order Updates:**\nAuto-order updates have been enabled for your store. Any addresses you modified in Shopify in the last few hours should now automatically reflect in the app. Please check and let us know if this is working as expected.\n\n**2. eParcel Tracking:**\nWe are investigating this internally, and it may require some additional time. We’ll keep you updated.\n\n**3. Delay in eParcel Label Processing:**\nWe tried replicating this case internally. However, since our tests happen in the QA environment using eParcel QA credentials, we may not be able to replicate the delay you are experiencing.\n\nTo help us investigate further, would it be possible for you to either,\n  - Provide us **3 to 5 order IDs** from your store along with Collaborator access, so we can create labels from our end.\n  - Alternatively, we could connect over a quick call along with our tech team, where we can observe the label processing delay directly on your store.\nPlease let us know which option works best for you.\n\n**4. Feature Suggestions & Clarifications:**\nWe truly appreciate your time in sharing these suggestions. However, we would not be able to consider feature requests/ enhancements to the app without fully understanding the **real use case and pain points** they address. To prioritize enhancements effectively, we need details about how each feature or flow impacts merchants in real-life scenarios.\n\nWe request you to kindly provide additional information and real-life examples for the following the items. I'd also like to highlight that, these features are not commonly requested by other users, which is why we want to understand your business case in detail before prioritizing them.\n\n\n-\n\n**HS Code Changes:**\nWe want to understand why the HS code for a product is being changed at the package or order level. Ideally, HS codes are expected to be configured at the product level.\n\nIs this based on destination country? If so, we may already have a solution. Otherwise, kindly help us understand the real life usecase, you may also provide examples of some real orders and products.\n\n\n- **Shipment Type (Classification):**\nWe understand when the options like Gift, Sale of Goods, or Return are used for the orders. We’d like to know your specific use case, what types of orders or destinations require these classifications, and how this impacts your workflow and shipments.\n\n- **Set & Add Service:**\nWe understand the change you are expecting with these options. What we'd like to know is the explicit business purpose. For example, if it’s to automatically switch services when a Set Service rule does not apply, we may already have an alternative solution. Understanding the exact need will help us determine the best approach.\n\nWe look forward to your detailed response so we can offer solutions that work best for your business while also supporting multiple users effectively.\n\nOnce again, thank you for your patience in working with us.\n\nBest regards,\nKeerthi\nCustomer Success Manager\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Matt,<br>&nbsp;<br>Thank you for getting back to me. I have some updates regarding your previous requests.<br>&nbsp;<br><strong>1. Auto-Order Updates:</strong><br>Auto-order updates have been enabled for your store. Any addresses you modified in Shopify in the last few hours should now automatically reflect in the app. Please check and let us know if this is working as expected.<br>&nbsp;<br><strong>2. eParcel Tracking:</strong><br>We are investigating this internally, and it may require some additional time. We’ll keep you updated.<br>&nbsp;<br><strong>3. Delay in eParcel Label Processing:</strong><br>We tried replicating this case internally. However, since our tests happen in the QA environment using eParcel QA credentials, we may not be able to replicate the delay you are experiencing.&nbsp;<br>&nbsp;<br>To help us investigate further, would it be possible for you to either,<br>&nbsp; - Provide us <strong>3 to 5 order IDs</strong> from your store along with Collaborator access, so we can create labels from our end.&nbsp;<br>&nbsp; - Alternatively, we could connect over a quick call along with our tech team, where we can observe the label processing delay directly on your store.<br>Please let us know which option works best for you.<br>&nbsp;<br><strong>4. Feature Suggestions &amp; Clarifications:</strong><br>We truly appreciate your time in sharing these suggestions. However, we would not be able to consider feature requests/ enhancements to the app without fully understanding the <strong>real use case and pain points</strong> they address. To prioritize enhancements effectively, we need details about how each feature or flow impacts merchants in real-life scenarios.<br><br>We request you to kindly provide additional information and real-life examples for the following the items. I'd also like to highlight that, these features are not commonly requested by other users, which is why we want to understand your business case in detail before prioritizing them.<br>&nbsp;<br><ul dir=\"auto\"><li><p dir=\"auto\"><strong>HS Code Changes:</strong><br>We want to understand why the HS code for a product is being changed at the package or order level. Ideally, HS codes are expected to be configured at the product level.&nbsp;</p><p dir=\"auto\">Is this based on destination country? If so, we may already have a solution. Otherwise, kindly help us understand the real life usecase, you may also provide examples of some real orders and products.<br>&nbsp;</p></li><li><strong>Shipment Type (Classification):</strong><br>We understand when the options like Gift, Sale of Goods, or Return are used for the orders. We’d like to know your specific use case, what types of orders or destinations require these classifications, and how this impacts your workflow and shipments.&nbsp;<br>&nbsp;</li><li><strong>Set &amp; Add Service:</strong><br>We understand the change you are expecting with these options. What we'd like to know is the explicit business purpose. For example, if it’s to automatically switch services when a Set Service rule does not apply, we may already have an alternative solution. Understanding the exact need will help us determine the best approach.<br>&nbsp;</li></ul>We look forward to your detailed response so we can offer solutions that work best for your business while also supporting multiple users effectively.<br>&nbsp;<br>Once again, thank you for your patience in working with us.<br>&nbsp;<br>Best regards,<br>Keerthi<br>Customer Success Manager<br>PluginHive<br></div>",
+      "plain_body": "Hello Matt,\n&nbsp;\nThank you for getting back to me. I have some updates regarding your previous requests.\n&nbsp;\n1. Auto-Order Updates:\nAuto-order updates have been enabled for your store. Any addresses you modified in Shopify in the last few hours should now automatically reflect in the app. Please check and let us know if this is working as expected.\n&nbsp;\n2. eParcel Tracking:\nWe are investigating this internally, and it may require some additional time. We’ll keep you updated.\n&nbsp;\n3. Delay in eParcel Label Processing:\nWe tried replicating this case internally. However, since our tests happen in the QA environment using eParcel QA credentials, we may not be able to replicate the delay you are experiencing.&nbsp;\n&nbsp;\nTo help us investigate further, would it be possible for you to either,\n&nbsp; - Provide us 3 to 5 order IDs from your store along with Collaborator access, so we can create labels from our end.&nbsp;\n&nbsp; - Alternatively, we could connect over a quick call along with our tech team, where we can observe the label processing delay directly on your store.\nPlease let us know which option works best for you.\n&nbsp;\n4. Feature Suggestions &amp; Clarifications:\nWe truly appreciate your time in sharing these suggestions. However, we would not be able to consider feature requests/ enhancements to the app without fully understanding the real use case and pain points they address. To prioritize enhancements effectively, we need details about how each feature or flow impacts merchants in real-life scenarios.\n\nWe request you to kindly provide additional information and real-life examples for the following the items. I'd also like to highlight that, these features are not commonly requested by other users, which is why we want to understand your business case in detail before prioritizing them.\n&nbsp;\n   HS Code Changes:\nWe want to understand why the HS code for a product is being changed at the package or order level. Ideally, HS codes are expected to be configured at the product level.&nbsp;  Is this based on destination country? If so, we may already have a solution. Otherwise, kindly help us understand the real life usecase, you may also provide examples of some real orders and products.\n&nbsp;   Shipment Type (Classification):\nWe understand when the options like Gift, Sale of Goods, or Return are used for the orders. We’d like to know your specific use case, what types of orders or destinations require these classifications, and how this impacts your workflow and shipments.&nbsp;\n&nbsp;  Set &amp; Add Service:\nWe understand the change you are expecting with these options. What we'd like to know is the explicit business purpose. For example, if it’s to automatically switch services when a Set Service rule does not apply, we may already have an alternative solution. Understanding the exact need will help us determine the best approach.\n&nbsp;  We look forward to your detailed response so we can offer solutions that work best for your business while also supporting multiple users effectively.\n&nbsp;\nOnce again, thank you for your patience in working with us.\n&nbsp;\nBest regards,\nKeerthi\nCustomer Success Manager\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56316813212569,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T21:42:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "223.181.107.122",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

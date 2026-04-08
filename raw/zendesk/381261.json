@@ -1,0 +1,2188 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/381261.json",
+    "id": 381261,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-03-28T03:23:34Z",
+    "updated_at": "2026-04-06T03:43:37Z",
+    "generated_timestamp": 1775447018,
+    "type": null,
+    "subject": "Hello,\nThe app is almost setup.\nCould you call us ...",
+    "raw_subject": "Hello,\nThe app is almost setup.\nCould you call us ...",
+    "description": "Hello,\nThe app is almost setup.\nCould you call us today to finish, there is still some details we would like to handle for DHL. Don:t need to call us if you can fix it on your end.\n1- We disable Estimated Delivery At Checkout and still DHL option displays 2 days.\n2- the display name of DHL should be \"DHL (Pas de douanes pour l'Europe Metropolitaine)\" however it remains wolrdwide express.\n\nWe need to fix these 2 problems.\n\n------------------\nEnvoyé de : https://mcsl-s.pluginhive.io/home/settings/automation/setup/17e487bf-49c0-450d-be18-d9783854f44b",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 31742225953689,
+    "submitter_id": 31742225953689,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "high_agent_replies",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "system_email_notification_failure",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "bbbb09-31.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "080-8854-2429"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "LYDZ9P-WJ9ZJ",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "bbbb09-31.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "080-8854-2429"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56423406273305,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Hello,\nThe app is almost setup.\nCould you call us today to finish, there is still some details we would like to handle for DHL. Don:t need to call us if you can fix it on your end.\n1- We disable Estimated Delivery At Checkout and still DHL option displays 2 days.\n2- the display name of DHL should be \"DHL (Pas de douanes pour l'Europe Metropolitaine)\" however it remains wolrdwide express.\n\nWe need to fix these 2 problems.\n\n------------------\nEnvoyé de : https://mcsl-s.pluginhive.io/home/settings/automation/setup/17e487bf-49c0-450d-be18-d9783854f44b",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hello,\n<br>The app is almost setup.\n<br>Could you call us today to finish, there is still some details we would like to handle for DHL. Don:t need to call us if you can fix it on your end.\n<br>1- We disable Estimated Delivery At Checkout and still DHL option displays 2 days.\n<br>2- the display name of DHL should be \"DHL (Pas de douanes pour l'Europe Metropolitaine)\" however it remains wolrdwide express.</p>\n\n<p dir=\"auto\">We need to fix these 2 problems.</p>\n\n<p dir=\"auto\">------------------\n<br>Envoyé de&nbsp;: <a href=\"https://mcsl-s.pluginhive.io/home/settings/automation/setup/17e487bf-49c0-450d-be18-d9783854f44b\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/settings/automation/setup/17e487bf-49c0-450d-be18-d9783854f44b</a></p></div>",
+      "plain_body": "Hello,\n\nThe app is almost setup.\n\nCould you call us today to finish, there is still some details we would like to handle for DHL. Don:t need to call us if you can fix it on your end.\n\n1- We disable Estimated Delivery At Checkout and still DHL option displays 2 days.\n\n2- the display name of DHL should be \"DHL (Pas de douanes pour l'Europe Metropolitaine)\" however it remains wolrdwide express. \n\n We need to fix these 2 problems. \n\n ------------------\n\nEnvoyé de&nbsp;: https://mcsl-s.pluginhive.io/home/settings/automation/setup/17e487bf-49c0-450d-be18-d9783854f44b",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56423298368409.json",
+          "id": 56423298368409,
+          "file_name": "dhl.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/sj4obMqj2yMPl3p0iD4fmM6hx/?name=dhl.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/sj4obMqj2yMPl3p0iD4fmM6hx/?name=dhl.jpg",
+          "content_type": "image/jpeg",
+          "size": 219450,
+          "width": 1660,
+          "height": 1429,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56423298376729.json",
+              "id": 56423298376729,
+              "file_name": "dhl_thumb.jpg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/3pPi0zrcQbwY9k5vCmAgaJDCN/?name=dhl_thumb.jpg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/3pPi0zrcQbwY9k5vCmAgaJDCN/?name=dhl_thumb.jpg",
+              "content_type": "image/jpeg",
+              "size": 1722,
+              "width": 80,
+              "height": 69,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56423329696409.json",
+          "id": 56423329696409,
+          "file_name": "dhl1.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/TMmEWdUzHft0nJsI3chLVhGEg/?name=dhl1.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/TMmEWdUzHft0nJsI3chLVhGEg/?name=dhl1.jpg",
+          "content_type": "image/jpeg",
+          "size": 177427,
+          "width": 2815,
+          "height": 1158,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56423335846297.json",
+          "id": 56423335846297,
+          "file_name": "dhl2.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/P4YL3FQfEvEpKMBLM14kz80ox/?name=dhl2.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/P4YL3FQfEvEpKMBLM14kz80ox/?name=dhl2.jpg",
+          "content_type": "image/jpeg",
+          "size": 424587,
+          "width": 2860,
+          "height": 1402,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56423342971289.json",
+              "id": 56423342971289,
+              "file_name": "dhl2_thumb.jpg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/Di3GvJCuLjL5dbJ9FJqaXQQ7O/?name=dhl2_thumb.jpg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/Di3GvJCuLjL5dbJ9FJqaXQQ7O/?name=dhl2_thumb.jpg",
+              "content_type": "image/jpeg",
+              "size": 824,
+              "width": 80,
+              "height": 39,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 56423406273177,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-03-28T03:23:34Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "59.138.38.50",
+          "location": "Kitaku, 40, Japan",
+          "latitude": 33.7937,
+          "longitude": 130.687
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 56427828816409,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Store: Japan\nOrders: 231\nDHL, FedEx added.\nActive for Rates only\nPlan: $19 Starter\nInstalled 2026-03-23",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Store: Japan<br>Orders: 231<br>DHL, FedEx added.<br>Active for Rates only<br>Plan: $19 Starter<br>Installed 2026-03-23<br></div>",
+      "plain_body": "Store: Japan\nOrders: 231\nDHL, FedEx added.\nActive for Rates only\nPlan: $19 Starter\nInstalled 2026-03-23",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56427828816281,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-28T06:51:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.36.170.97",
+          "location": "Lucknow, UP, India",
+          "latitude": 26.8373,
+          "longitude": 80.9165
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56428060402073,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Team,\n\nGood Day!\n\nUpon checking, I could observe that the \"EXPRESS WORLDWIDE\" option you are seeing on checkout is not coming from our app.\n\nThis option is being shown from the \"DHL Commerce\" app you have installed and added on your store.\n\nPlease refer to the attached screen recording for further explanation on both your cases.\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>Upon checking, I could observe that the \"EXPRESS WORLDWIDE\" option you are seeing on checkout is not coming from our app.<br>&nbsp;<br>This option is being shown from the \"DHL Commerce\" app you have installed and added on your store.<br>&nbsp;<br>Please refer to the attached screen recording for further explanation on both your cases.<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nGood Day!\n&nbsp;\nUpon checking, I could observe that the \"EXPRESS WORLDWIDE\" option you are seeing on checkout is not coming from our app.\n&nbsp;\nThis option is being shown from the \"DHL Commerce\" app you have installed and added on your store.\n&nbsp;\nPlease refer to the attached screen recording for further explanation on both your cases.\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56428006873625.json",
+          "id": 56428006873625,
+          "file_name": "Screen Recording 2026-03-28 at 12.26.32 PM.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/f61HtkpeZaYCNAqSG9cEj3xe1/?name=Screen+Recording+2026-03-28+at+12.26.32%E2%80%AFPM.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/f61HtkpeZaYCNAqSG9cEj3xe1/?name=Screen+Recording+2026-03-28+at+12.26.32%E2%80%AFPM.mov",
+          "content_type": "video/quicktime",
+          "size": 47876331,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56428060401945,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-28T07:02:54Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.36.170.97",
+          "location": "Lucknow, UP, India",
+          "latitude": 26.8373,
+          "longitude": 80.9165
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56428133002905,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Hello Touseef,\n\n\n\nThank you for your feedback.\n\nYour app wasn’t working when we uninstalled DHL app.\n\nCan you make your app working without DHL app installed?\n\n\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div dir=\"auto\">Hello Touseef,</div><div dir=\"auto\"><br></div><div dir=\"auto\">Thank you for your feedback.</div><div dir=\"auto\">Your app wasn’t working when we uninstalled DHL app.</div><div dir=\"auto\">Can you make your app working without DHL app installed?</div><div dir=\"auto\"><br></div><div dir=\"auto\"><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div><br><div dir=\"auto\"></div></div></div>",
+      "plain_body": "Hello Touseef,  \n  Thank you for your feedback.  Your app wasn’t working when we uninstalled DHL app.  Can you make your app working without DHL app installed?  \n     Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56428133002777,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-28T07:05:17Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08J3aXC_Ctkc4rnOeq3Zce74bkd-OmqhaB2WgsEMiAq5Hw@mail.gmail.com>",
+          "email_id": "01KMSM5SYWXETD6XD05QR4GNAW",
+          "raw_email_identifier": "2369120/c3826d90-b14c-4119-95e8-1121d3484c9d.eml",
+          "json_email_identifier": "2369120/c3826d90-b14c-4119-95e8-1121d3484c9d.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56428799134873,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Team,\n\nThank you for your response.\n\nI have already enabled the app to show DHL rates as per your requirement on checkout of your store.\n\nI request that you review the screen recording shared by me in the last response and try creating a transaction on checkout of your store to check the case.\n\nIf any further assistance is needed, we can connect over a Zoom call to assist you further.\n\nLooking forward to hearing from you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>I have already enabled the app to show DHL rates as per your requirement on checkout of your store.<br>&nbsp;<br>I request that you review the screen recording shared by me in the last response and try creating a transaction on checkout of your store to check the case.<br>&nbsp;<br>If any further assistance is needed, we can connect over a Zoom call to assist you further.<br>&nbsp;<br>Looking forward to hearing from you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nThank you for your response.\n&nbsp;\nI have already enabled the app to show DHL rates as per your requirement on checkout of your store.\n&nbsp;\nI request that you review the screen recording shared by me in the last response and try creating a transaction on checkout of your store to check the case.\n&nbsp;\nIf any further assistance is needed, we can connect over a Zoom call to assist you further.\n&nbsp;\nLooking forward to hearing from you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56428799134745,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-28T07:35:53Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.36.170.97",
+          "location": "Lucknow, UP, India",
+          "latitude": 26.8373,
+          "longitude": 80.9165
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56431165123865,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Dear Touseef,\n\n\n\nThank you for your help.\n\nIt is perfect now.\n\n\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Dear Touseef,</div><div><br></div><div>Thank you for your help.</div><div>It is perfect now.</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Dear Touseef,  \n  Thank you for your help.  It is perfect now.  \n      Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56431165123737,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-28T09:18:15Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08+4+Pnmj25Y4_Pq6KhGO+Fe-mpP5d3yDQHgZ4jHPQ3-bA@mail.gmail.com>",
+          "email_id": "01KMSVS85NDNCBE0WYZ6K2Q1S8",
+          "raw_email_identifier": "2369120/52ea9425-4490-40e6-9f77-9b89b081c136.eml",
+          "json_email_identifier": "2369120/52ea9425-4490-40e6-9f77-9b89b081c136.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56431729888665,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Team,\n\nThank you for your response and the update.\n\nFeel free to reach out if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Thank you for your response and the update.<br>&nbsp;<br>Feel free to reach out if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nThank you for your response and the update.\n&nbsp;\nFeel free to reach out if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56431729888537,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-28T09:42:51Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.43.114.131",
+          "location": "Kanpur, UP, India",
+          "latitude": 26.4631,
+          "longitude": 80.3479
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56441996694041,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Dear Touseef,\n\n\n\nWe have an issue.\n\nIt looks like the app is not handling properly the product's volume.\n\nCustomers are not being charged the way they should.\n\n\n\nFriday's Fedex order.\n\n ![image.png](https://support.pluginhive.com/attachments/token/5ZYV5N1B7nlYzqgzO4a9yDIZX/?name=image.png)\n\n\n\nWith the old app\n ![image.png](https://support.pluginhive.com/attachments/token/kzkLEKkqa9PnqDo0RHXdp0yrG/?name=image.png)\n\n\nWith the new app\n ![image.png](https://support.pluginhive.com/attachments/token/RmmV3a94yoWZcQHykgx5UtUsz/?name=image.png)\n\n\n\nThe real shipping cost\n ![image.png](https://support.pluginhive.com/attachments/token/yb4NQkKyq2yVnIDocsEj80FpA/?name=image.png)\n\n\nReal DHL price\n ![image.png](https://support.pluginhive.com/attachments/token/mhz6BqkqvGlLGSs0vQXKTw299/?name=image.png)\n\n\n\n\n\nThe new app checkout price\n\n ![image.png](https://support.pluginhive.com/attachments/token/9c2a0bQEMW92lsh8wsSZxtOlm/?name=image.png)\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Dear Touseef,</div><div><br></div><div>We have an issue.</div><div>It looks like the app is not handling properly the product's volume.</div><div>Customers are not being charged the way they should.</div><div><br></div><div>Friday's Fedex order.</div><div><img src=\"https://support.pluginhive.com/attachments/token/5ZYV5N1B7nlYzqgzO4a9yDIZX/?name=image.png\" alt=\"image.png\" width=\"434\" height=\"562\"></div><div><br></div><div>With the old app</div><img src=\"https://support.pluginhive.com/attachments/token/kzkLEKkqa9PnqDo0RHXdp0yrG/?name=image.png\" alt=\"image.png\" width=\"562\" height=\"125\"><div><br></div><div>With the new app</div><img src=\"https://support.pluginhive.com/attachments/token/RmmV3a94yoWZcQHykgx5UtUsz/?name=image.png\" alt=\"image.png\" width=\"562\" height=\"128\"><br><div><br></div><div>The real shipping cost</div><img src=\"https://support.pluginhive.com/attachments/token/yb4NQkKyq2yVnIDocsEj80FpA/?name=image.png\" alt=\"image.png\" width=\"562\" height=\"306\"><div><br></div><div>Real DHL price</div><img src=\"https://support.pluginhive.com/attachments/token/mhz6BqkqvGlLGSs0vQXKTw299/?name=image.png\" alt=\"image.png\" width=\"562\" height=\"341\"><br><div><br><div><br><div>The new app checkout price<br></div><div><img src=\"https://support.pluginhive.com/attachments/token/9c2a0bQEMW92lsh8wsSZxtOlm/?name=image.png\" alt=\"image.png\" width=\"559\" height=\"562\"><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div></div><br></div></div></div><br><div></div></div>",
+      "plain_body": "Dear Touseef,  \n  We have an issue.  It looks like the app is not handling properly the product's volume.  Customers are not being charged the way they should.  \n  Friday's Fedex order.    \n  With the old app  \n  With the new app \n \n  The real shipping cost  \n  Real DHL price \n \n \n The new app checkout price\n  \n      Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56441996693913,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-28T23:00:25Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08JtBjVfO+cL0gfaKdtQZvSZYiLyqVYjGVo=QKq9Ya5O+g@mail.gmail.com>",
+          "email_id": "01KMVATHWHJQCKWMGBZJ5X4RM4",
+          "raw_email_identifier": "2369120/fc193477-cd93-4eae-8dc8-e8df03cb7edb.eml",
+          "json_email_identifier": "2369120/fc193477-cd93-4eae-8dc8-e8df03cb7edb.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56473627962777,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Team,\n\nGood Day!\n\nUpon checking, we could observe that you are currently using the **Weight Based Packing Method** with the app.\n\nWhen using this, the app considers only the weight of the products for rates calculation.\n\nFor the app to consider the weight and dimensions of the products for rates calculation, you should be using either the **Box Packing Method** or **Weight and Volume Based Packing Method** with the app.\n**Packing Methods** - https://www.pluginhive.com/knowledge-base/setting-up-shopify-multi-carrier-shipping-label-app/#package-methods\n\nYou can navigate to **App Menu > Settings > Shipping > Packaging** to set up the app as per your requirement.\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>Upon checking, we could observe that you are currently using the <strong>Weight Based Packing Method</strong> with the app.&nbsp;<br>&nbsp;<br>When using this, the app considers only the weight of the products for rates calculation.<br>&nbsp;<br>For the app to consider the weight and dimensions of the products for rates calculation, you should be using either the <strong>Box Packing Method</strong> or <strong>Weight and Volume Based Packing Method</strong> with the app.<br><strong>Packing Methods</strong> - <a rel=\"noopener noreferrer\" href=\"https://www.pluginhive.com/knowledge-base/setting-up-shopify-multi-carrier-shipping-label-app/#package-methods\">https://www.pluginhive.com/knowledge-base/setting-up-shopify-multi-carrier-shipping-label-app/#package-methods</a><br>&nbsp;<br>You can navigate to <strong>App Menu &gt; Settings &gt; Shipping &gt; Packaging</strong> to set up the app as per your requirement.<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nGood Day!\n&nbsp;\nUpon checking, we could observe that you are currently using the Weight Based Packing Method with the app.&nbsp;\n&nbsp;\nWhen using this, the app considers only the weight of the products for rates calculation.\n&nbsp;\nFor the app to consider the weight and dimensions of the products for rates calculation, you should be using either the Box Packing Method or Weight and Volume Based Packing Method with the app.\nPacking Methods - https://www.pluginhive.com/knowledge-base/setting-up-shopify-multi-carrier-shipping-label-app/#package-methods\n&nbsp;\nYou can navigate to App Menu &gt; Settings &gt; Shipping &gt; Packaging to set up the app as per your requirement.\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56473627962649,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T03:57:11Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56475707010841,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Ok Touseef,\n\n\n\nWe gave your company permission to our Shopify.\n\nPlease do the setup as it should be.\n\nIt has been two weeks since we are struggling with this. It needs to be done within today without bad surprises.\n\n\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Ok Touseef,</div><div><br></div><div>We gave your company permission to our Shopify.</div><div>Please do the setup as it should be.</div><div>It has been two weeks since we are struggling with this. It needs to be done within today without bad surprises.</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Ok Touseef,  \n  We gave your company permission to our Shopify.  Please do the setup as it should be.  It has been two weeks since we are struggling with this. It needs to be done within today without bad surprises.  \n      Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56475707010713,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T04:55:42Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08LtSf7jhqpyh8HFeRksUjeJVP2gmCuUYYvwbuqHvfKsCg@mail.gmail.com>",
+          "email_id": "01KMYHHYK7WZZJMGF53NGG0S8S",
+          "raw_email_identifier": "2369120/23811951-5094-4d33-a2db-590405d95e64.eml",
+          "json_email_identifier": "2369120/23811951-5094-4d33-a2db-590405d95e64.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56478803200153,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Team,\n\nGood Day!\n\nAs we are not aware of your packaging requirements, we cannot set up the app for your usage.\nThe setup requires information like - will app the products be packed individually, or multiple products can be packed in a single package? If so, which package sizes should be used?\nAre there different package sizes that the app should use based on the products in the order? If so, what are the box sizes that you use on a regular basis.\n\nAs we do not have this information, you as the store owner, will have to set up the app as per your requirements in which we can assist over a Zoom call, if needed.\n\nIf you would like to connect over a Zoom call to discuss your requirements about packaging and take our assistance with the setup, you can **CLICK HERE** to schedule the call as per your availability.\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>As we are not aware of your packaging requirements, we cannot set up the app for your usage.<br>The setup requires information like - will app the products be packed individually, or multiple products can be packed in a single package? If so, which package sizes should be used?&nbsp;<br>Are there different package sizes that the app should use based on the products in the order? If so, what are the box sizes that you use on a regular basis.<br>&nbsp;<br>As we do not have this information, you as the store owner, will have to set up the app as per your requirements in which we can assist over a Zoom call, if needed.<br>&nbsp;<br>If you would like to connect over a Zoom call to discuss your requirements about packaging and take our assistance with the setup, you can <a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=bbbb09-31.myshopify.com&amp;email=japondemande@gmail.com&amp;ticket=381261&amp;key=1774851415097\"><strong><u>CLICK HERE</u></strong></a> to schedule the call as per your availability.<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nGood Day!\n&nbsp;\nAs we are not aware of your packaging requirements, we cannot set up the app for your usage.\nThe setup requires information like - will app the products be packed individually, or multiple products can be packed in a single package? If so, which package sizes should be used?&nbsp;\nAre there different package sizes that the app should use based on the products in the order? If so, what are the box sizes that you use on a regular basis.\n&nbsp;\nAs we do not have this information, you as the store owner, will have to set up the app as per your requirements in which we can assist over a Zoom call, if needed.\n&nbsp;\nIf you would like to connect over a Zoom call to discuss your requirements about packaging and take our assistance with the setup, you can CLICK HERE to schedule the call as per your availability.\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56478803200025,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T06:17:06Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56478916482585,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Hello Touseef,\n\n\n\nWhat are you saying?\n\nYou know we are using the other Fedex App since over a year. We didn't have to do all that \"The setup requires information like - will app the products be packed individually, or multiple products can be packed in a single package? If so, which package sizes should be used?Are there different package sizes that the app should use based on the products in the order? If so, what are the box sizes that you use on a regular basis.\"\n\n\n\nWe enter the product's size, and the app does the math with the volume and the weight. We want exactly the same.\n\n\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hello Touseef,</div><div><br></div><div>What are you saying?</div><div>You know we are using the other Fedex App since over a year. We didn't have to do all that \"The setup requires information like - will app the products be packed individually, or multiple products can be packed in a single package? If so, which package sizes should be used?Are there different package sizes that the app should use based on the products in the order? If so, what are the box sizes that you use on a regular basis.\"</div><div><br></div><div>We enter the product's size, and the app does the math with the volume and the weight. We want exactly the same.</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hello Touseef,  \n  What are you saying?  You know we are using the other Fedex App since over a year. We didn't have to do all that \"The setup requires information like - will app the products be packed individually, or multiple products can be packed in a single package? If so, which package sizes should be used?Are there different package sizes that the app should use based on the products in the order? If so, what are the box sizes that you use on a regular basis.\"  \n  We enter the product's size, and the app does the math with the volume and the weight. We want exactly the same.  \n      Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56478916482457,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T06:21:30Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08Lw92yU5Oce+RYda_ieB8zoo2D1Be_p61ayYmPdAHZapQ@mail.gmail.com>",
+          "email_id": "01KMYPF15J78Q8J9K84J4NPA6M",
+          "raw_email_identifier": "2369120/4383cb89-8f3f-4002-aa74-836056f4589e.eml",
+          "json_email_identifier": "2369120/4383cb89-8f3f-4002-aa74-836056f4589e.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56481705305881,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Team,\n\nThank you for your response.\n\nTo make the Packaging changes in the PH Multi Carrier Shipping Label app taking the PH Ship Rate and Track for FedEx app as reference, we would require your **explicit confirmation and permission** that we can make the changes from our end in the app on your store.\n\nAdditionally, we have also updated the product dimensions in the PH Multi Carrier Shipping Label app taking the PH Ship Rate and Track for FedEx app product data as reference.\n\nYou can cross-check few products in the app and let us know if you have any queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>To make the Packaging changes in the PH Multi Carrier Shipping Label app taking the PH Ship Rate and Track for FedEx app as reference, we would require your <strong>explicit confirmation and permission</strong> that we can make the changes from our end in the app on your store.<br>&nbsp;<br>Additionally, we have also updated the product dimensions in the PH Multi Carrier Shipping Label app taking the PH Ship Rate and Track for FedEx app product data as reference.<br>&nbsp;<br>You can cross-check few products in the app and let us know if you have any queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nThank you for your response.\n&nbsp;\nTo make the Packaging changes in the PH Multi Carrier Shipping Label app taking the PH Ship Rate and Track for FedEx app as reference, we would require your explicit confirmation and permission that we can make the changes from our end in the app on your store.\n&nbsp;\nAdditionally, we have also updated the product dimensions in the PH Multi Carrier Shipping Label app taking the PH Ship Rate and Track for FedEx app product data as reference.\n&nbsp;\nYou can cross-check few products in the app and let us know if you have any queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56481703443481.json",
+          "id": 56481703443481,
+          "file_name": "Product-Export - 2026-03-30T120750.424.csv",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/YPQj2FamgcDKycNOIVwDkKJw1/?name=Product-Export+-+2026-03-30T120750.424.csv",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/YPQj2FamgcDKycNOIVwDkKJw1/?name=Product-Export+-+2026-03-30T120750.424.csv",
+          "content_type": "text/csv",
+          "size": 5754815,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56481705305753,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T07:35:18Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56483008989337,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Dear Touseef,\n\n\n\nThank you for your feedback.\n\nHere our explicit confirmation and permission. We would like your help to set up the PH MultiCarrier Shipping Label app exactly as the PH Ship Rate & Track for FedEx app. We already exported the CSV files and entered our products dimensions. The only thing we need is the PH MultiCarrier Shipping Label app to handle the order like the PH Ship Rate & Track for FedEx app.\n\nFor example:\n\n-1 product 1x1x1 cm 0.9 Kg will be the reflect of 0.9kg for the volumic price\n\n-2 product 1x1x1 cm 1.8Kg will be the reflect of 1.8kg for the volumic price\n\n-1 product 40x23x20 cm 1.0Kg will be the reflect of 40x23x20 for the volumic price\n\n-1 product 40x23x20 cm 0.4Kg & 1 product 13x26x17 cm 0.8Kg will be the reflect of the combined volumic price.\n\n\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Dear Touseef,</div><div><br></div><div>Thank you for your feedback.</div><div>Here our explicit confirmation and permission. We would like your help to set up the PH MultiCarrier Shipping Label app exactly as the PH Ship Rate &amp; Track for FedEx app. We already exported the CSV files&nbsp;and entered our products dimensions. The only thing we need is the PH MultiCarrier Shipping Label app to handle the order like&nbsp;the PH Ship Rate &amp; Track for FedEx app.&nbsp;</div><div>For example:</div><div>-1 product 1x1x1 cm 0.9 Kg will be the reflect of 0.9kg for the volumic price </div><div>-2 product 1x1x1 cm 1.8Kg will be the reflect of 1.8kg for the volumic price&nbsp;</div><div>-1 product 40x23x20 cm 1.0Kg&nbsp;will be the reflect of 40x23x20 for the volumic price </div><div>-1 product 40x23x20 cm 0.4Kg &amp; 1 product 13x26x17 cm 0.8Kg&nbsp;will be the reflect of the combined volumic price.</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Dear Touseef,  \n  Thank you for your feedback.  Here our explicit confirmation and permission. We would like your help to set up the PH MultiCarrier Shipping Label app exactly as the PH Ship Rate &amp; Track for FedEx app. We already exported the CSV files&nbsp;and entered our products dimensions. The only thing we need is the PH MultiCarrier Shipping Label app to handle the order like&nbsp;the PH Ship Rate &amp; Track for FedEx app.&nbsp;  For example:  -1 product 1x1x1 cm 0.9 Kg will be the reflect of 0.9kg for the volumic price   -2 product 1x1x1 cm 1.8Kg will be the reflect of 1.8kg for the volumic price&nbsp;  -1 product 40x23x20 cm 1.0Kg&nbsp;will be the reflect of 40x23x20 for the volumic price   -1 product 40x23x20 cm 0.4Kg &amp; 1 product 13x26x17 cm 0.8Kg&nbsp;will be the reflect of the combined volumic price.  \n      Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56483008989209,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T08:09:38Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08KDuz6fGx5OxMVgfv8Z6TY2Ny1CgvuNmRjnMvS20yo1BQ@mail.gmail.com>",
+          "email_id": "01KMYWN1M59C3DJ3QAV75K491C",
+          "raw_email_identifier": "2369120/4d5fe9e3-824b-49b0-8905-b1b78a8b5764.eml",
+          "json_email_identifier": "2369120/4d5fe9e3-824b-49b0-8905-b1b78a8b5764.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56489658110873,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Team,\n\nThank you for sharing the detailed information and examples.\n\nTo ensure the setup behaves exactly as required and matches your current PH Ship Rate & Track for FedEx configuration, we recommend going through this together on a call. This will help us set up the packaging and volumetric calculations correctly and ensure everything works smoothly for your use case.\n\nPlease note that while the packaging settings are similar in both apps, there are slight differences, so configuring this over a call would be the best approach.\nKindly let me know your availability, or you can book a call at your convenience using the link below:\n**CLICK HERE**\n\nLooking forward to assisting you.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br>Thank you for sharing the detailed information and examples.<br>&nbsp;<br>To ensure the setup behaves exactly as required and matches your current PH Ship Rate &amp; Track for FedEx configuration, we recommend going through this together on a call. This will help us set up the packaging and volumetric calculations correctly and ensure everything works smoothly for your use case.<br>&nbsp;<br>Please note that while the packaging settings are similar in both apps, there are slight differences, so configuring this over a call would be the best approach.<br>Kindly let me know your availability, or you can book a call at your convenience using the link below:<br><a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=bbbb09-31.myshopify.com&amp;email=japondemande@gmail.com&amp;ticket=381261&amp;key=1774851415097\"><strong><u>CLICK HERE</u></strong></a><br>&nbsp;<br>Looking forward to assisting you.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br>&nbsp;<br></div>",
+      "plain_body": "Hi Team,\n&nbsp;\nThank you for sharing the detailed information and examples.\n&nbsp;\nTo ensure the setup behaves exactly as required and matches your current PH Ship Rate &amp; Track for FedEx configuration, we recommend going through this together on a call. This will help us set up the packaging and volumetric calculations correctly and ensure everything works smoothly for your use case.\n&nbsp;\nPlease note that while the packaging settings are similar in both apps, there are slight differences, so configuring this over a call would be the best approach.\nKindly let me know your availability, or you can book a call at your convenience using the link below:\nCLICK HERE\n&nbsp;\nLooking forward to assisting you.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive\n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56489658110745,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T11:46:45Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56489642813977,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "moving on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">moving on hold<br></div>",
+      "plain_body": "moving on hold",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56489642813337,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T11:46:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56498289676313,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: Japon Demande\nEmail: japondemande@gmail.com\nPhone Number: 08088542429\nStore URL: bbbb09-31.myshopify.com\nDate & Time: March 31, 2026 04:00 pm (Asia/Tokyo +09:00)\n\nPluginHive Date & Time: March 31, 2026 12:30 pm",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Appointment Scheduled with PluginHive Support</p>\n<p dir=\"auto\">Customer Details:<br>\nName: Japon Demande<br>\nEmail: <a href=\"mailto:japondemande@gmail.com\" rel=\"noreferrer\">japondemande@gmail.com</a><br>\nPhone Number: 08088542429<br>\nStore URL: bbbb09-31.myshopify.com<br>\nDate &amp; Time: March 31, 2026 04:00 pm (Asia/Tokyo +09:00)</p>\n<p dir=\"auto\">PluginHive Date &amp; Time: March 31, 2026 12:30 pm</p></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support \n Customer Details:\n\nName: Japon Demande\n\nEmail: japondemande@gmail.com\n\nPhone Number: 08088542429\n\nStore URL: bbbb09-31.myshopify.com\n\nDate &amp; Time: March 31, 2026 04:00 pm (Asia/Tokyo +09:00) \n PluginHive Date &amp; Time: March 31, 2026 12:30 pm",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56498289676185,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T22:17:09Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.9.4; https://appointments.pluginhive.com",
+          "ip_address": "159.89.131.157",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56513939634585,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Japon Demande,\n\nGood day!\n\nWe have a meeting scheduled at 4 PM Tokyo time today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\nMeeting Link:\nJoin Zoom Meeting\nhttps://us05web.zoom.us/j/89849435682?pwd=qRwtat575CrAjSbYTHAbKkrWYCL2j5.1\n\nMeeting ID: 898 4943 5682\nPasscode: 2gEFFj\n\nNOTE: The meeting is scheduled for 30 minutes. We kindly request you to be present on the call as per the scheduled timings, extending the call or delayed calls are not encouraged due to prior commitments.\n\nPre-requisites:\n\n- Ensure that your system has a working microphone.\n- Permissions to share screen\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Japon Demande,<br>&nbsp;<br>Good day!<br>&nbsp;<br>We have a meeting scheduled at 4 PM Tokyo time today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.<br>Meeting Link:&nbsp;<br>Join Zoom Meeting<br><a rel=\"noopener noreferrer\" href=\"https://us05web.zoom.us/j/89849435682?pwd=qRwtat575CrAjSbYTHAbKkrWYCL2j5.1\">https://us05web.zoom.us/j/89849435682?pwd=qRwtat575CrAjSbYTHAbKkrWYCL2j5.1</a><br>&nbsp;<br>Meeting ID: 898 4943 5682<br>Passcode: 2gEFFj<br>&nbsp;<br>NOTE: The meeting is scheduled for 30 minutes. We kindly request you to be present on the call as per the scheduled timings, extending the call or delayed calls are not encouraged due to prior commitments.<br>&nbsp;<br>Pre-requisites:<br><ul dir=\"auto\"><li>Ensure that your system has a working microphone.</li><li>Permissions to share screen</li></ul>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Japon Demande,\n&nbsp;\nGood day!\n&nbsp;\nWe have a meeting scheduled at 4 PM Tokyo time today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\nMeeting Link:&nbsp;\nJoin Zoom Meeting\nhttps://us05web.zoom.us/j/89849435682?pwd=qRwtat575CrAjSbYTHAbKkrWYCL2j5.1\n&nbsp;\nMeeting ID: 898 4943 5682\nPasscode: 2gEFFj\n&nbsp;\nNOTE: The meeting is scheduled for 30 minutes. We kindly request you to be present on the call as per the scheduled timings, extending the call or delayed calls are not encouraged due to prior commitments.\n&nbsp;\nPre-requisites:\n  Ensure that your system has a working microphone.  Permissions to share screen  &nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56513906478873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T06:40:52Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56514792741785,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Tried calling\n ![](https://pluginhive.zendesk.com/attachments/token/tO0UgW3aBQErqM5eWVNrv2kVC/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Tried calling<br><span style=\"opacity: 1;\"><img style=\" width: 195px;\" src=\"https://pluginhive.zendesk.com/attachments/token/tO0UgW3aBQErqM5eWVNrv2kVC/?name=image.png\"></span><br></div>",
+      "plain_body": "Tried calling",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56514792739865,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T07:04:06Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56514841889433,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Japon Demande,\n\nI am reaching out to inform that the meeting has been started and I am waiting for you to join. I have also attempted to reach you on your number: +818088542429.\n\nPlease confirm if you will be able to join the call. The meeting link will be active for the next 10 minutes, after which we will need to conclude the call.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Japon Demande,<br>&nbsp;<br>I am reaching out to inform that the meeting has been started and I am waiting for you to join. I have also attempted to reach you on your number: +818088542429.<br>&nbsp;<br>Please confirm if you will be able to join the call. The meeting link will be active for the next 10 minutes, after which we will need to conclude the call.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Japon Demande,\n&nbsp;\nI am reaching out to inform that the meeting has been started and I am waiting for you to join. I have also attempted to reach you on your number: +818088542429.\n&nbsp;\nPlease confirm if you will be able to join the call. The meeting link will be active for the next 10 minutes, after which we will need to conclude the call.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56514825524633,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T07:05:01Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56515436226585,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Japon Demande,\n\nWe had to conclude the meeting as we did not hear from you.\n\nWe understand if you have been occupied. If you would like to reconnect with us, please **CLICK HERE** to book a slot for the call as per your next availability. We kindly request your presence on the call without fail.\n\nAdditionally, I have set up the app to pack each product individually (refer to attached recording) and calculate the rates on checkout. Please confirm that the set-up is working as per your requirements.\nIf any further assistance is needed, please schedule a call with us and we can discuss your requirements in detail and assist you further.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Japon Demande,<br>&nbsp;<br>We had to conclude the meeting as we did not hear from you.<br>&nbsp;<br>We understand if you have been occupied. If you would like to reconnect with us, please <a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=bbbb09-31.myshopify.com&amp;email=japondemande@gmail.com&amp;ticket=381261&amp;key=1774941345278\"><strong><u>CLICK HERE</u></strong></a> to book a slot for the call as per your next availability. We kindly request your presence on the call without fail.<br>&nbsp;<br>Additionally, I have set up the app to pack each product individually (refer to attached recording) and calculate the rates on checkout. Please confirm that the set-up is working as per your requirements.<br>If any further assistance is needed, please schedule a call with us and we can discuss your requirements in detail and assist you further.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Japon Demande,\n&nbsp;\nWe had to conclude the meeting as we did not hear from you.\n&nbsp;\nWe understand if you have been occupied. If you would like to reconnect with us, please CLICK HERE to book a slot for the call as per your next availability. We kindly request your presence on the call without fail.\n&nbsp;\nAdditionally, I have set up the app to pack each product individually (refer to attached recording) and calculate the rates on checkout. Please confirm that the set-up is working as per your requirements.\nIf any further assistance is needed, please schedule a call with us and we can discuss your requirements in detail and assist you further.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56515386432793.json",
+          "id": 56515386432793,
+          "file_name": "Screen Recording 2026-03-31 at 12.48.49 PM.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/93YMFXDGeqfqX2Ba5L34GVBJw/?name=Screen+Recording+2026-03-31+at+12.48.49%E2%80%AFPM.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/93YMFXDGeqfqX2Ba5L34GVBJw/?name=Screen+Recording+2026-03-31+at+12.48.49%E2%80%AFPM.mov",
+          "content_type": "video/quicktime",
+          "size": 26083539,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56515436226457,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T07:20:18Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56519649808025,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Dear Touseef,\n\n\n\nSorry something came up in Japan. We weren't able to make it.\n\n\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div>Dear Touseef,</div><div dir=\"auto\"><br></div><div dir=\"auto\">Sorry something came up in Japan. We weren't able to make it.</div><div><br></div><div><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div></div><br><div></div></div>",
+      "plain_body": "Dear Touseef,  \n  Sorry something came up in Japan. We weren't able to make it.  \n     Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56519649807897,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T09:18:38Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08KepRLAona79VYDwfZWemjOHhPOJ5AcQFKJHvMfdyDMeg@mail.gmail.com>",
+          "email_id": "01KN1K03S8BJREM2B6H421G3YR",
+          "raw_email_identifier": "2369120/c1e9735e-f42b-46f3-bfa2-9609f684763c.eml",
+          "json_email_identifier": "2369120/c1e9735e-f42b-46f3-bfa2-9609f684763c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56519668417049,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: Japon Demande\nEmail: japondemande@gmail.com\nPhone Number: 08088542429\nStore URL: bbbb09-31.myshopify.com\nDate & Time: April 1, 2026 01:45 pm (Asia/Tokyo +09:00)\n\nPluginHive Date & Time: April 1, 2026 10:15 am",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Appointment Scheduled with PluginHive Support</p>\n<p dir=\"auto\">Customer Details:<br>\nName: Japon Demande<br>\nEmail: <a href=\"mailto:japondemande@gmail.com\" rel=\"noreferrer\">japondemande@gmail.com</a><br>\nPhone Number: 08088542429<br>\nStore URL: bbbb09-31.myshopify.com<br>\nDate &amp; Time: April 1, 2026 01:45 pm (Asia/Tokyo +09:00)</p>\n<p dir=\"auto\">PluginHive Date &amp; Time: April 1, 2026 10:15 am</p></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support \n Customer Details:\n\nName: Japon Demande\n\nEmail: japondemande@gmail.com\n\nPhone Number: 08088542429\n\nStore URL: bbbb09-31.myshopify.com\n\nDate &amp; Time: April 1, 2026 01:45 pm (Asia/Tokyo +09:00) \n PluginHive Date &amp; Time: April 1, 2026 10:15 am",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56519656801561,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T09:19:01Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.9.4; https://appointments.pluginhive.com",
+          "ip_address": "159.89.131.157",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56543954521497,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Japon Demande,\n\nGood day!\n\nWe have a meeting scheduled at 1:45 PM Tokyo time today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\nMeeting Link:\nJoin Zoom Meeting\nhttps://us05web.zoom.us/j/86499765572?pwd=bGjRFHnladJJdlo8Oik2IoEvXjxFqx.1\n\nMeeting ID: 864 9976 5572\nPasscode: 1KgedK\n\nNOTE: The meeting is scheduled for 30 minutes. We kindly request you to be present on the call as per the scheduled timings, extending the call or delayed calls are not encouraged due to prior commitments.\n\nPre-requisites:\n\n- Ensure that your system has a working microphone.\n- Permissions to share screen\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Japon Demande,<br>&nbsp;<br>Good day!<br>&nbsp;<br>We have a meeting scheduled at 1:45 PM Tokyo time today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.<br>Meeting Link:<br>Join Zoom Meeting<br><a rel=\"noopener noreferrer\" href=\"https://us05web.zoom.us/j/86499765572?pwd=bGjRFHnladJJdlo8Oik2IoEvXjxFqx.1\">https://us05web.zoom.us/j/86499765572?pwd=bGjRFHnladJJdlo8Oik2IoEvXjxFqx.1</a><br>&nbsp;<br>Meeting ID: 864 9976 5572<br>Passcode: 1KgedK<br>&nbsp;<br>NOTE: The meeting is scheduled for 30 minutes. We kindly request you to be present on the call as per the scheduled timings, extending the call or delayed calls are not encouraged due to prior commitments.<br>&nbsp;<br>Pre-requisites:<br><ul dir=\"auto\"><li>Ensure that your system has a working microphone.</li><li>Permissions to share screen</li></ul>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Japon Demande,\n&nbsp;\nGood day!\n&nbsp;\nWe have a meeting scheduled at 1:45 PM Tokyo time today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\nMeeting Link:\nJoin Zoom Meeting\nhttps://us05web.zoom.us/j/86499765572?pwd=bGjRFHnladJJdlo8Oik2IoEvXjxFqx.1\n&nbsp;\nMeeting ID: 864 9976 5572\nPasscode: 1KgedK\n&nbsp;\nNOTE: The meeting is scheduled for 30 minutes. We kindly request you to be present on the call as per the scheduled timings, extending the call or delayed calls are not encouraged due to prior commitments.\n&nbsp;\nPre-requisites:\n  Ensure that your system has a working microphone.  Permissions to share screen  &nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56543954521369,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T04:30:45Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56544092151833,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Hello,\n\n\n\nI will be 10min late.\n\nSorry about that.\n\n\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div>Hello,</div><div dir=\"auto\"><br></div><div dir=\"auto\">I will be 10min late.</div><div dir=\"auto\">Sorry about that.</div><div><br></div><div><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div></div><br><div></div></div>",
+      "plain_body": "Hello,  \n  I will be 10min late.  Sorry about that.  \n     Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56544092151705,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T04:32:29Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08LxRG1_N_T0wsrXJZTErqJyrSaEuK9ZDZOcM8AUmuKHMw@mail.gmail.com>",
+          "email_id": "01KN3N0V4TCS3T6K34PDXDTHCG",
+          "raw_email_identifier": "2369120/ba10b6db-cdd7-42f9-9cbf-f8814947f27b.eml",
+          "json_email_identifier": "2369120/ba10b6db-cdd7-42f9-9cbf-f8814947f27b.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56544425280665,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Japon Demande,\n\nThank you for your response and the update.\n\nPlease reply here once you have joined the meeting. We will start the meeting from our end.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Japon Demande,<br>&nbsp;<br>Thank you for your response and the update.<br>&nbsp;<br>Please reply here once you have joined the meeting. We will start the meeting from our end.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Japon Demande,\n&nbsp;\nThank you for your response and the update.\n&nbsp;\nPlease reply here once you have joined the meeting. We will start the meeting from our end.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56544425280537,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T04:44:21Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56544757525785,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Hello,\n\n\n\nIm online.\n\n\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hello,</div><div><br></div><div>Im online.</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hello,  \n  Im online.  \n      Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56544757525657,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T04:55:16Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08JCT4XPAhi70ZcfJ7xGbagHX6cXsGY6HxbkZ2sH8786JA@mail.gmail.com>",
+          "email_id": "01KN3PAHBY0WQ52W6PESC9BE92",
+          "raw_email_identifier": "2369120/143e7e59-5590-4dd8-95b6-efe811249aa0.eml",
+          "json_email_identifier": "2369120/143e7e59-5590-4dd8-95b6-efe811249aa0.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56549110393369,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Rates are not matching in the app for both DHL Express and FedEx.\n\n\n- For FedEx, we have identified the case that the insurance surcharge is being added in the rates from API. Team is checking for a resolution.\n- For DHL, rates from the app is **€54.98** for **EXPRESS WORLDWIDE** service, whereas on the customer account which the same details, it is **JPY 8,275 (~€45.01)**\nThe app is requesting for an Export Declaration Surcharge of **JPY1800 (~€9.81)** from DHL based on the order total. This surcharge is requested for order total more than 25000.\nCustomer is shipping from Japan and for the order 292011, the order value is €254.01 (~46615.89 JPY). However, this is not applicable when shipping from Japan as the rates in customer account as without this surcharge.\nNext step is to confirm with customer what is the Export Declaration amount limit for shipping from Japan (like 25K added currently) so that the value can be updated on our end for rates to be shown correctly.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Rates are not matching in the app for both DHL Express and FedEx.<br>&nbsp;<br><ul dir=\"auto\"><li>For FedEx, we have identified the case that the insurance surcharge is being added in the rates from API. Team is checking for a resolution.</li><li>For DHL, rates from the app is <strong>€54.98</strong> for <strong>EXPRESS WORLDWIDE</strong> service, whereas on the customer account which the same details, it is <strong>JPY 8,275 (~€45.01)</strong><br>The app is requesting for an Export Declaration Surcharge of <strong>JPY1800 (~€9.81)</strong> from DHL based on the order total. This surcharge is requested for order total more than 25000.<br>Customer is shipping from Japan and for the order 292011, the order value is €254.01 (~46615.89 JPY). However, this is not applicable when shipping from Japan as the rates in customer account as without this surcharge.<br>Next step is to confirm with customer what is the Export Declaration amount limit for shipping from Japan (like 25K added currently) so that the value can be updated on our end for rates to be shown correctly.</li></ul></div>",
+      "plain_body": "Rates are not matching in the app for both DHL Express and FedEx.\n&nbsp;\n  For FedEx, we have identified the case that the insurance surcharge is being added in the rates from API. Team is checking for a resolution.  For DHL, rates from the app is €54.98 for EXPRESS WORLDWIDE service, whereas on the customer account which the same details, it is JPY 8,275 (~€45.01)\nThe app is requesting for an Export Declaration Surcharge of JPY1800 (~€9.81) from DHL based on the order total. This surcharge is requested for order total more than 25000.\nCustomer is shipping from Japan and for the order 292011, the order value is €254.01 (~46615.89 JPY). However, this is not applicable when shipping from Japan as the rates in customer account as without this surcharge.\nNext step is to confirm with customer what is the Export Declaration amount limit for shipping from Japan (like 25K added currently) so that the value can be updated on our end for rates to be shown correctly.",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56548979952793.json",
+          "id": 56548979952793,
+          "file_name": "Screenshot at Apr 01 12-22-13.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/OdmhVB01PdFlSqDnsgS0ZYu3o/?name=Screenshot+at+Apr+01+12-22-13.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/OdmhVB01PdFlSqDnsgS0ZYu3o/?name=Screenshot+at+Apr+01+12-22-13.png",
+          "content_type": "image/png",
+          "size": 553914,
+          "width": 2572,
+          "height": 1512,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56549009049369.json",
+              "id": 56549009049369,
+              "file_name": "Screenshot_at_Apr_01_12-22-13_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/eRkYd0tC81hDf6YTCiOaIUvLo/?name=Screenshot_at_Apr_01_12-22-13_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/eRkYd0tC81hDf6YTCiOaIUvLo/?name=Screenshot_at_Apr_01_12-22-13_thumb.png",
+              "content_type": "image/png",
+              "size": 10944,
+              "width": 80,
+              "height": 47,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56549007096473.json",
+          "id": 56549007096473,
+          "file_name": "Screenshot at Apr 01 12-23-09.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/v1MMX4U52elOV9Ym5x8yD9vzO/?name=Screenshot+at+Apr+01+12-23-09.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/v1MMX4U52elOV9Ym5x8yD9vzO/?name=Screenshot+at+Apr+01+12-23-09.png",
+          "content_type": "image/png",
+          "size": 738514,
+          "width": 2130,
+          "height": 1036,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56549032779289.json",
+              "id": 56549032779289,
+              "file_name": "Screenshot_at_Apr_01_12-23-09_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/YnAo74dIdLArzRXonyRUCuHMb/?name=Screenshot_at_Apr_01_12-23-09_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/YnAo74dIdLArzRXonyRUCuHMb/?name=Screenshot_at_Apr_01_12-23-09_thumb.png",
+              "content_type": "image/png",
+              "size": 11759,
+              "width": 80,
+              "height": 39,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56549007112089.json",
+          "id": 56549007112089,
+          "file_name": "Screenshot at Apr 01 12-23-25.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/4Eb9Qm0IzN0xbWK8MEhPwhiJX/?name=Screenshot+at+Apr+01+12-23-25.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/4Eb9Qm0IzN0xbWK8MEhPwhiJX/?name=Screenshot+at+Apr+01+12-23-25.png",
+          "content_type": "image/png",
+          "size": 300690,
+          "width": 1738,
+          "height": 1048,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56549007138969.json",
+              "id": 56549007138969,
+              "file_name": "Screenshot_at_Apr_01_12-23-25_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/zqUYoFwRbIdi5jbUHMbC4GVeF/?name=Screenshot_at_Apr_01_12-23-25_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/zqUYoFwRbIdi5jbUHMbC4GVeF/?name=Screenshot_at_Apr_01_12-23-25_thumb.png",
+              "content_type": "image/png",
+              "size": 12239,
+              "width": 80,
+              "height": 48,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 56549098231321,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T06:56:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56549127432089,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "DHL rates mismatch was discussed with Veena",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">DHL rates mismatch was discussed with Veena<br></div>",
+      "plain_body": "DHL rates mismatch was discussed with Veena",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56549127431705,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T06:56:49Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56549413081625,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Call Recording - https://drive.google.com/drive/folders/1jPk95EsYc6tQCvZoNQhDczL18l7ZT8Ng?usp=sharing",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Call Recording - <a rel=\"noopener noreferrer\" href=\"https://drive.google.com/drive/folders/1jPk95EsYc6tQCvZoNQhDczL18l7ZT8Ng?usp=sharing\">https://drive.google.com/drive/folders/1jPk95EsYc6tQCvZoNQhDczL18l7ZT8Ng?usp=sharing</a><br></div>",
+      "plain_body": "Call Recording - https://drive.google.com/drive/folders/1jPk95EsYc6tQCvZoNQhDczL18l7ZT8Ng?usp=sharing",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56549413080985,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T07:03:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56550416029081,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Adrien,\n\nThank you for your time on the call.\n\nI have now checked your case about the rates mismatch from the app for both DHL Express and FedEx.\n\n\n-\n\nFor **DHL Express**, the app is adding an **EXPORT DECLARATION surcharge**, which is applied for **high value shipments**. The **default setup in the app uses a shipment value of 25000 (in local currency)** for this surcharge to be added.\n\nThis value **may not be accurate when shipping from Japan**. Could you please **reach out to the DHL team to confirm the correct threshold value** above which this surcharge should apply for shipments from Japan?\n\nOnce confirmed, **we will update the value in the app** so that the **rates are reflected correctly** for your DHL Express shipments.\n\n\n- For FedEx, the rates are not matching as Insurance Surcharge is being added by FedEx for International Shipments. We have contacted FedEx to get more information on this case and we will enhance the app to correctly show the rates from the app.\n\nLooking forward to your response about the DHL EXPORT DECLARATION shipment value.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Adrien,<br>&nbsp;<br>Thank you for your time on the call.<br>&nbsp;<br>I have now checked your case about the rates mismatch from the app for both DHL Express and FedEx.<br>&nbsp;<br><ul dir=\"auto\"><li><p dir=\"auto\">For <strong>DHL Express</strong>, the app is adding an <strong>EXPORT DECLARATION surcharge</strong>, which is applied for <strong>high value shipments</strong>. The <strong>default setup in the app uses a shipment value of 25000 (in local currency)</strong> for this surcharge to be added.</p><p dir=\"auto\">This value <strong>may not be accurate when shipping from Japan</strong>. Could you please <strong>reach out to the DHL team to confirm the correct threshold value</strong> above which this surcharge should apply for shipments from Japan?</p><p dir=\"auto\">Once confirmed, <strong>we will update the value in the app</strong> so that the <strong>rates are reflected correctly</strong> for your DHL Express shipments.<br>&nbsp;</p></li><li>For FedEx, the rates are not matching as Insurance Surcharge is being added by FedEx for International Shipments. We have contacted FedEx to get more information on this case and we will enhance the app to correctly show the rates from the app.</li></ul>&nbsp;<br>Looking forward to your response about the DHL EXPORT DECLARATION shipment value.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Adrien,\n&nbsp;\nThank you for your time on the call.\n&nbsp;\nI have now checked your case about the rates mismatch from the app for both DHL Express and FedEx.\n&nbsp;\n   For DHL Express, the app is adding an EXPORT DECLARATION surcharge, which is applied for high value shipments. The default setup in the app uses a shipment value of 25000 (in local currency) for this surcharge to be added.  This value may not be accurate when shipping from Japan. Could you please reach out to the DHL team to confirm the correct threshold value above which this surcharge should apply for shipments from Japan?  Once confirmed, we will update the value in the app so that the rates are reflected correctly for your DHL Express shipments.\n&nbsp;   For FedEx, the rates are not matching as Insurance Surcharge is being added by FedEx for International Shipments. We have contacted FedEx to get more information on this case and we will enhance the app to correctly show the rates from the app.  &nbsp;\nLooking forward to your response about the DHL EXPORT DECLARATION shipment value.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56550416028953,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T07:31:09Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56550602081049,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Good afternoon Touseef,\n\n\n\nFor DHL Express, the app is adding an EXPORT DECLARATION surcharge, which is applied for high value shipments. The default setup in the app uses a shipment value of 25000 (in local currency) for this surcharge to be added.\nThis value may not be accurate when shipping from Japan.\n\n-> Can't we just disable the import of the shipment value on the DHL integration or on your app?\n\n\nFor FedEx, the rates are not matching as Insurance Surcharge is being added by FedEx for International Shipments. We have contacted FedEx to get more information on this case and we will enhance the app to correctly show the rates from the app.\n\n-> Got it, thank you.\n\n\n\nHave a good day,\n\n\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Good afternoon Touseef,</div><div><br></div><div>For DHL Express, the app is adding an EXPORT DECLARATION surcharge, which is applied for high value shipments. The default setup in the app uses a shipment value of 25000 (in local currency) for this surcharge to be added.<br>This value may not be accurate when shipping from Japan.&nbsp;</div><div>-&gt; Can't we just disable the import of the shipment value on the DHL integration or on your app?</div><div><br>For FedEx, the rates are not matching as Insurance Surcharge is being added by FedEx for International Shipments. We have contacted FedEx to get more information on this case and we will enhance the app to correctly show the rates from the app.</div><div>-&gt; Got it, thank you.</div><div><br></div><div>Have a good day,</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Good afternoon Touseef,  \n  For DHL Express, the app is adding an EXPORT DECLARATION surcharge, which is applied for high value shipments. The default setup in the app uses a shipment value of 25000 (in local currency) for this surcharge to be added.\nThis value may not be accurate when shipping from Japan.&nbsp;  -&gt; Can't we just disable the import of the shipment value on the DHL integration or on your app?  \nFor FedEx, the rates are not matching as Insurance Surcharge is being added by FedEx for International Shipments. We have contacted FedEx to get more information on this case and we will enhance the app to correctly show the rates from the app.  -&gt; Got it, thank you.  \n  Have a good day,  \n      Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56550602080921,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T07:34:46Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08JxO4d6sqFCS3=1rS=fPjEHk3kOWQ_KFWaRM5eMzQO1JQ@mail.gmail.com>",
+          "email_id": "01KN3ZEK8MPRRPN14M9KCQXG5A",
+          "raw_email_identifier": "2369120/0d6282db-f232-431c-8512-a4deec5d6664.eml",
+          "json_email_identifier": "2369120/0d6282db-f232-431c-8512-a4deec5d6664.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56553630301977,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Adrien,\n\nThank you for your response.\n\nFor the case with DHL Express, disabling the EXPORT DECLARATION value check will not be possible as this may work for your case, however, it may not be a feasible solution for all scenarios and countries.\n\nCould you please **reach out to the DHL team to confirm the correct threshold value** above which this surcharge should apply for shipments from Japan?\nOnce confirmed, **we will update the value in the app** so that the **rates are reflected correctly** for your DHL Express shipments.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Adrien,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>For the case with DHL Express, disabling the EXPORT DECLARATION value check will not be possible as this may work for your case, however, it may not be a feasible solution for all scenarios and countries.<br>&nbsp;<br>Could you please <strong>reach out to the DHL team to confirm the correct threshold value</strong> above which this surcharge should apply for shipments from Japan?&nbsp;<br>Once confirmed, <strong>we will update the value in the app</strong> so that the <strong>rates are reflected correctly</strong> for your DHL Express shipments.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Adrien,\n&nbsp;\nThank you for your response.\n&nbsp;\nFor the case with DHL Express, disabling the EXPORT DECLARATION value check will not be possible as this may work for your case, however, it may not be a feasible solution for all scenarios and countries.\n&nbsp;\nCould you please reach out to the DHL team to confirm the correct threshold value above which this surcharge should apply for shipments from Japan?&nbsp;\nOnce confirmed, we will update the value in the app so that the rates are reflected correctly for your DHL Express shipments.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56553630301849,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T09:00:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56553688967321,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "If customer is not able to check the case with DHL team, we will be contacting DHL global team from our end to check the case further.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">If customer is not able to check the case with DHL team, we will be contacting DHL global team from our end to check the case further.<br></div>",
+      "plain_body": "If customer is not able to check the case with DHL team, we will be contacting DHL global team from our end to check the case further.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56553663394841,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T09:01:17Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56554916642969,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Dear Touseef,\n\n\n\nThank you for your reply.\n\nIn our case, let us handle the EXPORT DECLARATION value, the scenarios and countries. Just disable it. Just correct the threshold value and put 1 yen.\n\n\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Dear Touseef,</div><div><br></div><div>Thank you for&nbsp;your reply.</div><div>In our case, let us handle the&nbsp;EXPORT DECLARATION value, the scenarios&nbsp;and countries. Just disable it. Just correct the threshold&nbsp;value and put 1 yen.</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Dear Touseef,  \n  Thank you for&nbsp;your reply.  In our case, let us handle the&nbsp;EXPORT DECLARATION value, the scenarios&nbsp;and countries. Just disable it. Just correct the threshold&nbsp;value and put 1 yen.  \n      Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56554916642841,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T09:38:42Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08JrFkAQnkgrT533g5bxUA5Hf+2UgYv1S2HLhxf28rnSAA@mail.gmail.com>",
+          "email_id": "01KN46HJ2WFH4J0WWTW0V02KYT",
+          "raw_email_identifier": "2369120/fbe8650e-a351-45af-8454-d233207281be.eml",
+          "json_email_identifier": "2369120/fbe8650e-a351-45af-8454-d233207281be.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56555952896537,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Adrien,\n\nI believe I was not clear in my last response.\n\nThe EXPORT DECLARATION value check in the app with DHL Express is not limited to your store. This is a setup used by all the merchants who use the app with DHL Express across the globe.\n\nDisabling this completely may cause challenges for customers who are using the app from other countries and shipping from that country (e.g., US or UK).\n\nWe can check the case with DHL team from our end on your behalf. Could you please share your DHL Account Representative contact (email id) with us? We will reach out to them and check the case further.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Adrien,<br>&nbsp;<br>I believe I was not clear in my last response.<br>&nbsp;<br>The EXPORT DECLARATION value check in the app with DHL Express is not limited to your store. This is a setup used by all the merchants who use the app with DHL Express across the globe.<br>&nbsp;<br>Disabling this completely may cause challenges for customers who are using the app from other countries and shipping from that country (e.g., US or UK).<br>&nbsp;<br>We can check the case with DHL team from our end on your behalf. Could you please share your DHL Account Representative contact (email id) with us? We will reach out to them and check the case further.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Adrien,\n&nbsp;\nI believe I was not clear in my last response.\n&nbsp;\nThe EXPORT DECLARATION value check in the app with DHL Express is not limited to your store. This is a setup used by all the merchants who use the app with DHL Express across the globe.\n&nbsp;\nDisabling this completely may cause challenges for customers who are using the app from other countries and shipping from that country (e.g., US or UK).\n&nbsp;\nWe can check the case with DHL team from our end on your behalf. Could you please share your DHL Account Representative contact (email id) with us? We will reach out to them and check the case further.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56555952896409,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T10:12:00Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56558459738777,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Dear Touseef,\n\n\n\nI was asking you if you could change it in DHL+ app, not your app. Is it possible or not?\n\n\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Dear Touseef,</div><div><br></div><div>I was asking you if you could change it in DHL+ app, not your app. Is it possible or not?</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Dear Touseef,  \n  I was asking you if you could change it in DHL+ app, not your app. Is it possible or not?  \n      Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56558459738649,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T11:43:09Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08+9BxHWNQO=upitgsdLnzgctPUH3eTzKsnS0EBw+QsS1A@mail.gmail.com>",
+          "email_id": "01KN4DNDVKZRBBRM3NV7K5M2NS",
+          "raw_email_identifier": "2369120/904feabf-c20b-4927-b32b-cf6e0ed29a24.eml",
+          "json_email_identifier": "2369120/904feabf-c20b-4927-b32b-cf6e0ed29a24.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56560027756697,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Adrien,\n\nThis change cannot be made on the DHL+ app. The rates on the DHL+ app are correct and do not need any changes.\n\nThe app has to be updated on our end so that the EXPORT DECLARATION value is checked correctly for shipments originating from Japan.\n\nWe can check the case with DHL team from our end on your behalf. Could you please share your DHL Account Representative or any DHL contact (email id) with us? We will reach out to them and check the case further.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Adrien,<br>&nbsp;<br>This change cannot be made on the DHL+ app. The rates on the DHL+ app are correct and do not need any changes.<br>&nbsp;<br>The app has to be updated on our end so that the EXPORT DECLARATION value is checked correctly for shipments originating from Japan.<br>&nbsp;<br>We can check the case with DHL team from our end on your behalf. Could you please share your DHL Account Representative or any DHL contact (email id) with us? We will reach out to them and check the case further.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Adrien,\n&nbsp;\nThis change cannot be made on the DHL+ app. The rates on the DHL+ app are correct and do not need any changes.\n&nbsp;\nThe app has to be updated on our end so that the EXPORT DECLARATION value is checked correctly for shipments originating from Japan.\n&nbsp;\nWe can check the case with DHL team from our end on your behalf. Could you please share your DHL Account Representative or any DHL contact (email id) with us? We will reach out to them and check the case further.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56560027756569,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T12:52:04Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56591617686937,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Conversation with DHL team on https://pluginhive.zendesk.com/agent/tickets/382091 about this case",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Conversation with DHL team on <a rel=\"noopener noreferrer\" href=\"https://pluginhive.zendesk.com/agent/tickets/382091\">https://pluginhive.zendesk.com/agent/tickets/382091</a> about this case<br></div>",
+      "plain_body": "Conversation with DHL team on https://pluginhive.zendesk.com/agent/tickets/382091 about this case",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56591617686681,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T10:20:57Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56591834826777,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775125788247069\n\nDHL rates mismatch case\nJapan customer added his DHL and FedEx account with the app.\n**Summary of the case - Example Order 292011**\nFor DHL, rates from the app is **€54.98** for **EXPRESS WORLDWIDE** service, whereas on the customer account which the same details, it is **JPY 8,275 (~€45.01)**\nThe app is requesting for an Export Declaration Surcharge of **JPY1800 (~€9.81)** from DHL based on the order total. This surcharge is requested for order total more than 25000.\nCustomer is shipping from Japan and for the order 292011, the order value is €254.01 (~46615.89 JPY). However, this is not applicable when shipping from Japan as the rates in customer account as without this surcharge.\n\nReached out to DHL Japan team with help of customer on https://pluginhive.zendesk.com/agent/tickets/382091\n\nDHL team replied the following -\n************\n_I would like to clarify an important point regarding the rate mismatch:_\n_*Export Declaration (WO) charges are generally not applied for exports from Japan._\n_*Therefore, we kindly request that your system does not include or request the WO surcharge when retrieving rates from DHL._\n************\n\nCould you please check the case and let us know if the suggested change by DHL team can be added in the app?\n\nURL - bbbb09-31.myshopify.com\nAccount ID - 1ad7b600-4ad8-4d4a-9001-ce443a2d12e0",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1775125788247069\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1775125788247069</a><br>&nbsp;<br>DHL rates mismatch case<br>Japan customer added his DHL and FedEx account with the app.<br><strong>Summary of the case - Example Order 292011</strong><br>For DHL, rates from the app is <strong>€54.98</strong> for <strong>EXPRESS WORLDWIDE</strong> service, whereas on the customer account which the same details, it is <strong>JPY 8,275 (~€45.01)</strong><br>The app is requesting for an Export Declaration Surcharge of <strong>JPY1800 (~€9.81)</strong> from DHL based on the order total. This surcharge is requested for order total more than 25000.<br>Customer is shipping from Japan and for the order 292011, the order value is €254.01 (~46615.89 JPY). However, this is not applicable when shipping from Japan as the rates in customer account as without this surcharge.<br>&nbsp;<br>Reached out to DHL Japan team with help of customer on <a rel=\"noopener noreferrer\" href=\"https://pluginhive.zendesk.com/agent/tickets/382091\">https://pluginhive.zendesk.com/agent/tickets/382091</a><br>&nbsp;<br>DHL team replied the following -&nbsp;<br>************<br><i>I would like to clarify an important point regarding the rate mismatch:</i><br><i>*Export Declaration (WO) charges are generally not applied for exports from Japan.</i><br><i>*Therefore, we kindly request that your system does not include or request the WO surcharge when retrieving rates from DHL.</i><br>************<br>&nbsp;<br>Could you please check the case and let us know if the suggested change by DHL team can be added in the app?<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://bbbb09-31.myshopify.com\">bbbb09-31.myshopify.com</a><br>Account ID - 1ad7b600-4ad8-4d4a-9001-ce443a2d12e0<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775125788247069\n&nbsp;\nDHL rates mismatch case\nJapan customer added his DHL and FedEx account with the app.\nSummary of the case - Example Order 292011\nFor DHL, rates from the app is €54.98 for EXPRESS WORLDWIDE service, whereas on the customer account which the same details, it is JPY 8,275 (~€45.01)\nThe app is requesting for an Export Declaration Surcharge of JPY1800 (~€9.81) from DHL based on the order total. This surcharge is requested for order total more than 25000.\nCustomer is shipping from Japan and for the order 292011, the order value is €254.01 (~46615.89 JPY). However, this is not applicable when shipping from Japan as the rates in customer account as without this surcharge.\n&nbsp;\nReached out to DHL Japan team with help of customer on https://pluginhive.zendesk.com/agent/tickets/382091\n&nbsp;\nDHL team replied the following -&nbsp;\n************\nI would like to clarify an important point regarding the rate mismatch:\n*Export Declaration (WO) charges are generally not applied for exports from Japan.\n*Therefore, we kindly request that your system does not include or request the WO surcharge when retrieving rates from DHL.\n************\n&nbsp;\nCould you please check the case and let us know if the suggested change by DHL team can be added in the app?\n&nbsp;\nURL - bbbb09-31.myshopify.com\nAccount ID - 1ad7b600-4ad8-4d4a-9001-ce443a2d12e0",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56591738683161.json",
+          "id": 56591738683161,
+          "file_name": "Screenshot at Apr 01 12-22-13.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/HnvcbEbZVuHoXhBy8XJgPULSX/?name=Screenshot+at+Apr+01+12-22-13.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/HnvcbEbZVuHoXhBy8XJgPULSX/?name=Screenshot+at+Apr+01+12-22-13.png",
+          "content_type": "image/png",
+          "size": 553914,
+          "width": 2572,
+          "height": 1512,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56591738705689.json",
+              "id": 56591738705689,
+              "file_name": "Screenshot_at_Apr_01_12-22-13_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/qGvM6Mh1BV7ZTvJ08M22FBzq6/?name=Screenshot_at_Apr_01_12-22-13_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/qGvM6Mh1BV7ZTvJ08M22FBzq6/?name=Screenshot_at_Apr_01_12-22-13_thumb.png",
+              "content_type": "image/png",
+              "size": 10944,
+              "width": 80,
+              "height": 47,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56591779085081.json",
+          "id": 56591779085081,
+          "file_name": "Screenshot at Apr 01 12-23-25.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/mpdSijDYg3kW79O9KY2q5s9mz/?name=Screenshot+at+Apr+01+12-23-25.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/mpdSijDYg3kW79O9KY2q5s9mz/?name=Screenshot+at+Apr+01+12-23-25.png",
+          "content_type": "image/png",
+          "size": 300690,
+          "width": 1738,
+          "height": 1048,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56591784546329.json",
+          "id": 56591784546329,
+          "file_name": "Screenshot at Apr 01 12-23-09.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/h2kkqKw4iFb5iqirLpKn3ZiN3/?name=Screenshot+at+Apr+01+12-23-09.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/h2kkqKw4iFb5iqirLpKn3ZiN3/?name=Screenshot+at+Apr+01+12-23-09.png",
+          "content_type": "image/png",
+          "size": 738514,
+          "width": 2130,
+          "height": 1036,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56591800560921.json",
+              "id": 56591800560921,
+              "file_name": "Screenshot_at_Apr_01_12-23-09_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/GFAsB7TQrP7v2xwun3HyfjMWL/?name=Screenshot_at_Apr_01_12-23-09_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/GFAsB7TQrP7v2xwun3HyfjMWL/?name=Screenshot_at_Apr_01_12-23-09_thumb.png",
+              "content_type": "image/png",
+              "size": 11759,
+              "width": 80,
+              "height": 39,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 56591834826649,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T10:30:02Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56593045380377,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We will enhance the app to avoid passing Export Declaration for Japan shipments, in upcoming release.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will enhance the app to avoid passing Export Declaration for Japan shipments, in upcoming release.<br>[Veena]<br></div>",
+      "plain_body": "We will enhance the app to avoid passing Export Declaration for Japan shipments, in upcoming release.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56593045380249,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T11:15:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56593495154713,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Adrien,\n\nThank you for your patience.\n\nAfter discussing your case with the DHL team, we will be updating the app as per directions from the DHL team for your case.\n\nThis enhancement will be made available in the upcoming release of the app.\n\nWe will update you as soon as this enhancement is made available so that you can test the rates case further.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Adrien,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>After discussing your case with the DHL team, we will be updating the app as per directions from the DHL team for your case.<br>&nbsp;<br>This enhancement will be made available in the upcoming release of the app.&nbsp;<br>&nbsp;<br>We will update you as soon as this enhancement is made available so that you can test the rates case further.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Adrien,\n&nbsp;\nThank you for your patience.\n&nbsp;\nAfter discussing your case with the DHL team, we will be updating the app as per directions from the DHL team for your case.\n&nbsp;\nThis enhancement will be made available in the upcoming release of the app.&nbsp;\n&nbsp;\nWe will update you as soon as this enhancement is made available so that you can test the rates case further.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56593495154585,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T11:34:06Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56593495676697,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "No ETA available as of now.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">No ETA available as of now.<br></div>",
+      "plain_body": "No ETA available as of now.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56593480602521,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T11:34:16Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56595355294105,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Dear Touseef,\n\n\n\nThank you for your feedback.\n\nDo you know how long it will take?\n\n\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Dear Touseef,</div><div><br></div><div>Thank you for your feedback.</div><div>Do you know how long it will take?</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Dear Touseef,  \n  Thank you for your feedback.  Do you know how long it will take?  \n      Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56595355293977,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T12:59:16Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08JJJB6_=GAkqs1iDCX_n6AO_KW21gzhpamkRZiaQ7x+uA@mail.gmail.com>",
+          "email_id": "01KN74DEAPKQC7FFB92BKYVXD2",
+          "raw_email_identifier": "2369120/8e2e9656-1e25-4d30-a067-bef31ec29fe8.eml",
+          "json_email_identifier": "2369120/8e2e9656-1e25-4d30-a067-bef31ec29fe8.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56595460579865,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Adrien,\n\nThank you for your response.\n\nCurrently, we do not have an exact ETA at the moment.\n\nOnce we have an ETA, we will keep you updated.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Adrien,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Currently, we do not have an exact ETA at the moment.<br>&nbsp;<br>Once we have an ETA, we will keep you updated.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Adrien,\n&nbsp;\nThank you for your response.\n&nbsp;\nCurrently, we do not have an exact ETA at the moment.\n&nbsp;\nOnce we have an ETA, we will keep you updated.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56595460579737,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T13:04:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.37.249.104",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56687687319577,
+      "type": "Comment",
+      "author_id": 31742225953689,
+      "body": "Hello,\n\n\n\nIn that case, could you extend my free trial period as the app is not functioning properly? It was already annoying to link Fedex because of the glitch, we do not want to do that again.\n\n\n\nSincerely,\n\nJap'On Demande\n\nTokyo, Bunkyo\n\nwww.japondemande.com\n ![](https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hello,</div><div><br></div><div>In that case, could you extend my free trial period as the app is not functioning properly? It was already annoying to link Fedex because of the glitch, we do not want to do that again.</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Sincerely,</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Jap'On Demande</font></font></div><div style=\"color: rgb(34,34,34);\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Tokyo, Bunkyo</font></font></div><div style=\"color: rgb(34,34,34);\"><a href=\"https://www.japondemande.com/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">www.japondemande.com</font></font></a><br><img width=\"96\" height=\"44\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zeYwMpRvmW4lNTBbVT-_7dqrksrdW7hfm6uvHTK7I9ShkAO9G5wjdNv-nedgoWLQ-GcWaQ-4ydf3e6\"><br></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hello,  \n  In that case, could you extend my free trial period as the app is not functioning properly? It was already annoying to link Fedex because of the glitch, we do not want to do that again.  \n      Sincerely,  Jap'On Demande  Tokyo, Bunkyo  www.japondemande.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56687687319449,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "japondemande@gmail.com",
+            "name": "Japondemande",
+            "original_recipients": [
+              "japondemande@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-06T02:25:11Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABwG08+ADx0U82rcqWAGzKxJQQU32_5+tebL9iGCjB31QTF1YQ@mail.gmail.com>",
+          "email_id": "01KNG9QB22PYX1EGHD1ZKP7ZRP",
+          "raw_email_identifier": "2369120/bcd0ba3c-0f52-4858-826e-45c931ed36c6.eml",
+          "json_email_identifier": "2369120/bcd0ba3c-0f52-4858-826e-45c931ed36c6.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56690390097433,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Adrien,\n\nThank you for the followup.\n\nWe have extended the trial for the app on your store by 14 days.\n\nWe will update you as soon as the enhancement for DHL rates mismatch case is addressed.\n\nAdditionally, I would like to update that the FedEx rates mismatch case has now been addressed in the app. You can try checking for FedEx rates and let us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Adrien,<br>&nbsp;<br>Thank you for the followup.<br>&nbsp;<br>We have extended the trial for the app on your store by 14 days.<br>&nbsp;<br>We will update you as soon as the enhancement for DHL rates mismatch case is addressed.<br>&nbsp;<br>Additionally, I would like to update that the FedEx rates mismatch case has now been addressed in the app. You can try checking for FedEx rates and let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Adrien,\n&nbsp;\nThank you for the followup.\n&nbsp;\nWe have extended the trial for the app on your store by 14 days.\n&nbsp;\nWe will update you as soon as the enhancement for DHL rates mismatch case is addressed.\n&nbsp;\nAdditionally, I would like to update that the FedEx rates mismatch case has now been addressed in the app. You can try checking for FedEx rates and let us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56690390097305,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-06T03:43:37Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

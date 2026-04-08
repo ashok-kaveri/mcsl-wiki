@@ -1,0 +1,2271 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/379784.json",
+    "id": 379784,
+    "external_id": null,
+    "via": {
+      "channel": "api",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-19T13:02:24Z",
+    "updated_at": "2026-03-27T14:40:27Z",
+    "generated_timestamp": 1774622427,
+    "type": null,
+    "subject": "Inquiry: Shopify Shipping Setup with PostNord, Amazon MCF & Multi-Carrier Automation",
+    "raw_subject": "Inquiry: Shopify Shipping Setup with PostNord, Amazon MCF & Multi-Carrier Automation",
+    "description": "Hi PluginHive team,\r\n\r\nI hope you’re doing well.\r\n\r\nI’m reaching out because I’m currently reviewing our shipping setup in Shopify and I’m interested in understanding whether your **PH MultiCarrier Shipping Label app** could help us streamline and improve our operations.\r\n\r\n### Current setup\r\n\r\nToday we are using:\r\n\r\n* **PostNord via Uniwin** for most of our shipments\r\n* **Amazon MCF (via WebBee)** for orders fulfilled through Amazon inventory\r\n* **17TRACK** for tracking notifications to customers\r\n\r\nOur current flow is:\r\n\r\n* Orders are fulfilled via Amazon MCF when stock is available in Amazon\r\n* If an item is out of stock in Amazon, we ship it ourselves using PostNord\r\n\r\n### Challenges we are facing\r\n\r\nWe are currently experiencing a few operational issues:\r\n\r\n1. **Too many steps to generate labels and tracking**\r\n   The current PostNord (Uniwin) setup feels quite slow and not optimized. We would like a much faster workflow — ideally close to one-click label generation with automatic tracking updates.\r\n\r\n2. **Missing customs/HS code handling**\r\n   For shipments to the US, HS codes and customs data are not properly handled in our current setup. This forces us to manually process these shipments directly in PostNord’s own system, which is time-consuming.\r\n\r\n3. **Limited flexibility in carrier options**\r\n   We currently offer free shipping, but we would like to:\r\n\r\n   * Offer **paid express options** (e.g. UPS or similar)\r\n   * Dynamically show shipping options to customers at checkout\r\n   * Potentially use different carriers depending on destination or urgency\r\n\r\n4. **Return label requirements**\r\n   Some marketplace partners (e.g. Decathlon) require that we include a **prepaid return label inside the package**, so we need a solution that supports this reliably.\r\n\r\n### What we are looking for\r\n\r\nWe are aiming for a setup that allows us to:\r\n\r\n* Automatically select the **best shipping method** (cost/speed based)\r\n* Still have the option to **manually choose carrier when needed**\r\n* Generate **shipping label + tracking in one step**\r\n* Automatically include **customs data (HS codes, country of origin, etc.)**\r\n* Support **PostNord as primary carrier**\r\n* Optionally support **UPS or other carriers for express shipping**\r\n* Enable **return label generation (preferably in the same workflow)**\r\n* Work smoothly alongside **Amazon MCF (WebBee)**\r\n\r\nAdditionally, we would like to understand:\r\n\r\n* Does your system support **carrier pickup booking** (e.g. UPS picking up from our warehouse)?\r\n* Can we define rules like:\r\n\r\n  * “Use Amazon MCF when available”\r\n  * “Fallback to PostNord when not”\r\n  * “Offer express options when selected by customer”\r\n\r\n### Next step\r\n\r\nIf this sounds like a good fit, I would really appreciate booking a **demo / video call** where we can go through:\r\n\r\n* How your app would be configured in our setup\r\n* How customs and international shipping are handled\r\n* How automation and routing rules would work in practice\r\n\r\nLooking forward to hearing from you.\r\n\r\nBest regards,\r\n\r\nBest regards,\r\nUsama Aziz\r\nCEO & Founder | lobloo®\r\n–––––––––––––––––––––––––––––\r\nPatented performance protection\r\nDesigned to FREE YOUR MAX\r\nMade in Sweden\r\n–––––––––––––––––––––––––––––\r\nwww.lobloo.com\r\nwww.usamaaziz.com\r\n\r\n\r\n\r\n",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 56169025472025,
+    "submitter_id": 56169025472025,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      56278319431577
+    ],
+    "follower_ids": [
+      56278319431577
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "high_agent_replies",
+      "issues_with_setting_up_the_plugin",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "lobloo.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+46707550301"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "WM00EP-ZYJ12",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "lobloo.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+46707550301"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56169025500313,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Hi PluginHive team,\r\n\r\nI hope you’re doing well.\r\n\r\nI’m reaching out because I’m currently reviewing our shipping setup in Shopify and I’m interested in understanding whether your **PH MultiCarrier Shipping Label app** could help us streamline and improve our operations.\r\n\r\n### Current setup\r\n\r\nToday we are using:\r\n\r\n* **PostNord via Uniwin** for most of our shipments\r\n* **Amazon MCF (via WebBee)** for orders fulfilled through Amazon inventory\r\n* **17TRACK** for tracking notifications to customers\r\n\r\nOur current flow is:\r\n\r\n* Orders are fulfilled via Amazon MCF when stock is available in Amazon\r\n* If an item is out of stock in Amazon, we ship it ourselves using PostNord\r\n\r\n### Challenges we are facing\r\n\r\nWe are currently experiencing a few operational issues:\r\n\r\n1. **Too many steps to generate labels and tracking**\r\n   The current PostNord (Uniwin) setup feels quite slow and not optimized. We would like a much faster workflow — ideally close to one-click label generation with automatic tracking updates.\r\n\r\n2. **Missing customs/HS code handling**\r\n   For shipments to the US, HS codes and customs data are not properly handled in our current setup. This forces us to manually process these shipments directly in PostNord’s own system, which is time-consuming.\r\n\r\n3. **Limited flexibility in carrier options**\r\n   We currently offer free shipping, but we would like to:\r\n\r\n   * Offer **paid express options** (e.g. UPS or similar)\r\n   * Dynamically show shipping options to customers at checkout\r\n   * Potentially use different carriers depending on destination or urgency\r\n\r\n4. **Return label requirements**\r\n   Some marketplace partners (e.g. Decathlon) require that we include a **prepaid return label inside the package**, so we need a solution that supports this reliably.\r\n\r\n### What we are looking for\r\n\r\nWe are aiming for a setup that allows us to:\r\n\r\n* Automatically select the **best shipping method** (cost/speed based)\r\n* Still have the option to **manually choose carrier when needed**\r\n* Generate **shipping label + tracking in one step**\r\n* Automatically include **customs data (HS codes, country of origin, etc.)**\r\n* Support **PostNord as primary carrier**\r\n* Optionally support **UPS or other carriers for express shipping**\r\n* Enable **return label generation (preferably in the same workflow)**\r\n* Work smoothly alongside **Amazon MCF (WebBee)**\r\n\r\nAdditionally, we would like to understand:\r\n\r\n* Does your system support **carrier pickup booking** (e.g. UPS picking up from our warehouse)?\r\n* Can we define rules like:\r\n\r\n  * “Use Amazon MCF when available”\r\n  * “Fallback to PostNord when not”\r\n  * “Offer express options when selected by customer”\r\n\r\n### Next step\r\n\r\nIf this sounds like a good fit, I would really appreciate booking a **demo / video call** where we can go through:\r\n\r\n* How your app would be configured in our setup\r\n* How customs and international shipping are handled\r\n* How automation and routing rules would work in practice\r\n\r\nLooking forward to hearing from you.\r\n\r\nBest regards,\r\n\r\nBest regards,\r\nUsama Aziz\r\nCEO & Founder | lobloo®\r\n–––––––––––––––––––––––––––––\r\nPatented performance protection\r\nDesigned to FREE YOUR MAX\r\nMade in Sweden\r\n–––––––––––––––––––––––––––––\r\nwww.lobloo.com\r\nwww.usamaaziz.com",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hi PluginHive team,</p>\n\n<p dir=\"auto\">I hope you’re doing well.</p>\n\n<p dir=\"auto\">I’m reaching out because I’m currently reviewing our shipping setup in Shopify and I’m interested in understanding whether your **PH MultiCarrier Shipping Label app** could help us streamline and improve our operations.</p>\n\n<p dir=\"auto\">### Current setup</p>\n\n<p dir=\"auto\">Today we are using:</p>\n\n<p dir=\"auto\">* **PostNord via Uniwin** for most of our shipments\n<br>* **Amazon MCF (via WebBee)** for orders fulfilled through Amazon inventory\n<br>* **17TRACK** for tracking notifications to customers</p>\n\n<p dir=\"auto\">Our current flow is:</p>\n\n<p dir=\"auto\">* Orders are fulfilled via Amazon MCF when stock is available in Amazon\n<br>* If an item is out of stock in Amazon, we ship it ourselves using PostNord</p>\n\n<p dir=\"auto\">### Challenges we are facing</p>\n\n<p dir=\"auto\">We are currently experiencing a few operational issues:</p>\n\n<p dir=\"auto\">1. **Too many steps to generate labels and tracking**\n<br>   The current PostNord (Uniwin) setup feels quite slow and not optimized. We would like a much faster workflow — ideally close to one-click label generation with automatic tracking updates.</p>\n\n<p dir=\"auto\">2. **Missing customs/HS code handling**\n<br>   For shipments to the US, HS codes and customs data are not properly handled in our current setup. This forces us to manually process these shipments directly in PostNord’s own system, which is time-consuming.</p>\n\n<p dir=\"auto\">3. **Limited flexibility in carrier options**\n<br>   We currently offer free shipping, but we would like to:</p>\n\n<p dir=\"auto\">   * Offer **paid express options** (e.g. UPS or similar)\n<br>   * Dynamically show shipping options to customers at checkout\n<br>   * Potentially use different carriers depending on destination or urgency</p>\n\n<p dir=\"auto\">4. **Return label requirements**\n<br>   Some marketplace partners (e.g. Decathlon) require that we include a **prepaid return label inside the package**, so we need a solution that supports this reliably.</p>\n\n<p dir=\"auto\">### What we are looking for</p>\n\n<p dir=\"auto\">We are aiming for a setup that allows us to:</p>\n\n<p dir=\"auto\">* Automatically select the **best shipping method** (cost/speed based)\n<br>* Still have the option to **manually choose carrier when needed**\n<br>* Generate **shipping label + tracking in one step**\n<br>* Automatically include **customs data (HS codes, country of origin, etc.)**\n<br>* Support **PostNord as primary carrier**\n<br>* Optionally support **UPS or other carriers for express shipping**\n<br>* Enable **return label generation (preferably in the same workflow)**\n<br>* Work smoothly alongside **Amazon MCF (WebBee)**</p>\n\n<p dir=\"auto\">Additionally, we would like to understand:</p>\n\n<p dir=\"auto\">* Does your system support **carrier pickup booking** (e.g. UPS picking up from our warehouse)?\n<br>* Can we define rules like:</p>\n\n<p dir=\"auto\">  * “Use Amazon MCF when available”\n<br>  * “Fallback to PostNord when not”\n<br>  * “Offer express options when selected by customer”</p>\n\n<p dir=\"auto\">### Next step</p>\n\n<p dir=\"auto\">If this sounds like a good fit, I would really appreciate booking a **demo / video call** where we can go through:</p>\n\n<p dir=\"auto\">* How your app would be configured in our setup\n<br>* How customs and international shipping are handled\n<br>* How automation and routing rules would work in practice</p>\n\n<p dir=\"auto\">Looking forward to hearing from you.</p>\n\n<p dir=\"auto\">Best regards,</p>\n\n<p dir=\"auto\">Best regards,\n<br>Usama Aziz\n<br>CEO &amp; Founder | lobloo®\n<br>–––––––––––––––––––––––––––––\n<br>Patented performance protection\n<br>Designed to FREE YOUR MAX\n<br>Made in Sweden\n<br>–––––––––––––––––––––––––––––\n<br><a href=\"http://www.lobloo.com\" target=\"_blank\" rel=\"nofollow noreferrer\">www.lobloo.com</a>\n<br><a href=\"http://www.usamaaziz.com\" target=\"_blank\" rel=\"nofollow noreferrer\">www.usamaaziz.com</a></p></div>",
+      "plain_body": "Hi PluginHive team, \n\n I hope you’re doing well. \n\n I’m reaching out because I’m currently reviewing our shipping setup in Shopify and I’m interested in understanding whether your **PH MultiCarrier Shipping Label app** could help us streamline and improve our operations. \n\n ### Current setup \n\n Today we are using: \n\n * **PostNord via Uniwin** for most of our shipments\n\n* **Amazon MCF (via WebBee)** for orders fulfilled through Amazon inventory\n\n* **17TRACK** for tracking notifications to customers \n\n Our current flow is: \n\n * Orders are fulfilled via Amazon MCF when stock is available in Amazon\n\n* If an item is out of stock in Amazon, we ship it ourselves using PostNord \n\n ### Challenges we are facing \n\n We are currently experiencing a few operational issues: \n\n 1. **Too many steps to generate labels and tracking**\n\n   The current PostNord (Uniwin) setup feels quite slow and not optimized. We would like a much faster workflow — ideally close to one-click label generation with automatic tracking updates. \n\n 2. **Missing customs/HS code handling**\n\n   For shipments to the US, HS codes and customs data are not properly handled in our current setup. This forces us to manually process these shipments directly in PostNord’s own system, which is time-consuming. \n\n 3. **Limited flexibility in carrier options**\n\n   We currently offer free shipping, but we would like to: \n\n    * Offer **paid express options** (e.g. UPS or similar)\n\n   * Dynamically show shipping options to customers at checkout\n\n   * Potentially use different carriers depending on destination or urgency \n\n 4. **Return label requirements**\n\n   Some marketplace partners (e.g. Decathlon) require that we include a **prepaid return label inside the package**, so we need a solution that supports this reliably. \n\n ### What we are looking for \n\n We are aiming for a setup that allows us to: \n\n * Automatically select the **best shipping method** (cost/speed based)\n\n* Still have the option to **manually choose carrier when needed**\n\n* Generate **shipping label + tracking in one step**\n\n* Automatically include **customs data (HS codes, country of origin, etc.)**\n\n* Support **PostNord as primary carrier**\n\n* Optionally support **UPS or other carriers for express shipping**\n\n* Enable **return label generation (preferably in the same workflow)**\n\n* Work smoothly alongside **Amazon MCF (WebBee)** \n\n Additionally, we would like to understand: \n\n * Does your system support **carrier pickup booking** (e.g. UPS picking up from our warehouse)?\n\n* Can we define rules like: \n\n   * “Use Amazon MCF when available”\n\n  * “Fallback to PostNord when not”\n\n  * “Offer express options when selected by customer” \n\n ### Next step \n\n If this sounds like a good fit, I would really appreciate booking a **demo / video call** where we can go through: \n\n * How your app would be configured in our setup\n\n* How customs and international shipping are handled\n\n* How automation and routing rules would work in practice \n\n Looking forward to hearing from you. \n\n Best regards, \n\n Best regards,\n\nUsama Aziz\n\nCEO &amp; Founder | lobloo®\n\n–––––––––––––––––––––––––––––\n\nPatented performance protection\n\nDesigned to FREE YOUR MAX\n\nMade in Sweden\n\n–––––––––––––––––––––––––––––\n\nwww.lobloo.com\n\nwww.usamaaziz.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56169025500185,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T13:02:24Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.8.5; https://www.pluginhive.com",
+          "ip_address": "159.65.74.253",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56170761983513,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Usama Aziz,\n\nGood day!\n\nThank you for your interest in the PH Multi Carrier Shipping Label app. It is an advanced Shopify solution that supports 33+ shipping carriers and helps streamline your entire shipping process. This includes displaying real-time calculated rates, generating shipping labels in bulk, sending tracking updates to customers, scheduling pickups, and much more.\n\nRegarding your queries:\n\n- The app can automatically select the best and most cost-effective available service when generating shipping labels.\n- You also have the flexibility to manually choose your preferred carrier service from the connected carriers.\n- The app allows you to generate custom documents such as Commercial Invoice, CN22, and CN23, including details like HS Code, Country of Origin, and product description to ensure smooth customs clearance.\n- The app supports PostNord integration along with all its available services.\n- You can connect UPS and other carriers for express shipping options.\n- Return labels can be generated directly within the app.\n- The app integrates directly with Shopify to import orders and fulfill them with tracking numbers. However, Amazon MCF cannot be integrated with the app. That said, your Amazon MCF setup will continue to function as it currently does without any interruption.\n- Additionally, you can schedule pickups within the app, and the respective carrier agent will collect the parcels from your warehouse.\n\nYou can configure shipping rules based on zone, price, quantity, and weight. However, setting rules based on inventory or product availability is not supported at the moment.\n\nI would be happy to schedule a demo call at your convenience. Before that, could you please let us know the approximate number of orders you expect to process per month?\n\nLooking forward to your response.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama Aziz,<br>&nbsp;<br>Good day!<br>&nbsp;<br>Thank you for your interest in the <a rel=\"noopener noreferrer\" href=\"https://apps.shopify.com/multi-carrier-shipping-label\">PH Multi Carrier Shipping Label app</a>. It is an advanced Shopify solution that supports 33+ shipping carriers and helps streamline your entire shipping process. This includes displaying real-time calculated rates, generating shipping labels in bulk, sending tracking updates to customers, scheduling pickups, and much more.<br>&nbsp;<br>Regarding your queries:<br><ul dir=\"auto\"><li>The app can automatically select the best and most cost-effective available service when generating shipping labels.</li><li>You also have the flexibility to manually choose your preferred carrier service from the connected carriers.</li><li>The app allows you to generate custom documents such as Commercial Invoice, CN22, and CN23, including details like HS Code, Country of Origin, and product description to ensure smooth customs clearance.</li><li>The app supports PostNord integration along with all its available services.</li><li>You can connect UPS and other carriers for express shipping options.</li><li>Return labels can be generated directly within the app.</li><li>The app integrates directly with Shopify to import orders and fulfill them with tracking numbers. However, Amazon MCF cannot be integrated with the app. That said, your Amazon MCF setup will continue to function as it currently does without any interruption.</li><li>Additionally, you can schedule pickups within the app, and the respective carrier agent will collect the parcels from your warehouse.</li></ul>&nbsp;<br>You can configure shipping rules based on zone, price, quantity, and weight. However, setting rules based on inventory or product availability is not supported at the moment.<br>&nbsp;<br>I would be happy to schedule a demo call at your convenience. Before that, could you please let us know the approximate number of orders you expect to process per month?<br>&nbsp;<br>Looking forward to your response.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Usama Aziz,\n&nbsp;\nGood day!\n&nbsp;\nThank you for your interest in the PH Multi Carrier Shipping Label app. It is an advanced Shopify solution that supports 33+ shipping carriers and helps streamline your entire shipping process. This includes displaying real-time calculated rates, generating shipping labels in bulk, sending tracking updates to customers, scheduling pickups, and much more.\n&nbsp;\nRegarding your queries:\n  The app can automatically select the best and most cost-effective available service when generating shipping labels.  You also have the flexibility to manually choose your preferred carrier service from the connected carriers.  The app allows you to generate custom documents such as Commercial Invoice, CN22, and CN23, including details like HS Code, Country of Origin, and product description to ensure smooth customs clearance.  The app supports PostNord integration along with all its available services.  You can connect UPS and other carriers for express shipping options.  Return labels can be generated directly within the app.  The app integrates directly with Shopify to import orders and fulfill them with tracking numbers. However, Amazon MCF cannot be integrated with the app. That said, your Amazon MCF setup will continue to function as it currently does without any interruption.  Additionally, you can schedule pickups within the app, and the respective carrier agent will collect the parcels from your warehouse.  &nbsp;\nYou can configure shipping rules based on zone, price, quantity, and weight. However, setting rules based on inventory or product availability is not supported at the moment.\n&nbsp;\nI would be happy to schedule a demo call at your convenience. Before that, could you please let us know the approximate number of orders you expect to process per month?\n&nbsp;\nLooking forward to your response.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56170761983385,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T14:38:23Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.37.177.226",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56172162198425,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Hi Manohar,\n\nThank you for your detailed response — this is very helpful.\n\nFrom what I understand, your solution seems to match what we are looking for.\n\nTo clarify our setup:\nWe do not need automatic routing based on inventory. Instead, we want to manually decide per order:\n\n-\n\nWhich orders are fulfilled via Amazon MCF\n\n-\n\nWhich orders are fulfilled via PostNord (through your app)\n\nAs long as we can easily choose and then generate shipping labels (including customs and tracking) in a fast and streamlined way, this would fit our needs well.\n\nBased on your explanation, it sounds like your app supports this workflow.\n\nI would be happy to proceed with a demo call to better understand:\n\n-\n\nThe exact label generation flow (especially for US shipments with HS codes)\n\n-\n\nHow return labels can be handled together with outbound shipments\n\n-\n\nHow multiple carriers (PostNord + UPS) can be configured\n\nIn terms of volume, we are currently processing approximately** 6-8****00 orders per month**, with plans to scale further.\n\nAdditionally, it would be helpful if you could share:\n\n-\n\nYour pricing structure\n\n-\n\nHow pricing scales with order volume\n\n-\n\nAny additional costs for carriers, returns, or advanced features\n\nPlease let me know a suitable time for a demo.\n\nLooking forward to speaking with you.\n\nBest regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Hi Manohar,</p><p dir=\"auto\">Thank you for your detailed response — this is very helpful.</p><p dir=\"auto\">From what I understand, your solution seems to match what we are looking for.</p><p dir=\"auto\">To clarify our setup:<br>We do not need automatic routing based on inventory. Instead, we want to manually decide per order:</p><ul dir=\"auto\"><li><p dir=\"auto\">Which orders are fulfilled via Amazon MCF</p></li><li><p dir=\"auto\">Which orders are fulfilled via PostNord (through your app)</p></li></ul><p dir=\"auto\">As long as we can easily choose and then generate shipping labels (including customs and tracking) in a fast and streamlined way, this would fit our needs well.</p><p dir=\"auto\">Based on your explanation, it sounds like your app supports this workflow.</p><p dir=\"auto\">I would be happy to proceed with a demo call to better understand:</p><ul dir=\"auto\"><li><p dir=\"auto\">The exact label generation flow (especially for US shipments with HS codes)</p></li><li><p dir=\"auto\">How return labels can be handled together with outbound shipments</p></li><li><p dir=\"auto\">How multiple carriers (PostNord + UPS) can be configured</p></li></ul><p dir=\"auto\">In terms of volume, we are currently processing approximately<b>&nbsp;6-8</b><strong>00 orders per month</strong>, with plans to scale further.</p><p dir=\"auto\">Additionally, it would be helpful if you could share:</p><ul dir=\"auto\"><li><p dir=\"auto\">Your pricing structure</p></li><li><p dir=\"auto\">How pricing scales with order volume</p></li><li><p dir=\"auto\">Any additional costs for carriers, returns, or advanced features</p></li></ul><p dir=\"auto\">Please let me know a suitable time for a demo.</p><p dir=\"auto\">Looking forward to speaking with you.</p><p dir=\"auto\">Best regards,<br>Usama Aziz<br>Co-Founder, lobloo®</p>\n<div><br></div></div>",
+      "plain_body": "Hi Manohar,  Thank you for your detailed response — this is very helpful.  From what I understand, your solution seems to match what we are looking for.  To clarify our setup:\nWe do not need automatic routing based on inventory. Instead, we want to manually decide per order:    Which orders are fulfilled via Amazon MCF    Which orders are fulfilled via PostNord (through your app)    As long as we can easily choose and then generate shipping labels (including customs and tracking) in a fast and streamlined way, this would fit our needs well.  Based on your explanation, it sounds like your app supports this workflow.  I would be happy to proceed with a demo call to better understand:    The exact label generation flow (especially for US shipments with HS codes)    How return labels can be handled together with outbound shipments    How multiple carriers (PostNord + UPS) can be configured    In terms of volume, we are currently processing approximately&nbsp;6-800 orders per month, with plans to scale further.  Additionally, it would be helpful if you could share:    Your pricing structure    How pricing scales with order volume    Any additional costs for carriers, returns, or advanced features    Please let me know a suitable time for a demo.  Looking forward to speaking with you.  Best regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56172162198297,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "usamaaziz@me.com",
+            "name": "Usama Aziz",
+            "original_recipients": [
+              "usamaaziz@me.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T16:09:46Z",
+      "metadata": {
+        "system": {
+          "message_id": "<A702B91E-53E8-4E81-AC01-EB127C76FE62@me.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KM3DR8NQE9RWMVAVSJPT765M",
+          "ip_address": "17.57.156.36",
+          "raw_email_identifier": "2369120/5dcc7833-14b4-4bd0-a230-814599f295ed.eml",
+          "json_email_identifier": "2369120/5dcc7833-14b4-4bd0-a230-814599f295ed.json",
+          "eml_redacted": false,
+          "location": "United States",
+          "latitude": 37.751,
+          "longitude": -97.822
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56174371438745,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Usama Aziz,\n\nThank you for your reply.\n\nI have attached a screenshot of the app subscription plans for your reference. We can also go over the details during a call if you prefer.\n\nPlease note that there are no hidden charges apart from the app subscription.\n\nWe would be happy to schedule a demo call at your convenience. During the call, we can also install the app and complete the setup.\nPlease use the appointment link [CLICK HERE] to book a slot based on your availability. Kindly note that the link shows available slots for the next 48 working hours. If you would like to schedule a call for Monday, please book the slot a day in advance.\n\nFeel free to reach out anytime if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive\n\n ![](https://pluginhive.zendesk.com/attachments/token/qjiWFcrylvfM0bvaCe46M27Wo/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama Aziz,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>I have attached a screenshot of the app subscription plans for your reference. We can also go over the details during a call if you prefer.<br>&nbsp;<br>Please note that there are no hidden charges apart from the app subscription.<br>&nbsp;<br>We would be happy to schedule a demo call at your convenience. During the call, we can also install the app and complete the setup.&nbsp;<br>Please use the appointment link [<a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=https://lobloo.com/&amp;email=&amp;ticket=379784&amp;key=1773948948286\">CLICK HERE</a>] to book a slot based on your availability. Kindly note that the link shows available slots for the next 48 working hours. If you would like to schedule a call for Monday, please book the slot a day in advance.<br>&nbsp;<br>Feel free to reach out anytime if you need any assistance.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/qjiWFcrylvfM0bvaCe46M27Wo/?name=image.png\"></span><br></div>",
+      "plain_body": "Hello Usama Aziz,\n&nbsp;\nThank you for your reply.\n&nbsp;\nI have attached a screenshot of the app subscription plans for your reference. We can also go over the details during a call if you prefer.\n&nbsp;\nPlease note that there are no hidden charges apart from the app subscription.\n&nbsp;\nWe would be happy to schedule a demo call at your convenience. During the call, we can also install the app and complete the setup.&nbsp;\nPlease use the appointment link [CLICK HERE] to book a slot based on your availability. Kindly note that the link shows available slots for the next 48 working hours. If you would like to schedule a call for Monday, please book the slot a day in advance.\n&nbsp;\nFeel free to reach out anytime if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive\n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56174371438617,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T19:37:06Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.37.177.226",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56174563489689,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Hi Manohar,\n\nThank you for your response — everything sounds good so far and aligns well with what we are looking for.\n\nI tried to book a demo using the link you shared, but it seems there are no available time slots showing on my end.\n\nCould you please assist me with this or suggest available times so I can schedule the meeting?\n\nLooking forward to your help.\n\nBest regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Hi Manohar,</p><p dir=\"auto\">Thank you for your response — everything sounds good so far and aligns well with what we are looking for.</p><p dir=\"auto\">I tried to book a demo using the link you shared, but it seems there are no available time slots showing on my end.</p><p dir=\"auto\">Could you please assist me with this or suggest available times so I can schedule the meeting?</p><p dir=\"auto\">Looking forward to your help.</p><p dir=\"auto\">Best regards,<br>Usama Aziz<br>Co-Founder, lobloo®</p>\n<div><br></div></div>",
+      "plain_body": "Hi Manohar,  Thank you for your response — everything sounds good so far and aligns well with what we are looking for.  I tried to book a demo using the link you shared, but it seems there are no available time slots showing on my end.  Could you please assist me with this or suggest available times so I can schedule the meeting?  Looking forward to your help.  Best regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56174563489561,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "usamaaziz@me.com",
+            "name": "Usama Aziz",
+            "original_recipients": [
+              "usamaaziz@me.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T19:58:09Z",
+      "metadata": {
+        "system": {
+          "message_id": "<A29F52E2-F871-4E12-A063-4C3F9D21BEE3@me.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KM3TTE1VKHKZ0V0H668P4351",
+          "ip_address": "17.57.154.37",
+          "raw_email_identifier": "2369120/6715d302-a715-4f89-87b7-5c3f4de6b197.eml",
+          "json_email_identifier": "2369120/6715d302-a715-4f89-87b7-5c3f4de6b197.json",
+          "eml_redacted": false,
+          "location": "United States",
+          "latitude": 37.751,
+          "longitude": -97.822
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56176074755609,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Usama Aziz,\n\nThe appointment link displays available slots for the next 48 hours. Today (Friday), we have pre-scheduled calls, which is why no slots are currently showing. I kindly request you to use the link on Sunday to schedule a call for Monday.\n\nWe appreciate your understanding and look forward to speaking with you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama Aziz,<br>&nbsp;<br>The appointment link displays available slots for the next 48 hours. Today (Friday), we have pre-scheduled calls, which is why no slots are currently showing. I kindly request you to use the link on Sunday to schedule a call for Monday.<br>&nbsp;<br>We appreciate your understanding and look forward to speaking with you.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Usama Aziz,\n&nbsp;\nThe appointment link displays available slots for the next 48 hours. Today (Friday), we have pre-scheduled calls, which is why no slots are currently showing. I kindly request you to use the link on Sunday to schedule a call for Monday.\n&nbsp;\nWe appreciate your understanding and look forward to speaking with you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56176074755481,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T22:15:49Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.37.177.226",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56203554721689,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: Usama Aziz\nEmail: usamaaziz@me.com\nPhone Number: +46707550301\nStore URL: https://lobloo.com/\nDate & Time: March 23, 2026 03:30 pm (Europe/Stockholm +01:00)\n\nPluginHive Date & Time: March 23, 2026 8:00 pm",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Appointment Scheduled with PluginHive Support</p>\n<p dir=\"auto\">Customer Details:<br>\nName: Usama Aziz<br>\nEmail: <a href=\"mailto:usamaaziz@me.com\" rel=\"noreferrer\">usamaaziz@me.com</a><br>\nPhone Number: +46707550301<br>\nStore URL: <a href=\"https://lobloo.com/\" rel=\"noreferrer\">https://lobloo.com/</a><br>\nDate &amp; Time: March 23, 2026 03:30 pm (Europe/Stockholm +01:00)</p>\n<p dir=\"auto\">PluginHive Date &amp; Time: March 23, 2026 8:00 pm</p></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support \n Customer Details:\n\nName: Usama Aziz\n\nEmail: usamaaziz@me.com\n\nPhone Number: +46707550301\n\nStore URL: https://lobloo.com/\n\nDate &amp; Time: March 23, 2026 03:30 pm (Europe/Stockholm +01:00) \n PluginHive Date &amp; Time: March 23, 2026 8:00 pm",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56203554721561,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T16:45:07Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.9.4; https://appointments.pluginhive.com",
+          "ip_address": "159.89.131.157",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56278050336537,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Usama,\n\nI am Priyanka from PluginHive, and we have a meeting scheduled at 03:30 pm (Europe/Stockholm +01:00) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n\nMeeting Link:\n\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/77940167362?pwd=5cRFbASbiGLRowaZuZFs92AXdixxn3.1\n\nMeeting ID: 779 4016 7362\nPasscode: w7jXWH\nNOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.\n\nPrerequisites:\nEnsure that your system has a working microphone.\nPermissions to share the screen\n\nRegards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama,<br><br>I am Priyanka from PluginHive, and we have a meeting scheduled at 03:30 pm (Europe/Stockholm +01:00) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.<br><br>Meeting Link:<br><br>Join Zoom Meeting<br><a rel=\"noopener noreferrer\" href=\"https://us04web.zoom.us/j/77940167362?pwd=5cRFbASbiGLRowaZuZFs92AXdixxn3.1\">https://us04web.zoom.us/j/77940167362?pwd=5cRFbASbiGLRowaZuZFs92AXdixxn3.1</a><br>&nbsp;<br>Meeting ID: 779 4016 7362<br>Passcode: w7jXWH<br>NOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.<br><br>Prerequisites:<br>Ensure that your system has a working microphone.<br>Permissions to share the screen<br><br>Regards,<br>Priyanka<br>Team PluginHive<br>&nbsp;<br></div>",
+      "plain_body": "Hello Usama,\n\nI am Priyanka from PluginHive, and we have a meeting scheduled at 03:30 pm (Europe/Stockholm +01:00) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n\nMeeting Link:\n\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/77940167362?pwd=5cRFbASbiGLRowaZuZFs92AXdixxn3.1\n&nbsp;\nMeeting ID: 779 4016 7362\nPasscode: w7jXWH\nNOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.\n\nPrerequisites:\nEnsure that your system has a working microphone.\nPermissions to share the screen\n\nRegards,\nPriyanka\nTeam PluginHive\n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56278034473497,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T14:24:14Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.163.72",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56278305271833,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Request #380377 \"Welcome to Shopify Partner Plugi...\" was closed and merged into this request. Last comment in request #380377:\r\n\r\nHello Usama,\r\n\r\n Greeting from Shopify Partner PluginHive!\r\n\r\n Thank you for installing our Shopify App - **“PH Multi Carrier Shipping Label App”** on lobloo.myshopify.com\r\n\r\n Our team would like to assist you with the complete app onboarding.\r\n\r\n We request you let us know a suitable time for the onboarding session, which will not take more than 10 mins. Feel free to reply to this email (or) share your contact number, we will get in touch with you.\r\n\r\n You can also refer our documentation to set up the app and start shipping - click here to know more\r\n\r\n Looking forward to hearing from you.\r\n\r\n Thanks and Regards,\r\n Team PluginHive\r\nhttps://www.pluginhive.com/about/#team",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/380377\" target=\"_blank\" rel=\"ticket\">#380377</a> \"Welcome to Shopify Partner Plugi...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/380377\" target=\"_blank\" rel=\"ticket\">#380377</a>:</p>\n<p dir=\"auto\">Hello Usama,</p>\n<p dir=\"auto\">Greeting from Shopify Partner PluginHive!</p>\n<p dir=\"auto\">Thank you for installing our Shopify App - <strong>“PH Multi Carrier Shipping Label App”</strong> on lobloo.myshopify.com</p>\n<p dir=\"auto\">Our team would like to assist you with the complete app onboarding.</p>\n<p dir=\"auto\">We request you let us know a suitable time for the onboarding session, which will not take more than 10 mins. Feel free to reply to this email (or) share your contact number, we will get in touch with you.</p>\n<p dir=\"auto\">You can also refer our documentation to set up the app and start shipping - click here to know more</p>\n<p dir=\"auto\">Looking forward to hearing from you.</p>\n<p dir=\"auto\">Thanks and Regards,<br>\n Team PluginHive<br>\n<a href=\"https://www.pluginhive.com/about/#team\" rel=\"noreferrer\">https://www.pluginhive.com/about/#team</a></p></div>",
+      "plain_body": "Request #380377 \"Welcome to Shopify Partner Plugi...\" was closed and merged into this request. Last comment in request #380377: \n Hello Usama, \n Greeting from Shopify Partner PluginHive! \n Thank you for installing our Shopify App - “PH Multi Carrier Shipping Label App” on lobloo.myshopify.com \n Our team would like to assist you with the complete app onboarding. \n We request you let us know a suitable time for the onboarding session, which will not take more than 10 mins. Feel free to reply to this email (or) share your contact number, we will get in touch with you. \n You can also refer our documentation to set up the app and start shipping - click here to know more \n Looking forward to hearing from you. \n Thanks and Regards,\n\n Team PluginHive\n\nhttps://www.pluginhive.com/about/#team",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56278305271705,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              380377
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-03-23T14:41:49Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56280927762457,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Usama,\n\nI would like to inform you that the label has been successfully generated for Order SE11912.\n\nTo resolve the earlier error (_“For US customs categoryType is mandatory”_), we made the following updates:\n\n-\n\nUpdated the Category Type under:\n_App Menu → Settings → Carrier → PostNord → Other Details → Select category of item for CN22-CN23 doc → Sales of Goods_\n\n\n\n-\n\nUpdated the Currency under:\n_App Menu → Settings → General Settings → Shipping → Preferred Shipment Currency → USD_\n\n\n\nPlease refer to the attached screenshots for your reference.\n\nRegarding your second requirement of generating a return label for every order, we would need a bit more information to better understand your use case. Could you please let us know why you need this and how you plan to use it?\n\nAlso, please note that return labels are typically created after the shipment is fulfilled from the app. Since return labels may incur charges, could you please confirm how PostNord charges you for return labels?\n\nLooking forward to your response.\n ![](https://pluginhive.zendesk.com/attachments/token/QRsokXz7mTjezU94FNkehMpNR/?name=Screenshot+2026-03-23+at+11.23.34%E2%80%AFPM.png)\n\n\n ![](https://pluginhive.zendesk.com/attachments/token/bK5M21NOtAdg6r1VsMhV7hEIr/?name=Screenshot+2026-03-23+at+11.22.36%E2%80%AFPM.png)\n\n ![](https://pluginhive.zendesk.com/attachments/token/7Ict2S3xvfeZYdLnervr7PV74/?name=Screenshot+2026-03-23+at+11.24.09%E2%80%AFPM.png)\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Usama,<br>&nbsp;<br>I would like to inform you that the label has been successfully generated for Order SE11912.<br>&nbsp;<br>To resolve the earlier error (<i>“For US customs categoryType is mandatory”</i>), we made the following updates:<br><ul dir=\"auto\"><li><p dir=\"auto\">Updated the Category Type under:<br><i>App Menu → Settings → Carrier → PostNord → Other Details → Select category of item for CN22-CN23 doc → Sales of Goods</i></p><p dir=\"auto\">&nbsp;</p></li><li><p dir=\"auto\">Updated the Currency under:<br><i>App Menu → Settings → General Settings → Shipping → Preferred Shipment Currency → USD\\</i></p><p dir=\"auto\">&nbsp;</p></li></ul>Please refer to the attached screenshots for your reference.<br>&nbsp;<br>Regarding your second requirement of generating a return label for every order, we would need a bit more information to better understand your use case. Could you please let us know why you need this and how you plan to use it?<br>&nbsp;<br>Also, please note that return labels are typically created after the shipment is fulfilled from the app. Since return labels may incur charges, could you please confirm how PostNord charges you for return labels?<br>&nbsp;<br>Looking forward to your response.<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/QRsokXz7mTjezU94FNkehMpNR/?name=Screenshot+2026-03-23+at+11.23.34%E2%80%AFPM.png\"></span><br>&nbsp;<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/bK5M21NOtAdg6r1VsMhV7hEIr/?name=Screenshot+2026-03-23+at+11.22.36%E2%80%AFPM.png\"></span><br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/7Ict2S3xvfeZYdLnervr7PV74/?name=Screenshot+2026-03-23+at+11.24.09%E2%80%AFPM.png\"></span><br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Usama,\n&nbsp;\nI would like to inform you that the label has been successfully generated for Order SE11912.\n&nbsp;\nTo resolve the earlier error (“For US customs categoryType is mandatory”), we made the following updates:\n   Updated the Category Type under:\nApp Menu → Settings → Carrier → PostNord → Other Details → Select category of item for CN22-CN23 doc → Sales of Goods  &nbsp;    Updated the Currency under:\nApp Menu → Settings → General Settings → Shipping → Preferred Shipment Currency → USD\\  &nbsp;   Please refer to the attached screenshots for your reference.\n&nbsp;\nRegarding your second requirement of generating a return label for every order, we would need a bit more information to better understand your use case. Could you please let us know why you need this and how you plan to use it?\n&nbsp;\nAlso, please note that return labels are typically created after the shipment is fulfilled from the app. Since return labels may incur charges, could you please confirm how PostNord charges you for return labels?\n&nbsp;\nLooking forward to your response.\n\n&nbsp;\n&nbsp;\n\n&nbsp;\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56280927762329,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T18:04:36Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.163.72",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56280936711577,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Call summary : Customer only uses postnord for now,customer would ship internationally. Assisted with basic set up , packaging settings and label generation.\nCustomer initially faced the error with \"For US customs categoryType is mandatory\"\nonce we updated the currency and category we were able to generate label. Informed the same to customer\nCustomer had one more requirement where customer wanted to create return label with every order. Currently this feature is available on fedex app but not mcsl. I checked with keerthi and mail sent to customer with more information.\nmoving on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Call summary : Customer only uses postnord for now,customer would ship internationally. Assisted with basic set up , packaging settings and label generation.&nbsp;<br>Customer initially faced the error with \"For US customs categoryType is mandatory\"&nbsp;<br>once we updated the currency and category we were able to generate label. Informed the same to customer<br>Customer had one more requirement where customer wanted to create return label with every order. Currently this feature is available on fedex app but not mcsl. I checked with keerthi and mail sent to customer with more information.&nbsp;<br>moving on hold&nbsp;<br></div>",
+      "plain_body": "Call summary : Customer only uses postnord for now,customer would ship internationally. Assisted with basic set up , packaging settings and label generation.&nbsp;\nCustomer initially faced the error with \"For US customs categoryType is mandatory\"&nbsp;\nonce we updated the currency and category we were able to generate label. Informed the same to customer\nCustomer had one more requirement where customer wanted to create return label with every order. Currently this feature is available on fedex app but not mcsl. I checked with keerthi and mail sent to customer with more information.&nbsp;\nmoving on hold&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56280958106265,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T18:05:47Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.163.72",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56281159411993,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Hi Priyanka,\n\nThank you for your support and for helping resolve the issue — I really appreciate it.\n\nEverything looks good so far, and I’m currently evaluating this setup as part of a larger implementation on our end. Because of this, it is very important for me to fully confirm that this solution will work end-to-end for our needs.\n\nI would therefore need to schedule another meeting with you **as soon as possible** to finalize everything and go through the setup in detail.\n\nI already have an internal meeting scheduled on Wednesday where I need to present a confirmed and working solution, so it is quite urgent for me to have full clarity before then.\n\nRegarding return labels:\nWe do not plan to generate return labels for every order. Instead, we want the flexibility to:\n\n-\n\nInclude return labels only for specific orders (e.g. certain partners like Decathlon)\n\n-\n\nSkip return labels for standard orders where customers are responsible for return shipping\n\nIt would be great if we could also go through this logic together during the call.\n\nPlease let me know your earliest available time so we can proceed.\n\nLooking forward to your response.\n\nBest regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Hi Priyanka,</p><p dir=\"auto\">Thank you for your support and for helping resolve the issue — I really appreciate it.</p><p dir=\"auto\">Everything looks good so far, and I’m currently evaluating this setup as part of a larger implementation on our end. Because of this, it is very important for me to fully confirm that this solution will work end-to-end for our needs.</p><p dir=\"auto\">I would therefore need to schedule another meeting with you&nbsp;<strong>as soon as possible</strong>&nbsp;to finalize everything and go through the setup in detail.</p><p dir=\"auto\">I already have an internal meeting scheduled on Wednesday where I need to present a confirmed and working solution, so it is quite urgent for me to have full clarity before then.</p><p dir=\"auto\">Regarding return labels:<br>We do not plan to generate return labels for every order. Instead, we want the flexibility to:</p><ul dir=\"auto\"><li><p dir=\"auto\">Include return labels only for specific orders (e.g. certain partners like Decathlon)</p></li><li><p dir=\"auto\">Skip return labels for standard orders where customers are responsible for return shipping</p></li></ul><p dir=\"auto\">It would be great if we could also go through this logic together during the call.</p><p dir=\"auto\">Please let me know your earliest available time so we can proceed.</p><p dir=\"auto\">Looking forward to your response.</p><p dir=\"auto\">Best regards,<br>Usama Aziz<br>Co-Founder, lobloo®</p><div><br>\n</div>\n<div><br></div></div>",
+      "plain_body": "Hi Priyanka,  Thank you for your support and for helping resolve the issue — I really appreciate it.  Everything looks good so far, and I’m currently evaluating this setup as part of a larger implementation on our end. Because of this, it is very important for me to fully confirm that this solution will work end-to-end for our needs.  I would therefore need to schedule another meeting with you&nbsp;as soon as possible&nbsp;to finalize everything and go through the setup in detail.  I already have an internal meeting scheduled on Wednesday where I need to present a confirmed and working solution, so it is quite urgent for me to have full clarity before then.  Regarding return labels:\nWe do not plan to generate return labels for every order. Instead, we want the flexibility to:    Include return labels only for specific orders (e.g. certain partners like Decathlon)    Skip return labels for standard orders where customers are responsible for return shipping    It would be great if we could also go through this logic together during the call.  Please let me know your earliest available time so we can proceed.  Looking forward to your response.  Best regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56281159411865,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "usamaaziz@me.com",
+            "name": "Usama Aziz",
+            "original_recipients": [
+              "usamaaziz@me.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T18:26:54Z",
+      "metadata": {
+        "system": {
+          "message_id": "<9282634D-D527-47D4-B1A9-867EDB724CC9@me.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KMDZ66J6NMQACQVS038VBC86",
+          "ip_address": "17.57.156.36",
+          "raw_email_identifier": "2369120/96f40708-d34f-47b7-8b43-fe4b0e44552f.eml",
+          "json_email_identifier": "2369120/96f40708-d34f-47b7-8b43-fe4b0e44552f.json",
+          "eml_redacted": false,
+          "location": "United States",
+          "latitude": 37.751,
+          "longitude": -97.822
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56281335435801,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Usama,\n\nThank you for your kind words—I’m glad to hear everything is working well so far.\n\nSure, we can schedule a meeting. Before that, could you please confirm what specific points you would like to cover during the session? The basic setup is already completed, and you should be able to start using the app for generating labels. This will help us make the meeting more focused and productive for you.\n\nRegarding the return label requirement, could you please elaborate a bit more on the following points:\n\n- _“Skip return labels for standard orders where customers are responsible for return shipping”_ — could you explain how you would like this flow to work?\n-\n\n_“Include return labels only for specific orders (e.g., certain partners like Decathlon)”_ — how do you identify these specific orders, and what logic would you like to apply?\n\n\n\nAlso, please note that return labels are typically created after the shipment is fulfilled from the app. Since return labels may incur charges, could you please confirm how PostNord charges you for return labels?\n\nLooking forward to your response so we can proceed accordingly.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Usama,<br>&nbsp;<br>Thank you for your kind words—I’m glad to hear everything is working well so far.<br>&nbsp;<br>Sure, we can schedule a meeting. Before that, could you please confirm what specific points you would like to cover during the session? The basic setup is already completed, and you should be able to start using the app for generating labels. This will help us make the meeting more focused and productive for you.<br>&nbsp;<br>Regarding the return label requirement, could you please elaborate a bit more on the following points:<br><ul dir=\"auto\"><li><i>“Skip return labels for standard orders where customers are responsible for return shipping”</i> — could you explain how you would like this flow to work?</li><li><p dir=\"auto\"><i>“Include return labels only for specific orders (e.g., certain partners like Decathlon)”</i> — how do you identify these specific orders, and what logic would you like to apply?</p><p dir=\"auto\">&nbsp;</p></li></ul>Also, please note that return labels are typically created after the shipment is fulfilled from the app. Since return labels may incur charges, could you please confirm how PostNord charges you for return labels?<br>&nbsp;<br>Looking forward to your response so we can proceed accordingly.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br>&nbsp;<br></div>",
+      "plain_body": "Hi Usama,\n&nbsp;\nThank you for your kind words—I’m glad to hear everything is working well so far.\n&nbsp;\nSure, we can schedule a meeting. Before that, could you please confirm what specific points you would like to cover during the session? The basic setup is already completed, and you should be able to start using the app for generating labels. This will help us make the meeting more focused and productive for you.\n&nbsp;\nRegarding the return label requirement, could you please elaborate a bit more on the following points:\n  “Skip return labels for standard orders where customers are responsible for return shipping” — could you explain how you would like this flow to work?   “Include return labels only for specific orders (e.g., certain partners like Decathlon)” — how do you identify these specific orders, and what logic would you like to apply?  &nbsp;   Also, please note that return labels are typically created after the shipment is fulfilled from the app. Since return labels may incur charges, could you please confirm how PostNord charges you for return labels?\n&nbsp;\nLooking forward to your response so we can proceed accordingly.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive\n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56281335435673,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T18:45:45Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.163.72",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56281318472345,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Need more info before sharing another meeting link , we had a meeting today and on 80 min call everything was covered\ni discussed the return label requirement with keerthi\nmoving on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need more info before sharing another meeting link , we had a meeting today and on 80 min call everything was covered<br>i discussed the return label requirement with keerthi&nbsp;<br>moving on hold<br></div>",
+      "plain_body": "Need more info before sharing another meeting link , we had a meeting today and on 80 min call everything was covered\ni discussed the return label requirement with keerthi&nbsp;\nmoving on hold",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56281347457817,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T18:46:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.163.72",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56281670733977,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Hi Priyanka,\n\nThank you for your response — that makes sense.\n\nI would still like to schedule a meeting to go through a few key points and make sure everything is fully aligned before we go live, as this setup is part of a larger implementation on our side.\n\nI would also really appreciate a **full walkthrough of how the app works in practice**, including the end-to-end workflow from order to shipment, so I can fully understand how to use it correctly.\n\nTo clarify your questions:\n\n### Return label logic\n\nOur goal is to have a flexible setup where:\n\n-\n\nFor **standard orders**:\nCustomers are responsible for return shipping. In these cases, we will **not include a return label** when generating the shipment.\n\n-\n\nFor **specific orders (e.g. Decathlon or selected partners)**:\nWe need to **include a return label in the package at the time of shipment**, as required by certain marketplaces.\n\n* * *\n\n### How we identify these orders\n\nWe typically identify these orders based on:\n\n-\n\nSales channel / marketplace (e.g. Decathlon via Mirakl)\n\n-\n\nPotentially order tags in Shopify\n\nWe would like to understand the best way to handle this in your app — whether via rules, tags, or manual selection during label generation.\n\n* * *\n\n### Return label creation\n\nOur intention is:\n\n-\n\nTo generate return labels **only when needed**, not for all shipments\n\n-\n\nIdeally at the same time as the outbound label (for applicable orders)\n\n* * *\n\n### PostNord return label cost\n\nWe will confirm internally how PostNord charges us for return labels and get back to you on this point.\n\n* * *\n\n### Meeting\n\nIt would be very helpful to walk through everything together, including:\n\n-\n\nFull app workflow\n\n-\n\nLabel generation process\n\n-\n\nCustoms handling (HS codes, US shipments)\n\n-\n\nReturn label setup and logic\n\nAs mentioned earlier, I have an important internal meeting on Wednesday where I need to confirm that this setup works, so I would really appreciate if we can schedule a call as soon as possible.\n\nLooking forward to your reply.\n\nBest regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Hi Priyanka,</p><p dir=\"auto\">Thank you for your response — that makes sense.</p><p dir=\"auto\">I would still like to schedule a meeting to go through a few key points and make sure everything is fully aligned before we go live, as this setup is part of a larger implementation on our side.</p><p dir=\"auto\">I would also really appreciate a&nbsp;<strong>full walkthrough of how the app works in practice</strong>, including the end-to-end workflow from order to shipment, so I can fully understand how to use it correctly.</p><p dir=\"auto\">To clarify your questions:</p><h3 dir=\"auto\">Return label logic</h3><p dir=\"auto\">Our goal is to have a flexible setup where:</p><ul dir=\"auto\"><li><p dir=\"auto\">For&nbsp;<strong>standard orders</strong>:<br>Customers are responsible for return shipping. In these cases, we will&nbsp;<strong>not include a return label</strong>&nbsp;when generating the shipment.</p></li><li><p dir=\"auto\">For&nbsp;<strong>specific orders (e.g. Decathlon or selected partners)</strong>:<br>We need to&nbsp;<strong>include a return label in the package at the time of shipment</strong>, as required by certain marketplaces.</p></li></ul><hr><h3 dir=\"auto\">How we identify these orders</h3><p dir=\"auto\">We typically identify these orders based on:</p><ul dir=\"auto\"><li><p dir=\"auto\">Sales channel / marketplace (e.g. Decathlon via Mirakl)</p></li><li><p dir=\"auto\">Potentially order tags in Shopify</p></li></ul><p dir=\"auto\">We would like to understand the best way to handle this in your app — whether via rules, tags, or manual selection during label generation.</p><hr><h3 dir=\"auto\">Return label creation</h3><p dir=\"auto\">Our intention is:</p><ul dir=\"auto\"><li><p dir=\"auto\">To generate return labels&nbsp;<strong>only when needed</strong>, not for all shipments</p></li><li><p dir=\"auto\">Ideally at the same time as the outbound label (for applicable orders)</p></li></ul><hr><h3 dir=\"auto\">PostNord return label cost</h3><p dir=\"auto\">We will confirm internally how PostNord charges us for return labels and get back to you on this point.</p><hr><h3 dir=\"auto\">Meeting</h3><p dir=\"auto\">It would be very helpful to walk through everything together, including:</p><ul dir=\"auto\"><li><p dir=\"auto\">Full app workflow</p></li><li><p dir=\"auto\">Label generation process</p></li><li><p dir=\"auto\">Customs handling (HS codes, US shipments)</p></li><li><p dir=\"auto\">Return label setup and logic</p></li></ul><p dir=\"auto\">As mentioned earlier, I have an important internal meeting on Wednesday where I need to confirm that this setup works, so I would really appreciate if we can schedule a call as soon as possible.</p><p dir=\"auto\">Looking forward to your reply.</p><p dir=\"auto\">Best regards,<br>Usama Aziz<br>Co-Founder, lobloo®</p><div><br>\n</div>\n<div><br></div></div>",
+      "plain_body": "Hi Priyanka,  Thank you for your response — that makes sense.  I would still like to schedule a meeting to go through a few key points and make sure everything is fully aligned before we go live, as this setup is part of a larger implementation on our side.  I would also really appreciate a&nbsp;full walkthrough of how the app works in practice, including the end-to-end workflow from order to shipment, so I can fully understand how to use it correctly.  To clarify your questions:  Return label logic  Our goal is to have a flexible setup where:    For&nbsp;standard orders:\nCustomers are responsible for return shipping. In these cases, we will&nbsp;not include a return label&nbsp;when generating the shipment.    For&nbsp;specific orders (e.g. Decathlon or selected partners):\nWe need to&nbsp;include a return label in the package at the time of shipment, as required by certain marketplaces.     How we identify these orders  We typically identify these orders based on:    Sales channel / marketplace (e.g. Decathlon via Mirakl)    Potentially order tags in Shopify    We would like to understand the best way to handle this in your app — whether via rules, tags, or manual selection during label generation.   Return label creation  Our intention is:    To generate return labels&nbsp;only when needed, not for all shipments    Ideally at the same time as the outbound label (for applicable orders)     PostNord return label cost  We will confirm internally how PostNord charges us for return labels and get back to you on this point.   Meeting  It would be very helpful to walk through everything together, including:    Full app workflow    Label generation process    Customs handling (HS codes, US shipments)    Return label setup and logic    As mentioned earlier, I have an important internal meeting on Wednesday where I need to confirm that this setup works, so I would really appreciate if we can schedule a call as soon as possible.  Looking forward to your reply.  Best regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56281670733849,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "usamaaziz@me.com",
+            "name": "Usama Aziz",
+            "original_recipients": [
+              "usamaaziz@me.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T19:27:58Z",
+      "metadata": {
+        "system": {
+          "message_id": "<FEC2BEFD-7E7D-4DD1-92A8-03FEC9E0F3DD@me.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KME2P0J4MMBV5QY08AMMPYWN",
+          "ip_address": "17.57.155.37",
+          "raw_email_identifier": "2369120/65fc12a8-9f2f-408a-ad2f-ef94d4ed4735.eml",
+          "json_email_identifier": "2369120/65fc12a8-9f2f-408a-ad2f-ef94d4ed4735.json",
+          "eml_redacted": false,
+          "location": "United States",
+          "latitude": 37.751,
+          "longitude": -97.822
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56281848644121,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Usama Aziz,\n\nThank you for sharing the details.\n\nPriynaka will check about this and get back to you with an update.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama Aziz,<br>&nbsp;<br>Thank you for sharing the details.&nbsp;<br>&nbsp;<br>Priynaka will check about this and get back to you with an update.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Usama Aziz,\n&nbsp;\nThank you for sharing the details.&nbsp;\n&nbsp;\nPriynaka will check about this and get back to you with an update.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56281848643993,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T19:48:40Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "27.7.92.211",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56281849311001,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Have informed Priyanka about the Return Label generation requirements as she has already discussed with Keerthi about this",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Have informed Priyanka about the Return Label generation requirements as she has already discussed with Keerthi about this<br></div>",
+      "plain_body": "Have informed Priyanka about the Return Label generation requirements as she has already discussed with Keerthi about this",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56281837749273,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T19:49:20Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "27.7.92.211",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56281922088345,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Hi Sagar,\n\nThank you for your response, I appreciate it.\n\nI would like to book a meeting with Priyanka as soon as possible. Could you please share a booking link or suggest an available time?\n\nThis is quite urgent on my end, as I have an important internal meeting on Wednesday and need to ensure that the app is fully set up and working for our project by then.\n\nLooking forward to your reply.\n\nBest regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Hi Sagar,</p><p dir=\"auto\">Thank you for your response, I appreciate it.</p><p dir=\"auto\">I would like to book a meeting with Priyanka as soon as possible. Could you please share a booking link or suggest an available time?</p><p dir=\"auto\">This is quite urgent on my end, as I have an important internal meeting on Wednesday and need to ensure that the app is fully set up and working for our project by then.</p><p dir=\"auto\">Looking forward to your reply.</p><p dir=\"auto\">Best regards,<br>Usama Aziz<br>Co-Founder, lobloo®</p><div><br><br>\n</div>\n<div><br></div></div>",
+      "plain_body": "Hi Sagar,  Thank you for your response, I appreciate it.  I would like to book a meeting with Priyanka as soon as possible. Could you please share a booking link or suggest an available time?  This is quite urgent on my end, as I have an important internal meeting on Wednesday and need to ensure that the app is fully set up and working for our project by then.  Looking forward to your reply.  Best regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56281922088217,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "usamaaziz@me.com",
+            "name": "Usama Aziz",
+            "original_recipients": [
+              "usamaaziz@me.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T19:59:39Z",
+      "metadata": {
+        "system": {
+          "message_id": "<E6C06AAE-6B6F-4FB1-842E-A118496C043B@me.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KME4G0H5J3RD6MFA05QWMYQF",
+          "ip_address": "17.42.251.67",
+          "raw_email_identifier": "2369120/d485eef5-1365-44eb-85e9-daa483e750ac.eml",
+          "json_email_identifier": "2369120/d485eef5-1365-44eb-85e9-daa483e750ac.json",
+          "eml_redacted": false,
+          "location": "Maiden, NC, United States",
+          "latitude": 35.5757,
+          "longitude": -81.2117
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56282244988441,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Usama Aziz,\n\nSure! you can book a slot for the call using this link - Click Here\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama Aziz,<br>&nbsp;<br>Sure! you can book a slot for the call using this link - <a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=https://lobloo.com/&amp;email=usamaaziz@me.com&amp;ticket=379784&amp;key=1774297693623\">Click Here</a><br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Usama Aziz,\n&nbsp;\nSure! you can book a slot for the call using this link - Click Here\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56282244988313,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T20:28:30Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "27.7.92.211",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56282330585625,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: Usama Aziz\nEmail: usamaaziz@me.com\nPhone Number: +46707550301\nStore URL: https://lobloo.com/\nDate & Time: March 24, 2026 10:15 am (Europe/Stockholm +01:00)\n\nPluginHive Date & Time: March 24, 2026 2:45 pm",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Appointment Scheduled with PluginHive Support</p>\n<p dir=\"auto\">Customer Details:<br>\nName: Usama Aziz<br>\nEmail: <a href=\"mailto:usamaaziz@me.com\" rel=\"noreferrer\">usamaaziz@me.com</a><br>\nPhone Number: +46707550301<br>\nStore URL: <a href=\"https://lobloo.com/\" rel=\"noreferrer\">https://lobloo.com/</a><br>\nDate &amp; Time: March 24, 2026 10:15 am (Europe/Stockholm +01:00)</p>\n<p dir=\"auto\">PluginHive Date &amp; Time: March 24, 2026 2:45 pm</p></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support \n Customer Details:\n\nName: Usama Aziz\n\nEmail: usamaaziz@me.com\n\nPhone Number: +46707550301\n\nStore URL: https://lobloo.com/\n\nDate &amp; Time: March 24, 2026 10:15 am (Europe/Stockholm +01:00) \n PluginHive Date &amp; Time: March 24, 2026 2:45 pm",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56282330585369,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T20:40:31Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.9.4; https://appointments.pluginhive.com",
+          "ip_address": "159.89.131.157",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56304443620761,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Hi, I booked a meeting now at 10.15 but i did not receive any link",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi, I booked a meeting now at 10.15 but i did not receive any link<br><div><br><br>\n</div>\n<div><br></div></div>",
+      "plain_body": "Hi, I booked a meeting now at 10.15 but i did not receive any link",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56304443620633,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "usamaaziz@me.com",
+            "name": "Usama Aziz",
+            "original_recipients": [
+              "usamaaziz@me.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T09:17:27Z",
+      "metadata": {
+        "system": {
+          "message_id": "<B873EB4C-9FFC-435B-98D6-C46D888D55FC@me.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KMFJ4VJG57JKR1APZV2WHMNS",
+          "ip_address": "17.42.251.67",
+          "raw_email_identifier": "2369120/a8e50b71-349e-40f6-87bb-04caecf58f5e.eml",
+          "json_email_identifier": "2369120/a8e50b71-349e-40f6-87bb-04caecf58f5e.json",
+          "eml_redacted": false,
+          "location": "Maiden, NC, United States",
+          "latitude": 35.5757,
+          "longitude": -81.2117
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56304474689945,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Usama,\n\nGood day!\n\nWe have a meeting scheduled at 2.45 pm Stockholm time today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n\nMeeting Link:\n\nSibi Firoz is inviting you to a scheduled Zoom meeting.\n\nTopic: PH Multi Carrier Shipping Label App - Query Call\nTime: Mar 24, 2026 10:15 AM Stockholm\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/72359071958?pwd=CDnzObT1axIRaE6i2aU8jja9XZJOH0.1\n\nMeeting ID: 723 5907 1958\nPasscode: 1DeTnD\n\nNOTE: The meeting is scheduled for 30 minutes. We kindly request you to be present on the call as per the scheduled timings, extending the call or delayed calls are not encouraged due to prior commitments.\n\nPre-requisites:\n\n- Ensure that your system has a working microphone.\n- Permissions to share screen\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama,<br>&nbsp;<br>Good day!<br>&nbsp;<br>We have a meeting scheduled at 2.45 pm Stockholm time today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.<br>&nbsp;<br>Meeting Link:<br>&nbsp;<br>Sibi Firoz is inviting you to a scheduled Zoom meeting.<br>&nbsp;<br>Topic: PH Multi Carrier Shipping Label App - Query Call<br>Time: Mar 24, 2026 10:15 AM Stockholm<br>Join Zoom Meeting<br><a rel=\"noopener noreferrer\" href=\"https://us04web.zoom.us/j/72359071958?pwd=CDnzObT1axIRaE6i2aU8jja9XZJOH0.1\">https://us04web.zoom.us/j/72359071958?pwd=CDnzObT1axIRaE6i2aU8jja9XZJOH0.1</a><br>&nbsp;<br>Meeting ID: 723 5907 1958<br>Passcode: 1DeTnD<br>&nbsp;<br>NOTE: The meeting is scheduled for 30 minutes. We kindly request you to be present on the call as per the scheduled timings, extending the call or delayed calls are not encouraged due to prior commitments.<br>&nbsp;<br>Pre-requisites:<br><ul dir=\"auto\"><li>Ensure that your system has a working microphone.</li><li>Permissions to share screen</li></ul>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Usama,\n&nbsp;\nGood day!\n&nbsp;\nWe have a meeting scheduled at 2.45 pm Stockholm time today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n&nbsp;\nMeeting Link:\n&nbsp;\nSibi Firoz is inviting you to a scheduled Zoom meeting.\n&nbsp;\nTopic: PH Multi Carrier Shipping Label App - Query Call\nTime: Mar 24, 2026 10:15 AM Stockholm\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/72359071958?pwd=CDnzObT1axIRaE6i2aU8jja9XZJOH0.1\n&nbsp;\nMeeting ID: 723 5907 1958\nPasscode: 1DeTnD\n&nbsp;\nNOTE: The meeting is scheduled for 30 minutes. We kindly request you to be present on the call as per the scheduled timings, extending the call or delayed calls are not encouraged due to prior commitments.\n&nbsp;\nPre-requisites:\n  Ensure that your system has a working microphone.  Permissions to share screen  &nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56304474689817,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T09:17:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56304621521049,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Hi Sibi,\n\nThanks for your message.\n\nI’ve attached a screenshot confirming the time I have booked, which shows the meeting scheduled at 10:15 AM Stockholm time.\n\nI can also make 2:45 PM work if needed, but that is not the time I originally booked.\n\nCould you please confirm which time is correct?\n\n![Skärmavbild 2026-03-24 kl. 10.20.33.png](https://support.pluginhive.com/attachments/token/MVrPpS8hCdnkIFqnCONH3BuPB/?name=Ska%CC%88rmavbild+2026-03-24+kl.+10.20.33.png)\n\nBest regards,\nUsama",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Hi Sibi,</p><p dir=\"auto\">Thanks for your message.</p><p dir=\"auto\">I’ve attached a screenshot confirming the time I have booked, which shows the meeting scheduled at 10:15 AM Stockholm time.</p><p dir=\"auto\">I can also make 2:45 PM work if needed, but that is not the time I originally booked.</p><p dir=\"auto\">Could you please confirm which time is correct?</p><p dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/MVrPpS8hCdnkIFqnCONH3BuPB/?name=Ska%CC%88rmavbild+2026-03-24+kl.+10.20.33.png\" alt=\"Skärmavbild 2026-03-24 kl. 10.20.33.png\" width=\"647\"></p><p dir=\"auto\">Best regards,<br>Usama</p><div><br><br>\n</div>\n<div><br></div></div>",
+      "plain_body": "Hi Sibi,  Thanks for your message.  I’ve attached a screenshot confirming the time I have booked, which shows the meeting scheduled at 10:15 AM Stockholm time.  I can also make 2:45 PM work if needed, but that is not the time I originally booked.  Could you please confirm which time is correct?    Best regards,\nUsama",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56304621520921,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "usamaaziz@me.com",
+            "name": "Usama Aziz",
+            "original_recipients": [
+              "usamaaziz@me.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T09:24:57Z",
+      "metadata": {
+        "system": {
+          "message_id": "<E33602E3-1D3F-4B40-AFA5-3665E9E8A7F8@me.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KMFJJG2S0MDS7KG2ZWTS6T9E",
+          "ip_address": "17.57.156.36",
+          "raw_email_identifier": "2369120/cc6629a9-6f4d-441a-8758-d023044c8fda.eml",
+          "json_email_identifier": "2369120/cc6629a9-6f4d-441a-8758-d023044c8fda.json",
+          "eml_redacted": false,
+          "location": "United States",
+          "latitude": 37.751,
+          "longitude": -97.822
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56304817298457,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Usama,\n\nSorry for the confusion. The time mentioned is our time.\n\nWill you be able to join the same link again?\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama,<br>&nbsp;<br>Sorry for the confusion. The time mentioned is our time.&nbsp;<br>&nbsp;<br>Will you be able to join the same link again?<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Usama,\n&nbsp;\nSorry for the confusion. The time mentioned is our time.&nbsp;\n&nbsp;\nWill you be able to join the same link again?\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56304817298329,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T09:30:43Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56305001526169,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Hi Sibi,\n\nThanks for clarifying.\n\nSince it says Stockholm time, I naturally understood it as my local time. I can join at 2:45 PM Swedish time, that works for me.\n\nCould you please confirm that this time is correct and whether I should use the same link?\n\nBest regards,\nUsama",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Hi Sibi,</p><p dir=\"auto\">Thanks for clarifying.</p><p dir=\"auto\">Since it says Stockholm time, I naturally understood it as my local time. I can join at 2:45 PM Swedish time, that works for me.</p><p dir=\"auto\">Could you please confirm that this time is correct and whether I should use the same link?</p><p dir=\"auto\">Best regards,<br>Usama</p><div><br><br>\n</div>\n<div><br></div></div>",
+      "plain_body": "Hi Sibi,  Thanks for clarifying.  Since it says Stockholm time, I naturally understood it as my local time. I can join at 2:45 PM Swedish time, that works for me.  Could you please confirm that this time is correct and whether I should use the same link?  Best regards,\nUsama",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56305001526041,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "usamaaziz@me.com",
+            "name": "Usama Aziz",
+            "original_recipients": [
+              "usamaaziz@me.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T09:35:56Z",
+      "metadata": {
+        "system": {
+          "message_id": "<AA87C141-02C5-4DEE-9E35-31C80D2EB4E9@me.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KMFK6NFNSQFCDEB986TH4X8D",
+          "ip_address": "17.56.9.36",
+          "raw_email_identifier": "2369120/4dcceba1-1455-494f-8db2-1f9b899268d4.eml",
+          "json_email_identifier": "2369120/4dcceba1-1455-494f-8db2-1f9b899268d4.json",
+          "eml_redacted": false,
+          "location": "Prineville, OR, United States",
+          "latitude": 44.3041,
+          "longitude": -120.8364
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56305092493465,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+441544300877",
+        "to": "+46707550301",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA5637f7fc6fc915ee6b70bc2d6e94e9a1/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 56305008778521,
+        "call_duration": 175,
+        "answered_by_id": 6932179641113,
+        "started_at": "2026-03-24T09:35:49Z",
+        "location": "",
+        "author_id": 6932179641113,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Sibi",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+44 1544 300877",
+      "formatted_to": "+46 70 755 03 01",
+      "transcription_visible": false,
+      "author_id": 6932179641113,
+      "body": "Outbound call to +46 70 755 03 01\nCall Details:\n\nCall from: +44 1544 300877\nCall to: +46 70 755 03 01\nTime of call: 2026-03-24 09:35:49 UTC\nCalled by: Sibi\nLength of phone call: 2 minutes, 55 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA5637f7fc6fc915ee6b70bc2d6e94e9a1/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +46 70 755 03 01<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +44 1544 300877<br>\nCall to: +46 70 755 03 01<br>\nTime of call: 2026-03-24 09:35:49 UTC<br>\nCalled by: Sibi<br>\nLength of phone call: 2 minutes, 55 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA5637f7fc6fc915ee6b70bc2d6e94e9a1/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA5637f7fc6fc915ee6b70bc2d6e94e9a1/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-03-24T09:38:46Z",
+      "audit_id": 56305070162841,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+44 1544 300877",
+            "phone": "+441544300877",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+46 70 755 03 01",
+            "phone": "+46707550301",
+            "name": "+46 70 755 03 01"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56305496073369,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "The customer wants to continue the call with Priyanka. The call is scheduled for 7.15 pm IST (2.45 pm Stockholm time) today.\nThe customer does not want to discuss from the beginning.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">The customer wants to continue the call with Priyanka. The call is scheduled for 7.15 pm IST (2.45 pm Stockholm time) today.<br>The customer does not want to discuss from the beginning.<br>&nbsp;<br></div>",
+      "plain_body": "The customer wants to continue the call with Priyanka. The call is scheduled for 7.15 pm IST (2.45 pm Stockholm time) today.\nThe customer does not want to discuss from the beginning.\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56305490685465,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T09:52:40Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56305577788697,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Usama,\n\nThank you for your time over the phone.\n\nAs discussed, we can connect over the call at 2.45 pm Stockholm time (7.15 pm IST) today.\n\nWe will be sharing the new meeting link 5-10 minutes prior to the scheduled time.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama,<br>&nbsp;<br>Thank you for your time over the phone.<br>&nbsp;<br>As discussed, we can connect over the call at 2.45 pm Stockholm time (7.15 pm IST) today.<br>&nbsp;<br>We will be sharing the new meeting link 5-10 minutes prior to the scheduled time.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Usama,\n&nbsp;\nThank you for your time over the phone.\n&nbsp;\nAs discussed, we can connect over the call at 2.45 pm Stockholm time (7.15 pm IST) today.\n&nbsp;\nWe will be sharing the new meeting link 5-10 minutes prior to the scheduled time.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56305577788569,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T09:56:30Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56305722877081,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Hi Sibi,\n\nThank you for your message.\n\nConfirmed, I will join the call at 2:45 PM Stockholm time today.\n\nLooking forward to it.\n\nBest regards,\nUsama",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Hi Sibi,</p><p dir=\"auto\">Thank you for your message.</p><p dir=\"auto\">Confirmed, I will join the call at 2:45 PM Stockholm time today.</p><p dir=\"auto\">Looking forward to it.</p><p dir=\"auto\">Best regards,<br>Usama</p><div><br>\n</div>\n<div><br></div></div>",
+      "plain_body": "Hi Sibi,  Thank you for your message.  Confirmed, I will join the call at 2:45 PM Stockholm time today.  Looking forward to it.  Best regards,\nUsama",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56305722876953,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "usamaaziz@me.com",
+            "name": "Usama Aziz",
+            "original_recipients": [
+              "usamaaziz@me.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T10:00:42Z",
+      "metadata": {
+        "system": {
+          "message_id": "<C60D213A-D899-4079-BD2C-2BA540FE647F@me.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KMFMM04BSFJ2PR8F62XYZ2Z8",
+          "ip_address": "17.56.9.36",
+          "raw_email_identifier": "2369120/58dd1188-c62c-4f23-acfe-4ee9f69250e7.eml",
+          "json_email_identifier": "2369120/58dd1188-c62c-4f23-acfe-4ee9f69250e7.json",
+          "eml_redacted": false,
+          "location": "Prineville, OR, United States",
+          "latitude": 44.3041,
+          "longitude": -120.8364
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56310985330969,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Usama,\n\nI am Priyanka from PluginHive, and we have a meeting scheduled at 2.45 pm Stockholm time today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n\nMeeting Link:\n\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/72739691974?pwd=FaOV4jhse1MO6jgSbnAPZVQPk00ZBC.1\n\nMeeting ID: 727 3969 1974\nPasscode: Q3u5aj\n\nNOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.\n\nPrerequisites:\nEnsure that your system has a working microphone.\nPermissions to share the screen\n\nRegards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama,<br><br>I am Priyanka from PluginHive, and we have a meeting scheduled at 2.45 pm Stockholm time today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.<br><br>Meeting Link:<br><br>Join Zoom Meeting<br><a rel=\"noopener noreferrer\" href=\"https://us04web.zoom.us/j/72739691974?pwd=FaOV4jhse1MO6jgSbnAPZVQPk00ZBC.1\">https://us04web.zoom.us/j/72739691974?pwd=FaOV4jhse1MO6jgSbnAPZVQPk00ZBC.1</a><br>&nbsp;<br>Meeting ID: 727 3969 1974<br>Passcode: Q3u5aj<br><br>NOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.<br><br>Prerequisites:<br>Ensure that your system has a working microphone.<br>Permissions to share the screen<br><br>Regards,<br>Priyanka<br>Team PluginHive<br>&nbsp;<br></div>",
+      "plain_body": "Hello Usama,\n\nI am Priyanka from PluginHive, and we have a meeting scheduled at 2.45 pm Stockholm time today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n\nMeeting Link:\n\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/72739691974?pwd=FaOV4jhse1MO6jgSbnAPZVQPk00ZBC.1\n&nbsp;\nMeeting ID: 727 3969 1974\nPasscode: Q3u5aj\n\nNOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.\n\nPrerequisites:\nEnsure that your system has a working microphone.\nPermissions to share the screen\n\nRegards,\nPriyanka\nTeam PluginHive\n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56310985330841,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T13:44:45Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56310993949721,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Hi, should you send me a link for the meeting that is now?\n\n\n\n\n\n> 24 mars 2026 kl. 11:00 skrev Usama Aziz <usamaaziz@me.com>:\n>\n>\n> Hi Sibi,\n>\n> Thank you for your message.\n>\n> Confirmed, I will join the call at 2:45 PM Stockholm time today.\n>\n> Looking forward to it.\n>\n> Best regards,\n> Usama",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi, should you send me a link for the meeting that is now?<br><div><br>\n</div>\n<div><br><blockquote><div>24 mars 2026 kl. 11:00 skrev Usama Aziz &lt;usamaaziz@me.com&gt;:</div><br><div><div style=\"overflow-wrap: break-word; line-break: after-white-space;\"><p dir=\"auto\">Hi Sibi,</p><p dir=\"auto\">Thank you for your message.</p><p dir=\"auto\">Confirmed, I will join the call at 2:45 PM Stockholm time today.</p><p dir=\"auto\">Looking forward to it.</p><p dir=\"auto\">Best regards,<br>Usama</p><div><br>\n</div>\n</div></div></blockquote></div></div>",
+      "plain_body": "Hi, should you send me a link for the meeting that is now?\n \n\n \n \n  24 mars 2026 kl. 11:00 skrev Usama Aziz &lt;usamaaziz@me.com&gt;: \n   Hi Sibi,  Thank you for your message.  Confirmed, I will join the call at 2:45 PM Stockholm time today.  Looking forward to it.  Best regards,\nUsama",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56310993949593,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "usamaaziz@me.com",
+            "name": "Usama Aziz",
+            "original_recipients": [
+              "usamaaziz@me.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T13:45:06Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DB458249-7117-40CD-9EEE-D6299156AD38@me.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KMG1EXAY3QSX9BQ8DJ4J6GBP",
+          "ip_address": "17.42.251.67",
+          "raw_email_identifier": "2369120/6020f35d-3b87-4880-937c-171d71c9ffdc.eml",
+          "json_email_identifier": "2369120/6020f35d-3b87-4880-937c-171d71c9ffdc.json",
+          "eml_redacted": false,
+          "location": "Maiden, NC, United States",
+          "latitude": 35.5757,
+          "longitude": -81.2117
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56312088737689,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Usama,\n\nThank you so much for your time over the call.\n\nRegarding the HS Codes, please allow me some time to check and update you.\n\nPlease click here to find the recording of the session.\n\nIf you have any questions or need further assistance, please feel free to reach out to us anytime —we’re happy to help.\n\nWishing you a great day ahead!\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama,<br><br>Thank you so much for your time over the call.<br>&nbsp;<br>Regarding the HS Codes, please allow me some time to check and update you.&nbsp;<br>&nbsp;<br>Please <a rel=\"noopener noreferrer\" href=\"https://drive.google.com/file/d/1HJFknWw7MiIlG6w-ijgjob8cmknJfqyy/view?usp=drive_link\">click here</a> to find the recording of the session.&nbsp;<br><br>If you have any questions or need further assistance, please feel free to reach out to us anytime —we’re happy to help.<br><br>Wishing you a great day ahead!<br><br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Usama,\n\nThank you so much for your time over the call.\n&nbsp;\nRegarding the HS Codes, please allow me some time to check and update you.&nbsp;\n&nbsp;\nPlease click here to find the recording of the session.&nbsp;\n\nIf you have any questions or need further assistance, please feel free to reach out to us anytime —we’re happy to help.\n\nWishing you a great day ahead!\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56312088737561,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T14:48:08Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56312217208473,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "I had the initial call with the customer on March 23rd, 2026. During the session, I provided a complete overview of the app, including its functionalities, and assisted with the basic setup, packaging configuration, and label generation. The customer opted for the $9 plan and also inquired about the return label feature.\nAfter internal discussion between Keerthi and Vimal, it was decided that we will not be proceeding with the return label requirement at this time.\n\nRecording:\nhttps://drive.google.com/file/d/12WI0WXTCL5lS9D9tz09-QhMDUwlTOknp/view?usp=drive_link\n\nCall Summary:\n\n- Assisted the customer with app features and explained the return label generation process.\n- The customer confirmed that PostNord charges for return labels once they are scanned.\n- The customer attempted generating return labels with a few addresses; however, it was not supported by PostNord. This was also verified on PostNord’s end.\n-\n\nThe process was explained clearly, and the customer was satisfied with the explanation.\n\nRecording: https://drive.google.com/file/d/1HJFknWw7MiIlG6w-ijgjob8cmknJfqyy/view?usp=drive_link\n\nAdditionally, the customer has a requirement to configure different HS codes for different countries. This has been discussed with Keerthi, and we are raising this to L3 for further assistance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I had the initial call with the customer on March 23rd, 2026. During the session, I provided a complete overview of the app, including its functionalities, and assisted with the basic setup, packaging configuration, and label generation. The customer opted for the $9 plan and also inquired about the return label feature.<br>After internal discussion between Keerthi and Vimal, it was decided that we will not be proceeding with the return label requirement at this time.<br>&nbsp;<br>Recording:<br><a rel=\"noopener noreferrer\" href=\"https://drive.google.com/file/d/12WI0WXTCL5lS9D9tz09-QhMDUwlTOknp/view?usp=drive_link\">https://drive.google.com/file/d/12WI0WXTCL5lS9D9tz09-QhMDUwlTOknp/view?usp=drive_link</a><br>&nbsp;<br>Call Summary:<br><ul dir=\"auto\"><li>Assisted the customer with app features and explained the return label generation process.</li><li>The customer confirmed that PostNord charges for return labels once they are scanned.</li><li>The customer attempted generating return labels with a few addresses; however, it was not supported by PostNord. This was also verified on PostNord’s end.</li><li><p dir=\"auto\">The process was explained clearly, and the customer was satisfied with the explanation.</p><p dir=\"auto\">Recording: <a rel=\"noopener noreferrer\" href=\"https://drive.google.com/file/d/1HJFknWw7MiIlG6w-ijgjob8cmknJfqyy/view?usp=drive_link\">https://drive.google.com/file/d/1HJFknWw7MiIlG6w-ijgjob8cmknJfqyy/view?usp=drive_link</a></p></li></ul>Additionally, the customer has a requirement to configure different HS codes for different countries. This has been discussed with Keerthi, and we are raising this to L3 for further assistance.<br></div>",
+      "plain_body": "I had the initial call with the customer on March 23rd, 2026. During the session, I provided a complete overview of the app, including its functionalities, and assisted with the basic setup, packaging configuration, and label generation. The customer opted for the $9 plan and also inquired about the return label feature.\nAfter internal discussion between Keerthi and Vimal, it was decided that we will not be proceeding with the return label requirement at this time.\n&nbsp;\nRecording:\nhttps://drive.google.com/file/d/12WI0WXTCL5lS9D9tz09-QhMDUwlTOknp/view?usp=drive_link\n&nbsp;\nCall Summary:\n  Assisted the customer with app features and explained the return label generation process.  The customer confirmed that PostNord charges for return labels once they are scanned.  The customer attempted generating return labels with a few addresses; however, it was not supported by PostNord. This was also verified on PostNord’s end.   The process was explained clearly, and the customer was satisfied with the explanation.  Recording: https://drive.google.com/file/d/1HJFknWw7MiIlG6w-ijgjob8cmknJfqyy/view?usp=drive_link   Additionally, the customer has a requirement to configure different HS codes for different countries. This has been discussed with Keerthi, and we are raising this to L3 for further assistance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56312191100697,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T14:55:49Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56312647962393,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Hi Priyanka,\n\nThank you for your time on the call — I really appreciate it. It was very helpful, and everything looks good so far.\n\nAlso, thank you for sharing the recording.\n\nRegarding returns, I have just been in contact with PostNord, and they have provided the specific product names and codes that should be used. Based on this, it should be possible for the system to generate return labels for the supported countries, which is exactly what I need.\n\nI would appreciate it if you could share the below details with your IT team and confirm if this can be configured in the app:\n\n**Sweden / Domestic:**\nProduct Code: 87 – Varubrev\n\n**International:**\nProduct Code: 96 – PostNord Tracked Return Letter\nApproved sender countries: AE, AT, BE, BG, BQ, CH, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, HU, IE, IS, IT, LT, LU, LV, MT, NL, NO, PL, PT, RO, SI, SK, US\n\nIf this setup can be supported, it would cover our return requirements fully.\n\nLooking forward to your update.\n\nBest regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Hi Priyanka,</p><p dir=\"auto\">Thank you for your time on the call — I really appreciate it. It was very helpful, and everything looks good so far.</p><p dir=\"auto\">Also, thank you for sharing the recording.</p><p dir=\"auto\">Regarding returns, I have just been in contact with PostNord, and they have provided the specific product names and codes that should be used. Based on this, it should be possible for the system to generate return labels for the supported countries, which is exactly what I need.</p><p dir=\"auto\">I would appreciate it if you could share the below details with your IT team and confirm if this can be configured in the app:</p><p dir=\"auto\"><strong>Sweden / Domestic:</strong><br>Product Code: 87 – Varubrev</p><p dir=\"auto\"><strong>International:</strong><br>Product Code: 96 – PostNord Tracked Return Letter<br>Approved sender countries: AE, AT, BE, BG, BQ, CH, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, HU, IE, IS, IT, LT, LU, LV, MT, NL, NO, PL, PT, RO, SI, SK, US</p><p dir=\"auto\">If this setup can be supported, it would cover our return requirements fully.</p><p dir=\"auto\">Looking forward to your update.</p><p dir=\"auto\">Best regards,<br>Usama Aziz<br>Co-Founder, lobloo®</p><div><br>\n</div>\n<div><br></div></div>",
+      "plain_body": "Hi Priyanka,  Thank you for your time on the call — I really appreciate it. It was very helpful, and everything looks good so far.  Also, thank you for sharing the recording.  Regarding returns, I have just been in contact with PostNord, and they have provided the specific product names and codes that should be used. Based on this, it should be possible for the system to generate return labels for the supported countries, which is exactly what I need.  I would appreciate it if you could share the below details with your IT team and confirm if this can be configured in the app:  Sweden / Domestic:\nProduct Code: 87 – Varubrev  International:\nProduct Code: 96 – PostNord Tracked Return Letter\nApproved sender countries: AE, AT, BE, BG, BQ, CH, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, HU, IE, IS, IT, LT, LU, LV, MT, NL, NO, PL, PT, RO, SI, SK, US  If this setup can be supported, it would cover our return requirements fully.  Looking forward to your update.  Best regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56312647962265,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "usamaaziz@me.com",
+            "name": "Usama Aziz",
+            "original_recipients": [
+              "usamaaziz@me.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T15:24:34Z",
+      "metadata": {
+        "system": {
+          "message_id": "<A54870A2-6408-4F8D-8887-F2F922B11C2E@me.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KMG750SZSYJ5NK0HQXBNA1VN",
+          "ip_address": "17.57.155.37",
+          "raw_email_identifier": "2369120/a304bdbd-a222-46d7-906f-0b950d604821.eml",
+          "json_email_identifier": "2369120/a304bdbd-a222-46d7-906f-0b950d604821.json",
+          "eml_redacted": false,
+          "location": "United States",
+          "latitude": 37.751,
+          "longitude": -97.822
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56314204226201,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Usama,\n\nPlease allow me some time to check and update you.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama,<br>&nbsp;<br>Please allow me some time to check and update you.&nbsp;<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Usama,\n&nbsp;\nPlease allow me some time to check and update you.&nbsp;\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56314204226073,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T17:22:55Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.162.37",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56314210839321,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "I'd need to check with team internally and raise l3 then.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I'd need to check with team internally and raise l3 then.<br></div>",
+      "plain_body": "I'd need to check with team internally and raise l3 then.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56314210836505,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T17:23:36Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.162.37",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56314208154393,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Thank you, I really appreciate your support and help overall.\n\nI’ll wait for your update.\n\nBest regards,\nUsama",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Thank you, I really appreciate your support and help overall.</p><p dir=\"auto\">I’ll wait for your update.</p><p dir=\"auto\">Best regards,<br>Usama</p><div><br><br>\n</div>\n<div><br></div></div>",
+      "plain_body": "Thank you, I really appreciate your support and help overall.  I’ll wait for your update.  Best regards,\nUsama",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56314208154265,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "usamaaziz@me.com",
+            "name": "Usama Aziz",
+            "original_recipients": [
+              "usamaaziz@me.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T17:25:00Z",
+      "metadata": {
+        "system": {
+          "message_id": "<0FF979F2-E67E-4D8E-943C-01E0CC3E362A@me.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KMGE1HQB2BBAXAJ6W8D4TXXH",
+          "ip_address": "17.56.9.36",
+          "raw_email_identifier": "2369120/a68d8e5d-9127-487c-bee2-6a0da1054a1b.eml",
+          "json_email_identifier": "2369120/a68d8e5d-9127-487c-bee2-6a0da1054a1b.json",
+          "eml_redacted": false,
+          "location": "Prineville, OR, United States",
+          "latitude": 44.3041,
+          "longitude": -120.8364
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56314191631513,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Already acknowledged\nI'd need to check with team internally and raise l3 then.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Already acknowledged<br>I'd need to check with team internally and raise l3 then.<br></div>",
+      "plain_body": "Already acknowledged\nI'd need to check with team internally and raise l3 then.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56314221637785,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T17:25:15Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.162.37",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56340291719961,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Discussed with keerthi and replied to customer regarding the return label query .\nRaised l3 Regarding the HS code configuration",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with keerthi and replied to customer regarding the return label query .&nbsp;<br>Raised l3 Regarding the HS code configuration<br></div>",
+      "plain_body": "Discussed with keerthi and replied to customer regarding the return label query .&nbsp;\nRaised l3 Regarding the HS code configuration",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56340291719833,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-25T10:21:06Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56340530145817,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Usama,\n\nThank you for sharing the detailed information from PostNord—this is very helpful.\n\nRegarding the HS code configuration, please allow me some time to review this with our team, and I will get back to you shortly with an update.\n\nWith respect to the return labels, I attempted to generate a return label again for Order SE11918, but it failed with the error: _“General client indata error.”_ This appears to be related to account-level permissions/configuration on the PostNord side.\n\nI would like to mention that we have several customers using PostNord with our app for many years, including generating return labels successfully.\n\nTo help us proceed further, could you please try creating a return label directly from your PostNord account? Once done, you can try recreating the same scenario in our app and attempt generating the return label again.\n\nAfter you’ve tested this from the PostNord website, please let us know, and we’ll be happy to assist you further.\n\nLooking forward to your update.\n\n ![](https://pluginhive.zendesk.com/attachments/token/86GjZq84wV37jCGLJBWcIQdxS/?name=Screenshot+2026-03-25+at+3.14.58%E2%80%AFPM.png)\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Usama,<br>&nbsp;<br>Thank you for sharing the detailed information from PostNord—this is very helpful.<br>&nbsp;<br>Regarding the HS code configuration, please allow me some time to review this with our team, and I will get back to you shortly with an update.<br>&nbsp;<br>With respect to the return labels, I attempted to generate a return label again for Order SE11918, but it failed with the error: <i>“General client indata error.”</i> This appears to be related to account-level permissions/configuration on the PostNord side.<br>&nbsp;<br>I would like to mention that we have several customers using PostNord with our app for many years, including generating return labels successfully.<br>&nbsp;<br>To help us proceed further, could you please try creating a return label directly from your PostNord account? Once done, you can try recreating the same scenario in our app and attempt generating the return label again.<br>&nbsp;<br>After you’ve tested this from the PostNord website, please let us know, and we’ll be happy to assist you further.<br>&nbsp;<br>Looking forward to your update.<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/86GjZq84wV37jCGLJBWcIQdxS/?name=Screenshot+2026-03-25+at+3.14.58%E2%80%AFPM.png\"></span><br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Usama,\n&nbsp;\nThank you for sharing the detailed information from PostNord—this is very helpful.\n&nbsp;\nRegarding the HS code configuration, please allow me some time to review this with our team, and I will get back to you shortly with an update.\n&nbsp;\nWith respect to the return labels, I attempted to generate a return label again for Order SE11918, but it failed with the error: “General client indata error.” This appears to be related to account-level permissions/configuration on the PostNord side.\n&nbsp;\nI would like to mention that we have several customers using PostNord with our app for many years, including generating return labels successfully.\n&nbsp;\nTo help us proceed further, could you please try creating a return label directly from your PostNord account? Once done, you can try recreating the same scenario in our app and attempt generating the return label again.\n&nbsp;\nAfter you’ve tested this from the PostNord website, please let us know, and we’ll be happy to assist you further.\n&nbsp;\nLooking forward to your update.\n&nbsp;\n\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56340530145689,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-25T10:30:27Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56340568617625,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1774434587013709\n\nWe have an MCSL customer in Sweden using PostNord who has a requirement to update different HS codes for different countries.\n\n- The customer is currently on the $9 Basic Plan and ships approximately 100 orders per month.\n- The customer has agreed to upgrade to the $19 plan.\nCould you please confirm if it is possible to enable country-wise custom HS codes for this customer?\n\nLooking forward to your guidance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1774434587013709\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1774434587013709</a><br>&nbsp;<br>We have an MCSL customer in Sweden using PostNord who has a requirement to update different HS codes for different countries.<br><ul dir=\"auto\"><li>The customer is currently on the $9 Basic Plan and ships approximately 100 orders per month.</li><li>The customer has agreed to upgrade to the $19 plan.</li></ul>Could you please confirm if it is possible to enable country-wise custom HS codes for this customer?<br>&nbsp;<br>Looking forward to your guidance.<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1774434587013709\n&nbsp;\nWe have an MCSL customer in Sweden using PostNord who has a requirement to update different HS codes for different countries.\n  The customer is currently on the $9 Basic Plan and ships approximately 100 orders per month.  The customer has agreed to upgrade to the $19 plan.  Could you please confirm if it is possible to enable country-wise custom HS codes for this customer?\n&nbsp;\nLooking forward to your guidance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56340539354137,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-25T10:30:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56340918385177,
+      "type": "Comment",
+      "author_id": 56169025472025,
+      "body": "Hi Priyanka,\n\nThank you for your response and for looking into this.\n\nRegarding returns, creating return labels via PostNord works on my end. That is why I shared the transport/product codes yesterday that I received directly from PostNord.\n\nI am also attaching a return label from order SE10819 (Finn Volknant) as a reference. Please note that this order has now been marked as cancelled, but the label shows the format and setup we are using.\n\nFor me to move forward, it is critical that:\n\n-\n\nReturn labels can be generated correctly via the app using the provided PostNord product codes\n\n-\n\nHS codes for US shipments are handled properly\n\nI would really appreciate it if you could confirm that both of these are supported and working, so that we can proceed with the implementation.\n\nLooking forward to your confirmation.\n\nBest regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Hi Priyanka,</p><p dir=\"auto\">Thank you for your response and for looking into this.</p><p dir=\"auto\">Regarding returns, creating return labels via PostNord works on my end. That is why I shared the transport/product codes yesterday that I received directly from PostNord.</p><p dir=\"auto\">I am also attaching a return label from order SE10819 (Finn Volknant) as a reference. Please note that this order has now been marked as cancelled, but the label shows the format and setup we are using.</p><p dir=\"auto\">For me to move forward, it is critical that:</p><ul dir=\"auto\"><li><p dir=\"auto\">Return labels can be generated correctly via the app using the provided PostNord product codes</p></li><li><p dir=\"auto\">HS codes for US shipments are handled properly</p></li></ul><p dir=\"auto\">I would really appreciate it if you could confirm that both of these are supported and working, so that we can proceed with the implementation.</p><p dir=\"auto\">Looking forward to your confirmation.</p><p dir=\"auto\"></p><p dir=\"auto\"></p><p dir=\"auto\">Best regards,<br>Usama Aziz<br>Co-Founder, lobloo®</p><div><br>\n</div>\n<div><br></div></div>",
+      "plain_body": "Hi Priyanka,  Thank you for your response and for looking into this.  Regarding returns, creating return labels via PostNord works on my end. That is why I shared the transport/product codes yesterday that I received directly from PostNord.  I am also attaching a return label from order SE10819 (Finn Volknant) as a reference. Please note that this order has now been marked as cancelled, but the label shows the format and setup we are using.  For me to move forward, it is critical that:    Return labels can be generated correctly via the app using the provided PostNord product codes    HS codes for US shipments are handled properly    I would really appreciate it if you could confirm that both of these are supported and working, so that we can proceed with the implementation.  Looking forward to your confirmation.    Best regards,\nUsama Aziz\nCo-Founder, lobloo®",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56340922930585.json",
+          "id": 56340922930585,
+          "file_name": "c9449686-9284-4a16-9181-7f77d2423a01.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/iSUs5C9ClV3aoOTspKxhIvYiG/?name=c9449686-9284-4a16-9181-7f77d2423a01.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/iSUs5C9ClV3aoOTspKxhIvYiG/?name=c9449686-9284-4a16-9181-7f77d2423a01.pdf",
+          "content_type": "application/pdf",
+          "size": 26519,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56340918385049,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "usamaaziz@me.com",
+            "name": "Usama Aziz",
+            "original_recipients": [
+              "usamaaziz@me.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-25T10:44:30Z",
+      "metadata": {
+        "system": {
+          "message_id": "<90100C27-B60C-4675-915F-BF81A2D1D5D7@me.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KMJ9GY6GCN0ZKCHCQME90H5R",
+          "ip_address": "17.57.154.37",
+          "raw_email_identifier": "2369120/3854e444-b602-44ed-99e2-3e779f74768c.eml",
+          "json_email_identifier": "2369120/3854e444-b602-44ed-99e2-3e779f74768c.json",
+          "eml_redacted": false,
+          "location": "United States",
+          "latitude": 37.751,
+          "longitude": -97.822
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56343388450201,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Countrywise HS Code feature enabled.\n\nResync webhooks and force import all products.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Countrywise HS Code feature enabled.<br>&nbsp;<br>Resync webhooks and force import all products.<br>[Veena]<br></div>",
+      "plain_body": "Countrywise HS Code feature enabled.\n&nbsp;\nResync webhooks and force import all products.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56343388450073,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-25T12:22:18Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56347460014361,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Usama,\n\nThank you for your patience.\n\nI’m happy to inform you that the Country-wise HS Code feature has now been enabled for your store.\n\nWe would be glad to walk you through how this works and also go over the return label setup using PostNord product codes to ensure everything is configured as expected.\nPlease book a call at your convenience using the link below, and we’ll be happy to assist you further:\n[Book a call]\n\nLooking forward to speaking with you.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Usama,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>I’m happy to inform you that the Country-wise HS Code feature has now been enabled for your store.<br>&nbsp;<br>We would be glad to walk you through how this works and also go over the return label setup using PostNord product codes to ensure everything is configured as expected.<br>Please book a call at your convenience using the link below, and we’ll be happy to assist you further:<br>[<a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=lobloo.myshopify.com&amp;email=usamaaziz@me.com&amp;ticket=379784&amp;key=1774454647046\">Book a call</a>]<br>&nbsp;<br>Looking forward to speaking with you.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Usama,\n&nbsp;\nThank you for your patience.\n&nbsp;\nI’m happy to inform you that the Country-wise HS Code feature has now been enabled for your store.\n&nbsp;\nWe would be glad to walk you through how this works and also go over the return label setup using PostNord product codes to ensure everything is configured as expected.\nPlease book a call at your convenience using the link below, and we’ll be happy to assist you further:\n[Book a call]\n&nbsp;\nLooking forward to speaking with you.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56347460014233,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-25T16:04:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.216.236.159",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56347482934297,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Moved on hold for follow up",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moved on hold for follow up&nbsp;<br></div>",
+      "plain_body": "Moved on hold for follow up&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56347498521241,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-25T16:05:08Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.216.236.159",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56347556241305,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: Usama Aziz\nEmail: usamaaziz@me.com\nPhone Number: +46707550301\nStore URL: lobloo.myshopify.com\nDate & Time: March 26, 2026 05:45 pm (Europe/Stockholm +01:00)\n\nPluginHive Date & Time: March 26, 2026 10:15 pm",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Appointment Scheduled with PluginHive Support</p>\n<p dir=\"auto\">Customer Details:<br>\nName: Usama Aziz<br>\nEmail: <a href=\"mailto:usamaaziz@me.com\" rel=\"noreferrer\">usamaaziz@me.com</a><br>\nPhone Number: +46707550301<br>\nStore URL: lobloo.myshopify.com<br>\nDate &amp; Time: March 26, 2026 05:45 pm (Europe/Stockholm +01:00)</p>\n<p dir=\"auto\">PluginHive Date &amp; Time: March 26, 2026 10:15 pm</p></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support \n Customer Details:\n\nName: Usama Aziz\n\nEmail: usamaaziz@me.com\n\nPhone Number: +46707550301\n\nStore URL: lobloo.myshopify.com\n\nDate &amp; Time: March 26, 2026 05:45 pm (Europe/Stockholm +01:00) \n PluginHive Date &amp; Time: March 26, 2026 10:15 pm",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56347556241177,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-25T16:09:28Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.9.4; https://appointments.pluginhive.com",
+          "ip_address": "159.89.131.157",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56375252443801,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Onboarding has been done for the customer. Everything has been explained from packaging setting to label generation.\n\nNote to team : I have resynced webhooks and force-imported all products. The Countrywise HS Code feature is enabled and visible.\n\nThings to cover on the call :\n-We need to show how the Countrywise HS Code feature  works\n-Show customer how postnord retuen label works.\n\nPlease acknowledge customer that you've gome through the ticket and you are aware of the case.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Onboarding has been done for the customer. Everything has been explained from packaging setting to label generation.&nbsp;<br>&nbsp;<br>Note to team : I have resynced webhooks and force-imported all products. The Countrywise HS Code feature is enabled and visible.<br>&nbsp;<br>Things to cover on the call :&nbsp;<br>-We need to show how the Countrywise HS Code feature &nbsp;works&nbsp;<br>-Show customer how postnord retuen label works.&nbsp;<br>&nbsp;<br>Please acknowledge customer that you've gome through the ticket and you are aware of the case.&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "Onboarding has been done for the customer. Everything has been explained from packaging setting to label generation.&nbsp;\n&nbsp;\nNote to team : I have resynced webhooks and force-imported all products. The Countrywise HS Code feature is enabled and visible.\n&nbsp;\nThings to cover on the call :&nbsp;\n-We need to show how the Countrywise HS Code feature &nbsp;works&nbsp;\n-Show customer how postnord retuen label works.&nbsp;\n&nbsp;\nPlease acknowledge customer that you've gome through the ticket and you are aware of the case.&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56375252443289,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T10:56:40Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56375268497049,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: Usama Aziz\nEmail: usamaaziz@me.com\nPhone Number: +46707550301\nStore URL: lobloo.myshopify.com\nDate & Time: March 26, 2026 05:45 pm (Europe/Stockholm +01:00)\n\nPluginHive Date & Time: March 26, 2026 10:15 pm",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Appointment Scheduled with PluginHive Support<br>&nbsp;<br>Customer Details:<br>Name: Usama Aziz<br>Email: <a href=\"mailto:usamaaziz@me.com\" rel=\"noreferrer\">usamaaziz@me.com</a><br>Phone Number: +46707550301<br>Store URL: lobloo.myshopify.com<br>Date &amp; Time: March 26, 2026 05:45 pm (Europe/Stockholm +01:00)<br>&nbsp;<br>PluginHive Date &amp; Time: March 26, 2026 10:15 pm<br></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support\n&nbsp;\nCustomer Details:\nName: Usama Aziz\nEmail: usamaaziz@me.com\nPhone Number: +46707550301\nStore URL: lobloo.myshopify.com\nDate &amp; Time: March 26, 2026 05:45 pm (Europe/Stockholm +01:00)\n&nbsp;\nPluginHive Date &amp; Time: March 26, 2026 10:15 pm",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56375268496537,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T10:57:04Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56381001796761,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Usama Aziz,\n\nThank you for booking the slot.\n\nPlease join the meeting at the scheduled time, i.e. today at 5:45 PM Stockholm time - https://us05web.zoom.us/j/81355842430?pwd=t16fIdMmatr58nvUXrLWrb5e9d7sZP.1\n\nMeeting ID: 813 5584 2430\nPasscode: 3n9mKi\n\nLooking forward to talking to you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama Aziz,<br>&nbsp;<br>Thank you for booking the slot.<br>&nbsp;<br>Please join the meeting at the scheduled time, i.e. today at 5:45 PM Stockholm time - <a rel=\"noopener noreferrer\" href=\"https://us05web.zoom.us/j/81355842430?pwd=t16fIdMmatr58nvUXrLWrb5e9d7sZP.1\">https://us05web.zoom.us/j/81355842430?pwd=t16fIdMmatr58nvUXrLWrb5e9d7sZP.1</a>&nbsp;<br>&nbsp;<br>Meeting ID: 813 5584 2430<br>Passcode: 3n9mKi<br>&nbsp;<br>Looking forward to talking to you.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Usama Aziz,\n&nbsp;\nThank you for booking the slot.\n&nbsp;\nPlease join the meeting at the scheduled time, i.e. today at 5:45 PM Stockholm time - https://us05web.zoom.us/j/81355842430?pwd=t16fIdMmatr58nvUXrLWrb5e9d7sZP.1&nbsp;\n&nbsp;\nMeeting ID: 813 5584 2430\nPasscode: 3n9mKi\n&nbsp;\nLooking forward to talking to you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56381001796633,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T15:56:42Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56383149855257,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Usama Aziz,\n\nThank you for your valuable time over the call, and it was nice talking to you.\n\nFeel free to reachout to us anytime you need assistance from our team\n\nRegarding your query about printing the label and the CN22 custom document on one sheet, I will check and get back to you with an update.\n\nWe appricate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama Aziz,<br>&nbsp;<br>Thank you for your valuable time over the call, and it was nice talking to you.<br>&nbsp;<br>Feel free to reachout to us anytime you need assistance from our team<br>&nbsp;<br>Regarding your query about printing the label and the CN22 custom document on one sheet, I will check and get back to you with an update.<br>&nbsp;<br>We appricate your time and patience.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Usama Aziz,\n&nbsp;\nThank you for your valuable time over the call, and it was nice talking to you.\n&nbsp;\nFeel free to reachout to us anytime you need assistance from our team\n&nbsp;\nRegarding your query about printing the label and the CN22 custom document on one sheet, I will check and get back to you with an update.\n&nbsp;\nWe appricate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56383149855129,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T19:10:57Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56383294536729,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Call summary:\nDuring the call, we discussed the following points:\n\n1. Country-specific HS codes\n2. How the app imports orders\n3. Filter options for orders\n4. Generating return labels for a few European orders\n5. Marking orders as “Not to Ship”\n6. Selecting multiple orders and generating labels in bulk\n\nOverall, the call went well. The customer reported one case: a label is not printing in the same format as on PostNord documents.\n\nOn the PostNord website, both the label and CN22 are printed together on a single page. However, in the app, the label and CN22 document are printing separately.\nThe customer would like the label to be generated in the **same structure and size as the US label**, so it matches their current requirements.\n\nCustomer is using another shipping solution and confirmed it also generates same label size as PostNord.\n\nDiscussed with Keerthi - need assistance from L3 team\n\nCall recording video - https://drive.google.com/drive/folders/1Zgct302cU-RlzNoj2uzmhPDm6F6srbUI?usp=sharing",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Call summary:<br>During the call, we discussed the following points:<br><ol dir=\"auto\"><li>Country-specific HS codes</li><li>How the app imports orders</li><li>Filter options for orders</li><li>Generating return labels for a few European orders</li><li>Marking orders as “Not to Ship”</li><li>Selecting multiple orders and generating labels in bulk</li></ol>&nbsp;<br>Overall, the call went well. The customer reported one case: a label is not printing in the same format as on PostNord documents.<br>&nbsp;<br>On the PostNord website, both the label and CN22 are printed together on a single page. However, in the app, the label and CN22 document are printing separately.<br>The customer would like the label to be generated in the <strong>same structure and size as the US label</strong>, so it matches their current requirements.<br>&nbsp;<br>Customer is using another shipping solution and confirmed it also generates same label size as PostNord.<br>&nbsp;<br>Discussed with Keerthi - need assistance from L3 team<br>&nbsp;<br>Call recording video - <a rel=\"noopener noreferrer\" href=\"https://drive.google.com/drive/folders/1Zgct302cU-RlzNoj2uzmhPDm6F6srbUI?usp=sharing\">https://drive.google.com/drive/folders/1Zgct302cU-RlzNoj2uzmhPDm6F6srbUI?usp=sharing</a><br></div>",
+      "plain_body": "Call summary:\nDuring the call, we discussed the following points:\n  Country-specific HS codes  How the app imports orders  Filter options for orders  Generating return labels for a few European orders  Marking orders as “Not to Ship”  Selecting multiple orders and generating labels in bulk  &nbsp;\nOverall, the call went well. The customer reported one case: a label is not printing in the same format as on PostNord documents.\n&nbsp;\nOn the PostNord website, both the label and CN22 are printed together on a single page. However, in the app, the label and CN22 document are printing separately.\nThe customer would like the label to be generated in the same structure and size as the US label, so it matches their current requirements.\n&nbsp;\nCustomer is using another shipping solution and confirmed it also generates same label size as PostNord.\n&nbsp;\nDiscussed with Keerthi - need assistance from L3 team\n&nbsp;\nCall recording video - https://drive.google.com/drive/folders/1Zgct302cU-RlzNoj2uzmhPDm6F6srbUI?usp=sharing",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56383269831833,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T19:27:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56383352099737,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need assistance from L3 team:\n\nSubject: Assistance Required – PostNord International Label Printing Format\n\nCase Details:\nThe customer is using the PostNord setup in MCSL to generate and print shipping labels. For international orders, the shipping label and CN22 are printing as two separate documents in MCSL. However, on PostNord.com, both documents print together on a single page.\n\nThe customer mentioned that they tried different solutions, which successfully printed both documents on a single page.\n\nI have attached a short video and a document showing the difference between how it prints on PostNord.com versus MCSL.\n\nThe customer is requesting that the documents print in the same format as PostNord.com. Could you please review and provide guidance on this?\n\nStore Details:\n\n- Store URL: lobloo.myshopify.com\n- Account ID: 695adf28-e2f8-4465-b685-5d543f5155b4\n- Plan: $9 Basic (customer plans to upgrade to $19)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need assistance from L3 team:<br>&nbsp;<br>Subject: Assistance Required – PostNord International Label Printing Format<br>&nbsp;<br>Case Details:<br>The customer is using the PostNord setup in MCSL to generate and print shipping labels. For international orders, the shipping label and CN22 are printing as two separate documents in MCSL. However, on PostNord.com, both documents print together on a single page.<br>&nbsp;<br>The customer mentioned that they tried different solutions, which successfully printed both documents on a single page.<br>&nbsp;<br>I have attached a short video and a document showing the difference between how it prints on PostNord.com versus MCSL.<br>&nbsp;<br>The customer is requesting that the documents print in the same format as PostNord.com. Could you please review and provide guidance on this?<br>&nbsp;<br>Store Details:<br><ul dir=\"auto\"><li>Store URL: <a rel=\"noopener noreferrer\" href=\"http://lobloo.myshopify.com\">lobloo.myshopify.com</a> </li><li>Account ID: 695adf28-e2f8-4465-b685-5d543f5155b4</li><li>Plan: $9 Basic (customer plans to upgrade to $19)</li></ul></div>",
+      "plain_body": "Need assistance from L3 team:\n&nbsp;\nSubject: Assistance Required – PostNord International Label Printing Format\n&nbsp;\nCase Details:\nThe customer is using the PostNord setup in MCSL to generate and print shipping labels. For international orders, the shipping label and CN22 are printing as two separate documents in MCSL. However, on PostNord.com, both documents print together on a single page.\n&nbsp;\nThe customer mentioned that they tried different solutions, which successfully printed both documents on a single page.\n&nbsp;\nI have attached a short video and a document showing the difference between how it prints on PostNord.com versus MCSL.\n&nbsp;\nThe customer is requesting that the documents print in the same format as PostNord.com. Could you please review and provide guidance on this?\n&nbsp;\nStore Details:\n  Store URL: lobloo.myshopify.com   Account ID: 695adf28-e2f8-4465-b685-5d543f5155b4  Plan: $9 Basic (customer plans to upgrade to $19)",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56383351278233.json",
+          "id": 56383351278233,
+          "file_name": "6950fd5a-1bca-4b2d-aaf5-fa5f319003e4.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/fXDAlfmzCMgYZAsKvMA9Bcumk/?name=6950fd5a-1bca-4b2d-aaf5-fa5f319003e4.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/fXDAlfmzCMgYZAsKvMA9Bcumk/?name=6950fd5a-1bca-4b2d-aaf5-fa5f319003e4.pdf",
+          "content_type": "application/pdf",
+          "size": 40784,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56383330449433.json",
+          "id": 56383330449433,
+          "file_name": "video1872242350.mp4",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/YYcjMPsTeVGMWr1D2rig9yvYh/?name=video1872242350.mp4",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/YYcjMPsTeVGMWr1D2rig9yvYh/?name=video1872242350.mp4",
+          "content_type": "video/mp4",
+          "size": 12829721,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56383338499993.json",
+          "id": 56383338499993,
+          "file_name": "MCSL labels.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/L1FOwp97y58GnmZwc5QSkFbvx/?name=MCSL+labels.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/L1FOwp97y58GnmZwc5QSkFbvx/?name=MCSL+labels.pdf",
+          "content_type": "application/pdf",
+          "size": 121961,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56383344528665,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T19:35:32Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56407753065881,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We have reached out to Postnord team, to get more information on this. Will update once we hear from them.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have reached out to Postnord team, to get more information on this. Will update once we hear from them.<br>[Veena]<br></div>",
+      "plain_body": "We have reached out to Postnord team, to get more information on this. Will update once we hear from them.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56407753065753,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T10:33:15Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56409760919065,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Usama,\n\nThank you for your patience.\n\nWe have reached out to Postnord team to get more information on Postnord international label printing format and we will update you once we hear from them.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Usama,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We have reached out to Postnord team to get more information on Postnord international label printing format and we will update you once we hear from them.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Usama,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe have reached out to Postnord team to get more information on Postnord international label printing format and we will update you once we hear from them.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56409760918553,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T11:53:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56409769311001,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "We have reached out to Postnord team, to get more information on this. Will update once we hear from them.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have reached out to Postnord team, to get more information on this. Will update once we hear from them.<br>[Veena]<br></div>",
+      "plain_body": "We have reached out to Postnord team, to get more information on this. Will update once we hear from them.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56409739047065,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T11:53:36Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,1107 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/382425.json",
+    "id": 382425,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-04-03T21:50:40Z",
+    "updated_at": "2026-04-08T04:19:15Z",
+    "generated_timestamp": 1775621955,
+    "type": null,
+    "subject": "After migrating the fedex setup, the rates are no ...",
+    "raw_subject": "After migrating the fedex setup, the rates are no ...",
+    "description": "After migrating the fedex setup, the rates are no longer accurate. Attached is what is calculated at the shop vs checkout. What am I doing wrong? \n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 14135584114713,
+    "submitter_id": 14135584114713,
+    "assignee_id": 10478126723609,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "l3",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "outfront-motorsports.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+19492929815"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "GZ0J4Z-RMRPW",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "outfront-motorsports.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+19492929815"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56634497520025,
+      "type": "Comment",
+      "author_id": 14135584114713,
+      "body": "After migrating the fedex setup, the rates are no longer accurate. Attached is what is calculated at the shop vs checkout. What am I doing wrong? \n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">After migrating the fedex setup, the rates are no longer accurate. Attached is what is calculated at the shop vs checkout. What am I doing wrong? </p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/status/allorders\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/status/allorders</a></p></div>",
+      "plain_body": "After migrating the fedex setup, the rates are no longer accurate. Attached is what is calculated at the shop vs checkout. What am I doing wrong?  \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56634381041817.json",
+          "id": 56634381041817,
+          "file_name": "Screenshot 2026-04-03 144053.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/Zlf80kS3sutpuNhEVhbAPvJtv/?name=Screenshot+2026-04-03+144053.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/Zlf80kS3sutpuNhEVhbAPvJtv/?name=Screenshot+2026-04-03+144053.png",
+          "content_type": "image/png",
+          "size": 41913,
+          "width": 845,
+          "height": 331,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56634368894105.json",
+          "id": 56634368894105,
+          "file_name": "image001.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/gzmfMlzDk5L6QT7wyhI08anK7/?name=image001.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/gzmfMlzDk5L6QT7wyhI08anK7/?name=image001.jpg",
+          "content_type": "image/jpeg",
+          "size": 135771,
+          "width": 1015,
+          "height": 960,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56634395679385.json",
+              "id": 56634395679385,
+              "file_name": "image001_thumb.jpg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/Z4b67Sz8JuaiWkP5tl5mIeNcV/?name=image001_thumb.jpg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/Z4b67Sz8JuaiWkP5tl5mIeNcV/?name=image001_thumb.jpg",
+              "content_type": "image/jpeg",
+              "size": 2011,
+              "width": 80,
+              "height": 76,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 56634497519769,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-04-03T21:48:46Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "76.89.226.64",
+          "location": "Upland, CA, United States",
+          "latitude": 34.1172,
+          "longitude": -117.6472
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56634651247001,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "US store\n32 orders\nStamps USPS and FedEx account added\nUsing for rates only\nActive from July 2023 and $9 Starter plan selected",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">US store<br>32 orders<br>Stamps USPS and FedEx account added<br>Using for rates only<br>Active from July 2023 and $9 Starter plan selected<br></div>",
+      "plain_body": "US store\n32 orders\nStamps USPS and FedEx account added\nUsing for rates only\nActive from July 2023 and $9 Starter plan selected",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56634651246873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-03T22:07:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.204.145.86",
+          "location": "Vijayawada, AP, India",
+          "latitude": 16.5033,
+          "longitude": 80.6465
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56635587904409,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello ODin,\n\nGood day!\n\nCould you login to the FedEx portal, provide the below mentioned details and check for the rates? If any discrepancy found, please share a complete screenshot of the shipping and package details provided on FedEx portal and the rates provided, for us to check.\n\nFrom Address -\n8071 Commonwealth Avenue\nBuena Park\nCalifornia\nUnited States (US)\n90621\n\nTo Address -\n11705 N Wilson St\nMead\nWashington\nUnited States (US)\n99021\n0123456789\n\nPackage Weight and Dimensions - 2.8 lbs and 5x5x5 in\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello ODin,<br>&nbsp;<br>Good day!<br><br>Could you login to the FedEx portal, provide the below mentioned details and check for the rates? If any discrepancy found, please share a complete screenshot of the shipping and package details provided on FedEx portal and the rates provided, for us to check.<br>&nbsp;<br>From Address -&nbsp;<br>8071 Commonwealth Avenue<br>Buena Park<br>California<br>United States (US)<br>90621<br>&nbsp;<br>To Address -<br>11705 N Wilson St<br>Mead<br>Washington<br>United States (US)<br>99021<br>0123456789<br>&nbsp;<br>Package Weight and Dimensions - 2.8 lbs and 5x5x5 in<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello ODin,\n&nbsp;\nGood day!\n\nCould you login to the FedEx portal, provide the below mentioned details and check for the rates? If any discrepancy found, please share a complete screenshot of the shipping and package details provided on FedEx portal and the rates provided, for us to check.\n&nbsp;\nFrom Address -&nbsp;\n8071 Commonwealth Avenue\nBuena Park\nCalifornia\nUnited States (US)\n90621\n&nbsp;\nTo Address -\n11705 N Wilson St\nMead\nWashington\nUnited States (US)\n99021\n0123456789\n&nbsp;\nPackage Weight and Dimensions - 2.8 lbs and 5x5x5 in\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56635587904281,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-03T23:20:12Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.204.145.86",
+          "location": "Vijayawada, AP, India",
+          "latitude": 16.5033,
+          "longitude": 80.6465
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56636058784409,
+      "type": "Comment",
+      "author_id": 14135584114713,
+      "body": " ![2.8 lbs Calculate-Shipping-Rates-FedEx-04-03-2026_04_54_PM.png](https://support.pluginhive.com/attachments/token/8WjZx1n5IkWLPEwxzOh77aBZI/?name=2.8+lbs+Calculate-Shipping-Rates-FedEx-04-03-2026_04_54_PM.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/8WjZx1n5IkWLPEwxzOh77aBZI/?name=2.8+lbs+Calculate-Shipping-Rates-FedEx-04-03-2026_04_54_PM.png\" alt=\"2.8 lbs Calculate-Shipping-Rates-FedEx-04-03-2026_04_54_PM.png\"><br><div><br></div></div>",
+      "plain_body": "",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56636058784281,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "webwizard@modernmagic.com",
+            "name": "ODin",
+            "original_recipients": [
+              "webwizard@modernmagic.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-03T23:56:59Z",
+      "metadata": {
+        "system": {
+          "message_id": "<31E44C7B-7466-49F6-9008-2E19DCEBA35D@modernmagic.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KNAWEEJPZK1ASEER3QGF30YM",
+          "ip_address": "76.89.226.64",
+          "raw_email_identifier": "2369120/0d7d19cd-addd-4e21-b458-9f1e4606866f.eml",
+          "json_email_identifier": "2369120/0d7d19cd-addd-4e21-b458-9f1e4606866f.json",
+          "eml_redacted": false,
+          "location": "Upland, CA, United States",
+          "latitude": 34.1172,
+          "longitude": -117.6472
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56647465051417,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Odin,\n\nWe’d like to review this with you over a call. Are you available for a quick Zoom call right now?\n\nIf not, please feel free to book a call using the link below at a time that works best for you:\n[Book a call]\n\nLooking forward to assisting you.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Odin,<br>&nbsp;<br>We’d like to review this with you over a call. Are you available for a quick Zoom call right now?<br>&nbsp;<br>If not, please feel free to book a call using the link below at a time that works best for you:<br>[<a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=outfront-motorsports.myshopify.com&amp;email=webwizard@modernmagic.com&amp;ticket=382425&amp;key=1775290792486\">Book a call</a>]<br>&nbsp;<br>Looking forward to assisting you.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Odin,\n&nbsp;\nWe’d like to review this with you over a call. Are you available for a quick Zoom call right now?\n&nbsp;\nIf not, please feel free to book a call using the link below at a time that works best for you:\n[Book a call]\n&nbsp;\nLooking forward to assisting you.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56647465051289,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-04T08:20:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.167.31",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56647465925273,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "I am unable to locate the product with 2.8 weight so i can test on store\nI went through request log as well\nI didnt call customer as it's a us customer , requested customer for a quick call now to check and also sent the appointment link\nmail sent with AL\nmoving on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I am unable to locate the product with 2.8 weight so i can test on store&nbsp;<br>I went through request log as well<br>I didnt call customer as it's a us customer , requested customer for a quick call now to check and also sent the appointment link&nbsp;<br>mail sent with AL&nbsp;<br>moving on hold&nbsp;<br></div>",
+      "plain_body": "I am unable to locate the product with 2.8 weight so i can test on store&nbsp;\nI went through request log as well\nI didnt call customer as it's a us customer , requested customer for a quick call now to check and also sent the appointment link&nbsp;\nmail sent with AL&nbsp;\nmoving on hold&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56647465924633,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-04T08:20:15Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.167.31",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56655533397529,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: Odin Mayland\nEmail: webwizard@modernmagic.com\nPhone Number: 9496673453\nStore URL: outfront-motorsports.myshopify.com\nDate & Time: April 5, 2026 10:30 pm (America/Los_Angeles -07:00)\n\nPluginHive Date & Time: April 6, 2026 11:00 am",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Appointment Scheduled with PluginHive Support</p>\n<p dir=\"auto\">Customer Details:<br>\nName: Odin Mayland<br>\nEmail: <a href=\"mailto:webwizard@modernmagic.com\" rel=\"noreferrer\">webwizard@modernmagic.com</a><br>\nPhone Number: 9496673453<br>\nStore URL: outfront-motorsports.myshopify.com<br>\nDate &amp; Time: April 5, 2026 10:30 pm (America/Los_Angeles -07:00)</p>\n<p dir=\"auto\">PluginHive Date &amp; Time: April 6, 2026 11:00 am</p></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support \n Customer Details:\n\nName: Odin Mayland\n\nEmail: webwizard@modernmagic.com\n\nPhone Number: 9496673453\n\nStore URL: outfront-motorsports.myshopify.com\n\nDate &amp; Time: April 5, 2026 10:30 pm (America/Los_Angeles -07:00) \n PluginHive Date &amp; Time: April 6, 2026 11:00 am",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56655533397401,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-04T15:11:05Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.9.4; https://appointments.pluginhive.com",
+          "ip_address": "159.89.131.157",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56679839707417,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Request #382549 \"Re: Your Booking request at is ...\" was closed and merged into this request. Last comment in request #382549:\r\n\r\nI have not received a zoom link.\r\n\r\n\r\n~Odin\r\n\r\n\r\n\r\n> On Apr 4, 2026, at 8:11 AM, PluginHive Appointments <donotreply@pluginhive.com> wrote:\r\n>\r\n>\r\n> # We have received your appointment April 5, 2026 10:30 pm\r\n>\r\n> Hi Odin Mayland,\r\n>\r\n> We’re checking in with you about your upcoming appointment on April 5, 2026 10:30 pm with PluginHive Support Agent.\r\n> Our team is looking forward to seeing you soon!\r\n>\r\n> As always, we want to give you the best customer support.\r\n> If you want to reschedule or discuss anything before the upcoming appointment, feel free to reach out to support@pluginhive.com.\r\n>\r\n> We’ll get back to you as soon as possible.\r\n>\r\n> **Appointment Highlights**\r\n>\r\n> - All appointments are scheduled for a max. of 30 mins\r\n> - Our support agent will share the link with you prior to the appointment\r\n> - Kindly join within 5-10 mins of the appointment time to avoid cancellation\r\n> **Appointment Details**\r\n>\r\n> - **Date & Time** - April 5, 2026 10:30 pm\r\n> - **Timezone** - America/Los_Angeles -07:00\r\n> **Customer Details**\r\n> Odin Mayland\r\n> webwizard@modernmagic.com\r\n> 9496673453\r\n> Ticket Number #382425\r\n> Site URL - outfront-motorsports.myshopify.com (x-msg://84/outfront-motorsports.myshopify.com)\r\n>\r\n>\r\n>\r\n> Thanks & Regards,\r\n> Team PluginHive | PluginHive Support\r\n>\r\n> ![](http://tracking.pluginhive.com/tracking/open?msgid=vGPEKDB--JqnIuOyMGg-DA2&c=1637888607597601008)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/382549\" target=\"_blank\" rel=\"ticket\">#382549</a> \"Re: Your Booking request at is ...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/382549\" target=\"_blank\" rel=\"ticket\">#382549</a>:</p>\n<p dir=\"auto\">I have not received a zoom link.</p>\n<p dir=\"auto\">~Odin</p>\n<blockquote dir=\"ltr\">\n<p dir=\"auto\">On Apr 4, 2026, at 8:11 AM, PluginHive Appointments <a href=\"mailto:donotreply@pluginhive.com\" rel=\"noreferrer\">donotreply@pluginhive.com</a> wrote:</p>\n<h1 dir=\"auto\">We have received your appointment April 5, 2026 10:30 pm</h1>\n\n<p dir=\"auto\">Hi Odin Mayland,</p>\n<p dir=\"auto\">We’re checking in with you about your upcoming appointment on April 5, 2026 10:30 pm with PluginHive Support Agent.<br>\nOur team is looking forward to seeing you soon!</p>\n<p dir=\"auto\">As always, we want to give you the best customer support.<br>\nIf you want to reschedule or discuss anything before the upcoming appointment, feel free to reach out to <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>.</p>\n<p dir=\"auto\">We’ll get back to you as soon as possible.</p>\n<p dir=\"auto\"><strong>Appointment Highlights</strong></p>\n<ul type=\"disc\" dir=\"auto\">\n<li type=\"disc\">All appointments are scheduled for a max. of 30 mins</li>\n<li type=\"disc\">Our support agent will share the link with you prior to the appointment</li>\n<li type=\"disc\"><p dir=\"auto\">Kindly join within 5-10 mins of the appointment time to avoid cancellation<br>\n<strong>Appointment Details</strong></p></li>\n<li type=\"disc\"><p dir=\"auto\"><strong>Date &amp; Time</strong> - April 5, 2026 10:30 pm</p></li>\n<li type=\"disc\"><p dir=\"auto\"><strong>Timezone</strong> - America/Los_Angeles -07:00<br>\n<strong>Customer Details</strong><br>\nOdin Mayland<br>\n<a href=\"mailto:webwizard@modernmagic.com\" rel=\"noreferrer\">webwizard@modernmagic.com</a><br>\n9496673453<br>\nTicket Number <a href=\"/agent/tickets/382425\" target=\"_blank\" rel=\"ticket\">#382425</a><br>\nSite URL - outfront-motorsports.myshopify.com (x-msg://84/outfront-motorsports.myshopify.com)</p></li>\n</ul>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive | PluginHive Support</p>\n<p dir=\"auto\"><img src=\"http://tracking.pluginhive.com/tracking/open?msgid=vGPEKDB--JqnIuOyMGg-DA2&amp;c=1637888607597601008\" alt=\"\"></p>\n</blockquote></div>",
+      "plain_body": "Request #382549 \"Re: Your Booking request at is ...\" was closed and merged into this request. Last comment in request #382549: \n I have not received a zoom link. \n ~Odin \n \n On Apr 4, 2026, at 8:11 AM, PluginHive Appointments donotreply@pluginhive.com wrote: \n We have received your appointment April 5, 2026 10:30 pm \n\n Hi Odin Mayland, \n We’re checking in with you about your upcoming appointment on April 5, 2026 10:30 pm with PluginHive Support Agent.\n\nOur team is looking forward to seeing you soon! \n As always, we want to give you the best customer support.\n\nIf you want to reschedule or discuss anything before the upcoming appointment, feel free to reach out to support@pluginhive.com. \n We’ll get back to you as soon as possible. \n Appointment Highlights \n \n All appointments are scheduled for a max. of 30 mins \n Our support agent will share the link with you prior to the appointment \n  Kindly join within 5-10 mins of the appointment time to avoid cancellation\n\nAppointment Details  \n  Date &amp; Time - April 5, 2026 10:30 pm  \n  Timezone - America/Los_Angeles -07:00\n\nCustomer Details\n\nOdin Mayland\n\nwebwizard@modernmagic.com\n\n9496673453\n\nTicket Number #382425\n\nSite URL - outfront-motorsports.myshopify.com (x-msg://84/outfront-motorsports.myshopify.com)  \n \n Thanks &amp; Regards,\n\nTeam PluginHive | PluginHive Support",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56679839707289,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              382549
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-04-05T19:46:12Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56690579015321,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Odin,\n\nI am Priyanka from PluginHive, and we have a meeting scheduled at 10:30 pm (America/Los_Angeles -07:00) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n\nMeeting Link:\n\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/76590219955?pwd=JbWqmRjbOcGLEBbaj6OfJcJRjP0qnB.1\n\nMeeting ID: 765 9021 9955\nPasscode: LjGwh6\n\nNOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.\n\nPrerequisites:\nEnsure that your system has a working microphone.\nPermissions to share the screen\n\nRegards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Odin,<br><br>I am Priyanka from PluginHive, and we have a meeting scheduled at 10:30 pm (America/Los_Angeles -07:00) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.<br><br>Meeting Link:<br><br>Join Zoom Meeting<br><a rel=\"noopener noreferrer\" href=\"https://us04web.zoom.us/j/76590219955?pwd=JbWqmRjbOcGLEBbaj6OfJcJRjP0qnB.1\">https://us04web.zoom.us/j/76590219955?pwd=JbWqmRjbOcGLEBbaj6OfJcJRjP0qnB.1</a><br>&nbsp;<br>Meeting ID: 765 9021 9955<br>Passcode: LjGwh6<br><br>NOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.<br><br>Prerequisites:<br>Ensure that your system has a working microphone.<br>Permissions to share the screen<br><br>Regards,<br>Priyanka<br>Team PluginHive<br>&nbsp;<br></div>",
+      "plain_body": "Hello Odin,\n\nI am Priyanka from PluginHive, and we have a meeting scheduled at 10:30 pm (America/Los_Angeles -07:00) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n\nMeeting Link:\n\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/76590219955?pwd=JbWqmRjbOcGLEBbaj6OfJcJRjP0qnB.1\n&nbsp;\nMeeting ID: 765 9021 9955\nPasscode: LjGwh6\n\nNOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.\n\nPrerequisites:\nEnsure that your system has a working microphone.\nPermissions to share the screen\n\nRegards,\nPriyanka\nTeam PluginHive\n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56690579013785,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-06T03:51:24Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56695216911385,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Odin,\n\nThank you so much for your time over the call.\n\nIf you have any questions or need further assistance, please feel free to reach out to us anytime —we’re happy to help.\n\nWishing you a great day ahead!\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Odin,<br><br>Thank you so much for your time over the call.<br><br>If you have any questions or need further assistance, please feel free to reach out to us anytime —we’re happy to help.<br><br>Wishing you a great day ahead!<br><br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Odin,\n\nThank you so much for your time over the call.\n\nIf you have any questions or need further assistance, please feel free to reach out to us anytime —we’re happy to help.\n\nWishing you a great day ahead!\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56695216911257,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-06T06:06:45Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56695346593433,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Call summary : Customer stated that after migration the rates are not matching . We compared the rates at shopify checkout and in fedex, turns out customer had added handling fee of 12% in shopify and he was confused about it. Handling fee set up was done through the app and customer was happy with the rates\nreview is already provided\nmail sent\nCould not attach recording due to storage",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Call summary : Customer stated that after migration the rates are not matching . We compared the rates at shopify checkout and in fedex, turns out customer had added handling fee of 12% in shopify and he was confused about it. Handling fee set up was done through the app and customer was happy with the rates&nbsp;<br>review is already provided<br>mail sent&nbsp;<br>Could not attach recording due to storage&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "Call summary : Customer stated that after migration the rates are not matching . We compared the rates at shopify checkout and in fedex, turns out customer had added handling fee of 12% in shopify and he was confused about it. Handling fee set up was done through the app and customer was happy with the rates&nbsp;\nreview is already provided\nmail sent&nbsp;\nCould not attach recording due to storage&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56695346592921,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-06T06:10:19Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56715740769305,
+      "type": "Comment",
+      "author_id": 14135584114713,
+      "body": "I am still having problems. Order #242479 paid $39.76 for 2-day BUT fedex.com calcs it to be $113.79\n\n ![Screenshot 2026-04-06 at 3.57.02 PM.jpg](https://support.pluginhive.com/attachments/token/KUVzB99Bi2zc1xKgQRgOGz3XG/?name=Screenshot+2026-04-06+at+3.57.02%E2%80%AFPM.jpg)\n\n> On Apr 3, 2026, at 4:56 PM, Odin Mayland <webwizard@modernmagic.com> wrote:\n>\n>\n> <2.8 lbs Calculate-Shipping-Rates-FedEx-04-03-2026_04_54_PM.png>",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">I am still having problems. Order <a href=\"/agent/tickets/242479\" target=\"_blank\" rel=\"ticket\">#242479</a>&nbsp;paid $39.76 for 2-day BUT&nbsp;<a href=\"http://fedex.com\" rel=\"noreferrer\">fedex.com</a>&nbsp;calcs it to be $113.79<br><div><img src=\"https://support.pluginhive.com/attachments/token/KUVzB99Bi2zc1xKgQRgOGz3XG/?name=Screenshot+2026-04-06+at+3.57.02%E2%80%AFPM.jpg\" alt=\"Screenshot 2026-04-06 at 3.57.02 PM.jpg\"><br><blockquote><div>On Apr 3, 2026, at 4:56 PM, Odin Mayland &lt;webwizard@modernmagic.com&gt; wrote:</div><br><div><div style=\"overflow-wrap: break-word; line-break: after-white-space;\"><span>&lt;2.8 lbs Calculate-Shipping-Rates-FedEx-04-03-2026_04_54_PM.png&gt;</span><br></div></div></blockquote></div></div>",
+      "plain_body": "I am still having problems. Order #242479&nbsp;paid $39.76 for 2-day BUT&nbsp;fedex.com&nbsp;calcs it to be $113.79\n \n  On Apr 3, 2026, at 4:56 PM, Odin Mayland &lt;webwizard@modernmagic.com&gt; wrote: \n  &lt;2.8 lbs Calculate-Shipping-Rates-FedEx-04-03-2026_04_54_PM.png&gt;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56715740769177,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "webwizard@modernmagic.com",
+            "name": "ODin",
+            "original_recipients": [
+              "webwizard@modernmagic.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-06T23:00:50Z",
+      "metadata": {
+        "system": {
+          "message_id": "<758501D6-9675-46B7-8792-FD306499BAD7@modernmagic.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KNJGDT0G8SJP8Y4PH63TYD05",
+          "ip_address": "76.89.226.64",
+          "raw_email_identifier": "2369120/3d1ce677-1dd0-4d98-9182-758c3d21bc08.eml",
+          "json_email_identifier": "2369120/3d1ce677-1dd0-4d98-9182-758c3d21bc08.json",
+          "eml_redacted": false,
+          "location": "Upland, CA, United States",
+          "latitude": 34.1172,
+          "longitude": -117.6472
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56715829982745,
+      "type": "Comment",
+      "author_id": 14135584114713,
+      "body": "And another one:\n ![Screenshot 2026-04-06 at 4.01.37 PM.jpg](https://support.pluginhive.com/attachments/token/eG4vtEVZEhZV1AjBHbI7TUcpP/?name=Screenshot+2026-04-06+at+4.01.37%E2%80%AFPM.jpg)\n\n\n\n> On Apr 6, 2026, at 4:00 PM, Odin Mayland <webwizard@modernmagic.com> wrote:\n>\n>\n> I am still having problems. Order #242479 paid $39.76 for 2-day BUT fedex.com calcs it to be $113.79\n>\n> <Screenshot 2026-04-06 at 3.57.02 PM.jpg>\n>\n> > On Apr 3, 2026, at 4:56 PM, Odin Mayland <webwizard@modernmagic.com> wrote:\n> >\n> >\n> > <2.8 lbs Calculate-Shipping-Rates-FedEx-04-03-2026_04_54_PM.png>",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">And another one:<div><img src=\"https://support.pluginhive.com/attachments/token/eG4vtEVZEhZV1AjBHbI7TUcpP/?name=Screenshot+2026-04-06+at+4.01.37%E2%80%AFPM.jpg\" alt=\"Screenshot 2026-04-06 at 4.01.37 PM.jpg\"><br><div><br><blockquote><div>On Apr 6, 2026, at 4:00 PM, Odin Mayland &lt;webwizard@modernmagic.com&gt; wrote:</div><br><div><div style=\"overflow-wrap: break-word; line-break: after-white-space;\">I am still having problems. Order <a href=\"/agent/tickets/242479\" target=\"_blank\" rel=\"ticket\">#242479</a>&nbsp;paid $39.76 for 2-day BUT&nbsp;<a href=\"http://fedex.com/\" rel=\"noreferrer\">fedex.com</a>&nbsp;calcs it to be $113.79<br><div><span>&lt;Screenshot 2026-04-06 at 3.57.02 PM.jpg&gt;</span><br><blockquote><div>On Apr 3, 2026, at 4:56 PM, Odin Mayland &lt;webwizard@modernmagic.com&gt; wrote:</div><br><div><div style=\"overflow-wrap: break-word; line-break: after-white-space;\"><span>&lt;2.8 lbs Calculate-Shipping-Rates-FedEx-04-03-2026_04_54_PM.png&gt;</span><br></div></div></blockquote></div></div></div></blockquote></div></div></div>",
+      "plain_body": "And another one: \n \n  On Apr 6, 2026, at 4:00 PM, Odin Mayland &lt;webwizard@modernmagic.com&gt; wrote: \n  I am still having problems. Order #242479&nbsp;paid $39.76 for 2-day BUT&nbsp;fedex.com&nbsp;calcs it to be $113.79\n &lt;Screenshot 2026-04-06 at 3.57.02 PM.jpg&gt;\n  On Apr 3, 2026, at 4:56 PM, Odin Mayland &lt;webwizard@modernmagic.com&gt; wrote: \n  &lt;2.8 lbs Calculate-Shipping-Rates-FedEx-04-03-2026_04_54_PM.png&gt;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56715815315737,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "webwizard@modernmagic.com",
+            "name": "ODin",
+            "original_recipients": [
+              "webwizard@modernmagic.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-06T23:03:04Z",
+      "metadata": {
+        "system": {
+          "message_id": "<FF215962-FFA4-41EB-8E08-8D24FE9A925E@modernmagic.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KNJGHWZA4HF74DMWDW7ANRM3",
+          "ip_address": "76.89.226.64",
+          "raw_email_identifier": "2369120/6d3fd122-4875-4cfc-ab7f-ded417f0e472.eml",
+          "json_email_identifier": "2369120/6d3fd122-4875-4cfc-ab7f-ded417f0e472.json",
+          "eml_redacted": false,
+          "location": "Upland, CA, United States",
+          "latitude": 34.1172,
+          "longitude": -117.6472
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56719763844505,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello ODin,\n\nRegarding your query, to verify for any discrepancy in the rates, we need complate screenshots from the FedEx portal, where the shipping details and package details provided on the FedEx portal are shown in the screenshot.\nAlso, please share a screenhot of the breakup of the FedEx 2 Day rate so we can verify it with the rates shown through our app.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello ODin,<br>&nbsp;<br>Regarding your query, to verify for any discrepancy in the rates, we need complate screenshots from the FedEx portal, where the shipping details and package details provided on the FedEx portal are shown in the screenshot.<br>Also, please share a screenhot of the breakup of the FedEx 2 Day rate so we can verify it with the rates shown through our app.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello ODin,\n&nbsp;\nRegarding your query, to verify for any discrepancy in the rates, we need complate screenshots from the FedEx portal, where the shipping details and package details provided on the FedEx portal are shown in the screenshot.\nAlso, please share a screenhot of the breakup of the FedEx 2 Day rate so we can verify it with the rates shown through our app.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56719763844377,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T01:25:36Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56721945651481,
+      "type": "Comment",
+      "author_id": 14135584114713,
+      "body": " ![Calculate-Shipping-Rates-FedEx-04-06-2026_07_21_PM.png](https://support.pluginhive.com/attachments/token/RTJQzPCMPLdvai9krEm02s71h/?name=Calculate-Shipping-Rates-FedEx-04-06-2026_07_21_PM.png)\n\n\n\n ![Screenshot 2026-04-06 at 7.20.59 PM.jpg](https://support.pluginhive.com/attachments/token/BQVTRPEI8uHZE1S16Ey45yc07/?name=Screenshot+2026-04-06+at+7.20.59%E2%80%AFPM.jpg)\n\n\n\nIs this everything you need?\n\n~Odin",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/RTJQzPCMPLdvai9krEm02s71h/?name=Calculate-Shipping-Rates-FedEx-04-06-2026_07_21_PM.png\" alt=\"Calculate-Shipping-Rates-FedEx-04-06-2026_07_21_PM.png\"><br><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/BQVTRPEI8uHZE1S16Ey45yc07/?name=Screenshot+2026-04-06+at+7.20.59%E2%80%AFPM.jpg\" alt=\"Screenshot 2026-04-06 at 7.20.59 PM.jpg\"></div><div><br></div><div>Is this everything you need?</div><div>~Odin</div><div><br></div></div>",
+      "plain_body": "Is this everything you need?  ~Odin",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56721945651353,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "webwizard@modernmagic.com",
+            "name": "ODin",
+            "original_recipients": [
+              "webwizard@modernmagic.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T02:24:52Z",
+      "metadata": {
+        "system": {
+          "message_id": "<70495E0F-369D-4B43-816A-1B9E8D4FF62E@modernmagic.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KNJW3CZ0AQX9GW3Y9C0ABSPM",
+          "ip_address": "76.89.226.64",
+          "raw_email_identifier": "2369120/55f62b8d-05b1-472d-8a06-f96049f32664.eml",
+          "json_email_identifier": "2369120/55f62b8d-05b1-472d-8a06-f96049f32664.json",
+          "eml_redacted": false,
+          "location": "Upland, CA, United States",
+          "latitude": 34.1172,
+          "longitude": -117.6472
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56727476581657,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Odin,\n\nThank you for reaching out.\n\nTo check this case further, we would require collaborator access to your store. We have raised the request from our end on email ID sales@outfrontmotorsports.com\n\nPlease accept and let us know by replying to this email.\n\nAwaiting your response.\n\nThanks and Regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Odin,<br><br>Thank you for reaching out.<br><br>To check this case further, we would require collaborator access to your store. We have raised the request from our end on email ID <a href=\"mailto:sales@outfrontmotorsports.com\" rel=\"noreferrer\">sales@outfrontmotorsports.com</a><br><br>Please accept and let us know by replying to this email.<br><br>Awaiting your response.<br><br>Thanks and Regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Odin,\n\nThank you for reaching out.\n\nTo check this case further, we would require collaborator access to your store. We have raised the request from our end on email ID sales@outfrontmotorsports.com\n\nPlease accept and let us know by replying to this email.\n\nAwaiting your response.\n\nThanks and Regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56727476581529,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T05:02:40Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56727502104985,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Need to confirm if customer is using rates from any ther app/ directly from shopify\nas of now he seems to have disabled app rates , only flat rate is being shown\nmail sent\nkeeping on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need to confirm if customer is using rates from any ther app/ directly from shopify&nbsp;<br>as of now he seems to have disabled app rates , only flat rate is being shown&nbsp;<br>mail sent&nbsp;<br>keeping on hold<br></div>",
+      "plain_body": "Need to confirm if customer is using rates from any ther app/ directly from shopify&nbsp;\nas of now he seems to have disabled app rates , only flat rate is being shown&nbsp;\nmail sent&nbsp;\nkeeping on hold",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56727502102809,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T05:03:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56735615751577,
+      "type": "Comment",
+      "author_id": 14135584114713,
+      "body": "request approved.\n\n\n~odin",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">request approved.<div><br></div><div>~odin<br><div><br></div></div></div>",
+      "plain_body": "request approved. \n  ~odin",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56735615751449,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "webwizard@modernmagic.com",
+            "name": "ODin",
+            "original_recipients": [
+              "webwizard@modernmagic.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T08:38:45Z",
+      "metadata": {
+        "system": {
+          "message_id": "<F782CB77-D1FA-4301-BE0E-A641A8CD908D@modernmagic.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KNKHG2G47GK2ZHC90VAECR04",
+          "ip_address": "76.89.226.64",
+          "raw_email_identifier": "2369120/a14b8b9e-0522-487e-b122-77a649551927.eml",
+          "json_email_identifier": "2369120/a14b8b9e-0522-487e-b122-77a649551927.json",
+          "eml_redacted": false,
+          "location": "Upland, CA, United States",
+          "latitude": 34.1172,
+          "longitude": -117.6472
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56740020310041,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Odin,\n\nThank you for granting the access.\n\nUpon checking, I can see that after migrating to the FedEx REST API, you are getting a discounted FedEx One Rate.\n\nCould you please confirm if you would prefer the FedEx One Rate to be shown, or your account-specific rates at checkout?\n\nYou may also verify this on the FedEx website by checking the One Rate section. Please refer to the attached screenshot.\n\nPlease let us know your preference so we can assist you accordingly.\n\nLooking forward to your response.\n\n\n ![](https://pluginhive.zendesk.com/attachments/token/R7fUHZ0FAunDp8ZMk761ATY2q/?name=Screenshot+2026-04-07+at+4.25.33%E2%80%AFPM.png)\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Odin,<br>&nbsp;<br>Thank you for granting the access.<br>&nbsp;<br>Upon checking, I can see that after migrating to the FedEx REST API, you are getting a discounted FedEx One Rate.&nbsp;<br>&nbsp;<br>Could you please confirm if you would prefer the FedEx One Rate to be shown, or your account-specific rates at checkout?<br>&nbsp;<br>You may also verify this on the FedEx website by checking the One Rate section. Please refer to the attached screenshot.<br>&nbsp;<br>Please let us know your preference so we can assist you accordingly.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/R7fUHZ0FAunDp8ZMk761ATY2q/?name=Screenshot+2026-04-07+at+4.25.33%E2%80%AFPM.png\"></span><br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Odin,\n&nbsp;\nThank you for granting the access.\n&nbsp;\nUpon checking, I can see that after migrating to the FedEx REST API, you are getting a discounted FedEx One Rate.&nbsp;\n&nbsp;\nCould you please confirm if you would prefer the FedEx One Rate to be shown, or your account-specific rates at checkout?\n&nbsp;\nYou may also verify this on the FedEx website by checking the One Rate section. Please refer to the attached screenshot.\n&nbsp;\nPlease let us know your preference so we can assist you accordingly.\n&nbsp;\nLooking forward to your response.\n&nbsp;\n&nbsp;\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56740020309913,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T10:57:20Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56740027326617,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Customer states that after migrating to FedEx REST the rates are not matching up.\n\nChecks done:\nCustomer has 2 shipping profile\n\n1. For General profile, no handling fees is added via shoipify.\n2. For Custom profile 80% handling fees is added.\n\nCustomer has shared multiple screenshots.\n\nCustomer has shared a screenshot with following details\n**Request Id :4c3449d1dcd1a59b8fb545cfb33af340 (shared by customer)**\n\n**Request Id :9a8e90e9c43eaf9d832273ad6b18a84c (checked by team)**\n\n\nProduct : Subaru JDM Spec C Nitrited EJ207 Crankshaft 75mm Stroke\nBox packaging : 24lbs, 18*18*8\n\nUpon comparing the fedex rate screenshot that customer sent and request-response :\n\n- Residential is passed as true in the app  whereas in fedex it is not ticked that it's a residential address\n- One rate is being passed in the response in the app\n\nI discussed this with team and keerthi and replying to customer\nMoving on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer states that after migrating to FedEx REST the rates are not matching up.<br>&nbsp;<br>Checks done:&nbsp;<br>Customer has 2 shipping profile&nbsp;<br><ol dir=\"auto\"><li>For General profile, no handling fees is added via shoipify.</li><li>For Custom profile 80% handling fees is added.&nbsp;</li></ol>&nbsp;<br>Customer has shared multiple screenshots.&nbsp;<br>&nbsp;<br>Customer has shared a screenshot with following details&nbsp;<br><strong>Request Id :4c3449d1dcd1a59b8fb545cfb33af340 (shared by customer)</strong><br>&nbsp;<br><strong>Request Id :9a8e90e9c43eaf9d832273ad6b18a84c (checked by team)</strong><br>&nbsp;<br>&nbsp;<br>Product : Subaru JDM Spec C Nitrited EJ207 Crankshaft 75mm Stroke<br>Box packaging : 24lbs, 18*18*8<br>&nbsp;<br>Upon comparing the fedex rate screenshot that customer sent and request-response :<br><ul dir=\"auto\"><li>Residential is passed as true in the app &nbsp;whereas in fedex it is not ticked that it's a residential address</li><li>One rate is being passed in the response in the app</li></ul>&nbsp;<br>I discussed this with team and keerthi and replying to customer&nbsp;<br>Moving on hold<br>&nbsp;<br>&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "Customer states that after migrating to FedEx REST the rates are not matching up.\n&nbsp;\nChecks done:&nbsp;\nCustomer has 2 shipping profile&nbsp;\n  For General profile, no handling fees is added via shoipify.  For Custom profile 80% handling fees is added.&nbsp;  &nbsp;\nCustomer has shared multiple screenshots.&nbsp;\n&nbsp;\nCustomer has shared a screenshot with following details&nbsp;\nRequest Id :4c3449d1dcd1a59b8fb545cfb33af340 (shared by customer)\n&nbsp;\nRequest Id :9a8e90e9c43eaf9d832273ad6b18a84c (checked by team)\n&nbsp;\n&nbsp;\nProduct : Subaru JDM Spec C Nitrited EJ207 Crankshaft 75mm Stroke\nBox packaging : 24lbs, 18*18*8\n&nbsp;\nUpon comparing the fedex rate screenshot that customer sent and request-response :\n  Residential is passed as true in the app &nbsp;whereas in fedex it is not ticked that it's a residential address  One rate is being passed in the response in the app  &nbsp;\nI discussed this with team and keerthi and replying to customer&nbsp;\nMoving on hold\n&nbsp;\n&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56740037756441,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T10:57:58Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56749809512345,
+      "type": "Comment",
+      "author_id": 14135584114713,
+      "body": "We want the  account-specific rates at checkout\n\n\n~Odin",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">We want the&nbsp;&nbsp;account-specific rates at checkout&nbsp;<div><br></div><div>~Odin<br><div><br></div></div></div>",
+      "plain_body": "We want the&nbsp;&nbsp;account-specific rates at checkout&nbsp; \n  ~Odin",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56749809512217,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "webwizard@modernmagic.com",
+            "name": "ODin",
+            "original_recipients": [
+              "webwizard@modernmagic.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T21:23:05Z",
+      "metadata": {
+        "system": {
+          "message_id": "<AE77B4EF-A2DC-431F-9CEF-4F3B777721B7@modernmagic.com>",
+          "client": "Apple Mail (2.3864.400.21)",
+          "email_id": "01KNMX7KYZRAYV8TA510GHNWZQ",
+          "ip_address": "76.89.226.64",
+          "raw_email_identifier": "2369120/34d6392a-b8c9-49a9-ad07-ba94a4b6f79b.eml",
+          "json_email_identifier": "2369120/34d6392a-b8c9-49a9-ad07-ba94a4b6f79b.json",
+          "eml_redacted": false,
+          "location": "Upland, CA, United States",
+          "latitude": 34.1172,
+          "longitude": -117.6472
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56751826327577,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Have informed Priyanka to check about this further",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Have informed Priyanka to check about this further<br></div>",
+      "plain_body": "Have informed Priyanka to check about this further",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56751842509337,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T23:35:17Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56761510348953,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Odin,\n\nI have reached out to the technical team regarding this and will get back to you as soon as I have an update.\n\nThank you for your patience.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Odin,<br>&nbsp;<br>I have reached out to the technical team regarding this and will get back to you as soon as I have an update.<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Odin,\n&nbsp;\nI have reached out to the technical team regarding this and will get back to you as soon as I have an update.\n&nbsp;\nThank you for your patience.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56761510348825,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T04:19:01Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56761527960601,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775621858691379\n\nMCSL customer has been using our app for rates since 21-03-2023 and has recently migrated to the FedEx REST API.\nThe customer has both negotiated rates and One Rate enabled in their FedEx account. However, post-migration, the One Rate toggle is no longer available, and One Rate is being applied by default at checkout.\n\nThe customer has configured custom boxes, we are passing as custom boxes in request but in the response log , It is being Identified as FedEx Boxes and One Rate is being applied as special services.\n\nThe customer does not want One Rate to be used and prefers only negotiated rates to be displayed.\n\nKindly assist in preventing One Rate from being applied in this case.\n\nStore details:\nStore URL: outfront-motorsports.myshopify.com\nAc ID: 10b778be-03ce-40ce-b169-ff2d5709b251\nPlan: $9 Starter\nOrders : 41",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1775621858691379\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1775621858691379</a><br>&nbsp;<br>MCSL customer has been using our app for rates since 21-03-2023 and has recently migrated to the FedEx REST API.<br>The customer has both negotiated rates and One Rate enabled in their FedEx account. However, post-migration, the One Rate toggle is no longer available, and One Rate is being applied by default at checkout.<br>&nbsp;<br>The customer has configured custom boxes, we are passing as custom boxes in request but in the response log , It is being Identified as FedEx Boxes and One Rate is being applied as special services.&nbsp;<br>&nbsp;<br>The customer does not want One Rate to be used and prefers only negotiated rates to be displayed.<br><br>Kindly assist in preventing One Rate from being applied in this case.<br>&nbsp;<br>Store details:&nbsp;<br>Store URL: <a rel=\"noopener noreferrer\" href=\"http://outfront-motorsports.myshopify.com\">outfront-motorsports.myshopify.com</a><br>Ac ID: 10b778be-03ce-40ce-b169-ff2d5709b251<br>Plan: $9 Starter<br>Orders : 41<br>&nbsp;<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775621858691379\n&nbsp;\nMCSL customer has been using our app for rates since 21-03-2023 and has recently migrated to the FedEx REST API.\nThe customer has both negotiated rates and One Rate enabled in their FedEx account. However, post-migration, the One Rate toggle is no longer available, and One Rate is being applied by default at checkout.\n&nbsp;\nThe customer has configured custom boxes, we are passing as custom boxes in request but in the response log , It is being Identified as FedEx Boxes and One Rate is being applied as special services.&nbsp;\n&nbsp;\nThe customer does not want One Rate to be used and prefers only negotiated rates to be displayed.\n\nKindly assist in preventing One Rate from being applied in this case.\n&nbsp;\nStore details:&nbsp;\nStore URL: outfront-motorsports.myshopify.com\nAc ID: 10b778be-03ce-40ce-b169-ff2d5709b251\nPlan: $9 Starter\nOrders : 41\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56761527960217,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T04:19:15Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

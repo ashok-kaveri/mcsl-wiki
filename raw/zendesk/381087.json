@@ -1,0 +1,1061 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/381087.json",
+    "id": 381087,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-03-26T23:38:26Z",
+    "updated_at": "2026-04-02T16:27:52Z",
+    "generated_timestamp": 1775147272,
+    "type": null,
+    "subject": "Hi PH MultiCarrier Support Team,\n\nI am reaching ou...",
+    "raw_subject": "Hi PH MultiCarrier Support Team,\n\nI am reaching ou...",
+    "description": "Hi PH MultiCarrier Support Team,\n\nI am reaching out regarding a shipping rate issue on my Shopify Plus store (silverpalaceinc.com) that I have been unable to resolve on my own.\n\nISSUE SUMMARY\nFor certain product variants, UPS shipping rates do not appear at checkout. Only \"Local Pickup\" is shown. This affects specific variants across multiple products, while other variants on the same products work perfectly fine.\n\nPRODUCTS AFFECTED\nThe issue is consistent across at least two products:\n- 925 Sterling Silver Rope Chain or Bracelet — variants added after the initial product setup (rows 97+ in our product CSV), which includes all Rhodium, Gold, and Rose Gold plated variants, as well as some heavier Basic Non-Plated variants\n- 925 Sterling Silver Figaro Chain or Bracelet — same behavior, variants added later (rows 105+) do not show shipping rates\n\nWHAT I HAVE CONFIRMED\n- The app is properly connected as a carrier service in Shopify's General shipping profile\n- I have already removed and re-added the PH MultiCarrier rate in Shopify's shipping settings — the issue persists\n- All affected variants are marked as physical products with \"Requires Shipping\" checked\n- All affected variants have weight, correct fulfillment service, and identical shipping settings to the working variants\n- When I test a working variant alone at checkout, UPS rates appear correctly\n- When I test a broken variant alone at checkout, only Local Pickup appears\n- When I add BOTH a working and a broken variant to the same cart, UPS rates disappear for the entire cart — meaning the broken variant is blocking rates for all items\n\nROOT CAUSE THEORY\nBased on my testing, I believe the affected variants are not registered in the app's internal variant registry. They were added to existing products after the app was initially configured, and it appears the app did not automatically pick them up. Re-connecting the carrier service on Shopify's side did not resolve this, which suggests the sync needs to happen from within the app itself.\n\nWHAT I NEED\nCould you please:\n1. Check whether there is a way to re-sync or re-index all current product variants from within the app\n2. If not, could your team run a sync on your end for our store?\n3. Confirm whether this is a known issue with variants added after initial setup and if there is a permanent fix\n\nOur store is on Shopify Plus and we have a large number of products with many variants, so a reliable sync process is important for us going forward.\n\nPlease let me know if you need any additional information, order IDs, or specific variant details to investigate.\n\nThank you for your help.\n\nBest regards,\nSilver Palace Inc.\nsilverpalaceinc.com\ninfo@silverpalaceinc.com\n213-488-9906\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 31892630540441,
+    "submitter_id": 31892630540441,
+    "assignee_id": 10478126723609,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "high_agent_replies",
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "system_email_notification_failure",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "silver-palace-jewelry.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "2134889906"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "LYD6GY-VL9JN",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "silver-palace-jewelry.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "2134889906"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56386275899673,
+      "type": "Comment",
+      "author_id": 31892630540441,
+      "body": "Hi PH MultiCarrier Support Team,\n\nI am reaching out regarding a shipping rate issue on my Shopify Plus store (silverpalaceinc.com) that I have been unable to resolve on my own.\n\nISSUE SUMMARY\nFor certain product variants, UPS shipping rates do not appear at checkout. Only \"Local Pickup\" is shown. This affects specific variants across multiple products, while other variants on the same products work perfectly fine.\n\nPRODUCTS AFFECTED\nThe issue is consistent across at least two products:\n- 925 Sterling Silver Rope Chain or Bracelet — variants added after the initial product setup (rows 97+ in our product CSV), which includes all Rhodium, Gold, and Rose Gold plated variants, as well as some heavier Basic Non-Plated variants\n- 925 Sterling Silver Figaro Chain or Bracelet — same behavior, variants added later (rows 105+) do not show shipping rates\n\nWHAT I HAVE CONFIRMED\n- The app is properly connected as a carrier service in Shopify's General shipping profile\n- I have already removed and re-added the PH MultiCarrier rate in Shopify's shipping settings — the issue persists\n- All affected variants are marked as physical products with \"Requires Shipping\" checked\n- All affected variants have weight, correct fulfillment service, and identical shipping settings to the working variants\n- When I test a working variant alone at checkout, UPS rates appear correctly\n- When I test a broken variant alone at checkout, only Local Pickup appears\n- When I add BOTH a working and a broken variant to the same cart, UPS rates disappear for the entire cart — meaning the broken variant is blocking rates for all items\n\nROOT CAUSE THEORY\nBased on my testing, I believe the affected variants are not registered in the app's internal variant registry. They were added to existing products after the app was initially configured, and it appears the app did not automatically pick them up. Re-connecting the carrier service on Shopify's side did not resolve this, which suggests the sync needs to happen from within the app itself.\n\nWHAT I NEED\nCould you please:\n1. Check whether there is a way to re-sync or re-index all current product variants from within the app\n2. If not, could your team run a sync on your end for our store?\n3. Confirm whether this is a known issue with variants added after initial setup and if there is a permanent fix\n\nOur store is on Shopify Plus and we have a large number of products with many variants, so a reliable sync process is important for us going forward.\n\nPlease let me know if you need any additional information, order IDs, or specific variant details to investigate.\n\nThank you for your help.\n\nBest regards,\nSilver Palace Inc.\nsilverpalaceinc.com\ninfo@silverpalaceinc.com\n213-488-9906\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hi PH MultiCarrier Support Team,</p>\n\n<p dir=\"auto\">I am reaching out regarding a shipping rate issue on my Shopify Plus store (silverpalaceinc.com) that I have been unable to resolve on my own.</p>\n\n<p dir=\"auto\">ISSUE SUMMARY\n<br>For certain product variants, UPS shipping rates do not appear at checkout. Only \"Local Pickup\" is shown. This affects specific variants across multiple products, while other variants on the same products work perfectly fine.</p>\n\n<p dir=\"auto\">PRODUCTS AFFECTED\n<br>The issue is consistent across at least two products:\n<br>- 925 Sterling Silver Rope Chain or Bracelet — variants added after the initial product setup (rows 97+ in our product CSV), which includes all Rhodium, Gold, and Rose Gold plated variants, as well as some heavier Basic Non-Plated variants\n<br>- 925 Sterling Silver Figaro Chain or Bracelet — same behavior, variants added later (rows 105+) do not show shipping rates</p>\n\n<p dir=\"auto\">WHAT I HAVE CONFIRMED\n<br>- The app is properly connected as a carrier service in Shopify's General shipping profile\n<br>- I have already removed and re-added the PH MultiCarrier rate in Shopify's shipping settings — the issue persists\n<br>- All affected variants are marked as physical products with \"Requires Shipping\" checked\n<br>- All affected variants have weight, correct fulfillment service, and identical shipping settings to the working variants\n<br>- When I test a working variant alone at checkout, UPS rates appear correctly\n<br>- When I test a broken variant alone at checkout, only Local Pickup appears\n<br>- When I add BOTH a working and a broken variant to the same cart, UPS rates disappear for the entire cart — meaning the broken variant is blocking rates for all items</p>\n\n<p dir=\"auto\">ROOT CAUSE THEORY\n<br>Based on my testing, I believe the affected variants are not registered in the app's internal variant registry. They were added to existing products after the app was initially configured, and it appears the app did not automatically pick them up. Re-connecting the carrier service on Shopify's side did not resolve this, which suggests the sync needs to happen from within the app itself.</p>\n\n<p dir=\"auto\">WHAT I NEED\n<br>Could you please:\n<br>1. Check whether there is a way to re-sync or re-index all current product variants from within the app\n<br>2. If not, could your team run a sync on your end for our store?\n<br>3. Confirm whether this is a known issue with variants added after initial setup and if there is a permanent fix</p>\n\n<p dir=\"auto\">Our store is on Shopify Plus and we have a large number of products with many variants, so a reliable sync process is important for us going forward.</p>\n\n<p dir=\"auto\">Please let me know if you need any additional information, order IDs, or specific variant details to investigate.</p>\n\n<p dir=\"auto\">Thank you for your help.</p>\n\n<p dir=\"auto\">Best regards,\n<br>Silver Palace Inc.\n<br>silverpalaceinc.com\n<br><a href=\"mailto:info@silverpalaceinc.com\" rel=\"noreferrer\">info@silverpalaceinc.com</a>\n<br>213-488-9906</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/status/allorders\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/status/allorders</a></p></div>",
+      "plain_body": "Hi PH MultiCarrier Support Team, \n\n I am reaching out regarding a shipping rate issue on my Shopify Plus store (silverpalaceinc.com) that I have been unable to resolve on my own. \n\n ISSUE SUMMARY\n\nFor certain product variants, UPS shipping rates do not appear at checkout. Only \"Local Pickup\" is shown. This affects specific variants across multiple products, while other variants on the same products work perfectly fine. \n\n PRODUCTS AFFECTED\n\nThe issue is consistent across at least two products:\n\n- 925 Sterling Silver Rope Chain or Bracelet — variants added after the initial product setup (rows 97+ in our product CSV), which includes all Rhodium, Gold, and Rose Gold plated variants, as well as some heavier Basic Non-Plated variants\n\n- 925 Sterling Silver Figaro Chain or Bracelet — same behavior, variants added later (rows 105+) do not show shipping rates \n\n WHAT I HAVE CONFIRMED\n\n- The app is properly connected as a carrier service in Shopify's General shipping profile\n\n- I have already removed and re-added the PH MultiCarrier rate in Shopify's shipping settings — the issue persists\n\n- All affected variants are marked as physical products with \"Requires Shipping\" checked\n\n- All affected variants have weight, correct fulfillment service, and identical shipping settings to the working variants\n\n- When I test a working variant alone at checkout, UPS rates appear correctly\n\n- When I test a broken variant alone at checkout, only Local Pickup appears\n\n- When I add BOTH a working and a broken variant to the same cart, UPS rates disappear for the entire cart — meaning the broken variant is blocking rates for all items \n\n ROOT CAUSE THEORY\n\nBased on my testing, I believe the affected variants are not registered in the app's internal variant registry. They were added to existing products after the app was initially configured, and it appears the app did not automatically pick them up. Re-connecting the carrier service on Shopify's side did not resolve this, which suggests the sync needs to happen from within the app itself. \n\n WHAT I NEED\n\nCould you please:\n\n1. Check whether there is a way to re-sync or re-index all current product variants from within the app\n\n2. If not, could your team run a sync on your end for our store?\n\n3. Confirm whether this is a known issue with variants added after initial setup and if there is a permanent fix \n\n Our store is on Shopify Plus and we have a large number of products with many variants, so a reliable sync process is important for us going forward. \n\n Please let me know if you need any additional information, order IDs, or specific variant details to investigate. \n\n Thank you for your help. \n\n Best regards,\n\nSilver Palace Inc.\n\nsilverpalaceinc.com\n\ninfo@silverpalaceinc.com\n\n213-488-9906 \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56386275899545,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-03-26T23:38:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "72.134.31.70",
+          "location": "Los Angeles, CA, United States",
+          "latitude": 34.0609,
+          "longitude": -118.2414
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 56387059362457,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "US store\n325 orders\nUsing for rates only\nActive from May 2024 and $9 plan selected",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">US store<br>325 orders<br>Using for rates only<br>Active from May 2024 and $9 plan selected<br></div>",
+      "plain_body": "US store\n325 orders\nUsing for rates only\nActive from May 2024 and $9 plan selected",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56387059362329,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T00:11:23Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56387178686105,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Armen,\n\nGood day!\n\nTo assist with your query, is it possible to share a list of both the product name and variant name that are not imported to the app, so we can check and import all the products and confirm.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Armen,<br>&nbsp;<br>Good day!<br>&nbsp;<br>To assist with your query, is it possible to share a list of both the product name and variant name that are not imported to the app, so we can check and import all the products and confirm.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Armen,\n&nbsp;\nGood day!\n&nbsp;\nTo assist with your query, is it possible to share a list of both the product name and variant name that are not imported to the app, so we can check and import all the products and confirm.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56387178685977,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T00:15:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56418308131609,
+      "type": "Comment",
+      "author_id": 31892630540441,
+      "body": "Hello,\n\n\n\nOne sample is the SKU CH338-16 GP\n\nhttps://silverpalaceinc.com/products/925-sterling-silver-miami-cuban-chain-or-bracelet?variant=47933911367934\n\n\n\nWhen this item is added to the cart the UPS rates does not show up.\n\n\n\nCan you please import all products so i dont have this problem, thank you",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Hello,</div><div><br></div><div>One sample is the SKU CH338-16 GP</div><div><a href=\"https://silverpalaceinc.com/products/925-sterling-silver-miami-cuban-chain-or-bracelet?variant=47933911367934\" rel=\"noreferrer\">https://silverpalaceinc.com/products/925-sterling-silver-miami-cuban-chain-or-bracelet?variant=47933911367934</a></div><div><br></div><div>When this item is added to the cart the UPS rates does not show up.</div><div><br></div><div>Can you please import all products so i dont have this problem, thank you</div></div>",
+      "plain_body": "Hello,  \n  One sample is the SKU CH338-16 GP  https://silverpalaceinc.com/products/925-sterling-silver-miami-cuban-chain-or-bracelet?variant=47933911367934  \n  When this item is added to the cart the UPS rates does not show up.  \n  Can you please import all products so i dont have this problem, thank you",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56418308131481,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "rpjxmoled9k5z8wq@email.gorgias.com",
+            "name": "Armen",
+            "original_recipients": [
+              "rpjxmoled9k5z8wq@email.gorgias.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T22:52:01Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177465191570.2868.12684332667051154444.ticket-id-gAAAAABpxwoLU2ZqXkgcjn1pVOY5dytlYaAltdlq0on5zikylBOq_ie6Av1cPrNfOz_xG8yrSVKzuwAunvq1uZ1g89Iv1070-A==@gorgias.com>",
+          "email_id": "01KMRQYJRXN01TPQHT8KP3QFMS",
+          "raw_email_identifier": "2369120/25bf7b33-e31f-48af-8904-15ed0a769fca.eml",
+          "json_email_identifier": "2369120/25bf7b33-e31f-48af-8904-15ed0a769fca.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56420213073433,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Armen,\n\nThank you for sharing the details.\n\nPlease allow us sometime. We will check about this further and import all the products if not done yet and let you know of the updates.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Armen,<br>&nbsp;<br>Thank you for sharing the details.&nbsp;<br>&nbsp;<br>Please allow us sometime. We will check about this further and import all the products if not done yet and let you know of the updates.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Armen,\n&nbsp;\nThank you for sharing the details.&nbsp;\n&nbsp;\nPlease allow us sometime. We will check about this further and import all the products if not done yet and let you know of the updates.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56420213073305,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-28T00:55:52Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56420243112601,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Have to check if the products are imported correctly and if not will have to raise to L3",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Have to check if the products are imported correctly and if not will have to raise to L3<br></div>",
+      "plain_body": "Have to check if the products are imported correctly and if not will have to raise to L3",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56420229597977,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-28T00:56:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56451353454745,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Armen,\n\nThank you for sharing the product variant details and i have checked and imported the variants to the app now. The UPS rates from the app are shown at the checkout.\n\nPlease check and confirm.\n\n ![](https://pluginhive.zendesk.com/attachments/token/hQrOhm6hWso2faqHaJSAcjAgS/?name=image.png)\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Armen,<br>&nbsp;<br>Thank you for sharing the product variant details and i have checked and imported the variants to the app now. The UPS rates from the app are shown at the checkout.&nbsp;<br>&nbsp;<br>Please check and confirm.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 913px;\" src=\"https://pluginhive.zendesk.com/attachments/token/hQrOhm6hWso2faqHaJSAcjAgS/?name=image.png\"></span><br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Armen,\n&nbsp;\nThank you for sharing the product variant details and i have checked and imported the variants to the app now. The UPS rates from the app are shown at the checkout.&nbsp;\n&nbsp;\nPlease check and confirm.\n&nbsp;\n\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56451353454617,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-29T07:59:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.204.145.134",
+          "location": "Vijayawada, AP, India",
+          "latitude": 16.5033,
+          "longitude": 80.6465
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56495741216281,
+      "type": "Comment",
+      "author_id": 31892630540441,
+      "body": "Hello Sagar,\n\n\n\nThank you for the update. It seems like we are still having the same issue for some variants in this listing.\n\n\n\nhttps://silverpalaceinc.com/products/925-sterling-silver-franco-chain-or-bracelet?_pos=1&_psq=franco&_ss=e&_v=1.0\n\n\n\nWe have over 30000 skus in our website and it would be impossible for me to check them one by one, how can we make sure that all products listed in our website are able to get a shipping rate in your app?",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Hello Sagar,</div><div><br></div><div>Thank you for the update. It seems like we are still having the same issue for some variants in this listing. </div><div><br></div><div><a href=\"https://silverpalaceinc.com/products/925-sterling-silver-franco-chain-or-bracelet?_pos=1&amp;_psq=franco&amp;_ss=e&amp;_v=1.0\" rel=\"noreferrer\">https://silverpalaceinc.com/products/925-sterling-silver-franco-chain-or-bracelet?_pos=1&amp;_psq=franco&amp;_ss=e&amp;_v=1.0</a></div><div><br></div><div>We have over 30000 skus in our website and it would be impossible for me to check them one by one, how can we make sure that all products listed in our website are able to get a shipping rate in your app? </div></div>",
+      "plain_body": "Hello Sagar,  \n  Thank you for the update. It seems like we are still having the same issue for some variants in this listing.   \n  https://silverpalaceinc.com/products/925-sterling-silver-franco-chain-or-bracelet?_pos=1&amp;_psq=franco&amp;_ss=e&amp;_v=1.0  \n  We have over 30000 skus in our website and it would be impossible for me to check them one by one, how can we make sure that all products listed in our website are able to get a shipping rate in your app?",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56495741216153,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "rpjxmoled9k5z8wq@email.gorgias.com",
+            "name": "Armen",
+            "original_recipients": [
+              "rpjxmoled9k5z8wq@email.gorgias.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T17:57:42Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177489345722.1566.15365082450248813084.ticket-id-gAAAAABpyrmRT9DjimyOdF1BXpZ5hqNSl7asjSytq5ehy0UkXP3b-_3QrmwBES5NheSxZpjjhiphk852j0g44z2B_XUiCeM8qQ==@gorgias.com>",
+          "email_id": "01KMZY9TCSCRNP2GBGSDH05WQ8",
+          "raw_email_identifier": "2369120/f9456b0a-055f-47ae-a42f-2b64dc9e7fd9.eml",
+          "json_email_identifier": "2369120/f9456b0a-055f-47ae-a42f-2b64dc9e7fd9.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56497727515033,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Armen,\n\nGood day!\n\nI have checked and could see the recent product variant shared has been imported to the app as well.\n\nIf in any case, the rates are not provided for any product or its variants, share the details of the same with us, for us to check.\n\n ![](https://pluginhive.zendesk.com/attachments/token/YNGt9o3r3Xwjf5DtBVj8z5fyL/?name=image.png)\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Armen,<br>&nbsp;<br>Good day!<br><br>I have checked and could see the recent product variant shared has been imported to the app as well.&nbsp;<br>&nbsp;<br>If in any case, the rates are not provided for any product or its variants, share the details of the same with us, for us to check.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 929px;\" src=\"https://pluginhive.zendesk.com/attachments/token/YNGt9o3r3Xwjf5DtBVj8z5fyL/?name=image.png\"></span><br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Armen,\n&nbsp;\nGood day!\n\nI have checked and could see the recent product variant shared has been imported to the app as well.&nbsp;\n&nbsp;\nIf in any case, the rates are not provided for any product or its variants, share the details of the same with us, for us to check.\n&nbsp;\n\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56497727514905,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T21:31:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56499275342873,
+      "type": "Comment",
+      "author_id": 31892630540441,
+      "body": "ok, thank you. We will keep an eye on the issue, thank you for your help.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>ok, thank you. We will keep an eye on the issue, thank you for your help.</div></div>",
+      "plain_body": "ok, thank you. We will keep an eye on the issue, thank you for your help.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56499275342745,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "rpjxmoled9k5z8wq@email.gorgias.com",
+            "name": "Armen",
+            "original_recipients": [
+              "rpjxmoled9k5z8wq@email.gorgias.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T23:15:03Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177491249872.770.18334151242238718601.ticket-id-gAAAAABpywPyQvF4e-Ja3B-oc-u5PhDlRu8RDkOkTzCT9S2Sm37Gnd6rFuNUDx-VNkl9dgEtNvl__FLlMbLcc34wA29oWg3sqA==@gorgias.com>",
+          "email_id": "01KN0GEXE7S27FDV7ZHKW8CE2F",
+          "raw_email_identifier": "2369120/6cb6fb36-eb13-4d49-8d2a-91926450faff.eml",
+          "json_email_identifier": "2369120/6cb6fb36-eb13-4d49-8d2a-91926450faff.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56499267905305,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Armen,\n\nSure! Let us know of any updates.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Armen,<br>&nbsp;<br>Sure! Let us know of any updates.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Armen,\n&nbsp;\nSure! Let us know of any updates.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56499267905177,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T23:16:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56530901585049,
+      "type": "Comment",
+      "author_id": 31892630540441,
+      "body": "Hello,\n\n\n\nUpdate on this issue\n\n\n\nhttps://silverpalaceinc.com/products/925-sterling-silver-figaro-chain-or-bracelet?variant=47971095052542\n\n\n\nCH273-8 GP\n\nCH274-8 GP\n\n\n\nWhen those SKU are added to the cart it does not show a shipping method upon checkout. I am noticing that SKU's that were included in multi variant listing are poisoning the carts and thus not showing shipping methods\n\n\n\nCan we have fix on this as its been very hard to keep calling customers to ask for shipping methods\n\n\n\nRegards,",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Hello,</div><div><br></div><div>Update on this issue</div><div><br></div><div><a href=\"https://silverpalaceinc.com/products/925-sterling-silver-figaro-chain-or-bracelet?variant=47971095052542\" rel=\"noreferrer\">https://silverpalaceinc.com/products/925-sterling-silver-figaro-chain-or-bracelet?variant=47971095052542</a></div><div><br></div><div>CH273-8 GP</div><div>CH274-8 GP</div><div><br></div><div>When those SKU are added to the cart it does not show a shipping method upon checkout. I am noticing that SKU's that were included in multi variant listing are poisoning the carts and thus not showing shipping methods</div><div><br></div><div>Can we have fix on this as its been very hard to keep calling customers to ask for shipping methods</div><div><br></div><div>Regards,</div><div><br></div></div>",
+      "plain_body": "Hello,  \n  Update on this issue  \n  https://silverpalaceinc.com/products/925-sterling-silver-figaro-chain-or-bracelet?variant=47971095052542  \n  CH273-8 GP  CH274-8 GP  \n  When those SKU are added to the cart it does not show a shipping method upon checkout. I am noticing that SKU's that were included in multi variant listing are poisoning the carts and thus not showing shipping methods  \n  Can we have fix on this as its been very hard to keep calling customers to ask for shipping methods  \n  Regards,",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56530901584921,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "rpjxmoled9k5z8wq@email.gorgias.com",
+            "name": "Armen",
+            "original_recipients": [
+              "rpjxmoled9k5z8wq@email.gorgias.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T19:14:50Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177498448464.545.7248037547125648334.ticket-id-gAAAAABpzB0kDKDxaRI9WoY0UAjZPghoEJ_WMykRQpkwUG3cjA04xNkixqvVUh598glz1rKv8No6kHVwrirKQNIItrCrgE_XCA==@gorgias.com>",
+          "email_id": "01KN2N3S51SYX3VNGCF8W6238M",
+          "raw_email_identifier": "2369120/8f316838-283a-4324-bbc1-148a5ef06159.eml",
+          "json_email_identifier": "2369120/8f316838-283a-4324-bbc1-148a5ef06159.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56531625800985,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Armen,\n\nI have checked and imported this variant to the app now.\n\nCould you let us know if you will be frequently adding the variants in shopify?\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Armen,<br>&nbsp;<br>I have checked and imported this variant to the app now.&nbsp;<br>&nbsp;<br>Could you let us know if you will be frequently adding the variants in shopify?<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Armen,\n&nbsp;\nI have checked and imported this variant to the app now.&nbsp;\n&nbsp;\nCould you let us know if you will be frequently adding the variants in shopify?\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56531625800857,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T20:44:17Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "115.99.141.72",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56531844279577,
+      "type": "Comment",
+      "author_id": 31892630540441,
+      "body": "Thank you,\n\n\n\nWe are constantly adding products with multiple variants in our website.\n\nI wanted to see if this is something i could fix in my end? I know i can import the products in the app from our website but i maybe doing it incorrectly\n\n\n\nFYI, https://silverpalaceinc.com/products/925-sterling-silver-figaro-chain-or-bracelet?variant=47971095052542 is also not giving shipping rates",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Thank you,</div><div><br></div><div>We are constantly adding products with multiple variants in our website.</div><div>I wanted to see if this is something i could fix in my end? I know i can import the products in the app from our website but i maybe doing it incorrectly</div><div><br></div><div>FYI, <a href=\"https://silverpalaceinc.com/products/925-sterling-silver-figaro-chain-or-bracelet?variant=47971095052542\" rel=\"noreferrer\">https://silverpalaceinc.com/products/925-sterling-silver-figaro-chain-or-bracelet?variant=47971095052542</a> is also not giving shipping rates</div><div><br></div><div><br></div></div>",
+      "plain_body": "Thank you,  \n  We are constantly adding products with multiple variants in our website.  I wanted to see if this is something i could fix in my end? I know i can import the products in the app from our website but i maybe doing it incorrectly  \n  FYI, https://silverpalaceinc.com/products/925-sterling-silver-figaro-chain-or-bracelet?variant=47971095052542 is also not giving shipping rates",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56531844279449,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "rpjxmoled9k5z8wq@email.gorgias.com",
+            "name": "Armen",
+            "original_recipients": [
+              "rpjxmoled9k5z8wq@email.gorgias.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T21:05:54Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177499114920.1639.9568859210754819774.ticket-id-gAAAAABpzDctHYYVwSXMn3bnXywQYWbHotF246zZ_JhoFgCIqb95Q2dHPnpfWQRStYJewaMmxqwaCt9RKzGRp9aKVb0lYvOS7w==@gorgias.com>",
+          "email_id": "01KN2VF4KPPK0VYZT7GPRCJ42H",
+          "raw_email_identifier": "2369120/a69b3f43-037d-40fb-8507-c5825a04214d.eml",
+          "json_email_identifier": "2369120/a69b3f43-037d-40fb-8507-c5825a04214d.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56531865166745,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Armen,\n\nPlease allow us sometime.\n\nWe will get back to you with an update.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Armen,<br>&nbsp;<br>Please allow us sometime.&nbsp;<br>&nbsp;<br>We will get back to you with an update.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Armen,\n&nbsp;\nPlease allow us sometime.&nbsp;\n&nbsp;\nWe will get back to you with an update.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56531865166617,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T21:07:04Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "115.99.141.72",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56531903886489,
+      "type": "Comment",
+      "author_id": 31892630540441,
+      "body": "Thank you and i appreciate your support",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Thank you and i appreciate your support</div></div>",
+      "plain_body": "Thank you and i appreciate your support",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56531903886361,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "rpjxmoled9k5z8wq@email.gorgias.com",
+            "name": "Armen",
+            "original_recipients": [
+              "rpjxmoled9k5z8wq@email.gorgias.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T21:10:20Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177499141582.1553.13369733915039892881.ticket-id-gAAAAABpzDg3DcsOolJ9gw9POAY1f_FUvueovqsNHQZXfSGKgqBHlqUgdFjH8mI_PFqMwe7b6M0170Bhn2Kp8oVYex2XORXMNw==@gorgias.com>",
+          "email_id": "01KN2VQ8R689R11J0YM0MQQKFK",
+          "raw_email_identifier": "2369120/34b6bcc7-8bce-4f9a-9de8-85a8cfec3ee2.eml",
+          "json_email_identifier": "2369120/34b6bcc7-8bce-4f9a-9de8-85a8cfec3ee2.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56533739119001,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Armen,\n\nWe need to verify few product details in shopify. So, is it possible to grant the collaborator access requested to the mail ID rpjxmoled9k5z8wq@email.gorgias.com and let us know once done.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Armen,<br>&nbsp;<br>We need to verify few product details in shopify. So, is it possible to grant the collaborator access requested to the mail ID <a href=\"mailto:rpjxmoled9k5z8wq@email.gorgias.com\" rel=\"noreferrer\">rpjxmoled9k5z8wq@email.gorgias.com</a> and let us know once done.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Armen,\n&nbsp;\nWe need to verify few product details in shopify. So, is it possible to grant the collaborator access requested to the mail ID rpjxmoled9k5z8wq@email.gorgias.com and let us know once done.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56533739118873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T23:20:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "115.99.141.72",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56534112364697,
+      "type": "Comment",
+      "author_id": 31892630540441,
+      "body": "request accepted, thank you",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>request accepted, thank you</div></div>",
+      "plain_body": "request accepted, thank you",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56534112364569,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "rpjxmoled9k5z8wq@email.gorgias.com",
+            "name": "Armen",
+            "original_recipients": [
+              "rpjxmoled9k5z8wq@email.gorgias.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T23:38:22Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177500029748.633.16794445297249701821.ticket-id-gAAAAABpzFrpdP7go6XvAbmbv9T2GzR74t753y7roncUS49Yb4wFXycsIdQQUp_gjkagRvGc6LNWB6A87CyzB2vVnj_04v-wYw==@gorgias.com>",
+          "email_id": "01KN346AWSW5NDA9PY23CAS7R2",
+          "raw_email_identifier": "2369120/843ed6d5-3860-4ce2-a4de-40fe18390549.eml",
+          "json_email_identifier": "2369120/843ed6d5-3860-4ce2-a4de-40fe18390549.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56534503162649,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Armen,\n\nThank you for granting access to the store.\n\nWill keep you posted on the updates.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Armen,<br>&nbsp;<br>Thank you for granting access to the store.&nbsp;<br>&nbsp;<br>Will keep you posted on the updates.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Armen,\n&nbsp;\nThank you for granting access to the store.&nbsp;\n&nbsp;\nWill keep you posted on the updates.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56534503162521,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T00:00:10Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.204.145.134",
+          "location": "Vijayawada, AP, India",
+          "latitude": 16.5033,
+          "longitude": 80.6465
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56534693073177,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "L3 - Case related to Product Variants not getting imported automatically.\n\nThe customer is constantly adding the variants to shopify and those are not getting imported to the app and due to this the shipping rates are not provided at the checkout.\n\nI have recorded a video showing the case and have attached the recording for reference.\n\nCould you check and let us know how to handle this case and what steps to be taken moving forward?\n\nStore URL - silver-palace-jewelry.myshopify.com\nApp - Shopify MCSL\nAccount ID - fe5f5f11-5fea-48f5-931e-4055928f88b1",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3 - Case related to Product Variants not getting imported automatically.&nbsp;<br>&nbsp;<br>The customer is constantly adding the variants to shopify and those are not getting imported to the app and due to this the shipping rates are not provided at the checkout.&nbsp;<br>&nbsp;<br>I have recorded a video showing the case and have attached the recording for reference.&nbsp;<br>&nbsp;<br>Could you check and let us know how to handle this case and what steps to be taken moving forward?<br>&nbsp;<br>Store URL - <a rel=\"noopener noreferrer\" href=\"http://silver-palace-jewelry.myshopify.com\">silver-palace-jewelry.myshopify.com</a>&nbsp;<br>App - Shopify MCSL<br>Account ID - fe5f5f11-5fea-48f5-931e-4055928f88b1<br></div>",
+      "plain_body": "L3 - Case related to Product Variants not getting imported automatically.&nbsp;\n&nbsp;\nThe customer is constantly adding the variants to shopify and those are not getting imported to the app and due to this the shipping rates are not provided at the checkout.&nbsp;\n&nbsp;\nI have recorded a video showing the case and have attached the recording for reference.&nbsp;\n&nbsp;\nCould you check and let us know how to handle this case and what steps to be taken moving forward?\n&nbsp;\nStore URL - silver-palace-jewelry.myshopify.com&nbsp;\nApp - Shopify MCSL\nAccount ID - fe5f5f11-5fea-48f5-931e-4055928f88b1",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56534699482905.json",
+          "id": 56534699482905,
+          "file_name": "Screen Recording 2026-04-01 at 5.32.24 AM.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/odhcSEaPAZa4TAoFh1KieSzOC/?name=Screen+Recording+2026-04-01+at+5.32.24%E2%80%AFAM.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/odhcSEaPAZa4TAoFh1KieSzOC/?name=Screen+Recording+2026-04-01+at+5.32.24%E2%80%AFAM.mov",
+          "content_type": "video/quicktime",
+          "size": 21602822,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56534693073049,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T00:05:01Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.204.145.134",
+          "location": "Vijayawada, AP, India",
+          "latitude": 16.5033,
+          "longitude": 80.6465
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56553084446489,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We have identified the issue and the fix is testing phase, will be deployed by next week.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have identified the issue and the fix is testing phase, will be deployed by next week.<br>[Veena]<br></div>",
+      "plain_body": "We have identified the issue and the fix is testing phase, will be deployed by next week.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56553084446361,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T08:43:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56556022873881,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Armen,\n\nThank you for your patience!\n\nWe have identified the case and the fix is currently in the testing phase and will be deployed by next week.\n\nWe will keep you updated.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Armen,<br>&nbsp;<br>Thank you for your patience!<br>&nbsp;<br>We have identified the case and the fix is currently in the testing phase and will be deployed by next week.<br>&nbsp;<br>We will keep you updated.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Armen,\n&nbsp;\nThank you for your patience!\n&nbsp;\nWe have identified the case and the fix is currently in the testing phase and will be deployed by next week.\n&nbsp;\nWe will keep you updated.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56556022873753,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T10:13:37Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56598849041689,
+      "type": "Comment",
+      "author_id": 31892630540441,
+      "body": "Thank you for the update, i will be looking forward to it.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Thank you for the update, i will be looking forward to it.</div></div>",
+      "plain_body": "Thank you for the update, i will be looking forward to it.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56598849041561,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "rpjxmoled9k5z8wq@email.gorgias.com",
+            "name": "Armen",
+            "original_recipients": [
+              "rpjxmoled9k5z8wq@email.gorgias.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T16:25:19Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177514711513.686.5434358038465811587.ticket-id-gAAAAABpzphrrUbvkjADkeHjGxYsaBqmds0Fa5AfV-41NifJxhKq-spPeQdJOHyvzVwo0HKySHiZR-x7v6vO8nWH89-wteu0mA==@gorgias.com>",
+          "email_id": "01KN7G6TRYYWAJRRD1MM0ZYPHY",
+          "raw_email_identifier": "2369120/3832eeaa-8dae-443b-889a-432895a788cd.eml",
+          "json_email_identifier": "2369120/3832eeaa-8dae-443b-889a-432895a788cd.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    }
+  ]
+}

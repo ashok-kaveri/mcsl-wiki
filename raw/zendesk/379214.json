@@ -1,0 +1,1031 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/379214.json",
+    "id": 379214,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "neelima@fronteriors.co",
+          "name": "Neelima Sala"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-17T04:42:59Z",
+    "updated_at": "2026-03-24T11:33:25Z",
+    "generated_timestamp": 1774352005,
+    "type": null,
+    "subject": "Line items missing",
+    "raw_subject": "Line items missing",
+    "description": "Hi Team,\nHope you’re doing well.\nWe’ve been using the PHMCSL app for a few years now, and recently we’ve started encountering issues with shipping rates not being generated. Upon checking, we noticed that the backend product export is missing several product variants.\nFor example, for our Besta Top (one side):\nhttps://admin.shopify.com/store/fronteriors-us/products/8259420750098\nThis product has multiple size and color variants. However, when we export the backend products CSV to review packaging sizes, many of these variants are missing.\nCould you please confirm if there are any limitations on the number of product variants?\nFor reference, here is an example of a SKU that is missing from the backend packaging export CSV:\nBES.TOP.PNT.BUR.BAS.000.1819x418.N\nWe’ve ensured that all relevant settings are correctly enabled (e.g., marked as physical products, stock quantities added, etc.).\nWe’d really appreciate your help in identifying and resolving this issue.\nThank you,\n\n[Fronteriors Nov25.png]\n\n\nNEELIMA SALA\n\nDesigner & Project manager\n\nEurope & Middle East<https://fronteriors.co/> | USA<https://us.fronteriors.co/>\n\n@fronteriors<https://www.instagram.com/fronteriors/>",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 7983206745369,
+    "submitter_id": 7983206745369,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      903816533943
+    ],
+    "follower_ids": [
+      903816533943
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "fronteriors-us.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "GZ9JDJ-NZ623",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "fronteriors-us.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56085004547481,
+      "type": "Comment",
+      "author_id": 7983206745369,
+      "body": "Hi Team,\n\nHope you’re doing well.\n\nWe’ve been using the PHMCSL app for a few years now, and recently we’ve started encountering issues with shipping rates not being generated. Upon checking, we noticed that the backend product export is missing several product variants.\n\nFor example, for our Besta Top (one side):\nhttps://admin.shopify.com/store/fronteriors-us/products/8259420750098\n\nThis product has multiple size and color variants. However, when we export the backend products CSV to review packaging sizes, many of these variants are missing.\n\nCould you please confirm if there are any limitations on the number of product variants?\n\nFor reference, here is an example of a SKU that is missing from the backend packaging export CSV:\nBES.TOP.PNT.BUR.BAS.000.1819x418.N\n\nWe’ve ensured that all relevant settings are correctly enabled (e.g., marked as physical products, stock quantities added, etc.).\n\nWe’d really appreciate your help in identifying and resolving this issue.\n\nThank you,\n\n![Fronteriors Nov25.png](https://support.pluginhive.com/attachments/token/ik47KE3laYh4kgb7xGK9h8WIj/?name=Fronteriors+Nov25.png)\n\n**NEELIMA SALA**\n\nDesigner & Project manager\n\nEurope & Middle East | USA\n\n@fronteriors",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">\n<div dir=\"ltr\" style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nHi Team,</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nHope you’re doing well.</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nWe’ve been using the PHMCSL app for a few years now, and recently we’ve started encountering issues with shipping rates not being generated. Upon checking, we noticed that the backend product export is missing several product variants.</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nFor example, for our Besta Top (one side):<br>\n<a href=\"https://admin.shopify.com/store/fronteriors-us/products/8259420750098\" rel=\"noreferrer\">https://admin.shopify.com/store/fronteriors-us/products/8259420750098</a></div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nThis product has multiple size and color variants. However, when we export the backend products CSV to review packaging sizes, many of these variants are missing.</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nCould you please confirm if there are any limitations on the number of product variants?</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nFor reference, here is an example of a SKU that is missing from the backend packaging export CSV:<br>\nBES.TOP.PNT.BUR.BAS.000.1819x418.N</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nWe’ve ensured that all relevant settings are correctly enabled (e.g., marked as physical products, stock quantities added, etc.).</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nWe’d really appreciate your help in identifying and resolving this issue.</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nThank you,&nbsp;</div>\n<div style=\"color: inherit; background-color: inherit;\">\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><img src=\"https://support.pluginhive.com/attachments/token/ik47KE3laYh4kgb7xGK9h8WIj/?name=Fronteriors+Nov25.png\" alt=\"Fronteriors Nov25.png\" width=\"490\" height=\"136\" style=\"width: 490px; height: 136px; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><br>\n</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><b>NEELIMA SALA</b></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\">Designer &amp; Project manager&nbsp;</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">Europe\n &amp; Middle East</a></u>&nbsp;| <u><a href=\"https://us.fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">USA</a></u></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://www.instagram.com/fronteriors/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">@fronteriors</a></u></span></p>\n<div dir=\"ltr\" style=\" font-size: 11pt; color: black; margin: 0in 0in 0.0001pt;\">\n<br>\n</div>\n</div></div>",
+      "plain_body": "Hi Team, \n \nHope you’re doing well. \n \nWe’ve been using the PHMCSL app for a few years now, and recently we’ve started encountering issues with shipping rates not being generated. Upon checking, we noticed that the backend product export is missing several product variants. \n \nFor example, for our Besta Top (one side):\n\nhttps://admin.shopify.com/store/fronteriors-us/products/8259420750098 \n \nThis product has multiple size and color variants. However, when we export the backend products CSV to review packaging sizes, many of these variants are missing. \n \nCould you please confirm if there are any limitations on the number of product variants? \n \nFor reference, here is an example of a SKU that is missing from the backend packaging export CSV:\n\nBES.TOP.PNT.BUR.BAS.000.1819x418.N \n \nWe’ve ensured that all relevant settings are correctly enabled (e.g., marked as physical products, stock quantities added, etc.). \n \nWe’d really appreciate your help in identifying and resolving this issue. \n \nThank you,&nbsp; \n \n  \n \n\n \n NEELIMA SALA \n Designer &amp; Project manager&nbsp; \n Europe\n &amp; Middle East&nbsp;| USA \n @fronteriors",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56085004547353,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "neelima@fronteriors.co",
+            "name": "Neelima Sala",
+            "original_recipients": [
+              "neelima@fronteriors.co",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T04:42:59Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DB9PR08MB67315BB852A44F103B6DE094CE41A@DB9PR08MB6731.eurprd08.prod.outlook.com>",
+          "email_id": "01KKX1N7580ZYQXH2C1RDKCT3T",
+          "raw_email_identifier": "2369120/abddeda4-d165-47a8-96c1-e435b78788d0.eml",
+          "json_email_identifier": "2369120/abddeda4-d165-47a8-96c1-e435b78788d0.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56089105424025,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "US Store.\nOrders - 32\nOnly Rates\nCarrier - DHL Express\nPlan - $9 Starter\nActive from 2023-04-19",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">US Store.<br>Orders - 32<br>Only Rates<br>Carrier - DHL Express<br>Plan - $9 Starter<br>Active from 2023-04-19<br></div>",
+      "plain_body": "US Store.\nOrders - 32\nOnly Rates\nCarrier - DHL Express\nPlan - $9 Starter\nActive from 2023-04-19",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56089105423897,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T06:42:53Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56089162441881,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Neelima Sala,\n\nGood Day!\n\nTo check the case further, we would require Collaborator Access for your store. We have raised the request from our end on email id info@fronteriors.co\n\nPlease accept and let us know by replying to this email.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Neelima Sala,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>To check the case further, we would require Collaborator Access for your store. We have raised the request from our end on email id <a href=\"mailto:info@fronteriors.co\" rel=\"noreferrer\">info@fronteriors.co</a><br>&nbsp;<br>Please accept and let us know by replying to this email.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Neelima Sala,\n&nbsp;\nGood Day!\n&nbsp;\nTo check the case further, we would require Collaborator Access for your store. We have raised the request from our end on email id info@fronteriors.co\n&nbsp;\nPlease accept and let us know by replying to this email.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56089162441753,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T06:44:20Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56100700064281,
+      "type": "Comment",
+      "author_id": 7983206745369,
+      "body": "Hi Touseef,\n\nCould you please check if you’re able to access the backend? We have granted access.\n\nWe are enquiring for the US shopify:us.fronteriors.co.\n\nThank you,\n\n\n\n![Fronteriors Nov25.png](https://support.pluginhive.com/attachments/token/aR1jvb1yzlGayYKnFIXhGdq81/?name=Fronteriors+Nov25.png)\n\n**NEELIMA SALA**\n\nDesigner & Project manager\n\nEurope & Middle East | USA\n\n@fronteriors",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\" style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nHi Touseef,</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nCould you please check if you’re able to access the backend? We have granted access.</div>\n<div dir=\"ltr\" style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em;\" align=\"left\">\n<span style=\" font-size: 10pt; color: rgb(0, 0, 0);\">We are enquiring for the US shopify:\n</span><span style=\" font-size: 13px; color: rgb(48, 48, 48); font-weight: var(--p-font-weight-semibold);\">us.fronteriors.co</span><span style=\" font-size: 13px; color: rgb(48, 48, 48); font-weight: 450;\">.</span></div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nThank you,</div>\n<div dir=\"ltr\" style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"color: inherit; background-color: inherit;\">\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><img src=\"https://support.pluginhive.com/attachments/token/aR1jvb1yzlGayYKnFIXhGdq81/?name=Fronteriors+Nov25.png\" alt=\"Fronteriors Nov25.png\" width=\"490\" height=\"136\" style=\"width: 490px; height: 136px; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><br>\n</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><b>NEELIMA SALA</b></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\">Designer &amp; Project manager&nbsp;</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">Europe\n &amp; Middle East</a></u>&nbsp;| <u><a href=\"https://us.fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">USA</a></u></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://www.instagram.com/fronteriors/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">@fronteriors</a></u></span></p>\n<div dir=\"ltr\" style=\" font-size: 11pt; color: black; margin: 0in 0in 0.0001pt;\">\n<br>\n</div>\n</div></div>",
+      "plain_body": "Hi Touseef, \n \nCould you please check if you’re able to access the backend? We have granted access. \n \nWe are enquiring for the US shopify:\nus.fronteriors.co. \n \nThank you, \n \n\n\n \n \n  \n \n\n \n NEELIMA SALA \n Designer &amp; Project manager&nbsp; \n Europe\n &amp; Middle East&nbsp;| USA \n @fronteriors",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56100700064153,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "neelima@fronteriors.co",
+            "name": "Neelima Sala",
+            "original_recipients": [
+              "neelima@fronteriors.co",
+              "support@pluginhive.com",
+              "kath@fronteriors.co"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T13:18:35Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DB9PR08MB67316988D362224BA121289ACE41A@DB9PR08MB6731.eurprd08.prod.outlook.com>",
+          "email_id": "01KKXZ58RD6J52S2690RGV4B15",
+          "raw_email_identifier": "2369120/7407388e-a167-4c7c-91ef-e9e67539bba8.eml",
+          "json_email_identifier": "2369120/7407388e-a167-4c7c-91ef-e9e67539bba8.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56105181470361,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Neelima,\n\nThank you for providing the access.\n\nPlease allow us some time while we review this from our end. We will get back to you with an update.\n\nIn the meantime, could you please let us know if you frequently make changes to your products?\n\nLooking forward to hearing back from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Neelima,<br>&nbsp;<br>Thank you for providing the access.<br>&nbsp;<br>Please allow us some time while we review this from our end. We will get back to you with an update.<br>&nbsp;<br>In the meantime, could you please let us know if you frequently make changes to your products?<br>&nbsp;<br>Looking forward to hearing back from you.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Neelima,\n&nbsp;\nThank you for providing the access.\n&nbsp;\nPlease allow us some time while we review this from our end. We will get back to you with an update.\n&nbsp;\nIn the meantime, could you please let us know if you frequently make changes to your products?\n&nbsp;\nLooking forward to hearing back from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56105181470233,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T18:20:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56105307567641,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need assistance from L3 team:\n\nCase: Product variants are missing and some products are duplicated on the App → Products page.\n\nDetails:\nA customer on the $9 Starter plan (MCSL) reported that shipping rates are failing. Upon checking, they noticed that some product variants are missing in the app, which is affecting the rate calculation.\n\nFor example, the product \"BASIC TOP FOR BESTA (FOR 1 SIDE)\" has 103 variants in Shopify, but only 101 variants are available in the app. The customer reported that the following variants are missing:\n\n- “71 5/8 x 16 1/2 (for 1 side) / Burgundy / No”\n- “71 5/8 x 16 1/2 (for 1 side) / Burgundy / Yes”\n\nCould you please help force import all products/variants from Shopify? We attempted the Force Import option, but the missing variants were still not synced.\n\nAdditionally, while checking, we noticed that some products appear duplicated in the app. For example, the product “ANTIQUE BRASS KNOB” appears three times in the app, while it exists only once in Shopify.\n\nFor reference, I have attached screenshots and the product export CSV file\n\nCould you please help remove the duplicate entries as well?\n\nStore Details:\nStore URL – fronteriors-us.myshopify.com\nAccount ID – 982c66be-f6ca-4390-a44a-c5a39f0ca463\nActive From – 2023-04-19",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need assistance from L3 team:<br>&nbsp;<br>Case: Product variants are missing and some products are duplicated on the App → Products page.<br>&nbsp;<br>Details:<br>A customer on the $9 Starter plan (MCSL) reported that shipping rates are failing. Upon checking, they noticed that some product variants are missing in the app, which is affecting the rate calculation.<br>&nbsp;<br>For example, the product \"<a rel=\"noopener noreferrer\" href=\"https://mcsl-s.pluginhive.io/home/products/summary/09f730b8-4c2a-43b1-8e1d-31e162b0e428/6d884425-e3ca-4e1e-ab19-e23ac6697b19\">BASIC TOP FOR BESTA (FOR 1 SIDE)</a>\" has 103 variants in Shopify, but only 101 variants are available in the app. The customer reported that the following variants are missing:<br><ul dir=\"auto\"><li>“71 5/8 x 16 1/2 (for 1 side) / Burgundy / No”</li><li>“71 5/8 x 16 1/2 (for 1 side) / Burgundy / Yes”</li></ul>&nbsp;<br>Could you please help force import all products/variants from Shopify? We attempted the Force Import option, but the missing variants were still not synced.<br>&nbsp;<br>Additionally, while checking, we noticed that some products appear duplicated in the app. For example, the product “ANTIQUE BRASS KNOB” appears three times in the app, while it exists only once in Shopify.<br>&nbsp;<br>For reference, I have attached screenshots and the product export CSV file<br>&nbsp;<br>Could you please help remove the duplicate entries as well?<br>&nbsp;<br>Store Details:<br>Store URL – <a rel=\"noopener noreferrer\" href=\"http://fronteriors-us.myshopify.com\">fronteriors-us.myshopify.com</a>&nbsp;<br>Account ID – 982c66be-f6ca-4390-a44a-c5a39f0ca463<br>Active From – 2023-04-19<br>&nbsp;<br></div>",
+      "plain_body": "Need assistance from L3 team:\n&nbsp;\nCase: Product variants are missing and some products are duplicated on the App → Products page.\n&nbsp;\nDetails:\nA customer on the $9 Starter plan (MCSL) reported that shipping rates are failing. Upon checking, they noticed that some product variants are missing in the app, which is affecting the rate calculation.\n&nbsp;\nFor example, the product \"BASIC TOP FOR BESTA (FOR 1 SIDE)\" has 103 variants in Shopify, but only 101 variants are available in the app. The customer reported that the following variants are missing:\n  “71 5/8 x 16 1/2 (for 1 side) / Burgundy / No”  “71 5/8 x 16 1/2 (for 1 side) / Burgundy / Yes”  &nbsp;\nCould you please help force import all products/variants from Shopify? We attempted the Force Import option, but the missing variants were still not synced.\n&nbsp;\nAdditionally, while checking, we noticed that some products appear duplicated in the app. For example, the product “ANTIQUE BRASS KNOB” appears three times in the app, while it exists only once in Shopify.\n&nbsp;\nFor reference, I have attached screenshots and the product export CSV file\n&nbsp;\nCould you please help remove the duplicate entries as well?\n&nbsp;\nStore Details:\nStore URL – fronteriors-us.myshopify.com&nbsp;\nAccount ID – 982c66be-f6ca-4390-a44a-c5a39f0ca463\nActive From – 2023-04-19\n&nbsp;",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56105316817305.json",
+          "id": 56105316817305,
+          "file_name": "Product duplicate - SCS- 1.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/pRy5Yczu1TyufsfSb3pHWdNC2/?name=Product+duplicate+-+SCS-+1.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/pRy5Yczu1TyufsfSb3pHWdNC2/?name=Product+duplicate+-+SCS-+1.png",
+          "content_type": "image/png",
+          "size": 77391,
+          "width": 1440,
+          "height": 776,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56105330331801.json",
+              "id": 56105330331801,
+              "file_name": "Product_duplicate_-_SCS-_1_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/AL2JM3O9y4wkxwuRI4GsXrRgn/?name=Product_duplicate_-_SCS-_1_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/AL2JM3O9y4wkxwuRI4GsXrRgn/?name=Product_duplicate_-_SCS-_1_thumb.png",
+              "content_type": "image/png",
+              "size": 964,
+              "width": 80,
+              "height": 43,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56105316819993.json",
+          "id": 56105316819993,
+          "file_name": "Product varient missing - 1.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/nXfk9epFNFuJF1KdN9HBfgTI3/?name=Product+varient+missing+-+1.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/nXfk9epFNFuJF1KdN9HBfgTI3/?name=Product+varient+missing+-+1.png",
+          "content_type": "image/png",
+          "size": 146251,
+          "width": 1440,
+          "height": 776,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56105330337433.json",
+              "id": 56105330337433,
+              "file_name": "Product_varient_missing_-_1_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/SmoKx3gmoK0oRj4lRYTY8khda/?name=Product_varient_missing_-_1_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/SmoKx3gmoK0oRj4lRYTY8khda/?name=Product_varient_missing_-_1_thumb.png",
+              "content_type": "image/png",
+              "size": 1701,
+              "width": 80,
+              "height": 43,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56105330326809.json",
+          "id": 56105330326809,
+          "file_name": "Product Duplicate - SCS-2.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/FZjUVqS9FKrRCzppKJAHdY9hz/?name=Product+Duplicate+-+SCS-2.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/FZjUVqS9FKrRCzppKJAHdY9hz/?name=Product+Duplicate+-+SCS-2.png",
+          "content_type": "image/png",
+          "size": 160121,
+          "width": 1440,
+          "height": 776,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56105330326937.json",
+          "id": 56105330326937,
+          "file_name": "Product varient missing -2.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/r9rElmr1KosQoqxMRG2u68nM3/?name=Product+varient+missing+-2.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/r9rElmr1KosQoqxMRG2u68nM3/?name=Product+varient+missing+-2.png",
+          "content_type": "image/png",
+          "size": 120389,
+          "width": 1440,
+          "height": 776,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56105330338073.json",
+              "id": 56105330338073,
+              "file_name": "Product_varient_missing_-2_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/Xw5SV3vUAiV1En6y36jMN2lXH/?name=Product_varient_missing_-2_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/Xw5SV3vUAiV1En6y36jMN2lXH/?name=Product_varient_missing_-2_thumb.png",
+              "content_type": "image/png",
+              "size": 1382,
+              "width": 80,
+              "height": 43,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56105334009241.json",
+          "id": 56105334009241,
+          "file_name": "Product Varient Missing - 3.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/FbtvF8gYE5kkOC7fw8uwX0jXo/?name=Product+Varient+Missing+-+3.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/FbtvF8gYE5kkOC7fw8uwX0jXo/?name=Product+Varient+Missing+-+3.png",
+          "content_type": "image/png",
+          "size": 208000,
+          "width": 1440,
+          "height": 776,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56105345994009,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T18:31:56Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56117557621913,
+      "type": "Comment",
+      "author_id": 7983206745369,
+      "body": "Hi Manohar,\n\nThanks for the update — we’ll wait to hear back from you.\n\nWe don’t make frequent changes to our products, but we do add new products from time to time. Recently, we’ve also introduced a few additional size variants to some existing items.\n\nWe really appreciate your quick response, especially given the current shipping discrepancies. These are causing checkout issues, and clients have started reaching out to us about it.\n\nIf a call would be easier, I’d be happy to walk you through the core issue — just let me know what works for you.\n\nThank you,\n\n![Fronteriors Nov25.png](https://support.pluginhive.com/attachments/token/FON64FKELnCxzUsNoNqWgRhwM/?name=Fronteriors+Nov25.png)\n\n**NEELIMA SALA**\n\nDesigner & Project manager\n\nEurope & Middle East | USA\n\n@fronteriors",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\" style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nHi Manohar,</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nThanks for the update — we’ll wait to hear back from you.</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nWe don’t make frequent changes to our products, but we do add new products from time to time. Recently, we’ve also introduced a few additional size variants to some existing items.</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nWe really appreciate your quick response, especially given the current shipping discrepancies. These are causing checkout issues, and clients have started reaching out to us about it.</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nIf a call would be easier, I’d be happy to walk you through the core issue — just let me know what works for you.</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nThank you,</div>\n<div style=\"color: inherit; background-color: inherit;\">\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><img src=\"https://support.pluginhive.com/attachments/token/FON64FKELnCxzUsNoNqWgRhwM/?name=Fronteriors+Nov25.png\" alt=\"Fronteriors Nov25.png\" width=\"490\" height=\"136\" style=\"width: 490px; height: 136px; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><br>\n</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><b>NEELIMA SALA</b></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\">Designer &amp; Project manager&nbsp;</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">Europe\n &amp; Middle East</a></u>&nbsp;| <u><a href=\"https://us.fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">USA</a></u></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://www.instagram.com/fronteriors/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">@fronteriors</a></u></span></p>\n<div dir=\"ltr\" style=\" font-size: 11pt; color: black; margin: 0in 0in 0.0001pt;\">\n<br>\n</div>\n</div></div>",
+      "plain_body": "Hi Manohar, \n \nThanks for the update — we’ll wait to hear back from you. \n \nWe don’t make frequent changes to our products, but we do add new products from time to time. Recently, we’ve also introduced a few additional size variants to some existing items. \n \nWe really appreciate your quick response, especially given the current shipping discrepancies. These are causing checkout issues, and clients have started reaching out to us about it. \n \nIf a call would be easier, I’d be happy to walk you through the core issue — just let me know what works for you. \n \nThank you, \n \n  \n \n\n \n NEELIMA SALA \n Designer &amp; Project manager&nbsp; \n Europe\n &amp; Middle East&nbsp;| USA \n @fronteriors",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56117557621785,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "neelima@fronteriors.co",
+            "name": "Neelima Sala",
+            "original_recipients": [
+              "neelima@fronteriors.co",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-18T03:51:10Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DB9PR08MB673116FEE12E6311267B9F94CE4EA@DB9PR08MB6731.eurprd08.prod.outlook.com>",
+          "email_id": "01KKZH31BE8W05QSPRW50J5E3K",
+          "raw_email_identifier": "2369120/b8de99d7-c852-480c-bcc9-a344b2331b58.eml",
+          "json_email_identifier": "2369120/b8de99d7-c852-480c-bcc9-a344b2331b58.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56130189512473,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We are working on the issue, For the products with 100 variants, there will be some discrepancies, kindly ask merchant to do a force import all from time to time, we will release the fix asap.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We are working on the issue, For the products with 100 variants, there will be some discrepancies, kindly ask merchant to do a force import all from time to time, we will release the fix asap.<br>[Veena]<br></div>",
+      "plain_body": "We are working on the issue, For the products with 100 variants, there will be some discrepancies, kindly ask merchant to do a force import all from time to time, we will release the fix asap.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56130189512345,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-18T09:52:08Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56131484471833,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Neelima,\n\nThank you for your patience!\n\nOur team is working on this case and for now, for the products with 100 variants, there will be some discrepancies.\n\nWe request you to do a force import all from time to time as a workaround.\n\nWe will be releasing the fix asap.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Neelima,<br>&nbsp;<br>Thank you for your patience!<br>&nbsp;<br>Our team is working on this case and for now, for the products with 100 variants, there will be some discrepancies.<br>&nbsp;<br>We request you to do a force import all from time to time as a workaround.<br>&nbsp;<br>We will be releasing the fix asap.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Neelima,\n&nbsp;\nThank you for your patience!\n&nbsp;\nOur team is working on this case and for now, for the products with 100 variants, there will be some discrepancies.\n&nbsp;\nWe request you to do a force import all from time to time as a workaround.\n&nbsp;\nWe will be releasing the fix asap.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56131484471705,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-18T10:35:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56159778323353,
+      "type": "Comment",
+      "author_id": 7983206745369,
+      "body": "Hi Team, Hi Sibi,\n\nThanks for the update.\n\nWe can now see the “Force import all” option—could you please let us know how this helps?\n\nAlso, would this resolve the issue of missing variants from the product export for packaging?\n\nPlease let us know, and thank you for looking into a fix.\n\nBest regards,\n\n![Fronteriors Nov25.png](https://support.pluginhive.com/attachments/token/H0Fskznlv5zAbG3RNavStvNSL/?name=Fronteriors+Nov25.png)\n\n**NEELIMA SALA**\n\nDesigner & Project manager\n\nEurope & Middle East | USA\n\n@fronteriors",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\" style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nHi Team, Hi Sibi,</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nThanks for the update.</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nWe can now see the “Force import all” option—could you please let us know how this helps?</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nAlso, would this resolve the issue of missing variants from the product export for packaging?</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nPlease let us know, and thank you for looking into a fix.</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nBest regards,</div>\n<div style=\"color: inherit; background-color: inherit;\">\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><img src=\"https://support.pluginhive.com/attachments/token/H0Fskznlv5zAbG3RNavStvNSL/?name=Fronteriors+Nov25.png\" alt=\"Fronteriors Nov25.png\" width=\"490\" height=\"136\" style=\"width: 490px; height: 136px; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><br>\n</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><b>NEELIMA SALA</b></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\">Designer &amp; Project manager&nbsp;</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">Europe\n &amp; Middle East</a></u>&nbsp;| <u><a href=\"https://us.fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">USA</a></u></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://www.instagram.com/fronteriors/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">@fronteriors</a></u></span></p>\n<div dir=\"ltr\" style=\" font-size: 11pt; color: black; margin: 0in 0in 0.0001pt;\">\n<br>\n</div>\n</div></div>",
+      "plain_body": "Hi Team, Hi Sibi, \n \nThanks for the update. \n \nWe can now see the “Force import all” option—could you please let us know how this helps? \n \nAlso, would this resolve the issue of missing variants from the product export for packaging? \n \nPlease let us know, and thank you for looking into a fix. \n \nBest regards, \n \n  \n \n\n \n NEELIMA SALA \n Designer &amp; Project manager&nbsp; \n Europe\n &amp; Middle East&nbsp;| USA \n @fronteriors",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56159778323225,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "neelima@fronteriors.co",
+            "name": "Neelima Sala",
+            "original_recipients": [
+              "neelima@fronteriors.co",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T07:29:42Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DB9PR08MB673108F42DCC57360ECC845ACE4FA@DB9PR08MB6731.eurprd08.prod.outlook.com>",
+          "email_id": "01KM2FZXQH1E0PF4M9EJX11ACD",
+          "raw_email_identifier": "2369120/c962029a-3040-495a-847b-0a3cbe6536f4.eml",
+          "json_email_identifier": "2369120/c962029a-3040-495a-847b-0a3cbe6536f4.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56163981276057,
+      "type": "Comment",
+      "author_id": 7983206745369,
+      "body": "Hi Sibi, team,\n\nIt looks like the force import has resolved the issue—we’re now able to see all variants correctly in the backend export for packaging.\n\nCould we please have the same “force import” option enabled on our other store as well? We’re managing two stores for different locations and are facing a similar issue there due to the number of variants.\n\nStore: fronteriors-online.myshopify.com\n\nPlease let us know if this can be arranged.\n\nThank you,\n\n![Fronteriors Nov25.png](https://support.pluginhive.com/attachments/token/ctJWrPv51Qzwwjy1lO194Nmwo/?name=Fronteriors+Nov25.png)\n\n**NEELIMA SALA**\n\nDesigner & Project manager\n\nEurope & Middle East | USA\n\n@fronteriors",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\" style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nHi Sibi, team,</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nIt looks like the force import has resolved the issue—we’re now able to see all variants correctly in the backend export for packaging.</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nCould we please have the same “force import” option enabled on our other store as well? We’re managing two stores for different locations and are facing a similar issue there due to the number of variants.</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nStore: fronteriors-online.myshopify.com</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nPlease let us know if this can be arranged.</div>\n<div style=\"text-align: left; text-indent: 0px; margin-top: 1em; margin-bottom: 1em; font-size: 10pt; color: rgb(0, 0, 0);\" align=\"left\">\nThank you,</div>\n<div style=\"color: inherit; background-color: inherit;\">\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><img src=\"https://support.pluginhive.com/attachments/token/ctJWrPv51Qzwwjy1lO194Nmwo/?name=Fronteriors+Nov25.png\" alt=\"Fronteriors Nov25.png\" width=\"490\" height=\"136\" style=\"width: 490px; height: 136px; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><br>\n</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><b>NEELIMA SALA</b></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\">Designer &amp; Project manager&nbsp;</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">Europe\n &amp; Middle East</a></u>&nbsp;| <u><a href=\"https://us.fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">USA</a></u></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://www.instagram.com/fronteriors/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">@fronteriors</a></u></span></p>\n<div dir=\"ltr\" style=\" font-size: 11pt; color: black; margin: 0in 0in 0.0001pt;\">\n<br>\n</div>\n</div></div>",
+      "plain_body": "Hi Sibi, team, \n \nIt looks like the force import has resolved the issue—we’re now able to see all variants correctly in the backend export for packaging. \n \nCould we please have the same “force import” option enabled on our other store as well? We’re managing two stores for different locations and are facing a similar issue there due to the number of variants. \n \nStore: fronteriors-online.myshopify.com \n \nPlease let us know if this can be arranged. \n \nThank you, \n \n  \n \n\n \n NEELIMA SALA \n Designer &amp; Project manager&nbsp; \n Europe\n &amp; Middle East&nbsp;| USA \n @fronteriors",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56163981275801,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "neelima@fronteriors.co",
+            "name": "Neelima Sala",
+            "original_recipients": [
+              "neelima@fronteriors.co",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T09:33:41Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DB9PR08MB673109AD3F429FD1833E88FCCE4FA@DB9PR08MB6731.eurprd08.prod.outlook.com>",
+          "email_id": "01KM2Q2WXEFHEKQ38S7PH5SEEZ",
+          "raw_email_identifier": "2369120/d0cd8287-0447-4520-a5d7-78a8125bc9c5.eml",
+          "json_email_identifier": "2369120/d0cd8287-0447-4520-a5d7-78a8125bc9c5.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56168933186457,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Neelima,\n\nThank you for your response.\n\nGlad to hear that the workaround provided is working as expected.\n\nSure, we will enable the Force Import All option for the store - fronteriors-online.myshopify.com and keep you updated.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Neelima,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Glad to hear that the workaround provided is working as expected.<br>&nbsp;<br>Sure, we will enable the Force Import All option for the store - <a rel=\"noopener noreferrer\" href=\"http://fronteriors-online.myshopify.com\">fronteriors-online.myshopify.com</a> and keep you updated.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Neelima,\n&nbsp;\nThank you for your response.\n&nbsp;\nGlad to hear that the workaround provided is working as expected.\n&nbsp;\nSure, we will enable the Force Import All option for the store - fronteriors-online.myshopify.com and keep you updated.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56168933186329,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T12:59:57Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "49.37.249.200",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56299668178457,
+      "type": "Comment",
+      "author_id": 7983206745369,
+      "body": "Hi Sibi, team\n\n\n\nJust wanted to check in and see if you have any update on the below.\n\n\n\nThank you,\n\n\n\n![Fronteriors Nov25.png](https://support.pluginhive.com/attachments/token/fO6OAhyuICRBMd3HLZ1HGDmn9/?name=Fronteriors+Nov25.png)\n\n**NEELIMA SALA**\n\nDesigner & Project manager\n\nEurope & Middle East | USA\n\n@fronteriors",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\" style=\" font-size: 10pt; color: rgb(0, 0, 0);\">\nHi Sibi, team</div>\n<div dir=\"ltr\" style=\" font-size: 10pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div dir=\"ltr\" style=\" font-size: 10pt; color: rgb(0, 0, 0);\">\nJust wanted to check in and see if you have any update on the below.&nbsp;</div>\n<div dir=\"ltr\" style=\" font-size: 10pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div dir=\"ltr\" style=\" font-size: 10pt; color: rgb(0, 0, 0);\">\nThank you,&nbsp;</div>\n<div dir=\"ltr\" style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"color: inherit; background-color: inherit;\">\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><img src=\"https://support.pluginhive.com/attachments/token/fO6OAhyuICRBMd3HLZ1HGDmn9/?name=Fronteriors+Nov25.png\" alt=\"Fronteriors Nov25.png\" width=\"490\" height=\"136\" style=\"width: 490px; height: 136px; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><br>\n</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><b>NEELIMA SALA</b></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\">Designer &amp; Project manager&nbsp;</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">Europe\n &amp; Middle East</a></u>&nbsp;| <u><a href=\"https://us.fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">USA</a></u></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://www.instagram.com/fronteriors/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">@fronteriors</a></u></span></p>\n<div dir=\"ltr\" style=\" font-size: 11pt; color: black; margin: 0in 0in 0.0001pt;\">\n<br>\n</div>\n</div></div>",
+      "plain_body": "Hi Sibi, team \n \n\n\n \n \nJust wanted to check in and see if you have any update on the below.&nbsp; \n \n\n\n \n \nThank you,&nbsp; \n \n\n\n \n \n  \n \n\n \n NEELIMA SALA \n Designer &amp; Project manager&nbsp; \n Europe\n &amp; Middle East&nbsp;| USA \n @fronteriors",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56299668178329,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "neelima@fronteriors.co",
+            "name": "Neelima Sala",
+            "original_recipients": [
+              "neelima@fronteriors.co",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T07:06:19Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DB9PR08MB6731C2B772C999DE71529926CE48A@DB9PR08MB6731.eurprd08.prod.outlook.com>",
+          "email_id": "01KMFAMNCK3E8ZD4M9AV8Q7WH7",
+          "raw_email_identifier": "2369120/2cab4f6a-c6f9-44e9-874d-eb6591dc4632.eml",
+          "json_email_identifier": "2369120/2cab4f6a-c6f9-44e9-874d-eb6591dc4632.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56300446376729,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Neelima,\n\nSorry for the delay in responding to you.\n\nPlease allow me sometime to enable the Force Import All feature for the store - fronteriors-online.myshopify.com.\n\nWe will keep you updated.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Neelima,<br>&nbsp;<br>Sorry for the delay in responding to you.<br>&nbsp;<br>Please allow me sometime to enable the Force Import All feature for the store - <a rel=\"noopener noreferrer\" href=\"http://fronteriors-online.myshopify.com/\">fronteriors-online.myshopify.com</a>.<br>&nbsp;<br>We will keep you updated.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Neelima,\n&nbsp;\nSorry for the delay in responding to you.\n&nbsp;\nPlease allow me sometime to enable the Force Import All feature for the store - fronteriors-online.myshopify.com.\n&nbsp;\nWe will keep you updated.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56300446376601,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T07:26:37Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56300911271065,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Moving to L3:\n\nCould you please enable the toggle of \"Force Import All\" for the below store as done for fronteriors-us.myshopify.com\nStore URL: fronteriors-online.myshopify.com\nAccount UID: a40cfc85-cae2-4bd0-99d9-39b35221e3ff",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving to L3:<br>&nbsp;<br>Could you please enable the toggle of \"Force Import All\" for the below store as done for <a rel=\"noopener noreferrer\" href=\"http://fronteriors-us.myshopify.com/\">fronteriors-us.myshopify.com</a><br>Store URL: <a rel=\"noopener noreferrer\" href=\"http://fronteriors-online.myshopify.com\">fronteriors-online.myshopify.com</a><br>Account UID: a40cfc85-cae2-4bd0-99d9-39b35221e3ff<br>&nbsp;<br></div>",
+      "plain_body": "Moving to L3:\n&nbsp;\nCould you please enable the toggle of \"Force Import All\" for the below store as done for fronteriors-us.myshopify.com\nStore URL: fronteriors-online.myshopify.com\nAccount UID: a40cfc85-cae2-4bd0-99d9-39b35221e3ff\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56300911270937,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T07:39:48Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56304757680153,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Force import all option is enabled.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Force import all option is enabled.<br>[Veena]<br></div>",
+      "plain_body": "Force import all option is enabled.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56304757680025,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T09:26:37Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56305448569369,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Neelima,\n\nThank you for your patience!\n\nWe have enabled the Force Import All option for fronteriors-online.myshopify.com.\n\nPlease do check and let me know if you need any further assistance.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Neelima,<br>&nbsp;<br>Thank you for your patience!<br>&nbsp;<br>We have enabled the Force Import All option for <a rel=\"noopener noreferrer\" href=\"http://fronteriors-online.myshopify.com/\">fronteriors-online.myshopify.com</a>.<br>&nbsp;<br>Please do check and let me know if you need any further assistance.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Neelima,\n&nbsp;\nThank you for your patience!\n&nbsp;\nWe have enabled the Force Import All option for fronteriors-online.myshopify.com.\n&nbsp;\nPlease do check and let me know if you need any further assistance.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56305448569241,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T09:50:45Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56308159833113,
+      "type": "Comment",
+      "author_id": 7983206745369,
+      "body": "Thanks so much!\n\n\n\n![Fronteriors Nov25.png](https://support.pluginhive.com/attachments/token/2Ht92YrdxGTKbRbn5hU63s1zt/?name=Fronteriors+Nov25.png)\n\n**NEELIMA SALA**\n\nDesigner & Project manager\n\nEurope & Middle East | USA\n\n@fronteriors",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\" style=\" font-size: 10pt; color: rgb(0, 0, 0);\">\nThanks so much!</div>\n<div dir=\"ltr\" style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"color: inherit; background-color: inherit;\">\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><br>\n</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><img src=\"https://support.pluginhive.com/attachments/token/2Ht92YrdxGTKbRbn5hU63s1zt/?name=Fronteriors+Nov25.png\" alt=\"Fronteriors Nov25.png\" width=\"490\" height=\"136\" style=\"width: 490px; height: 136px; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><br>\n</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\"><b>NEELIMA SALA</b></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: rgb(0, 0, 0);\">Designer &amp; Project manager&nbsp;</span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">Europe\n &amp; Middle East</a></u>&nbsp;| <u><a href=\"https://us.fronteriors.co/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">USA</a></u></span></p>\n<p style=\"text-align: left; text-indent: 0px; margin: 0cm;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10.5pt; color: black;\"><u><a href=\"https://www.instagram.com/fronteriors/\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\">@fronteriors</a></u></span></p>\n<div dir=\"ltr\" style=\" font-size: 11pt; color: black; margin: 0in 0in 0.0001pt;\">\n<br>\n</div>\n</div></div>",
+      "plain_body": "Thanks so much! \n \n\n\n \n \n \n\n \n  \n \n\n \n NEELIMA SALA \n Designer &amp; Project manager&nbsp; \n Europe\n &amp; Middle East&nbsp;| USA \n @fronteriors",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56308159832985,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "neelima@fronteriors.co",
+            "name": "Neelima Sala",
+            "original_recipients": [
+              "neelima@fronteriors.co",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T11:31:52Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DB9PR08MB673186CD3C2AD52D2A72958ACE48A@DB9PR08MB6731.eurprd08.prod.outlook.com>",
+          "email_id": "01KMFSTW6A0ZRKR5TPS9KWH0WN",
+          "raw_email_identifier": "2369120/d5a3ef2a-2363-4512-a9e6-abf971ddb906.eml",
+          "json_email_identifier": "2369120/d5a3ef2a-2363-4512-a9e6-abf971ddb906.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56308222101017,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Moving back to dev needed",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving back to dev needed<br></div>",
+      "plain_body": "Moving back to dev needed",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56308222100889,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T11:33:25Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}
