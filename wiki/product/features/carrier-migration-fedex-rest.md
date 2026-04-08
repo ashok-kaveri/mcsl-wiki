@@ -14,7 +14,7 @@ git_reference: b367ffe7e91f3fe5ccc496676bbfee860ed8c003
 
 FedEx is deprecating their SOAP/XML API in favor of REST/JSON. Customers who have migrated (or are being forced to migrate) their FedEx credentials to REST are experiencing broken rate fetching, label generation failures, and missing features (e.g., document upload).
 
-- **Evidence**: [#382425](../../../raw/zendesk/382425.json) (rates broken post-migration), [#379042](../../../raw/zendesk/379042.json) (migration deadline approaching), [#382188](../../../raw/zendesk/382188.json) (document upload missing in REST), [#379098](../../../raw/zendesk/379098.json) (migration help needed)
+- **Evidence**: [#382425](../../../raw/zendesk/shopify/382425.json) (rates broken post-migration), [#379042](../../../raw/zendesk/shopify/379042.json) (migration deadline approaching), [#382188](../../../raw/zendesk/shopify/382188.json) (document upload missing in REST), [#379098](../../../raw/zendesk/shopify/379098.json) (migration help needed)
 - **Affected users**: 4 customers reporting directly; likely affects all FedEx users as migration deadline approaches
 - **Impact**: Revenue-critical — FedEx is one of the most used carriers. Broken FedEx = customers cannot ship.
 - **Urgency**: External deadline from FedEx. Customers receiving migration notices.
@@ -61,7 +61,7 @@ FedEx is deprecating their SOAP/XML API in favor of REST/JSON. Customers who hav
 | Wiki Module | [Rate Shopping](../../modules/shipping/rate-shopping.md) | FedEx rate fetching |
 | Wiki Module | [Carrier System Overview](../../modules/shipping/carrier-system-overview.md) | ShipmentAdaptor pattern |
 | Test Coverage | [Features](../../features.md) | FedEx automation status |
-| Zendesk | [#382425](../../../raw/zendesk/382425.json), [#379042](../../../raw/zendesk/379042.json), [#382188](../../../raw/zendesk/382188.json), [#379098](../../../raw/zendesk/379098.json) | Customer reports |
+| Zendesk | [#382425](../../../raw/zendesk/shopify/382425.json), [#379042](../../../raw/zendesk/shopify/379042.json), [#382188](../../../raw/zendesk/shopify/382188.json), [#379098](../../../raw/zendesk/shopify/379098.json) | Customer reports |
 | Carrier Guide | [Adding New Carrier](../../adding-new-carrier-customer-journey.md) | Integration pattern reference |
 | Backlog | [Item #1](../backlog.md) | Prioritization |
 

@@ -22,17 +22,17 @@ Aggregated signals from Zendesk tickets, test coverage gaps, and code complexity
 
 | Theme | Ticket Count | Example Tickets | Affected Feature Area | Severity | Trend |
 |-------|-------------|-----------------|----------------------|----------|-------|
-| Onboarding / Installation issues | 9 | [#382393](../../raw/zendesk/382393.json), [#382935](../../raw/zendesk/382935.json), [#381283](../../raw/zendesk/381283.json), [#382795](../../raw/zendesk/382795.json), [#378511](../../raw/zendesk/378511.json) | [Platform Connectors](../modules/stores/platform-connectors.md) | High | -> (steady) |
-| Carrier configuration & setup | 8 | [#381931](../../raw/zendesk/381931.json), [#383002](../../raw/zendesk/383002.json), [#377526](../../raw/zendesk/377526.json), [#381087](../../raw/zendesk/381087.json) | [Carrier Configuration](../modules/shipping/carrier-configuration.md) | High | -> |
-| Label generation failures | 6 | [#381380](../../raw/zendesk/381380.json), [#377217](../../raw/zendesk/377217.json), [#370966](../../raw/zendesk/370966.json), [#374851](../../raw/zendesk/374851.json) | [Label Generation](../modules/shipping/label-generation.md) | High | -> |
-| FedEx REST API migration | 4 | [#382425](../../raw/zendesk/382425.json), [#379042](../../raw/zendesk/379042.json), [#382188](../../raw/zendesk/382188.json), [#379098](../../raw/zendesk/379098.json) | [Carrier Configuration](../modules/shipping/carrier-configuration.md) | Critical | up |
-| Order data / line item issues | 3 | [#382987](../../raw/zendesk/382987.json), [#379214](../../raw/zendesk/379214.json), [#372492](../../raw/zendesk/372492.json) | [Order Lifecycle](../modules/orders/order-lifecycle.md) | Medium | -> |
-| International / Dangerous goods | 2 | [#382694](../../raw/zendesk/382694.json), [#378176](../../raw/zendesk/378176.json) | [Label Generation](../modules/shipping/label-generation.md) | Medium | -> |
-| Rate shopping problems | 2 | [#379963](../../raw/zendesk/379963.json), [#348049](../../raw/zendesk/348049.json) | [Rate Shopping](../modules/shipping/rate-shopping.md) | Medium | -> |
-| Australia Post API changes | 2 | [#382780](../../raw/zendesk/382780.json), [#383002](../../raw/zendesk/383002.json) | [Carrier Configuration](../modules/shipping/carrier-configuration.md) | High | up (new) |
-| Tracking sync to Shopify | 1 | [#377574](../../raw/zendesk/377574.json) | [Shipment Tracking](../modules/shipping/shipment-tracking.md) | Low | -> |
-| Feature requests | 1 | [#304193](../../raw/zendesk/304193.json) | - | Low | -> |
-| Uncategorized / multi-issue | 14 | [#378513](../../raw/zendesk/378513.json), [#382009](../../raw/zendesk/382009.json), [#380784](../../raw/zendesk/380784.json) + 11 more | Various | Varies | -> |
+| Onboarding / Installation issues | 9 | [#382393](../../raw/zendesk/shopify/382393.json), [#382935](../../raw/zendesk/shopify/382935.json), [#381283](../../raw/zendesk/shopify/381283.json), [#382795](../../raw/zendesk/shopify/382795.json), [#378511](../../raw/zendesk/shopify/378511.json) | [Platform Connectors](../modules/stores/platform-connectors.md) | High | -> (steady) |
+| Carrier configuration & setup | 8 | [#381931](../../raw/zendesk/shopify/381931.json), [#383002](../../raw/zendesk/shopify/383002.json), [#377526](../../raw/zendesk/shopify/377526.json), [#381087](../../raw/zendesk/shopify/381087.json) | [Carrier Configuration](../modules/shipping/carrier-configuration.md) | High | -> |
+| Label generation failures | 6 | [#381380](../../raw/zendesk/shopify/381380.json), [#377217](../../raw/zendesk/shopify/377217.json), [#370966](../../raw/zendesk/shopify/370966.json), [#374851](../../raw/zendesk/shopify/374851.json) | [Label Generation](../modules/shipping/label-generation.md) | High | -> |
+| FedEx REST API migration | 4 | [#382425](../../raw/zendesk/shopify/382425.json), [#379042](../../raw/zendesk/shopify/379042.json), [#382188](../../raw/zendesk/shopify/382188.json), [#379098](../../raw/zendesk/shopify/379098.json) | [Carrier Configuration](../modules/shipping/carrier-configuration.md) | Critical | up |
+| Order data / line item issues | 3 | [#382987](../../raw/zendesk/shopify/382987.json), [#379214](../../raw/zendesk/shopify/379214.json), [#372492](../../raw/zendesk/shopify/372492.json) | [Order Lifecycle](../modules/orders/order-lifecycle.md) | Medium | -> |
+| International / Dangerous goods | 2 | [#382694](../../raw/zendesk/shopify/382694.json), [#378176](../../raw/zendesk/shopify/378176.json) | [Label Generation](../modules/shipping/label-generation.md) | Medium | -> |
+| Rate shopping problems | 2 | [#379963](../../raw/zendesk/shopify/379963.json), [#348049](../../raw/zendesk/shopify/348049.json) | [Rate Shopping](../modules/shipping/rate-shopping.md) | Medium | -> |
+| Australia Post API changes | 2 | [#382780](../../raw/zendesk/shopify/382780.json), [#383002](../../raw/zendesk/shopify/383002.json) | [Carrier Configuration](../modules/shipping/carrier-configuration.md) | High | up (new) |
+| Tracking sync to Shopify | 1 | [#377574](../../raw/zendesk/shopify/377574.json) | [Shipment Tracking](../modules/shipping/shipment-tracking.md) | Low | -> |
+| Feature requests | 1 | [#304193](../../raw/zendesk/shopify/304193.json) | - | Low | -> |
+| Uncategorized / multi-issue | 14 | [#378513](../../raw/zendesk/shopify/378513.json), [#382009](../../raw/zendesk/shopify/382009.json), [#380784](../../raw/zendesk/shopify/380784.json) + 11 more | Various | Varies | -> |
 
 ### Tag Distribution (operational signals)
 
@@ -93,7 +93,7 @@ Files with high complexity that intersect with open tickets.
 Signals too early to categorize but worth watching.
 
 - **Australia Post API deprecation** — 2 tickets in 2 days (Apr 7-8). May escalate like FedEx migration if widespread.
-- **PostNord service changes** — [#373200](../../raw/zendesk/373200.json) reports discontinued services. Could affect Nordic customers.
+- **PostNord service changes** — [#373200](../../raw/zendesk/shopify/373200.json) reports discontinued services. Could affect Nordic customers.
 - **Email notification failures** — 6 tickets tagged `system_email_notification_failure`. May indicate a systemic infrastructure issue, not a feature bug.
 
 ---

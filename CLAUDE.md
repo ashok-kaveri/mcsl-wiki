@@ -82,9 +82,11 @@ mcsl-wiki/
 │   ├── sources.yaml                   # Source registry — single source of truth
 │   ├── storepep-react/                # git submodule → main codebase
 │   ├── mcsl-test-automation/          # git submodule → Playwright E2E tests
-│   ├── zendesk/                       # webhook-populated JSON (one file per ticket)
-│   │   ├── <ticketId>.json
-│   │   └── ...
+│   ├── zendesk/                       # Zendesk tickets, categorized by product
+│   │   ├── shopify/                   # Shopify MCSL tickets (status<pending, agent)
+│   │   │   ├── <ticketId>.json
+│   │   │   └── ...
+│   │   └── <future-product>/          # Extensible — add new products here
 │   ├── sheets/                        # Google Sheets exported as CSV
 │   │   └── regression-scenarios.csv
 │   └── <future-source>/               # Extensible — add new sources here
@@ -579,7 +581,7 @@ All product pages use **git-based delta detection**. Each page records `git_refe
 2. **Diff raw/ against that commit**:
    ```bash
    # New/changed Zendesk tickets since last sync
-   git diff <git_reference>..HEAD --name-only -- raw/zendesk/
+   git diff <git_reference>..HEAD --name-only -- raw/zendesk/shopify/
    
    # Changed regression sheet
    git diff <git_reference>..HEAD --name-only -- raw/sheets/
