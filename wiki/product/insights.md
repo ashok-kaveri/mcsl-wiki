@@ -4,7 +4,7 @@ category: product
 sources: [zendesk, regression-scenarios, storepep-react, mcsl-test-automation]
 status: partial
 last_updated: 2026-04-08
-git_reference: b367ffe7e91f3fe5ccc496676bbfee860ed8c003
+git_reference: 635bf855126e7e91768e410f0432f56fd3216491
 ---
 
 # Product Insights
@@ -17,22 +17,24 @@ Aggregated signals from Zendesk tickets, test coverage gaps, and code complexity
 
 ### Shopify Multi Carrier Shipping Label App
 
-**Source**: 52 open tickets (status < pending, support_type = agent)
-**Last synced**: 2026-04-08
+**Source**: 54 tickets on disk (status < pending, support_type = agent) in `raw/zendesk/shopify/`
+**Last synced**: 2026-04-08 (git_reference: 635bf85, processed via `git diff b367ffe..HEAD -- raw/zendesk/shopify/`)
 
-| Theme | Ticket Count | Example Tickets | Affected Feature Area | Severity | Trend |
-|-------|-------------|-----------------|----------------------|----------|-------|
-| Onboarding / Installation issues | 9 | [#382393](../../raw/zendesk/shopify/382393.json), [#382935](../../raw/zendesk/shopify/382935.json), [#381283](../../raw/zendesk/shopify/381283.json), [#382795](../../raw/zendesk/shopify/382795.json), [#378511](../../raw/zendesk/shopify/378511.json) | [Platform Connectors](../modules/stores/platform-connectors.md) | High | -> (steady) |
-| Carrier configuration & setup | 8 | [#381931](../../raw/zendesk/shopify/381931.json), [#383002](../../raw/zendesk/shopify/383002.json), [#377526](../../raw/zendesk/shopify/377526.json), [#381087](../../raw/zendesk/shopify/381087.json) | [Carrier Configuration](../modules/shipping/carrier-configuration.md) | High | -> |
-| Label generation failures | 6 | [#381380](../../raw/zendesk/shopify/381380.json), [#377217](../../raw/zendesk/shopify/377217.json), [#370966](../../raw/zendesk/shopify/370966.json), [#374851](../../raw/zendesk/shopify/374851.json) | [Label Generation](../modules/shipping/label-generation.md) | High | -> |
-| FedEx REST API migration | 4 | [#382425](../../raw/zendesk/shopify/382425.json), [#379042](../../raw/zendesk/shopify/379042.json), [#382188](../../raw/zendesk/shopify/382188.json), [#379098](../../raw/zendesk/shopify/379098.json) | [Carrier Configuration](../modules/shipping/carrier-configuration.md) | Critical | up |
-| Order data / line item issues | 3 | [#382987](../../raw/zendesk/shopify/382987.json), [#379214](../../raw/zendesk/shopify/379214.json), [#372492](../../raw/zendesk/shopify/372492.json) | [Order Lifecycle](../modules/orders/order-lifecycle.md) | Medium | -> |
-| International / Dangerous goods | 2 | [#382694](../../raw/zendesk/shopify/382694.json), [#378176](../../raw/zendesk/shopify/378176.json) | [Label Generation](../modules/shipping/label-generation.md) | Medium | -> |
-| Rate shopping problems | 2 | [#379963](../../raw/zendesk/shopify/379963.json), [#348049](../../raw/zendesk/shopify/348049.json) | [Rate Shopping](../modules/shipping/rate-shopping.md) | Medium | -> |
+| Theme | Ticket Count | Key Tickets | Affected Feature Area | Severity | Trend |
+|-------|-------------|-------------|----------------------|----------|-------|
+| Onboarding / Installation | 10 | [#382935](../../raw/zendesk/shopify/382935.json), [#382795](../../raw/zendesk/shopify/382795.json), [#382393](../../raw/zendesk/shopify/382393.json), [#382999](../../raw/zendesk/shopify/382999.json), [#381283](../../raw/zendesk/shopify/381283.json) + 5 more | [Platform Connectors](../modules/stores/platform-connectors.md) | High | -> |
+| Carrier configuration & setup | 7 | [#381931](../../raw/zendesk/shopify/381931.json), [#379784](../../raw/zendesk/shopify/379784.json), [#377526](../../raw/zendesk/shopify/377526.json), [#376856](../../raw/zendesk/shopify/376856.json), [#373200](../../raw/zendesk/shopify/373200.json) + 2 more | [Carrier Configuration](../modules/shipping/carrier-configuration.md) | High | -> |
+| Label generation failures | 6 | [#381380](../../raw/zendesk/shopify/381380.json), [#372492](../../raw/zendesk/shopify/372492.json), [#370966](../../raw/zendesk/shopify/370966.json), [#374851](../../raw/zendesk/shopify/374851.json), [#373991](../../raw/zendesk/shopify/373991.json), [#338603](../../raw/zendesk/shopify/338603.json) | [Label Generation](../modules/shipping/label-generation.md) | High | -> |
+| FedEx REST API migration | 5 | [#382982](../../raw/zendesk/shopify/382982.json), [#382425](../../raw/zendesk/shopify/382425.json), [#382188](../../raw/zendesk/shopify/382188.json), [#379042](../../raw/zendesk/shopify/379042.json), [#379098](../../raw/zendesk/shopify/379098.json) | [Carrier Configuration](../modules/shipping/carrier-configuration.md) | Critical | up |
+| International / Dangerous goods | 3 | [#382694](../../raw/zendesk/shopify/382694.json), [#378176](../../raw/zendesk/shopify/378176.json), [#366630](../../raw/zendesk/shopify/366630.json) | [Label Generation](../modules/shipping/label-generation.md) | Medium | -> |
+| Order data / validation | 2 | [#382987](../../raw/zendesk/shopify/382987.json), [#379214](../../raw/zendesk/shopify/379214.json) | [Order Lifecycle](../modules/orders/order-lifecycle.md) | Medium | -> |
+| Rate shopping problems | 2 | [#379963](../../raw/zendesk/shopify/379963.json), [#374022](../../raw/zendesk/shopify/374022.json) | [Rate Shopping](../modules/shipping/rate-shopping.md) | Medium | -> |
 | Australia Post API changes | 2 | [#382780](../../raw/zendesk/shopify/382780.json), [#383002](../../raw/zendesk/shopify/383002.json) | [Carrier Configuration](../modules/shipping/carrier-configuration.md) | High | up (new) |
+| Feature requests | 3 | [#348049](../../raw/zendesk/shopify/348049.json), [#354696](../../raw/zendesk/shopify/354696.json), [#304193](../../raw/zendesk/shopify/304193.json) | Various | Low | -> |
+| Return label failures | 1 | [#377217](../../raw/zendesk/shopify/377217.json) | [Label Generation](../modules/shipping/label-generation.md) | Medium | -> |
 | Tracking sync to Shopify | 1 | [#377574](../../raw/zendesk/shopify/377574.json) | [Shipment Tracking](../modules/shipping/shipment-tracking.md) | Low | -> |
-| Feature requests | 1 | [#304193](../../raw/zendesk/shopify/304193.json) | - | Low | -> |
-| Uncategorized / multi-issue | 14 | [#378513](../../raw/zendesk/shopify/378513.json), [#382009](../../raw/zendesk/shopify/382009.json), [#380784](../../raw/zendesk/shopify/380784.json) + 11 more | Various | Varies | -> |
+| Product import | 1 | [#218195](../../raw/zendesk/shopify/218195.json) | [Product Management](../modules/products/product-management.md) | Low | -> (stale 2023) |
+| Uncategorised / needs triage | 11 | [#382009](../../raw/zendesk/shopify/382009.json), [#381261](../../raw/zendesk/shopify/381261.json), [#381087](../../raw/zendesk/shopify/381087.json), [#378513](../../raw/zendesk/shopify/378513.json) + 7 more | Various | Varies | -> |
 
 ### Tag Distribution (operational signals)
 

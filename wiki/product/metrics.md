@@ -4,7 +4,7 @@ category: product
 sources: [zendesk, regression-scenarios, mcsl-test-automation]
 status: partial
 last_updated: 2026-04-08
-git_reference: b367ffe7e91f3fe5ccc496676bbfee860ed8c003
+git_reference: 635bf855126e7e91768e410f0432f56fd3216491
 ---
 
 # Customer Metrics
@@ -12,8 +12,8 @@ git_reference: b367ffe7e91f3fe5ccc496676bbfee860ed8c003
 Per-feature health metrics for **Shopify Multi Carrier Shipping Label App**.
 
 **Data source**: Zendesk API (status < pending, support_type = agent, product = shopify_multi_carrier_shipping_label_app)
-**Total open tickets**: 52
-**Last synced**: 2026-04-08
+**Total open tickets**: 54
+**Last synced**: 2026-04-08 (git_reference: 635bf85, all tickets read from raw/zendesk/shopify/)
 
 ---
 
@@ -21,17 +21,19 @@ Per-feature health metrics for **Shopify Multi Carrier Shipping Label App**.
 
 | Feature Area | Tickets | Trend | Top Issue | Automation | Regression Coverage | Health |
 |-------------|---------|-------|-----------|-----------|-------------------|--------|
-| Onboarding | 9 | -> | Installation / setup confusion | ~40% | TBD | 🔴 At Risk |
-| Carrier Configuration | 8 | -> | Multi-carrier setup complexity | 7% | TBD | 🔴 At Risk |
-| Label Generation | 6 | -> | Label creation failures, return labels | 100% | 85% | 🟡 Watch |
-| Carrier Migration (FedEx) | 4 | up | FedEx SOAP->REST migration | 0% | 0% | 🔴 At Risk |
-| Order Management | 3 | -> | Missing line items, validation errors | 58% | TBD | 🟡 Watch |
+| Onboarding | 10 | -> | Installation / setup confusion | ~40% | TBD | 🔴 At Risk |
+| Carrier Configuration | 7 | -> | Multi-carrier setup complexity | 7% | TBD | 🔴 At Risk |
+| Label Generation | 6 | -> | Label creation failures, manifest | 100% | 85% | 🟡 Watch |
+| FedEx REST Migration | 5 | up | FedEx SOAP→REST migration | 0% | 0% | 🔴 At Risk |
+| International / DG | 3 | -> | Country of manufacture, DG API gaps, commercial invoices | ~80% | TBD | 🟡 Watch |
+| Order Management | 2 | -> | Validation errors, missing line items | 58% | TBD | 🟡 Watch |
 | Australia Post API | 2 | up | Security API update | 0% | 0% | 🔴 At Risk |
-| International / DG | 2 | -> | Country of manufacture, DG API gaps | ~80% | TBD | 🟡 Watch |
 | Rate Shopping | 2 | -> | Rate fetch failures, rate rules | 0% | 40% | 🔴 At Risk |
+| Feature Requests | 3 | -> | Manifest, export, roadmap asks | - | - | - |
+| Returns | 1 | -> | Return label creation failing | 100% | TBD | 🟡 Watch |
 | Tracking | 1 | -> | Shopify status sync | 7% | TBD | 🟡 Watch |
-| Feature Requests | 1 | -> | Various | - | - | - |
-| Other / Multi-issue | 14 | -> | Mixed (see insights) | - | - | - |
+| Product Import | 1 | -> | Excel product import (stale 2023) | 0% | TBD | 🟡 Watch |
+| Needs Triage | 11 | -> | Mixed / ambiguous subjects | - | - | - |
 
 **Health criteria**:
 - 🟢 Healthy: < 2 tickets AND automation > 70%
