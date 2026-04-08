@@ -1,5 +1,18 @@
 # StorePep KB Activity Log
 
+## [2026-04-08 22:00] product-management | Product Management Layer Bootstrap
+
+- Created: `product/backlog.md` - Scored backlog with 10 items from 52 Zendesk tickets
+- Created: `product/insights.md` - Signal aggregation: 11 Zendesk themes, 7 test coverage gaps, 5 code hotspots, 3 emerging patterns
+- Created: `product/metrics.md` - Customer health scorecard with pain index per feature area
+- Created: `product/features/carrier-migration-fedex-rest.md` - Feature story with 3 user stories, acceptance criteria, cross-links
+- Created: `product/decisions/2026-04-08-product-management-layer.md` - Decision record for PM layer approach
+- Updated: `CLAUDE.md` - Added Product Management section with delta-aware resync workflows, templates, ticket categorization, cross-linking rules
+- Updated: `index.md` - Added Product Management section
+- Updated: `log.md`
+- Git reference: b367ffe7e91f3fe5ccc496676bbfee860ed8c003
+- Summary: Established source-driven product management layer (wiki/product/) synthesizing 52 open Shopify MCSL Zendesk tickets into actionable insights. **Zendesk Analysis**: Queried live API for tickets matching status<pending + support_type=agent + product=shopify_multi_carrier_shipping_label_app. Categorized into 11 feature areas: onboarding (9), carrier-config (8), label-generation (6), carrier-migration (4), order-management (3), australia-post (2), international (2), rate-shopping (2), tracking (1), feature-requests (1), other (14). **Key Signals**: 65% need dev work (dev_needed tag), FedEx migration is highest pain index (1700), 35% have high agent replies. **Delta-Aware Design**: All product pages use git_reference in frontmatter for delta detection on resync — git diff against raw/ finds new tickets, changed tests, updated sheets. Only delta is processed. **Ticket Categorization**: By product (shopify) and feature area, stored under wiki/product/. **Backlog Scoring**: Impact x Confidence / Effort framework with 10 initial items. **Pain Index**: Composite metric crossing ticket volume x severity with automation confidence — surfaces Carrier Migration, Rate Shopping, Australia Post as top priorities.
+
 ## [2026-04-08 20:45] guide | Added Associated Features Section to Carrier Journey Guide
 - Updated: `adding-new-carrier-customer-journey.md`
 - Updated: `log.md`

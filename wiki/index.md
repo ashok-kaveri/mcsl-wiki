@@ -60,6 +60,14 @@ Last updated: 2026-04-08
 ### Warehouses
 - [Warehouse Selection](modules/warehouses/warehouse-selection.md) - WMS with strategy-based warehouse selection and Odoo integration
 
+## Product Management
+
+- [Product Backlog](product/backlog.md) - Scored, prioritized work items with impact/effort/confidence framework
+- [Product Insights](product/insights.md) - Aggregated signals from Zendesk themes, test gaps, code hotspots
+- [Customer Metrics](product/metrics.md) - Per-feature health scorecard with pain index (52 Shopify MCSL tickets)
+- [FedEx REST Migration](product/features/carrier-migration-fedex-rest.md) - Feature story: FedEx SOAP->REST migration (Pain Index: 1700, 4 tickets)
+- [Decision: PM Layer](product/decisions/2026-04-08-product-management-layer.md) - Why and how the product management layer was established
+
 ## Features & Testing
 
 - [Features](features.md) - Complete list of 95 user-facing features with test coverage status organized by regression test matrix
@@ -85,7 +93,7 @@ Last updated: 2026-04-08
 
 ---
 
-**Total pages**: 45
+**Total pages**: 50
 **Last ingestion**: 2026-04-08 (Shipment Tracking + Test Coverage)
-**Status**: Architecture + Orders + Shipping (with Tracking) + Automation + Stores + Products + Warehouses documented
+**Status**: Architecture + Orders + Shipping (with Tracking) + Automation + Stores + Products + Warehouses + Product Management documented
 **Test Coverage**: 58 automated Playwright tests covering 95 features
