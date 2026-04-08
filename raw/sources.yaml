@@ -7,13 +7,13 @@ sources:
     type: git-submodule
     path: raw/storepep-react
     description: "Main StorePep SaaS codebase (React frontend + Node backend)"
-    # repo: <add git URL when submodule is configured>
+    repo: git@bitbucket.org:xadapter-cyd/storepep-react.git
 
   mcsl-test-automation:
     type: git-submodule
     path: raw/mcsl-test-automation
     description: "Playwright E2E test suite"
-    # repo: <add git URL when submodule is configured>
+    repo: git@bitbucket.org:xadapter-cyd/mcsl-test-automation.git
 
   zendesk:
     type: webhook-json
