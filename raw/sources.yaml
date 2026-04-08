@@ -24,7 +24,7 @@ sources:
 
   regression-scenarios:
     type: google-sheet
-    path: raw/sheets/regression-scenarios.csv
+    path: raw/sheets/regression-scenarios.xlsx
     url: "https://docs.google.com/spreadsheets/d/1oVtOaM2PesVR_TkuVaBKpbp_qQdmq4FQnN43Xew0FuY"
     sync: manual
     description: "Master regression test plan with manual + automated test mapping"
