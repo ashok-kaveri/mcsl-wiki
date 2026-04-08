@@ -49,6 +49,10 @@ if $in_google_sheet && [ -n "$sheet_url" ] && [ -n "$sheet_path" ]; then
   curl -sL "$export_url" -o "$sheet_path"
 fi
 
+# --- Zendesk tickets ---
+echo "==> Syncing Zendesk tickets..."
+bash scripts/sync-zendesk.sh
+
 # --- Commit if anything changed ---
 changed=$(git diff --name-only)
 untracked=$(git ls-files --others --exclude-standard raw/)
