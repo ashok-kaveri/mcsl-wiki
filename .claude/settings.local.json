@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/sheeka/projects/external/storepep/storepep-react log --oneline -1)",
+      "Bash(wc:*)",
+      "Bash(find:*)"
+    ]
+  }
+}
