@@ -101,10 +101,12 @@ broken_count=0
 for file in "${wiki_files[@]}"; do
   dir=$(dirname "$file")
 
-  # Extract all markdown links with line numbers using grep
-  grep -n '\[.*\](.*' "$file" 2>/dev/null | while IFS= read -r match; do
-    lineno="${match%%:*}"
-    line="${match#*:}"
+  # Strip code fences from file before scanning, then grep with line numbers
+  # We process the file tracking fence state to exclude code blocks
+  awk 'BEGIN{fence=0} /^```/{fence=!fence; print NR": "; next} !fence{print NR": "$0}' "$file" | \
+  grep -E '[0-9]+: .*\[.*\]\(.*' 2>/dev/null | while IFS= read -r match; do
+    lineno="${match%%: *}"
+    line="${match#*: }"
 
     # Extract link targets using sed — get all (path) from [text](path)
     echo "$line" | grep -oE '\[[^]]*\]\([^)]+\)' | sed 's/.*](//' | sed 's/)$//' | while IFS= read -r link; do

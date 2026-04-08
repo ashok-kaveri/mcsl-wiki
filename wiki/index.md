@@ -1,3 +1,11 @@
+---
+title: StorePep KB Index
+category: index
+status: complete
+last_updated: 2026-04-08
+git_reference: current
+---
+
 # StorePep KB Index
 
 Last updated: 2026-04-08
@@ -8,6 +16,9 @@ Last updated: 2026-04-08
 - [Frontend Architecture](architecture/frontend-architecture.md) - React, Redux, Material-UI setup and patterns
 - [Backend Architecture](architecture/backend-architecture.md) - Express, MongoDB, service layer architecture
 - [Technology Stack](architecture/technology-stack.md) - Complete dependency listing and version information
+- [Data Flow](architecture/data-flow.md) - How data moves through the system (stub)
+- [Authentication Flow](architecture/authentication-flow.md) - Login, sessions, and ACL (stub)
+- [Deployment Pipeline](architecture/deployment-pipeline.md) - CI/CD and build process (stub)
 
 ## Modules
 
@@ -24,10 +35,19 @@ Last updated: 2026-04-08
 - [Label Generation](modules/shipping/label-generation.md) - Label creation, document generation, and customs handling
 - [Carrier Integrations](modules/shipping/carrier-integrations.md) - Complete list of 46 carrier configurations across all regions
 - [Shipment Tracking](modules/shipping/shipment-tracking.md) - Tracking system with 45+ carrier integrations, cron updates, Socket.io real-time notifications, and email alerts
+- [Carrier Integration](modules/shipping/carrier-integration.md) - Carrier adapter pattern and API communication (stub)
+- [Batch Processing](modules/shipping/batch-processing.md) - Bulk label generation and queue management (stub)
 
 ### Automation
 - [Automation Overview](modules/automation/automation-overview.md) - Rule-based business logic engine for automatic order configuration
 - [Automation Actions](modules/automation/automation-actions.md) - 24 action types for carrier, dimensions, addresses, and special services
+- [Automation Conditions](modules/automation/automation-conditions.md) - Condition types and evaluation logic
+
+### Workflows
+- [Automation Rules](modules/workflows/automation-rules.md) - Rule creation, conditions, and action execution (stub)
+
+### Integrations
+- [Store Platforms](modules/integrations/store-platforms.md) - Shopify, WooCommerce, Magento OAuth and sync (stub)
 
 ### Stores
 - [Store Integration Overview](modules/stores/store-integration-overview.md) - E-commerce platform connectors and webhook management
@@ -48,15 +68,24 @@ Last updated: 2026-04-08
 
 ## Patterns
 
-*No patterns documented yet. Cross-cutting concerns will be added as modules are ingested.*
+- [API Conventions](patterns/api-conventions.md) - REST URL structure, request/response formats (stub)
+- [Redux Patterns](patterns/redux-patterns.md) - Action/reducer conventions, 87 actions, 26 reducers (stub)
+- [Component Patterns](patterns/component-patterns.md) - React component conventions, Material-UI (stub)
+- [Error Handling](patterns/error-handling.md) - Server and client-side error patterns (stub)
+- [Service Layer](patterns/service-layer.md) - Backend service class structure (stub)
+- [Event Sourcing](patterns/event-sourcing.md) - Event-driven patterns, Socket.io updates (stub)
+- [Security](patterns/security.md) - ACL, input validation, credential storage (stub)
+- [Access Control](patterns/access-control.md) - Role-based permissions and feature gating (stub)
 
 ## Operations
 
-*No operations guides documented yet. Deployment, setup, and maintenance docs to be added.*
+- [Local Setup](operations/local-setup.md) - Development environment setup (stub)
+- [Database Migrations](operations/database-migrations.md) - Migration strategy, 106+ migrations (stub)
+- [Monitoring](operations/monitoring.md) - Logging, alerting, observability (stub)
 
 ---
 
-**Total pages**: 25
+**Total pages**: 45
 **Last ingestion**: 2026-04-08 (Shipment Tracking + Test Coverage)
 **Status**: Architecture + Orders + Shipping (with Tracking) + Automation + Stores + Products + Warehouses documented
 **Test Coverage**: 58 automated Playwright tests covering 95 features

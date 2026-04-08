@@ -1,3 +1,11 @@
+---
+title: Adding a New Carrier - Customer Journey & System Impact
+category: guide
+status: complete
+last_updated: 2026-04-08
+git_reference: current
+---
+
 # Adding a New Carrier - Customer Journey & System Impact
 
 **Purpose**: Complete guide for adding a new carrier to MCSL from customer perspective

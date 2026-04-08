@@ -1,3 +1,12 @@
+---
+title: StorePep Features & Test Coverage
+category: test-coverage
+status: complete
+last_updated: 2026-04-08
+git_reference: current
+sources: [storepep-react, mcsl-test-automation]
+---
+
 # StorePep Features & Test Coverage
 
 **Last Updated**: 2026-04-08
