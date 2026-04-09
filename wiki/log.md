@@ -1,5 +1,11 @@
 # StorePep KB Activity Log
 
+## [2026-04-09 09:00] dashboard | Weekly Product Dashboard — Week of Apr 7
+- Created: `product/dashboards/week-2026-04-07.md`
+- Updated: `index.md`
+- Git reference: 4f6714a0de70910399b45d628d3930f0404f6374
+- Summary: Weekly dashboard synthesising 54 open Shopify MCSL tickets. Sections: Pulse metrics, 3 carrier deadlines (FedEx now, PostNord May 1, Australia Post Jul 7), feature health scorecard, 17 features ranked by customer demand across 3 tiers, carrier breakdown (9 carriers), recommended P0–P3 actions, stale ticket risk list.
+
 ## [2026-04-08 22:00] product-management | Product Management Layer Bootstrap
 
 - Created: `product/backlog.md` - Scored backlog with 10 items from 52 Zendesk tickets

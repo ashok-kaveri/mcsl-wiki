@@ -65,8 +65,9 @@ Last updated: 2026-04-08
 - [Product Backlog](product/backlog.md) - Scored, prioritized work items with impact/effort/confidence framework
 - [Product Insights](product/insights.md) - Aggregated signals from Zendesk themes, test gaps, code hotspots
 - [Customer Metrics](product/metrics.md) - Per-feature health scorecard with pain index (52 Shopify MCSL tickets)
-- [FedEx REST Migration](product/features/carrier-migration-fedex-rest.md) - Feature story: FedEx SOAP->REST migration (Pain Index: 1700, 4 tickets)
+- [FedEx REST Migration](product/features/carrier-migration-fedex-rest.md) - Feature story: FedEx SOAP->REST migration (Pain Index: 1700, 5 tickets)
 - [Decision: PM Layer](product/decisions/2026-04-08-product-management-layer.md) - Why and how the product management layer was established
+- [Weekly Dashboard: Apr 7](product/dashboards/week-2026-04-07.md) - Week of Apr 7: 54 tickets, 3 carrier deadlines, 17 customer-ranked features
 
 ## Features & Testing
 
@@ -93,7 +94,7 @@ Last updated: 2026-04-08
 
 ---
 
-**Total pages**: 50
+**Total pages**: 51
 **Last ingestion**: 2026-04-08 (Shipment Tracking + Test Coverage)
 **Status**: Architecture + Orders + Shipping (with Tracking) + Automation + Stores + Products + Warehouses + Product Management documented
 **Test Coverage**: 58 automated Playwright tests covering 95 features
