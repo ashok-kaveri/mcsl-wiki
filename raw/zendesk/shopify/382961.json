@@ -1,0 +1,710 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/382961.json",
+    "id": 382961,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-04-08T05:03:27Z",
+    "updated_at": "2026-04-09T09:07:35Z",
+    "generated_timestamp": 1775725656,
+    "type": "question",
+    "subject": "Orders disappearing again. PLease could you check ...",
+    "raw_subject": "Orders disappearing again. PLease could you check ...",
+    "description": "Orders disappearing again. PLease could you check order #1880. This customer purchase an upsell product using One Click Upsell 'POST PURCHASE'. It seems whenever this happens, refreshing the order in your app makes it turn to 'Not to be shipped'. COuld you please fix this issue with your app.\n\nThank you\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+    "priority": "normal",
+    "status": "open",
+    "recipient": null,
+    "requester_id": 48382608823833,
+    "submitter_id": 48382608823833,
+    "assignee_id": 44512844768153,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "l3",
+      "last_reply_agent",
+      "other",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "g0tpg2-tk.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0403000334"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "9JG5VG-31VYL",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "g0tpg2-tk.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0403000334"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56763022884761,
+      "type": "Comment",
+      "author_id": 48382608823833,
+      "body": "Orders disappearing again. PLease could you check order #1880. This customer purchase an upsell product using One Click Upsell 'POST PURCHASE'. It seems whenever this happens, refreshing the order in your app makes it turn to 'Not to be shipped'. COuld you please fix this issue with your app.\n\nThank you\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Orders disappearing again. PLease could you check order <a href=\"/agent/tickets/1880\" target=\"_blank\" rel=\"ticket\">#1880</a>. This customer purchase an upsell product using One Click Upsell 'POST PURCHASE'. It seems whenever this happens, refreshing the order in your app makes it turn to 'Not to be shipped'. COuld you please fix this issue with your app.</p>\n\n<p dir=\"auto\">Thank you</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/status/allorders\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/status/allorders</a></p></div>",
+      "plain_body": "Orders disappearing again. PLease could you check order #1880. This customer purchase an upsell product using One Click Upsell 'POST PURCHASE'. It seems whenever this happens, refreshing the order in your app makes it turn to 'Not to be shipped'. COuld you please fix this issue with your app. \n\n Thank you \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56763022884505,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-04-08T05:03:06Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+          "ip_address": "180.216.99.236",
+          "location": "Pimpama, QLD, Australia",
+          "latitude": -27.8244,
+          "longitude": 153.3047
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56764344790681,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Helen,\n\nGreetings from PluginHive!\n\nThank you for reaching out. I would like to understand this better so we can investigate effectively. Could you please explain the order flow in the following cases:\n\n1. A normal order without using One Click Upsell\n2.\n\nAn order using One Click Upsell\n\n\n\nCould you also explain the order flow while using One Click Upsell, and the reason for using it?\n\n\n\nIf possible, please create two test orders—one for each scenario—and keep their status as Processing so we can check. You can also record a short video showing the flow, which would be very helpful.\n\nOnce we have these details, we will review and see what can be done to resolve this.\n\nThank you for your support and cooperation.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Helen,<br><br>Greetings from PluginHive!<br>&nbsp;<br>Thank you for reaching out. I would like to understand this better so we can investigate effectively. Could you please explain the order flow in the following cases:<br><ol dir=\"auto\"><li>A normal order without using One Click Upsell</li><li><p dir=\"auto\">An order using One Click Upsell</p><p dir=\"auto\">&nbsp;</p><p dir=\"auto\">Could you also explain the order flow while using One Click Upsell, and the reason for using it?</p><p dir=\"auto\">&nbsp;</p></li></ol>If possible, please create two test orders—one for each scenario—and keep their status as Processing so we can check. You can also record a short video showing the flow, which would be very helpful.<br>&nbsp;<br>Once we have these details, we will review and see what can be done to resolve this.<br>&nbsp;<br>Thank you for your support and cooperation.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Helen,\n\nGreetings from PluginHive!\n&nbsp;\nThank you for reaching out. I would like to understand this better so we can investigate effectively. Could you please explain the order flow in the following cases:\n  A normal order without using One Click Upsell   An order using One Click Upsell  &nbsp;  Could you also explain the order flow while using One Click Upsell, and the reason for using it?  &nbsp;   If possible, please create two test orders—one for each scenario—and keep their status as Processing so we can check. You can also record a short video showing the flow, which would be very helpful.\n&nbsp;\nOnce we have these details, we will review and see what can be done to resolve this.\n&nbsp;\nThank you for your support and cooperation.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56764344790553,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T05:41:17Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56764341983769,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "AU store\n$19 plan\nActive from : 2025-06-30\nAramex MyFastway and MPB added\nUsing the app for labels only 49 orders\nmultiple payments done\nCustomer states whenever This customer purchase an upsell product using One Click Upsell 'POST PURCHASE'., order goes to not to ship section in the app\nAs customer had raised this earlier as well\nRequested more information so we can take it forward with l3\nmoving on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">AU store&nbsp;<br>$19 plan&nbsp;<br>Active from : 2025-06-30<br>Aramex MyFastway and MPB added<br>Using the app for labels only 49 orders<br>multiple payments done&nbsp;<br>Customer states whenever This customer purchase an upsell product using One Click Upsell 'POST PURCHASE'., order goes to not to ship section in the app<br>As customer had raised this earlier as well<br>Requested more information so we can take it forward with l3<br>moving on hold<br></div>",
+      "plain_body": "AU store&nbsp;\n$19 plan&nbsp;\nActive from : 2025-06-30\nAramex MyFastway and MPB added\nUsing the app for labels only 49 orders\nmultiple payments done&nbsp;\nCustomer states whenever This customer purchase an upsell product using One Click Upsell 'POST PURCHASE'., order goes to not to ship section in the app\nAs customer had raised this earlier as well\nRequested more information so we can take it forward with l3\nmoving on hold",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56764341983257,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T05:41:32Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56767365035289,
+      "type": "Comment",
+      "author_id": 48412688101273,
+      "body": "Thank you so much for looking into this Priyanka. These are actually three processes:\n\n\n\n1. A new order without One Click Upsell - user adds product to cart. User does not accept the 'in cart' offer of an 'upsell' provided by OCU (One Click Upsell). User pays for order.\n\n2. A new order with user accepting an 'in cart' upsell - User adds product to cart. User goes to cart and adds the additional 'in cart' upsell offer of a discounted product. User goes through checkout and pays for order.\n\nThe tin in the pic below is an 'in cart offer'\n\n ![image.png](https://support.pluginhive.com/attachments/token/YsonfFpvgiPEzCJhWbQsdULHP/?name=image.png)\n\n\n\n3. A new order with user accepting a 'post-purchase' offer by OCU - User adds product to cart. User goes through checkout and pays for product. After product has been paid for OCU offers a 'post purchase' product (with high discount). User accept the post-purchase offer and pays additional amount\n\n\n\nI guess there is also process 4 where a user accepts both the in cart upsell and the post-purchase upsell.\n\n\n\nThe only issue in your app seems to be with the 'Post-purchase' upsell offer.\n\n\n\nI have created four new orders for you to test:\n#1882 -  A new order without One Click Upsell\n\n#1883 -  A new order with user accepting an 'in cart' upsell\n\n#1884 -  A new order with user accepting a 'post-purchase' offer by OCU\n\n#1885 -  A new order with user accepting both the 'in cart' offer and 'post-purchase' offer by OCU\n\n\n\nPlease advise\n\n\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcU9YoIW_O8ryTI9j9h4Q58m9c1pdivdSRZfGeNZkv1TfgpiQvG41yjdlA71tHy5xyz1czFfzm3I6vG1y0Pml2yWfAnbIHcIJ3eGxnjsg25X5_P43waXQnhRAuvxPNZFGRfLorTbw?key=ojiJMP-H17WdvQEniGCIS4CX)\n\nHELEN\n\nFounder\n\nhelen@brewlala.com.au\n\nwww.brewlala.com.au",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Thank you so much for looking into this Priyanka. These are actually three processes:</div><div><br></div><div>1. A new order without One Click Upsell - user adds product to cart. User does not accept the 'in cart' offer of an 'upsell' provided by OCU (One Click Upsell). User pays for order.</div><div>2. A new order with user accepting an 'in cart' upsell - User adds product to cart. User goes to cart and adds the additional 'in cart' upsell offer of a discounted product. User goes through checkout and pays for order.</div><div>The tin in the pic below is an 'in cart offer'</div><div><img src=\"https://support.pluginhive.com/attachments/token/YsonfFpvgiPEzCJhWbQsdULHP/?name=image.png\" alt=\"image.png\" width=\"397\" height=\"487\"></div><div><br></div><div>3. A new order with user accepting a 'post-purchase' offer by OCU - User adds product to cart. User goes through checkout and pays for product. After product has been paid for OCU offers a 'post purchase' product (with high discount). User accept the post-purchase offer and pays additional amount</div><div><br></div><div>I guess there is also process 4 where a user accepts both the in cart upsell and the post-purchase upsell.</div><div><br></div><div>The only issue in your app seems to be with the 'Post-purchase' upsell offer.</div><div><br></div><div>I have created four new orders for you to test:<br><a href=\"/agent/tickets/1882\" target=\"_blank\" rel=\"ticket\">#1882</a> -&nbsp;\n\nA new order without One Click Upsell \n\n</div><div><a href=\"/agent/tickets/1883\" target=\"_blank\" rel=\"ticket\">#1883</a> -&nbsp;\n\nA new order with user accepting an 'in cart' upsell\n\n</div><div><a href=\"/agent/tickets/1884\" target=\"_blank\" rel=\"ticket\">#1884</a> -&nbsp;\n\nA new order with user accepting a 'post-purchase' offer by OCU\n\n</div><div><a href=\"/agent/tickets/1885\" target=\"_blank\" rel=\"ticket\">#1885</a> -&nbsp;\n\nA new order with user accepting both the 'in cart' offer and 'post-purchase' offer by OCU\n\n</div><div><br></div><div>Please advise</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><table style=\"border-style: none;\"><tbody><tr style=\"height: 0pt;\"><td style=\"vertical-align: top; overflow: hidden; padding: 5pt; border: 1pt solid rgb(255,255,255);\" valign=\"top\"><p dir=\"auto\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\" font-size: 11pt; color: rgb(0,0,0); background-color: transparent; vertical-align: baseline;\"><span style=\"display: inline-block; overflow: hidden; width: 182px; height: 77px; border-style: none;\"><img src=\"https://lh7-rt.googleusercontent.com/docsz/AD_4nXcU9YoIW_O8ryTI9j9h4Q58m9c1pdivdSRZfGeNZkv1TfgpiQvG41yjdlA71tHy5xyz1czFfzm3I6vG1y0Pml2yWfAnbIHcIJ3eGxnjsg25X5_P43waXQnhRAuvxPNZFGRfLorTbw?key=ojiJMP-H17WdvQEniGCIS4CX\" width=\"182\" height=\"77\" style=\"margin-left: 0px; margin-top: 0px;\"></span></span></p></td><td style=\"vertical-align: top; overflow: hidden; padding: 5pt; border: 1pt solid rgb(255,255,255);\" valign=\"top\"><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\" font-size: 13pt; color: rgb(0,0,0); background-color: transparent; font-weight: 700; vertical-align: baseline;\">HELEN</span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\">Founder</p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><a href=\"mailto:helen@brewlala.com.au\" rel=\"noreferrer\"><span style=\" font-size: 11pt; color: rgb(60,120,216); background-color: transparent; vertical-align: baseline;\">helen@brewlala.com.au</span></a></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><a href=\"http://www.brewlala.com.au/\" rel=\"noreferrer\"><span style=\" font-size: 11pt; color: rgb(60,120,216); background-color: transparent; vertical-align: baseline;\">www.brewlala.com.au</span></a></p></td></tr></tbody></table></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Thank you so much for looking into this Priyanka. These are actually three processes:  \n  1. A new order without One Click Upsell - user adds product to cart. User does not accept the 'in cart' offer of an 'upsell' provided by OCU (One Click Upsell). User pays for order.  2. A new order with user accepting an 'in cart' upsell - User adds product to cart. User goes to cart and adds the additional 'in cart' upsell offer of a discounted product. User goes through checkout and pays for order.  The tin in the pic below is an 'in cart offer'    \n  3. A new order with user accepting a 'post-purchase' offer by OCU - User adds product to cart. User goes through checkout and pays for product. After product has been paid for OCU offers a 'post purchase' product (with high discount). User accept the post-purchase offer and pays additional amount  \n  I guess there is also process 4 where a user accepts both the in cart upsell and the post-purchase upsell.  \n  The only issue in your app seems to be with the 'Post-purchase' upsell offer.  \n  I have created four new orders for you to test:\n#1882 -&nbsp;\n\nA new order without One Click Upsell \n\n  #1883 -&nbsp;\n\nA new order with user accepting an 'in cart' upsell\n\n  #1884 -&nbsp;\n\nA new order with user accepting a 'post-purchase' offer by OCU\n\n  #1885 -&nbsp;\n\nA new order with user accepting both the 'in cart' offer and 'post-purchase' offer by OCU\n\n  \n  Please advise  \n       HELEN  Founder  helen@brewlala.com.au  www.brewlala.com.au",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56767365035161,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "hello@brewlala.com.au",
+            "name": "Helen",
+            "original_recipients": [
+              "admin@brewlala.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T07:03:35Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMDJt=+LC3qAEeCX_qgKHftSY2L6fxJXV0SiUEkS081qwS-=fw@mail.gmail.com>",
+          "email_id": "01KNNYEH090HVSA20PETTKQTTD",
+          "raw_email_identifier": "2369120/1b8e8d4d-8c90-4cd3-9fa4-282ae81f0a3c.eml",
+          "json_email_identifier": "2369120/1b8e8d4d-8c90-4cd3-9fa4-282ae81f0a3c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15,
+          2
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          },
+          "2": {
+            "trusted": false
+          }
+        },
+        "trusted": false,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56769886423193,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Helen,\n\nThank you for the detailed explanation.\n\nUpon checking, I can see that order 1884 has been imported into the app and is visible on the Orders page. Could you please confirm if it was marked as “Not to Ship” initially and then you moved it manually to the orders page, or if it was automatically moved to the orders page section?\n\nAlso, does this happen for all orders with the post-purchase upsell, or is it occurring randomly?\n\nPlease let us know so we can take this forward with our product team.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Helen,<br>&nbsp;<br>Thank you for the detailed explanation.<br>&nbsp;<br>Upon checking, I can see that order 1884 has been imported into the app and is visible on the Orders page. Could you please confirm if it was marked as “Not to Ship” initially and then you moved it manually to the orders page, or if it was automatically moved to the orders page section?<br>&nbsp;<br>Also, does this happen for all orders with the post-purchase upsell, or is it occurring randomly?<br>&nbsp;<br>Please let us know so we can take this forward with our product team.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Helen,\n&nbsp;\nThank you for the detailed explanation.\n&nbsp;\nUpon checking, I can see that order 1884 has been imported into the app and is visible on the Orders page. Could you please confirm if it was marked as “Not to Ship” initially and then you moved it manually to the orders page, or if it was automatically moved to the orders page section?\n&nbsp;\nAlso, does this happen for all orders with the post-purchase upsell, or is it occurring randomly?\n&nbsp;\nPlease let us know so we can take this forward with our product team.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56769886423065,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T08:11:37Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56770103344665,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "awaiting customer response, moving on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">awaiting customer response, moving on hold&nbsp;<br></div>",
+      "plain_body": "awaiting customer response, moving on hold&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56770108980505,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T08:17:07Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56786065304089,
+      "type": "Comment",
+      "author_id": 48412688101273,
+      "body": "Good morning Priyanka,\n\n\n\nThank you so much, I really appreciate your time on this.\n\n\n\nThe orders typically disappear when I do the orange refresh circle.\n\n ![image.png](https://support.pluginhive.com/attachments/token/RETLVaM4ibpyAQychrjr9ECmJ/?name=image.png)\n\n\n\nThanks\n\n\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcU9YoIW_O8ryTI9j9h4Q58m9c1pdivdSRZfGeNZkv1TfgpiQvG41yjdlA71tHy5xyz1czFfzm3I6vG1y0Pml2yWfAnbIHcIJ3eGxnjsg25X5_P43waXQnhRAuvxPNZFGRfLorTbw?key=ojiJMP-H17WdvQEniGCIS4CX)\n\nHELEN\n\nFounder\n\nhelen@brewlala.com.au\n\nwww.brewlala.com.au",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Good morning Priyanka,</div><div><br></div><div>Thank you so much, I really appreciate your time on this.</div><div><br></div><div>The orders typically disappear when I do the orange refresh circle.</div><div><img src=\"https://support.pluginhive.com/attachments/token/RETLVaM4ibpyAQychrjr9ECmJ/?name=image.png\" alt=\"image.png\" width=\"562\" height=\"363\"></div><div><br></div><div>Thanks<br></div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><table style=\"border-style: none;\"><tbody><tr style=\"height: 0pt;\"><td style=\"vertical-align: top; overflow: hidden; padding: 5pt; border: 1pt solid rgb(255,255,255);\" valign=\"top\"><p dir=\"auto\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\" font-size: 11pt; color: rgb(0,0,0); background-color: transparent; vertical-align: baseline;\"><span style=\"display: inline-block; overflow: hidden; width: 182px; height: 77px; border-style: none;\"><img src=\"https://lh7-rt.googleusercontent.com/docsz/AD_4nXcU9YoIW_O8ryTI9j9h4Q58m9c1pdivdSRZfGeNZkv1TfgpiQvG41yjdlA71tHy5xyz1czFfzm3I6vG1y0Pml2yWfAnbIHcIJ3eGxnjsg25X5_P43waXQnhRAuvxPNZFGRfLorTbw?key=ojiJMP-H17WdvQEniGCIS4CX\" width=\"182\" height=\"77\" style=\"margin-left: 0px; margin-top: 0px;\"></span></span></p></td><td style=\"vertical-align: top; overflow: hidden; padding: 5pt; border: 1pt solid rgb(255,255,255);\" valign=\"top\"><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\" font-size: 13pt; color: rgb(0,0,0); background-color: transparent; font-weight: 700; vertical-align: baseline;\">HELEN</span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\">Founder</p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><a href=\"mailto:helen@brewlala.com.au\" rel=\"noreferrer\"><span style=\" font-size: 11pt; color: rgb(60,120,216); background-color: transparent; vertical-align: baseline;\">helen@brewlala.com.au</span></a></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><a href=\"http://www.brewlala.com.au/\" rel=\"noreferrer\"><span style=\" font-size: 11pt; color: rgb(60,120,216); background-color: transparent; vertical-align: baseline;\">www.brewlala.com.au</span></a></p></td></tr></tbody></table></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Good morning Priyanka,  \n  Thank you so much, I really appreciate your time on this.  \n  The orders typically disappear when I do the orange refresh circle.    \n  Thanks\n  \n       HELEN  Founder  helen@brewlala.com.au  www.brewlala.com.au",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56786065303961,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "hello@brewlala.com.au",
+            "name": "Helen",
+            "original_recipients": [
+              "admin@brewlala.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T22:59:36Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMDJt=LNFzopMVkoE0m9cEsW1euvAf5CQ2D1uo5iJVvwreU2gw@mail.gmail.com>",
+          "email_id": "01KNQN518H2P9Q1VQTC3M3J8SP",
+          "raw_email_identifier": "2369120/8ea4ec29-5de6-420c-a019-ed45ffa8908e.eml",
+          "json_email_identifier": "2369120/8ea4ec29-5de6-420c-a019-ed45ffa8908e.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15,
+          2
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          },
+          "2": {
+            "trusted": false
+          }
+        },
+        "trusted": false,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56786254856345,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Have informed Priyanka to check",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Have informed Priyanka to check<br></div>",
+      "plain_body": "Have informed Priyanka to check",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56786248119193,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T23:07:48Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56794512062233,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Helen,\n\nThe orange refresh circle appears when any changes are made to an order in Shopify after it has been imported into the app.\n\nCould you please let me know what changes are being made after the order is placed by the customer? This will help us understand why the orders are disappearing and assist you better.\n\nLooking forward to your response.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Helen,<br>&nbsp;<br>The orange refresh circle appears when any changes are made to an order in Shopify after it has been imported into the app.<br>&nbsp;<br>Could you please let me know what changes are being made after the order is placed by the customer? This will help us understand why the orders are disappearing and assist you better.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Helen,\n&nbsp;\nThe orange refresh circle appears when any changes are made to an order in Shopify after it has been imported into the app.\n&nbsp;\nCould you please let me know what changes are being made after the order is placed by the customer? This will help us understand why the orders are disappearing and assist you better.\n&nbsp;\nLooking forward to your response.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56794512062105,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-09T03:20:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56794502961689,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Moving on hold awaiting customer response",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving on hold awaiting customer response<br></div>",
+      "plain_body": "Moving on hold awaiting customer response",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56794473312537,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-09T03:21:03Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56794555626009,
+      "type": "Comment",
+      "author_id": 48412688101273,
+      "body": "As per example 3 and 4 - orders #1884 and #1885 - the customer has placed the order and paid and is then accepting a post-purchase offer to purchase an additional product. They then pay again.\n\n\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcU9YoIW_O8ryTI9j9h4Q58m9c1pdivdSRZfGeNZkv1TfgpiQvG41yjdlA71tHy5xyz1czFfzm3I6vG1y0Pml2yWfAnbIHcIJ3eGxnjsg25X5_P43waXQnhRAuvxPNZFGRfLorTbw?key=ojiJMP-H17WdvQEniGCIS4CX)\n\nHELEN\n\nFounder\n\nhelen@brewlala.com.au\n\nwww.brewlala.com.au",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>As per example 3 and 4 - orders <a href=\"/agent/tickets/1884\" target=\"_blank\" rel=\"ticket\">#1884</a> and <a href=\"/agent/tickets/1885\" target=\"_blank\" rel=\"ticket\">#1885</a> - the customer has placed the order and paid and is then accepting a post-purchase offer to purchase an additional product. They then pay again.</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><table style=\"border-style: none;\"><tbody><tr style=\"height: 0pt;\"><td style=\"vertical-align: top; overflow: hidden; padding: 5pt; border: 1pt solid rgb(255,255,255);\" valign=\"top\"><p dir=\"auto\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\" font-size: 11pt; color: rgb(0,0,0); background-color: transparent; vertical-align: baseline;\"><span style=\"display: inline-block; overflow: hidden; width: 182px; height: 77px; border-style: none;\"><img src=\"https://lh7-rt.googleusercontent.com/docsz/AD_4nXcU9YoIW_O8ryTI9j9h4Q58m9c1pdivdSRZfGeNZkv1TfgpiQvG41yjdlA71tHy5xyz1czFfzm3I6vG1y0Pml2yWfAnbIHcIJ3eGxnjsg25X5_P43waXQnhRAuvxPNZFGRfLorTbw?key=ojiJMP-H17WdvQEniGCIS4CX\" width=\"182\" height=\"77\" style=\"margin-left: 0px; margin-top: 0px;\"></span></span></p></td><td style=\"vertical-align: top; overflow: hidden; padding: 5pt; border: 1pt solid rgb(255,255,255);\" valign=\"top\"><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\" font-size: 13pt; color: rgb(0,0,0); background-color: transparent; font-weight: 700; vertical-align: baseline;\">HELEN</span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\">Founder</p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><a href=\"mailto:helen@brewlala.com.au\" rel=\"noreferrer\"><span style=\" font-size: 11pt; color: rgb(60,120,216); background-color: transparent; vertical-align: baseline;\">helen@brewlala.com.au</span></a></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><a href=\"http://www.brewlala.com.au/\" rel=\"noreferrer\"><span style=\" font-size: 11pt; color: rgb(60,120,216); background-color: transparent; vertical-align: baseline;\">www.brewlala.com.au</span></a></p></td></tr></tbody></table></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "As per example 3 and 4 - orders #1884 and #1885 - the customer has placed the order and paid and is then accepting a post-purchase offer to purchase an additional product. They then pay again.  \n       HELEN  Founder  helen@brewlala.com.au  www.brewlala.com.au",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56794555625881,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "hello@brewlala.com.au",
+            "name": "Helen",
+            "original_recipients": [
+              "admin@brewlala.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-09T03:22:23Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMDJt=JO5+gtxHsU2NP9tO_ju8kqgNd2+VA-SqYSpNCXoJdjjQ@mail.gmail.com>",
+          "email_id": "01KNR468MT2ZV1GTDJPWQRR4QG",
+          "raw_email_identifier": "2369120/7b720f14-17d6-41bd-b041-1d2a6511e222.eml",
+          "json_email_identifier": "2369120/7b720f14-17d6-41bd-b041-1d2a6511e222.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15,
+          2
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          },
+          "2": {
+            "trusted": false
+          }
+        },
+        "trusted": false,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56797407568537,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Helen,\n\nThank you so much for sharing the details.\n\nPlease allow me some time to check this further and update you.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Helen,&nbsp;<br>&nbsp;<br>Thank you so much for sharing the details.&nbsp;<br>&nbsp;<br>Please allow me some time to check this further and update you.&nbsp;<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Helen,&nbsp;\n&nbsp;\nThank you so much for sharing the details.&nbsp;\n&nbsp;\nPlease allow me some time to check this further and update you.&nbsp;\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56797407568409,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-09T04:45:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56798045017369,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "L3: Orders disappearing / moving to “Not to Ship” when using One Click Upsell (OCU)\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1775710954257909\n\nMCSL customer from Australia using our app for rates and labels, and the website has One Click Upsell (OCU) installed. There are four scenarios observed:\n\n1. #1882 – New order without One Click Upsell\n  - User adds product to cart, does not accept any upsell.\n  - User completes checkout and pays.\n  -\n\nOrder imports into the app correctly.\n\n\n\n2. #1883 – New order with “in-cart” upsell\n  - User adds product to cart, accepts the discounted “in-cart” upsell, and completes checkout.\n  -\n\nOrder imports correctly.\n\n\n\n3. #1884 – New order with “post-purchase” upsell\n  - User adds product to cart, completes checkout, and then accepts a post-purchase upsell with additional payment.\n  - Order imports initially, but when a change is made to the order, the refresh icon appears.\n  -\n\nClicking the refresh moves the order to “Not to Ship” section.\n\n\n\n4. #1885 – New order with both “in-cart” and “post-purchase” upsells\n  -\n\nSimilar issue expected as scenario 3.\n\n\n\nOrders with post-purchase upsells are not behaving as expected when refreshed. Customer has shared sample orders for testing.\n\nPlease investigate why orders with post-purchase upsells are moved to “Not to Ship” upon refresh.\n\nOrders for testing :\n#1882, #1883, #1884, #1885\n\nStore details:\nStore url : g0tpg2-tk.myshopify.com\nAC ID: 6f1ba80e-3aa8-45e2-a633-1ae84b0ef29f\nActivr from : 2025-06-30\nPlan: $19",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: Orders disappearing / moving to “Not to Ship” when using One Click Upsell (OCU)<br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1775710954257909\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1775710954257909</a><br>&nbsp;<br>MCSL customer from Australia using our app for rates and labels, and the website has One Click Upsell (OCU) installed. There are four scenarios observed:<br><ol dir=\"auto\"><li><a href=\"/agent/tickets/1882\" target=\"_blank\" rel=\"ticket\">#1882</a> – New order without One Click Upsell<ul dir=\"auto\"><li>User adds product to cart, does not accept any upsell.</li><li>User completes checkout and pays.</li><li><p dir=\"auto\">Order imports into the app correctly.</p><p dir=\"auto\">&nbsp;</p></li></ul></li><li><a href=\"/agent/tickets/1883\" target=\"_blank\" rel=\"ticket\">#1883</a> – New order with “in-cart” upsell<ul dir=\"auto\"><li>User adds product to cart, accepts the discounted “in-cart” upsell, and completes checkout.</li><li><p dir=\"auto\">Order imports correctly.</p><p dir=\"auto\">&nbsp;</p></li></ul></li><li><a href=\"/agent/tickets/1884\" target=\"_blank\" rel=\"ticket\">#1884</a> – New order with “post-purchase” upsell<ul dir=\"auto\"><li>User adds product to cart, completes checkout, and then accepts a post-purchase upsell with additional payment.</li><li>Order imports initially, but when a change is made to the order, the refresh icon appears.</li><li><p dir=\"auto\">Clicking the refresh moves the order to “Not to Ship” section.</p><p dir=\"auto\">&nbsp;</p></li></ul></li><li><a href=\"/agent/tickets/1885\" target=\"_blank\" rel=\"ticket\">#1885</a> – New order with both “in-cart” and “post-purchase” upsells<ul dir=\"auto\"><li><p dir=\"auto\">Similar issue expected as scenario 3.</p><p dir=\"auto\">&nbsp;</p></li></ul></li></ol>Orders with post-purchase upsells are not behaving as expected when refreshed. Customer has shared sample orders for testing.<br><br>Please investigate why orders with post-purchase upsells are moved to “Not to Ship” upon refresh.<br>&nbsp;<br>Orders for testing :&nbsp;<br><a href=\"/agent/tickets/1882\" target=\"_blank\" rel=\"ticket\">#1882</a>, <a href=\"/agent/tickets/1883\" target=\"_blank\" rel=\"ticket\">#1883</a>, <a href=\"/agent/tickets/1884\" target=\"_blank\" rel=\"ticket\">#1884</a>, <a href=\"/agent/tickets/1885\" target=\"_blank\" rel=\"ticket\">#1885</a><br>&nbsp;<br>Store details:&nbsp;<br>Store url : <a rel=\"noopener noreferrer\" href=\"http://g0tpg2-tk.myshopify.com\">g0tpg2-tk.myshopify.com</a><br>AC ID: 6f1ba80e-3aa8-45e2-a633-1ae84b0ef29f<br>Activr from : 2025-06-30<br>Plan: $19&nbsp;<br>&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "L3: Orders disappearing / moving to “Not to Ship” when using One Click Upsell (OCU)\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1775710954257909\n&nbsp;\nMCSL customer from Australia using our app for rates and labels, and the website has One Click Upsell (OCU) installed. There are four scenarios observed:\n  #1882 – New order without One Click Upsell  User adds product to cart, does not accept any upsell.  User completes checkout and pays.   Order imports into the app correctly.  &nbsp;     #1883 – New order with “in-cart” upsell  User adds product to cart, accepts the discounted “in-cart” upsell, and completes checkout.   Order imports correctly.  &nbsp;     #1884 – New order with “post-purchase” upsell  User adds product to cart, completes checkout, and then accepts a post-purchase upsell with additional payment.  Order imports initially, but when a change is made to the order, the refresh icon appears.   Clicking the refresh moves the order to “Not to Ship” section.  &nbsp;     #1885 – New order with both “in-cart” and “post-purchase” upsells   Similar issue expected as scenario 3.  &nbsp;     Orders with post-purchase upsells are not behaving as expected when refreshed. Customer has shared sample orders for testing.\n\nPlease investigate why orders with post-purchase upsells are moved to “Not to Ship” upon refresh.\n&nbsp;\nOrders for testing :&nbsp;\n#1882, #1883, #1884, #1885\n&nbsp;\nStore details:&nbsp;\nStore url : g0tpg2-tk.myshopify.com\nAC ID: 6f1ba80e-3aa8-45e2-a633-1ae84b0ef29f\nActivr from : 2025-06-30\nPlan: $19&nbsp;\n&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56798045017241,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-09T05:03:02Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56802081563033,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "All 4 orders moved to INITIAL state when orders were updated.\n\nAlso, I have reimported all the products again to avoid any product related cases.\n\nKindly ask merchant to share the order id without making any changes, if they face this issue in future.\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">All 4 orders moved to INITIAL state when orders were updated.&nbsp;<br>&nbsp;<br>Also, I have reimported all the products again to avoid any product related cases.<br>&nbsp;<br>Kindly ask merchant to share the order id without making any changes, if they face this issue in future.<br>&nbsp;<br>[Veena]<br></div>",
+      "plain_body": "All 4 orders moved to INITIAL state when orders were updated.&nbsp;\n&nbsp;\nAlso, I have reimported all the products again to avoid any product related cases.\n&nbsp;\nKindly ask merchant to share the order id without making any changes, if they face this issue in future.\n&nbsp;\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56802081562905,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-09T06:55:00Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56807178007833,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Moving back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775725630213559?thread_ts=1775710954.257909&cid=C02E15X8X0C\n\nI checked customer's store and for Order 1883 when I clicked on refresh symbol, the order went to not to ship section in the app.\nOrders has 2 products:\nTIN: Instant Protein Coffee (empty) - Product is in the app\nINSTANT PROTEIN COFFEE - Product is in the app\n\nCould you check further and assist?",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving back to L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1775725630213559?thread_ts=1775710954.257909&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1775725630213559?thread_ts=1775710954.257909&amp;cid=C02E15X8X0C</a><br>&nbsp;<br>I checked customer's store and for Order 1883 when I clicked on refresh symbol, the order went to not to ship section in the app.&nbsp;<br>Orders has 2 products:&nbsp;<br><u>TIN: Instant Protein Coffee (empty) - Product is in the app</u><br><u>INSTANT PROTEIN COFFEE - Product is in the app</u><br>&nbsp;<br>Could you check further and assist?<br></div>",
+      "plain_body": "Moving back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775725630213559?thread_ts=1775710954.257909&amp;cid=C02E15X8X0C\n&nbsp;\nI checked customer's store and for Order 1883 when I clicked on refresh symbol, the order went to not to ship section in the app.&nbsp;\nOrders has 2 products:&nbsp;\nTIN: Instant Protein Coffee (empty) - Product is in the app\nINSTANT PROTEIN COFFEE - Product is in the app\n&nbsp;\nCould you check further and assist?",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56807178007705,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-09T09:07:35Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

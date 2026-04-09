@@ -69,11 +69,12 @@ git_reference: 635bf855126e7e91768e410f0432f56fd3216491
 
 Low urgency, customer-requested features not yet scored.
 
-| Ticket | Date | Request | Notes |
-|--------|------|---------|-------|
-| [#348049](../../raw/zendesk/shopify/348049.json) | 2025-09-08 | End of Day manifest generation | Repeated ask, useful for carriers |
-| [#354696](../../raw/zendesk/shopify/354696.json) | 2025-10-16 | Export large volume of tracking data | Data export feature |
-| [#304193](../../raw/zendesk/shopify/304193.json) | 2024-12-16 | Roadmap feature suggestion (details in ticket) | Unread detail |
+| Ticket                                           | Date       | Request                                        | Notes                             |
+| ------------------------------------------------ | ---------- | ---------------------------------------------- | --------------------------------- |
+| [#348049](../../raw/zendesk/shopify/348049.json) | 2025-09-08 | End of Day manifest generation                 | Repeated ask, useful for carriers |
+| [#354696](../../raw/zendesk/shopify/354696.json) | 2025-10-16 | Export large volume of tracking data           | Data export feature               |
+| [#304193](../../raw/zendesk/shopify/304193.json) | 2024-12-16 | Roadmap feature suggestion (details in ticket) | Unread detail                     |
+|                                                  |            |                                                |                                   |
 
 ---
 

@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "bed491b09bcd66b3",
+        "id": "fc1a7f3bb99dc3bd",
         "type": "tabs",
         "children": [
           {
-            "id": "cabd4973985c5d2f",
+            "id": "c4b7660916173d0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/modules/stores/platform-connectors.md",
+                "file": "wiki/product/insights.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "platform-connectors"
-            }
-          },
-          {
-            "id": "a7930919fd3ea2f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/operations/monitoring.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "monitoring"
+              "title": "insights"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,14 +183,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "a7930919fd3ea2f9",
+  "active": "c4b7660916173d0d",
   "lastOpenFiles": [
-    "raw/zendesk/382999.json",
-    "scripts/sync-zendesk.sh",
-    "raw/zendesk/382987.json",
-    "raw/zendesk/382982.json",
-    "raw/zendesk/382795.json",
-    "raw/zendesk/382780.json",
+    "raw/zendesk/shopify/383093.json",
+    "raw/zendesk/shopify/383148.json",
+    "wiki/product/dashboards/week-2026-04-07.md",
+    "wiki/modules/automation/automation-conditions.md",
+    "wiki/modules/automation/automation-actions.md",
+    "wiki/modules/warehouses/warehouse-selection.md",
+    "wiki/modules/stores/platform-connectors.md",
+    "wiki/product/backlog.md",
+    "raw/zendesk/wss",
+    "wiki/product/dashboards",
+    "wiki/product/features/carrier-migration-fedex-rest.md",
+    "wiki/product/insights.md",
+    "wiki/product/metrics.md",
+    "wiki/features.md",
+    "raw/zendesk/shopify/218195.json",
+    "raw/zendesk/shopify/277997.json",
+    "raw/zendesk/shopify/299137.json",
+    "raw/zendesk/shopify/304193.json",
+    "raw/zendesk/shopify/306141.json",
+    "raw/zendesk/shopify/338603.json",
+    "raw/zendesk/shopify/348049.json",
+    "wiki/product/decisions/2026-04-08-product-management-layer.md",
+    "wiki/operations/monitoring.md",
     "wiki/operations/database-migrations.md",
     "wiki/operations/local-setup.md",
     "wiki/log.md",
@@ -214,29 +215,12 @@
     "CLAUDE.md",
     "wiki/modules/orders/order-address-management.md",
     "wiki/modules/automation/automation-overview.md",
-    "wiki/modules/automation/automation-actions.md",
     "wiki/architecture/technology-stack.md",
     "wiki/architecture/overview.md",
     "wiki/architecture/backend-architecture.md",
     "wiki/architecture/frontend-architecture.md",
     "wiki/modules/shipping/shipment-tracking.md",
     "wiki/modules/shipping/rate-shopping.md",
-    "wiki/modules/shipping/label-generation.md",
-    "wiki/modules/shipping/carrier-configuration.md",
-    "wiki/modules/orders/order-returns.md",
-    "wiki/modules/orders/order-lifecycle.md",
-    "wiki/modules/orders/order-bulk-actions.md",
-    "wiki/features.md",
-    "wiki/adding-new-carrier-customer-journey.md",
-    "wiki/system-features-analysis.md",
-    "README.md",
-    "Flow chart.md",
-    "wiki/modules/stores/platform-connectors.md",
-    "wiki/modules/warehouses",
-    "wiki/modules/products",
-    "wiki/modules/stores",
-    "wiki/modules/automation",
-    "wiki/modules/shipping",
     "Untitled.canvas"
   ]
 }
