@@ -1,5 +1,21 @@
 # StorePep KB Activity Log
 
+## [2026-04-10 12:00] ingest | Ground Zero Cross-App Support Triage
+- Created: `support/ground-zero/index.md`
+- Created: `support/ground-zero/pain-ranking.md`
+- Created: `support/ground-zero/by-app.md`
+- Created: `support/ground-zero/insights.md`
+- Created: `support/ground-zero/sprint-views.md`
+- Updated: `index.md` (added Support section, total pages 51→56)
+- Updated: `log.md`
+- Updated: `product/insights.md` (cross-link to ground-zero)
+- Updated: `product/backlog.md` (cross-link to sprint-views)
+- Updated: `raw/sources.yaml` (added stage-zero-analysis google-sheet source)
+- Updated: `scripts/sync.sh` (added gid support for multi-tab Google Sheets)
+- Source: `raw/sheets/stage-zero-analysis.xlsx` (synced 2026-04-10, gid=1368718443)
+- Git reference: e14861276df2dcc6f378bc845a9fc74ae5722de0
+- Summary: Full cross-app triage of 68 open Zendesk tickets across Shopify (49), WooCommerce (15), BigCommerce (3), Magento (1). Tickets split into discrete issues, categorized into 10 issue types across 4 pain tiers. Top pain clusters: International/Customs (14 tickets, 10/10 pain), Product Import/Variants (11 tickets, 9/10), Carrier Integration/Migration (15 tickets, 8/10). 7 key insights distilled including aging backlog risk (tickets open 16-34 months). 6 sprint views created: Sprint Zero (deploy what's built), Fire Drill (AusPost/PostNord deadlines), Trust Restorers (data integrity), International Sprint (CI/customs batch), Scale Unlockers (variant limits), Carrier Expansion (new integrations).
+
 ## [2026-04-09 09:00] dashboard | Weekly Product Dashboard — Week of Apr 7
 - Created: `product/dashboards/week-2026-04-07.md`
 - Updated: `index.md`

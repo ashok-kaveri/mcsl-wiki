@@ -106,3 +106,5 @@ Signals too early to categorize but worth watching.
 - [Customer Metrics](metrics.md) - Quantitative health scores per feature
 - [Features & Test Coverage](../features.md) - Automation status
 - [System Features Analysis](../system-features-analysis.md) - Complexity and scenario estimates
+- [Ground Zero Triage](../support/ground-zero/index.md) - Cross-app view: 68 tickets across all StorePep products (Shopify + WooCommerce + BigCommerce + Magento)
+- [Ground Zero Insights](../support/ground-zero/insights.md) - 7 cross-app insights including international shipping pain cluster and aging backlog risk

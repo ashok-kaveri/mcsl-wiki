@@ -34,3 +34,11 @@ sources:
     url: "https://docs.google.com/spreadsheets/d/1oVtOaM2PesVR_TkuVaBKpbp_qQdmq4FQnN43Xew0FuY"
     sync: manual
     description: "Master regression test plan with manual + automated test mapping"
+
+  stage-zero-analysis:
+    type: google-sheet
+    path: raw/sheets/stage-zero-analysis.xlsx
+    url: "https://docs.google.com/spreadsheets/d/1vlFfOu3faGW-OAgngEyPd45myLSEx2GYB-wsjgVvYyg"
+    gid: "1368718443"
+    sync: manual
+    description: "Cross-app support triage sheet — all open tickets requiring dev action, categorized by product"

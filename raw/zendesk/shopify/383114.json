@@ -1,0 +1,540 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/383114.json",
+    "id": 383114,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-04-08T21:07:18Z",
+    "updated_at": "2026-04-09T18:26:59Z",
+    "generated_timestamp": 1775759220,
+    "type": null,
+    "subject": "Hey guys, something is going on with quoting the s...",
+    "raw_subject": "Hey guys, something is going on with quoting the s...",
+    "description": "Hey guys, something is going on with quoting the shipping rates, sometimes it will under quote what the cost should be. In this example, the actual cost we paid for shipping was $64.88 and should have been $97.32 after markup. But the guy only paid $34.13 total. Also, its also very weird that 2Day rates are the same as express saver (our shipping manager told me that 2Day should always be pretty much higher).\n\nIf you guys could look into this to see what is going on that would be awesome.\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/settings/frontendrates/ratelog/summary/73e7f4eb724c4e7bc8aff63fdfadfa3c",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 1901142069807,
+    "submitter_id": 1901142069807,
+    "assignee_id": 10478126723609,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "pangolincom.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "8638380973"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "443542-JK5JJ",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "pangolincom.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "8638380973"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56784577552921,
+      "type": "Comment",
+      "author_id": 1901142069807,
+      "body": "Hey guys, something is going on with quoting the shipping rates, sometimes it will under quote what the cost should be. In this example, the actual cost we paid for shipping was $64.88 and should have been $97.32 after markup. But the guy only paid $34.13 total. Also, its also very weird that 2Day rates are the same as express saver (our shipping manager told me that 2Day should always be pretty much higher).\n\nIf you guys could look into this to see what is going on that would be awesome.\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/settings/frontendrates/ratelog/summary/73e7f4eb724c4e7bc8aff63fdfadfa3c",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hey guys, something is going on with quoting the shipping rates, sometimes it will under quote what the cost should be. In this example, the actual cost we paid for shipping was $64.88 and should have been $97.32 after markup. But the guy only paid $34.13 total. Also, its also very weird that 2Day rates are the same as express saver (our shipping manager told me that 2Day should always be pretty much higher).</p>\n\n<p dir=\"auto\">If you guys could look into this to see what is going on that would be awesome.</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/settings/frontendrates/ratelog/summary/73e7f4eb724c4e7bc8aff63fdfadfa3c\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/settings/frontendrates/ratelog/summary/73e7f4eb724c4e7bc8aff63fdfadfa3c</a></p></div>",
+      "plain_body": "Hey guys, something is going on with quoting the shipping rates, sometimes it will under quote what the cost should be. In this example, the actual cost we paid for shipping was $64.88 and should have been $97.32 after markup. But the guy only paid $34.13 total. Also, its also very weird that 2Day rates are the same as express saver (our shipping manager told me that 2Day should always be pretty much higher). \n\n If you guys could look into this to see what is going on that would be awesome. \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/settings/frontendrates/ratelog/summary/73e7f4eb724c4e7bc8aff63fdfadfa3c",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56784443763737.json",
+          "id": 56784443763737,
+          "file_name": "CleanShot 2026-04-08 at 16.58.02.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/jYNNwCNRCFyUcIeDLmF93ldIQ/?name=CleanShot+2026-04-08+at+16.58.02.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/jYNNwCNRCFyUcIeDLmF93ldIQ/?name=CleanShot+2026-04-08+at+16.58.02.png",
+          "content_type": "image/png",
+          "size": 86685,
+          "width": 1298,
+          "height": 777,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56784443767065.json",
+              "id": 56784443767065,
+              "file_name": "CleanShot_2026-04-08_at_16.58.02_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/0zDHWmW5Jad2Kq9phnwSlZMr8/?name=CleanShot_2026-04-08_at_16.58.02_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/0zDHWmW5Jad2Kq9phnwSlZMr8/?name=CleanShot_2026-04-08_at_16.58.02_thumb.png",
+              "content_type": "image/png",
+              "size": 1487,
+              "width": 80,
+              "height": 48,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 56784577552665,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-04-08T21:01:00Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "47.203.180.120",
+          "location": "Davenport, FL, United States",
+          "latitude": 28.1951,
+          "longitude": -81.6062
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56784704370969,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "US Store\n128 orders\nFedEx account added\nUsing for rates only\nActive from Nov 2025 and $19 plan selected",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">US Store<br>128 orders<br>FedEx account added<br>Using for rates only<br>Active from Nov 2025 and $19 plan selected<br></div>",
+      "plain_body": "US Store\n128 orders\nFedEx account added\nUsing for rates only\nActive from Nov 2025 and $19 plan selected",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56784704370841,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T21:22:12Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56785491697689,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Calvin,\n\nGood day!\n\nTo assist with your query, we need a complete screenshot from the Rates Request Log or an Order Number.\n\nIs it possible to share any of the above requested details or both?\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Calvin,<br>&nbsp;<br>Good day!<br><br>To assist with your query, we need a complete screenshot from the Rates Request Log or an Order Number.&nbsp;<br>&nbsp;<br>Is it possible to share any of the above requested details or both?<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Calvin,\n&nbsp;\nGood day!\n\nTo assist with your query, we need a complete screenshot from the Rates Request Log or an Order Number.&nbsp;\n&nbsp;\nIs it possible to share any of the above requested details or both?\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56785491697561,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T22:20:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56785469705625,
+      "type": "Comment",
+      "author_id": 1901142069807,
+      "body": "Order #PA-17009 at 2:07AM.\n\n\nI also tested it myself to my home address and the rates shown were lower overall than they should have been.\n\n\n**Best Regards, **\nCalvin Hunt\n\nMarketing Director\n\n\n\n**Pangolin** **| Kvant | Unity**\n\n________________________\n\n\n\n**Office:** +1 (407) 299-2088\n\n**Mobile | WhatsApp:** +1 (863) 838-0973\n\n________________________\n\n\n\n**Visit us online: **\nwww.pangolin.com\nwww.kvantlasers.us\nwww.unitylasers.com\nwww.scannermax.com",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Order #PA-17009 at 2:07AM.<div><br></div><div>I also tested it myself to my home address and the rates shown were lower overall than they should have been.<br><div>\n<b style=\" color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none; font-size: 12px;\"><br>Best Regards,&nbsp;<br></b><span style=\" color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none; font-size: 12px;\">&nbsp;</span><br style=\" color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none; font-size: 12px;\"><span style=\" color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none; font-size: 12px;\">Calvin Hunt</span><br style=\" color: rgb(0, 0, 0); font-size: 14px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none;\"><div style=\" color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none; font-size: 12px;\" align=\"start\">Marketing Director</div><div style=\" color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none; font-size: 12px;\" align=\"start\"><br></div><div style=\" color: rgb(0, 0, 0); font-size: 14px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none;\" align=\"start\"><div style=\"font-size: 12px;\"><b>Pangolin</b>&nbsp;<b>| Kvant | Unity</b>&nbsp;</div><div style=\"font-size: 12px;\"><font color=\"#ff2600\">________________________</font><br></div><div style=\"font-size: 12px;\"><br></div><div><div style=\"font-size: 12px;\"><b>Office:</b>&nbsp;+1 (407) 299-2088</div><div style=\"font-size: 12px;\"><b>Mobile | WhatsApp:</b>&nbsp;+1 (863) 838-0973</div><div><font color=\"#ec2327\">________________________</font></div><div style=\"font-size: 12px;\"><b><font color=\"#ec2327\"><br></font></b></div><div style=\"font-size: 12px;\"><b><font color=\"#ec2327\">Visit us online:</font><span style=\"font-weight: 400;\"><font color=\"#ec2327\">&nbsp;</font></span></b><br><a href=\"http://www.pangolin.com\" rel=\"noreferrer\">www.pangolin.com</a>&nbsp;<br><a href=\"http://www.kvantlasers.us\" rel=\"noreferrer\">www.kvantlasers.us</a><br><a href=\"http://www.unitylasers.com\" rel=\"noreferrer\">www.unitylasers.com</a>&nbsp;&nbsp;<br><a href=\"http://www.scannermax.com\" rel=\"noreferrer\">www.scannermax.com</a></div></div></div>\n</div>\n<div><br></div></div></div>",
+      "plain_body": "Order #PA-17009 at 2:07AM. \n  I also tested it myself to my home address and the rates shown were lower overall than they should have been.\n \n\nBest Regards,&nbsp;\n&nbsp; Calvin Hunt  Marketing Director  \n   Pangolin&nbsp;| Kvant | Unity&nbsp;  ________________________\n  \n   Office:&nbsp;+1 (407) 299-2088  Mobile | WhatsApp:&nbsp;+1 (863) 838-0973  ________________________  \n  Visit us online:&nbsp;\nwww.pangolin.com&nbsp;\nwww.kvantlasers.us\nwww.unitylasers.com&nbsp;&nbsp;\nwww.scannermax.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56785469705497,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "calvin@pangolin.com",
+            "name": "Calvin Hunt",
+            "original_recipients": [
+              "calvin@pangolin.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T22:21:50Z",
+      "metadata": {
+        "system": {
+          "message_id": "<2E954CE7-4290-46AA-8B98-2F711145D84D@pangolin.com>",
+          "client": "Apple Mail (2.3864.500.181)",
+          "email_id": "01KNQJZXPCN7X8YGVZ6K995HMZ",
+          "ip_address": "47.203.180.120",
+          "raw_email_identifier": "2369120/68de4dc3-c2d9-473b-a1a1-b76cea10587a.eml",
+          "json_email_identifier": "2369120/68de4dc3-c2d9-473b-a1a1-b76cea10587a.json",
+          "eml_redacted": false,
+          "location": "Davenport, FL, United States",
+          "latitude": 28.1951,
+          "longitude": -81.6062
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56785633407001,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Calvin,\n\nThank you for sharing the order number. Could you login to the FedEx portal, provide the below mentioned details of the order 17009 and check for the rates?\n\nIf any discrepancy found, please share a complete screenshot of the shipping and package details provided, and the shipping rates provided along with the breakup.\n\nFrom Address - 1265 Upsala Road, Suite 1165, Sanford, Florida, 32771, US\n\nTo Address - 47 ACR 5127, Concho, Arizona, 85924, US\n\nPackage Weight and Dimensions - 1.35 lbs and 12x9x6 in\n\n*Residential Address option to be enabled\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Calvin,<br>&nbsp;<br>Thank you for sharing the order number. Could you login to the FedEx portal, provide the below mentioned details of the order 17009 and check for the rates?&nbsp;<br>&nbsp;<br>If any discrepancy found, please share a complete screenshot of the shipping and package details provided, and the shipping rates provided along with the breakup.&nbsp;<br>&nbsp;<br>From Address - 1265 Upsala Road, Suite 1165, Sanford, Florida, 32771, US<br>&nbsp;<br>To Address - 47 ACR 5127, Concho, Arizona, 85924, US&nbsp;<br>&nbsp;<br>Package Weight and Dimensions - 1.35 lbs and 12x9x6 in<br>&nbsp;<br>*Residential Address option to be enabled<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Calvin,\n&nbsp;\nThank you for sharing the order number. Could you login to the FedEx portal, provide the below mentioned details of the order 17009 and check for the rates?&nbsp;\n&nbsp;\nIf any discrepancy found, please share a complete screenshot of the shipping and package details provided, and the shipping rates provided along with the breakup.&nbsp;\n&nbsp;\nFrom Address - 1265 Upsala Road, Suite 1165, Sanford, Florida, 32771, US\n&nbsp;\nTo Address - 47 ACR 5127, Concho, Arizona, 85924, US&nbsp;\n&nbsp;\nPackage Weight and Dimensions - 1.35 lbs and 12x9x6 in\n&nbsp;\n*Residential Address option to be enabled\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56785633406873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T22:30:02Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56815147997081,
+      "type": "Comment",
+      "author_id": 1901142069807,
+      "body": "Hey, I used another address for testing.\n\n\n1826 Nottingham SW, Winter Haven FL, 33880.\n\n\n\nBelow you can see for example the FedEX 2Day is $57 but on the website shows as $34 (before markup).\n\n\n\nThe rates are surely not matching up 1-to-1 for all of them. It seems like 2day is matching the same rates as Express Saver for some reason.\n\n\n\nIt’s odd because the Home Delivery charge seems to be correct after the markup (which is 0.50), so clearly not all of the rates are wrong, but plenty are.\n\n\n\nFor example, Express Saver should have been $50 after markup but only charges $34. But FedEx 2Day AM actually looks right for example, with a charge of $60 which is about correct with a markup of 0.50.\n\n\n\n ![CleanShot 2026-04-09 at 10.08.58.png](https://support.pluginhive.com/attachments/token/Z7kmYFjVYFHEuvhRxcTW5xFet/?name=CleanShot+2026-04-09+at+10.08.58.png)\n\n\n\n ![CleanShot 2026-04-09 at 10.13.00.png](https://support.pluginhive.com/attachments/token/Hm6nL7eUHw1I400vMJxFgqRRx/?name=CleanShot+2026-04-09+at+10.13.00.png)\n\n\n\n ![CleanShot 2026-04-09 at 10.09.37.png](https://support.pluginhive.com/attachments/token/xGu3uCM25N35xGE5RGTRFU2Ch/?name=CleanShot+2026-04-09+at+10.09.37.png)\n\n\n**Best Regards, **\nCalvin Hunt\n\nMarketing Director\n\n\n\n**Pangolin** **| Kvant | Unity**\n\n________________________\n\n\n\n**Office:** +1 (407) 299-2088\n\n**Mobile | WhatsApp:** +1 (863) 838-0973\n\n________________________\n\n\n\n**Visit us online: **\nwww.pangolin.com\nwww.kvantlasers.us\nwww.unitylasers.com\nwww.scannermax.com",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hey, I used another address for testing.<div><br></div><div>1826 Nottingham SW, Winter Haven FL, 33880.</div><div><br></div><div>Below you can see for example the FedEX 2Day is $57 but on the website shows as $34 (before markup).</div><div><br></div><div>The rates are surely not matching up 1-to-1 for all of them. It seems like 2day is matching the same rates as Express Saver for some reason.</div><div><br></div><div>It’s odd because the Home Delivery charge seems to be correct after the markup (which is 0.50), so clearly not all of the rates are wrong, but plenty are.</div><div><br></div><div>For example, Express Saver should have been $50 after markup but only charges $34. But FedEx 2Day AM actually looks right for example, with a charge of $60 which is about correct with a markup of 0.50.</div><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/Z7kmYFjVYFHEuvhRxcTW5xFet/?name=CleanShot+2026-04-09+at+10.08.58.png\" alt=\"CleanShot 2026-04-09 at 10.08.58.png\"></div><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/Hm6nL7eUHw1I400vMJxFgqRRx/?name=CleanShot+2026-04-09+at+10.13.00.png\" alt=\"CleanShot 2026-04-09 at 10.13.00.png\"></div><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/xGu3uCM25N35xGE5RGTRFU2Ch/?name=CleanShot+2026-04-09+at+10.09.37.png\" alt=\"CleanShot 2026-04-09 at 10.09.37.png\"><br><div>\n<b style=\" color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none; font-size: 12px;\"><br>Best Regards,&nbsp;<br></b><span style=\" color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none; font-size: 12px;\">&nbsp;</span><br style=\" color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none; font-size: 12px;\"><span style=\" color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none; font-size: 12px;\">Calvin Hunt</span><br style=\" color: rgb(0, 0, 0); font-size: 14px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none;\"><div style=\" color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none; font-size: 12px;\" align=\"start\">Marketing Director</div><div style=\" color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none; font-size: 12px;\" align=\"start\"><br></div><div style=\" color: rgb(0, 0, 0); font-size: 14px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; text-decoration: none;\" align=\"start\"><div style=\"font-size: 12px;\"><b>Pangolin</b>&nbsp;<b>| Kvant | Unity</b>&nbsp;</div><div style=\"font-size: 12px;\"><font color=\"#ff2600\">________________________</font><br></div><div style=\"font-size: 12px;\"><br></div><div><div style=\"font-size: 12px;\"><b>Office:</b>&nbsp;+1 (407) 299-2088</div><div style=\"font-size: 12px;\"><b>Mobile | WhatsApp:</b>&nbsp;+1 (863) 838-0973</div><div><font color=\"#ec2327\">________________________</font></div><div style=\"font-size: 12px;\"><b><font color=\"#ec2327\"><br></font></b></div><div style=\"font-size: 12px;\"><b><font color=\"#ec2327\">Visit us online:</font><span style=\"font-weight: 400;\"><font color=\"#ec2327\">&nbsp;</font></span></b><br><a href=\"http://www.pangolin.com\" rel=\"noreferrer\">www.pangolin.com</a>&nbsp;<br><a href=\"http://www.kvantlasers.us\" rel=\"noreferrer\">www.kvantlasers.us</a><br><a href=\"http://www.unitylasers.com\" rel=\"noreferrer\">www.unitylasers.com</a>&nbsp;&nbsp;<br><a href=\"http://www.scannermax.com\" rel=\"noreferrer\">www.scannermax.com</a></div></div></div>\n</div>\n<div><br></div></div></div>",
+      "plain_body": "Hey, I used another address for testing. \n  1826 Nottingham SW, Winter Haven FL, 33880.  \n  Below you can see for example the FedEX 2Day is $57 but on the website shows as $34 (before markup).  \n  The rates are surely not matching up 1-to-1 for all of them. It seems like 2day is matching the same rates as Express Saver for some reason.  \n  It’s odd because the Home Delivery charge seems to be correct after the markup (which is 0.50), so clearly not all of the rates are wrong, but plenty are.  \n  For example, Express Saver should have been $50 after markup but only charges $34. But FedEx 2Day AM actually looks right for example, with a charge of $60 which is about correct with a markup of 0.50.  \n    \n    \n  \n \n\nBest Regards,&nbsp;\n&nbsp; Calvin Hunt  Marketing Director  \n   Pangolin&nbsp;| Kvant | Unity&nbsp;  ________________________\n  \n   Office:&nbsp;+1 (407) 299-2088  Mobile | WhatsApp:&nbsp;+1 (863) 838-0973  ________________________  \n  Visit us online:&nbsp;\nwww.pangolin.com&nbsp;\nwww.kvantlasers.us\nwww.unitylasers.com&nbsp;&nbsp;\nwww.scannermax.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56815147996953,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "calvin@pangolin.com",
+            "name": "Calvin Hunt",
+            "original_recipients": [
+              "calvin@pangolin.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-09T14:15:04Z",
+      "metadata": {
+        "system": {
+          "message_id": "<2E64C8AC-1338-4FB5-AACE-3F3DCEE5593A@pangolin.com>",
+          "client": "Apple Mail (2.3864.500.181)",
+          "email_id": "01KNS9H5BNJYMX14VYJF97HZ36",
+          "ip_address": "47.203.180.120",
+          "raw_email_identifier": "2369120/f901b4b4-6c53-4c19-8999-ca26a83889ac.eml",
+          "json_email_identifier": "2369120/f901b4b4-6c53-4c19-8999-ca26a83889ac.json",
+          "eml_redacted": false,
+          "location": "Davenport, FL, United States",
+          "latitude": 28.1951,
+          "longitude": -81.6062
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56818357090841,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Calvin,\n\nPlease allow us sometime.\n\nWe will check further and get back to you.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Calvin,<br>&nbsp;<br>Please allow us sometime.&nbsp;<br>&nbsp;<br>We will check further and get back to you.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Calvin,\n&nbsp;\nPlease allow us sometime.&nbsp;\n&nbsp;\nWe will check further and get back to you.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56818357090713,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-09T18:01:42Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56818518348825,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Calvin,\n\nAdding to the previous response, we need complete screenshots from FedEx portal that shows the Account Number used, the Ship From and To Adddress provided, the Package details provided and the rates shown along with their Breakup.\nYou can also share a video recording of this.\n\nAlternatively, we can also connect over a Zoom call to discuss about this if it is easy for you. A slot can be booked for the call using this link - Click Here\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Calvin,<br>&nbsp;<br>Adding to the previous response, we need complete screenshots from FedEx portal that shows the Account Number used, the Ship From and To Adddress provided, the Package details provided and the rates shown along with their Breakup.&nbsp;<br>You can also share a video recording of this.<br>&nbsp;<br>Alternatively, we can also connect over a Zoom call to discuss about this if it is easy for you. A slot can be booked for the call using this link - <a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=pangolincom.myshopify.com&amp;email=calvin@pangolin.com&amp;ticket=383114&amp;key=1775758460998\">Click Here</a><br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Calvin,\n&nbsp;\nAdding to the previous response, we need complete screenshots from FedEx portal that shows the Account Number used, the Ship From and To Adddress provided, the Package details provided and the rates shown along with their Breakup.&nbsp;\nYou can also share a video recording of this.\n&nbsp;\nAlternatively, we can also connect over a Zoom call to discuss about this if it is easy for you. A slot can be booked for the call using this link - Click Here\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56818518348697,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-09T18:14:38Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56818622869017,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: Calvin Hunt\nEmail: calvin@pangolin.com\nPhone Number: 8638380973\nStore URL: pangolincom.myshopify.com\nDate & Time: April 10, 2026 11:45 am (America/New_York -04:00)\n\nPluginHive Date & Time: April 10, 2026 9:15 pm",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Appointment Scheduled with PluginHive Support</p>\n<p dir=\"auto\">Customer Details:<br>\nName: Calvin Hunt<br>\nEmail: <a href=\"mailto:calvin@pangolin.com\" rel=\"noreferrer\">calvin@pangolin.com</a><br>\nPhone Number: 8638380973<br>\nStore URL: pangolincom.myshopify.com<br>\nDate &amp; Time: April 10, 2026 11:45 am (America/New_York -04:00)</p>\n<p dir=\"auto\">PluginHive Date &amp; Time: April 10, 2026 9:15 pm</p></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support \n Customer Details:\n\nName: Calvin Hunt\n\nEmail: calvin@pangolin.com\n\nPhone Number: 8638380973\n\nStore URL: pangolincom.myshopify.com\n\nDate &amp; Time: April 10, 2026 11:45 am (America/New_York -04:00) \n PluginHive Date &amp; Time: April 10, 2026 9:15 pm",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56818622868889,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-09T18:26:59Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.9.4; https://appointments.pluginhive.com",
+          "ip_address": "159.89.131.157",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    }
+  ]
+}
