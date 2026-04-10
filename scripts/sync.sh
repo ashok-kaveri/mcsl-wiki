@@ -16,6 +16,7 @@ mkdir -p raw/sheets
 in_google_sheet=false
 sheet_url=""
 sheet_path=""
+sheet_gid=""
 
 while IFS= read -r line; do
   if [[ "$line" =~ ^[[:space:]]+type:[[:space:]]+google-sheet ]]; then
@@ -28,16 +29,20 @@ while IFS= read -r line; do
       sheet_path="${BASH_REMATCH[1]}"
     elif [[ "$line" =~ ^[[:space:]]+url:[[:space:]]+\"?([^\"]+)\"? ]]; then
       sheet_url="${BASH_REMATCH[1]}"
-    elif [[ "$line" =~ ^[[:space:]]*[a-z_-]+: ]] && [[ ! "$line" =~ ^[[:space:]]+(path|url|pattern|sync|description): ]]; then
+    elif [[ "$line" =~ ^[[:space:]]+gid:[[:space:]]+\"?([^\"]+)\"? ]]; then
+      sheet_gid="${BASH_REMATCH[1]}"
+    elif [[ "$line" =~ ^[[:space:]]*[a-z_-]+: ]] && [[ ! "$line" =~ ^[[:space:]]+(path|url|gid|pattern|sync|description): ]]; then
       # Hit a new source entry — process what we have
       if [ -n "$sheet_url" ] && [ -n "$sheet_path" ]; then
         export_url="${sheet_url}/export?format=xlsx"
+        [ -n "$sheet_gid" ] && export_url="${export_url}&gid=${sheet_gid}"
         echo "  Downloading: $sheet_path"
         curl -sL "$export_url" -o "$sheet_path"
       fi
       in_google_sheet=false
       sheet_url=""
       sheet_path=""
+      sheet_gid=""
     fi
   fi
 done < raw/sources.yaml
@@ -45,6 +50,7 @@ done < raw/sources.yaml
 # Handle last entry if it was a google-sheet
 if $in_google_sheet && [ -n "$sheet_url" ] && [ -n "$sheet_path" ]; then
   export_url="${sheet_url}/export?format=xlsx"
+  [ -n "$sheet_gid" ] && export_url="${export_url}&gid=${sheet_gid}"
   echo "  Downloading: $sheet_path"
   curl -sL "$export_url" -o "$sheet_path"
 fi
