@@ -96,3 +96,5 @@ Long-open tickets (tagged `back-log`). May need closure review.
 - [Customer Metrics](metrics.md) - Per-feature health scores and pain index
 - [Features & Test Coverage](../features.md) - Automation status
 - [System Features Analysis](../system-features-analysis.md) - Code complexity and coverage gaps
+- [Ground Zero Sprint Views](../support/ground-zero/sprint-views.md) - 6 priority queues spanning all apps (Shopify + WooCommerce + BigCommerce + Magento), including Sprint Zero free wins and Fire Drill deadlines
+- [Ground Zero Pain Ranking](../support/ground-zero/pain-ranking.md) - Full 68-ticket cross-app ranked list

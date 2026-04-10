@@ -92,9 +92,17 @@ Last updated: 2026-04-08
 - [Database Migrations](operations/database-migrations.md) - Migration strategy, 106+ migrations (stub)
 - [Monitoring](operations/monitoring.md) - Logging, alerting, observability (stub)
 
+## Support
+
+- [Ground Zero Triage](support/ground-zero/index.md) - Cross-app ticket analysis: 68 tickets across 5 apps, 10 issue categories, 6 sprint views
+  - [Pain Ranking](support/ground-zero/pain-ranking.md) - All issues ranked from most to least painful across 4 tiers
+  - [By App](support/ground-zero/by-app.md) - Per-app breakdown (Shopify, WooCommerce, BigCommerce, Magento) with cross-app patterns
+  - [Insights](support/ground-zero/insights.md) - 7 key insights + aging backlog risk analysis
+  - [Sprint Views](support/ground-zero/sprint-views.md) - 6 actionable priority queues from Sprint Zero to Carrier Expansion
+
 ---
 
-**Total pages**: 51
-**Last ingestion**: 2026-04-08 (Shipment Tracking + Test Coverage)
-**Status**: Architecture + Orders + Shipping (with Tracking) + Automation + Stores + Products + Warehouses + Product Management documented
+**Total pages**: 56
+**Last ingestion**: 2026-04-10 (Ground Zero cross-app support triage)
+**Status**: Architecture + Orders + Shipping (with Tracking) + Automation + Stores + Products + Warehouses + Product Management + Support Triage documented
 **Test Coverage**: 58 automated Playwright tests covering 95 features
