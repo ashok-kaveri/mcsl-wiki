@@ -18,12 +18,12 @@ Six actionable views for prioritizing the 68-ticket backlog. Each view is a read
 
 Dev is done. These fixes exist in code but haven't reached merchants. The only work is deployment and closing the ticket.
 
-| Ticket | Fix Ready | App | Merchant Waiting Since |
-|--------|-----------|-----|----------------------|
-| [#382694](../../../../raw/zendesk/shopify/382694.json) | Country of origin fix for CN22 PostNord | Shopify | Apr 6, 2026 |
-| [#382425](../../../../raw/zendesk/shopify/382425.json) | FedEx REST: Avoid One Rate | Shopify | Apr 4, 2026 |
-| #368959 | Manifest enhancement | WooCommerce | Jan 14, 2026 |
-| #345572 | Display delivery date with service | BigCommerce | Aug 26, 2025 |
+| Ticket                                                 | Fix Ready                               | App         | Merchant Waiting Since |
+| ------------------------------------------------------ | --------------------------------------- | ----------- | ---------------------- |
+| [#382694](../../../../raw/zendesk/shopify/382694.json) | Country of origin fix for CN22 PostNord | Shopify     | Apr 6, 2026            |
+| [#382425](../../../../raw/zendesk/shopify/382425.json) | FedEx REST: Avoid One Rate              | Shopify     | Apr 4, 2026            |
+| #368959                                                | Manifest enhancement                    | WooCommerce | Jan 14, 2026           |
+| #345572                                                | Display delivery date with service      | BigCommerce | Aug 26, 2025           |
 
 **Action**: Deploy, close tickets, notify merchants. Done.
 

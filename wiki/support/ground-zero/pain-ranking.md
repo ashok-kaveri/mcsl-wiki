@@ -92,14 +92,14 @@ All tickets from `raw/sheets/stage-zero-analysis.xlsx` categorized and ranked fr
 
 > **Pattern**: FedEx REST migration generated a long tail of edge cases. Post-upload failures are FedEx-side but customers blame the app. Each issue requires careful FedEx API coordination.
 
-| Ticket | Issue | App | Dev Status |
-|--------|-------|-----|-----------|
-| [#382188](../../../../raw/zendesk/shopify/382188.json) | FedEx REST post upload failure | Shopify | FedEx-side issue |
-| [#379042](../../../../raw/zendesk/shopify/379042.json) | FedEx post upload failure (2nd merchant) | Shopify | FedEx-side issue |
-| [#382425](../../../../raw/zendesk/shopify/382425.json) | FedEx REST: Avoid One Rate | Shopify | **Dev completed** ✅ |
-| [#382009](../../../../raw/zendesk/shopify/382009.json) | Dimensions not passed when FedEx box selected | Shopify | To discuss |
-| [#379098](../../../../raw/zendesk/shopify/379098.json) | Update FedEx REST signature option via CSV | Shopify | Yet to pick |
-| [#369144](../../../../raw/zendesk/shopify/369144.json) | Minimum value handling for FedEx | Shopify | Yet to pick |
+| Ticket                                                 | Issue                                         | App     | Dev Status          |
+| ------------------------------------------------------ | --------------------------------------------- | ------- | ------------------- |
+| [#382188](../../../../raw/zendesk/shopify/382188.json) | FedEx REST post upload failure                | Shopify | FedEx-side issue    |
+| [#379042](../../../../raw/zendesk/shopify/379042.json) | FedEx post upload failure (2nd merchant)      | Shopify | FedEx-side issue    |
+| [#382425](../../../../raw/zendesk/shopify/382425.json) | FedEx REST: Avoid One Rate                    | Shopify | **Dev completed** ✅ |
+| [#382009](../../../../raw/zendesk/shopify/382009.json) | Dimensions not passed when FedEx box selected | Shopify | To discuss          |
+| [#379098](../../../../raw/zendesk/shopify/379098.json) | Update FedEx REST signature option via CSV    | Shopify | Yet to pick         |
+| [#369144](../../../../raw/zendesk/shopify/369144.json) | Minimum value handling for FedEx              | Shopify | Yet to pick         |
 
 ---
 
