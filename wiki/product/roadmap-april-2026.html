@@ -166,7 +166,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .sr-tags{margin-top:3px;display:flex;gap:3px;flex-wrap:wrap}
 .search-clear{position:absolute;right:10px;top:50%;transform:translateY(-50%);cursor:pointer;font-size:14px;opacity:.5;color:#fff;display:none}
 .search-clear.vis{display:block}
-.search-highlight{outline:3px solid #f39c12;outline-offset:2px;animation:highlightPulse 1.5s ease-in-out 3;border-radius:7px}
+.search-highlight{outline:3px solid #f39c12;outline-offset:2px;animation:highlightPulse 1.5s ease-in-out 3;border-radius:7px;background:rgba(243,156,18,0.08)!important;box-shadow:0 0 12px rgba(243,156,18,0.3)}
 @keyframes highlightPulse{0%,100%{outline-color:#f39c12}50%{outline-color:#e74c3c}}
 .gantt-highlight{outline:2px solid #f39c12;background:rgba(243,156,18,.15)!important}
 .sr-count{font-size:10px;color:var(--muted);padding:6px 14px;border-bottom:1px solid var(--border);font-weight:600}
@@ -1011,15 +1011,17 @@ function dimNonMatchingCards(q){
   document.querySelectorAll('.cd').forEach(card=>{
     const id = card.dataset.id;
     const item = ALL_FEATURES[id] || EPICS.find(e=>e.id===id) || STRATEGY.find(s=>s.id===id) || TECH_ITEMS.find(t=>t.id===id) || OPPS.find(o=>o.id===id);
-    if(!item){card.style.opacity='';return}
+    if(!item){card.style.opacity='';card.classList.remove('search-highlight');return}
     let text = [item.id, item.title, item.desc||'', (item.tags||[]).join(' '), item.theme||'', item.revenue||''].join(' ');
     if(item.children) item.children.forEach(c=>text+=' '+c.id+' '+c.t);
     if(text.toLowerCase().includes(q)){
       card.style.opacity='1';
-      card.style.order='-1';
+      card.classList.add('search-highlight');
+      // Move matched card to top of its parent
+      card.parentElement.prepend(card);
     } else {
-      card.style.opacity='0.25';
-      card.style.order='';
+      card.style.opacity='0.15';
+      card.classList.remove('search-highlight');
     }
   });
   // Theme cards (.tc)
@@ -1031,19 +1033,21 @@ function dimNonMatchingCards(q){
       tc.style.opacity='1';
       tc.classList.add('search-highlight');
     } else {
-      tc.style.opacity='0.3';
+      tc.style.opacity='0.15';
       tc.classList.remove('search-highlight');
     }
   });
-  // Release rows (.rr) and detail panels (.rdp)
+  // Release rows (.rr)
   document.querySelectorAll('.rr').forEach(rr=>{
     const text = rr.textContent.toLowerCase();
     if(text.includes(q)){
       rr.style.opacity='1';
       rr.style.background='rgba(243,156,18,0.08)';
+      rr.classList.add('search-highlight');
     } else {
-      rr.style.opacity='0.4';
+      rr.style.opacity='0.15';
       rr.style.background='';
+      rr.classList.remove('search-highlight');
     }
   });
   // Release detail tables — highlight matching rows
@@ -1053,7 +1057,7 @@ function dimNonMatchingCards(q){
       tr.style.opacity='1';
       tr.style.background='rgba(243,156,18,0.1)';
     } else {
-      tr.style.opacity='0.35';
+      tr.style.opacity='0.15';
       tr.style.background='';
     }
   });
@@ -1067,17 +1071,17 @@ function dimNonMatchingGanttRows(q){
       row.style.opacity='1';
       row.classList.add('gantt-highlight');
     } else {
-      row.style.opacity='0.3';
+      row.style.opacity='0.15';
       row.classList.remove('gantt-highlight');
     }
   });
 }
 
 function restoreAllCards(){
-  document.querySelectorAll('.cd').forEach(c=>{c.style.opacity='';c.style.order=''});
+  document.querySelectorAll('.cd').forEach(c=>{c.style.opacity='';c.classList.remove('search-highlight')});
   document.querySelectorAll('.gr').forEach(r=>{r.style.opacity='';r.classList.remove('gantt-highlight')});
   document.querySelectorAll('.tc').forEach(tc=>{tc.style.opacity='';tc.classList.remove('search-highlight')});
-  document.querySelectorAll('.rr').forEach(rr=>{rr.style.opacity='';rr.style.background=''});
+  document.querySelectorAll('.rr').forEach(rr=>{rr.style.opacity='';rr.style.background='';rr.classList.remove('search-highlight')});
   document.querySelectorAll('.rt tbody tr').forEach(tr=>{tr.style.opacity='';tr.style.background=''});
 }
 
