@@ -1,0 +1,2020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MCSL — April 2026 Sprint Plan | Dev-Ready Feature Specs</title>
+<style>
+  :root {
+    --primary: #1a56db; --primary-light: #e8eefb; --danger: #dc2626; --danger-bg: #fef2f2;
+    --warning: #d97706; --warning-bg: #fffbeb; --success: #059669; --success-bg: #ecfdf5;
+    --neutral: #6b7280; --neutral-bg: #f9fafb; --border: #e5e7eb; --text: #1f2937;
+    --text-light: #6b7280; --bg: #ffffff; --bg-alt: #f8fafc; --purple: #7c3aed; --purple-bg: #f5f3ff;
+    --orange: #ea580c; --orange-bg: #fff7ed;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; color: var(--text); line-height: 1.6; background: var(--bg-alt); }
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+  .header { background: linear-gradient(135deg, #1e3a5f 0%, #1a56db 60%, #7c3aed 100%); color: white; padding: 48px 0 36px; }
+  .header h1 { font-size: 28px; font-weight: 700; }
+  .header .subtitle { font-size: 15px; opacity: 0.85; margin-top: 4px; }
+  .meta-row { display: flex; gap: 24px; margin-top: 16px; font-size: 13px; opacity: 0.75; flex-wrap: wrap; }
+  .nav-bar { background: white; border-bottom: 1px solid var(--border); padding: 12px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+  .nav-bar .container { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .nav-link { font-size: 12px; padding: 5px 12px; border-radius: 16px; text-decoration: none; color: var(--text-light); background: var(--neutral-bg); transition: all .2s; white-space: nowrap; }
+  .nav-link:hover { background: var(--primary-light); color: var(--primary); }
+  .btn-action { background: #0079BF; color: white; border: none; padding: 6px 14px; border-radius: 16px; font-size: 12px; font-weight: 600; cursor: pointer; text-decoration: none; }
+  .btn-action:hover { background: #026AA7; }
+  .section { background: white; margin: 24px 0; border-radius: 12px; border: 1px solid var(--border); overflow: hidden; }
+  .section-header { padding: 20px 28px; border-bottom: 1px solid var(--border); background: var(--neutral-bg); }
+  .section-header h2 { font-size: 20px; color: var(--primary); }
+  .section-header p { font-size: 13px; color: var(--text-light); margin-top: 4px; }
+  .section-body { padding: 24px 28px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: #f1f5f9; font-weight: 600; text-align: left; padding: 10px 12px; border-bottom: 2px solid var(--border); }
+  td { padding: 10px 12px; border-bottom: 1px solid #f1f5f9; vertical-align: top; }
+  tr:hover td { background: #fafbfd; }
+  .stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 16px; margin-bottom: 20px; }
+  .stat-card { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 16px; text-align: center; }
+  .stat-card .value { font-size: 28px; font-weight: 700; color: var(--primary); }
+  .stat-card .label { font-size: 12px; color: var(--text-light); margin-top: 4px; }
+  .callout { padding: 16px 20px; border-radius: 8px; margin: 16px 0; font-size: 13px; }
+  .callout-danger { background: var(--danger-bg); border-left: 4px solid var(--danger); }
+  .callout-warning { background: var(--warning-bg); border-left: 4px solid var(--warning); }
+  .callout-success { background: var(--success-bg); border-left: 4px solid var(--success); }
+  .callout-info { background: var(--primary-light); border-left: 4px solid var(--primary); }
+  .callout strong { display: block; margin-bottom: 4px; }
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+  .badge-critical { background: var(--danger-bg); color: var(--danger); border: 1px solid #fecaca; }
+  .badge-high { background: var(--warning-bg); color: var(--warning); border: 1px solid #fed7aa; }
+  .badge-medium { background: var(--primary-light); color: var(--primary); border: 1px solid #bfdbfe; }
+  .badge-low { background: var(--neutral-bg); color: var(--neutral); border: 1px solid var(--border); }
+  .badge-carrier { background: #dbeafe; color: #1e40af; }
+  .badge-system { background: #f1f5f9; color: #475569; }
+  .badge-dashboard { background: #d1fae5; color: #065f46; }
+  .badge-ecomm { background: #ffe4e6; color: #9f1239; }
+  .badge-maint { background: #f5f3ff; color: #7c3aed; }
+
+  /* Feature spec cards */
+  .spec-card { border: 1px solid var(--border); border-radius: 12px; margin-bottom: 24px; overflow: hidden; }
+  .spec-card-header { padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+  .spec-card-header.critical { background: linear-gradient(135deg, #fef2f2, #fff); border-bottom: 2px solid var(--danger); }
+  .spec-card-header.high { background: linear-gradient(135deg, #fffbeb, #fff); border-bottom: 2px solid var(--warning); }
+  .spec-card-header.medium { background: linear-gradient(135deg, #e8eefb, #fff); border-bottom: 2px solid var(--primary); }
+  .spec-card-header.greenfield { background: linear-gradient(135deg, #ecfdf5, #fff); border-bottom: 2px solid var(--success); }
+  .spec-card-header h3 { font-size: 17px; display: flex; align-items: center; gap: 10px; }
+  .spec-card-header .fnum { background: var(--primary); color: white; font-size: 12px; padding: 3px 10px; border-radius: 12px; font-weight: 700; }
+  .spec-card-body { padding: 20px; }
+  .spec-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .spec-grid.full { grid-template-columns: 1fr; }
+  .spec-box { background: var(--neutral-bg); border-radius: 8px; padding: 14px; }
+  .spec-box h4 { font-size: 13px; color: var(--primary); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .spec-box p, .spec-box ul { font-size: 13px; color: var(--text); }
+  .spec-box ul { padding-left: 18px; }
+  .spec-box ul li { margin-bottom: 4px; }
+  .spec-box.api-ref { background: #1e293b; color: #e2e8f0; border-radius: 8px; }
+  .spec-box.api-ref h4 { color: #60a5fa; }
+  .spec-box.api-ref a { color: #93c5fd; }
+  .spec-box.api-ref code { background: #334155; padding: 2px 6px; border-radius: 4px; font-size: 12px; color: #fbbf24; }
+  .spec-box.ac-box { background: var(--success-bg); }
+  .spec-box.ac-box h4 { color: var(--success); }
+  .spec-box.risk-box { background: var(--danger-bg); }
+  .spec-box.risk-box h4 { color: var(--danger); }
+
+  /* Prompt section */
+  .prompt-box { background: #1e293b; color: #e2e8f0; padding: 24px; border-radius: 12px; font-family: 'Consolas', 'Courier New', monospace; font-size: 13px; line-height: 1.7; white-space: pre-wrap; word-wrap: break-word; max-height: 600px; overflow-y: auto; }
+  .prompt-box .comment { color: #64748b; }
+  .prompt-box .tag { color: #fbbf24; }
+  .prompt-box .value { color: #34d399; }
+
+  @media print { .nav-bar { display: none; } .section { break-inside: avoid; } body { background: white; } }
+  @media (max-width: 768px) { .spec-grid { grid-template-columns: 1fr; } .container { padding: 0 12px; } }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="container">
+    <h1>MCSL — April 2026 Sprint Plan</h1>
+    <div class="subtitle">12 Features | Dev-Ready Specs | Product Owner Prompt</div>
+    <div class="meta-row">
+      <span>Sprint: April 1 – 30, 2026</span>
+      <span>Features: #1, #2, #3, #4, #7, #8, #10, #33, #38, #39, #42, #43</span>
+      <span>Status: Planning → Ready for Development</span>
+      <span>PHive Mind AI</span>
+    </div>
+  </div>
+</div>
+
+<!-- NAVIGATION -->
+<div class="nav-bar">
+  <div class="container">
+    <a class="nav-link" href="#overview">Overview</a>
+    <a class="nav-link" href="#specs">Feature Specs (12)</a>
+    <a class="nav-link" href="#l3items">L3 Items (17)</a>
+    <a class="nav-link" href="#cards">Task Cards</a>
+    <a class="nav-link" href="#prompt">PO Execution Prompt</a>
+    <span style="flex:1;"></span>
+    <button class="btn-action" onclick="exportCSV()">Export CSV</button>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- OVERVIEW -->
+<div class="section" id="overview">
+  <div class="section-header">
+    <h2>1. Sprint Overview</h2>
+    <p>12 features selected for April 2026 development sprint</p>
+  </div>
+  <div class="section-body">
+    <div class="stats-row">
+      <div class="stat-card"><div class="value">12</div><div class="label">Features</div></div>
+      <div class="stat-card"><div class="value">3</div><div class="label">API Integrations (Critical)</div></div>
+      <div class="stat-card"><div class="value">4</div><div class="label">Carrier Enhancements</div></div>
+      <div class="stat-card"><div class="value">3</div><div class="label">Carrier Expansions</div></div>
+      <div class="stat-card"><div class="value">1</div><div class="label">Greenfield Module</div></div>
+      <div class="stat-card"><div class="value">1</div><div class="label">Ecommerce Fix</div></div>
+    </div>
+
+    <div class="callout callout-danger">
+      <strong>Hard Deadline: DHL Paket REST (#43) — May 31, 2026</strong>
+      DHL Webservices 3 is being retired. German merchants will lose label generation after this date. Must be completed in April to allow May for regression testing.
+    </div>
+
+    <div class="callout callout-warning">
+      <strong>⚠️ Priority: PostNord Changes (#4)</strong>
+      Multiple PostNord service decommissions and renames are already in effect or upcoming across all Nordic markets.
+      Merchants shipping via PostNord may experience label failures on decommissioned service codes. Must be prioritized early in the sprint.
+    </div>
+
+    <table>
+      <tr><th>#</th><th>Feature</th><th>Type</th><th>Priority</th><th>API Doc</th></tr>
+      <tr><td>7</td><td>DHL Express REST API Integration</td><td><span class="badge badge-carrier">Carrier</span></td><td><span class="badge badge-critical">P0-Critical</span></td><td><a href="https://developer.dhl.com/api-reference/mydhl-api-dhl-express" target="_blank">MyDHL API</a></td></tr>
+      <tr><td>8</td><td>APC REST API Integration</td><td><span class="badge badge-carrier">Carrier</span></td><td><span class="badge badge-critical">P0-Critical</span></td><td><a href="https://docs.apc-pli.com/" target="_blank">APC Docs</a></td></tr>
+      <tr><td>43</td><td>DHL Paket REST API Integration</td><td><span class="badge badge-carrier">Carrier</span></td><td><span class="badge badge-critical">P0-Critical</span></td><td><a href="https://developer.dhl.com/api-reference/parcel-de-shipping-post-parcel-germany-v2" target="_blank">DHL Parcel DE v2</a></td></tr>
+      <tr><td>1</td><td>FedEx One Rate with Ground</td><td><span class="badge badge-carrier">Carrier</span></td><td><span class="badge badge-high">P1-High</span></td><td><a href="https://developer.fedex.com/api/en-us/catalog/rate/docs.html" target="_blank">FedEx Rate API</a></td></tr>
+      <tr><td>10</td><td>FedEx Saturday Services</td><td><span class="badge badge-carrier">Carrier</span></td><td><span class="badge badge-high">P1-High</span></td><td><a href="https://developer.fedex.com/api/en-us/catalog/rate/docs.html" target="_blank">FedEx Rate API</a></td></tr>
+      <tr><td>39</td><td>UPS Simple Rates (Mixed Display)</td><td><span class="badge badge-carrier">Carrier</span></td><td><span class="badge badge-high">P1-High</span></td><td><a href="https://developer.ups.com/" target="_blank">UPS Dev Portal</a></td></tr>
+      <tr><td>2</td><td>AuPost Suburb Validation</td><td><span class="badge badge-carrier">Carrier</span></td><td><span class="badge badge-medium">P2-Medium</span></td><td><a href="https://auspost.com.au/business/marketing-and-communications/access-data-and-insights/address-data/postcode-data" target="_blank">AuPost PAF</a></td></tr>
+      <tr><td>3</td><td>PostNord UK Expansion</td><td><span class="badge badge-carrier">Carrier</span></td><td><span class="badge badge-medium">P2-Medium</span></td><td><a href="https://developer.postnord.com/" target="_blank">PostNord Dev</a></td></tr>
+      <tr><td>4</td><td>PostNord Service Changes</td><td><span class="badge badge-maint">Maintenance</span></td><td><span class="badge badge-high">P1-High</span></td><td><a href="https://developer.postnord.com/" target="_blank">PostNord Dev</a></td></tr>
+      <tr><td>38</td><td>NZ Post MPB Integration</td><td><span class="badge badge-carrier">Carrier</span></td><td><span class="badge badge-medium">P2-Medium</span></td><td><a href="https://www.nzpost.co.nz/business/ecommerce/developer-resource-centre" target="_blank">NZ Post Dev</a></td></tr>
+      <tr><td>33</td><td>App Dashboard (Analytics)</td><td><span class="badge badge-dashboard">Dashboard</span></td><td><span class="badge badge-high">P1-High</span></td><td>—</td></tr>
+      <tr><td>42</td><td>Bundled Products Support</td><td><span class="badge badge-ecomm">Ecommerce</span></td><td><span class="badge badge-high">P1-High</span></td><td><a href="https://shopify.dev/docs/api/admin-rest/latest/resources/product" target="_blank">Shopify Product API</a></td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- FEATURE SPECS -->
+<div class="section" id="specs">
+  <div class="section-header">
+    <h2>2. Dev-Ready Feature Specifications</h2>
+    <p>Each feature includes: user story, acceptance criteria, technical details, API references, and risks</p>
+  </div>
+  <div class="section-body">
+
+    <!-- ═══ FEATURE #7 — DHL Express REST API Integration ═══ -->
+    <div class="spec-card" id="f7">
+      <div class="spec-card-header critical">
+        <h3><span class="fnum">#7</span> DHL Express REST API Integration</h3>
+        <div><span class="badge badge-critical">P0-Critical</span> <span class="badge badge-carrier">Carrier</span></div>
+      </div>
+      <div class="spec-card-body">
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>User Story</h4>
+            <p><strong>As a</strong> Shopify merchant using DHL Express,<br><strong>I want</strong> MCSL to integrate the MyDHL REST API as a new carrier option,<br><strong>So that</strong> I can use DHL Express services for label generation, rate queries, and tracking via the latest DHL API.</p>
+          </div>
+          <div class="spec-box">
+            <h4>Scope &amp; Impact</h4>
+            <ul>
+              <li><strong>Affected merchants:</strong> All DHL Express users (~15-20% of active merchants)</li>
+              <li><strong>Ticket signal:</strong> 1,093 DHL-related tickets in KB</li>
+              <li><strong>Risk if delayed:</strong> Complete DHL Express outage for all merchants</li>
+              <li><strong>Type:</strong> New Carrier Integration — DHL Express via REST API (treated as new carrier)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box api-ref">
+            <h4>API Documentation &amp; Technical References</h4>
+            <p><strong>Primary API:</strong> <a href="https://developer.dhl.com/api-reference/mydhl-api-dhl-express" target="_blank">MyDHL API — DHL Express</a></p>
+            <p><strong>Authentication:</strong> OAuth 2.0 (client_credentials grant) → replaces legacy XML basic auth</p>
+            <p><strong>Base URL:</strong> <code>https://express.api.dhl.com/mydhlapi</code> (prod) | <code>https://express.api.dhl.com/mydhlapi/test</code> (sandbox)</p>
+            <p><strong>Endpoints to implement:</strong></p>
+            <ul style="padding-left:18px;margin-top:6px;">
+              <li><code>POST /shipments</code> — Label generation (replaces XML ShipmentRequest)</li>
+              <li><code>POST /rates</code> — Rate query (replaces XML RateRequest)</li>
+              <li><code>GET /tracking?shipmentTrackingNumber={AWB}</code> — Tracking</li>
+              <li><code>POST /pickups</code> — Pickup scheduling</li>
+              <li><code>DELETE /shipments/{shipmentTrackingNumber}</code> — Void label</li>
+            </ul>
+            <p style="margin-top:8px;"><strong>Key differences from XML API:</strong></p>
+            <ul style="padding-left:18px;margin-top:4px;">
+              <li>JSON request/response (not XML SOAP)</li>
+              <li>OAuth 2.0 token with 3600s expiry (must implement token refresh)</li>
+              <li>Improved error codes with structured JSON error objects</li>
+              <li>Rate limiting: 100 requests/second (check X-RateLimit headers)</li>
+              <li>Label output formats: PDF, ZPL, PNG (base64 encoded in response)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Customer can use DHL Express services to generate labels on REST API</li>
+              <li>AC-2: DHL Express rates are returned accurately at checkout via REST API</li>
+              <li>AC-3: OAuth 2.0 token auto-refreshes before expiry</li>
+              <li>AC-4: Tracking data displays all status events</li>
+              <li>AC-5: Pickup scheduling creates valid pickup requests</li>
+              <li>AC-6: Void label successfully cancels shipment</li>
+              <li>AC-7: Error messages display meaningful descriptions</li>
+              <li>AC-8: All DHL Express label sizes render correctly</li>
+            </ul>
+          </div>
+          <div class="spec-box risk-box">
+            <h4>Risks &amp; Mitigations</h4>
+            <ul>
+              <li><strong>Risk:</strong> OAuth token expiry causes intermittent failures<br><strong>Mitigation:</strong> Implement proactive token refresh (refresh at 80% of TTL)</li>
+              <li><strong>Risk:</strong> Rate limiting during peak hours<br><strong>Mitigation:</strong> Implement retry with exponential backoff, queue rate requests</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FEATURE #43 — DHL Paket REST API Integration ═══ -->
+    <div class="spec-card" id="f43">
+      <div class="spec-card-header critical">
+        <h3><span class="fnum">#43</span> DHL Paket REST API Integration</h3>
+        <div><span class="badge badge-critical">P0-Critical</span> <span class="badge badge-carrier">Carrier</span></div>
+      </div>
+      <div class="spec-card-body">
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>User Story</h4>
+            <p><strong>As a</strong> German Shopify merchant,<br><strong>I want</strong> MCSL to integrate DHL Paket via the REST API v2 before May 31, 2026,<br><strong>So that</strong> I can generate domestic and international parcel labels using the latest DHL Paket API.</p>
+          </div>
+          <div class="spec-box">
+            <h4>Scope &amp; Impact</h4>
+            <ul>
+              <li><strong>HARD DEADLINE:</strong> May 31, 2026 — DHL Webservices 3 shutdown</li>
+              <li><strong>Affected merchants:</strong> All German DHL Paket users</li>
+              <li><strong>Ticket signal:</strong> 330209, 332163 — merchants urgently asking</li>
+              <li><strong>Difference from #7:</strong> DHL Paket = German domestic. DHL Express = International express. Different APIs entirely.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box api-ref">
+            <h4>API Documentation &amp; Technical References</h4>
+            <p><strong>Primary API:</strong> <a href="https://developer.dhl.com/api-reference/parcel-de-shipping-post-parcel-germany-v2" target="_blank">DHL Parcel DE Shipping v2</a></p>
+            <p><strong>Authentication:</strong> API Key + Basic Auth (username:password in header)</p>
+            <p><strong>Base URL:</strong> <code>https://api-eu.dhl.com/parcel/de/shipping/v2</code> (prod) | <code>https://api-sandbox.dhl.com/parcel/de/shipping/v2</code> (sandbox)</p>
+            <p><strong>Endpoints:</strong></p>
+            <ul style="padding-left:18px;margin-top:6px;">
+              <li><code>POST /orders</code> — Create shipment order (label generation)</li>
+              <li><code>GET /orders/{shipmentNo}</code> — Get shipment status</li>
+              <li><code>DELETE /orders/{shipmentNo}</code> — Cancel shipment</li>
+              <li><code>PATCH /orders/{shipmentNo}</code> — Update shipment</li>
+            </ul>
+            <p style="margin-top:8px;"><strong>Services to support:</strong></p>
+            <ul style="padding-left:18px;margin-top:4px;">
+              <li><code>V01PAK</code> — DHL Paket (domestic standard)</li>
+              <li><code>V53WPAK</code> — DHL Paket International</li>
+              <li><code>V54EPAK</code> — DHL Europaket</li>
+              <li><code>V62WP</code> — Warenpost (lightweight)</li>
+              <li><code>V66WPI</code> — Warenpost International</li>
+              <li>Retoure (return labels) via separate endpoint</li>
+            </ul>
+            <p style="margin-top:8px;"><strong>Label formats:</strong> <code>include=labelUrl</code> (URL) or <code>include=label</code> (base64 PDF). Sizes: A4, 100x70mm.</p>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: DHL Paket domestic labels (V01PAK) generate on REST API v2</li>
+              <li>AC-2: Warenpost labels (V62WP, V66WPI) generate correctly</li>
+              <li>AC-3: International labels (V53WPAK, V54EPAK) include customs data</li>
+              <li>AC-4: Retoure (return) labels generate via REST</li>
+              <li>AC-5: Customer can enter new DHL Paket REST API credentials and connect successfully</li>
+              <li>AC-6: Label formats (A4 / 100x70mm) render correctly</li>
+              <li>AC-7: Void shipment works and reflects in MCSL UI</li>
+              <li>AC-8: Integration completed by April 30 (30-day buffer before deadline)</li>
+            </ul>
+          </div>
+          <div class="spec-box risk-box">
+            <h4>Risks &amp; Mitigations</h4>
+            <ul>
+              <li><strong>Risk:</strong> Tight deadline — May 31 hard cutoff<br><strong>Mitigation:</strong> Start Week 1, prioritize as new carrier integration alongside #7</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FEATURE #8 — APC REST API Integration ═══ -->
+    <div class="spec-card" id="f8">
+      <div class="spec-card-header critical">
+        <h3><span class="fnum">#8</span> APC Postal REST API Integration</h3>
+        <div><span class="badge badge-critical">P0-Critical</span> <span class="badge badge-carrier">Carrier</span></div>
+      </div>
+      <div class="spec-card-body">
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>User Story</h4>
+            <p><strong>As a</strong> merchant using APC Postal (Asendia USA) for lightweight international shipments,<br><strong>I want</strong> MCSL to integrate the APC REST API as a new carrier option,<br><strong>So that</strong> I can use APC Postal services for label generation and tracking via the latest API.</p>
+          </div>
+          <div class="spec-box">
+            <h4>Scope &amp; Impact</h4>
+            <ul>
+              <li><strong>Affected merchants:</strong> APC Postal / Asendia USA users</li>
+              <li><strong>Partnership-driven:</strong> APC has requested this integration</li>
+              <li><strong>Auth:</strong> API key (simpler than DHL OAuth)</li>
+              <li><strong>Effort:</strong> Smaller than DHL — straightforward new carrier integration</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box api-ref">
+            <h4>API Documentation &amp; Technical References</h4>
+            <p><strong>Primary API:</strong> <a href="https://docs.apc-pli.com/" target="_blank">APC Postal API Docs</a> | <a href="https://a1api.asendiausa.com/swagger/index.html" target="_blank">Asendia USA Swagger</a></p>
+            <p><strong>Authentication:</strong> API Key in header (<code>X-API-Key</code>)</p>
+            <p><strong>Endpoints:</strong></p>
+            <ul style="padding-left:18px;margin-top:6px;">
+              <li><code>POST /api/v1/shipments</code> — Create shipment + label</li>
+              <li><code>GET /api/v1/tracking/{trackingNumber}</code> — Tracking</li>
+              <li><code>GET /api/v1/rates</code> — Rate calculation</li>
+              <li><code>DELETE /api/v1/shipments/{id}</code> — Void shipment</li>
+            </ul>
+            <p style="margin-top:8px;"><strong>Note:</strong> New carrier integration — no legacy service code mapping needed</p>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: All APC services generate labels on REST API</li>
+              <li>AC-2: API key auth works (no complex OAuth flow)</li>
+              <li>AC-3: Rate queries return accurate pricing</li>
+              <li>AC-4: Tracking integration shows APC status events</li>
+              <li>AC-5: All APC service codes are correctly configured in the new integration</li>
+            </ul>
+          </div>
+          <div class="spec-box risk-box">
+            <h4>Risks &amp; Mitigations</h4>
+            <ul>
+              <li><strong>Risk:</strong> APC service codes may have undocumented edge cases<br><strong>Mitigation:</strong> Obtain comprehensive service list from APC partner team</li>
+              <li><strong>Risk:</strong> Sandbox testing may not cover all service types<br><strong>Mitigation:</strong> Test with production credentials on a staging environment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FEATURE #1 — FedEx One Rate (UPDATED) ═══ -->
+    <div class="spec-card" id="f1">
+      <div class="spec-card-header high">
+        <h3><span class="fnum">#1</span> FedEx One Rate with Ground</h3>
+        <div><span class="badge badge-high">P1-High</span> <span class="badge badge-carrier">Carrier</span></div>
+      </div>
+      <div class="spec-card-body">
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>User Story</h4>
+            <p><strong>As a</strong> Shopify merchant using FedEx,<br><strong>I want</strong> FedEx One Rate pricing (including Ground) to automatically appear at checkout alongside standard FedEx rates,<br><strong>So that</strong> my customers can choose flat-rate shipping options without me needing to enable any special setting.</p>
+          </div>
+          <div class="spec-box">
+            <h4>Scope &amp; Impact</h4>
+            <ul>
+              <li><strong>Default ON:</strong> FedEx One Rate + Ground rates appear at checkout <strong>by default</strong> for all merchants. There is <strong>no setting to enable</strong> One Rate — it is always on.</li>
+              <li><strong>Disable toggle:</strong> A new "Disable FedEx One Rate" toggle is needed in FedEx carrier settings for merchants who do NOT want One Rate shown.</li>
+              <li>When disabled, only standard FedEx rates appear (current behavior).</li>
+              <li><strong>Ticket signal:</strong> 1,788 FedEx-related tickets in KB.</li>
+              <li><strong>Affects:</strong> All FedEx-enabled merchants.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box api-ref">
+            <h4>API Documentation &amp; Technical References</h4>
+            <p><strong>Primary API:</strong> <a href="https://developer.fedex.com/api/en-us/catalog/rate/docs.html" target="_blank">FedEx Rate API v1</a></p>
+            <p><strong>Key parameter:</strong> <code>rateRequestType: "ONE_RATE"</code> in the rate request body</p>
+            <p><strong>Eligible services:</strong> FedEx Ground, Express Saver, 2Day, Standard Overnight, Priority Overnight, First Overnight, Home Delivery</p>
+            <p><strong>Packaging types to map:</strong></p>
+            <ul style="padding-left:18px;margin-top:6px;">
+              <li><code>FEDEX_ENVELOPE</code> — up to 10 lbs</li>
+              <li><code>FEDEX_PAK</code> — up to 50 lbs</li>
+              <li><code>FEDEX_SMALL_BOX</code> — 12.375" x 10.875" x 1.5"</li>
+              <li><code>FEDEX_MEDIUM_BOX</code> — 13.25" x 11.5" x 2.375"</li>
+              <li><code>FEDEX_LARGE_BOX</code> — 17.5" x 12.375" x 3"</li>
+              <li><code>FEDEX_EXTRA_LARGE_BOX</code> — 11.875" x 11" x 10.75"</li>
+            </ul>
+            <p style="margin-top:8px;"><strong>Integration pattern:</strong> Query ONE_RATE alongside standard rates → merge results → display both at checkout</p>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: FedEx One Rate services and FedEx Ground appear at checkout by default without any merchant configuration.</li>
+              <li>AC-2: A "Disable FedEx One Rate" toggle exists in FedEx carrier settings within the app.</li>
+              <li>AC-3: When the disable toggle is ON, no One Rate services appear at checkout — only standard rates.</li>
+              <li>AC-4: Label generation uses the correct One Rate packaging code when the customer selected a One Rate service at checkout.</li>
+              <li>AC-5: One Rate eligibility follows FedEx rules: FedEx-provided packaging, max 50 lbs, US domestic only (initially).</li>
+            </ul>
+          </div>
+          <div class="spec-box risk-box">
+            <h4>Risks &amp; Mitigations</h4>
+            <ul>
+              <li><strong>Risk:</strong> Merchants currently not seeing One Rate may get unexpected rate changes at checkout.<br><strong>Mitigation:</strong> Include a one-time notification/changelog entry explaining the new default behavior and how to disable it.</li>
+              <li><strong>Risk:</strong> One Rate packaging requirements (must use FedEx packaging) may confuse merchants.<br><strong>Mitigation:</strong> Clear tooltip on the disable toggle explaining when One Rate applies.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FEATURE #10 — FedEx Saturday (UPDATED) ═══ -->
+    <div class="spec-card" id="f10">
+      <div class="spec-card-header high">
+        <h3><span class="fnum">#10</span> FedEx Saturday Services</h3>
+        <div><span class="badge badge-high">P1-High</span> <span class="badge badge-carrier">Carrier</span></div>
+      </div>
+      <div class="spec-card-body">
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>User Story</h4>
+            <p><strong>As a</strong> Shopify merchant selling time-sensitive products (e.g., healthcare),<br><strong>I want</strong> Saturday delivery services from FedEx to appear at checkout with their surcharge clearly shown,<br><strong>So that</strong> my customers can opt for Saturday delivery and I can pass on the additional cost.</p>
+          </div>
+          <div class="spec-box">
+            <h4>Scope &amp; Impact</h4>
+            <ul>
+              <li><strong>Origin:</strong> Merchant request (zoguri.com, healthcare products) needs Saturday shipping.</li>
+              <li><strong>Current bug:</strong> Saturday delivery setting applies Saturday surcharge to ALL shipments regardless of day/eligibility.</li>
+              <li><strong>Fix:</strong> Saturday services appear alongside normal rates ONLY when FedEx API returns them (e.g., Friday orders). On other days, normal services only.</li>
+              <li>Merchant should NOT need to toggle Saturday on/off based on day of week — system handles this automatically.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box api-ref">
+            <h4>API Technical Details</h4>
+            <p><strong>API:</strong> <a href="https://developer.fedex.com/api/en-us/catalog/rate/docs.html" target="_blank">FedEx Rate API v1</a></p>
+            <p><strong>Saturday Delivery:</strong> <code>specialServicesRequested.specialServiceTypes: ["SATURDAY_DELIVERY"]</code></p>
+            <p><strong>Saturday Pickup:</strong> <code>specialServiceTypes: ["SATURDAY_PICKUP"]</code> in pickup request</p>
+            <p><strong>Eligible services:</strong> Priority Overnight, Standard Overnight, 2Day</p>
+            <p><strong>Day-of-week logic:</strong> Only show Saturday options when FedEx API actually returns them.</p>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box" style="background: #f0f9ff; border: 1px solid #bae6fd;">
+            <h4 style="color: #0369a1;">Codebase Reference — Files to Modify</h4>
+            <p style="margin-bottom:10px;padding:6px 10px;background:#fff3cd;border-left:3px solid #d97706;border-radius:4px;font-size:12px;color:#92400e;"><strong>⚠ Reference only:</strong> File paths, line numbers, and code snippets below are based on a point-in-time analysis. Always verify against the actual codebase before making changes.</p>
+            <ul>
+              <li><strong>Request Builder:</strong> <code>storepepSAAS/server/src/shared/API/carriers/fedExRest/requestBuilder.js</code><br>
+                Line 921: <code>isSaturdayShippingNeedFor(order)</code> — checks <code>currentDayLocal !== 6</code> (Saturday = 6). <strong>Bug: This only checks if today IS Saturday for pickup, not if delivery can be Saturday.</strong><br>
+                Line 1143: <code>isSaturdayDeliverySupportService(service)</code> — checks against <code>config.carriers.fedexRest.common.saturdaySupportedServices[]</code><br>
+                Line 1181-1186: Saturday logic flow:<br>
+                &nbsp;&nbsp;• <code>isSaturdayShippingNeedFor(order)</code> → pushes <code>SATURDAY_PICKUP</code><br>
+                &nbsp;&nbsp;• <code>carrier.isFedexSaturdayServiceEnabled &amp;&amp; isSaturdayDeliverySupportService()</code> → pushes <code>SATURDAY_DELIVERY</code><br>
+                <strong>Fix needed:</strong> For rates, make TWO requests — one normal, one with SATURDAY_DELIVERY — and merge results. Current code adds Saturday to ALL requests when enabled.</li>
+              <li style="margin-top:6px;"><strong>Bulk Action Route:</strong> <code>storepepSAAS/server/src/routes/orders.js</code><br>
+                Lines 1650-1668: <code>POST /api/orders/bulkaction/enablesaturdaydelivery</code> — bulk enable handler</li>
+              <li style="margin-top:6px;"><strong>Settings Keys:</strong><br>
+                &nbsp;&nbsp;• <code>isFedexSaturdayServiceEnabled</code> (Boolean, carriers.js:150)<br>
+                &nbsp;&nbsp;• <code>saturdayDelivery</code> (Boolean, default: false, carriers.js:346)</li>
+              <li style="margin-top:6px;"><strong>Ticket Signal:</strong> 159 fedex_services tickets. Saturday-related issues in rules configuration (tickets #276830, #280884).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: When Saturday delivery settings are enabled, checkout shows normal rates AND Saturday delivery services (clearly marked) when the API returns them.</li>
+              <li>AC-2: When Saturday delivery settings are enabled but FedEx API does not return Saturday services (e.g., order on Monday), only normal services shown — no errors.</li>
+              <li>AC-3: Merchant does NOT need to manually toggle Saturday settings on/off. System shows/hides based on API response.</li>
+              <li>AC-4: When an order is placed with Saturday delivery rate, label generation includes the Saturday special service flag IF still available at label generation time.</li>
+              <li>AC-5: Saturday surcharge amount is transparently reflected in the rate shown to the customer.</li>
+            </ul>
+          </div>
+          <div class="spec-box risk-box">
+            <h4>Risks &amp; Mitigations</h4>
+            <ul>
+              <li><strong>Risk:</strong> FedEx Saturday availability depends on origin/destination/day-of-week.<br><strong>Mitigation:</strong> Add tooltip explaining Saturday delivery availability is determined by FedEx in real-time.</li>
+              <li><strong>Risk:</strong> Label generated days after order may no longer qualify for Saturday.<br><strong>Mitigation:</strong> AC-4 addresses this — only apply Saturday if still available at label generation time.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FEATURE #39 — UPS Simple Rates (UPDATED) ═══ -->
+    <div class="spec-card" id="f39">
+      <div class="spec-card-header high">
+        <h3><span class="fnum">#39</span> UPS Simple Rates (Mixed Display)</h3>
+        <div><span class="badge badge-high">P1-High</span> <span class="badge badge-carrier">Carrier</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:12px;font-size:0.85em;color:#64748b;">
+          <strong>UPS Reference:</strong> <a href="https://www.ups.com/us/en/support/shipping-support/shipping-costs-rates/flat-rate-shipping.page" target="_blank">UPS Flat Rate Shipping Page</a>
+        </p>
+
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>User Story</h4>
+            <p><strong>As a</strong> Shopify merchant using UPS,<br><strong>I want</strong> UPS Simple Rate pricing to appear alongside standard UPS rates at checkout,<br><strong>So that</strong> my customers can compare flat-rate and variable-rate options and choose what works best.</p>
+          </div>
+          <div class="spec-box">
+            <h4>Scope &amp; Impact</h4>
+            <ul>
+              <li><strong>Critical fix:</strong> Current MCSL shows ONLY Simple Rates when enabled — must change to <strong>mixed display</strong> (dual request + merge).</li>
+              <li><strong>Reference:</strong> WooCommerce UPS plugin (<code>class-ph-ups-shipping-controller.php</code> lines 276-294) — dual request + merge logic.</li>
+              <li><strong>Ticket signal:</strong> Churn signals — tickets 367192, 304166, 311414.</li>
+              <li><strong>US domestic only.</strong> Single package shipments only.</li>
+              <li><strong>UPS-branded packaging is NOT mandatory</strong> — customer can use any box meeting the size/weight limits.</li>
+              <li><strong>Existing branch:</strong> <code>feature/ups_boxes</code> on Bitbucket (storepep-react) — UPS box definitions already started by Alwin.</li>
+              <li><strong>Sample data:</strong> ZIP attachment contains sample rate request/response + label (uploaded by sanoopv, Oct 28 2024).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box" style="background: var(--warning-bg); border: 1px solid #fed7aa;">
+            <h4 style="color: var(--warning);">Critical Context — WooCommerce Reference Business Logic</h4>
+            <p>The WooCommerce UPS plugin implements the correct mixed display behavior:</p>
+            <ul>
+              <li><strong>Step 1:</strong> When Simple Rate is enabled AND shipment is eligible, make TWO rate requests — one standard (<code>general</code>) and one with <code>rateType: SIMPLE</code>.</li>
+              <li><strong>Step 2:</strong> Collect both response sets: <code>$rates[$key]['general'][]</code> and <code>$rates[$key]['simple'][]</code>.</li>
+              <li><strong>Step 3 (Merge):</strong> If same service exists in both, the general rate is REMOVED — Simple Rate pricing takes precedence.</li>
+              <li><strong>Step 4:</strong> Final checkout displays merged list — Simple Rate priced services + general-only services.</li>
+            </ul>
+            <p style="margin-top:8px;"><strong>In short:</strong> Simple Rate replaces the price of eligible services but does NOT hide ineligible services.</p>
+          </div>
+        </div>
+
+        <!-- ── Eligibility & Volume-Based Tier Selection (from Manu's implementation plan) ── -->
+        <div class="spec-grid full">
+          <div class="spec-box" style="background: #fefce8; border: 1px solid #fde68a;">
+            <h4 style="color: #92400e;">Eligibility Rules &amp; Volume-Based Tier Selection</h4>
+            <p><strong>Source:</strong> Manu James implementation plan (Sep 22, 2025)</p>
+            <p style="margin-top:8px;"><strong>Eligibility check — ALL must be true:</strong></p>
+            <ul>
+              <li>Package weight ≤ <strong>50 lbs</strong></li>
+              <li>Package volume ≤ <strong>1,728 cubic inches</strong> (12 × 12 × 12)</li>
+              <li><strong>US Domestic</strong> shipment only (origin + destination = US)</li>
+              <li>Single package shipment</li>
+              <li>Any box meeting limits — UPS-branded packaging is <strong>NOT</strong> mandatory</li>
+            </ul>
+            <p style="margin-top:10px;"><strong>Tier determination by volume (cubic inches):</strong></p>
+            <table style="width:100%;border-collapse:collapse;margin-top:6px;font-size:0.9em;">
+              <thead>
+                <tr style="background:#fef3c7;text-align:left;">
+                  <th style="padding:6px 10px;border:1px solid #fde68a;">Tier</th>
+                  <th style="padding:6px 10px;border:1px solid #fde68a;">Code</th>
+                  <th style="padding:6px 10px;border:1px solid #fde68a;">Volume Range (cu in)</th>
+                  <th style="padding:6px 10px;border:1px solid #fde68a;">Max Weight</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td style="padding:5px 10px;border:1px solid #fde68a;">Extra Small</td><td style="padding:5px 10px;border:1px solid #fde68a;"><code>XS</code></td><td style="padding:5px 10px;border:1px solid #fde68a;">≤ 100</td><td style="padding:5px 10px;border:1px solid #fde68a;">50 lbs</td></tr>
+                <tr><td style="padding:5px 10px;border:1px solid #fde68a;">Small</td><td style="padding:5px 10px;border:1px solid #fde68a;"><code>S</code></td><td style="padding:5px 10px;border:1px solid #fde68a;">101 – 250</td><td style="padding:5px 10px;border:1px solid #fde68a;">50 lbs</td></tr>
+                <tr><td style="padding:5px 10px;border:1px solid #fde68a;">Medium</td><td style="padding:5px 10px;border:1px solid #fde68a;"><code>M</code></td><td style="padding:5px 10px;border:1px solid #fde68a;">251 – 650</td><td style="padding:5px 10px;border:1px solid #fde68a;">50 lbs</td></tr>
+                <tr><td style="padding:5px 10px;border:1px solid #fde68a;">Large</td><td style="padding:5px 10px;border:1px solid #fde68a;"><code>L</code></td><td style="padding:5px 10px;border:1px solid #fde68a;">651 – 1,050</td><td style="padding:5px 10px;border:1px solid #fde68a;">50 lbs</td></tr>
+                <tr><td style="padding:5px 10px;border:1px solid #fde68a;">Extra Large</td><td style="padding:5px 10px;border:1px solid #fde68a;"><code>XL</code></td><td style="padding:5px 10px;border:1px solid #fde68a;">1,051 – 1,728</td><td style="padding:5px 10px;border:1px solid #fde68a;">50 lbs</td></tr>
+              </tbody>
+            </table>
+            <p style="margin-top:10px;"><strong>API request node (when eligible):</strong></p>
+            <pre style="background:#451a03;color:#fef3c7;padding:10px;border-radius:6px;font-size:0.85em;margin-top:4px;">"SimpleRate": { "Code": "XS" }   // tier code: XS | S | M | L | XL</pre>
+          </div>
+        </div>
+
+        <!-- ── 15 Box Variants with Exact Dimensions ── -->
+        <div class="spec-grid full">
+          <div class="spec-box api-ref">
+            <h4>UPS Simple Rate Box Definitions — 15 Variants (All dimensions in inches)</h4>
+            <p><strong>Source:</strong> <code>UPS_SIMPLE_RATE_BOXES_IN_INCHES</code> constant from WooCommerce plugin</p>
+            <table style="width:100%;border-collapse:collapse;margin-top:8px;font-size:0.88em;">
+              <thead>
+                <tr style="background:#f1f5f9;text-align:left;">
+                  <th style="padding:6px 8px;border:1px solid #e2e8f0;">Tier</th>
+                  <th style="padding:6px 8px;border:1px solid #e2e8f0;">Code</th>
+                  <th style="padding:6px 8px;border:1px solid #e2e8f0;">L × W × H</th>
+                  <th style="padding:6px 8px;border:1px solid #e2e8f0;">Volume (cu in)</th>
+                  <th style="padding:6px 8px;border:1px solid #e2e8f0;">Box Wt</th>
+                  <th style="padding:6px 8px;border:1px solid #e2e8f0;">Max Wt</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="background:#f0fdf4;"><td style="padding:5px 8px;border:1px solid #e2e8f0;" colspan="6"><strong>Extra Small (XS)</strong></td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">XS</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>XS</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">4 × 4 × 4</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">64</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">XS:2</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>XS</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">6 × 4 × 4</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">96</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">XS:3</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>XS</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">8 × 6 × 2</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">96</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+
+                <tr style="background:#eff6ff;"><td style="padding:5px 8px;border:1px solid #e2e8f0;" colspan="6"><strong>Small (S)</strong></td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">S</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>S</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">6 × 6 × 6</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">216</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">S:2</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>S</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">8 × 6 × 5</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">240</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">S:3</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>S</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">12 × 9 × 2</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">216</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+
+                <tr style="background:#fefce8;"><td style="padding:5px 8px;border:1px solid #e2e8f0;" colspan="6"><strong>Medium (M)</strong></td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">M</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>M</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">8 × 8 × 8</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">512</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">M:2</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>M</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">12 × 9 × 6</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">648</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">M:3</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>M</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">13 × 11 × 2</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">286</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+
+                <tr style="background:#fdf2f8;"><td style="padding:5px 8px;border:1px solid #e2e8f0;" colspan="6"><strong>Large (L)</strong></td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">L</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>L</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">10 × 10 × 10</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">1,000</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">L:2</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>L</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">12 × 12 × 7</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">1,008</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">L:3</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>L</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">15 × 11 × 6</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">990</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+
+                <tr style="background:#faf5ff;"><td style="padding:5px 8px;border:1px solid #e2e8f0;" colspan="6"><strong>Extra Large (XL)</strong></td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">XL</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>XL</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">12 × 12 × 12</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">1,728</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">XL:2</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>XL</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">16 × 12 × 9</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">1,728</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">XL:3</td><td style="padding:4px 8px;border:1px solid #e2e8f0;"><code>XL</code></td><td style="padding:4px 8px;border:1px solid #e2e8f0;">18 × 12 × 6</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">1,296</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">50</td></tr>
+              </tbody>
+            </table>
+            <p style="margin-top:8px;font-size:0.85em;color:#64748b;"><strong>Note:</strong> All boxes have <code>box_weight: 0</code> and <code>max_weight: 50</code>. The tier code sent in the API is the base code (XS/S/M/L/XL) — variants share the same tier code.</p>
+          </div>
+        </div>
+
+        <!-- ── Additional UPS Standard Boxes (from Alwin's comment) ── -->
+        <div class="spec-grid full">
+          <div class="spec-box" style="background: #f8fafc; border: 1px solid #e2e8f0;">
+            <h4 style="color: #475569;">Additional UPS Standard Boxes (Non-Simple-Rate)</h4>
+            <p><strong>Source:</strong> Alwin John (Dec 2, 2024 comment) — boxes info taken from WooCommerce UPS plugin</p>
+            <table style="width:100%;border-collapse:collapse;margin-top:8px;font-size:0.88em;">
+              <thead>
+                <tr style="background:#f1f5f9;text-align:left;">
+                  <th style="padding:5px 8px;border:1px solid #e2e8f0;">Key</th>
+                  <th style="padding:5px 8px;border:1px solid #e2e8f0;">Name</th>
+                  <th style="padding:5px 8px;border:1px solid #e2e8f0;">Code</th>
+                  <th style="padding:5px 8px;border:1px solid #e2e8f0;">L × W × H</th>
+                  <th style="padding:5px 8px;border:1px solid #e2e8f0;">Max Wt</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">A_UPS_LETTER</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">UPS Letter</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">01</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">12.5 × 9.5 × 0.25</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">0.5</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">B_TUBE</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">Tube</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">03</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">38 × 6 × 6</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">100</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">C_PAK</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">PAK</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">04</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">17 × 13 × 1</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">100</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">D_25KG_BOX</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">25KG Box</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">24</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">19.375 × 17.375 × 14</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">55</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">E_10KG_BOX</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">10KG Box</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">25</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">16.5 × 13.25 × 10.75</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">22</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">F_SMALL_EXPRESS_BOX</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">Small Express Box</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">2a</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">13 × 11 × 2</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">100</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">G_MEDIUM_EXPRESS_BOX</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">Medium Express Box</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">2b</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">15 × 11 × 3</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">100</td></tr>
+                <tr><td style="padding:4px 8px;border:1px solid #e2e8f0;">H_LARGE_EXPRESS_BOX</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">Large Express Box</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">2c</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">18 × 13 × 3</td><td style="padding:4px 8px;border:1px solid #e2e8f0;">30</td></tr>
+              </tbody>
+            </table>
+            <p style="margin-top:8px;font-size:0.85em;color:#64748b;"><strong>Note:</strong> Once these are available for customers, the "packing type" dropdown from Carrier Settings will be removed (per Alwin's comment).</p>
+          </div>
+        </div>
+
+        <!-- ── Known Bug from Developer Testing ── -->
+        <div class="spec-grid full">
+          <div class="spec-box" style="background: #fef2f2; border: 1px solid #fecaca;">
+            <h4 style="color: #dc2626;">Known Bug — Simple Rate Validation Warning (Manu James, Sep 23 2025)</h4>
+            <p>Shipping charges are getting <strong>reduced</strong> when Simple Rate is applied, even though the UPS API returns a <code>"Simple Rate is not Valid"</code> warning in the rate response:</p>
+            <pre style="background:#450a0a;color:#fecaca;padding:10px;border-radius:6px;font-size:0.85em;margin-top:6px;">{ "Code": "0", "Description": "Simple Rate is not Valid" }</pre>
+            <p style="margin-top:8px;"><strong>Impact:</strong> Charges are reduced incorrectly despite the validation warning. <strong>Needs clarification before proceeding.</strong></p>
+            <p><strong>Open question from Manu:</strong> "Some services are not available if we specify simple rate tier in the request. Should we ask customer confirmation to use simple rate?"</p>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box api-ref">
+            <h4>API Documentation &amp; Technical References</h4>
+            <p><strong>Primary API:</strong> <a href="https://developer.ups.com/" target="_blank">UPS Developer Portal — Rating API</a></p>
+            <p><strong>UPS Flat Rate Info:</strong> <a href="https://www.ups.com/us/en/support/shipping-support/shipping-costs-rates/flat-rate-shipping.page" target="_blank">ups.com/…/flat-rate-shipping.page</a></p>
+            <p><strong>API request node:</strong> <code>"SimpleRate": { "Code": "&lt;tier&gt;" }</code> — added to the Package object when eligible</p>
+            <p><strong>Eligibility:</strong> Single package, ≤ 50 lbs, volume ≤ 1,728 cu in, US domestic only</p>
+            <p style="margin-top:8px;"><strong>Services supporting Simple Rate:</strong> UPS Ground, 3 Day Select, 2nd Day Air, Next Day Air Saver, Next Day Air</p>
+            <p><strong>Sample request/response:</strong> See <code>UPS Simple Rate.zip</code> attachment (uploaded by sanoopv, Oct 28 2024)</p>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box" style="background: #f0f9ff; border: 1px solid #bae6fd;">
+            <h4 style="color: #0369a1;">Codebase Reference — Files to Modify</h4>
+            <p style="margin-bottom:10px;padding:6px 10px;background:#fff3cd;border-left:3px solid #d97706;border-radius:4px;font-size:12px;color:#92400e;"><strong>⚠ Reference only:</strong> File paths, line numbers, and code snippets below are based on a point-in-time analysis. Always verify against the actual codebase before making changes.</p>
+            <ul>
+              <li><strong>UPS Carrier Module:</strong> <code>storepepSAAS/server/src/shared/API/carriers/ups/</code> directory<br>
+                Contains: request builder, helper, service mapper, constants</li>
+              <li style="margin-top:6px;"><strong>Existing branch:</strong> <code>feature/ups_boxes</code> on Bitbucket (storepep-react) — UPS box definitions already started by Alwin John</li>
+              <li style="margin-top:6px;"><strong>Architecture (code_architecture.md):</strong><br>
+                Line 825: <code>saturdayDeliveryIndicator: true</code> in UPS rate request<br>
+                Line 881: <code>rateRequestTypes: ['ACCOUNT']</code> in FedEx — similar pattern needed for UPS Simple Rate<br>
+                <code>mapUpsServiceCode()</code> function maps service codes to names</li>
+              <li style="margin-top:6px;"><strong>Settings:</strong> <code>storepepSAAS/client/src/components/form/settings/carriers/getDefaultValues.js</code> (line 302)<br>
+                New settings needed: <code>enableUpsSimpleRate</code> (Boolean, default: false), <code>simpleRateBoxSizes</code> (array of enabled tiers)<br>
+                <strong>Note:</strong> "Packing type" dropdown in Carrier Settings to be removed once UPS boxes are available</li>
+              <li style="margin-top:6px;"><strong>WooCommerce Reference Implementation:</strong><br>
+                <code>ph-woocommerce-ups/.../class-ph-ups-shipping-controller.php</code> lines 276-294:<br>
+                &nbsp;&nbsp;• Setting key: <code>ups_simple_rate</code> (checkbox, default 'no')<br>
+                &nbsp;&nbsp;• API: <code>Package.SimpleRate.Code</code> replaces <code>BoxCode</code><br>
+                &nbsp;&nbsp;• Constants file defines XS-XL box variants with dimensions (15 variants as listed above)</li>
+              <li style="margin-top:6px;"><strong>Ticket Signal:</strong> 64 ups_rates tickets. Common: negotiated rates not showing (#278602). Simple Rate requires: single package, UPS box, ≤50 lbs, US origin.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: When Simple Rate is enabled and shipment is eligible (≤50 lbs, ≤1728 cu in, US domestic, single package), both standard AND Simple Rate requests sent to UPS API.</li>
+              <li>AC-2: Simple Rate pricing replaces standard pricing for the same service (merge logic).</li>
+              <li>AC-3: Services without Simple Rate equivalents remain visible with standard pricing.</li>
+              <li>AC-4: Checkout shows unified list — no separate grouping.</li>
+              <li>AC-5: When Simple Rate is disabled, only standard rates appear.</li>
+              <li>AC-6: Ineligible shipments (multi-package, international, over 50 lbs, over 1728 cu in) show only standard rates. No errors.</li>
+              <li>AC-7: Volume-based tier selection is correct: XS ≤100, S 101-250, M 251-650, L 651-1050, XL 1051-1728 cubic inches.</li>
+              <li>AC-8: All 15 box variants with exact dimensions are available in box selection UI.</li>
+              <li>AC-9: Additional 8 UPS standard boxes (Letter, Tube, PAK, 25KG, 10KG, Small/Medium/Large Express) are available.</li>
+              <li>AC-10: Label generation works correctly for Simple Rate orders (validated against sample in ZIP attachment).</li>
+              <li>AC-11: <code>"Simple Rate is not Valid"</code> warning (Code: 0) is handled gracefully — charges must NOT be reduced when rate is invalid.</li>
+              <li>AC-12: Debug logging for Simple Rate decisions (eligible/ineligible, tier selected, merged/skipped).</li>
+            </ul>
+          </div>
+          <div class="spec-box risk-box">
+            <h4>Risks &amp; Mitigations</h4>
+            <ul>
+              <li><strong>Risk:</strong> Dual API calls add latency to checkout.<br><strong>Mitigation:</strong> Make both requests in parallel (Promise.all). Simple Rate request is lightweight.</li>
+              <li><strong>Risk:</strong> Different service codes for Simple Rate vs standard.<br><strong>Mitigation:</strong> Build service code mapping table. Validate with all 5 eligible services.</li>
+              <li><strong>Risk:</strong> <code>"Simple Rate is not Valid"</code> warning (Code 0) silently reduces charges.<br><strong>Mitigation:</strong> Add explicit check — if warning code 0 with "not Valid" description, discard Simple Rate response and use standard rate only. Log warning.</li>
+              <li><strong>Risk:</strong> Some services become unavailable when Simple Rate tier is specified in request.<br><strong>Mitigation:</strong> Dual-request pattern ensures standard rates are always fetched separately. Only merge where both exist.</li>
+              <li><strong>Risk:</strong> Removing "packing type" dropdown may break existing workflows.<br><strong>Mitigation:</strong> Phase removal — keep dropdown until UPS box selection is fully tested and confirmed working.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FEATURE #2 — AuPost Suburb Validation (UPDATED) ═══ -->
+    <div class="spec-card" id="f2">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">#2</span> Australia Post Suburb Validation</h3>
+        <div><span class="badge badge-medium">P2-Medium</span> <span class="badge badge-carrier">Carrier</span></div>
+      </div>
+      <div class="spec-card-body">
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>User Story</h4>
+            <p><strong>As a</strong> Shopify merchant shipping within Australia using Australia Post,<br><strong>I want</strong> the app to automatically normalize suburb/city names in shipping addresses,<br><strong>So that</strong> rates are fetched correctly AND labels generate without "Could not validate the shipping address" errors.</p>
+          </div>
+          <div class="spec-box">
+            <h4>Scope &amp; Impact</h4>
+            <ul>
+              <li><strong>Zendesk:</strong> #320994</li>
+              <li><strong>Partial fix exists:</strong> City name normalized in rate requests (e.g., "Saint Clair" → "St Clair"), so rates work.</li>
+              <li><strong>Remaining bug:</strong> Label generation does NOT normalize the city. Shopify order retains original city, causing "Could not validate the shipping address" errors.</li>
+              <li>Merchants must manually edit city name before generating a label.</li>
+              <li><strong>Affects:</strong> Australian merchants with customers in suburbs with abbreviated official names.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box api-ref">
+            <h4>API Technical Details</h4>
+            <p><strong>Data source:</strong> <a href="https://auspost.com.au/business/marketing-and-communications/access-data-and-insights/address-data/postcode-data" target="_blank">Australia Post PAF</a></p>
+            <p><strong>Normalization mapping:</strong> Saint→St, Mount→Mt, Point→Pt, North→Nth, South→Sth, East→E, West→W, Great→Gt, etc.</p>
+            <p><strong>Scope:</strong> Apply normalization to BOTH rate request AND label generation API payloads.</p>
+            <p><strong>Constraint:</strong> Shopify order address is NOT modified — normalization only in API request payload.</p>
+          </div>
+          <div class="spec-box">
+            <h4>Additional Context</h4>
+            <p>When customers enter "Saint Clair" as the city at checkout, rates now work (partial fix). But once the order is placed, the shipping address retains "Saint Clair" — causing label generation to fail. The label only succeeds if the merchant manually updates the city to "St Clair" in the order.</p>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box" style="background: #f0f9ff; border: 1px solid #bae6fd;">
+            <h4 style="color: #0369a1;">Codebase Reference — Files to Modify</h4>
+            <p style="margin-bottom:10px;padding:6px 10px;background:#fff3cd;border-left:3px solid #d97706;border-radius:4px;font-size:12px;color:#92400e;"><strong>⚠ Reference only:</strong> File paths, line numbers, and code snippets below are based on a point-in-time analysis. Always verify against the actual codebase before making changes.</p>
+            <ul>
+              <li><strong>Request Builder:</strong> <code>storepepSAAS/server/src/shared/API/carriers/australiaPost/australiaPostRequestBuilder.js</code><br>
+                Line 61: <code>suburb: order.shipFromAddress.city</code> (origin — rate request)<br>
+                Line 69: <code>suburb: order.shipping.city</code> (destination — rate request)<br>
+                Line 213: <code>suburb: order.shipFromAddress.city</code> (origin — label generation)<br>
+                Line 224: <code>suburb: order.shipping.city</code> (destination — label generation)<br>
+                Line 240: <code>suburb: order.shipping.city</code> (additional label path)<br>
+                Line 386: <code>suburb: shipFromAddress.city</code> (pickup path)<br>
+                <strong>Fix:</strong> Add <code>normalizeSuburb(city)</code> wrapper at ALL 6+ locations where <code>suburb</code> is mapped from <code>city</code>. Currently only rate request paths are normalized.</li>
+              <li style="margin-top:6px;"><strong>New utility needed:</strong> <code>normalizeSuburb(city)</code> function in <code>australiaPostHelperFunctions.js</code> or shared utils<br>
+                Mapping: Saint→St, Mount→Mt, Point→Pt, North→Nth, South→Sth, East→E, West→W, Great→Gt<br>
+                Must be case-insensitive, prefix/suffix-word-only replacement, idempotent (no double-normalization)</li>
+              <li style="margin-top:6px;"><strong>Error context:</strong> AuPost error <code>45006 PAYMENT_FAILED</code> (4 occurrences) often from suburb/postcode mismatch. Error <code>400</code> from credential/address validation failure.</li>
+              <li style="margin-top:6px;"><strong>Ticket Signal:</strong> 577 australia_post_labels tickets (highest volume carrier). Common suburb/postcode mismatches: orders #1498, #6027, #8887. Postcode 4813 → TOWNSVILLE MILPO, postcode 6027 → Joondalup.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Rate requests normalize suburb/city names using mapping table.</li>
+              <li>AC-2: Label generation ALSO normalizes the city name — same mapping used for rates.</li>
+              <li>AC-3: Shopify order address is NOT modified — normalization only in API request payload.</li>
+              <li>AC-4: No double-normalization if already abbreviated.</li>
+              <li>AC-5: Case-insensitive matching (e.g., "SAINT CLAIR" → "ST CLAIR").</li>
+              <li>AC-6: Comprehensive mapping table from AusPost PAF data.</li>
+            </ul>
+          </div>
+          <div class="spec-box risk-box">
+            <h4>Risks &amp; Mitigations</h4>
+            <ul>
+              <li><strong>Risk:</strong> Mapping table may not cover all abbreviations.<br><strong>Mitigation:</strong> Start with common mappings from AusPost PAF. Log normalization events to identify gaps.</li>
+              <li><strong>Risk:</strong> Same abbreviated name in different states.<br><strong>Mitigation:</strong> Only change prefix/suffix words. State + postcode remain as identifiers.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FEATURE #3 — PostNord UK (KEPT AS-IS minus dev tasks/deps/size) ═══ -->
+    <div class="spec-card" id="f3">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">#3</span> PostNord UK Expansion</h3>
+        <div><span class="badge badge-medium">P2-Medium</span> <span class="badge badge-carrier">Carrier</span></div>
+      </div>
+      <div class="spec-card-body">
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>User Story</h4>
+            <p><strong>As a</strong> UK-based Shopify merchant selling to Nordic customers,<br><strong>I want</strong> PostNord UK as a carrier option in MCSL,<br><strong>So that</strong> I can offer competitive Nordic delivery rates with UK origin pickup.</p>
+          </div>
+          <div class="spec-box api-ref">
+            <h4>API Technical Details</h4>
+            <p><strong>API:</strong> <a href="https://developer.postnord.com/" target="_blank">PostNord Developer Portal</a> | <a href="https://guide.developer.postnord.com/" target="_blank">API Guide</a></p>
+            <p><strong>Note:</strong> PostNord UK uses a <strong>different API endpoint</strong> than Nordic PostNord</p>
+            <p><strong>Services:</strong> Economy (5-8 days), Priority (2-4 days), Parcel (tracked)</p>
+            <p><strong>Requires:</strong> Separate carrier credentials, service mapping</p>
+            <p><strong>Partnership-driven:</strong> PostNord has requested this integration</p>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: PostNord UK appears when origin country = GB</li>
+              <li>AC-2: Economy, Priority, and Parcel services available</li>
+              <li>AC-3: UK-Nordic transit zone rates calculate correctly</li>
+              <li>AC-4: Labels follow PostNord UK specifications</li>
+              <li>AC-5: Tracking shows PostNord UK status events</li>
+            </ul>
+          </div>
+          <div class="spec-box risk-box">
+            <h4>Risks &amp; Mitigations</h4>
+            <ul>
+              <li><strong>Risk:</strong> PostNord UK API differs from Nordic PostNord<br><strong>Mitigation:</strong> Implement as separate carrier adapter, not an extension of Nordic</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FEATURE #4 — PostNord Service Changes (UPDATED — was "PostNord Finland Changes") ═══ -->
+    <div class="spec-card" id="f4">
+      <div class="spec-card-header high">
+        <h3><span class="fnum">#4</span> PostNord Service Changes</h3>
+        <div><span class="badge badge-high">P1-High</span> <span class="badge badge-maint">Maintenance</span></div>
+      </div>
+      <div class="spec-card-body">
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>User Story</h4>
+            <p><strong>As a</strong> Shopify merchant using PostNord for Nordic and European shipments,<br><strong>I want</strong> the app to reflect all current PostNord service changes — renames, decommissions, new customs requirements, and Split Shipment updates,<br><strong>So that</strong> my shipments continue working without label failures or customs rejections.</p>
+          </div>
+          <div class="spec-box">
+            <h4>Scope &amp; Impact</h4>
+            <ul>
+              <li><strong>Scope:</strong> 12 changes documented — renames, decommissions, customs, Split Shipment.</li>
+              <li><strong>Multi-country:</strong> Affects Germany (z10), Denmark (z11), Sweden (z12), Norway (z13), Finland (z14), International (ZDL).</li>
+              <li><strong>Urgency:</strong> Decommissioned services already causing or will imminently cause label failures.</li>
+              <li><strong>Affects:</strong> All PostNord-enabled merchants across Nordic and European markets.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box" style="background: var(--warning-bg); border: 1px solid #fed7aa;">
+            <h4 style="color: var(--warning);">PostNord Changes — Full List (12 Items)</h4>
+
+            <p><strong>Issuer Codes Reference:</strong> Germany=z10, Denmark=z11, Sweden=z12, Norway=z13, Finland=z14, International=ZDL</p>
+
+            <p style="margin-top:12px;"><strong>1. Service Renames:</strong></p>
+            <ul>
+              <li><strong>1. Service Code 86 (z12)</strong> — Postnord Varubrev 1st Class → renamed to <strong>"Postnord Home Small Prio"</strong><br>
+                Weight limit: <strong>3 kg</strong><br>
+                Additional service: <strong>C2 (Print Label)</strong></li>
+              <li style="margin-top:8px;"><strong>2. Service Code 11 (z12)</strong> — Postnord Varubrev Economy → renamed to <strong>"Postnord Home Small"</strong><br>
+                Weight limit: <strong>3 kg</strong><br>
+                Additional services: <strong>C2 (Print Label)</strong>, <strong>E8 (Split Shipment)</strong> — replaces Service 79 (Consignment Varubrev Norway)<br>
+                Additional data requirements:<br>
+                &nbsp;&nbsp;• Consignor: SE or NO address<br>
+                &nbsp;&nbsp;• Consignee: Receiver in NO<br>
+                &nbsp;&nbsp;• Optional ReturnParty: Sender's return hub in NO</li>
+            </ul>
+
+            <p style="margin-top:12px;"><strong>2. Service Decommissions:</strong></p>
+            <ul>
+              <li><strong>3. Service Code 79 (z12)</strong> — Postnord Consignment Varubrev Norway → <strong>Decommissioned</strong><br>
+                Migration: Migrate to <strong>Postnord Home Small (11) + Split Shipment (E8)</strong><br>
+                Status: Service will be <strong>locked</strong> — available only for clients with a valid PostNord agreement<br>
+                New setup requires:<br>
+                &nbsp;&nbsp;• Consignor: SE or NO address with connected customer number<br>
+                &nbsp;&nbsp;• Consignee: Receiver in NO<br>
+                &nbsp;&nbsp;• Optional ReturnParty: Sender's return hub in NO<br>
+                &nbsp;&nbsp;• Label and number range remain unchanged</li>
+              <li style="margin-top:8px;"><strong>4. Service Code 87 (z12)</strong> — Postnord Varubrev Retur → <strong>Decommissioned</strong><br>
+                Migration: Customers must migrate to <strong>Postnord Return (24)</strong></li>
+              <li style="margin-top:8px;"><strong>5. Service Code 30 (z12)</strong> — Postnord MyPack Home Small → <strong>Decommissioned on 2026-09-01</strong><br>
+                Migration: Customers must migrate to <strong>Postnord Home Small (11)</strong></li>
+              <li style="margin-top:8px;"><strong>6. Service Code 51 (z12)</strong> — Postnord Företagspaket Comeback → <strong>Decommissioned</strong><br>
+                Migration: Customers must migrate to <strong>Postnord Parcel (18)</strong></li>
+            </ul>
+
+            <p style="margin-top:12px;"><strong>3. Split Shipment / Routing Order Changes:</strong></p>
+            <ul>
+              <li><strong>7. Split Shipment (z12)</strong> — Service will be further decommissioned<br>
+                <strong>From May 4, 2026:</strong> Any pallet shipped with <strong>Service 52 + E8 (z12)</strong> will be <strong>rejected and returned to sender</strong><br>
+                With <strong>Issuer Z11 (Denmark)</strong>: routing order usage will also be returned to sender<br>
+                <strong>New requirement:</strong> For all Split Shipment handling, use <strong>Load Carrier (10)</strong> instead</li>
+            </ul>
+
+            <p style="margin-top:12px;"><strong>4. Customs Requirements (Finland &amp; Sweden Exports to Non-EU):</strong></p>
+            <ul>
+              <li><strong>8. Exports from Finland &amp; Sweden (Non-EU destinations)</strong> — Additional mandatory customs data enforced<br>
+                <em>For PostNord as customs agent / TVINN customers — mandatory fields:</em><br>
+                &nbsp;&nbsp;• Seller (exporter) email address<br>
+                &nbsp;&nbsp;• Terms of Sale<br>
+                &nbsp;&nbsp;• Total number of packages<br>
+                &nbsp;&nbsp;• Shipping date<br>
+                &nbsp;&nbsp;• Basic service code (if customs data sent separately)<br>
+                <em>For customers using another customs agent — mandatory fields:</em><br>
+                &nbsp;&nbsp;• DeclarantType<br>
+                &nbsp;&nbsp;• DeclarationIdentification<br>
+                &nbsp;&nbsp;• declarantNo<br>
+                &nbsp;&nbsp;• declarationDate<br>
+                &nbsp;&nbsp;• declarationSequence<br>
+                &nbsp;&nbsp;• totalGrossWeight<br>
+                &nbsp;&nbsp;• totalNoOfPackages<br>
+                &nbsp;&nbsp;• goodsDescription<br>
+                &nbsp;&nbsp;• exportMRN or transitMRN<br>
+                <strong>Note:</strong> Mandatory field validation will be enforced when passing customs data to PostNord.</li>
+            </ul>
+
+            <p style="margin-top:12px;"><strong>5. Regional Requirements:</strong></p>
+            <ul>
+              <li><strong>9. Goods to/from Northern Norway (z13)</strong> — HS Code and content description <strong>mandatory</strong> for transit via Sweden/Finland<br>
+                Required data:<br>
+                &nbsp;&nbsp;• HS Code (6 digits)<br>
+                &nbsp;&nbsp;• Content description<br>
+                Data must be sent at shipment level in Booking API: <code>customsTransitNo.detailedDescription (hsTariffNumber, content)</code><br>
+                <strong>Note:</strong> If this data is not provided, shipments cannot transit via SE/FI and transit time will be extended.</li>
+            </ul>
+
+            <p style="margin-top:12px;"><strong>6. Label &amp; Operational Changes:</strong></p>
+            <ul>
+              <li><strong>10. Service Code 34 (z12)</strong> — Postnord Tracked Letter — <strong>Label update required</strong><br>
+                Change: Replace the current Prime label block with the new version as per updated label blocks.<br>
+                Reference: <a href="https://developer.postnord.com/" target="_blank">Download label blocks | Business</a></li>
+              <li style="margin-top:8px;"><strong>11. Service Code 52 (z12)</strong> — Postnord Pallet — <strong>Export requirements updated</strong><br>
+                Change: Receiver phone number is now <strong>mandatory for shipments outside the Nordic countries</strong> (replacing previous SMS number requirement)</li>
+            </ul>
+
+            <p style="margin-top:12px;"><strong>7. Full Decommissioned Services Summary:</strong></p>
+            <ul>
+              <li><strong>12. Decommissioned Services across markets:</strong><br>
+                <em>Z12 Sweden:</em><br>
+                &nbsp;&nbsp;• PostNord MyPack Home Small (30)<br>
+                &nbsp;&nbsp;• Consignment Varubrev Norge (79)<br>
+                &nbsp;&nbsp;• Postnord Varubrev Retur (87)<br>
+                &nbsp;&nbsp;• Fast Liggetid 7 Dagar (G4) — <strong>remains active for service codes 52 and 83 only</strong><br>
+                &nbsp;&nbsp;• Företagspaket Comeback (51)<br>
+                <em>Z13 Norway:</em><br>
+                &nbsp;&nbsp;• Return electrical items for scrapping (B5)<br>
+                &nbsp;&nbsp;• Packaging for scrapping (B4)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box api-ref">
+            <h4>API Documentation &amp; Technical References</h4>
+            <p><strong>Primary API:</strong> <a href="https://developer.postnord.com/" target="_blank">PostNord Developer Portal</a></p>
+            <p><strong>Issuer codes</strong> determine API endpoint routing and validation rules per country.</p>
+            <p><strong>Key constraint:</strong> All changes must be scoped by correct Issuer Code — changes for Finland (z14) must NOT affect Denmark (z11), etc.</p>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box" style="background: #f0f9ff; border: 1px solid #bae6fd;">
+            <h4 style="color: #0369a1;">Codebase Reference — Files to Modify</h4>
+            <p style="margin-bottom:10px;padding:6px 10px;background:#fff3cd;border-left:3px solid #d97706;border-radius:4px;font-size:12px;color:#92400e;"><strong>⚠ Reference only:</strong> File paths, line numbers, and code snippets below are based on a point-in-time analysis. Always verify against the actual codebase before making changes.</p>
+            <ul>
+              <li><strong>Service Code Mapper:</strong> <code>storepepSAAS/server/src/shared/API/carriers/postNord/serviceCodeMapper.js</code><br>
+                <code>serviceTypeMapper</code> object — currently maps:<br>
+                &nbsp;&nbsp;• <code>86: 'Varubrev 1:a Klass'</code> → <strong>rename to</strong> <code>'Postnord Home Small Prio'</code><br>
+                &nbsp;&nbsp;• <code>11: 'Varubrev Ekonomi'</code> → <strong>rename to</strong> <code>'Postnord Home Small'</code><br>
+                &nbsp;&nbsp;• <code>87: 'Varubrev Retur'</code> → <strong>remove or mark decommissioned</strong><br>
+                &nbsp;&nbsp;• <code>51: 'Företagspaket Comeback'</code> → <strong>remove or mark decommissioned</strong><br>
+                &nbsp;&nbsp;• <code>30: 'MyPack Home Small (Parcel Letter)'</code> → <strong>flag for decom 2026-09-01</strong><br>
+                <code>serviceCodes</code> object — per-country service lists:<br>
+                &nbsp;&nbsp;• <code>SE: ['18','52','83','19','17','85','48','30','42','88','24','49','95','37','87','RR','VV','57','51','34','AF','59','UX','86','91','95','LX','11','RK']</code><br>
+                &nbsp;&nbsp;• <code>FI: ['17','18','52','83','19']</code><br>
+                &nbsp;&nbsp;• <code>NO: ['83','52','32','42','19','17','24','18','85']</code><br>
+                <strong>Must remove decommissioned codes from these arrays</strong></li>
+              <li style="margin-top:6px;"><strong>Request Builder:</strong> <code>storepepSAAS/server/src/shared/API/carriers/postNord/postNordRequestBuilder.js</code><br>
+                Line 19-24: <code>issuerCodeMapper</code> — <code>{SE:'Z12', DK:'Z11', NO:'Z13', FI:'Z14'}</code><br>
+                Line 269: <code>consignor.issuerCode = issuerCodeMapper[preferredCarrier.countryOfOrigin]</code><br>
+                Line 36: <code>EORIorPersonalIdNumber</code> customs field<br>
+                Lines 40-41: <code>voec</code> (VOEC) and <code>ioss</code> (IOSS) tax IDs<br>
+                Line 876: <code>reasonForExportation</code> field<br>
+                <strong>New additions needed:</strong> Customs validation for FI/SE non-EU exports, HS Code validation for Northern Norway (z13), phone validation for Svc 52 outside Nordic</li>
+              <li style="margin-top:6px;"><strong>Helper Functions:</strong> <code>storepepSAAS/server/src/shared/API/carriers/postNord/postNordHelperFunctions.js</code></li>
+              <li style="margin-top:6px;"><strong>Shipment Helper:</strong> <code>storepepSAAS/server/src/shared/API/carriers/postNord/postNordShipmentHelper.js</code> (+ test file)</li>
+              <li style="margin-top:6px;"><strong>Client Settings:</strong> <code>storepepSAAS/client/src/components/form/settings/carriers/postNord.js</code></li>
+              <li style="margin-top:6px;"><strong>Service Point Selector:</strong> <code>storepepSAAS/client/src/components/form/views/bulkActions/postNordServicePointSelector.js</code></li>
+              <li style="margin-top:6px;"><strong>Proxy Layer (Tier 3):</strong> <code>MCSL-Services/ship-rate-track-proxy-api-main/src/modules/postnord/</code></li>
+              <li style="margin-top:6px;"><strong>COD Services:</strong> <code>codServiceMapper: {19: true, AF: true, RR: true}</code> — unchanged</li>
+              <li style="margin-top:6px;"><strong>Ticket Signal:</strong> 52 postnord_general tickets. Common: "Faulty EDI" errors (#279734), incomplete onboarding. 6 postnord_services tickets.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Service 86 displays as "Postnord Home Small Prio" in rate responses, settings, and label UI. Weight limit enforced at 3 kg. C2 (Print Label) service supported.</li>
+              <li>AC-2: Service 11 displays as "Postnord Home Small" in rate responses, settings, and label UI. Weight limit enforced at 3 kg. C2 and E8 (Split Shipment) additional services supported. E8 replaces old Service 79 flow with correct consignor (SE/NO), consignee (NO), and optional ReturnParty data.</li>
+              <li>AC-3: Service 79 locked/removed — existing merchants with valid agreement can still use until fully decommissioned. Migration path to Service 11 + E8 documented and tested. Label and number range unchanged.</li>
+              <li>AC-4: Service 87 removed. Merchants redirected to Postnord Return (24).</li>
+              <li>AC-5: Service 30 flagged for decommission (2026-09-01). Deprecation warning shown. Migration path to Home Small (11) documented.</li>
+              <li>AC-6: Service 51 removed. Merchants redirected to Postnord Parcel (18).</li>
+              <li>AC-7: Split Shipment rejects Service 52 + E8 (z12) combinations from May 4. Z11 routing orders rejected. All Split Shipment handling uses Load Carrier (10).</li>
+              <li>AC-8: Finland &amp; Sweden exports to non-EU destinations validate all mandatory customs fields — seller email, terms of sale, total packages, shipping date, service code for PostNord/TVINN customers. DeclarantType, declarationIdentification, declarantNo, declarationDate, declarationSequence, totalGrossWeight, totalNoOfPackages, goodsDescription, exportMRN/transitMRN for third-party customs agent customers. Clear validation errors when fields missing.</li>
+              <li>AC-9: Shipments to/from Northern Norway (z13) validate HS Code (6-digit) and content description at shipment level via <code>customsTransitNo.detailedDescription</code>. Clear error if missing, with warning about extended transit time.</li>
+              <li>AC-10: Service 34 (Tracked Letter) label updated with new Prime label block per PostNord specifications.</li>
+              <li>AC-11: Service 52 (Pallet) validates receiver phone number as mandatory for shipments outside Nordic countries. Clear error if missing.</li>
+              <li>AC-12: Additional decommissioned services removed: G4 (Fast Liggetid 7 Dagar) removed except for services 52 and 83; B5 (Return electrical items for scrapping) and B4 (Packaging for scrapping) removed for z13 Norway.</li>
+              <li>AC-13: All changes scoped by correct Issuer Code (z10-z14, ZDL) — no cross-country contamination.</li>
+              <li>AC-14: Existing unaffected PostNord services continue without regression.</li>
+            </ul>
+          </div>
+          <div class="spec-box risk-box">
+            <h4>Risks &amp; Mitigations</h4>
+            <ul>
+              <li><strong>Risk:</strong> Decommissioning 4+ services at once may break merchants mid-shipment.<br><strong>Mitigation:</strong> Implement service migration mapping (79→11+E8, 87→24, 30→11, 51→18). Show actionable error with suggested replacement service. Log all migration events.</li>
+              <li><strong>Risk:</strong> Service 79 locked status — some merchants with valid agreements may still need it temporarily.<br><strong>Mitigation:</strong> Check agreement status before hard-removing. Implement soft lock with clear deprecation messaging.</li>
+              <li><strong>Risk:</strong> Split Shipment rejection (52+E8) from May 4 may catch merchants mid-transition.<br><strong>Mitigation:</strong> Show pre-emptive warning before May 4 deadline. Block 52+E8 combinations proactively. Guide to Load Carrier (10).</li>
+              <li><strong>Risk:</strong> Northern Norway postal code range may not be well-defined for HS Code enforcement.<br><strong>Mitigation:</strong> Obtain official range from PostNord. Validate against PostNord address validation API. Flag if <code>customsTransitNo.detailedDescription</code> missing.</li>
+              <li><strong>Risk:</strong> Customs data requirements differ between PostNord/TVINN vs third-party customs agent scenarios.<br><strong>Mitigation:</strong> Implement two validation paths based on customs agent type. Test with PostNord sandbox for both Finland (z14) and Sweden (z12) origins.</li>
+              <li><strong>Risk:</strong> Service 34 label block update may affect existing label print flows.<br><strong>Mitigation:</strong> Obtain new label block assets from PostNord. Test label rendering before rollout.</li>
+              <li><strong>Risk:</strong> G4 partial decommission (active only for 52/83) requires per-service-code logic.<br><strong>Mitigation:</strong> Implement allowlist check — G4 only valid when paired with service 52 or 83.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FEATURE #38 — NZ Post MPB (KEPT AS-IS minus dev tasks/deps/size) ═══ -->
+    <div class="spec-card" id="f38">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">#38</span> NZ Post MPB (My Post Business)</h3>
+        <div><span class="badge badge-medium">P2-Medium</span> <span class="badge badge-carrier">Carrier</span></div>
+      </div>
+      <div class="spec-card-body">
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>User Story</h4>
+            <p><strong>As a</strong> New Zealand merchant with an NZ Post My Post Business account,<br><strong>I want</strong> to use my discounted MPB rates through MCSL,<br><strong>So that</strong> I save 15-35% on shipping vs. standard NZ Post retail rates.</p>
+          </div>
+          <div class="spec-box api-ref">
+            <h4>API Technical Details</h4>
+            <p><strong>API:</strong> <a href="https://www.nzpost.co.nz/business/ecommerce/developer-resource-centre" target="_blank">NZ Post Developer Resource Centre</a></p>
+            <p><strong>Note:</strong> MPB uses a <strong>separate API</strong> from standard NZ Post</p>
+            <p><strong>Services:</strong> MPB Tracked, MPB Economy, MPB Express, MPB International</p>
+            <p><strong>Partnership-driven:</strong> NZ Post business team (Matt, Glenn, Krish) actively requesting</p>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: MPB credential type in carrier settings (separate from standard NZ Post)</li>
+              <li>AC-2: MPB discounted rates returned at checkout</li>
+              <li>AC-3: MPB-specific labels with correct barcodes and account identifiers</li>
+              <li>AC-4: All MPB services (Tracked, Economy, Express, International) work</li>
+              <li>AC-5: Tracking integrates with MCSL dashboard</li>
+              <li>AC-6: MPB rates are visibly lower than standard NZ Post rates</li>
+            </ul>
+          </div>
+          <div class="spec-box risk-box">
+            <h4>Risks &amp; Mitigations</h4>
+            <ul>
+              <li><strong>Risk:</strong> MPB API may have different response format<br><strong>Mitigation:</strong> Implement as separate carrier adapter, not an extension of standard NZ Post</li>
+              <li><strong>Risk:</strong> MPB credential management adds complexity<br><strong>Mitigation:</strong> Add separate credential section in carrier settings UI</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FEATURE #33 — App Dashboard (KEPT AS-IS minus dev tasks/deps/size) ═══ -->
+    <div class="spec-card" id="f33">
+      <div class="spec-card-header greenfield">
+        <h3><span class="fnum">#33</span> App Dashboard (Orders / Shipping Stats)</h3>
+        <div><span class="badge badge-high">P1-High</span> <span class="badge badge-dashboard">Dashboard</span></div>
+      </div>
+      <div class="spec-card-body">
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>User Story</h4>
+            <p><strong>As a</strong> Shopify merchant managing shipping operations,<br><strong>I want</strong> a dashboard showing my shipping performance metrics,<br><strong>So that</strong> I can track costs, compare carriers, monitor delivery success rates, and make data-driven decisions.</p>
+          </div>
+          <div class="spec-box">
+            <h4>Scope — MVP (April)</h4>
+            <ul>
+              <li><strong>April MVP:</strong> 5 key metric cards + 3 charts + date filter</li>
+              <li><strong>Metric cards:</strong> Total Orders, Total Spend, Avg Cost/Order, Void Rate, Delivery Success Rate</li>
+              <li><strong>Charts:</strong> Orders over time (line), Carrier distribution (pie), Cost trends (bar)</li>
+              <li><strong>Filters:</strong> Date range, carrier</li>
+              <li><strong>Gate to Premium plan</strong> (pairs with Feature Gating)</li>
+              <li><strong>Composite score:</strong> 8.8 — highest-scoring enhancement feature</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box api-ref">
+            <h4>Technical Architecture</h4>
+            <p><strong>Data pipeline:</strong> Order/label/tracking events → aggregation service → dashboard API</p>
+            <p><strong>Charts library:</strong> Chart.js (lightweight, Shopify Polaris compatible)</p>
+            <p><strong>Data refresh:</strong> Every 15 minutes (near real-time)</p>
+            <p><strong>Export:</strong> CSV and PDF</p>
+            <p><strong>Storage:</strong> Pre-computed aggregates stored per merchant</p>
+            <p><strong>API endpoints to build:</strong></p>
+            <ul style="padding-left:18px;margin-top:6px;">
+              <li><code>GET /api/dashboard/summary?from=&amp;to=</code> — Metric cards data</li>
+              <li><code>GET /api/dashboard/orders-timeline?from=&amp;to=&amp;carrier=</code> — Orders over time</li>
+              <li><code>GET /api/dashboard/carrier-distribution?from=&amp;to=</code> — Carrier pie chart</li>
+              <li><code>GET /api/dashboard/cost-trends?from=&amp;to=</code> — Cost bar chart</li>
+              <li><code>GET /api/dashboard/export?format=csv|pdf</code> — Export</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria (MVP)</h4>
+            <ul>
+              <li>AC-1: Dashboard loads in &lt;3 seconds with 30-day data</li>
+              <li>AC-2: 5 metric cards display accurate counts/amounts</li>
+              <li>AC-3: Orders-over-time chart renders with day/week/month granularity</li>
+              <li>AC-4: Carrier distribution shows percentage breakdown</li>
+              <li>AC-5: Cost trends show daily/weekly cost bars</li>
+              <li>AC-6: Date range filter works (7d, 30d, 90d, custom)</li>
+              <li>AC-7: Carrier filter shows only carriers merchant has used</li>
+              <li>AC-8: CSV export includes all visible data</li>
+              <li>AC-9: Dashboard is gated to Premium plan</li>
+            </ul>
+          </div>
+          <div class="spec-box risk-box">
+            <h4>Risks &amp; Mitigations</h4>
+            <ul>
+              <li><strong>Risk:</strong> Aggregation pipeline adds infrastructure complexity<br><strong>Mitigation:</strong> Use pre-computed aggregates, not real-time queries</li>
+              <li><strong>Risk:</strong> Chart.js rendering on large datasets may be slow<br><strong>Mitigation:</strong> Limit to 90 days of data. Paginate if needed.</li>
+              <li><strong>Risk:</strong> Premium gating may frustrate free-tier merchants<br><strong>Mitigation:</strong> Show upgrade prompt with preview of dashboard capabilities</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FEATURE #42 — Bundled Products (UPDATED) ═══ -->
+    <div class="spec-card" id="f42">
+      <div class="spec-card-header high">
+        <h3><span class="fnum">#42</span> Bundled Products Support</h3>
+        <div><span class="badge badge-high">P1-High</span> <span class="badge badge-ecomm">Ecommerce</span></div>
+      </div>
+      <div class="spec-card-body">
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>User Story</h4>
+            <p><strong>As a</strong> Shopify merchant selling product bundles,<br><strong>I want</strong> the app to correctly identify, weigh, price, and package bundled products,<br><strong>So that</strong> shipping rates are accurate, labels have correct declared values, and packing slips show the right item count.</p>
+          </div>
+          <div class="spec-box">
+            <h4>Scope &amp; Impact</h4>
+            <ul>
+              <li><strong>Two cards:</strong> Bundled Products Foundation + Incorrect Product Count &amp; Value Bug</li>
+              <li><strong>Zendesk:</strong> #260001, #372492</li>
+              <li><strong>Two bundle types:</strong> (1) Prepacked — single box, one weight/dimension. (2) Individual — separate products, each with own weight/dimensions.</li>
+              <li><strong>Bug:</strong> Same product in bundle AND individual → value cross-contamination, wrong packing slip counts.</li>
+              <li><strong>Affects:</strong> Merchants using Shopify native bundles. Third-party bundle apps (Bold Bundles, Bundler) to be added in a follow-up phase.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box" style="background: var(--warning-bg); border: 1px solid #fed7aa;">
+            <h4 style="color: var(--warning);">Context — Two Cards</h4>
+            <p><strong>Card #1 — Bundled Products Foundation:</strong></p>
+            <ul>
+              <li><strong>Prepacked:</strong> Ships together in single box. Weight and dimensions configured for all products together.</li>
+              <li><strong>Individual:</strong> Products ship separately. Weight and dimensions configured separately per product.</li>
+              <li>Changes needed: Product import, line item processing for rates, Order import, Order processing, Packaging.</li>
+            </ul>
+            <p style="margin-top:8px;"><strong>Card #2 — Incorrect Product Count and Value (#3853):</strong></p>
+            <ul>
+              <li>Bundled product value incorrectly applied to both bundled and individual items.</li>
+              <li>Packing Slip total does not include individual product correctly.</li>
+              <li>Manual package edit overrides individual product values with bundle values.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box" style="background: var(--warning-bg); border: 1px solid #fed7aa;">
+            <h4 style="color: var(--warning);">Reference Implementation — WooCommerce UPS Bundle Product Support</h4>
+            <p>The WooCommerce UPS plugin has a proven bundled product implementation (<code>func-ph-ups-woocommerce-bundle-product-support.php</code>) that provides a reference pattern:</p>
+            <ul>
+              <li><strong>Bundle detection:</strong> Uses <code>_bundled_item_needs_shipping</code> meta field to determine if bundled item requires shipping (skip virtual/digital items).</li>
+              <li><strong>Pricing mode:</strong> Checks <code>_bundled_item_priced_individually</code> — if <code>yes</code>, calculates per-item price from line total / quantity. If not, uses bundle parent price.</li>
+              <li><strong>Quantity aggregation:</strong> Groups identical products by <code>product_id</code> — if same product appears in multiple bundles, quantities are summed (prevents duplicate entries).</li>
+              <li><strong>Commercial invoice:</strong> <code>ph_update_invoice_products_for_product_bundle()</code> iterates <code>$product->get_bundled_items()</code> to include child items on customs invoices with correct values, HS codes, and country of manufacture.</li>
+              <li><strong>Setting:</strong> <code>include_child_products_for_bundle</code> — controls whether child items appear on invoices.</li>
+            </ul>
+            <p style="margin-top:8px;"><strong>Key takeaway for MCSL:</strong> The Shopify implementation must handle the same concerns — shipping vs non-shipping items, individual vs flat pricing, quantity aggregation, and commercial invoice line items — but using Shopify's bundle metadata format (<code>line_item.properties</code>) instead of WooCommerce meta fields.</p>
+          </div>
+        </div>
+
+        <div class="spec-grid full">
+          <div class="spec-box api-ref">
+            <h4>API Documentation &amp; Technical References</h4>
+            <p><strong>Primary API:</strong> <a href="https://shopify.dev/docs/api/admin-rest/latest/resources/product" target="_blank">Shopify Product API</a></p>
+            <p><strong>Bundle detection:</strong> <code>product.productType == "bundle"</code> or <code>components</code> field present</p>
+            <p><strong>Order line items:</strong> Bundle metadata in <code>properties</code> or <code>line_item.properties</code></p>
+            <p><strong>Phase 1 scope:</strong> Shopify native bundles only. Third-party bundle apps (Bold Bundles, Bundler) in follow-up phase.</p>
+            <p><strong>WooCommerce reference:</strong> <code>ph-woocommerce-ups/.../func-ph-ups-woocommerce-bundle-product-support.php</code></p>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Prepacked bundles treated as single unit for shipping calculation.</li>
+              <li>AC-2: Individual-product bundles treated as separate items.</li>
+              <li>AC-3: Product import correctly identifies bundle type and saves appropriate data.</li>
+              <li>AC-4: Rate calculation uses correct weight per bundle type.</li>
+              <li>AC-5: Same product in bundle AND as individual: no value cross-contamination.</li>
+              <li>AC-6: Packing Slip: correct entries, quantities, and total item count.</li>
+              <li>AC-7: Manual package edit does NOT override individual values with bundle values.</li>
+              <li>AC-8: Order import correctly parses Shopify native bundle metadata from Shopify API.</li>
+              <li>AC-9: International shipments: correct declared values per item on customs documents.</li>
+            </ul>
+          </div>
+          <div class="spec-box risk-box">
+            <h4>Risks &amp; Mitigations</h4>
+            <ul>
+              <li><strong>Risk:</strong> Shopify native bundle metadata format may evolve as Shopify iterates on the feature.<br><strong>Mitigation:</strong> Build against current Shopify bundle API docs. Design for extensibility so third-party bundle apps can be added in a follow-up phase.</li>
+              <li><strong>Risk:</strong> Prepacked vs individual detection may be ambiguous.<br><strong>Mitigation:</strong> Add clear UI indicator showing how each bundle was interpreted. Reference WooCommerce approach: <code>_bundled_item_needs_shipping</code> + <code>_bundled_item_priced_individually</code> meta fields.</li>
+              <li><strong>Risk:</strong> Real-world edge cases from support tickets — merchants with mixed bundles (e.g., food + merchandise needing different packaging), bundles with max-items-per-box limits, single products splitting across multiple boxes.<br><strong>Mitigation:</strong> Ensure packaging logic respects per-item-type constraints. Test with multi-category bundles.</li>
+              <li><strong>Risk:</strong> Commercial invoices for international shipments may list bundle parent instead of child items.<br><strong>Mitigation:</strong> Follow WooCommerce UPS pattern — iterate child items for customs documents with correct values, HS codes, and country of manufacture.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- L3 ITEMS SECTION                                               -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section" id="l3items">
+  <div class="section-header">
+    <h2>2b. L3 Items — Bug Fixes &amp; Enhancements (17)</h2>
+    <p>Lower-priority items grouped into L3 Dev and L3 Big Ticket categories for the April sprint</p>
+  </div>
+  <div class="section-body">
+
+    <!-- ── L3 Stats Row ── -->
+    <div class="stats-row">
+      <div class="stat-card"><div class="value">13</div><div class="label">L3 Dev Items</div></div>
+      <div class="stat-card"><div class="value">4</div><div class="label">L3 Big Ticket</div></div>
+      <div class="stat-card"><div class="value">7</div><div class="label">Carriers Affected</div></div>
+      <div class="stat-card"><div class="value">3</div><div class="label">Cross-Carrier / App</div></div>
+    </div>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- L3-DEV ITEMS (13)                      -->
+    <!-- ═══════════════════════════════════════ -->
+    <h3 style="margin: 24px 0 16px; color: var(--primary); border-bottom: 2px solid var(--border); padding-bottom: 8px;">L3 Dev Items (13)</h3>
+
+    <!-- ── L3-1: USPS Buffer Time ── -->
+    <div class="spec-card" id="l3-1">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">L3-1</span> USPS: Add Buffer Time to Estimated Delivery</h3>
+        <div><span class="badge badge-medium">L3-Dev</span> <span class="badge badge-carrier">USPS</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/l5RzUNwU" target="_blank" style="color:#0079BF;">https://trello.com/c/l5RzUNwU</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>Add configurable buffer time to USPS estimated delivery dates. Merchants need to pad delivery estimates to account for handling time, weekends, or carrier delays so customers see realistic delivery expectations at checkout.</p>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Setting available to configure buffer days for USPS estimated delivery.</li>
+              <li>AC-2: Buffer time is added to the estimated delivery date shown at checkout.</li>
+              <li>AC-3: Buffer applies consistently across all USPS services.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-2: UPS Hazmat Rates ── -->
+    <div class="spec-card" id="l3-2">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">L3-2</span> UPS: Enable Hazmat Rates (SubVersion Fix)</h3>
+        <div><span class="badge badge-medium">L3-Dev</span> <span class="badge badge-carrier">UPS</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/0vyY6mAt" target="_blank" style="color:#0079BF;">https://trello.com/c/0vyY6mAt</a></p>
+        <p style="margin-bottom:8px;font-size:0.85em;color:#64748b;"><strong>Assigned:</strong> Veena</p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>Hazmat rates are not being fetched because the API request is missing a required node. The rate request payload must include <code>"SubVersion": "1701"</code> to enable Hazmat rate retrieval from UPS.</p>
+            <div class="callout callout-info" style="margin-top:8px;">
+              <strong>Fix:</strong> Add <code>"SubVersion": "1701"</code> to the UPS rate request payload wherever Hazmat rates are expected.
+            </div>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Hazmat rates are returned when SubVersion 1701 is included in the request.</li>
+              <li>AC-2: Non-Hazmat rate requests are unaffected.</li>
+              <li>AC-3: Hazmat-eligible services display correct pricing at checkout.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-3: DHL Reason for Export ── -->
+    <div class="spec-card" id="l3-3">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">L3-3</span> DHL: Configurable Reason for Export (Forward &amp; Return)</h3>
+        <div><span class="badge badge-medium">L3-Dev</span> <span class="badge badge-carrier">DHL</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/JtONFSnJ" target="_blank" style="color:#0079BF;">https://trello.com/c/JtONFSnJ</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>Merchants need to set specific <strong>Reason for Export</strong> values for DHL shipments to avoid duties and additional charges. Forward shipments should use "Sale" and return shipments should use "Return for Repair" (or other configurable values). The app must detect shipment type and apply the correct reason.</p>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Setting available to configure Reason for Export separately for forward and return shipments.</li>
+              <li>AC-2: Forward shipments default to "Sale"; return shipments default to "Return for Repair".</li>
+              <li>AC-3: Configured value is passed correctly in the DHL shipment request.</li>
+              <li>AC-4: Customs documents reflect the correct reason for export.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-4: DPD NL Services ── -->
+    <div class="spec-card" id="l3-4">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">L3-4</span> DPD NL: Fix Missing Services &amp; Service Names</h3>
+        <div><span class="badge badge-medium">L3-Dev</span> <span class="badge badge-carrier">DPD</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/hm95at6L" target="_blank" style="color:#0079BF;">https://trello.com/c/hm95at6L</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>DPD NL services are not listed and service names are not displayed at checkout. All supported DPD NL services must be fetched, mapped, and shown with correct names.</p>
+            <p style="margin-top:8px;"><strong>Required services:</strong></p>
+            <ul style="margin-top:4px;">
+              <li><code>DPDNL_CLASSIC</code></li>
+              <li><code>EXPRESS_10</code></li>
+              <li><code>EXPRESS_12</code></li>
+              <li><code>EXPRESS_18</code></li>
+              <li><code>INTERNATIONAL_EXPRESS</code></li>
+              <li><code>DPDNL_HOME</code></li>
+              <li><code>DPDNL_TO_SHOP</code></li>
+            </ul>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: All 7 DPD NL services are fetched and listed at checkout.</li>
+              <li>AC-2: Service names are displayed correctly (not raw codes).</li>
+              <li>AC-3: Rates are returned for each available service.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-5: UPS Description in Reference ── -->
+    <div class="spec-card" id="l3-5">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">L3-5</span> UPS: Product Description in Reference Field</h3>
+        <div><span class="badge badge-medium">L3-Dev</span> <span class="badge badge-carrier">UPS</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/oESb1Zcx" target="_blank" style="color:#0079BF;">https://trello.com/c/oESb1Zcx</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>For domestic shipments, the order display ID is currently passed in the reference field on labels. Merchants need the option to pass <strong>Product Description</strong> instead, configurable via settings.</p>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Setting available to choose between Order Display ID and Product Description for the reference field.</li>
+              <li>AC-2: When Product Description is selected, it is passed in the shipment request reference field.</li>
+              <li>AC-3: Label reflects the selected value (Product Description or Order Display ID).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-6: Box Name on Picklist & Tax Invoice ── -->
+    <div class="spec-card" id="l3-6">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">L3-6</span> Display Box Name on Pick List &amp; Tax Invoice</h3>
+        <div><span class="badge badge-medium">L3-Dev</span> <span class="badge badge-ecomm">Documents</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/OIA5Rtyn" target="_blank" style="color:#0079BF;">https://trello.com/c/OIA5Rtyn</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>Merchants want the box/packaging name to be printed on both the <strong>Pick List</strong> and <strong>Tax Invoice</strong> documents. This helps identify packaging used for each order during picking and invoicing.</p>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Box name is displayed on the Pick List document.</li>
+              <li>AC-2: Box name is displayed on the Tax Invoice document.</li>
+              <li>AC-3: When no box is assigned, the field is blank (no errors).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-7: Bundled Products Packing Slip Bug ── -->
+    <div class="spec-card" id="l3-7">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">L3-7</span> Bundled Products: Incorrect Packing Slip Details</h3>
+        <div><span class="badge badge-medium">L3-Dev</span> <span class="badge badge-ecomm">Ecommerce</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/6M3cbv7i" target="_blank" style="color:#0079BF;">https://trello.com/c/6M3cbv7i</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>Bundled product value is incorrectly applied to both bundled and individual items. Packing slip total does not include individual products correctly. Manual package edit overrides individual product values with bundle values.</p>
+            <div class="callout callout-danger" style="margin-top:8px;">
+              <strong>Related to Feature #42:</strong> This L3 item tracks the specific packing slip and value cross-contamination bug, while Feature #42 covers the broader bundled products architecture.
+            </div>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Bundled product values do not cross-contaminate individual product values.</li>
+              <li>AC-2: Packing slip totals correctly include both bundled and individual products.</li>
+              <li>AC-3: Manual package edit preserves individual product values (does not override with bundle values).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-8: FedEx Discounted Value on CI ── -->
+    <div class="spec-card" id="l3-8">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">L3-8</span> FedEx: Print Discounted Value on Commercial Invoice</h3>
+        <div><span class="badge badge-medium">L3-Dev</span> <span class="badge badge-carrier">FedEx</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/anU1cUOT" target="_blank" style="color:#0079BF;">https://trello.com/c/anU1cUOT</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>When BOGO or similar discounts are applied (e.g., Qty 2, one at 100% and one at $0), the Commercial Invoice prints the <strong>actual product price</strong> for both items instead of reflecting the discount split. Must show the correct per-item value after discount.</p>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: For BOGO discounts — first item shows full price, second item shows $0.00 (or discounted value).</li>
+              <li>AC-2: Printed product prices match the Shopify order pricing breakdown.</li>
+              <li>AC-3: Total order amount on CI remains unchanged.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-9: FedEx Minimum Customs Value ── -->
+    <div class="spec-card" id="l3-9">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">L3-9</span> FedEx: Minimum Customs Value Enhancement</h3>
+        <div><span class="badge badge-medium">L3-Dev</span> <span class="badge badge-carrier">FedEx</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/Vu9WCUzZ" target="_blank" style="color:#0079BF;">https://trello.com/c/Vu9WCUzZ</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>FedEx requires a <strong>minimum total customs value of $1</strong> for international shipments. Currently the app enforces $1 <em>per item</em> instead of per shipment total. This inflates values for low-cost bulk items.</p>
+            <div class="callout callout-warning" style="margin-top:8px;">
+              <strong>Example:</strong> Product at $0.10 × qty 10 = $1.00 total (correct). But app currently sets each item to $1.00 = $10.00 total (inflated 10×).
+            </div>
+            <p style="margin-top:8px;"><strong>Fix:</strong> Apply the $1 minimum to the <em>total customs value</em>, not per line item. Only adjust if the shipment-level total falls below $1.</p>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Minimum $1 customs value enforced at shipment level, not per item.</li>
+              <li>AC-2: Items priced below $1 retain actual value when total ≥ $1.</li>
+              <li>AC-3: FedEx rates reflect correct customs values (no inflation).</li>
+              <li>AC-4: Validation across single-item, multi-item, and discounted scenarios.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-10: Ship-To City in Report ── -->
+    <div class="spec-card" id="l3-10">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">L3-10</span> Include Ship-To Address City in Order Report</h3>
+        <div><span class="badge badge-medium">L3-Dev</span> <span class="badge badge-ecomm">Reports</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/VXJbbgIK" target="_blank" style="color:#0079BF;">https://trello.com/c/VXJbbgIK</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>The Order Report currently does not include the receiver's address city. A new column for <strong>Ship To Address City</strong> must be added to the report for all orders.</p>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: New "Ship To City" column added to Order Report.</li>
+              <li>AC-2: City value fetched correctly for all domestic and international orders.</li>
+              <li>AC-3: CSV export includes the new column.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-11: Edit Package Adjusted Value Bug ── -->
+    <div class="spec-card" id="l3-11">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">L3-11</span> Edit Package: Adjusted Value Not Showing</h3>
+        <div><span class="badge badge-medium">L3-Dev</span> <span class="badge badge-ecomm">Ecommerce</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/yaXvKdU9" target="_blank" style="color:#0079BF;">https://trello.com/c/yaXvKdU9</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>When "Percentage of Product Price" is set for customs/insured amount (e.g., 35%), automatic packaging correctly calculates based on discounted price ($50 from $100 after 50% discount → $17.50). However, during <strong>manual package editing</strong>, the system incorrectly uses the <em>original</em> price ($100) instead of the discounted price.</p>
+            <div class="callout callout-danger" style="margin-top:8px;">
+              <strong>Bug:</strong> Setting = 35% of product price. Product $100, 50% discount = $50. Auto-pack: 35% × $50 = $17.50 (correct). Manual edit: 35% × $100 = $35.00 (wrong).
+            </div>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Manual package editing uses discounted product price (price actually paid) for declared value calculation.</li>
+              <li>AC-2: Declared value matches the logic used during automatic packaging.</li>
+              <li>AC-3: Validated across single-product, multi-product, and discounted order scenarios.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-12: Canpar Adult Signature ── -->
+    <div class="spec-card" id="l3-12-canpar">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">L3-12</span> Canpar: Adult Signature Option</h3>
+        <div><span class="badge badge-medium">L3-Dev</span> <span class="badge badge-carrier">Canpar</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/0a3zqBv1" target="_blank" style="color:#0079BF;">https://trello.com/c/0a3zqBv1</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>Add an Adult Signature option for Canpar shipments. This allows merchants to require an adult signature upon delivery for age-restricted or high-value items shipped via Canpar.</p>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Adult Signature option available in Canpar carrier settings.</li>
+              <li>AC-2: Adult Signature flag is correctly passed in the Canpar shipment API request.</li>
+              <li>AC-3: Label generated with Adult Signature reflects the requirement on the shipping label.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-13: USPS Flat Rate Boxes ── -->
+    <div class="spec-card" id="l3-13-usps">
+      <div class="spec-card-header medium">
+        <h3><span class="fnum">L3-13</span> USPS: Flat Rate Boxes Support</h3>
+        <div><span class="badge badge-medium">L3-Dev</span> <span class="badge badge-carrier">USPS</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/cNh0Xb6p" target="_blank" style="color:#0079BF;">https://trello.com/c/cNh0Xb6p</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>Add support for USPS Flat Rate box options (Small, Medium, Large Flat Rate Boxes). Merchants should be able to select Flat Rate packaging types so that USPS returns accurate Flat Rate pricing at checkout and generates labels with the correct packaging type.</p>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: USPS Flat Rate box types (Small, Medium, Large) available as packaging options.</li>
+              <li>AC-2: Checkout rates reflect correct USPS Flat Rate pricing when a Flat Rate box is selected.</li>
+              <li>AC-3: Labels generated with Flat Rate packaging pass the correct package type to USPS API.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- L3 BIG TICKET ITEMS (4)                -->
+    <!-- ═══════════════════════════════════════ -->
+    <h3 style="margin: 32px 0 16px; color: var(--danger); border-bottom: 2px solid var(--danger-bg); padding-bottom: 8px;">L3 Big Ticket Items (4)</h3>
+
+    <div class="callout callout-danger" style="margin-bottom: 20px;">
+      <strong>High-impact items</strong> — These affect core product import and data infrastructure. The variant issues collectively impact merchants with large catalogs (100+ variants per product).
+    </div>
+
+    <!-- ── L3-14: 100+ Variant Missing Issue ── -->
+    <div class="spec-card" id="l3-14">
+      <div class="spec-card-header high">
+        <h3><span class="fnum">L3-14</span> Products: 100+ Variant Import Missing</h3>
+        <div><span class="badge badge-high">L3-Big</span> <span class="badge badge-ecomm">Products</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/GveSDv1T" target="_blank" style="color:#0079BF;">https://trello.com/c/GveSDv1T</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>Product variants are missing for products with more than 100 variants. The webhook-based import fails silently — no logs appear for affected variant IDs. Variants are only restored on Force Import.</p>
+            <p style="margin-top:8px;"><strong>Observations:</strong></p>
+            <ul>
+              <li>No logs for affected variant IDs in webhooks machine.</li>
+              <li>Issue occurs specifically for products with 100+ variants.</li>
+              <li>Variant details are updated correctly on Force Import.</li>
+            </ul>
+            <p style="margin-top:8px;"><strong>Affected stores:</strong> expertbrand-apparel.myshopify.com (product 5167549087884), fronteriors-us.myshopify.com (product 8259420750098)</p>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Products with 100+ variants import all variants via webhook.</li>
+              <li>AC-2: No silent failures — missing variants are logged.</li>
+              <li>AC-3: Force Import is not required for complete variant data.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-15: 250+ Variant Pagination ── -->
+    <div class="spec-card" id="l3-15">
+      <div class="spec-card-header high">
+        <h3><span class="fnum">L3-15</span> Products: Support 250+ Variants (GraphQL Pagination)</h3>
+        <div><span class="badge badge-high">L3-Big</span> <span class="badge badge-ecomm">Products</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/VKDfvVIE" target="_blank" style="color:#0079BF;">https://trello.com/c/VKDfvVIE</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>Products with more than 250 variants are not imported because the GraphQL library does not support pagination. 250 is the single page size limit — only variants on the first page are imported. The library must be updated to paginate through all available variants.</p>
+            <div class="callout callout-warning" style="margin-top:8px;">
+              <strong>Root cause:</strong> GraphQL access library lacks cursor-based pagination. Must implement <code>hasNextPage</code> / <code>endCursor</code> pagination loop for variant queries.
+            </div>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Products with 250+ variants import all variants successfully.</li>
+              <li>AC-2: GraphQL pagination implemented with cursor-based navigation.</li>
+              <li>AC-3: No performance degradation for products with &lt;250 variants.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-16: Variant SKU Search ── -->
+    <div class="spec-card" id="l3-16">
+      <div class="spec-card-header high">
+        <h3><span class="fnum">L3-16</span> Products: Variant Name &amp; SKU Search</h3>
+        <div><span class="badge badge-high">L3-Big</span> <span class="badge badge-ecomm">Products</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/iuoLrBbC" target="_blank" style="color:#0079BF;">https://trello.com/c/iuoLrBbC</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>The Products page search only works for main/parent products and simple products. Merchants cannot search by <strong>variant name or SKU</strong>. The search must be extended to include variant-level data.</p>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: Search bar on Products page returns results for variant name matches.</li>
+              <li>AC-2: Search bar returns results for variant SKU matches.</li>
+              <li>AC-3: Parent product and simple product search continues to work.</li>
+              <li>AC-4: Search results clearly indicate which variant matched.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── L3-17: Carrier Scan Time in Report ── -->
+    <div class="spec-card" id="l3-17">
+      <div class="spec-card-header high">
+        <h3><span class="fnum">L3-17</span> Reports: Include Carrier Scan Time</h3>
+        <div><span class="badge badge-high">L3-Big</span> <span class="badge badge-ecomm">Reports</span></div>
+      </div>
+      <div class="spec-card-body">
+        <p style="margin-bottom:8px;font-size:0.82em;"><a href="https://trello.com/c/NaexGMn2" target="_blank" style="color:#0079BF;">https://trello.com/c/NaexGMn2</a></p>
+        <div class="spec-grid">
+          <div class="spec-box">
+            <h4>Description</h4>
+            <p>Tracking event timestamps from <code>trackinghistories</code> must be mapped and stored in the <code>TrackingOrders</code> collection for key milestones: <code>orderPickedupTime</code>, <code>orderDeliveredTime</code>, <code>orderReturnedTime</code>, <code>orderReturnDeliveredTime</code>. These timestamps must appear in the Order Report (via support script and Export Report).</p>
+            <p style="margin-top:8px;"><strong>Initial carrier scope:</strong> Indian carriers — Bluedart, Amazon, Delhivery. Then expand to all carriers.</p>
+          </div>
+          <div class="spec-box ac-box">
+            <h4>Acceptance Criteria</h4>
+            <ul>
+              <li>AC-1: <code>orderPickedupTime</code>, <code>orderDeliveredTime</code>, <code>orderReturnedTime</code>, <code>orderReturnDeliveredTime</code> mapped in TrackingOrders.</li>
+              <li>AC-2: Timestamps appear in Order Report export.</li>
+              <li>AC-3: Implemented for Bluedart, Amazon, Delhivery initially.</li>
+              <li>AC-4: Architecture supports easy extension to other carriers.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- TASK CARDS -->
+<div class="section" id="cards">
+  <div class="section-header">
+    <h2>3. Task Cards — Ready to Import</h2>
+    <p>Click "Export CSV" in the nav bar to download. Or copy individual card data below.</p>
+  </div>
+  <div class="section-body">
+    <div class="callout callout-info">
+      <strong>Import Instructions:</strong>
+      1. Click "Export CSV" above → downloads <code>mcsl_april_2026_cards.csv</code><br>
+      2. Import into your project management tool via CSV<br>
+      3. Map columns: Card Name, List Name, Description, Labels, Due Date
+    </div>
+
+    <table id="taskTable">
+      <tr><th>Card Name</th><th>List</th><th>Labels</th><th>Due</th></tr>
+      <tr><td>[#7] DHL Express REST API Integration</td><td>Sprint Apr 2026</td><td>P0-Critical, Carrier</td><td>2026-04-25</td></tr>
+      <tr><td>[#43] DHL Paket REST API Integration</td><td>Sprint Apr 2026</td><td>P0-Critical, Carrier, HARD-DEADLINE</td><td>2026-04-25</td></tr>
+      <tr><td>[#8] APC Postal REST API Integration</td><td>Sprint Apr 2026</td><td>P0-Critical, Carrier</td><td>2026-04-18</td></tr>
+      <tr><td>[#1] FedEx One Rate with Ground</td><td>Sprint Apr 2026</td><td>P1-High, Carrier</td><td>2026-04-11</td></tr>
+      <tr><td>[#10] FedEx Saturday Services</td><td>Sprint Apr 2026</td><td>P1-High, Carrier</td><td>2026-04-07</td></tr>
+      <tr><td>[#39] UPS Simple Rates (Mixed Display)</td><td>Sprint Apr 2026</td><td>P1-High, Carrier</td><td>2026-04-14</td></tr>
+      <tr><td>[#2] Australia Post Suburb Validation</td><td>Sprint Apr 2026</td><td>P2-Medium, Carrier</td><td>2026-04-18</td></tr>
+      <tr><td>[#3] PostNord UK Expansion</td><td>Sprint Apr 2026</td><td>P2-Medium, Carrier</td><td>2026-04-18</td></tr>
+      <tr><td>[#4] PostNord Service Changes</td><td>Sprint Apr 2026</td><td>P1-High, Maintenance</td><td>2026-04-07</td></tr>
+      <tr><td>[#38] NZ Post MPB Integration</td><td>Sprint Apr 2026</td><td>P2-Medium, Carrier, Partnership</td><td>2026-04-18</td></tr>
+      <tr><td>[#33] App Dashboard (Analytics MVP)</td><td>Sprint Apr 2026</td><td>P1-High, Dashboard</td><td>2026-04-25</td></tr>
+      <tr><td>[#42] Bundled Products Support</td><td>Sprint Apr 2026</td><td>P1-High, Ecommerce</td><td>2026-04-18</td></tr>
+      <tr><td>[L3-12] Canpar Adult Signature Option</td><td>Sprint Apr 2026</td><td>L3-Dev, Carrier</td><td>2026-04-25</td></tr>
+      <tr><td>[L3-13] USPS Flat Rate Boxes Support</td><td>Sprint Apr 2026</td><td>L3-Dev, Carrier</td><td>2026-04-25</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- PRODUCT OWNER PROMPT -->
+<div class="section" id="prompt">
+  <div class="section-header">
+    <h2>4. Product Owner Execution Prompt</h2>
+    <p>Copy this prompt to execute the April sprint as a Product Owner with AI assistance</p>
+  </div>
+  <div class="section-body">
+    <div class="callout callout-warning">
+      <strong>How to use this prompt:</strong> Copy the entire prompt below and paste it into a new PHive Mind AI session (or any AI assistant) to execute the sprint planning, story refinement, and task card creation pipeline.
+    </div>
+
+    <div class="prompt-box" id="poPrompt">
+<span class="comment"># ═══════════════════════════════════════════════════════</span>
+<span class="comment"># PHive Mind AI — Product Owner Sprint Execution Prompt</span>
+<span class="comment"># Sprint: MCSL April 2026 (12 Features)</span>
+<span class="comment"># ═══════════════════════════════════════════════════════</span>
+
+<span class="tag">&lt;role&gt;</span>
+You are a <span class="value">Senior Product Owner</span> with 8+ years of experience in:
+- Shopify app development and Shopify API ecosystem
+- Multi-carrier shipping logistics (DHL, FedEx, UPS, PostNord, NZ Post, AuPost)
+- REST API integration planning (SOAP/XML → REST/JSON)
+- Agile sprint planning (Scrum, story points, acceptance criteria)
+
+You are executing the <span class="value">MCSL (Multi-Carrier Shipping Label) April 2026 Sprint</span> for PluginHive.
+<span class="tag">&lt;/role&gt;</span>
+
+<span class="tag">&lt;context&gt;</span>
+<span class="value">Product:</span> Shopify Multi-Carrier Shipping Label (MCSL) app
+<span class="value">Company:</span> PluginHive
+<span class="value">Sprint:</span> April 1-30, 2026
+<span class="value">Total features:</span> 12
+
+<span class="value">Critical deadline:</span> DHL Paket REST API integration (#43) — DHL Webservices 3
+retires May 31, 2026. Must be production-ready by April 30.
+
+<span class="value">Feature list with priorities:</span>
+P0-Critical (API Integrations — must ship):
+  #7  DHL Express REST API Integration
+  #43 DHL Paket REST API Integration — HARD DEADLINE
+  #8  APC Postal REST API Integration
+
+P1-High (Revenue + Competitive):
+  #1  FedEx One Rate with Ground — Default ON, disable toggle
+  #10 FedEx Saturday Services — Show alongside normal rates
+  #39 UPS Simple Rates — Mixed Display (normal + simple rates together)
+  #33 App Dashboard Analytics MVP
+  #42 Bundled Products Support — Prepacked vs individual, value fix
+
+P1-High (Carrier Maintenance):
+  #4  PostNord Service Changes — 12 changes across all Nordic markets
+
+P2-Medium (Carrier Expansion):
+  #2  Australia Post Suburb Validation — Normalize for rates AND labels
+  #3  PostNord UK Expansion
+  #38 NZ Post MPB Integration
+
+<span class="value">Key business rules:</span>
+- FedEx One Rate is ON by default. Setting is to DISABLE, not enable.
+- UPS Simple Rates must show MIX of normal + simple rates (not exclusive).
+  Reference: WooCommerce UPS plugin dual-request + merge logic.
+- PostNord changes span ALL Nordic markets (z10-z14, ZDL), not just Finland.
+  12 changes: 2 renames (86→Home Small Prio w/C2, 11→Home Small w/C2+E8),
+  4 decommissions (79→11+E8, 87→Return 24, 30→11 by 2026-09-01, 51→Parcel 18),
+  Split Shipment 52+E8 rejected from May 4 (use Load Carrier 10),
+  FI+SE non-EU customs (two validation paths: PostNord/TVINN vs third-party agent),
+  Northern Norway HS Code+content via customsTransitNo.detailedDescription,
+  Svc 34 Tracked Letter label block update, Svc 52 Pallet phone outside Nordic,
+  Additional decommissions: G4 (except 52/83), B5+B4 (z13 Norway).
+<span class="tag">&lt;/context&gt;</span>
+
+<span class="tag">&lt;tasks&gt;</span>
+Execute the following tasks in order:
+
+<span class="value">TASK 1: Sprint Kickoff Document</span>
+Generate a sprint kickoff document that includes:
+- Sprint goal statement (one sentence)
+- Feature list with owners (assign based on expertise)
+- Sprint timeline (weekly milestones)
+- Risk register (top 5 risks with mitigations)
+- Definition of Done for this sprint
+
+<span class="value">TASK 2: Story Refinement</span>
+For each of the 12 features, validate and refine:
+- User story (As a... I want... So that...)
+- Acceptance criteria (testable, numbered AC-1 through AC-N)
+- API references (documentation links)
+- Test scenarios (happy path + edge cases)
+- Definition of Done for this specific story
+
+<span class="value">TASK 3: Task Board Setup</span>
+Create task cards for import:
+- Board name: "MCSL Sprint — April 2026"
+- Lists: Backlog, Sprint Apr 2026, In Progress, In Review, QA, Done
+- Each card: title, description (story + AC), labels, due date
+- Export as CSV for import
+
+<span class="value">TASK 4: Sprint Kickoff Email</span>
+Draft an email to the engineering team:
+- Subject: "[MCSL] April 2026 Sprint Kickoff — 12 Features, 3 Critical Integrations"
+- Body: Sprint summary, feature assignments, critical deadlines, links to specs
+
+<span class="value">TASK 5: Success Metrics</span>
+Define measurable success criteria:
+- Per-feature metrics
+- Sprint-level metrics (velocity, burndown)
+- Post-release metrics (error rates, merchant feedback)
+<span class="tag">&lt;/tasks&gt;</span>
+
+<span class="tag">&lt;api_references&gt;</span>
+- DHL Express REST: https://developer.dhl.com/api-reference/mydhl-api-dhl-express
+- DHL Paket REST v2: https://developer.dhl.com/api-reference/parcel-de-shipping-post-parcel-germany-v2
+- APC / Asendia: https://docs.apc-pli.com/
+- FedEx Rate API: https://developer.fedex.com/api/en-us/catalog/rate/docs.html
+- UPS Developer: https://developer.ups.com/
+- AuPost PAF: https://auspost.com.au/business/marketing-and-communications/access-data-and-insights/address-data/postcode-data
+- PostNord: https://developer.postnord.com/
+- NZ Post: https://www.nzpost.co.nz/business/ecommerce/developer-resource-centre
+- Shopify Product API: https://shopify.dev/docs/api/admin-rest/latest/resources/product
+<span class="tag">&lt;/api_references&gt;</span>
+
+<span class="comment"># Begin execution. Start with Task 1.</span>
+</div>
+
+    <div style="margin-top:16px; text-align:right;">
+      <button class="btn-action" onclick="copyPrompt()" style="background:#7c3aed;">Copy Prompt to Clipboard</button>
+    </div>
+  </div>
+</div>
+
+</div><!-- /container -->
+
+<script>
+function exportCSV() {
+  const cards = [
+    {name:"[#7] DHL Express REST API Integration",list:"Sprint Apr 2026",desc:"**User Story:** As a merchant using DHL Express, I want MCSL to integrate the MyDHL REST API as a new carrier option.\n\n**Priority:** P0-Critical\n**API:** https://developer.dhl.com/api-reference/mydhl-api-dhl-express\n**Auth:** OAuth 2.0 (client_credentials)\n\n**Acceptance Criteria:**\n- AC-1: Customer can use DHL Express services to generate labels on REST API\n- AC-2: DHL Express rates returned accurately at checkout via REST API\n- AC-3: OAuth 2.0 auto-refreshes tokens\n- AC-4: Tracking shows all events\n- AC-5: Pickup scheduling works\n- AC-6: Void label works\n- AC-7: Meaningful error messages\n- AC-8: Label sizes render correctly",labels:"P0-Critical,Carrier",due:"2026-04-25"},
+    {name:"[#43] DHL Paket REST API Integration",list:"Sprint Apr 2026",desc:"**HARD DEADLINE: May 31, 2026**\n\n**User Story:** As a German merchant, I want DHL Paket integrated via REST v2 as a new carrier.\n\n**Priority:** P0-Critical\n**API:** https://developer.dhl.com/api-reference/parcel-de-shipping-post-parcel-germany-v2\n\n**Acceptance Criteria:**\n- AC-1: Domestic labels (V01PAK) on REST v2\n- AC-2: Warenpost labels work\n- AC-3: International labels include customs\n- AC-4: Retoure labels work\n- AC-5: Customer can enter new DHL Paket REST API credentials\n- AC-6: Label formats correct\n- AC-7: Void works\n- AC-8: Completed by April 30",labels:"P0-Critical,Carrier,HARD-DEADLINE",due:"2026-04-25"},
+    {name:"[#8] APC Postal REST API Integration",list:"Sprint Apr 2026",desc:"**User Story:** As a merchant using APC Postal, I want MCSL to integrate the APC REST API as a new carrier option.\n\n**Priority:** P0-Critical\n**API:** https://docs.apc-pli.com/\n\n**Acceptance Criteria:**\n- AC-1: All APC services on REST\n- AC-2: API key auth works\n- AC-3: Rates accurate\n- AC-4: Tracking works\n- AC-5: All APC service codes correctly configured",labels:"P0-Critical,Carrier",due:"2026-04-18"},
+    {name:"[#1] FedEx One Rate with Ground",list:"Sprint Apr 2026",desc:"**User Story:** As a merchant using FedEx, I want One Rate (incl Ground) at checkout by default.\n\n**Priority:** P1-High\n**Key Rule:** One Rate is ON by default. Setting is to DISABLE, not enable.\n**API:** https://developer.fedex.com/api/en-us/catalog/rate/docs.html\n\n**Acceptance Criteria:**\n- AC-1: One Rate + Ground appear by default without merchant configuration\n- AC-2: Disable FedEx One Rate toggle exists in carrier settings\n- AC-3: When disabled, no One Rate services appear — only standard rates\n- AC-4: Correct One Rate packaging on labels\n- AC-5: Eligibility: FedEx packaging, max 50 lbs, US domestic",labels:"P1-High,Carrier",due:"2026-04-11"},
+    {name:"[#10] FedEx Saturday Services",list:"Sprint Apr 2026",desc:"**User Story:** As a merchant selling time-sensitive products, I want Saturday delivery at checkout with surcharge shown.\n\n**Priority:** P1-High\n**Bug:** Saturday setting currently applies to ALL shipments. Fix: show alongside normal rates only when API returns them.\n\n**Acceptance Criteria:**\n- AC-1: Normal + Saturday rates shown when API returns them\n- AC-2: No Saturday = normal rates only, no errors\n- AC-3: No manual toggle per day needed\n- AC-4: Labels include Saturday flag if available\n- AC-5: Surcharge transparently shown",labels:"P1-High,Carrier",due:"2026-04-07"},
+    {name:"[#39] UPS Simple Rates (Mixed Display)",list:"Sprint Apr 2026",desc:"**User Story:** As a merchant using UPS, I want Simple Rate alongside standard rates.\n\n**Priority:** P1-High\n**CRITICAL:** Must show MIX of normal + Simple Rate (not exclusive). Ref: WooCommerce UPS plugin dual-request + merge.\n**API:** https://developer.ups.com/ | rateType: SIMPLE\n\n**Acceptance Criteria:**\n- AC-1: Both standard + Simple Rate requests sent\n- AC-2: Simple Rate replaces standard for same service\n- AC-3: Non-eligible services remain visible\n- AC-4: Unified checkout list\n- AC-5: Disabled = standard only\n- AC-6: Ineligible = standard only, no errors\n- AC-7: Labels work for Simple Rate orders\n- AC-8: Debug logging for decisions",labels:"P1-High,Carrier",due:"2026-04-14"},
+    {name:"[#2] Australia Post Suburb Validation",list:"Sprint Apr 2026",desc:"**User Story:** As an Australian merchant, I want suburb normalization for rates AND labels.\n\n**Priority:** P2-Medium\n**Bug:** Rate requests normalize but label generation does NOT.\n\n**Acceptance Criteria:**\n- AC-1: Rate requests normalize suburbs\n- AC-2: Label generation ALSO normalizes\n- AC-3: Shopify order NOT modified\n- AC-4: No double-normalization\n- AC-5: Case-insensitive\n- AC-6: Comprehensive mapping from AusPost PAF",labels:"P2-Medium,Carrier",due:"2026-04-18"},
+    {name:"[#3] PostNord UK Expansion",list:"Sprint Apr 2026",desc:"**User Story:** As a UK merchant, I want PostNord UK as a carrier.\n\n**Priority:** P2-Medium\n**API:** https://developer.postnord.com/\n\n**Acceptance Criteria:**\n- AC-1: Appears when origin = GB\n- AC-2: Economy, Priority, Parcel available\n- AC-3: UK-Nordic rates correct\n- AC-4: Labels follow UK spec\n- AC-5: Tracking works",labels:"P2-Medium,Carrier",due:"2026-04-18"},
+    {name:"[#4] PostNord Service Changes",list:"Sprint Apr 2026",desc:"**User Story:** As a merchant using PostNord, I want all service changes reflected.\n\n**Priority:** P1-High\n**12 Changes:**\n1. Svc 86 (z12) rename→Home Small Prio, 3kg, C2\n2. Svc 11 (z12) rename→Home Small, 3kg, C2+E8, replaces 79\n3. Svc 79 (z12) decommissioned→migrate to 11+E8, locked\n4. Svc 87 (z12) decommissioned→migrate to Return (24)\n5. Svc 30 (z12) decommissioned 2026-09-01→migrate to 11\n6. Svc 51 (z12) decommissioned→migrate to Parcel (18)\n7. Split Shipment (z12) 52+E8 rejected from May 4, use Load Carrier 10\n8. FI+SE exports non-EU: mandatory customs fields (seller email, terms, DeclarantType etc)\n9. Northern Norway (z13) HS Code+content mandatory via customsTransitNo.detailedDescription\n10. Svc 34 (z12) Tracked Letter label block update\n11. Svc 52 (z12) Pallet phone mandatory outside Nordic\n12. Additional decommissions: G4 (except 52/83), B5, B4 (z13)\nIssuer Codes: DE=z10, DK=z11, SE=z12, NO=z13, FI=z14, Intl=ZDL\n\n**Acceptance Criteria:**\n- AC-1: 86 renamed, 3kg limit, C2 supported\n- AC-2: 11 renamed, 3kg limit, C2+E8 supported, replaces 79 flow\n- AC-3: 79 locked/removed, migration to 11+E8\n- AC-4: 87 removed, redirect to 24\n- AC-5: 30 flagged for decom 2026-09-01, migrate to 11\n- AC-6: 51 removed, redirect to 18\n- AC-7: 52+E8 rejected from May 4, Load Carrier 10\n- AC-8: FI+SE customs fields validated per agent type\n- AC-9: Northern Norway HS+content validated\n- AC-10: Svc 34 label updated\n- AC-11: Svc 52 phone mandatory outside Nordic\n- AC-12: G4/B5/B4 decommissioned per market\n- AC-13: Scoped by Issuer Code\n- AC-14: No regression on unaffected services",labels:"P1-High,Maintenance",due:"2026-04-07"},
+    {name:"[#38] NZ Post MPB Integration",list:"Sprint Apr 2026",desc:"**User Story:** As an NZ merchant with MPB account, I want discounted MPB rates (15-35% savings).\n\n**Priority:** P2-Medium\n**API:** https://www.nzpost.co.nz/business/ecommerce/developer-resource-centre\n\n**Acceptance Criteria:**\n- AC-1: MPB credential type in settings\n- AC-2: MPB discounted rates at checkout\n- AC-3: MPB-specific labels\n- AC-4: All MPB services work\n- AC-5: Tracking integrates\n- AC-6: Rates visibly lower than standard",labels:"P2-Medium,Carrier,Partnership",due:"2026-04-18"},
+    {name:"[#33] App Dashboard (Analytics MVP)",list:"Sprint Apr 2026",desc:"**User Story:** As a merchant, I want a shipping performance dashboard.\n\n**Priority:** P1-High\n**MVP:** 5 metric cards + 3 charts + filters + CSV export\n**Tech:** Chart.js, 15-min refresh, pre-computed aggregates\n**Gate to Premium plan**\n\n**Acceptance Criteria:**\n- AC-1: Loads <3s\n- AC-2: 5 metric cards accurate\n- AC-3: Orders timeline chart\n- AC-4: Carrier distribution pie\n- AC-5: Cost trends bar\n- AC-6: Date range filter\n- AC-7: Carrier filter\n- AC-8: CSV export\n- AC-9: Premium gating",labels:"P1-High,Dashboard",due:"2026-04-25"},
+    {name:"[#42] Bundled Products Support",list:"Sprint Apr 2026",desc:"**User Story:** As a merchant selling bundles, I want correct weight, values, and packing slips.\n\n**Priority:** P1-High\n**Two types:** Prepacked (single box) + Individual (separate)\n**Phase 1:** Shopify native bundles only. Third-party bundle apps in follow-up.\n**Bug:** Value cross-contamination when same product in bundle + individual\n\n**Acceptance Criteria:**\n- AC-1: Prepacked = single unit\n- AC-2: Individual = separate items\n- AC-3: Bundle type detection correct\n- AC-4: Correct weight per type\n- AC-5: No value cross-contamination\n- AC-6: Correct packing slip entries/totals\n- AC-7: Manual edit doesn't override\n- AC-8: Order import parses metadata\n- AC-9: Correct customs values for intl",labels:"P1-High,Ecommerce",due:"2026-04-18"},
+    {name:"[L3-12] Canpar Adult Signature Option",list:"Sprint Apr 2026",desc:"**User Story:** As a merchant using Canpar, I want an Adult Signature option for age-restricted or high-value shipments.\n\n**Priority:** L3-Dev\n**Trello:** https://trello.com/c/0a3zqBv1\n\n**Acceptance Criteria:**\n- AC-1: Adult Signature option available in Canpar carrier settings\n- AC-2: Adult Signature flag correctly passed in Canpar shipment API request\n- AC-3: Label generated with Adult Signature reflects the requirement",labels:"L3-Dev,Carrier",due:"2026-04-25"},
+    {name:"[L3-13] USPS Flat Rate Boxes Support",list:"Sprint Apr 2026",desc:"**User Story:** As a merchant using USPS, I want Flat Rate box options so I get accurate Flat Rate pricing at checkout.\n\n**Priority:** L3-Dev\n**Trello:** https://trello.com/c/cNh0Xb6p\n\n**Acceptance Criteria:**\n- AC-1: USPS Flat Rate box types (Small, Medium, Large) available as packaging options\n- AC-2: Checkout rates reflect correct USPS Flat Rate pricing\n- AC-3: Labels pass correct Flat Rate package type to USPS API",labels:"L3-Dev,Carrier",due:"2026-04-25"}
+  ];
+
+  let csv = "Card Name,List Name,Description,Labels,Due Date\n";
+  cards.forEach(c => {
+    csv += `"${c.name}","${c.list}","${c.desc.replace(/"/g,'""')}","${c.labels}","${c.due}"\n`;
+  });
+
+  const blob = new Blob([csv], {type: 'text/csv'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'mcsl_april_2026_cards.csv';
+  a.click();
+}
+
+function copyPrompt() {
+  const el = document.getElementById('poPrompt');
+  const text = el.innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = event.target;
+    btn.textContent = 'Copied!';
+    btn.style.background = '#059669';
+    setTimeout(() => { btn.textContent = 'Copy Prompt to Clipboard'; btn.style.background = '#7c3aed'; }, 2000);
+  });
+}
+</script>
+
+</body>
+</html>
