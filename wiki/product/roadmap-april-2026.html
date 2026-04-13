@@ -1090,17 +1090,28 @@ function dimNonMatchingCards(q){
   }
 }
 
+function ganttRowMatchesQuery(row, q){
+  const label = row.querySelector('.gl');
+  if(!label) return false;
+  const title = label.textContent;
+  // Direct label match
+  if(title.toLowerCase().includes(q)) return true;
+  // Look up feature by title and search full data (desc, children, tags)
+  const feat = Object.values(ALL_FEATURES).find(f=>f.title===title);
+  if(!feat) return false;
+  let text = [feat.id, feat.title, feat.desc||'', (feat.tags||[]).join(' '), feat.theme||''].join(' ');
+  if(feat.children) feat.children.forEach(c=>text+=' '+c.id+' '+c.t);
+  return text.toLowerCase().includes(q);
+}
+
 function dimNonMatchingGanttRows(q){
   let anyMatch = false;
   document.querySelectorAll('.gr').forEach(row=>{
-    const label = row.querySelector('.gl');
-    if(label && label.textContent.toLowerCase().includes(q)) anyMatch = true;
+    if(ganttRowMatchesQuery(row, q)) anyMatch = true;
   });
   if(!anyMatch) return;
   document.querySelectorAll('.gr').forEach(row=>{
-    const label = row.querySelector('.gl');
-    if(!label) return;
-    if(label.textContent.toLowerCase().includes(q)){
+    if(ganttRowMatchesQuery(row, q)){
       row.style.opacity='1';
       row.classList.add('gantt-highlight');
     } else {
