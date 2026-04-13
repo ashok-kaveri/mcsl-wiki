@@ -77,7 +77,7 @@ for subdir in $PRODUCT_KEYS; do
     # Multiple tags — Zendesk search OR: wrap in parentheses
     tag_parts=""
     while IFS= read -r t; do
-      [ -n "$t" ] && tag_parts="${tag_parts:+$tag_parts }tags:$t"
+      [ -n "$t" ] && tag_parts="${tag_parts:+$tag_parts OR }tags:$t"
     done <<< "$tags_array"
     tag_query="($tag_parts)"
   else
