@@ -27,6 +27,18 @@ sources:
         tag: shopify_multi_carrier_shipping_label_app
         filters: "status<pending, support_type=agent"
         description: "Shopify Multi Carrier Shipping Label App tickets"
+      other_platforms:
+        path: raw/zendesk/other_platforms
+        pattern: "{ticketId}.json"
+        tags:
+          - woocommerce_shipping_services
+          - fedex_amea_woocommerce_shipping_services
+          - magento_multi_carrier_shipping_label_app
+          - bigcommerce_multi_carrier_shipping_label_app
+          - storepep_shipping_solution
+          - bigcommerce_ship_rate_and_track_for_fedex
+        filters: "status=open"
+        description: "Non-Shopify product tickets (WooCommerce, Magento, BigCommerce, StorePep, FedEx AMEA) — open status only"
 
   regression-scenarios:
     type: google-sheet
