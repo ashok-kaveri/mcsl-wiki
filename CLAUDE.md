@@ -696,7 +696,29 @@ Write `wiki/zendesk/YYYY-MM-DD.md` — aggregates all open issues with ZI IDs:
 
 #### Step 4: Backlog Regeneration
 
-Read `wiki/zendesk/summaries/*.md` (NOT raw JSON). Cluster ZI issues into backlog items. Score using `(Impact × Confidence) / Effort`.
+Read `wiki/zendesk/summaries/*.md` (NOT raw JSON). NEVER go back to `raw/zendesk/*.json` for backlog generation.
+
+**Input**: The Open Issues section of each summary file. Each issue has: title, blocked-by, severity, feature area tag, comment citation.
+
+**Process**:
+1. Parse all open issues from `wiki/zendesk/summaries/*.md`
+2. Read the daily index `wiki/zendesk/YYYY-MM-DD.md` for canonical ZI IDs
+3. Cluster ZI issues into backlog items by feature area / theme
+4. Score each cluster: `(Impact × Confidence) / Effort`
+   - Impact (1-5): Based on issue count in cluster + severity signals from summaries
+   - Effort (1-5): Engineering complexity (1=toggle/config, 5=new carrier integration)
+   - Confidence (1-5): Higher when multiple summaries confirm same issue; lower for single-ticket requests
+5. Sort by priority score (highest first)
+
+**Output**: Rewrite `wiki/product/backlog.md` with:
+- Active Backlog table: `# | Item | Issues | Tickets | Impact | Effort | Confidence | Score | Key Sources | Status`
+- Key Sources column links to BOTH ZI issue IDs AND `wiki/zendesk/summaries/<ticketId>.md`
+- Cluster detail tables: every ZI issue within each cluster with title, ticket link, area
+- Parking Lot: low-urgency feature requests
+- Stale / Back-log: long-open items (2023-2024 vintage)
+- All 93 ZI issues must be accounted for (active + parking lot + stale)
+
+**Scoring rationale table**: Include a table explaining Impact/Effort/Confidence choices per backlog item.
 
 #### Step 5: Roadmap Update
 
@@ -795,7 +817,7 @@ git_reference: <commit hash>
 ## Problem Statement
 
 What problem does this solve? Who experiences it? How do we know?
-- **Evidence**: [Ticket #XXXXX](../../../raw/zendesk/XXXXX.json), ...
+- **Evidence**: [Ticket #XXXXX](../../zendesk/summaries/XXXXX.md) (ZI-001, ZI-002), ...
 - **Affected users**: X customers reported this
 - **Impact**: Revenue / reliability / UX
 
