@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StorePep — April 2026 Product Roadmap</title>
+<style>
+:root{
+  --now:#e74c3c;--next:#f39c12;--later:#3498db;
+  --now-bg:#fdecea;--next-bg:#fef5e7;--later-bg:#eaf2f8;
+  --bg:#f5f6fa;--card:#fff;--text:#2c3e50;--muted:#7f8c8d;--border:#e0e4e8;
+  --shadow:0 1px 4px rgba(0,0,0,.07);
+  --epic:#8e44ad;--feat:#27ae60;--rel:#e74c3c;--strat:#2980b9;
+  --tech:#16a085;--opp:#d35400;--thm:#c0392b;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;font-size:13px}
+
+/* HEADER */
+.hdr{background:linear-gradient(135deg,#1a252f 0%,#2c3e50 100%);color:#fff;padding:20px 32px;position:sticky;top:0;z-index:200;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.hdr h1{font-size:18px;font-weight:800;letter-spacing:-.3px}
+.hdr .sub{font-size:11px;opacity:.65;margin-top:2px}
+.hdr-row{display:flex;justify-content:space-between;align-items:center}
+.kpis{display:flex;gap:12px;margin-top:10px;flex-wrap:wrap}
+.kpi{background:rgba(255,255,255,.08);border-radius:8px;padding:5px 12px;min-width:100px;backdrop-filter:blur(4px)}
+.kpi b{font-size:18px;display:block;line-height:1.2}.kpi span{font-size:9px;opacity:.6;text-transform:uppercase;letter-spacing:.4px}
+
+/* TABS */
+.tabs{display:flex;background:#fff;border-bottom:2px solid var(--border);padding:0 32px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tab{padding:10px 18px;cursor:pointer;font-size:11px;font-weight:600;color:var(--muted);border-bottom:3px solid transparent;transition:.15s;white-space:nowrap;user-select:none}
+.tab:hover{color:var(--text);background:#f8f9fb}
+.tab.active{color:var(--text);border-bottom-color:var(--now)}
+.tab .dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:4px;vertical-align:middle}
+
+.ct{padding:20px 32px 60px}
+.vw{display:none}.vw.active{display:block}
+.dbox{background:#fff;border-radius:10px;padding:12px 16px;margin-bottom:16px;border-left:4px solid var(--muted);font-size:11px;color:var(--muted)}
+.dbox strong{color:var(--text)}
+
+/* BOARD */
+.board{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-bottom:20px}
+.swim{background:#fff;border-radius:10px;box-shadow:var(--shadow);overflow:hidden;min-height:160px}
+.sh{padding:10px 14px;font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.6px;display:flex;align-items:center;justify-content:space-between;color:#fff}
+.sh .cnt{background:rgba(0,0,0,.15);border-radius:8px;padding:1px 7px;font-size:10px}
+.swim[data-lane="now"] .sh{background:var(--now)}
+.swim[data-lane="next"] .sh{background:var(--next)}
+.swim[data-lane="later"] .sh{background:var(--later)}
+.sb{padding:8px;min-height:120px}
+.sb.drag-over{background:#eef3ff;outline:2px dashed #3498db;border-radius:6px}
+
+/* CARDS */
+.cd{background:var(--card);border:1px solid var(--border);border-radius:7px;padding:9px 11px;margin-bottom:7px;cursor:grab;transition:.15s;position:relative}
+.cd:hover{box-shadow:0 3px 10px rgba(0,0,0,.08);transform:translateY(-1px)}
+.cd.dragging{opacity:.35;transform:rotate(2deg)}
+.cd-t{font-size:11px;font-weight:600;margin-bottom:2px;padding-right:32px}
+.cd-d{font-size:10px;color:var(--muted);margin-bottom:5px;display:none;line-height:1.4}
+.cd.exp .cd-d{display:block}
+.cd-m{display:flex;gap:3px;flex-wrap:wrap;align-items:center}
+.cd-sc{display:flex;gap:8px;margin-top:5px;font-size:9px;padding-top:5px;border-top:1px solid #f0f0f0}
+.cd-sc .s{display:flex;align-items:center;gap:2px}
+.cd-sc .sl{color:var(--muted);font-weight:500}.cd-sc .sv{font-weight:700}
+.cd-x{position:absolute;top:6px;right:6px;width:22px;height:22px;border:1px solid var(--border);border-radius:4px;background:#fff;cursor:pointer;font-size:9px;display:flex;align-items:center;justify-content:center;color:var(--muted);line-height:1}
+.cd-x:hover{background:#f5f6fa}
+.cd-ch{margin-top:6px;padding-top:6px;border-top:1px dashed var(--border);display:none}
+.cd.exp .cd-ch{display:block}
+.ch-i{font-size:10px;padding:3px 0;border-bottom:1px solid #f8f8f8;display:flex;justify-content:space-between;align-items:center}
+.ch-i:last-child{border-bottom:none}
+.ch-id{color:var(--muted);font-weight:500;min-width:44px;font-size:9px}
+
+.bg{font-size:8px;padding:1px 5px;border-radius:3px;font-weight:600;text-transform:uppercase;letter-spacing:.2px;white-space:nowrap;display:inline-block}
+.b-ep{background:#f0e6f6;color:var(--epic)}.b-ft{background:#e8f8f0;color:var(--feat)}
+.b-rl{background:#fdecea;color:var(--rel)}.b-st{background:#e1ecf4;color:var(--strat)}
+.b-tc{background:#e0f2f1;color:var(--tech)}.b-op{background:#fbe9e7;color:var(--opp)}
+.b-tm{background:#fce4ec;color:var(--thm)}.b-tx{background:#fff3cd;color:#856404}
+.b-rv{background:#d4edda;color:#155724}.b-l3{background:#e74c3c;color:#fff}
+.b-p0{background:#c0392b;color:#fff;animation:pulse 2s infinite}.b-dl{background:#f39c12;color:#fff}
+.b-cu{background:#e8daef;color:#6c3483}.b-p1{background:#e67e22;color:#fff}
+.b-p2{background:#3498db;color:#fff}.b-new{background:#1abc9c;color:#fff}
+.b-dash{background:#9b59b6;color:#fff}.b-maint{background:#95a5a6;color:#fff}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.7}}
+
+.bw{width:46px;height:5px;background:#ecf0f1;border-radius:3px;overflow:hidden;display:inline-block;vertical-align:middle}
+.bf{height:100%;border-radius:3px}
+.pf{background:linear-gradient(90deg,#f39c12,#e74c3c)}.ef{background:linear-gradient(90deg,#3498db,#2c3e50)}.cf{background:linear-gradient(90deg,#27ae60,#16a085)}
+
+/* GANTT */
+.tlb{background:#fff;border-radius:10px;box-shadow:var(--shadow);overflow-x:auto;margin-top:16px}
+.tlt{padding:12px 16px 0;font-size:13px;font-weight:700}
+.gt{padding:12px 16px 14px}
+.gh{display:grid;border-bottom:2px solid var(--border);padding-bottom:4px;margin-bottom:2px;font-size:9px;font-weight:700;color:var(--muted);text-transform:uppercase}
+.gr{display:grid;align-items:center;padding:3px 0;border-bottom:1px solid #f5f5f5;font-size:10px;min-height:26px}
+.gr:hover{background:#fafbfc}
+.gl{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-right:6px;font-weight:500}
+.gbc{position:relative;height:16px}
+.gb{position:absolute;height:16px;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:7px;font-weight:700;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.15);transition:.3s}
+.gb.now{background:linear-gradient(135deg,#e74c3c,#c0392b)}.gb.next{background:linear-gradient(135deg,#f39c12,#e67e22)}.gb.later{background:linear-gradient(135deg,#3498db,#2980b9)}
+
+/* SLA */
+.sla-f{display:flex;align-items:center;gap:0;margin:14px 0;flex-wrap:wrap;justify-content:center}
+.sla-s{background:#fff;border:2px solid var(--border);border-radius:8px;padding:10px 14px;text-align:center;min-width:120px}
+.sla-s.cr{border-color:var(--now)}.sla-s.cr b{color:var(--now)}
+.sla-s.wn{border-color:var(--next)}.sla-s.wn b{color:var(--next)}
+.sla-s.ok{border-color:var(--feat)}.sla-s.ok b{color:var(--feat)}
+.sla-s small{font-size:9px;color:var(--muted);text-transform:uppercase;font-weight:700;letter-spacing:.3px}
+.sla-s b{font-size:16px;display:block;margin:2px 0}.sla-s .sd{font-size:8px;color:var(--muted)}
+.sla-a{font-size:18px;color:var(--border);padding:0 5px}
+
+/* RELEASE */
+.rs{background:#fff;border-radius:10px;box-shadow:var(--shadow);padding:16px;margin-bottom:16px}
+.rs h3{font-size:13px;margin-bottom:8px}
+.rr{display:grid;grid-template-columns:100px 1fr 80px 80px;gap:8px;padding:7px 0;border-bottom:1px solid #f0f0f0;font-size:11px;align-items:center;cursor:pointer}
+.rr:hover{background:#fafbfc}
+.rd{font-weight:700;color:var(--now)}
+.rsp{font-size:9px;padding:2px 8px;border-radius:10px;text-align:center;font-weight:600}
+.sp{background:#eaf2f8;color:var(--later)}.si{background:#fef5e7;color:var(--next)}.ss{background:#d5f5e3;color:#1e8449}
+
+.rdp{background:#fff;border-radius:10px;box-shadow:var(--shadow);padding:16px;margin-bottom:12px;display:none}
+.rdp.open{display:block}
+.rdp h4{font-size:13px;margin-bottom:10px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.rt{width:100%;font-size:10px;border-collapse:collapse}
+.rt th{background:#f8f9fa;padding:6px 8px;text-align:left;font-size:9px;text-transform:uppercase;color:var(--muted);font-weight:700;border-bottom:2px solid var(--border)}
+.rt td{padding:5px 8px;border-bottom:1px solid #f0f0f0}
+.rt tr:hover td{background:#fafbfc}
+
+/* THEME */
+.tg{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-bottom:20px}
+.tc{background:#fff;border-radius:10px;box-shadow:var(--shadow);overflow:hidden;cursor:pointer;transition:.15s}
+.tc:hover{box-shadow:0 4px 16px rgba(0,0,0,.1);transform:translateY(-2px)}
+.tc-h{padding:12px 14px;color:#fff;font-weight:700;font-size:12px;display:flex;justify-content:space-between;align-items:center}
+.tc-b{padding:12px 14px}
+.tc-d{font-size:10px;color:var(--muted);margin-bottom:8px;line-height:1.4}
+.tc-st{display:flex;gap:10px;margin-bottom:8px}
+.ts{text-align:center}.ts b{font-size:14px;display:block;line-height:1.2}.ts span{font-size:8px;color:var(--muted);text-transform:uppercase}
+.tc-ft{border-top:1px solid var(--border);padding-top:8px;display:none;max-height:400px;overflow-y:auto}
+.tc.exp .tc-ft{display:block}
+.tfi{font-size:10px;padding:4px 0;border-bottom:1px solid #f8f8f8;display:flex;justify-content:space-between;align-items:center;gap:6px}
+.tfi:last-child{border-bottom:none}
+.ttgl{font-size:9px;opacity:.6}
+
+/* FILTER */
+.flt{display:flex;gap:5px;margin-bottom:12px;flex-wrap:wrap}
+.fb{padding:4px 10px;border:1px solid var(--border);border-radius:14px;font-size:9px;cursor:pointer;background:#fff;font-weight:500;transition:.12s}
+.fb:hover,.fb.act{background:var(--text);color:#fff;border-color:var(--text)}
+
+.shd{font-size:15px;font-weight:700;margin:18px 0 10px;display:flex;align-items:center;gap:6px}
+
+/* SUMMARY */
+.sum-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;margin-bottom:20px}
+.sum-card{background:#fff;border-radius:10px;box-shadow:var(--shadow);padding:14px}
+.sum-card h4{font-size:12px;margin-bottom:8px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.sum-row{display:flex;justify-content:space-between;font-size:11px;padding:3px 0;border-bottom:1px solid #f8f8f8}
+.sum-row:last-child{border-bottom:none}
+
+/* SEARCH */
+.search-wrap{position:relative;margin-top:10px;max-width:420px}
+.search-input{width:100%;padding:8px 14px 8px 34px;border:1px solid rgba(255,255,255,.2);border-radius:8px;background:rgba(255,255,255,.1);color:#fff;font-size:12px;outline:none;transition:.2s}
+.search-input::placeholder{color:rgba(255,255,255,.45)}
+.search-input:focus{background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.4)}
+.search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);font-size:14px;opacity:.45;pointer-events:none}
+.search-results{position:absolute;top:100%;left:0;right:0;background:#fff;border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.18);max-height:320px;overflow-y:auto;z-index:300;display:none;margin-top:4px}
+.search-results.open{display:block}
+.sr-item{padding:8px 14px;cursor:pointer;border-bottom:1px solid #f0f0f0;transition:.1s}
+.sr-item:hover{background:#f5f6fa}
+.sr-item:last-child{border-bottom:none}
+.sr-title{font-size:11px;font-weight:600}.sr-desc{font-size:9px;color:var(--muted);margin-top:1px}
+.sr-tags{margin-top:3px;display:flex;gap:3px;flex-wrap:wrap}
+.search-clear{position:absolute;right:10px;top:50%;transform:translateY(-50%);cursor:pointer;font-size:14px;opacity:.5;color:#fff;display:none}
+.search-clear.vis{display:block}
+.search-highlight{outline:3px solid #f39c12;outline-offset:2px;animation:highlightPulse 1.5s ease-in-out 3;border-radius:7px}
+@keyframes highlightPulse{0%,100%{outline-color:#f39c12}50%{outline-color:#e74c3c}}
+.gantt-highlight{outline:2px solid #f39c12;background:rgba(243,156,18,.15)!important}
+.sr-count{font-size:10px;color:var(--muted);padding:6px 14px;border-bottom:1px solid var(--border);font-weight:600}
+
+@media(max-width:1200px){.board{grid-template-columns:1fr}.tabs{padding:0 12px}.ct{padding:14px}.hdr{padding:14px 12px}}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <div class="hdr-row">
+    <div>
+      <h1>StorePep Product Roadmap &mdash; April 2026</h1>
+      <div class="sub">L3 Release Schedule &middot; 72-Hour SLA &middot; Zero Ticket Goal &middot; Revenue Focus &middot; 15 Engineers + QA</div>
+    </div>
+    <div style="text-align:right;font-size:10px;opacity:.5">Updated: 2026-04-13<br>Sprint: Apr 13-30</div>
+  </div>
+  <div style="display:flex;align-items:center;gap:16px;margin-top:10px;flex-wrap:wrap">
+    <div class="search-wrap">
+      <span class="search-icon">&#128269;</span>
+      <input class="search-input" id="globalSearch" type="text" placeholder="Search tickets, features, carriers... (e.g. #382961, DHL, PostNord, variant)">
+      <span class="search-clear" id="searchClear" onclick="clearSearch()">&times;</span>
+      <div class="search-results" id="searchResults"></div>
+    </div>
+  </div>
+  <div class="kpis">
+    <div class="kpi"><b>68</b><span>Open Tickets</span></div>
+    <div class="kpi"><b>12+17</b><span>Sprint Features+L3</span></div>
+    <div class="kpi"><b>3</b><span>P0-Critical</span></div>
+    <div class="kpi"><b>&lt;72h</b><span>SLA Target</span></div>
+    <div class="kpi"><b>15m</b><span>First Response</span></div>
+    <div class="kpi"><b>0</b><span>Ticket Goal</span></div>
+    <div class="kpi"><b>May 31</b><span>DHL Deadline</span></div>
+  </div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" data-tab="release"><span class="dot" style="background:var(--rel)"></span>Releases</div>
+  <div class="tab" data-tab="theme"><span class="dot" style="background:var(--thm)"></span>Themes</div>
+  <div class="tab" data-tab="epic"><span class="dot" style="background:var(--epic)"></span>Epics</div>
+  <div class="tab" data-tab="feature"><span class="dot" style="background:var(--feat)"></span>Features</div>
+  <div class="tab" data-tab="strategy"><span class="dot" style="background:var(--strat)"></span>Strategy</div>
+  <div class="tab" data-tab="tech"><span class="dot" style="background:var(--tech)"></span>Technology</div>
+  <div class="tab" data-tab="opportunity"><span class="dot" style="background:var(--opp)"></span>Opportunity</div>
+</div>
+
+<div class="ct" id="app"></div>
+
+<script>
+// ============================================================
+// MASTER DATA — Merged: Sprint Plan + Zendesk + Wiki
+// ============================================================
+
+const THEMES = [
+  {id:'trust', label:'Trust & Reliability', color:'#c0392b',
+   desc:'Fix P0 data integrity, ship dev-completed items, close 34-month-old tickets. "We hear you, we are fixing it."',
+   target:'68 → 35 tickets by Apr 30', kpis:{tickets:28, pain:10, revenue:'Retention'},
+   features:['zf1','zf2','zf15','zf8','l3_7','l3_11','l3_6','l3_8','l3_10']},
+
+  {id:'carrier', label:'Carrier Excellence', color:'#2980b9',
+   desc:'3 new carrier APIs (DHL Express, DHL Paket, APC), FedEx/UPS enhancements, PostNord overhaul, AusPost fix, NZ Post. "Every carrier, always current."',
+   target:'5 carrier integrations shipped', kpis:{tickets:21, pain:9, revenue:'$$$ Expansion'},
+   features:['sp7','sp43','sp8','sp1','sp10','sp39','sp2','sp3','sp4','sp38','l3_1','l3_2','l3_4','l3_5','l3_9','l3_12','l3_13','zf3','zf6','zf7']},
+
+  {id:'scale', label:'Scale & Growth', color:'#27ae60',
+   desc:'Variant search (34 months overdue), >250 variants, bundled products, self-serve onboarding. "Built for merchants who are growing."',
+   target:'Enterprise ARPU unlock', kpis:{tickets:21, pain:9, revenue:'$$$ ARPU'},
+   features:['sp42','l3_14','l3_15','l3_16','zf11','zf18']},
+
+  {id:'intl', label:'International Shipping', color:'#8e44ad',
+   desc:'Fix CI/customs pipeline once = close 20% of backlog. Shared document generation across all carriers. DHL export reasons.',
+   target:'14 tickets → 0', kpis:{tickets:14, pain:10, revenue:'$$ Premium'},
+   features:['zf4','zf5','zf20','zf21','zf22','l3_3','l3_8','l3_9']},
+
+  {id:'intelligence', label:'Intelligence & Revenue', color:'#d35400',
+   desc:'App Dashboard (premium-gated), rate shopping reliability, proactive migration playbook. "Your shipping runs itself — and pays for itself."',
+   target:'Premium plan revenue', kpis:{tickets:5, pain:5, revenue:'$$$ New Revenue'},
+   features:['sp33','zf23','zf24','l3_17']},
+];
+
+// --- SPRINT PLAN FEATURES (12 main) ---
+const SP_FEATURES = {
+  sp7:  {id:'sp7',  title:'[#7] DHL Express REST API Integration',  desc:'New carrier: MyDHL REST API. OAuth 2.0, labels, rates, tracking, pickups. ~15-20% of active merchants.', lane:'now', tags:['p0','new'], pain:10, effort:9, customers:15, start:13, end:25, theme:'carrier',
+         children:[{id:'Labels',t:'POST /shipments (label gen)'},{id:'Rates',t:'POST /rates (pricing)'},{id:'Track',t:'GET /tracking'},{id:'Pickup',t:'POST /pickups'},{id:'OAuth',t:'OAuth 2.0 token refresh'}]},
+  sp43: {id:'sp43', title:'[#43] DHL Paket REST API v2', desc:'HARD DEADLINE May 31! German domestic parcels. V01PAK, Warenpost, Europaket, Retoure. DHL Webservices 3 retiring.', lane:'now', tags:['p0','deadline'], pain:10, effort:9, customers:10, start:13, end:25, theme:'carrier',
+         children:[{id:'V01PAK',t:'Domestic labels'},{id:'V53WPAK',t:'International labels'},{id:'V62WP',t:'Warenpost'},{id:'Retoure',t:'Return labels'},{id:'Auth',t:'API Key + Basic Auth'}]},
+  sp8:  {id:'sp8',  title:'[#8] APC Postal REST API (Asendia USA)', desc:'Partnership-driven new carrier. Lightweight intl shipments. API Key auth — simpler integration.', lane:'now', tags:['p0','new'], pain:7, effort:5, customers:3, start:13, end:18, theme:'carrier',
+         children:[{id:'Ship',t:'POST /shipments'},{id:'Rate',t:'GET /rates'},{id:'Track',t:'GET /tracking'}]},
+  sp1:  {id:'sp1',  title:'[#1] FedEx One Rate with Ground', desc:'One Rate ON by default. Toggle is to DISABLE. Ground, Express Saver, 2Day, Overnight. US domestic, max 50 lbs.', lane:'now', tags:['p1'], pain:6, effort:4, customers:5, start:13, end:15, theme:'carrier',
+         children:[{id:'Default',t:'One Rate ON by default'},{id:'Toggle',t:'Disable toggle in settings'},{id:'Ground',t:'FedEx Ground One Rate'},{id:'Label',t:'Correct packaging on labels'}]},
+  sp10: {id:'sp10', title:'[#10] FedEx Saturday Services', desc:'Bug fix: Saturday setting applies to ALL shipments. Fix: show alongside normal rates only when API returns them.', lane:'now', tags:['p1'], pain:6, effort:3, customers:3, start:13, end:14, theme:'carrier',
+         children:[{id:'Fix',t:'Saturday rates alongside normal'},{id:'Label',t:'Saturday flag on labels'},{id:'Surcharge',t:'Transparent surcharge display'}]},
+  sp39: {id:'sp39', title:'[#39] UPS Simple Rates (Mixed Display)', desc:'Show MIX of normal + Simple Rate (not exclusive). Dual-request + merge logic. Reference: WooCommerce UPS plugin.', lane:'now', tags:['p1'], pain:6, effort:5, customers:5, start:13, end:16, theme:'carrier',
+         children:[{id:'Dual',t:'Dual rate requests'},{id:'Merge',t:'Merge + replace logic'},{id:'Fallback',t:'Standard-only fallback'},{id:'Debug',t:'Decision logging'}]},
+  sp4:  {id:'sp4',  title:'[#4] PostNord Service Changes (12 changes)', desc:'12 service changes across Nordic markets. Decommissions, renames, customs fields. Issuer Codes z10-z14.', lane:'now', tags:['p1','deadline','maint'], pain:8, effort:6, customers:4, start:13, end:14, theme:'carrier',
+         children:[{id:'86',t:'Rename → Home Small Prio'},{id:'79',t:'Decommission → migrate to 11+E8'},{id:'87',t:'Decommission → migrate to 24'},{id:'30',t:'Decom Sep 1 → migrate to 11'},{id:'51',t:'Decom → migrate to 18'},{id:'52+E8',t:'Rejected May 4 → Load Carrier 10'},{id:'Customs',t:'FI+SE mandatory customs fields'},{id:'Norway',t:'HS Code+content mandatory'}]},
+  sp2:  {id:'sp2',  title:'[#2] Australia Post Suburb Validation', desc:'Bug: rates normalize suburbs but labels do NOT. Fix both. Use AusPost PAF data. Dont modify Shopify order.', lane:'next', tags:['p2'], pain:6, effort:4, customers:3, start:14, end:18, theme:'carrier',
+         children:[{id:'Rate',t:'Rate normalization (exists)'},{id:'Label',t:'Label normalization (new)'},{id:'PAF',t:'AusPost PAF mapping'}]},
+  sp3:  {id:'sp3',  title:'[#3] PostNord UK Expansion', desc:'New market: UK merchants get PostNord. Economy (5-8d), Priority (2-4d), Parcel (tracked).', lane:'next', tags:['p2','new'], pain:4, effort:4, customers:1, start:14, end:18, theme:'carrier',
+         children:[{id:'Origin',t:'Appear when origin=GB'},{id:'Svcs',t:'Economy, Priority, Parcel'},{id:'Rates',t:'UK-Nordic rates'}]},
+  sp38: {id:'sp38', title:'[#38] NZ Post MPB Integration', desc:'Partnership: NZ merchants get discounted MPB rates (15-35% savings). MPB credential type.', lane:'next', tags:['p2','new'], pain:4, effort:4, customers:1, start:14, end:18, theme:'carrier',
+         children:[{id:'Auth',t:'MPB credential type'},{id:'Rates',t:'Discounted MPB rates'},{id:'Labels',t:'MPB-specific labels'}]},
+  sp33: {id:'sp33', title:'[#33] App Dashboard (Analytics MVP)', desc:'Premium-gated! 5 metric cards, 3 charts, filters, CSV export. Chart.js, 15-min refresh. NEW REVENUE.', lane:'next', tags:['p1','revenue','dash'], pain:5, effort:7, customers:0, start:18, end:25, theme:'intelligence',
+         children:[{id:'Cards',t:'5 metric cards (Orders, Spend, Avg Cost, Void, Delivery)'},{id:'Charts',t:'3 charts (Timeline, Carrier pie, Cost bar)'},{id:'Filter',t:'Date range + carrier filter'},{id:'Export',t:'CSV export'},{id:'Gate',t:'Premium plan gating'}]},
+  sp42: {id:'sp42', title:'[#42] Bundled Products Support', desc:'Phase 1: Shopify native bundles. Prepacked vs Individual. Fix value cross-contamination. Correct packing slips.', lane:'next', tags:['p1'], pain:8, effort:6, customers:5, start:14, end:18, theme:'scale',
+         children:[{id:'Detect',t:'Bundle type detection'},{id:'Weight',t:'Correct weight per type'},{id:'Value',t:'No value cross-contamination'},{id:'Slip',t:'Correct packing slip entries'},{id:'Customs',t:'Correct customs values'}]},
+};
+
+// --- L3 ITEMS (17) ---
+const L3_ITEMS = {
+  l3_1:  {id:'l3_1',  title:'[L3-1] USPS: Buffer Time for Delivery', desc:'Add configurable buffer days to USPS estimated delivery. Merchants pad for handling time.', lane:'now', tags:['l3'], pain:4, effort:2, customers:1, start:13, end:16, theme:'carrier', children:[]},
+  l3_2:  {id:'l3_2',  title:'[L3-2] UPS: Hazmat Rates (SubVersion Fix)', desc:'Add SubVersion 1701 to rate request. Hazmat rates not fetched without it. Assigned: Veena.', lane:'now', tags:['l3'], pain:6, effort:2, customers:1, start:13, end:16, theme:'carrier', children:[]},
+  l3_3:  {id:'l3_3',  title:'[L3-3] DHL: Configurable Export Reason', desc:'Forward=Sale, Return=Return for Repair. Detect shipment type and apply correct reason.', lane:'now', tags:['l3'], pain:7, effort:3, customers:2, start:13, end:16, theme:'intl', children:[]},
+  l3_4:  {id:'l3_4',  title:'[L3-4] DPD NL: Fix Missing Services', desc:'7 DPD NL services missing at checkout. Map and display with correct names.', lane:'now', tags:['l3'], pain:6, effort:3, customers:1, start:13, end:16, theme:'carrier', children:[]},
+  l3_5:  {id:'l3_5',  title:'[L3-5] UPS: Product Description in Ref', desc:'Option to pass Product Description instead of Order ID in reference field.', lane:'now', tags:['l3'], pain:6, effort:2, customers:1, start:13, end:16, theme:'carrier', children:[]},
+  l3_6:  {id:'l3_6',  title:'[L3-6] Box Name on Pick List & Invoice', desc:'Display box/packaging name on Pick List and Tax Invoice documents.', lane:'now', tags:['l3'], pain:5, effort:2, customers:1, start:14, end:17, theme:'trust', children:[]},
+  l3_7:  {id:'l3_7',  title:'[L3-7] Bundled: Packing Slip Fix', desc:'Value cross-contamination between bundled and individual items. Packing slip totals incorrect.', lane:'now', tags:['l3'], pain:8, effort:3, customers:3, start:14, end:17, theme:'trust', children:[]},
+  l3_8:  {id:'l3_8',  title:'[L3-8] FedEx: Discounted Value on CI', desc:'BOGO: 2nd item should show $0. Currently prints full price for both.', lane:'now', tags:['l3'], pain:7, effort:3, customers:1, start:14, end:17, theme:'intl', children:[]},
+  l3_9:  {id:'l3_9',  title:'[L3-9] FedEx: Min Customs Value', desc:'Minimum customs value enhancement for FedEx international.', lane:'next', tags:['l3'], pain:6, effort:3, customers:1, start:17, end:21, theme:'carrier', children:[]},
+  l3_10: {id:'l3_10', title:'[L3-10] Ship-To City in Order Report', desc:'Include Ship-To address city in order report export.', lane:'next', tags:['l3'], pain:5, effort:2, customers:1, start:17, end:21, theme:'trust', children:[]},
+  l3_11: {id:'l3_11', title:'[L3-11] Edit Package: Adjusted Value', desc:'Adjusted value not showing correctly in edit package view.', lane:'next', tags:['l3'], pain:6, effort:2, customers:1, start:17, end:21, theme:'trust', children:[]},
+  l3_12: {id:'l3_12', title:'[L3-12] Canpar: Adult Signature', desc:'Adult Signature option for age-restricted / high-value Canpar shipments.', lane:'next', tags:['l3'], pain:4, effort:2, customers:1, start:21, end:25, theme:'carrier', children:[]},
+  l3_13: {id:'l3_13', title:'[L3-13] USPS: Flat Rate Boxes', desc:'Small, Medium, Large Flat Rate box packaging options with accurate pricing.', lane:'next', tags:['l3'], pain:5, effort:3, customers:1, start:21, end:25, theme:'carrier', children:[]},
+  l3_14: {id:'l3_14', title:'[L3-14] Products: 100+ Variant Import', desc:'Webhook import fails silently for >100 variants. No logs. Only works on Force Import.', lane:'now', tags:['l3'], pain:9, effort:4, customers:3, start:13, end:17, theme:'scale', children:[]},
+  l3_15: {id:'l3_15', title:'[L3-15] Products: 250+ Variants (GraphQL)', desc:'GraphQL library lacks pagination. Only first 250 variants imported. Implement cursor pagination.', lane:'now', tags:['l3'], pain:9, effort:5, customers:3, start:13, end:17, theme:'scale', children:[]},
+  l3_16: {id:'l3_16', title:'[L3-16] Products: Variant Name & SKU Search', desc:'Search only works for parent products. Extend to variant name and SKU.', lane:'next', tags:['l3'], pain:9, effort:4, customers:2, start:17, end:25, theme:'scale', children:[]},
+  l3_17: {id:'l3_17', title:'[L3-17] Reports: Carrier Scan Time', desc:'Map tracking timestamps (pickup, delivered, returned) to TrackingOrders. Start with Indian carriers.', lane:'next', tags:['l3'], pain:5, effort:4, customers:1, start:21, end:25, theme:'intelligence', children:[]},
+};
+
+// --- ZENDESK-DERIVED FEATURES ---
+const ZEN_FEATURES = {
+  zf1:  {id:'zf1',  title:'Fix orders disappearing bug', desc:'#382961 — Orders silently set to not-to-ship when upsell purchased. P0 data integrity. Recurring!', lane:'now', tags:['p0','l3'], pain:10, effort:3, customers:1, start:13, end:15, theme:'trust',
+         children:[{id:'#382961',t:'Orders disappearing (P0)'}]},
+  zf2:  {id:'zf2',  title:'Ship Dev-Ready L3 items (4)', desc:'#382694, #382425, #379098, #360396 — Already built. Just deploy. Zero dev effort.', lane:'now', tags:['l3'], pain:7, effort:1, customers:4, start:13, end:14, theme:'trust',
+         children:[{id:'#382694',t:'CN22 PostNord country fix'},{id:'#382425',t:'FedEx One Rate avoid'},{id:'#379098',t:'FedEx CSV signature'},{id:'#360396',t:'Scan time in report'}]},
+  zf3:  {id:'zf3',  title:'Australia Post API Security Update', desc:'#382780, #383002 — TLS 1.2+ compliance. Jul 7 deadline. 2 merchants same day.', lane:'now', tags:['deadline'], pain:8, effort:4, customers:2, start:13, end:17, theme:'carrier',
+         children:[{id:'#382780',t:'AusPost security'},{id:'#383002',t:'AusPost (2nd merchant)'}]},
+  zf4:  {id:'zf4',  title:'Commercial Invoice Pipeline Fix', desc:'Batch fix: decimal, descriptions, declarations. Closes ~8 tickets across carriers.', lane:'now', tags:['l3'], pain:10, effort:6, customers:8, start:14, end:21, theme:'intl',
+         children:[{id:'#374851',t:'Decimal on invoice'},{id:'#377795',t:'UPS description'},{id:'#380784',t:'Declaration on CI'},{id:'#374022',t:'Discounted value UPS'},{id:'#381261',t:'DHL export decl'},{id:'#376223',t:'PostNord CI value'},{id:'#383043',t:'30-char limit'}]},
+  zf5:  {id:'zf5',  title:'CN22 + Label Same Page (PostNord)', desc:'#379784 — PostNord contacted, awaiting API confirmation.', lane:'next', tags:[], pain:7, effort:3, customers:1, start:18, end:21, theme:'intl', children:[]},
+  zf6:  {id:'zf6',  title:'FedEx REST: Dimensions + Min Value', desc:'#382009, #369144 — Edge cases from SOAP migration.', lane:'next', tags:['l3'], pain:7, effort:3, customers:2, start:18, end:21, theme:'carrier', children:[]},
+  zf7:  {id:'zf7',  title:'PostNord discontinued services', desc:'#373200 — Service mapping update. Overlaps with [#4] PostNord Changes.', lane:'now', tags:[], pain:6, effort:3, customers:1, start:13, end:16, theme:'carrier', children:[]},
+  zf8:  {id:'zf8',  title:'USPS Label Delete Fix', desc:'#381380 — Cannot clean up / delete labels. Blocks re-shipment workflow.', lane:'next', tags:[], pain:6, effort:2, customers:1, start:18, end:21, theme:'trust', children:[]},
+  zf11: {id:'zf11', title:'Variant Search (34 months overdue)', desc:'#277997, #218195 — 21-34 months open. Overlaps with L3-16 sprint item.', lane:'next', tags:['revenue','l3'], pain:9, effort:6, customers:2, start:17, end:25, theme:'scale', children:[]},
+  zf15: {id:'zf15', title:'Edit Package Adjusted Value', desc:'#361776 — Shows wrong value. L3 Dev Ready. Overlaps L3-11.', lane:'next', tags:['l3'], pain:6, effort:2, customers:1, start:17, end:21, theme:'trust', children:[]},
+  zf18: {id:'zf18', title:'Self-Serve Onboarding Wizard', desc:'10 onboarding tickets = 15% of volume. Guided setup + carrier auto-config.', lane:'later', tags:['revenue'], pain:4, effort:8, customers:10, start:25, end:30, theme:'scale', children:[]},
+  zf20: {id:'zf20', title:'Export Reason: Forward vs Return', desc:'#377217, #381261 — Different export reasons per direction. Overlaps L3-3.', lane:'now', tags:['l3'], pain:7, effort:4, customers:2, start:13, end:17, theme:'intl', children:[]},
+  zf21: {id:'zf21', title:'UPS Reference: Product Description', desc:'#378511 — Overlaps with L3-5 sprint item.', lane:'now', tags:['l3'], pain:6, effort:2, customers:1, start:13, end:16, theme:'intl', children:[]},
+  zf22: {id:'zf22', title:'Box Name on Tax Invoice', desc:'#373991 — Display box name. Overlaps L3-6.', lane:'now', tags:[], pain:5, effort:2, customers:1, start:14, end:17, theme:'intl', children:[]},
+  zf23: {id:'zf23', title:'Rate Shopping Reliability', desc:'0% automation, 750 pain index. Core rate engine improvements.', lane:'later', tags:['revenue'], pain:7, effort:7, customers:2, start:25, end:30, theme:'intelligence', children:[]},
+  zf24: {id:'zf24', title:'Proactive Carrier Migration Playbook', desc:'Detect API sunsets early, pre-migrate merchants, send notices. Prevent future fire drills.', lane:'later', tags:[], pain:3, effort:5, customers:0, start:28, end:30, theme:'intelligence', children:[]},
+};
+
+// Merge ALL features
+const ALL_FEATURES = {...SP_FEATURES, ...L3_ITEMS, ...ZEN_FEATURES};
+
+// --- RELEASES (merged sprint plan dates + Zendesk) ---
+const RELEASES = [
+  {id:'r1', date:'Apr 13-16', name:'Sprint Kickoff: FedEx + PostNord + Dev-Ready', type:'Sprint Start', status:'in-progress',
+   themes:['carrier','trust'],
+   items:[
+     {ticket:'[#10]', desc:'FedEx Saturday Services (bug fix)', pain:6, effort:3, customers:3, tags:['p1'], source:'Sprint'},
+     {ticket:'[#4]',  desc:'PostNord Service Changes (12 changes)', pain:8, effort:6, customers:4, tags:['p1','deadline'], source:'Sprint'},
+     {ticket:'[#1]',  desc:'FedEx One Rate with Ground (default ON)', pain:6, effort:4, customers:5, tags:['p1'], source:'Sprint'},
+     {ticket:'#382961', desc:'Fix orders disappearing bug (P0)', pain:10, effort:3, customers:1, tags:['p0','l3'], source:'Zendesk'},
+     {ticket:'#382694', desc:'CN22 PostNord country fix (dev ready)', pain:7, effort:1, customers:1, tags:['l3'], source:'Zendesk'},
+     {ticket:'#382425', desc:'FedEx One Rate avoid (dev ready)', pain:6, effort:1, customers:1, tags:['l3'], source:'Zendesk'},
+     {ticket:'#379098', desc:'FedEx CSV signature (dev ready)', pain:5, effort:1, customers:1, tags:['l3'], source:'Zendesk'},
+     {ticket:'#360396', desc:'Scan time in report (dev ready)', pain:5, effort:1, customers:1, tags:['l3'], source:'Zendesk'},
+   ]},
+  {id:'r2', date:'Apr 16-18', name:'UPS Simple Rates + L3 Carrier Batch', type:'Feature', status:'planned',
+   themes:['carrier','intl'],
+   items:[
+     {ticket:'[#39]', desc:'UPS Simple Rates — mixed display (dual request)', pain:6, effort:5, customers:5, tags:['p1'], source:'Sprint'},
+     {ticket:'[L3-1]', desc:'USPS buffer time for delivery', pain:4, effort:2, customers:1, tags:['l3'], source:'Sprint'},
+     {ticket:'[L3-2]', desc:'UPS Hazmat Rates (SubVersion fix)', pain:6, effort:2, customers:1, tags:['l3'], source:'Sprint'},
+     {ticket:'[L3-3]', desc:'DHL configurable export reason', pain:7, effort:3, customers:2, tags:['l3'], source:'Sprint'},
+     {ticket:'[L3-4]', desc:'DPD NL missing services fix', pain:6, effort:3, customers:1, tags:['l3'], source:'Sprint'},
+     {ticket:'[L3-5]', desc:'UPS product description in ref field', pain:6, effort:2, customers:1, tags:['l3'], source:'Sprint'},
+     {ticket:'#382780', desc:'Australia Post API security update', pain:8, effort:4, customers:2, tags:['deadline'], source:'Zendesk'},
+   ]},
+  {id:'r3', date:'Apr 18-21', name:'New Carriers + Bundled Products + CI Pipeline', type:'P0 Carriers', status:'planned',
+   themes:['carrier','scale','intl','trust'],
+   items:[
+     {ticket:'[#8]',  desc:'APC Postal REST API (Asendia USA)', pain:7, effort:5, customers:3, tags:['p0','new'], source:'Sprint'},
+     {ticket:'[#42]', desc:'Bundled Products Support (Phase 1)', pain:8, effort:6, customers:5, tags:['p1'], source:'Sprint'},
+     {ticket:'[#2]',  desc:'Australia Post Suburb Validation', pain:6, effort:4, customers:3, tags:['p2'], source:'Sprint'},
+     {ticket:'[#3]',  desc:'PostNord UK Expansion', pain:4, effort:4, customers:1, tags:['p2','new'], source:'Sprint'},
+     {ticket:'[#38]', desc:'NZ Post MPB Integration (partnership)', pain:4, effort:4, customers:1, tags:['p2','new'], source:'Sprint'},
+     {ticket:'[L3-6]', desc:'Box name on pick list & invoice', pain:5, effort:2, customers:1, tags:['l3'], source:'Sprint'},
+     {ticket:'[L3-7]', desc:'Bundled packing slip fix', pain:8, effort:3, customers:3, tags:['l3'], source:'Sprint'},
+     {ticket:'[L3-8]', desc:'FedEx discounted value on CI', pain:7, effort:3, customers:1, tags:['l3'], source:'Sprint'},
+     {ticket:'[L3-14]', desc:'100+ variant import fix', pain:9, effort:4, customers:3, tags:['l3'], source:'Sprint'},
+     {ticket:'[L3-15]', desc:'250+ variants GraphQL pagination', pain:9, effort:5, customers:3, tags:['l3'], source:'Sprint'},
+     {ticket:'#374851', desc:'Decimal on commercial invoice', pain:10, effort:3, customers:1, tags:[], source:'Zendesk'},
+     {ticket:'#377795', desc:'Full description on UPS invoice', pain:9, effort:3, customers:1, tags:[], source:'Zendesk'},
+     {ticket:'#380784', desc:'Declaration on CI', pain:8, effort:2, customers:1, tags:[], source:'Zendesk'},
+   ]},
+  {id:'r4', date:'Apr 21-25', name:'DHL Express + DHL Paket + Dashboard', type:'P0 Critical', status:'planned',
+   themes:['carrier','intelligence','trust'],
+   items:[
+     {ticket:'[#7]',  desc:'DHL Express REST API (labels, rates, tracking, pickups)', pain:10, effort:9, customers:15, tags:['p0','new'], source:'Sprint'},
+     {ticket:'[#43]', desc:'DHL Paket REST API v2 (HARD DEADLINE May 31)', pain:10, effort:9, customers:10, tags:['p0','deadline'], source:'Sprint'},
+     {ticket:'[#33]', desc:'App Dashboard Analytics MVP (premium-gated)', pain:5, effort:7, customers:0, tags:['p1','revenue'], source:'Sprint'},
+     {ticket:'[L3-9]', desc:'FedEx min customs value', pain:6, effort:3, customers:1, tags:['l3'], source:'Sprint'},
+     {ticket:'[L3-10]', desc:'Ship-to city in order report', pain:5, effort:2, customers:1, tags:['l3'], source:'Sprint'},
+     {ticket:'[L3-11]', desc:'Edit package adjusted value', pain:6, effort:2, customers:1, tags:['l3'], source:'Sprint'},
+     {ticket:'[L3-16]', desc:'Variant name & SKU search', pain:9, effort:4, customers:2, tags:['l3'], source:'Sprint'},
+     {ticket:'#381380', desc:'USPS label delete fix', pain:6, effort:2, customers:1, tags:[], source:'Zendesk'},
+     {ticket:'#379784', desc:'CN22 + label same page', pain:7, effort:3, customers:1, tags:[], source:'Zendesk'},
+   ]},
+  {id:'r5', date:'Apr 25-30', name:'L3 Tail + Hardening + Test Coverage', type:'Hardening', status:'planned',
+   themes:['carrier','intelligence','scale'],
+   items:[
+     {ticket:'[L3-12]', desc:'Canpar adult signature option', pain:4, effort:2, customers:1, tags:['l3'], source:'Sprint'},
+     {ticket:'[L3-13]', desc:'USPS Flat Rate boxes support', pain:5, effort:3, customers:1, tags:['l3'], source:'Sprint'},
+     {ticket:'[L3-17]', desc:'Carrier scan time in reports', pain:5, effort:4, customers:1, tags:['l3'], source:'Sprint'},
+     {ticket:'—', desc:'Playwright tests for all Apr shipped features', pain:0, effort:5, customers:0, tags:[], source:'Internal'},
+     {ticket:'—', desc:'DHL Express + Paket regression testing', pain:0, effort:4, customers:0, tags:[], source:'Internal'},
+     {ticket:'#338603', desc:'Subscription error on Safari', pain:4, effort:2, customers:1, tags:[], source:'Zendesk'},
+     {ticket:'#306141', desc:'Avoid Saturday delivery when N/A', pain:4, effort:2, customers:1, tags:[], source:'Zendesk'},
+   ]},
+];
+
+// --- EPICS ---
+const EPICS = [
+  {id:'ep1', title:'DHL Carrier Platform (Express + Paket)', desc:'2 new REST APIs. Hard deadline May 31. 25+ customers affected. Biggest April deliverable.', lane:'now', tags:['p0','deadline'], pain:10, effort:9, customers:25, start:13, end:25, theme:'carrier',
+   children:[{id:'[#7]',t:'DHL Express REST API'},{id:'[#43]',t:'DHL Paket REST API v2'},{id:'[L3-3]',t:'DHL configurable export reason'}]},
+  {id:'ep2', title:'FedEx & UPS Enhancements', desc:'One Rate, Saturday, Simple Rates, Hazmat, min value. 15+ customers across features.', lane:'now', tags:['p1'], pain:7, effort:5, customers:15, start:13, end:21, theme:'carrier',
+   children:[{id:'[#1]',t:'FedEx One Rate + Ground'},{id:'[#10]',t:'FedEx Saturday Services'},{id:'[#39]',t:'UPS Simple Rates'},{id:'[L3-2]',t:'UPS Hazmat Rates'},{id:'[L3-8]',t:'FedEx CI discounted value'},{id:'[L3-9]',t:'FedEx min customs value'}]},
+  {id:'ep3', title:'International Shipping Pipeline', desc:'Fix CI/customs pipeline once = close 20% of backlog (14 tickets). Shared across all carriers.', lane:'now', tags:['l3'], pain:10, effort:6, customers:14, start:13, end:21, theme:'intl',
+   children:[{id:'CI',t:'Commercial Invoice pipeline fix (8 tickets)'},{id:'CN22',t:'CN22 + label same page'},{id:'Export',t:'Export reasons fwd/return'},{id:'HS',t:'HS code per-shipment'},{id:'Ref',t:'UPS reference field'}]},
+  {id:'ep4', title:'New Carrier Integrations (APC, PostNord UK, NZ Post)', desc:'3 new carrier/market expansions. APC is partnership-driven P0.', lane:'now', tags:['p0','new','revenue'], pain:7, effort:5, customers:5, start:13, end:18, theme:'carrier',
+   children:[{id:'[#8]',t:'APC Postal REST API'},{id:'[#3]',t:'PostNord UK'},{id:'[#38]',t:'NZ Post MPB'},{id:'[L3-4]',t:'DPD NL services fix'}]},
+  {id:'ep5', title:'Product Import & Bundled Products', desc:'Variant search (34mo!), >250 variants, bundled product support. Unblocks enterprise merchants.', lane:'now', tags:['p1','revenue'], pain:9, effort:6, customers:11, start:13, end:25, theme:'scale',
+   children:[{id:'[#42]',t:'Bundled Products Phase 1'},{id:'[L3-14]',t:'100+ variant import'},{id:'[L3-15]',t:'250+ variant pagination'},{id:'[L3-16]',t:'Variant name & SKU search'},{id:'[L3-7]',t:'Bundled packing slip fix'}]},
+  {id:'ep6', title:'PostNord Nordic Overhaul', desc:'12 service changes across z10-z14. Decommissions, renames, customs. May 4 rejection deadline.', lane:'now', tags:['p1','deadline','maint'], pain:8, effort:6, customers:4, start:13, end:16, theme:'carrier',
+   children:[{id:'[#4]',t:'12 PostNord service changes'},{id:'#373200',t:'Zendesk: PostNord services'}]},
+  {id:'ep7', title:'Analytics Dashboard (Premium Revenue)', desc:'Premium-gated MVP. 5 metrics, 3 charts, CSV. New recurring revenue stream.', lane:'next', tags:['p1','revenue'], pain:5, effort:7, customers:0, start:18, end:25, theme:'intelligence',
+   children:[{id:'[#33]',t:'Dashboard Analytics MVP'},{id:'Gate',t:'Premium plan gating'}]},
+  {id:'ep8', title:'Order Data Integrity & Trust', desc:'P0 orders bug + dev-ready items + label fixes. Trust-critical.', lane:'now', tags:['p0','l3'], pain:10, effort:3, customers:6, start:13, end:16, theme:'trust',
+   children:[{id:'#382961',t:'Orders disappearing (P0)'},{id:'4x L3',t:'Dev-ready items (deploy)'},{id:'#381380',t:'USPS label delete'}]},
+];
+
+// --- STRATEGY ---
+const STRATEGY = [
+  {id:'s1', title:'Eliminate Recurring Ticket Patterns', desc:'CI pipeline fix = 20% of backlog. Ship L3 Dev Ready = 8 instant closures. Variant fixes = 11 tickets. Target: 68 → 35.', lane:'now', tags:['l3'], pain:10, effort:5, customers:33, start:13, end:21,
+   children:[{id:'CI',t:'Batch fix ~8 CI tickets'},{id:'L3 Ship',t:'Deploy 8 dev-completed items'},{id:'Variants',t:'Fix variant import (11 tickets)'},{id:'#382961',t:'P0 orders bug'}]},
+  {id:'s2', title:'L3 as Revenue Intelligence', desc:'Every L3 ticket = product signal. Dashboard (premium-gated) = direct revenue. Carrier expansions = partnership revenue.', lane:'now', tags:['revenue'], pain:5, effort:4, customers:5, start:13, end:30,
+   children:[{id:'[#33]',t:'Dashboard → premium plan revenue'},{id:'[#8]',t:'APC → partnership revenue'},{id:'[#38]',t:'NZ Post → partnership revenue'},{id:'Variants',t:'>250 variants → enterprise tier'}]},
+  {id:'s3', title:'Carrier Platform Modernization', desc:'DHL Express + Paket = 2 new REST APIs. FedEx + UPS enhancements. 5 carrier integrations in one month.', lane:'now', tags:['revenue','deadline'], pain:9, effort:9, customers:30, start:13, end:25,
+   children:[{id:'DHL',t:'2 DHL REST APIs (May 31 deadline)'},{id:'APC',t:'APC Postal (partnership)'},{id:'FedEx',t:'One Rate + Saturday'},{id:'UPS',t:'Simple Rates + Hazmat'},{id:'PostNord',t:'12 service changes + UK'}]},
+  {id:'s4', title:'Self-Serve & Zero-Ticket Operations', desc:'Onboarding wizard, proactive migration playbook, test coverage 11%→30%. Ticket prevention > resolution.', lane:'later', tags:[], pain:4, effort:8, customers:10, start:25, end:30,
+   children:[{id:'Wizard',t:'Self-serve onboarding'},{id:'Tests',t:'Playwright for shipped features'},{id:'Playbook',t:'Carrier migration playbook'}]},
+];
+
+// --- TECHNOLOGY ---
+const TECH_ITEMS = [
+  {id:'t1', title:'DHL REST API Integration Layer', desc:'2 separate API integrations: Express (OAuth 2.0) + Paket (API Key). Different auth, endpoints, services.', lane:'now', tags:['p0'], pain:10, effort:9, customers:25, start:13, end:25,
+   children:[{id:'Express',t:'OAuth 2.0 + token refresh'},{id:'Paket',t:'API Key + Basic Auth'},{id:'Services',t:'V01PAK, V53WPAK, V62WP, Retoure'},{id:'Labels',t:'PDF/ZPL/PNG base64'}]},
+  {id:'t2', title:'CI/Customs Document Pipeline Refactor', desc:'Unified pipeline for CI, CN22, HS codes across all 46 carriers. Currently fragmented per carrier.', lane:'now', tags:['l3'], pain:10, effort:7, customers:14, start:14, end:21,
+   children:[{id:'CI Gen',t:'Unified CI generator'},{id:'CN22',t:'CN22 template engine'},{id:'HS',t:'HS code per-shipment'},{id:'Validate',t:'Pre-flight validation'}]},
+  {id:'t3', title:'CI/CD: 72h Release Train', desc:'Automated staging → prod pipeline. Rolling 3-day releases. 4 dev-completed items currently sit unshipped.', lane:'now', tags:[], pain:7, effort:4, customers:4, start:13, end:16,
+   children:[{id:'Pipeline',t:'Automated staging deploy'},{id:'Gate',t:'Smoke test gate'},{id:'Rollback',t:'1-click rollback'}]},
+  {id:'t4', title:'GraphQL Pagination for Shopify Products', desc:'250-variant limit due to missing cursor pagination. Implement hasNextPage/endCursor loop.', lane:'now', tags:['l3'], pain:9, effort:5, customers:3, start:13, end:17,
+   children:[{id:'Cursor',t:'Cursor-based pagination'},{id:'Perf',t:'No regression for <250 variants'}]},
+  {id:'t5', title:'App Dashboard Frontend (Chart.js)', desc:'5 metric cards + 3 charts + filters + CSV export. 15-min refresh, pre-computed aggregates. Premium-gated.', lane:'next', tags:['revenue'], pain:5, effort:7, customers:0, start:18, end:25,
+   children:[{id:'Cards',t:'5 metric cards'},{id:'Charts',t:'Chart.js (timeline, pie, bar)'},{id:'API',t:'GET /api/dashboard/summary'},{id:'Gate',t:'Premium plan check'}]},
+  {id:'t6', title:'E2E Test Coverage: 11% → 25%', desc:'Every L3 fix and sprint feature ships with Playwright test. Priority: DHL, bundled products, rate shopping.', lane:'now', tags:[], pain:5, effort:6, customers:0, start:13, end:30,
+   children:[{id:'DHL',t:'DHL Express + Paket tests'},{id:'Bundle',t:'Bundled product tests'},{id:'Rate',t:'Rate shopping tests (0% → 50%)'},{id:'Carrier',t:'Carrier config tests (7% → 30%)'}]},
+];
+
+// --- OPPORTUNITIES ---
+const OPPS = [
+  {id:'o1', title:'DHL Platform (Express + Paket)', desc:'25+ customers on DHL. REST migration = modern, reliable integration. German market unlock via Paket.', lane:'now', tags:['revenue','p0'], pain:10, effort:9, customers:25, start:13, end:25, revenue:'$$$',
+   children:[{id:'Express',t:'~15-20% of active merchants'},{id:'Paket',t:'German domestic market'},{id:'Revenue',t:'Retention + expansion'}]},
+  {id:'o2', title:'Premium Dashboard (New Revenue Stream)', desc:'Analytics MVP gated to Premium plan. Direct recurring revenue from dashboard access.', lane:'next', tags:['revenue'], pain:5, effort:7, customers:0, start:18, end:25, revenue:'$$$ Recurring',
+   children:[{id:'[#33]',t:'5 metrics + 3 charts'},{id:'Premium',t:'Plan upgrade trigger'},{id:'CSV',t:'Data export value-add'}]},
+  {id:'o3', title:'Partnership Carriers (APC + NZ Post)', desc:'APC requested integration. NZ Post MPB = 15-35% savings. Partnership-driven revenue.', lane:'now', tags:['revenue','new'], pain:6, effort:5, customers:4, start:13, end:18, revenue:'$$ Partnership',
+   children:[{id:'[#8]',t:'APC Postal (Asendia USA)'},{id:'[#38]',t:'NZ Post MPB discounts'}]},
+  {id:'o4', title:'Large Catalog Merchants (>250 SKUs)', desc:'Variant search + import scaling + bundled products. 11 tickets, 34-month demand. Enterprise ARPU.', lane:'now', tags:['revenue'], pain:9, effort:7, customers:11, start:13, end:25, revenue:'$$$ ARPU',
+   children:[{id:'[L3-14]',t:'100+ variant fix'},{id:'[L3-15]',t:'250+ variant pagination'},{id:'[L3-16]',t:'Variant search'},{id:'[#42]',t:'Bundled products'}]},
+  {id:'o5', title:'International Shipping Premium', desc:'Fixing CI/customs pipeline enables premium international plan. 14 tickets = 20% of volume.', lane:'now', tags:['revenue'], pain:10, effort:6, customers:14, start:14, end:21, revenue:'$$ Premium',
+   children:[{id:'CI Fix',t:'Invoice pipeline (8 tickets)'},{id:'Export',t:'Export reasons'},{id:'HS',t:'HS code management'}]},
+  {id:'o6', title:'WooCommerce Parity', desc:'15 tickets, 22% of volume. Composite/bundled products, carrier coverage gaps. Underserved segment.', lane:'later', tags:['revenue'], pain:6, effort:8, customers:15, start:28, end:30, revenue:'$$$ Market',
+   children:[{id:'Composite',t:'Composite products'},{id:'Bundled',t:'Bundled products'},{id:'Carriers',t:'Carrier coverage'}]},
+];
+
+// ============================================================
+// RENDER ENGINE
+// ============================================================
+const app = document.getElementById('app');
+const FD=13, TD=18; // First day visible=13, total days=18 (Apr 13-30)
+
+function pb(v){return `<span class="bw"><span class="bf pf" style="width:${v*10}%"></span></span>${v}`}
+function eb(v){return `<span class="bw"><span class="bf ef" style="width:${v*10}%"></span></span>${v}`}
+function cb(v,m){return `<span class="bw"><span class="bf cf" style="width:${m?Math.min(100,v/m*100):0}%"></span></span>${v}`}
+
+function tg(tags, extra){
+  let s='';
+  if(tags.includes('p0'))s+='<span class="bg b-p0">P0</span> ';
+  if(tags.includes('p1'))s+='<span class="bg b-p1">P1</span> ';
+  if(tags.includes('p2'))s+='<span class="bg b-p2">P2</span> ';
+  if(tags.includes('l3'))s+='<span class="bg b-l3">L3</span> ';
+  if(tags.includes('deadline'))s+='<span class="bg b-dl">Deadline</span> ';
+  if(tags.includes('revenue'))s+='<span class="bg b-rv">Revenue</span> ';
+  if(tags.includes('new'))s+='<span class="bg b-new">New</span> ';
+  if(tags.includes('maint'))s+='<span class="bg b-maint">Maint</span> ';
+  if(tags.includes('dash'))s+='<span class="bg b-dash">Dashboard</span> ';
+  if(extra)s+=extra;
+  return s;
+}
+
+function mkCard(item, vt, mx){
+  const c=document.createElement('div');c.className='cd';c.draggable=true;c.dataset.id=item.id;c.dataset.view=vt;
+  const th=THEMES.find(t=>t.id===item.theme);
+  const tb=th?`<span class="bg" style="background:${th.color}12;color:${th.color}">${th.label}</span> `:'';
+  let ch='';
+  if(item.children&&item.children.length){
+    ch='<div class="cd-ch">';
+    item.children.forEach(x=>{ch+=`<div class="ch-i"><div style="display:flex;gap:4px;align-items:center"><span class="ch-id">${x.id}</span><span>${x.t}</span></div></div>`});
+    ch+='</div>';
+  }
+  c.innerHTML=`
+    <div class="cd-x" onclick="this.parentElement.classList.toggle('exp');event.stopPropagation()">${item.children&&item.children.length?'&#9660;':'&bull;'}</div>
+    <div class="cd-t">${item.title}</div>
+    <div class="cd-d">${item.desc}</div>
+    <div class="cd-m">${tb}${tg(item.tags||[])}${item.customers?`<span class="bg b-cu">${item.customers} cust</span>`:''}</div>
+    <div class="cd-sc">
+      <div class="s"><span class="sl">Pain</span><span class="sv">${pb(item.pain)}</span></div>
+      <div class="s"><span class="sl">Effort</span><span class="sv">${eb(item.effort)}</span></div>
+      <div class="s"><span class="sl">Cust</span><span class="sv">${cb(item.customers||0,mx||25)}</span></div>
+    </div>
+    ${ch}`;
+  c.addEventListener('dragstart',e=>{c.classList.add('dragging');e.dataTransfer.setData('text/plain',item.id);e.dataTransfer.setData('view',vt)});
+  c.addEventListener('dragend',()=>{c.classList.remove('dragging');document.querySelectorAll('.drag-over').forEach(el=>el.classList.remove('drag-over'))});
+  return c;
+}
+
+function renderBoard(cid, items, vt){
+  const el=document.getElementById(cid);if(!el)return;
+  const lanes={now:[],next:[],later:[]};items.forEach(i=>lanes[i.lane].push(i));
+  const mx=Math.max(...items.map(i=>i.customers||0),1);
+  el.innerHTML='';
+  const board=document.createElement('div');board.className='board';
+  ['now','next','later'].forEach(lane=>{
+    const ll=lane==='now'?'NOW (Apr 13-18)':lane==='next'?'NEXT (Apr 18-25)':'LATER (Apr 25-30)';
+    const sw=document.createElement('div');sw.className='swim';sw.dataset.lane=lane;
+    sw.innerHTML=`<div class="sh"><span>${ll}</span><span class="cnt">${lanes[lane].length}</span></div>`;
+    const body=document.createElement('div');body.className='sb';body.dataset.lane=lane;body.dataset.view=vt;
+    lanes[lane].forEach(item=>body.appendChild(mkCard(item,vt,mx)));
+    body.addEventListener('dragover',e=>{e.preventDefault();body.classList.add('drag-over')});
+    body.addEventListener('dragleave',()=>body.classList.remove('drag-over'));
+    body.addEventListener('drop',e=>{
+      e.preventDefault();body.classList.remove('drag-over');
+      const cid2=e.dataTransfer.getData('text/plain'),sv=e.dataTransfer.getData('view');
+      if(sv!==vt)return;
+      const cd=document.querySelector(`.cd[data-id="${cid2}"][data-view="${vt}"]`);
+      if(cd){
+        body.appendChild(cd);
+        const it=items.find(i=>i.id===cid2);
+        if(it){
+          it.lane=lane;
+          const dur=it.end-it.start;
+          if(lane==='now'){it.start=13;it.end=Math.min(30,13+dur)}
+          else if(lane==='next'){it.start=18;it.end=Math.min(30,18+dur)}
+          else{it.start=25;it.end=Math.min(30,25+dur)}
+          renderGantt(cid+'-g',items);
+        }
+        board.querySelectorAll('.swim').forEach(s=>{s.querySelector('.cnt').textContent=s.querySelector('.sb').querySelectorAll('.cd').length});
+      }
+    });
+    sw.appendChild(body);board.appendChild(sw);
+  });
+  el.appendChild(board);
+}
+
+function renderGantt(gid, items){
+  const el=document.getElementById(gid);if(!el)return;
+  const lw=240;
+  let h=`<div class="gh" style="grid-template-columns:${lw}px repeat(${TD},1fr)"><div>Item</div>`;
+  for(let d=FD;d<=30;d++){const dw=new Date(2026,3,d).toLocaleDateString('en',{weekday:'short'});h+=`<div style="text-align:center;font-size:7px">${d}<br>${dw}</div>`}
+  h+='</div>';
+  items.forEach(it=>{
+    const so=Math.max(0,it.start-FD),eo=Math.min(TD,it.end-FD),w=eo-so;
+    const lp=(so/TD*100).toFixed(1),wp=(w/TD*100).toFixed(1);
+    h+=`<div class="gr" style="grid-template-columns:${lw}px 1fr"><div class="gl">${it.title}</div><div class="gbc"><div class="gb ${it.lane}" style="left:${lp}%;width:${wp}%" title="Apr ${it.start}-${it.end}">${it.lane.toUpperCase()}</div></div></div>`;
+  });
+  h+='<div style="font-size:8px;color:var(--muted);margin-top:4px;text-align:right">Red=NOW &middot; Orange=NEXT &middot; Blue=LATER &middot; Drag cards above to shift timeline</div>';
+  el.innerHTML=h;
+}
+
+// ============================================================
+// BUILD VIEWS
+// ============================================================
+function build(){
+  let html='';
+
+  // ---- RELEASE VIEW ----
+  html+=`<div class="vw active" id="v-release">`;
+  html+=`<div class="dbox"><strong>Release Schedule: L3 72-Hour SLA.</strong> Plan starts Apr 13. First response &lt;15 min, triage &lt;4h, dev &lt;48h, production &lt;72h. 5 releases across April. Sprint Plan features (P0-P2) + Zendesk L3 items + dev-ready deploys merged into each release. 3+ customers asking = auto-prioritize this week. Use the search bar above to find any ticket or feature — timeline highlights matching items.</div>`;
+
+  // SLA flow
+  html+=`<div class="shd">L3 SLA Flow</div>`;
+  html+=`<div class="sla-f">
+    <div class="sla-s cr"><small>First Response</small><b>&lt;15 min</b><div class="sd">Acknowledge &amp; classify</div></div><div class="sla-a">&#8594;</div>
+    <div class="sla-s wn"><small>Triage &amp; Spec</small><b>&lt;4 hrs</b><div class="sd">Root cause, assign engineer</div></div><div class="sla-a">&#8594;</div>
+    <div class="sla-s wn"><small>Dev Fix</small><b>&lt;48 hrs</b><div class="sd">Code, test, PR, merge</div></div><div class="sla-a">&#8594;</div>
+    <div class="sla-s ok"><small>Ship to Prod</small><b>&lt;72 hrs</b><div class="sd">QA, staging, deploy</div></div>
+  </div>`;
+
+  // Summary cards
+  html+=`<div class="sum-grid">
+    <div class="sum-card"><h4>Sprint Plan Features</h4>
+      <div class="sum-row"><span>P0-Critical</span><b>3</b></div>
+      <div class="sum-row"><span>P1-High</span><b>6</b></div>
+      <div class="sum-row"><span>P2-Medium</span><b>3</b></div>
+      <div class="sum-row"><span>Total</span><b>12</b></div>
+    </div>
+    <div class="sum-card"><h4>L3 Items</h4>
+      <div class="sum-row"><span>L3-Dev</span><b>13</b></div>
+      <div class="sum-row"><span>L3-Big Ticket</span><b>4</b></div>
+      <div class="sum-row"><span>Total</span><b>17</b></div>
+    </div>
+    <div class="sum-card"><h4>Zendesk Tickets</h4>
+      <div class="sum-row"><span>Open (all apps)</span><b>68</b></div>
+      <div class="sum-row"><span>Dev Needed</span><b>34 (65%)</b></div>
+      <div class="sum-row"><span>Dev Ready (free wins)</span><b>4</b></div>
+      <div class="sum-row"><span>Yet to Pick</span><b>26 (38%)</b></div>
+    </div>
+    <div class="sum-card"><h4>Deadlines</h4>
+      <div class="sum-row"><span>DHL Paket</span><b style="color:var(--now)">May 31</b></div>
+      <div class="sum-row"><span>PostNord 52+E8</span><b style="color:var(--next)">May 4</b></div>
+      <div class="sum-row"><span>AusPost TLS</span><b style="color:var(--later)">Jul 7</b></div>
+    </div>
+  </div>`;
+
+  // Release calendar
+  html+=`<div class="rs"><h3>April 2026 Release Calendar</h3>`;
+  html+=`<div class="rr" style="font-weight:700;color:var(--muted);font-size:9px;text-transform:uppercase;cursor:default"><div>Date</div><div>Release</div><div>Type</div><div>Status</div></div>`;
+  RELEASES.forEach((r,i)=>{
+    const sc=r.status==='in-progress'?'si':r.status==='shipped'?'ss':'sp';
+    const sl=r.status==='in-progress'?'In Progress':r.status==='shipped'?'Shipped':'Planned';
+    const thb=r.themes.map(tid=>{const t=THEMES.find(th=>th.id===tid);return t?`<span class="bg" style="background:${t.color}15;color:${t.color}">${t.label}</span>`:''}).join(' ');
+    html+=`<div class="rr" onclick="toggleRD('rd${i}')">
+      <div class="rd">${r.date}</div>
+      <div><strong>${r.name}</strong><div style="margin-top:2px">${thb}</div></div>
+      <div><span class="bg ${r.type.includes('P0')?'b-p0':r.type==='Sprint Start'?'b-p1':r.type==='Hardening'?'b-maint':'b-ft'}">${r.type}</span></div>
+      <div><span class="rsp ${sc}">${sl}</span></div>
+    </div>`;
+  });
+  html+=`</div>`;
+
+  // Release details
+  RELEASES.forEach((r,i)=>{
+    const thb=r.themes.map(tid=>{const t=THEMES.find(th=>th.id===tid);return t?`<span class="bg" style="background:${t.color}15;color:${t.color}">${t.label}</span>`:''}).join(' ');
+    html+=`<div class="rdp" id="rd${i}"><h4>${r.date}: ${r.name} ${thb}</h4>`;
+    html+=`<table class="rt"><thead><tr><th>Ticket/ID</th><th>Description</th><th>Source</th><th>Pain</th><th>Effort</th><th>Cust</th><th>Tags</th></tr></thead><tbody>`;
+    r.items.forEach(it=>{
+      const srcBg=it.source==='Sprint'?'b-ep':it.source==='Zendesk'?'b-tx':'b-maint';
+      html+=`<tr><td><strong>${it.ticket}</strong></td><td>${it.desc}</td><td><span class="bg ${srcBg}">${it.source}</span></td><td>${pb(it.pain)}</td><td>${eb(it.effort)}</td><td>${it.customers}</td><td>${tg(it.tags)}</td></tr>`;
+    });
+    html+=`</tbody></table>`;
+    const avgP=(r.items.reduce((a,b)=>a+b.pain,0)/r.items.length).toFixed(1);
+    const totE=r.items.reduce((a,b)=>a+b.effort,0);
+    const totC=r.items.reduce((a,b)=>a+b.customers,0);
+    html+=`<div style="margin-top:8px;font-size:10px;color:var(--muted)"><strong>Items:</strong> ${r.items.length} &middot; <strong>Avg pain:</strong> ${avgP}/10 &middot; <strong>Total effort:</strong> ${totE} &middot; <strong>Customers impacted:</strong> ${totC}</div></div>`;
+  });
+
+  // Release gantt
+  const rg=RELEASES.map((r,i)=>{const ds=r.date.match(/\d+/g);const s=parseInt(ds[0]),e=ds.length>1?parseInt(ds[1]):Math.min(30,s+3);return{id:'r'+i,title:r.name,start:Math.max(s,13),end:e,lane:s<=18?'now':s<=25?'next':'later'}});
+  html+=`<div class="tlb"><div class="tlt">Release Timeline</div><div class="gt" id="g-release"></div></div>`;
+  html+=`</div>`;
+
+  // ---- THEME VIEW ----
+  html+=`<div class="vw" id="v-theme">`;
+  html+=`<div class="dbox"><strong>Theme Roadmap — April 2026.</strong> 5 investment themes. Click any theme to drill down into its features with pain, effort, and customer scores. Each feature shows its source (Sprint Plan / L3 / Zendesk). Themes answer "what are we betting on?" for CEO, Support, and Partnerships.</div>`;
+  html+=`<div class="tg">`;
+  THEMES.forEach(theme=>{
+    const feats=theme.features.map(fid=>ALL_FEATURES[fid]).filter(Boolean);
+    const totC=feats.reduce((a,f)=>a+(f.customers||0),0);
+    const avgP=feats.length?(feats.reduce((a,f)=>a+f.pain,0)/feats.length).toFixed(1):'0';
+    const avgE=feats.length?(feats.reduce((a,f)=>a+f.effort,0)/feats.length).toFixed(1):'0';
+    html+=`<div class="tc" onclick="this.classList.toggle('exp')">
+      <div class="tc-h" style="background:${theme.color}"><span>${theme.label}</span><span class="ttgl">&#9660; ${feats.length} features</span></div>
+      <div class="tc-b">
+        <div class="tc-d">${theme.desc}</div>
+        <div class="tc-st">
+          <div class="ts"><b>${theme.kpis.tickets}</b><span>Tickets</span></div>
+          <div class="ts"><b>${avgP}</b><span>Avg Pain</span></div>
+          <div class="ts"><b>${totC}</b><span>Customers</span></div>
+          <div class="ts"><b>${theme.kpis.revenue}</b><span>Revenue</span></div>
+        </div>
+        <div style="font-size:9px;color:var(--muted)"><strong>Target:</strong> ${theme.target}</div>
+        <div class="tc-ft">
+          <div style="font-size:9px;font-weight:700;color:var(--muted);text-transform:uppercase;margin-bottom:4px;margin-top:4px">Features (${feats.length})</div>`;
+    feats.forEach(f=>{
+      const src=f.id.startsWith('sp')?'Sprint':f.id.startsWith('l3')?'L3':'Zendesk';
+      const srcBg=src==='Sprint'?'b-ep':src==='L3'?'b-l3':'b-tx';
+      html+=`<div class="tfi">
+        <div style="flex:1"><strong>${f.title}</strong></div>
+        <div style="display:flex;gap:6px;font-size:8px;align-items:center;flex-shrink:0">
+          <span class="bg ${srcBg}">${src}</span>
+          <span>P:${pb(f.pain)}</span>
+          <span>E:${eb(f.effort)}</span>
+          <span class="bg b-cu">${f.customers||0}c</span>
+        </div>
+      </div>`;
+    });
+    html+=`</div></div></div>`;
+  });
+  html+=`</div>`;
+  // Theme summary table
+  html+=`<div class="rs"><h3>Theme Summary</h3><table class="rt"><thead><tr><th>Theme</th><th>Features</th><th>Tickets</th><th>Avg Pain</th><th>Total Customers</th><th>Revenue</th><th>Target</th></tr></thead><tbody>`;
+  THEMES.forEach(theme=>{
+    const feats=theme.features.map(fid=>ALL_FEATURES[fid]).filter(Boolean);
+    const avgP=feats.length?(feats.reduce((a,f)=>a+f.pain,0)/feats.length).toFixed(1):'0';
+    const totC=feats.reduce((a,f)=>a+(f.customers||0),0);
+    html+=`<tr><td><span class="bg" style="background:${theme.color}15;color:${theme.color}">${theme.label}</span></td><td>${feats.length}</td><td>${theme.kpis.tickets}</td><td>${pb(parseFloat(avgP))}</td><td>${totC}</td><td><span class="bg b-rv">${theme.kpis.revenue}</span></td><td style="font-size:10px">${theme.target}</td></tr>`;
+  });
+  html+=`</tbody></table></div></div>`;
+
+  // ---- BOARD VIEWS ----
+  const boardViews = [
+    {tab:'epic', items:EPICS, desc:`<strong>Epic Roadmap:</strong> 8 epics merging Sprint Plan features + Zendesk L3 items. Each epic shows support pain, effort, and customer count. Expand (&#9660;) to see child items. Drag between swimlanes to re-prioritize — Gantt updates automatically.`},
+    {tab:'feature', items:Object.values(ALL_FEATURES), desc:`<strong>Features Roadmap:</strong> ${Object.keys(ALL_FEATURES).length} features from 3 sources: Sprint Plan (12), L3 Items (17), Zendesk Tickets. Filter by source, priority, or customer count. 3+ customers = auto-prioritize this week.`},
+    {tab:'strategy', items:STRATEGY, desc:`<strong>Strategy Roadmap:</strong> 4 strategic pillars. (1) Eliminate recurring patterns → 68→35 tickets. (2) L3 as revenue intelligence → Dashboard premium + partnerships. (3) Carrier platform modernization → 5 integrations. (4) Zero-ticket ops → test coverage + playbooks.`},
+    {tab:'tech', items:TECH_ITEMS, desc:`<strong>Technology Roadmap:</strong> 6 infrastructure investments. DHL REST layer, CI/customs pipeline refactor, CI/CD release train, GraphQL pagination, Dashboard frontend, E2E test coverage 11%→25%.`},
+    {tab:'opportunity', items:OPPS, desc:`<strong>Opportunity Roadmap:</strong> 6 revenue opportunities. DHL platform ($$$), Premium Dashboard ($$$ recurring), Partnership carriers ($$), Large catalog merchants ($$$ ARPU), International premium ($$), WooCommerce parity ($$$).`},
+  ];
+
+  boardViews.forEach(bv=>{
+    html+=`<div class="vw" id="v-${bv.tab}">`;
+    html+=`<div class="dbox">${bv.desc}</div>`;
+    if(bv.tab==='feature'){
+      html+=`<div class="flt">
+        <button class="fb act" data-filter="all">All (${bv.items.length})</button>
+        <button class="fb" data-filter="sprint">Sprint Plan</button>
+        <button class="fb" data-filter="l3">L3 Items</button>
+        <button class="fb" data-filter="zendesk">Zendesk</button>
+        <button class="fb" data-filter="p0">P0-Critical</button>
+        <button class="fb" data-filter="revenue">Revenue</button>
+        <button class="fb" data-filter="3plus">3+ Customers</button>
+        <button class="fb" data-filter="deadline">Deadline</button>
+      </div>`;
+    }
+    html+=`<div id="bd-${bv.tab}"></div>`;
+    html+=`<div class="tlb"><div class="tlt">${bv.tab.charAt(0).toUpperCase()+bv.tab.slice(1)} Timeline</div><div class="gt" id="bd-${bv.tab}-g"></div></div>`;
+    html+=`</div>`;
+  });
+
+  app.innerHTML=html;
+
+  // Render boards + gantts
+  boardViews.forEach(bv=>{
+    renderBoard('bd-'+bv.tab, bv.items, bv.tab);
+    renderGantt('bd-'+bv.tab+'-g', bv.items);
+  });
+  renderGantt('g-release', rg);
+
+  // Feature filters
+  document.querySelectorAll('#v-feature .fb').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      document.querySelectorAll('#v-feature .fb').forEach(b=>b.classList.remove('act'));
+      btn.classList.add('act');
+      const f=btn.dataset.filter;
+      document.querySelectorAll('#bd-feature .cd').forEach(card=>{
+        const id=card.dataset.id, it=ALL_FEATURES[id];
+        if(!it){card.style.display='';return}
+        if(f==='all')card.style.display='';
+        else if(f==='sprint')card.style.display=id.startsWith('sp')?'':'none';
+        else if(f==='l3')card.style.display=id.startsWith('l3')?'':'none';
+        else if(f==='zendesk')card.style.display=id.startsWith('zf')?'':'none';
+        else if(f==='p0')card.style.display=(it.tags||[]).includes('p0')?'':'none';
+        else if(f==='revenue')card.style.display=(it.tags||[]).includes('revenue')?'':'none';
+        else if(f==='3plus')card.style.display=(it.customers||0)>=3?'':'none';
+        else if(f==='deadline')card.style.display=(it.tags||[]).includes('deadline')?'':'none';
+      });
+    });
+  });
+}
+
+// Tab switching
+document.querySelectorAll('.tab').forEach(tab=>{
+  tab.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+    document.querySelectorAll('.vw').forEach(v=>v.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('v-'+tab.dataset.tab).classList.add('active');
+  });
+});
+
+window.toggleRD=function(id){document.getElementById(id)?.classList.toggle('open')};
+
+// ============================================================
+// GLOBAL SEARCH
+// ============================================================
+const searchInput = document.getElementById('globalSearch');
+const searchResults = document.getElementById('searchResults');
+const searchClear = document.getElementById('searchClear');
+let searchTimeout = null;
+
+// Build searchable index from ALL data
+function buildSearchIndex(){
+  const idx = [];
+  // All features
+  Object.values(ALL_FEATURES).forEach(f=>{
+    const src = f.id.startsWith('sp')?'Sprint':f.id.startsWith('l3')?'L3':'Zendesk';
+    let text = [f.id, f.title, f.desc, (f.tags||[]).join(' '), f.theme||''].join(' ');
+    if(f.children) f.children.forEach(c=>{ text += ' '+c.id+' '+c.t; });
+    idx.push({type:'feature', id:f.id, title:f.title, desc:f.desc, tags:f.tags||[], source:src, text:text.toLowerCase(), item:f});
+  });
+  // Releases + their tickets
+  RELEASES.forEach((r,i)=>{
+    let text = [r.id, r.date, r.name, r.type, r.themes.join(' ')].join(' ');
+    r.items.forEach(it=>{ text += ' '+it.ticket+' '+it.desc+' '+(it.tags||[]).join(' ')+' '+it.source; });
+    idx.push({type:'release', id:'r'+i, title:r.name, desc:r.date+' — '+r.items.length+' items', tags:[], source:'Release', text:text.toLowerCase(), releaseIdx:i});
+  });
+  // Themes
+  THEMES.forEach(t=>{
+    const text = [t.id, t.label, t.desc, t.target, t.features.join(' ')].join(' ').toLowerCase();
+    idx.push({type:'theme', id:t.id, title:t.label, desc:t.desc, tags:[], source:'Theme', text:text, themeData:t});
+  });
+  // Epics
+  EPICS.forEach(e=>{
+    let text = [e.id, e.title, e.desc, (e.tags||[]).join(' '), e.theme||''].join(' ');
+    if(e.children) e.children.forEach(c=>{ text += ' '+c.id+' '+c.t; });
+    idx.push({type:'epic', id:e.id, title:e.title, desc:e.desc, tags:e.tags||[], source:'Epic', text:text.toLowerCase(), item:e});
+  });
+  // Opportunities
+  OPPS.forEach(o=>{
+    let text = [o.id, o.title, o.desc, (o.tags||[]).join(' '), o.theme||'', o.revenue||''].join(' ');
+    if(o.children) o.children.forEach(c=>{ text += ' '+c.id+' '+c.t; });
+    idx.push({type:'opportunity', id:o.id, title:o.title, desc:o.desc, tags:o.tags||[], source:'Opportunity', text:text.toLowerCase(), item:o});
+  });
+  // Strategy
+  STRATEGY.forEach(s=>{
+    let text = [s.id, s.title, s.desc, (s.tags||[]).join(' ')].join(' ');
+    if(s.children) s.children.forEach(c=>{ text += ' '+c.id+' '+c.t; });
+    idx.push({type:'strategy', id:s.id, title:s.title, desc:s.desc, tags:s.tags||[], source:'Strategy', text:text.toLowerCase(), item:s});
+  });
+  // Tech
+  TECH_ITEMS.forEach(t=>{
+    let text = [t.id, t.title, t.desc, (t.tags||[]).join(' ')].join(' ');
+    if(t.children) t.children.forEach(c=>{ text += ' '+c.id+' '+c.t; });
+    idx.push({type:'tech', id:t.id, title:t.title, desc:t.desc, tags:t.tags||[], source:'Technology', text:text.toLowerCase(), item:t});
+  });
+  return idx;
+}
+
+const SEARCH_INDEX = buildSearchIndex();
+
+function doSearch(query){
+  if(!query || query.length < 2){
+    searchResults.classList.remove('open');
+    searchClear.classList.remove('vis');
+    clearHighlights();
+    restoreAllCards();
+    return;
+  }
+  searchClear.classList.add('vis');
+  const q = query.toLowerCase();
+  const matches = SEARCH_INDEX.filter(item => item.text.includes(q));
+
+  if(matches.length === 0){
+    searchResults.innerHTML = '<div class="sr-count">No results for "'+query+'"</div>';
+    searchResults.classList.add('open');
+    dimNonMatchingCards(q);
+    dimNonMatchingGanttRows(q);
+    return;
+  }
+
+  let html = '<div class="sr-count">'+matches.length+' result'+(matches.length>1?'s':'')+' for "'+query+'"</div>';
+  matches.slice(0, 15).forEach(m=>{
+    const srcBg = m.source==='Sprint'?'b-ep':m.source==='L3'?'b-l3':m.source==='Zendesk'?'b-tx':m.source==='Release'?'b-rl':m.source==='Theme'?'b-tm':m.source==='Opportunity'?'b-op':m.source==='Strategy'?'b-st':m.source==='Technology'?'b-tc':m.source==='Epic'?'b-ep':'b-ft';
+    html += `<div class="sr-item" data-type="${m.type}" data-id="${m.id}" ${m.releaseIdx!==undefined?'data-ridx="'+m.releaseIdx+'"':''}>
+      <div class="sr-title">${highlightText(m.title, query)}</div>
+      <div class="sr-desc">${highlightText(m.desc.substring(0,100), query)}</div>
+      <div class="sr-tags"><span class="bg ${srcBg}">${m.source}</span> ${m.tags.map(t=>'<span class="bg b-'+t+'">'+t+'</span>').join(' ')}</div>
+    </div>`;
+  });
+  if(matches.length > 15) html += '<div class="sr-count">...and '+(matches.length-15)+' more</div>';
+  searchResults.innerHTML = html;
+  searchResults.classList.add('open');
+
+  // Attach click handlers
+  searchResults.querySelectorAll('.sr-item').forEach(el=>{
+    el.addEventListener('click',()=>{
+      const type = el.dataset.type;
+      const id = el.dataset.id;
+      searchResults.classList.remove('open');
+
+      if(type === 'release'){
+        // Switch to release tab, open that release detail
+        switchTab('release');
+        const ridx = el.dataset.ridx;
+        setTimeout(()=>{
+          const rdEl = document.getElementById('rd'+ridx);
+          if(rdEl){rdEl.classList.add('open'); rdEl.scrollIntoView({behavior:'smooth',block:'center'});}
+        },100);
+      } else if(type === 'theme'){
+        switchTab('theme');
+        setTimeout(()=>{
+          const thCards = document.querySelectorAll('.tc');
+          thCards.forEach(tc=>{
+            if(tc.querySelector('.tc-h').textContent.includes(THEMES.find(t=>t.id===id)?.label||'')){
+              tc.classList.add('exp');
+              tc.scrollIntoView({behavior:'smooth',block:'center'});
+              tc.classList.add('search-highlight');
+              setTimeout(()=>tc.classList.remove('search-highlight'),4500);
+            }
+          });
+        },100);
+      } else if(type === 'epic'){
+        switchTab('epic');
+        setTimeout(()=>highlightCard(id,'epic'),100);
+      } else if(type === 'opportunity'){
+        switchTab('opportunity');
+        setTimeout(()=>highlightCard(id,'opportunity'),100);
+      } else if(type === 'strategy'){
+        switchTab('strategy');
+        setTimeout(()=>highlightCard(id,'strategy'),100);
+      } else if(type === 'tech'){
+        switchTab('tech');
+        setTimeout(()=>highlightCard(id,'tech'),100);
+      } else {
+        switchTab('feature');
+        setTimeout(()=>highlightCard(id,'feature'),100);
+      }
+    });
+  });
+
+  // Dim non-matching cards and gantt rows in current view
+  dimNonMatchingCards(q);
+  dimNonMatchingGanttRows(q);
+}
+
+function highlightText(text, query){
+  if(!query) return text;
+  const re = new RegExp('('+query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+  return text.replace(re,'<mark style="background:#fef3cd;padding:0 1px;border-radius:2px">$1</mark>');
+}
+
+function highlightCard(id, viewType){
+  const card = document.querySelector(`.cd[data-id="${id}"][data-view="${viewType}"]`);
+  if(card){
+    card.classList.add('exp');
+    card.scrollIntoView({behavior:'smooth',block:'center'});
+    card.classList.add('search-highlight');
+    setTimeout(()=>card.classList.remove('search-highlight'),4500);
+  }
+}
+
+function dimNonMatchingCards(q){
+  // Board cards (.cd)
+  document.querySelectorAll('.cd').forEach(card=>{
+    const id = card.dataset.id;
+    const item = ALL_FEATURES[id] || EPICS.find(e=>e.id===id) || STRATEGY.find(s=>s.id===id) || TECH_ITEMS.find(t=>t.id===id) || OPPS.find(o=>o.id===id);
+    if(!item){card.style.opacity='';return}
+    let text = [item.id, item.title, item.desc||'', (item.tags||[]).join(' '), item.theme||'', item.revenue||''].join(' ');
+    if(item.children) item.children.forEach(c=>text+=' '+c.id+' '+c.t);
+    if(text.toLowerCase().includes(q)){
+      card.style.opacity='1';
+      card.style.order='-1';
+    } else {
+      card.style.opacity='0.25';
+      card.style.order='';
+    }
+  });
+  // Theme cards (.tc)
+  document.querySelectorAll('.tc').forEach(tc=>{
+    const hdText = tc.querySelector('.tc-h')?.textContent||'';
+    const bodyText = tc.querySelector('.tc-b')?.textContent||'';
+    const fullText = (hdText+' '+bodyText).toLowerCase();
+    if(fullText.includes(q)){
+      tc.style.opacity='1';
+      tc.classList.add('search-highlight');
+    } else {
+      tc.style.opacity='0.3';
+      tc.classList.remove('search-highlight');
+    }
+  });
+  // Release rows (.rr) and detail panels (.rdp)
+  document.querySelectorAll('.rr').forEach(rr=>{
+    const text = rr.textContent.toLowerCase();
+    if(text.includes(q)){
+      rr.style.opacity='1';
+      rr.style.background='rgba(243,156,18,0.08)';
+    } else {
+      rr.style.opacity='0.4';
+      rr.style.background='';
+    }
+  });
+  // Release detail tables — highlight matching rows
+  document.querySelectorAll('.rt tbody tr').forEach(tr=>{
+    const text = tr.textContent.toLowerCase();
+    if(text.includes(q)){
+      tr.style.opacity='1';
+      tr.style.background='rgba(243,156,18,0.1)';
+    } else {
+      tr.style.opacity='0.35';
+      tr.style.background='';
+    }
+  });
+}
+
+function dimNonMatchingGanttRows(q){
+  document.querySelectorAll('.gr').forEach(row=>{
+    const label = row.querySelector('.gl');
+    if(!label) return;
+    if(label.textContent.toLowerCase().includes(q)){
+      row.style.opacity='1';
+      row.classList.add('gantt-highlight');
+    } else {
+      row.style.opacity='0.3';
+      row.classList.remove('gantt-highlight');
+    }
+  });
+}
+
+function restoreAllCards(){
+  document.querySelectorAll('.cd').forEach(c=>{c.style.opacity='';c.style.order=''});
+  document.querySelectorAll('.gr').forEach(r=>{r.style.opacity='';r.classList.remove('gantt-highlight')});
+  document.querySelectorAll('.tc').forEach(tc=>{tc.style.opacity='';tc.classList.remove('search-highlight')});
+  document.querySelectorAll('.rr').forEach(rr=>{rr.style.opacity='';rr.style.background=''});
+  document.querySelectorAll('.rt tbody tr').forEach(tr=>{tr.style.opacity='';tr.style.background=''});
+}
+
+function clearHighlights(){
+  document.querySelectorAll('.search-highlight').forEach(el=>el.classList.remove('search-highlight'));
+  document.querySelectorAll('.gantt-highlight').forEach(el=>el.classList.remove('gantt-highlight'));
+}
+
+function clearSearch(){
+  searchInput.value='';
+  searchResults.classList.remove('open');
+  searchClear.classList.remove('vis');
+  clearHighlights();
+  restoreAllCards();
+}
+
+function switchTab(tabName){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.vw').forEach(v=>v.classList.remove('active'));
+  const tab = document.querySelector(`.tab[data-tab="${tabName}"]`);
+  if(tab) tab.classList.add('active');
+  const view = document.getElementById('v-'+tabName);
+  if(view) view.classList.add('active');
+}
+
+searchInput.addEventListener('input',()=>{
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(()=>doSearch(searchInput.value.trim()),200);
+});
+
+searchInput.addEventListener('focus',()=>{
+  if(searchInput.value.trim().length>=2) doSearch(searchInput.value.trim());
+});
+
+document.addEventListener('click',(e)=>{
+  if(!e.target.closest('.search-wrap')) searchResults.classList.remove('open');
+});
+
+// ESC to clear search
+document.addEventListener('keydown',(e)=>{
+  if(e.key==='Escape' && searchInput.value){clearSearch();searchInput.blur();}
+});
+
+build();
+</script>
+</body>
+</html>
