@@ -1007,63 +1007,96 @@ function highlightCard(id, viewType){
 }
 
 function dimNonMatchingCards(q){
-  // Board cards (.cd)
-  document.querySelectorAll('.cd').forEach(card=>{
+  // Board cards (.cd) — only dim if at least one card matches
+  let anyCardMatch = false;
+  const cards = document.querySelectorAll('.cd');
+  cards.forEach(card=>{
     const id = card.dataset.id;
     const item = ALL_FEATURES[id] || EPICS.find(e=>e.id===id) || STRATEGY.find(s=>s.id===id) || TECH_ITEMS.find(t=>t.id===id) || OPPS.find(o=>o.id===id);
-    if(!item){card.style.opacity='';card.classList.remove('search-highlight');return}
+    if(!item) return;
     let text = [item.id, item.title, item.desc||'', (item.tags||[]).join(' '), item.theme||'', item.revenue||''].join(' ');
     if(item.children) item.children.forEach(c=>text+=' '+c.id+' '+c.t);
-    if(text.toLowerCase().includes(q)){
-      card.style.opacity='1';
-      card.classList.add('search-highlight');
-      // Move matched card to top of its parent
-      card.parentElement.prepend(card);
-    } else {
-      card.style.opacity='0.15';
-      card.classList.remove('search-highlight');
-    }
+    if(text.toLowerCase().includes(q)) anyCardMatch = true;
   });
-  // Theme cards (.tc)
+  if(anyCardMatch){
+    cards.forEach(card=>{
+      const id = card.dataset.id;
+      const item = ALL_FEATURES[id] || EPICS.find(e=>e.id===id) || STRATEGY.find(s=>s.id===id) || TECH_ITEMS.find(t=>t.id===id) || OPPS.find(o=>o.id===id);
+      if(!item){card.style.opacity='';card.classList.remove('search-highlight');return}
+      let text = [item.id, item.title, item.desc||'', (item.tags||[]).join(' '), item.theme||'', item.revenue||''].join(' ');
+      if(item.children) item.children.forEach(c=>text+=' '+c.id+' '+c.t);
+      if(text.toLowerCase().includes(q)){
+        card.style.opacity='1';
+        card.classList.add('search-highlight');
+        card.parentElement.prepend(card);
+      } else {
+        card.style.opacity='0.15';
+        card.classList.remove('search-highlight');
+      }
+    });
+  }
+  // Theme cards (.tc) — only dim if at least one theme matches
+  let anyThemeMatch = false;
   document.querySelectorAll('.tc').forEach(tc=>{
-    const hdText = tc.querySelector('.tc-h')?.textContent||'';
-    const bodyText = tc.querySelector('.tc-b')?.textContent||'';
-    const fullText = (hdText+' '+bodyText).toLowerCase();
-    if(fullText.includes(q)){
-      tc.style.opacity='1';
-      tc.classList.add('search-highlight');
-    } else {
-      tc.style.opacity='0.15';
-      tc.classList.remove('search-highlight');
-    }
+    const fullText = (tc.textContent||'').toLowerCase();
+    if(fullText.includes(q)) anyThemeMatch = true;
   });
-  // Release rows (.rr)
+  if(anyThemeMatch){
+    document.querySelectorAll('.tc').forEach(tc=>{
+      if((tc.textContent||'').toLowerCase().includes(q)){
+        tc.style.opacity='1';
+        tc.classList.add('search-highlight');
+      } else {
+        tc.style.opacity='0.15';
+        tc.classList.remove('search-highlight');
+      }
+    });
+  }
+  // Release rows (.rr) — only dim if at least one release matches
+  let anyReleaseMatch = false;
   document.querySelectorAll('.rr').forEach(rr=>{
-    const text = rr.textContent.toLowerCase();
-    if(text.includes(q)){
-      rr.style.opacity='1';
-      rr.style.background='rgba(243,156,18,0.08)';
-      rr.classList.add('search-highlight');
-    } else {
-      rr.style.opacity='0.15';
-      rr.style.background='';
-      rr.classList.remove('search-highlight');
-    }
+    if(rr.textContent.toLowerCase().includes(q)) anyReleaseMatch = true;
   });
-  // Release detail tables — highlight matching rows
+  if(anyReleaseMatch){
+    document.querySelectorAll('.rr').forEach(rr=>{
+      const text = rr.textContent.toLowerCase();
+      if(text.includes(q)){
+        rr.style.opacity='1';
+        rr.style.background='rgba(243,156,18,0.08)';
+        rr.classList.add('search-highlight');
+      } else {
+        rr.style.opacity='0.15';
+        rr.style.background='';
+        rr.classList.remove('search-highlight');
+      }
+    });
+  }
+  // Release detail rows (.rt tbody tr) — only dim if at least one matches
+  let anyDetailMatch = false;
   document.querySelectorAll('.rt tbody tr').forEach(tr=>{
-    const text = tr.textContent.toLowerCase();
-    if(text.includes(q)){
-      tr.style.opacity='1';
-      tr.style.background='rgba(243,156,18,0.1)';
-    } else {
-      tr.style.opacity='0.15';
-      tr.style.background='';
-    }
+    if(tr.textContent.toLowerCase().includes(q)) anyDetailMatch = true;
   });
+  if(anyDetailMatch){
+    document.querySelectorAll('.rt tbody tr').forEach(tr=>{
+      const text = tr.textContent.toLowerCase();
+      if(text.includes(q)){
+        tr.style.opacity='1';
+        tr.style.background='rgba(243,156,18,0.1)';
+      } else {
+        tr.style.opacity='0.15';
+        tr.style.background='';
+      }
+    });
+  }
 }
 
 function dimNonMatchingGanttRows(q){
+  let anyMatch = false;
+  document.querySelectorAll('.gr').forEach(row=>{
+    const label = row.querySelector('.gl');
+    if(label && label.textContent.toLowerCase().includes(q)) anyMatch = true;
+  });
+  if(!anyMatch) return;
   document.querySelectorAll('.gr').forEach(row=>{
     const label = row.querySelector('.gl');
     if(!label) return;
