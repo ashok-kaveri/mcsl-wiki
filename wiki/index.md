@@ -2,13 +2,13 @@
 title: StorePep KB Index
 category: index
 status: complete
-last_updated: 2026-04-08
+last_updated: 2026-04-13
 git_reference: current
 ---
 
 # StorePep KB Index
 
-Last updated: 2026-04-08
+Last updated: 2026-04-13
 
 ## Architecture
 
@@ -62,6 +62,7 @@ Last updated: 2026-04-08
 
 ## Product Management
 
+- [April 2026 Roadmap](product/roadmap-april-2026.html) - Interactive roadmap: 12 sprint features + 17 L3 items + 68 tickets, Gantt timelines, drag-and-drop swimlanes, global search (opens in browser)
 - [Product Backlog](product/backlog.md) - Scored, prioritized work items with impact/effort/confidence framework
 - [Product Insights](product/insights.md) - Aggregated signals from Zendesk themes, test gaps, code hotspots
 - [Customer Metrics](product/metrics.md) - Per-feature health scorecard with pain index (52 Shopify MCSL tickets)
@@ -102,7 +103,7 @@ Last updated: 2026-04-08
 
 ---
 
-**Total pages**: 56
-**Last ingestion**: 2026-04-10 (Ground Zero cross-app support triage)
+**Total pages**: 57
+**Last ingestion**: 2026-04-13 (April 2026 interactive product roadmap)
 **Status**: Architecture + Orders + Shipping (with Tracking) + Automation + Stores + Products + Warehouses + Product Management + Support Triage documented
 **Test Coverage**: 58 automated Playwright tests covering 95 features
