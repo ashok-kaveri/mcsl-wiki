@@ -63,7 +63,7 @@ Last updated: 2026-04-13
 ## Product Management
 
 - [April 2026 Roadmap](product/roadmap-april-2026.html) - Interactive roadmap: 12 sprint features + 17 L3 items + 68 tickets, Gantt timelines, drag-and-drop swimlanes, global search (opens in browser)
-- [Product Backlog](product/backlog.md) - Scored, prioritized work items with impact/effort/confidence framework
+- [Product Backlog](product/backlog.md) - 11 backlog items scored from 93 ZI issues (66 tickets), impact/effort/confidence framework
 - [Product Insights](product/insights.md) - Aggregated signals from Zendesk themes, test gaps, code hotspots
 - [Customer Metrics](product/metrics.md) - Per-feature health scorecard with pain index (52 Shopify MCSL tickets)
 - [FedEx REST Migration](product/features/carrier-migration-fedex-rest.md) - Feature story: FedEx SOAP->REST migration (Pain Index: 1700, 5 tickets)
@@ -101,9 +101,14 @@ Last updated: 2026-04-13
   - [Insights](support/ground-zero/insights.md) - 7 key insights + aging backlog risk analysis
   - [Sprint Views](support/ground-zero/sprint-views.md) - 6 actionable priority queues from Sprint Zero to Carrier Expansion
 
+### Zendesk Issue Extraction
+
+- [Issue Extraction — 2026-04-13](zendesk/2026-04-13.md) - 93 open issues extracted from 66 Shopify MCSL tickets, grouped by feature area
+- Per-ticket summaries: [zendesk/summaries/](zendesk/summaries/) - One structured summary per ticket with timeline, open/resolved issues, customer context
+
 ---
 
-**Total pages**: 57
-**Last ingestion**: 2026-04-13 (April 2026 interactive product roadmap)
-**Status**: Architecture + Orders + Shipping (with Tracking) + Automation + Stores + Products + Warehouses + Product Management + Support Triage documented
+**Total pages**: 124 (57 wiki + 66 ticket summaries + 1 index)
+**Last ingestion**: 2026-04-13 (Zendesk issue extraction: 66 tickets → 93 issues → backlog + roadmap)
+**Status**: Architecture + Orders + Shipping + Automation + Stores + Products + Warehouses + Product Management + Support Triage + Zendesk Issue Pipeline documented
 **Test Coverage**: 58 automated Playwright tests covering 95 features

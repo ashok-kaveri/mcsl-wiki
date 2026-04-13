@@ -1,5 +1,16 @@
 # StorePep KB Activity Log
 
+## [2026-04-13 20:00] ingest | Zendesk Issue Extraction & Backlog Regeneration
+- Created: `zendesk/summaries/*.md` (66 per-ticket structured summaries)
+- Created: `zendesk/2026-04-13.md` (daily index: 93 open issues from 66 tickets)
+- Updated: `product/backlog.md` (regenerated: 11 clusters from 93 ZI issues)
+- Updated: `product/roadmap-april-2026.html` (ZEN_FEATURES updated with ZI refs, 6 new zf entries)
+- Updated: `index.md` (added Zendesk section)
+- Updated: `log.md`
+- Git reference: 5058f2c24d90fbaf9741d9279b8bdc8428a4af5e
+- Source: `raw/zendesk/shopify/*.json` (66 valid, 1 corrupt, 2 truncated)
+- Summary: Full pipeline run — each Zendesk ticket decomposed into structured summary with timeline, open/resolved issues, and customer context. 93 open issues extracted across 11 feature areas (label-generation 20, carrier-config 11, onboarding 11, order-management 10, international 10, product-management 9, carrier-migration 8, rate-shopping 6, feature-request 4, tracking 2, returns 2). Issues clustered into 11 backlog items with scoring. Roadmap ZEN_FEATURES updated with ZI cross-references. Pipeline: raw JSON → summaries → index → backlog → roadmap.
+
 ## [2026-04-10 12:00] ingest | Ground Zero Cross-App Support Triage
 - Created: `support/ground-zero/index.md`
 - Created: `support/ground-zero/pain-ranking.md`

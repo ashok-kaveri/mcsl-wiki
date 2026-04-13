@@ -52,7 +52,8 @@ sources:
     path: raw/zendesk
     pattern: "{ticketId}.json"
     description: "Customer support tickets via webhook"
-    # Workflow: TBD — will be defined when Zendesk ingestion is ready
+    workflow: "Zendesk Issue Extraction Pipeline (see below)"
+    # Pipeline: raw/zendesk/*.json → wiki/zendesk/summaries/*.md → wiki/zendesk/YYYY-MM-DD.md → backlog → roadmap
 
   regression-scenarios:
     type: google-sheet
@@ -124,6 +125,10 @@ mcsl-wiki/
 │   │   │   └── YYYY-MM-DD-<slug>.md
 │   │   └── releases/          # Release notes with metrics delta
 │   │       └── YYYY-MM-DD.md
+│   ├── zendesk/               # Zendesk issue extraction pipeline output
+│   │   ├── summaries/         # One structured summary per ticket
+│   │   │   └── <ticketId>.md  # Timeline, open/resolved issues, customer context
+│   │   └── YYYY-MM-DD.md     # Daily index: all issues with ZI IDs, area counts
 │   ├── features.md            # User-facing features with test coverage
 │   ├── index.md               # Catalog of all pages
 │   └── log.md                 # Chronological activity log
@@ -600,26 +605,120 @@ Any change in `raw/` can trigger an update:
 - **Re-exported regression sheet** → update regression coverage in features, metrics
 - **User command** — "resync PM", "triage new tickets", "refresh metrics"
 
-### Triage Workflow
+### Zendesk Issue Extraction Pipeline
 
-When the user asks to triage or when new tickets arrive in `raw/zendesk/`:
+**Pipeline**: `raw/zendesk/*.json` → `wiki/zendesk/summaries/*.md` → `wiki/zendesk/YYYY-MM-DD.md` → `product/backlog.md` → `product/roadmap-april-2026.html`
+
+**Critical rule**: Downstream artifacts (backlog, roadmap, insights, metrics) MUST read from `wiki/zendesk/summaries/*.md` — NEVER go back to `raw/zendesk/*.json`. The summaries are the processed, quality-gated source of truth.
+
+#### Step 1: Sync Check
+
+```bash
+# Check for staleness, truncation, corruption
+# Flag files with exactly 100 comments (API pagination limit)
+# Flag corrupt/empty files
+```
+
+#### Step 2: Per-Ticket Summarization
+
+For each ticket in `raw/zendesk/shopify/*.json`:
+
+1. **Read the full JSON** in one pass using python `json.load()` — never use chunked `Read` with offset/limit on JSON files (loses structure)
+2. **Read comments in reverse** — start from the LATEST to find current state, then work backwards for timeline
+3. **Write `wiki/zendesk/summaries/<ticketId>.md`** with this structure:
+
+```markdown
+---
+title: "Ticket #<id> — <subject>"
+ticket_id: <id>
+status: <open|new|closed>
+customer: <name> (<store>)
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+last_updated: YYYY-MM-DD
+---
+
+# Ticket #<id> — <subject>
+
+- **Customer**: <name> (<store>)
+- **Duration**: <dates> (<ongoing|resolved>)
+
+## Timeline & Key Phases
+
+### Phase 1: <title> (<dates>)
+- <key events>
+
+## Open Issues
+
+1. **<Title>** — <description>. Blocked: <who>. Severity: <signal>. Area: <feature-area-tag>. (Comment #N)
+
+## Resolved Issues
+
+1. **<Title>** — <how/when>. (Comment #N)
+
+## Customer Context
+
+- <details>
+```
+
+**Summarization rules**:
+- **Open issues = latest state only** — L3 escalations, pending customer requests, unresolved blockers. NOT a replay of every comment interaction.
+- **Lifecycle-only tickets** (installation welcomes, uninstall win-backs with no substantive customer reply) get: "No open issues — lifecycle-only ticket."
+- **Each issue MUST cite** the comment number that evidences it
+- **Each open issue MUST include**: title, who's blocked, severity signal, feature area tag
+- **Feature area tags**: onboarding, carrier-config, carrier-migration, label-generation, rate-shopping, tracking, returns, international, order-management, product-management, feature-request, other
+
+**Parallelization**: Spawn agents in batches of ~10 tickets each. Each agent reads JSON via python and writes summary files.
+
+#### Step 3: Daily Index
+
+Write `wiki/zendesk/YYYY-MM-DD.md` — aggregates all open issues with ZI IDs:
+
+```markdown
+# Zendesk Issue Extraction — YYYY-MM-DD
+
+**Tickets with open issues**: NN
+**Total open issues**: NNN
+
+## Summary by Feature Area
+| Feature Area | Issues | Tickets |
+|---|---|---|
+
+## Issue Index
+| ID | Issue | Ticket | Area |
+|---|---|---|---|
+| ZI-001 | ... | [#NNNNNN](summaries/NNNNNN.md) | ... |
+
+## Issues by Feature Area
+### <area> (N issues)
+| ID | Issue | Ticket |
+```
+
+#### Step 4: Backlog Regeneration
+
+Read `wiki/zendesk/summaries/*.md` (NOT raw JSON). Cluster ZI issues into backlog items. Score using `(Impact × Confidence) / Effort`.
+
+#### Step 5: Roadmap Update
+
+Read `wiki/product/backlog.md`. Update `ZEN_FEATURES` JS object in roadmap HTML. Preserve `SP_FEATURES` and `L3_ITEMS`.
+
+#### Step 6: Cross-link & Log
+
+Update `wiki/index.md`, `wiki/log.md`, cross-links from insights/metrics.
+
+### Triage Workflow (Delta)
+
+When new tickets arrive in `raw/zendesk/` (incremental sync):
 
 1. **Detect delta**:
    ```bash
    git diff <last_git_reference>..HEAD --name-only -- raw/zendesk/
    ```
-2. **Read only new/changed ticket JSONs**
-3. **Categorize** each ticket by product and feature area (see Ticket Categorization above)
-4. **Update `product/insights.md`**:
-   - Add new themes or increment counts on existing themes
-   - Flag if a theme is escalating (ticket count increasing)
-5. **Update `product/metrics.md`**:
-   - Refresh ticket counts per feature area
-   - Recalculate health scores and pain index
-6. **Map to existing features**: If a ticket maps to an existing feature story → update its metrics section
-7. **Propose backlog items**: If tickets reveal a new problem pattern → add proposed item to backlog.md
-8. **Update `git_reference`** in all modified pages to current HEAD
-9. **Log** the triage in `wiki/log.md`
+2. **Run Steps 1-2 of the pipeline** for only the new/changed tickets
+3. **Update the daily index** — add new ZI issues, increment counts
+4. **Re-cluster backlog** if new issues change a cluster's scoring
+5. **Update `git_reference`** in all modified pages
+6. **Log** the triage in `wiki/log.md`
 
 ### Feature Story Workflow
 
@@ -627,16 +726,17 @@ When the user says "create feature story for X":
 
 1. **Gather signals**:
    - Read relevant wiki module pages
-   - Read related Zendesk tickets (search by feature area tag)
+   - Read related Zendesk **summaries** from `wiki/zendesk/summaries/*.md` (search by feature area tag in Open Issues sections)
+   - Read the daily index `wiki/zendesk/YYYY-MM-DD.md` for ZI issue IDs in the relevant feature area
    - Read test coverage from features.md
    - Read regression scenarios from the sheet (if applicable)
 2. **Create `product/features/<slug>.md`** using the Feature Story Template
 3. **Write user stories** with acceptance criteria:
    - Map regression scenarios from the spreadsheet to stories
-   - Link Zendesk tickets as evidence
+   - Link ZI issues and ticket summaries as evidence
 4. **Cross-link**:
    - Link to wiki module pages (implementation details)
-   - Link to Zendesk tickets (customer evidence)
+   - Link to Zendesk summaries (customer evidence): `wiki/zendesk/summaries/<ticketId>.md`
    - Link to regression test rows (manual test scenarios)
    - Link to features.md (automation status)
    - Add to backlog.md if not already there
@@ -646,8 +746,8 @@ When the user says "create feature story for X":
 
 When the user says "refresh metrics":
 
-1. **Detect delta** via git diff on `raw/zendesk/`
-2. **Scan new/changed tickets**, group by product and feature area
+1. **Detect delta** via git diff on `wiki/zendesk/summaries/` (NOT raw/zendesk/)
+2. **Read new/changed ticket summaries**, group by product and feature area
 3. **Calculate per-feature metrics**:
    - Ticket volume (total, open, pending, solved)
    - Trend (↑ increasing, → stable, ↓ decreasing) — compare to previous count
@@ -717,7 +817,8 @@ What problem does this solve? Who experiences it? How do we know?
 |------|------|-------------|
 | Wiki Module | [Module](../../modules/...) | Implementation details |
 | Test Coverage | [Features](../../features.md#section) | Automation status |
-| Zendesk | #XXXXX, #YYYYY | Customer reports |
+| Zendesk Summary | [#XXXXX](../../zendesk/summaries/XXXXX.md) | Customer report (structured) |
+| ZI Issues | ZI-001, ZI-002 | Open issues from daily index |
 | Regression | Sheet rows | Manual test scenarios |
 | Backlog | [Item](../backlog.md) | Prioritization |
 | Decision | [Record](../decisions/...) | Why this approach |

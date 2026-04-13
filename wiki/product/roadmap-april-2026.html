@@ -193,8 +193,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
     </div>
   </div>
   <div class="kpis">
-    <div class="kpi"><b>68</b><span>Open Tickets</span></div>
-    <div class="kpi"><b>12+17</b><span>Sprint Features+L3</span></div>
+    <div class="kpi"><b>66</b><span>Open Tickets</span></div>
+    <div class="kpi"><b>93</b><span>ZI Issues</span></div>
+    <div class="kpi"><b>12+17+93</b><span>Sprint+L3+ZenDesk</span></div>
     <div class="kpi"><b>3</b><span>P0-Critical</span></div>
     <div class="kpi"><b>&lt;72h</b><span>SLA Target</span></div>
     <div class="kpi"><b>15m</b><span>First Response</span></div>
@@ -221,30 +222,40 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 // ============================================================
 
 const THEMES = [
-  {id:'trust', label:'Trust & Reliability', color:'#c0392b',
-   desc:'Fix P0 data integrity, ship dev-completed items, close 34-month-old tickets. "We hear you, we are fixing it."',
-   target:'68 → 35 tickets by Apr 30', kpis:{tickets:28, pain:10, revenue:'Retention'},
-   features:['zf1','zf2','zf15','zf8','l3_7','l3_11','l3_6','l3_8','l3_10']},
+  {id:'labels', label:'Label & Document Quality', color:'#c0392b',
+   desc:'Packing slips, label generation, declared values, manifests, address validation. 20 ZI issues.',
+   target:'Zero label-related tickets', kpis:{tickets:20, pain:8, revenue:'Retention'},
+   features:['l3_6','l3_7','l3_8','l3_10','l3_11','zf12','zf16','zf23','zf24','zf25','zf27','zf29','zf30','zf32','zf33','zf35','zf41','zf43','zf48','zf52','zf58','zf67','zf71','zf73','zf81']},
 
-  {id:'carrier', label:'Carrier Excellence', color:'#2980b9',
-   desc:'3 new carrier APIs (DHL Express, DHL Paket, APC), FedEx/UPS enhancements, PostNord overhaul, AusPost fix, NZ Post. "Every carrier, always current."',
-   target:'5 carrier integrations shipped', kpis:{tickets:21, pain:9, revenue:'$$$ Expansion'},
-   features:['sp7','sp43','sp8','sp1','sp10','sp39','sp2','sp3','sp4','sp38','l3_1','l3_2','l3_4','l3_5','l3_9','l3_12','l3_13','zf3','zf6','zf7']},
+  {id:'carrier', label:'Carrier Platform', color:'#2980b9',
+   desc:'Carrier services, FedEx REST migration, TLS compliance, PostNord, config gaps. 19 ZI issues.',
+   target:'All carriers current', kpis:{tickets:19, pain:8, revenue:'$$$ Expansion'},
+   features:['sp7','sp43','sp8','sp1','sp10','sp39','sp2','sp3','sp4','sp38','l3_1','l3_2','l3_4','l3_5','l3_9','l3_12','l3_13','zf8','zf18','zf22','zf31','zf37','zf45','zf51','zf53','zf54','zf57','zf61','zf69','zf70','zf72','zf74','zf76','zf80','zf83','zf90']},
 
-  {id:'scale', label:'Scale & Growth', color:'#27ae60',
-   desc:'Variant search (34 months overdue), >250 variants, bundled products, self-serve onboarding. "Built for merchants who are growing."',
-   target:'Enterprise ARPU unlock', kpis:{tickets:21, pain:9, revenue:'$$$ ARPU'},
-   features:['sp42','l3_14','l3_15','l3_16','zf11','zf18']},
+  {id:'data', label:'Order & Product Data', color:'#27ae60',
+   desc:'Variant sync, product import, order reports, draft orders, data integrity. 19 ZI issues.',
+   target:'Zero data-loss tickets', kpis:{tickets:19, pain:8, revenue:'$$$ ARPU'},
+   features:['sp42','l3_14','l3_15','l3_16','zf1','zf2','zf3','zf4','zf5','zf7','zf11','zf13','zf17','zf28','zf39','zf40','zf44','zf46','zf49','zf64','zf79','zf89','zf92']},
 
-  {id:'intl', label:'International Shipping', color:'#8e44ad',
-   desc:'Fix CI/customs pipeline once = close 20% of backlog. Shared document generation across all carriers. DHL export reasons.',
-   target:'14 tickets → 0', kpis:{tickets:14, pain:10, revenue:'$$ Premium'},
-   features:['zf4','zf5','zf20','zf21','zf22','l3_3','l3_8','l3_9']},
+  {id:'intl', label:'International & Customs', color:'#8e44ad',
+   desc:'Commercial invoice pipeline, HS codes, export reasons, customs declarations, returns. 12 ZI issues.',
+   target:'CI pipeline fixed', kpis:{tickets:12, pain:8, revenue:'$$ Premium'},
+   features:['l3_3','zf15','zf19','zf21','zf34','zf38','zf55','zf56','zf60','zf62','zf63','zf65','zf75']},
 
-  {id:'intelligence', label:'Intelligence & Revenue', color:'#d35400',
-   desc:'App Dashboard (premium-gated), rate shopping reliability, proactive migration playbook. "Your shipping runs itself — and pays for itself."',
-   target:'Premium plan revenue', kpis:{tickets:5, pain:5, revenue:'$$$ New Revenue'},
-   features:['sp33','zf23','zf24','l3_17']},
+  {id:'onboarding', label:'Onboarding & Retention', color:'#e67e22',
+   desc:'Setup friction, carrier account creation, churn investigation, plan limits. 11 ZI issues.',
+   target:'Self-serve onboarding', kpis:{tickets:11, pain:8, revenue:'$$$ Retention'},
+   features:['zf10','zf50','zf66','zf68','zf77','zf78','zf82','zf86','zf88','zf91','zf93']},
+
+  {id:'rates', label:'Rates & Intelligence', color:'#d35400',
+   desc:'Rate accuracy, checkout rates, DG surcharges, tracking sync, reporting. 8 ZI issues.',
+   target:'Rate parity with carriers', kpis:{tickets:8, pain:8, revenue:'$$ Revenue'},
+   features:['sp33','l3_17','zf6','zf14','zf20','zf47','zf59','zf84','zf85','zf87']},
+
+  {id:'requests', label:'Feature Requests', color:'#16a085',
+   desc:'Customer-requested features: address suggestion, payment filter, WorldEase, Saturday toggle. 4 ZI issues.',
+   target:'Customer roadmap input', kpis:{tickets:4, pain:5, revenue:'Loyalty'},
+   features:['zf9','zf26','zf36','zf42']},
 ];
 
 // --- SPRINT PLAN FEATURES (12 main) ---
@@ -296,29 +307,103 @@ const L3_ITEMS = {
   l3_17: {id:'l3_17', title:'[L3-17] Reports: Carrier Scan Time', desc:'Map tracking timestamps (pickup, delivered, returned) to TrackingOrders. Start with Indian carriers.', lane:'next', tags:['l3'], pain:5, effort:4, customers:1, start:21, end:25, theme:'intelligence', children:[]},
 };
 
-// --- ZENDESK-DERIVED FEATURES ---
+// --- ZENDESK-DERIVED FEATURES (93 ZI issues, one card per issue) ---
 const ZEN_FEATURES = {
-  zf1:  {id:'zf1',  title:'Fix orders disappearing bug', desc:'#382961 — Orders silently set to not-to-ship when upsell purchased. P0 data integrity. Recurring!', lane:'now', tags:['p0','l3'], pain:10, effort:3, customers:1, start:13, end:15, theme:'trust',
-         children:[{id:'#382961',t:'Orders disappearing (P0)'}]},
-  zf2:  {id:'zf2',  title:'Ship Dev-Ready L3 items (4)', desc:'#382694, #382425, #379098, #360396 — Already built. Just deploy. Zero dev effort.', lane:'now', tags:['l3'], pain:7, effort:1, customers:4, start:13, end:14, theme:'trust',
-         children:[{id:'#382694',t:'CN22 PostNord country fix'},{id:'#382425',t:'FedEx One Rate avoid'},{id:'#379098',t:'FedEx CSV signature'},{id:'#360396',t:'Scan time in report'}]},
-  zf3:  {id:'zf3',  title:'Australia Post API Security Update', desc:'#382780, #383002 — TLS 1.2+ compliance. Jul 7 deadline. 2 merchants same day.', lane:'now', tags:['deadline'], pain:8, effort:4, customers:2, start:13, end:17, theme:'carrier',
-         children:[{id:'#382780',t:'AusPost security'},{id:'#383002',t:'AusPost (2nd merchant)'}]},
-  zf4:  {id:'zf4',  title:'Commercial Invoice Pipeline Fix', desc:'Batch fix: decimal, descriptions, declarations. Closes ~8 tickets across carriers.', lane:'now', tags:['l3'], pain:10, effort:6, customers:8, start:14, end:21, theme:'intl',
-         children:[{id:'#374851',t:'Decimal on invoice'},{id:'#377795',t:'UPS description'},{id:'#380784',t:'Declaration on CI'},{id:'#374022',t:'Discounted value UPS'},{id:'#381261',t:'DHL export decl'},{id:'#376223',t:'PostNord CI value'},{id:'#383043',t:'30-char limit'}]},
-  zf5:  {id:'zf5',  title:'CN22 + Label Same Page (PostNord)', desc:'#379784 — PostNord contacted, awaiting API confirmation.', lane:'next', tags:[], pain:7, effort:3, customers:1, start:18, end:21, theme:'intl', children:[]},
-  zf6:  {id:'zf6',  title:'FedEx REST: Dimensions + Min Value', desc:'#382009, #369144 — Edge cases from SOAP migration.', lane:'next', tags:['l3'], pain:7, effort:3, customers:2, start:18, end:21, theme:'carrier', children:[]},
-  zf7:  {id:'zf7',  title:'PostNord discontinued services', desc:'#373200 — Service mapping update. Overlaps with [#4] PostNord Changes.', lane:'now', tags:[], pain:6, effort:3, customers:1, start:13, end:16, theme:'carrier', children:[]},
-  zf8:  {id:'zf8',  title:'USPS Label Delete Fix', desc:'#381380 — Cannot clean up / delete labels. Blocks re-shipment workflow.', lane:'next', tags:[], pain:6, effort:2, customers:1, start:18, end:21, theme:'trust', children:[]},
-  zf11: {id:'zf11', title:'Variant Search (34 months overdue)', desc:'#277997, #218195 — 21-34 months open. Overlaps with L3-16 sprint item.', lane:'next', tags:['revenue','l3'], pain:9, effort:6, customers:2, start:17, end:25, theme:'scale', children:[]},
-  zf15: {id:'zf15', title:'Edit Package Adjusted Value', desc:'#361776 — Shows wrong value. L3 Dev Ready. Overlaps L3-11.', lane:'next', tags:['l3'], pain:6, effort:2, customers:1, start:17, end:21, theme:'trust', children:[]},
-  zf18: {id:'zf18', title:'Self-Serve Onboarding Wizard', desc:'10 onboarding tickets = 15% of volume. Guided setup + carrier auto-config.', lane:'later', tags:['revenue'], pain:4, effort:8, customers:10, start:25, end:30, theme:'scale', children:[]},
-  zf20: {id:'zf20', title:'Export Reason: Forward vs Return', desc:'#377217, #381261 — Different export reasons per direction. Overlaps L3-3.', lane:'now', tags:['l3'], pain:7, effort:4, customers:2, start:13, end:17, theme:'intl', children:[]},
-  zf21: {id:'zf21', title:'UPS Reference: Product Description', desc:'#378511 — Overlaps with L3-5 sprint item.', lane:'now', tags:['l3'], pain:6, effort:2, customers:1, start:13, end:16, theme:'intl', children:[]},
-  zf22: {id:'zf22', title:'Box Name on Tax Invoice', desc:'#373991 — Display box name. Overlaps L3-6.', lane:'now', tags:[], pain:5, effort:2, customers:1, start:14, end:17, theme:'intl', children:[]},
-  zf23: {id:'zf23', title:'Rate Shopping Reliability', desc:'0% automation, 750 pain index. Core rate engine improvements.', lane:'later', tags:['revenue'], pain:7, effort:7, customers:2, start:25, end:30, theme:'intelligence', children:[]},
-  zf24: {id:'zf24', title:'Proactive Carrier Migration Playbook', desc:'Detect API sunsets early, pre-migrate merchants, send notices. Prevent future fire drills.', lane:'later', tags:[], pain:3, effort:5, customers:0, start:28, end:30, theme:'intelligence', children:[]},
+  zf1:{id:'zf1',title:'Variant SKU search not supported',desc:'#218195 — product-management',lane:'next',tags:[],pain:9,effort:3,customers:1,start:17,end:25,theme:'data',children:[{id:'#218195',t:'ZI-001'}]},
+  zf2:{id:'zf2',title:'Product sync with Shopify',desc:'#218195 — product-management',lane:'next',tags:[],pain:9,effort:3,customers:1,start:17,end:25,theme:'data',children:[{id:'#218195',t:'ZI-002'}]},
+  zf3:{id:'zf3',title:'Variant SKU search not working',desc:'#277997 — product-management',lane:'next',tags:[],pain:9,effort:3,customers:1,start:17,end:25,theme:'data',children:[{id:'#277997',t:'ZI-003'}]},
+  zf4:{id:'zf4',title:'Deleted Shopify products persist in PluginHive',desc:'#277997 — product-management',lane:'next',tags:[],pain:9,effort:3,customers:1,start:17,end:25,theme:'data',children:[{id:'#277997',t:'ZI-004'}]},
+  zf5:{id:'zf5',title:'Product name/variant changes create duplicates',desc:'#277997 — product-management',lane:'next',tags:[],pain:9,effort:3,customers:1,start:17,end:25,theme:'data',children:[{id:'#277997',t:'ZI-005'}]},
+  zf6:{id:'zf6',title:'USPS Ground Advantage Cubic service not implemented',desc:'#299137 — rate-shopping',lane:'later',tags:[],pain:7,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#299137',t:'ZI-006'}]},
+  zf7:{id:'zf7',title:'Order notes not synced after import',desc:'#304193 — order-management',lane:'now',tags:[],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#304193',t:'ZI-007'}]},
+  zf8:{id:'zf8',title:'Automatic day-of-week Saturday Delivery handling',desc:'#306141 — carrier-config',lane:'next',tags:[],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#306141',t:'ZI-008'}]},
+  zf9:{id:'zf9',title:'Per-order Saturday Delivery toggle',desc:'#306141 — feature-request',lane:'later',tags:[],pain:5,effort:3,customers:1,start:25,end:30,theme:'requests',children:[{id:'#306141',t:'ZI-009'}]},
+  zf10:{id:'zf10',title:'Subscription plans page error on Safari',desc:'#338603 — onboarding',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#338603',t:'ZI-010'}]},
+  zf11:{id:'zf11',title:'COD payment type shown as Manual',desc:'#338603 — order-management',lane:'now',tags:[],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#338603',t:'ZI-011'}]},
+  zf12:{id:'zf12',title:'End of Day manifest / SCAN sheet not available',desc:'#348049 — label-generation',lane:'now',tags:[],pain:5,effort:3,customers:1,start:13,end:18,theme:'labels',children:[{id:'#348049',t:'ZI-012'}]},
+  zf13:{id:'zf13',title:'Ship To Address City missing from Order Report',desc:'#354696 — order-management',lane:'now',tags:[],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#354696',t:'ZI-013'}]},
+  zf14:{id:'zf14',title:'Pickup date/time not available in order report',desc:'#360396 — tracking',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#360396',t:'ZI-014'}]},
+  zf15:{id:'zf15',title:'Declared/insured value resets after manual package edit',desc:'#361776 — international',lane:'now',tags:[],pain:8,effort:3,customers:1,start:14,end:21,theme:'intl',children:[{id:'#361776',t:'ZI-015'}]},
+  zf16:{id:'zf16',title:'No product-to-box mapping rules',desc:'#361776 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#361776',t:'ZI-016'}]},
+  zf17:{id:'zf17',title:'250-variant import limit',desc:'#365042 — product-management',lane:'next',tags:[],pain:9,effort:3,customers:1,start:17,end:25,theme:'data',children:[{id:'#365042',t:'ZI-017'}]},
+  zf18:{id:'zf18',title:'DPD services not appearing via EasyPost',desc:'#366630 — carrier-config',lane:'next',tags:[],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#366630',t:'ZI-018'}]},
+  zf19:{id:'zf19',title:'FedEx ETD save setting unclear',desc:'#366630 — international',lane:'now',tags:[],pain:8,effort:3,customers:1,start:14,end:21,theme:'intl',children:[{id:'#366630',t:'ZI-019'}]},
+  zf20:{id:'zf20',title:'Rate comparison logic questions unanswered',desc:'#366630 — rate-shopping',lane:'later',tags:[],pain:7,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#366630',t:'ZI-020'}]},
+  zf21:{id:'zf21',title:'Enhancement: minimum customs value floor',desc:'#369144 — international',lane:'now',tags:[],pain:8,effort:3,customers:1,start:14,end:21,theme:'intl',children:[{id:'#369144',t:'ZI-021'}]},
+  zf22:{id:'zf22',title:'DHL Freight Sweden Return Service not available',desc:'#369556 — carrier-config',lane:'next',tags:[],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#369556',t:'ZI-022'}]},
+  zf23:{id:'zf23',title:'DHL label address format',desc:'#369556 — label-generation',lane:'next',tags:[],pain:8,effort:3,customers:1,start:18,end:25,theme:'labels',children:[{id:'#369556',t:'ZI-023'}]},
+  zf24:{id:'zf24',title:'Incorrect declared value for 0-price items',desc:'#370219 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#370219',t:'ZI-024'}]},
+  zf25:{id:'zf25',title:'Shipping charges not included in declared value',desc:'#370219 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#370219',t:'ZI-025'}]},
+  zf26:{id:'zf26',title:'Payment Type Filter (Prepaid/COD)',desc:'#370219 — feature-request',lane:'later',tags:[],pain:5,effort:3,customers:1,start:25,end:30,theme:'requests',children:[{id:'#370219',t:'ZI-026'}]},
+  zf27:{id:'zf27',title:'Multiple Tracking IDs per order (Bluedart Dart Plus)',desc:'#370219 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#370219',t:'ZI-027'}]},
+  zf28:{id:'zf28',title:'Product variant import failure',desc:'#370966 — order-management',lane:'now',tags:[],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#370966',t:'ZI-028'}]},
+  zf29:{id:'zf29',title:'Bundle product support missing',desc:'#372492 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#372492',t:'ZI-029'}]},
+  zf30:{id:'zf30',title:'Package size auto-selection too large',desc:'#372492 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#372492',t:'ZI-030'}]},
+  zf31:{id:'zf31',title:'PostNord service updates for May 2026',desc:'#373200 — carrier-config',lane:'now',tags:[],pain:6,effort:3,customers:1,start:13,end:16,theme:'carrier',children:[{id:'#373200',t:'ZI-031'}]},
+  zf32:{id:'zf32',title:'Tax invoice printing on multiple pages',desc:'#373991 — label-generation',lane:'now',tags:[],pain:5,effort:3,customers:1,start:14,end:17,theme:'labels',children:[{id:'#373991',t:'ZI-032'}]},
+  zf33:{id:'zf33',title:'Box name on tax invoice or pick-list',desc:'#373991 — label-generation',lane:'now',tags:[],pain:5,effort:3,customers:1,start:14,end:17,theme:'labels',children:[{id:'#373991',t:'ZI-033'}]},
+  zf34:{id:'zf34',title:'Discounted price not reflected on commercial invoice',desc:'#374022 — international',lane:'now',tags:[],pain:8,effort:3,customers:1,start:14,end:21,theme:'intl',children:[{id:'#374022',t:'ZI-034'}]},
+  zf35:{id:'zf35',title:'Decimal precision on custom packing slip prices',desc:'#374851 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:14,end:21,theme:'labels',children:[{id:'#374851',t:'ZI-035'}]},
+  zf36:{id:'zf36',title:'UPS WorldEase integration',desc:'#376856 — feature-request',lane:'later',tags:[],pain:5,effort:3,customers:1,start:25,end:30,theme:'requests',children:[{id:'#376856',t:'ZI-036'}]},
+  zf37:{id:'zf37',title:'Pre-packed box metafield/Shopify Flow integration',desc:'#377113 — carrier-config',lane:'next',tags:[],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#377113',t:'ZI-037'}]},
+  zf38:{id:'zf38',title:'DHL Express "reason for return" field not supported',desc:'#377217 — returns',lane:'next',tags:[],pain:5,effort:3,customers:1,start:21,end:25,theme:'intl',children:[{id:'#377217',t:'ZI-038'}]},
+  zf39:{id:'zf39',title:'Externally fulfilled orders appearing in open queue',desc:'#377526 — order-management',lane:'now',tags:[],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#377526',t:'ZI-039'}]},
+  zf40:{id:'zf40',title:'Draft orders ineligible for label generation',desc:'#377526 — order-management',lane:'now',tags:[],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#377526',t:'ZI-040'}]},
+  zf41:{id:'zf41',title:'USPS address validation causing label failures',desc:'#377526 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#377526',t:'ZI-041'}]},
+  zf42:{id:'zf42',title:'Address suggestion feature',desc:'#377526 — feature-request',lane:'later',tags:[],pain:5,effort:3,customers:1,start:25,end:30,theme:'requests',children:[{id:'#377526',t:'ZI-042'}]},
+  zf43:{id:'zf43',title:'Packing slip sort helper',desc:'#377526 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#377526',t:'ZI-043'}]},
+  zf44:{id:'zf44',title:'Order report for historical data',desc:'#377574 — order-management',lane:'now',tags:[],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#377574',t:'ZI-044'}]},
+  zf45:{id:'zf45',title:'BlueDart pickup token enhancement',desc:'#377574 — carrier-config',lane:'next',tags:[],pain:5,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#377574',t:'ZI-045'}]},
+  zf46:{id:'zf46',title:'Payment status filter',desc:'#377574 — order-management',lane:'now',tags:[],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#377574',t:'ZI-046'}]},
+  zf47:{id:'zf47',title:'UPS Dangerous Goods rates not reflecting DG surcharge',desc:'#378176 — rate-shopping',lane:'later',tags:[],pain:7,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#378176',t:'ZI-047'}]},
+  zf48:{id:'zf48',title:'UPS domestic label Reference field enhancement',desc:'#378511 — label-generation',lane:'now',tags:[],pain:6,effort:3,customers:1,start:13,end:16,theme:'labels',children:[{id:'#378511',t:'ZI-048'}]},
+  zf49:{id:'zf49',title:'Products with 100+ variants losing sync',desc:'#378513 — product-management',lane:'next',tags:[],pain:9,effort:3,customers:1,start:17,end:25,theme:'data',children:[{id:'#378513',t:'ZI-049'}]},
+  zf50:{id:'zf50',title:'USPS integration blocked by plan limit',desc:'#378513 — onboarding',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#378513',t:'ZI-050'}]},
+  zf51:{id:'zf51',title:'FedEx REST declared value exceeds limit',desc:'#379042 — carrier-migration',lane:'next',tags:[],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#379042',t:'ZI-051'}]},
+  zf52:{id:'zf52',title:'Label stock 4x6 not available in REST',desc:'#379042 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#379042',t:'ZI-052'}]},
+  zf53:{id:'zf53',title:'Auto-upload documents failing in REST',desc:'#379042 — carrier-migration',lane:'next',tags:[],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#379042',t:'ZI-053'}]},
+  zf54:{id:'zf54',title:'Post-migration FedEx REST stabilization',desc:'#379098 — carrier-migration',lane:'next',tags:[],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#379098',t:'ZI-054'}]},
+  zf55:{id:'zf55',title:'Country-specific HS codes',desc:'#379784 — international',lane:'now',tags:[],pain:8,effort:3,customers:1,start:14,end:21,theme:'intl',children:[{id:'#379784',t:'ZI-055'}]},
+  zf56:{id:'zf56',title:'PostNord return label product codes',desc:'#379784 — returns',lane:'next',tags:[],pain:5,effort:3,customers:1,start:21,end:25,theme:'intl',children:[{id:'#379784',t:'ZI-056'}]},
+  zf57:{id:'zf57',title:'RoyalMail48ParcelDailyRateService missing from app',desc:'#379963 — carrier-config',lane:'next',tags:[],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#379963',t:'ZI-057'}]},
+  zf58:{id:'zf58',title:'eParcel bulk label generation delay (8+ sec consistently)',desc:'#380339 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#380339',t:'ZI-058'}]},
+  zf59:{id:'zf59',title:'Australia Post international tracking not syncing to Shopify',desc:'#380339 — tracking',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#380339',t:'ZI-059'}]},
+  zf60:{id:'zf60',title:'HS code editing at package level',desc:'#380339 — international',lane:'now',tags:[],pain:8,effort:3,customers:1,start:14,end:21,theme:'intl',children:[{id:'#380339',t:'ZI-060'}]},
+  zf61:{id:'zf61',title:'Set Service vs Add Service rule behavior',desc:'#380339 — carrier-config',lane:'next',tags:[],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#380339',t:'ZI-061'}]},
+  zf62:{id:'zf62',title:'Shipment type classification per order',desc:'#380339 — international',lane:'now',tags:[],pain:8,effort:3,customers:1,start:14,end:21,theme:'intl',children:[{id:'#380339',t:'ZI-062'}]},
+  zf63:{id:'zf63',title:'Custom declaration statement on FedEx commercial invoice not available',desc:'#380784 — international',lane:'now',tags:[],pain:8,effort:3,customers:1,start:14,end:21,theme:'intl',children:[{id:'#380784',t:'ZI-063'}]},
+  zf64:{id:'zf64',title:'Product variants added after initial setup not auto-imported',desc:'#381087 — product-management',lane:'next',tags:[],pain:9,effort:3,customers:1,start:17,end:25,theme:'data',children:[{id:'#381087',t:'ZI-064'}]},
+  zf65:{id:'zf65',title:'DHL Export Declaration Surcharge incorrectly applied for Japan shipments',desc:'#381261 — international',lane:'now',tags:[],pain:8,effort:3,customers:1,start:14,end:21,theme:'intl',children:[{id:'#381261',t:'ZI-065'}]},
+  zf66:{id:'zf66',title:'Customer unable to create BlueDart account',desc:'#381283 — onboarding',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#381283',t:'ZI-066'}]},
+  zf67:{id:'zf67',title:'Cleanup button missing in new UI',desc:'#381380 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#381380',t:'ZI-067'}]},
+  zf68:{id:'zf68',title:'Custom plan ($150/year, 4000 shipments) not yet created',desc:'#381931 — onboarding',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#381931',t:'ZI-068'}]},
+  zf69:{id:'zf69',title:'FedEx box dimensions not printed on labels after REST migration',desc:'#382009 — carrier-migration',lane:'next',tags:[],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#382009',t:'ZI-069'}]},
+  zf70:{id:'zf70',title:'PO Box automation rule behavior after migration',desc:'#382009 — carrier-migration',lane:'next',tags:[],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#382009',t:'ZI-070'}]},
+  zf71:{id:'zf71',title:'Packing slip does not show selected package size',desc:'#382009 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#382009',t:'ZI-071'}]},
+  zf72:{id:'zf72',title:'FedEx `/documents/v1/etds/multiupload` endpoint failing in production',desc:'#382188 — carrier-migration',lane:'next',tags:[],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#382188',t:'ZI-072'}]},
+  zf73:{id:'zf73',title:'Can product details (qty, SKU, description) be shown on shipping labels?',desc:'#382393 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#382393',t:'ZI-073'}]},
+  zf74:{id:'zf74',title:'FedEx One Rate returned instead of negotiated rates after REST migration',desc:'#382425 — carrier-migration',lane:'next',tags:[],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#382425',t:'ZI-074'}]},
+  zf75:{id:'zf75',title:'App prints incorrect Country of Manufacture on CN22 customs documents',desc:'#382694 — international',lane:'now',tags:[],pain:8,effort:3,customers:1,start:14,end:21,theme:'intl',children:[{id:'#382694',t:'ZI-075'}]},
+  zf76:{id:'zf76',title:'Australia Post TLS 1.0/1.1 deprecation compliance',desc:'#382780 — carrier-config',lane:'next',tags:[],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#382780',t:'ZI-076'}]},
+  zf77:{id:'zf77',title:'Blue Dart label generation failing',desc:'#382795 — onboarding',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#382795',t:'ZI-077'}]},
+  zf78:{id:'zf78',title:'Onboarding call pending',desc:'#382935 — onboarding',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#382935',t:'ZI-078'}]},
+  zf79:{id:'zf79',title:'Orders move to "Not to Ship" on refresh when OCU post-purchase upsell modifies t',desc:'#382961 — order-management',lane:'now',tags:[],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#382961',t:'ZI-079'}]},
+  zf80:{id:'zf80',title:'FedEx REST API registration failing',desc:'#382982 — carrier-migration',lane:'next',tags:[],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#382982',t:'ZI-080'}]},
+  zf81:{id:'zf81',title:'"Amount is a required field" error on order #18501',desc:'#382987 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:25,theme:'labels',children:[{id:'#382987',t:'ZI-081'}]},
+  zf82:{id:'zf82',title:'Onboarding call pending',desc:'#382999 — onboarding',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#382999',t:'ZI-082'}]},
+  zf83:{id:'zf83',title:'Australia Post TLS 1.0/1.1 deprecation compliance',desc:'#383002 — carrier-config',lane:'next',tags:[],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#383002',t:'ZI-083'}]},
+  zf84:{id:'zf84',title:'Shipping rates not displaying at checkout',desc:'#383093 — rate-shopping',lane:'later',tags:[],pain:7,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#383093',t:'ZI-084'}]},
+  zf85:{id:'zf85',title:'350-item quantity limit too low',desc:'#383093 — rate-shopping',lane:'later',tags:[],pain:7,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#383093',t:'ZI-085'}]},
+  zf86:{id:'zf86',title:'Demo call scheduling for 2026-04-14',desc:'#383103 — onboarding',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#383103',t:'ZI-086'}]},
+  zf87:{id:'zf87',title:'FedEx rate mismatch between app and FedEx portal',desc:'#383114 — rate-shopping',lane:'later',tags:[],pain:7,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#383114',t:'ZI-087'}]},
+  zf88:{id:'zf88',title:'Onboarding call pending',desc:'#383148 — onboarding',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#383148',t:'ZI-088'}]},
+  zf89:{id:'zf89',title:'Order page integration issue',desc:'#383243 — order-management',lane:'now',tags:[],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#383243',t:'ZI-089'}]},
+  zf90:{id:'zf90',title:'Second pre-call issue',desc:'#383243 — carrier-config',lane:'next',tags:[],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#383243',t:'ZI-090'}]},
+  zf91:{id:'zf91',title:'Onboarding call and UPS setup',desc:'#383273 — onboarding',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#383273',t:'ZI-091'}]},
+  zf92:{id:'zf92',title:'Shipping class/product category sync failure',desc:'#383437 — product-management',lane:'next',tags:[],pain:9,effort:3,customers:1,start:17,end:25,theme:'data',children:[{id:'#383437',t:'ZI-092'}]},
+  zf93:{id:'zf93',title:'Churn investigation for high-volume customer',desc:'#383729 — onboarding',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#383729',t:'ZI-093'}]},
 };
+
 
 // Merge ALL features
 const ALL_FEATURES = {...SP_FEATURES, ...L3_ITEMS, ...ZEN_FEATURES};
@@ -331,11 +416,11 @@ const RELEASES = [
      {ticket:'[#10]', desc:'FedEx Saturday Services (bug fix)', pain:6, effort:3, customers:3, tags:['p1'], source:'Sprint'},
      {ticket:'[#4]',  desc:'PostNord Service Changes (12 changes)', pain:8, effort:6, customers:4, tags:['p1','deadline'], source:'Sprint'},
      {ticket:'[#1]',  desc:'FedEx One Rate with Ground (default ON)', pain:6, effort:4, customers:5, tags:['p1'], source:'Sprint'},
-     {ticket:'#382961', desc:'Fix orders disappearing bug (P0)', pain:10, effort:3, customers:1, tags:['p0','l3'], source:'Zendesk'},
-     {ticket:'#382694', desc:'CN22 PostNord country fix (dev ready)', pain:7, effort:1, customers:1, tags:['l3'], source:'Zendesk'},
-     {ticket:'#382425', desc:'FedEx One Rate avoid (dev ready)', pain:6, effort:1, customers:1, tags:['l3'], source:'Zendesk'},
-     {ticket:'#379098', desc:'FedEx CSV signature (dev ready)', pain:5, effort:1, customers:1, tags:['l3'], source:'Zendesk'},
-     {ticket:'#360396', desc:'Scan time in report (dev ready)', pain:5, effort:1, customers:1, tags:['l3'], source:'Zendesk'},
+     {ticket:'ZI-079', desc:'Fix orders disappearing bug — OCU upsell (P0, #382961)', pain:10, effort:3, customers:1, tags:['p0','l3'], source:'Zendesk'},
+     {ticket:'ZI-075', desc:'CN22 country of manufacture fix (dev ready, #382694)', pain:7, effort:1, customers:1, tags:['l3'], source:'Zendesk'},
+     {ticket:'ZI-074', desc:'FedEx One Rate vs negotiated rates (dev ready, #382425)', pain:6, effort:1, customers:1, tags:['l3'], source:'Zendesk'},
+     {ticket:'ZI-054', desc:'FedEx REST stabilization (dev ready, #379098)', pain:5, effort:1, customers:1, tags:['l3'], source:'Zendesk'},
+     {ticket:'ZI-014', desc:'Pickup date/time in report (dev ready, #360396)', pain:5, effort:1, customers:1, tags:['l3'], source:'Zendesk'},
    ]},
   {id:'r2', date:'Apr 16-18', name:'UPS Simple Rates + L3 Carrier Batch', type:'Feature', status:'planned',
    themes:['carrier','intl'],
@@ -346,7 +431,7 @@ const RELEASES = [
      {ticket:'[L3-3]', desc:'DHL configurable export reason', pain:7, effort:3, customers:2, tags:['l3'], source:'Sprint'},
      {ticket:'[L3-4]', desc:'DPD NL missing services fix', pain:6, effort:3, customers:1, tags:['l3'], source:'Sprint'},
      {ticket:'[L3-5]', desc:'UPS product description in ref field', pain:6, effort:2, customers:1, tags:['l3'], source:'Sprint'},
-     {ticket:'#382780', desc:'Australia Post API security update', pain:8, effort:4, customers:2, tags:['deadline'], source:'Zendesk'},
+     {ticket:'ZI-076', desc:'Australia Post TLS 1.2+ compliance (Jul 7 deadline, #382780)', pain:8, effort:4, customers:2, tags:['deadline'], source:'Zendesk'},
    ]},
   {id:'r3', date:'Apr 18-21', name:'New Carriers + Bundled Products + CI Pipeline', type:'P0 Carriers', status:'planned',
    themes:['carrier','scale','intl','trust'],
@@ -361,9 +446,9 @@ const RELEASES = [
      {ticket:'[L3-8]', desc:'FedEx discounted value on CI', pain:7, effort:3, customers:1, tags:['l3'], source:'Sprint'},
      {ticket:'[L3-14]', desc:'100+ variant import fix', pain:9, effort:4, customers:3, tags:['l3'], source:'Sprint'},
      {ticket:'[L3-15]', desc:'250+ variants GraphQL pagination', pain:9, effort:5, customers:3, tags:['l3'], source:'Sprint'},
-     {ticket:'#374851', desc:'Decimal on commercial invoice', pain:10, effort:3, customers:1, tags:[], source:'Zendesk'},
-     {ticket:'#377795', desc:'Full description on UPS invoice', pain:9, effort:3, customers:1, tags:[], source:'Zendesk'},
-     {ticket:'#380784', desc:'Declaration on CI', pain:8, effort:2, customers:1, tags:[], source:'Zendesk'},
+     {ticket:'ZI-035', desc:'Decimal precision on packing slip (#374851)', pain:10, effort:3, customers:1, tags:[], source:'Zendesk'},
+     {ticket:'ZI-063', desc:'Declaration statement on FedEx CI (#380784)', pain:8, effort:2, customers:1, tags:[], source:'Zendesk'},
+     {ticket:'ZI-034', desc:'Discounted price on commercial invoice (#374022)', pain:8, effort:3, customers:1, tags:[], source:'Zendesk'},
    ]},
   {id:'r4', date:'Apr 21-25', name:'DHL Express + DHL Paket + Dashboard', type:'P0 Critical', status:'planned',
    themes:['carrier','intelligence','trust'],
@@ -375,8 +460,8 @@ const RELEASES = [
      {ticket:'[L3-10]', desc:'Ship-to city in order report', pain:5, effort:2, customers:1, tags:['l3'], source:'Sprint'},
      {ticket:'[L3-11]', desc:'Edit package adjusted value', pain:6, effort:2, customers:1, tags:['l3'], source:'Sprint'},
      {ticket:'[L3-16]', desc:'Variant name & SKU search', pain:9, effort:4, customers:2, tags:['l3'], source:'Sprint'},
-     {ticket:'#381380', desc:'USPS label delete fix', pain:6, effort:2, customers:1, tags:[], source:'Zendesk'},
-     {ticket:'#379784', desc:'CN22 + label same page', pain:7, effort:3, customers:1, tags:[], source:'Zendesk'},
+     {ticket:'ZI-067', desc:'USPS cleanup button missing in new UI (#381380)', pain:6, effort:2, customers:1, tags:[], source:'Zendesk'},
+     {ticket:'ZI-055', desc:'Country-specific HS codes + CN22 (#379784)', pain:7, effort:3, customers:1, tags:[], source:'Zendesk'},
    ]},
   {id:'r5', date:'Apr 25-30', name:'L3 Tail + Hardening + Test Coverage', type:'Hardening', status:'planned',
    themes:['carrier','intelligence','scale'],
@@ -386,8 +471,8 @@ const RELEASES = [
      {ticket:'[L3-17]', desc:'Carrier scan time in reports', pain:5, effort:4, customers:1, tags:['l3'], source:'Sprint'},
      {ticket:'—', desc:'Playwright tests for all Apr shipped features', pain:0, effort:5, customers:0, tags:[], source:'Internal'},
      {ticket:'—', desc:'DHL Express + Paket regression testing', pain:0, effort:4, customers:0, tags:[], source:'Internal'},
-     {ticket:'#338603', desc:'Subscription error on Safari', pain:4, effort:2, customers:1, tags:[], source:'Zendesk'},
-     {ticket:'#306141', desc:'Avoid Saturday delivery when N/A', pain:4, effort:2, customers:1, tags:[], source:'Zendesk'},
+     {ticket:'ZI-010', desc:'Subscription plans page error on Safari (#338603)', pain:4, effort:2, customers:1, tags:[], source:'Zendesk'},
+     {ticket:'ZI-008', desc:'Automatic Saturday Delivery handling (#306141)', pain:4, effort:2, customers:1, tags:[], source:'Zendesk'},
    ]},
 ];
 
@@ -397,24 +482,24 @@ const EPICS = [
    children:[{id:'[#7]',t:'DHL Express REST API'},{id:'[#43]',t:'DHL Paket REST API v2'},{id:'[L3-3]',t:'DHL configurable export reason'}]},
   {id:'ep2', title:'FedEx & UPS Enhancements', desc:'One Rate, Saturday, Simple Rates, Hazmat, min value. 15+ customers across features.', lane:'now', tags:['p1'], pain:7, effort:5, customers:15, start:13, end:21, theme:'carrier',
    children:[{id:'[#1]',t:'FedEx One Rate + Ground'},{id:'[#10]',t:'FedEx Saturday Services'},{id:'[#39]',t:'UPS Simple Rates'},{id:'[L3-2]',t:'UPS Hazmat Rates'},{id:'[L3-8]',t:'FedEx CI discounted value'},{id:'[L3-9]',t:'FedEx min customs value'}]},
-  {id:'ep3', title:'International Shipping Pipeline', desc:'Fix CI/customs pipeline once = close 20% of backlog (14 tickets). Shared across all carriers.', lane:'now', tags:['l3'], pain:10, effort:6, customers:14, start:13, end:21, theme:'intl',
-   children:[{id:'CI',t:'Commercial Invoice pipeline fix (8 tickets)'},{id:'CN22',t:'CN22 + label same page'},{id:'Export',t:'Export reasons fwd/return'},{id:'HS',t:'HS code per-shipment'},{id:'Ref',t:'UPS reference field'}]},
+  {id:'ep3', title:'International Shipping Pipeline', desc:'Fix CI/customs pipeline once = close 20% of backlog. 10 ZI issues across 8 tickets (Backlog #4). Shared across all carriers.', lane:'now', tags:['l3'], pain:10, effort:6, customers:14, start:13, end:21, theme:'intl',
+   children:[{id:'CI',t:'Commercial Invoice pipeline fix (6 ZI issues)'},{id:'CN22',t:'CN22 + label same page (ZI-055, ZI-056)'},{id:'Export',t:'Export reasons fwd/return (ZI-038, ZI-065)'},{id:'HS',t:'HS code per-shipment (ZI-055, ZI-060)'},{id:'Ref',t:'UPS reference field (ZI-048)'}]},
   {id:'ep4', title:'New Carrier Integrations (APC, PostNord UK, NZ Post)', desc:'3 new carrier/market expansions. APC is partnership-driven P0.', lane:'now', tags:['p0','new','revenue'], pain:7, effort:5, customers:5, start:13, end:18, theme:'carrier',
    children:[{id:'[#8]',t:'APC Postal REST API'},{id:'[#3]',t:'PostNord UK'},{id:'[#38]',t:'NZ Post MPB'},{id:'[L3-4]',t:'DPD NL services fix'}]},
   {id:'ep5', title:'Product Import & Bundled Products', desc:'Variant search (34mo!), >250 variants, bundled product support. Unblocks enterprise merchants.', lane:'now', tags:['p1','revenue'], pain:9, effort:6, customers:11, start:13, end:25, theme:'scale',
    children:[{id:'[#42]',t:'Bundled Products Phase 1'},{id:'[L3-14]',t:'100+ variant import'},{id:'[L3-15]',t:'250+ variant pagination'},{id:'[L3-16]',t:'Variant name & SKU search'},{id:'[L3-7]',t:'Bundled packing slip fix'}]},
-  {id:'ep6', title:'PostNord Nordic Overhaul', desc:'12 service changes across z10-z14. Decommissions, renames, customs. May 4 rejection deadline.', lane:'now', tags:['p1','deadline','maint'], pain:8, effort:6, customers:4, start:13, end:16, theme:'carrier',
-   children:[{id:'[#4]',t:'12 PostNord service changes'},{id:'#373200',t:'Zendesk: PostNord services'}]},
+  {id:'ep6', title:'PostNord Nordic Overhaul', desc:'12 service changes across z10-z14. Decommissions, renames, customs. May 4 rejection deadline. ZI-031 from #373200.', lane:'now', tags:['p1','deadline','maint'], pain:8, effort:6, customers:4, start:13, end:16, theme:'carrier',
+   children:[{id:'[#4]',t:'12 PostNord service changes'},{id:'ZI-031',t:'PostNord service updates May 2026 (#373200)'}]},
   {id:'ep7', title:'Analytics Dashboard (Premium Revenue)', desc:'Premium-gated MVP. 5 metrics, 3 charts, CSV. New recurring revenue stream.', lane:'next', tags:['p1','revenue'], pain:5, effort:7, customers:0, start:18, end:25, theme:'intelligence',
    children:[{id:'[#33]',t:'Dashboard Analytics MVP'},{id:'Gate',t:'Premium plan gating'}]},
-  {id:'ep8', title:'Order Data Integrity & Trust', desc:'P0 orders bug + dev-ready items + label fixes. Trust-critical.', lane:'now', tags:['p0','l3'], pain:10, effort:3, customers:6, start:13, end:16, theme:'trust',
-   children:[{id:'#382961',t:'Orders disappearing (P0)'},{id:'4x L3',t:'Dev-ready items (deploy)'},{id:'#381380',t:'USPS label delete'}]},
+  {id:'ep8', title:'Order Data Integrity & Trust', desc:'P0 orders bug (ZI-079) + 4 dev-ready items + label fixes. 10 ZI issues across order management (Backlog #5). Trust-critical.', lane:'now', tags:['p0','l3'], pain:10, effort:3, customers:7, start:13, end:16, theme:'trust',
+   children:[{id:'ZI-079',t:'Orders disappearing P0 (#382961)'},{id:'4x L3',t:'Dev-ready items (ZI-075, ZI-074, ZI-054, ZI-014)'},{id:'ZI-067',t:'USPS cleanup button missing (#381380)'}]},
 ];
 
 // --- STRATEGY ---
 const STRATEGY = [
-  {id:'s1', title:'Eliminate Recurring Ticket Patterns', desc:'CI pipeline fix = 20% of backlog. Ship L3 Dev Ready = 8 instant closures. Variant fixes = 11 tickets. Target: 68 → 35.', lane:'now', tags:['l3'], pain:10, effort:5, customers:33, start:13, end:21,
-   children:[{id:'CI',t:'Batch fix ~8 CI tickets'},{id:'L3 Ship',t:'Deploy 8 dev-completed items'},{id:'Variants',t:'Fix variant import (11 tickets)'},{id:'#382961',t:'P0 orders bug'}]},
+  {id:'s1', title:'Eliminate Recurring Ticket Patterns', desc:'93 ZI issues from 66 tickets clustered into 14 backlog items. CI pipeline = 10 ZI issues. Variant sync = 9 ZI issues. Target: 66 → 30 tickets.', lane:'now', tags:['l3'], pain:10, effort:5, customers:33, start:13, end:21,
+   children:[{id:'CI',t:'Batch fix 10 ZI international issues (Backlog #4)'},{id:'L3 Ship',t:'Deploy 4 dev-ready (ZI-075, ZI-074, ZI-054, ZI-014)'},{id:'Variants',t:'Fix variant sync — 9 ZI issues (Backlog #7)'},{id:'ZI-079',t:'P0 orders bug (#382961)'}]},
   {id:'s2', title:'L3 as Revenue Intelligence', desc:'Every L3 ticket = product signal. Dashboard (premium-gated) = direct revenue. Carrier expansions = partnership revenue.', lane:'now', tags:['revenue'], pain:5, effort:4, customers:5, start:13, end:30,
    children:[{id:'[#33]',t:'Dashboard → premium plan revenue'},{id:'[#8]',t:'APC → partnership revenue'},{id:'[#38]',t:'NZ Post → partnership revenue'},{id:'Variants',t:'>250 variants → enterprise tier'}]},
   {id:'s3', title:'Carrier Platform Modernization', desc:'DHL Express + Paket = 2 new REST APIs. FedEx + UPS enhancements. 5 carrier integrations in one month.', lane:'now', tags:['revenue','deadline'], pain:9, effort:9, customers:30, start:13, end:25,
@@ -591,11 +676,12 @@ function build(){
       <div class="sum-row"><span>L3-Big Ticket</span><b>4</b></div>
       <div class="sum-row"><span>Total</span><b>17</b></div>
     </div>
-    <div class="sum-card"><h4>Zendesk Tickets</h4>
-      <div class="sum-row"><span>Open (all apps)</span><b>68</b></div>
-      <div class="sum-row"><span>Dev Needed</span><b>34 (65%)</b></div>
+    <div class="sum-card"><h4>Zendesk Issues (ZI)</h4>
+      <div class="sum-row"><span>Total ZI Issues</span><b>93</b></div>
+      <div class="sum-row"><span>From Tickets</span><b>66</b></div>
+      <div class="sum-row"><span>Active Backlog Clusters</span><b>11</b></div>
+      <div class="sum-row"><span>Parking Lot (feature req)</span><b>7</b></div>
       <div class="sum-row"><span>Dev Ready (free wins)</span><b>4</b></div>
-      <div class="sum-row"><span>Yet to Pick</span><b>26 (38%)</b></div>
     </div>
     <div class="sum-card"><h4>Deadlines</h4>
       <div class="sum-row"><span>DHL Paket</span><b style="color:var(--now)">May 31</b></div>
@@ -643,7 +729,7 @@ function build(){
 
   // ---- THEME VIEW ----
   html+=`<div class="vw" id="v-theme">`;
-  html+=`<div class="dbox"><strong>Theme Roadmap — April 2026.</strong> 5 investment themes. Click any theme to drill down into its features with pain, effort, and customer scores. Each feature shows its source (Sprint Plan / L3 / Zendesk). Themes answer "what are we betting on?" for CEO, Support, and Partnerships.</div>`;
+  html+=`<div class="dbox"><strong>Theme Roadmap — April 2026.</strong> 7 investment themes. Click any theme to drill down into its features with pain, effort, and customer scores. Each feature shows its source (Sprint Plan / L3 / Zendesk). Themes answer "what are we betting on?" for CEO, Support, and Partnerships.</div>`;
   html+=`<div class="tg">`;
   THEMES.forEach(theme=>{
     const feats=theme.features.map(fid=>ALL_FEATURES[fid]).filter(Boolean);
