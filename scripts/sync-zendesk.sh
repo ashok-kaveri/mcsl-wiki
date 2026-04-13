@@ -67,19 +67,14 @@ for subdir in $PRODUCT_KEYS; do
   single_tag=$(yq "$product_path.tag // \"\"" "$SOURCES_YAML")
   tags_array=$(yq "$product_path.tags // [] | .[]" "$SOURCES_YAML" 2>/dev/null || true)
 
-  # Build tag query for Zendesk search
-  # Single tag: tags:foo
-  # Multiple tags: tags:foo tags:bar (OR logic in Zendesk search)
-  tag_query=""
+  # Build list of tags to search for
+  search_tags=()
   if [ -n "$single_tag" ]; then
-    tag_query="tags:$single_tag"
+    search_tags+=("$single_tag")
   elif [ -n "$tags_array" ]; then
-    # Multiple tags — Zendesk search OR: wrap in parentheses
-    tag_parts=""
     while IFS= read -r t; do
-      [ -n "$t" ] && tag_parts="${tag_parts:+$tag_parts OR }tags:$t"
+      [ -n "$t" ] && search_tags+=("$t")
     done <<< "$tags_array"
-    tag_query="($tag_parts)"
   else
     echo "WARNING: [$subdir] No tag or tags defined, skipping." >&2
     continue
@@ -102,39 +97,48 @@ for subdir in $PRODUCT_KEYS; do
   end_date=$(date +%Y-%m-%d)
 
   echo "==> [$subdir] Fetching tickets: $start_date to $end_date"
-  echo "    Filter: $query_filter $tag_query"
+  echo "    Filter: $query_filter | Tags: ${search_tags[*]}"
 
-  # --- Search for tickets (with pagination) ---
+  # --- Search for tickets (one search per tag, deduplicate) ---
+  declare -A seen_ids
   ticket_ids=()
-  page_url="$BASE_URL/search.json"
-  page_num=1
 
-  while [ -n "$page_url" ] && [ "$page_url" != "null" ]; do
-    echo "  Fetching search results (page $page_num)..."
+  for search_tag in "${search_tags[@]}"; do
+    page_url="$BASE_URL/search.json"
+    page_num=1
 
-    if [ "$page_num" -eq 1 ]; then
-      response=$(curl -s -G "$page_url" \
-        --data-urlencode "query=type:ticket $query_filter $tag_query created>=$start_date created<=$end_date" \
-        --data-urlencode "sort_by=created_at" \
-        --data-urlencode "sort_order=desc" \
-        -u "$AUTH")
-    else
-      response=$(curl -s "$page_url" -u "$AUTH")
-    fi
+    echo "  Searching tag: $search_tag"
 
-    ids=$(echo "$response" | jq -r '.results[].id')
+    while [ -n "$page_url" ] && [ "$page_url" != "null" ]; do
+      echo "    Fetching search results (page $page_num)..."
 
-    while IFS= read -r id; do
-      [ -n "$id" ] && ticket_ids+=("$id")
-    done <<< "$ids"
+      if [ "$page_num" -eq 1 ]; then
+        response=$(curl -s -G "$page_url" \
+          --data-urlencode "query=type:ticket $query_filter tags:$search_tag created>=$start_date created<=$end_date" \
+          --data-urlencode "sort_by=created_at" \
+          --data-urlencode "sort_order=desc" \
+          -u "$AUTH")
+      else
+        response=$(curl -s "$page_url" -u "$AUTH")
+      fi
 
-    page_url=$(echo "$response" | jq -r '.next_page // ""')
+      ids=$(echo "$response" | jq -r '.results[].id')
 
-    page_num=$((page_num + 1))
+      while IFS= read -r id; do
+        if [ -n "$id" ] && [ -z "${seen_ids[$id]:-}" ]; then
+          seen_ids[$id]=1
+          ticket_ids+=("$id")
+        fi
+      done <<< "$ids"
+
+      page_url=$(echo "$response" | jq -r '.next_page // ""')
+
+      page_num=$((page_num + 1))
+    done
   done
 
   total=${#ticket_ids[@]}
-  echo "  Found $total tickets"
+  echo "  Found $total unique tickets"
 
   if [ "$total" -eq 0 ]; then
     echo "  No tickets to sync."
