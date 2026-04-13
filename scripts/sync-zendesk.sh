@@ -100,7 +100,7 @@ for subdir in $PRODUCT_KEYS; do
   echo "    Filter: $query_filter | Tags: ${search_tags[*]}"
 
   # --- Search for tickets (one search per tag, deduplicate) ---
-  declare -A seen_ids
+  seen_ids=""
   ticket_ids=()
 
   for search_tag in "${search_tags[@]}"; do
@@ -125,8 +125,8 @@ for subdir in $PRODUCT_KEYS; do
       ids=$(echo "$response" | jq -r '.results[].id')
 
       while IFS= read -r id; do
-        if [ -n "$id" ] && [ -z "${seen_ids[$id]:-}" ]; then
-          seen_ids[$id]=1
+        if [ -n "$id" ] && ! echo "$seen_ids" | grep -qw "$id"; then
+          seen_ids="$seen_ids $id"
           ticket_ids+=("$id")
         fi
       done <<< "$ids"
