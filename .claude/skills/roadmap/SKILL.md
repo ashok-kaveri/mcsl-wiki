@@ -17,6 +17,53 @@ Regenerate or validate `wiki/product/roadmap-april-2026.html` from the wiki summ
 
 ---
 
+## Product Management Intent
+
+You are a product manager with 15+ years of experience. The roadmap serves a team of 15 engineers and QA, and must be easily understood by the CEO, Support, and Partnerships teams.
+
+### What the roadmap contains
+
+1. **Release schedule** fitting the L3 72-hour SLA
+2. **Product roadmap** for April with these views:
+   a. Epic roadmap
+   b. Features roadmap
+   c. Release roadmap
+   d. Strategy roadmap
+   e. Technology roadmap
+   f. Opportunity roadmap
+   g. Theme roadmap — drill down into each theme to see its features
+   h. Release calendar with Gantt timeline
+
+### Format
+
+- HTML page with Gantt-like timeline
+- Items in **NOW / NEXT / LATER** swimlanes — moving an item between lanes should reflect on the timeline
+- Each grouping (releases, strategy, tech, opportunity) hierarchically shows items with **pain, effort, customer score**
+- Themes listed for April, with drill-down into features per theme
+- Each release shows planned cards/tickets with themes highlighted
+
+### Guiding principles
+
+1. **72-hour SLA**: First response < 15 min. Triage < 4h. Dev fix < 48h. Ship to prod < 72h.
+2. **Zero ticket goal**: We want to get to zero open tickets.
+3. **L3 drives revenue**: L3 work is also a revenue opportunity, not just support.
+4. **Feature overlap**: Feature requests should ideally overlap with L3 work.
+5. **Revenue focus**: Prioritize features that drive revenue.
+6. **3-customer rule**: A feature with 3+ customers asking → move into this week's backlog.
+7. **Pain + effort visible**: Every feature shows support pain and effort scores.
+8. **Ticket correlation**: Correlate with existing cards/tickets in play.
+9. **Sprint plan inclusion**: Include features from `raw/a_proposed_april_plan/MCSL_April_2026_Sprint_Plan.html` (these are the SP_FEATURES).
+
+### Data sources (read order)
+
+1. `wiki/zendesk/summaries/*.md` — per-ticket structured summaries (open issues, customer context)
+2. `wiki/zendesk/YYYY-MM-DD.md` — daily index with ZI IDs and area counts
+3. `wiki/product/backlog.md` — scored, clustered backlog items
+4. `wiki/product/roadmap-april-2026.html` — existing roadmap (preserve SP_FEATURES, L3_ITEMS, rendering code)
+5. `raw/a_proposed_april_plan/MCSL_April_2026_Sprint_Plan.html` — sprint plan features (read-only reference)
+
+---
+
 ## Validate mode
 
 ```bash
@@ -60,9 +107,9 @@ Also read the latest `wiki/zendesk/YYYY-MM-DD.md` daily index for the canonical 
 
 Read `wiki/product/roadmap-april-2026.html`. Extract and preserve:
 - All CSS and HTML (everything before `<script>` and after `</script>`)
-- `SP_FEATURES` — 12 sprint plan items (DO NOT MODIFY)
-- `L3_ITEMS` — 17 L3 items (DO NOT MODIFY)
-- `RELEASES` — preserve as-is
+- `SP_FEATURES` — sprint plan items (DO NOT MODIFY)
+- `L3_ITEMS` — L3 items (DO NOT MODIFY)
+- `RELEASES` — preserve as-is (sprint-sourced items stay, update Zendesk-sourced items)
 - `EPICS` — preserve as-is
 - `STRATEGY` — preserve as-is
 - `TECH_ITEMS` — preserve as-is
@@ -71,31 +118,32 @@ Read `wiki/product/roadmap-april-2026.html`. Extract and preserve:
 
 ### Step 3: Generate ZEN_FEATURES
 
-One `zf<N>` entry per ZI issue (where N = ZI number). Structure:
+One `zf<N>` entry per ZI issue (where N = ZI number). Each issue is its own card — not clustered.
 
 ```javascript
 zf<N>:{id:'zf<N>',title:'<issue title>',desc:'#<ticket> — <area>',lane:'<lane>',tags:[],pain:<pain>,effort:3,customers:1,start:<start>,end:<end>,theme:'<theme>',children:[{id:'#<ticket>',t:'ZI-<N>'}]},
 ```
 
-**Lane assignment** (based on area):
-- `now` (Apr 13-18): label-generation, order-management, international
+**Lane assignment** (based on area + 3-customer rule + pain):
+- `now` (Apr 13-18): label-generation, order-management, international, anything with 3+ customers or pain >= 8
 - `next` (Apr 18-25): carrier-config, carrier-migration, product-management, returns
 - `later` (Apr 25-30): onboarding, rate-shopping, tracking, feature-request
 
-**Theme mapping** (7 themes):
-| Area | Theme ID |
-|---|---|
-| label-generation | labels |
-| carrier-config | carrier |
-| carrier-migration | carrier |
-| onboarding | onboarding |
-| order-management | data |
-| product-management | data |
-| international | intl |
-| returns | intl |
-| rate-shopping | rates |
-| tracking | rates |
-| feature-request | requests |
+**Theme mapping** (7 data-driven themes):
+
+| Area | Theme ID | Theme Label |
+|---|---|---|
+| label-generation | labels | Label & Document Quality |
+| carrier-config | carrier | Carrier Platform |
+| carrier-migration | carrier | Carrier Platform |
+| onboarding | onboarding | Onboarding & Retention |
+| order-management | data | Order & Product Data |
+| product-management | data | Order & Product Data |
+| international | intl | International & Customs |
+| returns | intl | International & Customs |
+| rate-shopping | rates | Rates & Intelligence |
+| tracking | rates | Rates & Intelligence |
+| feature-request | requests | Feature Requests |
 
 ### Step 4: Generate THEMES
 
@@ -104,8 +152,9 @@ zf<N>:{id:'zf<N>',title:'<issue title>',desc:'#<ticket> — <area>',lane:'<lane>
 ```javascript
 const THEMES = [
   {id:'labels', label:'Label & Document Quality', color:'#c0392b',
-   desc:'...', target:'Zero label-related tickets',
-   kpis:{tickets:<count>, pain:8, revenue:'Retention'},
+   desc:'<N> ZI issues. Packing slips, label gen, declared values, manifests.',
+   target:'Zero label-related tickets',
+   kpis:{tickets:<count>, pain:<avg>, revenue:'Retention'},
    features:[<sp/l3 IDs>, <zf IDs>]},
   // ... carrier, data, intl, onboarding, rates, requests
 ];
@@ -117,40 +166,52 @@ const THEMES = [
 - data: sp42, l3_14, l3_15, l3_16
 - intl: l3_3
 - rates: sp33, l3_17
-- onboarding: (none)
-- requests: (none)
+- onboarding: (none from sprint)
+- requests: (none from sprint)
 
 ### Step 5: Update header KPIs
 
-Update the KPI line:
-```html
-<div class="kpi"><b>12+17+<ZEN_COUNT></b><span>Sprint+L3+ZenDesk</span></div>
-```
+Update:
+- `SPRINT+L3+ZENDESK` counter: `12+17+<ZEN_COUNT>`
+- `ZI ISSUES` counter: total open issues
+- `OPEN TICKETS` counter: total tickets
+- `P0-CRITICAL` counter: items with p0 tag
+- Theme description: `<N> investment themes`
 
-Update ZI Issues KPI if present.
+### Step 6: Validate
 
-### Step 6: Update description text
+Run the validate check. If JS syntax errors, fix them before finishing.
 
-Ensure the theme description says `<N> investment themes` matching THEMES.length.
+**Common pitfalls:**
+- `children` array: `[{id:'#<ticket>',t:'ZI-<N>'}]` — note closing `}` before `]`
+- THEMES features arrays: `['zf1','zf2','l3_1']` — string IDs, no object syntax
+- Don't use `replace_all` on patterns that exist in both THEMES and ZEN_FEATURES (e.g., `']},`)
 
-### Step 7: Validate
-
-Run the validate check (Step from validate mode above). If errors, fix them before finishing.
-
-### Step 8: Report
+### Step 7: Report
 
 Print:
-- ZEN_FEATURES: N entries
+- ZEN_FEATURES: N entries (one per ZI issue)
 - THEMES: N themes
 - Total features: N (SP + L3 + ZEN)
 - JS validation: OK/ERROR
-- Remind user to preview in browser
+- Remind user to preview in browser and hard-refresh
+
+---
+
+## Search behavior
+
+The roadmap has a global search that:
+- Searches across ALL data (features, releases, themes, epics, strategy, tech, opportunities)
+- Matches on: id, title, desc, tags, theme, and children (ticket numbers, ZI IDs)
+- **Only dims sections that have matches** — sections with zero matches stay at full opacity
+- Matched cards get orange outline + glow, moved to top of container
+- Gantt rows match via feature data lookup (not just label text)
 
 ---
 
 ## Important notes
 
-- The `children` array for each zf entry MUST have proper JS syntax: `[{id:'#<ticket>',t:'ZI-<N>'}]` — note the closing `}` before `]`
-- THEMES features arrays use string IDs: `['zf1','zf2','l3_1']` — no object syntax
-- After editing, always validate JS syntax with the node check
 - SP_FEATURES and L3_ITEMS are maintained by the sprint planning process, not this skill
+- The roadmap is a self-contained HTML file (~80KB) with embedded CSS + JS
+- After any edit, always validate JS syntax with the node check
+- The search index is built at page load from ALL_FEATURES — any new zf entries are automatically searchable
