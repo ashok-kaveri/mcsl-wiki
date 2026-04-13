@@ -37,7 +37,7 @@ sources:
           - bigcommerce_multi_carrier_shipping_label_app
           - storepep_shipping_solution
           - bigcommerce_ship_rate_and_track_for_fedex
-        filters: "status=open"
+        filters: "status<pending, support_type=agent"
         description: "Non-Shopify product tickets (WooCommerce, Magento, BigCommerce, StorePep, FedEx AMEA) — open status only"
 
   regression-scenarios:
