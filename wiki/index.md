@@ -63,7 +63,7 @@ Last updated: 2026-04-13
 ## Product Management
 
 - [April 2026 Roadmap](product/roadmap-april-2026.html) - Interactive roadmap: 12 sprint features + 17 L3 items + 68 tickets, Gantt timelines, drag-and-drop swimlanes, global search (opens in browser)
-- [April 2026 ZI Roadmap](product/roadmap-zi-2026-04-14.html) - ZI issue roadmap with Trello correlation, dev status, StoryLab cards, and ph-WIP lane tracking (opens in browser)
+- [April 2026 L3 Roadmap](product/roadmap-zi-2026-04-14.html) - ZI issue roadmap with Trello correlation, dev status, StoryLab cards, and ph-WIP lane tracking (opens in browser)
 - [Product Backlog](product/backlog.md) - 11 backlog items scored from 93 ZI issues (66 tickets), impact/effort/confidence framework
 - [Product Insights](product/insights.md) - Aggregated signals from Zendesk themes, test gaps, code hotspots
 - [Customer Metrics](product/metrics.md) - Per-feature health scorecard with pain index (52 Shopify MCSL tickets)
