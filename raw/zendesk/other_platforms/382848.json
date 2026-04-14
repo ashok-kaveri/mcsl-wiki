@@ -1,0 +1,376 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/382848.json",
+    "id": 382848,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "gabriel.guenette@scoutsducanada.ca",
+          "name": "Gabriel Guénette"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-04-07T14:23:18Z",
+    "updated_at": "2026-04-13T15:29:52Z",
+    "generated_timestamp": 1776094192,
+    "type": null,
+    "subject": "Issues with order import",
+    "raw_subject": "Issues with order import",
+    "description": "Hi,\n\nOn our Woocommerce website, we have been having issues lately regarding the orders.\n\nFirst, the orders were used to import automatically, but they do not anymore. We have to manually import the orders by clicking the Import orders button and refreshing the page until they get imported, which sometimes takes a bit.\n\nSecond, the orders sometimes won't be imported when we click the Import orders button. We receive the message: \"As per your Subscription plan, orders import maximum limit has been reached.\"\n\nHere is the order import we are having issues with today :\n\nWoocommerce order #28149\nPluginhive transaction ID :d6d916d0-fc05-4950-a440-931590c70067\n\nThank your for your time.\n\n\n\n\n[image]<http://www.scoutsducanada.ca/>\n\n\n\n\n\nGabriel Guenette\n\nDéveloppeur web / Webmestre\n514 252-3011 · 1 866 297-2688\n\nAssociation des Scouts du Canada\nCentre national\n7331, rue Saint-Denis,\nMontréal (Québec) H2R 2E5\n\n\n\n[cid:image012.png@01DA9173.5F687A00]<https://www.facebook.com/scoutsducanada>   [cid:image013.png@01DA9173.5F687A00] <https://ca.linkedin.com/company/fondation-des-scouts-du-canada>    [cid:image014.png@01DA9173.5F687A00] <https://www.instagram.com/scoutsducanada/>",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 52619081866393,
+    "submitter_id": 52619081866393,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "last_reply_customer",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "16b15c0b-f62a-4a71-9a73-5e4fac0c05d2"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "offered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "WMWV4G-5MLN2",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "16b15c0b-f62a-4a71-9a73-5e4fac0c05d2"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56744758401689,
+      "type": "Comment",
+      "author_id": 52619081866393,
+      "body": "Hi,\n\n\n\nOn our Woocommerce website, we have been having issues lately regarding the orders.\n\n\n\nFirst, the orders were used to import automatically, but they do not anymore. We have to manually import the orders by clicking the Import orders button and refreshing the page until they get imported, which sometimes takes a bit.\n\n\n\nSecond, the orders sometimes won't be imported when we click the Import orders button. We receive the message: \"As per your Subscription plan, orders import maximum limit has been reached.\"\n\n\n\nHere is the order import we are having issues with today :\n\n\n\nWoocommerce order #28149\n\nPluginhive transaction ID :d6d916d0-fc05-4950-a440-931590c70067\n\n\n\nThank your for your time.\n\n\n\n\n\n![image](https://support.pluginhive.com/attachments/token/jvXoqxybNkdQnbfBvy5PNn2D5/?name=Outlook-image.png)\n\n\n\n\n\n**Gabriel Guenette**\n\nDéveloppeur web / Webmestre\n514 252-3011 · 1 866 297-2688\n\n**Association des Scouts du Canada** Centre national\n7331, rue Saint-Denis,\nMontréal (Québec) H2R 2E5\n\n** **\n\n![cid:image012.png@01DA9173.5F687A00](https://support.pluginhive.com/attachments/token/iSJmu4blKBCXvcp9TXwFc90to/?name=Outlook-cid_image0.png)   ![cid:image013.png@01DA9173.5F687A00](https://support.pluginhive.com/attachments/token/e5oSDgKsusc4Fh2N1IfAdvv4h/?name=Outlook-cid_image0.png)   ![cid:image014.png@01DA9173.5F687A00](https://support.pluginhive.com/attachments/token/PKTUJNL8LA7WN1iSgYHYlGddc/?name=Outlook-cid_image0.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHi,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nOn our Woocommerce website, we have been having issues lately regarding the orders.</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nFirst, the orders were used to import automatically, but they do not anymore. We have to manually import the orders by clicking the Import orders button and refreshing the page until they get imported, which sometimes takes a bit.</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nSecond, the orders sometimes won't be imported when we click the Import orders button. We receive the message: \"As per your Subscription plan, orders import maximum limit has been reached.\"</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHere is the order import we are having issues with today :&nbsp;</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nWoocommerce order <a href=\"/agent/tickets/28149\" target=\"_blank\" rel=\"ticket\">#28149</a>&nbsp;</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nPluginhive transaction ID :d6d916d0-fc05-4950-a440-931590c70067</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nThank your for your time.</div>\n<div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<p style=\" font-size: 11pt; margin: 0cm;\" dir=\"auto\">\n&nbsp;</p>\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"border-right-width: 1pt; border-right-style: solid; width: 98.15pt; height: 134.95pt; padding: 0cm 22.5pt 0cm 0cm;\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"width: 92.15pt; height: 102.1pt; padding: 0cm 0.75pt 0cm 0cm;\">\n<p style=\" font-size: 11pt; margin: 0cm 0.05pt;\" dir=\"auto\">\n<span style=\"color: rgb(0, 0, 0);\"><a href=\"http://www.scoutsducanada.ca/\" style=\"color: rgb(0, 0, 0); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><img alt=\"image\" width=\"101\" height=\"132\" style=\"width: 101px; height: 132px; margin-top: 0px; margin-bottom: 0px;\" src=\"https://support.pluginhive.com/attachments/token/jvXoqxybNkdQnbfBvy5PNn2D5/?name=Outlook-image.png\"></a></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"line-height: 105%; font-size: 11pt; margin: 0cm;\" dir=\"auto\">\n&nbsp;</p>\n<p style=\"line-height: 105%; font-size: 11pt; margin: 0cm;\" dir=\"auto\">\n&nbsp;</p>\n</td>\n<td style=\"width: 1.1pt; height: 134.95pt; padding: 0cm;\"></td>\n<td style=\"width: 23.5pt; height: 134.95pt; padding: 0cm 22.5pt 0cm 0cm;\"></td>\n<td style=\"width: 183.7pt; height: 134.95pt; padding: 0cm;\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; width: 166.95pt; height: 19.6pt; padding: 0cm;\" valign=\"top\">\n<p style=\"line-height: 18pt; font-size: 11pt; margin: 0.05pt;\" dir=\"auto\">\n<span style=\" font-size: 16.5pt;\"><b>Gabriel Guenette</b></span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 166.95pt; height: 67.85pt; padding: 0cm 0cm 22.5pt;\">\n<p style=\"line-height: 12pt; font-size: 11pt; margin: 0.05pt;\" dir=\"auto\">\n<span style=\" font-size: 9pt; color: rgb(36, 36, 36);\">Développeur web / Webmestre</span><span style=\" font-size: 9pt;\"><br>\n514 252-3011&nbsp;·&nbsp;1 866&nbsp;297-2688</span></p>\n<p style=\"line-height: 12pt; font-size: 11pt; margin: 0.05pt;\" dir=\"auto\">\n<span style=\" font-size: 9pt; color: rgb(3, 125, 79);\"><b><br>\nAssociation des Scouts du Canada<br>\n</b></span><span style=\" font-size: 9pt;\">Centre national&nbsp;<br>\n7331, rue Saint-Denis,<br>\nMontréal (Québec) H2R 2E5</span></p>\n<p style=\"line-height: 12pt; font-size: 11pt; margin: 0.05pt;\" dir=\"auto\">\n<span style=\" font-size: 9pt;\"><b>&nbsp;</b></span></p>\n<p style=\"line-height: 12pt; font-size: 11pt; margin: 0cm 0.05pt;\" dir=\"auto\">\n<span style=\"color: rgb(0, 0, 0);\"><a href=\"https://www.facebook.com/scoutsducanada\" style=\"color: rgb(0, 0, 0); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><img alt=\"cid:image012.png@01DA9173.5F687A00\" width=\"30\" height=\"30\" style=\"width: 30px; height: 30px; margin-top: 0px; margin-bottom: 0px;\" src=\"https://support.pluginhive.com/attachments/token/iSJmu4blKBCXvcp9TXwFc90to/?name=Outlook-cid_image0.png\"></a></span><span style=\" font-size: 10pt;\">&nbsp;&nbsp;\n</span><span style=\"color: rgb(0, 0, 0);\"><a href=\"https://ca.linkedin.com/company/fondation-des-scouts-du-canada\" style=\"color: rgb(0, 0, 0); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><img alt=\"cid:image013.png@01DA9173.5F687A00\" width=\"28\" height=\"28\" style=\"width: 28px; height: 28px; margin-top: 0px; margin-bottom: 0px;\" src=\"https://support.pluginhive.com/attachments/token/e5oSDgKsusc4Fh2N1IfAdvv4h/?name=Outlook-cid_image0.png\"></a></span><span style=\" font-size: 10pt;\">&nbsp;&nbsp;\n</span><span style=\"color: rgb(0, 0, 0);\"><a href=\"https://www.instagram.com/scoutsducanada/\" style=\"color: rgb(0, 0, 0); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><img alt=\"cid:image014.png@01DA9173.5F687A00\" width=\"28\" height=\"28\" style=\"width: 28px; height: 28px; margin-top: 0px; margin-bottom: 0px;\" src=\"https://support.pluginhive.com/attachments/token/PKTUJNL8LA7WN1iSgYHYlGddc/?name=Outlook-cid_image0.png\"></a></span></p>\n<p style=\"line-height: 12pt; font-size: 11pt; margin: 0cm 0.05pt;\" dir=\"auto\">\n<span style=\" font-size: 8pt; color: black;\">&nbsp;</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\" font-size: 11pt; margin: 0cm;\" dir=\"auto\">\n&nbsp;</p>\n</div></div>",
+      "plain_body": "Hi, \n \n\n\n \n \nOn our Woocommerce website, we have been having issues lately regarding the orders. \n \n\n\n \n \nFirst, the orders were used to import automatically, but they do not anymore. We have to manually import the orders by clicking the Import orders button and refreshing the page until they get imported, which sometimes takes a bit. \n \n\n\n \n \nSecond, the orders sometimes won't be imported when we click the Import orders button. We receive the message: \"As per your Subscription plan, orders import maximum limit has been reached.\" \n \n\n\n \n \nHere is the order import we are having issues with today :&nbsp; \n \n\n\n \n \nWoocommerce order #28149&nbsp; \n \nPluginhive transaction ID :d6d916d0-fc05-4950-a440-931590c70067 \n \n\n\n \n \nThank your for your time. \n \n \n\n\n \n \n&nbsp; \n\n\n\n\n\n\n\n\n \n \n\n\n\n\n \n&nbsp; \n \n&nbsp; \n\n\n\n\n\n\n\n\n \nGabriel Guenette \n\n\n\n\n \nDéveloppeur web / Webmestre\n\n514 252-3011&nbsp;·&nbsp;1 866&nbsp;297-2688 \n \n\n\nAssociation des Scouts du Canada\n\nCentre national&nbsp;\n\n7331, rue Saint-Denis,\n\nMontréal (Québec) H2R 2E5 \n \n&nbsp; \n \n&nbsp;&nbsp;\n&nbsp;&nbsp;\n \n \n&nbsp; \n\n\n\n\n\n\n\n\n \n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56744758401561,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "gabriel.guenette@scoutsducanada.ca",
+            "name": "Gabriel Guénette",
+            "original_recipients": [
+              "gabriel.guenette@scoutsducanada.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T14:23:18Z",
+      "metadata": {
+        "system": {
+          "message_id": "<YQXPR01MB3927226FCDF5258D77BAF087835AA@YQXPR01MB3927.CANPRD01.PROD.OUTLOOK.COM>",
+          "email_id": "01KNM56Y6RCK6QG805J5VP2GM1",
+          "raw_email_identifier": "2369120/7029210c-d1f2-4142-8f32-de46ed6b0577.eml",
+          "json_email_identifier": "2369120/7029210c-d1f2-4142-8f32-de46ed6b0577.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56745210908441,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Canada Store\nOrders NA\n\nCanada Post and Purolator account connected\n\nActive from 2025-01-10\n\nExplored app for both rates and labels\n\n$209 Yearly Starter",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Canada Store<br>Orders NA<br>&nbsp;<br>Canada Post and Purolator account connected<br>&nbsp;<br>Active from 2025-01-10<br>&nbsp;<br>Explored app for both rates and labels<br>&nbsp;<br>$209 Yearly Starter<br></div>",
+      "plain_body": "Canada Store\nOrders NA\n&nbsp;\nCanada Post and Purolator account connected\n&nbsp;\nActive from 2025-01-10\n&nbsp;\nExplored app for both rates and labels\n&nbsp;\n$209 Yearly Starter",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56745210908313,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T14:48:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56745450359449,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Gabriel Guénette,\n\nWe sincerely apologize for the inconvenience you faced.\n\nThe plugin automatically imports WooCommerce orders within a short time, so there is no need to manually use the “Import Order” button in normal cases. Auto-import may fail only if the product in the respective order has not been properly synced or updated in the plugin.\n\nWe have now resynced the webhooks and also performed a force import of the products. This should resolve the order import problem. Kindly monitor the next incoming orders and let us know how it goes.\n\nRegarding order **28149**, since it is already in a completed status, we are unable to force import it or investigate the exact reason it was not captured automatically. However, we have reviewed the products and everything appears to be correctly configured.\n\nIf you encounter a similar situation again where an order is not imported automatically, we will be happy to escalate it to our product team. Please keep us updated on the outcome.\n\nWe appreciate your understanding.\n\nPlease feel free to reach out anytime if you need further assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Gabriel Guénette,<br>&nbsp;<br>We sincerely apologize for the inconvenience you faced.<br>&nbsp;<br>The plugin automatically imports WooCommerce orders within a short time, so there is no need to manually use the “Import Order” button in normal cases. Auto-import may fail only if the product in the respective order has not been properly synced or updated in the plugin.<br>&nbsp;<br>We have now resynced the webhooks and also performed a force import of the products. This should resolve the order import problem. Kindly monitor the next incoming orders and let us know how it goes.<br>&nbsp;<br>Regarding order <strong>28149</strong>, since it is already in a completed status, we are unable to force import it or investigate the exact reason it was not captured automatically. However, we have reviewed the products and everything appears to be correctly configured.<br>&nbsp;<br>If you encounter a similar situation again where an order is not imported automatically, we will be happy to escalate it to our product team. Please keep us updated on the outcome.<br>&nbsp;<br>We appreciate your understanding.<br>&nbsp;<br>Please feel free to reach out anytime if you need further assistance.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Gabriel Guénette,\n&nbsp;\nWe sincerely apologize for the inconvenience you faced.\n&nbsp;\nThe plugin automatically imports WooCommerce orders within a short time, so there is no need to manually use the “Import Order” button in normal cases. Auto-import may fail only if the product in the respective order has not been properly synced or updated in the plugin.\n&nbsp;\nWe have now resynced the webhooks and also performed a force import of the products. This should resolve the order import problem. Kindly monitor the next incoming orders and let us know how it goes.\n&nbsp;\nRegarding order 28149, since it is already in a completed status, we are unable to force import it or investigate the exact reason it was not captured automatically. However, we have reviewed the products and everything appears to be correctly configured.\n&nbsp;\nIf you encounter a similar situation again where an order is not imported automatically, we will be happy to escalate it to our product team. Please keep us updated on the outcome.\n&nbsp;\nWe appreciate your understanding.\n&nbsp;\nPlease feel free to reach out anytime if you need further assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56745450359321,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T15:03:46Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56930581064729,
+      "type": "Comment",
+      "author_id": 52619081866393,
+      "body": "Hello Manohar,\n\n\n\nThank you for your help.\n\n\n\nChanging the status of the order 28149 and import it again worked.\n\n\n\nAs for the automatic import of the orders, it still does not work. Is there anything else we can try or is there anything we can do to check where the issue might come from?\n\n\n\nThank you for your time.\n\n\n\n![image](https://support.pluginhive.com/attachments/token/VG83fck79igXWaDgfDefOezZF/?name=Outlook-image.png)\n\n\n\n\n\n**Gabriel Guenette**\n\nDéveloppeur web / Webmestre\n514 252-3011 · 1 866 297-2688\n\n**Association des Scouts du Canada** Centre national\n7331, rue Saint-Denis,\nMontréal (Québec) H2R 2E5\n\n** **\n\n![cid:image012.png@01DA9173.5F687A00](https://support.pluginhive.com/attachments/token/kAU0xsaLZWLKbK5DEQOByL5FG/?name=Outlook-cid_image0.png)   ![cid:image013.png@01DA9173.5F687A00](https://support.pluginhive.com/attachments/token/8v0xXUIkkZM7RYnz4Uwbz35Gm/?name=Outlook-cid_image0.png)   ![cid:image014.png@01DA9173.5F687A00](https://support.pluginhive.com/attachments/token/qZXNysNZCDIwqjLC664o9lhUT/?name=Outlook-cid_image0.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHello Manohar,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nThank you for your help.&nbsp;</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nChanging the status of the order 28149 and import it again worked.</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nAs for the automatic import of the orders, it still does not work. Is there anything else we can try or is there anything we can do to check where the issue might come from?</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nThank you for your time.</div>\n<div>\n<p style=\" font-size: 11pt; margin: 0cm;\" dir=\"auto\">\n&nbsp;</p>\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"border-right-width: 1pt; border-right-style: solid; width: 98.15pt; height: 134.95pt; border-collapse: collapse; padding: 0cm 22.5pt 0cm 0cm;\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"width: 92.15pt; height: 102.1pt; border-collapse: collapse; padding: 0cm 0.75pt 0cm 0cm;\">\n<p style=\" font-size: 11pt; margin: 0cm 0.05pt;\" dir=\"auto\">\n<span style=\"color: rgb(0, 0, 0);\"><a href=\"http://www.scoutsducanada.ca/\" style=\"color: rgb(0, 0, 0); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><img alt=\"image\" width=\"101\" height=\"132\" style=\"width: 101px; height: 132px; margin-top: 0px; margin-bottom: 0px;\" src=\"https://support.pluginhive.com/attachments/token/VG83fck79igXWaDgfDefOezZF/?name=Outlook-image.png\"></a></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"line-height: 105%; font-size: 11pt; margin: 0cm;\" dir=\"auto\">\n&nbsp;</p>\n<p style=\"line-height: 105%; font-size: 11pt; margin: 0cm;\" dir=\"auto\">\n&nbsp;</p>\n</td>\n<td style=\"width: 1.1pt; height: 134.95pt; border-collapse: collapse; padding: 0cm;\"></td>\n<td style=\"width: 23.5pt; height: 134.95pt; border-collapse: collapse; padding: 0cm 22.5pt 0cm 0cm;\"></td>\n<td style=\"width: 183.7pt; height: 134.95pt; border-collapse: collapse; padding: 0cm;\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; width: 166.95pt; height: 19.6pt; border-collapse: collapse; padding: 0cm;\" valign=\"top\">\n<p style=\"line-height: 18pt; font-size: 11pt; margin: 0.05pt;\" dir=\"auto\">\n<span style=\" font-size: 16.5pt;\"><b>Gabriel Guenette</b></span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 166.95pt; height: 67.85pt; border-collapse: collapse; padding: 0cm 0cm 22.5pt;\">\n<p style=\"line-height: 12pt; font-size: 11pt; margin: 0.05pt;\" dir=\"auto\">\n<span style=\" font-size: 9pt; color: rgb(36, 36, 36);\">Développeur web / Webmestre</span><span style=\" font-size: 9pt;\"><br>\n514 252-3011&nbsp;·&nbsp;1 866&nbsp;297-2688</span></p>\n<p style=\"line-height: 12pt; font-size: 11pt; margin: 0.05pt;\" dir=\"auto\">\n<span style=\" font-size: 9pt; color: rgb(3, 125, 79);\"><b><br>\nAssociation des Scouts du Canada<br>\n</b></span><span style=\" font-size: 9pt;\">Centre national&nbsp;<br>\n7331, rue Saint-Denis,<br>\nMontréal (Québec) H2R 2E5</span></p>\n<p style=\"line-height: 12pt; font-size: 11pt; margin: 0.05pt;\" dir=\"auto\">\n<span style=\" font-size: 9pt;\"><b>&nbsp;</b></span></p>\n<p style=\"line-height: 12pt; font-size: 11pt; margin: 0cm 0.05pt;\" dir=\"auto\">\n<span style=\"color: rgb(0, 0, 0);\"><a href=\"https://www.facebook.com/scoutsducanada\" style=\"color: rgb(0, 0, 0); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><img alt=\"cid:image012.png@01DA9173.5F687A00\" width=\"30\" height=\"30\" style=\"width: 30px; height: 30px; margin-top: 0px; margin-bottom: 0px;\" src=\"https://support.pluginhive.com/attachments/token/kAU0xsaLZWLKbK5DEQOByL5FG/?name=Outlook-cid_image0.png\"></a></span><span style=\" font-size: 10pt;\">&nbsp;&nbsp;\n</span><span style=\"color: rgb(0, 0, 0);\"><a href=\"https://ca.linkedin.com/company/fondation-des-scouts-du-canada\" style=\"color: rgb(0, 0, 0); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><img alt=\"cid:image013.png@01DA9173.5F687A00\" width=\"28\" height=\"28\" style=\"width: 28px; height: 28px; margin-top: 0px; margin-bottom: 0px;\" src=\"https://support.pluginhive.com/attachments/token/8v0xXUIkkZM7RYnz4Uwbz35Gm/?name=Outlook-cid_image0.png\"></a></span><span style=\" font-size: 10pt;\">&nbsp;&nbsp;\n</span><span style=\"color: rgb(0, 0, 0);\"><a href=\"https://www.instagram.com/scoutsducanada/\" style=\"color: rgb(0, 0, 0); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><img alt=\"cid:image014.png@01DA9173.5F687A00\" width=\"28\" height=\"28\" style=\"width: 28px; height: 28px; margin-top: 0px; margin-bottom: 0px;\" src=\"https://support.pluginhive.com/attachments/token/qZXNysNZCDIwqjLC664o9lhUT/?name=Outlook-cid_image0.png\"></a></span></p>\n<p style=\"line-height: 12pt; font-size: 11pt; margin: 0cm 0.05pt;\" dir=\"auto\">\n<span style=\" font-size: 8pt; color: black;\">&nbsp;</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\" font-size: 11pt; margin: 0cm;\" dir=\"auto\">\n&nbsp;</p>\n</div>\n<div></div></div>",
+      "plain_body": "Hello Manohar, \n \n\n\n \n \nThank you for your help.&nbsp; \n \n\n\n \n \nChanging the status of the order 28149 and import it again worked. \n \n\n\n \n \nAs for the automatic import of the orders, it still does not work. Is there anything else we can try or is there anything we can do to check where the issue might come from? \n \n\n\n \n \nThank you for your time. \n \n \n&nbsp; \n\n\n\n\n\n\n\n\n \n \n\n\n\n\n \n&nbsp; \n \n&nbsp; \n\n\n\n\n\n\n\n\n \nGabriel Guenette \n\n\n\n\n \nDéveloppeur web / Webmestre\n\n514 252-3011&nbsp;·&nbsp;1 866&nbsp;297-2688 \n \n\n\nAssociation des Scouts du Canada\n\nCentre national&nbsp;\n\n7331, rue Saint-Denis,\n\nMontréal (Québec) H2R 2E5 \n \n&nbsp; \n \n&nbsp;&nbsp;\n&nbsp;&nbsp;\n \n \n&nbsp; \n\n\n\n\n\n\n\n\n \n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56930581064601,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "gabriel.guenette@scoutsducanada.ca",
+            "name": "Gabriel Guénette",
+            "original_recipients": [
+              "gabriel.guenette@scoutsducanada.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T14:11:16Z",
+      "metadata": {
+        "system": {
+          "message_id": "<YQXPR01MB3927180A1D9EE743620BD49183242@YQXPR01MB3927.CANPRD01.PROD.OUTLOOK.COM>",
+          "email_id": "01KP3JX6KZVNCS639AF8SMTX6K",
+          "raw_email_identifier": "2369120/6d0c5351-3d26-4486-a297-df78af121710.eml",
+          "json_email_identifier": "2369120/6d0c5351-3d26-4486-a297-df78af121710.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56931792583961,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "What is the issue here ?\n-Mirdas",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">What is the issue here ?<br>-Mirdas&nbsp;<br></div>",
+      "plain_body": "What is the issue here ?\n-Mirdas&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56931792583577,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T15:29:52Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+          "ip_address": "223.185.134.237",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

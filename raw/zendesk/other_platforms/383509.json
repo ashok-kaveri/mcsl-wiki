@@ -1,0 +1,669 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/383509.json",
+    "id": 383509,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "to": {},
+        "from": {
+          "ticket_id": 379306,
+          "subject": "Re: Ultraseat PluginHive Demo",
+          "channel": "email"
+        },
+        "rel": "follow_up"
+      }
+    },
+    "created_at": "2026-04-10T21:18:14Z",
+    "updated_at": "2026-04-13T15:28:43Z",
+    "generated_timestamp": 1776094123,
+    "type": null,
+    "subject": "RE: Ultraseat PluginHive Demo",
+    "raw_subject": "RE: Ultraseat PluginHive Demo",
+    "description": "This is a follow-up to your previous request #379306 \"Re: Ultraseat PluginHive Demo\"\n\nHello, we’re trying to register the FedEx account via your plugin and getting this error. Please help:\n\n \n\n \n\nRegards,\n\n\nKelly Grainger\nGuy in Charge of Everything\n\nCreoLogic Web Site Design Inc\n\nSuite 3400 Manulife Place\n10180 - 101 Street\nEdmonton, AB\nT5J 3S4\n\nPhone: 780-628-6826\n\n \n\nWe love getting feedback! If you received 5-star service from me, please leave a review (https://creologic.ca/review/) .",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 903409790923,
+    "submitter_id": 56099837411097,
+    "assignee_id": 10478126723609,
+    "organization_id": 360081186532,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      410186940351,
+      15612977451417,
+      56099837411097,
+      56099837427225,
+      56854299966361
+    ],
+    "follower_ids": [
+      410186940351,
+      15612977451417,
+      56099837411097,
+      56099837427225,
+      56854299966361
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "last_reply_customer",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "https://shopsemitruckseats.dreamhosters.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "VEVV33-KRL54",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "https://shopsemitruckseats.dreamhosters.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56854299973401,
+      "type": "Comment",
+      "author_id": 56099837411097,
+      "body": "Hello, we’re trying to register the FedEx account via your plugin and getting this error. Please help:\n\n\n\n![](https://support.pluginhive.com/attachments/token/eN1913mpOx8GZsK6u1OxfWKBB/?name=image001.png)\n\n\n\nRegards,\n\nKelly Grainger\nGuy in Charge of Everything\n\nCreoLogic Web Site Design Inc\n\nSuite 3400 Manulife Place\n10180 - 101 Street\nEdmonton, AB\nT5J 3S4\n\nPhone: 780-628-6826\n\n\n\n**We love getting feedback! If you received 5-star service from me,please leave a review.**\n\n\n\n**From:** Priyanka Mukhia (PluginHive) <support@pluginhive.com>\n**Sent:** March 20, 2026 2:36 AM\n**Cc:** Vimal Bhaskaran <vimal@pluginhive.com>; Georgi Kichev <georgi.kichev@fedex.com>; Kelly Grainger <kelly@creologic.ca>; Natasha Scott <nscott@ultraseat.com>\n**Subject:** Re: Ultraseat PluginHive Demo\n\n\n\nYou are registered as a CC on this request (379306). Reply to this email to add a comment to the request.\n\n![](https://pluginhive.zendesk.com/system/photos/46180332470297/Screenshot_2025-04-25_at_11.54.16_AM.png)\n\n**Priyanka Mukhia** (PluginHive)\n\nMar 20, 2026, 14:05 GMT+5:30\n\nHi Natasha,\n\nManohar is currently not available. I’m glad to hear that.\n\nPlease feel free to reach out anytime if you need any assistance—we’ll be happy to help.\n\nWishing you all the best with everything!\n\nBest regards,\nPriyanka\nTeam PluginHive\n\n\n\n![](https://pluginhive.zendesk.com/images/2016/default-avatar-80.png)\n\n**Natasha Scott**\n\nMar 20, 2026, 05:53 GMT+5:30\n\nHi Manohar,\n\n\n\nKelly and his team are confident they’ve got this sorted out. We’ll reach out if something does come up that we need assistance with.\n\n\n\nThanks!\n\n\n\nBest regards,\n\n\n\n**Natasha Scott** | Controller\n\nnscott@ultraseat.com| 780.962.0411\n\n![](https://support.pluginhive.com/attachments/token/aPKtH0L3j96chV47HmPA3n8cw/?name=image001.jpg)\n\n![](https://support.pluginhive.com/attachments/token/DTSZWHvcxkzisJ9oprt3n02v3/?name=image002.jpg)\n\n\n\n\n\n![](https://pluginhive.zendesk.com/system/photos/9996081007001/PHOTO.jpeg)\n\n**Manohar V** (PluginHive)\n\nMar 17, 2026, 22:03 GMT+5:30\n\nHello Natasha,\n\nThank you for your reply and for sharing the details.\n\nI tried calling you at 7809620411, but the call was not connected.\n\nThe WooCommerce Shipping Services plugin is an advanced solution that allows you to display FedEx calculated shipping rates and also provides the option to add a markup if required.\n\nI would be happy to schedule a demo call and assist you with the plugin setup to meet your requirements. Please let me know your availability and time zone, and we will schedule the call accordingly. Alternatively, you can use the appointment link [CLICK HERE] to book a time based on your availability.\n\nLooking forward to speaking with you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive\n\n\n\n![](https://pluginhive.zendesk.com/images/2016/default-avatar-80.png)\n\n**Natasha Scott**\n\nMar 17, 2026, 20:17 GMT+5:30\n\nGood morning,\n\n\n\nGood morning,\n\n\n\nWe would like to display FedEx shipping rates with a calculated markup (15% increase) to compensate for accessorial charges that are not usually included in the FedEx rates provided.\n\n\n\nAt some point in the future, we may be interested in other features/options, but they aren’t required for our current project scope.\n\n\n\n\n\nBest regards,\n\n\n\n**Natasha Scott** | Controller\n\nnscott@ultraseat.com| 780.962.0411\n\n![](https://support.pluginhive.com/attachments/token/M2jqWdB6WLqdUQcRT9CoId00f/?name=image001.jpg)\n\n![](https://support.pluginhive.com/attachments/token/X2LdVSqG8f5x3fPIYV1GYNeLd/?name=image002.jpg)\n\n\n\n\n\n![](https://pluginhive.zendesk.com/images/2016/default-avatar-80.png)\n\n**Abhilash**\n\nMar 17, 2026, 18:07 GMT+5:30\n\nHi Georgi,\n\nThanks for the introduction.\n\n\n\nHi Natasha and Kelly,\n\nGreat to connect with you both. From my understanding, your current requirement is to display FedEx shipping rates at checkout without generating or printing shipping labels.\n\n\n\nCould you please confirm if this is correct, or let me know if there are any additional requirements?\n\n\n\nLooking forward to your confirmation.\n\n\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn\n\n\n\n> On 17 Mar 2026, at 6:00 PM, Georgi Kichev <georgi.kichev@fedex.com> wrote:\n>\n>\n>\n> Hello Natasha and Kelly,\n>\n>\n>\n> As discussed, Abhilash (CC’ed) from PluginHive has extended an invitation for a demo session for their Woocommerce plugin.\n>\n>\n>\n> Feel free to coordinate this session and please let me know if I can assist in any way from our end.\n>\n>\n>\n> Best regards,\n>\n>\n>\n> Georgi Kichev | Assoc. Customer Technology Specialist | Customer Technology (IT) | FedEx\n>\n> **Support:** 1-877-339-2774 & fedex.ca\n>\n> 100-6300 Ch. de la Côte-de-Liesse, Saint-Laurent, QC, H4T 1E3\n\n![PluginHive](https://www.pluginhive.com/wp-content/uploads/2019/09/pluginhive_logo.png)\n\n**Our Support is available 24/5.**\n\nPlease expect a delay during weekends & holidays due to partial coverage.\n\nDocumentation**|**\n\nVideos**|**\n\nWooCommerce Plugins**|**\n\nShopify Apps**|**\n\nMagento Extensions\n\n![ph-facebook](https://www.pluginhive.com/wp-content/uploads/2022/05/PH-facebook.png) ![ph-linkedin](https://www.pluginhive.com/wp-content/uploads/2022/05/PH-linkedin.png) ![ph-twitter](https://www.pluginhive.com/wp-content/uploads/2022/05/PH-twitter.png) ![ph-youtube](https://www.pluginhive.com/wp-content/uploads/2022/05/PH-youtube.png) ![ph-twitter](https://www.pluginhive.com/wp-content/uploads/2022/05/PH-instagram.png)\n\n[VER1Z7-DM0NL]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">\n<div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"font-size: 13.0pt;  \">Hello, we’re trying to register the FedEx account via your plugin and getting this error. Please help:</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"font-size: 13.0pt;  \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"font-size: 13.0pt;  \"><img width=\"332\" height=\"230\" style=\"width: 3.4583in; height: 2.3958in;\" src=\"https://support.pluginhive.com/attachments/token/eN1913mpOx8GZsK6u1OxfWKBB/?name=image001.png\"></span><span style=\"font-size: 13.0pt;  \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"font-size: 13.0pt;  \">&nbsp;</span></p>\n<div>\n<p style=\"background-color: white; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 13.0pt;  color: black; \">Regards,</span><span style=\"font-size: 13.0pt; \"></span></p>\n<p style=\"background-color: white; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 13.0pt;  color: black; \"><br>\nKelly Grainger<br>\nGuy in Charge of Everything<br>\n<b><br>\n</b>CreoLogic Web Site Design Inc</span></p>\n<p style=\"background-color: white; font-size: 12.0pt;  margin: 0cm 0cm 12.0pt;\" dir=\"auto\"><span style=\"font-size: 13.0pt;  color: black; \">Suite 3400 Manulife Place<br>\n10180 - 101 Street<br>\nEdmonton, AB<br>\nT5J 3S4</span></p>\n<p style=\"background-color: white; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 13.0pt;  color: black; \">Phone: 780-628-6826</span></p>\n<p style=\"background-color: white; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black; \">&nbsp;</span></p>\n<p style=\"background-color: white; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><b><span style=\"color: black; \">We love getting feedback! If you received 5-star service from me,\n<a href=\"https://creologic.ca/review/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: #0563C1;\">please leave a review</span></a>.</span></b><b><span style=\"font-size: 11.0pt; color: black; \"></span></b></p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"font-size: 13.0pt;  \">&nbsp;</span></p>\n<div>\n<div style=\"border-top-width: 1.0pt; border-top-color: #E1E1E1; padding: 3.0pt 0cm 0cm; border-style: solid none none;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><b><span style=\"font-size: 11.0pt; \">From:</span></b><span style=\"font-size: 11.0pt; \"> Priyanka Mukhia (PluginHive) &lt;support@pluginhive.com&gt;\n<br>\n<b>Sent:</b> March 20, 2026 2:36 AM<br>\n<b>Cc:</b> Vimal Bhaskaran &lt;vimal@pluginhive.com&gt;; Georgi Kichev &lt;georgi.kichev@fedex.com&gt;; Kelly Grainger &lt;kelly@creologic.ca&gt;; Natasha Scott &lt;nscott@ultraseat.com&gt;<br>\n<b>Subject:</b> Re: Ultraseat PluginHive Demo</span></p>\n</div>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">&nbsp;</p>\n<div>\n<p style=\"line-height: 13.5pt;\" dir=\"auto\"><span style=\"font-size: 9.0pt;  color: #444444;\">You are registered as a CC on this request (379306). Reply to this email to add a comment to the request.</span></p>\n<div style=\"margin-top: 18.75pt;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\">\n<tbody>\n<tr>\n<td width=\"100%\" style=\"width: 100.0%; border-top-width: 1.0pt; border-top-color: #C5C5C5; padding: 11.25pt 0cm; border-style: dotted none none;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\">\n<tbody>\n<tr>\n<td width=\"40\" valign=\"top\" style=\"width: 30.0pt; padding: 0cm 11.25pt;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><img border=\"0\" width=\"40\" height=\"40\" style=\"width: .4166in; height: .4166in;\" src=\"https://pluginhive.zendesk.com/system/photos/46180332470297/Screenshot_2025-04-25_at_11.54.16_AM.png\"></p>\n</td>\n<td width=\"100%\" valign=\"top\" style=\"width: 100.0%; padding: 0cm;\">\n<p style=\"line-height: 13.5pt; margin: 0cm;\" dir=\"auto\"><strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\">Priyanka Mukhia</span></strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\">\n (PluginHive) </span></p>\n<p style=\" margin-right: 0cm; margin-bottom: 11.25pt; margin-left: 0cm; line-height: 18.75pt;\" dir=\"auto\">\n<span style=\"font-size: 10.0pt;  color: #BBBBBB;\">Mar 20, 2026, 14:05 GMT+5:30\n</span></p>\n<div style=\"margin-top: 11.25pt; margin-bottom: 11.25pt;\">\n<p style=\"line-height: 16.5pt; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: #2B2E2F;\">Hi Natasha,<br>\n&nbsp;<br>\nManohar is currently not available. I’m glad to hear that.&nbsp;<br>\n&nbsp;<br>\nPlease feel free to reach out anytime if you need any assistance—we’ll be happy to help.<br>\n&nbsp;<br>\nWishing you all the best with everything!<br>\n&nbsp;<br>\nBest regards,<br>\nPriyanka<br>\nTeam PluginHive</span></p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"line-height: 13.5pt; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 9.0pt;  color: #444444;\">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\">\n<tbody>\n<tr>\n<td width=\"100%\" style=\"width: 100.0%; border-top-width: 1.0pt; border-top-color: #C5C5C5; padding: 11.25pt 0cm; border-style: dotted none none;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\">\n<tbody>\n<tr>\n<td width=\"40\" valign=\"top\" style=\"width: 30.0pt; padding: 0cm 11.25pt;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><img border=\"0\" width=\"40\" height=\"40\" style=\"width: .4166in; height: .4166in;\" src=\"https://pluginhive.zendesk.com/images/2016/default-avatar-80.png\"></p>\n</td>\n<td width=\"100%\" valign=\"top\" style=\"width: 100.0%; padding: 0cm;\">\n<p style=\"line-height: 13.5pt; margin: 0cm;\" dir=\"auto\"><strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\">Natasha Scott</span></strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\">\n</span></p>\n<p style=\" margin-right: 0cm; margin-bottom: 11.25pt; margin-left: 0cm; line-height: 18.75pt;\" dir=\"auto\">\n<span style=\"font-size: 10.0pt;  color: #BBBBBB;\">Mar 20, 2026, 05:53 GMT+5:30\n</span></p>\n<div>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">Hi Manohar,</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">Kelly and his team are confident they’ve got this sorted out. We’ll reach out if something does come up that we need assistance with.</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">Thanks!</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<div>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #212121;\">Best regards,</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #212121;\">&nbsp;</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><b>Natasha Scott </b><span style=\"font-size: 10.0pt; color: #212121;\">| Controller\n</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><a href=\"mailto:nscott@ultraseat.com\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: windowtext;\">nscott@ultraseat.com</span></a><span style=\"font-size: 9.0pt; color: #212121;\">| 780.962.0411</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><img border=\"0\" width=\"384\" height=\"74\" style=\"width: 4.0in; height: .7708in;\" src=\"https://support.pluginhive.com/attachments/token/aPKtH0L3j96chV47HmPA3n8cw/?name=image001.jpg\"></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><img border=\"0\" width=\"384\" height=\"199\" style=\"width: 4.0in; height: 2.0729in;\" src=\"https://support.pluginhive.com/attachments/token/DTSZWHvcxkzisJ9oprt3n02v3/?name=image002.jpg\"></span></p>\n</div>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"line-height: 13.5pt; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 9.0pt;  color: #444444;\">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\">\n<tbody>\n<tr>\n<td width=\"100%\" style=\"width: 100.0%; border-top-width: 1.0pt; border-top-color: #C5C5C5; padding: 11.25pt 0cm; border-style: dotted none none;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\">\n<tbody>\n<tr>\n<td width=\"40\" valign=\"top\" style=\"width: 30.0pt; padding: 0cm 11.25pt;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><img border=\"0\" width=\"40\" height=\"40\" style=\"width: .4166in; height: .4166in;\" src=\"https://pluginhive.zendesk.com/system/photos/9996081007001/PHOTO.jpeg\"></p>\n</td>\n<td width=\"100%\" valign=\"top\" style=\"width: 100.0%; padding: 0cm;\">\n<p style=\"line-height: 13.5pt; margin: 0cm;\" dir=\"auto\"><strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\">Manohar V</span></strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\"> (PluginHive)\n</span></p>\n<p style=\" margin-right: 0cm; margin-bottom: 11.25pt; margin-left: 0cm; line-height: 18.75pt;\" dir=\"auto\">\n<span style=\"font-size: 10.0pt;  color: #BBBBBB;\">Mar 17, 2026, 22:03 GMT+5:30\n</span></p>\n<div style=\"margin-top: 11.25pt; margin-bottom: 11.25pt;\">\n<p style=\"line-height: 16.5pt; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: #2B2E2F;\">Hello Natasha,<br>\n&nbsp;<br>\nThank you for your reply and for sharing the details.<br>\n&nbsp;<br>\nI tried calling you at 7809620411, but the call was not connected.<br>\n&nbsp;<br>\nThe <a href=\"https://www.pluginhive.com/woocommerce-shipping-services/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">WooCommerce Shipping Services plugin</a> is an advanced solution that allows you to display FedEx calculated shipping rates and also provides the option to add a markup if required.<br>\n&nbsp;<br>\nI would be happy to schedule a demo call and assist you with the plugin setup to meet your requirements. Please let me know your availability and time zone, and we will schedule the call accordingly. Alternatively, you can use the appointment link [<a href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=&amp;email=&amp;ticket=379306&amp;key=1773765155216\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">CLICK\n HERE]</a> to book a time based on your availability.<br>\n&nbsp;<br>\nLooking forward to speaking with you.<br>\n<br>\nThanks and Regards,<br>\nManohar V<br>\nTeam PluginHive</span></p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"line-height: 13.5pt; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 9.0pt;  color: #444444;\">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\">\n<tbody>\n<tr>\n<td width=\"100%\" style=\"width: 100.0%; border-top-width: 1.0pt; border-top-color: #C5C5C5; padding: 11.25pt 0cm; border-style: dotted none none;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\">\n<tbody>\n<tr>\n<td width=\"40\" valign=\"top\" style=\"width: 30.0pt; padding: 0cm 11.25pt;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><img border=\"0\" width=\"40\" height=\"40\" style=\"width: .4166in; height: .4166in;\" src=\"https://pluginhive.zendesk.com/images/2016/default-avatar-80.png\"></p>\n</td>\n<td width=\"100%\" valign=\"top\" style=\"width: 100.0%; padding: 0cm;\">\n<p style=\"line-height: 13.5pt; margin: 0cm;\" dir=\"auto\"><strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\">Natasha Scott</span></strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\">\n</span></p>\n<p style=\" margin-right: 0cm; margin-bottom: 11.25pt; margin-left: 0cm; line-height: 18.75pt;\" dir=\"auto\">\n<span style=\"font-size: 10.0pt;  color: #BBBBBB;\">Mar 17, 2026, 20:17 GMT+5:30\n</span></p>\n<div>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">Good morning,</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">Good morning,</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">We would like to display FedEx shipping rates with a calculated markup (15% increase) to compensate for accessorial charges that are not usually included in the FedEx rates provided.</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">At some point in the future, we may be interested in other features/options, but they aren’t required for our current project scope.</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<div>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #212121;\">Best regards,</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #212121;\">&nbsp;</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><b>Natasha Scott </b><span style=\"font-size: 10.0pt; color: #212121;\">| Controller\n</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><a href=\"mailto:nscott@ultraseat.com\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: windowtext;\">nscott@ultraseat.com</span></a><span style=\"font-size: 9.0pt; color: #212121;\">| 780.962.0411</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><img border=\"0\" width=\"384\" height=\"74\" style=\"width: 4.0in; height: .7708in;\" src=\"https://support.pluginhive.com/attachments/token/M2jqWdB6WLqdUQcRT9CoId00f/?name=image001.jpg\"></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><img border=\"0\" width=\"384\" height=\"199\" style=\"width: 4.0in; height: 2.0729in;\" src=\"https://support.pluginhive.com/attachments/token/X2LdVSqG8f5x3fPIYV1GYNeLd/?name=image002.jpg\"></span></p>\n</div>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"line-height: 13.5pt; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 9.0pt;  color: #444444;\">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\">\n<tbody>\n<tr>\n<td width=\"100%\" style=\"width: 100.0%; border-top-width: 1.0pt; border-top-color: #C5C5C5; padding: 11.25pt 0cm; border-style: dotted none none;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\">\n<tbody>\n<tr>\n<td width=\"40\" valign=\"top\" style=\"width: 30.0pt; padding: 0cm 11.25pt;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><img border=\"0\" width=\"40\" height=\"40\" style=\"width: .4166in; height: .4166in;\" src=\"https://pluginhive.zendesk.com/images/2016/default-avatar-80.png\"></p>\n</td>\n<td width=\"100%\" valign=\"top\" style=\"width: 100.0%; padding: 0cm;\">\n<p style=\"line-height: 13.5pt; margin: 0cm;\" dir=\"auto\"><strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\">Abhilash</span></strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\">\n</span></p>\n<p style=\" margin-right: 0cm; margin-bottom: 11.25pt; margin-left: 0cm; line-height: 18.75pt;\" dir=\"auto\">\n<span style=\"font-size: 10.0pt;  color: #BBBBBB;\">Mar 17, 2026, 18:07 GMT+5:30\n</span></p>\n<div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">Hi Georgi,&nbsp;</p>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">Thanks for the introduction.&nbsp;</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">&nbsp;</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">Hi Natasha and Kelly,&nbsp;</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">Great to connect with you both. From my understanding, your current requirement is to display FedEx shipping rates at checkout without generating or printing shipping labels.&nbsp;</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">&nbsp;</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">Could you please confirm if this is correct, or let me know if there are any additional requirements?&nbsp;</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">&nbsp;</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">Looking forward to your confirmation.</p>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">&nbsp;</p>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">Best Regards,<br>\n<br>\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships<br>\nConnect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">LinkedIn</a></p>\n</div>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">&nbsp;</p>\n<blockquote style=\"margin-top: 5.0pt; margin-bottom: 5.0pt;\">\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">On 17 Mar 2026, at 6:00<span> </span>PM, Georgi Kichev &lt;<a href=\"mailto:georgi.kichev@fedex.com\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">georgi.kichev@fedex.com</a>&gt; wrote:</p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">&nbsp;</p>\n<div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">Hello Natasha and Kelly,</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">&nbsp;</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">As discussed, Abhilash (CC’ed) from PluginHive has extended an invitation for a demo session for their Woocommerce plugin.</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">&nbsp;</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">Feel free to coordinate this session and please let me know if I can assist in any way from our end.</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">&nbsp;</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">Best regards,</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">&nbsp;</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"color: #7030A0;\">Georgi Kichev</span>&nbsp;|&nbsp;<span style=\"color: #EE3A3A;\">Assoc. Customer Technology Specialist&nbsp;</span>|<span style=\"color: #7030A0;\">&nbsp;Customer Technology (IT)&nbsp;</span>|<span style=\"color: #7030A0;\">&nbsp;Fed</span><span style=\"color: #EE3A3A;\">Ex</span></p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><b><span style=\"font-size: 11.0pt;\">Support:</span></b><span style=\"font-size: 11.0pt;\">&nbsp;1-877-339-2774 &amp;&nbsp;<a href=\"http://fedex.ca/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">fedex.ca</a></span></p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\">100-6300 Ch. de la Côte-de-Liesse, Saint-Laurent, QC, H4T 1E3</p>\n</div>\n</div>\n</blockquote>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div>\n<div>\n<p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.pluginhive.com/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"200\" height=\"41\" style=\"width: 2.0833in; height: .427in;\" src=\"https://www.pluginhive.com/wp-content/uploads/2019/09/pluginhive_logo.png\" alt=\"PluginHive\"></span></a></span><span></span></p>\n</div>\n<p style=\"background-color: #F8F9F9;\" dir=\"auto\"><b><span style=\"font-size: 11.5pt; color: black;\">Our Support is available 24/5.</span></b></p>\n<p style=\"background-color: #F8F9F9;\" dir=\"auto\"><span style=\"font-size: 10.0pt; color: black;\">Please expect a delay during weekends &amp; holidays due to partial coverage.</span><span style=\"font-size: 10.0pt;\"></span></p>\n<div>\n<div>\n<p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.pluginhive.com/knowledge-base/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">Documentation</a>\n<b>|</b>&nbsp; </span><span></span></p>\n</div>\n<div>\n<p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.youtube.com/channel/UC4J2IaD8yuWPI4r8qc7-3LQ/videos\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">Videos</a>\n<b>|</b>&nbsp; </span><span></span></p>\n</div>\n<div>\n<p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.pluginhive.com/product-category/woocommerce-plugin/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">WooCommerce Plugins</a>\n<b>|</b>&nbsp; </span><span></span></p>\n</div>\n<div>\n<p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.pluginhive.com/product-category/shopify-apps/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">Shopify Apps</a>\n<b>|</b>&nbsp; </span><span></span></p>\n</div>\n<div>\n<p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.pluginhive.com/product-category/magento-extensions/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">Magento Extensions</a>\n</span><span></span></p>\n</div>\n</div>\n<div>\n<p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.facebook.com/pluginhive\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"30\" height=\"30\" style=\"width: .3125in; height: .3125in;\" src=\"https://www.pluginhive.com/wp-content/uploads/2022/05/PH-facebook.png\" alt=\"ph-facebook\"></span></a><a href=\"https://in.linkedin.com/company/pluginhive\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"30\" height=\"30\" style=\"width: .3125in; height: .3125in;\" src=\"https://www.pluginhive.com/wp-content/uploads/2022/05/PH-linkedin.png\" alt=\"ph-linkedin\"></span></a><a href=\"https://twitter.com/PluginHive\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"30\" height=\"30\" style=\"width: .3125in; height: .3125in;\" src=\"https://www.pluginhive.com/wp-content/uploads/2022/05/PH-twitter.png\" alt=\"ph-twitter\"></span></a><a href=\"https://www.youtube.com/channel/UC4J2IaD8yuWPI4r8qc7-3LQ\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"30\" height=\"30\" style=\"width: .3125in; height: .3125in;\" src=\"https://www.pluginhive.com/wp-content/uploads/2022/05/PH-youtube.png\" alt=\"ph-youtube\"></span></a><a href=\"https://www.instagram.com/pluginhive_/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"30\" height=\"30\" style=\"width: .3125in; height: .3125in;\" src=\"https://www.pluginhive.com/wp-content/uploads/2022/05/PH-instagram.png\" alt=\"ph-twitter\"></span></a></span><span></span></p>\n</div>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span><span style=\"color: white;\">[VER1Z7-DM0NL]</span></span><span>\n</span></p>\n</div></div>",
+      "plain_body": "Hello, we’re trying to register the FedEx account via your plugin and getting this error. Please help: \n &nbsp; \n  \n &nbsp; \n \n Regards, \n \n\nKelly Grainger\n\nGuy in Charge of Everything\n\n\n\nCreoLogic Web Site Design Inc \n Suite 3400 Manulife Place\n\n10180 - 101 Street\n\nEdmonton, AB\n\nT5J 3S4 \n Phone: 780-628-6826 \n &nbsp; \n We love getting feedback! If you received 5-star service from me,\nplease leave a review. \n \n &nbsp; \n \n \n From: Priyanka Mukhia (PluginHive) &lt;support@pluginhive.com&gt;\n\n\nSent: March 20, 2026 2:36 AM\n\nCc: Vimal Bhaskaran &lt;vimal@pluginhive.com&gt;; Georgi Kichev &lt;georgi.kichev@fedex.com&gt;; Kelly Grainger &lt;kelly@creologic.ca&gt;; Natasha Scott &lt;nscott@ultraseat.com&gt;\n\nSubject: Re: Ultraseat PluginHive Demo \n \n \n &nbsp; \n \n You are registered as a CC on this request (379306). Reply to this email to add a comment to the request. \n \n\n\n\n\n\n\n\n\n  \n\n\n Priyanka Mukhia\n (PluginHive)  \n \nMar 20, 2026, 14:05 GMT+5:30\n \n \n Hi Natasha,\n\n&nbsp;\n\nManohar is currently not available. I’m glad to hear that.&nbsp;\n\n&nbsp;\n\nPlease feel free to reach out anytime if you need any assistance—we’ll be happy to help.\n\n&nbsp;\n\nWishing you all the best with everything!\n\n&nbsp;\n\nBest regards,\n\nPriyanka\n\nTeam PluginHive \n \n\n\n\n\n\n\n\n\n &nbsp; \n\n\n\n\n\n\n\n\n  \n\n\n Natasha Scott\n \n \nMar 20, 2026, 05:53 GMT+5:30\n \n \n Hi Manohar, \n &nbsp; \n Kelly and his team are confident they’ve got this sorted out. We’ll reach out if something does come up that we need assistance with. \n &nbsp; \n Thanks! \n &nbsp; \n \n Best regards, \n &nbsp; \n Natasha Scott | Controller\n \n nscott@ultraseat.com| 780.962.0411 \n  \n  \n \n &nbsp; \n \n\n\n\n\n\n\n\n\n &nbsp; \n\n\n\n\n\n\n\n\n  \n\n\n Manohar V (PluginHive)\n \n \nMar 17, 2026, 22:03 GMT+5:30\n \n \n Hello Natasha,\n\n&nbsp;\n\nThank you for your reply and for sharing the details.\n\n&nbsp;\n\nI tried calling you at 7809620411, but the call was not connected.\n\n&nbsp;\n\nThe WooCommerce Shipping Services plugin is an advanced solution that allows you to display FedEx calculated shipping rates and also provides the option to add a markup if required.\n\n&nbsp;\n\nI would be happy to schedule a demo call and assist you with the plugin setup to meet your requirements. Please let me know your availability and time zone, and we will schedule the call accordingly. Alternatively, you can use the appointment link [CLICK\n HERE] to book a time based on your availability.\n\n&nbsp;\n\nLooking forward to speaking with you.\n\n\n\nThanks and Regards,\n\nManohar V\n\nTeam PluginHive \n \n\n\n\n\n\n\n\n\n &nbsp; \n\n\n\n\n\n\n\n\n  \n\n\n Natasha Scott\n \n \nMar 17, 2026, 20:17 GMT+5:30\n \n \n Good morning, \n &nbsp; \n Good morning, \n &nbsp; \n We would like to display FedEx shipping rates with a calculated markup (15% increase) to compensate for accessorial charges that are not usually included in the FedEx rates provided. \n &nbsp; \n At some point in the future, we may be interested in other features/options, but they aren’t required for our current project scope. \n &nbsp; \n &nbsp; \n \n Best regards, \n &nbsp; \n Natasha Scott | Controller\n \n nscott@ultraseat.com| 780.962.0411 \n  \n  \n \n &nbsp; \n \n\n\n\n\n\n\n\n\n &nbsp; \n\n\n\n\n\n\n\n\n  \n\n\n Abhilash\n \n \nMar 17, 2026, 18:07 GMT+5:30\n \n \n \n Hi Georgi,&nbsp; \n \n Thanks for the introduction.&nbsp; \n \n \n &nbsp; \n \n \n Hi Natasha and Kelly,&nbsp; \n \n \n Great to connect with you both. From my understanding, your current requirement is to display FedEx shipping rates at checkout without generating or printing shipping labels.&nbsp; \n \n \n &nbsp; \n \n \n Could you please confirm if this is correct, or let me know if there are any additional requirements?&nbsp; \n \n \n &nbsp; \n \n \n Looking forward to your confirmation. \n \n &nbsp; \n \n \n \n \n \n \n Best Regards,\n\n\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\n\nConnect with us on&nbsp;LinkedIn \n \n \n \n &nbsp; \n \n \n On 17 Mar 2026, at 6:00 PM, Georgi Kichev &lt;georgi.kichev@fedex.com&gt; wrote: \n \n &nbsp; \n \n \n Hello Natasha and Kelly, \n \n \n &nbsp; \n \n \n As discussed, Abhilash (CC’ed) from PluginHive has extended an invitation for a demo session for their Woocommerce plugin. \n \n \n &nbsp; \n \n \n Feel free to coordinate this session and please let me know if I can assist in any way from our end. \n \n \n &nbsp; \n \n \n Best regards, \n \n \n &nbsp; \n \n \n Georgi Kichev&nbsp;|&nbsp;Assoc. Customer Technology Specialist&nbsp;|&nbsp;Customer Technology (IT)&nbsp;|&nbsp;FedEx \n \n \n Support:&nbsp;1-877-339-2774 &amp;&nbsp;fedex.ca \n \n \n 100-6300 Ch. de la Côte-de-Liesse, Saint-Laurent, QC, H4T 1E3 \n \n \n \n \n \n \n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n  \n \n Our Support is available 24/5. \n Please expect a delay during weekends &amp; holidays due to partial coverage. \n \n \n Documentation\n|&nbsp;  \n \n \n Videos\n|&nbsp;  \n \n \n WooCommerce Plugins\n|&nbsp;  \n \n \n Shopify Apps\n|&nbsp;  \n \n \n Magento Extensions\n \n \n \n \n  \n \n \n [VER1Z7-DM0NL]",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56854299973273,
+      "via": {
+        "channel": "web",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": 379306,
+            "subject": "Re: Ultraseat PluginHive Demo",
+            "channel": "email"
+          },
+          "rel": "follow_up"
+        }
+      },
+      "created_at": "2026-04-10T21:18:14Z",
+      "metadata": {
+        "system": {
+          "message_id": "<YTBP288MB101509BDCCDD9BCAC5A0CF8DD4592@YTBP288MB1015.CANP288.PROD.OUTLOOK.COM>",
+          "email_id": "01KNWM4VMXNGW85C19R6K9VH8S",
+          "raw_email_identifier": "2369120/e99df6e7-0c8e-4858-9936-e1a9790acf5a.eml",
+          "json_email_identifier": "2369120/e99df6e7-0c8e-4858-9936-e1a9790acf5a.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56854407021849,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+18312676349",
+        "to": "+17806286826",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAca75a32b0cf9c84aa32c27549bd4912c/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 56854391188377,
+        "call_duration": 44,
+        "answered_by_id": 10478126723609,
+        "started_at": "2026-04-10T21:33:30Z",
+        "location": "",
+        "author_id": 10478126723609,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Sagar K S",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+1 (831) 267-6349",
+      "formatted_to": "+1 (780) 628-6826",
+      "transcription_visible": false,
+      "author_id": 10478126723609,
+      "body": "Outbound call to +1 (780) 628-6826\nCall Details:\n\nCall from: +1 (831) 267-6349\nCall to: +1 (780) 628-6826\nTime of call: 2026-04-10 21:33:30 UTC\nCalled by: Sagar K S\nLength of phone call: 44 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAca75a32b0cf9c84aa32c27549bd4912c/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +1 (780) 628-6826<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +1 (831) 267-6349<br>\nCall to: +1 (780) 628-6826<br>\nTime of call: 2026-04-10 21:33:30 UTC<br>\nCalled by: Sagar K S<br>\nLength of phone call: 44 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAca75a32b0cf9c84aa32c27549bd4912c/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAca75a32b0cf9c84aa32c27549bd4912c/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-04-10T21:34:15Z",
+      "audit_id": 56854430794265,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+1 (831) 267-6349",
+            "phone": "+18312676349",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+1 (780) 628-6826",
+            "phone": "+17806286826",
+            "name": "+1 (780) 628-6826"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Vijayawada, AP, India",
+          "latitude": 16.5033,
+          "longitude": 80.6465
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56854408318233,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Canada store\n2 orders\nNo carrier account added\nCalled the customer but reached voicemail",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Canada store<br>2 orders<br>No carrier account added<br>Called the customer but reached voicemail<br></div>",
+      "plain_body": "Canada store\n2 orders\nNo carrier account added\nCalled the customer but reached voicemail",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56854408318105,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-10T21:35:28Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56854426151065,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Kelly,\n\nGood day!\n\nThe FedEx account registration is failing means the details provided while registering the account are not matching the details available on FedEx.\n\nSo, could you please check for the correct and valid details available in the FedEx portal and add them in the plugin and try registering the account?\n\nYou can also share the below mentioned details with us, so we can try adding the account from our end.\n\n1)Account Name\n2)Account Number\n3)First Name\n4)Last Name\n5)Company Name\n6)Phone Number\n7)E-mail\n8)Street\n9)City\n10)Zip Code\n11)State\n12)Country\n13) A Recent FedEx Invoice\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Kelly,<br>&nbsp;<br>Good day!<br><br>The FedEx account registration is failing means the details provided while registering the account are not matching the details available on FedEx.&nbsp;<br>&nbsp;<br>So, could you please check for the correct and valid details available in the FedEx portal and add them in the plugin and try registering the account?<br>&nbsp;<br>You can also share the below mentioned details with us, so we can try adding the account from our end.&nbsp;<br>&nbsp;<br>1)Account Name<br>2)Account Number<br>3)First Name<br>4)Last Name<br>5)Company Name<br>6)Phone Number<br>7)E-mail<br>8)Street<br>9)City<br>10)Zip Code<br>11)State<br>12)Country<br>13) A Recent FedEx Invoice<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Kelly,\n&nbsp;\nGood day!\n\nThe FedEx account registration is failing means the details provided while registering the account are not matching the details available on FedEx.&nbsp;\n&nbsp;\nSo, could you please check for the correct and valid details available in the FedEx portal and add them in the plugin and try registering the account?\n&nbsp;\nYou can also share the below mentioned details with us, so we can try adding the account from our end.&nbsp;\n&nbsp;\n1)Account Name\n2)Account Number\n3)First Name\n4)Last Name\n5)Company Name\n6)Phone Number\n7)E-mail\n8)Street\n9)City\n10)Zip Code\n11)State\n12)Country\n13) A Recent FedEx Invoice\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56854426150937,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-10T21:39:11Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56859159617945,
+      "type": "Comment",
+      "author_id": 56099837411097,
+      "body": "Please add this account from your end, thanks:\n\n\n\n ![](https://support.pluginhive.com/attachments/token/cNPQkl0hywMcofaB6JhjYcUmi/?name=image.png)\n\n\n\n\n\n\n\nRegards,\n\nKelly Grainger\nGuy in Charge of Everything\n\nCreoLogic Web Design Inc\n\nSuite 3400 Manulife Place\n10180 - 101 Street\nEdmonton, AB\nT5J 3S4\n\nPhone: 780-628-6826\n\n\n\n**We love getting feedback! If you received 5-star service from me,****please leave a review****.**",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nPlease add this account from your end, thanks:</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<img style=\"max-width: 790px;\" src=\"https://support.pluginhive.com/attachments/token/cNPQkl0hywMcofaB6JhjYcUmi/?name=image.png\"></div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\">Regards,</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\"><br>\nKelly Grainger<br>\nGuy in Charge of Everything<br>\n<b><br>\n</b>CreoLogic Web Design Inc</span></p>\n<p style=\"background-color: white; margin: 0cm 0cm 12pt;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\">Suite 3400 Manulife Place<br>\n10180 - 101 Street<br>\nEdmonton, AB<br>\nT5J 3S4</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\">Phone: 780-628-6826</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\">&nbsp;</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\"><b>We love getting feedback! If you received 5-star service from me,\n</b></span><span style=\" font-size: 12pt; color: rgb(5, 99, 193);\"><a href=\"https://creologic.ca/review/\" style=\"color: rgb(5, 99, 193); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><b><u>please\n leave a review</u></b></a></span><span style=\" font-size: 12pt; color: black;\"><b>.</b></span></p>\n<p style=\" margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt;\">&nbsp;</span></p>\n</div>\n<div></div></div>",
+      "plain_body": "Please add this account from your end, thanks: \n \n\n\n \n \n \n \n\n\n \n \n\n\n \n \n \n\n\n \n \nRegards, \n \n\n\nKelly Grainger\n\nGuy in Charge of Everything\n\n\n\nCreoLogic Web Design Inc \n \nSuite 3400 Manulife Place\n\n10180 - 101 Street\n\nEdmonton, AB\n\nT5J 3S4 \n \nPhone: 780-628-6826 \n \n&nbsp; \n \nWe love getting feedback! If you received 5-star service from me,\nplease\n leave a review. \n \n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56859159617817,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "kelly@creologic.ca",
+              "support@pluginhive.com",
+              "vimal@pluginhive.com",
+              "georgi.kichev@fedex.com",
+              "nscott@ultraseat.com",
+              "jason@creologic.ca"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-11T02:27:41Z",
+      "metadata": {
+        "system": {
+          "message_id": "<YT3P288MB102276F5C2B50F558EF10547D4262@YT3P288MB1022.CANP288.PROD.OUTLOOK.COM>",
+          "email_id": "01KNX5VF6BMZCAHCKYFFR65ZK1",
+          "raw_email_identifier": "2369120/dea4a79d-4b18-4a1f-a5e5-bdf3c36374fe.eml",
+          "json_email_identifier": "2369120/dea4a79d-4b18-4a1f-a5e5-bdf3c36374fe.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56864841510425,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Kelly,\n\nThank you so much for sharing the details.\n\nCould you please share a recent FedEx invoice as well? This will help us with the validation process while adding the FedEx account.\n\nLooking forward to your response.\n ![](https://pluginhive.zendesk.com/attachments/token/8ozE7XLEIPa5qF1TdQwYeCYEw/?name=Screenshot+2026-04-11+at+12.12.32%E2%80%AFPM.png)\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Kelly,<br>&nbsp;<br>Thank you so much for sharing the details.<br>&nbsp;<br>Could you please share a recent FedEx invoice as well? This will help us with the validation process while adding the FedEx account.<br>&nbsp;<br>Looking forward to your response.<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/8ozE7XLEIPa5qF1TdQwYeCYEw/?name=Screenshot+2026-04-11+at+12.12.32%E2%80%AFPM.png\"></span><br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Kelly,\n&nbsp;\nThank you so much for sharing the details.\n&nbsp;\nCould you please share a recent FedEx invoice as well? This will help us with the validation process while adding the FedEx account.\n&nbsp;\nLooking forward to your response.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56864841510297,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-11T06:44:25Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.161.87",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56864873712921,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "I didn't call customer due to time difference\nit's a us customer\nMail sent requesting invoice for validation\nmoving on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I didn't call customer due to time difference&nbsp;<br>it's a us customer&nbsp;<br>Mail sent requesting invoice for validation<br>moving on hold<br></div>",
+      "plain_body": "I didn't call customer due to time difference&nbsp;\nit's a us customer&nbsp;\nMail sent requesting invoice for validation\nmoving on hold",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56864873712793,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-11T06:45:08Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.161.87",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56876552131737,
+      "type": "Comment",
+      "author_id": 56099837411097,
+      "body": "Hi Natasha,\n\n\n\nPer Priyanka's request, could you please share a recent FedEx invoice for validation?\n\n\n\n\"Could you please share a recent FedEx invoice as well? This will help us with the validation process while adding the FedEx account.\"\n\n\n\nRegards,\n\nKelly Grainger\nGuy in Charge of Everything\n\nCreoLogic Web Design Inc\n\nSuite 3400 Manulife Place\n10180 - 101 Street\nEdmonton, AB\nT5J 3S4\n\nPhone: 780-628-6826\n\n\n\n**We love getting feedback! If you received 5-star service from me,****please leave a review****.**\n\n\n\n\n\n\n\n* * *\n\n**From:** Priyanka Mukhia (PluginHive) <support@pluginhive.com>\n**Sent:** Saturday, April 11, 2026 12:44 AM\n**Cc:** Vimal Bhaskaran <vimal@pluginhive.com>; Georgi Kichev <georgi.kichev@fedex.com>; Kelly Grainger <kelly@creologic.ca>; Natasha Scott <nscott@ultraseat.com>; Jason Turner <jason@creologic.ca>\n**Subject:** RE: Ultraseat PluginHive Demo\n\n\n\nYou are registered as a CC on this request (383509). Reply to this email to add a comment to the request.\n\n ![](https://pluginhive.zendesk.com/system/photos/46180332470297/Screenshot_2025-04-25_at_11.54.16_AM.png)\n\n**Priyanka Mukhia** (PluginHive)\n\nApr 11, 2026, 12:14 GMT+5:30\n\nHi Kelly,\n\nThank you so much for sharing the details.\n\nCould you please share a recent FedEx invoice as well? This will help us with the validation process while adding the FedEx account.\n\nLooking forward to your response.\n ![](https://pluginhive.zendesk.com/attachments/token/8ozE7XLEIPa5qF1TdQwYeCYEw/?name=Screenshot+2026-04-11+at+12.12.32%E2%80%AFPM.png)\nBest regards,\nPriyanka\nTeam PluginHive\n\n ![](https://pluginhive.zendesk.com/images/2016/default-avatar-80.png)\n\n**Kelly Grainger**\n\nApr 11, 2026, 07:57 GMT+5:30\n\nPlease add this account from your end, thanks:\n\n\n\n ![](https://support.pluginhive.com/attachments/token/cNPQkl0hywMcofaB6JhjYcUmi/?name=image.png)\n\n\n\n\n\n\n\nRegards,\n\nKelly Grainger\nGuy in Charge of Everything\n\nCreoLogic Web Design Inc\n\nSuite 3400 Manulife Place\n10180 - 101 Street\nEdmonton, AB\nT5J 3S4\n\nPhone: 780-628-6826\n\n\n\n**We love getting feedback! If you received 5-star service from me,****please leave a review****.**\n\n\n\n ![](https://pluginhive.zendesk.com/system/photos/10479726420761/Image_-_Sagar.jpg)\n\n**Sagar K S** (PluginHive)\n\nApr 11, 2026, 03:09 GMT+5:30\n\nHello Kelly,\n\nGood day!\n\nThe FedEx account registration is failing means the details provided while registering the account are not matching the details available on FedEx.\n\nSo, could you please check for the correct and valid details available in the FedEx portal and add them in the plugin and try registering the account?\n\nYou can also share the below mentioned details with us, so we can try adding the account from our end.\n\n1)Account Name\n2)Account Number\n3)First Name\n4)Last Name\n5)Company Name\n6)Phone Number\n7)E-mail\n8)Street\n9)City\n10)Zip Code\n11)State\n12)Country\n13) A Recent FedEx Invoice\n\nBest regards,\nSagar K S\nPluginHive\n\n ![](https://pluginhive.zendesk.com/images/2016/default-avatar-80.png)\n\n**Kelly Grainger**\n\nApr 11, 2026, 02:48 GMT+5:30\n\nHello, we’re trying to register the FedEx account via your plugin and getting this error. Please help:\n\n\n\n![](https://support.pluginhive.com/attachments/token/eN1913mpOx8GZsK6u1OxfWKBB/?name=image001.png)\n\n\n\nRegards,\n\nKelly Grainger\nGuy in Charge of Everything\n\nCreoLogic Web Site Design Inc\n\nSuite 3400 Manulife Place\n10180 - 101 Street\nEdmonton, AB\nT5J 3S4\n\nPhone: 780-628-6826\n\n\n\n**We love getting feedback! If you received 5-star service from me,****please leave a review****.**",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHi Natasha,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nPer Priyanka's request, could you please share a recent FedEx invoice for validation?</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12px; color: rgb(43, 46, 47);\">\n\"Could you please share a recent FedEx invoice as well? This will help us with the validation process while adding the FedEx account.\"</div>\n<div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\">Regards,</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\"><br>\nKelly Grainger<br>\nGuy in Charge of Everything<br>\n<b><br>\n</b>CreoLogic Web Design Inc</span></p>\n<p style=\"background-color: white; margin: 0cm 0cm 12pt;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\">Suite 3400 Manulife Place<br>\n10180 - 101 Street<br>\nEdmonton, AB<br>\nT5J 3S4</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\">Phone: 780-628-6826</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\">&nbsp;</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\"><b>We love getting feedback! If you received 5-star service from me,\n</b></span><span style=\" font-size: 12pt; color: rgb(5, 99, 193);\"><a href=\"https://creologic.ca/review/\" style=\"color: rgb(5, 99, 193); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><b><u>please\n leave a review</u></b></a></span><span style=\" font-size: 12pt; color: black;\"><b>.</b></span></p>\n<p style=\" margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt;\">&nbsp;</span></p>\n</div>\n<div><br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<hr style=\"display: inline-block; width: 98%;\">\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<b>From:</b>&nbsp;Priyanka Mukhia (PluginHive) &lt;support@pluginhive.com&gt;<br>\n<b>Sent:</b>&nbsp;Saturday, April 11, 2026 12:44 AM<br>\n<b>Cc:</b>&nbsp;Vimal Bhaskaran &lt;vimal@pluginhive.com&gt;; Georgi Kichev &lt;georgi.kichev@fedex.com&gt;; Kelly Grainger &lt;kelly@creologic.ca&gt;; Natasha Scott &lt;nscott@ultraseat.com&gt;; Jason Turner &lt;jason@creologic.ca&gt;<br>\n<b>Subject:</b>&nbsp;RE: Ultraseat PluginHive Demo </div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"margin-right: 0px; margin-left: 0px; padding: 10px;\">\n<p style=\"direction: ltr; line-height: 18px; margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\">\n<span style=\" font-size: 12px; color: rgb(68, 68, 68);\">You are registered as a CC on this request (383509). Reply to this email to add a comment to the request.</span></p>\n<div style=\"margin-top: 25px;\">\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"line-height: 18px; width: 100%;\">\n<tbody>\n<tr>\n<td style=\"line-height: 18px; border-top-width: 1px; border-top-color: rgb(197, 197, 197); border-top-style: dotted; padding-top: 15px; padding-bottom: 15px; width: 100%;\">\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"line-height: 18px; width: 100%; table-layout: fixed;\">\n<tbody>\n<tr>\n<td style=\"line-height: 18px; padding-right: 15px; padding-left: 15px; vertical-align: top; width: 40px;\" valign=\"top\">\n<span style=\" font-size: 12px; color: rgb(68, 68, 68); line-height: 100%;\"><img width=\"40\" style=\"width: 40px; height: auto; border-radius: 5px;\" src=\"https://pluginhive.zendesk.com/system/photos/46180332470297/Screenshot_2025-04-25_at_11.54.16_AM.png\"></span></td>\n<td style=\"line-height: 18px; vertical-align: top; width: 100%;\" valign=\"top\">\n<p style=\"direction: ltr; line-height: 18px; margin-top: 0px; margin-bottom: 0px; font-size: 15px; color: rgb(27, 29, 30);\" dir=\"auto\">\n<b>Priyanka Mukhia</b>&nbsp;(PluginHive)</p>\n<p style=\"direction: ltr; line-height: 25px; margin-top: 0px; margin-bottom: 15px; font-size: 13px; color: rgb(187, 187, 187);\" dir=\"auto\">\nApr 11, 2026, 12:14 GMT+5:30</p>\n<div style=\"direction: ltr; line-height: 22px; font-size: 12px; color: rgb(43, 46, 47); margin: 15px 0px;\">\nHi Kelly,<br>\n&nbsp;<br>\nThank you so much for sharing the details.<br>\n&nbsp;<br>\nCould you please share a recent FedEx invoice as well? This will help us with the validation process while adding the FedEx account.<br>\n&nbsp;<br>\nLooking forward to your response.<br>\n<img style=\"max-width: 100%;\" src=\"https://pluginhive.zendesk.com/attachments/token/8ozE7XLEIPa5qF1TdQwYeCYEw/?name=Screenshot+2026-04-11+at+12.12.32%E2%80%AFPM.png\"><br>\nBest regards,<br>\nPriyanka<br>\nTeam PluginHive</div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"line-height: 18px; width: 100%;\">\n<tbody>\n<tr>\n<td style=\"line-height: 18px; border-top-width: 1px; border-top-color: rgb(197, 197, 197); border-top-style: dotted; padding-top: 15px; padding-bottom: 15px; width: 100%;\">\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"line-height: 18px; width: 100%; table-layout: fixed;\">\n<tbody>\n<tr>\n<td style=\"line-height: 18px; padding-right: 15px; padding-left: 15px; vertical-align: top; width: 40px;\" valign=\"top\">\n<span style=\" font-size: 12px; color: rgb(68, 68, 68); line-height: 100%;\"><img width=\"40\" style=\"width: 40px; height: auto; border-radius: 5px;\" src=\"https://pluginhive.zendesk.com/images/2016/default-avatar-80.png\"></span></td>\n<td style=\"line-height: 18px; vertical-align: top; width: 100%;\" valign=\"top\">\n<p style=\"direction: ltr; line-height: 18px; margin-top: 0px; margin-bottom: 0px; font-size: 15px; color: rgb(27, 29, 30);\" dir=\"auto\">\n<b>Kelly Grainger</b></p>\n<p style=\"direction: ltr; line-height: 25px; margin-top: 0px; margin-bottom: 15px; font-size: 13px; color: rgb(187, 187, 187);\" dir=\"auto\">\nApr 11, 2026, 07:57 GMT+5:30</p>\n<div style=\"direction: ltr; line-height: 18px; font-size: 12pt; color: rgb(0, 0, 0);\">\nPlease add this account from your end, thanks:</div>\n<div style=\"direction: ltr; line-height: 18px; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; line-height: 18px; font-size: 12pt; color: rgb(0, 0, 0);\">\n<img style=\"max-width: 790px;\" src=\"https://support.pluginhive.com/attachments/token/cNPQkl0hywMcofaB6JhjYcUmi/?name=image.png\"></div>\n<div style=\"direction: ltr; line-height: 18px; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; line-height: 18px; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; line-height: 18px; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<p style=\"direction: ltr; line-height: 18px; background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\">Regards,</span></p>\n<p style=\"direction: ltr; line-height: 18px; background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\"><br>\nKelly Grainger<br>\nGuy in Charge of Everything<br>\n<b><br>\n</b>CreoLogic Web Design Inc</span></p>\n<p style=\"direction: ltr; line-height: 18px; background-color: white; margin: 0cm 0cm 12pt;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\">Suite 3400 Manulife Place<br>\n10180 - 101 Street<br>\nEdmonton, AB<br>\nT5J 3S4</span></p>\n<p style=\"direction: ltr; line-height: 18px; background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\">Phone: 780-628-6826</span></p>\n<p style=\"direction: ltr; line-height: 18px; background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\">&nbsp;</span></p>\n<p style=\"direction: ltr; line-height: 18px; background-color: white; margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 12pt; color: black;\"><b>We love getting feedback! If you received 5-star service from me,\n</b></span><span style=\" font-size: 12pt; color: rgb(5, 99, 193);\"><a href=\"https://creologic.ca/review/\" style=\"color: rgb(5, 99, 193); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><b><u>please\n leave a review</u></b></a></span><span style=\" font-size: 12pt; color: black;\"><b>.</b></span></p>\n<p style=\"direction: ltr; line-height: 18px; margin: 0cm;\" dir=\"auto\"><span style=\" font-size: 12pt; color: rgb(68, 68, 68);\">&nbsp;</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"line-height: 18px; width: 100%;\">\n<tbody>\n<tr>\n<td style=\"line-height: 18px; border-top-width: 1px; border-top-color: rgb(197, 197, 197); border-top-style: dotted; padding-top: 15px; padding-bottom: 15px; width: 100%;\">\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"line-height: 18px; width: 100%; table-layout: fixed;\">\n<tbody>\n<tr>\n<td style=\"line-height: 18px; padding-right: 15px; padding-left: 15px; vertical-align: top; width: 40px;\" valign=\"top\">\n<span style=\" font-size: 12px; color: rgb(68, 68, 68); line-height: 100%;\"><img width=\"40\" style=\"width: 40px; height: auto; border-radius: 5px;\" src=\"https://pluginhive.zendesk.com/system/photos/10479726420761/Image_-_Sagar.jpg\"></span></td>\n<td style=\"line-height: 18px; vertical-align: top; width: 100%;\" valign=\"top\">\n<p style=\"direction: ltr; line-height: 18px; margin-top: 0px; margin-bottom: 0px; font-size: 15px; color: rgb(27, 29, 30);\" dir=\"auto\">\n<b>Sagar K S</b>&nbsp;(PluginHive)</p>\n<p style=\"direction: ltr; line-height: 25px; margin-top: 0px; margin-bottom: 15px; font-size: 13px; color: rgb(187, 187, 187);\" dir=\"auto\">\nApr 11, 2026, 03:09 GMT+5:30</p>\n<div style=\"direction: ltr; line-height: 22px; font-size: 12px; color: rgb(43, 46, 47); margin: 15px 0px;\">\nHello Kelly,<br>\n&nbsp;<br>\nGood day!<br>\n<br>\nThe FedEx account registration is failing means the details provided while registering the account are not matching the details available on FedEx.&nbsp;<br>\n&nbsp;<br>\nSo, could you please check for the correct and valid details available in the FedEx portal and add them in the plugin and try registering the account?<br>\n&nbsp;<br>\nYou can also share the below mentioned details with us, so we can try adding the account from our end.&nbsp;<br>\n&nbsp;<br>\n1)Account Name<br>\n2)Account Number<br>\n3)First Name<br>\n4)Last Name<br>\n5)Company Name<br>\n6)Phone Number<br>\n7)E-mail<br>\n8)Street<br>\n9)City<br>\n10)Zip Code<br>\n11)State<br>\n12)Country<br>\n13) A Recent FedEx Invoice<br>\n&nbsp;<br>\nBest regards,<br>\nSagar K S<br>\nPluginHive</div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"line-height: 18px; width: 100%;\">\n<tbody>\n<tr>\n<td style=\"line-height: 18px; border-top-width: 1px; border-top-color: rgb(197, 197, 197); border-top-style: dotted; padding-top: 15px; padding-bottom: 15px; width: 100%;\">\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"line-height: 18px; width: 100%; table-layout: fixed;\">\n<tbody>\n<tr>\n<td style=\"line-height: 18px; padding-right: 15px; padding-left: 15px; vertical-align: top; width: 40px;\" valign=\"top\">\n<span style=\" font-size: 12px; color: rgb(68, 68, 68); line-height: 100%;\"><img width=\"40\" style=\"width: 40px; height: auto; border-radius: 5px;\" src=\"https://pluginhive.zendesk.com/images/2016/default-avatar-80.png\"></span></td>\n<td style=\"line-height: 18px; vertical-align: top; width: 100%;\" valign=\"top\">\n<p style=\"direction: ltr; line-height: 18px; margin-top: 0px; margin-bottom: 0px; font-size: 15px; color: rgb(27, 29, 30);\" dir=\"auto\">\n<b>Kelly Grainger</b></p>\n<p style=\"direction: ltr; line-height: 25px; margin-top: 0px; margin-bottom: 15px; font-size: 13px; color: rgb(187, 187, 187);\" dir=\"auto\">\nApr 11, 2026, 02:48 GMT+5:30</p>\n<div style=\"margin: 15px 0px;\">\n<p style=\"direction: ltr; line-height: 22px; font-size: 12pt; color: rgb(43, 46, 47); margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 13pt;\">Hello, we’re trying to register the FedEx account via your plugin and getting this error. Please help:</span></p>\n<p style=\"direction: ltr; line-height: 22px; font-size: 12pt; color: rgb(43, 46, 47); margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 13pt;\">&nbsp;</span></p>\n<p style=\"direction: ltr; line-height: 22px; font-size: 12pt; color: rgb(43, 46, 47); margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 13pt;\"><img width=\"331\" height=\"229\" style=\"width: 3.4583in; height: 2.3958in; max-width: 100%; margin-top: 0px; margin-bottom: 0px;\" src=\"https://support.pluginhive.com/attachments/token/eN1913mpOx8GZsK6u1OxfWKBB/?name=image001.png\"></span></p>\n<p style=\"direction: ltr; line-height: 22px; font-size: 12pt; color: rgb(43, 46, 47); margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 13pt;\">&nbsp;</span></p>\n<p style=\"direction: ltr; line-height: 22px; background-color: white; font-size: 12pt; color: rgb(43, 46, 47); margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 13pt; color: black;\">Regards,</span></p>\n<p style=\"direction: ltr; line-height: 22px; background-color: white; font-size: 12pt; color: rgb(43, 46, 47); margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 13pt; color: black;\"><br>\nKelly Grainger<br>\nGuy in Charge of Everything<br>\n<b><br>\n</b>CreoLogic Web Site Design Inc</span></p>\n<p style=\"direction: ltr; line-height: 22px; background-color: white; font-size: 12pt; color: rgb(43, 46, 47); margin: 0cm 0cm 12pt;\" dir=\"auto\">\n<span style=\" font-size: 13pt; color: black;\">Suite 3400 Manulife Place<br>\n10180 - 101 Street<br>\nEdmonton, AB<br>\nT5J 3S4</span></p>\n<p style=\"direction: ltr; line-height: 22px; background-color: white; font-size: 12pt; color: rgb(43, 46, 47); margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 13pt; color: black;\">Phone: 780-628-6826</span></p>\n<p style=\"direction: ltr; line-height: 22px; background-color: white; font-size: 12pt; color: rgb(43, 46, 47); margin: 0cm;\" dir=\"auto\">\n<span style=\" color: black;\">&nbsp;</span></p>\n<p style=\"direction: ltr; line-height: 22px; background-color: white; font-size: 12pt; color: rgb(43, 46, 47); margin: 0cm;\" dir=\"auto\">\n<span style=\" color: black;\"><b>We love getting feedback! If you received 5-star service from me,\n</b></span><span style=\" color: rgb(5, 99, 193);\"><a href=\"https://creologic.ca/review/\" style=\"color: rgb(5, 99, 193); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><b><u>please\n leave a review</u></b></a></span><span style=\" color: black;\"><b>.</b></span></p>\n<p style=\"direction: ltr; line-height: 22px; font-size: 12pt; color: rgb(43, 46, 47); margin: 0cm;\" dir=\"auto\">\n<span style=\" font-size: 13pt;\">&nbsp;</span></p>\n<div style=\"border-top-width: 1pt; border-top-color: rgb(225, 225, 225); border-top-style: solid; padding: 3pt 0cm 0cm;\">\n\n</div>\n\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div></div>",
+      "plain_body": "Hi Natasha, \n \n\n\n \n \nPer Priyanka's request, could you please share a recent FedEx invoice for validation? \n \n\n\n \n \n\"Could you please share a recent FedEx invoice as well? This will help us with the validation process while adding the FedEx account.\" \n \n \n\n\n \n \nRegards, \n \n\n\nKelly Grainger\n\nGuy in Charge of Everything\n\n\n\nCreoLogic Web Design Inc \n \nSuite 3400 Manulife Place\n\n10180 - 101 Street\n\nEdmonton, AB\n\nT5J 3S4 \n \nPhone: 780-628-6826 \n \n&nbsp; \n \nWe love getting feedback! If you received 5-star service from me,\nplease\n leave a review. \n \n&nbsp; \n \n \n\n \n \n\n\n \n \n \nFrom:&nbsp;Priyanka Mukhia (PluginHive) &lt;support@pluginhive.com&gt;\n\nSent:&nbsp;Saturday, April 11, 2026 12:44 AM\n\nCc:&nbsp;Vimal Bhaskaran &lt;vimal@pluginhive.com&gt;; Georgi Kichev &lt;georgi.kichev@fedex.com&gt;; Kelly Grainger &lt;kelly@creologic.ca&gt;; Natasha Scott &lt;nscott@ultraseat.com&gt;; Jason Turner &lt;jason@creologic.ca&gt;\n\nSubject:&nbsp;RE: Ultraseat PluginHive Demo  \n \n\n\n \n \n \nYou are registered as a CC on this request (383509). Reply to this email to add a comment to the request. \n \n\n\n\n\n\n\n\n\n\n\n \nPriyanka Mukhia&nbsp;(PluginHive) \n \nApr 11, 2026, 12:14 GMT+5:30 \n \nHi Kelly,\n\n&nbsp;\n\nThank you so much for sharing the details.\n\n&nbsp;\n\nCould you please share a recent FedEx invoice as well? This will help us with the validation process while adding the FedEx account.\n\n&nbsp;\n\nLooking forward to your response.\n\n\n\nBest regards,\n\nPriyanka\n\nTeam PluginHive \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nKelly Grainger \n \nApr 11, 2026, 07:57 GMT+5:30 \n \nPlease add this account from your end, thanks: \n \n\n\n \n \n \n \n\n\n \n \n\n\n \n \n\n\n \n \nRegards, \n \n\n\nKelly Grainger\n\nGuy in Charge of Everything\n\n\n\nCreoLogic Web Design Inc \n \nSuite 3400 Manulife Place\n\n10180 - 101 Street\n\nEdmonton, AB\n\nT5J 3S4 \n \nPhone: 780-628-6826 \n \n&nbsp; \n \nWe love getting feedback! If you received 5-star service from me,\nplease\n leave a review. \n &nbsp; \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nSagar K S&nbsp;(PluginHive) \n \nApr 11, 2026, 03:09 GMT+5:30 \n \nHello Kelly,\n\n&nbsp;\n\nGood day!\n\n\n\nThe FedEx account registration is failing means the details provided while registering the account are not matching the details available on FedEx.&nbsp;\n\n&nbsp;\n\nSo, could you please check for the correct and valid details available in the FedEx portal and add them in the plugin and try registering the account?\n\n&nbsp;\n\nYou can also share the below mentioned details with us, so we can try adding the account from our end.&nbsp;\n\n&nbsp;\n\n1)Account Name\n\n2)Account Number\n\n3)First Name\n\n4)Last Name\n\n5)Company Name\n\n6)Phone Number\n\n7)E-mail\n\n8)Street\n\n9)City\n\n10)Zip Code\n\n11)State\n\n12)Country\n\n13) A Recent FedEx Invoice\n\n&nbsp;\n\nBest regards,\n\nSagar K S\n\nPluginHive \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nKelly Grainger \n \nApr 11, 2026, 02:48 GMT+5:30 \n \n \nHello, we’re trying to register the FedEx account via your plugin and getting this error. Please help: \n \n&nbsp; \n \n \n \n&nbsp; \n \nRegards, \n \n\n\nKelly Grainger\n\nGuy in Charge of Everything\n\n\n\nCreoLogic Web Site Design Inc \n \nSuite 3400 Manulife Place\n\n10180 - 101 Street\n\nEdmonton, AB\n\nT5J 3S4 \n \nPhone: 780-628-6826 \n \n&nbsp; \n \nWe love getting feedback! If you received 5-star service from me,\nplease\n leave a review. \n \n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56876552131609,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "kelly@creologic.ca",
+              "support@pluginhive.com",
+              "vimal@pluginhive.com",
+              "georgi.kichev@fedex.com",
+              "nscott@ultraseat.com",
+              "jason@creologic.ca"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-11T17:21:27Z",
+      "metadata": {
+        "system": {
+          "message_id": "<YT3P288MB10229909501905545AC32C2FD4262@YT3P288MB1022.CANP288.PROD.OUTLOOK.COM>",
+          "email_id": "01KNYS01BWG8MC4R9ZNNJAKME6",
+          "raw_email_identifier": "2369120/61be302a-9123-4abb-9b29-4fba8d19b9fd.eml",
+          "json_email_identifier": "2369120/61be302a-9123-4abb-9b29-4fba8d19b9fd.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56906644999961,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Customer to customer\nNRN from support\nkeeping it on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer to customer&nbsp;<br>NRN from support&nbsp;<br>keeping it on hold&nbsp;<br></div>",
+      "plain_body": "Customer to customer&nbsp;\nNRN from support&nbsp;\nkeeping it on hold&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56906644999833,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T01:53:18Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56931032605593,
+      "type": "Comment",
+      "author_id": 56099837427225,
+      "body": "Good morning,\n\n\n\nRecent FedEx invoice is attached.\n\n\n\nBest regards,\n\n\n\n**Natasha Scott**| Controller\n\nnscott@ultraseat.com| 780.962.0411\n\n![](https://support.pluginhive.com/attachments/token/2bmg7tLUpaJWfBeILJqbstoQV/?name=image001.jpg)\n\n![](https://support.pluginhive.com/attachments/token/E3Lg7WMTE80wkssjVkBfzyBmq/?name=image002.jpg)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Good morning,</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Recent FedEx invoice is attached.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; color: #212121; \">Best regards,</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"color: #212121; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><b><span>Natasha Scott\n</span></b><span style=\"font-size: 10.0pt; color: #212121; \">| Controller\n</span><span style=\"font-size: 9.0pt; color: #212121; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span><a href=\"mailto:nscott@ultraseat.com\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: windowtext;\">nscott@ultraseat.com</span></a></span><span style=\"font-size: 8.0pt; color: #212121; \">\n</span><span style=\"font-size: 9.0pt; color: #212121; \">| 780.962.0411</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span><img border=\"0\" width=\"384\" height=\"74\" style=\"width: 4.0in; height: .7708in;\" src=\"https://support.pluginhive.com/attachments/token/2bmg7tLUpaJWfBeILJqbstoQV/?name=image001.jpg\"></span><span style=\"color: black; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"color: black;\"><img border=\"0\" width=\"384\" height=\"199\" style=\"width: 4.0in; height: 2.0729in;\" src=\"https://support.pluginhive.com/attachments/token/E3Lg7WMTE80wkssjVkBfzyBmq/?name=image002.jpg\"></span><span></span></p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Good morning, \n &nbsp; \n Recent FedEx invoice is attached. \n &nbsp; \n \n Best regards, \n &nbsp; \n Natasha Scott\n| Controller\n \n nscott@ultraseat.com\n| 780.962.0411 \n  \n  \n \n &nbsp;",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56931032615705.json",
+          "id": 56931032615705,
+          "file_name": "623aa76c-ae43-4449-80b3-945df88cd548.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/dmhjhXs88p71ygdapqatfVRMN/?name=623aa76c-ae43-4449-80b3-945df88cd548.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/dmhjhXs88p71ygdapqatfVRMN/?name=623aa76c-ae43-4449-80b3-945df88cd548.pdf",
+          "content_type": "application/pdf",
+          "size": 588889,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56931032605465,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "nscott@ultraseat.com",
+              "kelly@creologic.ca",
+              "support@pluginhive.com",
+              "vimal@pluginhive.com",
+              "georgi.kichev@fedex.com",
+              "jason@creologic.ca"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T14:39:32Z",
+      "metadata": {
+        "system": {
+          "message_id": "<YQ1P288MB08983B198510C2C7753B3400D9242@YQ1P288MB0898.CANP288.PROD.OUTLOOK.COM>",
+          "email_id": "01KP3MGWDFFRF9TBQCTCQ2SNT3",
+          "raw_email_identifier": "2369120/30c6afc4-3b6a-4af6-8a9e-0594b5248003.eml",
+          "json_email_identifier": "2369120/30c6afc4-3b6a-4af6-8a9e-0594b5248003.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56931786997785,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "What is the issue here?\nMirdas",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">What is the issue here?&nbsp;<br>Mirdas&nbsp;<br></div>",
+      "plain_body": "What is the issue here?&nbsp;\nMirdas&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56931786997657,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T15:28:43Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+          "ip_address": "223.185.134.237",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

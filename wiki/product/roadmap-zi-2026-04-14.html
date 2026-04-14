@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StorePep — April 2026 Product Roadmap</title>
+<style>
+:root{
+  --now:#e74c3c;--next:#f39c12;--later:#3498db;
+  --now-bg:#fdecea;--next-bg:#fef5e7;--later-bg:#eaf2f8;
+  --bg:#f5f6fa;--card:#fff;--text:#2c3e50;--muted:#7f8c8d;--border:#e0e4e8;
+  --shadow:0 1px 4px rgba(0,0,0,.07);
+  --epic:#8e44ad;--feat:#27ae60;--rel:#e74c3c;--strat:#2980b9;
+  --tech:#16a085;--opp:#d35400;--thm:#c0392b;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;font-size:13px}
+
+/* HEADER */
+.hdr{background:linear-gradient(135deg,#1a252f 0%,#2c3e50 100%);color:#fff;padding:20px 32px;position:sticky;top:0;z-index:200;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.hdr h1{font-size:18px;font-weight:800;letter-spacing:-.3px}
+.hdr .sub{font-size:11px;opacity:.65;margin-top:2px}
+.hdr-row{display:flex;justify-content:space-between;align-items:center}
+.kpis{display:flex;gap:12px;margin-top:10px;flex-wrap:wrap}
+.kpi{background:rgba(255,255,255,.08);border-radius:8px;padding:5px 12px;min-width:100px;backdrop-filter:blur(4px)}
+.kpi b{font-size:18px;display:block;line-height:1.2}.kpi span{font-size:9px;opacity:.6;text-transform:uppercase;letter-spacing:.4px}
+
+/* TABS */
+.tabs{display:flex;background:#fff;border-bottom:2px solid var(--border);padding:0 32px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tab{padding:10px 18px;cursor:pointer;font-size:11px;font-weight:600;color:var(--muted);border-bottom:3px solid transparent;transition:.15s;white-space:nowrap;user-select:none}
+.tab:hover{color:var(--text);background:#f8f9fb}
+.tab.active{color:var(--text);border-bottom-color:var(--now)}
+.tab .dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:4px;vertical-align:middle}
+
+.ct{padding:20px 32px 60px}
+.vw{display:none}.vw.active{display:block}
+.dbox{background:#fff;border-radius:10px;padding:12px 16px;margin-bottom:16px;border-left:4px solid var(--muted);font-size:11px;color:var(--muted)}
+.dbox strong{color:var(--text)}
+
+/* BOARD */
+.board{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-bottom:20px}
+.swim{background:#fff;border-radius:10px;box-shadow:var(--shadow);overflow:hidden;min-height:160px}
+.sh{padding:10px 14px;font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.6px;display:flex;align-items:center;justify-content:space-between;color:#fff}
+.sh .cnt{background:rgba(0,0,0,.15);border-radius:8px;padding:1px 7px;font-size:10px}
+.swim[data-lane="now"] .sh{background:var(--now)}
+.swim[data-lane="next"] .sh{background:var(--next)}
+.swim[data-lane="later"] .sh{background:var(--later)}
+.sb{padding:8px;min-height:120px}
+.sb.drag-over{background:#eef3ff;outline:2px dashed #3498db;border-radius:6px}
+
+/* CARDS */
+.cd{background:var(--card);border:1px solid var(--border);border-radius:7px;padding:9px 11px;margin-bottom:7px;cursor:grab;transition:.15s;position:relative}
+.cd:hover{box-shadow:0 3px 10px rgba(0,0,0,.08);transform:translateY(-1px)}
+.cd.dragging{opacity:.35;transform:rotate(2deg)}
+.cd-t{font-size:11px;font-weight:600;margin-bottom:2px;padding-right:32px}
+.cd-d{font-size:10px;color:var(--muted);margin-bottom:5px;display:none;line-height:1.4}
+.cd.exp .cd-d{display:block}
+.cd-m{display:flex;gap:3px;flex-wrap:wrap;align-items:center}
+.cd-sc{display:flex;gap:8px;margin-top:5px;font-size:9px;padding-top:5px;border-top:1px solid #f0f0f0}
+.cd-sc .s{display:flex;align-items:center;gap:2px}
+.cd-sc .sl{color:var(--muted);font-weight:500}.cd-sc .sv{font-weight:700}
+.cd-x{position:absolute;top:6px;right:6px;width:22px;height:22px;border:1px solid var(--border);border-radius:4px;background:#fff;cursor:pointer;font-size:9px;display:flex;align-items:center;justify-content:center;color:var(--muted);line-height:1}
+.cd-x:hover{background:#f5f6fa}
+.cd-ch{margin-top:6px;padding-top:6px;border-top:1px dashed var(--border);display:none}
+.cd.exp .cd-ch{display:block}
+.ch-i{font-size:10px;padding:3px 0;border-bottom:1px solid #f8f8f8;display:flex;justify-content:space-between;align-items:center}
+.ch-i:last-child{border-bottom:none}
+.ch-id{color:var(--muted);font-weight:500;min-width:44px;font-size:9px}
+
+.bg{font-size:8px;padding:1px 5px;border-radius:3px;font-weight:600;text-transform:uppercase;letter-spacing:.2px;white-space:nowrap;display:inline-block}
+.b-ep{background:#f0e6f6;color:var(--epic)}.b-ft{background:#e8f8f0;color:var(--feat)}
+.b-rl{background:#fdecea;color:var(--rel)}.b-st{background:#e1ecf4;color:var(--strat)}
+.b-tc{background:#e0f2f1;color:var(--tech)}.b-op{background:#fbe9e7;color:var(--opp)}
+.b-tm{background:#fce4ec;color:var(--thm)}.b-tx{background:#fff3cd;color:#856404}
+.b-rv{background:#d4edda;color:#155724}.b-l3{background:#e74c3c;color:#fff}
+.b-p0{background:#c0392b;color:#fff;animation:pulse 2s infinite}.b-dl{background:#f39c12;color:#fff}
+.b-cu{background:#e8daef;color:#6c3483}.b-p1{background:#e67e22;color:#fff}
+.b-p2{background:#3498db;color:#fff}.b-new{background:#1abc9c;color:#fff}
+.b-dash{background:#9b59b6;color:#fff}.b-maint{background:#95a5a6;color:#fff}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.7}}
+
+.bw{width:46px;height:5px;background:#ecf0f1;border-radius:3px;overflow:hidden;display:inline-block;vertical-align:middle}
+.bf{height:100%;border-radius:3px}
+.pf{background:linear-gradient(90deg,#f39c12,#e74c3c)}.ef{background:linear-gradient(90deg,#3498db,#2c3e50)}.cf{background:linear-gradient(90deg,#27ae60,#16a085)}
+
+/* GANTT */
+.tlb{background:#fff;border-radius:10px;box-shadow:var(--shadow);overflow-x:auto;margin-top:16px}
+.tlt{padding:12px 16px 0;font-size:13px;font-weight:700}
+.gt{padding:12px 16px 14px}
+.gh{display:grid;border-bottom:2px solid var(--border);padding-bottom:4px;margin-bottom:2px;font-size:9px;font-weight:700;color:var(--muted);text-transform:uppercase}
+.gr{display:grid;align-items:center;padding:3px 0;border-bottom:1px solid #f5f5f5;font-size:10px;min-height:26px}
+.gr:hover{background:#fafbfc}
+.gl{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-right:6px;font-weight:500}
+.gbc{position:relative;height:16px}
+.gb{position:absolute;height:16px;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:7px;font-weight:700;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.15);transition:.3s}
+.gb.now{background:linear-gradient(135deg,#e74c3c,#c0392b)}.gb.next{background:linear-gradient(135deg,#f39c12,#e67e22)}.gb.later{background:linear-gradient(135deg,#3498db,#2980b9)}
+
+/* SLA */
+.sla-f{display:flex;align-items:center;gap:0;margin:14px 0;flex-wrap:wrap;justify-content:center}
+.sla-s{background:#fff;border:2px solid var(--border);border-radius:8px;padding:10px 14px;text-align:center;min-width:120px}
+.sla-s.cr{border-color:var(--now)}.sla-s.cr b{color:var(--now)}
+.sla-s.wn{border-color:var(--next)}.sla-s.wn b{color:var(--next)}
+.sla-s.ok{border-color:var(--feat)}.sla-s.ok b{color:var(--feat)}
+.sla-s small{font-size:9px;color:var(--muted);text-transform:uppercase;font-weight:700;letter-spacing:.3px}
+.sla-s b{font-size:16px;display:block;margin:2px 0}.sla-s .sd{font-size:8px;color:var(--muted)}
+.sla-a{font-size:18px;color:var(--border);padding:0 5px}
+
+/* RELEASE */
+.rs{background:#fff;border-radius:10px;box-shadow:var(--shadow);padding:16px;margin-bottom:16px}
+.rs h3{font-size:13px;margin-bottom:8px}
+.rr{display:grid;grid-template-columns:100px 1fr 80px 80px;gap:8px;padding:7px 0;border-bottom:1px solid #f0f0f0;font-size:11px;align-items:center;cursor:pointer}
+.rr:hover{background:#fafbfc}
+.rd{font-weight:700;color:var(--now)}
+.rsp{font-size:9px;padding:2px 8px;border-radius:10px;text-align:center;font-weight:600}
+.sp{background:#eaf2f8;color:var(--later)}.si{background:#fef5e7;color:var(--next)}.ss{background:#d5f5e3;color:#1e8449}
+
+.rdp{background:#fff;border-radius:10px;box-shadow:var(--shadow);padding:16px;margin-bottom:12px;display:none}
+.rdp.open{display:block}
+.rdp h4{font-size:13px;margin-bottom:10px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.rt{width:100%;font-size:10px;border-collapse:collapse}
+.rt th{background:#f8f9fa;padding:6px 8px;text-align:left;font-size:9px;text-transform:uppercase;color:var(--muted);font-weight:700;border-bottom:2px solid var(--border)}
+.rt td{padding:5px 8px;border-bottom:1px solid #f0f0f0}
+.rt tr:hover td{background:#fafbfc}
+
+/* THEME */
+.tg{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-bottom:20px}
+.tc{background:#fff;border-radius:10px;box-shadow:var(--shadow);overflow:hidden;cursor:pointer;transition:.15s}
+.tc:hover{box-shadow:0 4px 16px rgba(0,0,0,.1);transform:translateY(-2px)}
+.tc-h{padding:12px 14px;color:#fff;font-weight:700;font-size:12px;display:flex;justify-content:space-between;align-items:center}
+.tc-b{padding:12px 14px}
+.tc-d{font-size:10px;color:var(--muted);margin-bottom:8px;line-height:1.4}
+.tc-st{display:flex;gap:10px;margin-bottom:8px}
+.ts{text-align:center}.ts b{font-size:14px;display:block;line-height:1.2}.ts span{font-size:8px;color:var(--muted);text-transform:uppercase}
+.tc-ft{border-top:1px solid var(--border);padding-top:8px;display:none;max-height:400px;overflow-y:auto}
+.tc.exp .tc-ft{display:block}
+.tfi{font-size:10px;padding:4px 0;border-bottom:1px solid #f8f8f8;display:flex;justify-content:space-between;align-items:center;gap:6px}
+.tfi:last-child{border-bottom:none}
+.ttgl{font-size:9px;opacity:.6}
+
+/* FILTER */
+.flt{display:flex;gap:5px;margin-bottom:12px;flex-wrap:wrap}
+.fb{padding:4px 10px;border:1px solid var(--border);border-radius:14px;font-size:9px;cursor:pointer;background:#fff;font-weight:500;transition:.12s}
+.fb:hover,.fb.act{background:var(--text);color:#fff;border-color:var(--text)}
+
+.shd{font-size:15px;font-weight:700;margin:18px 0 10px;display:flex;align-items:center;gap:6px}
+
+/* SUMMARY */
+.sum-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;margin-bottom:20px}
+.sum-card{background:#fff;border-radius:10px;box-shadow:var(--shadow);padding:14px}
+.sum-card h4{font-size:12px;margin-bottom:8px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.sum-row{display:flex;justify-content:space-between;font-size:11px;padding:3px 0;border-bottom:1px solid #f8f8f8}
+.sum-row:last-child{border-bottom:none}
+
+/* SEARCH */
+.search-wrap{position:relative;margin-top:10px;max-width:420px}
+.search-input{width:100%;padding:8px 14px 8px 34px;border:1px solid rgba(255,255,255,.2);border-radius:8px;background:rgba(255,255,255,.1);color:#fff;font-size:12px;outline:none;transition:.2s}
+.search-input::placeholder{color:rgba(255,255,255,.45)}
+.search-input:focus{background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.4)}
+.search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);font-size:14px;opacity:.45;pointer-events:none}
+.search-results{position:absolute;top:100%;left:0;right:0;background:#fff;border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.18);max-height:320px;overflow-y:auto;z-index:300;display:none;margin-top:4px}
+.search-results.open{display:block}
+.sr-item{padding:8px 14px;cursor:pointer;border-bottom:1px solid #f0f0f0;transition:.1s}
+.sr-item:hover{background:#f5f6fa}
+.sr-item:last-child{border-bottom:none}
+.sr-title{font-size:11px;font-weight:600}.sr-desc{font-size:9px;color:var(--muted);margin-top:1px}
+.sr-tags{margin-top:3px;display:flex;gap:3px;flex-wrap:wrap}
+.search-clear{position:absolute;right:10px;top:50%;transform:translateY(-50%);cursor:pointer;font-size:14px;opacity:.5;color:#fff;display:none}
+.search-clear.vis{display:block}
+.search-highlight{outline:3px solid #f39c12;outline-offset:2px;animation:highlightPulse 1.5s ease-in-out 3;border-radius:7px;background:rgba(243,156,18,0.08)!important;box-shadow:0 0 12px rgba(243,156,18,0.3)}
+@keyframes highlightPulse{0%,100%{outline-color:#f39c12}50%{outline-color:#e74c3c}}
+.gantt-highlight{outline:2px solid #f39c12;background:rgba(243,156,18,.15)!important}
+.sr-count{font-size:10px;color:var(--muted);padding:6px 14px;border-bottom:1px solid var(--border);font-weight:600}
+
+@media(max-width:1200px){.board{grid-template-columns:1fr}.tabs{padding:0 12px}.ct{padding:14px}.hdr{padding:14px 12px}}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <div class="hdr-row">
+    <div>
+      <h1>StorePep Zendesk Issues Roadmap &mdash; April 2026</h1>
+      <div class="sub">Zendesk-Only View &middot; 105 ZI Issues &middot; 81 Tickets &middot; 7 Themes &middot; 3 Products</div>
+    </div>
+    <div style="text-align:right;font-size:10px;opacity:.5">Updated: 2026-04-14<br>Source: wiki/zendesk/summaries/</div>
+  </div>
+  <div style="display:flex;align-items:center;gap:16px;margin-top:10px;flex-wrap:wrap">
+    <div class="search-wrap">
+      <span class="search-icon">&#128269;</span>
+      <input class="search-input" id="globalSearch" type="text" placeholder="Search tickets, features, carriers... (e.g. #382961, DHL, PostNord, variant)">
+      <span class="search-clear" id="searchClear" onclick="clearSearch()">&times;</span>
+      <div class="search-results" id="searchResults"></div>
+    </div>
+  </div>
+  <div class="kpis">
+    <div class="kpi"><b>81</b><span>Open Tickets</span></div>
+    <div class="kpi"><b>105</b><span>ZI Issues</span></div>
+    <div class="kpi"><b>99</b><span>Shopify MCSL</span></div>
+    <div class="kpi"><b>5</b><span>WooCommerce</span></div>
+    <div class="kpi"><b>1</b><span>Magento</span></div>
+    <div class="kpi"><b>7</b><span>Themes</span></div>
+    <div class="kpi"><b>0</b><span>Ticket Goal</span></div>
+  </div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" data-tab="feature"><span class="dot" style="background:var(--feat)"></span>All Issues</div>
+  <div class="tab" data-tab="theme"><span class="dot" style="background:var(--thm)"></span>Themes</div>
+  <div class="tab" data-tab="release"><span class="dot" style="background:var(--rel)"></span>Releases</div>
+  <div class="tab" data-tab="tickets"><span class="dot" style="background:var(--opp)"></span>Tickets by Release</div>
+  <div class="tab" data-tab="byarea"><span class="dot" style="background:var(--epic)"></span>By Area</div>
+  <div class="tab" data-tab="byproduct"><span class="dot" style="background:var(--strat)"></span>By Product</div>
+</div>
+
+<div class="ct" id="app"></div>
+<script>
+// ============================================================
+// ZENDESK-ONLY ROADMAP — 105 ZI issues, no Sprint/L3
+// ============================================================
+
+const THEMES = [
+  {id:'labels', label:'Label & Document Quality', color:'#c0392b',
+   desc:'Packing slips, label generation, declared values, manifests, address validation. 23 ZI issues.',
+   target:'Zero label-related tickets', kpis:{tickets:23, pain:10, revenue:'Retention'},
+   features:['zf12','zf16','zf23','zf24','zf25','zf27','zf29','zf30','zf32','zf33','zf35','zf41','zf43','zf48','zf52','zf58','zf67','zf71','zf73','zf81','zf94','zf95','zf105']},
+  {id:'carrier', label:'Carrier Platform', color:'#2980b9',
+   desc:'Carrier services, FedEx REST migration, TLS compliance, PostNord, config gaps. 23 ZI issues.',
+   target:'All carriers current', kpis:{tickets:23, pain:8, revenue:'$$$ Expansion'},
+   features:['zf8','zf18','zf22','zf31','zf37','zf45','zf51','zf53','zf54','zf57','zf61','zf69','zf70','zf72','zf74','zf76','zf80','zf83','zf90','zf97','zf98','zf101','zf104']},
+  {id:'data', label:'Order & Product Data', color:'#27ae60',
+   desc:'Variant sync, product import, order reports, draft orders, data integrity. 21 ZI issues.',
+   target:'Zero data-loss tickets', kpis:{tickets:21, pain:8, revenue:'$$$ ARPU'},
+   features:['zf1','zf2','zf3','zf4','zf5','zf7','zf11','zf13','zf17','zf28','zf39','zf40','zf44','zf46','zf49','zf64','zf79','zf89','zf92','zf96','zf100']},
+  {id:'intl', label:'International & Customs', color:'#8e44ad',
+   desc:'Commercial invoice pipeline, HS codes, export reasons, customs declarations, returns. 14 ZI issues.',
+   target:'CI pipeline fixed', kpis:{tickets:14, pain:8, revenue:'$$ Premium'},
+   features:['zf15','zf19','zf21','zf34','zf38','zf55','zf56','zf60','zf62','zf63','zf65','zf75','zf102','zf103']},
+  {id:'onboarding', label:'Onboarding & Retention', color:'#e67e22',
+   desc:'Setup friction, carrier account creation, churn investigation, plan limits. 11 ZI issues.',
+   target:'Self-serve onboarding', kpis:{tickets:11, pain:4, revenue:'$$$ Retention'},
+   features:['zf10','zf50','zf66','zf68','zf77','zf78','zf82','zf86','zf88','zf91','zf93']},
+  {id:'rates', label:'Rates & Intelligence', color:'#d35400',
+   desc:'Rate accuracy, checkout rates, DG surcharges, tracking sync, reporting. 8 ZI issues.',
+   target:'Rate parity with carriers', kpis:{tickets:8, pain:7, revenue:'$$ Revenue'},
+   features:['zf6','zf14','zf20','zf47','zf59','zf84','zf85','zf87']},
+  {id:'requests', label:'Feature Requests', color:'#16a085',
+   desc:'Customer-requested features: address suggestion, payment filter, WorldEase, Delivro. 5 ZI issues.',
+   target:'Customer roadmap input', kpis:{tickets:5, pain:5, revenue:'Loyalty'},
+   features:['zf9','zf26','zf36','zf42','zf99']},
+];
+
+// --- ZENDESK FEATURES (105 ZI issues) ---
+const ZEN_FEATURES = {
+  zf1:{id:'zf1',title:'Variant SKU search not supported',desc:'#218195 — product-management',lane:'next',tags:['shopify'],pain:9,effort:3,customers:1,start:18,end:25,theme:'data',children:[{id:'#218195',t:'ZI-001'}]},
+  zf2:{id:'zf2',title:'Product sync with Shopify',desc:'#218195 — product-management',lane:'next',tags:['shopify'],pain:9,effort:3,customers:1,start:18,end:25,theme:'data',children:[{id:'#218195',t:'ZI-002'}]},
+  zf3:{id:'zf3',title:'Variant SKU search not working',desc:'#277997 — product-management',lane:'next',tags:['shopify'],pain:9,effort:3,customers:1,start:18,end:25,theme:'data',children:[{id:'#277997',t:'ZI-003'}]},
+  zf4:{id:'zf4',title:'Deleted Shopify products persist in PluginHive',desc:'#277997 — product-management',lane:'next',tags:['shopify'],pain:9,effort:3,customers:1,start:18,end:25,theme:'data',children:[{id:'#277997',t:'ZI-004'}]},
+  zf5:{id:'zf5',title:'Product name/variant changes create duplicates',desc:'#277997 — product-management',lane:'next',tags:['shopify'],pain:9,effort:3,customers:1,start:18,end:25,theme:'data',children:[{id:'#277997',t:'ZI-005'}]},
+  zf6:{id:'zf6',title:'USPS Ground Advantage Cubic service not implemented',desc:'#299137 — rate-shopping',lane:'later',tags:['shopify'],pain:7,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#299137',t:'ZI-006'}]},
+  zf7:{id:'zf7',title:'Order notes not synced after import',desc:'#304193 — order-management',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#304193',t:'ZI-007'}]},
+  zf8:{id:'zf8',title:'Automatic day-of-week Saturday Delivery handling',desc:'#306141 — carrier-config',lane:'next',tags:['shopify'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#306141',t:'ZI-008'}]},
+  zf9:{id:'zf9',title:'Per-order Saturday Delivery toggle',desc:'#306141 — feature-request',lane:'later',tags:['shopify'],pain:5,effort:3,customers:1,start:25,end:30,theme:'requests',children:[{id:'#306141',t:'ZI-009'}]},
+  zf10:{id:'zf10',title:'Subscription plans page error on Safari',desc:'#338603 — onboarding',lane:'later',tags:['shopify'],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#338603',t:'ZI-010'}]},
+  zf11:{id:'zf11',title:'COD payment type shown as Manual',desc:'#338603 — order-management',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#338603',t:'ZI-011'}]},
+  zf12:{id:'zf12',title:'End of Day manifest / SCAN sheet not available',desc:'#348049 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#348049',t:'ZI-012'}]},
+  zf13:{id:'zf13',title:'Ship To Address City missing from Order Report',desc:'#354696 — order-management',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#354696',t:'ZI-013'}]},
+  zf14:{id:'zf14',title:'Pickup date/time not available in order report',desc:'#360396 — tracking',lane:'later',tags:['shopify'],pain:4,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#360396',t:'ZI-014'}]},
+  zf15:{id:'zf15',title:'Declared/insured value resets after manual package edit',desc:'#361776 — international',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'intl',children:[{id:'#361776',t:'ZI-015'}]},
+  zf16:{id:'zf16',title:'No product-to-box mapping rules',desc:'#361776 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#361776',t:'ZI-016'}]},
+  zf17:{id:'zf17',title:'250-variant import limit',desc:'#365042 — product-management',lane:'next',tags:['shopify'],pain:9,effort:3,customers:1,start:18,end:25,theme:'data',children:[{id:'#365042',t:'ZI-017'}]},
+  zf18:{id:'zf18',title:'DPD services not appearing via EasyPost',desc:'#366630 — carrier-config',lane:'next',tags:['shopify'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#366630',t:'ZI-018'}]},
+  zf19:{id:'zf19',title:'FedEx ETD save setting unclear',desc:'#366630 — international',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'intl',children:[{id:'#366630',t:'ZI-019'}]},
+  zf20:{id:'zf20',title:'Rate comparison logic questions unanswered',desc:'#366630 — rate-shopping',lane:'later',tags:['shopify'],pain:7,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#366630',t:'ZI-020'}]},
+  zf21:{id:'zf21',title:'Enhancement: minimum customs value floor',desc:'#369144 — international',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'intl',children:[{id:'#369144',t:'ZI-021'}]},
+  zf22:{id:'zf22',title:'DHL Freight Sweden Return Service not available',desc:'#369556 — carrier-config',lane:'next',tags:['shopify'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#369556',t:'ZI-022'}]},
+  zf23:{id:'zf23',title:'DHL label address format',desc:'#369556 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#369556',t:'ZI-023'}]},
+  zf24:{id:'zf24',title:'Incorrect declared value for 0-price items',desc:'#370219 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#370219',t:'ZI-024'}]},
+  zf25:{id:'zf25',title:'Shipping charges not included in declared value',desc:'#370219 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#370219',t:'ZI-025'}]},
+  zf26:{id:'zf26',title:'Payment Type Filter (Prepaid/COD)',desc:'#370219 — feature-request',lane:'later',tags:['shopify'],pain:5,effort:3,customers:1,start:25,end:30,theme:'requests',children:[{id:'#370219',t:'ZI-026'}]},
+  zf27:{id:'zf27',title:'Multiple Tracking IDs per order (Bluedart Dart Plus)',desc:'#370219 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#370219',t:'ZI-027'}]},
+  zf28:{id:'zf28',title:'Product variant import failure',desc:'#370966 — order-management',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#370966',t:'ZI-028'}]},
+  zf29:{id:'zf29',title:'Bundle product support missing',desc:'#372492 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#372492',t:'ZI-029'}]},
+  zf30:{id:'zf30',title:'Package size auto-selection too large',desc:'#372492 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#372492',t:'ZI-030'}]},
+  zf31:{id:'zf31',title:'PostNord service updates for May 2026',desc:'#373200 — carrier-config',lane:'next',tags:['shopify'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#373200',t:'ZI-031'}]},
+  zf32:{id:'zf32',title:'Tax invoice printing on multiple pages',desc:'#373991 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#373991',t:'ZI-032'}]},
+  zf33:{id:'zf33',title:'Box name on tax invoice or pick-list',desc:'#373991 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#373991',t:'ZI-033'}]},
+  zf34:{id:'zf34',title:'Discounted price not reflected on commercial invoice',desc:'#374022 — international',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'intl',children:[{id:'#374022',t:'ZI-034'}]},
+  zf35:{id:'zf35',title:'Decimal precision on custom packing slip prices',desc:'#374851 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#374851',t:'ZI-035'}]},
+  zf36:{id:'zf36',title:'UPS WorldEase integration',desc:'#376856 — feature-request',lane:'later',tags:['shopify'],pain:5,effort:3,customers:1,start:25,end:30,theme:'requests',children:[{id:'#376856',t:'ZI-036'}]},
+  zf37:{id:'zf37',title:'Pre-packed box metafield/Shopify Flow integration',desc:'#377113 — carrier-config',lane:'next',tags:['shopify'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#377113',t:'ZI-037'}]},
+  zf38:{id:'zf38',title:'DHL Express "reason for return" field not supported',desc:'#377217 — returns',lane:'next',tags:['shopify'],pain:5,effort:3,customers:1,start:18,end:25,theme:'intl',children:[{id:'#377217',t:'ZI-038'}]},
+  zf39:{id:'zf39',title:'Externally fulfilled orders appearing in open queue',desc:'#377526 — order-management',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#377526',t:'ZI-039'}]},
+  zf40:{id:'zf40',title:'Draft orders ineligible for label generation',desc:'#377526 — order-management',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#377526',t:'ZI-040'}]},
+  zf41:{id:'zf41',title:'USPS address validation causing label failures',desc:'#377526 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#377526',t:'ZI-041'}]},
+  zf42:{id:'zf42',title:'Address suggestion feature',desc:'#377526 — feature-request',lane:'later',tags:['shopify'],pain:5,effort:3,customers:1,start:25,end:30,theme:'requests',children:[{id:'#377526',t:'ZI-042'}]},
+  zf43:{id:'zf43',title:'Packing slip sort helper',desc:'#377526 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#377526',t:'ZI-043'}]},
+  zf44:{id:'zf44',title:'Order report for historical data',desc:'#377574 — order-management',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#377574',t:'ZI-044'}]},
+  zf45:{id:'zf45',title:'BlueDart pickup token enhancement',desc:'#377574 — carrier-config',lane:'next',tags:['shopify'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#377574',t:'ZI-045'}]},
+  zf46:{id:'zf46',title:'Payment status filter',desc:'#377574 — order-management',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#377574',t:'ZI-046'}]},
+  zf47:{id:'zf47',title:'UPS Dangerous Goods rates not reflecting DG surcharge',desc:'#378176 — rate-shopping',lane:'later',tags:['shopify'],pain:7,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#378176',t:'ZI-047'}]},
+  zf48:{id:'zf48',title:'UPS domestic label Reference field enhancement',desc:'#378511 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#378511',t:'ZI-048'}]},
+  zf49:{id:'zf49',title:'Products with 100+ variants losing sync',desc:'#378513 — product-management',lane:'next',tags:['shopify'],pain:9,effort:3,customers:1,start:18,end:25,theme:'data',children:[{id:'#378513',t:'ZI-049'}]},
+  zf50:{id:'zf50',title:'USPS integration blocked by plan limit',desc:'#378513 — onboarding',lane:'later',tags:['shopify'],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#378513',t:'ZI-050'}]},
+  zf51:{id:'zf51',title:'FedEx REST declared value exceeds limit',desc:'#379042 — carrier-migration',lane:'next',tags:['shopify'],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#379042',t:'ZI-051'}]},
+  zf52:{id:'zf52',title:'Label stock 4x6 not available in REST',desc:'#379042 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#379042',t:'ZI-052'}]},
+  zf53:{id:'zf53',title:'Auto-upload documents failing in REST',desc:'#379042 — carrier-migration',lane:'next',tags:['shopify'],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#379042',t:'ZI-053'}]},
+  zf54:{id:'zf54',title:'Post-migration FedEx REST stabilization',desc:'#379098 — carrier-migration',lane:'next',tags:['shopify'],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#379098',t:'ZI-054'}]},
+  zf55:{id:'zf55',title:'Country-specific HS codes',desc:'#379784 — international',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'intl',children:[{id:'#379784',t:'ZI-055'}]},
+  zf56:{id:'zf56',title:'PostNord return label product codes',desc:'#379784 — returns',lane:'next',tags:['shopify'],pain:5,effort:3,customers:1,start:18,end:25,theme:'intl',children:[{id:'#379784',t:'ZI-056'}]},
+  zf57:{id:'zf57',title:'RoyalMail48ParcelDailyRateService missing from app',desc:'#379963 — carrier-config',lane:'next',tags:['shopify'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#379963',t:'ZI-057'}]},
+  zf58:{id:'zf58',title:'eParcel bulk label generation delay (8+ sec consistently)',desc:'#380339 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#380339',t:'ZI-058'}]},
+  zf59:{id:'zf59',title:'Australia Post international tracking not syncing to Shopify',desc:'#380339 — tracking',lane:'later',tags:['shopify'],pain:4,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#380339',t:'ZI-059'}]},
+  zf60:{id:'zf60',title:'HS code editing at package level',desc:'#380339 — international',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'intl',children:[{id:'#380339',t:'ZI-060'}]},
+  zf61:{id:'zf61',title:'Set Service vs Add Service rule behavior',desc:'#380339 — carrier-config',lane:'next',tags:['shopify'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#380339',t:'ZI-061'}]},
+  zf62:{id:'zf62',title:'Shipment type classification per order',desc:'#380339 — international',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'intl',children:[{id:'#380339',t:'ZI-062'}]},
+  zf63:{id:'zf63',title:'Custom declaration statement on FedEx commercial invoice not available',desc:'#380784 — international',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'intl',children:[{id:'#380784',t:'ZI-063'}]},
+  zf64:{id:'zf64',title:'Product variants added after initial setup not auto-imported',desc:'#381087 — product-management',lane:'next',tags:['shopify'],pain:9,effort:3,customers:1,start:18,end:25,theme:'data',children:[{id:'#381087',t:'ZI-064'}]},
+  zf65:{id:'zf65',title:'DHL Export Declaration Surcharge incorrectly applied for Japan shipments',desc:'#381261 — international',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'intl',children:[{id:'#381261',t:'ZI-065'}]},
+  zf66:{id:'zf66',title:'Customer unable to create BlueDart account',desc:'#381283 — onboarding',lane:'later',tags:['shopify'],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#381283',t:'ZI-066'}]},
+  zf67:{id:'zf67',title:'Cleanup button missing in new UI',desc:'#381380 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#381380',t:'ZI-067'}]},
+  zf68:{id:'zf68',title:'Custom plan ($150/year, 4000 shipments) not yet created',desc:'#381931 — onboarding',lane:'later',tags:['shopify'],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#381931',t:'ZI-068'}]},
+  zf69:{id:'zf69',title:'FedEx box dimensions not printed on labels after REST migration',desc:'#382009 — carrier-migration',lane:'next',tags:['shopify'],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#382009',t:'ZI-069'}]},
+  zf70:{id:'zf70',title:'PO Box automation rule behavior after migration',desc:'#382009 — carrier-migration',lane:'next',tags:['shopify'],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#382009',t:'ZI-070'}]},
+  zf71:{id:'zf71',title:'Packing slip does not show selected package size',desc:'#382009 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#382009',t:'ZI-071'}]},
+  zf72:{id:'zf72',title:'FedEx `/documents/v1/etds/multiupload` endpoint failing in production',desc:'#382188 — carrier-migration',lane:'next',tags:['shopify'],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#382188',t:'ZI-072'}]},
+  zf73:{id:'zf73',title:'Can product details (qty, SKU, description) be shown on shipping labels?',desc:'#382393 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#382393',t:'ZI-073'}]},
+  zf74:{id:'zf74',title:'FedEx One Rate returned instead of negotiated rates after REST migration',desc:'#382425 — carrier-migration',lane:'next',tags:['shopify'],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#382425',t:'ZI-074'}]},
+  zf75:{id:'zf75',title:'App prints incorrect Country of Manufacture on CN22 customs documents',desc:'#382694 — international',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'intl',children:[{id:'#382694',t:'ZI-075'}]},
+  zf76:{id:'zf76',title:'Australia Post TLS 1.0/1.1 deprecation compliance',desc:'#382780 — carrier-config',lane:'next',tags:['shopify'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#382780',t:'ZI-076'}]},
+  zf77:{id:'zf77',title:'Blue Dart label generation failing',desc:'#382795 — onboarding',lane:'later',tags:['shopify'],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#382795',t:'ZI-077'}]},
+  zf78:{id:'zf78',title:'Onboarding call pending',desc:'#382935 — onboarding',lane:'later',tags:['shopify'],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#382935',t:'ZI-078'}]},
+  zf79:{id:'zf79',title:'Orders move to "Not to Ship" on refresh when OCU post-purchase upsell modifies t',desc:'#382961 — order-management',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#382961',t:'ZI-079'}]},
+  zf80:{id:'zf80',title:'FedEx REST API registration failing',desc:'#382982 — carrier-migration',lane:'next',tags:['shopify'],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#382982',t:'ZI-080'}]},
+  zf81:{id:'zf81',title:'"Amount is a required field" error on order #18501',desc:'#382987 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#382987',t:'ZI-081'}]},
+  zf82:{id:'zf82',title:'Onboarding call pending',desc:'#382999 — onboarding',lane:'later',tags:['shopify'],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#382999',t:'ZI-082'}]},
+  zf83:{id:'zf83',title:'Australia Post TLS 1.0/1.1 deprecation compliance',desc:'#383002 — carrier-config',lane:'next',tags:['shopify'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#383002',t:'ZI-083'}]},
+  zf84:{id:'zf84',title:'Shipping rates not displaying at checkout',desc:'#383093 — rate-shopping',lane:'later',tags:['shopify'],pain:7,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#383093',t:'ZI-084'}]},
+  zf85:{id:'zf85',title:'350-item quantity limit too low',desc:'#383093 — rate-shopping',lane:'later',tags:['shopify'],pain:7,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#383093',t:'ZI-085'}]},
+  zf86:{id:'zf86',title:'Demo call scheduling for 2026-04-14',desc:'#383103 — onboarding',lane:'later',tags:['shopify'],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#383103',t:'ZI-086'}]},
+  zf87:{id:'zf87',title:'FedEx rate mismatch between app and FedEx portal',desc:'#383114 — rate-shopping',lane:'later',tags:['shopify'],pain:7,effort:3,customers:1,start:25,end:30,theme:'rates',children:[{id:'#383114',t:'ZI-087'}]},
+  zf88:{id:'zf88',title:'Onboarding call pending',desc:'#383148 — onboarding',lane:'later',tags:['shopify'],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#383148',t:'ZI-088'}]},
+  zf89:{id:'zf89',title:'Order page integration issue',desc:'#383243 — order-management',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#383243',t:'ZI-089'}]},
+  zf90:{id:'zf90',title:'Second pre-call issue',desc:'#383243 — carrier-config',lane:'next',tags:['shopify'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#383243',t:'ZI-090'}]},
+  zf91:{id:'zf91',title:'Onboarding call and UPS setup',desc:'#383273 — onboarding',lane:'later',tags:['shopify'],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#383273',t:'ZI-091'}]},
+  zf92:{id:'zf92',title:'Shipping class/product category sync failure',desc:'#383437 — product-management',lane:'next',tags:['shopify'],pain:9,effort:3,customers:1,start:18,end:25,theme:'data',children:[{id:'#383437',t:'ZI-092'}]},
+  zf93:{id:'zf93',title:'Churn investigation for high-volume customer',desc:'#383729 — onboarding',lane:'later',tags:['shopify'],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#383729',t:'ZI-093'}]},
+  zf94:{id:'zf94',title:'Custom description not printed for multi-product orders on UPS labels',desc:'#377795 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#377795',t:'ZI-094'}]},
+  zf95:{id:'zf95',title:'UPS 50-character description field limit',desc:'#377795 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#377795',t:'ZI-095'}]},
+  zf96:{id:'zf96',title:'WooCommerce order sync blocked by Cloudflare security challenge',desc:'#378589 — order-management',lane:'now',tags:['woocommerce'],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#378589',t:'ZI-096'}]},
+  zf97:{id:'zf97',title:'Canpar Adult Signature (SA) service support',desc:'#379378 — carrier-config',lane:'next',tags:['woocommerce'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#379378',t:'ZI-097'}]},
+  zf98:{id:'zf98',title:'PostNL service code 6942 (Boxable Track & Trace) not available',desc:'#379796 — carrier-config',lane:'next',tags:['magento'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#379796',t:'ZI-098'}]},
+  zf99:{id:'zf99',title:'Delivro carrier integration request',desc:'#381046 — feature-request',lane:'later',tags:['woocommerce'],pain:5,effort:3,customers:1,start:25,end:30,theme:'requests',children:[{id:'#381046',t:'ZI-099'}]},
+  zf100:{id:'zf100',title:'WooCommerce order auto-import broken',desc:'#382848 — order-management',lane:'now',tags:['woocommerce'],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#382848',t:'ZI-100'}]},
+  zf101:{id:'zf101',title:'FedEx account registration failing (WooCommerce)',desc:'#383509 — carrier-config',lane:'next',tags:['woocommerce'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#383509',t:'ZI-101'}]},
+  zf102:{id:'zf102',title:'FedEx label generation blocked by invalid CNPJ/CPF for Brazil shipment',desc:'#383746 — international',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'intl',children:[{id:'#383746',t:'ZI-102'}]},
+  zf103:{id:'zf103',title:'Commercial invoice currency shows EUR instead of recipient currency',desc:'#383757 — international',lane:'now',tags:['shopify'],pain:8,effort:3,customers:1,start:13,end:21,theme:'intl',children:[{id:'#383757',t:'ZI-103'}]},
+  zf104:{id:'zf104',title:'UPS Digital Connections partnership follow-up pending',desc:'#383817 — carrier-config',lane:'next',tags:['shopify'],pain:8,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#383817',t:'ZI-104'}]},
+  zf105:{id:'zf105',title:'Multiple label generation failures forcing manual shipments',desc:'#383835 — label-generation',lane:'now',tags:['shopify'],pain:10,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#383835',t:'ZI-105'}]},
+};
+
+const ALL_FEATURES = ZEN_FEATURES;
+
+
+const app = document.getElementById('app');
+const FD=13, TD=18;
+
+function pb(v){return `<span class="bw"><span class="bf pf" style="width:${v*10}%"></span></span>${v}`}
+function eb(v){return `<span class="bw"><span class="bf ef" style="width:${v*10}%"></span></span>${v}`}
+function cb(v,m){return `<span class="bw"><span class="bf cf" style="width:${m?Math.min(100,v/m*100):0}%"></span></span>${v}`}
+
+function tg(tags, extra){
+  let s='';
+  if(tags.includes('shopify'))s+='<span class="bg b-ep">Shopify MCSL</span> ';
+  if(tags.includes('woocommerce'))s+='<span class="bg b-new">WooCommerce</span> ';
+  if(tags.includes('magento'))s+='<span class="bg b-dash">Magento</span> ';
+  if(extra)s+=extra;
+  return s;
+}
+
+function mkCard(item, vt, mx){
+  const c=document.createElement('div');c.className='cd';c.draggable=true;c.dataset.id=item.id;c.dataset.view=vt;
+  const th=THEMES.find(t=>t.id===item.theme);
+  const tb=th?`<span class="bg" style="background:${th.color}12;color:${th.color}">${th.label}</span> `:'';
+  let ch='';
+  if(item.children&&item.children.length){
+    ch='<div class="cd-ch">';
+    item.children.forEach(x=>{ch+=`<div class="ch-i"><div style="display:flex;gap:4px;align-items:center"><span class="ch-id">${x.id}</span><span>${x.t}</span></div></div>`});
+    ch+='</div>';
+  }
+  c.innerHTML=`
+    <div class="cd-x" onclick="this.parentElement.classList.toggle('exp');event.stopPropagation()">${item.children&&item.children.length?'&#9660;':'&bull;'}</div>
+    <div class="cd-t">${item.title}</div>
+    <div class="cd-d">${item.desc}</div>
+    <div class="cd-m">${tb}${tg(item.tags||[])}</div>
+    <div class="cd-sc">
+      <div class="s"><span class="sl">Pain</span><span class="sv">${pb(item.pain)}</span></div>
+      <div class="s"><span class="sl">Effort</span><span class="sv">${eb(item.effort)}</span></div>
+    </div>
+    ${ch}`;
+  c.addEventListener('dragstart',e=>{c.classList.add('dragging');e.dataTransfer.setData('text/plain',item.id);e.dataTransfer.setData('view',vt)});
+  c.addEventListener('dragend',()=>{c.classList.remove('dragging');document.querySelectorAll('.drag-over').forEach(el=>el.classList.remove('drag-over'))});
+  return c;
+}
+
+function renderBoard(cid, items, vt){
+  const el=document.getElementById(cid);if(!el)return;
+  const lanes={now:[],next:[],later:[]};items.forEach(i=>lanes[i.lane].push(i));
+  const mx=Math.max(...items.map(i=>i.customers||0),1);
+  el.innerHTML='';
+  const board=document.createElement('div');board.className='board';
+  ['now','next','later'].forEach(lane=>{
+    const ll=lane==='now'?'NOW (Apr 13-18)':lane==='next'?'NEXT (Apr 18-25)':'LATER (Apr 25-30)';
+    const sw=document.createElement('div');sw.className='swim';sw.dataset.lane=lane;
+    sw.innerHTML=`<div class="sh"><span>${ll}</span><span class="cnt">${lanes[lane].length}</span></div>`;
+    const body=document.createElement('div');body.className='sb';body.dataset.lane=lane;body.dataset.view=vt;
+    lanes[lane].forEach(item=>body.appendChild(mkCard(item,vt,mx)));
+    body.addEventListener('dragover',e=>{e.preventDefault();body.classList.add('drag-over')});
+    body.addEventListener('dragleave',()=>body.classList.remove('drag-over'));
+    body.addEventListener('drop',e=>{
+      e.preventDefault();body.classList.remove('drag-over');
+      const cid2=e.dataTransfer.getData('text/plain'),sv=e.dataTransfer.getData('view');
+      if(sv!==vt)return;
+      const cd=document.querySelector(`.cd[data-id="${cid2}"][data-view="${vt}"]`);
+      if(cd){
+        body.appendChild(cd);
+        const it=items.find(i=>i.id===cid2);
+        if(it){
+          it.lane=lane;
+          const dur=it.end-it.start;
+          if(lane==='now'){it.start=13;it.end=Math.min(30,13+dur)}
+          else if(lane==='next'){it.start=18;it.end=Math.min(30,18+dur)}
+          else{it.start=25;it.end=Math.min(30,25+dur)}
+          renderGantt(cid+'-g',items);
+        }
+        board.querySelectorAll('.swim').forEach(s=>{s.querySelector('.cnt').textContent=s.querySelector('.sb').querySelectorAll('.cd').length});
+      }
+    });
+    sw.appendChild(body);board.appendChild(sw);
+  });
+  el.appendChild(board);
+}
+
+function renderGantt(gid, items){
+  const el=document.getElementById(gid);if(!el)return;
+  const lw=240;
+  let h=`<div class="gh" style="grid-template-columns:${lw}px repeat(${TD},1fr)"><div>Item</div>`;
+  for(let d=FD;d<=30;d++){const dw=new Date(2026,3,d).toLocaleDateString('en',{weekday:'short'});h+=`<div style="text-align:center;font-size:7px">${d}<br>${dw}</div>`}
+  h+='</div>';
+  items.forEach(it=>{
+    const so=Math.max(0,it.start-FD),eo=Math.min(TD,it.end-FD),w=eo-so;
+    const lp=(so/TD*100).toFixed(1),wp=(w/TD*100).toFixed(1);
+    h+=`<div class="gr" style="grid-template-columns:${lw}px 1fr"><div class="gl">${it.title}</div><div class="gbc"><div class="gb ${it.lane}" style="left:${lp}%;width:${wp}%" title="Apr ${it.start}-${it.end}">${it.lane.toUpperCase()}</div></div></div>`;
+  });
+  h+='<div style="font-size:8px;color:var(--muted);margin-top:4px;text-align:right">Red=NOW &middot; Orange=NEXT &middot; Blue=LATER &middot; Drag cards above to shift timeline</div>';
+  el.innerHTML=h;
+}
+
+function build(){
+  let html='';
+  const allItems = Object.values(ALL_FEATURES);
+
+  // ---- FEATURE VIEW (All Issues) ----
+  html+=`<div class="vw active" id="v-feature">`;
+  html+=`<div class="dbox"><strong>Zendesk Issues Roadmap.</strong> ${allItems.length} open issues from 81 tickets across 3 products. Filter by app, theme, or pain level. Each card shows its product app, feature area, and pain score. Drag between NOW/NEXT/LATER swimlanes to re-prioritize.</div>`;
+  html+=`<div class="flt">
+    <button class="fb act" data-filter="all">All (${allItems.length})</button>
+    <button class="fb" data-filter="shopify">Shopify MCSL (99)</button>
+    <button class="fb" data-filter="woocommerce">WooCommerce (5)</button>
+    <button class="fb" data-filter="magento">Magento (1)</button>
+    <button class="fb" data-filter="labels">Labels (23)</button>
+    <button class="fb" data-filter="carrier">Carrier (23)</button>
+    <button class="fb" data-filter="data">Data (21)</button>
+    <button class="fb" data-filter="intl">International (14)</button>
+    <button class="fb" data-filter="onboarding">Onboarding (11)</button>
+    <button class="fb" data-filter="rates">Rates (8)</button>
+    <button class="fb" data-filter="requests">Requests (5)</button>
+    <button class="fb" data-filter="high-pain">High Pain (8+)</button>
+  </div>`;
+  html+=`<div id="bd-feature"></div>`;
+  html+=`<div class="tlb"><div class="tlt">Issues Timeline</div><div class="gt" id="bd-feature-g"></div></div>`;
+  html+=`</div>`;
+
+  // ---- THEME VIEW ----
+  html+=`<div class="vw" id="v-theme">`;
+  html+=`<div class="dbox"><strong>Theme Roadmap.</strong> 7 themes derived from Zendesk issue areas. Click any theme to drill down into features. Each feature is tagged with its product app name (Shopify MCSL, WooCommerce, Magento).</div>`;
+  html+=`<div class="tg">`;
+  THEMES.forEach(theme=>{
+    const feats=theme.features.map(fid=>ALL_FEATURES[fid]).filter(Boolean);
+    const avgP=feats.length?(feats.reduce((a,f)=>a+f.pain,0)/feats.length).toFixed(1):'0';
+    html+=`<div class="tc" onclick="this.classList.toggle('exp')">
+      <div class="tc-h" style="background:${theme.color}"><span>${theme.label}</span><span class="ttgl">&#9660; ${feats.length} features</span></div>
+      <div class="tc-b">
+        <div class="tc-d">${theme.desc}</div>
+        <div class="tc-st">
+          <div class="ts"><b>${theme.kpis.tickets}</b><span>Issues</span></div>
+          <div class="ts"><b>${avgP}</b><span>Avg Pain</span></div>
+          <div class="ts"><b>${theme.kpis.revenue}</b><span>Revenue</span></div>
+        </div>
+        <div style="font-size:9px;color:var(--muted)"><strong>Target:</strong> ${theme.target}</div>
+        <div class="tc-ft">
+          <div style="font-size:9px;font-weight:700;color:var(--muted);text-transform:uppercase;margin-bottom:4px;margin-top:4px">Issues (${feats.length})</div>`;
+    feats.forEach(f=>{
+      const appTag = (f.tags||[]).includes('woocommerce')?'WooCommerce':(f.tags||[]).includes('magento')?'Magento':'Shopify MCSL';
+      const appBg = appTag==='WooCommerce'?'b-new':appTag==='Magento'?'b-dash':'b-ep';
+      html+=`<div class="tfi">
+        <div style="flex:1"><strong>${f.title}</strong></div>
+        <div style="display:flex;gap:6px;font-size:8px;align-items:center;flex-shrink:0">
+          <span class="bg ${appBg}">${appTag}</span>
+          <span>P:${pb(f.pain)}</span>
+        </div>
+      </div>`;
+    });
+    html+=`</div></div></div>`;
+  });
+  html+=`</div>`;
+
+  // Theme summary table
+  html+=`<div class="rs"><h3>Theme Summary</h3><table class="rt"><thead><tr><th>Theme</th><th>Issues</th><th>Avg Pain</th><th>Revenue</th><th>Target</th></tr></thead><tbody>`;
+  THEMES.forEach(theme=>{
+    const feats=theme.features.map(fid=>ALL_FEATURES[fid]).filter(Boolean);
+    const avgP=feats.length?(feats.reduce((a,f)=>a+f.pain,0)/feats.length).toFixed(1):'0';
+    html+=`<tr><td><span class="bg" style="background:${theme.color}15;color:${theme.color}">${theme.label}</span></td><td>${feats.length}</td><td>${pb(parseFloat(avgP))}</td><td><span class="bg b-rv">${theme.kpis.revenue}</span></td><td style="font-size:10px">${theme.target}</td></tr>`;
+  });
+  html+=`</tbody></table></div></div>`;
+
+  // ---- RELEASE VIEW ----
+  const RELEASES = [
+    {date:'Apr 13-16', name:'Week 1: Critical Fixes', start:13, end:16, filter:i=>i.lane==='now'&&i.pain>=10},
+    {date:'Apr 16-18', name:'Week 1b: High Pain NOW Items', start:16, end:18, filter:i=>i.lane==='now'&&i.pain>=8&&i.pain<10},
+    {date:'Apr 18-21', name:'Week 2: NEXT Priority', start:18, end:21, filter:i=>i.lane==='next'&&i.pain>=8},
+    {date:'Apr 21-25', name:'Week 2b: NEXT Remaining', start:21, end:25, filter:i=>i.lane==='next'&&i.pain<8},
+    {date:'Apr 25-30', name:'Week 3: LATER Items', start:25, end:30, filter:i=>i.lane==='later'},
+  ];
+  const relItems = RELEASES.map(r=>({...r, issues: allItems.filter(r.filter)}));
+
+  html+=`<div class="vw" id="v-release">`;
+  html+=`<div class="dbox"><strong>Release Schedule.</strong> ZI issues grouped into 5 release windows based on lane and pain score. Each release shows ticket count, issue count, and breakdown by theme and product app.</div>`;
+  relItems.forEach((r,idx)=>{
+    const byTheme={};const byProduct={};
+    r.issues.forEach(i=>{
+      const th=THEMES.find(t=>t.id===i.theme);
+      const tn=th?th.label:'Other';
+      byTheme[tn]=(byTheme[tn]||0)+1;
+      const app=(i.tags||[]).includes('woocommerce')?'WooCommerce':(i.tags||[]).includes('magento')?'Magento':'Shopify MCSL';
+      byProduct[app]=(byProduct[app]||0)+1;
+    });
+    const tickets=new Set(r.issues.map(i=>i.children?.[0]?.id).filter(Boolean));
+    const avgP=r.issues.length?(r.issues.reduce((a,i)=>a+i.pain,0)/r.issues.length).toFixed(1):'0';
+    html+=`<div class="rs"><h3>${r.date}: ${r.name}</h3>`;
+    html+=`<div style="display:flex;gap:16px;margin-bottom:10px;font-size:11px">
+      <div><strong>${r.issues.length}</strong> issues</div>
+      <div><strong>${tickets.size}</strong> tickets</div>
+      <div>Avg pain: <strong>${avgP}</strong></div>
+    </div>`;
+    html+=`<div style="display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap">`;
+    Object.entries(byProduct).sort((a,b)=>b[1]-a[1]).forEach(([p,c])=>{
+      const bg=p==='WooCommerce'?'b-new':p==='Magento'?'b-dash':'b-ep';
+      html+=`<span class="bg ${bg}">${p}: ${c}</span>`;
+    });
+    Object.entries(byTheme).sort((a,b)=>b[1]-a[1]).forEach(([t,c])=>{
+      const th=THEMES.find(x=>x.label===t);
+      const col=th?th.color:'#7f8c8d';
+      html+=`<span class="bg" style="background:${col}15;color:${col}">${t}: ${c}</span>`;
+    });
+    html+=`</div>`;
+    html+=`<table class="rt"><thead><tr><th>ZI ID</th><th>Issue</th><th>Ticket</th><th>App</th><th>Area</th><th>Pain</th></tr></thead><tbody>`;
+    r.issues.forEach(i=>{
+      const zi=i.children?.[0]?.t||'';
+      const ticket=i.children?.[0]?.id||'';
+      const app=(i.tags||[]).includes('woocommerce')?'WooCommerce':(i.tags||[]).includes('magento')?'Magento':'Shopify MCSL';
+      const appBg=app==='WooCommerce'?'b-new':app==='Magento'?'b-dash':'b-ep';
+      const area=i.desc.split(' — ')[1]||'';
+      html+=`<tr><td><strong>${zi}</strong></td><td>${i.title}</td><td>${ticket}</td><td><span class="bg ${appBg}">${app}</span></td><td>${area}</td><td>${pb(i.pain)}</td></tr>`;
+    });
+    html+=`</tbody></table></div>`;
+  });
+  // Release gantt
+  const rg=relItems.map((r,i)=>({id:'r'+i,title:r.name+' ('+r.issues.length+')',start:r.start,end:r.end,lane:r.start<=18?'now':r.start<=25?'next':'later'}));
+  html+=`<div class="tlb"><div class="tlt">Release Timeline</div><div class="gt" id="g-release"></div></div>`;
+  html+=`</div>`;
+
+  // ---- TICKETS BY RELEASE VIEW ----
+  html+=`<div class="vw" id="v-tickets">`;
+  html+=`<div class="dbox"><strong>Ticket Numbers by Release.</strong> Unique Zendesk ticket numbers grouped by release window. Use this to find which tickets ship in which release. Type in the search box below to filter by ticket number, ZI ID, issue title, app, or theme.</div>`;
+  html+=`<div style="margin-bottom:14px"><input id="ticketSearch" type="text" placeholder="Filter tickets... (e.g. #382961, ZI-079, DHL, WooCommerce, label)" style="width:100%;max-width:480px;padding:8px 14px;border:1px solid var(--border);border-radius:8px;font-size:12px;outline:none"></div>`;
+  html+=`<div class="sum-grid" id="ticketCards">`;
+  relItems.forEach(r=>{
+    const ticketMap={};
+    r.issues.forEach(i=>{
+      const tid=i.children?.[0]?.id||'';
+      const zi=i.children?.[0]?.t||'';
+      if(tid&&!ticketMap[tid])ticketMap[tid]=[];
+      if(tid)ticketMap[tid].push(zi);
+    });
+    const entries=Object.entries(ticketMap).sort((a,b)=>a[0].localeCompare(b[0]));
+    html+=`<div class="sum-card tkt-card" style="min-width:300px"><h4>${r.date}: ${r.name}</h4>`;
+    html+=`<div style="font-size:10px;color:var(--muted);margin-bottom:6px">${entries.length} unique tickets, ${r.issues.length} issues</div>`;
+    entries.forEach(([tid,zis])=>{
+      html+=`<div class="sum-row tkt-row" data-search="${tid} ${zis.join(' ')}"><span>${tid}</span><b style="font-size:9px">${zis.join(', ')}</b></div>`;
+    });
+    html+=`</div>`;
+  });
+  html+=`</div>`;
+  // Full ticket index table
+  html+=`<div class="rs"><h3>Complete Ticket Index</h3>`;
+  html+=`<table class="rt"><thead><tr><th>Ticket</th><th>Issues</th><th>Release</th><th>App</th><th>Themes</th><th>Max Pain</th></tr></thead><tbody>`;
+  const ticketIndex={};
+  relItems.forEach((r,ri)=>{
+    r.issues.forEach(i=>{
+      const tid=i.children?.[0]?.id||'';
+      if(!tid)return;
+      if(!ticketIndex[tid])ticketIndex[tid]={issues:[],release:r.date,maxPain:0,apps:new Set(),themes:new Set()};
+      ticketIndex[tid].issues.push(i.children?.[0]?.t||'');
+      ticketIndex[tid].maxPain=Math.max(ticketIndex[tid].maxPain,i.pain);
+      const app=(i.tags||[]).includes('woocommerce')?'WooCommerce':(i.tags||[]).includes('magento')?'Magento':'Shopify MCSL';
+      ticketIndex[tid].apps.add(app);
+      const th=THEMES.find(t=>t.id===i.theme);
+      if(th)ticketIndex[tid].themes.add(th.label);
+    });
+  });
+  Object.entries(ticketIndex).sort((a,b)=>b[1].maxPain-a[1].maxPain).forEach(([tid,data])=>{
+    const appBgs=[...data.apps].map(a=>{const bg=a==='WooCommerce'?'b-new':a==='Magento'?'b-dash':'b-ep';return `<span class="bg ${bg}">${a}</span>`}).join(' ');
+    const themeBgs=[...data.themes].map(t=>{const th=THEMES.find(x=>x.label===t);const col=th?th.color:'#999';return `<span class="bg" style="background:${col}15;color:${col}">${t}</span>`}).join(' ');
+    const searchText=[tid,data.issues.join(' '),data.release,[...data.apps].join(' '),[...data.themes].join(' ')].join(' ').toLowerCase();
+    html+=`<tr class="tkt-idx-row" data-search="${searchText}"><td><strong>${tid}</strong></td><td style="font-size:9px">${data.issues.join(', ')}</td><td>${data.release}</td><td>${appBgs}</td><td>${themeBgs}</td><td>${pb(data.maxPain)}</td></tr>`;
+  });
+  html+=`</tbody></table></div></div>`;
+
+  // ---- BY AREA VIEW ----
+  html+=`<div class="vw" id="v-byarea">`;
+  html+=`<div class="dbox"><strong>Issues by Feature Area.</strong> All 105 ZI issues grouped by their feature area. Shows issue density and pain per area.</div>`;
+  const areas={};
+  allItems.forEach(i=>{const a=i.desc.split(' — ')[1]||'other';if(!areas[a])areas[a]=[];areas[a].push(i)});
+  Object.entries(areas).sort((a,b)=>b[1].length-a[1].length).forEach(([area,items])=>{
+    const avgP=(items.reduce((a,i)=>a+i.pain,0)/items.length).toFixed(1);
+    const tickets=new Set(items.map(i=>i.children?.[0]?.id).filter(Boolean));
+    html+=`<div class="rs"><h3>${area} <span style="font-size:11px;color:var(--muted)">(${items.length} issues, ${tickets.size} tickets, avg pain ${avgP})</span></h3>`;
+    html+=`<table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Pain</th><th>Lane</th></tr></thead><tbody>`;
+    items.sort((a,b)=>b.pain-a.pain).forEach(i=>{
+      const zi=i.children?.[0]?.t||'';const tid=i.children?.[0]?.id||'';
+      const app=(i.tags||[]).includes('woocommerce')?'WooCommerce':(i.tags||[]).includes('magento')?'Magento':'Shopify MCSL';
+      const appBg=app==='WooCommerce'?'b-new':app==='Magento'?'b-dash':'b-ep';
+      const laneBg=i.lane==='now'?'b-rl':i.lane==='next'?'b-dl':'b-st';
+      html+=`<tr><td><strong>${zi}</strong></td><td>${i.title}</td><td>${tid}</td><td><span class="bg ${appBg}">${app}</span></td><td>${pb(i.pain)}</td><td><span class="bg ${laneBg}">${i.lane.toUpperCase()}</span></td></tr>`;
+    });
+    html+=`</tbody></table></div>`;
+  });
+  html+=`</div>`;
+
+  // ---- BY PRODUCT VIEW ----
+  html+=`<div class="vw" id="v-byproduct">`;
+  html+=`<div class="dbox"><strong>Issues by Product App.</strong> All ZI issues grouped by product (Shopify MCSL, WooCommerce, Magento). Shows issue distribution and pain per product.</div>`;
+  const products={};
+  allItems.forEach(i=>{const p=(i.tags||[]).includes('woocommerce')?'WooCommerce':(i.tags||[]).includes('magento')?'Magento':'Shopify MCSL';if(!products[p])products[p]=[];products[p].push(i)});
+  Object.entries(products).sort((a,b)=>b[1].length-a[1].length).forEach(([prod,items])=>{
+    const avgP=(items.reduce((a,i)=>a+i.pain,0)/items.length).toFixed(1);
+    const tickets=new Set(items.map(i=>i.children?.[0]?.id).filter(Boolean));
+    const byTheme={};items.forEach(i=>{const th=THEMES.find(t=>t.id===i.theme);const tn=th?th.label:'Other';byTheme[tn]=(byTheme[tn]||0)+1});
+    const appBg=prod==='WooCommerce'?'b-new':prod==='Magento'?'b-dash':'b-ep';
+    html+=`<div class="rs"><h3><span class="bg ${appBg}">${prod}</span> <span style="font-size:11px;color:var(--muted)">(${items.length} issues, ${tickets.size} tickets, avg pain ${avgP})</span></h3>`;
+    html+=`<div style="display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap">`;
+    Object.entries(byTheme).sort((a,b)=>b[1]-a[1]).forEach(([t,c])=>{
+      const th=THEMES.find(x=>x.label===t);const col=th?th.color:'#7f8c8d';
+      html+=`<span class="bg" style="background:${col}15;color:${col}">${t}: ${c}</span>`;
+    });
+    html+=`</div>`;
+    html+=`<table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>Area</th><th>Theme</th><th>Pain</th><th>Lane</th></tr></thead><tbody>`;
+    items.sort((a,b)=>b.pain-a.pain).forEach(i=>{
+      const zi=i.children?.[0]?.t||'';const tid=i.children?.[0]?.id||'';
+      const area=i.desc.split(' — ')[1]||'';
+      const th=THEMES.find(t=>t.id===i.theme);const thLabel=th?th.label:'';const col=th?th.color:'#999';
+      const laneBg=i.lane==='now'?'b-rl':i.lane==='next'?'b-dl':'b-st';
+      html+=`<tr><td><strong>${zi}</strong></td><td>${i.title}</td><td>${tid}</td><td>${area}</td><td><span class="bg" style="background:${col}15;color:${col}">${thLabel}</span></td><td>${pb(i.pain)}</td><td><span class="bg ${laneBg}">${i.lane.toUpperCase()}</span></td></tr>`;
+    });
+    html+=`</tbody></table></div>`;
+  });
+  html+=`</div>`;
+
+  app.innerHTML=html;
+
+  // Render board + gantt
+  renderBoard('bd-feature', allItems, 'feature');
+  renderGantt('bd-feature-g', allItems);
+  renderGantt('g-release', rg);
+
+  // Filters (by app AND by theme)
+  document.querySelectorAll('#v-feature .fb').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      document.querySelectorAll('#v-feature .fb').forEach(b=>b.classList.remove('act'));
+      btn.classList.add('act');
+      const f=btn.dataset.filter;
+      document.querySelectorAll('#bd-feature .cd').forEach(card=>{
+        const id=card.dataset.id, it=ALL_FEATURES[id];
+        if(!it){card.style.display='';return}
+        if(f==='all') card.style.display='';
+        else if(f==='shopify') card.style.display=(it.tags||[]).includes('shopify')?'':'none';
+        else if(f==='woocommerce') card.style.display=(it.tags||[]).includes('woocommerce')?'':'none';
+        else if(f==='magento') card.style.display=(it.tags||[]).includes('magento')?'':'none';
+        else if(f==='high-pain') card.style.display=it.pain>=8?'':'none';
+        else card.style.display=it.theme===f?'':'none';
+      });
+    });
+  });
+
+  // Ticket search filter
+  const tktSearch = document.getElementById('ticketSearch');
+  if(tktSearch){
+    tktSearch.addEventListener('input',()=>{
+      const q=tktSearch.value.trim().toLowerCase();
+      // Filter sum-card rows
+      document.querySelectorAll('.tkt-row').forEach(row=>{
+        const s=row.dataset.search||'';
+        row.style.display=(!q||s.toLowerCase().includes(q))?'':'none';
+      });
+      // Show/hide cards that have zero visible rows
+      document.querySelectorAll('.tkt-card').forEach(card=>{
+        const visibleRows=[...card.querySelectorAll('.tkt-row')].filter(r=>r.style.display!=='none');
+        card.style.display=(!q||visibleRows.length>0)?'':'none';
+      });
+      // Filter ticket index table rows
+      document.querySelectorAll('.tkt-idx-row').forEach(row=>{
+        const s=row.dataset.search||'';
+        row.style.display=(!q||s.includes(q))?'':'none';
+      });
+    });
+  }
+}
+
+// Tab switching
+document.querySelectorAll('.tab').forEach(tab=>{
+  tab.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+    document.querySelectorAll('.vw').forEach(v=>v.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('v-'+tab.dataset.tab).classList.add('active');
+  });
+});
+
+// Search
+const searchInput = document.getElementById('globalSearch');
+const searchResults = document.getElementById('searchResults');
+const searchClear = document.getElementById('searchClear');
+let searchTimeout = null;
+
+function buildSearchIndex(){
+  const idx=[];
+  Object.values(ALL_FEATURES).forEach(f=>{
+    const app=(f.tags||[]).includes('woocommerce')?'WooCommerce':(f.tags||[]).includes('magento')?'Magento':'Shopify MCSL';
+    let text=[f.id,f.title,f.desc,(f.tags||[]).join(' '),f.theme||'',app].join(' ');
+    if(f.children)f.children.forEach(c=>{text+=' '+c.id+' '+c.t});
+    idx.push({type:'feature',id:f.id,title:f.title,desc:f.desc+' — '+app,tags:f.tags||[],text:text.toLowerCase(),item:f});
+  });
+  THEMES.forEach(t=>{
+    const text=[t.id,t.label,t.desc,t.target,t.features.join(' ')].join(' ').toLowerCase();
+    idx.push({type:'theme',id:t.id,title:t.label,desc:t.desc,tags:[],text:text,themeData:t});
+  });
+  return idx;
+}
+const SEARCH_IDX=buildSearchIndex();
+
+searchInput.addEventListener('input',()=>{
+  clearTimeout(searchTimeout);
+  const q=searchInput.value.trim().toLowerCase();
+  searchClear.classList.toggle('vis',q.length>0);
+  if(q.length<2){searchResults.classList.remove('open');clearHighlights();return}
+  searchTimeout=setTimeout(()=>{
+    const matches=SEARCH_IDX.filter(i=>i.text.includes(q)).slice(0,15);
+    if(!matches.length){searchResults.innerHTML='<div class="sr-count">No results</div>';searchResults.classList.add('open');clearHighlights();return}
+    let h=`<div class="sr-count">${matches.length} result${matches.length>1?'s':''}</div>`;
+    matches.forEach(m=>{
+      h+=`<div class="sr-item" data-id="${m.id}" data-type="${m.type}"><div class="sr-title">${m.title}</div><div class="sr-desc">${m.desc}</div></div>`;
+    });
+    searchResults.innerHTML=h;searchResults.classList.add('open');
+    highlightCards(matches);
+    searchResults.querySelectorAll('.sr-item').forEach(si=>{
+      si.addEventListener('click',()=>{
+        const card=document.querySelector(`.cd[data-id="${si.dataset.id}"]`);
+        if(card){card.scrollIntoView({behavior:'smooth',block:'center'});card.classList.add('exp')}
+        searchResults.classList.remove('open');
+      });
+    });
+  },200);
+});
+
+function highlightCards(matches){
+  clearHighlights();
+  const ids=new Set(matches.filter(m=>m.type==='feature').map(m=>m.id));
+  document.querySelectorAll('.cd').forEach(card=>{
+    if(ids.has(card.dataset.id))card.classList.add('search-highlight');
+    else card.style.opacity='0.3';
+  });
+}
+function clearHighlights(){
+  document.querySelectorAll('.cd').forEach(c=>{c.classList.remove('search-highlight');c.style.opacity=''});
+}
+window.clearSearch=function(){searchInput.value='';searchResults.classList.remove('open');searchClear.classList.remove('vis');clearHighlights()};
+document.addEventListener('click',e=>{if(!e.target.closest('.search-wrap'))searchResults.classList.remove('open')});
+
+build();
+
+</script>
+</body>
+</html>

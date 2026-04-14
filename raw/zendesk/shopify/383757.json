@@ -1,0 +1,450 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/383757.json",
+    "id": 383757,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-04-13T08:56:23Z",
+    "updated_at": "2026-04-13T15:29:21Z",
+    "generated_timestamp": 1776094161,
+    "type": null,
+    "subject": "Hello,\n\nI hope you are doing well.\n\nI am currently...",
+    "raw_subject": "Hello,\n\nI hope you are doing well.\n\nI am currently...",
+    "description": "Hello,\n\nI hope you are doing well.\n\nI am currently experiencing an issue with the FedEx label configuration in your app.\n\nFor FedEx, I only have the options to generate labels as PDF or Print, and both formats are not working correctly. The label only covers about half of the page, leaving a large amount of white space, which is not usable for our workflow.\n\nWhat I actually need is the ZPL label format, as we are using a thermal printer. However, the ZPL option is not available for FedEx in my settings.\n\nInterestingly, for UPS, the ZPL option is available and works perfectly, with labels printing correctly in the proper format.\n\nCould you please advise:\n\nHow I can enable ZPL format for FedEx, or\nWhat needs to be configured to fix this issue?\n\nThis is quite important for our shipping process, so I would appreciate your guidance.\n\nThank you in advance.\n\n\n\n------------------\nEingereicht von: https://mcsl-s.pluginhive.io/home/views/orders/summary/b1ec1a1f-1647-4d40-9a4d-cc4c397421de/fc1eb097-a1e8-48c6-87ec-ae0279f0a356/new",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 56812559440793,
+    "submitter_id": 56812559440793,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "asop-entertainment.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+41 77 207 06 47"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "WMRKG3-YLVWX",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "asop-entertainment.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+41 77 207 06 47"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56922505803289,
+      "type": "Comment",
+      "author_id": 56812559440793,
+      "body": "Hello,\n\nI hope you are doing well.\n\nI am currently experiencing an issue with the FedEx label configuration in your app.\n\nFor FedEx, I only have the options to generate labels as PDF or Print, and both formats are not working correctly. The label only covers about half of the page, leaving a large amount of white space, which is not usable for our workflow.\n\nWhat I actually need is the ZPL label format, as we are using a thermal printer. However, the ZPL option is not available for FedEx in my settings.\n\nInterestingly, for UPS, the ZPL option is available and works perfectly, with labels printing correctly in the proper format.\n\nCould you please advise:\n\nHow I can enable ZPL format for FedEx, or\nWhat needs to be configured to fix this issue?\n\nThis is quite important for our shipping process, so I would appreciate your guidance.\n\nThank you in advance.\n\n\n\n------------------\nEingereicht von: https://mcsl-s.pluginhive.io/home/views/orders/summary/b1ec1a1f-1647-4d40-9a4d-cc4c397421de/fc1eb097-a1e8-48c6-87ec-ae0279f0a356/new",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hello,</p>\n\n<p dir=\"auto\">I hope you are doing well.</p>\n\n<p dir=\"auto\">I am currently experiencing an issue with the FedEx label configuration in your app.</p>\n\n<p dir=\"auto\">For FedEx, I only have the options to generate labels as PDF or Print, and both formats are not working correctly. The label only covers about half of the page, leaving a large amount of white space, which is not usable for our workflow.</p>\n\n<p dir=\"auto\">What I actually need is the ZPL label format, as we are using a thermal printer. However, the ZPL option is not available for FedEx in my settings.</p>\n\n<p dir=\"auto\">Interestingly, for UPS, the ZPL option is available and works perfectly, with labels printing correctly in the proper format.</p>\n\n<p dir=\"auto\">Could you please advise:</p>\n\n<p dir=\"auto\">How I can enable ZPL format for FedEx, or\n<br>What needs to be configured to fix this issue?</p>\n\n<p dir=\"auto\">This is quite important for our shipping process, so I would appreciate your guidance.</p>\n\n<p dir=\"auto\">Thank you in advance.</p>\n\n<p dir=\"auto\">------------------\n<br>Eingereicht von: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/summary/b1ec1a1f-1647-4d40-9a4d-cc4c397421de/fc1eb097-a1e8-48c6-87ec-ae0279f0a356/new\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/summary/b1ec1a1f-1647-4d40-9a4d-cc4c397421de/fc1eb097-a1e8-48c6-87ec-ae0279f0a356/new</a></p></div>",
+      "plain_body": "Hello, \n\n I hope you are doing well. \n\n I am currently experiencing an issue with the FedEx label configuration in your app. \n\n For FedEx, I only have the options to generate labels as PDF or Print, and both formats are not working correctly. The label only covers about half of the page, leaving a large amount of white space, which is not usable for our workflow. \n\n What I actually need is the ZPL label format, as we are using a thermal printer. However, the ZPL option is not available for FedEx in my settings. \n\n Interestingly, for UPS, the ZPL option is available and works perfectly, with labels printing correctly in the proper format. \n\n Could you please advise: \n\n How I can enable ZPL format for FedEx, or\n\nWhat needs to be configured to fix this issue? \n\n This is quite important for our shipping process, so I would appreciate your guidance. \n\n Thank you in advance. \n\n ------------------\n\nEingereicht von: https://mcsl-s.pluginhive.io/home/views/orders/summary/b1ec1a1f-1647-4d40-9a4d-cc4c397421de/fc1eb097-a1e8-48c6-87ec-ae0279f0a356/new",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56922402817433.json",
+          "id": 56922402817433,
+          "file_name": "Unbenannt.JPG",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/Nkj5jQxqaOVc6X1uFseimkYab/?name=Unbenannt.JPG",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/Nkj5jQxqaOVc6X1uFseimkYab/?name=Unbenannt.JPG",
+          "content_type": "image/jpeg",
+          "size": 32224,
+          "width": 1682,
+          "height": 306,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56922366801689.json",
+              "id": 56922366801689,
+              "file_name": "Unbenannt_thumb.JPG",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/lm2XvxAERoOSUz1VaQ78y3AT8/?name=Unbenannt_thumb.JPG",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/lm2XvxAERoOSUz1VaQ78y3AT8/?name=Unbenannt_thumb.JPG",
+              "content_type": "image/jpeg",
+              "size": 403,
+              "width": 80,
+              "height": 15,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 56922505803161,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-04-13T08:56:23Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "213.55.243.143",
+          "location": "Zurich, ZH, Switzerland",
+          "latitude": 47.3779,
+          "longitude": 8.5236
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 56924947588505,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Switzerland Store.\nOrders - 316\nLabels - 2 in Apr\nRates - Yes\nCarrier - UPS, FedEx\nPlan - $19\nActive from 2026-04-09",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Switzerland Store.<br>Orders - 316<br>Labels - 2 in Apr<br>Rates - Yes<br>Carrier - UPS, FedEx<br>Plan - $19<br>Active from 2026-04-09<br></div>",
+      "plain_body": "Switzerland Store.\nOrders - 316\nLabels - 2 in Apr\nRates - Yes\nCarrier - UPS, FedEx\nPlan - $19\nActive from 2026-04-09",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56924947588377,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T10:11:31Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56925106349081,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Thomas,\n\nGood Day!\n\nCould you please try generating a new label with FedEx with image type as PNG and let us know if this works for you? If not, please share an order with us using which we can test your case on your store.\n\nAdditionally, for UPS, I would suggest you use Image Type as PNG as this will create a label for you which can be printed easily with a Thermal Printer.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Thomas,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>Could you please try generating a new label with FedEx with image type as PNG and let us know if this works for you? If not, please share an order with us using which we can test your case on your store.<br>&nbsp;<br>Additionally, for UPS, I would suggest you use Image Type as PNG as this will create a label for you which can be printed easily with a Thermal Printer.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Thomas,\n&nbsp;\nGood Day!\n&nbsp;\nCould you please try generating a new label with FedEx with image type as PNG and let us know if this works for you? If not, please share an order with us using which we can test your case on your store.\n&nbsp;\nAdditionally, for UPS, I would suggest you use Image Type as PNG as this will create a label for you which can be printed easily with a Thermal Printer.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56925106348953,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T10:16:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56925702316313,
+      "type": "Comment",
+      "author_id": 56812559440793,
+      "body": "Hello Touseef,\n\nGood day, and thank you for your support.\n\nI can confirm that generating the label using the PNG image type worked successfully.\n\nHowever, we have noticed an issue regarding the currency displayed on the generated documents. Currently, all values (including product price and totals) are shown in EUR, which is our store’s base currency.\n\nFor operational and compliance reasons, we would prefer that the currency on the shipping documents reflects the destination country of the order (i.e., the local currency of the recipient), rather than always displaying EUR.\n\nCould you please advise if there is a setting or configuration within the app that allows dynamic currency display based on the order’s destination? If not, is this something that can be customized or implemented?\n\nLooking forward to your guidance.\n\nThank you in advance.\n\nBest regards,\nLOUIS XVI Team",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><p dir=\"auto\">Hello Touseef,</p><p dir=\"auto\">Good day, and thank you for your support.</p><p dir=\"auto\">I can confirm that generating the label using the PNG image type worked successfully.</p><p dir=\"auto\">However, we have noticed an issue regarding the currency displayed on the generated documents. Currently, all values (including product price and totals) are shown in EUR, which is our store’s base currency.</p><p dir=\"auto\">For operational and compliance reasons, we would prefer that the currency on the shipping documents reflects the destination country of the order (i.e., the local currency of the recipient), rather than always displaying EUR.</p><p dir=\"auto\">Could you please advise if there is a setting or configuration within the app that allows dynamic currency display based on the order’s destination? If not, is this something that can be customized or implemented?</p><p dir=\"auto\">Looking forward to your guidance.</p><p dir=\"auto\">Thank you in advance.</p><p dir=\"auto\">Best regards,<br>LOUIS XVI Team</p></div><br><div></div></div>",
+      "plain_body": "Hello Touseef,  Good day, and thank you for your support.  I can confirm that generating the label using the PNG image type worked successfully.  However, we have noticed an issue regarding the currency displayed on the generated documents. Currently, all values (including product price and totals) are shown in EUR, which is our store’s base currency.  For operational and compliance reasons, we would prefer that the currency on the shipping documents reflects the destination country of the order (i.e., the local currency of the recipient), rather than always displaying EUR.  Could you please advise if there is a setting or configuration within the app that allows dynamic currency display based on the order’s destination? If not, is this something that can be customized or implemented?  Looking forward to your guidance.  Thank you in advance.  Best regards,\nLOUIS XVI Team",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56925702316185,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@louisxviwatches.com",
+            "name": "Thomas",
+            "original_recipients": [
+              "info@louisxviwatches.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T10:39:26Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAOZDNxGS_CwJiWOoN5vZ8VHFRtNsUA8ejHP9WGCTyS60P7UFvg@mail.gmail.com>",
+          "email_id": "01KP36SD4AWEDP0GP2XTSKH35T",
+          "raw_email_identifier": "2369120/6ca52f35-0ee5-4362-a777-7f18a10b92ee.eml",
+          "json_email_identifier": "2369120/6ca52f35-0ee5-4362-a777-7f18a10b92ee.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56928111377433,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Thomas,\n\nThank you for your response and sharing the update.\n\nRegarding your requirement to generate the Invoices in the Recipient currency from the app, could you please us know the currency in which the International orders are placed?\n\nDo all the orders come in the store currency, or customers place the orders in their local currency?\n\nAlso, could you please share a couple of orders on your store so that we can check this case further?\n\nLastly, to access your store from our end, we will require Collaborator Access for the store. We have raised the request from our end on email id corsin.jost@louisxviwatches.com\nPlease accept and let us know by replying to this email.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Thomas,<br>&nbsp;<br>Thank you for your response and sharing the update.<br>&nbsp;<br>Regarding your requirement to generate the Invoices in the Recipient currency from the app, could you please us know the currency in which the International orders are placed?<br>&nbsp;<br>Do all the orders come in the store currency, or customers place the orders in their local currency?<br>&nbsp;<br>Also, could you please share a couple of orders on your store so that we can check this case further?<br>&nbsp;<br>Lastly, to access your store from our end, we will require Collaborator Access for the store. We have raised the request from our end on email id <a href=\"mailto:corsin.jost@louisxviwatches.com\" rel=\"noreferrer\">corsin.jost@louisxviwatches.com</a><br>Please accept and let us know by replying to this email.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Thomas,\n&nbsp;\nThank you for your response and sharing the update.\n&nbsp;\nRegarding your requirement to generate the Invoices in the Recipient currency from the app, could you please us know the currency in which the International orders are placed?\n&nbsp;\nDo all the orders come in the store currency, or customers place the orders in their local currency?\n&nbsp;\nAlso, could you please share a couple of orders on your store so that we can check this case further?\n&nbsp;\nLastly, to access your store from our end, we will require Collaborator Access for the store. We have raised the request from our end on email id corsin.jost@louisxviwatches.com\nPlease accept and let us know by replying to this email.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56928111377305,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T12:18:24Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56931805169433,
+      "type": "Comment",
+      "author_id": 56812559440793,
+      "body": " ![image.png](https://support.pluginhive.com/attachments/token/eOgaa8PqMNswmymsf9U05Aa0S/?name=image.png) ![image.png](https://support.pluginhive.com/attachments/token/LBusZPWGf48jpuJ0AiqzxsCs7/?name=image.png)\n\n\nHello Touseef,\n\nThank you for your response.\n\nI have attached snapshots of a test order I placed for your reference. The order was placed from the United States; however, the commercial invoice and the pricing shown in the app are still displayed in EUR instead of USD.\n\nAs our store accepts payments in more than 10 different currencies, this is an important concern for us. We would like the documents to reflect the customer’s local currency based on the order, rather than defaulting to EUR.\n\nAdditionally, I confirm that collaborator access has been granted. Please feel free to review the store and the shared order to investigate this further.\n\nLet me know if you need any additional information.\n\nBest regards,\nLOUIS XVI Team",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><img src=\"https://support.pluginhive.com/attachments/token/eOgaa8PqMNswmymsf9U05Aa0S/?name=image.png\" alt=\"image.png\" width=\"562\" height=\"78\"><img src=\"https://support.pluginhive.com/attachments/token/LBusZPWGf48jpuJ0AiqzxsCs7/?name=image.png\" alt=\"image.png\" width=\"562\" height=\"531\"><br><br><p dir=\"auto\">Hello Touseef,</p><p dir=\"auto\">Thank you for your response.</p><p dir=\"auto\">I have attached snapshots of a test order I placed for your reference. The order was placed from the United States; however, the commercial invoice and the pricing shown in the app are still displayed in EUR instead of USD.</p><p dir=\"auto\">As our store accepts payments in more than 10 different currencies, this is an important concern for us. We would like the documents to reflect the customer’s local currency based on the order, rather than defaulting to EUR.</p><p dir=\"auto\">Additionally, I confirm that collaborator access has been granted. Please feel free to review the store and the shared order to investigate this further.</p><p dir=\"auto\">Let me know if you need any additional information.</p><p dir=\"auto\">Best regards,<br>LOUIS XVI Team</p><br></div><br><div></div></div>",
+      "plain_body": "Hello Touseef,  Thank you for your response.  I have attached snapshots of a test order I placed for your reference. The order was placed from the United States; however, the commercial invoice and the pricing shown in the app are still displayed in EUR instead of USD.  As our store accepts payments in more than 10 different currencies, this is an important concern for us. We would like the documents to reflect the customer’s local currency based on the order, rather than defaulting to EUR.  Additionally, I confirm that collaborator access has been granted. Please feel free to review the store and the shared order to investigate this further.  Let me know if you need any additional information.  Best regards,\nLOUIS XVI Team",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56931805169305,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@louisxviwatches.com",
+            "name": "Thomas",
+            "original_recipients": [
+              "info@louisxviwatches.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T15:29:20Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAOZDNxFYwPxLVaZqwHRHV8SEbPy+WuSe_CfSZ+zSn-TDNGvH7Q@mail.gmail.com>",
+          "email_id": "01KP3QC5YGZ70XAM4ADCRAT1SV",
+          "raw_email_identifier": "2369120/4b43d073-1f8e-4584-9bd7-c7fd8eaf487b.eml",
+          "json_email_identifier": "2369120/4b43d073-1f8e-4584-9bd7-c7fd8eaf487b.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    }
+  ]
+}

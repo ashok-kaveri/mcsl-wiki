@@ -1,0 +1,1723 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/378589.json",
+    "id": 378589,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-03-13T02:12:45Z",
+    "updated_at": "2026-04-13T15:33:27Z",
+    "generated_timestamp": 1776094407,
+    "type": null,
+    "subject": "We have noticed that orders 8885 and 8888 are not ...",
+    "raw_subject": "We have noticed that orders 8885 and 8888 are not ...",
+    "description": "We have noticed that orders 8885 and 8888 are not syncing and therefore cannot be shipped. We update plugins and resync store from WooCommerce. Order 8885 did receive PluginHive Transaction ID of dbdef9c7-330f-4345-92c9-21c8f015daf1. \n\nCan you help us discover what went wrong?\n\n------------------\nSubmitted from: https://mcsl-w.pluginhive.io/home/views/orders/summary/03e72b22-1c48-40c8-b2ce-ba5053773197/9c9132aa-2722-47db-b28b-a19313108a92/new",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 50646506328985,
+    "submitter_id": 50646506328985,
+    "assignee_id": 6932179641113,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "high_agent_replies",
+      "issues_with_setting_up_the_plugin",
+      "l3",
+      "last_reply_agent",
+      "system_email_notification_failure",
+      "web_widget",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "https://secondshotmarket.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "888-837-7892"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69d4913bfb3ec9796d14f326"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "offered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "WM4ZZJ-615WX",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "https://secondshotmarket.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "888-837-7892"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69d4913bfb3ec9796d14f326"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 55966025296409,
+      "type": "Comment",
+      "author_id": 50646506328985,
+      "body": "We have noticed that orders 8885 and 8888 are not syncing and therefore cannot be shipped. We update plugins and resync store from WooCommerce. Order 8885 did receive PluginHive Transaction ID of dbdef9c7-330f-4345-92c9-21c8f015daf1. \n\nCan you help us discover what went wrong?\n\n------------------\nSubmitted from: https://mcsl-w.pluginhive.io/home/views/orders/summary/03e72b22-1c48-40c8-b2ce-ba5053773197/9c9132aa-2722-47db-b28b-a19313108a92/new",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">We have noticed that orders 8885 and 8888 are not syncing and therefore cannot be shipped. We update plugins and resync store from WooCommerce. Order 8885 did receive PluginHive Transaction ID of dbdef9c7-330f-4345-92c9-21c8f015daf1. </p>\n\n<p dir=\"auto\">Can you help us discover what went wrong?</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-w.pluginhive.io/home/views/orders/summary/03e72b22-1c48-40c8-b2ce-ba5053773197/9c9132aa-2722-47db-b28b-a19313108a92/new\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-w.pluginhive.io/home/views/orders/summary/03e72b22-1c48-40c8-b2ce-ba5053773197/9c9132aa-2722-47db-b28b-a19313108a92/new</a></p></div>",
+      "plain_body": "We have noticed that orders 8885 and 8888 are not syncing and therefore cannot be shipped. We update plugins and resync store from WooCommerce. Order 8885 did receive PluginHive Transaction ID of dbdef9c7-330f-4345-92c9-21c8f015daf1.  \n\n Can you help us discover what went wrong? \n\n ------------------\n\nSubmitted from: https://mcsl-w.pluginhive.io/home/views/orders/summary/03e72b22-1c48-40c8-b2ce-ba5053773197/9c9132aa-2722-47db-b28b-a19313108a92/new",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55966025296281,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-03-13T02:12:45Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "76.232.79.188",
+          "location": "Louisville, KY, United States",
+          "latitude": 38.0896,
+          "longitude": -85.8491
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 55969464425241,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Store: US\nOrders: NA\nCarriers: Stamps USPS and UPS\nActivity:\n\n- Rates: Active\n- Labels active till Jan 2026\nPlan: $29 Popular\nPayment: Receiving",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Store: US<br>Orders: NA<br>Carriers: Stamps USPS and UPS<br>Activity:<br><ul dir=\"auto\"><li>Rates: Active</li><li>Labels active till Jan 2026</li></ul>Plan: $29 Popular<br>Payment: Receiving<br>&nbsp;<br></div>",
+      "plain_body": "Store: US\nOrders: NA\nCarriers: Stamps USPS and UPS\nActivity:\n  Rates: Active  Labels active till Jan 2026  Plan: $29 Popular\nPayment: Receiving\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55969464425113,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-13T03:49:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55969470498329,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "The store sync is failing. Requesting for access.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">The store sync is failing. Requesting for access.<br>&nbsp;<br></div>",
+      "plain_body": "The store sync is failing. Requesting for access.\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55969455235609,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-13T03:50:42Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55969532604825,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Mike,\n\nThank you for reaching out to us!\n\nTo check this case from our end, could you please provide us with the wp-admin access?\n\nLooking forward to hearing from you.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mike,<br>&nbsp;<br>Thank you for reaching out to us!<br>&nbsp;<br>To check this case from our end, could you please provide us with the wp-admin access?<br>&nbsp;<br>Looking forward to hearing from you.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Mike,\n&nbsp;\nThank you for reaching out to us!\n&nbsp;\nTo check this case from our end, could you please provide us with the wp-admin access?\n&nbsp;\nLooking forward to hearing from you.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55969532604697,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-13T03:51:34Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56077517259417,
+      "type": "Comment",
+      "author_id": 50646506328985,
+      "body": "Hi Sibi,\n\nI have set up an account previously with support@pluginhive.com. I added you with admin permissions. Is there anything else you need from me?\n\nThanks,\n\nMike",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Sibi,<br><br>I have set up an account previously&nbsp;with&nbsp;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>. I added you with admin permissions. Is there anything else you&nbsp;need from me?<div><br>Thanks,<br><br>Mike</div></div><br><div></div></div>",
+      "plain_body": "Hi Sibi,\n\nI have set up an account previously&nbsp;with&nbsp;support@pluginhive.com. I added you with admin permissions. Is there anything else you&nbsp;need from me? \nThanks,\n\nMike",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56077517259289,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "administrator@secondshotmarket.com",
+            "name": "Mike Miller",
+            "original_recipients": [
+              "administrator@secondshotmarket.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T01:09:06Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANF5SnLXMouO3pKkCswcg=iDu+L=pAUB2BEMsgXaQgZg_8dHdA@mail.gmail.com>",
+          "email_id": "01KKWNDP6AM5EJAMWWF670CMG6",
+          "raw_email_identifier": "2369120/ca8a30eb-d9f3-41e7-a919-40efe69c4f9c.eml",
+          "json_email_identifier": "2369120/ca8a30eb-d9f3-41e7-a919-40efe69c4f9c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56077996936601,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Mike,\n\nSibi is currently not available.\n\nAs requested previously, if you could share the WP Admin Login URL, Username and Password of your store, we can check the status and details of the orders in WooCommerce and try checking the reason for import failure.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mike,<br>&nbsp;<br>Sibi is currently not available.&nbsp;<br>&nbsp;<br>As requested previously, if you could share the WP Admin Login URL, Username and Password of your store, we can check the status and details of the orders in WooCommerce and try checking the reason for import failure.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Mike,\n&nbsp;\nSibi is currently not available.&nbsp;\n&nbsp;\nAs requested previously, if you could share the WP Admin Login URL, Username and Password of your store, we can check the status and details of the orders in WooCommerce and try checking the reason for import failure.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56077996936473,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T01:22:52Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56183168988441,
+      "type": "Comment",
+      "author_id": 50646506328985,
+      "body": "Hello,\n\nThe email is support@pluginhive.com. Password is &oMWbi1fzyG0j)wX%T$)j($T.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello,<br><br>The email is <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>. Password is&nbsp;&amp;oMWbi1fzyG0j)wX%T$)j($T.</div><br><div></div></div>",
+      "plain_body": "Hello,\n\nThe email is support@pluginhive.com. Password is&nbsp;&amp;oMWbi1fzyG0j)wX%T$)j($T.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56183168988313,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "administrator@secondshotmarket.com",
+            "name": "Mike Miller",
+            "original_recipients": [
+              "administrator@secondshotmarket.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T02:46:34Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANF5SnJ_=pOKLN_RDngC66UHinpMRjrBs79DY_dzGHzuNiMSqw@mail.gmail.com>",
+          "email_id": "01KM4J6A31R2EAMXRK8QTWXG3V",
+          "raw_email_identifier": "2369120/0b1fc543-24f1-48c2-ab19-73b2d3a696d3.eml",
+          "json_email_identifier": "2369120/0b1fc543-24f1-48c2-ab19-73b2d3a696d3.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56185000681881,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Mike,\n\nThank you for your response.\n\nI tried logging to the link - https://secondshotmarket.com/wp-login.php with the credentials you have provided but it shows the below error:\n\n\n ![](https://pluginhive.zendesk.com/attachments/token/QeC34uEv6KxYnbLOZTAcbOgjA/?name=image.png)\n\nCould you please check and let me know?\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mike,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>I tried logging to the link - <a rel=\"noopener noreferrer\" href=\"https://secondshotmarket.com/wp-login.php\">https://secondshotmarket.com/wp-login.php</a> with the credentials you have provided but it shows the below error:<br>&nbsp;<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/QeC34uEv6KxYnbLOZTAcbOgjA/?name=image.png\"></span><br>&nbsp;<br>Could you please check and let me know?<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Mike,\n&nbsp;\nThank you for your response.\n&nbsp;\nI tried logging to the link - https://secondshotmarket.com/wp-login.php with the credentials you have provided but it shows the below error:\n&nbsp;\n&nbsp;\n\n&nbsp;\nCould you please check and let me know?\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56185000681753,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T03:43:57Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "49.37.249.200",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56285888035097,
+      "type": "Comment",
+      "author_id": 50646506328985,
+      "body": "Hello,\n\n\nSorry, that was my mistake and not saving the password. You should be able to login using the link for username and password.\n\n\n\nMike",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello,<div><br></div><div>Sorry, that was my mistake and not saving the password. You should be able to login using the link for username and password.&nbsp;</div><div><br></div><div>Mike<br></div></div><br><div></div></div>",
+      "plain_body": "Hello, \n  Sorry, that was my mistake and not saving the password. You should be able to login using the link for username and password.&nbsp;  \n  Mike",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56285888034969,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "administrator@secondshotmarket.com",
+            "name": "Mike Miller",
+            "original_recipients": [
+              "administrator@secondshotmarket.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T00:19:03Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANF5SnJUFwpBX4D5_zbpdy=V+adnVOL=m=wDOJ146Gq3-2j_hw@mail.gmail.com>",
+          "email_id": "01KMEKB2C54991XR3E3V9VFGRV",
+          "raw_email_identifier": "2369120/e4eba9a5-067b-4ca5-a161-d933ea86e751.eml",
+          "json_email_identifier": "2369120/e4eba9a5-067b-4ca5-a161-d933ea86e751.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56285991658393,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Request #380467 \"[Second Shot] Password Changed\" was closed and merged into this request. Last comment in request #380467:\r\n\r\nHi pluginhive,\r\n\r\nThis notice confirms that your password was changed on Second Shot.\r\n\r\nIf you did not change your password, please contact the Site Administrator at\r\nadministrator@secondshotmarket.com\r\n\r\nThis email has been sent to support@pluginhive.com\r\n\r\nRegards,\r\nAll at Second Shot\r\nhttps://secondshotmarket.com",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/380467\" target=\"_blank\" rel=\"ticket\">#380467</a> \"[Second Shot] Password Changed\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/380467\" target=\"_blank\" rel=\"ticket\">#380467</a>:</p>\n<p dir=\"auto\">Hi pluginhive,</p>\n<p dir=\"auto\">This notice confirms that your password was changed on Second Shot.</p>\n<p dir=\"auto\">If you did not change your password, please contact the Site Administrator at<br>\n<a href=\"mailto:administrator@secondshotmarket.com\" rel=\"noreferrer\">administrator@secondshotmarket.com</a></p>\n<p dir=\"auto\">This email has been sent to <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a></p>\n<p dir=\"auto\">Regards,<br>\nAll at Second Shot<br>\n<a href=\"https://secondshotmarket.com\" rel=\"noreferrer\">https://secondshotmarket.com</a></p></div>",
+      "plain_body": "Request #380467 \"[Second Shot] Password Changed\" was closed and merged into this request. Last comment in request #380467: \n Hi pluginhive, \n This notice confirms that your password was changed on Second Shot. \n If you did not change your password, please contact the Site Administrator at\n\nadministrator@secondshotmarket.com \n This email has been sent to support@pluginhive.com \n Regards,\n\nAll at Second Shot\n\nhttps://secondshotmarket.com",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56285991658265,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              380467
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-03-24T00:22:24Z",
+      "metadata": {
+        "system": {
+          "location": "Vijayawada, AP, India",
+          "latitude": 16.5033,
+          "longitude": 80.6465
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56287950467609,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Mike,\n\nThank you for sharing the details.\n\nWe were able to login to the store.\n\nWhen we checked the WP JSON Response of the store, we are getting the error message \"Failed ( 403 :: Forbidden )\" as Response.\n\nSo, due to this webhook syncing is failing and the orders have not imported to the plugin.\n\nCould you check about this from your end and rectify this and let us know once done.\n\n ![](https://pluginhive.zendesk.com/attachments/token/US5YxHgt7oQpS9hzO0FirQ1Nx/?name=image.png)\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mike,<br>&nbsp;<br>Thank you for sharing the details.&nbsp;<br>&nbsp;<br>We were able to login to the store.&nbsp;<br>&nbsp;<br>When we checked the WP JSON Response of the store, we are getting the error message \"Failed ( 403 :: Forbidden )\" as Response.&nbsp;<br>&nbsp;<br>So, due to this webhook syncing is failing and the orders have not imported to the plugin.&nbsp;<br>&nbsp;<br>Could you check about this from your end and rectify this and let us know once done.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 377px;\" src=\"https://pluginhive.zendesk.com/attachments/token/US5YxHgt7oQpS9hzO0FirQ1Nx/?name=image.png\"></span><br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Mike,\n&nbsp;\nThank you for sharing the details.&nbsp;\n&nbsp;\nWe were able to login to the store.&nbsp;\n&nbsp;\nWhen we checked the WP JSON Response of the store, we are getting the error message \"Failed ( 403 :: Forbidden )\" as Response.&nbsp;\n&nbsp;\nSo, due to this webhook syncing is failing and the orders have not imported to the plugin.&nbsp;\n&nbsp;\nCould you check about this from your end and rectify this and let us know once done.\n&nbsp;\n\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56287950467481,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T01:21:34Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "27.7.92.211",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56390618865177,
+      "type": "Comment",
+      "author_id": 50646506328985,
+      "body": "Hello\n\nWhen your servers send a webhook or API request to my site, what exact URL and endpoint are you calling? And what IP addresses do your servers use?\n\nMike",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello<br><br>When your servers send a webhook or API request to my site, what exact URL and endpoint are you calling? And what IP addresses do your servers use?<br><br>Mike</div><br><div></div></div>",
+      "plain_body": "Hello\n\nWhen your servers send a webhook or API request to my site, what exact URL and endpoint are you calling? And what IP addresses do your servers use?\n\nMike",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56390618865049,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "administrator@secondshotmarket.com",
+            "name": "Mike Miller",
+            "original_recipients": [
+              "administrator@secondshotmarket.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T01:57:41Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANF5Sn+akcURQQ4aYhHJbSKo26=FtPvRELYSsQher0Pz9UovhQ@mail.gmail.com>",
+          "email_id": "01KMPG5THEYQGNS3E6R0G5NCNF",
+          "raw_email_identifier": "2369120/ced2e06f-1120-442f-be8a-af328396cb7b.eml",
+          "json_email_identifier": "2369120/ced2e06f-1120-442f-be8a-af328396cb7b.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56392528029593,
+      "type": "Comment",
+      "author_id": 50646506328985,
+      "body": "Hello, I also spoke to Bluehost and they do not see any issues with your webhooks. They ask if you could verify if your requests include the correct authentication tokens, headers, and IP addresses.\n\n\nThe WP-JSON loads fine in a browser. Webhooks are delivering successfully (200 OK). The issue is specifically the WP-JSON 403 in your diagnostic tool and the 'Failed to import product' error. The authenticated user is 'andy' with Administrator role. Please advise on how to fully disconnect and reconnect the store to generate fresh API credentials.\n\n\n\nMike",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello, I also spoke to Bluehost and they do not see any issues with your webhooks. They ask if you could verify if your requests include the correct authentication tokens, headers, and IP addresses.<div><br></div><div>The WP-JSON loads fine in a browser. Webhooks are delivering successfully (200 OK). The issue is specifically the WP-JSON 403 in your diagnostic tool and the 'Failed to import product' error. The authenticated user is 'andy' with Administrator role. Please advise on how to fully disconnect and reconnect the store to generate fresh API credentials.</div><div><br></div><div>Mike</div></div><br><div></div></div>",
+      "plain_body": "Hello, I also spoke to Bluehost and they do not see any issues with your webhooks. They ask if you could verify if your requests include the correct authentication tokens, headers, and IP addresses. \n  The WP-JSON loads fine in a browser. Webhooks are delivering successfully (200 OK). The issue is specifically the WP-JSON 403 in your diagnostic tool and the 'Failed to import product' error. The authenticated user is 'andy' with Administrator role. Please advise on how to fully disconnect and reconnect the store to generate fresh API credentials.  \n  Mike",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56392498680985,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "administrator@secondshotmarket.com",
+            "name": "Mike Miller",
+            "original_recipients": [
+              "administrator@secondshotmarket.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T02:49:02Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANF5SnJEWYNYjDFAb5_4saotBvBxGMvkVMDvDo2aHpa0orJgyg@mail.gmail.com>",
+          "email_id": "01KMPK3VHBXBAD0B5ZFSBMX8V2",
+          "raw_email_identifier": "2369120/52dfacf4-714d-441c-bbd2-32f369d36fdf.eml",
+          "json_email_identifier": "2369120/52dfacf4-714d-441c-bbd2-32f369d36fdf.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56397795773721,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "https://secondshotmarket.com/wp-admin/\nUsername: support@pluginhive.com\nPassword: 53OTjUR8H5oNt4$o",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><a rel=\"noopener noreferrer\" href=\"https://secondshotmarket.com/wp-admin/\">https://secondshotmarket.com/wp-admin/</a><br>Username: <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a><br>Password: 53OTjUR8H5oNt4$o<br>&nbsp;<br></div>",
+      "plain_body": "https://secondshotmarket.com/wp-admin/\nUsername: support@pluginhive.com\nPassword: 53OTjUR8H5oNt4$o\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56397757626521,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T05:27:53Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56400055731737,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Mike,\n\nThank you for your response.\n\nPlease allow us sometime to check this case from our end.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mike,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Please allow us sometime to check this case from our end.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Mike,\n&nbsp;\nThank you for your response.\n&nbsp;\nPlease allow us sometime to check this case from our end.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56400055731609,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T06:38:37Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56401480735129,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Need L3 assistance:\n\nThe customer reported that the orders are not getting imported to the plugin.\nWe have checked the settings and below are our findings:\n\n- The re-sync is failing.\n- Syncing of webhooks are also failing\n- Checked the webhooks in the Advanced settings and there were duplicates. We cleared and re-sync but not seeing any webhooks.\n- Tried to re-sync from WooCommerce settings, it is successful but still not seeing the webhooks.\n- Ensured that the store URL is same and confirm that.\n- JSON response is showing failed in the debugger. But when checked with the https://secondshotmarket.com/wp-json link it is successful as we are getting the response.\n\nI have attached the screenshots for reference.\n\nWP Admin access is provided below:\nhttps://secondshotmarket.com/wp-admin/\nUsername: support@pluginhive.com\nPassword: 53OTjUR8H5oNt4$o\n\nPlease provide assistance.\n\nStore Details:\nStore URL: https://secondshotmarket.com\nCarrier: UPS and Stamps USPS\nWas active till Jan 2026 for labels.\nPlan: $29 Popular\nPayment receiving.\n\n ![](https://pluginhive.zendesk.com/attachments/token/zP4eHHXq24GI6de6efYi2W0MD/?name=image.png)\n\n ![](https://pluginhive.zendesk.com/attachments/token/jkqXZfo5oIkfmxOsEbmqyiw97/?name=image.png)\n\n ![](https://pluginhive.zendesk.com/attachments/token/jYD3AmOzor5NkJxV7GALCLwkB/?name=image.png)\n\n**Slack Thread:** https://pluginhive.slack.com/archives/C02E15X8X0C/p1774595992171149",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need L3 assistance:<br>&nbsp;<br>The customer reported that the orders are not getting imported to the plugin.<br>We have checked the settings and below are our findings:<br><ul dir=\"auto\"><li>The re-sync is failing.</li><li>Syncing of webhooks are also failing</li><li>Checked the webhooks in the Advanced settings and there were duplicates. We cleared and re-sync but not seeing any webhooks.</li><li>Tried to re-sync from WooCommerce settings, it is successful but still not seeing the webhooks.</li><li>Ensured that the store URL is same and confirm that.</li><li>JSON response is showing failed in the debugger. But when checked with the <a rel=\"noopener noreferrer\" href=\"https://secondshotmarket.com/wp-json\">https://secondshotmarket.com/wp-json</a> link it is successful as we are getting the response.</li></ul>&nbsp;<br>I have attached the screenshots for reference.<br>&nbsp;<br>WP Admin access is provided below:<br><a rel=\"noopener noreferrer\" href=\"https://secondshotmarket.com/wp-admin/\">https://secondshotmarket.com/wp-admin/</a><br>Username: <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a><br>Password: 53OTjUR8H5oNt4$o<br>&nbsp;<br>Please provide assistance.<br>&nbsp;<br>Store Details:<br>Store URL: <a rel=\"noopener noreferrer\" href=\"https://secondshotmarket.com\">https://secondshotmarket.com</a><br>Carrier: UPS and Stamps USPS<br>Was active till Jan 2026 for labels.<br>Plan: $29 Popular<br>Payment receiving.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 395px;\" src=\"https://pluginhive.zendesk.com/attachments/token/zP4eHHXq24GI6de6efYi2W0MD/?name=image.png\"></span><br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 507px;\" src=\"https://pluginhive.zendesk.com/attachments/token/jkqXZfo5oIkfmxOsEbmqyiw97/?name=image.png\"></span><br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 457px;\" src=\"https://pluginhive.zendesk.com/attachments/token/jYD3AmOzor5NkJxV7GALCLwkB/?name=image.png\"></span><br>&nbsp;<br><strong>Slack Thread:</strong> <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1774595992171149\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1774595992171149</a><br>&nbsp;<br></div>",
+      "plain_body": "Need L3 assistance:\n&nbsp;\nThe customer reported that the orders are not getting imported to the plugin.\nWe have checked the settings and below are our findings:\n  The re-sync is failing.  Syncing of webhooks are also failing  Checked the webhooks in the Advanced settings and there were duplicates. We cleared and re-sync but not seeing any webhooks.  Tried to re-sync from WooCommerce settings, it is successful but still not seeing the webhooks.  Ensured that the store URL is same and confirm that.  JSON response is showing failed in the debugger. But when checked with the https://secondshotmarket.com/wp-json link it is successful as we are getting the response.  &nbsp;\nI have attached the screenshots for reference.\n&nbsp;\nWP Admin access is provided below:\nhttps://secondshotmarket.com/wp-admin/\nUsername: support@pluginhive.com\nPassword: 53OTjUR8H5oNt4$o\n&nbsp;\nPlease provide assistance.\n&nbsp;\nStore Details:\nStore URL: https://secondshotmarket.com\nCarrier: UPS and Stamps USPS\nWas active till Jan 2026 for labels.\nPlan: $29 Popular\nPayment receiving.\n&nbsp;\n\n&nbsp;\n\n&nbsp;\n\n&nbsp;\nSlack Thread: https://pluginhive.slack.com/archives/C02E15X8X0C/p1774595992171149\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56401480735001,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T07:20:03Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56406568081945,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "When we request the data from store, we are getting the following error, Kindly check with merchant if they have done any security related changes.\n[Veena]\n\n\n    \"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,\\\"Noto Sans\\\",sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\",\\\"Noto Color Emoji\\\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image: ...[truncated]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">When we request the data from store, we are getting the following error, Kindly check with merchant if they have done any security related changes.<br>[Veena]<br>&nbsp;<br><pre><code>\"&lt;!DOCTYPE html&gt;&lt;html lang=\\\"en-US\\\"&gt;&lt;head&gt;&lt;title&gt;Just a moment...&lt;/title&gt;&lt;meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"&gt;&lt;meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"&gt;&lt;meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"&gt;&lt;meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"&gt;&lt;style&gt;*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,\\\"Noto Sans\\\",sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\",\\\"Noto Color Emoji\\\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width &lt;= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image: ...[truncated]</code></pre></div>",
+      "plain_body": "When we request the data from store, we are getting the following error, Kindly check with merchant if they have done any security related changes.\n[Veena]\n&nbsp;\n \"&lt;!DOCTYPE html&gt;&lt;html lang=\\\"en-US\\\"&gt;&lt;head&gt;&lt;title&gt;Just a moment...&lt;/title&gt;&lt;meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"&gt;&lt;meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"&gt;&lt;meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"&gt;&lt;meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"&gt;&lt;style&gt;*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,\\\"Noto Sans\\\",sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\",\\\"Noto Color Emoji\\\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width &lt;= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image: ...[truncated]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56406568081817,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T09:53:01Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56409335102489,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Mike,\n\nThank you for your patience!\n\nWe have checked and when we request the data from store, we are getting the following error, Please do confirm if you have have done any security related changes.\n\n\n    \"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,\\\"Noto Sans\\\",sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\",\\\"Noto Color Emoji\\\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image: ...[truncated]\nLooking forward to hearing from you.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mike,<br>&nbsp;<br>Thank you for your patience!<br>&nbsp;<br>We have checked and when we request the data from store, we are getting the following error, Please do confirm if you have have done any security related changes.<br>&nbsp;<br><pre><code>\"&lt;!DOCTYPE html&gt;&lt;html lang=\\\"en-US\\\"&gt;&lt;head&gt;&lt;title&gt;Just a moment...&lt;/title&gt;&lt;meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"&gt;&lt;meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"&gt;&lt;meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"&gt;&lt;meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"&gt;&lt;style&gt;*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,\\\"Noto Sans\\\",sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\",\\\"Noto Color Emoji\\\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width &lt;= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image: ...[truncated]</code></pre>&nbsp;<br>Looking forward to hearing from you.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Mike,\n&nbsp;\nThank you for your patience!\n&nbsp;\nWe have checked and when we request the data from store, we are getting the following error, Please do confirm if you have have done any security related changes.\n&nbsp;\n \"&lt;!DOCTYPE html&gt;&lt;html lang=\\\"en-US\\\"&gt;&lt;head&gt;&lt;title&gt;Just a moment...&lt;/title&gt;&lt;meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"&gt;&lt;meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"&gt;&lt;meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"&gt;&lt;meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"&gt;&lt;style&gt;*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,\\\"Noto Sans\\\",sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\",\\\"Noto Color Emoji\\\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width &lt;= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image: ...[truncated] &nbsp;\nLooking forward to hearing from you.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56409335102361,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T11:35:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56506538518041,
+      "type": "Comment",
+      "author_id": 50646506328985,
+      "body": "Hello,\n\n\nI am not aware of any security changes. The website is still getting quotes for carts. I tried to resync but now I see everything is deleted.\n ![image.png](https://support.pluginhive.com/attachments/token/7f7sTfw9Un1WhD7EQ9NIpDueQ/?name=image.png)\n\nThere is nothing on my end that shows why the app stopped working after Feb 7th.\n\n\n\nWhat can you provide me with to look at?\n\n\n\nMike",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello,<div><br></div><div>I am not aware of any security changes. The website is still getting quotes for carts.&nbsp;I tried to resync but now I see everything is deleted.<br><img src=\"https://support.pluginhive.com/attachments/token/7f7sTfw9Un1WhD7EQ9NIpDueQ/?name=image.png\" alt=\"image.png\" width=\"273\" height=\"562\"></div><div>There is nothing on my end that shows why the app stopped working after Feb 7th.</div><div><br></div><div>What can you provide me with to look at?</div><div><br></div><div>Mike</div></div><br></div>",
+      "plain_body": "Hello, \n  I am not aware of any security changes. The website is still getting quotes for carts.&nbsp;I tried to resync but now I see everything is deleted.\n  There is nothing on my end that shows why the app stopped working after Feb 7th.  \n  What can you provide me with to look at?  \n  Mike",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56506538517913,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "administrator@secondshotmarket.com",
+            "name": "Mike Miller",
+            "original_recipients": [
+              "administrator@secondshotmarket.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T03:05:35Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANF5SnK-6uLXGbxeSqVHecxuVJRB+iiW155R9THCT3ju+FijQg@mail.gmail.com>",
+          "email_id": "01KN0XMZFJZ0KKEYD9ND8J9GXS",
+          "raw_email_identifier": "2369120/2c2af151-2d2a-4769-be11-01e7226faec3.eml",
+          "json_email_identifier": "2369120/2c2af151-2d2a-4769-be11-01e7226faec3.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56508583791897,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Mike,\n\nThank you for your response.\n\nCould you please let us know if you have installed any new plugin recently on your store?\n\nAdditionally, to check your case further, we would require your permission to disable other plugins on your store and keep only our plugin and WooCommerce plugin enabled. This will help us in determining if any plugin is causing interference with ours.\n\nAwaiting your response and permission.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mike,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Could you please let us know if you have installed any new plugin recently on your store?<br>&nbsp;<br>Additionally, to check your case further, we would require your permission to disable other plugins on your store and keep only our plugin and WooCommerce plugin enabled. This will help us in determining if any plugin is causing interference with ours.<br>&nbsp;<br>Awaiting your response and permission.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Mike,\n&nbsp;\nThank you for your response.\n&nbsp;\nCould you please let us know if you have installed any new plugin recently on your store?\n&nbsp;\nAdditionally, to check your case further, we would require your permission to disable other plugins on your store and keep only our plugin and WooCommerce plugin enabled. This will help us in determining if any plugin is causing interference with ours.\n&nbsp;\nAwaiting your response and permission.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56508583791769,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T04:08:28Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56533469434137,
+      "type": "Comment",
+      "author_id": 50646506328985,
+      "body": "Hello,\n\n\nI just installed an MCP plugin but it was after all this has happened so I could pull logs. Outside of that, there have not been any new app.\n\n\n\nYes, you may disable other plugins as needed for troubleshooting.\n\n\n\nMike",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello,<div><br></div><div>I just installed an MCP plugin but it was after all this has happened so I could pull logs. Outside of that, there have not been any new app.</div><div><br></div><div>Yes, you may disable other plugins as needed for troubleshooting.</div><div><br></div><div>Mike</div></div><br><div></div></div>",
+      "plain_body": "Hello, \n  I just installed an MCP plugin but it was after all this has happened so I could pull logs. Outside of that, there have not been any new app.  \n  Yes, you may disable other plugins as needed for troubleshooting.  \n  Mike",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56533469434009,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "administrator@secondshotmarket.com",
+            "name": "Mike Miller",
+            "original_recipients": [
+              "administrator@secondshotmarket.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T23:05:34Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANF5Sn+Wdn99Qn06=4F38K03071Cbycaa91CZcQvRNJmVur2zQ@mail.gmail.com>",
+          "email_id": "01KN32A7P7JMR1YYMK62V7CJ2F",
+          "raw_email_identifier": "2369120/f1043f49-29a1-443e-9fb8-6340b8abada7.eml",
+          "json_email_identifier": "2369120/f1043f49-29a1-443e-9fb8-6340b8abada7.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56533815201817,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Mike,\n\nThank you for the update and the permission.\n\nWill keep you posted on the updates on the case.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mike,<br>&nbsp;<br>Thank you for the update and the permission.&nbsp;<br>&nbsp;<br>Will keep you posted on the updates on the case.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Mike,\n&nbsp;\nThank you for the update and the permission.&nbsp;\n&nbsp;\nWill keep you posted on the updates on the case.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56533815201689,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T23:23:46Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "115.99.141.72",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56533868634777,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Back to L3 - Customer mentioned they just installed MCP plugin and it was installed after the import caseand there was no other new plugins installed.\n\nThe customer has given permission to disable other plugins for troubleshooting\n\nPlease check and let us know of the updates",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Back to L3 - Customer mentioned they just installed MCP plugin and it was installed after the import caseand there was no other new plugins installed.&nbsp;<br>&nbsp;<br>The customer has given permission to disable other plugins for troubleshooting<br>&nbsp;<br>Please check and let us know of the updates<br></div>",
+      "plain_body": "Back to L3 - Customer mentioned they just installed MCP plugin and it was installed after the import caseand there was no other new plugins installed.&nbsp;\n&nbsp;\nThe customer has given permission to disable other plugins for troubleshooting\n&nbsp;\nPlease check and let us know of the updates",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56533925091225,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T23:26:39Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "115.99.141.72",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56558354530073,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We are still getting the same error while fetching data from store.\nKindly ask merchant to whitelist the following i/p addresses\n\n\n- 159.89.150.142\n- 165.227.28.252\n- 138.68.13.182\n- 165.227.48.244\n- 157.245.169.250\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We are still getting the same error while fetching data from store.<br>Kindly ask merchant to whitelist the following i/p addresses<br>&nbsp;<br><ul dir=\"auto\"><li>159.89.150.142</li><li>165.227.28.252</li><li>138.68.13.182</li><li>165.227.48.244</li><li>157.245.169.250<br><br>[Veena]</li></ul></div>",
+      "plain_body": "We are still getting the same error while fetching data from store.\nKindly ask merchant to whitelist the following i/p addresses\n&nbsp;\n  159.89.150.142  165.227.28.252  138.68.13.182  165.227.48.244  157.245.169.250\n\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56558354529945,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T11:38:17Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56560026575257,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Mike,\n\nThank you for your response.\n\nWe have checked, and we are still getting the same error while fetching data from store.\n\nWe request you to whitelist the following IP addresses so we can take this further.\n\n\n- 159.89.150.142\n- 165.227.28.252\n- 138.68.13.182\n- 165.227.48.244\n- 157.245.169.250\n\nLooking forward to hearing from you.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mike,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>We have checked, and we are still getting the same error while fetching data from store.<br>&nbsp;<br>We request you to whitelist the following IP addresses so we can take this further.<br>&nbsp;<br><ul dir=\"auto\"><li>159.89.150.142</li><li>165.227.28.252</li><li>138.68.13.182</li><li>165.227.48.244</li><li>157.245.169.250</li></ul>&nbsp;<br>Looking forward to hearing from you.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Mike,\n&nbsp;\nThank you for your response.\n&nbsp;\nWe have checked, and we are still getting the same error while fetching data from store.\n&nbsp;\nWe request you to whitelist the following IP addresses so we can take this further.\n&nbsp;\n  159.89.150.142  165.227.28.252  138.68.13.182  165.227.48.244  157.245.169.250  &nbsp;\nLooking forward to hearing from you.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56560026575129,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T12:51:42Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56573385189273,
+      "type": "Comment",
+      "author_id": 50646506328985,
+      "body": "Hello,\n\n\nI have added those IP address to the white list.\n\n\n\nLet me know if you need anything.\n\n\n\nMike",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello,<div><br></div><div>I have added those IP address to the white list.</div><div><br></div><div>Let me know if you need anything.</div><div><br></div><div>Mike</div><div><br></div></div><br><div></div></div>",
+      "plain_body": "Hello, \n  I have added those IP address to the white list.  \n  Let me know if you need anything.  \n  Mike",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56573385189145,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "administrator@secondshotmarket.com",
+            "name": "Mike Miller",
+            "original_recipients": [
+              "administrator@secondshotmarket.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T01:28:50Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANF5SnKJXnyM2wjsyB0M-+=GocnO+tHB6CEzRzAY=mnJt07ADA@mail.gmail.com>",
+          "email_id": "01KN5WX9E8P768ZJEVWT1PPTPK",
+          "raw_email_identifier": "2369120/70f455a9-0436-4035-bbe7-ac32834f426d.eml",
+          "json_email_identifier": "2369120/70f455a9-0436-4035-bbe7-ac32834f426d.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56575416246553,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Mike,\n\nThank you for confirming that the IP addresses have been whitelisted.\n\nHowever, I’m unable to access your store, as it is showing an error on our end.\n\nCould you please share the following details so we can check this further:\n\n- WP Admin Login URL\n- Username\n- Password\n\nThis will help us review the status and order details in WooCommerce more effectively.\n\nLooking forward to your response.\n\n ![](https://pluginhive.zendesk.com/attachments/token/KkUz5tGzHPZRgYrMe6Wht4lvs/?name=Screenshot+2026-04-02+at+7.53.14%E2%80%AFAM.png)\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Mike,<br>&nbsp;<br>Thank you for confirming that the IP addresses have been whitelisted.<br>&nbsp;<br>However, I’m unable to access your store, as it is showing an error on our end.<br>&nbsp;<br>Could you please share the following details so we can check this further:<br><ul dir=\"auto\"><li>WP Admin Login URL</li><li>Username</li><li>Password</li></ul>&nbsp;<br>This will help us review the status and order details in WooCommerce more effectively.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/KkUz5tGzHPZRgYrMe6Wht4lvs/?name=Screenshot+2026-04-02+at+7.53.14%E2%80%AFAM.png\"></span><br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Mike,\n&nbsp;\nThank you for confirming that the IP addresses have been whitelisted.\n&nbsp;\nHowever, I’m unable to access your store, as it is showing an error on our end.\n&nbsp;\nCould you please share the following details so we can check this further:\n  WP Admin Login URL  Username  Password  &nbsp;\nThis will help us review the status and order details in WooCommerce more effectively.\n&nbsp;\nLooking forward to your response.\n&nbsp;\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56575416246425,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T02:25:33Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56575430803737,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Moving on hold\nawaiting customer response",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving on hold<br>awaiting customer response<br></div>",
+      "plain_body": "Moving on hold\nawaiting customer response",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56575418760089,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T02:25:57Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56575615730841,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "What is this message about ![](https://pluginhive.zendesk.com/attachments/token/c6xQ8UsmzgGtGN3lp0VCr34r9/?name=image.png)\nKeep me posted on the resolution\n-Mirdas",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">What is this message about <span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/c6xQ8UsmzgGtGN3lp0VCr34r9/?name=image.png\"></span><br>Keep me posted on the resolution&nbsp;<br>-Mirdas&nbsp;<br></div>",
+      "plain_body": "What is this message about \nKeep me posted on the resolution&nbsp;\n-Mirdas&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56575615730713,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T02:31:17Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15",
+          "ip_address": "49.37.251.150",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56577566283161,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "\"Recipient server rejected email. Status code: 550 5.1.1. User does not exist; recommend checking for typos. For help, refer to our Help center\"\nIt means the email address is invalid or doesn’t exist.\nSince the customer is still replying to emails, they are receiving them. I will keep you updated on the resolution.\n\nI have updated mirdas,\nWe are currently awaiting customer response\nmoving to hold for now\nWe need to update mirdas once this this is resolved",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">\"Recipient server rejected email. Status code: 550 5.1.1. User does not exist; recommend checking for typos. For help, refer to our Help center\"<br>It means the email address is invalid or doesn’t exist.<br>Since the customer is still replying to emails, they are receiving them. I will keep you updated on the resolution.<br>&nbsp;<br>I have updated mirdas,<br>We are currently awaiting customer response<br>moving to hold for now&nbsp;<br>We need to update mirdas once this this is resolved<br></div>",
+      "plain_body": "\"Recipient server rejected email. Status code: 550 5.1.1. User does not exist; recommend checking for typos. For help, refer to our Help center\"\nIt means the email address is invalid or doesn’t exist.\nSince the customer is still replying to emails, they are receiving them. I will keep you updated on the resolution.\n&nbsp;\nI have updated mirdas,\nWe are currently awaiting customer response\nmoving to hold for now&nbsp;\nWe need to update mirdas once this this is resolved",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56577566283033,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T03:28:46Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56602018981145,
+      "type": "Comment",
+      "author_id": 50646506328985,
+      "body": "Hello,\n\n\nYou should have access now. I messed up the whitelist, causing the site to go down. It is back up and running now; you should have access using the previously provided credentials.\n\n\n\nMike",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello,&nbsp;<div><br></div><div>You should have access now. I messed up the whitelist, causing the site to go down. It is back up and running now; you should have access using the previously provided credentials.&nbsp;</div><div><br></div><div>Mike</div></div><br><div></div></div>",
+      "plain_body": "Hello,&nbsp; \n  You should have access now. I messed up the whitelist, causing the site to go down. It is back up and running now; you should have access using the previously provided credentials.&nbsp;  \n  Mike",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56602018981017,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "administrator@secondshotmarket.com",
+            "name": "Mike Miller",
+            "original_recipients": [
+              "administrator@secondshotmarket.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T21:54:29Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANF5SnJPOyM62auuEbkFtJ8CbACbVCYU3he_wySGoE5t-x6n=g@mail.gmail.com>",
+          "email_id": "01KN831H3WJPJZM43J2BJ0F771",
+          "raw_email_identifier": "2369120/48ca2e6a-34e5-42bf-88ed-6319fa809530.eml",
+          "json_email_identifier": "2369120/48ca2e6a-34e5-42bf-88ed-6319fa809530.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56603545356057,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Mike,\n\nYes, we have the access to the store now.\n\nPlease allow us sometime. Will get back to you with an update.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mike,<br>&nbsp;<br>Yes, we have the access to the store now.&nbsp;<br>&nbsp;<br>Please allow us sometime. Will get back to you with an update.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Mike,\n&nbsp;\nYes, we have the access to the store now.&nbsp;\n&nbsp;\nPlease allow us sometime. Will get back to you with an update.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56603545355929,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T23:33:03Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56603596463641,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Back to L3 - Store JSON is working fine. Plugin is up to date. Upon checking further, the plugin webhooks are removed in woocommerce.\n\nSo, please add the webhooks and try to import the orders to the plugin. Let us know of the updates.\n\nWP Admin access is provided below:\nhttps://secondshotmarket.com/wp-admin/\nUsername: support@pluginhive.com\nPassword: 53OTjUR8H5oNt4$o",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Back to L3 - Store JSON is working fine. Plugin is up to date. Upon checking further, the plugin webhooks are removed in woocommerce.&nbsp;<br>&nbsp;<br>So, please add the webhooks and try to import the orders to the plugin. Let us know of the updates.<br>&nbsp;<br>WP Admin access is provided below:<br><a rel=\"noopener noreferrer\" href=\"https://secondshotmarket.com/wp-admin/\">https://secondshotmarket.com/wp-admin/</a><br>Username: <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a><br>Password: 53OTjUR8H5oNt4$o<br></div>",
+      "plain_body": "Back to L3 - Store JSON is working fine. Plugin is up to date. Upon checking further, the plugin webhooks are removed in woocommerce.&nbsp;\n&nbsp;\nSo, please add the webhooks and try to import the orders to the plugin. Let us know of the updates.\n&nbsp;\nWP Admin access is provided below:\nhttps://secondshotmarket.com/wp-admin/\nUsername: support@pluginhive.com\nPassword: 53OTjUR8H5oNt4$o",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56603619073177,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T23:36:12Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56706821970841,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "This is a store level issue, we are debugging the case, we will update on this.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This is a store level issue, we are debugging the case, we will update on this.<br>[Veena]<br></div>",
+      "plain_body": "This is a store level issue, we are debugging the case, we will update on this.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56706821970457,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-06T12:19:28Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56774964307097,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We have investigated the issue and found that your store's Cloudflare security settings are blocking requests from our servers, which are located in the United States.\nPlease check for any Country or Bot Block Rules\nGo to Security → WAF → Custom Rules — check for any rule blocking United States and disable it\nOr Go to Security → Bots — if Bot Fight Mode or Super Bot Fight Mode is enabled, either turn it off\n-[Athul]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have investigated the issue and found that your store's Cloudflare security settings are blocking requests from our servers, which are located in the United States.<br>Please check for any Country or Bot Block Rules<br>Go to Security → WAF → Custom Rules — check for any rule blocking United States and disable it<br>Or Go to Security → Bots — if Bot Fight Mode or Super Bot Fight Mode is enabled, either turn it off<br>-[Athul]<br>&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "We have investigated the issue and found that your store's Cloudflare security settings are blocking requests from our servers, which are located in the United States.\nPlease check for any Country or Bot Block Rules\nGo to Security → WAF → Custom Rules — check for any rule blocking United States and disable it\nOr Go to Security → Bots — if Bot Fight Mode or Super Bot Fight Mode is enabled, either turn it off\n-[Athul]\n&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56774964306969,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T10:49:54Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "103.163.65.25",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56775529308057,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Mike Miller,\n\nThank you for your patience.\n\nOur team has investigated your case further and found that your store's Cloudflare security settings are blocking requests from our servers, which are located in the United States.\n\nI request you to please check for any Country or Bot Block Rules and update them if needed.\n\nFor this, go to Security → WAF → Custom Rules — check for any rule blocking United States and disable it.\nOr, Go to Security → Bots — if Bot Fight Mode or Super Bot Fight Mode is enabled, either turn it off.\n\nPost this, please try initiating the order imports in the plugin and let us know how it goes.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mike Miller,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Our team has investigated your case further and found that your store's Cloudflare security settings are blocking requests from our servers, which are located in the United States.<br>&nbsp;<br>I request you to please check for any Country or Bot Block Rules and update them if needed.<br>&nbsp;<br>For this, go to Security → WAF → Custom Rules — check for any rule blocking United States and disable it.<br>Or, Go to Security → Bots — if Bot Fight Mode or Super Bot Fight Mode is enabled, either turn it off.<br>&nbsp;<br>Post this, please try initiating the order imports in the plugin and let us know how it goes.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Mike Miller,\n&nbsp;\nThank you for your patience.\n&nbsp;\nOur team has investigated your case further and found that your store's Cloudflare security settings are blocking requests from our servers, which are located in the United States.\n&nbsp;\nI request you to please check for any Country or Bot Block Rules and update them if needed.\n&nbsp;\nFor this, go to Security → WAF → Custom Rules — check for any rule blocking United States and disable it.\nOr, Go to Security → Bots — if Bot Fight Mode or Super Bot Fight Mode is enabled, either turn it off.\n&nbsp;\nPost this, please try initiating the order imports in the plugin and let us know how it goes.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56775529307929,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T11:10:28Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56775525005849,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "If the customer is still facing the case after making the suggested changes, please debug the case once again before moving back to l3.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">If the customer is still facing the case after making the suggested changes, please debug the case once again before moving back to l3.<br></div>",
+      "plain_body": "If the customer is still facing the case after making the suggested changes, please debug the case once again before moving back to l3.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56775525005337,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-08T11:11:06Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56827543480473,
+      "type": "Comment",
+      "author_id": 50646506328985,
+      "body": "Hello,\n\nBluehost disabled mod_security, and the debugger still showed a 403 error. I have attached the debugger tool log to this email. I have also attached the conversation I had with Bluehost.\n\n\nLet me know what else we can do.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello,<br><br>Bluehost disabled mod_security, and the debugger still showed a 403 error. I have attached the&nbsp;debugger tool log to this email. I have also attached the conversation I had with Bluehost.&nbsp;<div><br></div><div>Let me know&nbsp;what else we can do.</div></div><br><div></div></div>",
+      "plain_body": "Hello,\n\nBluehost disabled mod_security, and the debugger still showed a 403 error. I have attached the&nbsp;debugger tool log to this email. I have also attached the conversation I had with Bluehost.&nbsp; \n  Let me know&nbsp;what else we can do.",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56827543482393.json",
+          "id": 56827543482393,
+          "file_name": "PluginHive-Debugger-tool-Log (2).log",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/zMrfBCASBPlEbHO0gsdbIQacn/?name=PluginHive-Debugger-tool-Log+%282%29.log",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/zMrfBCASBPlEbHO0gsdbIQacn/?name=PluginHive-Debugger-tool-Log+%282%29.log",
+          "content_type": "application/octet-stream",
+          "size": 3472,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56827511686297.json",
+          "id": 56827511686297,
+          "file_name": "Prima Mail - Requested Message Transcript.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/C40VZQJxFX0v29m3LMpsSYYUz/?name=Prima+Mail+-+Requested+Message+Transcript.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/C40VZQJxFX0v29m3LMpsSYYUz/?name=Prima+Mail+-+Requested+Message+Transcript.pdf",
+          "content_type": "application/pdf",
+          "size": 197172,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56827543480345,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "administrator@secondshotmarket.com",
+            "name": "Mike Miller",
+            "original_recipients": [
+              "administrator@secondshotmarket.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-10T02:17:02Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANF5SnKPpJ3bpmDsJP=jyAvJnR-A9vq9zsTJp3Hf+Cd0BnfB5Q@mail.gmail.com>",
+          "email_id": "01KNTJV7CQXGNDWYY1V6GED66B",
+          "raw_email_identifier": "2369120/a57ce780-ad84-417e-8b58-b2c44522e1a5.eml",
+          "json_email_identifier": "2369120/a57ce780-ad84-417e-8b58-b2c44522e1a5.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56830273327897,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Mike Miller,\n\nThank you for your response.\n\nPlease allow us some time to check your case furhter.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mike Miller,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Please allow us some time to check your case furhter.<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Mike Miller,\n&nbsp;\nThank you for your response.\n&nbsp;\nPlease allow us some time to check your case furhter.\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56830273327769,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-10T03:36:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "115.99.162.186",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56830342250265,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775792328767879?thread_ts=1774595992.171149&cid=C02E15X8X0C\n\nCustomer replied the following for his case -\n\n_Bluehost disabled mod_security, and the debugger still showed a 403 error. I have attached the debugger tool log to this email. I have also attached the conversation I had with Bluehost._\n_Let me know what else we can do._\n\nCould you please check the case again and let us know what should be replied to customer?",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Back to L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1775792328767879?thread_ts=1774595992.171149&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1775792328767879?thread_ts=1774595992.171149&amp;cid=C02E15X8X0C</a><br>&nbsp;<br>Customer replied the following for his case -&nbsp;<br>&nbsp;<br><i>Bluehost disabled mod_security, and the debugger still showed a 403 error. I have attached the&nbsp;debugger tool log to this email. I have also attached the conversation I had with Bluehost.</i><br><i>Let me know&nbsp;what else we can do.</i><br>&nbsp;<br>Could you please check the case again and let us know what should be replied to customer?<br></div>",
+      "plain_body": "Back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775792328767879?thread_ts=1774595992.171149&amp;cid=C02E15X8X0C\n&nbsp;\nCustomer replied the following for his case -&nbsp;\n&nbsp;\nBluehost disabled mod_security, and the debugger still showed a 403 error. I have attached the&nbsp;debugger tool log to this email. I have also attached the conversation I had with Bluehost.\nLet me know&nbsp;what else we can do.\n&nbsp;\nCould you please check the case again and let us know what should be replied to customer?",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56830283885593.json",
+          "id": 56830283885593,
+          "file_name": "Prima Mail - Requested Message Transcript.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/gkfjx4DCdxoppngrjRrf169lx/?name=Prima+Mail+-+Requested+Message+Transcript.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/gkfjx4DCdxoppngrjRrf169lx/?name=Prima+Mail+-+Requested+Message+Transcript.pdf",
+          "content_type": "application/pdf",
+          "size": 197172,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56830287918873.json",
+          "id": 56830287918873,
+          "file_name": "PluginHive-Debugger-tool-Log (2).log",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/NMReF66iNr6okDcvvL37cD3CB/?name=PluginHive-Debugger-tool-Log+%282%29.log",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/NMReF66iNr6okDcvvL37cD3CB/?name=PluginHive-Debugger-tool-Log+%282%29.log",
+          "content_type": "text/x-log",
+          "size": 3472,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56830342250137,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-10T03:39:00Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "115.99.162.186",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56848611853721,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Need time to check this.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need time to check this.<br>[Veena]<br></div>",
+      "plain_body": "Need time to check this.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56848611853465,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-10T13:32:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "152.57.46.57",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56931898297881,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Follow up with DEV and keep me posted\n-Mirdas",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Follow up with DEV and keep me posted&nbsp;<br>-Mirdas&nbsp;<br></div>",
+      "plain_body": "Follow up with DEV and keep me posted&nbsp;\n-Mirdas&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56931898296857,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T15:33:27Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+          "ip_address": "223.185.134.237",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

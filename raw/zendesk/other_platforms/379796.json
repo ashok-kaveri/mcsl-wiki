@@ -1,0 +1,678 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/379796.json",
+    "id": 379796,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "behzad.rostamian@novusterra.se",
+          "name": "Behzad Rostamian"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-19T14:28:07Z",
+    "updated_at": "2026-03-20T08:19:30Z",
+    "generated_timestamp": 1773994771,
+    "type": null,
+    "subject": "VB: [36807221] Which product is the right one for me?",
+    "raw_subject": "VB: [36807221] Which product is the right one for me?",
+    "description": "Hi!\n\nI want to use PostNL for my website but I don't know what services that is added on MCSL which corresponds to the services that is included in my contract. Do you guys know what shipping option is what for PostnL?\n\n\nNOVUS TERRA\nBehzad Rostamian\n073 - 615 30 83\nBehzad.rostamian@novusterra.se<mailto:Behzad.rostamian@novusterra.se>\n\nFrån: Channel Integrations <channel.integrations@postnl.nl>\nSkickat: den 19 mars 2026 15:24\nTill: Behzad Rostamian <behzad.rostamian@novusterra.se>\nÄmne: [36807221] Which product is the right one for me?\n\n\nDear Behzad,\n\nThank you for contacting us. Judging from the images and the description provided, it seems this is all within the PluginHive environment: You will need to contact the creator of that extension for support, or at least the one who has built the PostNL part of it. We did not develop this, nor maintain it.\n\nWe only support our own Magento 2 extension: https://github.com/postnl/postnl-magento2/\n\nI will try to provide some information that may help you got choose the correct shipping product. But cannot guarantee this works as is, as the PostNL carrier option is not made by us.\n\nFor 6942 which size and weight (2kg) restrictions may fit in a letterbox, refer to the table in our developer portal:\nhttps://developer.postnl.nl/docs/#/http/reference-data/product-codes-international/international-mail-packets\nOur name for this product 6942 is (Packet) \"Boxable Track & Trace\", which you will need a contract with your PostNL account manager. In fact, any product related information regarding product code to be used, prices, size, handover/operations agreements, please contact your account manager.\nIt is not a Parcel, which shape may not fit in a mailbox at all. On the screenshot provided, none of them seem to be described as a Packet Track & Trace.\n\nIt may very well be, that the developer who built this PostNL part for PluginHive, did not include any International Mail & Packet product for Belgium/EU and Outside EU at all. Please contact them for details.\n\nFor shipping parcels as you described, you can use 3085<https://developer.postnl.nl/docs/#/http/reference-data/product-codes-dutch-domestic/standard-dutch-domestic>, which is Standard Shipment for parcel domestic shipping (within Netherlands). This may be the \"Dutch Domestic Standard Shipment\" at the very top of the list. If you prefer additional services, you may need to check if the name correlates with our listing in: https://developer.postnl.nl/docs/#/http/reference-data/product-codes-dutch-domestic/destination-netherlands\n\nI hope this helps you to find the right answers. Please let us know if there are any questions remaining.\n\nKind regards,\n\nChi-Ho Tse\nChannel Integration Consultant\n\nWaldorpstraat 3 * 2521 CA Den Haag\nPostbus 30250 * 2500 GG Den Haag\nwww.postnl.nl<http://www.postnl.nl>\n\nGet started with our API's by downloading our Postman collection: developer.postnl.nl/tools\n\nCase reference: [thread::iEmV6NZeemqxy95sLkTNuy8::]\nPlease do not remove.\n\n\nOnderwerp\nWhich product is the right one for me?\n\nKlantvraag\nHi!\n\nI use PluginHive Multi carrrier shipping extension for Magento 2 and now added PostNL to it. With this website, we are going to use Tracked letterboxes. I think the product code is 6942 , packages that can be delivered in the mailbox.\n\nBut in Magento, they dont actually show the products, they have explanations instead, so can you please tell me which of these are the product that i need?\n\nI will ship to consumers and not businesses.\n\nThe second question is, if i am going to send parcels in the netherlands, which of these products is right for me also? We are going to send packages 0-20 kg.\n\nso i need which of these products in magento is the Tracked letterbox service for shipping to sweden and which of these are the national packages within NL for packages 0-20kg\n\nI have more pictures of the Dutch domestic, but i cannot upload anymore here..\n\n\nWebform E-mail\nBehzad.rostamian@novusterra.se<mailto:Behzad.rostamian@novusterra.se>\nWebform Klantnummer\n10948343\nWebform Bedrijfsnaam\nVERIDA BV\nWebform Voornaam\nBehzad\nWebform Achternaam\nRostamian\n[https://mijnpostnl.my.salesforce.com/servlet/servlet.ImageServer?oid=00Dw0000000CncL&esid=018c100000S7QYl&from=ext]\nDutch - Domestic shipping 4.png\nDutch - Domestic shipping 3.png\nDutch - Domestic shipping 2.png\nDutch - Domestic shipping 1.png\nMagento - Swedish tracked service.png",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 903715960643,
+    "submitter_id": 903715960643,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "magento",
+      "magento_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "magento"
+      },
+      {
+        "id": 360008205591,
+        "value": "magento_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "https://www.scandinavianspeciosa.se/sv"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "9JKPW6-5523R",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "magento"
+      },
+      {
+        "id": 360008205591,
+        "value": "magento_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "https://www.scandinavianspeciosa.se/sv"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56170640507545,
+      "type": "Comment",
+      "author_id": 903715960643,
+      "body": "Hi!\n\nI want to use PostNL for my website but I don’t know what services that is added on MCSL which corresponds to the services that is included in my contract. Do you guys know what shipping option is what for PostnL?\n\n\n\n\n\n**NOVUS TERRA**\nBehzad Rostamian\n\n073 – 615 30 83\n\nBehzad.rostamian@novusterra.se\n\n\n\n**Från:** Channel Integrations <channel.integrations@postnl.nl>\n**Skickat:** den 19 mars 2026 15:24\n**Till:** Behzad Rostamian <behzad.rostamian@novusterra.se>\n**Ämne:** [36807221] Which product is the right one for me?\n\n\n\nDear Behzad,\n\nThank you for contacting us. Judging from the images and the description provided, it seems this is all within the PluginHive environment: You will need to contact the creator of that extension for support, or at least the one who has built the PostNL part of it. We did not develop this, nor maintain it.\n\nWe only support our own Magento 2 extension: https://github.com/postnl/postnl-magento2/\n\nI will try to provide some information that may help you got choose the correct shipping product. But cannot guarantee this works as is, as the PostNL carrier option is not made by us.\n\nFor 6942 which size and weight (2kg) restrictions may fit in a letterbox, refer to the table in our developer portal:\nhttps://developer.postnl.nl/docs/#/http/reference-data/product-codes-international/international-mail-packets\nOur name for this product 6942 is (Packet) \"Boxable Track & Trace\", which you will need a contract with your PostNL account manager. In fact, any product related information regarding product code to be used, prices, size, handover/operations agreements, please contact your account manager.\nIt is not a Parcel, which shape may not fit in a mailbox at all. On the screenshot provided, none of them seem to be described as a Packet Track & Trace.\n\nIt may very well be, that the developer who built this PostNL part for PluginHive, did not include any International Mail & Packet product for Belgium/EU and Outside EU at all. Please contact them for details.\n\nFor shipping parcels as you described, you can use 3085, which is Standard Shipment for parcel domestic shipping (within Netherlands). This may be the \"Dutch Domestic Standard Shipment\" at the very top of the list. If you prefer additional services, you may need to check if the name correlates with our listing in: https://developer.postnl.nl/docs/#/http/reference-data/product-codes-dutch-domestic/destination-netherlands\n\nI hope this helps you to find the right answers. Please let us know if there are any questions remaining.\n\nKind regards,\n\nChi-Ho Tse\nChannel Integration Consultant\n\nWaldorpstraat 3 • 2521 CA Den Haag\nPostbus 30250 • 2500 GG Den Haag\nwww.postnl.nl\n\nGet started with our API's by downloading our Postman collection: developer.postnl.nl/tools\n\nCase reference: [thread::iEmV6NZeemqxy95sLkTNuy8::]\nPlease do not remove.\n\n\n**Onderwerp**\nWhich product is the right one for me?\n\n**Klantvraag**\nHi!\n\nI use PluginHive Multi carrrier shipping extension for Magento 2 and now added PostNL to it. With this website, we are going to use Tracked letterboxes. I think the product code is 6942 , packages that can be delivered in the mailbox.\n\nBut in Magento, they dont actually show the products, they have explanations instead, so can you please tell me which of these are the product that i need?\n\nI will ship to consumers and not businesses.\n\nThe second question is, if i am going to send parcels in the netherlands, which of these products is right for me also? We are going to send packages 0-20 kg.\n\nso i need which of these products in magento is the Tracked letterbox service for shipping to sweden and which of these are the national packages within NL for packages 0-20kg\n\nI have more pictures of the Dutch domestic, but i cannot upload anymore here..\n\n\n**Webform E-mail**\nBehzad.rostamian@novusterra.se\n**Webform Klantnummer**\n10948343\n**Webform Bedrijfsnaam**\nVERIDA BV\n**Webform Voornaam**\nBehzad\n**Webform Achternaam**\nRostamian\n\n![](https://mijnpostnl.my.salesforce.com/servlet/servlet.ImageServer?oid=00Dw0000000CncL&esid=018c100000S7QYl&from=ext)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">\n<div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Hi!<br>\n<br>\nI want to use PostNL for my website but I don’t know what services that is added on MCSL which corresponds to the services that is included in my contract. Do you guys know what shipping option is what for PostnL?\n</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"background-color: white; vertical-align: baseline; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><b><span style=\" color: black;\">NOVUS TERRA</span></b><span style=\" color: black;\"><br>\nBehzad Rostamian</span><span style=\"font-size: 11.0pt; \"></span></p>\n<p style=\"background-color: white; vertical-align: baseline; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\" color: black;\">073 – 615 30 83</span><span style=\"font-size: 11.0pt; \"></span></p>\n<p style=\"background-color: white; vertical-align: baseline; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\" color: black;\"><a href=\"mailto:Behzad.rostamian@novusterra.se\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span>Behzad.rostamian@novusterra.se</span></a>\n</span><span style=\"font-size: 11.0pt; \"></span></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span><span></span></p>\n<div>\n<div style=\"border-top-width: 1.0pt; border-top-color: #E1E1E1; padding: 3.0pt 0cm 0cm; border-style: solid none none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 11.0pt; \">Från:</span></b><span style=\"font-size: 11.0pt; \"> Channel Integrations &lt;channel.integrations@postnl.nl&gt;\n<br>\n<b>Skickat:</b> den 19 mars 2026 15:24<br>\n<b>Till:</b> Behzad Rostamian &lt;behzad.rostamian@novusterra.se&gt;<br>\n<b>Ämne:</b> [36807221] Which product is the right one for me?</span></p>\n</div>\n</div>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p dir=\"auto\">Dear Behzad,<br>\n<br>\nThank you for contacting us. Judging from the images and the description provided, it seems this is all within the PluginHive environment:&nbsp;You will need to contact the creator of that extension for support, or at least the one who has built the PostNL part\n of it. We did not develop this, nor maintain it.<br>\n<br>\nWe only support our own Magento 2 extension:&nbsp;<a href=\"https://github.com/postnl/postnl-magento2/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">https://github.com/postnl/postnl-magento2/</a><br>\n<br>\nI will try to provide some information that may help you got choose the correct shipping product. But cannot guarantee this works as is, as the PostNL carrier option is not made by us.<br>\n<br>\nFor 6942 which size and weight (2kg) restrictions may fit in a letterbox, refer to the table in our developer portal:<br>\n<a href=\"https://developer.postnl.nl/docs/#/http/reference-data/product-codes-international/international-mail-packets\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">https://developer.postnl.nl/docs/#/http/reference-data/product-codes-international/international-mail-packets</a><br>\nOur name for this product 6942 is (Packet) \"Boxable Track &amp; Trace\", which you will need a contract with your PostNL account manager. In fact, any product related information regarding product code to be used, prices, size, handover/operations agreements, please\n contact your account manager.<br>\nIt is not a Parcel, which shape may not fit in a mailbox at all. On the screenshot provided, none of them seem to be described as a Packet Track &amp; Trace.<br>\n<br>\nIt may very well be, that the developer who built this PostNL part for PluginHive, did not include any International Mail &amp; Packet product for Belgium/EU and Outside EU at all. Please contact them for details.<br>\n<br>\nFor shipping parcels as you described, you can use <a href=\"https://developer.postnl.nl/docs/#/http/reference-data/product-codes-dutch-domestic/standard-dutch-domestic\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">\n3085</a>, which is Standard Shipment for parcel domestic shipping (within Netherlands). This may be the \"Dutch Domestic Standard Shipment\" at the very top of the list. If you prefer additional services, you may need to check if the name correlates with our\n listing in:&nbsp;<a href=\"https://developer.postnl.nl/docs/#/http/reference-data/product-codes-dutch-domestic/destination-netherlands\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">https://developer.postnl.nl/docs/#/http/reference-data/product-codes-dutch-domestic/destination-netherlands</a><br>\n<br>\nI hope this helps you to find the right answers. Please let us know if there are any questions remaining.<br>\n<br>\nKind regards,<br>\n<br>\nChi-Ho Tse<br>\nChannel Integration Consultant<br>\n<br>\nWaldorpstraat 3 • 2521 CA Den Haag<br>\nPostbus 30250 • 2500 GG Den Haag<br>\n<a href=\"http://www.postnl.nl\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">www.postnl.nl</a><br>\n<br>\nGet started with our API's by downloading our Postman collection: developer.postnl.nl/tools<br>\n<br>\nCase reference: [thread::iEmV6NZeemqxy95sLkTNuy8::]<br>\nPlease do not remove.<br>\n<br>\n<br>\n<strong><span>Onderwerp</span></strong><br>\nWhich product is the right one for me?<br>\n<br>\n<strong><span>Klantvraag</span></strong><br>\nHi!<br>\n<br>\nI use PluginHive Multi carrrier shipping extension for Magento 2 and now added PostNL to it. With this website, we are going to use Tracked letterboxes. I think the product code is 6942 , packages that can be delivered in the mailbox.<br>\n<br>\nBut in Magento, they dont actually show the products, they have explanations instead, so can you please tell me which of these are the product that i need?<br>\n<br>\nI will ship to consumers and not businesses.<br>\n<br>\nThe second question is, if i am going to send parcels in the netherlands, which of these products is right for me also? We are going to send packages 0-20 kg.<br>\n<br>\nso i need which of these products in magento is the Tracked letterbox service for shipping to sweden and which of these are the national packages within NL for packages 0-20kg<br>\n<br>\nI have more pictures of the Dutch domestic, but i cannot upload anymore here..<br>\n<br>\n<br>\n<strong><span>Webform E-mail</span></strong><br>\n<a href=\"mailto:Behzad.rostamian@novusterra.se\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">Behzad.rostamian@novusterra.se</a><br>\n<strong><span>Webform Klantnummer</span></strong><br>\n10948343<br>\n<strong><span>Webform Bedrijfsnaam</span></strong><br>\nVERIDA BV<br>\n<strong><span>Webform Voornaam</span></strong><br>\nBehzad<br>\n<strong><span>Webform Achternaam</span></strong><br>\nRostamian</p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><img border=\"0\" src=\"https://mijnpostnl.my.salesforce.com/servlet/servlet.ImageServer?oid=00Dw0000000CncL&amp;esid=018c100000S7QYl&amp;from=ext\"></p>\n</div></div>",
+      "plain_body": "Hi!\n\n\n\nI want to use PostNL for my website but I don’t know what services that is added on MCSL which corresponds to the services that is included in my contract. Do you guys know what shipping option is what for PostnL?\n \n &nbsp; \n \n \n \n \n \n \n &nbsp; \n NOVUS TERRA\n\nBehzad Rostamian \n 073 – 615 30 83 \n Behzad.rostamian@novusterra.se\n \n \n \n \n \n \n \n &nbsp; \n \n \n Från: Channel Integrations &lt;channel.integrations@postnl.nl&gt;\n\n\nSkickat: den 19 mars 2026 15:24\n\nTill: Behzad Rostamian &lt;behzad.rostamian@novusterra.se&gt;\n\nÄmne: [36807221] Which product is the right one for me? \n \n \n &nbsp; \n Dear Behzad,\n\n\n\nThank you for contacting us. Judging from the images and the description provided, it seems this is all within the PluginHive environment:&nbsp;You will need to contact the creator of that extension for support, or at least the one who has built the PostNL part\n of it. We did not develop this, nor maintain it.\n\n\n\nWe only support our own Magento 2 extension:&nbsp;https://github.com/postnl/postnl-magento2/\n\n\n\nI will try to provide some information that may help you got choose the correct shipping product. But cannot guarantee this works as is, as the PostNL carrier option is not made by us.\n\n\n\nFor 6942 which size and weight (2kg) restrictions may fit in a letterbox, refer to the table in our developer portal:\n\nhttps://developer.postnl.nl/docs/#/http/reference-data/product-codes-international/international-mail-packets\n\nOur name for this product 6942 is (Packet) \"Boxable Track &amp; Trace\", which you will need a contract with your PostNL account manager. In fact, any product related information regarding product code to be used, prices, size, handover/operations agreements, please\n contact your account manager.\n\nIt is not a Parcel, which shape may not fit in a mailbox at all. On the screenshot provided, none of them seem to be described as a Packet Track &amp; Trace.\n\n\n\nIt may very well be, that the developer who built this PostNL part for PluginHive, did not include any International Mail &amp; Packet product for Belgium/EU and Outside EU at all. Please contact them for details.\n\n\n\nFor shipping parcels as you described, you can use \n3085, which is Standard Shipment for parcel domestic shipping (within Netherlands). This may be the \"Dutch Domestic Standard Shipment\" at the very top of the list. If you prefer additional services, you may need to check if the name correlates with our\n listing in:&nbsp;https://developer.postnl.nl/docs/#/http/reference-data/product-codes-dutch-domestic/destination-netherlands\n\n\n\nI hope this helps you to find the right answers. Please let us know if there are any questions remaining.\n\n\n\nKind regards,\n\n\n\nChi-Ho Tse\n\nChannel Integration Consultant\n\n\n\nWaldorpstraat 3 • 2521 CA Den Haag\n\nPostbus 30250 • 2500 GG Den Haag\n\nwww.postnl.nl\n\n\n\nGet started with our API's by downloading our Postman collection: developer.postnl.nl/tools\n\n\n\nCase reference: [thread::iEmV6NZeemqxy95sLkTNuy8::]\n\nPlease do not remove.\n\n\n\n\n\nOnderwerp\n\nWhich product is the right one for me?\n\n\n\nKlantvraag\n\nHi!\n\n\n\nI use PluginHive Multi carrrier shipping extension for Magento 2 and now added PostNL to it. With this website, we are going to use Tracked letterboxes. I think the product code is 6942 , packages that can be delivered in the mailbox.\n\n\n\nBut in Magento, they dont actually show the products, they have explanations instead, so can you please tell me which of these are the product that i need?\n\n\n\nI will ship to consumers and not businesses.\n\n\n\nThe second question is, if i am going to send parcels in the netherlands, which of these products is right for me also? We are going to send packages 0-20 kg.\n\n\n\nso i need which of these products in magento is the Tracked letterbox service for shipping to sweden and which of these are the national packages within NL for packages 0-20kg\n\n\n\nI have more pictures of the Dutch domestic, but i cannot upload anymore here..\n\n\n\n\n\nWebform E-mail\n\nBehzad.rostamian@novusterra.se\n\nWebform Klantnummer\n\n10948343\n\nWebform Bedrijfsnaam\n\nVERIDA BV\n\nWebform Voornaam\n\nBehzad\n\nWebform Achternaam\n\nRostamian",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56170601045657.json",
+          "id": 56170601045657,
+          "file_name": "Dutch - Domestic shipping 3.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/zc9OcgBBEQYo3sMdywjpRPEan/?name=Dutch+-+Domestic+shipping+3.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/zc9OcgBBEQYo3sMdywjpRPEan/?name=Dutch+-+Domestic+shipping+3.png",
+          "content_type": "image/png",
+          "size": 73161,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56170624518041.json",
+              "id": 56170624518041,
+              "file_name": "Dutch_-_Domestic_shipping_3_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/RAPwKRmzRRakRVuru2RskMCPz/?name=Dutch_-_Domestic_shipping_3_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/RAPwKRmzRRakRVuru2RskMCPz/?name=Dutch_-_Domestic_shipping_3_thumb.png",
+              "content_type": "image/png",
+              "size": 936,
+              "width": 80,
+              "height": 41,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56170601052697.json",
+          "id": 56170601052697,
+          "file_name": "Dutch - Domestic shipping 2.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/9amLDsKj4IRuh6Dwl0lldT51H/?name=Dutch+-+Domestic+shipping+2.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/9amLDsKj4IRuh6Dwl0lldT51H/?name=Dutch+-+Domestic+shipping+2.png",
+          "content_type": "image/png",
+          "size": 78685,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56170601090073.json",
+              "id": 56170601090073,
+              "file_name": "Dutch_-_Domestic_shipping_2_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/gbSeoqVJoJtAgUTxixwPcYh5r/?name=Dutch_-_Domestic_shipping_2_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/gbSeoqVJoJtAgUTxixwPcYh5r/?name=Dutch_-_Domestic_shipping_2_thumb.png",
+              "content_type": "image/png",
+              "size": 1266,
+              "width": 80,
+              "height": 40,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56170640509593.json",
+          "id": 56170640509593,
+          "file_name": "Dutch - Domestic shipping 4.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/j8Tco6iwzFDukPP1OBd3zOJoW/?name=Dutch+-+Domestic+shipping+4.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/j8Tco6iwzFDukPP1OBd3zOJoW/?name=Dutch+-+Domestic+shipping+4.png",
+          "content_type": "image/png",
+          "size": 67242,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56170577940249.json",
+              "id": 56170577940249,
+              "file_name": "Dutch_-_Domestic_shipping_4_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/caze04GRIDnbqo1IB8l1G1atK/?name=Dutch_-_Domestic_shipping_4_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/caze04GRIDnbqo1IB8l1G1atK/?name=Dutch_-_Domestic_shipping_4_thumb.png",
+              "content_type": "image/png",
+              "size": 926,
+              "width": 80,
+              "height": 43,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56170640523161.json",
+          "id": 56170640523161,
+          "file_name": "Dutch - Domestic shipping 1.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/aIHC9GavI8VuL25gXeGFsyPHu/?name=Dutch+-+Domestic+shipping+1.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/aIHC9GavI8VuL25gXeGFsyPHu/?name=Dutch+-+Domestic+shipping+1.png",
+          "content_type": "image/png",
+          "size": 76371,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56170607834777.json",
+              "id": 56170607834777,
+              "file_name": "Dutch_-_Domestic_shipping_1_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/buh0qbwtYRRt0h10KBRaU10Jp/?name=Dutch_-_Domestic_shipping_1_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/buh0qbwtYRRt0h10KBRaU10Jp/?name=Dutch_-_Domestic_shipping_1_thumb.png",
+              "content_type": "image/png",
+              "size": 1170,
+              "width": 80,
+              "height": 34,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56170640525209.json",
+          "id": 56170640525209,
+          "file_name": "Magento - Swedish tracked service.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/0RXxJi2eAMvuDBM0Rk6Xtrjhf/?name=Magento+-+Swedish+tracked+service.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/0RXxJi2eAMvuDBM0Rk6Xtrjhf/?name=Magento+-+Swedish+tracked+service.png",
+          "content_type": "image/png",
+          "size": 87840,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56170601097881.json",
+              "id": 56170601097881,
+              "file_name": "Magento_-_Swedish_tracked_service_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/U71Hkj3pGDpyF0tCmeZL8Tg8K/?name=Magento_-_Swedish_tracked_service_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/U71Hkj3pGDpyF0tCmeZL8Tg8K/?name=Magento_-_Swedish_tracked_service_thumb.png",
+              "content_type": "image/png",
+              "size": 1052,
+              "width": 80,
+              "height": 23,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 56170640507417,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "behzad.rostamian@novusterra.se",
+            "name": "Behzad Rostamian",
+            "original_recipients": [
+              "behzad.rostamian@novusterra.se",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T14:28:07Z",
+      "metadata": {
+        "system": {
+          "message_id": "<PA4PR03MB673410989CB1AFE752F4B3EB8D4FA@PA4PR03MB6734.eurprd03.prod.outlook.com>",
+          "email_id": "01KM37Y2GGQSTQHXC9Q89VCP1X",
+          "raw_email_identifier": "2369120/02ba0e1e-067a-4092-933c-049915ff7b44.eml",
+          "json_email_identifier": "2369120/02ba0e1e-067a-4092-933c-049915ff7b44.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56171824979993,
+      "type": "Comment",
+      "author_id": 903715960643,
+      "body": "My questsion is,\n\n_For 6942 which size and weight (2kg) restrictions may fit in a letterbox, refer to the table in our developer portal:\nhttps://developer.postnl.nl/docs/#/http/reference-data/product-codes-international/international-mail-packets_\n\nWhich product is 6942-  in pluginhive?\n\n\n\n**NOVUS TERRA**\nBehzad Rostamian\n\n073 – 615 30 83\n\nBehzad.rostamian@novusterra.se",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>My questsion is,\n</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span><br>\n</span><i><span>For 6942 which size and weight (2kg) restrictions may fit in a letterbox, refer to the table in our developer portal:<br>\n</span><a href=\"https://developer.postnl.nl/docs/#/http/reference-data/product-codes-international/international-mail-packets\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span>https://developer.postnl.nl/docs/#/http/reference-data/product-codes-international/international-mail-packets</span></a></i><i><span><br>\n<br>\n</span></i><span>Which product is 6942- &nbsp;in pluginhive? </span><span></span></p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"background-color: white; vertical-align: baseline; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><b><span style=\" color: black;\">NOVUS TERRA</span></b><span style=\" color: black;\"><br>\nBehzad Rostamian</span><span style=\"font-size: 11.0pt; \"></span></p>\n<p style=\"background-color: white; vertical-align: baseline; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\" color: black;\">073 – 615 30 83</span><span style=\"font-size: 11.0pt; \"></span></p>\n<p style=\"background-color: white; vertical-align: baseline; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"mailto:Behzad.rostamian@novusterra.se\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span>Behzad.rostamian@novusterra.se</span></a></span><span style=\" color: black;\">\n</span><span style=\"font-size: 11.0pt; \"></span></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span><span></span></p>\n\n</div></div>",
+      "plain_body": "My questsion is,\n \n \n\nFor 6942 which size and weight (2kg) restrictions may fit in a letterbox, refer to the table in our developer portal:\n\nhttps://developer.postnl.nl/docs/#/http/reference-data/product-codes-international/international-mail-packets\n\n\n\nWhich product is 6942- &nbsp;in pluginhive?  \n \n \n \n \n \n \n &nbsp; \n NOVUS TERRA\n\nBehzad Rostamian \n 073 – 615 30 83 \n Behzad.rostamian@novusterra.se\n \n \n \n \n \n \n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56171857139737,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "behzad.rostamian@novusterra.se",
+            "name": "Behzad Rostamian",
+            "original_recipients": [
+              "behzad.rostamian@novusterra.se",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T15:47:13Z",
+      "metadata": {
+        "system": {
+          "message_id": "<PA4PR03MB6734901BFCDC1A0E95B07EEC8D4FA@PA4PR03MB6734.eurprd03.prod.outlook.com>",
+          "email_id": "01KM3CF11F5RQEC58ZED3BFVAT",
+          "raw_email_identifier": "2369120/46b999f3-c539-4649-9dad-17b255d8b71b.eml",
+          "json_email_identifier": "2369120/46b999f3-c539-4649-9dad-17b255d8b71b.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56172010960665,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Sweden Store\nOrders - NA\n\nDHL, UPS, and PostNL account connected\n\nActively using app for both rates and labels\n\n$49 Premium plan",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Sweden Store<br>Orders - NA<br>&nbsp;<br>DHL, UPS, and PostNL account connected<br>&nbsp;<br>Actively using app for both rates and labels<br>&nbsp;<br>$49 Premium plan<br></div>",
+      "plain_body": "Sweden Store\nOrders - NA\n&nbsp;\nDHL, UPS, and PostNL account connected\n&nbsp;\nActively using app for both rates and labels\n&nbsp;\n$49 Premium plan",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56172010960537,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T16:02:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.37.177.226",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56172534636953,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Behzad Rostamian,\n\nGood day!\n\nI would be happy to check this further for you. Before proceeding, could you please let me know if there are any other PostNL service codes you are looking to use apart from 6942?\n\nThis will help us review all the required services together and provide you with the correct mappings.\n\nLooking forward to your response.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Behzad Rostamian,<br>&nbsp;<br>Good day!<br>&nbsp;<br>I would be happy to check this further for you. Before proceeding, could you please let me know if there are any other PostNL service codes you are looking to use apart from 6942?<br>&nbsp;<br>This will help us review all the required services together and provide you with the correct mappings.<br>&nbsp;<br>Looking forward to your response.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Behzad Rostamian,\n&nbsp;\nGood day!\n&nbsp;\nI would be happy to check this further for you. Before proceeding, could you please let me know if there are any other PostNL service codes you are looking to use apart from 6942?\n&nbsp;\nThis will help us review all the required services together and provide you with the correct mappings.\n&nbsp;\nLooking forward to your response.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56172534636825,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T16:39:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.37.177.226",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56172570799257,
+      "type": "Comment",
+      "author_id": 903715960643,
+      "body": "That one is important right now\n\n\n\nSkickat från Outlook för iOS",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 12pt;\">\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\" dir=\"ltr\">\nThat one is important right now</div>\n</div>\n<div style=\" font-size: 12pt;\" dir=\"auto\">\n<br>\n</div>\n<div style=\" font-size: 12pt;\">\nSkickat från <a href=\"https://aka.ms/o0ukef\" rel=\"noreferrer\">Outlook för iOS</a></div></div>",
+      "plain_body": "That one is important right now \n \n \n\n\n \n \nSkickat från Outlook för iOS",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56172570799129,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "behzad.rostamian@novusterra.se",
+            "name": "Behzad Rostamian",
+            "original_recipients": [
+              "behzad.rostamian@novusterra.se",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T16:40:54Z",
+      "metadata": {
+        "system": {
+          "message_id": "<PA4PR03MB673476444631ED9901E0C3928D4FA@PA4PR03MB6734.eurprd03.prod.outlook.com>",
+          "email_id": "01KM3FH9T9J28S5PVTD178FKW7",
+          "raw_email_identifier": "2369120/ce0ac7f0-fae0-43cf-806f-549b95c6194d.eml",
+          "json_email_identifier": "2369120/ce0ac7f0-fae0-43cf-806f-549b95c6194d.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56172577933337,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Behzad Rostamian,\n\nThank you for your reply.\n\nPlease allow us some time we check and get back to you with an update.\n\nWe appricate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Behzad Rostamian,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br>&nbsp;<br>We appricate your time and patience.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Behzad Rostamian,\n&nbsp;\nThank you for your reply.\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n&nbsp;\nWe appricate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56172577933209,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T16:42:00Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.37.177.226",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56172677869849,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need assistance from L3 team:\n\n**Case:** The customer is looking for the service name associated with PostNL service/product code **6942**.\n\n**Details:**\nThis is a $49 Premium Plan Magento MCSL customer who is trying to ship using PostNL but is unable to identify the service corresponding to their contract (service code 6942).\n\nFor troubleshooting, we attempted generating 10+ labels and were able to find services associated with the following codes: 4940, 1010, 4952, 3385, 4944, 3085, and 4950. However, we could not find any service corresponding to **6942**.\n\nAs per PostNL documentation, service code 6942 refers to **“Boxable Track & Trace” (Packet)**. However, we are unable to find a matching or similarly described service within the app.\n\nCould you please help us identify the corresponding service or confirm its availability?\n\n**Store Details:**\nStore URL –https://www.scandinavianspeciosa.se/sv\nAccount ID –f9f4a04f-ae4c-45fa-8fb8-a2032b0a4de3",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need assistance from L3 team:<br>&nbsp;<br><strong>Case:</strong> The customer is looking for the service name associated with PostNL service/product code <strong>6942</strong>.<br>&nbsp;<br><strong>Details:</strong><br>This is a $49 Premium Plan Magento MCSL customer who is trying to ship using PostNL but is unable to identify the service corresponding to their contract (service code 6942).<br>&nbsp;<br>For troubleshooting, we attempted generating 10+ labels and were able to find services associated with the following codes: 4940, 1010, 4952, 3385, 4944, 3085, and 4950. However, we could not find any service corresponding to <strong>6942</strong>.<br>&nbsp;<br>As per PostNL documentation, service code 6942 refers to <strong>“Boxable Track &amp; Trace” (Packet)</strong>. However, we are unable to find a matching or similarly described service within the app.<br>&nbsp;<br>Could you please help us identify the corresponding service or confirm its availability?<br>&nbsp;<br><strong>Store Details:</strong><br>Store URL –<a rel=\"noopener noreferrer\" href=\"https://www.scandinavianspeciosa.se/sv\">https://www.scandinavianspeciosa.se/sv</a>&nbsp;<br>Account ID –f9f4a04f-ae4c-45fa-8fb8-a2032b0a4de3<br></div>",
+      "plain_body": "Need assistance from L3 team:\n&nbsp;\nCase: The customer is looking for the service name associated with PostNL service/product code 6942.\n&nbsp;\nDetails:\nThis is a $49 Premium Plan Magento MCSL customer who is trying to ship using PostNL but is unable to identify the service corresponding to their contract (service code 6942).\n&nbsp;\nFor troubleshooting, we attempted generating 10+ labels and were able to find services associated with the following codes: 4940, 1010, 4952, 3385, 4944, 3085, and 4950. However, we could not find any service corresponding to 6942.\n&nbsp;\nAs per PostNL documentation, service code 6942 refers to “Boxable Track &amp; Trace” (Packet). However, we are unable to find a matching or similarly described service within the app.\n&nbsp;\nCould you please help us identify the corresponding service or confirm its availability?\n&nbsp;\nStore Details:\nStore URL –https://www.scandinavianspeciosa.se/sv&nbsp;\nAccount ID –f9f4a04f-ae4c-45fa-8fb8-a2032b0a4de3",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56172630945817,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T16:46:27Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.37.177.226",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56188380809113,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "The PostNL service with product code **6942 (Boxable Track & Trace – Packet)** is currently not available in the app, as it is not yet mapped in our integration. We will enhance the app in a future update to include this PostNL service.\nPlease move this card to Dev_needed after replying\n-[Athul]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">The PostNL service with product code <strong>6942 (Boxable Track &amp; Trace – Packet)</strong> is currently not available in the app, as it is not yet mapped in our integration. We will enhance the app in a future update to include this PostNL service.<br>Please move this card to Dev_needed after replying<br>-[Athul]<br></div>",
+      "plain_body": "The PostNL service with product code 6942 (Boxable Track &amp; Trace – Packet) is currently not available in the app, as it is not yet mapped in our integration. We will enhance the app in a future update to include this PostNL service.\nPlease move this card to Dev_needed after replying\n-[Athul]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56188380808985,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T05:42:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "103.163.65.25",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56193062405017,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Behzad,\n\nThank you for your patience.\n\nThe PostNL service with product code **6942 (Boxable Track & Trace – Packet)** is currently not available in the app, as it is not yet mapped in our integration. We will enhance the app in a future update to include this PostNL service.\n\nWe will keep you update on this.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Behzad,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>The PostNL service with product code <strong>6942 (Boxable Track &amp; Trace – Packet)</strong> is currently not available in the app, as it is not yet mapped in our integration. We will enhance the app in a future update to include this PostNL service.<br>&nbsp;<br>We will keep you update on this.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Behzad,\n&nbsp;\nThank you for your patience.\n&nbsp;\nThe PostNL service with product code 6942 (Boxable Track &amp; Trace – Packet) is currently not available in the app, as it is not yet mapped in our integration. We will enhance the app in a future update to include this PostNL service.\n&nbsp;\nWe will keep you update on this.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56193062404889,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T08:19:30Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "49.37.249.200",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

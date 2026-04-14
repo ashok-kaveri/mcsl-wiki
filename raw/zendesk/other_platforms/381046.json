@@ -1,0 +1,1008 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/381046.json",
+    "id": 381046,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-03-26T18:46:37Z",
+    "updated_at": "2026-04-09T10:59:38Z",
+    "generated_timestamp": 1775732378,
+    "type": null,
+    "subject": "Bonjour, nous regardons pour changer de transporte...",
+    "raw_subject": "Bonjour, nous regardons pour changer de transporte...",
+    "description": "Bonjour, nous regardons pour changer de transporteur. Pour le moment vous n'offrez pas la liaison avec ce transporteur qui se nomme Delivro. Voici le lien de la documentation de l'API : https://api.dispatchscience.com/reference/test. Est-il envisageable de votre part à ajouter le transporteur à l'extension de PluginHive? Merci et bonne journée!\n\n------------------\nEnvoyé de : https://mcsl-w.pluginhive.io/home/views/orders/status/allorders",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 418076860611,
+    "submitter_id": 418076860611,
+    "assignee_id": 10478126723609,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      903409790923
+    ],
+    "follower_ids": [
+      903409790923
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_customer",
+      "web_widget",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "3443d5eb-b34f-46b1-bf45-98ed14ca2f37"
+      },
+      {
+        "id": 6680360109081,
+        "value": "8198402757"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "VEDR6Z-WVLG5",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "3443d5eb-b34f-46b1-bf45-98ed14ca2f37"
+      },
+      {
+        "id": 6680360109081,
+        "value": "8198402757"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56382939935385,
+      "type": "Comment",
+      "author_id": 418076860611,
+      "body": "Bonjour, nous regardons pour changer de transporteur. Pour le moment vous n'offrez pas la liaison avec ce transporteur qui se nomme Delivro. Voici le lien de la documentation de l'API : https://api.dispatchscience.com/reference/test. Est-il envisageable de votre part à ajouter le transporteur à l'extension de PluginHive? Merci et bonne journée!\n\n------------------\nEnvoyé de : https://mcsl-w.pluginhive.io/home/views/orders/status/allorders",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Bonjour, nous regardons pour changer de transporteur. Pour le moment vous n'offrez pas la liaison avec ce transporteur qui se nomme Delivro. Voici le lien de la documentation de l'API : <a href=\"https://api.dispatchscience.com/reference/test\" target=\"_blank\" rel=\"nofollow noreferrer\">https://api.dispatchscience.com/reference/test</a>. Est-il envisageable de votre part à ajouter le transporteur à l'extension de PluginHive? Merci et bonne journée!</p>\n\n<p dir=\"auto\">------------------\n<br>Envoyé de&nbsp;: <a href=\"https://mcsl-w.pluginhive.io/home/views/orders/status/allorders\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-w.pluginhive.io/home/views/orders/status/allorders</a></p></div>",
+      "plain_body": "Bonjour, nous regardons pour changer de transporteur. Pour le moment vous n'offrez pas la liaison avec ce transporteur qui se nomme Delivro. Voici le lien de la documentation de l'API : https://api.dispatchscience.com/reference/test. Est-il envisageable de votre part à ajouter le transporteur à l'extension de PluginHive? Merci et bonne journée! \n\n ------------------\n\nEnvoyé de&nbsp;: https://mcsl-w.pluginhive.io/home/views/orders/status/allorders",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56382939935257,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-03-26T18:46:37Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "142.127.101.101",
+          "location": "Toronto, ON, Canada",
+          "latitude": 43.6909,
+          "longitude": -79.3098
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 56383627023001,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Canada Store\nCanPar account added\nOrder Count NA\n10122 labels in March\nActive from April 2024 and Yearly Premium plan selected\n\nHello, we are looking to switch carriers. Currently, you do not offer an integration with this carrier, which is named Delivro. Here is the link to the API documentation: https://api.dispatchscience.com/reference/test. Would it be possible for you to add this carrier to the PluginHive extension? Thank you, and have a great day!",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Canada Store<br>CanPar account added<br>Order Count NA<br>10122 labels in March&nbsp;<br>Active from April 2024 and Yearly Premium plan selected<br>&nbsp;<br>Hello, we are looking to switch carriers. Currently, you do not offer an integration with this carrier, which is named Delivro. Here is the link to the API documentation: <a rel=\"noopener noreferrer\" href=\"https://api.dispatchscience.com/reference/test.\">https://api.dispatchscience.com/reference/test.</a> Would it be possible for you to add this carrier to the PluginHive extension? Thank you, and have a great day!<br></div>",
+      "plain_body": "Canada Store\nCanPar account added\nOrder Count NA\n10122 labels in March&nbsp;\nActive from April 2024 and Yearly Premium plan selected\n&nbsp;\nHello, we are looking to switch carriers. Currently, you do not offer an integration with this carrier, which is named Delivro. Here is the link to the API documentation: https://api.dispatchscience.com/reference/test. Would it be possible for you to add this carrier to the PluginHive extension? Thank you, and have a great day!",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56383627022873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T20:07:42Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56383714864025,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Cedric,\n\nGood day!\n\nFor shipping from Canada, apart from CanPar we support Canada Post, Purolator, FedEx, UPS, DHL Express carriers.\n\nUnfortunately, Delviro carrier is not supported and we do not have any plans currently to integrate any new carriers.\n\nLet us know for any further queries.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Cedric,<br>&nbsp;<br>Good day!<br><br>For shipping from Canada, apart from CanPar we support Canada Post, Purolator, FedEx, UPS, DHL Express carriers.&nbsp;<br>&nbsp;<br>Unfortunately, Delviro carrier is not supported and we do not have any plans currently to integrate any new carriers.&nbsp;<br>&nbsp;<br>Let us know for any further queries.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Cedric,\n&nbsp;\nGood day!\n\nFor shipping from Canada, apart from CanPar we support Canada Post, Purolator, FedEx, UPS, DHL Express carriers.&nbsp;\n&nbsp;\nUnfortunately, Delviro carrier is not supported and we do not have any plans currently to integrate any new carriers.&nbsp;\n&nbsp;\nLet us know for any further queries.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56383714863897,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T20:18:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56383744156697,
+      "type": "Comment",
+      "author_id": 418076860611,
+      "body": "Hi Sagar,\n\n\n\nWhat would be your price to connect Delivro to PluginHive? Considering we will send you the API documentation of Delivro?\n\n\n\nThanks a lot!\n\n\n\n**CÉDRIC**\n\nBÉRAUD\n\nDéveloppeur Web, stratège numérique et associé\n\n![ADN](https://support.pluginhive.com/attachments/token/uQoIGgUA4aAlyWpZLZ8I9vh3H/?name=lsi-attach-effects_1274ad741e79b8a48e9f08c227d5fbe274d9fa6502c936bffcaada57.png)\n\nTROIS-RIVIÈRES\n\n**819 840-2757**\n\n**#230**\n\nBÉCANCOUR\n\n**819 233-9688**\n\n**#230**\n\nSHAWINIGAN\n\n**819 537-5121**\n\n**#230**\n\nSANS FRAIS\n\n**1 866 293-8688 **\n\n**ADNCOMM.COM**\n\n![](https://support.pluginhive.com/attachments/token/w5b2FIPTFGA2JkqiwilHAvPBo/?name=lsi-attach-effects_5518b9f9a7bc3897f11c5b6c328f79a05ea1bf68ebd1d51bac446813.png)\n\n![](https://support.pluginhive.com/attachments/token/YkSto51g8b9ST500S1lAoW8cW/?name=lsi-attach-effects_6ab8c4cf137fa0c1677be117cedf5e9dacdea063233392dcdbd1d45f.png)\n\n![](https://support.pluginhive.com/attachments/token/n39SHBlV61guteQ4zlGe8x9JU/?name=lsi-attach-effects_e2a35d77e22f2fe0265d651d09d1d305ba8d68a51fe7d9ab111f4781.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nHi Sagar,</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nWhat would be your price to connect Delivro to PluginHive? Considering we will send you the API documentation of Delivro?</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nThanks a lot!</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<table style=\"height: 194.33px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"width: 15px; height: 20px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; height: 174.33px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 174.33px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; height: 174.33px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 127.33px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; height: 16.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 16.67px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; padding-right: 2.93px; vertical-align: top; height: 16.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 14.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 11pt; color: black;\"><b>CÉDRIC</b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"white-space: nowrap; vertical-align: top; height: 16.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 14.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 11pt; color: black;\">BÉRAUD</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 8px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\">Développeur&nbsp;Web,&nbsp;stratège&nbsp;numérique&nbsp;et&nbsp;associé</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 30px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: 138px; height: 60px; max-width: 138px; max-height: 60px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"line-height: 0px; max-width: 138px; max-height: 60px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><a style=\"margin-top: 0px; margin-bottom: 0px;\" title=\"ADN\" href=\"https://cloud.letsignit.com/collect/bc/6579c6a8e9b3e2f9af67a058?p=FaCzD0dwEHFsrNhzb3wIeiaPbZM52asAVagSVob7MY8taSxTLfwSXCgwyIp_2vxKAAb2Tyb2-US3KS8o8ceWPnuWTqQf2fwhq4JhiCThMZ7n8XKCCVn5MQKZqTHjVx6GzOmQpvKVFDpe6IGJCwZnrjtL-AqsXBmI0hjvPXhmRiY=\" rel=\"noreferrer\"><img style=\"width: 138px; height: 60px; max-width: 138px; max-height: 60px; margin-top: 0px; margin-bottom: 0px; display: block;\" height=\"60\" width=\"138\" alt=\"ADN\" src=\"https://support.pluginhive.com/attachments/token/uQoIGgUA4aAlyWpZLZ8I9vh3H/?name=lsi-attach-effects_1274ad741e79b8a48e9f08c227d5fbe274d9fa6502c936bffcaada57.png\"></a></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"padding-left: 25px; border-collapse: collapse;\"></td>\n<td style=\"line-height: 0; background-color: rgb(40, 152, 215); width: 2px; height: 100%; border-collapse: collapse; background-color: 2898D7\">\n</td>\n<td style=\"padding-right: 25px; border-collapse: collapse;\"></td>\n<td style=\"padding-top: 3px; padding-bottom: 2px; vertical-align: top; height: 169.33px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 169.33px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 12.67px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">TROIS-RIVIÈRES</span></p>\n</td>\n<td style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;840-2757</b></span></p>\n</td>\n<td style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 12.67px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">BÉCANCOUR</span></p>\n</td>\n<td style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;233-9688</b></span></p>\n</td>\n<td style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 12.67px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">SHAWINIGAN</span></p>\n</td>\n<td style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;537-5121</b></span></p>\n</td>\n<td style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 12.67px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">SANS&nbsp;FRAIS</span></p>\n</td>\n<td style=\"white-space: nowrap; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>1&nbsp;866&nbsp;293-8688&nbsp;</b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 15px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a style=\"color: rgb(40, 152, 215); text-decoration: none; margin-top: 0px; margin-bottom: 0px;\" href=\"https://cloud.letsignit.com/collect/bc/6579c6a8e9b3e2f9af67a058?p=FaCzD0dwEHFsrNhzb3wIeiaPbZM52asAVagSVob7MY8taSxTLfwSXCgwyIp_2vxKAAb2Tyb2-US3KS8o8ceWPnuWTqQf2fwhq4JhiCThMZ7n8XKCCVn5MQKZqTHjVx6GzOmQpvKVFDpe6IGJCwZnrjtL-AqsXBmI0hjvPXhmRiY=\" rel=\"noreferrer\">ADNCOMM.COM</a></b></span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 30px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: 199px; height: 46px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"width: 199px; height: 46px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"padding-top: 1px; padding-right: 2px; vertical-align: middle; width: 51px; height: 45px; max-width: 51px; max-height: 45px; border-collapse: collapse;\" align=\"left\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 51px; max-height: 36px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img style=\"width: 51px; height: 36px; max-width: 51px; max-height: 36px; margin-top: 0px; margin-bottom: 0px; display: block;\" height=\"36\" width=\"51\" src=\"https://support.pluginhive.com/attachments/token/w5b2FIPTFGA2JkqiwilHAvPBo/?name=lsi-attach-effects_5518b9f9a7bc3897f11c5b6c328f79a05ea1bf68ebd1d51bac446813.png\"></span></p>\n</td>\n<td style=\"width: 5px; height: 46px; border-collapse: collapse;\"></td>\n<td style=\"padding-top: 4px; padding-right: 2px; padding-left: 8px; vertical-align: middle; width: 42px; height: 42px; max-width: 42px; max-height: 42px; border-collapse: collapse;\" align=\"center\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 42px; max-height: 34px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img style=\"width: 42px; height: 34px; max-width: 42px; max-height: 34px; margin-top: 0px; margin-bottom: 0px; display: block;\" height=\"34\" width=\"42\" src=\"https://support.pluginhive.com/attachments/token/YkSto51g8b9ST500S1lAoW8cW/?name=lsi-attach-effects_6ab8c4cf137fa0c1677be117cedf5e9dacdea063233392dcdbd1d45f.png\"></span></p>\n</td>\n<td style=\"width: 10px; height: 46px; border-collapse: collapse;\"></td>\n<td style=\"vertical-align: middle; width: 79px; height: 46px; max-width: 79px; max-height: 46px; border-collapse: collapse;\" align=\"center\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 79px; max-height: 46px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img style=\"width: 79px; height: 46px; max-width: 79px; max-height: 46px; margin-top: 0px; margin-bottom: 0px; display: block;\" height=\"46\" width=\"79\" src=\"https://support.pluginhive.com/attachments/token/n39SHBlV61guteQ4zlGe8x9JU/?name=lsi-attach-effects_e2a35d77e22f2fe0265d651d09d1d305ba8d68a51fe7d9ab111f4781.png\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"border-collapse: collapse;\">\n<div>\n<div style=\"font-size: 0px;\">&nbsp;</div>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div></div></div>",
+      "plain_body": "Hi Sagar, \n \n\n\n \n \nWhat would be your price to connect Delivro to PluginHive? Considering we will send you the API documentation of Delivro? \n \n\n\n \n \nThanks a lot! \n \n\n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n CÉDRIC \n\n\n\n\n\n\n\n\n\n\n BÉRAUD \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Développeur&nbsp;Web,&nbsp;stratège&nbsp;numérique&nbsp;et&nbsp;associé \n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nTROIS-RIVIÈRES \n\n\n \n819&nbsp;840-2757 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nBÉCANCOUR \n\n\n \n819&nbsp;233-9688 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nSHAWINIGAN \n\n\n \n819&nbsp;537-5121 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nSANS&nbsp;FRAIS \n\n\n \n1&nbsp;866&nbsp;293-8688&nbsp; \n\n\n\n\n\n\n\n\n\n\n\n \nADNCOMM.COM \n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n  \n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56383744156569,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "cedric@adncomm.com",
+            "name": "Cedric Beraud",
+            "original_recipients": [
+              "cedric@adncomm.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T20:21:29Z",
+      "metadata": {
+        "system": {
+          "message_id": "<YQXPR01MB54574876D1CAD4C160D7B48BC856A@YQXPR01MB5457.CANPRD01.PROD.OUTLOOK.COM>",
+          "email_id": "01KMNWY5HAVD74TVTNK6ZW5F1A",
+          "raw_email_identifier": "2369120/c08f3361-67d7-485b-bde6-d1788c7f63a3.eml",
+          "json_email_identifier": "2369120/c08f3361-67d7-485b-bde6-d1788c7f63a3.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56383781973017,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Cedric,\n\nThank you for your response.\n\nIf you could share all the relevant API documentation related to Delivro carrier and any contact person details with us, then we can check for any possibilties with our Product team.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Cedric,<br>&nbsp;<br>Thank you for your response.&nbsp;<br>&nbsp;<br>If you could share all the relevant API documentation related to Delivro carrier and any contact person details with us, then we can check for any possibilties with our Product team.&nbsp;<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Cedric,\n&nbsp;\nThank you for your response.&nbsp;\n&nbsp;\nIf you could share all the relevant API documentation related to Delivro carrier and any contact person details with us, then we can check for any possibilties with our Product team.&nbsp;\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56383781972889,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T20:26:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56383801064985,
+      "type": "Comment",
+      "author_id": 418076860611,
+      "body": "Hi Sagar,\n\n\n\nHere is the API documentation : https://api.dispatchscience.com/reference/test. I will ask Delivro to give me a contact on their side. I would still appreciate an estimation for linking Delivro to PluginHive.\n\n\n\nHave a nice day!\n\n\n\n**CÉDRIC**\n\nBÉRAUD\n\nDéveloppeur Web, stratège numérique et associé\n\n![ADN](https://support.pluginhive.com/attachments/token/GVwinHjgZ1169pkKGI4yBr86T/?name=lsi-attach-effects_1274ad741e79b8a48e9f08c227d5fbe274d9fa6502c936bffcaada57.png)\n\nTROIS-RIVIÈRES\n\n**819 840-2757**\n\n**#230**\n\nBÉCANCOUR\n\n**819 233-9688**\n\n**#230**\n\nSHAWINIGAN\n\n**819 537-5121**\n\n**#230**\n\nSANS FRAIS\n\n**1 866 293-8688 **\n\n**ADNCOMM.COM**\n\n![](https://support.pluginhive.com/attachments/token/Sr06EiIceeBAbh3JCUJkuUgL9/?name=lsi-attach-effects_5518b9f9a7bc3897f11c5b6c328f79a05ea1bf68ebd1d51bac446813.png)\n\n![](https://support.pluginhive.com/attachments/token/lnCf8DMv7j3C50ssFUCRTSZ4v/?name=lsi-attach-effects_6ab8c4cf137fa0c1677be117cedf5e9dacdea063233392dcdbd1d45f.png)\n\n![](https://support.pluginhive.com/attachments/token/X5K232zyrfUffYQDYvUZPXKoq/?name=lsi-attach-effects_e2a35d77e22f2fe0265d651d09d1d305ba8d68a51fe7d9ab111f4781.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nHi Sagar,</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nHere is the API documentation : <a href=\"https://api.dispatchscience.com/reference/test\" rel=\"noreferrer\">\nhttps://api.dispatchscience.com/reference/test</a>. I will ask Delivro to give me a contact on their side. I would still appreciate an estimation for linking Delivro to PluginHive.</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nHave a nice day!</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<table style=\"height: 194.33px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"width: 15px; height: 20px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; height: 174.33px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 174.33px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; height: 174.33px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 127.33px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; height: 16.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 16.67px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; padding-right: 2.93px; vertical-align: top; height: 16.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 14.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 11pt; color: black;\"><b>CÉDRIC</b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"white-space: nowrap; vertical-align: top; height: 16.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 14.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 11pt; color: black;\">BÉRAUD</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 8px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\">Développeur&nbsp;Web,&nbsp;stratège&nbsp;numérique&nbsp;et&nbsp;associé</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 30px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: 138px; height: 60px; max-width: 138px; max-height: 60px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"line-height: 0px; max-width: 138px; max-height: 60px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><a style=\"margin-top: 0px; margin-bottom: 0px;\" title=\"ADN\" href=\"https://cloud.letsignit.com/collect/bc/6579c6a8e9b3e2f9af67a058?p=FaCzD0dwEHFsrNhzb3wIeiaPbZM52asAVagSVob7MY8taSxTLfwSXCgwyIp_2vxKAAb2Tyb2-US3KS8o8ceWPnuWTqQf2fwhq4JhiCThMZ7n8XKCCVn5MQKZqTHjVx6GzOmQpvKVFDpe6IGJCwZnrjtL-AqsXBmI0hjvPXhmRiY=\" rel=\"noreferrer\"><img style=\"width: 138px; height: 60px; max-width: 138px; max-height: 60px; margin-top: 0px; margin-bottom: 0px; display: block;\" height=\"60\" width=\"138\" alt=\"ADN\" src=\"https://support.pluginhive.com/attachments/token/GVwinHjgZ1169pkKGI4yBr86T/?name=lsi-attach-effects_1274ad741e79b8a48e9f08c227d5fbe274d9fa6502c936bffcaada57.png\"></a></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"padding-left: 25px; border-collapse: collapse;\"></td>\n<td style=\"line-height: 0; background-color: rgb(40, 152, 215); width: 2px; height: 100%; border-collapse: collapse; background-color: 2898D7\">\n</td>\n<td style=\"padding-right: 25px; border-collapse: collapse;\"></td>\n<td style=\"padding-top: 3px; padding-bottom: 2px; vertical-align: top; height: 169.33px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 169.33px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 12.67px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">TROIS-RIVIÈRES</span></p>\n</td>\n<td style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;840-2757</b></span></p>\n</td>\n<td style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 12.67px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">BÉCANCOUR</span></p>\n</td>\n<td style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;233-9688</b></span></p>\n</td>\n<td style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 12.67px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">SHAWINIGAN</span></p>\n</td>\n<td style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;537-5121</b></span></p>\n</td>\n<td style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"height: 12.67px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">SANS&nbsp;FRAIS</span></p>\n</td>\n<td style=\"white-space: nowrap; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>1&nbsp;866&nbsp;293-8688&nbsp;</b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 15px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a style=\"color: rgb(40, 152, 215); text-decoration: none; margin-top: 0px; margin-bottom: 0px;\" href=\"https://cloud.letsignit.com/collect/bc/6579c6a8e9b3e2f9af67a058?p=FaCzD0dwEHFsrNhzb3wIeiaPbZM52asAVagSVob7MY8taSxTLfwSXCgwyIp_2vxKAAb2Tyb2-US3KS8o8ceWPnuWTqQf2fwhq4JhiCThMZ7n8XKCCVn5MQKZqTHjVx6GzOmQpvKVFDpe6IGJCwZnrjtL-AqsXBmI0hjvPXhmRiY=\" rel=\"noreferrer\">ADNCOMM.COM</a></b></span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 30px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: 199px; height: 46px; border-collapse: collapse;\" align=\"left\" valign=\"top\">\n<table style=\"width: 199px; height: 46px;\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"padding-top: 1px; padding-right: 2px; vertical-align: middle; width: 51px; height: 45px; max-width: 51px; max-height: 45px; border-collapse: collapse;\" align=\"left\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 51px; max-height: 36px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img style=\"width: 51px; height: 36px; max-width: 51px; max-height: 36px; margin-top: 0px; margin-bottom: 0px; display: block;\" height=\"36\" width=\"51\" src=\"https://support.pluginhive.com/attachments/token/Sr06EiIceeBAbh3JCUJkuUgL9/?name=lsi-attach-effects_5518b9f9a7bc3897f11c5b6c328f79a05ea1bf68ebd1d51bac446813.png\"></span></p>\n</td>\n<td style=\"width: 5px; height: 46px; border-collapse: collapse;\"></td>\n<td style=\"padding-top: 4px; padding-right: 2px; padding-left: 8px; vertical-align: middle; width: 42px; height: 42px; max-width: 42px; max-height: 42px; border-collapse: collapse;\" align=\"center\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 42px; max-height: 34px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img style=\"width: 42px; height: 34px; max-width: 42px; max-height: 34px; margin-top: 0px; margin-bottom: 0px; display: block;\" height=\"34\" width=\"42\" src=\"https://support.pluginhive.com/attachments/token/lnCf8DMv7j3C50ssFUCRTSZ4v/?name=lsi-attach-effects_6ab8c4cf137fa0c1677be117cedf5e9dacdea063233392dcdbd1d45f.png\"></span></p>\n</td>\n<td style=\"width: 10px; height: 46px; border-collapse: collapse;\"></td>\n<td style=\"vertical-align: middle; width: 79px; height: 46px; max-width: 79px; max-height: 46px; border-collapse: collapse;\" align=\"center\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 79px; max-height: 46px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img style=\"width: 79px; height: 46px; max-width: 79px; max-height: 46px; margin-top: 0px; margin-bottom: 0px; display: block;\" height=\"46\" width=\"79\" src=\"https://support.pluginhive.com/attachments/token/X5K232zyrfUffYQDYvUZPXKoq/?name=lsi-attach-effects_e2a35d77e22f2fe0265d651d09d1d305ba8d68a51fe7d9ab111f4781.png\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"border-collapse: collapse;\">\n<div>\n<div style=\"font-size: 0px;\">&nbsp;</div>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div></div></div>",
+      "plain_body": "Hi Sagar, \n \n\n\n \n \nHere is the API documentation : \nhttps://api.dispatchscience.com/reference/test. I will ask Delivro to give me a contact on their side. I would still appreciate an estimation for linking Delivro to PluginHive. \n \n\n\n \n \nHave a nice day! \n \n\n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n CÉDRIC \n\n\n\n\n\n\n\n\n\n\n BÉRAUD \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Développeur&nbsp;Web,&nbsp;stratège&nbsp;numérique&nbsp;et&nbsp;associé \n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nTROIS-RIVIÈRES \n\n\n \n819&nbsp;840-2757 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nBÉCANCOUR \n\n\n \n819&nbsp;233-9688 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nSHAWINIGAN \n\n\n \n819&nbsp;537-5121 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nSANS&nbsp;FRAIS \n\n\n \n1&nbsp;866&nbsp;293-8688&nbsp; \n\n\n\n\n\n\n\n\n\n\n\n \nADNCOMM.COM \n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n  \n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56383801064857,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "cedric@adncomm.com",
+            "name": "Cedric Beraud",
+            "original_recipients": [
+              "cedric@adncomm.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T20:31:16Z",
+      "metadata": {
+        "system": {
+          "message_id": "<YQXPR01MB5457B10DEAF118DAF4765AB8C856A@YQXPR01MB5457.CANPRD01.PROD.OUTLOOK.COM>",
+          "email_id": "01KMNXG1WCGCFWSNR4QRA59D1H",
+          "raw_email_identifier": "2369120/4e85a41f-0876-459e-a6d5-31fbedfb333b.eml",
+          "json_email_identifier": "2369120/4e85a41f-0876-459e-a6d5-31fbedfb333b.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56384013960857,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Cedric,\n\nOnce we have the contact person details from the carrier, we will pass the details with our team and if they are willing to proceed with the integratio, will try getting an estimation for the process.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Cedric,<br>&nbsp;<br>Once we have the contact person details from the carrier, we will pass the details with our team and if they are willing to proceed with the integratio, will try getting an estimation for the process.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Cedric,\n&nbsp;\nOnce we have the contact person details from the carrier, we will pass the details with our team and if they are willing to proceed with the integratio, will try getting an estimation for the process.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56384013960729,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T20:55:24Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56410625838873,
+      "type": "Comment",
+      "author_id": 418076860611,
+      "body": "Hi Sagar,\n\n\n\nAccount Manager\n\nJean-François Girard\n\nCellphone: 514-269-4571\n\nEmail: jfgirard@delivro.ca\n\n\n\nWaiting for an estimate.\n\n\n\nHave a nice day!\n\n\n\n\n\n**CÉDRIC**\n\nBÉRAUD\n\nDéveloppeur Web, stratège numérique et associé\n\n![ADN](https://support.pluginhive.com/attachments/token/iK5QydMCrdHAWSZ4SEA5fFY1N/?name=lsi-attach-effects_1274ad741e79b8a48e9f08c227d5fbe274d9fa6502c936bffcaada57.png)\n\nTROIS-RIVIÈRES\n\n**819 840-2757**\n\n**#230**\n\nBÉCANCOUR\n\n**819 233-9688**\n\n**#230**\n\nSHAWINIGAN\n\n**819 537-5121**\n\n**#230**\n\nSANS FRAIS\n\n**1 866 293-8688 **\n\n**ADNCOMM.COM**\n\n![](https://support.pluginhive.com/attachments/token/4pHVMwj4jSPV4WDQfdWAxu5CW/?name=lsi-attach-effects_5518b9f9a7bc3897f11c5b6c328f79a05ea1bf68ebd1d51bac446813.png)\n\n![](https://support.pluginhive.com/attachments/token/zzz9HEBDnWkMxuaASZR5cBOLf/?name=lsi-attach-effects_6ab8c4cf137fa0c1677be117cedf5e9dacdea063233392dcdbd1d45f.png)\n\n![](https://support.pluginhive.com/attachments/token/6Cff6qBL9EvqTKLFlLxRLsZk3/?name=lsi-attach-effects_e2a35d77e22f2fe0265d651d09d1d305ba8d68a51fe7d9ab111f4781.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nHi Sagar,</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<p style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0cm;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 12pt; color: rgb(36, 36, 36);\">Account Manager</span></p>\n<div style=\" font-size: 12pt; color: rgb(36, 36, 36);\">\nJean-François Girard</div>\n<div style=\" font-size: 12pt; color: rgb(36, 36, 36);\">\nCellphone: 514-269-4571</div>\n<div style=\" font-size: 12pt; color: rgb(36, 36, 36);\">\nEmail: jfgirard@delivro.ca</div>\n<div style=\" font-size: 12pt; color: rgb(36, 36, 36);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(36, 36, 36);\">\nWaiting for an estimate.</div>\n<div style=\" font-size: 12pt; color: rgb(36, 36, 36);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(36, 36, 36);\">\nHave a nice day!</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 194.33px;\">\n<tbody>\n<tr>\n<td style=\"width: 15px; height: 20px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 174.33px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 174.33px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 174.33px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 127.33px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 16.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 16.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.93px; vertical-align: top; height: 16.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 14.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 11pt; color: black;\"><b>CÉDRIC</b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 16.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 14.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 11pt; color: black;\">BÉRAUD</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 8px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\">Développeur&nbsp;Web,&nbsp;stratège&nbsp;numérique&nbsp;et&nbsp;associé</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 30px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; width: 138px; height: 60px; max-width: 138px; max-height: 60px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"line-height: 0px; max-width: 138px; max-height: 60px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><a href=\"https://cloud.letsignit.com/collect/bc/6579c6a8e9b3e2f9af67a058?p=FaCzD0dwEHFsrNhzb3wIeiaPbZM52asAVagSVob7MY8taSxTLfwSXCgwyIp_2vxKAAb2Tyb2-US3KS8o8ceWPnuWTqQf2fwhq4JhiCThMZ7n8XKCCVn5MQKZqTHjVx6GzOmQpvKVFDpe6IGJCwZnrjtL-AqsXBmI0hjvPXhmRiY=\" title=\"ADN\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><img alt=\"ADN\" width=\"138\" height=\"60\" style=\"width: 138px; height: 60px; max-width: 138px; max-height: 60px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/iK5QydMCrdHAWSZ4SEA5fFY1N/?name=lsi-attach-effects_1274ad741e79b8a48e9f08c227d5fbe274d9fa6502c936bffcaada57.png\"></a></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"padding-left: 25px; border-collapse: collapse;\"></td>\n<td style=\"line-height: 0; background-color: rgb(40, 152, 215); width: 2px; height: 100%; border-collapse: collapse; background-color: 2898D7\">\n</td>\n<td style=\"padding-right: 25px; border-collapse: collapse;\"></td>\n<td align=\"left\" style=\"padding-top: 3px; padding-bottom: 2px; vertical-align: top; height: 169.33px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 169.33px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">TROIS-RIVIÈRES</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;840-2757</b></span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">BÉCANCOUR</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;233-9688</b></span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">SHAWINIGAN</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;537-5121</b></span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">SANS&nbsp;FRAIS</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>1&nbsp;866&nbsp;293-8688&nbsp;</b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 15px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><a href=\"https://cloud.letsignit.com/collect/bc/6579c6a8e9b3e2f9af67a058?p=FaCzD0dwEHFsrNhzb3wIeiaPbZM52asAVagSVob7MY8taSxTLfwSXCgwyIp_2vxKAAb2Tyb2-US3KS8o8ceWPnuWTqQf2fwhq4JhiCThMZ7n8XKCCVn5MQKZqTHjVx6GzOmQpvKVFDpe6IGJCwZnrjtL-AqsXBmI0hjvPXhmRiY=\" style=\"color: rgb(40, 152, 215); text-decoration: none; margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><b>ADNCOMM.COM</b></a></span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 30px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; width: 199px; height: 46px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"width: 199px; height: 46px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"padding-top: 1px; padding-right: 2px; vertical-align: middle; width: 51px; height: 45px; max-width: 51px; max-height: 45px; border-collapse: collapse;\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 51px; max-height: 36px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img width=\"51\" height=\"36\" style=\"width: 51px; height: 36px; max-width: 51px; max-height: 36px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/4pHVMwj4jSPV4WDQfdWAxu5CW/?name=lsi-attach-effects_5518b9f9a7bc3897f11c5b6c328f79a05ea1bf68ebd1d51bac446813.png\"></span></p>\n</td>\n<td style=\"width: 5px; height: 46px; border-collapse: collapse;\"></td>\n<td align=\"center\" style=\"padding-top: 4px; padding-right: 2px; padding-left: 8px; vertical-align: middle; width: 42px; height: 42px; max-width: 42px; max-height: 42px; border-collapse: collapse;\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 42px; max-height: 34px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img width=\"42\" height=\"34\" style=\"width: 42px; height: 34px; max-width: 42px; max-height: 34px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/zzz9HEBDnWkMxuaASZR5cBOLf/?name=lsi-attach-effects_6ab8c4cf137fa0c1677be117cedf5e9dacdea063233392dcdbd1d45f.png\"></span></p>\n</td>\n<td style=\"width: 10px; height: 46px; border-collapse: collapse;\"></td>\n<td align=\"center\" style=\"vertical-align: middle; width: 79px; height: 46px; max-width: 79px; max-height: 46px; border-collapse: collapse;\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 79px; max-height: 46px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img width=\"79\" height=\"46\" style=\"width: 79px; height: 46px; max-width: 79px; max-height: 46px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/6Cff6qBL9EvqTKLFlLxRLsZk3/?name=lsi-attach-effects_e2a35d77e22f2fe0265d651d09d1d305ba8d68a51fe7d9ab111f4781.png\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\">\n<tbody>\n<tr>\n<td style=\"border-collapse: collapse;\">\n<div>\n<div style=\"font-size: 0px;\">&nbsp;</div>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div></div></div>",
+      "plain_body": "Hi Sagar, \n \n\n\n \n \nAccount Manager \n \nJean-François Girard \n \nCellphone: 514-269-4571 \n \nEmail: jfgirard@delivro.ca \n \n\n\n \n \nWaiting for an estimate. \n \n\n\n \n \nHave a nice day! \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n CÉDRIC \n\n\n\n\n\n\n\n\n\n\n BÉRAUD \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Développeur&nbsp;Web,&nbsp;stratège&nbsp;numérique&nbsp;et&nbsp;associé \n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nTROIS-RIVIÈRES \n\n\n \n819&nbsp;840-2757 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nBÉCANCOUR \n\n\n \n819&nbsp;233-9688 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nSHAWINIGAN \n\n\n \n819&nbsp;537-5121 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nSANS&nbsp;FRAIS \n\n\n \n1&nbsp;866&nbsp;293-8688&nbsp; \n\n\n\n\n\n\n\n\n\n\n\n \nADNCOMM.COM \n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n  \n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56410625838745,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "cedric@adncomm.com",
+            "name": "Cedric Beraud",
+            "original_recipients": [
+              "cedric@adncomm.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T12:31:16Z",
+      "metadata": {
+        "system": {
+          "message_id": "<YQXPR01MB545742DCE85AD741567E9759C857A@YQXPR01MB5457.CANPRD01.PROD.OUTLOOK.COM>",
+          "email_id": "01KMQMDWC7TZJ5CMMWHTFRY8YD",
+          "raw_email_identifier": "2369120/492f6b99-81a0-4a2d-aff2-729131c3f7f2.eml",
+          "json_email_identifier": "2369120/492f6b99-81a0-4a2d-aff2-729131c3f7f2.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56415961666329,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Cedric,\n\nThank you for sharing the contact details.\n\nI checked the API Documentation link https://api.dispatchscience.com/reference/test and here it is mentioned as Dispatch Science system and could not see any mention related to Delivro carrier.\n\nSo, could you please check if this is the correct API documentation shared? If not, request you to share the correct documentation, so i can pass the details to our product team.\n\n ![](https://pluginhive.zendesk.com/attachments/token/vY4bZGJshWksAQZ9709qnjcEg/?name=image.png)\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Cedric,<br>&nbsp;<br>Thank you for sharing the contact details.&nbsp;<br>&nbsp;<br>I checked the API Documentation link <a rel=\"noopener noreferrer\" href=\"https://api.dispatchscience.com/reference/test\">https://api.dispatchscience.com/reference/test</a> and here it is mentioned as Dispatch Science system and could not see any mention related to Delivro carrier.&nbsp;<br>&nbsp;<br>So, could you please check if this is the correct API documentation shared? If not, request you to share the correct documentation, so i can pass the details to our product team.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 711px;\" src=\"https://pluginhive.zendesk.com/attachments/token/vY4bZGJshWksAQZ9709qnjcEg/?name=image.png\"></span><br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Cedric,\n&nbsp;\nThank you for sharing the contact details.&nbsp;\n&nbsp;\nI checked the API Documentation link https://api.dispatchscience.com/reference/test and here it is mentioned as Dispatch Science system and could not see any mention related to Delivro carrier.&nbsp;\n&nbsp;\nSo, could you please check if this is the correct API documentation shared? If not, request you to share the correct documentation, so i can pass the details to our product team.\n&nbsp;\n\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56415961666201,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T18:16:49Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56416035253529,
+      "type": "Comment",
+      "author_id": 418076860611,
+      "body": "Hi Sagar,\n\n\n\nIt's the Delivro Team that sent me this API documentation.\n\n\n\nThanks a lot!\n\n\n\n**CÉDRIC**\n\nBÉRAUD\n\nDéveloppeur Web, stratège numérique et associé\n\n![ADN](https://support.pluginhive.com/attachments/token/K49Dv52DpBp780QyVF99ldcQe/?name=lsi-attach-effects_1274ad741e79b8a48e9f08c227d5fbe274d9fa6502c936bffcaada57.png)\n\nTROIS-RIVIÈRES\n\n**819 840-2757**\n\n**#230**\n\nBÉCANCOUR\n\n**819 233-9688**\n\n**#230**\n\nSHAWINIGAN\n\n**819 537-5121**\n\n**#230**\n\nSANS FRAIS\n\n**1 866 293-8688 **\n\n**ADNCOMM.COM**\n\n![](https://support.pluginhive.com/attachments/token/mtl1DU7aSZlx57KYvOFNiEjsH/?name=lsi-attach-effects_5518b9f9a7bc3897f11c5b6c328f79a05ea1bf68ebd1d51bac446813.png)\n\n![](https://support.pluginhive.com/attachments/token/vbVijI9oIlzVmKEGUDtxcedpE/?name=lsi-attach-effects_6ab8c4cf137fa0c1677be117cedf5e9dacdea063233392dcdbd1d45f.png)\n\n![](https://support.pluginhive.com/attachments/token/RyBcZnq5bgxNmqbJ9iYsyhFMx/?name=lsi-attach-effects_e2a35d77e22f2fe0265d651d09d1d305ba8d68a51fe7d9ab111f4781.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nHi Sagar,</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nIt's the Delivro Team that sent me this API documentation.</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nThanks a lot!</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 194.33px;\">\n<tbody>\n<tr>\n<td style=\"width: 15px; height: 20px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 174.33px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 174.33px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 174.33px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 127.33px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 16.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 16.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.93px; vertical-align: top; height: 16.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 14.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 11pt; color: black;\"><b>CÉDRIC</b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 16.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 14.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 11pt; color: black;\">BÉRAUD</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 8px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\">Développeur&nbsp;Web,&nbsp;stratège&nbsp;numérique&nbsp;et&nbsp;associé</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 30px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; width: 138px; height: 60px; max-width: 138px; max-height: 60px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"line-height: 0px; max-width: 138px; max-height: 60px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><a href=\"https://cloud.letsignit.com/collect/bc/6579c6a8e9b3e2f9af67a058?p=FaCzD0dwEHFsrNhzb3wIeiaPbZM52asAVagSVob7MY8taSxTLfwSXCgwyIp_2vxKAAb2Tyb2-US3KS8o8ceWPnuWTqQf2fwhq4JhiCThMZ7n8XKCCVn5MQKZqTHjVx6GzOmQpvKVFDpe6IGJCwZnrjtL-AqsXBmI0hjvPXhmRiY=\" title=\"ADN\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><img alt=\"ADN\" width=\"138\" height=\"60\" style=\"width: 138px; height: 60px; max-width: 138px; max-height: 60px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/K49Dv52DpBp780QyVF99ldcQe/?name=lsi-attach-effects_1274ad741e79b8a48e9f08c227d5fbe274d9fa6502c936bffcaada57.png\"></a></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"padding-left: 25px; border-collapse: collapse;\"></td>\n<td style=\"line-height: 0; background-color: rgb(40, 152, 215); width: 2px; height: 100%; border-collapse: collapse; background-color: 2898D7\">\n</td>\n<td style=\"padding-right: 25px; border-collapse: collapse;\"></td>\n<td align=\"left\" style=\"padding-top: 3px; padding-bottom: 2px; vertical-align: top; height: 169.33px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 169.33px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">TROIS-RIVIÈRES</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;840-2757</b></span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">BÉCANCOUR</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;233-9688</b></span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">SHAWINIGAN</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;537-5121</b></span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">SANS&nbsp;FRAIS</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>1&nbsp;866&nbsp;293-8688&nbsp;</b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 15px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><a href=\"https://cloud.letsignit.com/collect/bc/6579c6a8e9b3e2f9af67a058?p=FaCzD0dwEHFsrNhzb3wIeiaPbZM52asAVagSVob7MY8taSxTLfwSXCgwyIp_2vxKAAb2Tyb2-US3KS8o8ceWPnuWTqQf2fwhq4JhiCThMZ7n8XKCCVn5MQKZqTHjVx6GzOmQpvKVFDpe6IGJCwZnrjtL-AqsXBmI0hjvPXhmRiY=\" style=\"color: rgb(40, 152, 215); text-decoration: none; margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><b>ADNCOMM.COM</b></a></span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 30px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; width: 199px; height: 46px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"width: 199px; height: 46px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"padding-top: 1px; padding-right: 2px; vertical-align: middle; width: 51px; height: 45px; max-width: 51px; max-height: 45px; border-collapse: collapse;\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 51px; max-height: 36px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img width=\"51\" height=\"36\" style=\"width: 51px; height: 36px; max-width: 51px; max-height: 36px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/mtl1DU7aSZlx57KYvOFNiEjsH/?name=lsi-attach-effects_5518b9f9a7bc3897f11c5b6c328f79a05ea1bf68ebd1d51bac446813.png\"></span></p>\n</td>\n<td style=\"width: 5px; height: 46px; border-collapse: collapse;\"></td>\n<td align=\"center\" style=\"padding-top: 4px; padding-right: 2px; padding-left: 8px; vertical-align: middle; width: 42px; height: 42px; max-width: 42px; max-height: 42px; border-collapse: collapse;\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 42px; max-height: 34px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img width=\"42\" height=\"34\" style=\"width: 42px; height: 34px; max-width: 42px; max-height: 34px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/vbVijI9oIlzVmKEGUDtxcedpE/?name=lsi-attach-effects_6ab8c4cf137fa0c1677be117cedf5e9dacdea063233392dcdbd1d45f.png\"></span></p>\n</td>\n<td style=\"width: 10px; height: 46px; border-collapse: collapse;\"></td>\n<td align=\"center\" style=\"vertical-align: middle; width: 79px; height: 46px; max-width: 79px; max-height: 46px; border-collapse: collapse;\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 79px; max-height: 46px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img width=\"79\" height=\"46\" style=\"width: 79px; height: 46px; max-width: 79px; max-height: 46px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/RyBcZnq5bgxNmqbJ9iYsyhFMx/?name=lsi-attach-effects_e2a35d77e22f2fe0265d651d09d1d305ba8d68a51fe7d9ab111f4781.png\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\">\n<tbody>\n<tr>\n<td style=\"border-collapse: collapse;\">\n<div>\n<div style=\"font-size: 0px;\">&nbsp;</div>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div></div></div>",
+      "plain_body": "Hi Sagar, \n \n\n\n \n \nIt's the Delivro Team that sent me this API documentation. \n \n\n\n \n \nThanks a lot! \n \n\n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n CÉDRIC \n\n\n\n\n\n\n\n\n\n\n BÉRAUD \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Développeur&nbsp;Web,&nbsp;stratège&nbsp;numérique&nbsp;et&nbsp;associé \n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nTROIS-RIVIÈRES \n\n\n \n819&nbsp;840-2757 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nBÉCANCOUR \n\n\n \n819&nbsp;233-9688 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nSHAWINIGAN \n\n\n \n819&nbsp;537-5121 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nSANS&nbsp;FRAIS \n\n\n \n1&nbsp;866&nbsp;293-8688&nbsp; \n\n\n\n\n\n\n\n\n\n\n\n \nADNCOMM.COM \n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n  \n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56416035253401,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "cedric@adncomm.com",
+            "name": "Cedric Beraud",
+            "original_recipients": [
+              "cedric@adncomm.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T18:23:01Z",
+      "metadata": {
+        "system": {
+          "message_id": "<YQXPR01MB5457B332D2D4AD40B3AC6A57C857A@YQXPR01MB5457.CANPRD01.PROD.OUTLOOK.COM>",
+          "email_id": "01KMR8HYSQCE8FSP582ZEKSVXE",
+          "raw_email_identifier": "2369120/25fde083-3656-4e6b-9ac7-ad49671236e5.eml",
+          "json_email_identifier": "2369120/25fde083-3656-4e6b-9ac7-ad49671236e5.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56416053821209,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Cedric,\n\nSure! Will check about this requirement with our product team.\n\nWill keep you posted on the updates.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Cedric,<br>&nbsp;<br>Sure! Will check about this requirement with our product team.&nbsp;<br>&nbsp;<br>Will keep you posted on the updates.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Cedric,\n&nbsp;\nSure! Will check about this requirement with our product team.&nbsp;\n&nbsp;\nWill keep you posted on the updates.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56416053821081,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T18:24:08Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56416182775833,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Need an input from the team.\n\nCustomer Requirement - Integration with a new carrier \"Delivro\" (we currently do not support this carrier)\n\nCurrent Process - Is using the plugin with CanPar carrier and moving on to the Delivro carrier\n\nAdditional Details - Customer has shared the API documentation and the contact details of a person from Delivro team (both are shared below). Customer is ready to pay an additional amount for this integration and is asking for an estimation of the cost.\n\nAPI Documentation Link - https://api.dispatchscience.com/reference/test\n\nContact details of a carrier related person -\nName: Jean-François Girard\nCellphone: 514-269-4571\nEmail: jfgirard@delivro.ca\n\nCurrent Activities -\nPlugin used - WSS\nStore URL - https://vapewolinak.com\nAccount ID - 3443d5eb-b34f-46b1-bf45-98ed14ca2f37\nOrder Count - NA\nCurrent Carrier Used - CanPar\nLabel Count - 10449 labels in March and 9939 labels in Feb 2026\nActive from April 2024 and Yearly Premium plan selected",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need an input from the team.<br>&nbsp;<br>Customer Requirement - Integration with a new carrier \"Delivro\" (we currently do not support this carrier)<br>&nbsp;<br>Current Process - Is using the plugin with CanPar carrier and moving on to the Delivro carrier<br>&nbsp;<br>Additional Details - Customer has shared the API documentation and the contact details of a person from Delivro team (both are shared below). Customer is ready to pay an additional amount for this integration and is asking for an estimation of the cost.<br>&nbsp;<br>API Documentation Link - <a rel=\"noopener noreferrer\" href=\"https://api.dispatchscience.com/reference/test\">https://api.dispatchscience.com/reference/test</a><br>&nbsp;<br>Contact details of a carrier related person -&nbsp;<br>Name: Jean-François Girard<br>Cellphone: 514-269-4571<br>Email: jfgirard@delivro.ca<br>&nbsp;<br>Current Activities -&nbsp;<br>Plugin used - WSS<br>Store URL - <a rel=\"noopener noreferrer\" href=\"https://vapewolinak.com\">https://vapewolinak.com</a>&nbsp;<br>Account ID - 3443d5eb-b34f-46b1-bf45-98ed14ca2f37<br>Order Count - NA<br>Current Carrier Used - CanPar<br>Label Count - 10449 labels in March and 9939 labels in Feb 2026<br>Active from April 2024 and Yearly Premium plan selected<br></div>",
+      "plain_body": "Need an input from the team.\n&nbsp;\nCustomer Requirement - Integration with a new carrier \"Delivro\" (we currently do not support this carrier)\n&nbsp;\nCurrent Process - Is using the plugin with CanPar carrier and moving on to the Delivro carrier\n&nbsp;\nAdditional Details - Customer has shared the API documentation and the contact details of a person from Delivro team (both are shared below). Customer is ready to pay an additional amount for this integration and is asking for an estimation of the cost.\n&nbsp;\nAPI Documentation Link - https://api.dispatchscience.com/reference/test\n&nbsp;\nContact details of a carrier related person -&nbsp;\nName: Jean-François Girard\nCellphone: 514-269-4571\nEmail: jfgirard@delivro.ca\n&nbsp;\nCurrent Activities -&nbsp;\nPlugin used - WSS\nStore URL - https://vapewolinak.com&nbsp;\nAccount ID - 3443d5eb-b34f-46b1-bf45-98ed14ca2f37\nOrder Count - NA\nCurrent Carrier Used - CanPar\nLabel Count - 10449 labels in March and 9939 labels in Feb 2026\nActive from April 2024 and Yearly Premium plan selected",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56416182774297,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T18:33:51Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56490915126169,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "**Next Steps:**\n\nAsk Cédric to confirm the timeline and whether they are okay with waiting ~1 month for the integration. Once we have their confirmation, we can provide an estimated cost.\n\nIn the meantime, I've reached out to Jean from Delivro to gather more technical details and clarify the integration requirements.\n\n(Abhilash)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><strong>Next Steps:</strong><br>&nbsp;<br>Ask Cédric to confirm the timeline and whether they are okay with waiting ~1 month for the integration. Once we have their confirmation, we can provide an estimated cost.<br><br>In the meantime, I've reached out to Jean from Delivro to gather more technical details and clarify the integration requirements.<br><br>(Abhilash)<br></div>",
+      "plain_body": "Next Steps:\n&nbsp;\nAsk Cédric to confirm the timeline and whether they are okay with waiting ~1 month for the integration. Once we have their confirmation, we can provide an estimated cost.\n\nIn the meantime, I've reached out to Jean from Delivro to gather more technical details and clarify the integration requirements.\n\n(Abhilash)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56490952952217,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T12:47:08Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56495491501721,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Cedric,\n\nGood day!\n\nOur team is looking for the possibilities to consider your requirement for Delviro carrier integration.\n\nTo proceed further, are you okay in waiting for the availability of this carrier integration for atleast 1 month? Once we have your confirmation on this, we can provide an estimated cost for the integration process.\n\nLooking forward for your response.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Cedric,<br>&nbsp;<br>Good day!<br><br>Our team is looking for the possibilities to consider your requirement for Delviro carrier integration.&nbsp;<br>&nbsp;<br>To proceed further, are you okay in waiting for the availability of this carrier integration for atleast 1 month? Once we have your confirmation on this, we can provide an estimated cost for the integration process.&nbsp;<br>&nbsp;<br>Looking forward for your response.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Cedric,\n&nbsp;\nGood day!\n\nOur team is looking for the possibilities to consider your requirement for Delviro carrier integration.&nbsp;\n&nbsp;\nTo proceed further, are you okay in waiting for the availability of this carrier integration for atleast 1 month? Once we have your confirmation on this, we can provide an estimated cost for the integration process.&nbsp;\n&nbsp;\nLooking forward for your response.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56495491501593,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T17:36:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56496620526233,
+      "type": "Comment",
+      "author_id": 418076860611,
+      "body": "Hi Sagar,\n\n\n\nJust to be sure. Would it take a month before the Delivro would be added to pluginHive or a month to check the availability and the possibilities of doing it? If that's not too much to ask, I would only need an approx of the price and delay to be done. With that information I could tell my client and he will take a decision.\n\n\n\nHave a nice day!\n\n\n\n**CÉDRIC**\n\nBÉRAUD\n\nDéveloppeur Web, stratège numérique et associé\n\n![ADN](https://support.pluginhive.com/attachments/token/mExG64fzlqz3WBwF3Uq1CVG7O/?name=lsi-attach-effects_1274ad741e79b8a48e9f08c227d5fbe274d9fa6502c936bffcaada57.png)\n\nTROIS-RIVIÈRES\n\n**819 840-2757**\n\n**#230**\n\nBÉCANCOUR\n\n**819 233-9688**\n\n**#230**\n\nSHAWINIGAN\n\n**819 537-5121**\n\n**#230**\n\nSANS FRAIS\n\n**1 866 293-8688 **\n\n**ADNCOMM.COM**\n\n![](https://support.pluginhive.com/attachments/token/uxiV0kOirotsmQyJIjRatbobP/?name=lsi-attach-effects_5518b9f9a7bc3897f11c5b6c328f79a05ea1bf68ebd1d51bac446813.png)\n\n![](https://support.pluginhive.com/attachments/token/g3abpK2u0uO4cRR56njhYvKco/?name=lsi-attach-effects_6ab8c4cf137fa0c1677be117cedf5e9dacdea063233392dcdbd1d45f.png)\n\n![](https://support.pluginhive.com/attachments/token/QFo0OvrpCc3LNSaBeKNy6lAZh/?name=lsi-attach-effects_e2a35d77e22f2fe0265d651d09d1d305ba8d68a51fe7d9ab111f4781.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nHi Sagar,</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nJust to be sure. Would it take a month before the Delivro would be added to pluginHive or a month to check the availability and the possibilities of doing it? If that's not too much to ask, I would only need an approx of the price and delay to be done. With\n that information I could tell my client and he will take a decision.</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nHave a nice day!</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 194.33px;\">\n<tbody>\n<tr>\n<td style=\"width: 15px; height: 20px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 174.33px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 174.33px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 174.33px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 127.33px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 16.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 16.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.93px; vertical-align: top; height: 16.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 14.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 11pt; color: black;\"><b>CÉDRIC</b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 16.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 14.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 11pt; color: black;\">BÉRAUD</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 8px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\">Développeur&nbsp;Web,&nbsp;stratège&nbsp;numérique&nbsp;et&nbsp;associé</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 30px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; width: 138px; height: 60px; max-width: 138px; max-height: 60px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"line-height: 0px; max-width: 138px; max-height: 60px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><a href=\"https://cloud.letsignit.com/collect/bc/6579c6a8e9b3e2f9af67a058?p=FaCzD0dwEHFsrNhzb3wIeiaPbZM52asAVagSVob7MY8taSxTLfwSXCgwyIp_2vxKAAb2Tyb2-US3KS8o8ceWPnuWTqQf2fwhq4JhiCThMZ7n8XKCCVn5MQKZqTHjVx6GzOmQpvKVFDpe6IGJCwZnrjtL-AqsXBmI0hjvPXhmRiY=\" title=\"ADN\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><img alt=\"ADN\" width=\"138\" height=\"60\" style=\"width: 138px; height: 60px; max-width: 138px; max-height: 60px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/mExG64fzlqz3WBwF3Uq1CVG7O/?name=lsi-attach-effects_1274ad741e79b8a48e9f08c227d5fbe274d9fa6502c936bffcaada57.png\"></a></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"padding-left: 25px; border-collapse: collapse;\"></td>\n<td style=\"line-height: 0; background-color: rgb(40, 152, 215); width: 2px; height: 100%; border-collapse: collapse; background-color: 2898D7\">\n</td>\n<td style=\"padding-right: 25px; border-collapse: collapse;\"></td>\n<td align=\"left\" style=\"padding-top: 3px; padding-bottom: 2px; vertical-align: top; height: 169.33px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 169.33px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">TROIS-RIVIÈRES</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;840-2757</b></span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">BÉCANCOUR</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;233-9688</b></span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">SHAWINIGAN</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;537-5121</b></span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">SANS&nbsp;FRAIS</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>1&nbsp;866&nbsp;293-8688&nbsp;</b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 15px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><a href=\"https://cloud.letsignit.com/collect/bc/6579c6a8e9b3e2f9af67a058?p=FaCzD0dwEHFsrNhzb3wIeiaPbZM52asAVagSVob7MY8taSxTLfwSXCgwyIp_2vxKAAb2Tyb2-US3KS8o8ceWPnuWTqQf2fwhq4JhiCThMZ7n8XKCCVn5MQKZqTHjVx6GzOmQpvKVFDpe6IGJCwZnrjtL-AqsXBmI0hjvPXhmRiY=\" style=\"color: rgb(40, 152, 215); text-decoration: none; margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><b>ADNCOMM.COM</b></a></span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 30px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; width: 199px; height: 46px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"width: 199px; height: 46px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"padding-top: 1px; padding-right: 2px; vertical-align: middle; width: 51px; height: 45px; max-width: 51px; max-height: 45px; border-collapse: collapse;\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 51px; max-height: 36px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img width=\"51\" height=\"36\" style=\"width: 51px; height: 36px; max-width: 51px; max-height: 36px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/uxiV0kOirotsmQyJIjRatbobP/?name=lsi-attach-effects_5518b9f9a7bc3897f11c5b6c328f79a05ea1bf68ebd1d51bac446813.png\"></span></p>\n</td>\n<td style=\"width: 5px; height: 46px; border-collapse: collapse;\"></td>\n<td align=\"center\" style=\"padding-top: 4px; padding-right: 2px; padding-left: 8px; vertical-align: middle; width: 42px; height: 42px; max-width: 42px; max-height: 42px; border-collapse: collapse;\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 42px; max-height: 34px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img width=\"42\" height=\"34\" style=\"width: 42px; height: 34px; max-width: 42px; max-height: 34px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/g3abpK2u0uO4cRR56njhYvKco/?name=lsi-attach-effects_6ab8c4cf137fa0c1677be117cedf5e9dacdea063233392dcdbd1d45f.png\"></span></p>\n</td>\n<td style=\"width: 10px; height: 46px; border-collapse: collapse;\"></td>\n<td align=\"center\" style=\"vertical-align: middle; width: 79px; height: 46px; max-width: 79px; max-height: 46px; border-collapse: collapse;\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 79px; max-height: 46px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img width=\"79\" height=\"46\" style=\"width: 79px; height: 46px; max-width: 79px; max-height: 46px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/QFo0OvrpCc3LNSaBeKNy6lAZh/?name=lsi-attach-effects_e2a35d77e22f2fe0265d651d09d1d305ba8d68a51fe7d9ab111f4781.png\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\">\n<tbody>\n<tr>\n<td style=\"border-collapse: collapse;\">\n<div>\n<div style=\"font-size: 0px;\">&nbsp;</div>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div></div></div>",
+      "plain_body": "Hi Sagar, \n \n\n\n \n \nJust to be sure. Would it take a month before the Delivro would be added to pluginHive or a month to check the availability and the possibilities of doing it? If that's not too much to ask, I would only need an approx of the price and delay to be done. With\n that information I could tell my client and he will take a decision. \n \n\n\n \n \nHave a nice day! \n \n\n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n CÉDRIC \n\n\n\n\n\n\n\n\n\n\n BÉRAUD \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Développeur&nbsp;Web,&nbsp;stratège&nbsp;numérique&nbsp;et&nbsp;associé \n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nTROIS-RIVIÈRES \n\n\n \n819&nbsp;840-2757 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nBÉCANCOUR \n\n\n \n819&nbsp;233-9688 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nSHAWINIGAN \n\n\n \n819&nbsp;537-5121 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nSANS&nbsp;FRAIS \n\n\n \n1&nbsp;866&nbsp;293-8688&nbsp; \n\n\n\n\n\n\n\n\n\n\n\n \nADNCOMM.COM \n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n  \n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56496620526105,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "cedric@adncomm.com",
+            "name": "Cedric Beraud",
+            "original_recipients": [
+              "cedric@adncomm.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T19:27:01Z",
+      "metadata": {
+        "system": {
+          "message_id": "<YQXPR01MB54571039FDAA7ECF990D767AC852A@YQXPR01MB5457.CANPRD01.PROD.OUTLOOK.COM>",
+          "email_id": "01KN03D8MW8KM4A08J83YBG0QK",
+          "raw_email_identifier": "2369120/0458c986-8948-49e1-aa94-f5799b05185f.eml",
+          "json_email_identifier": "2369120/0458c986-8948-49e1-aa94-f5799b05185f.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56497845635481,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Cedric,\n\nPlease allow us sometime. Will get back to you with an update.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Cedric,<br>&nbsp;<br>Please allow us sometime. Will get back to you with an update.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Cedric,\n&nbsp;\nPlease allow us sometime. Will get back to you with an update.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56497845635353,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T21:39:37Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56497816599321,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Checking with the team internally",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Checking with the team internally<br></div>",
+      "plain_body": "Checking with the team internally",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56497816598937,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T21:39:52Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56524743607449,
+      "type": "Comment",
+      "author_id": 418076860611,
+      "body": "Hi Sagar,\n\n\n\nDon't worry.\n\n\n\n**CÉDRIC**\n\nBÉRAUD\n\nDéveloppeur Web, stratège numérique et associé\n\n![ADN](https://support.pluginhive.com/attachments/token/jwNZd4whu7ziz3zRMIvOmCxS6/?name=lsi-attach-effects_1274ad741e79b8a48e9f08c227d5fbe274d9fa6502c936bffcaada57.png)\n\nTROIS-RIVIÈRES\n\n**819 840-2757**\n\n**#230**\n\nBÉCANCOUR\n\n**819 233-9688**\n\n**#230**\n\nSHAWINIGAN\n\n**819 537-5121**\n\n**#230**\n\nSANS FRAIS\n\n**1 866 293-8688 **\n\n**ADNCOMM.COM**\n\n![](https://support.pluginhive.com/attachments/token/ZvZejdDG9gnZg4ewV3DUDNl1f/?name=lsi-attach-effects_5518b9f9a7bc3897f11c5b6c328f79a05ea1bf68ebd1d51bac446813.png)\n\n![](https://support.pluginhive.com/attachments/token/jOGCoWZThoXqIriHo7MecE9xN/?name=lsi-attach-effects_6ab8c4cf137fa0c1677be117cedf5e9dacdea063233392dcdbd1d45f.png)\n\n![](https://support.pluginhive.com/attachments/token/K7DIAkrZGDlUVGcDmM70i95T4/?name=lsi-attach-effects_e2a35d77e22f2fe0265d651d09d1d305ba8d68a51fe7d9ab111f4781.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nHi Sagar,</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nDon't worry.</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 194.33px;\">\n<tbody>\n<tr>\n<td style=\"width: 15px; height: 20px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 174.33px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 174.33px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 174.33px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 127.33px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 16.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 16.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.93px; vertical-align: top; height: 16.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 14.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 11pt; color: black;\"><b>CÉDRIC</b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 16.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 14.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 11pt; color: black;\">BÉRAUD</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 8px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\">Développeur&nbsp;Web,&nbsp;stratège&nbsp;numérique&nbsp;et&nbsp;associé</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 30px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; width: 138px; height: 60px; max-width: 138px; max-height: 60px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"line-height: 0px; max-width: 138px; max-height: 60px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><a href=\"https://cloud.letsignit.com/collect/bc/6579c6a8e9b3e2f9af67a058?p=FaCzD0dwEHFsrNhzb3wIeiaPbZM52asAVagSVob7MY8taSxTLfwSXCgwyIp_2vxKAAb2Tyb2-US3KS8o8ceWPnuWTqQf2fwhq4JhiCThMZ7n8XKCCVn5MQKZqTHjVx6GzOmQpvKVFDpe6IGJCwZnrjtL-AqsXBmI0hjvPXhmRiY=\" title=\"ADN\" style=\"margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><img alt=\"ADN\" width=\"138\" height=\"60\" style=\"width: 138px; height: 60px; max-width: 138px; max-height: 60px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/jwNZd4whu7ziz3zRMIvOmCxS6/?name=lsi-attach-effects_1274ad741e79b8a48e9f08c227d5fbe274d9fa6502c936bffcaada57.png\"></a></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"padding-left: 25px; border-collapse: collapse;\"></td>\n<td style=\"line-height: 0; background-color: rgb(40, 152, 215); width: 2px; height: 100%; border-collapse: collapse; background-color: 2898D7\">\n</td>\n<td style=\"padding-right: 25px; border-collapse: collapse;\"></td>\n<td align=\"left\" style=\"padding-top: 3px; padding-bottom: 2px; vertical-align: top; height: 169.33px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 169.33px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">TROIS-RIVIÈRES</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;840-2757</b></span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">BÉCANCOUR</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;233-9688</b></span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">SHAWINIGAN</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>819&nbsp;537-5121</b></span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table style=\"white-space: nowrap; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box;\">\n<tbody>\n<tr>\n<td style=\"white-space: nowrap; border-collapse: collapse;\">\n<p style=\"line-height: 10.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\"><span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b><a href=\"/agent/tickets/230\" target=\"_blank\" rel=\"ticket\">#230</a></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 5px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"height: 12.67px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; padding-right: 2.13px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: black;\">SANS&nbsp;FRAIS</span></p>\n</td>\n<td align=\"left\" style=\"white-space: nowrap; padding-left: 5px; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><b>1&nbsp;866&nbsp;293-8688&nbsp;</b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 15px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"white-space: nowrap; vertical-align: top; height: 12.67px; border-collapse: collapse;\" valign=\"top\">\n<p style=\"text-align: left; line-height: 12.67px; white-space: nowrap; margin: 0.1pt;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 8pt; color: rgb(40, 152, 215);\"><a href=\"https://cloud.letsignit.com/collect/bc/6579c6a8e9b3e2f9af67a058?p=FaCzD0dwEHFsrNhzb3wIeiaPbZM52asAVagSVob7MY8taSxTLfwSXCgwyIp_2vxKAAb2Tyb2-US3KS8o8ceWPnuWTqQf2fwhq4JhiCThMZ7n8XKCCVn5MQKZqTHjVx6GzOmQpvKVFDpe6IGJCwZnrjtL-AqsXBmI0hjvPXhmRiY=\" style=\"color: rgb(40, 152, 215); text-decoration: none; margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><b>ADNCOMM.COM</b></a></span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 15px; height: 30px; border-collapse: collapse;\"></td>\n</tr>\n<tr>\n<td align=\"left\" style=\"vertical-align: top; width: 199px; height: 46px; border-collapse: collapse;\" valign=\"top\">\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"width: 199px; height: 46px;\">\n<tbody>\n<tr>\n<td align=\"left\" style=\"padding-top: 1px; padding-right: 2px; vertical-align: middle; width: 51px; height: 45px; max-width: 51px; max-height: 45px; border-collapse: collapse;\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 51px; max-height: 36px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img width=\"51\" height=\"36\" style=\"width: 51px; height: 36px; max-width: 51px; max-height: 36px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/ZvZejdDG9gnZg4ewV3DUDNl1f/?name=lsi-attach-effects_5518b9f9a7bc3897f11c5b6c328f79a05ea1bf68ebd1d51bac446813.png\"></span></p>\n</td>\n<td style=\"width: 5px; height: 46px; border-collapse: collapse;\"></td>\n<td align=\"center\" style=\"padding-top: 4px; padding-right: 2px; padding-left: 8px; vertical-align: middle; width: 42px; height: 42px; max-width: 42px; max-height: 42px; border-collapse: collapse;\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 42px; max-height: 34px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img width=\"42\" height=\"34\" style=\"width: 42px; height: 34px; max-width: 42px; max-height: 34px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/jOGCoWZThoXqIriHo7MecE9xN/?name=lsi-attach-effects_6ab8c4cf137fa0c1677be117cedf5e9dacdea063233392dcdbd1d45f.png\"></span></p>\n</td>\n<td style=\"width: 10px; height: 46px; border-collapse: collapse;\"></td>\n<td align=\"center\" style=\"vertical-align: middle; width: 79px; height: 46px; max-width: 79px; max-height: 46px; border-collapse: collapse;\" valign=\"middle\">\n<p style=\"line-height: 0px; max-width: 79px; max-height: 46px; margin: 0.1pt;\" dir=\"auto\"><span style=\"font-size: 0px;\"><img width=\"79\" height=\"46\" style=\"width: 79px; height: 46px; max-width: 79px; max-height: 46px; margin-top: 0px; margin-bottom: 0px; display: block;\" src=\"https://support.pluginhive.com/attachments/token/K7DIAkrZGDlUVGcDmM70i95T4/?name=lsi-attach-effects_e2a35d77e22f2fe0265d651d09d1d305ba8d68a51fe7d9ab111f4781.png\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\">\n<tbody>\n<tr>\n<td style=\"border-collapse: collapse;\">\n<div>\n<div style=\"font-size: 0px;\">&nbsp;</div>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div></div></div>",
+      "plain_body": "Hi Sagar, \n \n\n\n \n \nDon't worry. \n \n\n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n CÉDRIC \n\n\n\n\n\n\n\n\n\n\n BÉRAUD \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Développeur&nbsp;Web,&nbsp;stratège&nbsp;numérique&nbsp;et&nbsp;associé \n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nTROIS-RIVIÈRES \n\n\n \n819&nbsp;840-2757 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nBÉCANCOUR \n\n\n \n819&nbsp;233-9688 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nSHAWINIGAN \n\n\n \n819&nbsp;537-5121 \n\n\n\n\n\n\n #230 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nSANS&nbsp;FRAIS \n\n\n \n1&nbsp;866&nbsp;293-8688&nbsp; \n\n\n\n\n\n\n\n\n\n\n\n \nADNCOMM.COM \n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n  \n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56524743607321,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "cedric@adncomm.com",
+            "name": "Cedric Beraud",
+            "original_recipients": [
+              "cedric@adncomm.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T12:27:50Z",
+      "metadata": {
+        "system": {
+          "message_id": "<YQXPR01MB545783CF4CB2A2F32D03A8C1C853A@YQXPR01MB5457.CANPRD01.PROD.OUTLOOK.COM>",
+          "email_id": "01KN1XTEJF9N8QQ4H29MFD3ZAQ",
+          "raw_email_identifier": "2369120/693c19b8-da55-46c8-8985-faef0ed4d8a8.eml",
+          "json_email_identifier": "2369120/693c19b8-da55-46c8-8985-faef0ed4d8a8.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56525903079065,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Customer acknowledged.\nChecking with the team internally\n[Sagar comment]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer acknowledged.<br>Checking with the team internally<br>[Sagar comment]<br></div>",
+      "plain_body": "Customer acknowledged.\nChecking with the team internally\n[Sagar comment]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56525924092825,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T13:21:10Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56724945348761,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Hi Team,\n\n**Credentials for Delivro:**\n\nURL: https://delivro.dsapp.io/Account/Login\n\nUser: abhilash@pluginhive.com\nPassword : Delivro-1234\n\nInformation about API :\nhttps://api.dispatchscience.com/reference/test\n\nEmail from Dispatch science\nAlex Proteau alex.proteau@dispatchscience.com\n\n(Abhilash)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,&nbsp;<br>&nbsp;<br><strong>Credentials for Delivro:</strong><br>&nbsp;<br>URL: https://delivro.dsapp.io/Account/Login<br>&nbsp;<br>User: abhilash@pluginhive.com<br>Password : Delivro-1234<br>&nbsp;<br>Information about API :<br>https://api.dispatchscience.com/reference/test<br>&nbsp;<br>Email from Dispatch science<br>Alex Proteau <a href=\"mailto:alex.proteau@dispatchscience.com\" rel=\"noreferrer\">alex.proteau@dispatchscience.com</a><br>&nbsp;<br>(Abhilash)<br></div>",
+      "plain_body": "Hi Team,&nbsp;\n&nbsp;\nCredentials for Delivro:\n&nbsp;\nURL: https://delivro.dsapp.io/Account/Login\n&nbsp;\nUser: abhilash@pluginhive.com\nPassword : Delivro-1234\n&nbsp;\nInformation about API :\nhttps://api.dispatchscience.com/reference/test\n&nbsp;\nEmail from Dispatch science\nAlex Proteau alex.proteau@dispatchscience.com\n&nbsp;\n(Abhilash)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56724945347737,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T03:52:53Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56729589303961,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Moving to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "Moving to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56729589303833,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-07T06:01:24Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56810471568025,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Hi Team,\n**Please share the below response with Cedric on the ticket:**\n\n* * *\nHi Cedric,\n\nThank you for your patience and for sharing all the details.\n\nWe’re glad to confirm that we can take up the integration of the Delivro carrier and proceed with the development.\n\nTo move forward, we would like to align on the commercial aspect. If a pricing of **$200/month** works for you, we would be happy to prioritize this integration and proceed accordingly.\n\nOnce we have your confirmation, we will share a detailed timeline for development along with the expected go-live.\n\nWe truly appreciate your collaboration and look forward to working closely with you to make this integration successful.\n\nLooking forward to your thoughts.\n\n(Abhilash)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br><strong>Please share the below response with Cedric on the ticket:</strong><br><hr>Hi Cedric,<br>&nbsp;<br>Thank you for your patience and for sharing all the details.<br>&nbsp;<br>We’re glad to confirm that we can take up the integration of the Delivro carrier and proceed with the development.<br>&nbsp;<br>To move forward, we would like to align on the commercial aspect. If a pricing of <strong>$200/month</strong> works for you, we would be happy to prioritize this integration and proceed accordingly.<br>&nbsp;<br>Once we have your confirmation, we will share a detailed timeline for development along with the expected go-live.<br>&nbsp;<br>We truly appreciate your collaboration and look forward to working closely with you to make this integration successful.<br>&nbsp;<br>Looking forward to your thoughts.<br>&nbsp;<br>(Abhilash)<br></div>",
+      "plain_body": "Hi Team,\nPlease share the below response with Cedric on the ticket:\n Hi Cedric,\n&nbsp;\nThank you for your patience and for sharing all the details.\n&nbsp;\nWe’re glad to confirm that we can take up the integration of the Delivro carrier and proceed with the development.\n&nbsp;\nTo move forward, we would like to align on the commercial aspect. If a pricing of $200/month works for you, we would be happy to prioritize this integration and proceed accordingly.\n&nbsp;\nOnce we have your confirmation, we will share a detailed timeline for development along with the expected go-live.\n&nbsp;\nWe truly appreciate your collaboration and look forward to working closely with you to make this integration successful.\n&nbsp;\nLooking forward to your thoughts.\n&nbsp;\n(Abhilash)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56810474620313,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-09T10:54:08Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56810614637977,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "As the customer is currently on a yearly Enterprise plan of $1,089, we can propose a custom yearly plan at $2,200 per year, subject to their willingness to proceed.\n\n(Abhilash)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">As the customer is currently on a yearly Enterprise plan of $1,089, we can propose a custom yearly plan at $2,200 per year, subject to their willingness to proceed.<br>&nbsp;<br>(Abhilash)<br></div>",
+      "plain_body": "As the customer is currently on a yearly Enterprise plan of $1,089, we can propose a custom yearly plan at $2,200 per year, subject to their willingness to proceed.\n&nbsp;\n(Abhilash)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56810628252825,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-09T10:59:18Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

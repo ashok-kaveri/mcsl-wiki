@@ -193,9 +193,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
     </div>
   </div>
   <div class="kpis">
-    <div class="kpi"><b>66</b><span>Open Tickets</span></div>
-    <div class="kpi"><b>93</b><span>ZI Issues</span></div>
-    <div class="kpi"><b>12+17+93</b><span>Sprint+L3+ZenDesk</span></div>
+    <div class="kpi"><b>81</b><span>Open Tickets</span></div>
+    <div class="kpi"><b>105</b><span>ZI Issues</span></div>
+    <div class="kpi"><b>12+17+105</b><span>Sprint+L3+ZenDesk</span></div>
     <div class="kpi"><b>3</b><span>P0-Critical</span></div>
     <div class="kpi"><b>&lt;72h</b><span>SLA Target</span></div>
     <div class="kpi"><b>15m</b><span>First Response</span></div>
@@ -223,24 +223,24 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 
 const THEMES = [
   {id:'labels', label:'Label & Document Quality', color:'#c0392b',
-   desc:'Packing slips, label generation, declared values, manifests, address validation. 20 ZI issues.',
-   target:'Zero label-related tickets', kpis:{tickets:20, pain:8, revenue:'Retention'},
-   features:['l3_6','l3_7','l3_8','l3_10','l3_11','zf12','zf16','zf23','zf24','zf25','zf27','zf29','zf30','zf32','zf33','zf35','zf41','zf43','zf48','zf52','zf58','zf67','zf71','zf73','zf81']},
+   desc:'Packing slips, label generation, declared values, manifests, address validation. 23 ZI issues.',
+   target:'Zero label-related tickets', kpis:{tickets:23, pain:8, revenue:'Retention'},
+   features:['l3_6','l3_7','l3_8','l3_10','l3_11','zf12','zf16','zf23','zf24','zf25','zf27','zf29','zf30','zf32','zf33','zf35','zf41','zf43','zf48','zf52','zf58','zf67','zf71','zf73','zf81','zf94','zf95','zf105']},
 
   {id:'carrier', label:'Carrier Platform', color:'#2980b9',
-   desc:'Carrier services, FedEx REST migration, TLS compliance, PostNord, config gaps. 19 ZI issues.',
-   target:'All carriers current', kpis:{tickets:19, pain:8, revenue:'$$$ Expansion'},
-   features:['sp7','sp43','sp8','sp1','sp10','sp39','sp2','sp3','sp4','sp38','l3_1','l3_2','l3_4','l3_5','l3_9','l3_12','l3_13','zf8','zf18','zf22','zf31','zf37','zf45','zf51','zf53','zf54','zf57','zf61','zf69','zf70','zf72','zf74','zf76','zf80','zf83','zf90']},
+   desc:'Carrier services, FedEx REST migration, TLS compliance, PostNord, config gaps. 23 ZI issues.',
+   target:'All carriers current', kpis:{tickets:23, pain:8, revenue:'$$$ Expansion'},
+   features:['sp7','sp43','sp8','sp1','sp10','sp39','sp2','sp3','sp4','sp38','l3_1','l3_2','l3_4','l3_5','l3_9','l3_12','l3_13','zf8','zf18','zf22','zf31','zf37','zf45','zf51','zf53','zf54','zf57','zf61','zf69','zf70','zf72','zf74','zf76','zf80','zf83','zf90','zf97','zf98','zf101','zf104']},
 
   {id:'data', label:'Order & Product Data', color:'#27ae60',
-   desc:'Variant sync, product import, order reports, draft orders, data integrity. 19 ZI issues.',
-   target:'Zero data-loss tickets', kpis:{tickets:19, pain:8, revenue:'$$$ ARPU'},
-   features:['sp42','l3_14','l3_15','l3_16','zf1','zf2','zf3','zf4','zf5','zf7','zf11','zf13','zf17','zf28','zf39','zf40','zf44','zf46','zf49','zf64','zf79','zf89','zf92']},
+   desc:'Variant sync, product import, order reports, draft orders, data integrity. 21 ZI issues.',
+   target:'Zero data-loss tickets', kpis:{tickets:21, pain:8, revenue:'$$$ ARPU'},
+   features:['sp42','l3_14','l3_15','l3_16','zf1','zf2','zf3','zf4','zf5','zf7','zf11','zf13','zf17','zf28','zf39','zf40','zf44','zf46','zf49','zf64','zf79','zf89','zf92','zf96','zf100']},
 
   {id:'intl', label:'International & Customs', color:'#8e44ad',
-   desc:'Commercial invoice pipeline, HS codes, export reasons, customs declarations, returns. 12 ZI issues.',
-   target:'CI pipeline fixed', kpis:{tickets:12, pain:8, revenue:'$$ Premium'},
-   features:['l3_3','zf15','zf19','zf21','zf34','zf38','zf55','zf56','zf60','zf62','zf63','zf65','zf75']},
+   desc:'Commercial invoice pipeline, HS codes, export reasons, customs declarations, returns. 14 ZI issues.',
+   target:'CI pipeline fixed', kpis:{tickets:14, pain:8, revenue:'$$ Premium'},
+   features:['l3_3','zf15','zf19','zf21','zf34','zf38','zf55','zf56','zf60','zf62','zf63','zf65','zf75','zf102','zf103']},
 
   {id:'onboarding', label:'Onboarding & Retention', color:'#e67e22',
    desc:'Setup friction, carrier account creation, churn investigation, plan limits. 11 ZI issues.',
@@ -253,9 +253,9 @@ const THEMES = [
    features:['sp33','l3_17','zf6','zf14','zf20','zf47','zf59','zf84','zf85','zf87']},
 
   {id:'requests', label:'Feature Requests', color:'#16a085',
-   desc:'Customer-requested features: address suggestion, payment filter, WorldEase, Saturday toggle. 4 ZI issues.',
-   target:'Customer roadmap input', kpis:{tickets:4, pain:5, revenue:'Loyalty'},
-   features:['zf9','zf26','zf36','zf42']},
+   desc:'Customer-requested features: address suggestion, payment filter, WorldEase, Saturday toggle, Delivro. 5 ZI issues.',
+   target:'Customer roadmap input', kpis:{tickets:5, pain:5, revenue:'Loyalty'},
+   features:['zf9','zf26','zf36','zf42','zf99']},
 ];
 
 // --- SPRINT PLAN FEATURES (12 main) ---
@@ -307,7 +307,7 @@ const L3_ITEMS = {
   l3_17: {id:'l3_17', title:'[L3-17] Reports: Carrier Scan Time', desc:'Map tracking timestamps (pickup, delivered, returned) to TrackingOrders. Start with Indian carriers.', lane:'next', tags:['l3'], pain:5, effort:4, customers:1, start:21, end:25, theme:'intelligence', children:[]},
 };
 
-// --- ZENDESK-DERIVED FEATURES (93 ZI issues, one card per issue) ---
+// --- ZENDESK-DERIVED FEATURES (105 ZI issues, one card per issue) ---
 const ZEN_FEATURES = {
   zf1:{id:'zf1',title:'Variant SKU search not supported',desc:'#218195 — product-management',lane:'next',tags:[],pain:9,effort:3,customers:1,start:17,end:25,theme:'data',children:[{id:'#218195',t:'ZI-001'}]},
   zf2:{id:'zf2',title:'Product sync with Shopify',desc:'#218195 — product-management',lane:'next',tags:[],pain:9,effort:3,customers:1,start:17,end:25,theme:'data',children:[{id:'#218195',t:'ZI-002'}]},
@@ -402,6 +402,18 @@ const ZEN_FEATURES = {
   zf91:{id:'zf91',title:'Onboarding call and UPS setup',desc:'#383273 — onboarding',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#383273',t:'ZI-091'}]},
   zf92:{id:'zf92',title:'Shipping class/product category sync failure',desc:'#383437 — product-management',lane:'next',tags:[],pain:9,effort:3,customers:1,start:17,end:25,theme:'data',children:[{id:'#383437',t:'ZI-092'}]},
   zf93:{id:'zf93',title:'Churn investigation for high-volume customer',desc:'#383729 — onboarding',lane:'later',tags:[],pain:4,effort:3,customers:1,start:25,end:30,theme:'onboarding',children:[{id:'#383729',t:'ZI-093'}]},
+  zf94:{id:'zf94',title:'Custom description not printed for multi-product orders on UPS labels',desc:'#377795 — label-generation',lane:'now',tags:[],pain:9,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#377795',t:'ZI-094'}]},
+  zf95:{id:'zf95',title:'UPS 50-character description field limit',desc:'#377795 — label-generation',lane:'now',tags:[],pain:9,effort:3,customers:1,start:13,end:21,theme:'labels',children:[{id:'#377795',t:'ZI-095'}]},
+  zf96:{id:'zf96',title:'WooCommerce order sync blocked by Cloudflare security challenge',desc:'#378589 — order-management',lane:'now',tags:[],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#378589',t:'ZI-096'}]},
+  zf97:{id:'zf97',title:'Canpar Adult Signature (SA) service support',desc:'#379378 — carrier-config',lane:'next',tags:[],pain:6,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#379378',t:'ZI-097'}]},
+  zf98:{id:'zf98',title:'PostNL service code 6942 (Boxable Track & Trace) not available',desc:'#379796 — carrier-config',lane:'next',tags:[],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#379796',t:'ZI-098'}]},
+  zf99:{id:'zf99',title:'Delivro carrier integration request',desc:'#381046 — feature-request',lane:'later',tags:[],pain:7,effort:5,customers:1,start:25,end:30,theme:'requests',children:[{id:'#381046',t:'ZI-099'}]},
+  zf100:{id:'zf100',title:'WooCommerce order auto-import broken',desc:'#382848 — order-management',lane:'now',tags:[],pain:8,effort:3,customers:1,start:13,end:21,theme:'data',children:[{id:'#382848',t:'ZI-100'}]},
+  zf101:{id:'zf101',title:'FedEx account registration failing (WooCommerce)',desc:'#383509 — carrier-config',lane:'next',tags:[],pain:7,effort:3,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#383509',t:'ZI-101'}]},
+  zf102:{id:'zf102',title:'FedEx label generation blocked by invalid CNPJ/CPF for Brazil shipment',desc:'#383746 — international',lane:'now',tags:[],pain:8,effort:3,customers:1,start:14,end:21,theme:'intl',children:[{id:'#383746',t:'ZI-102'}]},
+  zf103:{id:'zf103',title:'Commercial invoice currency shows EUR instead of recipient currency',desc:'#383757 — international',lane:'now',tags:[],pain:8,effort:3,customers:1,start:14,end:21,theme:'intl',children:[{id:'#383757',t:'ZI-103'}]},
+  zf104:{id:'zf104',title:'UPS Digital Connections partnership follow-up pending',desc:'#383817 — carrier-config',lane:'next',tags:[],pain:3,effort:1,customers:1,start:18,end:25,theme:'carrier',children:[{id:'#383817',t:'ZI-104'}]},
+  zf105:{id:'zf105',title:'Multiple label generation failures forcing manual shipments',desc:'#383835 — label-generation',lane:'now',tags:[],pain:10,effort:3,customers:1,start:13,end:18,theme:'labels',children:[{id:'#383835',t:'ZI-105'}]},
 };
 
 
@@ -498,7 +510,7 @@ const EPICS = [
 
 // --- STRATEGY ---
 const STRATEGY = [
-  {id:'s1', title:'Eliminate Recurring Ticket Patterns', desc:'93 ZI issues from 66 tickets clustered into 14 backlog items. CI pipeline = 10 ZI issues. Variant sync = 9 ZI issues. Target: 66 → 30 tickets.', lane:'now', tags:['l3'], pain:10, effort:5, customers:33, start:13, end:21,
+  {id:'s1', title:'Eliminate Recurring Ticket Patterns', desc:'105 ZI issues from 81 tickets clustered into 14 backlog items. CI pipeline = 10 ZI issues. Variant sync = 9 ZI issues. Target: 81 → 30 tickets.', lane:'now', tags:['l3'], pain:10, effort:5, customers:33, start:13, end:21,
    children:[{id:'CI',t:'Batch fix 10 ZI international issues (Backlog #4)'},{id:'L3 Ship',t:'Deploy 4 dev-ready (ZI-075, ZI-074, ZI-054, ZI-014)'},{id:'Variants',t:'Fix variant sync — 9 ZI issues (Backlog #7)'},{id:'ZI-079',t:'P0 orders bug (#382961)'}]},
   {id:'s2', title:'L3 as Revenue Intelligence', desc:'Every L3 ticket = product signal. Dashboard (premium-gated) = direct revenue. Carrier expansions = partnership revenue.', lane:'now', tags:['revenue'], pain:5, effort:4, customers:5, start:13, end:30,
    children:[{id:'[#33]',t:'Dashboard → premium plan revenue'},{id:'[#8]',t:'APC → partnership revenue'},{id:'[#38]',t:'NZ Post → partnership revenue'},{id:'Variants',t:'>250 variants → enterprise tier'}]},
@@ -677,8 +689,8 @@ function build(){
       <div class="sum-row"><span>Total</span><b>17</b></div>
     </div>
     <div class="sum-card"><h4>Zendesk Issues (ZI)</h4>
-      <div class="sum-row"><span>Total ZI Issues</span><b>93</b></div>
-      <div class="sum-row"><span>From Tickets</span><b>66</b></div>
+      <div class="sum-row"><span>Total ZI Issues</span><b>105</b></div>
+      <div class="sum-row"><span>From Tickets</span><b>81</b></div>
       <div class="sum-row"><span>Active Backlog Clusters</span><b>11</b></div>
       <div class="sum-row"><span>Parking Lot (feature req)</span><b>7</b></div>
       <div class="sum-row"><span>Dev Ready (free wins)</span><b>4</b></div>
@@ -905,6 +917,11 @@ function buildSearchIndex(){
 
 const SEARCH_INDEX = buildSearchIndex();
 
+function textMatchesQuery(text, q){
+  if(/^\d+$/.test(q)) return new RegExp('\\b'+q+'\\b').test(text);
+  return text.includes(q);
+}
+
 function doSearch(query){
   if(!query || query.length < 2){
     searchResults.classList.remove('open');
@@ -915,7 +932,7 @@ function doSearch(query){
   }
   searchClear.classList.add('vis');
   const q = query.toLowerCase();
-  const matches = SEARCH_INDEX.filter(item => item.text.includes(q));
+  const matches = SEARCH_INDEX.filter(item => textMatchesQuery(item.text, q));
 
   if(matches.length === 0){
     searchResults.innerHTML = '<div class="sr-count">No results for "'+query+'"</div>';
@@ -1016,7 +1033,7 @@ function dimNonMatchingCards(q){
     if(!item) return;
     let text = [item.id, item.title, item.desc||'', (item.tags||[]).join(' '), item.theme||'', item.revenue||''].join(' ');
     if(item.children) item.children.forEach(c=>text+=' '+c.id+' '+c.t);
-    if(text.toLowerCase().includes(q)) anyCardMatch = true;
+    if(textMatchesQuery(text.toLowerCase(), q)) anyCardMatch = true;
   });
   if(anyCardMatch){
     cards.forEach(card=>{
@@ -1025,7 +1042,7 @@ function dimNonMatchingCards(q){
       if(!item){card.style.opacity='';card.classList.remove('search-highlight');return}
       let text = [item.id, item.title, item.desc||'', (item.tags||[]).join(' '), item.theme||'', item.revenue||''].join(' ');
       if(item.children) item.children.forEach(c=>text+=' '+c.id+' '+c.t);
-      if(text.toLowerCase().includes(q)){
+      if(textMatchesQuery(text.toLowerCase(), q)){
         card.style.opacity='1';
         card.classList.add('search-highlight');
         card.parentElement.prepend(card);
@@ -1039,11 +1056,11 @@ function dimNonMatchingCards(q){
   let anyThemeMatch = false;
   document.querySelectorAll('.tc').forEach(tc=>{
     const fullText = (tc.textContent||'').toLowerCase();
-    if(fullText.includes(q)) anyThemeMatch = true;
+    if(textMatchesQuery(fullText, q)) anyThemeMatch = true;
   });
   if(anyThemeMatch){
     document.querySelectorAll('.tc').forEach(tc=>{
-      if((tc.textContent||'').toLowerCase().includes(q)){
+      if(textMatchesQuery((tc.textContent||'').toLowerCase(), q)){
         tc.style.opacity='1';
         tc.classList.add('search-highlight');
       } else {
@@ -1055,12 +1072,12 @@ function dimNonMatchingCards(q){
   // Release rows (.rr) — only dim if at least one release matches
   let anyReleaseMatch = false;
   document.querySelectorAll('.rr').forEach(rr=>{
-    if(rr.textContent.toLowerCase().includes(q)) anyReleaseMatch = true;
+    if(textMatchesQuery(rr.textContent.toLowerCase(), q)) anyReleaseMatch = true;
   });
   if(anyReleaseMatch){
     document.querySelectorAll('.rr').forEach(rr=>{
       const text = rr.textContent.toLowerCase();
-      if(text.includes(q)){
+      if(textMatchesQuery(text, q)){
         rr.style.opacity='1';
         rr.style.background='rgba(243,156,18,0.08)';
         rr.classList.add('search-highlight');
@@ -1074,12 +1091,12 @@ function dimNonMatchingCards(q){
   // Release detail rows (.rt tbody tr) — only dim if at least one matches
   let anyDetailMatch = false;
   document.querySelectorAll('.rt tbody tr').forEach(tr=>{
-    if(tr.textContent.toLowerCase().includes(q)) anyDetailMatch = true;
+    if(textMatchesQuery(tr.textContent.toLowerCase(), q)) anyDetailMatch = true;
   });
   if(anyDetailMatch){
     document.querySelectorAll('.rt tbody tr').forEach(tr=>{
       const text = tr.textContent.toLowerCase();
-      if(text.includes(q)){
+      if(textMatchesQuery(text, q)){
         tr.style.opacity='1';
         tr.style.background='rgba(243,156,18,0.1)';
       } else {
@@ -1095,13 +1112,13 @@ function ganttRowMatchesQuery(row, q){
   if(!label) return false;
   const title = label.textContent;
   // Direct label match
-  if(title.toLowerCase().includes(q)) return true;
+  if(textMatchesQuery(title.toLowerCase(), q)) return true;
   // Look up feature by title and search full data (desc, children, tags)
   const feat = Object.values(ALL_FEATURES).find(f=>f.title===title);
   if(!feat) return false;
   let text = [feat.id, feat.title, feat.desc||'', (feat.tags||[]).join(' '), feat.theme||''].join(' ');
   if(feat.children) feat.children.forEach(c=>text+=' '+c.id+' '+c.t);
-  return text.toLowerCase().includes(q);
+  return textMatchesQuery(text.toLowerCase(), q);
 }
 
 function dimNonMatchingGanttRows(q){
