@@ -366,10 +366,14 @@ Each scenario must have:
      - Pain label (Pain 10 or Pain 8-9)
      - Theme label (Label & Document Quality / Carrier Platform / Order & Product Data / International & Customs / Onboarding & Retention / Rates & Intelligence / Feature Requests)
      - Carrier label(s) (🚚 FedEx / 🚚 UPS / 🚚 USPS / 🚚 DHL / etc.) — detect from ticket summary + title keywords
+     - Dev status label — correlate with ph-WIP board (see ph-WIP Correlation below)
      - SLA Breached label (if SLA is breached)
    - `POST /cards` with full markdown as `desc`
    - `pos`: `"top"` for SLA breached cards, `"bottom"` otherwise
    - Record Trello shortUrl in the markdown file's Cross-Links
+8. **Correlate with ph-WIP board** (see ph-WIP Correlation section below):
+   - Search ph-WIP for the ticket number in card name, desc, attachments, comments
+   - If found: add dev status label + append ph-WIP Card section to card desc
 
 ### Batch by release (`apr-13-16`, etc.)
 1. Parse all ZI issues from daily index
@@ -389,6 +393,84 @@ Print:
 - Per-lane breakdown: lane name → card count
 - SLA summary: N on track, N at risk, N breached
 - Board link: https://trello.com/b/d1xk25XH/storylab
+
+---
+
+## ph-WIP Correlation
+
+Every StoryLab card is correlated with the **ph-WIP** Trello board (`63e1e0414b6026c45be1087c`, https://trello.com/b/PWKHwiCI) to determine dev status.
+
+### How to Correlate
+
+1. **Fetch all ph-WIP cards**: `GET /boards/63e1e0414b6026c45be1087c/cards?attachments=true&fields=name,desc,idList,shortUrl`
+2. **Fetch ph-WIP lists**: `GET /boards/63e1e0414b6026c45be1087c/lists?fields=name,id`
+3. **For each ZI issue**, search ph-WIP cards for the Zendesk ticket number in:
+   - Card name
+   - Card description
+   - Attachment names/URLs
+   - If still not found: fetch board comments via `GET /boards/{id}/actions?filter=commentCard&limit=1000` and search comment text
+4. **Match pattern**: `#<ticketId>`, `<ticketId>`, or `zendesk.com/<ticketId>` in the searchable text
+5. **When sanitizing card names for JS**: strip newlines, escape single quotes, truncate to 60 chars
+
+### Dev Status Classification
+
+Classify each ph-WIP lane into a dev status:
+
+| Status | ph-WIP Lanes |
+|--------|-------------|
+| `BACKLOG` | Known issues, DevNeeded Cards, Cards to groom, Backlog, L3 Dev ready cards, Planning Lane, Handed Off from Product, Need more detail, Iteration Backlog, WMS Backlog |
+| `DEV` | In Dev, Dev Box Testing |
+| `DEV DONE` | Dev Done, L3 Debug/Tasks Tickets done(not need dev) |
+| `QA` | Any lane containing "Ready for QA", "QA", "QA Automation", "Automation Done", "QA Verified", "Toggle On TestingPending" |
+| `PROD` | Any lane starting with "PROD", "Releases Upcoming" |
+
+### Dev Status Labels on StoryLab
+
+| Label | ID | Color |
+|-------|-----|-------|
+| `🛠️ DEV` | `69ddcada5e444b9157da951d` | orange |
+| `✅ DEV DONE` | `69ddcadb130379d4cb79b4ef` | lime |
+| `🧪 QA` | `69ddcadb1d2769d25b6a6f92` | sky |
+| `🚀 PROD` | `69ddcadcd5d8f116d99db5f4` | green |
+| `📋 BACKLOG` | `69ddcadcd2bfb5a850ffb2cc` | black |
+
+### ph-WIP Card Section in Description
+
+When a match is found, append this section to the StoryLab card's description:
+
+```markdown
+---
+
+## ph-WIP Card
+
+**Card**: [<card name>](<shortUrl>)
+**Lane**: <lane name>
+**Link**: <shortUrl>
+```
+
+If multiple ph-WIP cards match the same ticket:
+```markdown
+**Additional card 2**: [<card name>](<shortUrl>) — <lane name>
+```
+
+### Carrier Detection
+
+Auto-detect carriers from ticket summary + title using these keywords:
+
+| Carrier | Keywords |
+|---------|----------|
+| FedEx | fedex, fed ex |
+| UPS | ups |
+| USPS | usps, stamps.com |
+| DHL | dhl |
+| PostNord | postnord |
+| PostNL | postnl |
+| Australia Post | australia post, auspost, eparcel, startrack |
+| BlueDart | bluedart, blue dart |
+| Royal Mail | royal mail, royalmail |
+| Canpar | canpar |
+| DPD | dpd |
+| Delivro | delivro |
 
 ---
 
