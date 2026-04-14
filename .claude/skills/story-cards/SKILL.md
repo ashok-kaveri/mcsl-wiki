@@ -95,6 +95,11 @@ else (later)                        → APR 25-30
 | `🚚 Canpar` | `69dda71fc1cb3047913d690f` | green | Carrier tag |
 | `🚚 DPD` | `69dda71f95b500c95b729813` | lime | Carrier tag |
 | `🚚 Delivro` | `69dda72014f1d93c606bc376` | black | Carrier tag |
+| `🛠️ DEV` | `69ddcada5e444b9157da951d` | orange | Dev status (in active development) |
+| `✅ DEV DONE` | `69ddcadb130379d4cb79b4ef` | lime | Dev status (code complete, not yet QA) |
+| `🧪 QA` | `69ddcadb1d2769d25b6a6f92` | sky | Dev status (in QA / ready for QA) |
+| `🚀 PROD` | `69ddcadcd5d8f116d99db5f4` | green | Dev status (shipped to production) |
+| `📋 BACKLOG` | `69ddcadcd2bfb5a850ffb2cc` | black | Dev status (in backlog / cards to groom) |
 
 ### Card Priority (position within lane)
 
