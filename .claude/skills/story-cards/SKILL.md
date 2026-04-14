@@ -76,6 +76,13 @@ else (later)                        → APR 25-30
 | `Pain 10` | `69dd9134576a26fcb79b6726` | red | Severity tag |
 | `Pain 8-9` | `69dd9134576a26fcb79b6724` | yellow | Severity tag |
 | `SLA Breached` | `69dd9134576a26fcb79b6728` | blue | SLA status tag |
+| `Label & Document Quality` | `69dda3f5e846f4f43ea87d29` | red | Theme tag |
+| `Carrier Platform` | `69dda3f5470641447a1bdc6e` | blue | Theme tag |
+| `Order & Product Data` | `69dda3f67c209e8d65dc7978` | green | Theme tag |
+| `International & Customs` | `69dda3f6e3f0ffaad39dfb82` | purple | Theme tag |
+| `Onboarding & Retention` | `69dda3f73366b97280f973e1` | orange | Theme tag |
+| `Rates & Intelligence` | `69dda3f75e4823b427cdec17` | yellow | Theme tag |
+| `Feature Requests` | `69dda3f8fd2b781f799e7b1a` | sky | Theme tag |
 
 ### Card Priority (position within lane)
 
@@ -336,8 +343,14 @@ Each scenario must have:
 6. Write story card to `wiki/product/stories/ZI-NNN.md`
 7. Push to Trello (unless `--no-trello`):
    - Determine lane from pain/area mapping
-   - Assign product label + pain label + SLA breached label (if applicable)
+   - Card name format: `ZI-NNN — <title> [#<ticketId>]` — ticket number in brackets for searchability
+   - Assign ALL applicable labels (comma-separated `idLabels`):
+     - Product label (Shopify MCSL / WooCommerce / Magento)
+     - Pain label (Pain 10 or Pain 8-9)
+     - Theme label (Label & Document Quality / Carrier Platform / Order & Product Data / International & Customs / Onboarding & Retention / Rates & Intelligence / Feature Requests)
+     - SLA Breached label (if SLA is breached)
    - `POST /cards` with full markdown as `desc`
+   - `pos`: `"top"` for SLA breached cards, `"bottom"` otherwise
    - Record Trello shortUrl in the markdown file's Cross-Links
 
 ### Batch by release (`apr-13-16`, etc.)
