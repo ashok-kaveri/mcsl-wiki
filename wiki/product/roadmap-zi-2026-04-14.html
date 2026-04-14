@@ -210,6 +210,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div class="tab" data-tab="tickets"><span class="dot" style="background:var(--opp)"></span>Tickets by Release</div>
   <div class="tab" data-tab="byarea"><span class="dot" style="background:var(--epic)"></span>By Area</div>
   <div class="tab" data-tab="byproduct"><span class="dot" style="background:var(--strat)"></span>By Product</div>
+  <div class="tab" data-tab="analysis"><span class="dot" style="background:var(--tech)"></span>Issue Analysis</div>
 </div>
 
 <div class="ct" id="app"></div>
@@ -359,6 +360,361 @@ const ZEN_FEATURES = {
 };
 
 const ALL_FEATURES = ZEN_FEATURES;
+
+const ISSUE_ANALYSIS = {
+  ongoing: [{zi:'ZI-012',title:'End of Day manifest / SCAN sheet not available',ticket:'#348049',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2025-09-08'},
+    {zi:'ZI-048',title:'UPS domestic label Reference field enhancement',ticket:'#378511',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-12'},
+    {zi:'ZI-073',title:'Can product details (qty, SKU, description) be shown on shipping labels?',ticket:'#382393',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-03'},
+    {zi:'ZI-081',title:'\"Amount is a required field\" error on order #18501',ticket:'#382987',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-08'},
+    {zi:'ZI-094',title:'Custom description not printed for multi-product orders on UPS labels',ticket:'#377795',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-09'},
+    {zi:'ZI-095',title:'UPS 50-character description field limit',ticket:'#377795',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-09'},
+    {zi:'ZI-105',title:'Multiple label generation failures forcing manual shipments',ticket:'#383835',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-13'},
+    {zi:'ZI-017',title:'250-variant import limit',ticket:'#365042',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2025-12-17'},
+    {zi:'ZI-076',title:'Australia Post TLS 1.0/1.1 deprecation compliance',ticket:'#382780',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-07'},
+    {zi:'ZI-079',title:'Orders move to \"Not to Ship\" on refresh when OCU post-purchase upsell modifies t',ticket:'#382961',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-04-08'},
+    {zi:'ZI-083',title:'Australia Post TLS 1.0/1.1 deprecation compliance',ticket:'#383002',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-08'},
+    {zi:'ZI-089',title:'Order page integration issue',ticket:'#383243',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-04-09'},
+    {zi:'ZI-090',title:'Second pre-call issue',ticket:'#383243',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-09'},
+    {zi:'ZI-096',title:'WooCommerce order sync blocked by Cloudflare security challenge',ticket:'#378589',area:'order-management',pain:8,product:'WooCommerce',theme:'Order & Product Data',created:'2026-03-13'},
+    {zi:'ZI-101',title:'FedEx account registration failing (WooCommerce)',ticket:'#383509',area:'carrier-config',pain:8,product:'WooCommerce',theme:'Carrier Platform',created:'2026-04-10'},
+    {zi:'ZI-102',title:'FedEx label generation blocked by invalid CNPJ/CPF for Brazil shipment',ticket:'#383746',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-04-13'},
+    {zi:'ZI-104',title:'UPS Digital Connections partnership follow-up pending',ticket:'#383817',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-13'},
+    {zi:'ZI-006',title:'USPS Ground Advantage Cubic service not implemented',ticket:'#299137',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2024-11-18'},
+    {zi:'ZI-080',title:'FedEx REST API registration failing',ticket:'#382982',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-08'},
+    {zi:'ZI-087',title:'FedEx rate mismatch between app and FedEx portal',ticket:'#383114',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2026-04-08'},
+    {zi:'ZI-099',title:'Delivro carrier integration request',ticket:'#381046',area:'feature-request',pain:5,product:'WooCommerce',theme:'Feature Requests',created:'2026-03-26'},
+    {zi:'ZI-066',title:'Customer unable to create BlueDart account',ticket:'#381283',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-03-28'},
+    {zi:'ZI-078',title:'Onboarding call pending',ticket:'#382935',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-07'},
+    {zi:'ZI-082',title:'Onboarding call pending',ticket:'#382999',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-08'},
+    {zi:'ZI-088',title:'Onboarding call pending',ticket:'#383148',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-09'},
+    {zi:'ZI-091',title:'Onboarding call and UPS setup',ticket:'#383273',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-09'},
+    {zi:'ZI-093',title:'Churn investigation for high-volume customer',ticket:'#383729',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-13'}],
+  agent_resolved: [{zi:'ZI-016',title:'No product-to-box mapping rules',ticket:'#361776',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2025-11-27'},
+    {zi:'ZI-023',title:'DHL label address format',ticket:'#369556',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-18'},
+    {zi:'ZI-024',title:'Incorrect declared value for 0-price items',ticket:'#370219',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-22'},
+    {zi:'ZI-025',title:'Shipping charges not included in declared value',ticket:'#370219',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-22'},
+    {zi:'ZI-027',title:'Multiple Tracking IDs per order (Bluedart Dart Plus)',ticket:'#370219',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-22'},
+    {zi:'ZI-029',title:'Bundle product support missing',ticket:'#372492',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-04'},
+    {zi:'ZI-030',title:'Package size auto-selection too large',ticket:'#372492',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-04'},
+    {zi:'ZI-032',title:'Tax invoice printing on multiple pages',ticket:'#373991',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-13'},
+    {zi:'ZI-033',title:'Box name on tax invoice or pick-list',ticket:'#373991',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-13'},
+    {zi:'ZI-035',title:'Decimal precision on custom packing slip prices',ticket:'#374851',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-19'},
+    {zi:'ZI-041',title:'USPS address validation causing label failures',ticket:'#377526',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-06'},
+    {zi:'ZI-043',title:'Packing slip sort helper',ticket:'#377526',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-06'},
+    {zi:'ZI-052',title:'Label stock 4x6 not available in REST',ticket:'#379042',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-16'},
+    {zi:'ZI-058',title:'eParcel bulk label generation delay (8+ sec consistently)',ticket:'#380339',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-23'},
+    {zi:'ZI-067',title:'Cleanup button missing in new UI',ticket:'#381380',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-29'},
+    {zi:'ZI-071',title:'Packing slip does not show selected package size',ticket:'#382009',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-01'},
+    {zi:'ZI-001',title:'Variant SKU search not supported',ticket:'#218195',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2023-06-08'},
+    {zi:'ZI-002',title:'Product sync with Shopify',ticket:'#218195',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2023-06-08'},
+    {zi:'ZI-003',title:'Variant SKU search not working',ticket:'#277997',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-07-05'},
+    {zi:'ZI-004',title:'Deleted Shopify products persist in PluginHive',ticket:'#277997',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-07-05'},
+    {zi:'ZI-005',title:'Product name/variant changes create duplicates',ticket:'#277997',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-07-05'},
+    {zi:'ZI-049',title:'Products with 100+ variants losing sync',ticket:'#378513',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-12'},
+    {zi:'ZI-064',title:'Product variants added after initial setup not auto-imported',ticket:'#381087',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-26'},
+    {zi:'ZI-092',title:'Shipping class/product category sync failure',ticket:'#383437',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-04-10'},
+    {zi:'ZI-007',title:'Order notes not synced after import',ticket:'#304193',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-12-16'},
+    {zi:'ZI-008',title:'Automatic day-of-week Saturday Delivery handling',ticket:'#306141',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2024-12-30'},
+    {zi:'ZI-011',title:'COD payment type shown as Manual',ticket:'#338603',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2025-07-16'},
+    {zi:'ZI-013',title:'Ship To Address City missing from Order Report',ticket:'#354696',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2025-10-16'},
+    {zi:'ZI-015',title:'Declared/insured value resets after manual package edit',ticket:'#361776',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2025-11-27'},
+    {zi:'ZI-018',title:'DPD services not appearing via EasyPost',ticket:'#366630',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2025-12-30'},
+    {zi:'ZI-019',title:'FedEx ETD save setting unclear',ticket:'#366630',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2025-12-30'},
+    {zi:'ZI-021',title:'Enhancement: minimum customs value floor',ticket:'#369144',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-01-15'},
+    {zi:'ZI-022',title:'DHL Freight Sweden Return Service not available',ticket:'#369556',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-01-18'},
+    {zi:'ZI-028',title:'Product variant import failure',ticket:'#370966',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-01-27'},
+    {zi:'ZI-034',title:'Discounted price not reflected on commercial invoice',ticket:'#374022',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-02-13'},
+    {zi:'ZI-037',title:'Pre-packed box metafield/Shopify Flow integration',ticket:'#377113',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-04'},
+    {zi:'ZI-039',title:'Externally fulfilled orders appearing in open queue',ticket:'#377526',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-06'},
+    {zi:'ZI-040',title:'Draft orders ineligible for label generation',ticket:'#377526',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-06'},
+    {zi:'ZI-044',title:'Order report for historical data',ticket:'#377574',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-07'},
+    {zi:'ZI-045',title:'BlueDart pickup token enhancement',ticket:'#377574',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-07'},
+    {zi:'ZI-046',title:'Payment status filter',ticket:'#377574',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-07'},
+    {zi:'ZI-055',title:'Country-specific HS codes',ticket:'#379784',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-19'},
+    {zi:'ZI-057',title:'RoyalMail48ParcelDailyRateService missing from app',ticket:'#379963',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-20'},
+    {zi:'ZI-060',title:'HS code editing at package level',ticket:'#380339',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-23'},
+    {zi:'ZI-061',title:'Set Service vs Add Service rule behavior',ticket:'#380339',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-23'},
+    {zi:'ZI-062',title:'Shipment type classification per order',ticket:'#380339',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-23'},
+    {zi:'ZI-063',title:'Custom declaration statement on FedEx commercial invoice not available',ticket:'#380784',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-25'},
+    {zi:'ZI-065',title:'DHL Export Declaration Surcharge incorrectly applied for Japan shipments',ticket:'#381261',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-28'},
+    {zi:'ZI-075',title:'App prints incorrect Country of Manufacture on CN22 customs documents',ticket:'#382694',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-04-06'},
+    {zi:'ZI-097',title:'Canpar Adult Signature (SA) service support',ticket:'#379378',area:'carrier-config',pain:8,product:'WooCommerce',theme:'Carrier Platform',created:'2026-03-17'},
+    {zi:'ZI-098',title:'PostNL service code 6942 (Boxable Track & Trace) not available',ticket:'#379796',area:'carrier-config',pain:8,product:'Magento',theme:'Carrier Platform',created:'2026-03-19'},
+    {zi:'ZI-100',title:'WooCommerce order auto-import broken',ticket:'#382848',area:'order-management',pain:8,product:'WooCommerce',theme:'Order & Product Data',created:'2026-04-07'},
+    {zi:'ZI-103',title:'Commercial invoice currency shows EUR instead of recipient currency',ticket:'#383757',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-04-13'},
+    {zi:'ZI-020',title:'Rate comparison logic questions unanswered',ticket:'#366630',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2025-12-30'},
+    {zi:'ZI-047',title:'UPS Dangerous Goods rates not reflecting DG surcharge',ticket:'#378176',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2026-03-10'},
+    {zi:'ZI-051',title:'FedEx REST declared value exceeds limit',ticket:'#379042',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-16'},
+    {zi:'ZI-053',title:'Auto-upload documents failing in REST',ticket:'#379042',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-16'},
+    {zi:'ZI-054',title:'Post-migration FedEx REST stabilization',ticket:'#379098',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-16'},
+    {zi:'ZI-069',title:'FedEx box dimensions not printed on labels after REST migration',ticket:'#382009',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-01'},
+    {zi:'ZI-070',title:'PO Box automation rule behavior after migration',ticket:'#382009',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-01'},
+    {zi:'ZI-072',title:'FedEx `/documents/v1/etds/multiupload` endpoint failing in production',ticket:'#382188',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-02'},
+    {zi:'ZI-074',title:'FedEx One Rate returned instead of negotiated rates after REST migration',ticket:'#382425',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-03'},
+    {zi:'ZI-084',title:'Shipping rates not displaying at checkout',ticket:'#383093',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2026-04-08'},
+    {zi:'ZI-085',title:'350-item quantity limit too low',ticket:'#383093',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2026-04-08'},
+    {zi:'ZI-009',title:'Per-order Saturday Delivery toggle',ticket:'#306141',area:'feature-request',pain:5,product:'Shopify MCSL',theme:'Feature Requests',created:'2024-12-30'},
+    {zi:'ZI-026',title:'Payment Type Filter (Prepaid/COD)',ticket:'#370219',area:'feature-request',pain:5,product:'Shopify MCSL',theme:'Feature Requests',created:'2026-01-22'},
+    {zi:'ZI-038',title:'DHL Express \"reason for return\" field not supported',ticket:'#377217',area:'returns',pain:5,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-05'},
+    {zi:'ZI-042',title:'Address suggestion feature',ticket:'#377526',area:'feature-request',pain:5,product:'Shopify MCSL',theme:'Feature Requests',created:'2026-03-06'},
+    {zi:'ZI-056',title:'PostNord return label product codes',ticket:'#379784',area:'returns',pain:5,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-19'},
+    {zi:'ZI-010',title:'Subscription plans page error on Safari',ticket:'#338603',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2025-07-16'},
+    {zi:'ZI-014',title:'Pickup date/time not available in order report',ticket:'#360396',area:'tracking',pain:4,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2025-11-19'},
+    {zi:'ZI-050',title:'USPS integration blocked by plan limit',ticket:'#378513',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-03-12'},
+    {zi:'ZI-059',title:'Australia Post international tracking not syncing to Shopify',ticket:'#380339',area:'tracking',pain:4,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2026-03-23'},
+    {zi:'ZI-068',title:'Custom plan ($150/year, 4000 shipments) not yet created',ticket:'#381931',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-01'},
+    {zi:'ZI-077',title:'Blue Dart label generation failing',ticket:'#382795',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-07'},
+    {zi:'ZI-086',title:'Demo call scheduling for 2026-04-14',ticket:'#383103',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-08'}],
+  cross_cutting: {
+    'Packing Slip & Invoice Formatting': [{zi:'ZI-007',title:'Order notes not synced after import',ticket:'#304193',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-12-16'},
+    {zi:'ZI-029',title:'Bundle product support missing',ticket:'#372492',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-04'},
+    {zi:'ZI-030',title:'Package size auto-selection too large',ticket:'#372492',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-04'},
+    {zi:'ZI-032',title:'Tax invoice printing on multiple pages',ticket:'#373991',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-13'},
+    {zi:'ZI-033',title:'Box name on tax invoice or pick-list',ticket:'#373991',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-13'},
+    {zi:'ZI-035',title:'Decimal precision on custom packing slip prices',ticket:'#374851',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-19'},
+    {zi:'ZI-037',title:'Pre-packed box metafield/Shopify Flow integration',ticket:'#377113',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-04'},
+    {zi:'ZI-039',title:'Externally fulfilled orders appearing in open queue',ticket:'#377526',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-06'},
+    {zi:'ZI-040',title:'Draft orders ineligible for label generation',ticket:'#377526',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-06'},
+    {zi:'ZI-041',title:'USPS address validation causing label failures',ticket:'#377526',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-06'},
+    {zi:'ZI-042',title:'Address suggestion feature',ticket:'#377526',area:'feature-request',pain:5,product:'Shopify MCSL',theme:'Feature Requests',created:'2026-03-06'},
+    {zi:'ZI-043',title:'Packing slip sort helper',ticket:'#377526',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-06'},
+    {zi:'ZI-069',title:'FedEx box dimensions not printed on labels after REST migration',ticket:'#382009',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-01'},
+    {zi:'ZI-070',title:'PO Box automation rule behavior after migration',ticket:'#382009',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-01'},
+    {zi:'ZI-071',title:'Packing slip does not show selected package size',ticket:'#382009',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-01'}],
+    'Commercial Invoice & CN22': [{zi:'ZI-034',title:'Discounted price not reflected on commercial invoice',ticket:'#374022',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-02-13'},
+    {zi:'ZI-051',title:'FedEx REST declared value exceeds limit',ticket:'#379042',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-16'},
+    {zi:'ZI-052',title:'Label stock 4x6 not available in REST',ticket:'#379042',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-16'},
+    {zi:'ZI-053',title:'Auto-upload documents failing in REST',ticket:'#379042',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-16'},
+    {zi:'ZI-055',title:'Country-specific HS codes',ticket:'#379784',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-19'},
+    {zi:'ZI-056',title:'PostNord return label product codes',ticket:'#379784',area:'returns',pain:5,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-19'},
+    {zi:'ZI-058',title:'eParcel bulk label generation delay (8+ sec consistently)',ticket:'#380339',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-23'},
+    {zi:'ZI-059',title:'Australia Post international tracking not syncing to Shopify',ticket:'#380339',area:'tracking',pain:4,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2026-03-23'},
+    {zi:'ZI-060',title:'HS code editing at package level',ticket:'#380339',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-23'},
+    {zi:'ZI-061',title:'Set Service vs Add Service rule behavior',ticket:'#380339',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-23'},
+    {zi:'ZI-062',title:'Shipment type classification per order',ticket:'#380339',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-23'},
+    {zi:'ZI-063',title:'Custom declaration statement on FedEx commercial invoice not available',ticket:'#380784',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-25'},
+    {zi:'ZI-075',title:'App prints incorrect Country of Manufacture on CN22 customs documents',ticket:'#382694',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-04-06'},
+    {zi:'ZI-103',title:'Commercial invoice currency shows EUR instead of recipient currency',ticket:'#383757',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-04-13'}],
+    'Onboarding & Churn': [{zi:'ZI-017',title:'250-variant import limit',ticket:'#365042',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2025-12-17'},
+    {zi:'ZI-022',title:'DHL Freight Sweden Return Service not available',ticket:'#369556',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-01-18'},
+    {zi:'ZI-023',title:'DHL label address format',ticket:'#369556',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-18'},
+    {zi:'ZI-077',title:'Blue Dart label generation failing',ticket:'#382795',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-07'},
+    {zi:'ZI-078',title:'Onboarding call pending',ticket:'#382935',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-07'},
+    {zi:'ZI-082',title:'Onboarding call pending',ticket:'#382999',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-08'},
+    {zi:'ZI-086',title:'Demo call scheduling for 2026-04-14',ticket:'#383103',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-08'},
+    {zi:'ZI-088',title:'Onboarding call pending',ticket:'#383148',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-09'},
+    {zi:'ZI-089',title:'Order page integration issue',ticket:'#383243',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-04-09'},
+    {zi:'ZI-090',title:'Second pre-call issue',ticket:'#383243',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-09'},
+    {zi:'ZI-091',title:'Onboarding call and UPS setup',ticket:'#383273',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-09'},
+    {zi:'ZI-093',title:'Churn investigation for high-volume customer',ticket:'#383729',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-13'},
+    {zi:'ZI-105',title:'Multiple label generation failures forcing manual shipments',ticket:'#383835',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-13'}],
+    'Product/Variant Sync': [{zi:'ZI-001',title:'Variant SKU search not supported',ticket:'#218195',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2023-06-08'},
+    {zi:'ZI-002',title:'Product sync with Shopify',ticket:'#218195',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2023-06-08'},
+    {zi:'ZI-003',title:'Variant SKU search not working',ticket:'#277997',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-07-05'},
+    {zi:'ZI-004',title:'Deleted Shopify products persist in PluginHive',ticket:'#277997',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-07-05'},
+    {zi:'ZI-005',title:'Product name/variant changes create duplicates',ticket:'#277997',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-07-05'},
+    {zi:'ZI-017',title:'250-variant import limit',ticket:'#365042',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2025-12-17'},
+    {zi:'ZI-028',title:'Product variant import failure',ticket:'#370966',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-01-27'},
+    {zi:'ZI-049',title:'Products with 100+ variants losing sync',ticket:'#378513',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-12'},
+    {zi:'ZI-050',title:'USPS integration blocked by plan limit',ticket:'#378513',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-03-12'},
+    {zi:'ZI-064',title:'Product variants added after initial setup not auto-imported',ticket:'#381087',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-26'}],
+    'Declared Value Pipeline': [{zi:'ZI-015',title:'Declared/insured value resets after manual package edit',ticket:'#361776',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2025-11-27'},
+    {zi:'ZI-016',title:'No product-to-box mapping rules',ticket:'#361776',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2025-11-27'},
+    {zi:'ZI-021',title:'Enhancement: minimum customs value floor',ticket:'#369144',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-01-15'},
+    {zi:'ZI-024',title:'Incorrect declared value for 0-price items',ticket:'#370219',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-22'},
+    {zi:'ZI-025',title:'Shipping charges not included in declared value',ticket:'#370219',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-22'},
+    {zi:'ZI-026',title:'Payment Type Filter (Prepaid/COD)',ticket:'#370219',area:'feature-request',pain:5,product:'Shopify MCSL',theme:'Feature Requests',created:'2026-01-22'},
+    {zi:'ZI-027',title:'Multiple Tracking IDs per order (Bluedart Dart Plus)',ticket:'#370219',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-22'},
+    {zi:'ZI-051',title:'FedEx REST declared value exceeds limit',ticket:'#379042',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-16'},
+    {zi:'ZI-052',title:'Label stock 4x6 not available in REST',ticket:'#379042',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-16'},
+    {zi:'ZI-053',title:'Auto-upload documents failing in REST',ticket:'#379042',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-16'}],
+    'FedEx REST Migration Defects': [{zi:'ZI-051',title:'FedEx REST declared value exceeds limit',ticket:'#379042',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-16'},
+    {zi:'ZI-052',title:'Label stock 4x6 not available in REST',ticket:'#379042',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-16'},
+    {zi:'ZI-053',title:'Auto-upload documents failing in REST',ticket:'#379042',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-16'},
+    {zi:'ZI-054',title:'Post-migration FedEx REST stabilization',ticket:'#379098',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-16'},
+    {zi:'ZI-063',title:'Custom declaration statement on FedEx commercial invoice not available',ticket:'#380784',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-25'},
+    {zi:'ZI-069',title:'FedEx box dimensions not printed on labels after REST migration',ticket:'#382009',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-01'},
+    {zi:'ZI-070',title:'PO Box automation rule behavior after migration',ticket:'#382009',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-01'},
+    {zi:'ZI-071',title:'Packing slip does not show selected package size',ticket:'#382009',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-01'},
+    {zi:'ZI-074',title:'FedEx One Rate returned instead of negotiated rates after REST migration',ticket:'#382425',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-03'},
+    {zi:'ZI-080',title:'FedEx REST API registration failing',ticket:'#382982',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-08'}],
+    'Label Generation Reliability': [{zi:'ZI-039',title:'Externally fulfilled orders appearing in open queue',ticket:'#377526',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-06'},
+    {zi:'ZI-040',title:'Draft orders ineligible for label generation',ticket:'#377526',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-06'},
+    {zi:'ZI-041',title:'USPS address validation causing label failures',ticket:'#377526',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-06'},
+    {zi:'ZI-042',title:'Address suggestion feature',ticket:'#377526',area:'feature-request',pain:5,product:'Shopify MCSL',theme:'Feature Requests',created:'2026-03-06'},
+    {zi:'ZI-043',title:'Packing slip sort helper',ticket:'#377526',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-06'},
+    {zi:'ZI-077',title:'Blue Dart label generation failing',ticket:'#382795',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-07'},
+    {zi:'ZI-081',title:'\"Amount is a required field\" error on order #18501',ticket:'#382987',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-08'},
+    {zi:'ZI-105',title:'Multiple label generation failures forcing manual shipments',ticket:'#383835',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-13'}],
+    'Australia Post Compliance': [{zi:'ZI-058',title:'eParcel bulk label generation delay (8+ sec consistently)',ticket:'#380339',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-23'},
+    {zi:'ZI-059',title:'Australia Post international tracking not syncing to Shopify',ticket:'#380339',area:'tracking',pain:4,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2026-03-23'},
+    {zi:'ZI-060',title:'HS code editing at package level',ticket:'#380339',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-23'},
+    {zi:'ZI-061',title:'Set Service vs Add Service rule behavior',ticket:'#380339',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-23'},
+    {zi:'ZI-062',title:'Shipment type classification per order',ticket:'#380339',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-23'},
+    {zi:'ZI-076',title:'Australia Post TLS 1.0/1.1 deprecation compliance',ticket:'#382780',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-07'},
+    {zi:'ZI-083',title:'Australia Post TLS 1.0/1.1 deprecation compliance',ticket:'#383002',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-08'}],
+    'Carrier Service Gaps': [{zi:'ZI-022',title:'DHL Freight Sweden Return Service not available',ticket:'#369556',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-01-18'},
+    {zi:'ZI-023',title:'DHL label address format',ticket:'#369556',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-18'},
+    {zi:'ZI-098',title:'PostNL service code 6942 (Boxable Track & Trace) not available',ticket:'#379796',area:'carrier-config',pain:8,product:'Magento',theme:'Carrier Platform',created:'2026-03-19'}],
+    'Order Sync & Import': [{zi:'ZI-064',title:'Product variants added after initial setup not auto-imported',ticket:'#381087',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-26'},
+    {zi:'ZI-096',title:'WooCommerce order sync blocked by Cloudflare security challenge',ticket:'#378589',area:'order-management',pain:8,product:'WooCommerce',theme:'Order & Product Data',created:'2026-03-13'},
+    {zi:'ZI-100',title:'WooCommerce order auto-import broken',ticket:'#382848',area:'order-management',pain:8,product:'WooCommerce',theme:'Order & Product Data',created:'2026-04-07'}],
+  },
+  quick_wins: [{zi:'ZI-063',title:'Custom declaration statement on FedEx commercial invoice not available',ticket:'#380784',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-25'},
+    {zi:'ZI-075',title:'App prints incorrect Country of Manufacture on CN22 customs documents',ticket:'#382694',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-04-06'},
+    {zi:'ZI-103',title:'Commercial invoice currency shows EUR instead of recipient currency',ticket:'#383757',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-04-13'},
+    {zi:'ZI-072',title:'FedEx `/documents/v1/etds/multiupload` endpoint failing in production',ticket:'#382188',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-02'},
+    {zi:'ZI-084',title:'Shipping rates not displaying at checkout',ticket:'#383093',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2026-04-08'},
+    {zi:'ZI-085',title:'350-item quantity limit too low',ticket:'#383093',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2026-04-08'},
+    {zi:'ZI-038',title:'DHL Express \"reason for return\" field not supported',ticket:'#377217',area:'returns',pain:5,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-05'},
+    {zi:'ZI-014',title:'Pickup date/time not available in order report',ticket:'#360396',area:'tracking',pain:4,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2025-11-19'},
+    {zi:'ZI-077',title:'Blue Dart label generation failing',ticket:'#382795',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-07'},
+    {zi:'ZI-086',title:'Demo call scheduling for 2026-04-14',ticket:'#383103',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-08'}],
+  dev_pending: [{zi:'ZI-012',title:'End of Day manifest / SCAN sheet not available',ticket:'#348049',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2025-09-08'},
+    {zi:'ZI-023',title:'DHL label address format',ticket:'#369556',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-18'},
+    {zi:'ZI-024',title:'Incorrect declared value for 0-price items',ticket:'#370219',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-22'},
+    {zi:'ZI-025',title:'Shipping charges not included in declared value',ticket:'#370219',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-22'},
+    {zi:'ZI-027',title:'Multiple Tracking IDs per order (Bluedart Dart Plus)',ticket:'#370219',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-22'},
+    {zi:'ZI-029',title:'Bundle product support missing',ticket:'#372492',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-04'},
+    {zi:'ZI-030',title:'Package size auto-selection too large',ticket:'#372492',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-04'},
+    {zi:'ZI-032',title:'Tax invoice printing on multiple pages',ticket:'#373991',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-13'},
+    {zi:'ZI-033',title:'Box name on tax invoice or pick-list',ticket:'#373991',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-13'},
+    {zi:'ZI-035',title:'Decimal precision on custom packing slip prices',ticket:'#374851',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-19'},
+    {zi:'ZI-058',title:'eParcel bulk label generation delay (8+ sec consistently)',ticket:'#380339',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-23'},
+    {zi:'ZI-067',title:'Cleanup button missing in new UI',ticket:'#381380',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-29'},
+    {zi:'ZI-071',title:'Packing slip does not show selected package size',ticket:'#382009',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-01'},
+    {zi:'ZI-094',title:'Custom description not printed for multi-product orders on UPS labels',ticket:'#377795',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-09'},
+    {zi:'ZI-095',title:'UPS 50-character description field limit',ticket:'#377795',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-09'},
+    {zi:'ZI-003',title:'Variant SKU search not working',ticket:'#277997',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-07-05'},
+    {zi:'ZI-004',title:'Deleted Shopify products persist in PluginHive',ticket:'#277997',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-07-05'},
+    {zi:'ZI-005',title:'Product name/variant changes create duplicates',ticket:'#277997',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-07-05'},
+    {zi:'ZI-064',title:'Product variants added after initial setup not auto-imported',ticket:'#381087',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-26'},
+    {zi:'ZI-008',title:'Automatic day-of-week Saturday Delivery handling',ticket:'#306141',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2024-12-30'},
+    {zi:'ZI-018',title:'DPD services not appearing via EasyPost',ticket:'#366630',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2025-12-30'},
+    {zi:'ZI-019',title:'FedEx ETD save setting unclear',ticket:'#366630',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2025-12-30'},
+    {zi:'ZI-021',title:'Enhancement: minimum customs value floor',ticket:'#369144',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-01-15'},
+    {zi:'ZI-022',title:'DHL Freight Sweden Return Service not available',ticket:'#369556',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-01-18'},
+    {zi:'ZI-028',title:'Product variant import failure',ticket:'#370966',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-01-27'},
+    {zi:'ZI-034',title:'Discounted price not reflected on commercial invoice',ticket:'#374022',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-02-13'},
+    {zi:'ZI-057',title:'RoyalMail48ParcelDailyRateService missing from app',ticket:'#379963',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-20'},
+    {zi:'ZI-060',title:'HS code editing at package level',ticket:'#380339',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-23'},
+    {zi:'ZI-061',title:'Set Service vs Add Service rule behavior',ticket:'#380339',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-23'},
+    {zi:'ZI-062',title:'Shipment type classification per order',ticket:'#380339',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-23'},
+    {zi:'ZI-076',title:'Australia Post TLS 1.0/1.1 deprecation compliance',ticket:'#382780',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-07'},
+    {zi:'ZI-083',title:'Australia Post TLS 1.0/1.1 deprecation compliance',ticket:'#383002',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-08'},
+    {zi:'ZI-096',title:'WooCommerce order sync blocked by Cloudflare security challenge',ticket:'#378589',area:'order-management',pain:8,product:'WooCommerce',theme:'Order & Product Data',created:'2026-03-13'},
+    {zi:'ZI-097',title:'Canpar Adult Signature (SA) service support',ticket:'#379378',area:'carrier-config',pain:8,product:'WooCommerce',theme:'Carrier Platform',created:'2026-03-17'},
+    {zi:'ZI-098',title:'PostNL service code 6942 (Boxable Track & Trace) not available',ticket:'#379796',area:'carrier-config',pain:8,product:'Magento',theme:'Carrier Platform',created:'2026-03-19'},
+    {zi:'ZI-100',title:'WooCommerce order auto-import broken',ticket:'#382848',area:'order-management',pain:8,product:'WooCommerce',theme:'Order & Product Data',created:'2026-04-07'},
+    {zi:'ZI-020',title:'Rate comparison logic questions unanswered',ticket:'#366630',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2025-12-30'},
+    {zi:'ZI-047',title:'UPS Dangerous Goods rates not reflecting DG surcharge',ticket:'#378176',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2026-03-10'},
+    {zi:'ZI-054',title:'Post-migration FedEx REST stabilization',ticket:'#379098',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-16'},
+    {zi:'ZI-069',title:'FedEx box dimensions not printed on labels after REST migration',ticket:'#382009',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-01'},
+    {zi:'ZI-070',title:'PO Box automation rule behavior after migration',ticket:'#382009',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-01'},
+    {zi:'ZI-074',title:'FedEx One Rate returned instead of negotiated rates after REST migration',ticket:'#382425',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-03'},
+    {zi:'ZI-009',title:'Per-order Saturday Delivery toggle',ticket:'#306141',area:'feature-request',pain:5,product:'Shopify MCSL',theme:'Feature Requests',created:'2024-12-30'},
+    {zi:'ZI-026',title:'Payment Type Filter (Prepaid/COD)',ticket:'#370219',area:'feature-request',pain:5,product:'Shopify MCSL',theme:'Feature Requests',created:'2026-01-22'},
+    {zi:'ZI-059',title:'Australia Post international tracking not syncing to Shopify',ticket:'#380339',area:'tracking',pain:4,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2026-03-23'},
+    {zi:'ZI-068',title:'Custom plan ($150/year, 4000 shipments) not yet created',ticket:'#381931',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-01'}],
+  large_effort: [{zi:'ZI-012',title:'End of Day manifest / SCAN sheet not available',ticket:'#348049',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2025-09-08'},
+    {zi:'ZI-016',title:'No product-to-box mapping rules',ticket:'#361776',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2025-11-27'},
+    {zi:'ZI-023',title:'DHL label address format',ticket:'#369556',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-18'},
+    {zi:'ZI-024',title:'Incorrect declared value for 0-price items',ticket:'#370219',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-22'},
+    {zi:'ZI-025',title:'Shipping charges not included in declared value',ticket:'#370219',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-22'},
+    {zi:'ZI-027',title:'Multiple Tracking IDs per order (Bluedart Dart Plus)',ticket:'#370219',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-01-22'},
+    {zi:'ZI-029',title:'Bundle product support missing',ticket:'#372492',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-04'},
+    {zi:'ZI-030',title:'Package size auto-selection too large',ticket:'#372492',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-04'},
+    {zi:'ZI-032',title:'Tax invoice printing on multiple pages',ticket:'#373991',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-13'},
+    {zi:'ZI-033',title:'Box name on tax invoice or pick-list',ticket:'#373991',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-13'},
+    {zi:'ZI-035',title:'Decimal precision on custom packing slip prices',ticket:'#374851',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-02-19'},
+    {zi:'ZI-041',title:'USPS address validation causing label failures',ticket:'#377526',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-06'},
+    {zi:'ZI-043',title:'Packing slip sort helper',ticket:'#377526',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-06'},
+    {zi:'ZI-048',title:'UPS domestic label Reference field enhancement',ticket:'#378511',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-12'},
+    {zi:'ZI-052',title:'Label stock 4x6 not available in REST',ticket:'#379042',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-16'},
+    {zi:'ZI-058',title:'eParcel bulk label generation delay (8+ sec consistently)',ticket:'#380339',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-23'},
+    {zi:'ZI-067',title:'Cleanup button missing in new UI',ticket:'#381380',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-29'},
+    {zi:'ZI-071',title:'Packing slip does not show selected package size',ticket:'#382009',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-01'},
+    {zi:'ZI-094',title:'Custom description not printed for multi-product orders on UPS labels',ticket:'#377795',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-09'},
+    {zi:'ZI-095',title:'UPS 50-character description field limit',ticket:'#377795',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-09'},
+    {zi:'ZI-001',title:'Variant SKU search not supported',ticket:'#218195',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2023-06-08'},
+    {zi:'ZI-002',title:'Product sync with Shopify',ticket:'#218195',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2023-06-08'},
+    {zi:'ZI-003',title:'Variant SKU search not working',ticket:'#277997',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-07-05'},
+    {zi:'ZI-004',title:'Deleted Shopify products persist in PluginHive',ticket:'#277997',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-07-05'},
+    {zi:'ZI-005',title:'Product name/variant changes create duplicates',ticket:'#277997',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-07-05'},
+    {zi:'ZI-017',title:'250-variant import limit',ticket:'#365042',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2025-12-17'},
+    {zi:'ZI-049',title:'Products with 100+ variants losing sync',ticket:'#378513',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-12'},
+    {zi:'ZI-064',title:'Product variants added after initial setup not auto-imported',ticket:'#381087',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-26'},
+    {zi:'ZI-092',title:'Shipping class/product category sync failure',ticket:'#383437',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-04-10'},
+    {zi:'ZI-007',title:'Order notes not synced after import',ticket:'#304193',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2024-12-16'},
+    {zi:'ZI-008',title:'Automatic day-of-week Saturday Delivery handling',ticket:'#306141',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2024-12-30'},
+    {zi:'ZI-011',title:'COD payment type shown as Manual',ticket:'#338603',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2025-07-16'},
+    {zi:'ZI-013',title:'Ship To Address City missing from Order Report',ticket:'#354696',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2025-10-16'},
+    {zi:'ZI-015',title:'Declared/insured value resets after manual package edit',ticket:'#361776',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2025-11-27'},
+    {zi:'ZI-018',title:'DPD services not appearing via EasyPost',ticket:'#366630',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2025-12-30'},
+    {zi:'ZI-019',title:'FedEx ETD save setting unclear',ticket:'#366630',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2025-12-30'},
+    {zi:'ZI-022',title:'DHL Freight Sweden Return Service not available',ticket:'#369556',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-01-18'},
+    {zi:'ZI-028',title:'Product variant import failure',ticket:'#370966',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-01-27'},
+    {zi:'ZI-034',title:'Discounted price not reflected on commercial invoice',ticket:'#374022',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-02-13'},
+    {zi:'ZI-037',title:'Pre-packed box metafield/Shopify Flow integration',ticket:'#377113',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-04'},
+    {zi:'ZI-039',title:'Externally fulfilled orders appearing in open queue',ticket:'#377526',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-06'},
+    {zi:'ZI-040',title:'Draft orders ineligible for label generation',ticket:'#377526',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-06'},
+    {zi:'ZI-044',title:'Order report for historical data',ticket:'#377574',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-07'},
+    {zi:'ZI-045',title:'BlueDart pickup token enhancement',ticket:'#377574',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-07'},
+    {zi:'ZI-046',title:'Payment status filter',ticket:'#377574',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-03-07'},
+    {zi:'ZI-055',title:'Country-specific HS codes',ticket:'#379784',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-19'},
+    {zi:'ZI-057',title:'RoyalMail48ParcelDailyRateService missing from app',ticket:'#379963',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-20'},
+    {zi:'ZI-065',title:'DHL Export Declaration Surcharge incorrectly applied for Japan shipments',ticket:'#381261',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-28'},
+    {zi:'ZI-079',title:'Orders move to \"Not to Ship\" on refresh when OCU post-purchase upsell modifies t',ticket:'#382961',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-04-08'},
+    {zi:'ZI-096',title:'WooCommerce order sync blocked by Cloudflare security challenge',ticket:'#378589',area:'order-management',pain:8,product:'WooCommerce',theme:'Order & Product Data',created:'2026-03-13'},
+    {zi:'ZI-100',title:'WooCommerce order auto-import broken',ticket:'#382848',area:'order-management',pain:8,product:'WooCommerce',theme:'Order & Product Data',created:'2026-04-07'},
+    {zi:'ZI-101',title:'FedEx account registration failing (WooCommerce)',ticket:'#383509',area:'carrier-config',pain:8,product:'WooCommerce',theme:'Carrier Platform',created:'2026-04-10'},
+    {zi:'ZI-006',title:'USPS Ground Advantage Cubic service not implemented',ticket:'#299137',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2024-11-18'},
+    {zi:'ZI-020',title:'Rate comparison logic questions unanswered',ticket:'#366630',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2025-12-30'},
+    {zi:'ZI-051',title:'FedEx REST declared value exceeds limit',ticket:'#379042',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-16'},
+    {zi:'ZI-053',title:'Auto-upload documents failing in REST',ticket:'#379042',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-16'},
+    {zi:'ZI-069',title:'FedEx box dimensions not printed on labels after REST migration',ticket:'#382009',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-01'},
+    {zi:'ZI-070',title:'PO Box automation rule behavior after migration',ticket:'#382009',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-01'},
+    {zi:'ZI-074',title:'FedEx One Rate returned instead of negotiated rates after REST migration',ticket:'#382425',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-03'},
+    {zi:'ZI-009',title:'Per-order Saturday Delivery toggle',ticket:'#306141',area:'feature-request',pain:5,product:'Shopify MCSL',theme:'Feature Requests',created:'2024-12-30'},
+    {zi:'ZI-026',title:'Payment Type Filter (Prepaid/COD)',ticket:'#370219',area:'feature-request',pain:5,product:'Shopify MCSL',theme:'Feature Requests',created:'2026-01-22'},
+    {zi:'ZI-042',title:'Address suggestion feature',ticket:'#377526',area:'feature-request',pain:5,product:'Shopify MCSL',theme:'Feature Requests',created:'2026-03-06'},
+    {zi:'ZI-056',title:'PostNord return label product codes',ticket:'#379784',area:'returns',pain:5,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-19'},
+    {zi:'ZI-010',title:'Subscription plans page error on Safari',ticket:'#338603',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2025-07-16'},
+    {zi:'ZI-050',title:'USPS integration blocked by plan limit',ticket:'#378513',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-03-12'},
+    {zi:'ZI-066',title:'Customer unable to create BlueDart account',ticket:'#381283',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-03-28'},
+    {zi:'ZI-068',title:'Custom plan ($150/year, 4000 shipments) not yet created',ticket:'#381931',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-01'}],
+  needs_analysis: [{zi:'ZI-048',title:'UPS domestic label Reference field enhancement',ticket:'#378511',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-12'},
+    {zi:'ZI-058',title:'eParcel bulk label generation delay (8+ sec consistently)',ticket:'#380339',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-23'},
+    {zi:'ZI-073',title:'Can product details (qty, SKU, description) be shown on shipping labels?',ticket:'#382393',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-03'},
+    {zi:'ZI-081',title:'\"Amount is a required field\" error on order #18501',ticket:'#382987',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-08'},
+    {zi:'ZI-094',title:'Custom description not printed for multi-product orders on UPS labels',ticket:'#377795',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-09'},
+    {zi:'ZI-095',title:'UPS 50-character description field limit',ticket:'#377795',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-09'},
+    {zi:'ZI-105',title:'Multiple label generation failures forcing manual shipments',ticket:'#383835',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-04-13'},
+    {zi:'ZI-017',title:'250-variant import limit',ticket:'#365042',area:'product-management',pain:9,product:'Shopify MCSL',theme:'Order & Product Data',created:'2025-12-17'},
+    {zi:'ZI-060',title:'HS code editing at package level',ticket:'#380339',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-23'},
+    {zi:'ZI-061',title:'Set Service vs Add Service rule behavior',ticket:'#380339',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-03-23'},
+    {zi:'ZI-062',title:'Shipment type classification per order',ticket:'#380339',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-03-23'},
+    {zi:'ZI-079',title:'Orders move to \"Not to Ship\" on refresh when OCU post-purchase upsell modifies t',ticket:'#382961',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-04-08'},
+    {zi:'ZI-089',title:'Order page integration issue',ticket:'#383243',area:'order-management',pain:8,product:'Shopify MCSL',theme:'Order & Product Data',created:'2026-04-09'},
+    {zi:'ZI-090',title:'Second pre-call issue',ticket:'#383243',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-09'},
+    {zi:'ZI-096',title:'WooCommerce order sync blocked by Cloudflare security challenge',ticket:'#378589',area:'order-management',pain:8,product:'WooCommerce',theme:'Order & Product Data',created:'2026-03-13'},
+    {zi:'ZI-101',title:'FedEx account registration failing (WooCommerce)',ticket:'#383509',area:'carrier-config',pain:8,product:'WooCommerce',theme:'Carrier Platform',created:'2026-04-10'},
+    {zi:'ZI-102',title:'FedEx label generation blocked by invalid CNPJ/CPF for Brazil shipment',ticket:'#383746',area:'international',pain:8,product:'Shopify MCSL',theme:'International & Customs',created:'2026-04-13'},
+    {zi:'ZI-104',title:'UPS Digital Connections partnership follow-up pending',ticket:'#383817',area:'carrier-config',pain:8,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-13'},
+    {zi:'ZI-006',title:'USPS Ground Advantage Cubic service not implemented',ticket:'#299137',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2024-11-18'},
+    {zi:'ZI-080',title:'FedEx REST API registration failing',ticket:'#382982',area:'carrier-migration',pain:7,product:'Shopify MCSL',theme:'Carrier Platform',created:'2026-04-08'},
+    {zi:'ZI-087',title:'FedEx rate mismatch between app and FedEx portal',ticket:'#383114',area:'rate-shopping',pain:7,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2026-04-08'},
+    {zi:'ZI-099',title:'Delivro carrier integration request',ticket:'#381046',area:'feature-request',pain:5,product:'WooCommerce',theme:'Feature Requests',created:'2026-03-26'},
+    {zi:'ZI-059',title:'Australia Post international tracking not syncing to Shopify',ticket:'#380339',area:'tracking',pain:4,product:'Shopify MCSL',theme:'Rates & Intelligence',created:'2026-03-23'},
+    {zi:'ZI-066',title:'Customer unable to create BlueDart account',ticket:'#381283',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-03-28'},
+    {zi:'ZI-078',title:'Onboarding call pending',ticket:'#382935',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-07'},
+    {zi:'ZI-082',title:'Onboarding call pending',ticket:'#382999',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-08'},
+    {zi:'ZI-086',title:'Demo call scheduling for 2026-04-14',ticket:'#383103',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-08'},
+    {zi:'ZI-088',title:'Onboarding call pending',ticket:'#383148',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-09'},
+    {zi:'ZI-091',title:'Onboarding call and UPS setup',ticket:'#383273',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-09'},
+    {zi:'ZI-093',title:'Churn investigation for high-volume customer',ticket:'#383729',area:'onboarding',pain:4,product:'Shopify MCSL',theme:'Onboarding & Retention',created:'2026-04-13'}],
+};
+
 
 
 const app = document.getElementById('app');
@@ -674,6 +1030,115 @@ function build(){
     });
     html+=`</tbody></table></div>`;
   });
+  html+=`</div>`;
+
+
+  // ---- ISSUE ANALYSIS VIEW ----
+  html+=`<div class="vw" id="v-analysis">`;
+  html+=`<div class="dbox"><strong>Issue Analysis.</strong> 105 ZI issues classified into 7 categories: Ongoing (active, unresolved), Agent Resolved (workaround/fix provided), Cross-Cutting (systemic patterns across tickets), Quick Wins (low effort, clear fix), Dev Pending (L3/engineering needed), Large Effort (complex, multi-phase), Needs Analysis (root cause unknown). Issues may appear in multiple categories.</div>`;
+
+  // Summary cards
+  html+=`<div class="sum-grid">`;
+  const catMeta = [
+    {key:'ongoing', name:'Ongoing', icon:'🔄', color:'var(--now)', desc:'Active tickets with no resolution yet'},
+    {key:'agent_resolved', name:'Agent Resolved', icon:'✅', color:'var(--feat)', desc:'Agent provided workaround or fix'},
+    {key:'quick_wins', name:'Quick Wins', icon:'⚡', color:'#27ae60', desc:'Low effort, clear fix, dev-ready'},
+    {key:'dev_pending', name:'Dev Pending', icon:'🔧', color:'var(--next)', desc:'L3/engineering escalation raised'},
+    {key:'large_effort', name:'Large Effort', icon:'🏗️', color:'var(--now)', desc:'Complex, multi-phase work'},
+    {key:'needs_analysis', name:'Needs Analysis', icon:'🔍', color:'var(--later)', desc:'Root cause unknown, needs investigation'},
+  ];
+  catMeta.forEach(cat=>{
+    const items = ISSUE_ANALYSIS[cat.key]||[];
+    html+=`<div class="sum-card"><h4>${cat.icon} ${cat.name}</h4>
+      <div style="font-size:22px;font-weight:800;color:${cat.color}">${items.length}</div>
+      <div style="font-size:9px;color:var(--muted)">${cat.desc}</div></div>`;
+  });
+  // Cross-cutting summary
+  const ccKeys = Object.keys(ISSUE_ANALYSIS.cross_cutting||{});
+  const ccTotal = ccKeys.reduce((a,k)=>(a+(ISSUE_ANALYSIS.cross_cutting[k]||[]).length),0);
+  html+=`<div class="sum-card"><h4>🔗 Cross-Cutting Patterns</h4>
+    <div style="font-size:22px;font-weight:800;color:var(--epic)">${ccKeys.length} patterns</div>
+    <div style="font-size:9px;color:var(--muted)">${ccTotal} issue-refs spanning carriers & functions</div></div>`;
+  html+=`</div>`;
+
+  // --- 1. Ongoing ---
+  html+=`<div class="shd">🔄 Ongoing (${ISSUE_ANALYSIS.ongoing.length})</div>`;
+  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th></tr></thead><tbody>`;
+  ISSUE_ANALYSIS.ongoing.forEach(i=>{
+    const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
+    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td></tr>`;
+  });
+  html+=`</tbody></table></div>`;
+
+  // --- 2. Agent Resolved ---
+  html+=`<div class="shd">✅ Agent Resolved (${ISSUE_ANALYSIS.agent_resolved.length})</div>`;
+  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th></tr></thead><tbody>`;
+  ISSUE_ANALYSIS.agent_resolved.forEach(i=>{
+    const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
+    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td></tr>`;
+  });
+  html+=`</tbody></table></div>`;
+
+  // --- 3. Cross-Cutting Patterns ---
+  html+=`<div class="shd">🔗 Cross-Cutting Patterns (${ccKeys.length} groups)</div>`;
+  html+=`<div class="dbox">Issues that share root causes across different tickets, carriers, or functions. Fixing the pattern resolves multiple tickets at once.</div>`;
+  ccKeys.sort((a,b)=>(ISSUE_ANALYSIS.cross_cutting[b]||[]).length-(ISSUE_ANALYSIS.cross_cutting[a]||[]).length);
+  ccKeys.forEach(pattern=>{
+    const items = ISSUE_ANALYSIS.cross_cutting[pattern]||[];
+    const areas = [...new Set(items.map(i=>i.area))];
+    const tickets = [...new Set(items.map(i=>i.ticket))];
+    html+=`<div class="rs"><h3>${pattern} <span style="font-size:11px;color:var(--muted)">(${items.length} issues across ${tickets.length} tickets)</span></h3>`;
+    html+=`<div style="display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap">`;
+    areas.forEach(a=>{html+=`<span class="bg b-maint">${a}</span>`});
+    html+=`</div>`;
+    html+=`<table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Pain</th></tr></thead><tbody>`;
+    items.forEach(i=>{
+      const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
+      html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${pb(i.pain)}</td></tr>`;
+    });
+    html+=`</tbody></table></div>`;
+  });
+
+  // --- 4. Quick Wins ---
+  html+=`<div class="shd">⚡ Quick Wins (${ISSUE_ANALYSIS.quick_wins.length})</div>`;
+  html+=`<div class="dbox">Low effort, clear path to fix. Ship these first for immediate customer impact.</div>`;
+  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th></tr></thead><tbody>`;
+  ISSUE_ANALYSIS.quick_wins.forEach(i=>{
+    const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
+    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td></tr>`;
+  });
+  html+=`</tbody></table></div>`;
+
+  // --- 5. Dev Pending ---
+  html+=`<div class="shd">🔧 Dev Pending (${ISSUE_ANALYSIS.dev_pending.length})</div>`;
+  html+=`<div class="dbox">L3/engineering escalation raised. Waiting on dev work — code changes required.</div>`;
+  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th></tr></thead><tbody>`;
+  ISSUE_ANALYSIS.dev_pending.forEach(i=>{
+    const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
+    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td></tr>`;
+  });
+  html+=`</tbody></table></div>`;
+
+  // --- 6. Large Effort ---
+  html+=`<div class="shd">🏗️ Large Effort (${ISSUE_ANALYSIS.large_effort.length})</div>`;
+  html+=`<div class="dbox">Complex, multi-phase work. Multiple comment rounds, L3 escalations, or high-effort dev tasks.</div>`;
+  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th></tr></thead><tbody>`;
+  ISSUE_ANALYSIS.large_effort.forEach(i=>{
+    const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
+    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td></tr>`;
+  });
+  html+=`</tbody></table></div>`;
+
+  // --- 7. Needs Analysis ---
+  html+=`<div class="shd">🔍 Needs Analysis (${ISSUE_ANALYSIS.needs_analysis.length})</div>`;
+  html+=`<div class="dbox">Root cause unclear, waiting on customer/carrier response, or insufficient information to act. These need investigation before dev work can begin.</div>`;
+  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th></tr></thead><tbody>`;
+  ISSUE_ANALYSIS.needs_analysis.forEach(i=>{
+    const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
+    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td></tr>`;
+  });
+  html+=`</tbody></table></div>`;
+
   html+=`</div>`;
 
   app.innerHTML=html;
