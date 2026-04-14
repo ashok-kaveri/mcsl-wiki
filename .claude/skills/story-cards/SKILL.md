@@ -83,6 +83,18 @@ else (later)                        → APR 25-30
 | `Onboarding & Retention` | `69dda3f73366b97280f973e1` | orange | Theme tag |
 | `Rates & Intelligence` | `69dda3f75e4823b427cdec17` | yellow | Theme tag |
 | `Feature Requests` | `69dda3f8fd2b781f799e7b1a` | sky | Theme tag |
+| `🚚 FedEx` | `69dda71b16771e8f5339a16c` | purple | Carrier tag |
+| `🚚 UPS` | `69dda71caf9e844c742b30b4` | sky | Carrier tag |
+| `🚚 USPS` | `69dda71c82cf6793070ef4a8` | lime | Carrier tag |
+| `🚚 DHL` | `69dda71dc5bbcef492f194f5` | yellow | Carrier tag |
+| `🚚 PostNord` | `69dda71d00f918abc4017c3d` | pink | Carrier tag |
+| `🚚 PostNL` | `69dda71db449b9124adb220f` | pink | Carrier tag |
+| `🚚 Australia Post` | `69dda71e8ad8711e10023e59` | orange | Carrier tag |
+| `🚚 BlueDart` | `69dda71e15af58313d824824` | blue | Carrier tag |
+| `🚚 Royal Mail` | `69dda71fa9485fb90a389da9` | red | Carrier tag |
+| `🚚 Canpar` | `69dda71fc1cb3047913d690f` | green | Carrier tag |
+| `🚚 DPD` | `69dda71f95b500c95b729813` | lime | Carrier tag |
+| `🚚 Delivro` | `69dda72014f1d93c606bc376` | black | Carrier tag |
 
 ### Card Priority (position within lane)
 
@@ -348,6 +360,7 @@ Each scenario must have:
      - Product label (Shopify MCSL / WooCommerce / Magento)
      - Pain label (Pain 10 or Pain 8-9)
      - Theme label (Label & Document Quality / Carrier Platform / Order & Product Data / International & Customs / Onboarding & Retention / Rates & Intelligence / Feature Requests)
+     - Carrier label(s) (🚚 FedEx / 🚚 UPS / 🚚 USPS / 🚚 DHL / etc.) — detect from ticket summary + title keywords
      - SLA Breached label (if SLA is breached)
    - `POST /cards` with full markdown as `desc`
    - `pos`: `"top"` for SLA breached cards, `"bottom"` otherwise
