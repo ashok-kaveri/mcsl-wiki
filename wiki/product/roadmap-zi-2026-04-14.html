@@ -361,6 +361,78 @@ const ZEN_FEATURES = {
 
 const ALL_FEATURES = ZEN_FEATURES;
 
+const WIP_MAP = {
+  'ZI-001':{card:'The search on the products page will not search for variant SKU',lane:'L3 Dev ready cards',url:'https://trello.com/c/iuoLrBbC'},
+  'ZI-002':{card:'The search on the products page will not search for variant SKU',lane:'L3 Dev ready cards',url:'https://trello.com/c/iuoLrBbC'},
+  'ZI-003':{card:'The search on the products page will not search for variant SKU',lane:'L3 Dev ready cards',url:'https://trello.com/c/iuoLrBbC'},
+  'ZI-004':{card:'The search on the products page will not search for variant SKU',lane:'L3 Dev ready cards',url:'https://trello.com/c/iuoLrBbC'},
+  'ZI-005':{card:'The search on the products page will not search for variant SKU',lane:'L3 Dev ready cards',url:'https://trello.com/c/iuoLrBbC'},
+  'ZI-006':{card:'USPS ground Advantage cubic services',lane:'Planning Lane',url:'https://trello.com/c/fIdUwi8i'},
+  'ZI-007':{card:'Order Modification when first name or last name is updated in shopify',lane:'L3 Debug/Tasks Tickets done(not need dev)',url:'https://trello.com/c/U30jzhUW',extra:1},
+  'ZI-008':{card:'Avoid Passing Saturday_delivery when not available',lane:'Planning Lane',url:'https://trello.com/c/gSSuSgsQ'},
+  'ZI-009':{card:'Avoid Passing Saturday_delivery when not available',lane:'Planning Lane',url:'https://trello.com/c/gSSuSgsQ'},
+  'ZI-010':{card:'Fix \"Change Subscription\" Plans Page Error on Safari',lane:'Planning Lane',url:'https://trello.com/c/KqyWcCcB'},
+  'ZI-011':{card:'Fix \"Change Subscription\" Plans Page Error on Safari',lane:'Planning Lane',url:'https://trello.com/c/KqyWcCcB'},
+  'ZI-012':{card:'USPS- Stamps Scanforms to be directly printed as one pdf',lane:'Planning Lane',url:'https://trello.com/c/u2tYCGmn'},
+  'ZI-013':{card:'Enable Order Report',lane:'L3 Debug/Tasks Tickets done(not need dev)',url:'https://trello.com/c/JhAFs0Vl',extra:1},
+  'ZI-014':{card:'Include  Carrier scantime in order report',lane:'L3 Dev ready cards',url:'https://trello.com/c/NaexGMn2'},
+  'ZI-015':{card:'Edit Package is not showing the adjusted value',lane:'L3 Dev ready cards',url:'https://trello.com/c/yaXvKdU9'},
+  'ZI-016':{card:'Edit Package is not showing the adjusted value',lane:'L3 Dev ready cards',url:'https://trello.com/c/yaXvKdU9'},
+  'ZI-017':{card:'Support Shopify products with more than 250 variants- MCSL',lane:'Planning Lane',url:'https://trello.com/c/tCzg2BA5'},
+  'ZI-018':{card:'App loading issue',lane:'L3 Debug/Tasks Tickets done(not need dev)',url:'https://trello.com/c/rnBDI6pq',extra:2},
+  'ZI-019':{card:'App loading issue',lane:'L3 Debug/Tasks Tickets done(not need dev)',url:'https://trello.com/c/rnBDI6pq',extra:2},
+  'ZI-020':{card:'App loading issue',lane:'L3 Debug/Tasks Tickets done(not need dev)',url:'https://trello.com/c/rnBDI6pq',extra:2},
+  'ZI-021':{card:'FedEx: Handle Minimum Customs Amount for FedEx International shipments',lane:'Cards to groom',url:'https://trello.com/c/Vu9WCUzZ'},
+  'ZI-022':{card:'Include DHL Service Point Retur service',lane:'In Dev',url:'https://trello.com/c/FK4lGtNX'},
+  'ZI-023':{card:'Include DHL Service Point Retur service',lane:'In Dev',url:'https://trello.com/c/FK4lGtNX'},
+  'ZI-024':{card:'Delay in label generation',lane:'Cards to groom',url:'https://trello.com/c/rhEXNvk4'},
+  'ZI-025':{card:'Delay in label generation',lane:'Cards to groom',url:'https://trello.com/c/rhEXNvk4'},
+  'ZI-026':{card:'Delay in label generation',lane:'Cards to groom',url:'https://trello.com/c/rhEXNvk4'},
+  'ZI-027':{card:'Delay in label generation',lane:'Cards to groom',url:'https://trello.com/c/rhEXNvk4'},
+  'ZI-028':{card:'Delay in Product import',lane:'Cards to groom',url:'https://trello.com/c/Dhxvv3iL'},
+  'ZI-029':{card:'Incorrect product count and value displayed with Bundled Products',lane:'L3 Dev ready cards',url:'https://trello.com/c/6M3cbv7i'},
+  'ZI-030':{card:'Incorrect product count and value displayed with Bundled Products',lane:'L3 Dev ready cards',url:'https://trello.com/c/6M3cbv7i'},
+  'ZI-031':{card:'Postnord changes',lane:'Cards to groom',url:'https://trello.com/c/veBBlL23'},
+  'ZI-032':{card:'Display Box Name on tax invoice and picklist',lane:'Planning Lane',url:'https://trello.com/c/OIA5Rtyn'},
+  'ZI-033':{card:'Display Box Name on tax invoice and picklist',lane:'Planning Lane',url:'https://trello.com/c/OIA5Rtyn'},
+  'ZI-034':{card:'Discounted value is not printed on the CI',lane:'Planning Lane',url:'https://trello.com/c/anU1cUOT'},
+  'ZI-035':{card:'Incorrect decimal values printing on packing slip',lane:'DevNeeded Cards',url:'https://trello.com/c/Y0HKgDp0'},
+  'ZI-037':{card:'Add. buffer time to estimated delivery',lane:'Cards to groom',url:'https://trello.com/c/l5RzUNwU'},
+  'ZI-038':{card:'Configure Reason for Export for DHL Forward and Return Labels',lane:'L3 Dev ready cards',url:'https://trello.com/c/JtONFSnJ'},
+  'ZI-039':{card:'USPS label generation failed',lane:'Cards to groom',url:'https://trello.com/c/B7YFDhyS',extra:2},
+  'ZI-040':{card:'USPS label generation failed',lane:'Cards to groom',url:'https://trello.com/c/B7YFDhyS',extra:2},
+  'ZI-041':{card:'USPS label generation failed',lane:'Cards to groom',url:'https://trello.com/c/B7YFDhyS',extra:2},
+  'ZI-042':{card:'USPS label generation failed',lane:'Cards to groom',url:'https://trello.com/c/B7YFDhyS',extra:2},
+  'ZI-043':{card:'USPS label generation failed',lane:'Cards to groom',url:'https://trello.com/c/B7YFDhyS',extra:2},
+  'ZI-044':{card:'Complete order report needed',lane:'Cards to groom',url:'https://trello.com/c/NzGyWVFP',extra:1},
+  'ZI-045':{card:'Complete order report needed',lane:'Cards to groom',url:'https://trello.com/c/NzGyWVFP',extra:1},
+  'ZI-046':{card:'Complete order report needed',lane:'Cards to groom',url:'https://trello.com/c/NzGyWVFP',extra:1},
+  'ZI-047':{card:'Fix UPS DG Transportation Mode Codes',lane:'Ready For QA MCSL 376',url:'https://trello.com/c/b8u7Rkdn'},
+  'ZI-048':{card:'Update Reference Field for Domestic Shipments to Support Product Description UPS',lane:'L3 Dev ready cards',url:'https://trello.com/c/oESb1Zcx'},
+  'ZI-049':{card:'Product variants are missing',lane:'PROD MCSL 375p_3',url:'https://trello.com/c/GveSDv1T'},
+  'ZI-050':{card:'Product variants are missing',lane:'PROD MCSL 375p_3',url:'https://trello.com/c/GveSDv1T'},
+  'ZI-051':{card:'Auto Upload failing',lane:'Cards to groom',url:'https://trello.com/c/fDPNIIsr',extra:1},
+  'ZI-052':{card:'Auto Upload failing',lane:'Cards to groom',url:'https://trello.com/c/fDPNIIsr',extra:1},
+  'ZI-053':{card:'Auto Upload failing',lane:'Cards to groom',url:'https://trello.com/c/fDPNIIsr',extra:1},
+  'ZI-054':{card:'Enhance CSV Import to Support Carrier Special Services (FedEx REST)',lane:'L3 Dev ready cards',url:'https://trello.com/c/HELulhS7',extra:1},
+  'ZI-058':{card:'Auto Order Update to be enabled',lane:'Cards to groom',url:'https://trello.com/c/dvXHxVhu'},
+  'ZI-059':{card:'Auto Order Update to be enabled',lane:'Cards to groom',url:'https://trello.com/c/dvXHxVhu'},
+  'ZI-060':{card:'Auto Order Update to be enabled',lane:'Cards to groom',url:'https://trello.com/c/dvXHxVhu'},
+  'ZI-061':{card:'Auto Order Update to be enabled',lane:'Cards to groom',url:'https://trello.com/c/dvXHxVhu'},
+  'ZI-062':{card:'Auto Order Update to be enabled',lane:'Cards to groom',url:'https://trello.com/c/dvXHxVhu'},
+  'ZI-063':{card:'Hello,
+
+Please allow me to ask you one more questi...',lane:'Cards to groom',url:'https://trello.com/c/3DpR40jp'},
+  'ZI-067':{card:'Order clearing needed',lane:'Cards to groom',url:'https://trello.com/c/h0S55hOR'},
+  'ZI-068':{card:'Custom payment link needed',lane:'Cards to groom',url:'https://trello.com/c/ekJsot8X',extra:1},
+  'ZI-075':{card:'PostNord: Pass Country of Origin at Product Level for CN22 Documents',lane:'Ready For QA MCSL 376',url:'https://trello.com/c/wF8Q05oX'},
+  'ZI-079':{card:'Orders are moving to NOT TO SHIP after order update',lane:'Cards to groom',url:'https://trello.com/c/iHqyyqoC'},
+  'ZI-092':{card:'Shipping class not been updated in mcsl products',lane:'Cards to groom',url:'https://trello.com/c/DuHLlaZh'},
+  'ZI-096':{card:'Import and sync failure',lane:'Cards to groom',url:'https://trello.com/c/gdVk8ndF'},
+  'ZI-097':{card:'Bring In Adult Signature option in Canpar',lane:'L3 Dev ready cards',url:'https://trello.com/c/0a3zqBv1'}
+};
+
+
 const ISSUE_ANALYSIS = {
   ongoing: [{zi:'ZI-012',title:'End of Day manifest / SCAN sheet not available',ticket:'#348049',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2025-09-08'},
     {zi:'ZI-048',title:'UPS domestic label Reference field enhancement',ticket:'#378511',area:'label-generation',pain:10,product:'Shopify MCSL',theme:'Label & Document Quality',created:'2026-03-12'},
@@ -733,6 +805,18 @@ function tg(tags, extra){
   return s;
 }
 
+
+function wipBadge(zi){
+  const w=WIP_MAP[zi];
+  if(!w)return '<span style="font-size:8px;color:var(--muted)">—</span>';
+  const laneShort=w.lane.length>20?w.lane.substring(0,20)+'…':w.lane;
+  return `<a href="${w.url}" target="_blank" style="text-decoration:none"><span class="bg b-ft" title="${w.card}\n${w.lane}">${laneShort}</span></a>${w.extra?' <span style="font-size:7px;color:var(--muted)">+'+w.extra+'</span>':''}`;
+}
+function wipLane(zi){
+  const w=WIP_MAP[zi];
+  return w?w.lane:'Not in ph-WIP';
+}
+
 function mkCard(item, vt, mx){
   const c=document.createElement('div');c.className='cd';c.draggable=true;c.dataset.id=item.id;c.dataset.view=vt;
   const th=THEMES.find(t=>t.id===item.theme);
@@ -831,6 +915,8 @@ function build(){
     <button class="fb" data-filter="rates">Rates (8)</button>
     <button class="fb" data-filter="requests">Requests (5)</button>
     <button class="fb" data-filter="high-pain">High Pain (8+)</button>
+    <button class="fb" data-filter="in-wip">In ph-WIP (${Object.keys(WIP_MAP).length})</button>
+    <button class="fb" data-filter="not-in-wip">Not in ph-WIP (${allItems.length-Object.keys(WIP_MAP).length})</button>
   </div>`;
   html+=`<div id="bd-feature"></div>`;
   html+=`<div class="tlb"><div class="tlt">Issues Timeline</div><div class="gt" id="bd-feature-g"></div></div>`;
@@ -919,14 +1005,14 @@ function build(){
       html+=`<span class="bg" style="background:${col}15;color:${col}">${t}: ${c}</span>`;
     });
     html+=`</div>`;
-    html+=`<table class="rt"><thead><tr><th>ZI ID</th><th>Issue</th><th>Ticket</th><th>App</th><th>Area</th><th>Pain</th></tr></thead><tbody>`;
+    html+=`<table class="rt"><thead><tr><th>ZI ID</th><th>Issue</th><th>Ticket</th><th>App</th><th>Area</th><th>Pain</th><th>ph-WIP</th></tr></thead><tbody>`;
     r.issues.forEach(i=>{
       const zi=i.children?.[0]?.t||'';
       const ticket=i.children?.[0]?.id||'';
       const app=(i.tags||[]).includes('woocommerce')?'WooCommerce':(i.tags||[]).includes('magento')?'Magento':'Shopify MCSL';
       const appBg=app==='WooCommerce'?'b-new':app==='Magento'?'b-dash':'b-ep';
       const area=i.desc.split(' — ')[1]||'';
-      html+=`<tr><td><strong>${zi}</strong></td><td>${i.title}</td><td>${ticket}</td><td><span class="bg ${appBg}">${app}</span></td><td>${area}</td><td>${pb(i.pain)}</td></tr>`;
+      html+=`<tr><td><strong>${zi}</strong></td><td>${i.title}</td><td>${ticket}</td><td><span class="bg ${appBg}">${app}</span></td><td>${area}</td><td>${pb(i.pain)}</td><td>${wipBadge(zi)}</td></tr>`;
     });
     html+=`</tbody></table></div>`;
   });
@@ -959,7 +1045,7 @@ function build(){
   html+=`</div>`;
   // Full ticket index table
   html+=`<div class="rs"><h3>Complete Ticket Index</h3>`;
-  html+=`<table class="rt"><thead><tr><th>Ticket</th><th>Issues</th><th>Release</th><th>App</th><th>Themes</th><th>Max Pain</th></tr></thead><tbody>`;
+  html+=`<table class="rt"><thead><tr><th>Ticket</th><th>Issues</th><th>Release</th><th>App</th><th>Themes</th><th>Max Pain</th><th>ph-WIP</th></tr></thead><tbody>`;
   const ticketIndex={};
   relItems.forEach((r,ri)=>{
     r.issues.forEach(i=>{
@@ -978,7 +1064,9 @@ function build(){
     const appBgs=[...data.apps].map(a=>{const bg=a==='WooCommerce'?'b-new':a==='Magento'?'b-dash':'b-ep';return `<span class="bg ${bg}">${a}</span>`}).join(' ');
     const themeBgs=[...data.themes].map(t=>{const th=THEMES.find(x=>x.label===t);const col=th?th.color:'#999';return `<span class="bg" style="background:${col}15;color:${col}">${t}</span>`}).join(' ');
     const searchText=[tid,data.issues.join(' '),data.release,[...data.apps].join(' '),[...data.themes].join(' ')].join(' ').toLowerCase();
-    html+=`<tr class="tkt-idx-row" data-search="${searchText}"><td><strong>${tid}</strong></td><td style="font-size:9px">${data.issues.join(', ')}</td><td>${data.release}</td><td>${appBgs}</td><td>${themeBgs}</td><td>${pb(data.maxPain)}</td></tr>`;
+    const firstZi=data.issues[0]||'';
+    const wipSearch=wipLane(firstZi).toLowerCase();
+    html+=`<tr class="tkt-idx-row" data-search="${searchText} ${wipSearch}"><td><strong>${tid}</strong></td><td style="font-size:9px">${data.issues.join(', ')}</td><td>${data.release}</td><td>${appBgs}</td><td>${themeBgs}</td><td>${pb(data.maxPain)}</td><td>${wipBadge(firstZi)}</td></tr>`;
   });
   html+=`</tbody></table></div></div>`;
 
@@ -991,13 +1079,13 @@ function build(){
     const avgP=(items.reduce((a,i)=>a+i.pain,0)/items.length).toFixed(1);
     const tickets=new Set(items.map(i=>i.children?.[0]?.id).filter(Boolean));
     html+=`<div class="rs"><h3>${area} <span style="font-size:11px;color:var(--muted)">(${items.length} issues, ${tickets.size} tickets, avg pain ${avgP})</span></h3>`;
-    html+=`<table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Pain</th><th>Lane</th></tr></thead><tbody>`;
+    html+=`<table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Pain</th><th>Lane</th><th>ph-WIP</th></tr></thead><tbody>`;
     items.sort((a,b)=>b.pain-a.pain).forEach(i=>{
       const zi=i.children?.[0]?.t||'';const tid=i.children?.[0]?.id||'';
       const app=(i.tags||[]).includes('woocommerce')?'WooCommerce':(i.tags||[]).includes('magento')?'Magento':'Shopify MCSL';
       const appBg=app==='WooCommerce'?'b-new':app==='Magento'?'b-dash':'b-ep';
       const laneBg=i.lane==='now'?'b-rl':i.lane==='next'?'b-dl':'b-st';
-      html+=`<tr><td><strong>${zi}</strong></td><td>${i.title}</td><td>${tid}</td><td><span class="bg ${appBg}">${app}</span></td><td>${pb(i.pain)}</td><td><span class="bg ${laneBg}">${i.lane.toUpperCase()}</span></td></tr>`;
+      html+=`<tr><td><strong>${zi}</strong></td><td>${i.title}</td><td>${tid}</td><td><span class="bg ${appBg}">${app}</span></td><td>${pb(i.pain)}</td><td><span class="bg ${laneBg}">${i.lane.toUpperCase()}</span></td><td>${wipBadge(zi)}</td></tr>`;
     });
     html+=`</tbody></table></div>`;
   });
@@ -1020,13 +1108,13 @@ function build(){
       html+=`<span class="bg" style="background:${col}15;color:${col}">${t}: ${c}</span>`;
     });
     html+=`</div>`;
-    html+=`<table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>Area</th><th>Theme</th><th>Pain</th><th>Lane</th></tr></thead><tbody>`;
+    html+=`<table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>Area</th><th>Theme</th><th>Pain</th><th>Lane</th><th>ph-WIP</th></tr></thead><tbody>`;
     items.sort((a,b)=>b.pain-a.pain).forEach(i=>{
       const zi=i.children?.[0]?.t||'';const tid=i.children?.[0]?.id||'';
       const area=i.desc.split(' — ')[1]||'';
       const th=THEMES.find(t=>t.id===i.theme);const thLabel=th?th.label:'';const col=th?th.color:'#999';
       const laneBg=i.lane==='now'?'b-rl':i.lane==='next'?'b-dl':'b-st';
-      html+=`<tr><td><strong>${zi}</strong></td><td>${i.title}</td><td>${tid}</td><td>${area}</td><td><span class="bg" style="background:${col}15;color:${col}">${thLabel}</span></td><td>${pb(i.pain)}</td><td><span class="bg ${laneBg}">${i.lane.toUpperCase()}</span></td></tr>`;
+      html+=`<tr><td><strong>${zi}</strong></td><td>${i.title}</td><td>${tid}</td><td>${area}</td><td><span class="bg" style="background:${col}15;color:${col}">${thLabel}</span></td><td>${pb(i.pain)}</td><td><span class="bg ${laneBg}">${i.lane.toUpperCase()}</span></td><td>${wipBadge(zi)}</td></tr>`;
     });
     html+=`</tbody></table></div>`;
   });
@@ -1063,19 +1151,19 @@ function build(){
 
   // --- 1. Ongoing ---
   html+=`<div class="shd">🔄 Ongoing (${ISSUE_ANALYSIS.ongoing.length})</div>`;
-  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th></tr></thead><tbody>`;
+  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th><th>ph-WIP</th></tr></thead><tbody>`;
   ISSUE_ANALYSIS.ongoing.forEach(i=>{
     const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
-    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td></tr>`;
+    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td><td>${wipBadge(i.zi)}</td></tr>`;
   });
   html+=`</tbody></table></div>`;
 
   // --- 2. Agent Resolved ---
   html+=`<div class="shd">✅ Agent Resolved (${ISSUE_ANALYSIS.agent_resolved.length})</div>`;
-  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th></tr></thead><tbody>`;
+  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th><th>ph-WIP</th></tr></thead><tbody>`;
   ISSUE_ANALYSIS.agent_resolved.forEach(i=>{
     const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
-    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td></tr>`;
+    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td><td>${wipBadge(i.zi)}</td></tr>`;
   });
   html+=`</tbody></table></div>`;
 
@@ -1091,10 +1179,10 @@ function build(){
     html+=`<div style="display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap">`;
     areas.forEach(a=>{html+=`<span class="bg b-maint">${a}</span>`});
     html+=`</div>`;
-    html+=`<table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Pain</th></tr></thead><tbody>`;
+    html+=`<table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Pain</th><th>ph-WIP</th></tr></thead><tbody>`;
     items.forEach(i=>{
       const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
-      html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${pb(i.pain)}</td></tr>`;
+      html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${pb(i.pain)}</td><td>${wipBadge(i.zi)}</td></tr>`;
     });
     html+=`</tbody></table></div>`;
   });
@@ -1102,40 +1190,40 @@ function build(){
   // --- 4. Quick Wins ---
   html+=`<div class="shd">⚡ Quick Wins (${ISSUE_ANALYSIS.quick_wins.length})</div>`;
   html+=`<div class="dbox">Low effort, clear path to fix. Ship these first for immediate customer impact.</div>`;
-  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th></tr></thead><tbody>`;
+  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th><th>ph-WIP</th></tr></thead><tbody>`;
   ISSUE_ANALYSIS.quick_wins.forEach(i=>{
     const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
-    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td></tr>`;
+    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td><td>${wipBadge(i.zi)}</td></tr>`;
   });
   html+=`</tbody></table></div>`;
 
   // --- 5. Dev Pending ---
   html+=`<div class="shd">🔧 Dev Pending (${ISSUE_ANALYSIS.dev_pending.length})</div>`;
   html+=`<div class="dbox">L3/engineering escalation raised. Waiting on dev work — code changes required.</div>`;
-  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th></tr></thead><tbody>`;
+  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th><th>ph-WIP</th></tr></thead><tbody>`;
   ISSUE_ANALYSIS.dev_pending.forEach(i=>{
     const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
-    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td></tr>`;
+    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td><td>${wipBadge(i.zi)}</td></tr>`;
   });
   html+=`</tbody></table></div>`;
 
   // --- 6. Large Effort ---
   html+=`<div class="shd">🏗️ Large Effort (${ISSUE_ANALYSIS.large_effort.length})</div>`;
   html+=`<div class="dbox">Complex, multi-phase work. Multiple comment rounds, L3 escalations, or high-effort dev tasks.</div>`;
-  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th></tr></thead><tbody>`;
+  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th><th>ph-WIP</th></tr></thead><tbody>`;
   ISSUE_ANALYSIS.large_effort.forEach(i=>{
     const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
-    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td></tr>`;
+    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td><td>${wipBadge(i.zi)}</td></tr>`;
   });
   html+=`</tbody></table></div>`;
 
   // --- 7. Needs Analysis ---
   html+=`<div class="shd">🔍 Needs Analysis (${ISSUE_ANALYSIS.needs_analysis.length})</div>`;
   html+=`<div class="dbox">Root cause unclear, waiting on customer/carrier response, or insufficient information to act. These need investigation before dev work can begin.</div>`;
-  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th></tr></thead><tbody>`;
+  html+=`<div class="rs"><table class="rt"><thead><tr><th>ZI</th><th>Issue</th><th>Ticket</th><th>App</th><th>Theme</th><th>Pain</th><th>Created</th><th>ph-WIP</th></tr></thead><tbody>`;
   ISSUE_ANALYSIS.needs_analysis.forEach(i=>{
     const appBg=i.product==='WooCommerce'?'b-new':i.product==='Magento'?'b-dash':'b-ep';
-    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td></tr>`;
+    html+=`<tr><td><strong>${i.zi}</strong></td><td>${i.title}</td><td>${i.ticket}</td><td><span class="bg ${appBg}">${i.product}</span></td><td>${i.theme}</td><td>${pb(i.pain)}</td><td>${i.created}</td><td>${wipBadge(i.zi)}</td></tr>`;
   });
   html+=`</tbody></table></div>`;
 
@@ -1162,6 +1250,8 @@ function build(){
         else if(f==='woocommerce') card.style.display=(it.tags||[]).includes('woocommerce')?'':'none';
         else if(f==='magento') card.style.display=(it.tags||[]).includes('magento')?'':'none';
         else if(f==='high-pain') card.style.display=it.pain>=8?'':'none';
+        else if(f==='in-wip') card.style.display=WIP_MAP[id]?'':'none';
+        else if(f==='not-in-wip') card.style.display=!WIP_MAP[id]?'':'none';
         else card.style.display=it.theme===f?'':'none';
       });
     });
