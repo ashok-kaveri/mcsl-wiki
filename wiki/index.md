@@ -63,12 +63,18 @@ Last updated: 2026-04-13
 ## Product Management
 
 - [April 2026 Roadmap](product/roadmap-april-2026.html) - Interactive roadmap: 12 sprint features + 17 L3 items + 68 tickets, Gantt timelines, drag-and-drop swimlanes, global search (opens in browser)
+- [April 2026 ZI Roadmap](product/roadmap-zi-2026-04-14.html) - ZI issue roadmap with Trello correlation, dev status, StoryLab cards, and ph-WIP lane tracking (opens in browser)
 - [Product Backlog](product/backlog.md) - 11 backlog items scored from 93 ZI issues (66 tickets), impact/effort/confidence framework
 - [Product Insights](product/insights.md) - Aggregated signals from Zendesk themes, test gaps, code hotspots
 - [Customer Metrics](product/metrics.md) - Per-feature health scorecard with pain index (52 Shopify MCSL tickets)
 - [FedEx REST Migration](product/features/carrier-migration-fedex-rest.md) - Feature story: FedEx SOAP->REST migration (Pain Index: 1700, 5 tickets)
 - [Decision: PM Layer](product/decisions/2026-04-08-product-management-layer.md) - Why and how the product management layer was established
 - [Weekly Dashboard: Apr 7](product/dashboards/week-2026-04-07.md) - Week of Apr 7: 54 tickets, 3 carrier deadlines, 17 customer-ranked features
+
+### Story Cards (ZI Issues)
+
+- [Story Cards Directory](product/stories/) - 100+ story cards generated from Zendesk ZI issues with acceptance criteria and Trello links
+- [ZI-012 — End of Day manifest / SCAN sheet](product/stories/ZI-012.md) - USPS Stamps SCAN form for consolidated pickup barcode (Pain: 10, Ticket #348049)
 
 ## Features & Testing
 
@@ -108,7 +114,7 @@ Last updated: 2026-04-13
 
 ---
 
-**Total pages**: 124 (57 wiki + 66 ticket summaries + 1 index)
+**Total pages**: 224+ (57 wiki + 66 ticket summaries + 100+ story cards + 1 index)
 **Last ingestion**: 2026-04-13 (Zendesk issue extraction: 66 tickets → 93 issues → backlog + roadmap)
 **Status**: Architecture + Orders + Shipping + Automation + Stores + Products + Warehouses + Product Management + Support Triage + Zendesk Issue Pipeline documented
 **Test Coverage**: 58 automated Playwright tests covering 95 features
