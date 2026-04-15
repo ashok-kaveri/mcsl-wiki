@@ -1,0 +1,677 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/384061.json",
+    "id": 384061,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "gabriel@iam8bit.com",
+          "name": "Gabriel Orgal"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-04-14T18:17:08Z",
+    "updated_at": "2026-04-14T23:53:43Z",
+    "generated_timestamp": 1776210823,
+    "type": null,
+    "subject": "Weight Synch Issue",
+    "raw_subject": "Weight Synch Issue",
+    "description": "Hello,\n\nThe following products weigh 0.3oz in Shopify but show 0.99lb (~15oz) in Pluginhive:\n\nKeita Prints 109 Snack Time PRINT by Keita Takahashi 8BIT-8133-114\nKeita Prints 110 Lunch Time PRINT by Keita Takahashi 8BIT-8133-115\nKeita Prints 111 Tired of Adventure PRINT by Keita Takahashi 8BIT-8133-116\n\n\nPlease advise.\n\nThank you,\nGabriel\n--\n\nGabriel Orgal (he/him)\n\nGlobal Logistics Coordinator\n\niam8bit\n\n\"Independently owned & operated since 2005\"\n\n\n4514 North Figueroa Street\n\nLos Angeles, CA 90065\n\ncall:    626-298-6528\n\nsend:  gabriel@iam8bit.com\n\nhttp:   iam8bit.com (http://iam8bit.com/)",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 50143772403481,
+    "submitter_id": 50143772403481,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "l3",
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "iam8bit.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "GZLLXM-EXPPW",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "iam8bit.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56968873452441,
+      "type": "Comment",
+      "author_id": 50143772403481,
+      "body": "Hello,\n\n\n\nThe following products weigh 0.3oz in Shopify but show 0.99lb (~15oz) in Pluginhive:\n\n\n\nKeita Prints 109 Snack Time PRINT by Keita Takahashi 8BIT-8133-114\nKeita Prints 110 Lunch Time PRINT by Keita Takahashi 8BIT-8133-115\nKeita Prints 111 Tired of Adventure PRINT by Keita Takahashi 8BIT-8133-116\n\n\n\nPlease advise.\n\n\n\nThank you,\n\nGabriel\n--\n\n ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfhxDSlE0kvKueVv5mcvN3aqz88wavFrMXxRZjjqvJgoRDAzU_oL_HTu85_5ambBgSMSrijTfeHVzAZR1ITS4AaHEMkkUMYkbnAgF__QlKy4NgCnkLORjIk3Z8s9CTujzoajXNAXV-OlYqq_IDxzsRCIuQ?key=YY9NQrno_1IoK4Jv_txMlg)\n\nGabriel Orgal (he/him)\n\nGlobal Logistics Coordinator\n\niam8bit\n\n\"Independently owned & operated since 2005\"\n\n4514 North Figueroa Street\n\nLos Angeles, CA 90065\n\ncall:    626-298-6528\n\nsend:  gabriel@iam8bit.com\n\nhttp:   iam8bit.com",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hello,</div><div><br></div><div>The following products weigh 0.3oz in Shopify but show 0.99lb (~15oz) in Pluginhive:</div><div><br></div><div><table cellspacing=\"0\" cellpadding=\"0\" dir=\"ltr\" border=\"1\" style=\"table-layout: fixed; font-size: 10pt; width: 0px; border-collapse: collapse; border: medium none currentcolor;\"><colgroup><col width=\"380\"><col width=\"141\"></colgroup><tbody><tr style=\"height: 21px;\"><td style=\"overflow: hidden; vertical-align: bottom; padding: 2px 3px; border: 1px solid rgb(204,204,204);\" valign=\"bottom\">Keita Prints 109 Snack Time PRINT by Keita Takahashi</td><td style=\"overflow: hidden; vertical-align: bottom; padding: 2px 3px; border: 1px solid rgb(204,204,204);\" valign=\"bottom\">8BIT-8133-114</td></tr><tr style=\"height: 21px;\"><td style=\"overflow: hidden; vertical-align: bottom; padding: 2px 3px; border: 1px solid rgb(204,204,204);\" valign=\"bottom\">Keita Prints 110 Lunch Time PRINT by Keita Takahashi</td><td style=\"overflow: hidden; vertical-align: bottom; padding: 2px 3px; border: 1px solid rgb(204,204,204);\" valign=\"bottom\">8BIT-8133-115</td></tr><tr style=\"height: 21px;\"><td style=\"overflow: hidden; vertical-align: bottom; padding: 2px 3px; border: 1px solid rgb(204,204,204);\" valign=\"bottom\">Keita Prints 111 Tired of Adventure PRINT by Keita Takahashi</td><td style=\"overflow: hidden; vertical-align: bottom; padding: 2px 3px; border: 1px solid rgb(204,204,204);\" valign=\"bottom\">8BIT-8133-116</td></tr></tbody></table></div><div><br></div><div>Please advise.</div><div><br></div><div>Thank you,</div><div>Gabriel</div><span>-- </span><br><div dir=\"ltr\"><div dir=\"ltr\"><span><span style=\"font-size: 11pt; color: rgb(34,34,34); background-color: transparent; vertical-align: baseline;\"><span style=\"display: inline-block; overflow: hidden; width: 96px; height: 95px; border-style: none;\"><img src=\"https://lh7-rt.googleusercontent.com/docsz/AD_4nXfhxDSlE0kvKueVv5mcvN3aqz88wavFrMXxRZjjqvJgoRDAzU_oL_HTu85_5ambBgSMSrijTfeHVzAZR1ITS4AaHEMkkUMYkbnAgF__QlKy4NgCnkLORjIk3Z8s9CTujzoajXNAXV-OlYqq_IDxzsRCIuQ?key=YY9NQrno_1IoK4Jv_txMlg\" width=\"96\" height=\"95\" style=\"margin-left: 0px; margin-top: 0px;\"></span></span></span><div><span><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; background-color: transparent; vertical-align: baseline;\">Gabriel Orgal (he/him)</span></p><p style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" dir=\"auto\"><span style=\"background-color: transparent; color: rgb(68,68,68); font-size: 12.6667px;\">Global Logistics Coordinator</span></p><p style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" dir=\"auto\"><span style=\"background-color: transparent; color: rgb(68,68,68); font-size: 11pt; font-weight: 700;\">iam8bit</span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 8pt; color: rgb(68,68,68); background-color: transparent; vertical-align: baseline;\">\"Independently owned &amp; operated since 2005\"</span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><br></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 8pt; color: rgb(68,68,68); background-color: transparent; vertical-align: baseline;\">4514 North Figueroa Street</span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 8pt; color: rgb(68,68,68); background-color: transparent; vertical-align: baseline;\">Los Angeles, CA 90065</span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 8pt; color: rgb(68,68,68); background-color: transparent; vertical-align: baseline;\">call:&nbsp; &nbsp; 626-298-6528</span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 8pt; color: rgb(68,68,68); background-color: transparent; vertical-align: baseline;\">send:&nbsp; </span><span style=\"font-size: 8pt; color: rgb(17,85,204); background-color: transparent; vertical-align: baseline;\"><a href=\"mailto:gabriel@iam8bit.com\" rel=\"noreferrer\">gabriel@iam8bit.com</a></span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"background-color: transparent; font-size: 8pt; color: rgb(68,68,68); vertical-align: baseline;\">http: &nbsp; </span><a href=\"http://iam8bit.com/\" rel=\"noreferrer\"><span style=\"font-size: 8pt; color: rgb(17,85,204); background-color: transparent; vertical-align: baseline;\">iam8bit.com</span></a></p></span><span><span style=\"font-size: 11pt; color: rgb(34,34,34); background-color: transparent; vertical-align: baseline;\"><span style=\"display: inline-block; overflow: hidden; width: 96px; height: 95px; border-style: none;\"></span></span></span></div></div></div></div></div>",
+      "plain_body": "Hello,  \n  The following products weigh 0.3oz in Shopify but show 0.99lb (~15oz) in Pluginhive:  \n  Keita Prints 109 Snack Time PRINT by Keita Takahashi8BIT-8133-114Keita Prints 110 Lunch Time PRINT by Keita Takahashi8BIT-8133-115Keita Prints 111 Tired of Adventure PRINT by Keita Takahashi8BIT-8133-116  \n  Please advise.  \n  Thank you,  Gabriel -- \n    Gabriel Orgal (he/him)  Global Logistics Coordinator  iam8bit  \"Independently owned &amp; operated since 2005\"  \n  4514 North Figueroa Street  Los Angeles, CA 90065  call:&nbsp; &nbsp; 626-298-6528  send:&nbsp; gabriel@iam8bit.com  http: &nbsp; iam8bit.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56968873452313,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "gabriel@iam8bit.com",
+            "name": "Gabriel Orgal",
+            "original_recipients": [
+              "gabriel@iam8bit.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T18:17:08Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CACEWgVT_g3oEkNSDjMqNLcqcMHFXmj4pgYtC=o3_8cTZ3VWnGQ@mail.gmail.com>",
+          "email_id": "01KP6KC6CHQ6H6Y9XB4DMVT0RA",
+          "raw_email_identifier": "2369120/e64d0a5c-bc98-4d52-a940-fb4c9c86e7db.eml",
+          "json_email_identifier": "2369120/e64d0a5c-bc98-4d52-a940-fb4c9c86e7db.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56969952983961,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "USA Store\n2290 orders\n\nStamps USPS, FedEx account connected\n\nActively using app for displaying rates\n\n$49 Premium plan",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">USA Store<br>2290 orders<br>&nbsp;<br>Stamps USPS, FedEx account connected<br>&nbsp;<br>Actively using app for displaying rates<br>&nbsp;<br>$49 Premium plan<br></div>",
+      "plain_body": "USA Store\n2290 orders\n&nbsp;\nStamps USPS, FedEx account connected\n&nbsp;\nActively using app for displaying rates\n&nbsp;\n$49 Premium plan",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56969952983833,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T20:17:14Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56970003238809,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+18312676349",
+        "to": "+16262986528",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAb0658102b8f62fdd5209cf34f558c780/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 56969987819033,
+        "call_duration": 73,
+        "answered_by_id": 9977129389337,
+        "started_at": "2026-04-14T20:21:03Z",
+        "location": "",
+        "author_id": 9977129389337,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Manohar V",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+1 (831) 267-6349",
+      "formatted_to": "+1 (626) 298-6528",
+      "transcription_visible": false,
+      "author_id": 9977129389337,
+      "body": "Outbound call to +1 (626) 298-6528\nCall Details:\n\nCall from: +1 (831) 267-6349\nCall to: +1 (626) 298-6528\nTime of call: 2026-04-14 20:21:03 UTC\nCalled by: Manohar V\nLength of phone call: 1 minute, 13 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAb0658102b8f62fdd5209cf34f558c780/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +1 (626) 298-6528<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +1 (831) 267-6349<br>\nCall to: +1 (626) 298-6528<br>\nTime of call: 2026-04-14 20:21:03 UTC<br>\nCalled by: Manohar V<br>\nLength of phone call: 1 minute, 13 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAb0658102b8f62fdd5209cf34f558c780/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAb0658102b8f62fdd5209cf34f558c780/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-04-14T20:22:18Z",
+      "audit_id": 56970009987865,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+1 (831) 267-6349",
+            "phone": "+18312676349",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+1 (626) 298-6528",
+            "phone": "+16262986528",
+            "name": "+1 (626) 298-6528"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56970032652953,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Tried force import but the weights not imported - need to review the product's weight in Shopify\n\nTried calling the customer but they requested a callback in 30 minutes",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Tried force import but the weights not imported - need to review the product's weight in Shopify&nbsp;<br>&nbsp;<br>Tried calling the customer but they requested a callback in 30 minutes<br>&nbsp;<br></div>",
+      "plain_body": "Tried force import but the weights not imported - need to review the product's weight in Shopify&nbsp;\n&nbsp;\nTried calling the customer but they requested a callback in 30 minutes\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56970032652697,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T20:23:16Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56970474981657,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+18312676349",
+        "to": "+16262986528",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA44cf92712adb0666545e3d61efdf8775/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 56970441415577,
+        "call_duration": 182,
+        "answered_by_id": 9977129389337,
+        "started_at": "2026-04-14T21:08:10Z",
+        "location": "",
+        "author_id": 9977129389337,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Manohar V",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+1 (831) 267-6349",
+      "formatted_to": "+1 (626) 298-6528",
+      "transcription_visible": false,
+      "author_id": 9977129389337,
+      "body": "Outbound call to +1 (626) 298-6528\nCall Details:\n\nCall from: +1 (831) 267-6349\nCall to: +1 (626) 298-6528\nTime of call: 2026-04-14 21:08:10 UTC\nCalled by: Manohar V\nLength of phone call: 3 minutes, 2 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA44cf92712adb0666545e3d61efdf8775/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +1 (626) 298-6528<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +1 (831) 267-6349<br>\nCall to: +1 (626) 298-6528<br>\nTime of call: 2026-04-14 21:08:10 UTC<br>\nCalled by: Manohar V<br>\nLength of phone call: 3 minutes, 2 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA44cf92712adb0666545e3d61efdf8775/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA44cf92712adb0666545e3d61efdf8775/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-04-14T21:11:13Z",
+      "audit_id": 56970496776985,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+1 (831) 267-6349",
+            "phone": "+18312676349",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+1 (626) 298-6528",
+            "phone": "+16262986528",
+            "name": "+1 (626) 298-6528"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56970569114649,
+      "type": "Comment",
+      "author_id": 50143772403481,
+      "body": "Hello,\n\n\nThank you for your call. Here are the relevant product pages:\n\n\n\nLet me know if there's anything else you need.\n\n\n\nAll the best,\n\nGabriel",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello,<div><br></div><div>Thank you for your call. Here are the relevant product pages:</div><div><br></div><div>Let me know if there's anything else you need.</div><div><br></div><div>All the best,</div><div>Gabriel&nbsp;&nbsp;</div></div><br><div></div></div>",
+      "plain_body": "Hello, \n  Thank you for your call. Here are the relevant product pages:  \n  Let me know if there's anything else you need.  \n  All the best,  Gabriel&nbsp;&nbsp;",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56970540718105.json",
+          "id": 56970540718105,
+          "file_name": "Adventure 8BIT-8133-116.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/QfwgOQ4Gds2wtrnRMGPhEatiy/?name=Adventure+8BIT-8133-116.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/QfwgOQ4Gds2wtrnRMGPhEatiy/?name=Adventure+8BIT-8133-116.pdf",
+          "content_type": "application/pdf",
+          "size": 573901,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56970569115033.json",
+          "id": 56970569115033,
+          "file_name": "snack time 8BIT-8133-114.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/WlnsF3HpEYPMJg8dsBpTqUoBl/?name=snack+time+8BIT-8133-114.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/WlnsF3HpEYPMJg8dsBpTqUoBl/?name=snack+time+8BIT-8133-114.pdf",
+          "content_type": "application/pdf",
+          "size": 544593,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56970569123481.json",
+          "id": 56970569123481,
+          "file_name": "Lunch Time 8BIT-8133-115.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/gCwaygsglBVKhK77ugJW8grtl/?name=Lunch+Time+8BIT-8133-115.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/gCwaygsglBVKhK77ugJW8grtl/?name=Lunch+Time+8BIT-8133-115.pdf",
+          "content_type": "application/pdf",
+          "size": 519198,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56970569114393,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "gabriel@iam8bit.com",
+            "name": "Gabriel Orgal",
+            "original_recipients": [
+              "gabriel@iam8bit.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T21:17:22Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CACEWgVTFy5VmxyirYsL5iiu0OtYyJqjUkjtaF6P5uyvm9uA+vw@mail.gmail.com>",
+          "email_id": "01KP6XP2EF70XDWGFCEG21CT6E",
+          "raw_email_identifier": "2369120/0035cd28-2339-474a-894a-43a0ce017a0f.eml",
+          "json_email_identifier": "2369120/0035cd28-2339-474a-894a-43a0ce017a0f.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56971672322329,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Gabriel,\n\nThank you for your reply and for sharing details.\n\nPlease allow us some time we check and get back to you with an update.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Gabriel,<br>&nbsp;<br>Thank you for your reply and for sharing details.<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Gabriel,\n&nbsp;\nThank you for your reply and for sharing details.\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56971672322201,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T22:45:18Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56971771206809,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need assistance from L3 team:\n\nCase: Product weight updates in Shopify not reflected in the app\n\nDetails:\nA $49 Premium plan MCSL customer has updated the weights for 3 products in Shopify. However, these changes are not reflected in the app, which is resulting in higher shipping rates.\n\n\nAll 3 products are updated to 0.3 oz in Shopify, but in the app they are showing 0.9 lbs (15 oz).\n\nAffected Products:\n\n- Keita Prints 109 Snack Time PRINT by Keita Takahashi\nSKU: 8BIT-8133-114\n- Keita Prints 110 Lunch Time PRINT by Keita Takahashi\nSKU: 8BIT-8133-115\n- Keita Prints 111 Tired of Adventure PRINT by Keita Takahashi\nSKU: 8BIT-8133-116\nI have attached the Shopify product PDF for your reference. The customer is not comfortable using the appointment link.\n\nCould you please check and update/sync the product weights from your end?\n\nExpected Result:\nProduct weight changes made in Shopify should be reflected correctly in the app, and shipping rates should be calculated based on the updated weights.\n\nStore Details:\nStore URL –  iam8bit.myshopify.com\nAccount ID – 522db151-491b-4342-9e3f-4d54c5dad8c5\n\n ![](https://pluginhive.zendesk.com/attachments/token/ccUWbJViBqtd8nOlK6GoTqarv/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need assistance from L3 team:<br>&nbsp;<br>Case: Product weight updates in Shopify not reflected in the app<br>&nbsp;<br>Details:<br>A $49 Premium plan MCSL customer has updated the weights for 3 products in Shopify. However, these changes are not reflected in the app, which is resulting in higher shipping rates.<br>&nbsp;<br><br>All 3 products are updated to 0.3 oz in Shopify, but in the app they are showing 0.9 lbs (15 oz).<br>&nbsp;<br>Affected Products:<br><ul dir=\"auto\"><li>Keita Prints 109 Snack Time PRINT by Keita Takahashi<br>SKU: 8BIT-8133-114</li><li>Keita Prints 110 Lunch Time PRINT by Keita Takahashi<br>SKU: 8BIT-8133-115</li><li>Keita Prints 111 Tired of Adventure PRINT by Keita Takahashi<br>SKU: 8BIT-8133-116</li></ul>I have attached the Shopify product PDF for your reference. The customer is not comfortable using the appointment link.<br>&nbsp;<br>Could you please check and update/sync the product weights from your end?<br>&nbsp;<br>Expected Result:<br>Product weight changes made in Shopify should be reflected correctly in the app, and shipping rates should be calculated based on the updated weights.<br>&nbsp;<br>Store Details:<br>Store URL – &nbsp;<a rel=\"noopener noreferrer\" href=\"http://iam8bit.myshopify.com\">iam8bit.myshopify.com</a><br>Account ID – 522db151-491b-4342-9e3f-4d54c5dad8c5<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/ccUWbJViBqtd8nOlK6GoTqarv/?name=image.png\"></span><br></div>",
+      "plain_body": "Need assistance from L3 team:\n&nbsp;\nCase: Product weight updates in Shopify not reflected in the app\n&nbsp;\nDetails:\nA $49 Premium plan MCSL customer has updated the weights for 3 products in Shopify. However, these changes are not reflected in the app, which is resulting in higher shipping rates.\n&nbsp;\n\nAll 3 products are updated to 0.3 oz in Shopify, but in the app they are showing 0.9 lbs (15 oz).\n&nbsp;\nAffected Products:\n  Keita Prints 109 Snack Time PRINT by Keita Takahashi\nSKU: 8BIT-8133-114  Keita Prints 110 Lunch Time PRINT by Keita Takahashi\nSKU: 8BIT-8133-115  Keita Prints 111 Tired of Adventure PRINT by Keita Takahashi\nSKU: 8BIT-8133-116  I have attached the Shopify product PDF for your reference. The customer is not comfortable using the appointment link.\n&nbsp;\nCould you please check and update/sync the product weights from your end?\n&nbsp;\nExpected Result:\nProduct weight changes made in Shopify should be reflected correctly in the app, and shipping rates should be calculated based on the updated weights.\n&nbsp;\nStore Details:\nStore URL – &nbsp;iam8bit.myshopify.com\nAccount ID – 522db151-491b-4342-9e3f-4d54c5dad8c5\n&nbsp;",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56971741036953.json",
+          "id": 56971741036953,
+          "file_name": "Lunch Time 8BIT-8133-115.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/9kLjkH19dz8VKlX3dAolZUypO/?name=Lunch+Time+8BIT-8133-115.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/9kLjkH19dz8VKlX3dAolZUypO/?name=Lunch+Time+8BIT-8133-115.pdf",
+          "content_type": "application/pdf",
+          "size": 519198,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56971756208281.json",
+          "id": 56971756208281,
+          "file_name": "snack time 8BIT-8133-114.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/rouSHP9kJmWLnHRrpGYiST7Bc/?name=snack+time+8BIT-8133-114.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/rouSHP9kJmWLnHRrpGYiST7Bc/?name=snack+time+8BIT-8133-114.pdf",
+          "content_type": "application/pdf",
+          "size": 544593,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56971778325017.json",
+          "id": 56971778325017,
+          "file_name": "Adventure 8BIT-8133-116.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/Rcwo9bhmvBmP6QhjbSsvQhdj1/?name=Adventure+8BIT-8133-116.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/Rcwo9bhmvBmP6QhjbSsvQhdj1/?name=Adventure+8BIT-8133-116.pdf",
+          "content_type": "application/pdf",
+          "size": 573901,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56971785034777,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T22:52:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56972890919449,
+      "type": "Comment",
+      "author_id": 50143772403481,
+      "body": "Thank you for your help.\n\n\n\nGabriel\n\n\n\n ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfhxDSlE0kvKueVv5mcvN3aqz88wavFrMXxRZjjqvJgoRDAzU_oL_HTu85_5ambBgSMSrijTfeHVzAZR1ITS4AaHEMkkUMYkbnAgF__QlKy4NgCnkLORjIk3Z8s9CTujzoajXNAXV-OlYqq_IDxzsRCIuQ?key=YY9NQrno_1IoK4Jv_txMlg)\n\nGabriel Orgal (he/him)\n\nGlobal Logistics Coordinator\n\niam8bit\n\n\"Independently owned & operated since 2005\"\n\n4514 North Figueroa Street\n\nLos Angeles, CA 90065\n\ncall:    626-298-6528\n\nsend:  gabriel@iam8bit.com\n\nhttp:   iam8bit.com",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div>Thank you for your help.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Gabriel&nbsp;</div><div><br></div><div><div dir=\"ltr\"><span><span style=\"font-size: 11pt; color: rgb(34,34,34); background-color: transparent; vertical-align: baseline;\"><span style=\"display: inline-block; overflow: hidden; width: 96px; height: 95px; border-style: none;\"><img src=\"https://lh7-rt.googleusercontent.com/docsz/AD_4nXfhxDSlE0kvKueVv5mcvN3aqz88wavFrMXxRZjjqvJgoRDAzU_oL_HTu85_5ambBgSMSrijTfeHVzAZR1ITS4AaHEMkkUMYkbnAgF__QlKy4NgCnkLORjIk3Z8s9CTujzoajXNAXV-OlYqq_IDxzsRCIuQ?key=YY9NQrno_1IoK4Jv_txMlg\" width=\"96\" height=\"95\" style=\"margin-left: 0px; margin-top: 0px;\"></span></span></span><div><span><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; background-color: transparent; vertical-align: baseline;\">Gabriel Orgal (he/him)</span></p><p style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" dir=\"auto\"><span style=\"background-color: transparent; color: rgb(68,68,68); font-size: 12.6667px;\">Global Logistics Coordinator</span></p><p style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" dir=\"auto\"><span style=\"background-color: transparent; color: rgb(68,68,68); font-size: 11pt; font-weight: 700;\">iam8bit</span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 8pt; color: rgb(68,68,68); background-color: transparent; vertical-align: baseline;\">\"Independently owned &amp; operated since 2005\"</span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><br></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 8pt; color: rgb(68,68,68); background-color: transparent; vertical-align: baseline;\">4514 North Figueroa Street</span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 8pt; color: rgb(68,68,68); background-color: transparent; vertical-align: baseline;\">Los Angeles, CA 90065</span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 8pt; color: rgb(68,68,68); background-color: transparent; vertical-align: baseline;\">call:&nbsp; &nbsp; 626-298-6528</span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 8pt; color: rgb(68,68,68); background-color: transparent; vertical-align: baseline;\">send:&nbsp; </span><span style=\"font-size: 8pt; color: rgb(17,85,204); background-color: transparent; vertical-align: baseline;\"><a href=\"mailto:gabriel@iam8bit.com\" rel=\"noreferrer\">gabriel@iam8bit.com</a></span></p><p dir=\"auto\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"background-color: transparent; font-size: 8pt; color: rgb(68,68,68); vertical-align: baseline;\">http: &nbsp; </span><a href=\"http://iam8bit.com/\" rel=\"noreferrer\"><span style=\"font-size: 8pt; color: rgb(17,85,204); background-color: transparent; vertical-align: baseline;\">iam8bit.com</span></a></p></span><span><span style=\"font-size: 11pt; color: rgb(34,34,34); background-color: transparent; vertical-align: baseline;\"><span style=\"display: inline-block; overflow: hidden; width: 96px; height: 95px; border-style: none;\"></span></span></span></div></div></div></div><br><div></div></div>",
+      "plain_body": "Thank you for your help.  \n  Gabriel&nbsp;  \n     Gabriel Orgal (he/him)  Global Logistics Coordinator  iam8bit  \"Independently owned &amp; operated since 2005\"  \n  4514 North Figueroa Street  Los Angeles, CA 90065  call:&nbsp; &nbsp; 626-298-6528  send:&nbsp; gabriel@iam8bit.com  http: &nbsp; iam8bit.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56972890919321,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "gabriel@iam8bit.com",
+            "name": "Gabriel Orgal",
+            "original_recipients": [
+              "gabriel@iam8bit.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T23:53:43Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CACEWgVSa9e-EKK3h6SwR0RgqKKMTQo9R8QiRCrMG9Ab8pNJ=rw@mail.gmail.com>",
+          "email_id": "01KP76MG4PVG5TW3P3SAEFECG6",
+          "raw_email_identifier": "2369120/dcc36f7d-b5f6-4afe-9e72-d8fb66e6fdcf.eml",
+          "json_email_identifier": "2369120/dcc36f7d-b5f6-4afe-9e72-d8fb66e6fdcf.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    }
+  ]
+}

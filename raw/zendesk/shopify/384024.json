@@ -1,0 +1,285 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/384024.json",
+    "id": 384024,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-04-14T15:01:20Z",
+    "updated_at": "2026-04-14T15:01:20Z",
+    "generated_timestamp": 1776178881,
+    "type": null,
+    "subject": "Batoony Rocks cases to be discussed internally with Team",
+    "raw_subject": "Batoony Rocks cases to be discussed internally with Team",
+    "description": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775803826197099\n\nShopify MCSL customer **Batoony Rocks** (batoony-rocks.myshopify.com) has shared a concern about Order ID printed on the Amazon labels over Whatsapp.\nHis concern is -\n\n_**We are having lot of challenge reading the invoice ID here - which is basically the Order ID**_\n_**Due to the small font size of the label - they are not able to read the number properly - because of this, labels are getting wrongly put on orders, leading to mixed deliveries.**_\n_**Please treat this issue as critical - as this is a MAJOR concern for us - to the point that we may need to find alternative solution if we are unable to address this issue.**_\n_**Sometimes the number like 6 and 8 are hard to make out as well.**_\n\nHe is asking us to make the INVOICE ID font bigger on the label. Attached a label for reference here.\nThis was shared earlier by the customer as well and the input from team was that this is directly via Amazon API and we cannot change it.\nAs customer is complaining and saying that this is a MAJOR concern for him up to the point that he may look for a different solution, could you please check again and if needed to consult with Amazon team to check if changes can be made for this case?\nScreenshot of the complete conversation from Whatsapp attached here for reference.\nI have discussed the case with Keerthi before posting it here for further input.\n\nURL - batoony-rocks.myshopify.com\nAccount ID - 5cb8e743-3074-4944-a6e9-e1b2c72715c2",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 18854260804761,
+    "submitter_id": 18854260804761,
+    "assignee_id": 18854260804761,
+    "organization_id": 360081186532,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": false,
+    "due_at": null,
+    "tags": [
+      "l3",
+      "q4_dec_end",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "batoony-rocks.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": "q4_dec_end"
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "VEZVV1-MVXML",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "batoony-rocks.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": "q4_dec_end"
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56966391584281,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775803826197099\n\nShopify MCSL customer **Batoony Rocks** (batoony-rocks.myshopify.com) has shared a concern about Order ID printed on the Amazon labels over Whatsapp.\nHis concern is -\n\n_**We are having lot of challenge reading the invoice ID here - which is basically the Order ID**_\n_**Due to the small font size of the label - they are not able to read the number properly - because of this, labels are getting wrongly put on orders, leading to mixed deliveries.**_\n_**Please treat this issue as critical - as this is a MAJOR concern for us - to the point that we may need to find alternative solution if we are unable to address this issue.**_\n_**Sometimes the number like 6 and 8 are hard to make out as well.**_\n\nHe is asking us to make the INVOICE ID font bigger on the label. Attached a label for reference here.\nThis was shared earlier by the customer as well and the input from team was that this is directly via Amazon API and we cannot change it.\nAs customer is complaining and saying that this is a MAJOR concern for him up to the point that he may look for a different solution, could you please check again and if needed to consult with Amazon team to check if changes can be made for this case?\nScreenshot of the complete conversation from Whatsapp attached here for reference.\nI have discussed the case with Keerthi before posting it here for further input.\n\nURL - batoony-rocks.myshopify.com\nAccount ID - 5cb8e743-3074-4944-a6e9-e1b2c72715c2",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1775803826197099\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1775803826197099</a><br>&nbsp;<br>Shopify MCSL customer <strong>Batoony Rocks </strong>(<a rel=\"noopener noreferrer\" href=\"http://batoony-rocks.myshopify.com\">batoony-rocks.myshopify.com</a>) has shared a concern about Order ID printed on the Amazon labels over Whatsapp.<br>His concern is -<br><br><i><strong>We are having lot of challenge reading the invoice ID here - which is basically the Order ID</strong></i><br><i><strong>Due to the small font size of the label - they are not able to read the number properly - because of this, labels are getting wrongly put on orders, leading to mixed deliveries.</strong></i><br><i><strong>Please treat this issue as critical - as this is a MAJOR concern for us - to the point that we may need to find alternative solution if we are unable to address this issue.</strong></i><br><i><strong>Sometimes the number like 6 and 8 are hard to make out as well.</strong></i><br>&nbsp;<br>He is asking us to make the INVOICE ID font bigger on the label. Attached a label for reference here.<br>This was shared earlier by the customer as well and the input from team was that this is directly via Amazon API and we cannot change it.<br>As customer is complaining and saying that this is a MAJOR concern for him up to the point that he may look for a different solution, could you please check again and if needed to consult with Amazon team to check if changes can be made for this case?<br>Screenshot of the complete conversation from Whatsapp attached here for reference.<br>I have discussed the case with Keerthi before posting it here for further input.<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://batoony-rocks.myshopify.com\">batoony-rocks.myshopify.com</a><br>Account ID - 5cb8e743-3074-4944-a6e9-e1b2c72715c2<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1775803826197099\n&nbsp;\nShopify MCSL customer Batoony Rocks (batoony-rocks.myshopify.com) has shared a concern about Order ID printed on the Amazon labels over Whatsapp.\nHis concern is -\n\nWe are having lot of challenge reading the invoice ID here - which is basically the Order ID\nDue to the small font size of the label - they are not able to read the number properly - because of this, labels are getting wrongly put on orders, leading to mixed deliveries.\nPlease treat this issue as critical - as this is a MAJOR concern for us - to the point that we may need to find alternative solution if we are unable to address this issue.\nSometimes the number like 6 and 8 are hard to make out as well.\n&nbsp;\nHe is asking us to make the INVOICE ID font bigger on the label. Attached a label for reference here.\nThis was shared earlier by the customer as well and the input from team was that this is directly via Amazon API and we cannot change it.\nAs customer is complaining and saying that this is a MAJOR concern for him up to the point that he may look for a different solution, could you please check again and if needed to consult with Amazon team to check if changes can be made for this case?\nScreenshot of the complete conversation from Whatsapp attached here for reference.\nI have discussed the case with Keerthi before posting it here for further input.\n&nbsp;\nURL - batoony-rocks.myshopify.com\nAccount ID - 5cb8e743-3074-4944-a6e9-e1b2c72715c2",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56966366318361.json",
+          "id": 56966366318361,
+          "file_name": "Screenshot at Apr 10 12-19-26.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/4RY0JP3L9lRTfA23OtvFnW6ln/?name=Screenshot+at+Apr+10+12-19-26.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/4RY0JP3L9lRTfA23OtvFnW6ln/?name=Screenshot+at+Apr+10+12-19-26.png",
+          "content_type": "image/png",
+          "size": 209712,
+          "width": 768,
+          "height": 1152,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56966366326809.json",
+              "id": 56966366326809,
+              "file_name": "Screenshot_at_Apr_10_12-19-26_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/4z0lCMfexaA25PQMboEfNvClW/?name=Screenshot_at_Apr_10_12-19-26_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/4z0lCMfexaA25PQMboEfNvClW/?name=Screenshot_at_Apr_10_12-19-26_thumb.png",
+              "content_type": "image/png",
+              "size": 15387,
+              "width": 53,
+              "height": 80,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56966338255257.json",
+          "id": 56966338255257,
+          "file_name": "Screenshot at Apr 10 12-17-51.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/tHhmpPckEyLQrPeoEAwQ64v6P/?name=Screenshot+at+Apr+10+12-17-51.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/tHhmpPckEyLQrPeoEAwQ64v6P/?name=Screenshot+at+Apr+10+12-17-51.png",
+          "content_type": "image/png",
+          "size": 2094154,
+          "width": 1896,
+          "height": 1436,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56966338271129.json",
+              "id": 56966338271129,
+              "file_name": "Screenshot_at_Apr_10_12-17-51_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/WXm6ejrUZNqdyrScGPjn5WAzp/?name=Screenshot_at_Apr_10_12-17-51_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/WXm6ejrUZNqdyrScGPjn5WAzp/?name=Screenshot_at_Apr_10_12-17-51_thumb.png",
+              "content_type": "image/png",
+              "size": 6075,
+              "width": 80,
+              "height": 61,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 56966391584153,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T15:01:20Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "122.171.19.149",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}
