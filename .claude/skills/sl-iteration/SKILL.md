@@ -12,10 +12,18 @@ Two modes: **copy** (move cards from StoryLab to ph-WIP) and **analyze** (run AI
 
 **Arguments**:
 - `<release-tag-name>` — copy all StoryLab cards with that label to ph-WIP
-- `analyze <ZI-NNN>` — run code analysis on a specific card
-- `analyze next` — analyze the next unanalyzed card in the lane
-- `analyze all` — analyze all unanalyzed cards, one at a time, waiting for user review
-- `reassess <ZI-NNN>` — re-run analysis with updated context (comments, description edits)
+- `analyze <release-tag> <ZI-NNN>` — run code analysis on a specific card in the named lane
+- `analyze <release-tag> next` — analyze the next unanalyzed card in the named lane
+- `analyze <release-tag> all` — analyze all unanalyzed cards in the named lane
+- `analyze <release-tag> @<name>` — analyze only cards assigned to a member (matches by username or full name)
+- `reassess <ZI-NNN>` — re-run analysis (lane auto-detected by searching all SL lanes for the card)
+
+**Lane resolution**: The `<release-tag>` in analyze commands identifies the ph-WIP lane `SL <release-tag>: Iteration backlog`. If the lane doesn't exist, list all `SL *` lanes and ask user to pick.
+
+**Examples**:
+- `/sl-iteration analyze MCSL 377 all` — analyze all cards in `SL MCSL 377: Iteration backlog`
+- `/sl-iteration analyze MCSL 377 @ajeesh` — analyze cards assigned to Ajeesh in the MCSL 377 lane
+- `/sl-iteration analyze MCSL 377 ZI-035` — analyze ZI-035 in the MCSL 377 lane
 
 ---
 
@@ -215,6 +223,23 @@ curl -s -X POST "https://api.trello.com/1/cards?key=$TRELLO_API_KEY&token=$TRELL
 
 ## Execution
 
+### Step 0: Resolve the target lane
+
+Parse the `<release-tag>` from the argument. Then:
+
+1. Fetch ph-WIP lanes: `GET /boards/63e1e0414b6026c45be1087c/lists?fields=name,id`
+2. Find lane named `SL <release-tag>: Iteration backlog` (case-insensitive match)
+3. If found — use its `id` as `TARGET_LIST_ID`
+4. If NOT found — list all lanes starting with `SL ` and ask user to pick:
+   ```
+   No lane found for "MCSL 378". Available SL lanes:
+   1. SL MCSL 377: Iteration backlog (28 cards)
+   2. SL MCSL 376: Iteration backlog (15 cards)
+   Which lane?
+   ```
+
+**For `reassess ZI-NNN`** (no release-tag argument): search ALL `SL *` lanes on ph-WIP for a card matching the ZI ID in its name. Use that card's lane.
+
 ### Step 1: Read ALL context from the card
 
 Three sources — read all of them:
@@ -357,6 +382,37 @@ For `analyze next`:
 1. Fetch all cards in the target lane: `GET /lists/{listId}/cards?fields=name,desc,idLabels`
 2. Find the first card whose `idLabels` does NOT contain any of the 4 confidence label IDs
 3. Run analysis on that card
+
+## Filtering Cards by Member (`analyze <release-tag> @<name>`)
+
+### Resolving the member
+
+1. Fetch board members: `GET /boards/63e1e0414b6026c45be1087c/members?fields=id,username,fullName`
+2. Match `<name>` against both `username` and `fullName` (case-insensitive, partial match OK)
+   - e.g., `@ajeesh` matches `fullName: "Ajeesh PU"` or `username: "ajeeshpu"`
+   - e.g., `@john` matches `fullName: "John Doe"` or `username: "johndoe"`
+3. If multiple matches — list them and ask user to pick
+4. If no match — list all board members and ask user to pick
+
+### Filtering
+
+1. Fetch all cards in the target lane: `GET /lists/{listId}/cards?fields=name,desc,idLabels,idMembers`
+2. Filter: keep only cards where `idMembers` contains the resolved member ID
+3. Optionally further filter to unanalyzed only (no confidence label)
+4. Process matching cards using the standard analysis workflow
+
+### Report
+
+After filtering, show:
+```
+Found X cards assigned to @<username> (Y unanalyzed):
+1. From SL: ZI-NNN — <title> [ANALYZED / PENDING]
+2. ...
+
+Proceeding to analyze Y unanalyzed cards.
+```
+
+If all assigned cards are already analyzed, report: "All X cards assigned to @<username> already have AI analysis. Use `reassess ZI-NNN` to re-run any."
 
 ---
 
