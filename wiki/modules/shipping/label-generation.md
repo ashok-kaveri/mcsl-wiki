@@ -974,6 +974,7 @@ if (result.shipmentResult[0].status === constants.SUCCESS) {
 
 - [Carrier System Overview](./carrier-system-overview.md)
 - [Carrier Configuration](./carrier-configuration.md)
+- [Carrier Integration](./carrier-integration.md)
 - [Rate Shopping](./rate-shopping.md)
 - [Carrier Integrations](./carrier-integrations.md)
 - [Order Lifecycle](../orders/order-lifecycle.md)

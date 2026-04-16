@@ -440,6 +440,7 @@ Carrier API rate limits respected:
 ## Dependencies
 
 - [Carrier Configuration](./carrier-configuration.md) - Carrier model and account setup
+- [Carrier Integration](./carrier-integration.md) - Engineering reference: file conventions, HTTP retry, error dicts, checklist for adding a carrier
 - [Rate Shopping](./rate-shopping.md) - Rate fetching and selection logic
 - [Label Generation](./label-generation.md) - Detailed label creation flow
 - [Carrier Integrations](./carrier-integrations.md) - List of all 43 carriers
