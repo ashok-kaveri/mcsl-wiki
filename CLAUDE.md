@@ -29,7 +29,7 @@ The registry declares every raw source. When resolving paths, always read this f
 | `git-submodule` | `git submodule add <repo> raw/<name>` | Yes (pinned commit) | Codebase, test suite |
 | `webhook-json` | External webhook writes `{id}.json` files | Yes (commit on receive) | Zendesk tickets |
 | `google-sheet` | Manual CSV export or automated sync script | Yes (commit after export) | Regression scenarios |
-| `manual` | User places files directly | Yes | Ad-hoc documents, specs |
+| `manual` | User places files directly | Yes | Ad-hoc documents, specs, Slack conversations |
 
 ### `sources.yaml` Format
 
@@ -61,6 +61,14 @@ sources:
     url: "https://docs.google.com/spreadsheets/d/1oVtOaM2PesVR_TkuVaBKpbp_qQdmq4FQnN43Xew0FuY"
     sync: manual
     description: "Master regression test plan"
+
+  slack:
+    type: manual
+    path: raw/slack
+    pattern: "YYYY-MM-DD-<slug>.md"
+    description: "Internal Slack conversations with product/engineering context"
+    workflow: "Slack Ingestion Workflow (see below)"
+    # Pipeline: raw/slack/*.md → extract decisions/constraints/action items → wiki/product/decisions/, wiki/modules/, wiki/product/backlog.md
 ```
 
 ### Adding a New Source
@@ -90,6 +98,8 @@ mcsl-wiki/
 │   │   └── <future-product>/          # Extensible — add new products here
 │   ├── sheets/                        # Google Sheets exported as CSV
 │   │   └── regression-scenarios.csv
+│   ├── slack/                         # Slack conversations saved as markdown
+│   │   └── YYYY-MM-DD-<slug>.md
 │   └── <future-source>/               # Extensible — add new sources here
 ├── wiki/
 │   ├── architecture/          # System-level documentation
@@ -528,7 +538,7 @@ mcsl-test-automation/tests/
 
 ## Product Management
 
-The wiki includes a **product management layer** under `wiki/product/` that synthesizes signals from all raw sources (Zendesk tickets, test coverage, code complexity, regression matrix) into actionable product intelligence.
+The wiki includes a **product management layer** under `wiki/product/` that synthesizes signals from all raw sources (Zendesk tickets, Slack conversations, test coverage, code complexity, regression matrix) into actionable product intelligence.
 
 ### Product Directory Structure
 
@@ -591,6 +601,9 @@ All product pages use **git-based delta detection**. Each page records `git_refe
    # Changed regression sheet
    git diff <git_reference>..HEAD --name-only -- raw/sheets/
    
+   # New Slack conversations since last sync
+   git diff <git_reference>..HEAD --name-only -- raw/slack/
+   
    # Updated submodules
    git diff <git_reference>..HEAD -- raw/storepep-react raw/mcsl-test-automation
    ```
@@ -603,6 +616,7 @@ Any change in `raw/` can trigger an update:
 - **New Zendesk tickets** → update insights.md, metrics.md, potentially create backlog items
 - **Updated git submodules** → update test coverage in metrics.md, feature stories
 - **Re-exported regression sheet** → update regression coverage in features, metrics
+- **New Slack conversations** → extract decisions/constraints/action items, update decisions/, modules/, backlog
 - **User command** — "resync PM", "triage new tickets", "refresh metrics"
 
 ### Zendesk Issue Extraction Pipeline
@@ -728,6 +742,77 @@ Read `wiki/product/backlog.md`. Update `ZEN_FEATURES` JS object in roadmap HTML.
 
 Update `wiki/index.md`, `wiki/log.md`, cross-links from insights/metrics.
 
+### Slack Ingestion Workflow
+
+**Pipeline**: `raw/slack/*.md` → extract decisions, constraints, action items → `wiki/product/decisions/`, `wiki/modules/`, `wiki/product/backlog.md`
+
+Slack conversations are saved manually as structured markdown with frontmatter. Unlike Zendesk (JSON requiring parsing), Slack files are already human-readable markdown with timestamped dialogue.
+
+**Critical rule**: `raw/slack/` is immutable — read only, never modify.
+
+#### Step 1: Read & Parse Frontmatter
+
+For each file in `raw/slack/`:
+
+1. **Read frontmatter**: Extract `date`, `channel`, `participants`, `related`, `topic`
+2. **Resolve cross-references** from the `related` field:
+   - `zendesk: <ticketId>` → check if `wiki/zendesk/summaries/<ticketId>.md` exists
+   - `zi: <ZI-ID>` → locate in daily index `wiki/zendesk/YYYY-MM-DD.md`
+   - `trello: <url>` → note for cross-linking in output pages
+3. **Read conversation body**: Identify speakers, timestamps, and message content
+
+#### Step 2: Extract Artifacts
+
+Scan the conversation for three artifact types:
+
+**Decisions** — statements where the team commits to an approach:
+- Look for: definitive statements, "we will", "let's go with", "the plan is", conclusions after debate
+- Each decision becomes a candidate for `wiki/product/decisions/YYYY-MM-DD-<slug>.md`
+
+**Constraints** — external limitations or dependencies discovered:
+- Look for: "we cannot", "requires", "blocked by", third-party requirements, API limitations, partnership dependencies
+- Constraints update the relevant `wiki/modules/` page (add to Known Issues / Tech Debt or a new Constraints section)
+
+**Action items** — tasks assigned to specific people:
+- Look for: "@person will", "next step is", "I will", explicit commitments with owners
+- Action items become candidates for `wiki/product/backlog.md` entries
+
+#### Step 3: Create/Update Wiki Pages
+
+**Decision records** (if decisions were extracted):
+- Create `wiki/product/decisions/YYYY-MM-DD-<slug>.md` using the Decision Record Template
+- In the `## Signals` section, link to the Slack source: `Slack: raw/slack/YYYY-MM-DD-<slug>.md`
+- Cross-link any referenced Zendesk tickets: `Zendesk: [#<ticketId>](../../zendesk/summaries/<ticketId>.md)` (ZI-XXX)
+- Cross-link any referenced Trello cards
+
+**Module page updates** (if constraints were extracted):
+- Identify the relevant module page under `wiki/modules/`
+- Add constraints to the "Known Issues / Tech Debt" section with source citation
+- Add to Dependencies section if new external dependencies were discovered
+
+**Backlog updates** (if action items were extracted):
+- Add new items to `wiki/product/backlog.md`
+- Score using the existing formula: `(Impact × Confidence) / Effort`
+- Link back to the Slack source file in the Key Sources column
+
+#### Step 4: Cross-link & Log
+
+1. **Update `wiki/index.md`** if new decision records were created
+2. **Update cross-references**:
+   - From new decision records → referenced Zendesk summaries, module pages, Trello cards
+   - From updated module pages → the Slack source and any referenced tickets
+   - From backlog items → the Slack source
+3. **Log** in `wiki/log.md`:
+   ```markdown
+   ## [YYYY-MM-DD HH:MM] slack-ingest | <Topic from frontmatter>
+   - Source: `raw/slack/YYYY-MM-DD-<slug>.md`
+   - Created: `product/decisions/YYYY-MM-DD-<slug>.md` (if applicable)
+   - Updated: `modules/<domain>/<module>.md` (if applicable)
+   - Updated: `product/backlog.md` (if applicable)
+   - Cross-refs: Zendesk #<ticketId>, ZI-<id>, Trello <card>
+   - Summary: <what was extracted — N decisions, N constraints, N action items>
+   ```
+
 ### Triage Workflow (Delta)
 
 When new tickets arrive in `raw/zendesk/` (incremental sync):
@@ -750,6 +835,7 @@ When the user says "create feature story for X":
    - Read relevant wiki module pages
    - Read related Zendesk **summaries** from `wiki/zendesk/summaries/*.md` (search by feature area tag in Open Issues sections)
    - Read the daily index `wiki/zendesk/YYYY-MM-DD.md` for ZI issue IDs in the relevant feature area
+   - Read related Slack conversations from `raw/slack/` (search by `related` frontmatter matching the feature area's Zendesk tickets or ZI IDs, or by `topic` keyword)
    - Read test coverage from features.md
    - Read regression scenarios from the sheet (if applicable)
 2. **Create `product/features/<slug>.md`** using the Feature Story Template
@@ -770,17 +856,20 @@ When the user says "refresh metrics":
 
 1. **Detect delta** via git diff on `wiki/zendesk/summaries/` (NOT raw/zendesk/)
 2. **Read new/changed ticket summaries**, group by product and feature area
-3. **Calculate per-feature metrics**:
+3. **Check for new Slack conversations** via `git diff` on `raw/slack/`:
+   - Extract any decisions or constraints that affect feature health
+   - Note action items that may indicate upcoming work
+4. **Calculate per-feature metrics**:
    - Ticket volume (total, open, pending, solved)
    - Trend (↑ increasing, → stable, ↓ decreasing) — compare to previous count
    - Top issue (most common subject theme)
-4. **Cross-reference with automation data** from `features.md`:
+5. **Cross-reference with automation data** from `features.md`:
    - Automation confidence per feature
    - Regression coverage per feature
-5. **Compute Customer Pain Index**: `(ticket_volume × severity_weight) / automation_confidence`
-6. **Compute Feature Health**: 🟢 Healthy / 🟡 Watch / 🔴 At Risk based on composite score
-7. **Update `product/metrics.md`** with refreshed data
-8. **Update `git_reference`** to current HEAD
+6. **Compute Customer Pain Index**: `(ticket_volume × severity_weight) / automation_confidence`
+7. **Compute Feature Health**: 🟢 Healthy / 🟡 Watch / 🔴 At Risk based on composite score
+8. **Update `product/metrics.md`** with refreshed data
+9. **Update `git_reference`** to current HEAD
 
 ### Release Workflow
 
@@ -795,7 +884,7 @@ When the user says "draft release notes for X":
 
 Every product page must link in three directions:
 
-- **Upstream** (raw sources): Zendesk ticket IDs, regression matrix rows, code file paths
+- **Upstream** (raw sources): Zendesk ticket IDs, regression matrix rows, code file paths, Slack conversation files
 - **Lateral** (wiki): Related features, decisions, module pages, features.md sections
 - **Downstream** (outputs): Backlog items, releases, metrics affected
 
