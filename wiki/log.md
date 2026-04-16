@@ -1,5 +1,10 @@
 # StorePep KB Activity Log
 
+## [2026-04-16 16:30] ingest | Database Migrations Documentation
+- Updated: `wiki/operations/database-migrations.md` (stub → complete)
+- Git reference: 0f9b0bc965c82210bf38320d7c5a5ce60cfd44da (storepep-react submodule)
+- Summary: Replaced stub with full documentation of the migrate-mongo workflow used by storepepSAAS. Covers tooling (migrate-mongo@^10.0.0, migrate-mongo-config.js targeting `storePep` db with `changelog` collection and `useFileHash: true`), migration anatomy (idempotency guards via mongoDictionary helpers, no-op down patterns, named indexes, background index builds), filename conventions, intent groupings across 108 migrations (31/32/38/7 across 2023-2026 — carrier service-code seeding ≈40% of corpus), runbook commands and required env vars, authoring checklist, and known issues including drift in backend-architecture.md (lists `server/src/db-migrations/migrations/` but actual path is `server/db-migrations/`).
+
 ## [2026-04-16 14:30] ingest | Carrier Integration — engineer's reference
 - Updated: `wiki/modules/shipping/carrier-integration.md` (stub → complete, status flipped from needs-update → complete)
 - Updated: `wiki/modules/shipping/carrier-system-overview.md` (added link in Dependencies)
