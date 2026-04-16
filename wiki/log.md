@@ -1,5 +1,10 @@
 # StorePep KB Activity Log
 
+## [2026-04-16 16:30] ingest | Database Migrations Documentation
+- Updated: `wiki/operations/database-migrations.md` (stub → complete)
+- Git reference: 0f9b0bc965c82210bf38320d7c5a5ce60cfd44da (storepep-react submodule)
+- Summary: Replaced stub with full documentation of the migrate-mongo workflow used by storepepSAAS. Covers tooling (migrate-mongo@^10.0.0, migrate-mongo-config.js targeting `storePep` db with `changelog` collection and `useFileHash: true`), migration anatomy (idempotency guards via mongoDictionary helpers, no-op down patterns, named indexes, background index builds), filename conventions, intent groupings across 108 migrations (31/32/38/7 across 2023-2026 — carrier service-code seeding ≈40% of corpus), runbook commands and required env vars, authoring checklist, and known issues including drift in backend-architecture.md (lists `server/src/db-migrations/migrations/` but actual path is `server/db-migrations/`).
+
 ## [2026-04-16 10:00] ingest | Slack Source Type + Royal Mail Integration Constraints
 - Created: `raw/slack/2026-04-15-royal-mail-easypost-integration.md` (raw Slack conversation)
 - Created: `wiki/product/decisions/2026-04-15-royal-mail-integration-constraints.md` (decision record)
