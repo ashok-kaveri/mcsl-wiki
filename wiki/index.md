@@ -8,7 +8,7 @@ git_reference: current
 
 # StorePep KB Index
 
-Last updated: 2026-04-13
+Last updated: 2026-04-16
 
 ## Architecture
 
@@ -69,6 +69,7 @@ Last updated: 2026-04-13
 - [Customer Metrics](product/metrics.md) - Per-feature health scorecard with pain index (52 Shopify MCSL tickets)
 - [FedEx REST Migration](product/features/carrier-migration-fedex-rest.md) - Feature story: FedEx SOAP->REST migration (Pain Index: 1700, 5 tickets)
 - [Decision: PM Layer](product/decisions/2026-04-08-product-management-layer.md) - Why and how the product management layer was established
+- [Decision: Royal Mail 3PI](product/decisions/2026-04-15-royal-mail-integration-constraints.md) - Royal Mail requires 3PI approval; EasyPost test credentials being pursued
 - [Weekly Dashboard: Apr 7](product/dashboards/week-2026-04-07.md) - Week of Apr 7: 54 tickets, 3 carrier deadlines, 17 customer-ranked features
 
 ### Story Cards (ZI Issues)

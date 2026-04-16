@@ -1,5 +1,15 @@
 # StorePep KB Activity Log
 
+## [2026-04-16 10:00] ingest | Slack Source Type + Royal Mail Integration Constraints
+- Created: `raw/slack/2026-04-15-royal-mail-easypost-integration.md` (raw Slack conversation)
+- Created: `wiki/product/decisions/2026-04-15-royal-mail-integration-constraints.md` (decision record)
+- Updated: `wiki/product/stories/ZI-057.md` (added Integration Constraints section)
+- Updated: `raw/sources.yaml` (added slack source type)
+- Updated: `wiki/index.md` (added decision record entry)
+- Updated: `wiki/log.md`
+- Git reference: current
+- Summary: Added Slack as a new raw source type (manual, markdown with frontmatter). Captured internal Slack discussion (2026-04-15) revealing Royal Mail integration constraints: requires 3PI approval + OBA account + rates card approval from EasyPost/Royal Mail, no free production API for SaaS providers. QA blocked until EasyPost provides test credentials (Abhilash exploring). Decision record created, ZI-057 story card updated with constraints section. Pipeline: raw/slack/*.md → wiki/product/decisions/ + wiki/product/stories/ updates.
+
 ## [2026-04-13 20:00] ingest | Zendesk Issue Extraction & Backlog Regeneration
 - Created: `zendesk/summaries/*.md` (66 per-ticket structured summaries)
 - Created: `zendesk/2026-04-13.md` (daily index: 93 open issues from 66 tickets)
