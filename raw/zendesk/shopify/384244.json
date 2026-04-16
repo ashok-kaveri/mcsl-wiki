@@ -1,0 +1,418 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/384244.json",
+    "id": 384244,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-04-15T15:48:04Z",
+    "updated_at": "2026-04-15T16:45:54Z",
+    "generated_timestamp": 1776271554,
+    "type": null,
+    "subject": "Hi,\n\nI'm using your app on my Shopify store and I'...",
+    "raw_subject": "Hi,\n\nI'm using your app on my Shopify store and I'...",
+    "description": "Hi,\n\nI'm using your app on my Shopify store and I'd like to integrate my shipping carrier Iberomail, which is not currently listed in the app.\n\nI have access to Iberomail's API credentials. Could you please advise on how I can add a custom carrier integration? Is there a way to connect via API key, or would this require a custom integration request?\n\nThank you for your help!\n\n------------------\n提交自：https://mcsl-s.pluginhive.io/home/settings/carriers/new",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 36330693310617,
+    "submitter_id": 36330693310617,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      36331201479833
+    ],
+    "follower_ids": [
+      36331201479833
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "mb-cork.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "969144183"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "WMR9N3-PJW23",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "mb-cork.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "969144183"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57003351928473,
+      "type": "Comment",
+      "author_id": 36330693310617,
+      "body": "Hi,\n\nI'm using your app on my Shopify store and I'd like to integrate my shipping carrier Iberomail, which is not currently listed in the app.\n\nI have access to Iberomail's API credentials. Could you please advise on how I can add a custom carrier integration? Is there a way to connect via API key, or would this require a custom integration request?\n\nThank you for your help!\n\n------------------\n提交自：https://mcsl-s.pluginhive.io/home/settings/carriers/new",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hi,</p>\n\n<p dir=\"auto\">I'm using your app on my Shopify store and I'd like to integrate my shipping carrier Iberomail, which is not currently listed in the app.</p>\n\n<p dir=\"auto\">I have access to Iberomail's API credentials. Could you please advise on how I can add a custom carrier integration? Is there a way to connect via API key, or would this require a custom integration request?</p>\n\n<p dir=\"auto\">Thank you for your help!</p>\n\n<p dir=\"auto\">------------------\n<br>提交自：<a href=\"https://mcsl-s.pluginhive.io/home/settings/carriers/new\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/settings/carriers/new</a></p></div>",
+      "plain_body": "Hi, \n\n I'm using your app on my Shopify store and I'd like to integrate my shipping carrier Iberomail, which is not currently listed in the app. \n\n I have access to Iberomail's API credentials. Could you please advise on how I can add a custom carrier integration? Is there a way to connect via API key, or would this require a custom integration request? \n\n Thank you for your help! \n\n ------------------\n\n提交自：https://mcsl-s.pluginhive.io/home/settings/carriers/new",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57003351928345,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-04-15T15:48:04Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "89.115.222.50",
+          "location": "Lisbon, 11, Portugal",
+          "latitude": 38.7219,
+          "longitude": -9.1398
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 57004044377369,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Request #384240 \"Welcome to Shopify Partner Plugi...\" was closed and merged into this request. Last comment in request #384240:\r\n\r\nHello MB,\r\n\r\n Greeting from Shopify Partner PluginHive!\r\n\r\n Thank you for installing our Shopify App - **“PH Multi Carrier Shipping Label App”** on mb-cork.myshopify.com\r\n\r\n Our team would like to assist you with the complete app onboarding.\r\n\r\n We request you let us know a suitable time for the onboarding session, which will not take more than 10 mins. Feel free to reply to this email (or) share your contact number, we will get in touch with you.\r\n\r\n You can also refer our documentation to set up the app and start shipping - click here to know more\r\n\r\n Looking forward to hearing from you.\r\n\r\n Thanks and Regards,\r\n Team PluginHive\r\nhttps://www.pluginhive.com/about/#team",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/384240\" target=\"_blank\" rel=\"ticket\">#384240</a> \"Welcome to Shopify Partner Plugi...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/384240\" target=\"_blank\" rel=\"ticket\">#384240</a>:</p>\n<p dir=\"auto\">Hello MB,</p>\n<p dir=\"auto\">Greeting from Shopify Partner PluginHive!</p>\n<p dir=\"auto\">Thank you for installing our Shopify App - <strong>“PH Multi Carrier Shipping Label App”</strong> on mb-cork.myshopify.com</p>\n<p dir=\"auto\">Our team would like to assist you with the complete app onboarding.</p>\n<p dir=\"auto\">We request you let us know a suitable time for the onboarding session, which will not take more than 10 mins. Feel free to reply to this email (or) share your contact number, we will get in touch with you.</p>\n<p dir=\"auto\">You can also refer our documentation to set up the app and start shipping - click here to know more</p>\n<p dir=\"auto\">Looking forward to hearing from you.</p>\n<p dir=\"auto\">Thanks and Regards,<br>\n Team PluginHive<br>\n<a href=\"https://www.pluginhive.com/about/#team\" rel=\"noreferrer\">https://www.pluginhive.com/about/#team</a></p></div>",
+      "plain_body": "Request #384240 \"Welcome to Shopify Partner Plugi...\" was closed and merged into this request. Last comment in request #384240: \n Hello MB, \n Greeting from Shopify Partner PluginHive! \n Thank you for installing our Shopify App - “PH Multi Carrier Shipping Label App” on mb-cork.myshopify.com \n Our team would like to assist you with the complete app onboarding. \n We request you let us know a suitable time for the onboarding session, which will not take more than 10 mins. Feel free to reply to this email (or) share your contact number, we will get in touch with you. \n You can also refer our documentation to set up the app and start shipping - click here to know more \n Looking forward to hearing from you. \n Thanks and Regards,\n\n Team PluginHive\n\nhttps://www.pluginhive.com/about/#team",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57004044377241,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              384240
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-04-15T16:32:29Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57004118635801,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+441544300877",
+        "to": "+351969144183",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA2f3eae62edbc0ab06ede69e3608cfcfc/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 57004078453273,
+        "call_duration": 190,
+        "answered_by_id": 9977129389337,
+        "started_at": "2026-04-15T16:34:33Z",
+        "location": "",
+        "author_id": 9977129389337,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Manohar V",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+44 1544 300877",
+      "formatted_to": "+351 96 914 4183",
+      "transcription_visible": false,
+      "author_id": 9977129389337,
+      "body": "Outbound call to +351 96 914 4183\nCall Details:\n\nCall from: +44 1544 300877\nCall to: +351 96 914 4183\nTime of call: 2026-04-15 16:34:33 UTC\nCalled by: Manohar V\nLength of phone call: 3 minutes, 10 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA2f3eae62edbc0ab06ede69e3608cfcfc/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +351 96 914 4183<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +44 1544 300877<br>\nCall to: +351 96 914 4183<br>\nTime of call: 2026-04-15 16:34:33 UTC<br>\nCalled by: Manohar V<br>\nLength of phone call: 3 minutes, 10 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA2f3eae62edbc0ab06ede69e3608cfcfc/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA2f3eae62edbc0ab06ede69e3608cfcfc/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-04-15T16:37:44Z",
+      "audit_id": 57004118634137,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+44 1544 300877",
+            "phone": "+441544300877",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+351 96 914 4183",
+            "phone": "+351969144183",
+            "name": "+351 96 914 4183"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57004119136281,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Portugal Store\n151 orders\n\nNo carrier connected\n\nno action in rates and labels",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Portugal Store<br>151 orders<br>&nbsp;<br>No carrier connected<br>&nbsp;<br>no action in rates and labels<br></div>",
+      "plain_body": "Portugal Store\n151 orders\n&nbsp;\nNo carrier connected\n&nbsp;\nno action in rates and labels",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57004119136153,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-15T16:37:58Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57004170668313,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Team,\n\nThank you for your time over the call.\n\nAs discussed, I will share this new carrier integration requirement with our product team to check its feasibility.\n\nTo proceed further, could you please provide the following details:\n\n1. Iberomail account representative contact details (email or phone number)\n2. All available Iberomail API documentation\n3. Any relevant information related to the integration\n\nLooking forward to your response.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Thank you for your time over the call.<br>&nbsp;<br>As discussed, I will share this new carrier integration requirement with our product team to check its feasibility.<br>&nbsp;<br>To proceed further, could you please provide the following details:<br><ol dir=\"auto\"><li>Iberomail account representative contact details (email or phone number)</li><li>All available Iberomail API documentation</li><li>Any relevant information related to the integration</li></ol>&nbsp;<br>Looking forward to your response.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nThank you for your time over the call.\n&nbsp;\nAs discussed, I will share this new carrier integration requirement with our product team to check its feasibility.\n&nbsp;\nTo proceed further, could you please provide the following details:\n  Iberomail account representative contact details (email or phone number)  All available Iberomail API documentation  Any relevant information related to the integration  &nbsp;\nLooking forward to your response.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57004170668057,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-15T16:42:37Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57004193845401,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "New carrier integration request\n\nCarrier Name - Iberomail\nLink - https://iberomail.com/\nOrigin Portugal\nSupports shipping both domestic and international\n\nCustomer shared they are expecting to process upto 200 parcels per month and can be increased",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">New carrier integration request<br>&nbsp;<br>Carrier Name - Iberomail<br>Link - <a rel=\"noopener noreferrer\" href=\"https://iberomail.com/\">https://iberomail.com/</a><br>Origin Portugal<br>Supports shipping both domestic and international<br>&nbsp;<br>Customer shared they are expecting to process upto 200 parcels per month and can be increased<br>&nbsp;<br>&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "New carrier integration request\n&nbsp;\nCarrier Name - Iberomail\nLink - https://iberomail.com/\nOrigin Portugal\nSupports shipping both domestic and international\n&nbsp;\nCustomer shared they are expecting to process upto 200 parcels per month and can be increased\n&nbsp;\n&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57004193845017,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-15T16:45:54Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}
