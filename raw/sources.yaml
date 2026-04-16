@@ -54,3 +54,9 @@ sources:
     gid: "1368718443"
     sync: manual
     description: "Cross-app support triage sheet — all open tickets requiring dev action, categorized by product"
+
+  slack:
+    type: manual
+    path: raw/slack
+    pattern: "YYYY-MM-DD-<slug>.md"
+    description: "Internal Slack conversations with product/engineering context — saved as markdown with frontmatter (date, channel, participants, related items)"
