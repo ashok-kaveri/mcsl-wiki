@@ -35,7 +35,7 @@ Last updated: 2026-04-16
 - [Label Generation](modules/shipping/label-generation.md) - Label creation, document generation, and customs handling
 - [Carrier Integrations](modules/shipping/carrier-integrations.md) - Complete list of 46 carrier configurations across all regions
 - [Shipment Tracking](modules/shipping/shipment-tracking.md) - Tracking system with 45+ carrier integrations, cron updates, Socket.io real-time notifications, and email alerts
-- [Carrier Integration](modules/shipping/carrier-integration.md) - Carrier adapter pattern and API communication (stub)
+- [Carrier Integration](modules/shipping/carrier-integration.md) - Engineering reference: 3-file pattern per carrier, HTTP retry, error code dicts, OAuth patterns, recent activity, checklist for adding a carrier
 - [Batch Processing](modules/shipping/batch-processing.md) - Bulk label generation and queue management (stub)
 
 ### Automation

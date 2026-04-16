@@ -1,5 +1,14 @@
 # StorePep KB Activity Log
 
+## [2026-04-16 14:30] ingest | Carrier Integration — engineer's reference
+- Updated: `wiki/modules/shipping/carrier-integration.md` (stub → complete, status flipped from needs-update → complete)
+- Updated: `wiki/modules/shipping/carrier-system-overview.md` (added link in Dependencies)
+- Updated: `wiki/modules/shipping/carrier-configuration.md` (added link in Related Pages)
+- Updated: `wiki/modules/shipping/label-generation.md` (added link in Related Pages)
+- Updated: `wiki/index.md` (replaced stub description with full one-line summary)
+- Git reference: current
+- Summary: Filled in the carrier-integration.md stub with an engineer-focused reference: three-file pattern per carrier (ShipmentHelper / RequestBuilder / Helper), dispatch checklist, HTTP retry pattern (FedEx httpClientFactory, not yet shared), four auth patterns, carrier-specific errorCodes dictionaries cross-referenced with the 49 centralised storepepErrorEvents, dual API migrations (FedEx C2/C39, UPS C3/C38, USPS variants), aggregator trade-offs (EasyPost, Eshipz), credential encryption notes, recent integration activity (Delhivery Proxy C54, FedEx REST negotiated rates, Australia Post OAuth + chunked manifest, PostNord country of origin, EasyPost sanitization), engineering checklist for adding a new carrier, and tech debt. Content complements but does not duplicate carrier-system-overview / carrier-configuration / label-generation — each claim is unique or explicitly delegated.
+
 ## [2026-04-16 10:00] ingest | Slack Source Type + Royal Mail Integration Constraints
 - Created: `raw/slack/2026-04-15-royal-mail-easypost-integration.md` (raw Slack conversation)
 - Created: `wiki/product/decisions/2026-04-15-royal-mail-integration-constraints.md` (decision record)
