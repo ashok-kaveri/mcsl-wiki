@@ -1,19 +1,47 @@
 ---
 name: roadmap
-description: Regenerate or validate the April 2026 product roadmap from wiki summaries and backlog. Use when the user says roadmap, regenerate roadmap, update roadmap, or validate roadmap.
-argument-hint: [regenerate|validate]
+description: Regenerate, validate, or refresh per-card data in the April 2026 product roadmap from wiki summaries and backlog. Use when the user says roadmap, regenerate roadmap, update roadmap, validate roadmap, or refresh roadmap cards.
+argument-hint: [regenerate|validate|refresh-cards]
 allowed-tools: Bash, Write, Read, Edit, Glob, Grep, Agent
 ---
 
 # Roadmap Generator
 
-Regenerate or validate `wiki/product/roadmap-april-2026.html` from the wiki summaries and backlog.
+Regenerate, validate, or refresh per-card data in `wiki/product/roadmap-april-2026.html` from the wiki summaries and backlog.
 
 **Argument**: `$ARGUMENTS`
 - `regenerate` — rebuild ZEN_FEATURES, THEMES, and KPIs from summaries (default)
 - `validate` — check JS syntax only, report errors
+- `refresh-cards` — refresh `title` + `desc` on existing ZEN_FEATURES entries. Preserves structure: no entry added, removed, or reordered. No planning fields (lane/pain/effort/customers/start/end/theme/children) touched. SP_FEATURES / L3_ITEMS / THEMES / KPIs / RELEASES untouched.
 
 **Critical rule**: Read from `wiki/zendesk/summaries/*.md` and `wiki/product/backlog.md`. NEVER read from `raw/zendesk/*.json`.
+
+---
+
+## Mode: `refresh-cards`
+
+Lightweight refresh that enforces **Hard invariant #2** — the set of `ZEN_FEATURES` entries is frozen. New ZIs do NOT enter the roadmap via this command; only existing entries' display fields are refreshed.
+
+**Contract**:
+- Parse `ZEN_FEATURES` block from `wiki/product/roadmap-april-2026.html` (typically bracketed by `const ZEN_FEATURES = {` and a trailing `};` a few dozen lines later).
+- For each entry `zf<N>` extract its `children[0].t` (the ZI-NNN).
+- For each ZI, look up the latest state in `wiki/zendesk/2026-04-16.md` Issue Index:
+  - **ZI present as active (no `Duplicate Of`)** → read current `title` and `area` → update fields `title` and `desc` in the JS object. `desc` format stays `'#<ticket> — <area>'`.
+  - **ZI is a `Duplicate Of` another** → leave entry byte-identical. The preserved old ZI data is still canonical.
+  - **ZI not in current index** → leave entry byte-identical; emit a `// stale: ZI-XXX not in 2026-04-16 index` comment line above the entry.
+- Write back the block. VERIFY with `diff` that ONLY the ZEN_FEATURES block's lines changed (nothing in SP_FEATURES, L3_ITEMS, THEMES, KPIs, RELEASES, or the HTML shell).
+
+**Refused operations** (the command refuses to execute any of these, even if requested):
+- Add a new `zf<N+1>` entry (would break Hard invariant #2).
+- Delete an existing `zf<N>` entry.
+- Reorder entries.
+- Modify `id`, `lane`, `tags`, `pain`, `effort`, `customers`, `start`, `end`, `theme`, or `children`.
+- Touch `SP_FEATURES`, `L3_ITEMS`, `THEMES`, `KPIs`, `RELEASES`, `ALL_FEATURES`, or any HTML/CSS/JS outside the ZEN_FEATURES assignment.
+
+**Verification after running** (do NOT skip):
+1. `grep -c "^  zf" roadmap-april-2026.html` — count before and after must match (expected: 105).
+2. `git diff roadmap-april-2026.html | grep '^[-+]' | grep -v '^---\|^+++' | head -20` — every changed line must be inside the ZEN_FEATURES block.
+3. `grep -oE "ZI-1[0-3][0-9]" roadmap-april-2026.html | sort -u` — must return EMPTY (no ZI-106..ZI-139 entered the roadmap).
 
 ---
 

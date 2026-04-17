@@ -160,7 +160,30 @@ last_updated: <today>
 
 ## Step 4: Build daily index
 
-Extract all open issues from `wiki/zendesk/summaries/*.md` and write `wiki/zendesk/YYYY-MM-DD.md`:
+Extract all open issues from `wiki/zendesk/summaries/*.md` and write `wiki/zendesk/YYYY-MM-DD.md`.
+
+**Hard invariants**:
+1. **Same ticket numbers stay open across rebuilds.** Every ZI-NNN that appeared in the prior index MUST appear in the new index, even if the current summary no longer has a matching issue (carry-forward with prior data).
+2. **Duplicates get new ZIs with `Duplicate Of` back-links.** When a ticket's re-summarized open issue doesn't exactly match a prior ZI's title but clearly refers to the same work (same ticket, token overlap), assign a new ZI and set `Duplicate Of: <old-ZI>`. The old ZI still appears as a standalone row.
+
+**ID assignment pipeline** (in order):
+
+1. **Exact match** — normalize `(ticket_id, title)`; if the pair exists in prior index, preserve the old ZI. No duplicate marker.
+2. **First-pass fuzzy match** — same ticket, first-5-tokens prefix overlap OR token subset. Emit a new ZI with `duplicate_of: <prior-ZI>`.
+3. **Fresh assignment** — no prior match. Assign `ZI-<next-int>` starting from `max(prior-ZIs) + 1`. No duplicate marker.
+4. **Second-pass cross-reference** — for each prior ZI not yet matched, if any NEW ZI on the SAME ticket (without a duplicate_of) has Jaccard token-overlap ≥ 0.15 or ≥ 2 shared content-words with the prior title, re-link that new ZI as `duplicate_of: <prior-ZI>`.
+5. **Carry-forward** — any prior ZI still unreferenced is added to the new index as a standalone row with its prior title and area.
+
+**Area inheritance** (fix for old-format summaries lacking `Area: <tag>` metadata):
+
+1. Parse `Area: <tag>` from the issue body. If present and in `VALID_AREA_TAGS`, use it.
+2. Otherwise, look up the same `(ticket, normalized-title)` in the prior index; if that row has a non-`other` area, inherit it.
+3. Otherwise, scan prior index for any row on the same ticket with token-prefix overlap; inherit its area if non-`other`.
+4. Fall back to `other`.
+
+**Trello API pagination gotcha** (if future label-writing work is added here): `/boards/{id}/labels` defaults to 50. Always pass `limit=1000`. `/boards/{id}/cards` has no effective cap by default, so DO NOT pass `limit` (it would accidentally cap).
+
+### Index file format
 
 ```markdown
 ---
@@ -176,10 +199,18 @@ git_reference: <HEAD>
 
 **Tickets processed**: N
 **Tickets with open issues**: N
-**Total open issues**: N
+**Total issues (active + duplicates)**: N
+**Active issues (non-duplicate)**: N
+**Marked as duplicate of previous**: N
+**Preserved from prior index (exact match)**: N
+**Preserved from prior index (carried forward, no current match)**: N
+**New IDs assigned (fresh)**: N (starting from ZI-NNN)
+**Areas inherited from prior index**: N
+
+> **Schema**: Issue Index has 6 columns including `Duplicate Of`. New issues whose ticket + title fuzzy-match an older ZI get a new ID but point back to the older one. Old ZIs are preserved regardless.
 
 ## Summary by Product
-| Product | Tickets | Open Issues |
+| Product | Tickets | Active Issues |
 |---|---|---|
 
 ## Summary by Feature Area
@@ -187,15 +218,18 @@ git_reference: <HEAD>
 |---|---|---|
 
 ## Issue Index
-| ID | Issue | Ticket | Product | Area |
-|---|---|---|---|---|
-| ZI-001 | ... | [#NNNNNN](summaries/NNNNNN.md) | shopify | ... |
+| ID | Issue | Ticket | Product | Area | Duplicate Of |
+|---|---|---|---|---|---|
+| ZI-001 | ... | [#NNNNNN](summaries/NNNNNN.md) | shopify | ... | — |
+| ZI-119 | ... | [#NNNNNN](summaries/NNNNNN.md) | shopify | ... | [ZI-102](#zi-102) |
 
 ## Issues by Feature Area
-### <area> (N issues)
+### <area> (N active issues)
 | ID | Issue | Ticket | Product |
 |---|---|---|---|
 ```
+
+The `Issues by Feature Area` section should EXCLUDE duplicates (active issues only); `Issue Index` is the full list including duplicates. Duplicates are omitted from `Summary by Product` / `Summary by Feature Area` counts so those remain true active-issue counts.
 
 ## Step 5: Report
 

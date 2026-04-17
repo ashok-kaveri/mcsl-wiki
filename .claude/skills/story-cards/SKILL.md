@@ -352,13 +352,21 @@ Each scenario must have:
 ## Execution
 
 ### Single card (`ZI-NNN`)
-1. Look up ZI-NNN in daily index → get ticket ID, title, area
+1. Look up ZI-NNN in daily index → get ticket ID, title, area, `Duplicate Of` (if any)
 2. Read `wiki/zendesk/summaries/<ticketId>.md` — full summary (strip YAML frontmatter)
 3. Read raw JSON for `created_at` timestamp (check both `raw/zendesk/shopify/` and `raw/zendesk/other_platforms/`)
 4. Compute SLA target and status
 5. Write the user story, acceptance criteria, and GWT scenarios following the writing rules
 6. Write story card to `wiki/product/stories/ZI-NNN.md`
-7. Push to Trello (unless `--no-trello`):
+7. **Idempotency guard — enforces "old StoryLab cards are immutable"**:
+   - If the ZI has `Duplicate Of: ZI-XXX` in the daily index → **skip the Trello push entirely.** The old card tracks the same work. Write a minimal markdown that cross-links to `wiki/product/stories/ZI-XXX.md` in its frontmatter (`duplicate_of: ZI-XXX`) and exit this step. Report `skipped_trello: duplicate_of=ZI-XXX`.
+   - Else, fetch all StoryLab cards once with pagination-safe call: `GET /boards/<STORYLAB>/cards?fields=name,desc,idLabels,shortUrl` (no `limit` param — Trello's default returns all). Check if ANY existing card matches THIS ticket by:
+     - Card name contains `[#<ticketId>]`
+     - Card name starts with `ZI-<nnn>` (same ZI)
+     - Card `desc` mentions `ZI-<nnn>`
+   - If ANY match → **skip the Trello push entirely.** NO `POST /cards`, NO `PUT /cards`, NO label additions, NO comment posts, NO desc rewrites. Report `existing_card: <shortUrl>`. The existing card retains 100% of its current state (labels, desc, comments, lane, members). The local markdown file still gets (re)generated — that's safe and expected.
+   - Only if NO match → proceed to step 8 (actual Trello push).
+8. Push to Trello (unless `--no-trello`, and only if step 7 did not skip):
    - Determine lane from pain/area mapping
    - Card name format: `ZI-NNN — <title> [#<ticketId>]` — ticket number in brackets for searchability
    - Assign ALL applicable labels (comma-separated `idLabels`):
@@ -371,7 +379,8 @@ Each scenario must have:
    - `POST /cards` with full markdown as `desc`
    - `pos`: `"top"` for SLA breached cards, `"bottom"` otherwise
    - Record Trello shortUrl in the markdown file's Cross-Links
-8. **Correlate with ph-WIP board** (see ph-WIP Correlation section below):
+9. **Correlate with ph-WIP board** (see ph-WIP Correlation section below):
+   - Only runs for newly-created cards (step 8 executed).
    - Search ph-WIP for the ticket number in card name, desc, attachments, comments
    - If found: add dev status label + append ph-WIP Card section to card desc
 
