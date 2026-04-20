@@ -402,12 +402,13 @@ Each scenario must have:
    - **This is a hard stop. Do not skip.**
 8. **Idempotency guard — enforces "old StoryLab cards are immutable"**:
    - If the ZI has `Duplicate Of: ZI-XXX` in the daily index → **skip the Trello push entirely.** The old card tracks the same work. Write a minimal markdown that cross-links to `wiki/product/stories/ZI-XXX.md` in its frontmatter (`duplicate_of: ZI-XXX`) and exit this step. Report `skipped_trello: duplicate_of=ZI-XXX`.
-   - Else, fetch all StoryLab cards once with pagination-safe call: `GET /boards/<STORYLAB>/cards?fields=name,desc,idLabels,shortUrl` (no `limit` param — Trello's default returns all). Check if ANY existing card matches THIS ticket by:
+   - Else, **fetch the board fresh right now** (do NOT reuse a cached snapshot from earlier in the same run): `GET /boards/<STORYLAB>/cards?fields=name,desc,idLabels,shortUrl` (no `limit` param). Check if ANY existing card matches THIS ZI by:
      - Card name contains `[#<ticketId>]`
-     - Card name starts with `ZI-<nnn>` (same ZI)
+     - Card name starts with `ZI-<nnn>` (same ZI number)
      - Card `desc` mentions `ZI-<nnn>`
-   - If ANY match → **skip the Trello push entirely.** NO `POST /cards`, NO `PUT /cards`, NO label additions, NO comment posts, NO desc rewrites. Report `existing_card: <shortUrl>`. The existing card retains 100% of its current state (labels, desc, comments, lane, members). The local markdown file still gets (re)generated — that's safe and expected.
+   - If ANY match → **skip the Trello push entirely.** NO `POST /cards`, NO `PUT /cards`, NO label additions, NO comment posts, NO desc rewrites. Report `existing_card: <shortUrl>`. The existing card retains 100% of its current state. The local markdown file still gets (re)generated — that's safe and expected.
    - Only if NO match → proceed to step 8 (actual Trello push).
+   - **CRITICAL: This fetch must happen immediately before each POST — never cache it across cards. This is the only guard against duplicates.**
 8. Push to Trello (unless `--no-trello`, and only if step 7 did not skip):
    - Determine lane from pain/area mapping
    - Card name format: `ZI-NNN — <title> [#<ticketId>]` — ticket number in brackets for searchability
@@ -454,8 +455,8 @@ Each scenario must have:
 1. Parse all ZI issues from daily index
 2. Filter issues matching the release window's lane + pain criteria
 3. Sort by priority: SLA breached first, then pain desc, then ticket age
-4. Process each issue: read summary, compute SLA, write story + push to Trello
-5. For large batches (20+ cards): spawn agents in groups of ~10, but **if agents fail on permissions, write cards yourself in the main thread**
+4. Process each issue sequentially in the main thread: read summary, compute SLA, write story + push to Trello
+5. **NEVER spawn parallel agents for Trello pushes** — parallel agents cause duplicate cards because each agent fetches a stale board snapshot before the other's card lands. Always process cards one at a time.
 6. After all cards written: verify count, report per-lane stats
 
 ### Full batch (`all`)
