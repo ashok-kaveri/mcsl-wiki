@@ -207,8 +207,8 @@ Build set of all `shortUrl` values found in `desc` fields.
 If source card's `shortUrl` is in the existing set → **skip**.
 
 #### 6.2 Resolve labels
-- Skip dev label IDs
-- For each remaining label: look up `SL: <original name>` in ph-WIP labels
+- Skip dev label IDs (`DEV_LABEL_IDS` set) — do NOT skip the release tag label (e.g. MCSL 378); it must be mapped too
+- For each remaining label (including the release tag label): look up `SL: <original name>` in ph-WIP labels
 - If missing: `POST /boards/63e1e0414b6026c45be1087c/labels` with `name=SL: <name>`, `color=<color>`
 - Add to lookup map for reuse
 
