@@ -1,7 +1,7 @@
 ---
 name: sl-iteration
 description: Copy release-tagged cards from StoryLab to ph-WIP as iteration backlog, run AI code analysis on ph-WIP cards, and run the release closure workflow (sync / snapshot / ship) for a release tag. Use when the user wants to plan an iteration, move story cards to ph-WIP, analyze cards, sync Zendesk deltas to a release, snapshot a release's Trello state into the wiki, ship/close a release, or says "sl-iteration".
-argument-hint: <release-tag> | analyze <tag> <ZI-NNN|next|all|@name> | reassess <ZI-NNN> | sync <tag> [board] | snapshot <tag> [board] | ship <tag> [board] [--force]
+argument-hint: <release-tag> | analyze <tag> <ZI-NNN|next|all|@name> | reassess <ZI-NNN> | sync <tag> [board] [lane] [--no-sync] | snapshot <tag> [board] [lane] [--no-sync] | ship <tag> [board] [lane] [--no-sync] [--force]
 allowed-tools: Bash, Read, Write, Edit, Glob, Grep, Agent, WebFetch, TodoWrite, AskUserQuestion
 disable-model-invocation: false
 ---
@@ -20,9 +20,9 @@ Three modes:
 - `analyze <release-tag> all` — Mode 2 analyze all unanalyzed cards in the named ph-WIP lane
 - `analyze <release-tag> @<name>` — Mode 2 analyze only cards assigned to a member (matches by username or full name)
 - `reassess <ZI-NNN>` — Mode 2 re-run analysis (ph-WIP lane auto-detected)
-- `sync <release-tag> [board]` — Mode 3a: diff Zendesk JSONs vs the release's last `git_reference`, regen summaries, post compact delta comments on tagged StoryLab cards
-- `snapshot <release-tag> [board]` — Mode 3b: idempotent rewrite of `wiki/product/releases/<TAG-slug>.md` from current StoryLab + ph-WIP state
-- `ship <release-tag> [board] [--force]` — Mode 3c: freeze the release in wiki (status=shipped, backlog + log updates); no Trello writes
+- `sync <release-tag> [board] [lane]` — Mode 3a: diff Zendesk JSONs vs the release's last `git_reference`, regen summaries, post compact delta comments on tagged StoryLab cards (optionally filtered to a specific lane)
+- `snapshot <release-tag> [board] [lane]` — Mode 3b: idempotent rewrite of `wiki/product/releases/<TAG-slug>.md` from current StoryLab + ph-WIP state (optionally filtered to a specific lane)
+- `ship <release-tag> [board] [lane] [--force]` — Mode 3c: freeze the release in wiki (status=shipped, backlog + log updates); no Trello writes (optionally filtered to a specific lane)
 
 **Lane resolution (Mode 2 only)**: The `<release-tag>` in analyze commands identifies the ph-WIP lane `SL <release-tag>: Iteration backlog`. If the lane doesn't exist, list all `SL *` lanes and ask user to pick.
 
@@ -34,8 +34,11 @@ Three modes:
 - `/sl-iteration analyze MCSL 377 @ajeesh` — Mode 2 analyze cards assigned to Ajeesh
 - `/sl-iteration analyze MCSL 377 ZI-035` — Mode 2 analyze ZI-035
 - `/sl-iteration snapshot MCSL 377` — Mode 3b first-time snapshot (creates release.md baseline)
+- `/sl-iteration snapshot MCSL 377 63e1e0414b6026c45be1087c SL MCSL 377: Iteration backlog` — Mode 3b snapshot from ph-WIP board, filtered to specific lane
+- `/sl-iteration snapshot MCSL 377 --no-sync` — Mode 3b snapshot, skip submodule updates
 - `/sl-iteration sync MCSL 377` — Mode 3a delta sync (snapshot must have run first)
 - `/sl-iteration ship MCSL 377 --force` — Mode 3c ship even with non-terminal cards
+- `/sl-iteration ship MCSL 377 --no-sync --force` — Mode 3c ship with multiple flags
 
 ## Dispatch
 
@@ -54,20 +57,97 @@ For Mode 3 commands: everything after the subcommand, minus any trailing `--forc
 
 ---
 
+## Argument Parsing (Mode 1 and Mode 3)
+
+### Mode 1 (Copy)
+
+All tokens in `$ARGUMENTS` are treated as the tag name (may be multi-word). Mode 1 has no board parameter - always uses `DEFAULT_STORYLAB_BOARD`.
+
+```python
+tag = ' '.join(sys.argv[1:])  # or $ARGUMENTS
+board_id = DEFAULT_STORYLAB_BOARD
+```
+
+### Mode 3 (sync/snapshot/ship)
+
+Parse `$ARGUMENTS` to extract subcommand, tag, optional board, optional lane, optional --force flag, optional --no-sync flag.
+
+**Parsing algorithm:**
+
+```python
+import re
+
+tokens = $ARGUMENTS.split()
+subcommand = tokens[0]  # "sync" | "snapshot" | "ship"
+remaining = tokens[1:]
+
+# Strip flags from end (order-independent)
+force_flag = False
+no_sync_flag = False
+while remaining and remaining[-1].startswith('--'):
+    if remaining[-1] == '--force':
+        force_flag = True
+        remaining = remaining[:-1]
+    elif remaining[-1] == '--no-sync':
+        no_sync_flag = True
+        remaining = remaining[:-1]
+    else:
+        break
+
+# Find board token position (scan from left to right for first match)
+board_id = None
+board_pos = None
+for i, token in enumerate(remaining):
+    # Match Trello board URL pattern
+    url_match = re.match(r'^https://trello\.com/b/([a-zA-Z0-9]{8,})/?', token)
+    if url_match:
+        board_id = url_match.group(1)
+        board_pos = i
+        break
+    # Match bare shortLink (alphanumeric, ≥8 chars)
+    elif len(token) >= 8 and token.isalnum():
+        board_id = token
+        board_pos = i
+        break
+
+# Split tokens based on board position
+if board_pos is not None:
+    tag = ' '.join(remaining[:board_pos])
+    lane = ' '.join(remaining[board_pos + 1:]) if board_pos + 1 < len(remaining) else None
+else:
+    # No board specified
+    board_id = DEFAULT_STORYLAB_BOARD
+    tag = ' '.join(remaining)
+    lane = None
+```
+
+**Examples:**
+- `/sl-iteration sync MCSL 377` → tag="MCSL 377", board=DEFAULT_STORYLAB_BOARD, lane=None
+- `/sl-iteration snapshot MCSL 377 abc12345` → tag="MCSL 377", board="abc12345", lane=None
+- `/sl-iteration snapshot MCSL 377 abc12345 Dev Done` → tag="MCSL 377", board="abc12345", lane="Dev Done"
+- `/sl-iteration snapshot MCSL 377 63e1e0414b6026c45be1087c SL MCSL 377: Iteration backlog` → tag="MCSL 377", board="63e1e0414b6026c45be1087c", lane="SL MCSL 377: Iteration backlog"
+- `/sl-iteration ship Multi Word Tag xyz12345 My Lane --force` → tag="Multi Word Tag", board="xyz12345", lane="My Lane", force=True
+
+---
+
 ## Pre-flight (MANDATORY — run before ANY operation)
 
 ### 1. Update All Sources
+
+**Skip if `--no-sync` flag is present in arguments.**
 
 ```bash
 cd <wiki-root> && git submodule update --remote raw/storepep-react raw/mcsl-test-automation 2>&1
 ```
 
-This ensures code analysis is based on the latest codebase, not a stale snapshot. **Do not skip this step.** If the submodule update fails, warn the user and ask whether to proceed with stale data.
+This ensures code analysis is based on the latest codebase, not a stale snapshot. If the submodule update fails, warn the user and ask whether to proceed with stale data.
 
 Record the current commit hash after update:
 ```bash
 cd raw/storepep-react && git rev-parse HEAD
 ```
+
+**`--no-sync` flag**: Pass this flag to skip submodule updates. Useful when submodules are already up-to-date or when working offline. Example: `/sl-iteration snapshot MCSL 377 --no-sync`
 
 ### 2. Agent Permissions — Known Limitation
 
@@ -95,10 +175,15 @@ This is sequential but reliable — the main thread has full Bash access.
 
 ## Board IDs
 
-| Board | ID |
-|-------|-----|
-| **StoryLab** (source) | `69dd9134576a26fcb79b670d` |
-| **ph-WIP** (target) | `63e1e0414b6026c45be1087c` |
+```python
+DEFAULT_STORYLAB_BOARD = '69dd9134576a26fcb79b670d'
+PH_WIP_BOARD = '63e1e0414b6026c45be1087c'  # Always hardcoded - this is the target
+```
+
+| Board | ID | Parameterized? |
+|-------|-----|----------------|
+| **StoryLab** (source) | `69dd9134576a26fcb79b670d` (default) | ✅ Yes (Mode 1, Mode 3) |
+| **ph-WIP** (target) | `63e1e0414b6026c45be1087c` | ❌ No (always hardcoded) |
 
 ## Dev Labels to Exclude from Copy (never copy these)
 
@@ -147,13 +232,20 @@ Use `curl` via Bash for POST/PUT/DELETE requests (WebFetch is GET-only).
 
 ## Execution
 
-### Step 1: Find the release tag label on StoryLab
+### Step 1: Parse arguments and find the release tag label
 
-```
-GET /boards/69dd9134576a26fcb79b670d/labels?fields=name,color,id
+**Parse arguments:**
+```python
+tag = ' '.join(sys.argv[1:])  # All tokens = tag name (may be multi-word)
+board_id = DEFAULT_STORYLAB_BOARD  # Mode 1 always uses default board
 ```
 
-Find label matching user's argument (case-insensitive). If not found — show available labels and ask.
+**Resolve label:**
+```
+GET /boards/{board_id}/labels?fields=name,color,id&limit=1000
+```
+
+Find label matching `tag` (case-insensitive). If not found — show available labels and ask.
 
 Record `RELEASE_LABEL_ID`, `RELEASE_LABEL_NAME`, `RELEASE_LABEL_COLOR`.
 
@@ -161,7 +253,7 @@ Record `RELEASE_LABEL_ID`, `RELEASE_LABEL_NAME`, `RELEASE_LABEL_COLOR`.
 
 Fetch lanes (left → right):
 ```
-GET /boards/69dd9134576a26fcb79b670d/lists?fields=name,id
+GET /boards/{board_id}/lists?fields=name,id
 ```
 
 For each lane, fetch cards (top → bottom):
@@ -467,11 +559,12 @@ Release views classify each tagged StoryLab card by the HIGHEST-precedence **lab
 SHIPPED  >  PROD  >  QA_VERIFIED  >  QA Reported  >  Ready for QA  >  Dev Done  >  DEV
 ```
 
-**Coarsening to 4-state legend**:
+**Coarsening to 5-state legend**:
 
 | Legend state | ph-WIP label name(s) |
 |--------------|----------------------|
 | `PROD` | `SHIPPED`, `PROD` (same terminal state) |
+| `BUG REPORTED` | `BUG REPORTED` |
 | `QA READY` | `QA_VERIFIED`, `QA Reported`, `Ready for QA`, `Dev Done` |
 | `DEV` | `DEV` |
 | `Open (not started)` | NO state label on any matching ph-WIP card |
@@ -479,7 +572,7 @@ SHIPPED  >  PROD  >  QA_VERIFIED  >  QA Reported  >  Ready for QA  >  Dev Done  
 
 **Do NOT exclude SL-copy cards** (cards named `From SL: ...` in `SL <tag>: Iteration backlog` lanes). Devs often apply state labels directly to the SL-copy rather than creating separate dev cards. Search ALL ph-WIP matches for state labels.
 
-**Closed** = {PROD, Support Closed}. **Open** = {Open, DEV, QA READY}. Ship refuses non-terminal cards unless `--force`.
+**Closed** = {PROD, Support Closed}. **Open** = {Open, DEV, BUG REPORTED, QA READY}. Ship refuses non-terminal cards unless `--force`.
 
 **Ignored labels** (noise, not part of the release state machine): `READY FOR DEPLOY`, `L3-DEV`, `DEV_ONLY`, `Completed`.
 
@@ -500,19 +593,57 @@ snapshot and ship parse these comments (newest-first, first match wins) and surf
 
 Use these helpers across all three subcommands. All run in the main thread (same permission model as Mode 2 Pre-flight §2).
 
-**Trello API pagination gotcha**: `GET /boards/{id}/labels` defaults to 50 items. ph-WIP currently has 162+ labels; StoryLab has 60+. ALWAYS pass `limit=1000` when fetching labels or you will silently miss state labels like `SHIPPED`, `DEV`, `PROD`. For `/boards/{id}/cards`, DO NOT pass `limit` (its default returns all cards; passing `limit=1000` actively caps it).
+### Pagination Verification (MANDATORY)
+
+**Critical**: Always verify that Trello API responses are complete. Silent truncation is a common source of incorrect release state.
+
+| Endpoint | Default Limit | Correct Usage | Verification |
+|----------|--------------|---------------|--------------|
+| `/boards/{id}/labels` | 50 | `limit=1000` | If `len(result) == 1000`, warn about possible truncation |
+| `/boards/{id}/cards` | Returns all | No `limit` param | No verification needed (returns all by default) |
+| `/boards/{id}/actions` (comments) | 1000 | `limit=1000`, paginate with `before` if needed | **MANDATORY**: If `len(result) == 1000`, paginate until exhausted |
+| `/boards/{id}/lists` | Returns all | No limit needed | No verification needed |
+
+**Comments pagination pattern**:
+```python
+all_comments = []
+before = None
+while True:
+    url = f'/boards/{id}/actions?filter=commentCard&limit=1000&key={KEY}&token={TOKEN}'
+    if before:
+        url += f'&before={before}'
+    batch = json.load(urllib.request.urlopen(url))
+    if not batch:
+        break
+    all_comments.extend(batch)
+    if len(batch) < 1000:
+        break
+    before = batch[-1]['id']
+```
+
+**Labels**: ph-WIP currently has 162+ labels; StoryLab has 60+. ALWAYS pass `limit=1000` when fetching labels or you will silently miss state labels like `SHIPPED`, `DEV`, `PROD`.
 
 ### `resolve_tag_label(storylab_board_id, tag)`
-`GET /boards/{id}/labels?fields=name,color,id`; case-insensitive match on `name`. If missing, list available labels and ask user to pick (same pattern as Mode 1 Step 1).
+`GET /boards/{id}/labels?fields=name,color,id&limit=1000`; case-insensitive match on `name`.
+
+**Multi-tag resolution (MANDATORY)**: ALWAYS search for BOTH label variants:
+1. `{tag}` (e.g., "MCSL 377")
+2. `SL: {tag}` (e.g., "SL: MCSL 377") — **NOTE the space after colon**
+
+Return ALL matching label IDs as a list (can be empty, 1, or 2 IDs). This ensures snapshot captures both:
+- Original tagged cards on StoryLab
+- SL-prefixed copies on ph-WIP (created by Mode 1)
+
+If no matches found for either variant, list available labels and ask user to pick (same pattern as Mode 1 Step 1).
 
 ### `resolve_support_closed_label_ids(storylab_board_id)`
 Look up labels on StoryLab whose name (case-insensitive, trimmed) equals either `Closed by Support` OR `SL: Closed By Support`. Return the **set** of matching label IDs (can be empty, one, or more than one — both names might exist, and each could have multiple color-variants). A card is "Support Closed" if ANY of its label IDs is in this set. **Do NOT auto-create** — user controls board structure. If the set is empty, warn once and treat all cards as not-Support-Closed.
 
 ### `resolve_ph_wip_state_labels(ph_wip_board_id)`
-Fetch all ph-WIP labels with `limit=1000` (the default limit is 50 — missing this causes silent truncation). Build a map of `{state_name: set(label_ids)}` for each of the 7 state-label names: `SHIPPED`, `PROD`, `QA_VERIFIED`, `QA Reported`, `Ready for QA`, `Dev Done`, `DEV`. ph-WIP has multiple labels with the same name (different colors) — treat them as equivalent.
+Fetch all ph-WIP labels with `limit=1000` (the default limit is 50 — missing this causes silent truncation). Build a map of `{state_name: set(label_ids)}` for each of the 8 state-label names: `SHIPPED`, `PROD`, `BUG REPORTED`, `QA_VERIFIED`, `QA Reported`, `Ready for QA`, `Dev Done`, `DEV`. ph-WIP has multiple labels with the same name (different colors) — treat them as equivalent.
 
-### `fetch_tagged_storylab_cards(tag_label_id)`
-Single bulk `GET /boards/<STORYLAB>/cards?attachments=true&fields=name,desc,idList,idLabels,shortUrl`. Filter in-memory where `idLabels` contains `tag_label_id`.
+### `fetch_tagged_storylab_cards(board_id, tag_label_ids, lane_name=None)`
+Single bulk `GET /boards/{board_id}/cards?attachments=true&fields=name,desc,idList,idLabels,shortUrl`. Filter in-memory where `idLabels` contains ANY of the `tag_label_ids` (can be a list or single ID). If `lane_name` is specified, additionally filter by lane: fetch all lists, find the list whose name matches `lane_name` (case-sensitive exact match), and keep only cards where `idList` matches that list ID.
 
 ### `fetch_ph_wip_snapshot()`
 2 calls:
@@ -522,7 +653,7 @@ Single bulk `GET /boards/<STORYLAB>/cards?attachments=true&fields=name,desc,idLi
 Build `{ph_wip_cardId: lane_name}` map. Cache for the run.
 
 ### `fetch_all_card_comments(board_id)`
-Single `GET /boards/{id}/actions?filter=commentCard&limit=1000`. Index by cardId. Used for: (a) StoryLab card close-reason parsing; (b) ph-WIP card correlation fallback when name/desc/attachments miss.
+Fetch ALL comments with pagination: `GET /boards/{id}/actions?filter=commentCard&limit=1000`. **MANDATORY**: If result count == 1000, paginate with `before` parameter until exhausted (see Pagination Verification above). Index by cardId. Used for: (a) StoryLab card close-reason parsing; (b) ph-WIP card correlation fallback when name/desc/attachments miss.
 
 ### `match_storylab_card_to_ph_wip(storylab_card, ph_wip_cards, ph_wip_comments_by_card)`
 Adapt the ph-WIP Correlation pattern from **story-cards SKILL.md:400-414**. Primary signal: Zendesk ticket ID in card names. Story-cards uses naming convention `ZI-NNN — <title> [#<ticketId>]` on StoryLab; ph-WIP cards also carry the ticket ID in name/desc/attachments.
@@ -539,7 +670,7 @@ Return a list of matching ph-WIP cards (can be 0, 1, or >1). Store the first mat
 Do NOT use ph-WIP lane names to classify state. State comes from ph-WIP **labels** (see `best_ph_wip_state_label`). Lane names are only rendered in release.md as reference context (not authoritative). The story-cards Dev Status Classification table (lines 417-425 of story-cards SKILL.md) is used by Mode 2 analyze for a different purpose (writing StoryLab dev-status labels for planning views) and should not be applied in Mode 3.
 
 ### `best_ph_wip_state_label(ph_matches, state_label_ids, sl_lane_id)`
-Walks the 7 state-label names in precedence order (`SHIPPED`, `PROD`, `QA_VERIFIED`, `QA Reported`, `Ready for QA`, `Dev Done`, `DEV`). Scans only the **current release's SL-copy cards** (those in `sl_lane_id`) first; falls back to all `ph_matches` only if no state label is found there. Returns `(label_name, chosen_card)` or `(None, None)` if no state label is present on any match.
+Walks the 8 state-label names in precedence order (`SHIPPED`, `PROD`, `BUG REPORTED`, `QA_VERIFIED`, `QA Reported`, `Ready for QA`, `Dev Done`, `DEV`). Scans only the **current release's SL-copy cards** (those in `sl_lane_id`) first; falls back to all `ph_matches` only if no state label is found there. Returns `(label_name, chosen_card)` or `(None, None)` if no state label is present on any match.
 
 **Why lane-preference matters**: multiple ZI issues from different releases can reference the same Zendesk ticket ID. Without scoping to the current release's lane first, a `Dev Done` label on an MCSL 377 card bleeds into an MCSL 378 card that shares the same ticket, producing false QA READY classifications.
 
@@ -551,6 +682,7 @@ Decision order:
 2. If `ph_wip_label_name_or_none is None` → return `Open (not started)`.
 3. Map the ph-WIP label name:
    - `SHIPPED` or `PROD` → `PROD`
+   - `BUG REPORTED` → `BUG REPORTED`
    - `QA_VERIFIED`, `QA Reported`, `Ready for QA`, or `Dev Done` → `QA READY`
    - `DEV` → `DEV`
 
@@ -575,9 +707,9 @@ Fallback: if `git cat-file -e <prior_ref>` fails (ref no longer in history, e.g.
 
 ---
 
-## Mode 3a: `/sl-iteration sync <tag> [board]`
+## Mode 3a: `/sl-iteration sync <tag> [board] [lane]`
 
-**Purpose**: pull Zendesk deltas since the release's last sync point; regen summaries; post compact delta comments on tagged StoryLab cards.
+**Purpose**: pull Zendesk deltas since the release's last sync point; regen summaries; post compact delta comments on tagged cards. Optionally filter to cards in a specific lane on the source board.
 
 ### Flow
 
@@ -588,6 +720,41 @@ Fallback: if `git cat-file -e <prior_ref>` fails (ref no longer in history, e.g.
   ```
   Never create it from sync; snapshot owns creation.
 
+**Step 1.5 — Parse arguments:**
+
+```python
+# Parse: sync <tag> [board] [lane]
+# Use same algorithm as general Mode 3 parsing
+import re
+
+tokens = $ARGUMENTS.split()
+subcommand = tokens[0]  # "sync"
+remaining = tokens[1:]
+
+# Find board token position
+board_id = None
+board_pos = None
+for i, token in enumerate(remaining):
+    url_match = re.match(r'^https://trello\.com/b/([a-zA-Z0-9]{8,})/?', token)
+    if url_match:
+        board_id = url_match.group(1)
+        board_pos = i
+        break
+    elif len(token) >= 8 and token.isalnum():
+        board_id = token
+        board_pos = i
+        break
+
+# Split tokens based on board position
+if board_pos is not None:
+    tag = ' '.join(remaining[:board_pos])
+    lane = ' '.join(remaining[board_pos + 1:]) if board_pos + 1 < len(remaining) else None
+else:
+    board_id = DEFAULT_STORYLAB_BOARD
+    tag = ' '.join(remaining)
+    lane = None
+```
+
 **Step 2 — Read anchor**: Parse release.md frontmatter.
 - `PRIOR_REF = frontmatter['git_reference']`
 - `IS_SHIPPED = (frontmatter['status'] == 'shipped')`
@@ -597,7 +764,7 @@ Fallback: if `git cat-file -e <prior_ref>` fails (ref no longer in history, e.g.
 - If empty AND `PRIOR_REF == CURRENT_REF`: report `0 tickets changed since <ref>`. Still bump `last_synced` on release.md. Exit with no Trello writes.
 - If `PRIOR_REF` not in git history: fallback to `HEAD~1..HEAD` (handled by helper); warn the user.
 
-**Step 4 — Fetch tagged cards**: `resolve_tag_label`, `fetch_tagged_storylab_cards(tag_label_id)`. Only cards with `<tag>` label will get delta comments.
+**Step 4 — Fetch tagged cards**: `resolve_tag_label(board_id, tag)` → `tag_label_id`; then `fetch_tagged_storylab_cards(board_id, tag_label_id, lane)`. Only cards with `<tag>` label (and in specified lane, if any) will get delta comments.
 
 **Step 5 — Process each delta ticket**: For each JSON path from the diff, parse the ticket ID from the filename.
 - Inline-regenerate `wiki/zendesk/summaries/<ticket>.md` using the **zendesk-summarize Step 3 logic ported to python** (reading JSON once, comments in reverse, extracting Open / Resolved Issues per the template). Preserve product detection from directory path (`raw/zendesk/shopify/` → shopify; `raw/zendesk/other_platforms/` → derive from tags).
@@ -650,9 +817,9 @@ Throttle 100ms between posts. 429 → exponential backoff 1s/2s/4s then fail wit
 
 ---
 
-## Mode 3b: `/sl-iteration snapshot <tag> [board]`
+## Mode 3b: `/sl-iteration snapshot <tag> [board] [lane]`
 
-**Purpose**: idempotent rewrite of `wiki/product/releases/<TAG-slug>.md` from current StoryLab + ph-WIP live state.
+**Purpose**: idempotent rewrite of `wiki/product/releases/<TAG-slug>.md` from current StoryLab + ph-WIP live state. Optionally filter to cards in a specific lane on the source board.
 
 ### Flow
 
@@ -660,13 +827,49 @@ Throttle 100ms between posts. 429 → exponential backoff 1s/2s/4s then fail wit
 - If NO: this is the first snapshot. Mark `is_first_snapshot = true`. The new frontmatter will set `git_reference = HEAD` (establishes sync baseline).
 - If YES: read existing frontmatter. Preserve `git_reference` (snapshot NEVER bumps it — sync owns it), preserve `status` and `shipped_at` if `status == "shipped"`.
 
+**Step 1.5 — Parse arguments:**
+
+```python
+# Parse: snapshot <tag> [board] [lane]
+# Use same algorithm as general Mode 3 parsing (see Argument Parsing section)
+import re
+
+tokens = $ARGUMENTS.split()
+subcommand = tokens[0]  # "snapshot"
+remaining = tokens[1:]
+
+# Find board token position (scan from left to right for first match)
+board_id = None
+board_pos = None
+for i, token in enumerate(remaining):
+    url_match = re.match(r'^https://trello\.com/b/([a-zA-Z0-9]{8,})/?', token)
+    if url_match:
+        board_id = url_match.group(1)
+        board_pos = i
+        break
+    elif len(token) >= 8 and token.isalnum():
+        board_id = token
+        board_pos = i
+        break
+
+# Split tokens based on board position
+if board_pos is not None:
+    tag = ' '.join(remaining[:board_pos])
+    lane = ' '.join(remaining[board_pos + 1:]) if board_pos + 1 < len(remaining) else None
+else:
+    # No board specified
+    board_id = DEFAULT_STORYLAB_BOARD
+    tag = ' '.join(remaining)
+    lane = None
+```
+
 **Step 2 — Fetch Trello state**:
-- `resolve_tag_label` → `tag_label_id`
-- `resolve_support_closed_label_id` → `support_closed_label_id` (or None, with warning)
-- `fetch_tagged_storylab_cards(tag_label_id)` → tagged StoryLab cards
-- `fetch_all_card_comments(<STORYLAB>)` → StoryLab comments by cardId (for close-reason parsing)
-- `fetch_ph_wip_snapshot()` → ph-WIP cards + lane map
-- `fetch_all_card_comments(<PH_WIP>)` → ph-WIP comments (only used by correlation fallback)
+- `resolve_tag_label(board_id, tag)` → `tag_label_id`
+- `resolve_support_closed_label_ids(board_id)` → `support_closed_label_ids` (set, or empty with warning)
+- `fetch_tagged_storylab_cards(board_id, tag_label_id, lane)` → tagged cards (filtered by lane if specified)
+- `fetch_all_card_comments(board_id)` → source board comments by cardId (for close-reason parsing)
+- `fetch_ph_wip_snapshot()` → ph-WIP cards + lane map (only if board != PH_WIP_BOARD; else skip for efficiency)
+- `fetch_all_card_comments(PH_WIP_BOARD)` → ph-WIP comments (only if board != PH_WIP_BOARD; else reuse source board comments)
 
 **Step 3 — Correlate & coarsen**: For each tagged StoryLab card:
 - `ph_wip_matches = match_storylab_card_to_ph_wip(storylab_card, ph_wip_cards, ph_wip_comments_by_card)`
@@ -679,9 +882,11 @@ Throttle 100ms between posts. 429 → exponential backoff 1s/2s/4s then fail wit
 - If `None`: flag the card in "cards missing close-reason" count
 
 **Step 5 — Sort & group**:
-Sort buckets: PROD → Support Closed → QA READY → DEV → Open (not started).
+Sort buckets: PROD → Support Closed → BUG REPORTED → QA READY → DEV → Open (not started).
 
 **Step 6 — Rewrite release.md body** (preserving protected frontmatter fields from Step 1):
+
+**YAML quoting**: Always quote string values that contain colons, spaces, or special characters (like `lane_filter: "SL MCSL 377: Iteration backlog"`).
 
 ```markdown
 ---
@@ -689,7 +894,8 @@ title: "Release <TAG>"
 category: product-release
 tag: "<TAG>"
 tag_slug: <TAG-slug>
-board_id: 69dd9134576a26fcb79b670d
+board_id: <board_id>
+lane_filter: "<lane_name if specified, else null>"
 status: <preserved, or "draft" if first snapshot>
 last_synced: <now>
 shipped_at: <preserved, or null>
@@ -698,6 +904,7 @@ tickets_delta_on_last_sync: <preserved, or 0 on first snapshot>
 cards_total: <N>
 cards_shipped: <N>
 cards_support_closed: <N>
+cards_bug_reported: <N>
 cards_open: <N>
 ---
 
@@ -711,6 +918,7 @@ cards_open: <N>
 |-------|-------|
 | PROD (shipped) | <N> |
 | Support Closed | <N> |
+| BUG REPORTED | <N> |
 | QA READY | <N> |
 | DEV | <N> |
 | Open (not started) | <N> |
@@ -720,6 +928,7 @@ cards_open: <N>
 
 - **PROD** — shipped to production (ph-WIP PROD-class lane)
 - **Support Closed** — StoryLab card has `Closed by Support` (or `SL: Closed By Support` — both names map to the same state, case-insensitive) label; closed without code via support action
+- **BUG REPORTED** — code is in QA, bug has been reported (ph-WIP BUG REPORTED label)
 - **QA READY** — code complete, in QA (ph-WIP Dev Done + QA-class lanes — NOT yet shipped)
 - **DEV** — active development (ph-WIP DEV-class lanes)
 - **Open (not started)** — in product backlog but dev hasn't started (ph-WIP BACKLOG-class lane, or no ph-WIP card found)
@@ -735,6 +944,12 @@ cards_open: <N>
 | ZI | Ticket | Reason | Detail | Card |
 |----|--------|--------|--------|------|
 | ZI-NNN | [#NNNNNN](../../zendesk/summaries/NNNNNN.md) | <kind> | <detail or ZI-ref> | [SL](shortUrl) |
+
+## BUG REPORTED (<N>)
+
+| ZI | Ticket | Theme | Card |
+|----|--------|-------|------|
+| ZI-NNN | [#NNNNNN](../../zendesk/summaries/NNNNNN.md) | ... | [SL](shortUrl) |
 
 ## Still Open (<N>)
 
@@ -770,7 +985,8 @@ cards_open: <N>
 ```
 ## Snapshot <TAG>
 - File: wiki/product/releases/<TAG-slug>.md (created | refreshed)
-- Cards total: N  (Shipped: N, Support Closed: N, QA READY: N, DEV: N, Open: N)
+- Board: <board_id>
+- Cards total: N  (Shipped: N, Support Closed: N, BUG REPORTED: N, QA READY: N, DEV: N, Open: N)
 - git_reference: <unchanged | set to HEAD on first snapshot>
 - Cards missing close-reason: N
 - Cards without ph-WIP match: N
@@ -784,18 +1000,60 @@ Running snapshot twice in sequence produces byte-identical body except for `last
 
 ---
 
-## Mode 3c: `/sl-iteration ship <tag> [board] [--force]`
+## Mode 3c: `/sl-iteration ship <tag> [board] [lane] [--force]`
 
-**Purpose**: freeze the release in wiki state. Propagate shipped work to `wiki/product/backlog.md` and append an entry to `wiki/log.md`. **No Trello writes** at all (no comments, no label changes, no moves, no new lanes).
+**Purpose**: freeze the release in wiki state. Propagate shipped work to `wiki/product/backlog.md` and append an entry to `wiki/log.md`. **No Trello writes** at all (no comments, no label changes, no moves, no new lanes). Optionally filter to cards in a specific lane on the source board.
 
 ### Flow
 
-**Step 1 — Run snapshot**: Execute full Mode 3b logic. Ensures release.md is current.
+**Step 1 — Parse arguments and run snapshot:**
+
+**Parse arguments:**
+```python
+# Parse: ship <tag> [board] [lane] [--force]
+# Use same algorithm as general Mode 3 parsing
+import re
+
+tokens = $ARGUMENTS.split()
+subcommand = tokens[0]  # "ship"
+remaining = tokens[1:]
+
+# Strip --force from end
+force_flag = False
+if remaining and remaining[-1] == '--force':
+    force_flag = True
+    remaining = remaining[:-1]
+
+# Find board token position
+board_id = None
+board_pos = None
+for i, token in enumerate(remaining):
+    url_match = re.match(r'^https://trello\.com/b/([a-zA-Z0-9]{8,})/?', token)
+    if url_match:
+        board_id = url_match.group(1)
+        board_pos = i
+        break
+    elif len(token) >= 8 and token.isalnum():
+        board_id = token
+        board_pos = i
+        break
+
+# Split tokens based on board position
+if board_pos is not None:
+    tag = ' '.join(remaining[:board_pos])
+    lane = ' '.join(remaining[board_pos + 1:]) if board_pos + 1 < len(remaining) else None
+else:
+    board_id = DEFAULT_STORYLAB_BOARD
+    tag = ' '.join(remaining)
+    lane = None
+```
+
+**Run snapshot**: Execute full Mode 3b logic with `board_id`, `tag`, and `lane`. Ensures release.md is current.
 
 **Step 2 — Parse latest snapshot**: Re-read the freshly written release.md. Count cards by state.
 
 **Step 3 — Safety gate**:
-- If any card is in `{Open, DEV, QA READY}`:
+- If any card is in `{Open, DEV, BUG REPORTED, QA READY}`:
   - If `--force` NOT passed:
     - Print blocker table:
       ```
@@ -885,7 +1143,7 @@ When adopting the release workflow, there are likely StoryLab cards with `🚀 P
 python3 <<'PY'
 import json, urllib.request, os
 KEY = os.environ['TRELLO_API_KEY']; TOKEN = os.environ['TRELLO_TOKEN']
-BOARD = '69dd9134576a26fcb79b670d'
+BOARD = DEFAULT_STORYLAB_BOARD  # Or user-specified board
 PROD_LABEL = '69ddcadcd5d8f116d99db5f4'
 url = f'https://api.trello.com/1/boards/{BOARD}/cards?fields=name,idLabels,shortUrl&key={KEY}&token={TOKEN}'
 cards = json.load(urllib.request.urlopen(url))
@@ -903,9 +1161,11 @@ PY
 
 **Step 4 — For each historical tag**:
 ```
-/sl-iteration snapshot <tag>
-/sl-iteration ship <tag> --force
+/sl-iteration snapshot <tag> [board]
+/sl-iteration ship <tag> [board] --force
 ```
+
+If using a non-default board, pass the board ID/URL to both commands.
 
 Wiki ends up with one release.md per historical tag, each `status: shipped`. Trello state is unchanged (user owns all card moves).
 
