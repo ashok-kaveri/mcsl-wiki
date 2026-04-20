@@ -538,10 +538,12 @@ Return a list of matching ph-WIP cards (can be 0, 1, or >1). Store the first mat
 ### Lane classification (deprecated for state detection)
 Do NOT use ph-WIP lane names to classify state. State comes from ph-WIP **labels** (see `best_ph_wip_state_label`). Lane names are only rendered in release.md as reference context (not authoritative). The story-cards Dev Status Classification table (lines 417-425 of story-cards SKILL.md) is used by Mode 2 analyze for a different purpose (writing StoryLab dev-status labels for planning views) and should not be applied in Mode 3.
 
-### `best_ph_wip_state_label(ph_matches, state_label_ids)`
-Walks the 7 state-label names in precedence order (`SHIPPED`, `PROD`, `QA_VERIFIED`, `QA Reported`, `Ready for QA`, `Dev Done`, `DEV`). For each, scans ALL `ph_matches` and returns the first name whose label id appears on any matching card. Returns `(label_name, chosen_card)` or `(None, None)` if no state label is present on any match.
+### `best_ph_wip_state_label(ph_matches, state_label_ids, sl_lane_id)`
+Walks the 7 state-label names in precedence order (`SHIPPED`, `PROD`, `QA_VERIFIED`, `QA Reported`, `Ready for QA`, `Dev Done`, `DEV`). Scans only the **current release's SL-copy cards** (those in `sl_lane_id`) first; falls back to all `ph_matches` only if no state label is found there. Returns `(label_name, chosen_card)` or `(None, None)` if no state label is present on any match.
 
-**Important**: do NOT filter out SL-copy cards (named `From SL: ...` in `SL <tag>: Iteration backlog` lane). Devs often apply state labels directly to the SL-copy — excluding them causes false "Open" classifications.
+**Why lane-preference matters**: multiple ZI issues from different releases can reference the same Zendesk ticket ID. Without scoping to the current release's lane first, a `Dev Done` label on an MCSL 377 card bleeds into an MCSL 378 card that shares the same ticket, producing false QA READY classifications.
+
+**Important**: do NOT filter out SL-copy cards (named `From SL: ...` in `SL <tag>: Iteration backlog` lane). Devs often apply state labels directly to the SL-copy — this is the primary signal source.
 
 ### `coarsen_state(storylab_card, ph_wip_label_name_or_none)`
 Decision order:
