@@ -110,6 +110,7 @@ else (later)                        → APR 25-30
 | `Pain 10` | `69dd9134576a26fcb79b6726` | red | Severity tag |
 | `Pain 8-9` | `69dd9134576a26fcb79b6724` | yellow | Severity tag |
 | `SLA Breached` | `69dd9134576a26fcb79b6728` | blue | SLA status tag |
+| `AI: Closed By Support` | `69dda72f123abc456def789g` | gray | Closed issue tag (auto-applied to resolved/closed tickets) |
 | `Label & Document Quality` | `69dda3f5e846f4f43ea87d29` | red | Theme tag |
 | `Carrier Platform` | `69dda3f5470641447a1bdc6e` | blue | Theme tag |
 | `Order & Product Data` | `69dda3f67c209e8d65dc7978` | green | Theme tag |
@@ -388,11 +389,18 @@ Each scenario must have:
 ### Single card (`ZI-NNN`)
 1. Look up ZI-NNN in daily index → get ticket ID, title, area, `Duplicate Of` (if any)
 2. Read `wiki/zendesk/summaries/<ticketId>.md` — full summary (strip YAML frontmatter)
-3. Read raw JSON for `created_at` timestamp (check both `raw/zendesk/shopify/` and `raw/zendesk/other_platforms/`)
-4. Compute SLA target and status
-5. Write the user story, acceptance criteria, and GWT scenarios following the writing rules
-6. Write story card to `wiki/product/stories/ZI-NNN.md`
-7. **Idempotency guard — enforces "old StoryLab cards are immutable"**:
+3. **Check ticket status**: Extract `status:` from summary frontmatter
+   - If `status: closed` or `status: solved` → flag as "closed by support"
+   - Will apply `AI: Closed By Support` label in step 8
+4. Read raw JSON for `created_at` timestamp (check both `raw/zendesk/shopify/` and `raw/zendesk/other_platforms/`)
+5. Compute SLA target and status
+6. Write the user story, acceptance criteria, and GWT scenarios following the writing rules
+7. Write story card to `wiki/product/stories/ZI-NNN.md` (include closure note if closed)
+7.5. **QUALITY GATE (MANDATORY)** — Run the card through the Quality Assurance checklist above:
+   - If ANY check fails → STOP, REWRITE, RE-VALIDATE, repeat until ALL checks pass
+   - If ALL checks pass → proceed to step 8
+   - **This is a hard stop. Do not skip.**
+8. **Idempotency guard — enforces "old StoryLab cards are immutable"**:
    - If the ZI has `Duplicate Of: ZI-XXX` in the daily index → **skip the Trello push entirely.** The old card tracks the same work. Write a minimal markdown that cross-links to `wiki/product/stories/ZI-XXX.md` in its frontmatter (`duplicate_of: ZI-XXX`) and exit this step. Report `skipped_trello: duplicate_of=ZI-XXX`.
    - Else, fetch all StoryLab cards once with pagination-safe call: `GET /boards/<STORYLAB>/cards?fields=name,desc,idLabels,shortUrl` (no `limit` param — Trello's default returns all). Check if ANY existing card matches THIS ticket by:
      - Card name contains `[#<ticketId>]`
@@ -410,6 +418,7 @@ Each scenario must have:
      - Carrier label(s) (🚚 FedEx / 🚚 UPS / 🚚 USPS / 🚚 DHL / etc.) — detect from ticket summary + title keywords
      - Dev status label — correlate with ph-WIP board (see ph-WIP Correlation below)
      - SLA Breached label (if SLA is breached)
+     - **`AI: Closed By Support` label (if ticket status is "closed" or "solved")** — marks issues resolved by support without code changes
    - `POST /cards` with full markdown as `desc`
    - `pos`: `"top"` for SLA breached cards, `"bottom"` otherwise
    - Record Trello shortUrl in the markdown file's Cross-Links
@@ -537,6 +546,54 @@ Auto-detect carriers from ticket summary + title using these keywords:
 | Canpar | canpar |
 | DPD | dpd |
 | Delivro | delivro |
+
+---
+
+## Quality Assurance Gate (MANDATORY BEFORE PUBLISHING)
+
+**EVERY story card MUST pass these checks before Trello push. If ANY check fails, REJECT and rewrite.**
+
+### User Story Quality Checklist
+
+- [ ] **NOT generic** — Does NOT say "store owner" or "merchant using this feature"
+  - ❌ Bad: "As a store owner or merchant using this feature"
+  - ✅ Good: "As a high-volume Shopify merchant paying $X/mo for automation"
+- [ ] **Grounded in customer situation** — Includes specific context from the ticket (plan, volume, who's affected, how long problem persists)
+  - ❌ Bad: "As a user"
+  - ✅ Good: "As a store owner who didn't choose their hosting security stack"
+- [ ] **Real pain identified** — The "so that" describes a CONSEQUENCE the customer feels, not "the bug is fixed"
+  - ❌ Bad: "so that my shipping operations continue uninterrupted"
+  - ✅ Good: "so that my team stops wasting hours on manual shipments that cost more than the app subscription itself"
+- [ ] **Not restating the bug title** — The user story is the UNDERLYING NEED, not a restatement
+  - ❌ Bad: "I want PostNL service code 6942 to be available"
+  - ✅ Good: "I want every service in my PostNL contract available without waiting for dev work, so I can use the cheapest tracked option"
+
+### Acceptance Criteria Quality Checklist
+
+- [ ] **Has Given/When/Then scenarios** — NOT just "issue is resolved" checkboxes
+  - ❌ Bad: `- [ ] Issue is resolved per customer request`
+  - ✅ Good: `### Scenario: Customer imports products after Cloudflare WAF is active`
+- [ ] **Scenarios are specific** — Each includes concrete precondition, action, observable outcome
+  - ❌ Bad: Given "precondition"
+  - ✅ Good: Given "store has Cloudflare WAF enabled on /wp-json endpoint"
+- [ ] **At least 3 scenarios** — Happy path, broader fix, prevention
+- [ ] **At least one scenario references the specific customer** — Their store, their volume, their constraint
+- [ ] **Prevention scenario included** — How do we prevent this recurring? (better error messages, self-serve config, etc.)
+
+### Ticket Summary Quality Checklist
+
+- [ ] **Embedded verbatim** — Full summary from `wiki/zendesk/summaries/` included, NOT condensed
+- [ ] **Customer context visible** — Ticket summary shows WHO reported it, WHEN, WHAT their setup is
+
+### ENFORCEMENT
+
+**If a card fails ANY check:**
+1. **STOP** — do not push to Trello
+2. **REWRITE** — user story and/or acceptance criteria
+3. **RE-VALIDATE** — run through checklist again
+4. **ONLY THEN PUSH**
+
+**This is non-negotiable.** Generic boilerplate cards waste developer time and confuse the backlog. Every card must be worth reading.
 
 ---
 
