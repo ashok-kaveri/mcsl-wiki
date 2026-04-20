@@ -1,0 +1,1075 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/384408.json",
+    "id": 384408,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "to": {},
+        "from": {
+          "ticket_id": 374165,
+          "subject": "Inquiry: UPS Third-Party Billing (VN Origin to SG/HK Payer)",
+          "channel": "email"
+        },
+        "rel": "follow_up"
+      }
+    },
+    "created_at": "2026-04-16T11:04:09Z",
+    "updated_at": "2026-04-17T17:03:22Z",
+    "generated_timestamp": 1776445402,
+    "type": null,
+    "subject": "Re: We haven't heard from you since 48 hours",
+    "raw_subject": "Re: We haven't heard from you since 48 hours",
+    "description": "This is a follow-up to your previous request #374165 \"Inquiry: UPS Third-Party Bi...\"\n\nHello, \nhow are you?\nQuick question:\nWe found most of orders have wrong address and can not proceed with creating labels (see some attached).\nyou know whats wrong there?\nThank you!",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 55176348394521,
+    "submitter_id": 55176348394521,
+    "assignee_id": 6932179641113,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      55176650452761
+    ],
+    "follower_ids": [
+      55176650452761
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "issues_with_setting_up_the_plugin",
+      "l3",
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "aa5f65-ed.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69a554846794405d6b0d0098"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "447K0J-5P3KL",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "aa5f65-ed.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69a554846794405d6b0d0098"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57035684878489,
+      "type": "Comment",
+      "author_id": 55176348394521,
+      "body": "This is a follow-up to your previous request #374165 \"Inquiry: UPS Third-Party Bi...\"\n\nHello,\nhow are you?\n\nQuick question:\n\nWe found most of orders have wrong address and can not proceed with creating labels (see some attached).\nyou know whats wrong there?\n\nThank you!",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><div>This is a follow-up to your previous request <a href=\"/agent/tickets/374165\" target=\"_blank\" rel=\"ticket\">#374165</a> \"Inquiry: UPS Third-Party Bi...\"</div><div dir=\"ltr\">Hello,&nbsp;<div>how are you?</div><div>Quick question:</div><div>We found most of orders have wrong address and can not proceed with creating labels (see some attached).<br>you know whats wrong there?</div><div>Thank you!</div></div><br><div></div></div>",
+      "plain_body": "This is a follow-up to your previous request #374165 \"Inquiry: UPS Third-Party Bi...\"  Hello,&nbsp; how are you?  Quick question:  We found most of orders have wrong address and can not proceed with creating labels (see some attached).\nyou know whats wrong there?  Thank you!",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57035653571865.json",
+          "id": 57035653571865,
+          "file_name": "WhatsApp Image 2026-04-16 at 03.37.45 (2).jpeg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/oP7VHt3zMSePyWTgrsO6lHSVK/?name=WhatsApp+Image+2026-04-16+at+03.37.45+%282%29.jpeg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/oP7VHt3zMSePyWTgrsO6lHSVK/?name=WhatsApp+Image+2026-04-16+at+03.37.45+%282%29.jpeg",
+          "content_type": "image/jpeg",
+          "size": 34419,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57035653878809.json",
+              "id": 57035653878809,
+              "file_name": "WhatsApp_Image_2026-04-16_at_03.37.45__2__thumb.jpeg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/vjWeAYZATrpXprYcydJjeTzMX/?name=WhatsApp_Image_2026-04-16_at_03.37.45__2__thumb.jpeg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/vjWeAYZATrpXprYcydJjeTzMX/?name=WhatsApp_Image_2026-04-16_at_03.37.45__2__thumb.jpeg",
+              "content_type": "image/jpeg",
+              "size": 734,
+              "width": 80,
+              "height": 27,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57035653577881.json",
+          "id": 57035653577881,
+          "file_name": "WhatsApp Image 2026-04-16 at 03.37.46.jpeg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/MopBJYBVTMpx4dctKcaeWC58c/?name=WhatsApp+Image+2026-04-16+at+03.37.46.jpeg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/MopBJYBVTMpx4dctKcaeWC58c/?name=WhatsApp+Image+2026-04-16+at+03.37.46.jpeg",
+          "content_type": "image/jpeg",
+          "size": 39810,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57035637279897.json",
+              "id": 57035637279897,
+              "file_name": "WhatsApp_Image_2026-04-16_at_03.37.46_thumb.jpeg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/VqREIUf3NQvIDsdfbnyk3wVCL/?name=WhatsApp_Image_2026-04-16_at_03.37.46_thumb.jpeg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/VqREIUf3NQvIDsdfbnyk3wVCL/?name=WhatsApp_Image_2026-04-16_at_03.37.46_thumb.jpeg",
+              "content_type": "image/jpeg",
+              "size": 753,
+              "width": 80,
+              "height": 29,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57035653596313.json",
+          "id": 57035653596313,
+          "file_name": "WhatsApp Image 2026-04-16 at 03.37.45.jpeg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/mjJYzpriEG0Dposkw01oVeIrk/?name=WhatsApp+Image+2026-04-16+at+03.37.45.jpeg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/mjJYzpriEG0Dposkw01oVeIrk/?name=WhatsApp+Image+2026-04-16+at+03.37.45.jpeg",
+          "content_type": "image/jpeg",
+          "size": 32324,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57035685164313.json",
+              "id": 57035685164313,
+              "file_name": "WhatsApp_Image_2026-04-16_at_03.37.45_thumb.jpeg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/CVCtEh3LZZIC70PuUT3SczReF/?name=WhatsApp_Image_2026-04-16_at_03.37.45_thumb.jpeg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/CVCtEh3LZZIC70PuUT3SczReF/?name=WhatsApp_Image_2026-04-16_at_03.37.45_thumb.jpeg",
+              "content_type": "image/jpeg",
+              "size": 673,
+              "width": 80,
+              "height": 25,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57035684897433.json",
+          "id": 57035684897433,
+          "file_name": "WhatsApp Image 2026-04-16 at 03.37.45 (1).jpeg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/1KIaAhbGVzPKUUWFNckDGopNJ/?name=WhatsApp+Image+2026-04-16+at+03.37.45+%281%29.jpeg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/1KIaAhbGVzPKUUWFNckDGopNJ/?name=WhatsApp+Image+2026-04-16+at+03.37.45+%281%29.jpeg",
+          "content_type": "image/jpeg",
+          "size": 33773,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57035715562009.json",
+              "id": 57035715562009,
+              "file_name": "WhatsApp_Image_2026-04-16_at_03.37.45__1__thumb.jpeg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/tRzAcIYvcCzmIY0pBjG8QLcOf/?name=WhatsApp_Image_2026-04-16_at_03.37.45__1__thumb.jpeg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/tRzAcIYvcCzmIY0pBjG8QLcOf/?name=WhatsApp_Image_2026-04-16_at_03.37.45__1__thumb.jpeg",
+              "content_type": "image/jpeg",
+              "size": 732,
+              "width": 80,
+              "height": 27,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 57035684878361,
+      "via": {
+        "channel": "web",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": 374165,
+            "subject": "Inquiry: UPS Third-Party Billing (VN Origin to SG/HK Payer)",
+            "channel": "email"
+          },
+          "rel": "follow_up"
+        }
+      },
+      "created_at": "2026-04-16T11:04:09Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAGdDmwxqVe8hs4BA2ABB_RpyqTd73iY_XdBhWoRyigCe2Q73qg@mail.gmail.com>",
+          "email_id": "01KPAZCJW7N7BFS9PEWFVTH8XD",
+          "raw_email_identifier": "2369120/fd8e53dd-b39f-46d2-9f90-7943acf41340.eml",
+          "json_email_identifier": "2369120/fd8e53dd-b39f-46d2-9f90-7943acf41340.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57035948476313,
+      "type": "Comment",
+      "author_id": 55176348394521,
+      "body": "Thank you for your response.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Thank you for your response.&nbsp;</div><br><div></div></div>",
+      "plain_body": "Thank you for your response.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57035968403993,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "marius@noro-arts.com",
+            "name": "Marius Heger",
+            "original_recipients": [
+              "marius@noro-arts.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-16T11:14:53Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAGdDmwyKkGVGwriVQ51ELTjLLopXf2i6JPqBpbDscJn=_9kvDw@mail.gmail.com>",
+          "email_id": "01KPB00EJN788JKV4863S7DCAP",
+          "raw_email_identifier": "2369120/32614743-055b-4316-9fc0-334f515d89f6.eml",
+          "json_email_identifier": "2369120/32614743-055b-4316-9fc0-334f515d89f6.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57037005723289,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "**Store:**_ Indonesia_\n**Carrier:**_ UPS_\n**Orders:**_ 329_\n**Plan:**_ $29 Popular_\n**Installed On:**_ 14.02.2026_\n**Activity:** _Rates and Labels_",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><strong>Store:</strong><i>&nbsp;Indonesia</i><br><strong>Carrier:</strong><i>&nbsp;UPS</i><br><strong>Orders:</strong><i>&nbsp;329</i><br><strong>Plan:</strong><i>&nbsp;$29 Popular</i><br><strong>Installed On:</strong><i>&nbsp;14.02.2026</i><br><strong>Activity:</strong><i> Rates and Labels</i><br>&nbsp;<br></div>",
+      "plain_body": "Store:&nbsp;Indonesia\nCarrier:&nbsp;UPS\nOrders:&nbsp;329\nPlan:&nbsp;$29 Popular\nInstalled On:&nbsp;14.02.2026\nActivity: Rates and Labels\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57037005723161,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-16T11:59:00Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57037465479321,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Walter,\n\nThank you for reaching out to us!\n\nWe noticed that the label generation is failing with the error:\n**\"State or Province code is required for Vietnam ShipFrom address.\"**\n\nHowever, upon further review, it appears that labels were previously generated successfully even without providing the State or Province code.\n\nTo help us investigate this further, could you please try generating a label directly from the UPS portal without entering the State or Province in the shipping address and confirm whether it works?\n\nAdditionally, please confirm that no special services are enabled for these shipments.\n\nWe look forward to your response.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Walter,<br>&nbsp;<br>Thank you for reaching out to us!<br>&nbsp;<br>We noticed that the label generation is failing with the error:<br><strong>\"State or Province code is required for Vietnam ShipFrom address.\"</strong><br>&nbsp;<br>However, upon further review, it appears that labels were previously generated successfully even without providing the State or Province code.<br>&nbsp;<br>To help us investigate this further, could you please try generating a label directly from the UPS portal without entering the State or Province in the shipping address and confirm whether it works?<br>&nbsp;<br>Additionally, please confirm that no special services are enabled for these shipments.<br>&nbsp;<br>We look forward to your response.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Walter,\n&nbsp;\nThank you for reaching out to us!\n&nbsp;\nWe noticed that the label generation is failing with the error:\n\"State or Province code is required for Vietnam ShipFrom address.\"\n&nbsp;\nHowever, upon further review, it appears that labels were previously generated successfully even without providing the State or Province code.\n&nbsp;\nTo help us investigate this further, could you please try generating a label directly from the UPS portal without entering the State or Province in the shipping address and confirm whether it works?\n&nbsp;\nAdditionally, please confirm that no special services are enabled for these shipments.\n&nbsp;\nWe look forward to your response.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57037465479193,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-16T12:16:52Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57042517140761,
+      "type": "Comment",
+      "author_id": 55176348394521,
+      "body": "Hello Sir,\n\n\nok let me check. I try generating a label directly from the UPS portal without entering the State or Province in the shipping address and confirm whether it works\n\nAnd yes, labels were previously generated successfully even without providing the State or Province code. Thats why I was wondering what might be the issue here.\n\nBut you also didnt see anything else for the moment, right?\n\nThank you!",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello Sir,<div><br></div><div>ok let me check. I&nbsp;<span style=\"color: rgb(43,46,47); font-size: 12px;\">try generating a label directly from the UPS portal without entering the State or Province in the shipping address and confirm whether it works</span></div><div>And yes,&nbsp;<span style=\"color: rgb(43,46,47); font-size: 12px;\">labels were previously generated successfully even without providing the State or Province code. Thats why I was wondering what might be the issue here.</span></div><div>But you also didnt see anything else for the moment, right?</div><div>Thank you!</div></div><br><div></div></div>",
+      "plain_body": "Hello Sir, \n  ok let me check. I&nbsp;try generating a label directly from the UPS portal without entering the State or Province in the shipping address and confirm whether it works  And yes,&nbsp;labels were previously generated successfully even without providing the State or Province code. Thats why I was wondering what might be the issue here.  But you also didnt see anything else for the moment, right?  Thank you!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57042517140633,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "marius@noro-arts.com",
+            "name": "Marius Heger",
+            "original_recipients": [
+              "marius@noro-arts.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-16T16:59:33Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAGdDmwzxUve9yU_dBe1N-KFPG22UbkaDAw=xG7WVZLVvC-AhpQ@mail.gmail.com>",
+          "email_id": "01KPBKQJD26H6DKEQ49WFCXP2N",
+          "raw_email_identifier": "2369120/35794d9f-de65-4331-81fe-b12635642f22.eml",
+          "json_email_identifier": "2369120/35794d9f-de65-4331-81fe-b12635642f22.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57043619034393,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Marius,\n\nThank you for your response.\n\nWe could observe that you were able to generate the shipping labels from the app before. However, we need your confirmation if you are able to generate the label on UPS portal and also request you to share the label from UPS directly.\n\nLooking forward to hearing from you.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Marius,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>We could observe that you were able to generate the shipping labels from the app before. However, we need your confirmation if you are able to generate the label on UPS portal and also request you to share the label from UPS directly.<br>&nbsp;<br>Looking forward to hearing from you.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Marius,\n&nbsp;\nThank you for your response.\n&nbsp;\nWe could observe that you were able to generate the shipping labels from the app before. However, we need your confirmation if you are able to generate the label on UPS portal and also request you to share the label from UPS directly.\n&nbsp;\nLooking forward to hearing from you.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57043619034265,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-16T18:28:54Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57063033854361,
+      "type": "Comment",
+      "author_id": 55176348394521,
+      "body": "these one show no issue but still do not work when we create bill. it does not export tracking number as usual but when we create bill on UPS portal (Worldship) it is OK. But now it still export error for all orders.\nMy team ask if your system use the following postal codes:\npostal code for Anna (supplier 1): 76134\npostal code for NY (supplier 2): 76138\nIs the app data using this postal code or another number? if. not please change to this or help me adjust.\nThank you!\nBut ![Bildschirmfoto 2026-04-17 um 09.01.46.png](https://support.pluginhive.com/attachments/token/D7sovgFRQbHK8k8UVZoRzzTs9/?name=Bildschirmfoto+2026-04-17+um+09.01.46.png) ![Bildschirmfoto 2026-04-17 um 09.01.56.png](https://support.pluginhive.com/attachments/token/Qdm7ckAZqsG9gPkxlEBaShe2B/?name=Bildschirmfoto+2026-04-17+um+09.01.56.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">these one show no issue but still do not work when we create bill. it does not export tracking number as usual&nbsp;but when we create bill on UPS portal (Worldship) it is OK. But now it still export error for all orders.<br>My team ask if your system use the following postal codes: <br>postal code for Anna (supplier 1): 76134<br>postal code for NY (supplier 2): 76138<br>Is the app data using this postal code or another number? if. not please change to this or help me adjust.<br>Thank&nbsp;you!<br>But<img src=\"https://support.pluginhive.com/attachments/token/D7sovgFRQbHK8k8UVZoRzzTs9/?name=Bildschirmfoto+2026-04-17+um+09.01.46.png\" alt=\"Bildschirmfoto 2026-04-17 um 09.01.46.png\" width=\"562\" height=\"279\"><img src=\"https://support.pluginhive.com/attachments/token/Qdm7ckAZqsG9gPkxlEBaShe2B/?name=Bildschirmfoto+2026-04-17+um+09.01.56.png\" alt=\"Bildschirmfoto 2026-04-17 um 09.01.56.png\" width=\"562\" height=\"368\"><br></div><br><div></div></div>",
+      "plain_body": "these one show no issue but still do not work when we create bill. it does not export tracking number as usual&nbsp;but when we create bill on UPS portal (Worldship) it is OK. But now it still export error for all orders.\nMy team ask if your system use the following postal codes: \npostal code for Anna (supplier 1): 76134\npostal code for NY (supplier 2): 76138\nIs the app data using this postal code or another number? if. not please change to this or help me adjust.\nThank&nbsp;you!\nBut",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57063033854233,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "marius@noro-arts.com",
+            "name": "Marius Heger",
+            "original_recipients": [
+              "marius@noro-arts.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T07:04:51Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAGdDmwxLVTBOtVrsnE81dZ4EsxQPS9ovuB=B9_-V6kPbr0+pHw@mail.gmail.com>",
+          "email_id": "01KPD435BPRYG32FF2PWSB5FY9",
+          "raw_email_identifier": "2369120/e07ca560-de16-4fab-b131-8b05cad5aac0.eml",
+          "json_email_identifier": "2369120/e07ca560-de16-4fab-b131-8b05cad5aac0.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57064297042585,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Marius Heger,\n\nThank you for sharing the details.\n\nPlease allow us some time to check your case further.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Marius Heger,<br>&nbsp;<br>Thank you for sharing the details.<br>&nbsp;<br>Please allow us some time to check your case further.<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Marius Heger,\n&nbsp;\nThank you for sharing the details.\n&nbsp;\nPlease allow us some time to check your case further.\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57064297042457,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T07:39:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57064567642137,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1776412017858289\n\nIndonesia Customer using MCSL-S with UPS for rates and labels.\nCustomer shared an order **8676** for which the label is failing with the error \"**State or Province code is required for Vietnam ShipFrom address**\".\nChecking previous orders, like **8645** which used the same Ship From Location and the label was generated successfully.\nAttached Label RequestResponse XML for both the orders here for reference.\nPlease check and let us know what has changed recently due to which the UPS labels are failing.\n\nURL - aa5f65-ed.myshopify.com\nAccount ID - 799dbc6e-c775-44ee-b543-6201c88aee23",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1776412017858289\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1776412017858289</a><br>&nbsp;<br>Indonesia Customer using MCSL-S with UPS for rates and labels.<br>Customer shared an order <strong>8676</strong> for which the label is failing with the error \"<strong>State or Province code is required for Vietnam ShipFrom address</strong>\".<br>Checking previous orders, like <strong>8645</strong> which used the same Ship From Location and the label was generated successfully.<br>Attached Label RequestResponse XML for both the orders here for reference.<br>Please check and let us know what has changed recently due to which the UPS labels are failing.<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://aa5f65-ed.myshopify.com\">aa5f65-ed.myshopify.com</a>&nbsp;<br>Account ID - 799dbc6e-c775-44ee-b543-6201c88aee23<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1776412017858289\n&nbsp;\nIndonesia Customer using MCSL-S with UPS for rates and labels.\nCustomer shared an order 8676 for which the label is failing with the error \"State or Province code is required for Vietnam ShipFrom address\".\nChecking previous orders, like 8645 which used the same Ship From Location and the label was generated successfully.\nAttached Label RequestResponse XML for both the orders here for reference.\nPlease check and let us know what has changed recently due to which the UPS labels are failing.\n&nbsp;\nURL - aa5f65-ed.myshopify.com&nbsp;\nAccount ID - 799dbc6e-c775-44ee-b543-6201c88aee23",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57064529461273.json",
+          "id": 57064529461273,
+          "file_name": "RequestResponse - 2026-04-17T130550.514.zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/s5o6iaIllHuPbNNvDKJtGAHbW/?name=RequestResponse+-+2026-04-17T130550.514.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/s5o6iaIllHuPbNNvDKJtGAHbW/?name=RequestResponse+-+2026-04-17T130550.514.zip",
+          "content_type": "application/zip",
+          "size": 7196,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57064500194329.json",
+          "id": 57064500194329,
+          "file_name": "RequestResponse - 2026-04-17T130706.432.zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/lZy0nTfMzu9i2I1YQD8M29per/?name=RequestResponse+-+2026-04-17T130706.432.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/lZy0nTfMzu9i2I1YQD8M29per/?name=RequestResponse+-+2026-04-17T130706.432.zip",
+          "content_type": "application/zip",
+          "size": 144349,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 57064567642009,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T07:47:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57067052301849,
+      "type": "Comment",
+      "author_id": 55176348394521,
+      "body": "Thank you! Do you think we could get an update by today still?\nW indeed to create labels urgently.\n\nThank you!",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Thank you! Do you think we could get an update by today still?<div>W indeed&nbsp;to create labels urgently.</div><div>Thank you!</div></div><br><div></div></div>",
+      "plain_body": "Thank you! Do you think we could get an update by today still? W indeed&nbsp;to create labels urgently.  Thank you!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57067052301721,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "marius@noro-arts.com",
+            "name": "Marius Heger",
+            "original_recipients": [
+              "marius@noro-arts.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T08:58:00Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAGdDmwxzHLKcOv+h7jD+64oqne4=WCDm6uraruQikjoQyytpGw@mail.gmail.com>",
+          "email_id": "01KPDAJGJ5DN21QVWZMRT29Y71",
+          "raw_email_identifier": "2369120/c661bbc1-d2d6-4792-92a2-c476bcfd0adb.eml",
+          "json_email_identifier": "2369120/c661bbc1-d2d6-4792-92a2-c476bcfd0adb.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57067441714713,
+      "type": "Comment",
+      "author_id": 55176348394521,
+      "body": "I thin k the issue could be:\nUPS API requires State/Province for Vietnam ShipFrom address.\nYour app does not provide a State field for Vietnam.\nCan you enable that?",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">I thin k the issue could be:<br>UPS API requires State/Province for Vietnam ShipFrom address.<br>Your app does not provide a State field for Vietnam.<br>Can you enable that?</div><br><div></div></div>",
+      "plain_body": "I thin k the issue could be:\nUPS API requires State/Province for Vietnam ShipFrom address.\nYour app does not provide a State field for Vietnam.\nCan you enable that?",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57067441714073,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "marius@noro-arts.com",
+            "name": "Marius Heger",
+            "original_recipients": [
+              "marius@noro-arts.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T09:08:12Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAGdDmwwKNOH2C=WVATmVKKmb9u817bvof-DPx0g9y01StAvnCQ@mail.gmail.com>",
+          "email_id": "01KPDB56FMRJEPMNSXVSY5CHQJ",
+          "raw_email_identifier": "2369120/c4603637-1bfe-4795-b1b0-ff07a12ac92a.eml",
+          "json_email_identifier": "2369120/c4603637-1bfe-4795-b1b0-ff07a12ac92a.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57067870329241,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Marius Heger,\n\nWe have escalated your case to the technical team for review.\n\nWe will update you as soon as we hear back from them.\n\nIf you have orders that need to be shipped urgently, please generate labels from the UPS portal directly.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Marius Heger,<br>&nbsp;<br>We have escalated your case to the technical team for review.<br>&nbsp;<br>We will update you as soon as we hear back from them.<br>&nbsp;<br>If you have orders that need to be shipped urgently, please generate labels from the UPS portal directly.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Marius Heger,\n&nbsp;\nWe have escalated your case to the technical team for review.\n&nbsp;\nWe will update you as soon as we hear back from them.\n&nbsp;\nIf you have orders that need to be shipped urgently, please generate labels from the UPS portal directly.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57067870329113,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T09:21:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57068256119321,
+      "type": "Comment",
+      "author_id": 55176348394521,
+      "body": "I just called our UPS account mange  to check if the Worldship (the manual app from UPS) works, it still work without the province he confirms.\nSo the issue is 100% NOT your address It’s how PH sends data to UPS API I think.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">I just called our UPS account mange&nbsp; to check if the Worldship (the manual app from UPS) works, it still work without the province he confirms.<br>So the issue is 100% NOT your address&nbsp;It’s how PH sends data to UPS API I think.</div><br><div></div></div>",
+      "plain_body": "I just called our UPS account mange&nbsp; to check if the Worldship (the manual app from UPS) works, it still work without the province he confirms.\nSo the issue is 100% NOT your address&nbsp;It’s how PH sends data to UPS API I think.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57068256119193,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "marius@noro-arts.com",
+            "name": "Marius Heger",
+            "original_recipients": [
+              "marius@noro-arts.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T09:33:38Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAGdDmwyUKa4HMw=hOD_ckwdzAmhHLK-64Ez1C=muKTBhpaF2Xg@mail.gmail.com>",
+          "email_id": "01KPDCKRQJ0J3S6JMF4SCQWBGK",
+          "raw_email_identifier": "2369120/b0e0854e-90b9-4f54-88d2-58b355343b26.eml",
+          "json_email_identifier": "2369120/b0e0854e-90b9-4f54-88d2-58b355343b26.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57068302980889,
+      "type": "Comment",
+      "author_id": 55176348394521,
+      "body": "More info re the situation:\n\nWe are currently unable to generate UPS labels for shipments from Vietnam.\n\nError:\n“State or Province code is required for Vietnam ShipFrom address”\n\nIssue:\n- Your app does not provide a State/Province field for Vietnam ShipFrom addresses\n- UPS API requires this field, so label creation fails\n\nImportant:\n- The same address works in UPS WorldShip without issues\n- So this seems to be a mapping issue in your UPS API integration\n\nCould you please clarify:\n\n1. How can we provide the State/Province for Vietnam addresses in your app?\n2. Is there a way to map the province via Address Line 2/3?\n3. Can you enable State/Province field for Vietnam in the ShipFrom configuration?\n\nThis is currently blocking all shipments for us, so a quick solution would be highly appreciated.\n\nThanks!",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">More info re the situation:<br><br>We are currently unable to generate UPS labels for shipments from Vietnam.<br><br>Error:<br>“State or Province code is required for Vietnam ShipFrom address”<br><br>Issue:<br>- Your app does not provide a State/Province field for Vietnam ShipFrom addresses<br>- UPS API requires this field, so label creation fails<br><br>Important:<br>- The same address works in UPS WorldShip without issues<br>- So this seems to be a mapping issue in your UPS API integration<br><br>Could you please clarify:<br><br>1. How can we provide the State/Province for Vietnam addresses in your app?<br>2. Is there a way to map the province via Address Line 2/3?<br>3. Can you enable State/Province field for Vietnam in the ShipFrom configuration?<br><br>This is currently blocking all shipments for us, so a quick solution would be highly appreciated.<br><br>Thanks!</div><br><div></div></div>",
+      "plain_body": "More info re the situation:\n\nWe are currently unable to generate UPS labels for shipments from Vietnam.\n\nError:\n“State or Province code is required for Vietnam ShipFrom address”\n\nIssue:\n- Your app does not provide a State/Province field for Vietnam ShipFrom addresses\n- UPS API requires this field, so label creation fails\n\nImportant:\n- The same address works in UPS WorldShip without issues\n- So this seems to be a mapping issue in your UPS API integration\n\nCould you please clarify:\n\n1. How can we provide the State/Province for Vietnam addresses in your app?\n2. Is there a way to map the province via Address Line 2/3?\n3. Can you enable State/Province field for Vietnam in the ShipFrom configuration?\n\nThis is currently blocking all shipments for us, so a quick solution would be highly appreciated.\n\nThanks!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57068329996441,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "marius@noro-arts.com",
+            "name": "Marius Heger",
+            "original_recipients": [
+              "marius@noro-arts.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T09:36:07Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAGdDmwwj-WBFhUw=Eoo_Xu+8mSkT5BSh6=Xr7VD35DJox_KFGg@mail.gmail.com>",
+          "email_id": "01KPDCRA58B5K4NS36ZTMR6FZX",
+          "raw_email_identifier": "2369120/4a3a2bf8-5f1a-4df4-a7d0-2e28f4cc8986.eml",
+          "json_email_identifier": "2369120/4a3a2bf8-5f1a-4df4-a7d0-2e28f4cc8986.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57072135344921,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Marius Heger,\n\nThank you for your response.\n\nWe have already escalated this case to the technical team for review.\n\nWe will update you as soon as we hear back from them.\n\nIf you have orders that need to be shipped urgently, please generate labels from the UPS portal directly.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Marius Heger,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>We have already escalated this case to the technical team for review.<br>&nbsp;<br>We will update you as soon as we hear back from them.<br>&nbsp;<br>If you have orders that need to be shipped urgently, please generate labels from the UPS portal directly.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Marius Heger,\n&nbsp;\nThank you for your response.\n&nbsp;\nWe have already escalated this case to the technical team for review.\n&nbsp;\nWe will update you as soon as we hear back from them.\n&nbsp;\nIf you have orders that need to be shipped urgently, please generate labels from the UPS portal directly.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57072135344793,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T11:51:31Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57075502403481,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "This looks like a recent change from UPS side, we will verify and make the changes accordingly.\nKindly inform merchant and keep ticket in l3.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This looks like a recent change from UPS side, we will verify and make the changes accordingly.<br>Kindly inform merchant and keep ticket in l3.<br>[Veena]<br></div>",
+      "plain_body": "This looks like a recent change from UPS side, we will verify and make the changes accordingly.\nKindly inform merchant and keep ticket in l3.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57075502401049,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T14:30:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "152.57.96.80",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57077301294105,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Marius,\n\nThank you for your patience!\n\nRegarding the error you are receiving while generating the label, this is a recent change from UPS side. We will be verifying and making the changes accordingly.\n\nWe will keep you updated.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Marius,<br>&nbsp;<br>Thank you for your patience!<br>&nbsp;<br>Regarding the error you are receiving while generating the label, this is a recent change from UPS side. We will be verifying and making the changes accordingly.<br>&nbsp;<br>We will keep you updated.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Marius,\n&nbsp;\nThank you for your patience!\n&nbsp;\nRegarding the error you are receiving while generating the label, this is a recent change from UPS side. We will be verifying and making the changes accordingly.\n&nbsp;\nWe will keep you updated.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57077317631385,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T16:31:52Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57077712929049,
+      "type": "Comment",
+      "author_id": 55176348394521,
+      "body": "Hello Sibi,\n\nthanks a lot!\nLooking forward to your feedback!\n\n\nAgain, thank you!",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello Sibi,<br><br>thanks&nbsp;a lot!<br>Looking forward to your feedback!&nbsp;<div><br></div><div>Again, thank you!</div></div><br><div></div></div>",
+      "plain_body": "Hello Sibi,\n\nthanks&nbsp;a lot!\nLooking forward to your feedback!&nbsp; \n  Again, thank you!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57077712928921,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "marius@noro-arts.com",
+            "name": "Marius Heger",
+            "original_recipients": [
+              "marius@noro-arts.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T17:03:21Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAGdDmwyq6sA=iExaG0oZn==9yM4xQu_eWA=8YY+2_1VUDOo9xA@mail.gmail.com>",
+          "email_id": "01KPE6B6X78H2K8A3EBPF0Q8BH",
+          "raw_email_identifier": "2369120/00470ba5-ed04-4aef-b3cb-ce897824aea8.eml",
+          "json_email_identifier": "2369120/00470ba5-ed04-4aef-b3cb-ce897824aea8.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    }
+  ]
+}
