@@ -1,7 +1,7 @@
 ---
 name: story-cards
 description: Generate product story cards from Zendesk ZI issues. Creates well-crafted user stories with acceptance criteria from ticket summaries, and pushes them as Trello cards. Use when the user wants to create story cards, generate stories, or turn ZI issues into actionable dev cards.
-argument-hint: <ZI-NNN|all|range|release> [board-url] [--no-trello]
+argument-hint: <ZI-NNN|all|delta|range|release> [lane] [board-url] [--no-trello]
 allowed-tools: Bash, Read, Write, Glob, Grep, Agent, WebFetch, TodoWrite, AskUserQuestion
 disable-model-invocation: false
 ---
@@ -13,6 +13,11 @@ Generate product-quality story cards from Zendesk ZI issues. You are a **product
 **Argument**:
 - `ZI-NNN` — generate a single story card
 - `ZI-001:ZI-020` — generate a range
+- `delta [lane]` — generate story cards from changed/new ZI issues only (default lane: apr-25-30)
+  - `delta` — use APR 25-30 lane
+  - `delta apr-13-16` — use APR 13-16 lane
+  - `delta apr-16-18` — use APR 16-18 lane
+  - etc.
 - `all` — generate all ZI issues
 - `all shopify` / `all woocommerce` / `all magento` — filter by product
 - `apr-13-16` / `apr-16-18` / `apr-18-21` / `apr-21-25` / `apr-25-30` — generate by release window
@@ -20,6 +25,8 @@ Generate product-quality story cards from Zendesk ZI issues. You are a **product
 - Append `--no-trello` to skip Trello and only generate markdown
 
 **Default Trello board**: `StoryLab` (board ID: `69dd9134576a26fcb79b670d`, URL: `https://trello.com/b/d1xk25XH/storylab`). If no board URL is provided, cards are pushed to StoryLab.
+
+**Delta mode**: Automatically detects ZI issues created from changed/new Zendesk tickets (since last zendesk-summarize run). Useful after running `/zendesk-summarize delta` to quickly generate story cards for only the new support tickets without processing the entire backlog.
 
 ---
 
@@ -29,6 +36,33 @@ Generate product-quality story cards from Zendesk ZI issues. You are a **product
 2. `wiki/zendesk/summaries/<ticketId>.md` — **full structured ticket summary** (embedded verbatim into the story card)
 3. `wiki/product/backlog.md` — which backlog cluster this issue belongs to
 4. Raw ticket JSON (via python) — for exact `created_at` timestamp to compute SLA
+
+---
+
+## Delta Detection
+
+**When to use `delta` mode:**
+- After running `/zendesk-summarize delta` to extract new/changed Zendesk tickets
+- To quickly generate story cards for only the new issues, without reprocessing the entire ZI catalog
+
+**How it works:**
+1. Read the latest daily index: `wiki/zendesk/YYYY-MM-DD.md`
+2. Run `git diff <prior-commit>..HEAD -- raw/zendesk/` to find changed ticket files
+3. For each changed ticket ID, find matching ZI issues in the daily index
+4. Generate story cards for only those ZI issues
+5. Push to the specified lane (default: APR 25-30)
+
+**Delta anchor (git reference):**
+- The daily index frontmatter contains `git_reference: <commit>` from the last zendesk-summarize run
+- Delta mode diffs from that reference forward to find new/changed tickets
+- If the reference is not in history (rebase/squash), falls back to `HEAD~1..HEAD`
+
+**Example workflow:**
+```bash
+/zendesk-summarize delta      # Extract new/changed Zendesk tickets
+/story-cards delta            # Generate story cards for those new issues (APR 25-30 lane)
+/story-cards delta apr-13-16  # Or put them in a different lane
+```
 
 ---
 
@@ -383,6 +417,29 @@ Each scenario must have:
    - Only runs for newly-created cards (step 8 executed).
    - Search ph-WIP for the ticket number in card name, desc, attachments, comments
    - If found: add dev status label + append ph-WIP Card section to card desc
+
+### Delta mode (`delta [lane]`)
+
+**Purpose**: Generate story cards for only the ZI issues created from changed/new Zendesk tickets (since last zendesk-summarize delta run).
+
+**Steps**:
+1. Parse the latest daily index: `wiki/zendesk/YYYY-MM-DD.md`
+2. Read `git_reference` from daily index frontmatter (establishes delta anchor)
+3. Run `git diff <git_reference>..HEAD --name-only -- raw/zendesk/` to find changed ticket JSON files
+4. Extract ticket IDs from changed files: `raw/zendesk/product/<ticketId>.json` → list of ticket IDs
+5. Search daily index for all ZI issues matching those ticket IDs
+6. Determine target lane:
+   - If `[lane]` argument provided (e.g., `delta apr-13-16`), use that lane
+   - Otherwise, default to `apr-25-30`
+7. For each ZI issue found, process using the Single Card workflow (steps 1-9 above)
+8. Report: cards created, cards pushed to Trello, target lane, ZI ID range
+
+**Example**:
+```bash
+/zendesk-summarize delta      # Extract new tickets, commit
+/story-cards delta            # Generate cards for those new ZIs → APR 25-30 lane
+/story-cards delta apr-16-18  # Or use a different lane
+```
 
 ### Batch by release (`apr-13-16`, etc.)
 1. Parse all ZI issues from daily index
