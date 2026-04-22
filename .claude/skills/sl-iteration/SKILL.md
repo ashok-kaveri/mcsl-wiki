@@ -496,12 +496,74 @@ From find-co-dependencies output, extract and transform:
 - Include note in analysis: "⚠️ Run `/find-co-dependencies build` to enable blast-radius analysis"
 - Continue with Step 5
 
+### Step 5a: Derive Key Findings
+
+Before writing the detailed analysis, derive a concise executive summary:
+
+**Status** - Determine implementation status:
+1. Check git history for recent merges related to the card:
+   ```bash
+   cd raw/storepep-react && git log --oneline --all --since="30 days ago" | grep -i "<search-terms-from-card>"
+   ```
+2. If merged PR found → "✅ FIX IMPLEMENTED — PR #NNNN merged YYYY-MM-DD"
+3. If branch exists but not merged → "🚧 IN PROGRESS — Branch: <name>"
+4. If blocked/waiting → "⏸️ BLOCKED — <blocker>"
+5. Otherwise → "📝 READY FOR DEV"
+
+**Confidence** - Already derived in Step 4
+
+**Affected Files** - Count and list:
+```
+N (file1.js, file2.js, ...)
+```
+Limit to top 3 files if more than 3.
+
+**Root Cause** - One-sentence summary extracted from detailed analysis
+
+**Solution** - One-sentence summary:
+- If implemented: "Added X to Y, fixed Z in W"
+- If not implemented: "Proposed approach: Add X to Y"
+
+**Risk Level** - Derive from blast-radius:
+- **⚠️ High**: ≥10 co-change partners OR ≥5 ZI area overlaps OR critical path files OR no test coverage
+- **ℹ️ Medium**: 3-9 co-change partners OR 2-4 ZI area overlaps OR partial test coverage
+- **✅ Low**: <3 co-change partners AND <2 ZI area overlaps AND good test coverage
+
+**Next Step** - Based on status:
+- If implemented → "QA verification using checklist below"
+- If in progress → "Complete implementation, run tests"
+- If ready for dev → "Implementation"
+- If poor confidence → "Investigation / code search"
+
+**PR Link** (optional) - If PR found in git history, extract link from commit message or construct:
+```
+https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/NNNN
+```
+
 ### Step 5: Write analysis
 
 **For HIGH / MEDIUM / LOW** — build this markdown:
 
 ```markdown
 <StoryLab shortUrl>
+
+---
+
+##### PR: [https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/NNNN](link)
+
+(Include PR line only if PR found in Step 5a)
+
+---
+
+## 📋 Key Findings
+
+**Status**: <derived-status>
+**Confidence**: HIGH | MEDIUM | LOW
+**Affected Files**: N (file1, file2, ...)
+**Root Cause**: <one-line summary>
+**Solution**: <one-line summary>
+**Risk Level**: ⚠️ High | ℹ️ Medium | ✅ Low
+**Next Step**: <derived-next-step>
 
 ---
 
@@ -588,6 +650,22 @@ Before marking complete, the developer should be able to confirm:
 
 ```markdown
 https://trello.com/c/abc123
+
+---
+
+##### PR: https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/2567
+
+---
+
+## 📋 Key Findings
+
+**Status**: 🚧 IN PROGRESS — Branch: feature/fedex-customs-fix
+**Confidence**: HIGH
+**Affected Files**: 2 (labelGeneration.js, FedExAdaptor.js)
+**Root Cause**: FedEx REST API requires customsValue in commercialInvoice object, but current code only sends it at shipment level
+**Solution**: Add customsValue extraction from order items, include in commercialInvoice object
+**Risk Level**: ℹ️ Medium — isolated change but needs international shipping validation
+**Next Step**: Complete implementation, verify with test suite
 
 ---
 
@@ -739,7 +817,23 @@ When user says `reassess ZI-NNN`:
 5. Step 5 **replaces** the existing `## AI Code Analysis` section — does NOT append a second one
 6. Step 6 **removes old confidence label**, applies new one
 
-**Idempotency**: Parse existing desc, find `---\n\n## AI Code Analysis` marker, replace everything from there onward. Preserve the StoryLab link and any content between the link and the analysis marker.
+**Idempotency**: Parse existing desc, find the FIRST `---` marker after the StoryLab URL, replace everything from that marker onward. This preserves:
+- The StoryLab URL (always line 1)
+- Any content between the URL and the first `---` (e.g., manual notes added by devs)
+
+Then write the new analysis starting with the first `---` marker.
+
+Example preservation:
+```markdown
+https://trello.com/c/abc123
+
+Developer note: This is blocked on API team response.
+
+---
+
+## 📋 Key Findings
+(new content replaces from here onward)
+```
 
 **Blast-radius updates**: Reassessment may identify different files/areas than the initial analysis, causing the implementation checklist to update with new recommendations. This is expected — the blast-radius reflects the current understanding of the issue.
 
