@@ -1,5 +1,18 @@
 # StorePep KB Activity Log
 
+## [2026-04-23 15:00] ingest | Carriers and Adapters Complete Catalog
+- Created: `architecture/carriers-and-adapters.md`
+- Updated: `index.md` (added carriers-and-adapters.md to Architecture section)
+- Updated: `log.md`
+- Git reference: e5bf9867ce1e02cdbf9b2da90f081f15fa0be345 (storepep-react submodule)
+- Sources analyzed:
+  - `storePepConstants.js:41-90` - All carrier codes (C1-C54)
+  - `storePepConstants.js:159-203` - Carrier name mappings
+  - `shipmentAdaptor.js:1-191` - Adapter factory and class mappings
+  - `storepepConfig.js` - API configuration patterns
+  - Carrier-specific helper files (fedex, ups, australiaPost, dhl, canadaPost, blueDart, etc.)
+- Summary: Comprehensive carrier integration reference cataloging all 45+ shipping carriers with carrier codes, descriptive names (e.g., "eParcel" for Australia Post C8), adapter class names, API protocols (SOAP, REST, XML), and endpoint URLs (sandbox/production where available in code). Organized by region (US/International, Australia/NZ, Canada, India, Europe, Middle East/Asia, Latin America) plus multi-carrier aggregators (EasyPost, Landmark Global). Documented legacy→modern API migrations (FedEx C2→C39, UPS C3→C38, USPS variants), special configurations (FedEx regional credentials, UPS integration modes, EasyPost 100+ carrier accounts, Australia Post eParcel variants), and known issues (SOAP deprecations, OAuth rate limits, regional endpoint complexity). Complete with "Adding a New Carrier" workflow and cross-references to shipping module pages.
+
 ## [2026-04-22 10:00] build | ZI Area Coupling Map
 - Mode: build (full rebuild)
 - Source: `wiki/zendesk/2026-04-20.md` (ZI issues) + `wiki/product/backlog.md` (clusters) + `wiki/architecture/coupling-map.md` (code coupling)
