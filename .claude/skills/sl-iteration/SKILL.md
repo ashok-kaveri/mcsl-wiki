@@ -1028,9 +1028,22 @@ Regex: `\[close-reason:\s*([a-z-]+)(?:=([A-Z]+-\d+))?\]\s*(.*)` (case-sensitive 
 
 ### `read_release_frontmatter(tag_slug)` / `write_release_frontmatter(tag_slug, fields)`
 Read/write YAML frontmatter on `wiki/product/releases/<tag_slug>.md`:
-- Read: parse `--- ... ---` block at top of file, return dict. Refuse if file missing (caller's responsibility to check existence first).
+- **Use `yq` command-line tool** for parsing YAML (Python's yaml module is not available in Claude Code environment)
+- Read: use `yq eval '{git_reference, status, shipped_at}' <file>` to extract specific fields. Refuse if file missing (caller's responsibility to check existence first).
 - Write (partial update): read → merge `fields` → rewrite the frontmatter block, leave body unchanged. Atomic write (read, mutate, write).
 - If frontmatter block unparseable YAML → refuse to proceed, surface the error verbatim to the user (never silently rewrite corrupt frontmatter).
+
+**Example**:
+```bash
+# Read specific fields
+yq eval '{git_reference, status, shipped_at}' wiki/product/releases/mcsl-377.md
+
+# Read single field
+yq eval '.git_reference' wiki/product/releases/mcsl-377.md
+
+# Update a field (in-place)
+yq eval -i '.status = "shipped"' wiki/product/releases/mcsl-377.md
+```
 
 ### `git_diff_tickets(prior_ref, current_ref)`
 ```bash
