@@ -566,6 +566,8 @@ https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/NNNN
 ```markdown
 <StoryLab shortUrl>
 
+-sl-iteration:analysis:start
+
 ---
 
 ##### PR: [https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/NNNN](link)
@@ -657,9 +659,12 @@ Before marking complete, the developer should be able to confirm:
 **The two highest-risk items to not skip**: {item 1} (most customer tickets) and {item 2} (most code coupling).
 
 <If blast-radius analysis was skipped (POOR confidence or analysis failed), omit this entire section.>
+
+-sl-iteration:analysis:end
 ```
 
 **Markdown structure notes**:
+- **CRITICAL**: All analysis content MUST be wrapped between `-sl-iteration:analysis:start` and `-sl-iteration:analysis:end` tags for proper reassessment parsing
 - The "Blast Radius Summary" section provides a high-level overview (keep concise)
 - The "🎯 Implementation Checklist" section includes the full actionable items from find-co-dependencies
 - Use `---` horizontal rule to visually separate the code analysis from the implementation checklist
@@ -669,6 +674,8 @@ Before marking complete, the developer should be able to confirm:
 
 ```markdown
 https://trello.com/c/abc123
+
+-sl-iteration:analysis:start
 
 ---
 
@@ -760,6 +767,8 @@ Before marking complete, the developer should be able to confirm:
 | Batch processing intact | Manual: Generate 5 labels (3 domestic, 2 international) |
 
 **The two highest-risk items to not skip**: international label generation (most customer tickets) and label generation workflow (most code coupling).
+
+-sl-iteration:analysis:end
 ```
 
 **For POOR** — one-liner only:
@@ -767,12 +776,16 @@ Before marking complete, the developer should be able to confirm:
 ```markdown
 <StoryLab shortUrl>
 
+-sl-iteration:analysis:start
+
 ---
 
 ## AI Code Analysis
 
 **Confidence**: POOR
 Needs human triage — no code match found. Issue is too vague or requires product decision before code analysis.
+
+-sl-iteration:analysis:end
 ```
 
 **File path format**: Use paths relative to `storepepSAAS/` (e.g., `server/src/routes/bulkActions.js:98`). Include line numbers when referencing specific code.
@@ -841,11 +854,33 @@ When user says `reassess ZI-NNN [--release-tag <tag>]`:
 5. Step 5 **replaces** the existing `## AI Code Analysis` section — does NOT append a second one
 6. Step 6 **removes old confidence label**, applies new one
 
-**Idempotency**: Parse existing desc, find the FIRST `---` marker after the StoryLab URL, replace everything from that marker onward. This preserves:
-- The StoryLab URL (always line 1)
-- Any content between the URL and the first `---` (e.g., manual notes added by devs)
+**Idempotency**:
+1. Check if existing desc contains `-sl-iteration:analysis:start` and `-sl-iteration:analysis:end` tags
+2. **If tags exist**: Replace everything between the tags (inclusive of the tags themselves) with new analysis (wrapped in tags)
+3. **If tags don't exist**: This is first-time analysis — append the analysis (wrapped in tags) after the StoryLab URL
 
-Then write the new analysis starting with the first `---` marker.
+This preserves:
+- The StoryLab URL (always line 1)
+- Any content between the URL and the `-sl-iteration:analysis:start` tag (e.g., manual notes added by devs before first analysis, or between URL and tags)
+- Any content after the `-sl-iteration:analysis:end` tag (e.g., manual follow-up notes added by devs)
+
+**Replacement algorithm**:
+```python
+import re
+
+# Check for existing analysis tags
+has_tags = '-sl-iteration:analysis:start' in existing_desc and '-sl-iteration:analysis:end' in existing_desc
+
+if has_tags:
+    # Replace everything from start tag to end tag (inclusive)
+    pattern = r'-sl-iteration:analysis:start.*?-sl-iteration:analysis:end'
+    new_desc = re.sub(pattern, new_analysis_with_tags, existing_desc, flags=re.DOTALL)
+else:
+    # First-time analysis: append after StoryLab URL
+    lines = existing_desc.split('\n')
+    storylab_url = lines[0]
+    new_desc = storylab_url + '\n\n' + new_analysis_with_tags
+```
 
 Example preservation:
 ```markdown
@@ -853,10 +888,16 @@ https://trello.com/c/abc123
 
 Developer note: This is blocked on API team response.
 
+-sl-iteration:analysis:start
+(new analysis replaces from here...)
+
 ---
 
 ## 📋 Key Findings
-(new content replaces from here onward)
+...
+-sl-iteration:analysis:end
+
+Manual follow-up note: Tested locally, works.
 ```
 
 **Blast-radius updates**: Reassessment may identify different files/areas than the initial analysis, causing the implementation checklist to update with new recommendations. This is expected — the blast-radius reflects the current understanding of the issue.
