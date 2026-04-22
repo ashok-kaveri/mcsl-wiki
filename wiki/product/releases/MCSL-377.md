@@ -6,7 +6,7 @@ tag_slug: mcsl-377
 board_id: 63e1e0414b6026c45be1087c
 lane_filter: "SL MCSL 377: Iteration backlog"
 status: draft
-last_synced: 2026-04-22 20:00:13 UTC
+last_synced: 2026-04-22 20:15:55 UTC
 shipped_at: null
 git_reference: None
 tickets_delta_on_last_sync: 0
@@ -17,12 +17,13 @@ cards_support_closed: 2
 cards_unsupported_partnership: 2
 cards_carrier_platform_issues: 3
 cards_bug_reported: 4
-cards_open: 2
+cards_open: 1
+cards_spill_over: 1
 ---
 
 # Release MCSL 377
 
-> **Status**: draft · **Last synced**: 2026-04-22 20:00 UTC · **Board**: [ph-WIP](https://trello.com/b/63e1e0414b6026c45be1087c)
+> **Status**: draft · **Last synced**: 2026-04-22 20:15 UTC · **Board**: [ph-WIP](https://trello.com/b/63e1e0414b6026c45be1087c)
 
 ## Summary
 
@@ -36,7 +37,8 @@ cards_open: 2
 | BUG REPORTED | 4 |
 | QA READY | 3 |
 | DEV | 0 |
-| Open (not started) | 2 |
+| Open (not started) | 1 |
+| Spill Over | 1 |
 | **Total** | **28** |
 
 ## Legend
@@ -50,6 +52,7 @@ cards_open: 2
 - **QA READY** — code complete, in QA (ph-WIP Dev Done, Ready for QA, or QA Reported labels — NOT yet verified)
 - **DEV** — active development (ph-WIP DEV label)
 - **Open (not started)** — in product backlog but dev hasn't started (no ph-WIP state label)
+- **Spill Over** — cards that could not be completed in the current iteration and were moved out (ph-WIP `Spill Over` label)
 
 ## Shipped (0)
 
@@ -98,7 +101,13 @@ cards_open: 2
 | ZI-025 | [#370219](../../zendesk/summaries/370219.md) | [Link](https://trello.com/c/fLfH0osZ) |
 | ZI-033 | [#373991](../../zendesk/summaries/373991.md) | [Link](https://trello.com/c/vxt5hVgw) |
 
-## Still Open (5)
+## Spill Over (1)
+
+| ZI | Ticket | Card |
+|----|--------|------|
+| ZI-058 | [#380339](../../zendesk/summaries/380339.md) | [Link](https://trello.com/c/sSi9UvRe) |
+
+## Still Open (4)
 
 ### QA READY (3)
 
@@ -112,12 +121,11 @@ cards_open: 2
 
 *No cards in this state*
 
-### Open / not started (2)
+### Open / not started (1)
 
 | ZI | Ticket | Card |
 |----|--------|------|
 | ZI-043 | [#377526](../../zendesk/summaries/377526.md) | [Link](https://trello.com/c/zeDfg5F5) |
-| ZI-058 | [#380339](../../zendesk/summaries/380339.md) | [Link](https://trello.com/c/sSi9UvRe) |
 
 ## Notes
 
