@@ -45,6 +45,8 @@ STATE_LABEL_NAMES = [
 STATE_EXPECTATIONS = {
     'Shipped': ['SHIPPED', 'PROD'],
     'Ready To Ship': ['QA_VERIFIED'],
+    'Support Closed': ['Closed by Support', 'Closed By Support', 'SL: Closed by Support', 'SL: Closed By Support'],
+    'Unsupported Partnership': ['Unsupported Partnership For Carrier'],
     'QA READY': ['Dev Done', 'Ready for QA', 'QA Reported'],
     'DEV': ['DEV'],
     'BUG REPORTED': ['BUG REPORTED'],
@@ -95,6 +97,7 @@ def parse_release_file(tag_slug):
         'cards_shipped': int(frontmatter.get('cards_shipped', 0)),
         'cards_ready_to_ship': int(frontmatter.get('cards_ready_to_ship', 0)),
         'cards_support_closed': int(frontmatter.get('cards_support_closed', 0)),
+        'cards_unsupported_partnership': int(frontmatter.get('cards_unsupported_partnership', 0)),
         'cards_bug_reported': int(frontmatter.get('cards_bug_reported', 0)),
         'cards_open': int(frontmatter.get('cards_open', 0)),
     }
@@ -126,6 +129,8 @@ def parse_release_file(tag_slug):
     sections = [
         ('Shipped', r'## Shipped \(\d+\)(.*?)(?=##|$)'),
         ('Ready To Ship', r'## Ready To Ship \(\d+\)(.*?)(?=##|$)'),
+        ('Support Closed', r'## Support Closed \(\d+\)(.*?)(?=##|$)'),
+        ('Unsupported Partnership', r'## Unsupported Partnership \(\d+\)(.*?)(?=##|$)'),
         ('BUG REPORTED', r'## BUG REPORTED \(\d+\)(.*?)(?=##|$)'),
         ('QA READY', r'### QA READY \(\d+\)(.*?)(?=###|##|$)'),
         ('DEV', r'### DEV \(\d+\)(.*?)(?=###|##|$)'),
@@ -286,10 +291,14 @@ def validate_snapshot(tag):
     # Compare frontmatter counts vs table counts
     fm_shipped = release_data['counts_fm']['cards_shipped']
     fm_ready = release_data['counts_fm']['cards_ready_to_ship']
+    fm_support_closed = release_data['counts_fm']['cards_support_closed']
+    fm_unsupported = release_data['counts_fm']['cards_unsupported_partnership']
     fm_total = release_data['counts_fm']['cards_total']
 
     table_shipped = release_data['counts_table'].get('Shipped', 0)
     table_ready = release_data['counts_table'].get('Ready To Ship', 0)
+    table_support_closed = release_data['counts_table'].get('Support Closed', 0)
+    table_unsupported = release_data['counts_table'].get('Unsupported Partnership', 0)
     table_total = release_data['counts_table'].get('Total', 0)
 
     if fm_shipped != table_shipped:
@@ -297,6 +306,12 @@ def validate_snapshot(tag):
 
     if fm_ready != table_ready:
         count_mismatches.append(f"Ready To Ship: frontmatter={fm_ready}, table={table_ready}")
+
+    if fm_support_closed != table_support_closed:
+        count_mismatches.append(f"Support Closed: frontmatter={fm_support_closed}, table={table_support_closed}")
+
+    if fm_unsupported != table_unsupported:
+        count_mismatches.append(f"Unsupported Partnership: frontmatter={fm_unsupported}, table={table_unsupported}")
 
     if fm_total != table_total:
         count_mismatches.append(f"Total: frontmatter={fm_total}, table={table_total}")

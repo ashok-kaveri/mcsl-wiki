@@ -797,7 +797,7 @@ Three subcommands that close the loop between Trello + Zendesk and the wiki, **p
 
 **Delta anchor**: per-release `git_reference` in `wiki/product/releases/<TAG-slug>.md` frontmatter. snapshot sets it on first creation; sync advances it every run. No separate state file.
 
-## 6-State Legend (coarsening for release reports)
+## 8-State Legend (coarsening for release reports)
 
 Release views classify each tagged StoryLab card by the HIGHEST-precedence **label** found on ANY matching ph-WIP card (matched by Zendesk ticket ID in the card name/desc/attachments/comments). Lane membership is NOT used for state — labels are the authoritative delivery signal.
 
@@ -809,29 +809,37 @@ Release views classify each tagged StoryLab card by the HIGHEST-precedence **lab
 SHIPPED  >  PROD  >  QA_VERIFIED  >  QA Reported  >  Ready for QA  >  Dev Done  >  DEV
 ```
 
-**Coarsening to 6-state legend**:
+**Coarsening to 8-state legend**:
 
-| Legend state | ph-WIP label name(s) | Meaning |
-|--------------|----------------------|---------|
-| `Shipped` | `SHIPPED`, `PROD` | Deployed to production |
-| `Ready To Ship` | `QA_VERIFIED` | QA verified, ready to deploy |
-| `BUG REPORTED` | `BUG REPORTED` | Bug found in QA |
-| `QA READY` | `QA Reported`, `Ready for QA`, `Dev Done` | In QA testing (not yet verified) |
-| `DEV` | `DEV` | Active development |
-| `Open (not started)` | NO state label on any matching ph-WIP card | Not started |
-| `Support Closed` | StoryLab card carries `Closed by Support` (or `SL: Closed By Support` — both names map to the same state, case-insensitive) label | Closed without code (precedence — overrides any ph-WIP state) |
+| Legend state | Label source | Label name(s) | Meaning |
+|--------------|--------------|---------------|---------|
+| `Shipped` | ph-WIP | `SHIPPED`, `PROD` | Deployed to production |
+| `Ready To Ship` | ph-WIP | `QA_VERIFIED` | QA verified, ready to deploy |
+| `Support Closed` | StoryLab | `Closed by Support`, `SL: Closed By Support` | Closed by support without code (case-insensitive) |
+| `Unsupported Partnership` | StoryLab | `Unsupported Partnership For Carrier` | Unsupported carrier/partnership (case-insensitive) |
+| `BUG REPORTED` | ph-WIP | `BUG REPORTED` | Bug found in QA |
+| `QA READY` | ph-WIP | `QA Reported`, `Ready for QA`, `Dev Done` | In QA testing (not yet verified) |
+| `DEV` | ph-WIP | `DEV` | Active development |
+| `Open (not started)` | (none) | NO state label on any matching ph-WIP card | Not started |
+
+**Label precedence rules**:
+1. StoryLab closure labels (`Support Closed`, `Unsupported Partnership`) **override** any ph-WIP state
+2. Within ph-WIP labels, precedence follows the order above (SHIPPED > PROD > QA_VERIFIED > ...)
+3. If NO labels found → `Open (not started)`
 
 **Do NOT exclude SL-copy cards** (cards named `From SL: ...` in `SL <tag>: Iteration backlog` lanes). Devs often apply state labels directly to the SL-copy rather than creating separate dev cards. Search ALL ph-WIP matches for state labels.
 
-**Closed** = {Shipped, Support Closed}. **Open** = {Open, DEV, BUG REPORTED, QA READY, Ready To Ship}. Ship refuses non-terminal cards unless `--force`.
+**Closed** = {Shipped, Support Closed, Unsupported Partnership}. **Open** = {Open, DEV, BUG REPORTED, QA READY, Ready To Ship}. Ship refuses non-terminal cards unless `--force`.
 
 **Ignored labels** (noise, not part of the release state machine): `READY FOR DEPLOY`, `L3-DEV`, `DEV_ONLY`, `Completed`.
 
 ## Per-card closure (Trello-native)
 
-Users close a card **manually on Trello** — no skill subcommand needed:
+Users close a card **manually on Trello** — no skill subcommand needed.
 
-1. Move the StoryLab card to `Closed by Support` (or `SL: Closed By Support` — both names map to the same state, case-insensitive) label
+### Support Closed (requires close-reason comment)
+
+1. Add `Closed by Support` or `Closed By Support` or `SL: Closed by Support` or `SL: Closed By Support` label to the StoryLab card (case-insensitive matching)
 2. Add a comment on the card with a structured reason:
    ```
    [close-reason: <kind>] <optional detail>
@@ -839,6 +847,12 @@ Users close a card **manually on Trello** — no skill subcommand needed:
    where `<kind>` ∈ {`dup-of=ZI-NNN`, `wontfix`, `stale`, `customer-resolved`, `out-of-scope`, `superseded-by=ZI-NNN`}.
 
 snapshot and ship parse these comments (newest-first, first match wins) and surface the reason in the `## Support Closed` section of release.md. Missing reason → flagged but not fatal.
+
+### Unsupported Partnership (no close-reason needed)
+
+1. Add `Unsupported Partnership For Carrier` label to the StoryLab card (case-insensitive matching)
+
+No close-reason comment required — the label is self-explanatory (carrier/partnership not supported by the platform).
 
 ## Shared Utilities (Mode 3)
 
@@ -888,7 +902,46 @@ Return ALL matching label IDs as a list (can be empty, 1, or 2 IDs). This ensure
 If no matches found for either variant, list available labels and ask user to pick (same pattern as Mode 1 Step 1).
 
 ### `resolve_support_closed_label_ids(storylab_board_id)`
-Look up labels on StoryLab whose name (case-insensitive, trimmed) equals either `Closed by Support` OR `SL: Closed By Support`. Return the **set** of matching label IDs (can be empty, one, or more than one — both names might exist, and each could have multiple color-variants). A card is "Support Closed" if ANY of its label IDs is in this set. **Do NOT auto-create** — user controls board structure. If the set is empty, warn once and treat all cards as not-Support-Closed.
+Look up labels on StoryLab whose name (case-insensitive, trimmed) matches ANY of these variants:
+- `Closed by Support` (lowercase "by")
+- `Closed By Support` (uppercase "By")
+- `SL: Closed by Support`
+- `SL: Closed By Support`
+
+**Implementation:**
+```python
+GET /boards/{storylab_board_id}/labels?fields=name,id&limit=1000
+
+# All variants (case-insensitive matching, so we normalize to lowercase)
+support_closed_variants = [
+    'closed by support',  # Handles both "Closed by Support" and "Closed By Support"
+    'sl: closed by support'  # Handles both "SL: Closed by Support" and "SL: Closed by Support"
+]
+
+support_closed_label_ids = set()
+for label in labels:
+    label_name_lower = label['name'].strip().lower()
+    if label_name_lower in support_closed_variants:
+        support_closed_label_ids.add(label['id'])
+```
+
+Return the **set** of matching label IDs (can be empty, one, or more than one — both names might exist, and each could have multiple color-variants). A card is "Support Closed" if ANY of its label IDs is in this set. **Do NOT auto-create** — user controls board structure. If the set is empty, warn once and treat all cards as not-Support-Closed.
+
+### `resolve_unsupported_partnership_label_ids(storylab_board_id)`
+Look up labels on StoryLab whose name (case-insensitive, trimmed) equals `Unsupported Partnership For Carrier`.
+
+**Implementation:**
+```python
+GET /boards/{storylab_board_id}/labels?fields=name,id&limit=1000
+
+unsupported_partnership_label_ids = set()
+for label in labels:
+    label_name_lower = label['name'].strip().lower()
+    if label_name_lower == 'unsupported partnership for carrier':
+        unsupported_partnership_label_ids.add(label['id'])
+```
+
+Return the **set** of matching label IDs (can be empty, one, or more than one — multiple color-variants may exist). A card is "Unsupported Partnership" if ANY of its label IDs is in this set. **Do NOT auto-create** — user controls board structure. If the set is empty, warn once and treat all cards as not-Unsupported-Partnership.
 
 ### `resolve_ph_wip_state_labels(ph_wip_board_id)`
 Fetch all ph-WIP labels with `limit=1000` (the default limit is 50 — missing this causes silent truncation). Build a map of `{state_name: set(label_ids)}` for each of the 8 state-label names: `SHIPPED`, `PROD`, `BUG REPORTED`, `QA_VERIFIED`, `QA Reported`, `Ready for QA`, `Dev Done`, `DEV`. ph-WIP has multiple labels with the same name (different colors) — treat them as equivalent.
@@ -956,11 +1009,12 @@ Walks the 8 state-label names in precedence order (`SHIPPED`, `PROD`, `BUG REPOR
 
 **Important**: do NOT filter out SL-copy cards (named `From SL: ...` in `SL <tag>: Iteration backlog` lane). Devs often apply state labels directly to the SL-copy — this is the primary signal source.
 
-### `coarsen_state(storylab_card, ph_wip_label_name_or_none)`
-Decision order:
-1. If `support_closed_label_id` is set AND `storylab_card.idLabels` contains it → return `Support Closed`.
-2. If `ph_wip_label_name_or_none is None` → return `Open (not started)`.
-3. Map the ph-WIP label name:
+### `coarsen_state(storylab_card, ph_wip_label_name_or_none, support_closed_label_ids, unsupported_partnership_label_ids)`
+Decision order (StoryLab closure labels override ph-WIP state):
+1. If `support_closed_label_ids` is not empty AND `storylab_card.idLabels` contains any ID from this set → return `Support Closed`.
+2. If `unsupported_partnership_label_ids` is not empty AND `storylab_card.idLabels` contains any ID from this set → return `Unsupported Partnership`.
+3. If `ph_wip_label_name_or_none is None` → return `Open (not started)`.
+4. Map the ph-WIP label name:
    - `SHIPPED` or `PROD` → `Shipped`
    - `QA_VERIFIED` → `Ready To Ship`
    - `BUG REPORTED` → `BUG REPORTED`
@@ -1147,6 +1201,7 @@ else:
 **Step 2 — Fetch Trello state**:
 - `resolve_tag_label(board_id, tag)` → `tag_label_id`
 - `resolve_support_closed_label_ids(board_id)` → `support_closed_label_ids` (set, or empty with warning)
+- `resolve_unsupported_partnership_label_ids(board_id)` → `unsupported_partnership_label_ids` (set, or empty with warning)
 - `fetch_tagged_storylab_cards(board_id, tag_label_id, lane)` → tagged cards (filtered by lane if specified)
 - `fetch_all_card_comments(board_id)` → source board comments by cardId (for close-reason parsing)
 - `fetch_ph_wip_snapshot()` → ph-WIP cards + lane map (only if board != PH_WIP_BOARD; else skip for efficiency)
@@ -1162,8 +1217,10 @@ else:
 - `close_reason = parse_close_reason(storylab_comments[card.id])`
 - If `None`: flag the card in "cards missing close-reason" count
 
+For cards where `state == "Unsupported Partnership"`: No close-reason parsing needed (label is self-explanatory).
+
 **Step 5 — Sort & group**:
-Sort buckets: PROD → Support Closed → BUG REPORTED → QA READY → DEV → Open (not started).
+Sort buckets: Shipped → Ready To Ship → Support Closed → Unsupported Partnership → BUG REPORTED → QA READY → DEV → Open (not started).
 
 **Step 6 — Rewrite release.md body** (preserving protected frontmatter fields from Step 1):
 
@@ -1186,6 +1243,7 @@ cards_total: <N>
 cards_shipped: <N>
 cards_ready_to_ship: <N>
 cards_support_closed: <N>
+cards_unsupported_partnership: <N>
 cards_bug_reported: <N>
 cards_open: <N>
 ---
@@ -1201,6 +1259,7 @@ cards_open: <N>
 | Shipped | <N> |
 | Ready To Ship | <N> |
 | Support Closed | <N> |
+| Unsupported Partnership | <N> |
 | BUG REPORTED | <N> |
 | QA READY | <N> |
 | DEV | <N> |
@@ -1212,6 +1271,7 @@ cards_open: <N>
 - **Shipped** — deployed to production (ph-WIP SHIPPED or PROD label)
 - **Ready To Ship** — QA verified, ready to deploy (ph-WIP QA_VERIFIED label)
 - **Support Closed** — StoryLab card has `Closed by Support` (or `SL: Closed By Support` — both names map to the same state, case-insensitive) label; closed without code via support action
+- **Unsupported Partnership** — StoryLab card has `Unsupported Partnership For Carrier` label (case-insensitive); unsupported carrier/partnership
 - **BUG REPORTED** — code is in QA, bug has been reported (ph-WIP BUG REPORTED label)
 - **QA READY** — code complete, in QA (ph-WIP Dev Done, Ready for QA, or QA Reported labels — NOT yet verified)
 - **DEV** — active development (ph-WIP DEV label)
@@ -1234,6 +1294,12 @@ cards_open: <N>
 | ZI | Ticket | Reason | Detail | Card |
 |----|--------|--------|--------|------|
 | ZI-NNN | [#NNNNNN](../../zendesk/summaries/NNNNNN.md) | <kind> | <detail or ZI-ref> | [SL](shortUrl) |
+
+## Unsupported Partnership (<N>)
+
+| ZI | Ticket | Theme | Card |
+|----|--------|-------|------|
+| ZI-NNN | [#NNNNNN](../../zendesk/summaries/NNNNNN.md) | ... | [SL](shortUrl) |
 
 ## BUG REPORTED (<N>)
 
@@ -1337,7 +1403,7 @@ If ANY mismatches found, report them as warnings and suggest re-running with fre
 ## Snapshot <TAG>
 - File: wiki/product/releases/<TAG-slug>.md (created | refreshed)
 - Board: <board_id>
-- Cards total: N  (Shipped: N, Ready To Ship: N, Support Closed: N, BUG REPORTED: N, QA READY: N, DEV: N, Open: N)
+- Cards total: N  (Shipped: N, Ready To Ship: N, Support Closed: N, Unsupported Partnership: N, BUG REPORTED: N, QA READY: N, DEV: N, Open: N)
 - State labels found: 8/8 ✓ (or list missing)
   - SHIPPED: N label(s)
   - PROD: N label(s)
@@ -1347,9 +1413,12 @@ If ANY mismatches found, report them as warnings and suggest re-running with fre
   - QA Reported: N label(s)
   - Ready for QA: N label(s)
   - BUG REPORTED: N label(s)
+- StoryLab closure labels found:
+  - Support Closed: N label(s)
+  - Unsupported Partnership: N label(s)
 - Verification: N sample cards checked, 0 mismatches ✓
 - git_reference: <unchanged | set to HEAD on first snapshot>
-- Cards missing close-reason: N
+- Cards missing close-reason: N (Support Closed only)
 - Cards without ph-WIP match: N
 - Drift: N cards dropped since last snapshot  (if any)
 - Warnings: <list>
