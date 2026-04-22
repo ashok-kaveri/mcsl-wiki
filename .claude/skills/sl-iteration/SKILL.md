@@ -1,7 +1,7 @@
 ---
 name: sl-iteration
 description: Copy release-tagged cards from StoryLab to ph-WIP as iteration backlog, run AI code analysis on ph-WIP cards, refresh ph-WIP cards from StoryLab updates, and run the release closure workflow (sync / snapshot / ship) for a release tag. Use when the user wants to plan an iteration, move story cards to ph-WIP, analyze cards, refresh ph-WIP cards from StoryLab, sync Zendesk deltas to a release, snapshot a release's Trello state into the wiki, ship/close a release, or says "sl-iteration".
-argument-hint: <release-tag> | <release-tag> ZI-NNN | analyze <tag> <ZI-NNN|next|all|@name> | reassess <ZI-NNN> | remove <release-tag> ZI-NNN | sync-single ZI-NNN [--name] [--desc] [--labels] | sync <tag> [board] [lane] [--no-sync] | snapshot <tag> [board] [lane] [--no-sync] | ship <tag> [board] [lane] [--no-sync] [--force]
+argument-hint: <release-tag> | <release-tag> ZI-NNN | analyze <tag> <ZI-NNN|next|all|@name> | reassess ZI-NNN [--release-tag <tag>] | remove <release-tag> ZI-NNN | sync-single ZI-NNN [--name] [--desc] [--labels] | sync <tag> [board] [lane] [--no-sync] | snapshot <tag> [board] [lane] [--no-sync] | ship <tag> [board] [lane] [--no-sync] [--force]
 allowed-tools: Bash, Read, Write, Edit, Glob, Grep, Agent, WebFetch, TodoWrite, AskUserQuestion
 disable-model-invocation: false
 ---
@@ -23,7 +23,7 @@ Six modes:
 - `analyze <release-tag> next` — Mode 2 analyze the next unanalyzed card in the named ph-WIP lane
 - `analyze <release-tag> all` — Mode 2 analyze all unanalyzed cards in the named ph-WIP lane
 - `analyze <release-tag> @<name>` — Mode 2 analyze only cards assigned to a member (matches by username or full name)
-- `reassess <ZI-NNN>` — Mode 2 re-run analysis (ph-WIP lane auto-detected)
+- `reassess ZI-NNN [--release-tag <tag>]` — Mode 2 re-run analysis (searches all SL lanes, or scoped to release-tag if provided)
 - `remove <release-tag> ZI-NNN` — Mode 5 remove release tag label from a ph-WIP card
 - `sync-single ZI-NNN [--name] [--desc] [--labels]` — Mode 6 refresh ph-WIP card from StoryLab (default: all three if no flags)
 - `sync <release-tag> [board] [lane]` — Mode 3a: diff Zendesk JSONs vs the release's last `git_reference`, regen summaries, post compact delta comments on tagged StoryLab cards (optionally filtered to a specific lane)
@@ -43,6 +43,8 @@ Six modes:
 - `/sl-iteration analyze MCSL 377 all` — Mode 2 analyze all cards in `SL MCSL 377: Iteration backlog`
 - `/sl-iteration analyze MCSL 377 @ajeesh` — Mode 2 analyze cards assigned to Ajeesh
 - `/sl-iteration analyze MCSL 377 ZI-035` — Mode 2 analyze ZI-035
+- `/sl-iteration reassess ZI-035` — Mode 2 reassess ZI-035 (searches all SL lanes)
+- `/sl-iteration reassess ZI-035 --release-tag MCSL 377` — Mode 2 reassess ZI-035 (scoped to MCSL 377 lane)
 - `/sl-iteration snapshot MCSL 377` — Mode 3b first-time snapshot (creates release.md baseline)
 - `/sl-iteration snapshot MCSL 377 63e1e0414b6026c45be1087c SL MCSL 377: Iteration backlog` — Mode 3b snapshot from ph-WIP board, filtered to specific lane
 - `/sl-iteration snapshot MCSL 377 --no-sync` — Mode 3b snapshot, skip submodule updates
@@ -399,7 +401,24 @@ Parse the `<release-tag>` from the argument. Then:
    Which lane?
    ```
 
-**For `reassess ZI-NNN`** (no release-tag argument): search ALL `SL *` lanes on ph-WIP for a card matching the ZI ID in its name. Use that card's lane.
+**For `reassess ZI-NNN [--release-tag <tag>]`**:
+- If `--release-tag <tag>` is provided: resolve the lane name `SL <tag>: Iteration backlog` (case-insensitive match), then search only that lane for the card
+- If no `--release-tag` flag: search ALL `SL *` lanes on ph-WIP for a card matching the ZI ID in its name, use the first match found
+
+**Argument parsing for reassess**:
+```python
+import re
+
+tokens = args.split()  # ["reassess", "ZI-NNN", "--release-tag", "MCSL", "377"]
+zi_id = tokens[1] if len(tokens) > 1 else None
+
+# Check for --release-tag flag
+release_tag = None
+if '--release-tag' in tokens:
+    tag_idx = tokens.index('--release-tag')
+    # Collect all tokens after --release-tag as the tag (may be multi-word)
+    release_tag = ' '.join(tokens[tag_idx + 1:])
+```
 
 ### Step 1: Read ALL context from the card
 
@@ -808,8 +827,13 @@ Wait for user to say "next" before processing the next card.
 
 ## Reassessment
 
-When user says `reassess ZI-NNN`:
+When user says `reassess ZI-NNN [--release-tag <tag>]`:
 
+**Lane resolution**:
+- If `--release-tag <tag>` provided: search only in `SL <tag>: Iteration backlog` lane for the card
+- If no `--release-tag`: search ALL `SL *` lanes on ph-WIP for a card matching the ZI ID, use the first match found
+
+**Reassessment flow**:
 1. Re-run Steps 1-6 for that card
 2. Step 1 picks up new context (comments, enriched description)
 3. Step 4 may produce a **different confidence level** (can go up or down)
