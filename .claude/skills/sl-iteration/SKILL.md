@@ -184,6 +184,23 @@ This is sequential but reliable — the main thread has full Bash access.
 
 **Never assign more than 3 cards to a single agent.** This is a hard constraint learned from production runs where 9-card batches produced deep analysis for only the first 2-3 cards.
 
+### 4. Blast-Radius Analysis Prerequisites (Mode 2 only)
+
+**Mode 2 analyze uses `/find-co-dependencies --derive-actionable-items`** to generate comprehensive implementation checklists. This requires the following dependency maps to exist:
+
+| Map | Built by | Check existence |
+|-----|----------|----------------|
+| Test coverage | `/reverse-test-coverage build` | `wiki/architecture/reverse-test-coverage.md` |
+| Code coupling | `/git-co-change-graph delta` | `wiki/architecture/coupling-map.md` |
+| ZI area coupling | `/zendesk-overlap build` | `wiki/zendesk/area-coupling.md` |
+
+**If maps are missing**:
+- Card analysis continues without blast-radius recommendations
+- A note is added to the card: "⚠️ Run `/find-co-dependencies build` to enable blast-radius analysis"
+- User can run `/find-co-dependencies build` once, then `reassess ZI-NNN` to regenerate with full recommendations
+
+**Recommended**: Run `/find-co-dependencies build` before first use of Mode 2 analyze to ensure all maps are available.
+
 ---
 
 ## Board IDs
@@ -344,6 +361,18 @@ curl -s -X POST "https://api.trello.com/1/cards?key=$TRELLO_API_KEY&token=$TRELL
 
 # Mode 2: Analyze Cards
 
+## Overview
+
+Mode 2 performs comprehensive AI-assisted code analysis on ph-WIP cards, combining:
+1. **Code search & analysis** — locate affected files, understand root cause
+2. **Blast-radius analysis** — identify technical coupling via `/find-co-dependencies`
+3. **Actionable recommendations** — generate acceptance criteria, test plans, review checklists
+
+**Output**: ph-WIP card description updated with:
+- Affected files and root cause
+- Suggested implementation approach
+- Complete implementation checklist with test/review/validation recommendations
+
 ## Confidence Levels
 
 | Level | Criteria |
@@ -416,6 +445,57 @@ Search `raw/mcsl-test-automation/` using Grep for related Playwright tests. Cros
 
 Based on Steps 1-3 results, assign: HIGH, MEDIUM, LOW, or POOR.
 
+### Step 4.5: Run blast-radius analysis
+
+**For HIGH / MEDIUM / LOW confidence only** (skip for POOR):
+
+Invoke `/find-co-dependencies` with `--derive-actionable-items` to identify technical coupling and generate actionable recommendations:
+
+**Choose the appropriate mode**:
+
+1. **If specific files identified** (HIGH/MEDIUM confidence with file paths):
+   ```bash
+   /find-co-dependencies query <primary-file-path> --derive-actionable-items
+   ```
+   Example: If analysis identified `server/src/shared/orders/OrderProcessingService.js` as the primary file
+
+2. **If area/domain identified but not specific files** (MEDIUM/LOW confidence):
+   ```bash
+   /find-co-dependencies query <area> --derive-actionable-items
+   ```
+   Example: If analysis identified `label-generation` area
+
+   **Area mapping** (use these for query):
+   - Carrier-related → `carrier-config`
+   - Label generation → `label-generation`
+   - Order processing → `order-management`
+   - International/customs → `international`
+   - Rates/pricing → `rate-shopping`
+   - Tracking → `tracking`
+   - Returns → `returns`
+
+3. **If conceptual/feature-based** (LOW confidence or architectural):
+   ```bash
+   /find-co-dependencies semantic "<card description>" --derive-actionable-items
+   ```
+   Use when the issue is more conceptual (UX flow, business logic) than code-specific
+
+**Process the output** into the checklist format (Step 5):
+
+From find-co-dependencies output, extract and transform:
+
+1. **Must-Pass** — Direct test coverage from "Automated Tests (Starting Point)" where Priority=MUST
+2. **Regression Watch** — High-coupling files (≥10 co-changes) from "Suggested Code Review Checklist"
+3. **Manual Spot-Check** — ZI area overlaps from "Suggested Customer Validation Scenarios", ranked by ticket count × co-change count
+4. **Done Definition** — Synthesize from Must-Pass tests + top 2-3 manual scenarios
+
+**Format as checkboxes** for developer action (not completed yet).
+
+**If find-co-dependencies fails** (cache not built, skill error):
+- Skip blast-radius analysis
+- Include note in analysis: "⚠️ Run `/find-co-dependencies build` to enable blast-radius analysis"
+- Continue with Step 5
+
 ### Step 5: Write analysis
 
 **For HIGH / MEDIUM / LOW** — build this markdown:
@@ -445,8 +525,144 @@ Based on Steps 1-3 results, assign: HIGH, MEDIUM, LOW, or POOR.
 - Existing: <test file paths covering this area, or "None">
 - Needed: <what tests should be added>
 
-**Blast Radius**:
-<what else could break if this code is changed — other carriers, other features, shared modules>
+**Blast Radius Summary**:
+<1-2 sentence overview: what else could break if this code is changed — other carriers, other features, shared modules>
+
+---
+
+## 🎯 Implementation Checklist
+
+**Note**: LLM-generated from blast-radius analysis. Review and adapt to your implementation.
+
+### Acceptance Criteria to Verify
+
+**Must-Pass (Direct Test Coverage)**
+These specs directly exercise the affected files — all must pass before merge:
+
+<For each test suite from direct coverage (output_mode=content):>
+- [ ] `{test_path}` — {what it tests}
+
+**Regression Watch (Indirect via Co-Change Partners)**
+These aren't direct tests but break historically when this code changes:
+
+<For each high-coupling file (≥10 co-changes):>
+- [ ] {Feature area} still works — `{coupled_file}` co-changes {N}×; verify {specific behavior to check}
+
+### Features to Manually Spot-Check
+
+Ranked by customer impact (ticket volume × code coupling):
+
+**{Area 1} ({N} tickets, {M} co-changes)** — highest blast radius
+- {Specific scenario to test}
+- {Another scenario}
+
+**{Area 2} ({N} tickets, {M} co-changes)**
+- {Scenario}
+
+**{Area 3} ({N} tickets, {M} co-changes)**
+- {Scenario}
+
+### "Done" Definition for This Card
+
+Before marking complete, the developer should be able to confirm:
+
+| Check | Method |
+|-------|--------|
+| All {N} direct spec suites pass | Run Playwright specs |
+| {High-risk feature 1} | {How to verify} |
+| {High-risk feature 2} | {How to verify} |
+| {Top customer scenario} | {How to verify} |
+
+**The two highest-risk items to not skip**: {item 1} (most customer tickets) and {item 2} (most code coupling).
+
+<If blast-radius analysis was skipped (POOR confidence or analysis failed), omit this entire section.>
+```
+
+**Markdown structure notes**:
+- The "Blast Radius Summary" section provides a high-level overview (keep concise)
+- The "🎯 Implementation Checklist" section includes the full actionable items from find-co-dependencies
+- Use `---` horizontal rule to visually separate the code analysis from the implementation checklist
+- Preserve all review prompts (💡) and formatting from find-co-dependencies output
+
+**Example complete card output** (HIGH confidence with blast-radius):
+
+```markdown
+https://trello.com/c/abc123
+
+---
+
+## AI Code Analysis
+
+**Confidence**: HIGH
+
+**Affected Files**:
+- `server/src/shared/orders/labelGeneration.js:234` — Label generation logic for FedEx, handles customs data
+- `server/src/shared/API/carriers/FedExAdaptor.js:567` — FedEx API integration, buildLabelRequest function
+
+**Root Cause / Gap**:
+FedEx REST API requires `customsValue` field in commercialInvoice object, but current code only sends `customsValue` at shipment level. API rejects with "Missing required field: commercialInvoice.customsValue".
+
+**Suggested Approach**:
+- Update `labelGeneration.js` to extract `customsValue` from order items
+- Modify `FedExAdaptor.buildLabelRequest()` to include `customsValue` in commercialInvoice object
+- Add validation to ensure customs value is present for international FedEx shipments
+
+**Test Coverage**:
+- Existing: `specialServices/customsDeclaration.spec.ts` covers customs data entry
+- Needed: Add test for FedEx international label generation with customs value
+
+**Blast Radius Summary**:
+Changes affect FedEx carrier integration and customs handling. Other carriers (UPS, USPS) use different customs field structure, should not be impacted. International shipping workflow and label generation UI may need validation updates.
+
+---
+
+## 🎯 Implementation Checklist
+
+**Note**: LLM-generated from blast-radius analysis. Review and adapt to your implementation.
+
+### Acceptance Criteria to Verify
+
+**Must-Pass (Direct Test Coverage)**
+These specs directly exercise the affected files — all must pass before merge:
+
+- [ ] `specialServices/customsDeclaration.spec.ts` — customs data entry and validation
+- [ ] `orderGrid/labelGenerationFromGrid/generateLabels.spec.ts` — label generation from order grid
+
+**Regression Watch (Indirect via Co-Change Partners)**
+These aren't direct tests but break historically when this code changes:
+
+- [ ] Label generation for other carriers — `labelGeneration.js` co-changes 45×; verify UPS, USPS international labels still generate
+- [ ] Carrier adapter integrity — `CarrierAdaptorFactory.js` co-changes 28×; confirm FedEx routing unchanged for non-international shipments
+
+### Features to Manually Spot-Check
+
+Ranked by customer impact (ticket volume × code coupling):
+
+**International shipping (12 tickets, 45 co-changes)** — highest blast radius
+- Generate FedEx international label with commercial invoice (single item)
+- Generate FedEx international label with multiple line items (verify customs value aggregation)
+- Verify customs declaration fields appear on label PDF
+
+**Carrier config (8 tickets, 34 co-changes)**
+- Switch order's carrier from UPS to FedEx after initial assignment
+- Verify rate fetch still works for FedEx international services
+
+**Label generation workflow (6 tickets, 87 co-changes)**
+- Batch label generation from grid with mixed domestic/international orders
+- Verify international labels don't block batch if customs data missing
+
+### "Done" Definition for This Card
+
+Before marking complete, the developer should be able to confirm:
+
+| Check | Method |
+|-------|--------|
+| All 2 direct spec suites pass | Run Playwright specs |
+| FedEx international label with customs | Manual: Create order, generate label, verify commercial invoice |
+| Other carriers unaffected | Manual: Generate UPS/USPS international label |
+| Batch processing intact | Manual: Generate 5 labels (3 domestic, 2 international) |
+
+**The two highest-risk items to not skip**: international label generation (most customer tickets) and label generation workflow (most code coupling).
 ```
 
 **For POOR** — one-liner only:
@@ -493,6 +709,22 @@ Print for user review:
 - Confidence level
 - Key affected files (top 3)
 - Root cause summary (1 sentence)
+- Blast-radius: ✓ included (or "⚠️ skipped - maps not built")
+
+**Report format**:
+```
+✅ Analyzed: ZI-NNN — <card title>
+
+Confidence: HIGH
+Affected files: 3 (labelGeneration.js, FedExAdaptor.js, OrderHelper.js)
+Root cause: FedEx REST API requires customsValue in commercialInvoice object
+
+Implementation checklist: ✓
+- Must-Pass: 2 test suites
+- Regression Watch: 2 high-coupling areas
+- Manual Spot-Check: 3 features (ranked by impact)
+- Done Definition: 4 checks before merge
+```
 
 Wait for user to say "next" before processing the next card.
 
@@ -503,10 +735,13 @@ When user says `reassess ZI-NNN`:
 1. Re-run Steps 1-6 for that card
 2. Step 1 picks up new context (comments, enriched description)
 3. Step 4 may produce a **different confidence level** (can go up or down)
-4. Step 5 **replaces** the existing `## AI Code Analysis` section — does NOT append a second one
-5. Step 6 **removes old confidence label**, applies new one
+4. **Step 4.5 re-runs blast-radius analysis** with updated file/area targets
+5. Step 5 **replaces** the existing `## AI Code Analysis` section — does NOT append a second one
+6. Step 6 **removes old confidence label**, applies new one
 
 **Idempotency**: Parse existing desc, find `---\n\n## AI Code Analysis` marker, replace everything from there onward. Preserve the StoryLab link and any content between the link and the analysis marker.
+
+**Blast-radius updates**: Reassessment may identify different files/areas than the initial analysis, causing the implementation checklist to update with new recommendations. This is expected — the blast-radius reflects the current understanding of the issue.
 
 ## Finding the Next Unanalyzed Card
 
