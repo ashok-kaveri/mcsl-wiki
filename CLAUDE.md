@@ -310,9 +310,26 @@ When the user asks to "lint the wiki" or "health-check the KB":
 
 ## Test Coverage Workflow
 
-When the user asks to document test coverage (e.g., "Extract features from Playwright tests and update wiki"):
+When the user asks to document test coverage (e.g., "Generate features.md from regression tests and Playwright automation"):
 
-### 1. **Analyze Test Files**
+**Two-Source Strategy**: `features.md` integrates both regression scenarios (what SHOULD be tested) and automated tests (what IS tested) to provide complete coverage visibility and identify automation gaps.
+
+### 1. **Analyze Both Test Sources**
+
+#### A. Regression Test Scenarios (Manual Test Plan)
+
+**Source**: `raw/sheets/regression-scenarios.csv`
+
+**Steps**:
+1. Read the regression CSV to understand complete feature inventory
+2. Extract each test scenario with:
+   - Test ID/number (if available)
+   - Feature description (user-facing)
+   - Category/domain (orders, shipping, automation, etc.)
+   - Manual test status
+3. Group scenarios by feature category
+
+#### B. Playwright Automated Tests
 
 **Test Suite Location**: `raw/mcsl-test-automation/tests/`
 
@@ -330,43 +347,79 @@ find raw/mcsl-test-automation/tests -name "*.spec.ts" -o -name "*.spec.js"
 
 **Use Task tool with Explore agent** for comprehensive test analysis across all files.
 
+#### C. Map Regression to Automation
+
+**Mapping Process**:
+1. For each regression test, determine if a Playwright test covers it
+2. Match by feature description, test intent, or explicit test ID references
+3. Calculate automation confidence score (see Section 7)
+4. Flag regression gaps (tests without automation)
+5. Flag orphan automation (automated tests not in regression suite)
+
 ### 2. **Create/Update features.md**
 
 **Location**: `wiki/features.md`
 
-**Structure**:
+**Structure** (integrating both regression and automation):
+
 ```markdown
 # StorePep Features
 
-**Test Coverage**: X automated Playwright tests covering Y distinct features
+**Regression Test Suite**: X total test scenarios (complete feature inventory)
+**Automated Tests**: Y Playwright tests
+**Automation Coverage**: Y/X (Z%)
 **Last Updated**: YYYY-MM-DD
-**Test Suite**: mcsl-test-automation
+**Sources**: regression-scenarios, mcsl-test-automation
+
+---
 
 ## <Category Name> (e.g., Automation Rules)
 
-- Feature description in plain English
-- Another feature description
+### Regression Test Suite
 
-**Test Coverage**: X/Y tests passing
-**Documentation**: [Module Page](modules/<domain>/<module>.md)
+| # | Feature | Manual | Automated | Confidence | Test File | Wiki Reference |
+|---|---------|--------|-----------|------------|-----------|----------------|
+| 1 | Feature from regression sheet | 🔴 | ✅ | 🟢 95% | `path/to/test.spec.ts` | [Module](modules/path.md) |
+| 2 | Another feature from sheet | ✅ | 🔴 | 🔴 0% | — | [Module](modules/path.md) |
+| 3 | Feature with partial automation | 🔴 | ⚠️ | 🟡 75% | `path/to/partial.spec.ts` | [Module](modules/path.md) |
+
+**Automation Summary**:
+- Total regression tests: X
+- Automated tests: Y (Z%)
+- High confidence automation: N (>95%)
+- Medium confidence automation: M (70-94%)
+- Low/no automation: L (<70%)
+
+**Automated Test Files**:
+- `automationRules/totalWeightRange.spec.ts` - Covers regression #1, #3, #5
+- `automationRules/carrierSelection.spec.ts` - Covers regression #2, #4
+
+**Automation Gaps** (regression tests without automation):
+- 🔴 Regression #X: Feature description - [Module](modules/path.md)
 
 ---
 
 ## Test Coverage by Module
 
-| Module | Features Tested | Test Files | Coverage |
-|--------|----------------|------------|----------|
-| Module Name | X | Y | Z% |
+| Module | Total Features | Automated | Manual Only | Automation % |
+|--------|---------------|-----------|-------------|--------------|
+| Automation Rules | X | Y | Z | W% |
+| Label Generation | X | Y | Z | W% |
 
 ---
 
 ## Test Organization
 
-Tests are organized in:
+**Regression Test Suite**: `raw/sheets/regression-scenarios.csv`
+**Automated Tests**: `raw/mcsl-test-automation/tests/`
 ```
 mcsl-test-automation/tests/
-├── <category>/           (X tests)
-│   └── <subcategory>/
+├── automationRules/     (X tests)
+│   ├── automationCriteria/
+│   └── automationActions/
+├── orderGrid/           (Y tests)
+│   ├── actionMenu/
+│   └── labelGenerationFromGrid/
 └── ...
 ```
 
@@ -375,6 +428,7 @@ mcsl-test-automation/tests/
 ## Related Pages
 
 - [Module Page](modules/<domain>/<module>.md)
+- [Product Backlog](product/backlog.md) - Prioritized work items
 ```
 
 **Feature Description Guidelines**:
@@ -389,6 +443,17 @@ mcsl-test-automation/tests/
 - ✅ Good: "Generate labels and fulfill orders from order grid"
 - ❌ Bad: "Test automation rules" (not specific)
 - ❌ Bad: "OrderProcessingService handles weight-based routing" (technical)
+
+**Why This Comprehensive Approach Matters**:
+
+This two-source integration provides critical insights:
+
+1. **Automation Coverage** - What percentage of regression tests have automation
+2. **Automation Gaps** - Which critical features lack automated tests
+3. **Orphan Tests** - Automated tests not mapped to regression scenarios (may indicate missing documentation)
+4. **Confidence Scoring** - Quality/stability of automation per feature
+5. **Prioritization Data** - For product/backlog decisions: automate high-impact manual tests first
+6. **Feature Inventory** - Complete catalog of what the product should do (regression) vs what's verified (automation)
 
 ### 3. **Update Module Pages with Test Coverage**
 
@@ -473,18 +538,40 @@ mcsl-test-automation/tests/
 
 ### 6. **Maintain Test Coverage**
 
-**When tests change**:
+**When regression scenarios change** (re-exported CSV):
+1. User notifies of regression sheet update
+2. Re-read `raw/sheets/regression-scenarios.csv`
+3. Identify new/changed/removed regression tests
+4. Re-map to existing automation
+5. Update features.md with new regression rows
+6. Update coverage percentages
+7. Update module pages with new scenarios
+8. Log the update
+
+**When Playwright tests change** (new/modified .spec.ts files):
 1. User notifies of new/changed tests
 2. Re-analyze affected test files
-3. Update features.md with new features
-4. Update affected module pages
-5. Update coverage statistics
-6. Log the update
+3. Map new tests to regression scenarios (if applicable)
+4. Update features.md with new automation
+5. Update automation confidence scores
+6. Update affected module pages
+7. Update coverage statistics
+8. Log the update
+
+**When both change** (full resync):
+1. Re-read regression CSV
+2. Re-analyze all Playwright tests
+3. Rebuild complete mapping
+4. Regenerate features.md
+5. Update all module pages
+6. Log comprehensive resync
 
 **Coverage Health Checks**:
-- Flag modules with <50% test coverage
-- Identify critical workflows without tests
-- Suggest high-value tests to write
+- Flag modules with <50% automation coverage
+- Identify critical workflows without automation
+- Suggest high-value tests to automate (regression tests with high impact, no automation)
+- Flag low-confidence automation (<70%) for review
+- Identify orphan automation (not mapped to regression)
 
 ### 7. **Integrate Regression Test Suite**
 
@@ -1206,41 +1293,54 @@ At small scale (<100 pages), the index.md file is sufficient for finding relevan
 7. **Update index**: Add to Orders section
 8. **Log**: Document ingestion with test coverage stats
 
-### Example 2: Test Coverage Analysis Request
+### Example 2: Comprehensive Test Coverage Analysis
 
-**User Request**: "Extract features from Playwright tests and update wiki"
+**User Request**: "Generate features.md from regression tests and Playwright automation"
 
 **Workflow**:
-1. **Discover tests**:
+1. **Read regression scenarios**:
+   ```bash
+   # Read raw/sheets/regression-scenarios.csv
+   # Output: 150 total regression test scenarios
+   ```
+
+2. **Discover Playwright tests**:
    ```bash
    find raw/mcsl-test-automation/tests -name "*.spec.ts" | wc -l
-   # Output: 58 test files
+   # Output: 58 automated test files
    ```
 
-2. **Analyze all tests**: Use Task tool with Explore agent:
+3. **Analyze both sources**: Use Task tool with Explore agent:
    ```
-   Analyze all 58 test files and extract:
+   Analyze:
+   - 150 regression scenarios from CSV
+   - 58 Playwright test files
+   Extract and map:
    - User-facing feature descriptions
-   - Test file paths
-   - Module mappings
+   - Which regression tests have automation
+   - Automation confidence scores
+   - Gaps (regression without automation, automation without regression)
    ```
 
-3. **Create features.md**:
+4. **Create features.md**:
    - Organize by category (Automation, Orders, Shipping, etc.)
-   - List 95 distinct features
-   - Add test coverage summary table
+   - Table format: Regression # | Feature | Manual | Automated | Confidence | Test File
+   - Total: 150 regression tests, 95 distinct automated features
+   - Automation coverage: 63% (95/150)
+   - Automation gaps: 55 regression tests without automation
+   - Orphan automation: 12 Playwright tests not mapped to regression
 
-4. **Update module pages**: Add Test Coverage sections to:
-   - `order-bulk-actions.md` - 12 tests
-   - `label-generation.md` - 20 tests
-   - `automation-actions.md` - 11 tests
-   - `carrier-configuration.md` - 3 tests
-   - `shipment-tracking.md` - 1 test
-   - `platform-connectors.md` - 5 tests
+5. **Update module pages**: Add Test Coverage sections showing both regression and automation:
+   - `order-bulk-actions.md` - 18 regression tests, 12 automated (67%)
+   - `label-generation.md` - 32 regression tests, 20 automated (63%)
+   - `automation-actions.md` - 15 regression tests, 11 automated (73%)
+   - `carrier-configuration.md` - 8 regression tests, 3 automated (38%)
+   - `shipment-tracking.md` - 5 regression tests, 1 automated (20%)
+   - `platform-connectors.md` - 10 regression tests, 5 automated (50%)
 
-5. **Update index**: Add features.md link, update stats
+6. **Update index**: Add features.md link with coverage stats
 
-6. **Log**: Comprehensive test coverage activity entry
+7. **Log**: Comprehensive test coverage activity entry with regression + automation mapping
 
 ### Example 3: Feature Description Best Practices
 
