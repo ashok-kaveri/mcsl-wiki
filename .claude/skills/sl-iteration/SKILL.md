@@ -1,25 +1,29 @@
 ---
 name: sl-iteration
 description: Copy release-tagged cards from StoryLab to ph-WIP as iteration backlog, run AI code analysis on ph-WIP cards, and run the release closure workflow (sync / snapshot / ship) for a release tag. Use when the user wants to plan an iteration, move story cards to ph-WIP, analyze cards, sync Zendesk deltas to a release, snapshot a release's Trello state into the wiki, ship/close a release, or says "sl-iteration".
-argument-hint: <release-tag> | analyze <tag> <ZI-NNN|next|all|@name> | reassess <ZI-NNN> | sync <tag> [board] [lane] [--no-sync] | snapshot <tag> [board] [lane] [--no-sync] | ship <tag> [board] [lane] [--no-sync] [--force]
+argument-hint: <release-tag> | <release-tag> ZI-NNN | analyze <tag> <ZI-NNN|next|all|@name> | reassess <ZI-NNN> | remove <release-tag> ZI-NNN | sync <tag> [board] [lane] [--no-sync] | snapshot <tag> [board] [lane] [--no-sync] | ship <tag> [board] [lane] [--no-sync] [--force]
 allowed-tools: Bash, Read, Write, Edit, Glob, Grep, Agent, WebFetch, TodoWrite, AskUserQuestion
 disable-model-invocation: false
 ---
 
 # StoryLab to ph-WIP Iteration Backlog, plus Release Closure
 
-Three modes:
+Five modes:
 - **copy** (Mode 1): move StoryLab cards tagged with a release label into a ph-WIP `SL <tag>: Iteration backlog` lane.
 - **analyze** (Mode 2): run AI code analysis on ph-WIP cards; classify confidence; update StoryLab dev-status labels.
 - **release** (Mode 3): close the loop between Trello + Zendesk and the wiki via three read-leaning subcommands — `sync`, `snapshot`, `ship`.
+- **copy-single** (Mode 4): move a single StoryLab card (by ZI ID) from default StoryLab board to ph-WIP `SL <tag>: Iteration backlog` lane with duplicate check.
+- **remove-tag** (Mode 5): remove a release tag label from a ph-WIP card.
 
 **Arguments**:
-- `<release-tag-name>` — Mode 1 copy
+- `<release-tag-name>` — Mode 1 copy all tagged cards
+- `release-single <release-tag> ZI-NNN` — Mode 4 copy a single card by ZI ID (always from default StoryLab to standard ph-WIP lane)
 - `analyze <release-tag> <ZI-NNN>` — Mode 2 analyze a specific card
 - `analyze <release-tag> next` — Mode 2 analyze the next unanalyzed card in the named ph-WIP lane
 - `analyze <release-tag> all` — Mode 2 analyze all unanalyzed cards in the named ph-WIP lane
 - `analyze <release-tag> @<name>` — Mode 2 analyze only cards assigned to a member (matches by username or full name)
 - `reassess <ZI-NNN>` — Mode 2 re-run analysis (ph-WIP lane auto-detected)
+- `remove <release-tag> ZI-NNN` — Mode 5 remove release tag label from a ph-WIP card
 - `sync <release-tag> [board] [lane]` — Mode 3a: diff Zendesk JSONs vs the release's last `git_reference`, regen summaries, post compact delta comments on tagged StoryLab cards (optionally filtered to a specific lane)
 - `snapshot <release-tag> [board] [lane]` — Mode 3b: idempotent rewrite of `wiki/product/releases/<TAG-slug>.md` from current StoryLab + ph-WIP state (optionally filtered to a specific lane)
 - `ship <release-tag> [board] [lane] [--force]` — Mode 3c: freeze the release in wiki (status=shipped, backlog + log updates); no Trello writes (optionally filtered to a specific lane)
@@ -29,7 +33,9 @@ Three modes:
 **Board default (Mode 3)**: StoryLab (`69dd9134576a26fcb79b670d`) when `[board]` is omitted.
 
 **Examples**:
-- `/sl-iteration MCSL 377` — Mode 1 copy release-tagged cards
+- `/sl-iteration MCSL 377` — Mode 1 copy all release-tagged cards
+- `/sl-iteration release-single MCSL 377 ZI-035` — Mode 4 copy single card ZI-035 to ph-WIP
+- `/sl-iteration remove MCSL 377 ZI-035` — Mode 5 remove MCSL 377 tag from ZI-035 in ph-WIP
 - `/sl-iteration analyze MCSL 377 all` — Mode 2 analyze all cards in `SL MCSL 377: Iteration backlog`
 - `/sl-iteration analyze MCSL 377 @ajeesh` — Mode 2 analyze cards assigned to Ajeesh
 - `/sl-iteration analyze MCSL 377 ZI-035` — Mode 2 analyze ZI-035
@@ -48,10 +54,12 @@ Parse `$ARGUMENTS` as a token list. Match the **first token**:
 |-------------|------|
 | `analyze` | Mode 2 analyze |
 | `reassess` | Mode 2 reassess |
+| `release-single` | Mode 4 copy single card |
+| `remove` | Mode 5 remove tag |
 | `sync` | Mode 3a |
 | `snapshot` | Mode 3b |
 | `ship` | Mode 3c |
-| anything else | Mode 1 copy (all tokens = tag name, may be multi-word like `MCSL 377`) |
+| anything else | Mode 1 (bulk copy) |
 
 For Mode 3 commands: everything after the subcommand, minus any trailing `--force` flag and any trailing token matching a Trello board URL (`^https://trello\.com/b/`) or bare shortLink (alphanumeric, ≥8 chars), is the tag. Tags may be multi-word.
 
@@ -535,6 +543,248 @@ If all assigned cards are already analyzed, report: "All X cards assigned to @<u
 
 ---
 
+# Mode 4: Copy Single Card
+
+## Purpose
+
+Copy a single StoryLab card (identified by ZI ID in the card name) to ph-WIP with duplicate check. If a card with the same ZI ID already exists in the target lane, abort with a warning.
+
+**Board constraints**: Mode 4 ALWAYS uses `DEFAULT_STORYLAB_BOARD` as the source and ALWAYS copies to the standard `SL <tag>: Iteration backlog` lane on ph-WIP. No board parameter is supported.
+
+## Execution
+
+### Step 1: Parse arguments
+
+```python
+import re
+
+tokens = $ARGUMENTS.split()
+# tokens[0] = "release-single"
+# tokens[1:] = tag tokens + ZI-NNN
+
+zi_pattern = re.compile(r'^ZI-\d+$')
+zi_id = None
+tag_tokens = []
+
+for token in tokens[1:]:  # Skip "release-single"
+    if zi_pattern.match(token):
+        zi_id = token
+    else:
+        tag_tokens.append(token)
+
+tag = ' '.join(tag_tokens)
+board_id = DEFAULT_STORYLAB_BOARD  # Mode 4 always uses default StoryLab - no board parameter
+```
+
+### Step 2: Resolve release tag label
+
+```
+GET /boards/{board_id}/labels?fields=name,color,id&limit=1000
+```
+
+Find label matching `tag` (case-insensitive). If not found — show available labels and ask.
+
+Record `RELEASE_LABEL_ID`, `RELEASE_LABEL_NAME`, `RELEASE_LABEL_COLOR`.
+
+### Step 3: Find the source card on StoryLab
+
+Fetch all cards with the release tag:
+```
+GET /boards/{board_id}/cards?fields=name,desc,idLabels,shortUrl
+```
+
+Filter: keep cards where `idLabels` contains `RELEASE_LABEL_ID`.
+
+Search for card with `{zi_id}` in the name (case-insensitive, must match the pattern `ZI-\d+` exactly).
+
+If not found: abort with error:
+```
+Card {zi_id} not found with tag {tag} on StoryLab.
+Available tagged cards: ZI-001, ZI-005, ZI-012...
+```
+
+If multiple matches: list all and ask user to confirm (shouldn't happen if ZI IDs are unique).
+
+Record the source card.
+
+### Step 4: Ensure target lane exists on ph-WIP
+
+```
+GET /boards/63e1e0414b6026c45be1087c/lists?fields=name,id
+```
+
+Look for `SL <RELEASE_LABEL_NAME>: Iteration backlog`. This is always the target lane for Mode 4 - no custom lane parameter is supported. If missing, create it (same as Mode 1 Step 3).
+
+### Step 5: Check for duplicates in target lane
+
+```
+GET /lists/{TARGET_LIST_ID}/cards?fields=name,desc
+```
+
+Search all cards in the target lane:
+- Check if any card name contains `{zi_id}` (case-insensitive)
+- OR check if any card desc contains the source card's `shortUrl`
+
+If duplicate found: **abort** with warning:
+```
+⚠️ Duplicate detected: {zi_id} already exists in lane "SL {tag}: Iteration backlog"
+Existing card: {duplicate_card.name}
+URL: {duplicate_card.shortUrl}
+
+Not copying. Use the existing card or remove it first with:
+/sl-iteration remove {tag} {zi_id}
+```
+
+### Step 6: Fetch existing ph-WIP labels
+
+```
+GET /boards/63e1e0414b6026c45be1087c/labels?fields=name,color,id&limit=1000
+```
+
+Build lookup: `"SL: <name>"` → label ID.
+
+### Step 7: Resolve labels for the new card
+
+Same as Mode 1 Step 6.2:
+- Skip dev label IDs (`DEV_LABEL_IDS` set) — do NOT skip the release tag label
+- For each remaining label (including the release tag label): look up `SL: <original name>` in ph-WIP labels
+- If missing: `POST /boards/63e1e0414b6026c45be1087c/labels` with `name=SL: <name>`, `color=<color>`
+
+### Step 8: Create the card
+
+```bash
+curl -s -X POST "https://api.trello.com/1/cards?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "idList": "<TARGET_LIST_ID>",
+    "name": "From SL: <original card name>",
+    "desc": "<source card shortUrl>",
+    "idLabels": "<comma-separated SL: label IDs>",
+    "pos": "bottom"
+  }'
+```
+
+### Step 9: Report
+
+```
+## Copy Single Card — {zi_id}
+
+✅ Copied to ph-WIP lane: SL {tag}: Iteration backlog
+- Source: {source_card.name}
+- StoryLab URL: {source_card.shortUrl}
+- ph-WIP card: From SL: {source_card.name}
+- Labels copied: {N}
+```
+
+---
+
+# Mode 5: Remove Release Tag
+
+## Purpose
+
+Remove the release tag label from a ph-WIP card (identified by ZI ID). This is used to move a card out of a release scope.
+
+## Execution
+
+### Step 1: Parse arguments
+
+```python
+tokens = $ARGUMENTS.split()
+# tokens[0] = "remove"
+# tokens[1:] = tag tokens + ZI-NNN
+
+import re
+zi_pattern = re.compile(r'^ZI-\d+$')
+zi_id = None
+tag_tokens = []
+
+for token in tokens[1:]:  # Skip "remove"
+    if zi_pattern.match(token):
+        zi_id = token
+    else:
+        tag_tokens.append(token)
+
+tag = ' '.join(tag_tokens)
+```
+
+### Step 2: Resolve the SL-prefixed tag label on ph-WIP
+
+```
+GET /boards/63e1e0414b6026c45be1087c/labels?fields=name,color,id&limit=1000
+```
+
+Look for label with name `SL: {tag}` (case-insensitive, note the space after colon).
+
+If not found: abort with error:
+```
+Label "SL: {tag}" not found on ph-WIP board.
+Available SL labels: SL: MCSL 377, SL: MCSL 376, ...
+```
+
+Record `TAG_LABEL_ID`.
+
+### Step 3: Find all SL lanes on ph-WIP
+
+```
+GET /boards/63e1e0414b6026c45be1087c/lists?fields=name,id
+```
+
+Filter: keep lanes starting with `SL ` (case-sensitive).
+
+### Step 4: Search for the card by ZI ID
+
+For each SL lane:
+```
+GET /lists/{listId}/cards?fields=name,desc,idLabels,shortUrl
+```
+
+Search for card with `{zi_id}` in the name (case-insensitive).
+
+If found: record the card and its lane. Break.
+
+If not found in any lane: abort with error:
+```
+Card {zi_id} not found in any SL lane on ph-WIP.
+Searched lanes: SL MCSL 377: Iteration backlog, SL MCSL 376: Iteration backlog, ...
+```
+
+### Step 5: Verify the card has the tag label
+
+Check if `TAG_LABEL_ID` is in the card's `idLabels`.
+
+If not present: abort with warning:
+```
+⚠️ Card {zi_id} does not have label "SL: {tag}"
+Current labels on card: {list of label names}
+
+Nothing to remove.
+```
+
+### Step 6: Remove the label
+
+```bash
+curl -s -X DELETE "https://api.trello.com/1/cards/{cardId}/idLabels/{TAG_LABEL_ID}?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN"
+```
+
+Check response:
+- 200 OK: success
+- 404: label was already removed (treat as success, idempotent)
+- Other: error, abort
+
+### Step 7: Report
+
+```
+## Remove Tag — {zi_id}
+
+✅ Removed label "SL: {tag}" from ph-WIP card
+- Card: {card.name}
+- Lane: {lane_name}
+- Card URL: {card.shortUrl}
+- Remaining labels: {list of remaining label names}
+```
+
+---
+
 # Mode 3: Release Workflow
 
 Three subcommands that close the loop between Trello + Zendesk and the wiki, **per release tag** (e.g., `MCSL 377`):
@@ -547,7 +797,7 @@ Three subcommands that close the loop between Trello + Zendesk and the wiki, **p
 
 **Delta anchor**: per-release `git_reference` in `wiki/product/releases/<TAG-slug>.md` frontmatter. snapshot sets it on first creation; sync advances it every run. No separate state file.
 
-## 4-State Legend (coarsening for release reports)
+## 6-State Legend (coarsening for release reports)
 
 Release views classify each tagged StoryLab card by the HIGHEST-precedence **label** found on ANY matching ph-WIP card (matched by Zendesk ticket ID in the card name/desc/attachments/comments). Lane membership is NOT used for state — labels are the authoritative delivery signal.
 
@@ -559,20 +809,21 @@ Release views classify each tagged StoryLab card by the HIGHEST-precedence **lab
 SHIPPED  >  PROD  >  QA_VERIFIED  >  QA Reported  >  Ready for QA  >  Dev Done  >  DEV
 ```
 
-**Coarsening to 5-state legend**:
+**Coarsening to 6-state legend**:
 
-| Legend state | ph-WIP label name(s) |
-|--------------|----------------------|
-| `PROD` | `SHIPPED`, `PROD` (same terminal state) |
-| `BUG REPORTED` | `BUG REPORTED` |
-| `QA READY` | `QA_VERIFIED`, `QA Reported`, `Ready for QA`, `Dev Done` |
-| `DEV` | `DEV` |
-| `Open (not started)` | NO state label on any matching ph-WIP card |
-| `Support Closed` | StoryLab card carries `Closed by Support` (or `SL: Closed By Support` — both names map to the same state, case-insensitive) label (precedence — overrides any ph-WIP state) |
+| Legend state | ph-WIP label name(s) | Meaning |
+|--------------|----------------------|---------|
+| `Shipped` | `SHIPPED`, `PROD` | Deployed to production |
+| `Ready To Ship` | `QA_VERIFIED` | QA verified, ready to deploy |
+| `BUG REPORTED` | `BUG REPORTED` | Bug found in QA |
+| `QA READY` | `QA Reported`, `Ready for QA`, `Dev Done` | In QA testing (not yet verified) |
+| `DEV` | `DEV` | Active development |
+| `Open (not started)` | NO state label on any matching ph-WIP card | Not started |
+| `Support Closed` | StoryLab card carries `Closed by Support` (or `SL: Closed By Support` — both names map to the same state, case-insensitive) label | Closed without code (precedence — overrides any ph-WIP state) |
 
 **Do NOT exclude SL-copy cards** (cards named `From SL: ...` in `SL <tag>: Iteration backlog` lanes). Devs often apply state labels directly to the SL-copy rather than creating separate dev cards. Search ALL ph-WIP matches for state labels.
 
-**Closed** = {PROD, Support Closed}. **Open** = {Open, DEV, BUG REPORTED, QA READY}. Ship refuses non-terminal cards unless `--force`.
+**Closed** = {Shipped, Support Closed}. **Open** = {Open, DEV, BUG REPORTED, QA READY, Ready To Ship}. Ship refuses non-terminal cards unless `--force`.
 
 **Ignored labels** (noise, not part of the release state machine): `READY FOR DEPLOY`, `L3-DEV`, `DEV_ONLY`, `Completed`.
 
@@ -642,6 +893,35 @@ Look up labels on StoryLab whose name (case-insensitive, trimmed) equals either 
 ### `resolve_ph_wip_state_labels(ph_wip_board_id)`
 Fetch all ph-WIP labels with `limit=1000` (the default limit is 50 — missing this causes silent truncation). Build a map of `{state_name: set(label_ids)}` for each of the 8 state-label names: `SHIPPED`, `PROD`, `BUG REPORTED`, `QA_VERIFIED`, `QA Reported`, `Ready for QA`, `Dev Done`, `DEV`. ph-WIP has multiple labels with the same name (different colors) — treat them as equivalent.
 
+**Implementation:**
+```python
+GET /boards/{ph_wip_board_id}/labels?fields=name,color,id&limit=1000
+
+state_label_map = {}
+STATE_LABEL_NAMES = ['SHIPPED', 'PROD', 'QA_VERIFIED', 'QA Reported', 'Ready for QA', 'Dev Done', 'DEV', 'BUG REPORTED']
+
+for state_name in STATE_LABEL_NAMES:
+    matching_labels = [lbl for lbl in labels if lbl['name'].strip().lower() == state_name.lower()]
+    state_label_map[state_name] = {lbl['id'] for lbl in matching_labels}
+```
+
+**CRITICAL VALIDATION**: After building the map, validate that critical labels were found:
+```python
+CRITICAL_LABELS = ['Dev Done', 'QA_VERIFIED', 'PROD', 'SHIPPED', 'DEV']
+missing = [name for name in CRITICAL_LABELS if not state_label_map.get(name)]
+
+if missing:
+    raise Exception(f"❌ CRITICAL: Missing state labels on ph-WIP: {missing}. State detection will fail. Check board configuration.")
+
+# Warn about optional labels
+OPTIONAL_LABELS = ['QA Reported', 'Ready for QA', 'BUG REPORTED']
+missing_optional = [name for name in OPTIONAL_LABELS if not state_label_map.get(name)]
+if missing_optional:
+    print(f"⚠️  WARNING: Missing optional state labels: {missing_optional}")
+```
+
+**Return**: `state_label_map` (dict) and `labels_found_count` (int) for diagnostic reporting.
+
 ### `fetch_tagged_storylab_cards(board_id, tag_label_ids, lane_name=None)`
 Single bulk `GET /boards/{board_id}/cards?attachments=true&fields=name,desc,idList,idLabels,shortUrl`. Filter in-memory where `idLabels` contains ANY of the `tag_label_ids` (can be a list or single ID). If `lane_name` is specified, additionally filter by lane: fetch all lists, find the list whose name matches `lane_name` (case-sensitive exact match), and keep only cards where `idList` matches that list ID.
 
@@ -681,9 +961,10 @@ Decision order:
 1. If `support_closed_label_id` is set AND `storylab_card.idLabels` contains it → return `Support Closed`.
 2. If `ph_wip_label_name_or_none is None` → return `Open (not started)`.
 3. Map the ph-WIP label name:
-   - `SHIPPED` or `PROD` → `PROD`
+   - `SHIPPED` or `PROD` → `Shipped`
+   - `QA_VERIFIED` → `Ready To Ship`
    - `BUG REPORTED` → `BUG REPORTED`
-   - `QA_VERIFIED`, `QA Reported`, `Ready for QA`, or `Dev Done` → `QA READY`
+   - `QA Reported`, `Ready for QA`, or `Dev Done` → `QA READY`
    - `DEV` → `DEV`
 
 ### `parse_close_reason(storylab_card_comments)`
@@ -903,6 +1184,7 @@ git_reference: <preserved, or HEAD on first snapshot>
 tickets_delta_on_last_sync: <preserved, or 0 on first snapshot>
 cards_total: <N>
 cards_shipped: <N>
+cards_ready_to_ship: <N>
 cards_support_closed: <N>
 cards_bug_reported: <N>
 cards_open: <N>
@@ -916,7 +1198,8 @@ cards_open: <N>
 
 | State | Count |
 |-------|-------|
-| PROD (shipped) | <N> |
+| Shipped | <N> |
+| Ready To Ship | <N> |
 | Support Closed | <N> |
 | BUG REPORTED | <N> |
 | QA READY | <N> |
@@ -926,18 +1209,25 @@ cards_open: <N>
 
 ## Legend
 
-- **PROD** — shipped to production (ph-WIP PROD-class lane)
+- **Shipped** — deployed to production (ph-WIP SHIPPED or PROD label)
+- **Ready To Ship** — QA verified, ready to deploy (ph-WIP QA_VERIFIED label)
 - **Support Closed** — StoryLab card has `Closed by Support` (or `SL: Closed By Support` — both names map to the same state, case-insensitive) label; closed without code via support action
 - **BUG REPORTED** — code is in QA, bug has been reported (ph-WIP BUG REPORTED label)
-- **QA READY** — code complete, in QA (ph-WIP Dev Done + QA-class lanes — NOT yet shipped)
-- **DEV** — active development (ph-WIP DEV-class lanes)
-- **Open (not started)** — in product backlog but dev hasn't started (ph-WIP BACKLOG-class lane, or no ph-WIP card found)
+- **QA READY** — code complete, in QA (ph-WIP Dev Done, Ready for QA, or QA Reported labels — NOT yet verified)
+- **DEV** — active development (ph-WIP DEV label)
+- **Open (not started)** — in product backlog but dev hasn't started (no ph-WIP state label)
 
 ## Shipped (<N>)
 
 | ZI | Ticket | Theme | Carriers | Card |
 |----|--------|-------|----------|------|
 | ZI-NNN | [#NNNNNN](../../zendesk/summaries/NNNNNN.md) | ... | ... | [SL](shortUrl) |
+
+## Ready To Ship (<N>)
+
+| ZI | Ticket | Theme | Card |
+|----|--------|-------|------|
+| ZI-NNN | [#NNNNNN](../../zendesk/summaries/NNNNNN.md) | ... | [ph-WIP](shortUrl) |
 
 ## Support Closed (<N>)
 
@@ -981,12 +1271,83 @@ cards_open: <N>
 - [Latest Zendesk daily index](../../zendesk/YYYY-MM-DD.md)
 ```
 
-**Step 7 — Report**:
+**Step 7 — Verify against Trello** (sanity check to catch state detection bugs):
+
+Re-check a sample of cards directly in Trello to verify state detection worked correctly:
+
+```python
+# State expectations
+STATE_EXPECTATIONS = {
+    'Shipped': ['SHIPPED', 'PROD'],
+    'Ready To Ship': ['QA_VERIFIED'],
+    'QA READY': ['Dev Done', 'Ready for QA', 'QA Reported'],
+    'DEV': ['DEV'],
+    'BUG REPORTED': ['BUG REPORTED'],
+    'Open': []  # No state labels
+}
+
+# Pick 3 sample cards from each non-empty state bucket
+samples = {
+    'Shipped': cards_by_state['Shipped'][:3],
+    'Ready To Ship': cards_by_state['Ready To Ship'][:3],
+    'QA READY': cards_by_state['QA READY'][:3],
+    'DEV': cards_by_state['DEV'][:3],
+    'Open': cards_by_state['Open (not started)'][:3]
+}
+
+# For each sample, check its actual labels in Trello
+for state, cards in samples.items():
+    for card in cards:
+        actual_label_names = [lbl['name'] for lbl in card['labels']]  # from cached data
+        expected_labels = STATE_EXPECTATIONS[state]
+
+        if state == 'Open':
+            # Open should have NO state labels
+            has_state_label = any(lbl in actual_label_names for lbl in ALL_STATE_LABELS)
+            if has_state_label:
+                print(f"⚠️  MISMATCH: {card['name']} classified as Open but has state label: {actual_label_names}")
+        else:
+            # Other states should have expected label
+            if not any(exp in actual_label_names for exp in expected_labels):
+                print(f"⚠️  MISMATCH: {card['name']} classified as {state} but has labels: {actual_label_names}")
+```
+
+**Output verification table**:
+```
+## Verification: Trello vs Release File
+
+| State | Release Count | Sample Cards Checked | Mismatches |
+|-------|---------------|---------------------|------------|
+| Shipped | N | N | 0 ✓ |
+| Ready To Ship | N | N | 0 ✓ |
+| QA READY | N | N | 0 ✓ |
+| DEV | N | N | 0 ✓ |
+| Open | N | N | 0 ✓ |
+
+Sample spot-checks:
+- ZI-048 (Ready To Ship): has QA_VERIFIED label ✓
+- ZI-071 (QA READY): has Dev Done label ✓
+- ZI-058 (Open): no state labels ✓
+```
+
+If ANY mismatches found, report them as warnings and suggest re-running with fresh label fetch.
+
+**Step 8 — Report**:
 ```
 ## Snapshot <TAG>
 - File: wiki/product/releases/<TAG-slug>.md (created | refreshed)
 - Board: <board_id>
-- Cards total: N  (Shipped: N, Support Closed: N, BUG REPORTED: N, QA READY: N, DEV: N, Open: N)
+- Cards total: N  (Shipped: N, Ready To Ship: N, Support Closed: N, BUG REPORTED: N, QA READY: N, DEV: N, Open: N)
+- State labels found: 8/8 ✓ (or list missing)
+  - SHIPPED: N label(s)
+  - PROD: N label(s)
+  - QA_VERIFIED: N label(s)
+  - Dev Done: N label(s)
+  - DEV: N label(s)
+  - QA Reported: N label(s)
+  - Ready for QA: N label(s)
+  - BUG REPORTED: N label(s)
+- Verification: N sample cards checked, 0 mismatches ✓
 - git_reference: <unchanged | set to HEAD on first snapshot>
 - Cards missing close-reason: N
 - Cards without ph-WIP match: N
@@ -997,6 +1358,45 @@ cards_open: <N>
 ### Idempotency guarantees
 
 Running snapshot twice in sequence produces byte-identical body except for `last_synced`. If ph-WIP lanes changed in between, the body may differ in state rows — but the structure is deterministic.
+
+### Post-snapshot validation (recommended)
+
+After running snapshot, validate the results using the validation script:
+
+```bash
+python3 .claude/skills/sl-iteration/validate_snapshot.py MCSL-377
+```
+
+**What it validates:**
+1. **State detection accuracy**: Fetches sample cards from Trello and verifies their state labels match the classification in the release file
+2. **Label availability**: Confirms all 8 critical state labels exist on the board
+3. **Count consistency**: Verifies frontmatter counts match Summary table counts
+
+**Exit codes:**
+- `0` - All validations passed ✓
+- `1` - Validation failures found (state mismatches or count discrepancies)
+- `2` - Error (missing file, API failure, missing environment variables)
+
+**When to run:**
+- After first snapshot (baseline creation)
+- After any changes to board labels
+- If state counts look suspicious (e.g., all cards showing as "Open")
+- Periodically as a health check
+
+**Example output:**
+```
+======================================================================
+VALIDATION SUMMARY
+======================================================================
+
+✓ Cards checked: 9
+✓ State labels found: 8/8
+
+✅ ALL VALIDATIONS PASSED
+   No state mismatches, no count discrepancies
+```
+
+If validation fails, the script will report specific mismatches with card names, URLs, expected vs actual states, and label details.
 
 ---
 
