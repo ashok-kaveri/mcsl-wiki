@@ -1,7 +1,7 @@
 ---
 name: story-cards
 description: Generate product story cards from Zendesk ZI issues. Creates well-crafted user stories with acceptance criteria from ticket summaries, and pushes them as Trello cards. Use when the user wants to create story cards, generate stories, or turn ZI issues into actionable dev cards.
-argument-hint: <ZI-NNN|all|delta|range|release> [lane] [board-url] [--no-trello]
+argument-hint: <ZI-NNN|all|delta|range|release> [lane] [board-url] [--no-trello|--force-update-trello]
 allowed-tools: Bash, Read, Write, Glob, Grep, Agent, WebFetch, TodoWrite, AskUserQuestion
 disable-model-invocation: false
 ---
@@ -23,8 +23,11 @@ Generate product-quality story cards from Zendesk ZI issues. You are a **product
 - `apr-13-16` / `apr-16-18` / `apr-18-21` / `apr-21-25` / `apr-25-30` — generate by release window
 - Append a Trello board URL to push cards to that board (e.g., `all https://trello.com/b/xyz`)
 - Append `--no-trello` to skip Trello and only generate markdown
+- Append `--force-update-trello` to force update existing Trello cards (overrides idempotency guard)
 
 **Default Trello board**: `StoryLab` (board ID: `69dd9134576a26fcb79b670d`, URL: `https://trello.com/b/d1xk25XH/storylab`). If no board URL is provided, cards are pushed to StoryLab.
+
+**Force Update Mode**: When `--force-update-trello` is provided, existing Trello cards will be updated with new name, description, and labels instead of being skipped by the idempotency guard. Use this when you need to correct a previously created card.
 
 **Delta mode**: Automatically detects ZI issues created from changed/new Zendesk tickets (since last zendesk-summarize run). Useful after running `/zendesk-summarize delta` to quickly generate story cards for only the new support tickets without processing the entire backlog.
 
@@ -161,6 +164,18 @@ curl -s -X POST "https://api.trello.com/1/cards?key=$KEY&token=$TOKEN" \
     "desc": "<full markdown card content>",
     "idLabels": "<label_id1>,<label_id2>",
     "pos": "top"
+  }'
+```
+
+**Update card** (force update mode):
+```bash
+curl -s -X PUT "https://api.trello.com/1/cards/{cardId}?key=$KEY&token=$TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "ZI-NNN — <updated title>",
+    "desc": "<updated markdown card content>",
+    "idLabels": "<updated_label_id1>,<updated_label_id2>",
+    "idList": "<target_lane_id>"
   }'
 ```
 
@@ -400,16 +415,38 @@ Each scenario must have:
    - If ANY check fails → STOP, REWRITE, RE-VALIDATE, repeat until ALL checks pass
    - If ALL checks pass → proceed to step 8
    - **This is a hard stop. Do not skip.**
-8. **Idempotency guard — enforces "old StoryLab cards are immutable"**:
+8. **Idempotency guard — enforces "old StoryLab cards are immutable" (unless --force-update-trello)**:
+   - **Parse flags from arguments**:
+     - `--force-update-trello` → force update mode enabled
+     - `--no-trello` → skip Trello entirely
    - If the ZI has `Duplicate Of: ZI-XXX` in the daily index → **skip the Trello push entirely.** The old card tracks the same work. Write a minimal markdown that cross-links to `wiki/product/stories/ZI-XXX.md` in its frontmatter (`duplicate_of: ZI-XXX`) and exit this step. Report `skipped_trello: duplicate_of=ZI-XXX`.
-   - Else, **fetch the board fresh right now** (do NOT reuse a cached snapshot from earlier in the same run): `GET /boards/<STORYLAB>/cards?fields=name,desc,idLabels,shortUrl` (no `limit` param). Check if ANY existing card matches THIS ZI by:
-     - Card name contains `[#<ticketId>]`
-     - Card name starts with `ZI-<nnn>` (same ZI number)
-     - Card `desc` mentions `ZI-<nnn>`
-   - If ANY match → **skip the Trello push entirely.** NO `POST /cards`, NO `PUT /cards`, NO label additions, NO comment posts, NO desc rewrites. Report `existing_card: <shortUrl>`. The existing card retains 100% of its current state. The local markdown file still gets (re)generated — that's safe and expected.
-   - Only if NO match → proceed to step 8 (actual Trello push).
-   - **CRITICAL: This fetch must happen immediately before each POST — never cache it across cards. This is the only guard against duplicates.**
-8. Push to Trello (unless `--no-trello`, and only if step 7 did not skip):
+   - Else, **fetch the board fresh right now** using parametrized script (do NOT reuse a cached snapshot):
+     ```python
+     import json, urllib.request, sys
+     settings = json.load(open('.claude/settings.local.json'))
+     key = settings['env']['TRELLO_API_KEY']
+     token = settings['env']['TRELLO_TOKEN']
+     board_id = sys.argv[1] if len(sys.argv) > 1 else '69dd9134576a26fcb79b670d'
+     url = f'https://api.trello.com/1/boards/{board_id}/cards?fields=name,desc,id,idLabels,shortUrl&key={key}&token={token}'
+     req = urllib.request.Request(url)
+     with urllib.request.urlopen(req) as response:
+         cards = json.loads(response.read())
+     ticket_id = sys.argv[2] if len(sys.argv) > 2 else '<ticketId>'
+     zi_id = sys.argv[3] if len(sys.argv) > 3 else '<ZI-NNN>'
+     for card in cards:
+         name = card.get('name', '')
+         desc = card.get('desc', '')
+         if f'[#{ticket_id}]' in name or name.startswith(f'{zi_id}') or zi_id in desc:
+             print(json.dumps(card))
+             sys.exit(0)
+     sys.exit(1)  # No match found
+     ```
+   - If ANY match found:
+     - **If `--force-update-trello` flag present**: Perform `PUT /cards/{cardId}` with updated name, desc, and labels. Report `force_updated_card: <shortUrl>`.
+     - **Else (default)**: **Skip the Trello push entirely.** Report `existing_card: <shortUrl>`. The existing card retains 100% of its current state.
+   - Only if NO match → proceed to step 9 (actual Trello POST).
+   - **CRITICAL: This fetch must happen immediately before each POST/PUT — never cache it across cards.**
+9. Push to Trello (unless `--no-trello`, and only if step 8 did not skip or is forcing update):
    - Determine lane from pain/area mapping
    - Card name format: `ZI-NNN — <title> [#<ticketId>]` — ticket number in brackets for searchability
    - Assign ALL applicable labels (comma-separated `idLabels`):
@@ -420,13 +457,22 @@ Each scenario must have:
      - Dev status label — correlate with ph-WIP board (see ph-WIP Correlation below)
      - SLA Breached label (if SLA is breached)
      - **`AI: Closed By Support` label (if ticket status is "closed" or "solved")** — marks issues resolved by support without code changes
-   - `POST /cards` with full markdown as `desc`
-   - `pos`: `"top"` for SLA breached cards, `"bottom"` otherwise
+   - **If force updating existing card** (step 8 found match + `--force-update-trello`):
+     - `PUT /cards/{cardId}` with:
+       - `name`: updated card name
+       - `desc`: full markdown content
+       - `idLabels`: ALL applicable labels (replaces existing labels)
+       - `idList`: target lane (moves card if needed)
+     - Report: `force_updated_card: <shortUrl>`
+   - **Else (creating new card)**:
+     - `POST /cards` with full markdown as `desc`
+     - `pos`: `"top"` for SLA breached cards, `"bottom"` otherwise
+     - Report: `created_card: <shortUrl>`
    - Record Trello shortUrl in the markdown file's Cross-Links
-9. **Correlate with ph-WIP board** (see ph-WIP Correlation section below):
-   - Only runs for newly-created cards (step 8 executed).
-   - Search ph-WIP for the ticket number in card name, desc, attachments, comments
-   - If found: add dev status label + append ph-WIP Card section to card desc
+10. **Correlate with ph-WIP board** (see ph-WIP Correlation section below):
+    - Runs for both newly-created cards and force-updated cards (step 9 executed).
+    - Search ph-WIP for the ticket number in card name, desc, attachments, comments
+    - If found: add dev status label + append ph-WIP Card section to card desc (or update if force updating)
 
 ### Delta mode (`delta [lane]`)
 

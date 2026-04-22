@@ -1,19 +1,20 @@
 ---
 name: sl-iteration
-description: Copy release-tagged cards from StoryLab to ph-WIP as iteration backlog, run AI code analysis on ph-WIP cards, and run the release closure workflow (sync / snapshot / ship) for a release tag. Use when the user wants to plan an iteration, move story cards to ph-WIP, analyze cards, sync Zendesk deltas to a release, snapshot a release's Trello state into the wiki, ship/close a release, or says "sl-iteration".
-argument-hint: <release-tag> | <release-tag> ZI-NNN | analyze <tag> <ZI-NNN|next|all|@name> | reassess <ZI-NNN> | remove <release-tag> ZI-NNN | sync <tag> [board] [lane] [--no-sync] | snapshot <tag> [board] [lane] [--no-sync] | ship <tag> [board] [lane] [--no-sync] [--force]
+description: Copy release-tagged cards from StoryLab to ph-WIP as iteration backlog, run AI code analysis on ph-WIP cards, refresh ph-WIP cards from StoryLab updates, and run the release closure workflow (sync / snapshot / ship) for a release tag. Use when the user wants to plan an iteration, move story cards to ph-WIP, analyze cards, refresh ph-WIP cards from StoryLab, sync Zendesk deltas to a release, snapshot a release's Trello state into the wiki, ship/close a release, or says "sl-iteration".
+argument-hint: <release-tag> | <release-tag> ZI-NNN | analyze <tag> <ZI-NNN|next|all|@name> | reassess <ZI-NNN> | remove <release-tag> ZI-NNN | sync-single ZI-NNN [--name] [--desc] [--labels] | sync <tag> [board] [lane] [--no-sync] | snapshot <tag> [board] [lane] [--no-sync] | ship <tag> [board] [lane] [--no-sync] [--force]
 allowed-tools: Bash, Read, Write, Edit, Glob, Grep, Agent, WebFetch, TodoWrite, AskUserQuestion
 disable-model-invocation: false
 ---
 
 # StoryLab to ph-WIP Iteration Backlog, plus Release Closure
 
-Five modes:
+Six modes:
 - **copy** (Mode 1): move StoryLab cards tagged with a release label into a ph-WIP `SL <tag>: Iteration backlog` lane.
 - **analyze** (Mode 2): run AI code analysis on ph-WIP cards; classify confidence; update StoryLab dev-status labels.
 - **release** (Mode 3): close the loop between Trello + Zendesk and the wiki via three read-leaning subcommands — `sync`, `snapshot`, `ship`.
 - **copy-single** (Mode 4): move a single StoryLab card (by ZI ID) from default StoryLab board to ph-WIP `SL <tag>: Iteration backlog` lane with duplicate check.
 - **remove-tag** (Mode 5): remove a release tag label from a ph-WIP card.
+- **sync-single** (Mode 6): refresh ph-WIP card from StoryLab — sync name, description, and/or labels FROM StoryLab TO ph-WIP based on flags; preserves ph-WIP comments.
 
 **Arguments**:
 - `<release-tag-name>` — Mode 1 copy all tagged cards
@@ -24,6 +25,7 @@ Five modes:
 - `analyze <release-tag> @<name>` — Mode 2 analyze only cards assigned to a member (matches by username or full name)
 - `reassess <ZI-NNN>` — Mode 2 re-run analysis (ph-WIP lane auto-detected)
 - `remove <release-tag> ZI-NNN` — Mode 5 remove release tag label from a ph-WIP card
+- `sync-single ZI-NNN [--name] [--desc] [--labels]` — Mode 6 refresh ph-WIP card from StoryLab (default: all three if no flags)
 - `sync <release-tag> [board] [lane]` — Mode 3a: diff Zendesk JSONs vs the release's last `git_reference`, regen summaries, post compact delta comments on tagged StoryLab cards (optionally filtered to a specific lane)
 - `snapshot <release-tag> [board] [lane]` — Mode 3b: idempotent rewrite of `wiki/product/releases/<TAG-slug>.md` from current StoryLab + ph-WIP state (optionally filtered to a specific lane)
 - `ship <release-tag> [board] [lane] [--force]` — Mode 3c: freeze the release in wiki (status=shipped, backlog + log updates); no Trello writes (optionally filtered to a specific lane)
@@ -36,6 +38,8 @@ Five modes:
 - `/sl-iteration MCSL 377` — Mode 1 copy all release-tagged cards
 - `/sl-iteration release-single MCSL 377 ZI-035` — Mode 4 copy single card ZI-035 to ph-WIP
 - `/sl-iteration remove MCSL 377 ZI-035` — Mode 5 remove MCSL 377 tag from ZI-035 in ph-WIP
+- `/sl-iteration sync-single ZI-263` — Mode 6 sync all attributes (name + desc + labels)
+- `/sl-iteration sync-single ZI-263 --name --desc` — Mode 6 sync only name and description
 - `/sl-iteration analyze MCSL 377 all` — Mode 2 analyze all cards in `SL MCSL 377: Iteration backlog`
 - `/sl-iteration analyze MCSL 377 @ajeesh` — Mode 2 analyze cards assigned to Ajeesh
 - `/sl-iteration analyze MCSL 377 ZI-035` — Mode 2 analyze ZI-035
@@ -56,6 +60,7 @@ Parse `$ARGUMENTS` as a token list. Match the **first token**:
 | `reassess` | Mode 2 reassess |
 | `release-single` | Mode 4 copy single card |
 | `remove` | Mode 5 remove tag |
+| `sync-single` | Mode 6 |
 | `sync` | Mode 3a |
 | `snapshot` | Mode 3b |
 | `ship` | Mode 3c |
@@ -1673,6 +1678,189 @@ Wiki ends up with one release.md per historical tag, each `status: shipped`. Tre
 | Empty release (0 tagged cards) | Write release.md with "No cards" note; skip backlog + log changes. |
 | Backlog has no entry for a shipped ZI | Log a warning; don't create phantom entry. |
 | ph-WIP bulk fetch fails (network) | Abort snapshot/ship with a clear error — cannot determine state without ph-WIP. |
+
+---
+
+# Mode 6: Sync Single Card (StoryLab → ph-WIP)
+
+## Purpose
+
+Refresh a ph-WIP card from StoryLab updates. Syncs name, description, and/or labels FROM StoryLab TO ph-WIP based on command-line flags. Preserves ph-WIP comments (PUT /cards only updates specified fields).
+
+## Execution
+
+### Step 1: Parse arguments
+
+```python
+import re
+
+tokens = $ARGUMENTS.split()
+# tokens[0] = "sync-single"
+# tokens[1] = ZI-NNN
+# tokens[2:] = optional flags
+
+zi_pattern = re.compile(r'^ZI-\d+$')
+zi_id = tokens[1] if len(tokens) > 1 and zi_pattern.match(tokens[1]) else None
+
+if not zi_id:
+    print("Error: ZI-NNN required")
+    exit(1)
+
+# Parse flags
+flags = tokens[2:]
+sync_name = '--name' in flags
+sync_desc = '--desc' in flags
+sync_labels = '--labels' in flags
+
+# Default: if no flags, sync all
+if not (sync_name or sync_desc or sync_labels):
+    sync_name = sync_desc = sync_labels = True
+```
+
+### Step 2: Find ph-WIP card
+
+Search all `SL *` lanes on ph-WIP for card with `{zi_id}` in name:
+
+```python
+GET /boards/63e1e0414b6026c45be1087c/lists?fields=name,id
+
+# Filter lanes starting with "SL "
+sl_lanes = [lane for lane in lanes if lane['name'].startswith('SL ')]
+
+# Search each lane for the card
+ph_wip_card = None
+for lane in sl_lanes:
+    GET /lists/{lane['id']}/cards?fields=name,desc,idLabels,shortUrl
+    for card in cards:
+        if zi_id.upper() in card['name'].upper():
+            ph_wip_card = card
+            break
+    if ph_wip_card:
+        break
+
+if not ph_wip_card:
+    print(f"Error: {zi_id} not found in any SL lane on ph-WIP")
+    exit(1)
+```
+
+### Step 3: Extract StoryLab shortUrl from ph-WIP description
+
+```python
+# ph-WIP cards created by Mode 1/4 have StoryLab shortUrl as first line
+desc_lines = ph_wip_card['desc'].split('\n')
+storylab_url = desc_lines[0].strip() if desc_lines else None
+
+if not storylab_url or 'trello.com/c/' not in storylab_url:
+    print(f"Error: No StoryLab URL found in ph-WIP card description")
+    exit(1)
+
+# Extract shortId from URL (e.g., https://trello.com/c/abc12345 -> abc12345)
+short_id = storylab_url.split('/c/')[-1].split('/')[0].split('?')[0]
+```
+
+### Step 4: Fetch StoryLab card
+
+```python
+GET /cards/{short_id}?fields=name,desc,idLabels
+```
+
+### Step 5: Fetch ph-WIP labels (for label mapping)
+
+```python
+GET /boards/63e1e0414b6026c45be1087c/labels?fields=name,color,id&limit=1000
+
+# Build reverse map: StoryLab label name -> ph-WIP "SL: <name>" label ID
+```
+
+### Step 6: Fetch StoryLab labels (for label resolution)
+
+```python
+GET /boards/69dd9134576a26fcb79b670d/labels?fields=name,color,id&limit=1000
+
+# Build map: label ID -> label object
+```
+
+### Step 7: Build update payload
+
+```python
+update_payload = {}
+
+if sync_name:
+    # Keep "From SL: " prefix on ph-WIP
+    update_payload['name'] = f"From SL: {storylab_card['name']}"
+
+if sync_desc:
+    # Preserve StoryLab URL as first line, replace rest with StoryLab desc
+    update_payload['desc'] = f"{storylab_url}\n\n{storylab_card['desc']}"
+
+if sync_labels:
+    # Map StoryLab labels to ph-WIP "SL: <name>" labels
+    # Skip dev labels (DEV, DEV DONE, QA, PROD, BACKLOG)
+    DEV_LABEL_IDS = ["69ddcada5e444b9157da951d", "69ddcadb130379d4cb79b4ef",
+                     "69ddcadb1d2769d25b6a6f92", "69ddcadcd5d8f116d99db5f4",
+                     "69ddcadcd2bfb5a850ffb2cc"]
+
+    ph_wip_label_ids = []
+    for label_id in storylab_card['idLabels']:
+        if label_id in DEV_LABEL_IDS:
+            continue
+
+        # Get StoryLab label name
+        sl_label = storylab_labels_by_id.get(label_id)
+        if not sl_label:
+            continue
+
+        # Find matching "SL: <name>" label on ph-WIP
+        sl_prefixed_name = f"SL: {sl_label['name']}"
+        matching_ph_wip_labels = [l for l in ph_wip_labels
+                                   if l['name'].lower() == sl_prefixed_name.lower()]
+
+        if matching_ph_wip_labels:
+            ph_wip_label_ids.append(matching_ph_wip_labels[0]['id'])
+        else:
+            # Create missing label on ph-WIP
+            POST /boards/63e1e0414b6026c45be1087c/labels
+            body = {"name": sl_prefixed_name, "color": sl_label['color']}
+            ph_wip_label_ids.append(new_label['id'])
+
+    # Preserve CONFIDENCE labels (don't overwrite with StoryLab labels)
+    CONFIDENCE_LABEL_IDS = ["69dee0a642a39a86a39ca652", "69dee0a7a906af81b31a6831",
+                            "69dee0a86d18af6f40e61d2f", "69dee0a8c0ebc650c9ddafaf"]
+    existing_confidence = [lid for lid in ph_wip_card['idLabels']
+                          if lid in CONFIDENCE_LABEL_IDS]
+
+    update_payload['idLabels'] = ','.join(ph_wip_label_ids + existing_confidence)
+```
+
+### Step 8: Update ph-WIP card
+
+```bash
+curl -s -X PUT "https://api.trello.com/1/cards/{ph_wip_card_id}?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{update_payload_json}'
+```
+
+### Step 9: Report
+
+```
+## Sync Single Card — {zi_id}
+
+✅ Synced StoryLab → ph-WIP
+
+- StoryLab card: {storylab_card['name']}
+- StoryLab URL: {storylab_url}
+- ph-WIP card: {ph_wip_card['name']}
+- ph-WIP URL: {ph_wip_card['shortUrl']}
+
+**Updated:**
+- Name: {✓ if sync_name else ✗}
+- Description: {✓ if sync_desc else ✗}
+- Labels: {✓ if sync_labels else (N labels synced)}
+
+**Preserved:**
+- ph-WIP comments: ✓ (not touched)
+- CONFIDENCE labels: ✓ (preserved)
+```
 
 ---
 

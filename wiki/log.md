@@ -157,3 +157,11 @@
 - Created: `log.md` (this file)
 - Git reference: 01e683142eab5eeb25e98dadfdc499e984aff1f8
 - Summary: Initial architecture documentation covering system overview, frontend/backend structure, and complete technology stack. Bootstrap complete - ready for domain-specific ingestion.
+
+## [2026-04-22 14:58] init | Co-Change Coupling Map
+- Mode: init (since: 1 year ago)
+- Source: `raw/storepep-react` @ `a5405aed`
+- Commits analyzed: 599 (22 skipped — >30 files)
+- Pairs above threshold (≥3): 5233
+- Written: `wiki/architecture/coupling-map.md`
+- Summary: Top coupling: featureToggles.json ↔ printSettingsHelperFunctions.js (133×)

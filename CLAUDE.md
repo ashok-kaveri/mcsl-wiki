@@ -625,6 +625,10 @@ Any change in `raw/` can trigger an update:
 
 **Critical rule**: Downstream artifacts (backlog, roadmap, insights, metrics) MUST read from `wiki/zendesk/summaries/*.md` — NEVER go back to `raw/zendesk/*.json`. The summaries are the processed, quality-gated source of truth.
 
+**Skills**:
+- `/zendesk-summarize [all|delta|<ticketId>] [shopify|other_platforms|all-products]` — Full pipeline (Steps 1-6)
+- `/zendesk-summarize-one <ticketId>` — Summarize a single ticket only, skip daily index update
+
 #### Step 1: Sync Check
 
 ```bash

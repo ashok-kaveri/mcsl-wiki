@@ -16,6 +16,7 @@ Last updated: 2026-04-16
 - [Frontend Architecture](architecture/frontend-architecture.md) - React, Redux, Material-UI setup and patterns
 - [Backend Architecture](architecture/backend-architecture.md) - Express, MongoDB, service layer architecture
 - [Technology Stack](architecture/technology-stack.md) - Complete dependency listing and version information
+- [File Co-Change Coupling Map](architecture/coupling-map.md) - Files that frequently change together; blast-radius reference for planned changes (5233 pairs from last year)
 - [Data Flow](architecture/data-flow.md) - How data moves through the system (stub)
 - [Authentication Flow](architecture/authentication-flow.md) - Login, sessions, and ACL (stub)
 - [Deployment Pipeline](architecture/deployment-pipeline.md) - CI/CD and build process (stub)
