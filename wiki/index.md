@@ -111,7 +111,8 @@ Last updated: 2026-04-16
 
 ### Zendesk Issue Extraction
 
-- [Issue Extraction — 2026-04-13](zendesk/2026-04-13.md) - 93 open issues extracted from 66 Shopify MCSL tickets, grouped by feature area
+- [Issue Extraction — 2026-04-20](zendesk/2026-04-20.md) - Latest ZI issues extracted from Shopify MCSL tickets, grouped by feature area
+- [Area Coupling Map](zendesk/area-coupling.md) - ZI area co-occurrence map; blast-radius reference cross-referenced against code coupling
 - Per-ticket summaries: [zendesk/summaries/](zendesk/summaries/) - One structured summary per ticket with timeline, open/resolved issues, customer context
 
 ---

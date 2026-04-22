@@ -1,5 +1,15 @@
 # StorePep KB Activity Log
 
+## [2026-04-22 10:00] build | ZI Area Coupling Map
+- Mode: build (full rebuild)
+- Source: `wiki/zendesk/2026-04-20.md` (ZI issues) + `wiki/product/backlog.md` (clusters) + `wiki/architecture/coupling-map.md` (code coupling)
+- ZI issues analyzed: 25 from 10 tickets
+- Ticket co-occurrence pairs (≥2): 1
+- Cluster co-occurrence pairs (≥1): 0
+- Written: `wiki/zendesk/area-coupling.md`
+- Cache: `.claude/cache/zendesk-overlap-data.json`
+- Summary: Top overlap: carrier-config ↔ feature-request (2 tickets, no code co-changes). Most pairs are single-ticket overlaps below reporting threshold. No multi-area clusters detected in current backlog structure.
+
 ## [2026-04-16 16:30] ingest | Database Migrations Documentation
 - Updated: `wiki/operations/database-migrations.md` (stub → complete)
 - Git reference: 0f9b0bc965c82210bf38320d7c5a5ce60cfd44da (storepep-react submodule)
