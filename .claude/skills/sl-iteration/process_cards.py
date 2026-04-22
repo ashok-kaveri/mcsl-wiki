@@ -21,12 +21,15 @@ print(f"  Processing {len(tagged_cards)} cards")
 print()
 
 # Build state label map
-STATE_LABEL_NAMES = ['SHIPPED', 'PROD', 'QA_VERIFIED', 'QA Reported', 'Ready for QA', 'Dev Done', 'DEV', 'BUG REPORTED']
+STATE_LABEL_NAMES = ['SHIPPED', 'PROD', 'QA_VERIFIED', 'QA Reported', 'Ready for QA', 'Dev Done', 'DEV', 'BUG REPORTED', 'SL: Carrier Platform Issues', 'Spill Over']
 state_label_map = {}
 
 for state_name in STATE_LABEL_NAMES:
     matching_labels = [lbl for lbl in all_labels if lbl['name'].strip().lower() == state_name.lower()]
     state_label_map[state_name] = {lbl['id'] for lbl in matching_labels}
+
+# Build label name lookup for carrier extraction
+label_id_to_name = {lbl['id']: lbl['name'] for lbl in all_labels}
 
 # Validate critical labels
 CRITICAL_LABELS = ['Dev Done', 'QA_VERIFIED', 'PROD', 'SHIPPED', 'DEV']
@@ -53,12 +56,14 @@ def coarsen_state(card):
     state_precedence = [
         ('SHIPPED', 'Shipped'),
         ('PROD', 'Shipped'),
+        ('SL: Carrier Platform Issues', 'Carrier Platform Issues'),
         ('QA_VERIFIED', 'Ready To Ship'),
         ('BUG REPORTED', 'BUG REPORTED'),
         ('QA Reported', 'QA READY'),
         ('Ready for QA', 'QA READY'),
         ('Dev Done', 'QA READY'),
         ('DEV', 'DEV'),
+        ('Spill Over', 'Spill Over'),
     ]
 
     for label_name, coarsened_state in state_precedence:
@@ -75,10 +80,12 @@ cards_by_state = {
     'Ready To Ship': [],
     'Support Closed': [],
     'Unsupported Partnership': [],
+    'Carrier Platform Issues': [],
     'BUG REPORTED': [],
     'QA READY': [],
     'DEV': [],
-    'Open (not started)': []
+    'Open (not started)': [],
+    'Spill Over': []
 }
 
 # Parse ZI ID and ticket ID for each card
@@ -90,6 +97,18 @@ for card in tagged_cards:
     # Extract ticket ID from name ([#NNNNNN] pattern)
     ticket_match = re.search(r'\[#(\d+)\]', card['name'])
     card['ticket_id'] = ticket_match.group(1) if ticket_match else None
+
+    # Extract carriers from labels (look for labels with carrier emoji prefix 🚚)
+    carriers = []
+    for label_id in card.get('idLabels', []):
+        label_name = label_id_to_name.get(label_id, '')
+        # Look for carrier labels - those starting with 🚚 emoji
+        if label_name and '🚚' in label_name:
+            # Extract carrier name (remove emoji and "SL: " prefix if present)
+            carrier = label_name.replace('🚚', '').replace('SL:', '').strip()
+            if carrier:
+                carriers.append(carrier)
+    card['carriers'] = carriers
 
     # Determine state
     state = coarsen_state(card)

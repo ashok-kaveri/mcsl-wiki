@@ -49,13 +49,15 @@ last_synced: {now_utc}
 shipped_at: {frontmatter_shipped_at}
 git_reference: {frontmatter_git_ref}
 tickets_delta_on_last_sync: {preserved.get('tickets_delta_on_last_sync', 0)}
-cards_total: {state_counts.get('Shipped', 0) + state_counts.get('Ready To Ship', 0) + state_counts.get('Support Closed', 0) + state_counts.get('Unsupported Partnership', 0) + state_counts.get('BUG REPORTED', 0) + state_counts.get('QA READY', 0) + state_counts.get('DEV', 0) + state_counts.get('Open (not started)', 0)}
+cards_total: {state_counts.get('Shipped', 0) + state_counts.get('Ready To Ship', 0) + state_counts.get('Support Closed', 0) + state_counts.get('Unsupported Partnership', 0) + state_counts.get('Carrier Platform Issues', 0) + state_counts.get('BUG REPORTED', 0) + state_counts.get('QA READY', 0) + state_counts.get('DEV', 0) + state_counts.get('Open (not started)', 0) + state_counts.get('Spill Over', 0)}
 cards_shipped: {state_counts.get('Shipped', 0)}
 cards_ready_to_ship: {state_counts.get('Ready To Ship', 0)}
 cards_support_closed: {state_counts.get('Support Closed', 0)}
 cards_unsupported_partnership: {state_counts.get('Unsupported Partnership', 0)}
+cards_carrier_platform_issues: {state_counts.get('Carrier Platform Issues', 0)}
 cards_bug_reported: {state_counts.get('BUG REPORTED', 0)}
 cards_open: {state_counts.get('Open (not started)', 0)}
+cards_spill_over: {state_counts.get('Spill Over', 0)}
 ---"""
 
 # Build status banner
@@ -74,10 +76,12 @@ summary_table = f"""## Summary
 | Ready To Ship | {state_counts.get('Ready To Ship', 0)} |
 | Support Closed | {state_counts.get('Support Closed', 0)} |
 | Unsupported Partnership | {state_counts.get('Unsupported Partnership', 0)} |
+| Carrier Platform Issues | {state_counts.get('Carrier Platform Issues', 0)} |
 | BUG REPORTED | {state_counts.get('BUG REPORTED', 0)} |
 | QA READY | {state_counts.get('QA READY', 0)} |
 | DEV | {state_counts.get('DEV', 0)} |
 | Open (not started) | {state_counts.get('Open (not started)', 0)} |
+| Spill Over | {state_counts.get('Spill Over', 0)} |
 | **Total** | **{processed_data['total_cards']}** |"""
 
 # Build legend
@@ -87,10 +91,12 @@ legend = """## Legend
 - **Ready To Ship** — QA verified, ready to deploy (ph-WIP QA_VERIFIED label)
 - **Support Closed** — StoryLab card has `Closed by Support` (or `SL: Closed By Support` — both names map to the same state, case-insensitive) label; closed without code via support action
 - **Unsupported Partnership** — StoryLab card has `Unsupported Partnership For Carrier` label (case-insensitive); unsupported carrier/partnership
+- **Carrier Platform Issues** — external carrier/platform environment issues we cannot solve (ph-WIP `SL: Carrier Platform Issues` label)
 - **BUG REPORTED** — code is in QA, bug has been reported (ph-WIP BUG REPORTED label)
 - **QA READY** — code complete, in QA (ph-WIP Dev Done, Ready for QA, or QA Reported labels — NOT yet verified)
 - **DEV** — active development (ph-WIP DEV label)
-- **Open (not started)** — in product backlog but dev hasn't started (no ph-WIP state label)"""
+- **Open (not started)** — in product backlog but dev hasn't started (no ph-WIP state label)
+- **Spill Over** — cards that could not be completed in the current iteration and were moved out (ph-WIP `Spill Over` label)"""
 
 # Function to build card tables for each state
 def build_card_table(state, cards):
@@ -130,7 +136,18 @@ def build_card_table(state, cards):
             card_link = f"[Link]({card['shortUrl']})"
             lines.append(f"| {zi} | {ticket_link} | {card_link} |")
 
-    elif state in ['BUG REPORTED', 'QA READY', 'DEV', 'Open (not started)']:
+    elif state == 'Carrier Platform Issues':
+        lines.append("| ZI | Ticket | Carriers | Card |")
+        lines.append("|----|--------|----------|------|")
+        for card in sorted(cards, key=lambda c: c.get('zi_id') or ''):
+            zi = card.get('zi_id', 'N/A')
+            ticket = card.get('ticket_id')
+            ticket_link = f"[#{ticket}](../../zendesk/summaries/{ticket}.md)" if ticket else "N/A"
+            carriers = ', '.join(card.get('carriers', [])) if card.get('carriers') else 'N/A'
+            card_link = f"[Link]({card['shortUrl']})"
+            lines.append(f"| {zi} | {ticket_link} | {carriers} | {card_link} |")
+
+    elif state in ['BUG REPORTED', 'QA READY', 'DEV', 'Open (not started)', 'Spill Over']:
         lines.append("| ZI | Ticket | Card |")
         lines.append("|----|--------|------|")
         for card in sorted(cards, key=lambda c: c.get('zi_id') or ''):
@@ -144,8 +161,11 @@ def build_card_table(state, cards):
 
 # Build all card tables
 card_tables = []
-for state in ['Shipped', 'Ready To Ship', 'Support Closed', 'Unsupported Partnership', 'BUG REPORTED']:
+for state in ['Shipped', 'Ready To Ship', 'Support Closed', 'Unsupported Partnership', 'Carrier Platform Issues', 'BUG REPORTED']:
     card_tables.append(build_card_table(state, cards_by_state.get(state, [])))
+
+# Build Spill Over section
+spill_over_section = build_card_table('Spill Over', cards_by_state.get('Spill Over', []))
 
 # Build "Still Open" section
 still_open = []
@@ -185,6 +205,8 @@ markdown = f"""{frontmatter}
 
 {chr(10).join(card_tables)}
 
+{spill_over_section}
+
 {chr(10).join(still_open)}
 
 {notes}
@@ -203,10 +225,15 @@ print(f"  Shipped: {state_counts.get('Shipped', 0)}")
 print(f"  Ready To Ship: {state_counts.get('Ready To Ship', 0)}")
 print(f"  Support Closed: {state_counts.get('Support Closed', 0)}")
 print(f"  Unsupported Partnership: {state_counts.get('Unsupported Partnership', 0)}")
+print(f"  Carrier Platform Issues: {state_counts.get('Carrier Platform Issues', 0)}")
 print(f"  BUG REPORTED: {state_counts.get('BUG REPORTED', 0)}")
 print(f"  QA READY: {state_counts.get('QA READY', 0)}")
 print(f"  DEV: {state_counts.get('DEV', 0)}")
 print(f"  Open: {state_counts.get('Open (not started)', 0)}")
+print(f"  Spill Over: {state_counts.get('Spill Over', 0)}")
 print()
-print(f"git_reference: {frontmatter_git_ref[:8]} (preserved from previous snapshot)")
+if frontmatter_git_ref and frontmatter_git_ref != 'None':
+    print(f"git_reference: {frontmatter_git_ref[:8]} (preserved from previous snapshot)")
+else:
+    print(f"git_reference: {git_ref[:8]} (new snapshot)")
 print(f"Status: {frontmatter_status}")

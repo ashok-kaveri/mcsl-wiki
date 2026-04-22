@@ -836,6 +836,8 @@ Implementation checklist: ✓
 - Done Definition: 4 checks before merge
 ```
 
+**For reassessments only**: Also report that a summary comment was posted to the card.
+
 Wait for user to say "next" before processing the next card.
 
 ## Reassessment
@@ -853,6 +855,22 @@ When user says `reassess ZI-NNN [--release-tag <tag>]`:
 4. **Step 4.5 re-runs blast-radius analysis** with updated file/area targets
 5. Step 5 **replaces** the existing `## AI Code Analysis` section — does NOT append a second one
 6. Step 6 **removes old confidence label**, applies new one
+7. Step 7 **posts a comment** summarizing the reassessment for quick visibility
+
+**Reassessment comment format**:
+```bash
+curl -s -X POST "https://api.trello.com/1/cards/{cardId}/actions/comments?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"text": "**Reassessment completed** (sl-iteration analyze)\n\n**Confidence**: <LEVEL> (updated)\n**Status**: <status from Key Findings>\n\n**Root Cause Identified**: \n<one-sentence summary from analysis>\n\n**Key Files**:\n- <file:line>\n- <file:line>\n\n**Implementation**: <brief scope, e.g., \"One-line fix + tests\">. See full analysis above for acceptance criteria and checklist."}'
+```
+
+This comment provides stakeholders with:
+- Updated confidence level
+- Current status (from Key Findings)
+- Root cause summary
+- Key affected files with line numbers
+- Implementation scope summary
+- Reference to full analysis in card description
 
 **Idempotency**:
 1. Check if existing desc contains `-sl-iteration:analysis:start` and `-sl-iteration:analysis:end` tags
@@ -901,6 +919,26 @@ Manual follow-up note: Tested locally, works.
 ```
 
 **Blast-radius updates**: Reassessment may identify different files/areas than the initial analysis, causing the implementation checklist to update with new recommendations. This is expected — the blast-radius reflects the current understanding of the issue.
+
+**Reassessment report format**:
+```
+✅ Reassessed: ZI-NNN — <card title>
+
+Confidence: HIGH (updated)
+Affected files: 2 (dhlShipmentHelper.js, config.json)
+Root cause: <one-sentence summary>
+
+Implementation checklist: ✓
+- Must-Pass: 5 verification scenarios
+- Regression Watch: 3 high-value shipping scenarios
+- Manual Spot-Check: 2 features (ranked by impact)
+- Done Definition: 4 checks before merge
+
+Risk Level: ℹ️ Medium — <brief risk summary>
+
+Card updated: https://trello.com/c/ABC123
+Comment posted: ✓ (reassessment summary for stakeholders)
+```
 
 ## Finding the Next Unanalyzed Card
 
