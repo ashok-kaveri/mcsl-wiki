@@ -1234,7 +1234,7 @@ Three subcommands that close the loop between Trello + Zendesk and the wiki, **p
 
 **Delta anchor**: per-release `git_reference` in `wiki/product/releases/<TAG-slug>.md` frontmatter. snapshot sets it on first creation; sync advances it every run. No separate state file.
 
-## 8-State Legend (coarsening for release reports)
+## 10-State Legend (coarsening for release reports)
 
 Release views classify each tagged StoryLab card by the HIGHEST-precedence **label** found on ANY matching ph-WIP card (matched by Zendesk ticket ID in the card name/desc/attachments/comments). Lane membership is NOT used for state — labels are the authoritative delivery signal.
 
@@ -1243,10 +1243,10 @@ Release views classify each tagged StoryLab card by the HIGHEST-precedence **lab
 **ph-WIP label precedence** (high → low, match by NAME not ID — ph-WIP has multiple labels with the same name and varying colors):
 
 ```
-SHIPPED  >  PROD  >  QA_VERIFIED  >  QA Reported  >  Ready for QA  >  Dev Done  >  DEV
+SHIPPED  >  PROD  >  SL: Carrier Platform Issues  >  QA_VERIFIED  >  QA Reported  >  Ready for QA  >  Dev Done  >  DEV  >  Spill Over
 ```
 
-**Coarsening to 8-state legend**:
+**Coarsening to 10-state legend**:
 
 | Legend state | Label source | Label name(s) | Meaning |
 |--------------|--------------|---------------|---------|
@@ -1254,19 +1254,21 @@ SHIPPED  >  PROD  >  QA_VERIFIED  >  QA Reported  >  Ready for QA  >  Dev Done  
 | `Ready To Ship` | ph-WIP | `QA_VERIFIED` | QA verified, ready to deploy |
 | `Support Closed` | StoryLab | `Closed by Support`, `SL: Closed By Support` | Closed by support without code (case-insensitive) |
 | `Unsupported Partnership` | StoryLab | `Unsupported Partnership For Carrier` | Unsupported carrier/partnership (case-insensitive) |
+| `Carrier Platform Issues` | ph-WIP | `SL: Carrier Platform Issues` | External carrier/platform environment issues we cannot solve |
 | `BUG REPORTED` | ph-WIP | `BUG REPORTED` | Bug found in QA |
 | `QA READY` | ph-WIP | `QA Reported`, `Ready for QA`, `Dev Done` | In QA testing (not yet verified) |
 | `DEV` | ph-WIP | `DEV` | Active development |
 | `Open (not started)` | (none) | NO state label on any matching ph-WIP card | Not started |
+| `Spill Over` | ph-WIP | `Spill Over` | Cards that could not be completed in the current iteration and were moved out |
 
 **Label precedence rules**:
 1. StoryLab closure labels (`Support Closed`, `Unsupported Partnership`) **override** any ph-WIP state
-2. Within ph-WIP labels, precedence follows the order above (SHIPPED > PROD > QA_VERIFIED > ...)
+2. Within ph-WIP labels, precedence follows the order above (SHIPPED > PROD > SL: Carrier Platform Issues > QA_VERIFIED > ...)
 3. If NO labels found → `Open (not started)`
 
 **Do NOT exclude SL-copy cards** (cards named `From SL: ...` in `SL <tag>: Iteration backlog` lanes). Devs often apply state labels directly to the SL-copy rather than creating separate dev cards. Search ALL ph-WIP matches for state labels.
 
-**Closed** = {Shipped, Support Closed, Unsupported Partnership}. **Open** = {Open, DEV, BUG REPORTED, QA READY, Ready To Ship}. Ship refuses non-terminal cards unless `--force`.
+**Closed** = {Shipped, Support Closed, Unsupported Partnership, Carrier Platform Issues}. **Open** = {Open, DEV, BUG REPORTED, QA READY, Ready To Ship, Spill Over}. Ship refuses non-terminal cards unless `--force`.
 
 **Ignored labels** (noise, not part of the release state machine): `READY FOR DEPLOY`, `L3-DEV`, `DEV_ONLY`, `Completed`.
 
@@ -1606,6 +1608,23 @@ Throttle 100ms between posts. 429 → exponential backoff 1s/2s/4s then fail wit
 
 **Purpose**: idempotent rewrite of `wiki/product/releases/<TAG-slug>.md` from current StoryLab + ph-WIP live state. Optionally filter to cards in a specific lane on the source board.
 
+**⚠️ CRITICAL: Use existing tested scripts — DO NOT write new snapshot code from scratch**
+
+The snapshot workflow is implemented as a **3-step Python pipeline**:
+
+```bash
+# Step 1-2: Fetch Trello data and resolve labels
+python3 .claude/skills/sl-iteration/snapshot_release.py "<tag>" "<board_id>" "<lane_name>"
+
+# Step 3: Process cards and determine states
+python3 .claude/skills/sl-iteration/process_cards.py
+
+# Step 4: Generate release markdown
+python3 .claude/skills/sl-iteration/generate_release.py
+```
+
+These scripts implement the full 10-state legend (including Carrier Platform Issues and Spill Over). **Never reimplement this workflow inline** — use the existing scripts.
+
 ### Flow
 
 **Step 1 — File existence check**: Does `wiki/product/releases/<TAG-slug>.md` exist?
@@ -1670,7 +1689,7 @@ else:
 For cards where `state == "Unsupported Partnership"`: No close-reason parsing needed (label is self-explanatory).
 
 **Step 5 — Sort & group**:
-Sort buckets: Shipped → Ready To Ship → Support Closed → Unsupported Partnership → BUG REPORTED → QA READY → DEV → Open (not started).
+Sort buckets: Shipped → Ready To Ship → Support Closed → Unsupported Partnership → Carrier Platform Issues → BUG REPORTED → QA READY → DEV → Open (not started) → Spill Over.
 
 **Step 6 — Rewrite release.md body** (preserving protected frontmatter fields from Step 1):
 
@@ -1694,8 +1713,12 @@ cards_shipped: <N>
 cards_ready_to_ship: <N>
 cards_support_closed: <N>
 cards_unsupported_partnership: <N>
+cards_carrier_platform_issues: <N>
 cards_bug_reported: <N>
+cards_qa_ready: <N>
+cards_dev: <N>
 cards_open: <N>
+cards_spill_over: <N>
 ---
 
 # Release <TAG>
@@ -1710,10 +1733,12 @@ cards_open: <N>
 | Ready To Ship | <N> |
 | Support Closed | <N> |
 | Unsupported Partnership | <N> |
+| Carrier Platform Issues | <N> |
 | BUG REPORTED | <N> |
 | QA READY | <N> |
 | DEV | <N> |
 | Open (not started) | <N> |
+| Spill Over | <N> |
 | **Total** | **<N>** |
 
 ## Legend
@@ -1722,10 +1747,12 @@ cards_open: <N>
 - **Ready To Ship** — QA verified, ready to deploy (ph-WIP QA_VERIFIED label)
 - **Support Closed** — StoryLab card has `Closed by Support` (or `SL: Closed By Support` — both names map to the same state, case-insensitive) label; closed without code via support action
 - **Unsupported Partnership** — StoryLab card has `Unsupported Partnership For Carrier` label (case-insensitive); unsupported carrier/partnership
+- **Carrier Platform Issues** — external carrier/platform environment issues we cannot solve (ph-WIP `SL: Carrier Platform Issues` label)
 - **BUG REPORTED** — code is in QA, bug has been reported (ph-WIP BUG REPORTED label)
 - **QA READY** — code complete, in QA (ph-WIP Dev Done, Ready for QA, or QA Reported labels — NOT yet verified)
 - **DEV** — active development (ph-WIP DEV label)
 - **Open (not started)** — in product backlog but dev hasn't started (no ph-WIP state label)
+- **Spill Over** — cards that could not be completed in the current iteration and were moved out (ph-WIP `Spill Over` label)
 
 ## Shipped (<N>)
 
@@ -1751,6 +1778,12 @@ cards_open: <N>
 |----|--------|-------|------|
 | ZI-NNN | [#NNNNNN](../../zendesk/summaries/NNNNNN.md) | ... | [SL](shortUrl) |
 
+## Carrier Platform Issues (<N>)
+
+| ZI | Ticket | Carriers | Card |
+|----|--------|----------|------|
+| ZI-NNN | [#NNNNNN](../../zendesk/summaries/NNNNNN.md) | ... | [SL](shortUrl) |
+
 ## BUG REPORTED (<N>)
 
 | ZI | Ticket | Theme | Card |
@@ -1773,6 +1806,12 @@ cards_open: <N>
 
 | ZI | Ticket | Theme | Card |
 |----|--------|-------|------|
+
+## Spill Over (<N>)
+
+| ZI | Ticket | Card |
+|----|--------|------|
+| ZI-NNN | [#NNNNNN](../../zendesk/summaries/NNNNNN.md) | [ph-WIP](shortUrl) |
 
 ## Notes
 

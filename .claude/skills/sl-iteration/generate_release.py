@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 """
-Generate release snapshot markdown for MCSL 377
+Generate release snapshot markdown
 """
 import json
 import subprocess
 from datetime import datetime
 
-# Configuration
-TAG = "MCSL 377"
-TAG_SLUG = "mcsl-377"
-BOARD_ID = "63e1e0414b6026c45be1087c"
-LANE_FILTER = "SL MCSL 377: Iteration backlog"
-
 # Load data
 with open('/tmp/snapshot_data.json', 'r') as f:
     snapshot_data = json.load(f)
+
+# Read configuration from snapshot data
+TAG = snapshot_data['tag']
+TAG_SLUG = snapshot_data['tag_slug']
+BOARD_ID = snapshot_data['board_id']
+LANE_FILTER = snapshot_data['lane_filter']
 
 with open('/tmp/processed_cards.json', 'r') as f:
     processed_data = json.load(f)
