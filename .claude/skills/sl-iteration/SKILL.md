@@ -1608,9 +1608,21 @@ Throttle 100ms between posts. 429 → exponential backoff 1s/2s/4s then fail wit
 
 **Purpose**: idempotent rewrite of `wiki/product/releases/<TAG-slug>.md` from current StoryLab + ph-WIP live state. Optionally filter to cards in a specific lane on the source board.
 
-**⚠️ CRITICAL: Use existing tested scripts — DO NOT write new snapshot code from scratch**
+## Python Script Infrastructure
 
-The snapshot workflow is implemented as a **3-step Python pipeline**:
+**⚠️ CRITICAL: The snapshot workflow is implemented in Python scripts. DO NOT regenerate or reimplement these scripts.**
+
+The Python scripts are part of the skill infrastructure and are maintained separately from the SKILL.md file. They are located in `.claude/skills/sl-iteration/`:
+
+- `snapshot_release.py` — Fetches Trello data, resolves labels, saves to temp files
+- `process_cards.py` — Processes cards, determines states, saves processed data
+- `generate_release.py` — Generates the final release markdown file
+
+**These scripts are the authoritative implementation.** The SKILL.md and the Python scripts should be kept in sync through version control.
+
+### Execution
+
+Run the **3-step Python pipeline** in sequence:
 
 ```bash
 # Step 1-2: Fetch Trello data and resolve labels
@@ -1623,11 +1635,18 @@ python3 .claude/skills/sl-iteration/process_cards.py
 python3 .claude/skills/sl-iteration/generate_release.py
 ```
 
-These scripts implement the full 10-state legend (including Carrier Platform Issues and Spill Over). **Never reimplement this workflow inline** — use the existing scripts.
+**Arguments:**
+- `<tag>` — Release tag name (e.g., "MCSL 378")
+- `<board_id>` — Trello board ID or DEFAULT_STORYLAB_BOARD
+- `<lane_name>` — Lane name filter (e.g., "SL MCSL 378: Iteration backlog") or empty string for no filter
 
-### Flow
+The scripts implement the full 10-state legend (including Carrier Platform Issues and Spill Over). **Never reimplement this workflow inline** — always use the existing scripts.
 
-**Step 1 — File existence check**: Does `wiki/product/releases/<TAG-slug>.md` exist?
+### Internal Flow (Documentation Only)
+
+**Note:** The following describes what happens inside the Python scripts. This is for reference only—do NOT reimplement this logic. Always use the Python scripts above.
+
+**Step 1 — File existence check** (`snapshot_release.py`): Does `wiki/product/releases/<TAG-slug>.md` exist?
 - If NO: this is the first snapshot. Mark `is_first_snapshot = true`. The new frontmatter will set `git_reference = HEAD` (establishes sync baseline).
 - If YES: read existing frontmatter. Preserve `git_reference` (snapshot NEVER bumps it — sync owns it), preserve `status` and `shipped_at` if `status == "shipped"`.
 
@@ -1667,7 +1686,7 @@ else:
     lane = None
 ```
 
-**Step 2 — Fetch Trello state**:
+**Step 2 — Fetch Trello state** (`snapshot_release.py`):
 - `resolve_tag_label(board_id, tag)` → `tag_label_id`
 - `resolve_support_closed_label_ids(board_id)` → `support_closed_label_ids` (set, or empty with warning)
 - `resolve_unsupported_partnership_label_ids(board_id)` → `unsupported_partnership_label_ids` (set, or empty with warning)
@@ -1676,22 +1695,22 @@ else:
 - `fetch_ph_wip_snapshot()` → ph-WIP cards + lane map (only if board != PH_WIP_BOARD; else skip for efficiency)
 - `fetch_all_card_comments(PH_WIP_BOARD)` → ph-WIP comments (only if board != PH_WIP_BOARD; else reuse source board comments)
 
-**Step 3 — Correlate & coarsen**: For each tagged StoryLab card:
+**Step 3 — Correlate & coarsen** (`process_cards.py`): For each tagged StoryLab card:
 - `ph_wip_matches = match_storylab_card_to_ph_wip(storylab_card, ph_wip_cards, ph_wip_comments_by_card)`
 - `ph_wip_lane = lane_map[ph_wip_matches[0].id] if ph_wip_matches else None`
 - `state = coarsen_state(storylab_card, ph_wip_lane)`
 - Extract: `zi_id` (from card name `ZI-NNN — ...`), `ticket_id` (from `[#<ticketId>]`), `theme` / `carrier` / `product` labels
 
-**Step 4 — Parse close reasons**: For cards where `state == "Support Closed"`:
+**Step 4 — Parse close reasons** (`process_cards.py`): For cards where `state == "Support Closed"`:
 - `close_reason = parse_close_reason(storylab_comments[card.id])`
 - If `None`: flag the card in "cards missing close-reason" count
 
 For cards where `state == "Unsupported Partnership"`: No close-reason parsing needed (label is self-explanatory).
 
-**Step 5 — Sort & group**:
+**Step 5 — Sort & group** (`process_cards.py`):
 Sort buckets: Shipped → Ready To Ship → Support Closed → Unsupported Partnership → Carrier Platform Issues → BUG REPORTED → QA READY → DEV → Open (not started) → Spill Over.
 
-**Step 6 — Rewrite release.md body** (preserving protected frontmatter fields from Step 1):
+**Step 6 — Rewrite release.md body** (`generate_release.py`, preserving protected frontmatter fields from Step 1):
 
 **YAML quoting**: Always quote string values that contain colons, spaces, or special characters (like `lane_filter: "SL MCSL 377: Iteration backlog"`).
 
