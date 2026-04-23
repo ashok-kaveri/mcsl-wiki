@@ -1845,9 +1845,9 @@ cards_spill_over: <N>
 - [Latest Zendesk daily index](../../zendesk/YYYY-MM-DD.md)
 ```
 
-**Step 7 — Verify against Trello** (sanity check to catch state detection bugs):
+**Step 7 — Verify against Trello** (`generate_release.py` - optional validation, sanity check to catch state detection bugs):
 
-Re-check a sample of cards directly in Trello to verify state detection worked correctly:
+The script can optionally re-check a sample of cards directly in Trello to verify state detection worked correctly:
 
 ```python
 # State expectations
@@ -1906,7 +1906,7 @@ Sample spot-checks:
 
 If ANY mismatches found, report them as warnings and suggest re-running with fresh label fetch.
 
-**Step 8 — Report**:
+**Step 8 — Report** (script output summary):
 ```
 ## Snapshot <TAG>
 - File: wiki/product/releases/<TAG-slug>.md (created | refreshed)
