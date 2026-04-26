@@ -188,20 +188,28 @@ This is sequential but reliable — the main thread has full Bash access.
 
 ### 4. Blast-Radius Analysis Prerequisites (Mode 2 only)
 
-**Mode 2 analyze uses `/find-co-dependencies --derive-actionable-items`** to generate comprehensive implementation checklists. This requires the following dependency maps to exist:
+**Mode 2 analyze invokes the `/find-co-dependencies` skill** (via Skill tool) with `--derive-actionable-items` to generate comprehensive implementation checklists. This requires the following dependency maps to exist:
 
-| Map | Built by | Check existence |
-|-----|----------|----------------|
+| Map | Built by skill | Check existence |
+|-----|----------------|----------------|
 | Test coverage | `/reverse-test-coverage build` | `wiki/architecture/reverse-test-coverage.md` |
 | Code coupling | `/git-co-change-graph delta` | `wiki/architecture/coupling-map.md` |
 | ZI area coupling | `/zendesk-overlap build` | `wiki/zendesk/area-coupling.md` |
 
-**If maps are missing**:
-- Card analysis continues without blast-radius recommendations
-- A note is added to the card: "⚠️ Run `/find-co-dependencies build` to enable blast-radius analysis"
-- User can run `/find-co-dependencies build` once, then `reassess ZI-NNN` to regenerate with full recommendations
+**One-time setup**: The `/find-co-dependencies build` command orchestrates all three skills to build the maps. Run this once before first use of Mode 2 analyze.
 
-**Recommended**: Run `/find-co-dependencies build` before first use of Mode 2 analyze to ensure all maps are available.
+**If maps are missing** (card analysis continues, but with limited recommendations):
+- Blast-radius analysis is skipped
+- A note is added to the card: "⚠️ Run `/find-co-dependencies build` to enable blast-radius analysis"
+- User can run `/find-co-dependencies build` once, then use `reassess ZI-NNN` to regenerate the card with full recommendations
+
+**How the skill invocation works**: Mode 2 uses the Skill tool to invoke find-co-dependencies:
+```
+Skill: find-co-dependencies
+Args: query <file-or-area> --derive-actionable-items
+```
+
+The find-co-dependencies skill reads the three dependency maps and returns structured recommendations that are formatted into the card's "🎯 Implementation Checklist" section.
 
 ---
 
@@ -367,13 +375,30 @@ curl -s -X POST "https://api.trello.com/1/cards?key=$TRELLO_API_KEY&token=$TRELL
 
 Mode 2 performs comprehensive AI-assisted code analysis on ph-WIP cards, combining:
 1. **Code search & analysis** — locate affected files, understand root cause
-2. **Blast-radius analysis** — identify technical coupling via `/find-co-dependencies`
+2. **Blast-radius analysis** — identify technical coupling via `/find-co-dependencies` skill
 3. **Actionable recommendations** — generate acceptance criteria, test plans, review checklists
 
 **Output**: ph-WIP card description updated with:
 - Affected files and root cause
 - Suggested implementation approach
 - Complete implementation checklist with test/review/validation recommendations
+
+## Skill Dependencies
+
+**CRITICAL: Mode 2 depends on the `/find-co-dependencies` skill** for blast-radius analysis and actionable recommendations.
+
+The analyze workflow invokes `/find-co-dependencies` with the `--derive-actionable-items` flag to:
+- Identify code coupling (files that change together)
+- Map test coverage (which tests exercise the affected code)
+- Surface ZI area overlaps (features that break together in customer tickets)
+- Generate implementation checklists (Must-Pass tests, Regression Watch areas, Manual Spot-Check scenarios)
+
+**Prerequisites**: Before first use of Mode 2 analyze, run `/find-co-dependencies build` to initialize the dependency maps:
+- Test coverage map (`wiki/architecture/reverse-test-coverage.md`)
+- Code coupling map (`wiki/architecture/coupling-map.md`)
+- ZI area coupling map (`wiki/zendesk/area-coupling.md`)
+
+If these maps are missing, analysis continues without blast-radius recommendations (see Step 4.5 error handling).
 
 ## Confidence Levels
 
@@ -384,9 +409,35 @@ Mode 2 performs comprehensive AI-assisted code analysis on ph-WIP cards, combini
 | **LOW** | Found general area, issue spans multiple files or is architectural |
 | **POOR** | No meaningful code match, or purely product/UX decision with no code to anchor to |
 
-## Execution
+## Execution Overview
 
-### Step 0: Resolve the target lane
+**All analyze commands use the same core workflow.** The different commands (`analyze ZI-NNN`, `analyze next`, `analyze all`, `analyze @member`, `reassess ZI-NNN`) differ only in **how they select which cards to process**. Once a card is selected, it goes through the identical analysis workflow (Steps 1-7 below).
+
+**Card Selection Methods**:
+
+| Command | Card Selection |
+|---------|----------------|
+| `analyze <tag> ZI-NNN` | Analyze specific card by ZI ID in the `SL <tag>: Iteration backlog` lane |
+| `analyze <tag> next` | Analyze the first card without a confidence label in the `SL <tag>: Iteration backlog` lane |
+| `analyze <tag> all` | Analyze all cards without confidence labels in the `SL <tag>: Iteration backlog` lane |
+| `analyze <tag> @<member>` | Analyze all unanalyzed cards assigned to a specific member in the `SL <tag>: Iteration backlog` lane |
+| `reassess ZI-NNN [--release-tag <tag>]` | Re-analyze a specific card (search all `SL *` lanes if no tag provided) |
+
+**Key distinction between first-time and reassessment**:
+- **First-time analysis**: Card has no `-sl-iteration:analysis:start` tags → append analysis to card description
+- **Reassessment**: Card has existing analysis tags → replace analysis between tags AND post a summary comment
+
+Both use the exact same Steps 1-7. Step 7 behavior differs based on whether tags exist.
+
+---
+
+## Core Workflow: Analyze Single Card
+
+**This is the canonical workflow used for ALL analyze operations.** Whether you're analyzing one card, the next card, all cards, or reassessing—every card goes through these identical steps.
+
+### Step 0: Resolve the target lane (card selection only)
+
+**For `analyze <tag> ...` commands**:
 
 Parse the `<release-tag>` from the argument. Then:
 
@@ -437,6 +488,20 @@ Three sources — read all of them:
 
 **Extract search terms from ALL three sources**: error messages, carrier names, feature names, UI element references, file paths, API endpoints, component names.
 
+### Step 1.5: Read coding standards and testing guidelines
+
+**BEFORE analyzing code or writing recommendations**, read:
+- `.claude/docs/coding-standards.md` — coding standards and best practices
+- `.claude/docs/testing-guide.md` — testing requirements and patterns
+
+These documents inform:
+- How to structure suggested code changes
+- What testing approach to recommend
+- Architectural patterns to follow
+- Quality standards for the implementation
+
+Apply these standards when writing the "Suggested Approach", "Test Coverage", and "Implementation Checklist" sections.
+
 ### Step 2: Search the codebase
 
 Search `raw/storepep-react/` using Grep:
@@ -460,29 +525,112 @@ Read the most relevant files to understand data flow. Follow imports to identify
 
 Search `raw/mcsl-test-automation/` using Grep for related Playwright tests. Cross-reference with `wiki/features.md` if the area is documented.
 
+### Step 3.5: Identify edge scenarios
+
+**CRITICAL**: Always work out edge scenarios for the feature/bug. Edge cases are where most bugs hide and where customer issues originate.
+
+**Systematically analyze**:
+
+1. **Boundary Conditions**
+   - Zero values (0 products, $0.00 price, 0 quantity, empty shipping cost)
+   - Null/undefined fields (missing customer data, optional fields not provided)
+   - Empty collections (no line items, no packages, empty cart)
+   - Maximum limits (max package count, max weight, max dimension values)
+   - Minimum enforcement (minimum order value, minimum package weight)
+
+2. **Multi-Entity Scenarios**
+   - Multiple packages per order (2, 3, 10+ packages)
+   - Mixed product types (physical + digital, hazmat + non-hazmat)
+   - Multiple line items with edge prices (some $0, some >$0)
+   - Multi-carrier scenarios (different carriers for different packages)
+   - Bulk operations (100+ orders in batch)
+
+3. **Toggle/Configuration Combinations**
+   - Feature flags in different states (ON/OFF combinations)
+   - Carrier settings overrides (global vs per-order settings)
+   - Platform-specific behavior (Shopify vs WooCommerce vs Magento)
+   - Plan-based features (free vs paid tier capabilities)
+
+4. **Error Conditions**
+   - API failures (carrier API down, timeout, 5xx errors)
+   - Validation failures (invalid address, missing required fields)
+   - Missing data (product without SKU, order without shipping address)
+   - Stale data (order updated since page load, concurrent edits)
+   - Partial failures (1 of 3 labels succeeds, 2 fail)
+
+5. **Timing/State Issues**
+   - Race conditions (two users editing same order)
+   - State transitions (order canceled during label generation)
+   - Retry scenarios (user clicks "generate" multiple times)
+   - Async dependencies (address validation pending, rate fetch in progress)
+
+6. **Backward Compatibility**
+   - Old data format (orders created before field existed)
+   - Migration scenarios (carrier API version upgrade)
+   - Deprecated features (old UI still in use, old automation rules)
+   - Missing new fields (existing orders without new shipmentType field)
+
+**Output format for edge scenario matrix**:
+
+Create a structured table of edge scenarios with expected vs actual behavior:
+
+```
+| # | Scenario | Input State | Expected Behavior | Risk Level | Mitigation |
+|---|----------|-------------|-------------------|------------|-----------|
+| 1 | Zero product price with shipping cost | Product=$0, Shipping=$50, Toggle=ON | Should return $50 | Medium | Test case needed |
+| 2 | All zero with override toggle | Product=$0, Shipping=$0, Override=ON | Uses fallback (1) | High | Validation needed |
+| 3 | Multi-package with mixed prices | 3 packages, prices: $0, $100, $50 | Proportional allocation | Medium | Review allocation logic |
+```
+
+**When to flag for manual testing**:
+- Any scenario marked "High" risk requires explicit manual test case
+- Complex combinations (3+ variables) require exploratory testing
+- Scenarios involving $0 or null values need special attention
+- Backward compatibility scenarios with old data formats
+
+**Example edge matrix** (from provided image):
+- Zero product + zero shipping + toggle ON → should use minimum (not return 0.00) ❌ BUG
+- Zero product + zero shipping + toggle OFF → should use package price ❌ BUG
+- Multi-package with all zero + fallback → should distribute per-package ⚠️ EDGE
+
 ### Step 4: Assess confidence
 
 Based on Steps 1-3 results, assign: HIGH, MEDIUM, LOW, or POOR.
 
-### Step 4.5: Run blast-radius analysis
+### Step 4.5: Run blast-radius analysis (invoke find-co-dependencies skill)
 
 **For HIGH / MEDIUM / LOW confidence only** (skip for POOR):
 
-Invoke `/find-co-dependencies` with `--derive-actionable-items` to identify technical coupling and generate actionable recommendations:
+**Use the Skill tool to invoke `/find-co-dependencies`** with `--derive-actionable-items` to identify technical coupling and generate actionable recommendations.
+
+**Skill invocation syntax**:
+```
+Skill tool with skill="find-co-dependencies" and args="<command> <target> --derive-actionable-items"
+```
 
 **Choose the appropriate mode**:
 
 1. **If specific files identified** (HIGH/MEDIUM confidence with file paths):
-   ```bash
-   /find-co-dependencies query <primary-file-path> --derive-actionable-items
    ```
-   Example: If analysis identified `server/src/shared/orders/OrderProcessingService.js` as the primary file
+   Skill: find-co-dependencies
+   Args: query <primary-file-path> --derive-actionable-items
+   ```
+   Example: If analysis identified `server/src/shared/orders/OrderProcessingService.js` as the primary file:
+   ```
+   Skill: find-co-dependencies
+   Args: query server/src/shared/orders/OrderProcessingService.js --derive-actionable-items
+   ```
 
 2. **If area/domain identified but not specific files** (MEDIUM/LOW confidence):
-   ```bash
-   /find-co-dependencies query <area> --derive-actionable-items
    ```
-   Example: If analysis identified `label-generation` area
+   Skill: find-co-dependencies
+   Args: query <area> --derive-actionable-items
+   ```
+   Example: If analysis identified `label-generation` area:
+   ```
+   Skill: find-co-dependencies
+   Args: query label-generation --derive-actionable-items
+   ```
 
    **Area mapping** (use these for query):
    - Carrier-related → `carrier-config`
@@ -494,10 +642,17 @@ Invoke `/find-co-dependencies` with `--derive-actionable-items` to identify tech
    - Returns → `returns`
 
 3. **If conceptual/feature-based** (LOW confidence or architectural):
-   ```bash
-   /find-co-dependencies semantic "<card description>" --derive-actionable-items
+   ```
+   Skill: find-co-dependencies
+   Args: semantic "<card description>" --derive-actionable-items
    ```
    Use when the issue is more conceptual (UX flow, business logic) than code-specific
+
+   Example:
+   ```
+   Skill: find-co-dependencies
+   Args: semantic "FedEx international shipments fail customs validation" --derive-actionable-items
+   ```
 
 **Process the output** into the checklist format (Step 5):
 
@@ -510,10 +665,15 @@ From find-co-dependencies output, extract and transform:
 
 **Format as checkboxes** for developer action (not completed yet).
 
-**If find-co-dependencies fails** (cache not built, skill error):
+**If the find-co-dependencies skill invocation fails** (dependency maps not built, skill error, skill not available):
 - Skip blast-radius analysis
 - Include note in analysis: "⚠️ Run `/find-co-dependencies build` to enable blast-radius analysis"
-- Continue with Step 5
+- Continue with Step 5 (code analysis and root cause identification still proceed normally)
+
+**Common failure reasons**:
+- Maps not initialized: User hasn't run `/find-co-dependencies build` yet
+- Skill error: The find-co-dependencies skill returned an error or unexpected output
+- Skill unavailable: The find-co-dependencies skill is not installed or accessible
 
 ### Step 5a: Derive Key Findings
 
@@ -790,74 +950,74 @@ Needs human triage — no code match found. Issue is too vague or requires produ
 
 **File path format**: Use paths relative to `storepepSAAS/` (e.g., `server/src/routes/bulkActions.js:98`). Include line numbers when referencing specific code.
 
-### Step 6: Apply confidence label + update card
+### Step 6: Apply confidence label + update card (with idempotency)
 
-1. **Remove any existing confidence label** from the card:
-   ```bash
-   # For each of the 4 confidence label IDs, try DELETE (ignore 404):
-   curl -s -X DELETE "https://api.trello.com/1/cards/{cardId}/idLabels/{labelId}?key=...&token=..."
-   ```
+**6.1 Check for existing analysis (determines first-time vs reassessment)**:
+```python
+import re
 
-2. **Update card description** — replace the entire desc (StoryLab link + analysis):
-   ```bash
-   curl -s -X PUT "https://api.trello.com/1/cards/{cardId}?key=...&token=..." \
-     -H "Content-Type: application/json" \
-     -d '{"desc": "<full new description>"}'
-   ```
-
-3. **Add new confidence label**:
-   ```bash
-   curl -s -X POST "https://api.trello.com/1/cards/{cardId}/idLabels?key=...&token=..." \
-     -H "Content-Type: application/json" \
-     -d '{"value": "<confidence label ID>"}'
-   ```
-
-### Step 7: Report and proceed
-
-Print for user review:
-- Card name
-- Confidence level
-- Key affected files (top 3)
-- Root cause summary (1 sentence)
-- Blast-radius: ✓ included (or "⚠️ skipped - maps not built")
-
-**Report format**:
-```
-✅ Analyzed: ZI-NNN — <card title>
-
-Confidence: HIGH
-Affected files: 3 (labelGeneration.js, FedExAdaptor.js, OrderHelper.js)
-Root cause: FedEx REST API requires customsValue in commercialInvoice object
-
-Implementation checklist: ✓
-- Must-Pass: 2 test suites
-- Regression Watch: 2 high-coupling areas
-- Manual Spot-Check: 3 features (ranked by impact)
-- Done Definition: 4 checks before merge
+existing_desc = card['desc']  # From API
+has_analysis = '-sl-iteration:analysis:start' in existing_desc and '-sl-iteration:analysis:end' in existing_desc
+is_reassessment = has_analysis
 ```
 
-**For reassessments only**: Also report that a summary comment was posted to the card.
+**6.2 Build new card description with idempotent logic**:
 
-Wait for user to say "next" before processing the next card.
+```python
+if has_analysis:
+    # Reassessment: Replace everything between tags (inclusive)
+    pattern = r'-sl-iteration:analysis:start.*?-sl-iteration:analysis:end'
+    new_desc = re.sub(pattern, new_analysis_with_tags, existing_desc, flags=re.DOTALL)
+else:
+    # First-time analysis: Append after StoryLab URL
+    lines = existing_desc.split('\n')
+    storylab_url = lines[0]  # First line is always StoryLab shortUrl
+    new_desc = storylab_url + '\n\n' + new_analysis_with_tags
+```
 
-## Reassessment
+This preserves:
+- The StoryLab URL (always line 1)
+- Any content between the URL and the `-sl-iteration:analysis:start` tag (e.g., manual notes added by devs)
+- Any content after the `-sl-iteration:analysis:end` tag (e.g., manual follow-up notes)
 
-When user says `reassess ZI-NNN [--release-tag <tag>]`:
+Example preservation:
+```markdown
+https://trello.com/c/abc123
 
-**Lane resolution**:
-- If `--release-tag <tag>` provided: search only in `SL <tag>: Iteration backlog` lane for the card
-- If no `--release-tag`: search ALL `SL *` lanes on ph-WIP for a card matching the ZI ID, use the first match found
+Developer note: This is blocked on API team response.
 
-**Reassessment flow**:
-1. Re-run Steps 1-6 for that card
-2. Step 1 picks up new context (comments, enriched description)
-3. Step 4 may produce a **different confidence level** (can go up or down)
-4. **Step 4.5 re-runs blast-radius analysis** with updated file/area targets
-5. Step 5 **replaces** the existing `## AI Code Analysis` section — does NOT append a second one
-6. Step 6 **removes old confidence label**, applies new one
-7. Step 7 **posts a comment** summarizing the reassessment for quick visibility
+-sl-iteration:analysis:start
+(new analysis replaces from here...)
+...
+-sl-iteration:analysis:end
 
-**Reassessment comment format**:
+Manual follow-up note: Tested locally, works.
+```
+
+**6.3 Remove any existing confidence label** from the card:
+```bash
+# For each of the 4 confidence label IDs, try DELETE (ignore 404):
+curl -s -X DELETE "https://api.trello.com/1/cards/{cardId}/idLabels/{labelId}?key=...&token=..."
+```
+
+**6.4 Update card description** with the new description built in 6.2:
+```bash
+curl -s -X PUT "https://api.trello.com/1/cards/{cardId}?key=...&token=..." \
+  -H "Content-Type: application/json" \
+  -d '{"desc": "<new_desc from 6.2>"}'
+```
+
+**6.5 Add new confidence label**:
+```bash
+curl -s -X POST "https://api.trello.com/1/cards/{cardId}/idLabels?key=...&token=..." \
+  -H "Content-Type: application/json" \
+  -d '{"value": "<confidence label ID>"}'
+```
+
+### Step 7: Report and (optionally) post reassessment comment
+
+**7.1 Post reassessment comment** (only if `is_reassessment == True` from Step 6.1):
+
 ```bash
 curl -s -X POST "https://api.trello.com/1/cards/{cardId}/actions/comments?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN" \
   -H "Content-Type: application/json" \
@@ -872,73 +1032,39 @@ This comment provides stakeholders with:
 - Implementation scope summary
 - Reference to full analysis in card description
 
-**Idempotency**:
-1. Check if existing desc contains `-sl-iteration:analysis:start` and `-sl-iteration:analysis:end` tags
-2. **If tags exist**: Replace everything between the tags (inclusive of the tags themselves) with new analysis (wrapped in tags)
-3. **If tags don't exist**: This is first-time analysis — append the analysis (wrapped in tags) after the StoryLab URL
+**Skip comment posting if first-time analysis** (`is_reassessment == False`). First-time analysis updates the card description only—no comment needed.
 
-This preserves:
-- The StoryLab URL (always line 1)
-- Any content between the URL and the `-sl-iteration:analysis:start` tag (e.g., manual notes added by devs before first analysis, or between URL and tags)
-- Any content after the `-sl-iteration:analysis:end` tag (e.g., manual follow-up notes added by devs)
+**7.2 Print report** for user review:
 
-**Replacement algorithm**:
-```python
-import re
+- Card name
+- Analysis type (First-time or Reassessment)
+- Confidence level
+- Key affected files (top 3)
+- Root cause summary (1 sentence)
+- Blast-radius: ✓ included (or "⚠️ skipped - maps not built")
 
-# Check for existing analysis tags
-has_tags = '-sl-iteration:analysis:start' in existing_desc and '-sl-iteration:analysis:end' in existing_desc
-
-if has_tags:
-    # Replace everything from start tag to end tag (inclusive)
-    pattern = r'-sl-iteration:analysis:start.*?-sl-iteration:analysis:end'
-    new_desc = re.sub(pattern, new_analysis_with_tags, existing_desc, flags=re.DOTALL)
-else:
-    # First-time analysis: append after StoryLab URL
-    lines = existing_desc.split('\n')
-    storylab_url = lines[0]
-    new_desc = storylab_url + '\n\n' + new_analysis_with_tags
+**Report format**:
 ```
+✅ Analyzed: ZI-NNN — <card title>
 
-Example preservation:
-```markdown
-https://trello.com/c/abc123
-
-Developer note: This is blocked on API team response.
-
--sl-iteration:analysis:start
-(new analysis replaces from here...)
-
----
-
-## 📋 Key Findings
-...
--sl-iteration:analysis:end
-
-Manual follow-up note: Tested locally, works.
-```
-
-**Blast-radius updates**: Reassessment may identify different files/areas than the initial analysis, causing the implementation checklist to update with new recommendations. This is expected — the blast-radius reflects the current understanding of the issue.
-
-**Reassessment report format**:
-```
-✅ Reassessed: ZI-NNN — <card title>
-
-Confidence: HIGH (updated)
-Affected files: 2 (dhlShipmentHelper.js, config.json)
-Root cause: <one-sentence summary>
+Type: First-time analysis | Reassessment
+Confidence: HIGH
+Affected files: 3 (labelGeneration.js, FedExAdaptor.js, OrderHelper.js)
+Root cause: FedEx REST API requires customsValue in commercialInvoice object
 
 Implementation checklist: ✓
-- Must-Pass: 5 verification scenarios
-- Regression Watch: 3 high-value shipping scenarios
-- Manual Spot-Check: 2 features (ranked by impact)
+- Must-Pass: 2 test suites
+- Regression Watch: 2 high-coupling areas
+- Manual Spot-Check: 3 features (ranked by impact)
 - Done Definition: 4 checks before merge
 
-Risk Level: ℹ️ Medium — <brief risk summary>
-
+Comment posted: ✓ (reassessment summary for stakeholders) | ✗ (first-time, no comment)
 Card updated: https://trello.com/c/ABC123
-Comment posted: ✓ (reassessment summary for stakeholders)
 ```
+
+**7.3 Wait for user** to say "next" before processing the next card (for `analyze next`, `analyze all`, `analyze @member` modes).
+
+---
 
 ## Finding the Next Unanalyzed Card
 
