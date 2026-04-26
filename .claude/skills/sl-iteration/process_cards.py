@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Process cards and determine states for MCSL 377 snapshot
+Process cards and determine states for release snapshot
 """
 import json
 import re
