@@ -45,8 +45,9 @@ Six modes:
 - `/sl-iteration analyze MCSL 377 ZI-035` — Mode 2 analyze ZI-035
 - `/sl-iteration reassess ZI-035` — Mode 2 reassess ZI-035 (searches all SL lanes)
 - `/sl-iteration reassess ZI-035 --release-tag MCSL 377` — Mode 2 reassess ZI-035 (scoped to MCSL 377 lane)
-- `/sl-iteration snapshot MCSL 377` — Mode 3b first-time snapshot (creates release.md baseline)
-- `/sl-iteration snapshot MCSL 377 63e1e0414b6026c45be1087c SL MCSL 377: Iteration backlog` — Mode 3b snapshot from ph-WIP board, filtered to specific lane
+- `/sl-iteration snapshot MCSL 377` — Mode 3b first-time snapshot (creates release.md baseline, default board: storylab)
+- `/sl-iteration snapshot MCSL 377 --board ph-wip` — Mode 3b snapshot from ph-WIP board
+- `/sl-iteration snapshot MCSL 377 --board ph-wip --lane "SL MCSL 377: Iteration backlog"` — Mode 3b snapshot from ph-WIP board, filtered to specific lane
 - `/sl-iteration snapshot MCSL 377 --no-sync` — Mode 3b snapshot, skip submodule updates
 - `/sl-iteration sync MCSL 377` — Mode 3a delta sync (snapshot must have run first)
 - `/sl-iteration ship MCSL 377 --force` — Mode 3c ship even with non-terminal cards
@@ -138,10 +139,16 @@ else:
 
 **Examples:**
 - `/sl-iteration sync MCSL 377` → tag="MCSL 377", board=DEFAULT_STORYLAB_BOARD, lane=None
-- `/sl-iteration snapshot MCSL 377 abc12345` → tag="MCSL 377", board="abc12345", lane=None
-- `/sl-iteration snapshot MCSL 377 abc12345 Dev Done` → tag="MCSL 377", board="abc12345", lane="Dev Done"
-- `/sl-iteration snapshot MCSL 377 63e1e0414b6026c45be1087c SL MCSL 377: Iteration backlog` → tag="MCSL 377", board="63e1e0414b6026c45be1087c", lane="SL MCSL 377: Iteration backlog"
-- `/sl-iteration ship Multi Word Tag xyz12345 My Lane --force` → tag="Multi Word Tag", board="xyz12345", lane="My Lane", force=True
+- `/sl-iteration snapshot MCSL 377` → tag="MCSL 377", board=DEFAULT_STORYLAB_BOARD (storylab), lane=None
+- `/sl-iteration snapshot MCSL 377 --board ph-wip` → tag="MCSL 377", board=PH_WIP_BOARD (ph-wip), lane=None
+- `/sl-iteration snapshot MCSL 377 --board ph-wip --lane "Dev Done"` → tag="MCSL 377", board=PH_WIP_BOARD, lane="Dev Done"
+- `/sl-iteration snapshot MCSL 377 --board ph-wip --lane "SL MCSL 377: Iteration backlog"` → tag="MCSL 377", board=PH_WIP_BOARD, lane="SL MCSL 377: Iteration backlog"
+- `/sl-iteration ship "Multi Word Tag" --board xyz12345 --lane "My Lane" --force` → tag="Multi Word Tag", board="xyz12345", lane="My Lane", force=True
+
+**Board Names:**
+- `storylab` → `69dd9134576a26fcb79b670d` (default)
+- `ph-wip` → `63e1e0414b6026c45be1087c`
+- Or use full board ID for other boards
 
 ---
 
@@ -213,17 +220,30 @@ The find-co-dependencies skill reads the three dependency maps and returns struc
 
 ---
 
-## Board IDs
+## Board IDs and Names
 
+**Friendly board names** are supported for easier command usage:
+
+| Board Name | Board ID | Default? | Usage |
+|------------|----------|----------|-------|
+| `storylab` | `69dd9134576a26fcb79b670d` | ✅ Yes | Source board (Mode 1, Mode 3) |
+| `ph-wip` | `63e1e0414b6026c45be1087c` | No | Target board (Mode 1 always uses this; Mode 3 can specify with `--board ph-wip`) |
+
+**Using board names:**
+- Mode 3 commands accept `--board <name>` flag: `--board ph-wip` or `--board storylab`
+- If no `--board` flag is provided, defaults to `storylab`
+- Board IDs are still supported for other boards: `--board abc12345`
+
+**Python constants:**
 ```python
 DEFAULT_STORYLAB_BOARD = '69dd9134576a26fcb79b670d'
-PH_WIP_BOARD = '63e1e0414b6026c45be1087c'  # Always hardcoded - this is the target
-```
+PH_WIP_BOARD = '63e1e0414b6026c45be1087c'
 
-| Board | ID | Parameterized? |
-|-------|-----|----------------|
-| **StoryLab** (source) | `69dd9134576a26fcb79b670d` (default) | ✅ Yes (Mode 1, Mode 3) |
-| **ph-WIP** (target) | `63e1e0414b6026c45be1087c` | ❌ No (always hardcoded) |
+BOARD_NAMES = {
+    'storylab': '69dd9134576a26fcb79b670d',
+    'ph-wip': '63e1e0414b6026c45be1087c',
+}
+```
 
 ## Dev Labels to Exclude from Copy (never copy these)
 
@@ -1365,7 +1385,7 @@ Three subcommands that close the loop between Trello + Zendesk and the wiki, **p
 
 **Delta anchor**: per-release `git_reference` in `wiki/product/releases/<TAG-slug>.md` frontmatter. snapshot sets it on first creation; sync advances it every run. No separate state file.
 
-## 10-State Legend (coarsening for release reports)
+## 11-State Legend (coarsening for release reports)
 
 Release views classify each tagged StoryLab card by the HIGHEST-precedence **label** found on ANY matching ph-WIP card (matched by Zendesk ticket ID in the card name/desc/attachments/comments). Lane membership is NOT used for state — labels are the authoritative delivery signal.
 
@@ -1374,15 +1394,16 @@ Release views classify each tagged StoryLab card by the HIGHEST-precedence **lab
 **ph-WIP label precedence** (high → low, match by NAME not ID — ph-WIP has multiple labels with the same name and varying colors):
 
 ```
-SHIPPED  >  PROD  >  SL: Carrier Platform Issues  >  QA_VERIFIED  >  QA Reported  >  Ready for QA  >  Dev Done  >  DEV  >  Spill Over
+SHIPPED  >  PROD  >  QA_VERIFIED  >  SL: Carrier Platform Issues  >  QA Reported  >  Ready for QA  >  Dev Done  >  DEV  >  Spill Over
 ```
 
-**Coarsening to 10-state legend**:
+**Coarsening to 11-state legend**:
 
 | Legend state | Label source | Label name(s) | Meaning |
 |--------------|--------------|---------------|---------|
 | `Shipped` | ph-WIP | `SHIPPED`, `PROD` | Deployed to production |
 | `Ready To Ship` | ph-WIP | `QA_VERIFIED` | QA verified, ready to deploy |
+| `High Risk` | ph-WIP + StoryLab | `QA_VERIFIED` + (`SL: Carrier Platform Issues` OR `Unsupported Partnership`) | Cards with QA_VERIFIED and either external issue; possible use of customer credentials for verification |
 | `Support Closed` | StoryLab | `Closed by Support`, `SL: Closed By Support` | Closed by support without code (case-insensitive) |
 | `Unsupported Partnership` | StoryLab | `Unsupported Partnership For Carrier` | Unsupported carrier/partnership (case-insensitive) |
 | `Carrier Platform Issues` | ph-WIP | `SL: Carrier Platform Issues` | External carrier/platform environment issues we cannot solve |
@@ -1394,12 +1415,13 @@ SHIPPED  >  PROD  >  SL: Carrier Platform Issues  >  QA_VERIFIED  >  QA Reported
 
 **Label precedence rules**:
 1. StoryLab closure labels (`Support Closed`, `Unsupported Partnership`) **override** any ph-WIP state
-2. Within ph-WIP labels, precedence follows the order above (SHIPPED > PROD > SL: Carrier Platform Issues > QA_VERIFIED > ...)
-3. If NO labels found → `Open (not started)`
+2. Within ph-WIP labels, precedence follows the order above (SHIPPED > PROD > QA_VERIFIED > SL: Carrier Platform Issues > ...)
+3. **High Risk detection**: Cards with `QA_VERIFIED` AND (`SL: Carrier Platform Issues` OR `Unsupported Partnership`) are flagged in a separate "High Risk" section (after Ready To Ship). These cards inherit "Ready To Ship" state for precedence purposes but are highlighted due to possible use of customer credentials for verification.
+4. If NO labels found → `Open (not started)`
 
 **Do NOT exclude SL-copy cards** (cards named `From SL: ...` in `SL <tag>: Iteration backlog` lanes). Devs often apply state labels directly to the SL-copy rather than creating separate dev cards. Search ALL ph-WIP matches for state labels.
 
-**Closed** = {Shipped, Support Closed, Unsupported Partnership, Carrier Platform Issues}. **Open** = {Open, DEV, BUG REPORTED, QA READY, Ready To Ship, Spill Over}. Ship refuses non-terminal cards unless `--force`.
+**Closed** = {Shipped, Support Closed, Unsupported Partnership, Carrier Platform Issues}. **Open** = {Open, DEV, BUG REPORTED, QA READY, Ready To Ship, High Risk, Spill Over}. Ship refuses non-terminal cards unless `--force`.
 
 **Ignored labels** (noise, not part of the release state machine): `READY FOR DEPLOY`, `L3-DEV`, `DEV_ONLY`, `Completed`.
 
@@ -1634,7 +1656,7 @@ Fallback: if `git cat-file -e <prior_ref>` fails (ref no longer in history, e.g.
 **Step 1 — Precondition check**: Require `wiki/product/releases/<TAG-slug>.md` to exist.
 - If missing → hard error:
   ```
-  No release file for MCSL 377. Run /sl-iteration snapshot MCSL 377 first to establish the release baseline.
+  No release file for MCSL 377. Run /sl-iteration snapshot "MCSL 377" first to establish the release baseline.
   ```
   Never create it from sync; snapshot owns creation.
 

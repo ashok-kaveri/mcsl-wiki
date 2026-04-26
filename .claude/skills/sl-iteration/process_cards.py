@@ -56,8 +56,8 @@ def coarsen_state(card):
     state_precedence = [
         ('SHIPPED', 'Shipped'),
         ('PROD', 'Shipped'),
-        ('SL: Carrier Platform Issues', 'Carrier Platform Issues'),
         ('QA_VERIFIED', 'Ready To Ship'),
+        ('SL: Carrier Platform Issues', 'Carrier Platform Issues'),
         ('BUG REPORTED', 'BUG REPORTED'),
         ('QA Reported', 'QA READY'),
         ('Ready for QA', 'QA READY'),
@@ -88,6 +88,9 @@ cards_by_state = {
     'Spill Over': []
 }
 
+# High Risk cards (both QA_VERIFIED and SL: Carrier Platform Issues)
+high_risk_cards = []
+
 # Parse ZI ID and ticket ID for each card
 for card in tagged_cards:
     # Extract ZI ID from name (ZI-NNN pattern)
@@ -115,6 +118,18 @@ for card in tagged_cards:
     cards_by_state[state].append(card)
     card['state'] = state
 
+    # Check for high-risk cards (QA_VERIFIED + Carrier Platform Issues OR QA_VERIFIED + Unsupported Partnership)
+    card_label_ids = set(card.get('idLabels', []))
+    qa_verified_ids = state_label_map.get('QA_VERIFIED', set())
+    carrier_platform_ids = state_label_map.get('SL: Carrier Platform Issues', set())
+
+    has_qa_verified = qa_verified_ids and card_label_ids & qa_verified_ids
+    has_carrier_platform = carrier_platform_ids and card_label_ids & carrier_platform_ids
+    has_unsupported_partnership = unsupported_partnership_label_ids and card_label_ids & unsupported_partnership_label_ids
+
+    if has_qa_verified and (has_carrier_platform or has_unsupported_partnership):
+        high_risk_cards.append(card)
+
 # Print state distribution
 print("State distribution:")
 for state, cards in cards_by_state.items():
@@ -123,6 +138,11 @@ for state, cards in cards_by_state.items():
 
 total_cards = sum(len(cards) for cards in cards_by_state.values())
 print(f"  Total: {total_cards}")
+
+if high_risk_cards:
+    print(f"\n⚠️  High Risk cards: {len(high_risk_cards)}")
+    print("    QA_VERIFIED + (Carrier Platform Issues OR Unsupported Partnership)")
+    print("    (Possible use of customer credentials for verification)")
 print()
 
 # Save processed data
@@ -130,7 +150,8 @@ with open('/tmp/processed_cards.json', 'w') as f:
     json.dump({
         'cards_by_state': {k: v for k, v in cards_by_state.items()},
         'total_cards': total_cards,
-        'state_counts': {state: len(cards) for state, cards in cards_by_state.items()}
+        'state_counts': {state: len(cards) for state, cards in cards_by_state.items()},
+        'high_risk_cards': high_risk_cards
     }, f, indent=2)
 
 print("✓ Step 3 complete - processed data saved to /tmp/processed_cards.json")

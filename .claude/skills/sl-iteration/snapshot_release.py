@@ -7,19 +7,57 @@ import os
 import json
 import urllib.request
 import urllib.parse
+import argparse
 from datetime import datetime
 
-# Parse arguments
-if len(sys.argv) < 2:
-    print("Usage: snapshot_release.py <tag> [board_id] [lane_name]")
-    sys.exit(1)
+# Board name to ID mapping
+BOARD_NAMES = {
+    'storylab': '69dd9134576a26fcb79b670d',
+    'ph-wip': '63e1e0414b6026c45be1087c',
+}
 
-TAG = sys.argv[1]
-BOARD_ID = sys.argv[2] if len(sys.argv) > 2 else "69dd9134576a26fcb79b670d"  # Default StoryLab
-LANE_FILTER = sys.argv[3] if len(sys.argv) > 3 else None
+DEFAULT_STORYLAB_BOARD = '69dd9134576a26fcb79b670d'
+PH_WIP_BOARD = '63e1e0414b6026c45be1087c'
+
+def resolve_board_id(board_input):
+    """Resolve board name or ID to board ID"""
+    if not board_input:
+        return DEFAULT_STORYLAB_BOARD
+
+    # Check if it's a known board name (case-insensitive)
+    board_lower = board_input.lower()
+    if board_lower in BOARD_NAMES:
+        return BOARD_NAMES[board_lower]
+
+    # Otherwise assume it's a board ID
+    return board_input
+
+# Parse arguments
+parser = argparse.ArgumentParser(
+    description='Snapshot release state from Trello to wiki',
+    formatter_class=argparse.RawDescriptionHelpFormatter,
+    epilog='''
+Examples:
+  snapshot_release.py "MCSL 377"
+  snapshot_release.py "MCSL 377" --board ph-wip
+  snapshot_release.py "MCSL 377" --board ph-wip --lane "SL MCSL 377: Iteration backlog"
+
+Board names: storylab (default), ph-wip
+Or use full board ID
+    '''
+)
+parser.add_argument('tag', help='Release tag name (e.g., "MCSL 377")')
+parser.add_argument('--board', default=None, help='Board name (storylab, ph-wip) or board ID (default: storylab)')
+parser.add_argument('--lane', default=None, help='Lane filter (optional)')
+
+args = parser.parse_args()
+
+TAG = args.tag
+BOARD_INPUT = args.board
+BOARD_ID = resolve_board_id(BOARD_INPUT)
+LANE_FILTER = args.lane
 
 TAG_SLUG = TAG.lower().replace(' ', '-')
-PH_WIP_BOARD = "63e1e0414b6026c45be1087c"
 
 # API setup
 KEY = os.environ['TRELLO_API_KEY']
@@ -32,8 +70,9 @@ def api_get(path):
     url = f"{url}{sep}key={KEY}&token={TOKEN}"
     return json.load(urllib.request.urlopen(url))
 
+board_display = BOARD_INPUT if BOARD_INPUT else "storylab (default)"
 print(f"Snapshot: {TAG}")
-print(f"  Board: {BOARD_ID}")
+print(f"  Board: {board_display} ({BOARD_ID})")
 print(f"  Lane filter: {LANE_FILTER or 'None'}")
 print()
 
