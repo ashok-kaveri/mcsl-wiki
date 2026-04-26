@@ -45,13 +45,18 @@ Six modes:
 - `/sl-iteration analyze MCSL 377 ZI-035` — Mode 2 analyze ZI-035
 - `/sl-iteration reassess ZI-035` — Mode 2 reassess ZI-035 (searches all SL lanes)
 - `/sl-iteration reassess ZI-035 --release-tag MCSL 377` — Mode 2 reassess ZI-035 (scoped to MCSL 377 lane)
-- `/sl-iteration snapshot MCSL 377` — Mode 3b first-time snapshot (creates release.md baseline, default board: storylab)
-- `/sl-iteration snapshot MCSL 377 --board ph-wip` — Mode 3b snapshot from ph-WIP board
-- `/sl-iteration snapshot MCSL 377 --board ph-wip --lane "SL MCSL 377: Iteration backlog"` — Mode 3b snapshot from ph-WIP board, filtered to specific lane
+- `/sl-iteration snapshot MCSL 377` — Mode 3b first-time snapshot (creates release.md baseline, default board: ph-wip)
+- `/sl-iteration snapshot MCSL 377 --board storylab` — Mode 3b snapshot from StoryLab board
+- `/sl-iteration snapshot MCSL 377 --lane "SL MCSL 377: Iteration backlog"` — Mode 3b snapshot with lane filter (default board: ph-wip)
 - `/sl-iteration snapshot MCSL 377 --no-sync` — Mode 3b snapshot, skip submodule updates
-- `/sl-iteration sync MCSL 377` — Mode 3a delta sync (snapshot must have run first)
-- `/sl-iteration ship MCSL 377 --force` — Mode 3c ship even with non-terminal cards
-- `/sl-iteration ship MCSL 377 --no-sync --force` — Mode 3c ship with multiple flags
+- `/sl-iteration sync "MCSL 377"` — Mode 3a delta sync (snapshot must have run first, default board: ph-wip)
+- `/sl-iteration sync "MCSL 377" --board storylab` — Mode 3a delta sync from StoryLab board
+- `/sl-iteration sync "MCSL 377" --lane "SL MCSL 377: Iteration backlog"` — Mode 3a delta sync with lane filter (default board: ph-wip)
+- `/sl-iteration ship "MCSL 377"` — Mode 3c ship release (default board: ph-wip)
+- `/sl-iteration ship "MCSL 377" --board storylab` — Mode 3c ship from StoryLab board
+- `/sl-iteration ship "MCSL 377" --lane "SL MCSL 377: Iteration backlog"` — Mode 3c ship with lane filter (default board: ph-wip)
+- `/sl-iteration ship "MCSL 377" --force` — Mode 3c ship even with non-terminal cards
+- `/sl-iteration ship "MCSL 377" --board ph-wip --force --no-sync` — Mode 3c ship with multiple flags
 
 ## Dispatch
 
@@ -138,16 +143,18 @@ else:
 ```
 
 **Examples:**
-- `/sl-iteration sync MCSL 377` → tag="MCSL 377", board=DEFAULT_STORYLAB_BOARD, lane=None
-- `/sl-iteration snapshot MCSL 377` → tag="MCSL 377", board=DEFAULT_STORYLAB_BOARD (storylab), lane=None
-- `/sl-iteration snapshot MCSL 377 --board ph-wip` → tag="MCSL 377", board=PH_WIP_BOARD (ph-wip), lane=None
-- `/sl-iteration snapshot MCSL 377 --board ph-wip --lane "Dev Done"` → tag="MCSL 377", board=PH_WIP_BOARD, lane="Dev Done"
-- `/sl-iteration snapshot MCSL 377 --board ph-wip --lane "SL MCSL 377: Iteration backlog"` → tag="MCSL 377", board=PH_WIP_BOARD, lane="SL MCSL 377: Iteration backlog"
+- `/sl-iteration sync "MCSL 377"` → tag="MCSL 377", board=PH_WIP_BOARD (default), lane=None
+- `/sl-iteration sync "MCSL 377" --board storylab` → tag="MCSL 377", board=DEFAULT_STORYLAB_BOARD, lane=None
+- `/sl-iteration sync "MCSL 377" --lane "Dev Done"` → tag="MCSL 377", board=PH_WIP_BOARD (default), lane="Dev Done"
+- `/sl-iteration snapshot "MCSL 377"` → tag="MCSL 377", board=PH_WIP_BOARD (default), lane=None
+- `/sl-iteration snapshot "MCSL 377" --board storylab` → tag="MCSL 377", board=DEFAULT_STORYLAB_BOARD, lane=None
+- `/sl-iteration snapshot "MCSL 377" --lane "SL MCSL 377: Iteration backlog"` → tag="MCSL 377", board=PH_WIP_BOARD (default), lane="SL MCSL 377: Iteration backlog"
+- `/sl-iteration ship "MCSL 377" --lane "My Lane" --force` → tag="MCSL 377", board=PH_WIP_BOARD (default), lane="My Lane", force=True
 - `/sl-iteration ship "Multi Word Tag" --board xyz12345 --lane "My Lane" --force` → tag="Multi Word Tag", board="xyz12345", lane="My Lane", force=True
 
 **Board Names:**
-- `storylab` → `69dd9134576a26fcb79b670d` (default)
-- `ph-wip` → `63e1e0414b6026c45be1087c`
+- `ph-wip` → `63e1e0414b6026c45be1087c` (default)
+- `storylab` → `69dd9134576a26fcb79b670d`
 - Or use full board ID for other boards
 
 ---
@@ -226,12 +233,12 @@ The find-co-dependencies skill reads the three dependency maps and returns struc
 
 | Board Name | Board ID | Default? | Usage |
 |------------|----------|----------|-------|
-| `storylab` | `69dd9134576a26fcb79b670d` | ✅ Yes | Source board (Mode 1, Mode 3) |
-| `ph-wip` | `63e1e0414b6026c45be1087c` | No | Target board (Mode 1 always uses this; Mode 3 can specify with `--board ph-wip`) |
+| `ph-wip` | `63e1e0414b6026c45be1087c` | ✅ Yes (Mode 3) | Target board for iteration workflow (Mode 1 always uses this; Mode 3 default) |
+| `storylab` | `69dd9134576a26fcb79b670d` | Yes (Mode 1) | Source board (Mode 1 default; Mode 3 can specify with `--board storylab`) |
 
 **Using board names:**
-- Mode 3 commands accept `--board <name>` flag: `--board ph-wip` or `--board storylab`
-- If no `--board` flag is provided, defaults to `storylab`
+- Mode 3 commands (sync, snapshot, ship) accept `--board <name>` flag: `--board storylab` or `--board ph-wip`
+- If no `--board` flag is provided, defaults to `ph-wip` (iteration workflow board)
 - Board IDs are still supported for other boards: `--board abc12345`
 
 **Python constants:**
@@ -1647,9 +1654,20 @@ Fallback: if `git cat-file -e <prior_ref>` fails (ref no longer in history, e.g.
 
 ---
 
-## Mode 3a: `/sl-iteration sync <tag> [board] [lane]`
+## Mode 3a: `/sl-iteration sync <tag> [--board <name>] [--lane <name>]`
 
 **Purpose**: pull Zendesk deltas since the release's last sync point; regen summaries; post compact delta comments on tagged cards. Optionally filter to cards in a specific lane on the source board.
+
+**Flags:**
+- `--board <name>` - Board name (ph-wip, storylab) or board ID (default: ph-wip)
+- `--lane <name>` - Lane filter (optional)
+
+**Examples:**
+```bash
+/sl-iteration sync "MCSL 377"
+/sl-iteration sync "MCSL 377" --board storylab
+/sl-iteration sync "MCSL 377" --lane "SL MCSL 377: Iteration backlog"
+```
 
 ### Flow
 
@@ -1662,38 +1680,10 @@ Fallback: if `git cat-file -e <prior_ref>` fails (ref no longer in history, e.g.
 
 **Step 1.5 — Parse arguments:**
 
-```python
-# Parse: sync <tag> [board] [lane]
-# Use same algorithm as general Mode 3 parsing
-import re
-
-tokens = $ARGUMENTS.split()
-subcommand = tokens[0]  # "sync"
-remaining = tokens[1:]
-
-# Find board token position
-board_id = None
-board_pos = None
-for i, token in enumerate(remaining):
-    url_match = re.match(r'^https://trello\.com/b/([a-zA-Z0-9]{8,})/?', token)
-    if url_match:
-        board_id = url_match.group(1)
-        board_pos = i
-        break
-    elif len(token) >= 8 and token.isalnum():
-        board_id = token
-        board_pos = i
-        break
-
-# Split tokens based on board position
-if board_pos is not None:
-    tag = ' '.join(remaining[:board_pos])
-    lane = ' '.join(remaining[board_pos + 1:]) if board_pos + 1 < len(remaining) else None
-else:
-    board_id = DEFAULT_STORYLAB_BOARD
-    tag = ' '.join(remaining)
-    lane = None
-```
+Parse flags to extract:
+- `tag` (required positional argument)
+- `--board <name>` → resolve to board ID (default: PH_WIP_BOARD)
+- `--lane <name>` → lane filter (default: None)
 
 **Step 2 — Read anchor**: Parse release.md frontmatter.
 - `PRIOR_REF = frontmatter['git_reference']`
@@ -2130,55 +2120,42 @@ If validation fails, the script will report specific mismatches with card names,
 
 ---
 
-## Mode 3c: `/sl-iteration ship <tag> [board] [lane] [--force]`
+## Mode 3c: `/sl-iteration ship <tag> [--board <name>] [--lane <name>] [--force] [--no-sync]`
 
 **Purpose**: freeze the release in wiki state. Propagate shipped work to `wiki/product/backlog.md` and append an entry to `wiki/log.md`. **No Trello writes** at all (no comments, no label changes, no moves, no new lanes). Optionally filter to cards in a specific lane on the source board.
+
+**Flags:**
+- `--board <name>` - Board name (ph-wip, storylab) or board ID (default: ph-wip)
+- `--lane <name>` - Lane filter (optional)
+- `--force` - Ship even with non-terminal cards (optional)
+- `--no-sync` - Skip submodule updates (optional)
+
+**Examples:**
+```bash
+/sl-iteration ship "MCSL 377"
+/sl-iteration ship "MCSL 377" --board storylab
+/sl-iteration ship "MCSL 377" --lane "SL MCSL 377: Iteration backlog"
+/sl-iteration ship "MCSL 377" --force
+/sl-iteration ship "MCSL 377" --lane "SL MCSL 377: Iteration backlog" --force --no-sync
+```
 
 ### Flow
 
 **Step 1 — Parse arguments and run snapshot:**
 
-**Parse arguments:**
-```python
-# Parse: ship <tag> [board] [lane] [--force]
-# Use same algorithm as general Mode 3 parsing
-import re
+**Parse flags:**
+- Extract `tag` (required positional argument)
+- Extract `--board <name>` → resolve to board ID (default: PH_WIP_BOARD)
+- Extract `--lane <name>` → lane filter (default: None)
+- Extract `--force` flag (default: False)
+- Extract `--no-sync` flag (default: False)
 
-tokens = $ARGUMENTS.split()
-subcommand = tokens[0]  # "ship"
-remaining = tokens[1:]
-
-# Strip --force from end
-force_flag = False
-if remaining and remaining[-1] == '--force':
-    force_flag = True
-    remaining = remaining[:-1]
-
-# Find board token position
-board_id = None
-board_pos = None
-for i, token in enumerate(remaining):
-    url_match = re.match(r'^https://trello\.com/b/([a-zA-Z0-9]{8,})/?', token)
-    if url_match:
-        board_id = url_match.group(1)
-        board_pos = i
-        break
-    elif len(token) >= 8 and token.isalnum():
-        board_id = token
-        board_pos = i
-        break
-
-# Split tokens based on board position
-if board_pos is not None:
-    tag = ' '.join(remaining[:board_pos])
-    lane = ' '.join(remaining[board_pos + 1:]) if board_pos + 1 < len(remaining) else None
-else:
-    board_id = DEFAULT_STORYLAB_BOARD
-    tag = ' '.join(remaining)
-    lane = None
+**Run snapshot**: Execute full Mode 3b logic with parsed arguments:
+```bash
+python3 snapshot_release.py "$tag" --board "$board" --lane "$lane"
+# (omit --board if using default, omit --lane if not specified)
 ```
-
-**Run snapshot**: Execute full Mode 3b logic with `board_id`, `tag`, and `lane`. Ensures release.md is current.
+Ensures release.md is current.
 
 **Step 2 — Parse latest snapshot**: Re-read the freshly written release.md. Count cards by state.
 

@@ -22,7 +22,7 @@ PH_WIP_BOARD = '63e1e0414b6026c45be1087c'
 def resolve_board_id(board_input):
     """Resolve board name or ID to board ID"""
     if not board_input:
-        return DEFAULT_STORYLAB_BOARD
+        return PH_WIP_BOARD  # Default to ph-wip for iteration workflow
 
     # Check if it's a known board name (case-insensitive)
     board_lower = board_input.lower()
@@ -39,15 +39,15 @@ parser = argparse.ArgumentParser(
     epilog='''
 Examples:
   snapshot_release.py "MCSL 377"
-  snapshot_release.py "MCSL 377" --board ph-wip
-  snapshot_release.py "MCSL 377" --board ph-wip --lane "SL MCSL 377: Iteration backlog"
+  snapshot_release.py "MCSL 377" --board storylab
+  snapshot_release.py "MCSL 377" --lane "SL MCSL 377: Iteration backlog"
 
-Board names: storylab (default), ph-wip
+Board names: ph-wip (default), storylab
 Or use full board ID
     '''
 )
 parser.add_argument('tag', help='Release tag name (e.g., "MCSL 377")')
-parser.add_argument('--board', default=None, help='Board name (storylab, ph-wip) or board ID (default: storylab)')
+parser.add_argument('--board', default=None, help='Board name (storylab, ph-wip) or board ID (default: ph-wip)')
 parser.add_argument('--lane', default=None, help='Lane filter (optional)')
 
 args = parser.parse_args()
@@ -70,7 +70,7 @@ def api_get(path):
     url = f"{url}{sep}key={KEY}&token={TOKEN}"
     return json.load(urllib.request.urlopen(url))
 
-board_display = BOARD_INPUT if BOARD_INPUT else "storylab (default)"
+board_display = BOARD_INPUT if BOARD_INPUT else "ph-wip (default)"
 print(f"Snapshot: {TAG}")
 print(f"  Board: {board_display} ({BOARD_ID})")
 print(f"  Lane filter: {LANE_FILTER or 'None'}")
