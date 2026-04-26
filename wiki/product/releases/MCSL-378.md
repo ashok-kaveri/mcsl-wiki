@@ -6,24 +6,25 @@ tag_slug: mcsl-378
 board_id: 63e1e0414b6026c45be1087c
 lane_filter: "SL MCSL 378: Iteration backlog"
 status: draft
-last_synced: 2026-04-23 05:53:45 UTC
+last_synced: 2026-04-26 14:29:07 UTC
 shipped_at: null
 git_reference: a75d4bc0c99ca241897a05d44b22414db9ff0278
 tickets_delta_on_last_sync: 0
 cards_total: 24
 cards_shipped: 0
 cards_ready_to_ship: 0
-cards_support_closed: 1
+cards_high_risk: 0
+cards_support_closed: 2
 cards_unsupported_partnership: 0
 cards_carrier_platform_issues: 5
 cards_bug_reported: 0
-cards_open: 15
+cards_open: 10
 cards_spill_over: 0
 ---
 
 # Release MCSL 378
 
-> **Status**: draft · **Last synced**: 2026-04-23 05:53 UTC · **Board**: [ph-WIP](https://trello.com/b/63e1e0414b6026c45be1087c)
+> **Status**: draft · **Last synced**: 2026-04-26 14:29 UTC · **Board**: [ph-WIP](https://trello.com/b/63e1e0414b6026c45be1087c)
 
 ## Summary
 
@@ -31,13 +32,14 @@ cards_spill_over: 0
 |-------|-------|
 | Shipped | 0 |
 | Ready To Ship | 0 |
-| Support Closed | 1 |
+| ⚠️ High Risk | 0 |
+| Support Closed | 2 |
 | Unsupported Partnership | 0 |
 | Carrier Platform Issues | 5 |
 | BUG REPORTED | 0 |
-| QA READY | 3 |
+| QA READY | 7 |
 | DEV | 0 |
-| Open (not started) | 15 |
+| Open (not started) | 10 |
 | Spill Over | 0 |
 | **Total** | **24** |
 
@@ -45,6 +47,7 @@ cards_spill_over: 0
 
 - **Shipped** — deployed to production (ph-WIP SHIPPED or PROD label)
 - **Ready To Ship** — QA verified, ready to deploy (ph-WIP QA_VERIFIED label)
+- **⚠️ High Risk** — cards with `QA_VERIFIED` AND (`SL: Carrier Platform Issues` OR `Unsupported Partnership`) labels (possible use of customer credentials for verification; requires special care before shipping)
 - **Support Closed** — StoryLab card has `Closed by Support` (or `SL: Closed By Support` — both names map to the same state, case-insensitive) label; closed without code via support action
 - **Unsupported Partnership** — StoryLab card has `Unsupported Partnership For Carrier` label (case-insensitive); unsupported carrier/partnership
 - **Carrier Platform Issues** — external carrier/platform environment issues we cannot solve (ph-WIP `SL: Carrier Platform Issues` label)
@@ -60,11 +63,12 @@ cards_spill_over: 0
 ## Ready To Ship (0)
 
 *No cards in this state*
-## Support Closed (1)
+## Support Closed (2)
 
 | ZI | Ticket | Reason | Card |
 |----|--------|--------|------|
 | ZI-068 | [#381931](../../zendesk/summaries/381931.md) | pending | [Link](https://trello.com/c/v02oGD3e) |
+| ZI-132 | [#384058](../../zendesk/summaries/384058.md) | pending | [Link](https://trello.com/c/mtuY8s5G) |
 ## Unsupported Partnership (0)
 
 *No cards in this state*
@@ -85,26 +89,28 @@ cards_spill_over: 0
 
 *No cards in this state*
 
-## Still Open (18)
+## Still Open (17)
 
-### QA READY (3)
+### QA READY (7)
 
 | ZI | Ticket | Card |
 |----|--------|------|
+| ZI-001 | [#218195](../../zendesk/summaries/218195.md) | [Link](https://trello.com/c/x09Qjr61) |
+| ZI-003 | [#277997](../../zendesk/summaries/277997.md) | [Link](https://trello.com/c/vKDjnEyW) |
+| ZI-062 | [#380339](../../zendesk/summaries/380339.md) | [Link](https://trello.com/c/CIhn4HuZ) |
 | ZI-063 | [#380784](../../zendesk/summaries/380784.md) | [Link](https://trello.com/c/tHOnnmuh) |
 | ZI-065 | [#381261](../../zendesk/summaries/381261.md) | [Link](https://trello.com/c/9E8R5MCZ) |
+| ZI-092 | [#383437](../../zendesk/summaries/383437.md) | [Link](https://trello.com/c/qRe1Cz6V) |
 | ZI-133 | [#384061](../../zendesk/summaries/384061.md) | [Link](https://trello.com/c/MpDgExFq) |
 
 ### DEV (0)
 
 *No cards in this state*
 
-### Open / not started (15)
+### Open / not started (10)
 
 | ZI | Ticket | Card |
 |----|--------|------|
-| ZI-001 | [#218195](../../zendesk/summaries/218195.md) | [Link](https://trello.com/c/x09Qjr61) |
-| ZI-003 | [#277997](../../zendesk/summaries/277997.md) | [Link](https://trello.com/c/vKDjnEyW) |
 | ZI-005 | [#277997](../../zendesk/summaries/277997.md) | [Link](https://trello.com/c/wOd9bAUk) |
 | ZI-010 | [#338603](../../zendesk/summaries/338603.md) | [Link](https://trello.com/c/lwmiYT2S) |
 | ZI-014 | [#360396](../../zendesk/summaries/360396.md) | [Link](https://trello.com/c/QLBwlKPc) |
@@ -113,9 +119,6 @@ cards_spill_over: 0
 | ZI-034 | [#374022](../../zendesk/summaries/374022.md) | [Link](https://trello.com/c/s1w3iq7e) |
 | ZI-056 | [#379784](../../zendesk/summaries/379784.md) | [Link](https://trello.com/c/gIiVFfHR) |
 | ZI-059 | [#380339](../../zendesk/summaries/380339.md) | [Link](https://trello.com/c/hMK8aQ3F) |
-| ZI-062 | [#380339](../../zendesk/summaries/380339.md) | [Link](https://trello.com/c/CIhn4HuZ) |
-| ZI-092 | [#383437](../../zendesk/summaries/383437.md) | [Link](https://trello.com/c/qRe1Cz6V) |
-| ZI-132 | [#384058](../../zendesk/summaries/384058.md) | [Link](https://trello.com/c/mtuY8s5G) |
 | ZI-259 | [#384355](../../zendesk/summaries/384355.md) | [Link](https://trello.com/c/omnRoXfP) |
 | ZI-266 | [#384731](../../zendesk/summaries/384731.md) | [Link](https://trello.com/c/1o49nwpU) |
 
