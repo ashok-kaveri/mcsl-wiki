@@ -1,0 +1,2 @@
+- Refactor commits and feature commits should be separate
+- A blast radius reduction (extracting an abstraction) is its own commit before the feature lands
