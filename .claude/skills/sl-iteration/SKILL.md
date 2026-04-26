@@ -378,10 +378,11 @@ Mode 2 performs comprehensive AI-assisted code analysis on ph-WIP cards, combini
 2. **Blast-radius analysis** — identify technical coupling via `/find-co-dependencies` skill
 3. **Actionable recommendations** — generate acceptance criteria, test plans, review checklists
 
-**Output**: ph-WIP card description updated with:
+**Output**: Analysis uploaded as timestamped markdown attachment (`ZI-{id}-analysis-{YYYYMMDDHHMMSS}.md`):
 - Affected files and root cause
 - Suggested implementation approach
 - Complete implementation checklist with test/review/validation recommendations
+- Full history preserved (all analysis attachments retained)
 
 ## Skill Dependencies
 
@@ -424,10 +425,10 @@ If these maps are missing, analysis continues without blast-radius recommendatio
 | `reassess ZI-NNN [--release-tag <tag>]` | Re-analyze a specific card (search all `SL *` lanes if no tag provided) |
 
 **Key distinction between first-time and reassessment**:
-- **First-time analysis**: Card has no `-sl-iteration:analysis:start` tags → append analysis to card description
-- **Reassessment**: Card has existing analysis tags → replace analysis between tags AND post a summary comment
+- **First-time analysis**: Card has no existing analysis attachments (`ZI-{id}-analysis-*.md`) → upload first analysis attachment
+- **Reassessment**: Card has existing analysis attachment(s) → upload new timestamped attachment (preserves history) AND post a summary comment
 
-Both use the exact same Steps 1-7. Step 7 behavior differs based on whether tags exist.
+Both use the exact same Steps 1-7. Step 7 behavior differs based on whether analysis attachments exist.
 
 ---
 
@@ -719,14 +720,19 @@ Limit to top 3 files if more than 3.
 https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/NNNN
 ```
 
-### Step 5: Write analysis
+### Step 5: Write analysis to temp file
 
-**For HIGH / MEDIUM / LOW** — build this markdown:
+**For HIGH / MEDIUM / LOW** — build this markdown and save to file:
+
+**Filename format**: `ZI-{id}-analysis-{YYYYMMDDHHMMSS}.md` (e.g., `ZI-035-analysis-20260426143022.md`)
+
+**File content**:
 
 ```markdown
-<StoryLab shortUrl>
+# AI Code Analysis — ZI-{id}
 
--sl-iteration:analysis:start
+**Generated**: {YYYY-MM-DD HH:MM:SS UTC}
+**Confidence**: HIGH | MEDIUM | LOW
 
 ---
 
@@ -819,23 +825,21 @@ Before marking complete, the developer should be able to confirm:
 **The two highest-risk items to not skip**: {item 1} (most customer tickets) and {item 2} (most code coupling).
 
 <If blast-radius analysis was skipped (POOR confidence or analysis failed), omit this entire section.>
-
--sl-iteration:analysis:end
 ```
 
 **Markdown structure notes**:
-- **CRITICAL**: All analysis content MUST be wrapped between `-sl-iteration:analysis:start` and `-sl-iteration:analysis:end` tags for proper reassessment parsing
 - The "Blast Radius Summary" section provides a high-level overview (keep concise)
 - The "🎯 Implementation Checklist" section includes the full actionable items from find-co-dependencies
 - Use `---` horizontal rule to visually separate the code analysis from the implementation checklist
 - Preserve all review prompts (💡) and formatting from find-co-dependencies output
 
-**Example complete card output** (HIGH confidence with blast-radius):
+**Example complete analysis file** (HIGH confidence with blast-radius):
 
 ```markdown
-https://trello.com/c/abc123
+# AI Code Analysis — ZI-035
 
--sl-iteration:analysis:start
+**Generated**: 2026-04-26 14:30:22 UTC
+**Confidence**: HIGH
 
 ---
 
@@ -927,89 +931,88 @@ Before marking complete, the developer should be able to confirm:
 | Batch processing intact | Manual: Generate 5 labels (3 domestic, 2 international) |
 
 **The two highest-risk items to not skip**: international label generation (most customer tickets) and label generation workflow (most code coupling).
-
--sl-iteration:analysis:end
 ```
 
-**For POOR** — one-liner only:
+**For POOR** — minimal file:
 
 ```markdown
-<StoryLab shortUrl>
+# AI Code Analysis — ZI-{id}
 
--sl-iteration:analysis:start
+**Generated**: {YYYY-MM-DD HH:MM:SS UTC}
+**Confidence**: POOR
 
 ---
 
 ## AI Code Analysis
 
 **Confidence**: POOR
-Needs human triage — no code match found. Issue is too vague or requires product decision before code analysis.
 
--sl-iteration:analysis:end
+Needs human triage — no code match found. Issue is too vague or requires product decision before code analysis.
 ```
 
 **File path format**: Use paths relative to `storepepSAAS/` (e.g., `server/src/routes/bulkActions.js:98`). Include line numbers when referencing specific code.
 
-### Step 6: Apply confidence label + update card (with idempotency)
+**Save the analysis file** to a temp location (e.g., `/tmp/ZI-{id}-analysis-{YYYYMMDDHHMMSS}.md`) for upload in Step 6.
+
+### Step 6: Upload analysis attachment + update card
 
 **6.1 Check for existing analysis (determines first-time vs reassessment)**:
+
+Check if the card already has any attachments with name pattern `ZI-{id}-analysis-*.md`:
+
 ```python
 import re
 
-existing_desc = card['desc']  # From API
-has_analysis = '-sl-iteration:analysis:start' in existing_desc and '-sl-iteration:analysis:end' in existing_desc
-is_reassessment = has_analysis
+GET /cards/{cardId}/attachments?fields=name
+
+zi_id_pattern = rf"^{zi_id}-analysis-\d{{14}}\.md$"
+has_existing_analysis = any(re.match(zi_id_pattern, att['name']) for att in attachments)
+is_reassessment = has_existing_analysis
 ```
 
-**6.2 Build new card description with idempotent logic**:
+**6.2 Upload analysis as attachment**:
+
+Upload the temp file created in Step 5 as a Trello attachment:
+
+```bash
+curl -s -X POST "https://api.trello.com/1/cards/{cardId}/attachments?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN" \
+  -F "file=@/tmp/ZI-{id}-analysis-{YYYYMMDDHHMMSS}.md" \
+  -F "name=ZI-{id}-analysis-{YYYYMMDDHHMMSS}.md"
+```
+
+**All analysis attachments are preserved** — Trello maintains full history. Users can view all past analyses sorted by timestamp in the attachment list.
+
+**6.3 Simplify card description** (idempotent — safe to run multiple times):
+
+Set description to minimal content:
 
 ```python
-if has_analysis:
-    # Reassessment: Replace everything between tags (inclusive)
-    pattern = r'-sl-iteration:analysis:start.*?-sl-iteration:analysis:end'
-    new_desc = re.sub(pattern, new_analysis_with_tags, existing_desc, flags=re.DOTALL)
-else:
-    # First-time analysis: Append after StoryLab URL
-    lines = existing_desc.split('\n')
-    storylab_url = lines[0]  # First line is always StoryLab shortUrl
-    new_desc = storylab_url + '\n\n' + new_analysis_with_tags
+# Extract StoryLab URL from first line (always preserved)
+existing_desc = card['desc']
+lines = existing_desc.split('\n')
+storylab_url = lines[0] if lines else ''
+
+# Set minimal description
+new_desc = f"{storylab_url}\n\n_Latest AI analysis: see attachments (sorted by date)_"
 ```
 
-This preserves:
-- The StoryLab URL (always line 1)
-- Any content between the URL and the `-sl-iteration:analysis:start` tag (e.g., manual notes added by devs)
-- Any content after the `-sl-iteration:analysis:end` tag (e.g., manual follow-up notes)
-
-Example preservation:
-```markdown
-https://trello.com/c/abc123
-
-Developer note: This is blocked on API team response.
-
--sl-iteration:analysis:start
-(new analysis replaces from here...)
-...
--sl-iteration:analysis:end
-
-Manual follow-up note: Tested locally, works.
+```bash
+curl -s -X PUT "https://api.trello.com/1/cards/{cardId}?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"desc": "<new_desc from above>"}'
 ```
 
-**6.3 Remove any existing confidence label** from the card:
+**Important**: This step is **idempotent** and preserves the StoryLab URL. If devs add manual notes between the URL and the AI note, they will be overwritten. **Devs should use comments** for manual notes, not the description.
+
+**6.4 Remove any existing confidence label** from the card:
 ```bash
 # For each of the 4 confidence label IDs, try DELETE (ignore 404):
-curl -s -X DELETE "https://api.trello.com/1/cards/{cardId}/idLabels/{labelId}?key=...&token=..."
-```
-
-**6.4 Update card description** with the new description built in 6.2:
-```bash
-curl -s -X PUT "https://api.trello.com/1/cards/{cardId}?key=...&token=..." \
-  -H "Content-Type: application/json" \
-  -d '{"desc": "<new_desc from 6.2>"}'
+curl -s -X DELETE "https://api.trello.com/1/cards/{cardId}/idLabels/{labelId}?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN"
 ```
 
 **6.5 Add new confidence label**:
 ```bash
-curl -s -X POST "https://api.trello.com/1/cards/{cardId}/idLabels?key=...&token=..." \
+curl -s -X POST "https://api.trello.com/1/cards/{cardId}/idLabels?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN" \
   -H "Content-Type: application/json" \
   -d '{"value": "<confidence label ID>"}'
 ```
@@ -1021,7 +1024,7 @@ curl -s -X POST "https://api.trello.com/1/cards/{cardId}/idLabels?key=...&token=
 ```bash
 curl -s -X POST "https://api.trello.com/1/cards/{cardId}/actions/comments?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN" \
   -H "Content-Type: application/json" \
-  -d '{"text": "**Reassessment completed** (sl-iteration analyze)\n\n**Confidence**: <LEVEL> (updated)\n**Status**: <status from Key Findings>\n\n**Root Cause Identified**: \n<one-sentence summary from analysis>\n\n**Key Files**:\n- <file:line>\n- <file:line>\n\n**Implementation**: <brief scope, e.g., \"One-line fix + tests\">. See full analysis above for acceptance criteria and checklist."}'
+  -d '{"text": "**Reassessment completed** (sl-iteration analyze)\n\n**Confidence**: <LEVEL> (updated)\n**Status**: <status from Key Findings>\n\n**Root Cause Identified**: \n<one-sentence summary from analysis>\n\n**Key Files**:\n- <file:line>\n- <file:line>\n\n**Implementation**: <brief scope, e.g., \"One-line fix + tests\">.\n\n📎 **Full analysis**: See latest attachment `ZI-{id}-analysis-{YYYYMMDDHHMMSS}.md`"}'
 ```
 
 This comment provides stakeholders with:
@@ -1030,9 +1033,9 @@ This comment provides stakeholders with:
 - Root cause summary
 - Key affected files with line numbers
 - Implementation scope summary
-- Reference to full analysis in card description
+- Reference to the latest analysis attachment (timestamped)
 
-**Skip comment posting if first-time analysis** (`is_reassessment == False`). First-time analysis updates the card description only—no comment needed.
+**Skip comment posting if first-time analysis** (`is_reassessment == False`). First-time analysis uploads the attachment only—no comment needed.
 
 **7.2 Print report** for user review:
 
@@ -1042,6 +1045,7 @@ This comment provides stakeholders with:
 - Key affected files (top 3)
 - Root cause summary (1 sentence)
 - Blast-radius: ✓ included (or "⚠️ skipped - maps not built")
+- Attachment filename
 
 **Report format**:
 ```
@@ -1058,6 +1062,7 @@ Implementation checklist: ✓
 - Manual Spot-Check: 3 features (ranked by impact)
 - Done Definition: 4 checks before merge
 
+Attachment uploaded: ZI-035-analysis-20260426143022.md
 Comment posted: ✓ (reassessment summary for stakeholders) | ✗ (first-time, no comment)
 Card updated: https://trello.com/c/ABC123
 ```
