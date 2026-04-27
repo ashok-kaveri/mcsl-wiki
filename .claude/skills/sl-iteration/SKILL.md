@@ -513,6 +513,9 @@ Four sources — read all of them:
 
 3. **StoryLab card**: Follow the `shortUrl` from the ph-WIP description → `GET /cards/{shortId}?fields=name,desc`
    - Contains full ticket summary, user story, acceptance criteria
+   - **CRITICAL**: Read and analyze the COMPLETE `desc` field (no truncation for display or analysis)
+   - The entire StoryLab description provides essential context (problem statement, acceptance criteria, customer evidence)
+   - When debugging, you may show a preview for logging, but the FULL content must be used for analysis
 
 4. **Previous analysis** (if reassessment): `GET /cards/{cardId}/attachments?fields=name,url`
    - Check for existing `ZI-{id}-analysis-*.md` attachments
