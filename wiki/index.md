@@ -38,9 +38,9 @@ Other sources:
 - [Carriers and Adapters](architecture/carriers-and-adapters.md) - Complete catalog of 45+ shipping carriers with codes (C1-C54), adapter classes, API endpoints, and protocol types
 - [File Co-Change Coupling Map](architecture/coupling-map.md) - Files that frequently change together; blast-radius reference for planned changes (5233 pairs from last year)
 - [Reverse Test Coverage Map](architecture/reverse-test-coverage.md) - Source file → test spec mapping; blast-radius reference for planned changes
+- [Event-Driven Reporting](architecture/event-driven-reporting.md) - Event-driven architecture for async order aggregation and CSV export with SQS/S3/email delivery
 - [Carrier Registration](architecture/carrier-registration.md) - Carrier registration service architecture (stub)
 - [Ship Rate Track Proxy](architecture/ship-rate-track-proxy.md) - Carrier API proxy service architecture (stub)
-- [Reporting](architecture/reporting.md) - Reporting system architecture (stub)
 - [Order Search](architecture/order-search.md) - Order search service architecture (stub)
 - [StorePep Internal API](architecture/storepep-internal-api.md) - Internal API service architecture (stub)
 - [Order Updates](architecture/order-updates.md) - Order updates service architecture (stub)
@@ -88,6 +88,9 @@ Other sources:
 
 ### Warehouses
 - [Warehouse Selection](modules/warehouses/warehouse-selection.md) - WMS with strategy-based warehouse selection and Odoo integration
+
+### Reporting
+- [Reporting Service](modules/reporting/reporting.md) - Event-driven async order data aggregation and CSV export service with 46 tests (1.27:1 test ratio)
 
 ## Product Management
 
@@ -145,8 +148,8 @@ Other sources:
 
 ---
 
-**Total pages**: 232+ (65 wiki + 66 ticket summaries + 100+ story cards + 1 index)
-**Last update**: 2026-04-27 (Added 7 new source repositories: carrier-registration, ship-rate-track-proxy, reporting, order-search, storepep-internal-api, order-updates, fulfillment-service)
-**Status**: Architecture + Orders + Shipping + Automation + Stores + Products + Warehouses + Product Management + Support Triage + Zendesk Issue Pipeline documented
+**Total pages**: 234+ (67 wiki + 66 ticket summaries + 100+ story cards + 1 index)
+**Last update**: 2026-04-27 (Ingested reporting service: event-driven architecture + module documentation)
+**Status**: Architecture + Orders + Shipping + Automation + Stores + Products + Warehouses + Reporting + Product Management + Support Triage + Zendesk Issue Pipeline documented
 **Test Coverage**: 58 automated Playwright tests covering 95 features
 **Sources**: 9 git submodules + 4 other source types (Zendesk, Google Sheets, Slack)

@@ -1,5 +1,13 @@
 # StorePep KB Activity Log
 
+## [2026-04-27 09:45] ingest | Reporting Service
+- Created: `architecture/event-driven-reporting.md` — Event-driven architecture pattern for async order aggregation
+- Created: `modules/reporting/reporting.md` — Reporting service module documentation
+- Updated: `index.md` — Added reporting architecture page and module to index
+- Updated: `log.md`
+- Git reference: 4728b3d692a83006cf44c6a40c57b06574e49639 (reporting submodule)
+- Summary: Ingested reporting microservice (111 TypeScript files, ~3,800 LOC). Documented event-driven architecture with SQS message queues, denormalized order snapshots, async CSV export workflow, and S3/email delivery. Core components: OrderImportUnitaryService (order sync from main system), ReportScheduler (job creation), OrderExportUnitaryService (streaming CSV generation), filter system (composable criteria: Equals/Like/Range), event listeners (JobCreated → export, JobUpdated → email). Test coverage: 46 tests (~4,822 LOC, 1.27:1 test ratio), 6 integration tests covering DB operations and streaming exports. Database: 2 tables (Order with 36 fields, Job with status tracking), 12 migrations. Deployment: Lambda + API Gateway, Terraform/Ansible for QA/Prod environments. Dependencies: main storepep-react (emits order events), TypeORM, pg-query-stream, nodemailer, @phivejs/eventing (custom event bus). Identified 7 tech debt items (no pagination, no resume on failure, no incremental sync, S3 link expiry, no real-time reports, no queue backlog monitoring, no compression).
+
 ## [2026-04-27 02:29] sources | Added 7 New Source Repositories
 - Added submodules:
   - `raw/carrier-registration` - Carrier registration service (GitLab)
