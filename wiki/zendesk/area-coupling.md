@@ -3,17 +3,17 @@ title: "ZI Area Coupling Map"
 category: support
 sources: [zendesk, storepep-react]
 status: complete
-last_updated: 2026-04-22
-git_reference: 33ccc9c03bf518934340d3ee546fb0927edb5cbb
-tickets_analyzed: 10
-zi_issues_analyzed: 25
+last_updated: 2026-04-28
+git_reference: c40664e6
+tickets_analyzed: 16
+zi_issues_analyzed: 22
 ---
 
 # ZI Area Coupling Map
 
 Areas that co-appear in the same Zendesk ticket or backlog cluster signal coupled surfaces in user-reported failures — even if no direct import exists between them. Code co-change counts from [`coupling-map.md`](../architecture/coupling-map.md) confirm whether the coupling is also visible in git history.
 
-**Tickets analyzed**: 10 | **ZI issues**: 25 | **As of**: 2026-04-22
+**Tickets analyzed**: 16 | **ZI issues**: 22 | **As of**: 2026-04-28
 
 ---
 
@@ -23,7 +23,7 @@ Pairs ranked by frequency. Threshold: ≥2 co-occurring tickets.
 
 | Pair | Co-Occurrences | Strength | Code Co-Changes | Sample Tickets | Sample ZIs |
 |------|----------------|----------|-----------------|----------------|-----------|
-| carrier-config ↔ feature-request | 2 | 🟢 Weak | — | #306141, #381046 | ZI-143, ZI-144, ZI-206 |
+| label-generation ↔ rate-shopping | 3 | 🟢 Weak | — | #[#385094](summaries/385094.md), #[#385211](summaries/385211.md), #[#385906](summaries/385906.md) | ZI-339, ZI-357, ZI-341 |
 
 ---
 
@@ -33,9 +33,7 @@ Which areas appear together in the same cluster — indicates the engineering fo
 
 | Backlog Item | Areas in Cluster | ZI Count |
 |---|---|---|
-| — | — | — |
-
-*No multi-area clusters found in backlog.*
+| (No cluster pairs found) | — | — |
 
 ---
 
@@ -45,28 +43,8 @@ Which areas appear together in the same cluster — indicates the engineering fo
 
 | If you touch… | Also check… | Evidence | Code co-changes |
 |---|---|---|---|
-| carrier-config | feature-request | 🟢 Weak (2 tickets) | no code overlap detected |
-| carrier-config | international | 🟢 Weak (1 tickets) | no code overlap detected |
-| carrier-config | rate-shopping | 🟢 Weak (1 tickets) | no code overlap detected |
-| carrier-config | label-generation | 🟢 Weak (1 tickets) | no code overlap detected |
-| feature-request | carrier-config | 🟢 Weak (2 tickets) | no code overlap detected |
-| feature-request | label-generation | 🟢 Weak (1 tickets) | no code overlap detected |
-| international | label-generation | 🟢 Weak (1 tickets) | no code overlap detected |
-| international | carrier-config | 🟢 Weak (1 tickets) | no code overlap detected |
-| international | rate-shopping | 🟢 Weak (1 tickets) | no code overlap detected |
-| label-generation | international | 🟢 Weak (1 tickets) | no code overlap detected |
-| label-generation | carrier-config | 🟢 Weak (1 tickets) | no code overlap detected |
-| label-generation | feature-request | 🟢 Weak (1 tickets) | no code overlap detected |
-| onboarding | order-management | 🟢 Weak (1 tickets) | no code overlap detected |
-| onboarding | tracking | 🟢 Weak (1 tickets) | no code overlap detected |
-| order-management | onboarding | 🟢 Weak (1 tickets) | no code overlap detected |
-| order-management | other | 🟢 Weak (1 tickets) | no code overlap detected |
-| order-management | unknown | 🟢 Weak (1 tickets) | no code overlap detected |
-| other | order-management | 🟢 Weak (1 tickets) | no code overlap detected |
-| rate-shopping | carrier-config | 🟢 Weak (1 tickets) | no code overlap detected |
-| rate-shopping | international | 🟢 Weak (1 tickets) | no code overlap detected |
-| tracking | onboarding | 🟢 Weak (1 tickets) | no code overlap detected |
-| unknown | order-management | 🟢 Weak (1 tickets) | no code overlap detected |
+| label-generation | rate-shopping | 🟢 Weak (3 tickets) | no code overlap detected |
+| rate-shopping | label-generation | 🟢 Weak (3 tickets) | no code overlap detected |
 
 ---
 
@@ -83,4 +61,4 @@ Which areas appear together in the same cluster — indicates the engineering fo
 
 - [Backlog](../product/backlog.md)
 - [Code Co-Change Coupling Map](../architecture/coupling-map.md)
-- [Daily ZI Index](./2026-04-20.md)
+- [Daily ZI Index](2026-04-27.md)
