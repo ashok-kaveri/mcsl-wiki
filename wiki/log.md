@@ -1,5 +1,13 @@
 # StorePep KB Activity Log
 
+## [2026-04-27 10:15] ingest | Ship-Rate-Track-Proxy Service
+- Created: `architecture/carrier-api-proxy-pattern.md` — Unified API Gateway pattern with adapter pattern
+- Created: `modules/shipping/ship-rate-track-proxy.md` — Ship-rate-track-proxy service module documentation
+- Updated: `index.md` — Added carrier API proxy architecture page and ship-rate-track-proxy module to shipping section
+- Updated: `log.md`
+- Git reference: 0187f5ff1de74aa8b8769b98beef22fc29327b69 (ship-rate-track-proxy submodule)
+- Summary: Ingested ship-rate-track-proxy microservice (252 TypeScript files, ~5,886 LOC). Documented unified API Gateway pattern providing consistent REST interface for 18+ carrier integrations (FedEx, UPS, USPS, TForce, PostNord, Amazon Shipping, etc.). Architectural patterns: Adapter pattern (per-carrier modules), API Gateway pattern (single entry point), dynamic provider loading (parseCarrier middleware), middleware pipeline (errorHandler → parseCarrier → publishAnalytics). Key features: 10 service categories (rates, shipment, tracking, pickup, returns, access-points, address-validation, landed-cost, documents, manifest), protocol abstraction (SOAP/REST/XML → unified JSON), OAuth 2.0 token management, error normalization, analytics publishing to SQS. Module structure: consistent pattern across all carriers (auth, rates, shipment, tracking, pickup services), ModuleLoader for DI, provider interfaces. Common infrastructure: carrier-api-client (retry/error handling), external-auth (OAuth), error-actions (5xx wrapper), validatable (schema validation), logger (Winston). Configuration: 122KB config.json with per-carrier sandbox/live URLs, service IDs, provider mappings. Test coverage: 8 tests (395 LOC, 6.7% ratio) — minimal coverage, no carrier integration tests identified as major tech debt. Deployment: Lambda + API Gateway, Node 16.20.2. Identified 8 tech debt items (low test coverage, massive config file, no schema validation, no versioning, SPOF risk, no rate limiting, no caching, no idempotency).
+
 ## [2026-04-27 09:45] ingest | Reporting Service
 - Created: `architecture/event-driven-reporting.md` — Event-driven architecture pattern for async order aggregation
 - Created: `modules/reporting/reporting.md` — Reporting service module documentation

@@ -39,8 +39,8 @@ Other sources:
 - [File Co-Change Coupling Map](architecture/coupling-map.md) - Files that frequently change together; blast-radius reference for planned changes (5233 pairs from last year)
 - [Reverse Test Coverage Map](architecture/reverse-test-coverage.md) - Source file → test spec mapping; blast-radius reference for planned changes
 - [Event-Driven Reporting](architecture/event-driven-reporting.md) - Event-driven architecture for async order aggregation and CSV export with SQS/S3/email delivery
+- [Carrier API Proxy Pattern](architecture/carrier-api-proxy-pattern.md) - Unified API Gateway pattern for 18+ carrier integrations with adapter pattern, dynamic loading, and protocol abstraction (SOAP/REST/XML)
 - [Carrier Registration](architecture/carrier-registration.md) - Carrier registration service architecture (stub)
-- [Ship Rate Track Proxy](architecture/ship-rate-track-proxy.md) - Carrier API proxy service architecture (stub)
 - [Order Search](architecture/order-search.md) - Order search service architecture (stub)
 - [StorePep Internal API](architecture/storepep-internal-api.md) - Internal API service architecture (stub)
 - [Order Updates](architecture/order-updates.md) - Order updates service architecture (stub)
@@ -59,6 +59,7 @@ Other sources:
 
 ### Shipping
 - [Carrier System Overview](modules/shipping/carrier-system-overview.md) - Multi-carrier architecture with adaptor pattern for 43 carriers
+- [Ship-Rate-Track-Proxy Service](modules/shipping/ship-rate-track-proxy.md) - Unified API Gateway microservice for 18+ carriers with 252 files, 10 service categories, dynamic adapter loading, 6.7% test coverage (8 tests)
 - [Carrier Configuration](modules/shipping/carrier-configuration.md) - Carrier credentials, settings, and account management
 - [Rate Shopping](modules/shipping/rate-shopping.md) - Parallel rate fetching, service selection, and currency conversion
 - [Label Generation](modules/shipping/label-generation.md) - Label creation, document generation, and customs handling
@@ -148,8 +149,8 @@ Other sources:
 
 ---
 
-**Total pages**: 234+ (67 wiki + 66 ticket summaries + 100+ story cards + 1 index)
-**Last update**: 2026-04-27 (Ingested reporting service: event-driven architecture + module documentation)
+**Total pages**: 236+ (69 wiki + 66 ticket summaries + 100+ story cards + 1 index)
+**Last update**: 2026-04-27 (Ingested ship-rate-track-proxy: carrier API proxy pattern + unified gateway)
 **Status**: Architecture + Orders + Shipping + Automation + Stores + Products + Warehouses + Reporting + Product Management + Support Triage + Zendesk Issue Pipeline documented
 **Test Coverage**: 58 automated Playwright tests covering 95 features
 **Sources**: 9 git submodules + 4 other source types (Zendesk, Google Sheets, Slack)
