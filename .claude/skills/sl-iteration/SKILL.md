@@ -501,7 +501,7 @@ if '--release-tag' in tokens:
 
 ### Step 1: Read ALL context from the card
 
-Three sources — read all of them:
+Four sources — read all of them:
 
 1. **ph-WIP card description**: `GET /cards/{cardId}?fields=name,desc,idLabels,shortUrl`
    - The first line is the StoryLab `shortUrl`
@@ -514,7 +514,51 @@ Three sources — read all of them:
 3. **StoryLab card**: Follow the `shortUrl` from the ph-WIP description → `GET /cards/{shortId}?fields=name,desc`
    - Contains full ticket summary, user story, acceptance criteria
 
-**Extract search terms from ALL three sources**: error messages, carrier names, feature names, UI element references, file paths, API endpoints, component names.
+4. **Previous analysis** (if reassessment): `GET /cards/{cardId}/attachments?fields=name,url`
+   - Check for existing `ZI-{id}-analysis-*.md` attachments
+   - If found, read the **most recent** attachment (sorted by timestamp in filename)
+   - Provides baseline: previous findings, confidence level, edge cases documented, developer feedback
+   - Use to compare: what changed? new information? better understanding?
+
+**Extract search terms from ALL four sources**: error messages, carrier names, feature names, UI element references, file paths, API endpoints, component names.
+
+### Step 1.4: How to use previous analysis (reassessment only)
+
+**If `is_reassessment == True`**, use the previous analysis content throughout Steps 2-5:
+
+**During Step 2 (Search codebase)**:
+- Previous analysis identified specific files? → Start search there
+- Previous analysis flagged specific functions? → Read those first
+- Previous analysis suggested approach? → Validate if still applicable
+
+**During Step 3.5 (Edge scenarios)**:
+- Previous analysis documented edge cases? → Verify they're still captured
+- Add NEW edge cases discovered since last analysis
+- Flag if edge scenario matrix changed significantly
+
+**During Step 4 (Assess confidence)**:
+- Previous confidence: HIGH → now finding contradictions? → May downgrade to MEDIUM
+- Previous confidence: POOR → now found specific files? → Upgrade to MEDIUM/HIGH
+- Same confidence → explain what additional validation was done
+
+**During Step 5 (Write analysis)**:
+- **Key Findings section**: Compare status
+  - Previous: "📝 READY FOR DEV" → now: "✅ FIX IMPLEMENTED" (found merged PR)
+  - Previous: "⏸️ BLOCKED" → now: "📝 READY FOR DEV" (blocker resolved)
+- **Root Cause section**: Note if understanding changed
+  - "Previous analysis identified X, but further investigation reveals Y"
+  - "Confirms previous analysis: root cause is still X"
+- **Affected Files**: Highlight if new files discovered
+  - "Previous: 2 files; Now: 4 files (added Z, W)"
+- **Edge Scenario Matrix**: Show delta
+  - Mark scenarios from previous analysis with ✓ (already documented)
+  - Mark new scenarios with 🆕
+
+**Reassessment analysis should**:
+- **Build on** previous work, not ignore it
+- **Highlight deltas** (what changed? what's new?)
+- **Acknowledge** if previous analysis was accurate or needed correction
+- **Preserve** valid edge cases and recommendations from before
 
 ### Step 1.5: Read coding standards and testing guidelines
 
@@ -781,6 +825,36 @@ https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/NNNN
 
 ---
 
+<If is_reassessment == True, include this section:>
+
+## 🔄 Reassessment Delta
+
+**Previous Analysis**: ZI-{id}-analysis-{previous-timestamp}.md
+**Previous Confidence**: <confidence from previous analysis>
+**New Confidence**: <current confidence> (<unchanged | upgraded | downgraded>)
+
+**What Changed**:
+- <bullet 1: new information discovered>
+- <bullet 2: understanding refined>
+- <bullet 3: previous assumption validated/corrected>
+
+**Affected Files Delta**:
+- Previous: {N} files
+- Now: {M} files
+- <Added | Removed | Same>: {file list if changed}
+
+**Root Cause Evolution**:
+- **Previous understanding**: <one-line from previous analysis>
+- **Current understanding**: <one-line from this analysis>
+- **Assessment**: <Confirmed | Refined | Corrected>
+
+**Edge Scenarios Delta**:
+- ✓ {N} scenarios from previous analysis preserved
+- 🆕 {M} new scenarios identified
+- ❌ {P} scenarios removed (no longer applicable)
+
+---
+
 ## AI Code Analysis
 
 **Confidence**: HIGH | MEDIUM | LOW
@@ -983,19 +1057,60 @@ Needs human triage — no code match found. Issue is too vague or requires produ
 
 ### Step 6: Upload analysis attachment + update card
 
-**6.1 Check for existing analysis (determines first-time vs reassessment)**:
+**6.1 Check for existing analysis and read if present (determines first-time vs reassessment)**:
 
-Check if the card already has any attachments with name pattern `ZI-{id}-analysis-*.md`:
+Check if the card already has any attachments with name pattern `ZI-{id}-analysis-*.md`, and if so, read the most recent one:
 
 ```python
-import re
+import re, urllib.request
 
-GET /cards/{cardId}/attachments?fields=name
+# Fetch attachments with name and URL
+url = f'https://api.trello.com/1/cards/{cardId}/attachments?fields=name,url&key={KEY}&token={TOKEN}'
+attachments = json.load(urllib.request.urlopen(url))
 
+# Find analysis attachments
 zi_id_pattern = rf"^{zi_id}-analysis-\d{{14}}\.md$"
-has_existing_analysis = any(re.match(zi_id_pattern, att['name']) for att in attachments)
+analysis_attachments = [att for att in attachments if re.match(zi_id_pattern, att['name'])]
+
+has_existing_analysis = len(analysis_attachments) > 0
 is_reassessment = has_existing_analysis
+
+# If reassessment, read the most recent analysis
+previous_analysis_content = None
+if is_reassessment:
+    # Sort by timestamp in filename (descending)
+    analysis_attachments.sort(key=lambda x: x['name'], reverse=True)
+    latest_analysis = analysis_attachments[0]
+
+    # Fetch analysis content
+    analysis_response = urllib.request.urlopen(latest_analysis['url'])
+    previous_analysis_content = analysis_response.read().decode('utf-8')
+
+    print(f"📄 Reading previous analysis: {latest_analysis['name']}")
+    print(f"   Previous confidence: {extract_confidence_from_markdown(previous_analysis_content)}")
+    print(f"   Previous affected files: {extract_affected_files_from_markdown(previous_analysis_content)}")
 ```
+
+**Helper functions** (to extract key info from previous analysis):
+
+```python
+def extract_confidence_from_markdown(content):
+    """Extract confidence level from analysis markdown."""
+    match = re.search(r'\*\*Confidence\*\*:\s*(HIGH|MEDIUM|LOW|POOR)', content)
+    return match.group(1) if match else 'Unknown'
+
+def extract_affected_files_from_markdown(content):
+    """Extract affected files count from Key Findings."""
+    match = re.search(r'\*\*Affected Files\*\*:\s*(\d+)', content)
+    return match.group(1) if match else 'Unknown'
+```
+
+**Use previous analysis in Step 1-5**: When analyzing, compare new findings against `previous_analysis_content`:
+- Has the root cause changed?
+- Are there new affected files?
+- Has confidence increased/decreased?
+- What edge cases were already documented?
+- Were there developer comments suggesting areas to focus on?
 
 **6.2 Upload analysis as attachment**:
 
