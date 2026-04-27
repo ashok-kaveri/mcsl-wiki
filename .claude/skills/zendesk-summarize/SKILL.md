@@ -1,11 +1,27 @@
 ---
 name: zendesk-summarize
 description: Process Zendesk ticket JSON files into structured wiki summaries and a daily issue index. Use when the user wants to summarize tickets, extract issues, update summaries, or run the Zendesk pipeline.
-argument-hint: "[all|delta|<ticketId>] [shopify|other_platforms|all-products]"
-allowed-tools: Bash, Write, Read, Edit, Glob, Grep, Agent
+argument-hint: [all|delta|<ticketId>] [shopify|other_platforms|all-products]
+allowed-tools: Bash, Write, Read, Edit, Glob, Grep, Agent, Skill
 ---
 
 # Zendesk Issue Extraction Pipeline
+
+⚠️ **SLAP CLAUDE IF IT WANTS TO CHANGE THIS** ⚠️
+
+This skill MUST use `/zendesk-summarize-one` iteratively for ticket summarization.
+
+**CRITICAL CONSTRAINTS:**
+- DO NOT replace with Python scripts or direct JSON parsing
+- DO NOT spawn multiple agents - process tickets sequentially in the main thread
+- NEVER use parallel agents for ticket processing
+- The skill call enforces quality gates
+- Any changes require explicit user approval
+
+**Why sequential only:**
+- Quality gate requires focused LLM analysis per ticket
+- Parallel agents cause context loss and poor summaries
+- Each ticket must be validated before moving to next
 
 Process Zendesk tickets from all product directories under `raw/zendesk/` into structured summaries under `wiki/zendesk/summaries/`.
 
@@ -15,57 +31,15 @@ Process Zendesk tickets from all product directories under `raw/zendesk/` into s
 
 **Argument**: `$ARGUMENTS`
 - First word — scope:
-  - `all` — reprocess every ticket (full rebuild) — uses Claude for deep analysis
-  - `delta` — **only tickets changed since last extraction (default)** — uses automated pipeline
-  - `<ticketId>` — process a single specific ticket — uses Claude for deep analysis
+  - `all` — reprocess every ticket (full rebuild)
+  - `delta` — only tickets changed since last extraction (default)
+  - `<ticketId>` — process a single specific ticket
 - Second word (optional) — product filter:
   - `shopify` — only `raw/zendesk/shopify/`
   - `other_platforms` — only `raw/zendesk/other_platforms/`
   - `all-products` — both directories (default)
 
 ---
-
-## Delta Mode — Automated Pipeline ⚡
-
-**When scope is `delta`**, this skill delegates to the **automated 6-step production pipeline** at `scripts/process_delta.sh`:
-
-1. **Summarize delta tickets** (`summarize_ticket.py`) — Extract open issues from changed ticket JSON
-2. **Load all summaries** (`load_summaries.py`) — Parse all 100+ summaries in parallel
-3. **Load prior ZI assignments** (`load_prior_index.py`) — Parse prior daily index for carry-forward
-4. **5-step ID assignment** (`assign_zi_ids.py`):
-   - Exact match (preserve prior ZIs)
-   - Fuzzy duplicate detection (Jaccard ≥0.4)
-   - Fresh assignment (new ZIs)
-   - Cross-reference (within new ZIs)
-   - Carry-forward (unreferenced prior ZIs)
-5. **Generate daily index** (`generate_daily_index.py`) — 6-column schema with "Duplicate Of"
-6. **Validate** (`validate_daily_index.py`) — All checks must pass
-
-**Execution**:
-```bash
-./scripts/process_delta.sh
-```
-
-**Validation checks**:
-- ✓ All prior ZI IDs preserved
-- ✓ No duplicate ZI IDs
-- ✓ All "Duplicate Of" references valid
-- ✓ All ticket links resolve
-- ✓ Issue count matches
-
-After successful execution, report:
-- Tickets processed
-- ZI assignments (exact matches, fuzzy duplicates, fresh, carried forward)
-- Validation status
-- Link to new daily index
-
-**Then skip to Step 5 (Report)** — the automated pipeline handles Steps 1-4.
-
----
-
-## All Mode & Single Ticket Mode — Claude Analysis
-
-**When scope is `all` or `<ticketId>`**, use Claude's deep analysis for nuanced summarization:
 
 ## Pipeline
 
@@ -93,19 +67,14 @@ PRODUCT_DIRS = {
 
 ## Step 1: Determine scope
 
-**If `delta`**:
-1. Check if `scripts/process_delta.sh` exists
-2. If yes: Run `./scripts/process_delta.sh` and skip to Step 5 (Report)
-3. If no: Use the manual delta workflow below (for backwards compatibility)
+**If `all`**: List all `*.json` files across the selected product directories.
 
-**Manual delta workflow** (if automated pipeline not available):
+**If `delta`**: Find changed files since last extraction:
 ```bash
 # Read git_reference from the latest wiki/zendesk/YYYY-MM-DD.md
 # Then for each product dir:
 # git diff <git_reference>..HEAD --name-only -- raw/zendesk/shopify/ raw/zendesk/other_platforms/
 ```
-
-**If `all`**: List all `*.json` files across the selected product directories.
 
 **If `<ticketId>`**: Search all product directories for `<ticketId>.json` — use whichever directory contains it.
 
@@ -138,25 +107,25 @@ Report any truncated or corrupt files.
 
 ## Step 3: Summarize each ticket
 
-For each ticket, read the full JSON in one pass using python (NEVER use chunked Read with offset/limit on JSON):
+**CRITICAL**: Use `/zendesk-summarize-one <ticketId>` skill to summarize each ticket. Do NOT parse JSON directly.
 
 ```bash
-python3 -c "
-import json
-d = json.load(open('<PRODUCT_DIR>/<ID>.json'))
-t = d['ticket']
-cs = d.get('comments', [])
-# Print: subject, status, dates, tags, store, all comments
-"
+# Single ticket mode:
+/zendesk-summarize-one $ARGUMENTS
+
+# Batch modes (all/delta) - process sequentially:
+for ticket_id in $TICKET_IDS; do
+  /zendesk-summarize-one $ticket_id
+done
 ```
 
-**Determine the product** from the ticket's file location:
-- `raw/zendesk/shopify/` → product: `shopify`
-- `raw/zendesk/other_platforms/` → product: derive from tags (`woocommerce_shipping_services` → `woocommerce`, `magento_multi_carrier_shipping_label_app` → `magento`, etc.)
+**Why use the skill:**
+- Built-in quality gate validates every summary
+- Prevents weak output like "Full analysis pending" or copy/paste titles
+- Enforces proper area tagging
+- Consistent customer context extraction
 
-**Read comments in reverse** to find current state first, then forward for timeline.
-
-Write `wiki/zendesk/summaries/<ticketId>.md` with this template:
+Each call writes to `wiki/zendesk/summaries/<ticketId>.md` with this template:
 
 ```markdown
 ---
@@ -196,14 +165,17 @@ last_updated: <today>
 - <details>
 ```
 
-**Summarization rules:**
-- Open issues = LATEST state only (L3 escalations, pending requests). NOT every comment.
-- Each open issue MUST cite comment number + include: title, blocked, severity, area tag.
-- Area tags: onboarding, carrier-config, carrier-migration, label-generation, rate-shopping, tracking, returns, international, order-management, product-management, feature-request
-- Lifecycle-only tickets: "No open issues — lifecycle-only ticket."
-- **Product field** is mandatory in frontmatter — derived from directory or ticket tags.
+**Summarization is delegated to `/zendesk-summarize-one`** which enforces:
+- Title quality (not questions/email subjects)
+- Timeline with actual phases (NO "Full analysis pending")
+- Open issues distinct from title with all required fields
+- Customer context extraction (NOT "unknown")
+- Proper area tagging
 
-**Parallelization**: For `all` mode, spawn agents in batches of ~10 tickets.
+**Sequential processing (NEVER parallel agents):**
+- Process tickets ONE AT A TIME in the main thread
+- For `all` mode with many tickets (100+), provide progress updates every 10-20 tickets
+- DO NOT spawn agents for parallelization - it breaks quality gates
 
 ## Step 4: Build daily index
 

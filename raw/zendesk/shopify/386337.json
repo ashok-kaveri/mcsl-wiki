@@ -1,0 +1,404 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/386337.json",
+    "id": 386337,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-04-27T16:15:34Z",
+    "updated_at": "2026-04-27T17:37:12Z",
+    "generated_timestamp": 1777311433,
+    "type": null,
+    "subject": "HIVE is not loading to process orders I either get...",
+    "raw_subject": "HIVE is not loading to process orders I either get...",
+    "description": "HIVE is not loading to process orders I either get a 502 Bad gateway warning, or it just sits and loads forever and no orders come up.\n\nI have refreshed the page cleared history and tried a different browser and it is not working. \n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 52653037704473,
+    "submitter_id": 52653037704473,
+    "assignee_id": 6932179641113,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "issues_with_setting_up_the_plugin",
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "sim-motion-us.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "509-895-5622 ext 103"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "44L2ZY-JR0KL",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "sim-motion-us.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "509-895-5622 ext 103"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57381021235737,
+      "type": "Comment",
+      "author_id": 52653037704473,
+      "body": "HIVE is not loading to process orders I either get a 502 Bad gateway warning, or it just sits and loads forever and no orders come up.\n\nI have refreshed the page cleared history and tried a different browser and it is not working. \n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">HIVE is not loading to process orders I either get a 502 Bad gateway warning, or it just sits and loads forever and no orders come up.</p>\n\n<p dir=\"auto\">I have refreshed the page cleared history and tried a different browser and it is not working. </p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/status/allorders\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/status/allorders</a></p></div>",
+      "plain_body": "HIVE is not loading to process orders I either get a 502 Bad gateway warning, or it just sits and loads forever and no orders come up. \n\n I have refreshed the page cleared history and tried a different browser and it is not working.  \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57381046570905.json",
+          "id": 57381046570905,
+          "file_name": "image (1).png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/Y9wdcnwbyILDxt7WbmsSHBMDi/?name=image+%281%29.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/Y9wdcnwbyILDxt7WbmsSHBMDi/?name=image+%281%29.png",
+          "content_type": "image/png",
+          "size": 13300,
+          "width": 1067,
+          "height": 204,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57381019021593.json",
+              "id": 57381019021593,
+              "file_name": "image__1__thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/DjHbnUa0ZYvyYsYwNjPXtKdMG/?name=image__1__thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/DjHbnUa0ZYvyYsYwNjPXtKdMG/?name=image__1__thumb.png",
+              "content_type": "image/png",
+              "size": 549,
+              "width": 80,
+              "height": 15,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57381036870041.json",
+          "id": 57381036870041,
+          "file_name": "image (1).png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/rRbAfID3B19MFGrUQVDh7qzfu/?name=image+%281%29.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/rRbAfID3B19MFGrUQVDh7qzfu/?name=image+%281%29.png",
+          "content_type": "image/png",
+          "size": 13300,
+          "width": 1067,
+          "height": 204,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57381052270489.json",
+              "id": 57381052270489,
+              "file_name": "image__1__thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/tXuULqFqOmsOPf62FlEvQmTiD/?name=image__1__thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/tXuULqFqOmsOPf62FlEvQmTiD/?name=image__1__thumb.png",
+              "content_type": "image/png",
+              "size": 549,
+              "width": 80,
+              "height": 15,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 57381021235609,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-04-27T16:15:34Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0",
+          "ip_address": "174.164.129.72",
+          "location": "Spokane, WA, United States",
+          "latitude": 47.6657,
+          "longitude": -117.2251
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 57381842700569,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "**Store:**_ US_\n**Carrier:**_ UPS_\n**Orders:**_ 377_\n**Plan:**_ $49 Premium_\n**Active For/From:**_ 22.10.2025_\n**Activity:** _Rates and Labels_\n\n\n ![](https://pluginhive.zendesk.com/attachments/token/ely7N4aMPSqyUl2fSgRY8gewl/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><strong>Store:</strong><i>&nbsp;US</i><br><strong>Carrier:</strong><i>&nbsp;UPS</i><br><strong>Orders:</strong><i>&nbsp;377</i><br><strong>Plan:</strong><i>&nbsp;$49 Premium</i><br><strong>Active For/From:</strong><i>&nbsp;22.10.2025</i><br><strong>Activity:</strong><i> Rates and Labels</i><br>&nbsp;<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/ely7N4aMPSqyUl2fSgRY8gewl/?name=image.png\"></span><br></div>",
+      "plain_body": "Store:&nbsp;US\nCarrier:&nbsp;UPS\nOrders:&nbsp;377\nPlan:&nbsp;$49 Premium\nActive For/From:&nbsp;22.10.2025\nActivity: Rates and Labels\n&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57381842700441,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-27T17:23:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57381881260569,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Dear Brandy,\n\nThank you for reaching out to us and sorry for the inconvenience caused.\n\nWe have checked and now the app is loading as expected.\n\n ![](https://pluginhive.zendesk.com/attachments/token/ely7N4aMPSqyUl2fSgRY8gewl/?name=image.png)\n\nPlease do check and let me know if you need any further assistance.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Dear Brandy,<br>&nbsp;<br>Thank you for reaching out to us and sorry for the inconvenience caused.<br>&nbsp;<br>We have checked and now the app is loading as expected.<br>&nbsp;<br><img style=\" width: 867px;\" src=\"https://pluginhive.zendesk.com/attachments/token/ely7N4aMPSqyUl2fSgRY8gewl/?name=image.png\"><br>&nbsp;<br>Please do check and let me know if you need any further assistance.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Dear Brandy,\n&nbsp;\nThank you for reaching out to us and sorry for the inconvenience caused.\n&nbsp;\nWe have checked and now the app is loading as expected.\n&nbsp;\n\n&nbsp;\nPlease do check and let me know if you need any further assistance.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57381881260441,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-27T17:24:09Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57381987546393,
+      "type": "Comment",
+      "author_id": 52653037704473,
+      "body": "Yes it is back up thank you\n\n\n\nBrandy Smith\n\n\n\nOffice Administrator\n\n\n\nHours of operation:\n\n\n\nMonday-Friday 7:30am-4:30pm PST\n\n ![signatureImage](https://support.pluginhive.com/attachments/token/Z4niYbD4OXn1OlH6icRjDMrQq/?name=1000002458-id-657d26b2-f82c-422c-b5ed-5ba017c5cb26.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 12pt; color: rgb(33, 33, 33);\" dir=\"auto\">\nYes it is back up thank you</div>\n<div dir=\"auto\" style=\" font-size: 12pt;\">\n<div style=\" font-size: 12pt;\">\n<br>\n</div>\n</div>\n<div dir=\"auto\" style=\" font-size: 12pt; color: rgb(33, 33, 33);\">\n<span style=\" font-size: 12pt; color: rgb(33, 33, 33);\"></span>\n<div dir=\"auto\" style=\" font-size: 12pt; color: rgb(33, 33, 33);\">\nBrandy Smith </div>\n<span style=\" font-size: 12pt; color: rgb(33, 33, 33);\"></span>\n<div dir=\"auto\" style=\" font-size: 12pt; color: rgb(33, 33, 33);\">\n<br>\n</div>\n<span style=\" font-size: 12pt; color: rgb(33, 33, 33);\"></span>\n<div dir=\"auto\" style=\" font-size: 12pt; color: rgb(33, 33, 33);\">\nOffice Administrator </div>\n<span style=\" font-size: 12pt; color: rgb(33, 33, 33);\"></span>\n<div dir=\"auto\" style=\" font-size: 12pt; color: rgb(33, 33, 33);\">\n<br>\n</div>\n<span style=\" font-size: 12pt; color: rgb(33, 33, 33);\"></span>\n<div dir=\"auto\" style=\" font-size: 12pt; color: rgb(33, 33, 33);\">\nHours of operation: </div>\n<span style=\" font-size: 12pt; color: rgb(33, 33, 33);\"></span>\n<div dir=\"auto\" style=\" font-size: 12pt; color: rgb(33, 33, 33);\">\n<br>\n</div>\n<span style=\" font-size: 12pt; color: rgb(33, 33, 33);\"></span>\n<div dir=\"auto\" style=\" font-size: 12pt; color: rgb(33, 33, 33);\">\nMonday-Friday 7:30am-4:30pm PST </div>\n<span style=\" font-size: 12pt; color: rgb(33, 33, 33);\"></span>\n<div dir=\"auto\" style=\" font-size: 12pt; color: rgb(33, 33, 33);\">\n<img src=\"https://support.pluginhive.com/attachments/token/Z4niYbD4OXn1OlH6icRjDMrQq/?name=1000002458-id-657d26b2-f82c-422c-b5ed-5ba017c5cb26.png\" alt=\"signatureImage\" width=\"283\" style=\"width: 283px; max-width: 100%;\">\n</div>\n<span style=\" font-size: 12pt; color: rgb(33, 33, 33);\"></span></div></div>",
+      "plain_body": "Yes it is back up thank you \n \n \n\n\n \n \n \n\n \nBrandy Smith  \n\n \n\n\n \n\n \nOffice Administrator  \n\n \n\n\n \n\n \nHours of operation:  \n\n \n\n\n \n\n \nMonday-Friday 7:30am-4:30pm PST",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57381987546265,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "brandy@simmotion.com",
+            "name": "Brandy Smith",
+            "original_recipients": [
+              "brandy@simmotion.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-27T17:37:12Z",
+      "metadata": {
+        "system": {
+          "message_id": "<BN0PR19MB529591C8DEF856A96304C565DE362@BN0PR19MB5295.namprd19.prod.outlook.com>",
+          "email_id": "01KQ808D101JB3JYW740V6XCWG",
+          "raw_email_identifier": "2369120/ccf6c50e-224d-4178-b13d-7df2374b8bf1.eml",
+          "json_email_identifier": "2369120/ccf6c50e-224d-4178-b13d-7df2374b8bf1.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    }
+  ]
+}

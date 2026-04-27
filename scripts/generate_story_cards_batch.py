@@ -416,14 +416,23 @@ def write_story_card(zi_id, zi_data, ticket_frontmatter, ticket_summary_body, cr
     # Extract customer context
     customer_context = extract_customer_context(ticket_summary_body)
 
-    # Generate story components
+    # Generate user story first
     user_story = generate_user_story(zi_data, ticket_summary_body, customer_context)
+
+    # Extract title from user story's "I want" clause
+    if "I want" in user_story and ", so that" in user_story:
+        want_part = user_story.split("I want")[1].split(", so that")[0].strip()
+        story_title = (want_part[0].upper() + want_part[1:])[:60].rstrip(',')
+    else:
+        # Fallback: use the whole story and truncate
+        story_title = user_story[:60].rstrip(',')
+
     acceptance_criteria = generate_acceptance_criteria(zi_data, ticket_summary_body)
     gwt_scenarios = generate_gwt_scenarios(zi_data, ticket_summary_body)
 
     # Build frontmatter
     frontmatter = f"""---
-title: "{zi_id} — {title[:60]}"
+title: "{zi_id} — {story_title}"
 zi_id: {zi_id}
 ticket_id: {ticket_id}
 product: {product}
@@ -438,7 +447,7 @@ last_updated: {datetime.now().strftime('%Y-%m-%d')}
 """
 
     # Build card content (for both markdown and Trello)
-    card_content = f"""# {zi_id} — {title[:80]}
+    card_content = f"""# {zi_id} — {story_title}
 
 | Field | Value |
 |-------|-------|

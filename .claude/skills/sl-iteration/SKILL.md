@@ -1,20 +1,21 @@
 ---
 name: sl-iteration
 description: Copy release-tagged cards from StoryLab to ph-WIP as iteration backlog, run AI code analysis on ph-WIP cards, refresh ph-WIP cards from StoryLab updates, and run the release closure workflow (sync / snapshot / ship) for a release tag. Use when the user wants to plan an iteration, move story cards to ph-WIP, analyze cards, refresh ph-WIP cards from StoryLab, sync Zendesk deltas to a release, snapshot a release's Trello state into the wiki, ship/close a release, or says "sl-iteration".
-argument-hint: <release-tag> | <release-tag> ZI-NNN | analyze <tag> <ZI-NNN|next|all|@name> | reassess ZI-NNN [--release-tag <tag>] | remove <release-tag> ZI-NNN | sync-single ZI-NNN [--name] [--desc] [--labels] | sync <tag> [board] [lane] [--no-sync] | snapshot <tag> [board] [lane] [--no-sync] | ship <tag> [board] [lane] [--no-sync] [--force]
+argument-hint: <release-tag> | <release-tag> ZI-NNN | analyze <tag> <ZI-NNN|next|all|@name> | reassess ZI-NNN [--release-tag <tag>] | remove <release-tag> ZI-NNN | swap ZI-OLD ZI-NEW --release <tag> | sync-single ZI-NNN [--name] [--desc] [--labels] | sync <tag> [board] [lane] [--no-sync] | snapshot <tag> [board] [lane] [--no-sync] | ship <tag> [board] [lane] [--no-sync] [--force]
 allowed-tools: Bash, Read, Write, Edit, Glob, Grep, Agent, WebFetch, TodoWrite, AskUserQuestion
 disable-model-invocation: false
 ---
 
 # StoryLab to ph-WIP Iteration Backlog, plus Release Closure
 
-Six modes:
+Seven modes:
 - **copy** (Mode 1): move StoryLab cards tagged with a release label into a ph-WIP `SL <tag>: Iteration backlog` lane.
 - **analyze** (Mode 2): run AI code analysis on ph-WIP cards; classify confidence; update StoryLab dev-status labels.
 - **release** (Mode 3): close the loop between Trello + Zendesk and the wiki via three read-leaning subcommands — `sync`, `snapshot`, `ship`.
 - **copy-single** (Mode 4): move a single StoryLab card (by ZI ID) from default StoryLab board to ph-WIP `SL <tag>: Iteration backlog` lane with duplicate check.
 - **remove-tag** (Mode 5): remove a release tag label from a ph-WIP card.
 - **sync-single** (Mode 6): refresh ph-WIP card from StoryLab — sync name, description, and/or labels FROM StoryLab TO ph-WIP based on flags; preserves ph-WIP comments.
+- **swap** (Mode 7): atomically swap two cards in a release — remove old card's tag, add new card with tag (combines Mode 5 + Mode 4).
 
 **Arguments**:
 - `<release-tag-name>` — Mode 1 copy all tagged cards
@@ -25,6 +26,7 @@ Six modes:
 - `analyze <release-tag> @<name>` — Mode 2 analyze only cards assigned to a member (matches by username or full name)
 - `reassess ZI-NNN [--release-tag <tag>]` — Mode 2 re-run analysis (searches all SL lanes, or scoped to release-tag if provided)
 - `remove <release-tag> ZI-NNN` — Mode 5 remove release tag label from a ph-WIP card
+- `swap ZI-OLD ZI-NEW --release <tag>` — Mode 7 atomically swap two cards (remove tag from ZI-OLD, add ZI-NEW to release)
 - `sync-single ZI-NNN [--name] [--desc] [--labels]` — Mode 6 refresh ph-WIP card from StoryLab (default: all three if no flags)
 - `sync <release-tag> [board] [lane]` — Mode 3a: diff Zendesk JSONs vs the release's last `git_reference`, regen summaries, post compact delta comments on tagged StoryLab cards (optionally filtered to a specific lane)
 - `snapshot <release-tag> [board] [lane]` — Mode 3b: idempotent rewrite of `wiki/product/releases/<TAG-slug>.md` from current StoryLab + ph-WIP state (optionally filtered to a specific lane)
@@ -38,6 +40,7 @@ Six modes:
 - `/sl-iteration MCSL 377` — Mode 1 copy all release-tagged cards
 - `/sl-iteration release-single MCSL 377 ZI-035` — Mode 4 copy single card ZI-035 to ph-WIP
 - `/sl-iteration remove MCSL 377 ZI-035` — Mode 5 remove MCSL 377 tag from ZI-035 in ph-WIP
+- `/sl-iteration swap ZI-010 ZI-123 --release MCSL 378` — Mode 7 swap ZI-010 for ZI-123 in MCSL 378 release
 - `/sl-iteration sync-single ZI-263` — Mode 6 sync all attributes (name + desc + labels)
 - `/sl-iteration sync-single ZI-263 --name --desc` — Mode 6 sync only name and description
 - `/sl-iteration analyze MCSL 377 all` — Mode 2 analyze all cards in `SL MCSL 377: Iteration backlog`
@@ -68,6 +71,7 @@ Parse `$ARGUMENTS` as a token list. Match the **first token**:
 | `reassess` | Mode 2 reassess |
 | `release-single` | Mode 4 copy single card |
 | `remove` | Mode 5 remove tag |
+| `swap` | Mode 7 swap cards |
 | `sync-single` | Mode 6 |
 | `sync` | Mode 3a |
 | `snapshot` | Mode 3b |
@@ -2598,6 +2602,110 @@ curl -s -X PUT "https://api.trello.com/1/cards/{ph_wip_card_id}?key=$TRELLO_API_
 **Preserved:**
 - ph-WIP comments: ✓ (not touched)
 - CONFIDENCE labels: ✓ (preserved)
+```
+
+---
+
+# Mode 7: Swap Cards in Release
+
+## Purpose
+
+Atomically swap two cards in a release — remove the old card's release tag and add the new card to the release. This combines Mode 5 (remove tag) and Mode 4 (copy single card) in a single operation.
+
+## Execution
+
+### Step 1: Parse arguments
+
+```python
+import re
+
+tokens = $ARGUMENTS.split()
+# tokens[0] = "swap"
+# tokens[1] = ZI-OLD (card to remove from release)
+# tokens[2] = ZI-NEW (card to add to release)
+# tokens[3] = "--release"
+# tokens[4:] = release tag (may be multi-word)
+
+zi_pattern = re.compile(r'^ZI-\d+$')
+
+if len(tokens) < 5:
+    print("Error: Usage: swap ZI-OLD ZI-NEW --release <tag>")
+    exit(1)
+
+zi_old = tokens[1] if zi_pattern.match(tokens[1]) else None
+zi_new = tokens[2] if zi_pattern.match(tokens[2]) else None
+
+if not zi_old or not zi_new:
+    print("Error: Both ZI-OLD and ZI-NEW must be valid ZI IDs")
+    exit(1)
+
+if tokens[3] != '--release':
+    print("Error: Expected --release flag")
+    exit(1)
+
+tag = ' '.join(tokens[4:])
+
+if not tag:
+    print("Error: Release tag required")
+    exit(1)
+```
+
+### Step 2: Execute Mode 5 (remove old card from release)
+
+Run Mode 5 to remove the release tag from the old card:
+
+```bash
+# Internal execution of: /sl-iteration remove <tag> <zi_old>
+```
+
+Follow all Mode 5 steps:
+1. Resolve release tag label on StoryLab board
+2. Find ph-WIP card matching `zi_old`
+3. Find matching "SL: <tag>" label on ph-WIP
+4. Remove label from card via PUT /cards/{card_id}
+
+If the card is not found or doesn't have the tag, log a warning but continue (idempotent).
+
+### Step 3: Execute Mode 4 (add new card to release)
+
+Run Mode 4 to copy the new card from StoryLab to ph-WIP:
+
+```bash
+# Internal execution of: /sl-iteration release-single <tag> <zi_new>
+```
+
+Follow all Mode 4 steps:
+1. Resolve release tag label on StoryLab board
+2. Search StoryLab for card matching `zi_new`
+3. Find/create target lane `SL <tag>: Iteration backlog` on ph-WIP
+4. Check for duplicates in target lane
+5. Copy card (POST /cards)
+6. Mirror labels with "SL: " prefix
+
+If duplicate exists, abort with error.
+
+### Step 4: Report
+
+```markdown
+## Swap Cards — {tag}
+
+✅ Swap completed
+
+**Removed from release:**
+- Card: {zi_old}
+- Release tag: {tag}
+- Status: {"✓ Removed" or "⚠ Not found (already removed)"}
+
+**Added to release:**
+- Card: {zi_new}
+- StoryLab URL: {storylab_url}
+- ph-WIP URL: {ph_wip_url}
+- Lane: SL {tag}: Iteration backlog
+- Status: ✓ Copied
+
+**Next steps:**
+- Review ph-WIP card: {ph_wip_url}
+- Consider running: `/sl-iteration analyze {tag} {zi_new}`
 ```
 
 ---

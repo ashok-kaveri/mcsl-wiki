@@ -1,7 +1,7 @@
 ---
 name: story-cards
 description: Generate product story cards from Zendesk ZI issues. Creates well-crafted user stories with acceptance criteria from ticket summaries, and pushes them as Trello cards. Use when the user wants to create story cards, generate stories, or turn ZI issues into actionable dev cards.
-argument-hint: <ZI-NNN|all|delta|range|release> [lane] [board-url] [--no-trello|--force-update-trello]
+argument-hint: <ZI-NNN|all|delta|range|release> [lane] [board-url] [--no-trello]
 allowed-tools: Bash, Read, Write, Glob, Grep, Agent, WebFetch, TodoWrite, AskUserQuestion
 disable-model-invocation: false
 ---
@@ -23,11 +23,8 @@ Generate product-quality story cards from Zendesk ZI issues. You are a **product
 - `apr-13-16` / `apr-16-18` / `apr-18-21` / `apr-21-25` / `apr-25-30` — generate by release window
 - Append a Trello board URL to push cards to that board (e.g., `all https://trello.com/b/xyz`)
 - Append `--no-trello` to skip Trello and only generate markdown
-- Append `--force-update-trello` to force update existing Trello cards (overrides idempotency guard)
 
 **Default Trello board**: `StoryLab` (board ID: `69dd9134576a26fcb79b670d`, URL: `https://trello.com/b/d1xk25XH/storylab`). If no board URL is provided, cards are pushed to StoryLab.
-
-**Force Update Mode**: When `--force-update-trello` is provided, existing Trello cards will be updated with new name, description, and labels instead of being skipped by the idempotency guard. Use this when you need to correct a previously created card.
 
 **Delta mode**: Automatically detects ZI issues created from changed/new Zendesk tickets (since last zendesk-summarize run). Useful after running `/zendesk-summarize delta` to quickly generate story cards for only the new support tickets without processing the entire backlog.
 
@@ -35,48 +32,36 @@ Generate product-quality story cards from Zendesk ZI issues. You are a **product
 
 ## Data Sources (read order)
 
-1. **Latest daily index** `wiki/zendesk/YYYY-MM-DD.md` — canonical ZI ID → ticket mapping, area tags, "Duplicate Of" references
+1. **Latest daily index** — `wiki/zendesk/YYYY-MM-DD.md` (find with `ls -t wiki/zendesk/20*.md | head -1`) — canonical ZI ID → ticket mapping, area tags
 2. `wiki/zendesk/summaries/<ticketId>.md` — **full structured ticket summary** (embedded verbatim into the story card)
 3. `wiki/product/backlog.md` — which backlog cluster this issue belongs to
 4. Raw ticket JSON (via python) — for exact `created_at` timestamp to compute SLA
-
-**Finding the latest daily index**:
-```bash
-ls -t wiki/zendesk/20*.md | head -1
-```
 
 ---
 
 ## Delta Detection
 
 **When to use `delta` mode:**
-- After Zendesk tickets have been updated in `raw/zendesk/` (e.g., webhook sync, manual update)
-- To quickly generate story cards for only the new/changed issues, without reprocessing the entire ZI catalog
+- After running `/zendesk-summarize delta` to extract new/changed Zendesk tickets
+- To quickly generate story cards for only the new issues, without reprocessing the entire ZI catalog
 
 **How it works:**
-1. Automatically runs `scripts/process_delta.sh` to extract delta tickets
-   - Detects changed tickets since last extraction using git diff
-   - Runs 6-step automated pipeline (summarize → load → assign IDs → generate index → validate)
-   - Creates new daily index with updated ZI assignments
-2. Parse the newly generated daily index: `wiki/zendesk/YYYY-MM-DD.md`
-3. Compare with previous daily index to find new ZI IDs
-4. Generate story cards for only the new ZI issues
+1. Read the latest daily index: `wiki/zendesk/YYYY-MM-DD.md`
+2. Run `git diff <prior-commit>..HEAD -- raw/zendesk/` to find changed ticket files
+3. For each changed ticket ID, find matching ZI issues in the daily index
+4. Generate story cards for only those ZI issues
 5. Push to the specified lane (default: APR 25-30)
 
 **Delta anchor (git reference):**
 - The daily index frontmatter contains `git_reference: <commit>` from the last zendesk-summarize run
-- process_delta.sh uses this to detect changed tickets since that commit
-- Automatically handles 5-step ZI ID assignment (exact match, fuzzy duplicate, fresh, cross-reference, carry-forward)
+- Delta mode diffs from that reference forward to find new/changed tickets
+- If the reference is not in history (rebase/squash), falls back to `HEAD~1..HEAD`
 
 **Example workflow:**
 ```bash
-# Option 1: Manual — extract first, then generate cards
-scripts/process_delta.sh      # Extract delta tickets, update index
-/story-cards delta            # Generate cards for new ZIs → APR 25-30 lane
-
-# Option 2: Automatic — /story-cards delta runs process_delta.sh automatically
-/story-cards delta            # Extracts delta + generates cards (APR 25-30)
-/story-cards delta apr-13-16  # Extracts delta + generates cards (APR 13-16 lane)
+/zendesk-summarize delta      # Extract new/changed Zendesk tickets
+/story-cards delta            # Generate story cards for those new issues (APR 25-30 lane)
+/story-cards delta apr-13-16  # Or put them in a different lane
 ```
 
 ---
@@ -176,18 +161,6 @@ curl -s -X POST "https://api.trello.com/1/cards?key=$KEY&token=$TOKEN" \
     "desc": "<full markdown card content>",
     "idLabels": "<label_id1>,<label_id2>",
     "pos": "top"
-  }'
-```
-
-**Update card** (force update mode):
-```bash
-curl -s -X PUT "https://api.trello.com/1/cards/{cardId}?key=$KEY&token=$TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "name": "ZI-NNN — <updated title>",
-    "desc": "<updated markdown card content>",
-    "idLabels": "<updated_label_id1>,<updated_label_id2>",
-    "idList": "<target_lane_id>"
   }'
 ```
 
@@ -297,7 +270,7 @@ last_updated: YYYY-MM-DD
 | Type | Link |
 |------|------|
 | Ticket Summary | [#NNNNNN](../../zendesk/summaries/NNNNNN.md) |
-| Daily Index | [ZI-NNN](../../zendesk/2026-04-13.md) |
+| Daily Index | [ZI-NNN](../../zendesk/YYYY-MM-DD.md) — use latest daily index date |
 | Backlog | [<cluster name>](../backlog.md) |
 | Roadmap | [roadmap-zi](../roadmap-zi-2026-04-14.html) |
 | Trello | <card shortUrl after creation> |
@@ -425,45 +398,18 @@ Each scenario must have:
 7. Write story card to `wiki/product/stories/ZI-NNN.md` (include closure note if closed)
 7.5. **QUALITY GATE (MANDATORY)** — Run the card through the Quality Assurance checklist above:
    - If ANY check fails → STOP, REWRITE, RE-VALIDATE, repeat until ALL checks pass
-   - If ALL checks pass → proceed to step 7.6
+   - If ALL checks pass → proceed to step 8
    - **This is a hard stop. Do not skip.**
-7.6. **VERIFICATION (MANDATORY)** — Run `scripts/verify_story_cards.py` to validate the generated card:
-   - Script checks for generic templates, missing sections, proper structure
-   - If verification fails → STOP, regenerate the card with fixes
-   - If verification passes → proceed to step 8
-   - **Automated quality gate - do not skip.**
-8. **Idempotency guard — enforces "old StoryLab cards are immutable" (unless --force-update-trello)**:
-   - **Parse flags from arguments**:
-     - `--force-update-trello` → force update mode enabled
-     - `--no-trello` → skip Trello entirely
+8. **Idempotency guard — enforces "old StoryLab cards are immutable"**:
    - If the ZI has `Duplicate Of: ZI-XXX` in the daily index → **skip the Trello push entirely.** The old card tracks the same work. Write a minimal markdown that cross-links to `wiki/product/stories/ZI-XXX.md` in its frontmatter (`duplicate_of: ZI-XXX`) and exit this step. Report `skipped_trello: duplicate_of=ZI-XXX`.
-   - Else, **fetch the board fresh right now** using parametrized script (do NOT reuse a cached snapshot):
-     ```python
-     import json, urllib.request, sys
-     settings = json.load(open('.claude/settings.local.json'))
-     key = settings['env']['TRELLO_API_KEY']
-     token = settings['env']['TRELLO_TOKEN']
-     board_id = sys.argv[1] if len(sys.argv) > 1 else '69dd9134576a26fcb79b670d'
-     url = f'https://api.trello.com/1/boards/{board_id}/cards?fields=name,desc,id,idLabels,shortUrl&key={key}&token={token}'
-     req = urllib.request.Request(url)
-     with urllib.request.urlopen(req) as response:
-         cards = json.loads(response.read())
-     ticket_id = sys.argv[2] if len(sys.argv) > 2 else '<ticketId>'
-     zi_id = sys.argv[3] if len(sys.argv) > 3 else '<ZI-NNN>'
-     for card in cards:
-         name = card.get('name', '')
-         desc = card.get('desc', '')
-         if f'[#{ticket_id}]' in name or name.startswith(f'{zi_id}') or zi_id in desc:
-             print(json.dumps(card))
-             sys.exit(0)
-     sys.exit(1)  # No match found
-     ```
-   - If ANY match found:
-     - **If `--force-update-trello` flag present**: Perform `PUT /cards/{cardId}` with updated name, desc, and labels. Report `force_updated_card: <shortUrl>`.
-     - **Else (default)**: **Skip the Trello push entirely.** Report `existing_card: <shortUrl>`. The existing card retains 100% of its current state.
-   - Only if NO match → proceed to step 9 (actual Trello POST).
-   - **CRITICAL: This fetch must happen immediately before each POST/PUT — never cache it across cards.**
-9. Push to Trello (unless `--no-trello`, and only if step 8 did not skip or is forcing update):
+   - Else, **fetch the board fresh right now** (do NOT reuse a cached snapshot from earlier in the same run): `GET /boards/<STORYLAB>/cards?fields=name,desc,idLabels,shortUrl` (no `limit` param). Check if ANY existing card matches THIS ZI by:
+     - Card name contains `[#<ticketId>]`
+     - Card name starts with `ZI-<nnn>` (same ZI number)
+     - Card `desc` mentions `ZI-<nnn>`
+   - If ANY match → **skip the Trello push entirely.** NO `POST /cards`, NO `PUT /cards`, NO label additions, NO comment posts, NO desc rewrites. Report `existing_card: <shortUrl>`. The existing card retains 100% of its current state. The local markdown file still gets (re)generated — that's safe and expected.
+   - Only if NO match → proceed to step 8 (actual Trello push).
+   - **CRITICAL: This fetch must happen immediately before each POST — never cache it across cards. This is the only guard against duplicates.**
+8. Push to Trello (unless `--no-trello`, and only if step 7 did not skip):
    - Determine lane from pain/area mapping
    - Card name format: `ZI-NNN — <title> [#<ticketId>]` — ticket number in brackets for searchability
    - Assign ALL applicable labels (comma-separated `idLabels`):
@@ -474,58 +420,35 @@ Each scenario must have:
      - Dev status label — correlate with ph-WIP board (see ph-WIP Correlation below)
      - SLA Breached label (if SLA is breached)
      - **`AI: Closed By Support` label (if ticket status is "closed" or "solved")** — marks issues resolved by support without code changes
-   - **If force updating existing card** (step 8 found match + `--force-update-trello`):
-     - `PUT /cards/{cardId}` with:
-       - `name`: updated card name
-       - `desc`: full markdown content
-       - `idLabels`: ALL applicable labels (replaces existing labels)
-       - `idList`: target lane (moves card if needed)
-     - Report: `force_updated_card: <shortUrl>`
-   - **Else (creating new card)**:
-     - `POST /cards` with full markdown as `desc`
-     - `pos`: `"top"` for SLA breached cards, `"bottom"` otherwise
-     - Report: `created_card: <shortUrl>`
+   - `POST /cards` with full markdown as `desc`
+   - `pos`: `"top"` for SLA breached cards, `"bottom"` otherwise
    - Record Trello shortUrl in the markdown file's Cross-Links
-10. **Correlate with ph-WIP board** (see ph-WIP Correlation section below):
-    - Runs for both newly-created cards and force-updated cards (step 9 executed).
-    - Search ph-WIP for the ticket number in card name, desc, attachments, comments
-    - If found: add dev status label + append ph-WIP Card section to card desc (or update if force updating)
+9. **Correlate with ph-WIP board** (see ph-WIP Correlation section below):
+   - Only runs for newly-created cards (step 8 executed).
+   - Search ph-WIP for the ticket number in card name, desc, attachments, comments
+   - If found: add dev status label + append ph-WIP Card section to card desc
 
 ### Delta mode (`delta [lane]`)
 
 **Purpose**: Generate story cards for only the ZI issues created from changed/new Zendesk tickets (since last zendesk-summarize delta run).
 
 **Steps**:
-1. **Run automated extraction pipeline**: `./scripts/process_delta.sh`
-   - Detects changed tickets since last extraction (via git diff)
-   - Summarizes delta tickets
-   - Runs 5-step ZI ID assignment
-   - Generates new daily index with 6-column schema
-   - Validates all checks pass
-2. Parse the newly created daily index: `wiki/zendesk/YYYY-MM-DD.md`
-3. Compare with prior index to find new ZI IDs (those not in prior index)
-4. Determine target lane:
+1. Parse the latest daily index: `wiki/zendesk/YYYY-MM-DD.md`
+2. Read `git_reference` from daily index frontmatter (establishes delta anchor)
+3. Run `git diff <git_reference>..HEAD --name-only -- raw/zendesk/` to find changed ticket JSON files
+4. Extract ticket IDs from changed files: `raw/zendesk/product/<ticketId>.json` → list of ticket IDs
+5. Search daily index for all ZI issues matching those ticket IDs
+6. Determine target lane:
    - If `[lane]` argument provided (e.g., `delta apr-13-16`), use that lane
    - Otherwise, default to `apr-25-30`
-5. For each new ZI issue, process using the Single Card workflow (steps 1-9 above)
-6. **Verify all generated cards**: Run `scripts/verify_story_cards.py` to validate all cards
-   - If any card fails verification → regenerate failed cards
-   - Continue until all cards pass verification
-7. Report: cards created, cards pushed to Trello, target lane, ZI ID range
+7. For each ZI issue found, process using the Single Card workflow (steps 1-9 above)
+8. Report: cards created, cards pushed to Trello, target lane, ZI ID range
 
 **Example**:
 ```bash
-# Option 1: Manual workflow
-./scripts/process_delta.sh    # Run extraction first
-/story-cards delta            # Then generate cards → APR 25-30 lane
-
-# Option 2: Automatic (recommended) — story-cards runs extraction automatically
-/story-cards delta            # Extracts delta + generates cards → APR 25-30
-/story-cards delta apr-16-18  # Extracts delta + generates cards → APR 16-18
-
-# Option 3: Using /zendesk-summarize (delegates to process_delta.sh)
-/zendesk-summarize delta      # Same as running process_delta.sh
-/story-cards delta            # Generate cards from new index
+/zendesk-summarize delta      # Extract new tickets, commit
+/story-cards delta            # Generate cards for those new ZIs → APR 25-30 lane
+/story-cards delta apr-16-18  # Or use a different lane
 ```
 
 ### Batch by release (`apr-13-16`, etc.)
@@ -534,8 +457,7 @@ Each scenario must have:
 3. Sort by priority: SLA breached first, then pain desc, then ticket age
 4. Process each issue sequentially in the main thread: read summary, compute SLA, write story + push to Trello
 5. **NEVER spawn parallel agents for Trello pushes** — parallel agents cause duplicate cards because each agent fetches a stale board snapshot before the other's card lands. Always process cards one at a time.
-6. **Verify all generated cards**: Run `scripts/verify_story_cards.py` after all cards are written
-7. After verification passes: report per-lane stats
+6. After all cards written: verify count, report per-lane stats
 
 ### Full batch (`all`)
 1. Process all release windows in order: apr-13-16, apr-16-18, apr-18-21, apr-21-25, apr-25-30
@@ -632,6 +554,21 @@ Auto-detect carriers from ticket summary + title using these keywords:
 
 **EVERY story card MUST pass these checks before Trello push. If ANY check fails, REJECT and rewrite.**
 
+### Card Title Quality Checklist
+
+- [ ] **NOT a question** — Title should be a statement, not the question from the ticket
+  - ❌ Bad: "Give the WooCommerce Shipping Services Plugin another try?"
+  - ✅ Good: "Extend free trial for WooCommerce customer to re-evaluate plugin"
+- [ ] **Actionable** — Describes what needs to be done, not what the customer asked
+  - ❌ Bad: "Customer wants to know if we can help"
+  - ✅ Good: "Fix label generation timeout for high-volume merchants"
+- [ ] **Specific** — Includes the core issue/feature, not generic wording
+  - ❌ Bad: "Issue with shipping"
+  - ✅ Good: "PostNL service code 6942 missing from available options"
+- [ ] **Concise** — Under 80 characters, no redundancy
+  - ❌ Bad: "Customer is experiencing issues with label generation and wants help resolving the problem"
+  - ✅ Good: "Label generation fails with 'Amount required' error"
+
 ### User Story Quality Checklist
 
 - [ ] **NOT generic** — Does NOT say "store owner" or "merchant using this feature"
@@ -668,7 +605,7 @@ Auto-detect carriers from ticket summary + title using these keywords:
 
 **If a card fails ANY check:**
 1. **STOP** — do not push to Trello
-2. **REWRITE** — user story and/or acceptance criteria
+2. **REWRITE** — title, user story, and/or acceptance criteria
 3. **RE-VALIDATE** — run through checklist again
 4. **ONLY THEN PUSH**
 

@@ -1,5 +1,13 @@
 # StorePep KB Activity Log
 
+## [2026-04-27 14:56] zendesk-summarize | Delta extraction (30 tickets, schema migration)
+- Processed: 30 delta tickets (24 shopify, 6 other_platforms)
+- Created/updated: 30 summaries in `zendesk/summaries/*.md`
+- Created: `zendesk/2026-04-27.md` — daily index with 6-column schema (added "Duplicate Of" column)
+- Updated: `log.md`
+- Git reference: c6f2681a3cd88e11f5247c84a2228a7a0e2e1a2e
+- Summary: Delta extraction pipeline with schema migration from 5-column to 6-column Issue Index format. **Delta Detection**: Identified 30 changed tickets since last extraction (git ref 630297e). **Pipeline**: 6-step automated workflow (summarize_ticket.py → load_summaries.py → load_prior_index.py → assign_zi_ids.py → generate_daily_index.py → validate_daily_index.py). **5-Step ID Assignment**: (1) Exact match preserved 75 prior ZIs, (2) Fuzzy duplicate detection found 27 similar issues (Jaccard similarity ≥0.4) caused by title truncation in prior index, (3) Fresh assignment for 35 new issues (ZI-276 to ZI-310), (4) Cross-reference within new ZIs (none found), (5) Carry-forward of 65 prior ZIs not exact-matched. **Schema Migration**: Added "Duplicate Of" column to track issue relationships — 27 new ZIs reference prior ZIs as duplicates (e.g., ZI-276 → ZI-183 with 0.71 similarity). **Issue Stats**: 202 total active issues (up from 140), spanning ZI-136 to ZI-337. All 140 prior ZI IDs preserved. **Fuzzy Match Quality**: Spot-checked 5 fuzzy matches, all valid with 0.57-0.80 similarity scores. **Validation**: All checks passed — no duplicate ZIs, all "Duplicate Of" references valid, all ticket links resolve, issue count matches. **Implementation**: Created 7 Python scripts + driver shell script for automated future runs. Fixed title sanitization (newlines → spaces, pipe escaping) and duplicate ID assignment bug. **Product Breakdown**: shopify 36 issues, woocommerce 20 issues, unknown 130 issues, magento 1 issue (unchanged). **Area Breakdown**: other 59 issues, onboarding 14 issues, carrier-config 13 issues, label-generation 18 issues, order-management 11 issues, product-management 10 issues, etc.
+
 ## [2026-04-27 10:15] ingest | Ship-Rate-Track-Proxy Service
 - Created: `architecture/carrier-api-proxy-pattern.md` — Unified API Gateway pattern with adapter pattern
 - Created: `modules/shipping/ship-rate-track-proxy.md` — Ship-rate-track-proxy service module documentation

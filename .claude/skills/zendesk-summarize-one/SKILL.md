@@ -107,6 +107,70 @@ Read through the comments (in reverse to find current state, then forward for ti
 
 **Lifecycle-only tickets**: If the ticket is just installation welcome or uninstall win-back with no substantive customer reply, write: "No open issues — lifecycle-only ticket."
 
+## Step 4.5: Quality Gate (MANDATORY)
+
+**EVERY summary MUST pass these checks before writing. If ANY check fails, REWRITE the summary.**
+
+### Title Quality Checklist
+
+- [ ] **NOT a question or email subject** — Transform into actionable statement
+  - ❌ Bad: "Give the WooCommerce Shipping Services Plugin another try? We can extend the free trial."
+  - ✅ Good: "Customer requesting free trial extension to re-evaluate WooCommerce plugin"
+  - ❌ Bad: "FW: FW: [##31020##] Your ticket has been Closed"
+  - ✅ Good: "Customer following up on closed ticket #31020"
+- [ ] **Describes the core issue/request** — Not the email metadata
+  - ❌ Bad: "Welcome to PluginHive! We're here to help you save both time and money."
+  - ✅ Good: "New WooCommerce installation onboarding"
+  - ❌ Bad: "another new site"
+  - ✅ Good: "Support request for new WooCommerce store setup"
+- [ ] **Concise and specific** — Under 80 characters, actionable
+  - ❌ Bad: "RE: [PluginHive] Re: Can you help me set up live rate calculations on ..."
+  - ✅ Good: "Live rate calculation setup assistance needed"
+
+### Timeline Quality Checklist
+
+- [ ] **NO "Full analysis pending"** — Must have actual phases with events
+  - ❌ Bad: "*Auto-generated summary from N comments. Full analysis pending.*"
+  - ✅ Good: "### Phase 1: Initial Request (2026-04-13)\n- Customer reports label failures..."
+- [ ] **Chronological phases** — Group comments into meaningful phases
+  - ✅ Good: "Phase 1: Initial Request → Phase 2: Investigation → Phase 3: Escalation"
+- [ ] **Key events extracted** — Not every comment, just significant changes
+  - ✅ Good: "Customer escalated to phone request after 3 days no response"
+
+### Open Issues Quality Checklist
+
+- [ ] **NOT copy/paste of title** — Each issue is distinct analysis
+  - ❌ Bad: Open issue title identical to ticket title
+  - ✅ Good: "Label generation timeout for orders >50 items (customer ships 200/day)"
+- [ ] **Has all required fields** — Title, description, blocked, severity, area, comment citation
+  - ✅ Each issue includes: who's blocked, severity signal, area tag, comment #
+- [ ] **Proper area tagging** — Not generic "other" unless truly uncategorized
+  - ❌ Bad: "Give plugin another try" → `carrier-config`
+  - ✅ Good: "Give plugin another try" → `onboarding`
+- [ ] **Lifecycle tickets identified** — If no substantive reply, mark as lifecycle-only
+  - ✅ Good: "No open issues — lifecycle-only ticket (installation welcome)"
+
+### Customer Context Quality Checklist
+
+- [ ] **NOT "unknown"** — Extract from ticket or mark as not available
+  - ❌ Bad: "Store: unknown"
+  - ✅ Good: "Store: not provided in ticket" OR actual store name from comments
+- [ ] **Actual context extracted** — Volume, plan, setup, pain points
+  - ❌ Bad: Just product name
+  - ✅ Good: "50 orders/day, uses FedEx+USPS, international to Canada primarily"
+
+### ENFORCEMENT
+
+**If summary fails ANY check:**
+1. **STOP** — do not write summary file
+2. **REWRITE** — title, timeline, open issues, or customer context
+3. **RE-VALIDATE** — run through checklist again
+4. **ONLY THEN WRITE**
+
+**This is non-negotiable.** Poor summaries waste PM time and create bad story cards downstream.
+
+---
+
 ## Step 5: Write the summary file
 
 Create or overwrite `wiki/zendesk/summaries/$ARGUMENTS.md`:
