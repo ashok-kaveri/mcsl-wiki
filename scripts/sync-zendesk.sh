@@ -153,11 +153,11 @@ for subdir in $PRODUCT_KEYS; do
   for tid in "${ticket_ids[@]}"; do
     count=$((count + 1))
 
-    # Skip if ticket already exists (delta sync)
-    if [ -f "$ZENDESK_DIR/$tid.json" ]; then
-      echo "  [$count/$total] Skipping #$tid (already synced)"
-      continue
-    fi
+    # # Skip if ticket already exists (delta sync)
+    # if [ -f "$ZENDESK_DIR/$tid.json" ]; then
+    #   echo "  [$count/$total] Skipping #$tid (already synced)"
+    #   continue
+    # fi
 
     echo "  [$count/$total] Fetching ticket #$tid..."
 
