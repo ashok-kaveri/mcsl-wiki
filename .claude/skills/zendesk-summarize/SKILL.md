@@ -1,7 +1,7 @@
 ---
 name: zendesk-summarize
 description: Process Zendesk ticket JSON files into structured wiki summaries and a daily issue index. Use when the user wants to summarize tickets, extract issues, update summaries, or run the Zendesk pipeline.
-argument-hint: [all|delta|<ticketId>] [shopify|other_platforms|all-products]
+argument-hint: "[all|delta|<ticketId>] [shopify|other_platforms|all-products]"
 allowed-tools: Bash, Write, Read, Edit, Glob, Grep, Agent
 ---
 
