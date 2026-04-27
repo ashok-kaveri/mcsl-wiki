@@ -12,14 +12,14 @@
       }
     },
     "created_at": "2026-04-27T16:55:05Z",
-    "updated_at": "2026-04-27T17:42:42Z",
-    "generated_timestamp": 1777311763,
+    "updated_at": "2026-04-27T17:47:32Z",
+    "generated_timestamp": 1777312052,
     "type": null,
     "subject": "My entire system is down I can't ship anything ple...",
     "raw_subject": "My entire system is down I can't ship anything ple...",
     "description": "My entire system is down I can't ship anything please help! I'm getting a 502 error. PH was working just fine on friday.\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
     "priority": null,
-    "status": "open",
+    "status": "pending",
     "recipient": null,
     "requester_id": 4930754889497,
     "submitter_id": 4930754889497,
@@ -36,7 +36,7 @@
     "due_at": null,
     "tags": [
       "issues_with_setting_up_the_plugin",
-      "last_reply_customer",
+      "last_reply_agent",
       "shopify",
       "shopify_multi_carrier_shipping_label_app",
       "web_widget"
@@ -111,7 +111,7 @@
       "score": "unoffered"
     },
     "sharing_agreement_ids": [],
-    "custom_status_id": 4850746,
+    "custom_status_id": 4850766,
     "encoded_id": "44LXMG-XG67W",
     "fields": [
       {
@@ -333,6 +333,36 @@
         },
         "trusted": true,
         "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57382147663513,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Joshua,\n\nThank you for the confirmation!\n\nPlease do reach out to us in case you need any further assistance.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Joshua,<br>&nbsp;<br>Thank you for the confirmation!<br>&nbsp;<br>Please do reach out to us in case you need any further assistance.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Joshua,\n&nbsp;\nThank you for the confirmation!\n&nbsp;\nPlease do reach out to us in case you need any further assistance.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57382147663385,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-27T17:47:31Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
       }
     }
   ]

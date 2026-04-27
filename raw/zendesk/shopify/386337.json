@@ -12,14 +12,14 @@
       }
     },
     "created_at": "2026-04-27T16:15:34Z",
-    "updated_at": "2026-04-27T17:37:12Z",
-    "generated_timestamp": 1777311433,
+    "updated_at": "2026-04-27T17:51:43Z",
+    "generated_timestamp": 1777312303,
     "type": null,
     "subject": "HIVE is not loading to process orders I either get...",
     "raw_subject": "HIVE is not loading to process orders I either get...",
     "description": "HIVE is not loading to process orders I either get a 502 Bad gateway warning, or it just sits and loads forever and no orders come up.\n\nI have refreshed the page cleared history and tried a different browser and it is not working. \n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
     "priority": null,
-    "status": "open",
+    "status": "pending",
     "recipient": null,
     "requester_id": 52653037704473,
     "submitter_id": 52653037704473,
@@ -36,7 +36,7 @@
     "due_at": null,
     "tags": [
       "issues_with_setting_up_the_plugin",
-      "last_reply_customer",
+      "last_reply_agent",
       "shopify",
       "shopify_multi_carrier_shipping_label_app",
       "web_widget"
@@ -111,7 +111,7 @@
       "score": "unoffered"
     },
     "sharing_agreement_ids": [],
-    "custom_status_id": 4850746,
+    "custom_status_id": 4850766,
     "encoded_id": "44L2ZY-JR0KL",
     "fields": [
       {
@@ -398,6 +398,36 @@
         },
         "trusted": true,
         "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57382170990233,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Brandy,\n\nThank you for your confirmation.\n\nAlso, I could observe that you have been using the app for long time for UPS rates and labels.\n\nIf you are happy with the app and support we are providing, I request you to provide your valuable feedback in the link below:\n\nhttps://apps.shopify.com/multi-carrier-shipping-label#reviews\n\nThanks and regards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Brandy,<br>&nbsp;<br>Thank you for your confirmation.<br>&nbsp;<br>Also, I could observe that you have been using the app for long time for UPS rates and labels.<br>&nbsp;<br>If you are happy with the app and support we are providing, I request you to provide your valuable feedback in the link below:<br>&nbsp;<br><a rel=\"noopener noreferrer\" href=\"https://apps.shopify.com/multi-carrier-shipping-label#reviews\">https://apps.shopify.com/multi-carrier-shipping-label#reviews</a><br>&nbsp;<br>Thanks and regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Brandy,\n&nbsp;\nThank you for your confirmation.\n&nbsp;\nAlso, I could observe that you have been using the app for long time for UPS rates and labels.\n&nbsp;\nIf you are happy with the app and support we are providing, I request you to provide your valuable feedback in the link below:\n&nbsp;\nhttps://apps.shopify.com/multi-carrier-shipping-label#reviews\n&nbsp;\nThanks and regards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57382170990105,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-27T17:51:43Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
       }
     }
   ]

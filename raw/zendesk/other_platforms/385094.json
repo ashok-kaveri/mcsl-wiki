@@ -18,8 +18,8 @@
       }
     },
     "created_at": "2026-04-21T09:13:15Z",
-    "updated_at": "2026-04-24T12:00:16Z",
-    "generated_timestamp": 1777032016,
+    "updated_at": "2026-04-27T11:33:45Z",
+    "generated_timestamp": 1777289625,
     "type": null,
     "subject": "FedEx carrier Package dimensions",
     "raw_subject": "FedEx carrier Package dimensions",
@@ -45,9 +45,9 @@
     "is_public": true,
     "due_at": null,
     "tags": [
+      "dev_needed",
       "high_agent_replies",
-      "l3",
-      "last_reply_agent",
+      "last_reply_customer",
       "woocommerce",
       "woocommerce_shipping_services"
     ],
@@ -1389,6 +1389,116 @@
           "longitude": 77.591
         },
         "custom": {}
+      }
+    },
+    {
+      "id": 57372962719641,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We will enhance the app to avoid displaying rates at checkout without Vat and taxes. This is prioritized for release 378.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will enhance the app to avoid displaying rates at checkout without Vat and taxes. This is prioritized for release 378.<br>[Veena]&nbsp;<br></div>",
+      "plain_body": "We will enhance the app to avoid displaying rates at checkout without Vat and taxes. This is prioritized for release 378.\n[Veena]&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57372962719513,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-27T10:05:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57373123368729,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Alekos,\n\nThank you for your patience.\n\nWe will be enhancing the plugin to return the FedEx rates on checkout without the Vat and taxes.\n\nThis will be made available in the upcoming release of the plugin which is tentatively scheduled for third week of May.\n\nWe will update you as soon as the enhancement is made available.\n\nFeel free to reach out if you have any further queries in the meantime.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Alekos,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We will be enhancing the plugin to return the FedEx rates on checkout without the Vat and taxes.<br>&nbsp;<br>This will be made available in the upcoming release of the plugin which is tentatively scheduled for third week of May.<br>&nbsp;<br>We will update you as soon as the enhancement is made available.<br>&nbsp;<br>Feel free to reach out if you have any further queries in the meantime.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Alekos,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe will be enhancing the plugin to return the FedEx rates on checkout without the Vat and taxes.\n&nbsp;\nThis will be made available in the upcoming release of the plugin which is tentatively scheduled for third week of May.\n&nbsp;\nWe will update you as soon as the enhancement is made available.\n&nbsp;\nFeel free to reach out if you have any further queries in the meantime.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57373123368601,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-27T10:10:39Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57375372713369,
+      "type": "Comment",
+      "author_id": 418705722612,
+      "body": "Thank you Toufeef, we will be waiting\n\nAlekos",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Thank you Toufeef, we will be waiting</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Alekos</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Thank you Toufeef, we will be waiting \n Alekos \n &nbsp; \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57375372713241,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "alekos@sabaton.net",
+            "name": "Alekos",
+            "original_recipients": [
+              "alekos@sabaton.net",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-27T11:28:00Z",
+      "metadata": {
+        "system": {
+          "message_id": "<GV2P189MB2259B60324BE615F425871ABD0362@GV2P189MB2259.EURP189.PROD.OUTLOOK.COM>",
+          "email_id": "01KQ7B4B6WCBYSWF3TBFZW7367",
+          "raw_email_identifier": "2369120/5717dc60-26cc-425c-843b-20849b6736d3.eml",
+          "json_email_identifier": "2369120/5717dc60-26cc-425c-843b-20849b6736d3.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
       }
     }
   ]
