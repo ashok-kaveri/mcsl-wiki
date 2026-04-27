@@ -15,15 +15,57 @@ Process Zendesk tickets from all product directories under `raw/zendesk/` into s
 
 **Argument**: `$ARGUMENTS`
 - First word — scope:
-  - `all` — reprocess every ticket (full rebuild)
-  - `delta` — only tickets changed since last extraction (default)
-  - `<ticketId>` — process a single specific ticket
+  - `all` — reprocess every ticket (full rebuild) — uses Claude for deep analysis
+  - `delta` — **only tickets changed since last extraction (default)** — uses automated pipeline
+  - `<ticketId>` — process a single specific ticket — uses Claude for deep analysis
 - Second word (optional) — product filter:
   - `shopify` — only `raw/zendesk/shopify/`
   - `other_platforms` — only `raw/zendesk/other_platforms/`
   - `all-products` — both directories (default)
 
 ---
+
+## Delta Mode — Automated Pipeline ⚡
+
+**When scope is `delta`**, this skill delegates to the **automated 6-step production pipeline** at `scripts/process_delta.sh`:
+
+1. **Summarize delta tickets** (`summarize_ticket.py`) — Extract open issues from changed ticket JSON
+2. **Load all summaries** (`load_summaries.py`) — Parse all 100+ summaries in parallel
+3. **Load prior ZI assignments** (`load_prior_index.py`) — Parse prior daily index for carry-forward
+4. **5-step ID assignment** (`assign_zi_ids.py`):
+   - Exact match (preserve prior ZIs)
+   - Fuzzy duplicate detection (Jaccard ≥0.4)
+   - Fresh assignment (new ZIs)
+   - Cross-reference (within new ZIs)
+   - Carry-forward (unreferenced prior ZIs)
+5. **Generate daily index** (`generate_daily_index.py`) — 6-column schema with "Duplicate Of"
+6. **Validate** (`validate_daily_index.py`) — All checks must pass
+
+**Execution**:
+```bash
+./scripts/process_delta.sh
+```
+
+**Validation checks**:
+- ✓ All prior ZI IDs preserved
+- ✓ No duplicate ZI IDs
+- ✓ All "Duplicate Of" references valid
+- ✓ All ticket links resolve
+- ✓ Issue count matches
+
+After successful execution, report:
+- Tickets processed
+- ZI assignments (exact matches, fuzzy duplicates, fresh, carried forward)
+- Validation status
+- Link to new daily index
+
+**Then skip to Step 5 (Report)** — the automated pipeline handles Steps 1-4.
+
+---
+
+## All Mode & Single Ticket Mode — Claude Analysis
+
+**When scope is `all` or `<ticketId>`**, use Claude's deep analysis for nuanced summarization:
 
 ## Pipeline
 
@@ -51,14 +93,19 @@ PRODUCT_DIRS = {
 
 ## Step 1: Determine scope
 
-**If `all`**: List all `*.json` files across the selected product directories.
+**If `delta`**:
+1. Check if `scripts/process_delta.sh` exists
+2. If yes: Run `./scripts/process_delta.sh` and skip to Step 5 (Report)
+3. If no: Use the manual delta workflow below (for backwards compatibility)
 
-**If `delta`**: Find changed files since last extraction:
+**Manual delta workflow** (if automated pipeline not available):
 ```bash
 # Read git_reference from the latest wiki/zendesk/YYYY-MM-DD.md
 # Then for each product dir:
 # git diff <git_reference>..HEAD --name-only -- raw/zendesk/shopify/ raw/zendesk/other_platforms/
 ```
+
+**If `all`**: List all `*.json` files across the selected product directories.
 
 **If `<ticketId>`**: Search all product directories for `<ticketId>.json` — use whichever directory contains it.
 

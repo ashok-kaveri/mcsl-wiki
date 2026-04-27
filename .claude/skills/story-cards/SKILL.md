@@ -35,36 +35,48 @@ Generate product-quality story cards from Zendesk ZI issues. You are a **product
 
 ## Data Sources (read order)
 
-1. `wiki/zendesk/2026-04-13.md` — canonical ZI ID → ticket mapping, area tags
+1. **Latest daily index** `wiki/zendesk/YYYY-MM-DD.md` — canonical ZI ID → ticket mapping, area tags, "Duplicate Of" references
 2. `wiki/zendesk/summaries/<ticketId>.md` — **full structured ticket summary** (embedded verbatim into the story card)
 3. `wiki/product/backlog.md` — which backlog cluster this issue belongs to
 4. Raw ticket JSON (via python) — for exact `created_at` timestamp to compute SLA
+
+**Finding the latest daily index**:
+```bash
+ls -t wiki/zendesk/20*.md | head -1
+```
 
 ---
 
 ## Delta Detection
 
 **When to use `delta` mode:**
-- After running `/zendesk-summarize delta` to extract new/changed Zendesk tickets
-- To quickly generate story cards for only the new issues, without reprocessing the entire ZI catalog
+- After Zendesk tickets have been updated in `raw/zendesk/` (e.g., webhook sync, manual update)
+- To quickly generate story cards for only the new/changed issues, without reprocessing the entire ZI catalog
 
 **How it works:**
-1. Read the latest daily index: `wiki/zendesk/YYYY-MM-DD.md`
-2. Run `git diff <prior-commit>..HEAD -- raw/zendesk/` to find changed ticket files
-3. For each changed ticket ID, find matching ZI issues in the daily index
-4. Generate story cards for only those ZI issues
+1. Automatically runs `scripts/process_delta.sh` to extract delta tickets
+   - Detects changed tickets since last extraction using git diff
+   - Runs 6-step automated pipeline (summarize → load → assign IDs → generate index → validate)
+   - Creates new daily index with updated ZI assignments
+2. Parse the newly generated daily index: `wiki/zendesk/YYYY-MM-DD.md`
+3. Compare with previous daily index to find new ZI IDs
+4. Generate story cards for only the new ZI issues
 5. Push to the specified lane (default: APR 25-30)
 
 **Delta anchor (git reference):**
 - The daily index frontmatter contains `git_reference: <commit>` from the last zendesk-summarize run
-- Delta mode diffs from that reference forward to find new/changed tickets
-- If the reference is not in history (rebase/squash), falls back to `HEAD~1..HEAD`
+- process_delta.sh uses this to detect changed tickets since that commit
+- Automatically handles 5-step ZI ID assignment (exact match, fuzzy duplicate, fresh, cross-reference, carry-forward)
 
 **Example workflow:**
 ```bash
-/zendesk-summarize delta      # Extract new/changed Zendesk tickets
-/story-cards delta            # Generate story cards for those new issues (APR 25-30 lane)
-/story-cards delta apr-13-16  # Or put them in a different lane
+# Option 1: Manual — extract first, then generate cards
+scripts/process_delta.sh      # Extract delta tickets, update index
+/story-cards delta            # Generate cards for new ZIs → APR 25-30 lane
+
+# Option 2: Automatic — /story-cards delta runs process_delta.sh automatically
+/story-cards delta            # Extracts delta + generates cards (APR 25-30)
+/story-cards delta apr-13-16  # Extracts delta + generates cards (APR 13-16 lane)
 ```
 
 ---
@@ -479,22 +491,33 @@ Each scenario must have:
 **Purpose**: Generate story cards for only the ZI issues created from changed/new Zendesk tickets (since last zendesk-summarize delta run).
 
 **Steps**:
-1. Parse the latest daily index: `wiki/zendesk/YYYY-MM-DD.md`
-2. Read `git_reference` from daily index frontmatter (establishes delta anchor)
-3. Run `git diff <git_reference>..HEAD --name-only -- raw/zendesk/` to find changed ticket JSON files
-4. Extract ticket IDs from changed files: `raw/zendesk/product/<ticketId>.json` → list of ticket IDs
-5. Search daily index for all ZI issues matching those ticket IDs
-6. Determine target lane:
+1. **Run automated extraction pipeline**: `./scripts/process_delta.sh`
+   - Detects changed tickets since last extraction (via git diff)
+   - Summarizes delta tickets
+   - Runs 5-step ZI ID assignment
+   - Generates new daily index with 6-column schema
+   - Validates all checks pass
+2. Parse the newly created daily index: `wiki/zendesk/YYYY-MM-DD.md`
+3. Compare with prior index to find new ZI IDs (those not in prior index)
+4. Determine target lane:
    - If `[lane]` argument provided (e.g., `delta apr-13-16`), use that lane
    - Otherwise, default to `apr-25-30`
-7. For each ZI issue found, process using the Single Card workflow (steps 1-9 above)
-8. Report: cards created, cards pushed to Trello, target lane, ZI ID range
+5. For each new ZI issue, process using the Single Card workflow (steps 1-9 above)
+6. Report: cards created, cards pushed to Trello, target lane, ZI ID range
 
 **Example**:
 ```bash
-/zendesk-summarize delta      # Extract new tickets, commit
-/story-cards delta            # Generate cards for those new ZIs → APR 25-30 lane
-/story-cards delta apr-16-18  # Or use a different lane
+# Option 1: Manual workflow
+./scripts/process_delta.sh    # Run extraction first
+/story-cards delta            # Then generate cards → APR 25-30 lane
+
+# Option 2: Automatic (recommended) — story-cards runs extraction automatically
+/story-cards delta            # Extracts delta + generates cards → APR 25-30
+/story-cards delta apr-16-18  # Extracts delta + generates cards → APR 16-18
+
+# Option 3: Using /zendesk-summarize (delegates to process_delta.sh)
+/zendesk-summarize delta      # Same as running process_delta.sh
+/story-cards delta            # Generate cards from new index
 ```
 
 ### Batch by release (`apr-13-16`, etc.)
