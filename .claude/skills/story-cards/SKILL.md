@@ -425,8 +425,13 @@ Each scenario must have:
 7. Write story card to `wiki/product/stories/ZI-NNN.md` (include closure note if closed)
 7.5. **QUALITY GATE (MANDATORY)** — Run the card through the Quality Assurance checklist above:
    - If ANY check fails → STOP, REWRITE, RE-VALIDATE, repeat until ALL checks pass
-   - If ALL checks pass → proceed to step 8
+   - If ALL checks pass → proceed to step 7.6
    - **This is a hard stop. Do not skip.**
+7.6. **VERIFICATION (MANDATORY)** — Run `scripts/verify_story_cards.py` to validate the generated card:
+   - Script checks for generic templates, missing sections, proper structure
+   - If verification fails → STOP, regenerate the card with fixes
+   - If verification passes → proceed to step 8
+   - **Automated quality gate - do not skip.**
 8. **Idempotency guard — enforces "old StoryLab cards are immutable" (unless --force-update-trello)**:
    - **Parse flags from arguments**:
      - `--force-update-trello` → force update mode enabled
@@ -503,7 +508,10 @@ Each scenario must have:
    - If `[lane]` argument provided (e.g., `delta apr-13-16`), use that lane
    - Otherwise, default to `apr-25-30`
 5. For each new ZI issue, process using the Single Card workflow (steps 1-9 above)
-6. Report: cards created, cards pushed to Trello, target lane, ZI ID range
+6. **Verify all generated cards**: Run `scripts/verify_story_cards.py` to validate all cards
+   - If any card fails verification → regenerate failed cards
+   - Continue until all cards pass verification
+7. Report: cards created, cards pushed to Trello, target lane, ZI ID range
 
 **Example**:
 ```bash
@@ -526,7 +534,8 @@ Each scenario must have:
 3. Sort by priority: SLA breached first, then pain desc, then ticket age
 4. Process each issue sequentially in the main thread: read summary, compute SLA, write story + push to Trello
 5. **NEVER spawn parallel agents for Trello pushes** — parallel agents cause duplicate cards because each agent fetches a stale board snapshot before the other's card lands. Always process cards one at a time.
-6. After all cards written: verify count, report per-lane stats
+6. **Verify all generated cards**: Run `scripts/verify_story_cards.py` after all cards are written
+7. After verification passes: report per-lane stats
 
 ### Full batch (`all`)
 1. Process all release windows in order: apr-13-16, apr-16-18, apr-18-21, apr-21-25, apr-25-30
