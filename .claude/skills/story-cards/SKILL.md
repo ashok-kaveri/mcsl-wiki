@@ -135,6 +135,7 @@ else (later)                        → APR 25-30
 | `🧪 QA` | `69ddcadb1d2769d25b6a6f92` | sky | Dev status (in QA / ready for QA) |
 | `🚀 PROD` | `69ddcadcd5d8f116d99db5f4` | green | Dev status (shipped to production) |
 | `📋 BACKLOG` | `69ddcadcd2bfb5a850ffb2cc` | black | Dev status (in backlog / cards to groom) |
+| `🔄 Duplicate` | `69efbda66bf2c9a4eebf9374` | pink | Same ticket, different ZI |
 
 ### Card Priority (position within lane)
 
@@ -400,19 +401,62 @@ Each scenario must have:
    - If ANY check fails → STOP, REWRITE, RE-VALIDATE, repeat until ALL checks pass
    - If ALL checks pass → proceed to step 8
    - **This is a hard stop. Do not skip.**
-8. **Idempotency guard — enforces "old StoryLab cards are immutable"**:
-   - If the ZI has `Duplicate Of: ZI-XXX` in the daily index → **skip the Trello push entirely.** The old card tracks the same work. Write a minimal markdown that cross-links to `wiki/product/stories/ZI-XXX.md` in its frontmatter (`duplicate_of: ZI-XXX`) and exit this step. Report `skipped_trello: duplicate_of=ZI-XXX`.
-   - Else, **fetch the board fresh right now** (do NOT reuse a cached snapshot from earlier in the same run): `GET /boards/<STORYLAB>/cards?fields=name,desc,idLabels,shortUrl` (no `limit` param). Check if ANY existing card matches THIS ZI by:
-     - Card name contains `[#<ticketId>]`
-     - Card name starts with `ZI-<nnn>` (same ZI number)
-     - Card `desc` mentions `ZI-<nnn>`
-   - If ANY match → **skip the Trello push entirely.** NO `POST /cards`, NO `PUT /cards`, NO label additions, NO comment posts, NO desc rewrites. Report `existing_card: <shortUrl>`. The existing card retains 100% of its current state. The local markdown file still gets (re)generated — that's safe and expected.
-   - Only if NO match → proceed to step 8 (actual Trello push).
-   - **CRITICAL: This fetch must happen immediately before each POST — never cache it across cards. This is the only guard against duplicates.**
-8. Push to Trello (unless `--no-trello`, and only if step 7 did not skip):
+8. **Duplicate detection**:
+   - **Fetch board fresh right now** (do NOT reuse a cached snapshot from earlier in the same run): `GET /boards/69dd9134576a26fcb79b670d/cards?fields=name,desc,shortUrl,id` (no `limit` param)
+   - Initialize: `is_duplicate = False`, `duplicate_card_url = None`, `duplicate_zi = None`, `existing_card_id = None`
+
+   **Check 1: Same ZI number (update existing)**
+   - If ANY card name starts with `ZI-<nnn>` (exact same ZI number as current):
+     - Store: `existing_card_id = card.id`, `existing_desc = card.desc`
+     - Generate new card description (per normal flow — same format as step 9)
+     - Compare: detect what changed between `existing_desc` and `new_desc`
+     - Update card: `PUT /cards/<card.id>` with `{"desc": "<new_desc>"}`
+     - Add comment: `POST /cards/<card.id>/actions/comments` with:
+       ```
+       Card updated via /story-cards delta:
+       - Description refreshed
+       - Changes: <summarize what changed>
+       ```
+     - Report: `updated_card: <shortUrl>`
+     - **STOP** (don't proceed to step 9, no new card created)
+
+   **Check 2: Same ticket, different ZI (mark as duplicate)**
+   - If ANY card name contains `[#<ticketId>]` matching current ticket AND different ZI number:
+     - Set: `is_duplicate = True`
+     - Extract ZI from card name → `duplicate_zi`
+     - Store: `duplicate_card_url = card.shortUrl`
+     - **Proceed to step 9** (will push new card with duplicate label)
+
+   **Check 3: Duplicate Of reference in daily index (mark as duplicate)**
+   - If the daily index shows this ZI references another ZI (last column contains `[ZI-XXX](#zi-xxx)` or title contains "duplicate of"):
+     - Set: `is_duplicate = True`
+     - Extract referenced ZI → `duplicate_zi`
+     - Fetch referenced ZI's card from StoryLab to get `duplicate_card_url`
+     - **Proceed to step 9** (will push new card with duplicate label and notice)
+
+   - **CRITICAL: This fetch must happen immediately before processing each card — never cache it across cards.**
+9. Push to Trello (unless `--no-trello`, and only if step 8 did not skip/update):
    - Determine lane from pain/area mapping
    - Card name format: `ZI-NNN — <title> [#<ticketId>]` — ticket number in brackets for searchability
-   - Assign ALL applicable labels (comma-separated `idLabels`):
+
+   **Build description**:
+   - If `is_duplicate == True`:
+     Prepend:
+     ```markdown
+     ---
+
+     ## ⚠️ Duplicate Ticket
+
+     This ZI shares the same Zendesk ticket as:
+     - **Original card**: [<duplicate_zi> — <title>](<duplicate_card_url>)
+     - **Ticket**: #<ticketId>
+
+     ---
+
+     ```
+   - Then append normal card content
+
+   **Assign labels** (comma-separated `idLabels`):
      - Product label (Shopify MCSL / WooCommerce / Magento)
      - Pain label (Pain 10 or Pain 8-9)
      - Theme label (Label & Document Quality / Carrier Platform / Order & Product Data / International & Customs / Onboarding & Retention / Rates & Intelligence / Feature Requests)
@@ -420,11 +464,13 @@ Each scenario must have:
      - Dev status label — correlate with ph-WIP board (see ph-WIP Correlation below)
      - SLA Breached label (if SLA is breached)
      - **`AI: Closed By Support` label (if ticket status is "closed" or "solved")** — marks issues resolved by support without code changes
+     - **`🔄 Duplicate` label (if is_duplicate == True)**
+
    - `POST /cards` with full markdown as `desc`
    - `pos`: `"top"` for SLA breached cards, `"bottom"` otherwise
    - Record Trello shortUrl in the markdown file's Cross-Links
-9. **Correlate with ph-WIP board** (see ph-WIP Correlation section below):
-   - Only runs for newly-created cards (step 8 executed).
+10. **Correlate with ph-WIP board** (see ph-WIP Correlation section below):
+   - Only runs for newly-created cards (step 9 executed).
    - Search ph-WIP for the ticket number in card name, desc, attachments, comments
    - If found: add dev status label + append ph-WIP Card section to card desc
 
