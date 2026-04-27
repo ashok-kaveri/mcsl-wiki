@@ -1,0 +1,846 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/385906.json",
+    "id": 385906,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "jakki.waters@alexisfilters.co.uk",
+          "name": "Jakki Waters"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-04-24T09:47:26Z",
+    "updated_at": "2026-04-24T12:18:51Z",
+    "generated_timestamp": 1777033131,
+    "type": null,
+    "subject": "FW: FW: [##31020##] Your ticket has been Closed",
+    "raw_subject": "FW: FW: [##31020##] Your ticket has been Closed",
+    "description": "Hi Touseef\n\n \n\nPlease can you refer to the 2 emails below and advise?\n\n \n\nSorry to be a pain.\n\n \n\nKind regards\n\n \n\nJakki Waters\n\nBusiness Operations Manager\n\n \n\n\n       01482 711259\n\n       Alexis Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS\n\n       www.alexisfilters.co.uk (http://www.alexisfilters.co.uk/)\n\n       Jakki.Waters@alexisfilters.co.uk\n\n  \n\n \n\n \n\n \n\n \n\nTo view our privacy policy see Our Privacy Policy (https://www.alexisfilters.co.uk/privacy-policy)\n\nDisclaimer- This is an email from Alexis Filters LTD and is confidential. If you are not the intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster at sales@alexisfilters.co.uk. Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n\n \n\n \n\nFrom: Vinny Shone <vinny@clickconvertmarketing.com>\nSent: 24 April 2026 10:31\nTo: Jakki Waters <jakki.waters@alexisfilters.co.uk>\nCc: William Hansard <Billy.hansard@alexisfilters.co.uk>\nSubject: Re: FW: [##31020##] Your ticket has been Closed\n\n \n\nHi Jakki,\n\nIt would be best to to loop in PluginHive support to resolve a VAT double-charging issue.\n\nThe Problem: > FedEx is sending their live API rates already inclusive of VAT. However, WooCommerce expects shipping rates to be exclusive of VAT so it can apply the taxes natively. As Billy noticed, this is causing WooCommerce to add VAT on top of an already-taxed FedEx rate at checkout.\n\nWhat We Need to Know:\nCan this be fixed within the PluginHive settings, or does FedEx need to change how rates are returned at the account level?\n\nAcceptable Solutions:\n\nIdeal: FedEx/PluginHive sends the raw, tax-exclusive base rate to WooCommerce.\n\nAlternative: PluginHive separates the shipping charge from the VAT before passing it to WooCommerce.\n\nWe need WooCommerce to handle the tax calculation natively so that our VAT liabilities are recorded accurately in both WooCommerce and Sage.\n\n \n\nOn Fri, 24 Apr 2026 at 10:12, Jakki Waters <jakki.waters@alexisfilters.co.uk> wrote:\n\nHi Vinny\n\n \n\nBefore I go back to plus in Hive on this, I wanted to check that this isn’t a setting on our side that is duplicating the tax per the below email.\n\n \n\nCan you please advise?\n\n \n\nKind regards\n\n \n\nJakki Waters\n\nBusiness Operations Manager\n\n \n\n\n       01482 711259\n\n       Alexis Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS\n\n       www.alexisfilters.co.uk (http://www.alexisfilters.co.uk/)\n\n       Jakki.Waters@alexisfilters.co.uk\n\n  \n\n \n\n \n\n \n\n \n\nTo view our privacy policy see Our Privacy Policy (https://www.alexisfilters.co.uk/privacy-policy)\n\nDisclaimer- This is an email from Alexis Filters LTD and is confidential. If you are not the intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster at sales@alexisfilters.co.uk. Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n\n \n\n \n\nFrom: William Hansard <Billy.hansard@alexisfilters.co.uk>\nSent: 24 April 2026 10:11\nTo: Jakki Waters <jakki.waters@alexisfilters.co.uk>\nSubject: RE: [##31020##] Your ticket has been Closed\n\n \n\nHi Jakki,\n\n \n\nI have enabled the tax option on WooCommerce,\n\nIt is now charging the customer tax on the shipping when one of the options is selected,\n\n\nHowever, tax is already included in the FedEx price, and this has not been taken off the cost in the shipping option,\n\nPlease see below on how we are charged for shipping through FedEx.\n\n \n\n \n\nWith this new option enabled, we are charging the customer for tax twice.\n\n \n\nMany thanks,\n\n \n\nBilly\n\n \n\nBilly Hansard\n\nCustomer Service & Digital Support\n\n \n\n\n       01482 711259\n\n       Alexis Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS\n\n       www.alexisfilters.co.uk (http://www.alexisfilters.co.uk/)\n\n       billy.hansard@alexisfilters.co.uk\n\n  \n\n \n\n \n\n \n\n \n\nTo view our privacy policy see Our Privacy Policy (https://www.alexisfilters.co.uk/privacy-policy)\n\nDisclaimer- This is an email from Alexis Filters LTD and is confidential. If you are not the intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster at sales@alexisfilters.co.uk. Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n\n \n\nFrom: Jakki Waters <jakki.waters@alexisfilters.co.uk>\nSent: 24 April 2026 09:57\nTo: William Hansard <Billy.hansard@alexisfilters.co.uk>\nSubject: FW: [##31020##] Your ticket has been Closed\n\n \n\nHi Billy\n\n \n\nCan you check that this has been changed now please and can you monitor new orders to make sure this is pulling through correctly and let me know.\n\n \n\nMany thanks\n\n \n\nKind regards\n\n \n\nJakki Waters\n\nBusiness Operations Manager\n\n \n\n\n       01482 711259\n\n       Alexis Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS\n\n       www.alexisfilters.co.uk (http://www.alexisfilters.co.uk/)\n\n       Jakki.Waters@alexisfilters.co.uk\n\n  \n\n \n\n \n\n \n\n \n\nTo view our privacy policy see Our Privacy Policy (https://www.alexisfilters.co.uk/privacy-policy)\n\nDisclaimer- This is an email from Alexis Filters LTD and is confidential. If you are not the intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster at sales@alexisfilters.co.uk. Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n\n \n\n \n\nFrom: Woosage Support <support@woosage.com>\nSent: 23 April 2026 09:40\nTo: Jakki Waters <jakki.waters@alexisfilters.co.uk>\nSubject: [##31020##] Your ticket has been Closed\n\n \n\nDear jakki.waters,\n\n \n\nThe ticket \"31020 VAT for Carriage\" is being Closed as we believe the issue has now been resolved.\n\n \n\nIf this is not the case you can re-open this ticket by simply replying to this email.\n\n \n\nLet us know if you get any further issues and we will be happy to assist you.\n\n \n\nRegards,\n\nWoosage Support Team.\n\n \n\n\n \n\n--\n\nKind Regards,\n\n \n\nVinny Shone\n\nWeb Developer\n\n \n\nUS: 1 888 225 0466\n\nUK: 01244 470 067\n\n \n\nvinny@clickconvertmarketing.com\n\nclickconvertmarketing.com (http://clickconvertmarketing.com/)\n\n \n\n\nThis message is confidential and for use by the addressee only. If you are not the intended recipient, you must not use, disclose, distribute, copy, print, or rely on this message. Please notify the sender by return email and then delete the message from your computer. Click Convert accepts no responsibility for changes made to this message after it was sent nor for any loss or damage from receipt or use.",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 46387460719001,
+    "submitter_id": 46387460719001,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      15879606098969,
+      53583429484441
+    ],
+    "follower_ids": [
+      15879606098969,
+      53583429484441
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "l3",
+      "last_reply_agent",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "www.alexisfilters.co.uk"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "GZ60R5-J7R4W",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "www.alexisfilters.co.uk"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57289570813337,
+      "type": "Comment",
+      "author_id": 46387460719001,
+      "body": "Hi Touseef\n\n\n\nPlease can you refer to the 2 emails below and advise?\n\n\n\nSorry to be a pain.\n\n\n\nKind regards\n\n\n\n![A group of different types of filters\n\nAI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/2210eoNLzl0MJTk0CeSjyVR4l/?name=image031.png)**Jakki Waters**\n\nBusiness Operations Manager\n\n ![](https://support.pluginhive.com/attachments/token/INwCNjSTIzzHSh8tFT9G89bUu/?name=image032.png)\n\n\n\n\n\n![A blue telephone handset on a black background\n\nAI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/sQKZsK8cKK7Hfb6nXiG5tGmvx/?name=image033.png)       01482 711259\n\n![A blue pin with a black background\n\nAI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/ph3LAUueBgQ3hAEQfAJqh8goq/?name=image034.png)       Alexis Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS\n\n![](https://support.pluginhive.com/attachments/token/pXAveFYcljJrDgMh6wGD2PD0c/?name=image011.png) ![A blue globe with black background\n\nAI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/LjLpCbpr1gBxr0JuwaKoYkpvA/?name=image035.png)       www.alexisfilters.co.uk\n\n![A white rectangular sign with black text\n\nAI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/rrTr1K9vpyiZnvkSl4aYH45Zi/?name=image036.png) ![](https://support.pluginhive.com/attachments/token/J7UDNABqiDoPjK4CGFMg3YOLm/?name=image037.png) ![A blue envelope with a black background\n\nAI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/2SgAjtMvPZuqE4HZFELQ5tPmi/?name=image038.png)       Jakki.Waters@alexisfilters.co.uk\n\n![](https://support.pluginhive.com/attachments/token/3TX6iCbsp09r61xhu6B8OSEcV/?name=image039.png) ![](https://support.pluginhive.com/attachments/token/jW3mgg2ASEdJoIBDcKIL3ty4K/?name=image040.png) ![](https://support.pluginhive.com/attachments/token/VOhiOkgd4iUgTyqX1D17efu9G/?name=image041.png) ![](https://support.pluginhive.com/attachments/token/TsdDSGj5mzRVWGw1HpOmDlbfI/?name=image042.png) ![](https://support.pluginhive.com/attachments/token/bm7qxNg48nXk2Pe7W9iMoMUEK/?name=image043.png) ![A qr code with a blue and white background\n\nAI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/7w0rV9vY0snvuMolT0QDySuT5/?name=image044.jpg) ![A blue and grey text on a black background\n\nAI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/mR3sPgLXAhnuWUH4Pxm8D0hT4/?name=image045.png)\n\n\n\n\n\n\n\n\n\nTo view our privacy policy see Our Privacy Policy\n\n**Disclaimer**- This is an email from Alexis Filters LTD and is confidential. If you are not the intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster atsales@alexisfilters.co.uk. Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n\n\n\n\n\n**From:** Vinny Shone <vinny@clickconvertmarketing.com>\n**Sent:** 24 April 2026 10:31\n**To:** Jakki Waters <jakki.waters@alexisfilters.co.uk>\n**Cc:** William Hansard <Billy.hansard@alexisfilters.co.uk>\n**Subject:** Re: FW: [##31020##] Your ticket has been Closed\n\n\n\nHi Jakki,\n\nIt would be best to to loop in PluginHive support to resolve a VAT double-charging issue.\n\nThe Problem: > FedEx is sending their live API rates already inclusive of VAT. However, WooCommerce expects shipping rates to be exclusive of VAT so it can apply the taxes natively. As Billy noticed, this is causing WooCommerce to add VAT on top of an already-taxed FedEx rate at checkout.\n\nWhat We Need to Know:\nCan this be fixed within the PluginHive settings, or does FedEx need to change how rates are returned at the account level?\n\nAcceptable Solutions:\n\nIdeal: FedEx/PluginHive sends the raw, tax-exclusive base rate to WooCommerce.\n\nAlternative: PluginHive separates the shipping charge from the VAT before passing it to WooCommerce.\n\nWe need WooCommerce to handle the tax calculation natively so that our VAT liabilities are recorded accurately in both WooCommerce and Sage.\n\n\n\nOn Fri, 24 Apr 2026 at 10:12, Jakki Waters <jakki.waters@alexisfilters.co.uk> wrote:\n\n> Hi Vinny\n>\n>\n>\n> Before I go back to plus in Hive on this, I wanted to check that this isn’t a setting on our side that is duplicating the tax per the below email.\n>\n>\n>\n> Can you please advise?\n>\n>\n>\n> Kind regards\n>\n>\n>\n> ![A group of different types of filters\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/xIUEFil3zySr9sHYeq5CWu7Oj/?name=image002.png)**Jakki Waters**\n>\n> Business Operations Manager\n>\n> ![](https://support.pluginhive.com/attachments/token/zyuBRR1boTHKtbIey55MxTgi9/?name=image004.png)\n>\n>\n>\n> ![A blue telephone handset on a black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/JEVC7a8EvzrFThra8KoOyZ9jT/?name=image006.png)       01482 711259\n>\n> ![A blue pin with a black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/LBmmMm43DXZ7iwHJcNd37Hh1r/?name=image008.png)       Alexis Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS\n>\n> ![](https://support.pluginhive.com/attachments/token/pXAveFYcljJrDgMh6wGD2PD0c/?name=image011.png) ![A blue globe with black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/ysQxXOAzIxpGJiijFquzvgrc0/?name=image015.png)       www.alexisfilters.co.uk\n>\n> ![A white rectangular sign with black text\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/B17zinnn7QFzXBlNX67avAES4/?name=image019.png) ![](https://support.pluginhive.com/attachments/token/gJrrw4zSeJZFtk4c28mF3bS0x/?name=image023.png) ![A blue envelope with a black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/LdJM7ZEsgGurFycAYNUs1fjMb/?name=image027.png)       Jakki.Waters@alexisfilters.co.uk\n>\n> ![](https://support.pluginhive.com/attachments/token/y1gD8z4ZNdvLRvDgk5apgu3fE/?name=image031.png) ![](https://support.pluginhive.com/attachments/token/aOipFbb6MorGR8WFJkjj1hih9/?name=image048.png) ![](https://support.pluginhive.com/attachments/token/ppfnioRMBLoLb30YkAkZ5wneH/?name=image050.png) ![](https://support.pluginhive.com/attachments/token/PhaVsdXGJF27t8eGhdGD3zJFf/?name=image052.png) ![](https://support.pluginhive.com/attachments/token/MInqltvJ2uFo4XclJUJXt2DGf/?name=image054.png) ![A qr code with a blue and white background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/Y2h5K0jogZQqHZRU2aiiEpyml/?name=image056.jpg) ![A blue and grey text on a black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/sUYmLgpsFfhXDfdxDnPd8OmjY/?name=image058.png)\n>\n>\n>\n>\n>\n>\n>\n>\n>\n> To view our privacy policy see Our Privacy Policy\n>\n> **Disclaimer**- This is an email from Alexis Filters LTD and is confidential. If you are not the intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster atsales@alexisfilters.co.uk. Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n>\n>\n>\n>\n>\n> **From:** William Hansard <Billy.hansard@alexisfilters.co.uk>\n> **Sent:** 24 April 2026 10:11\n> **To:** Jakki Waters <jakki.waters@alexisfilters.co.uk>\n> **Subject:** RE: [##31020##] Your ticket has been Closed\n>\n>\n>\n> Hi Jakki,\n>\n>\n>\n> I have enabled the tax option on WooCommerce,\n>\n> It is now charging the customer tax on the shipping when one of the options is selected,\n>\n> However, tax is already included in the FedEx price, and this has not been taken off the cost in the shipping option,\n>\n> Please see below on how we are charged for shipping through FedEx.\n>\n>\n>\n> ![](https://support.pluginhive.com/attachments/token/qWYbyhccNUC5mjuswMeMAgueG/?name=image009.png)\n>\n>\n>\n> With this new option enabled, we are charging the customer for tax twice.\n>\n>\n>\n> Many thanks,\n>\n>\n>\n> Billy\n>\n>\n>\n> ![A group of different types of filters\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/Y1JPyc74OPISIYaSBLYy8KSc0/?name=image061.png)**Billy Hansard**\n>\n> Customer Service & Digital Support\n>\n> ![](https://support.pluginhive.com/attachments/token/zyuBRR1boTHKtbIey55MxTgi9/?name=image004.png)\n>\n>\n>\n> ![A blue telephone handset on a black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/JEVC7a8EvzrFThra8KoOyZ9jT/?name=image006.png)       01482 711259\n>\n> ![A blue pin with a black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/l06W7SeZkfR7uA8qVfQFHm04B/?name=image062.png)       Alexis Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS\n>\n> ![](https://support.pluginhive.com/attachments/token/pXAveFYcljJrDgMh6wGD2PD0c/?name=image011.png) ![A blue globe with black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/KB3MVDGZ0cTWY3a1sVEX5ZaKi/?name=image063.png)       www.alexisfilters.co.uk\n>\n> ![](https://support.pluginhive.com/attachments/token/fmsPxep6u8QPIPN1zhdO45pne/?name=image064.png) ![](https://support.pluginhive.com/attachments/token/fM9fDaCyQu2s8WRaIT78SmOg4/?name=image065.png) ![A blue envelope with a black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/ysnl8YOEGJ4IuOT9AmwrB9sz1/?name=image066.png)       billy.hansard@alexisfilters.co.uk\n>\n> ![](https://support.pluginhive.com/attachments/token/tjDYtR4EFhj6wDUl2NWxh6kve/?name=image067.png) ![](https://support.pluginhive.com/attachments/token/GMzwh9sRa8n2PjGlyISz1vK9C/?name=image068.png) ![](https://support.pluginhive.com/attachments/token/1JFp3NSnetwruYf5PJ9HpEEy5/?name=image069.png) ![](https://support.pluginhive.com/attachments/token/TqjhE9mfN2dqBg5ONF1tBEhLt/?name=image070.png) ![](https://support.pluginhive.com/attachments/token/HDk8jIBSimBPY8jbGlgl3S3eG/?name=image071.png) ![A blue and grey text on a black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/j8yYrmoGBfTIyTXOktu5Y4vTC/?name=image072.png)\n>\n>\n>\n>\n>\n>\n>\n>\n>\n> To view our privacy policy see Our Privacy Policy\n>\n> **Disclaimer**- This is an email from Alexis Filters LTD and is confidential. If you are not the intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster atsales@alexisfilters.co.uk. Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n>\n>\n>\n> **From:** Jakki Waters <jakki.waters@alexisfilters.co.uk>\n> **Sent:** 24 April 2026 09:57\n> **To:** William Hansard <Billy.hansard@alexisfilters.co.uk>\n> **Subject:** FW: [##31020##] Your ticket has been Closed\n>\n>\n>\n> Hi Billy\n>\n>\n>\n> Can you check that this has been changed now please and can you monitor new orders to make sure this is pulling through correctly and let me know.\n>\n>\n>\n> Many thanks\n>\n>\n>\n> Kind regards\n>\n>\n>\n> ![A group of different types of filters\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/jmhatWv9P6vWjfDy4dI3FLpME/?name=image086.png)**Jakki Waters**\n>\n> Business Operations Manager\n>\n> ![](https://support.pluginhive.com/attachments/token/zyuBRR1boTHKtbIey55MxTgi9/?name=image004.png)\n>\n>\n>\n> ![A blue telephone handset on a black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/JEVC7a8EvzrFThra8KoOyZ9jT/?name=image006.png)       01482 711259\n>\n> ![A blue pin with a black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/4NyvUMc32zqDMAZy74q5MaeVG/?name=image087.png)       Alexis Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS\n>\n> ![](https://support.pluginhive.com/attachments/token/pXAveFYcljJrDgMh6wGD2PD0c/?name=image011.png) ![A blue globe with black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/KTsgusNv0pylCaDGK2o8ixN1k/?name=image088.png)       www.alexisfilters.co.uk\n>\n> ![A white rectangular sign with black text\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/3DIHY73S0wRkLy1sdqfotzsr6/?name=image089.png) ![](https://support.pluginhive.com/attachments/token/skbiugT0QPlgYjSXh19s1VKU8/?name=image090.png) ![A blue envelope with a black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/Tw1CoKTKsTRWnH6ix2gw7yEo6/?name=image091.png)       Jakki.Waters@alexisfilters.co.uk\n>\n> ![](https://support.pluginhive.com/attachments/token/DXNirByfESMIl0Ej5FGropkFd/?name=image092.png) ![](https://support.pluginhive.com/attachments/token/wl6zkpDAst33s6aCV3xSJscSt/?name=image093.png) ![](https://support.pluginhive.com/attachments/token/03Z5VjZTdPGeJCcmaFA3QVave/?name=image094.png) ![](https://support.pluginhive.com/attachments/token/WupHcQ7RP2cNpN9vY9J5trG31/?name=image095.png) ![](https://support.pluginhive.com/attachments/token/QT3nfntOqBy21LdKIJgiYyORP/?name=image096.png) ![A qr code with a blue and white background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/ADDgw1LFOp3AXZju5KqmgDLzg/?name=image097.jpg) ![A blue and grey text on a black background\n>\n> AI-generated content may be incorrect.](https://support.pluginhive.com/attachments/token/wkjzrgSfJYylwydfL4yx5qoYu/?name=image098.png)\n>\n>\n>\n>\n>\n>\n>\n>\n>\n> To view our privacy policy see Our Privacy Policy\n>\n> **Disclaimer**- This is an email from Alexis Filters LTD and is confidential. If you are not the intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster atsales@alexisfilters.co.uk. Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n>\n>\n>\n>\n>\n> **From:** Woosage Support <support@woosage.com>\n> **Sent:** 23 April 2026 09:40\n> **To:** Jakki Waters <jakki.waters@alexisfilters.co.uk>\n> **Subject:** [##31020##] Your ticket has been Closed\n>\n>\n>\n> Dear jakki.waters,\n>\n>\n>\n> The ticket \"31020 VAT for Carriage\" is being Closed as we believe the issue has now been resolved.\n>\n>\n>\n> If this is not the case you can re-open this ticket by simply replying to this email.\n>\n>\n>\n> Let us know if you get any further issues and we will be happy to assist you.\n>\n>\n>\n> Regards,\n>\n> Woosage Support Team.\n>\n>\n\n\n\n--\n\nKind Regards,\n\n\n\n**Vinny Shone**\n\n_Web Developer_\n\n\n\n![](https://lh5.googleusercontent.com/JTPifRoIP9sp5kgzDz8OCGRr7X-U3-DV6TamGrvyc0m3KJFkq8C5_ZATiEaj62k7wBW2ZMlHM7iepCk5VVQKodua-aNl17fuAsemiZkj-PH5Bqsosoo8UE3dV_T2iqRle3jm0hbb)\n\nUS: 1 888 225 0466\n\nUK: 01244 470 067\n\n\n\nvinny@clickconvertmarketing.com\n\nclickconvertmarketing.com\n\n![](https://lh4.googleusercontent.com/gUnFiYuu1c6_-rb8yRv9A6T4SS1QVEZdb9pQ42BxUcCw10lk_iymzBMn77KIxox4zDFAB0MGW_46EuibUtdpZJBl8xCTiet8TKC0KdxH-E8hAm43bzJ6ThdgtVYXgGog_4A8b7ac) ![facebook icon](https://lh4.googleusercontent.com/j58A6sUmsTrNwcPmijUpY2ZO0BcL_acIfe_gB9MeeZ-aOKnmW4acqipRRTdE-wbe5TqQyaMLMbRL41l659nkVVJ5Dh-aFHrf8xHUYk276zIgU8CWFZo19TNb4SYmnNoT25afKEc4) ![](https://lh3.googleusercontent.com/c2Ih2TlMBASC0qvXYX2b7yHZKiPUQIEUqAK6lSCfRPu3Jb5KtU33dAfahzeh5qS-nhnvedIDi0WlM4Yehksaxs09OLKpHGvUF9Mlm_B2qfVDwrQggZQfsdzsqUn1Ry7qt4V-KKSI)\n\n\n\nThis message is confidential and for use by the addressee only. If you are not the intended recipient, you must not use, disclose, distribute, copy, print, or rely on this message. Please notify the sender by return email and then delete the message from your computer. Click Convert accepts no responsibility for changes made to this message after it was sent nor for any loss or damage from receipt or use.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">\n<div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>Hi Touseef</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>Please can you refer to the 2 emails below and advise?</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>Sorry to be a pain.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">Kind regards</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\" z-index: 251659264; margin-left: 556px; margin-top: 30px; width: 282px; height: 156px;\"><img width=\"282\" height=\"156\" style=\"width: 2.9375in; height: 1.625in;\" src=\"https://support.pluginhive.com/attachments/token/2210eoNLzl0MJTk0CeSjyVR4l/?name=image031.png\" alt=\"A group of different types of filters\n\nAI-generated content may be incorrect.\"></span><b><span style=\"font-size: 22.0pt; color: #1DA8DF;\">Jakki\n Waters</span></b></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 14.0pt;\">Business Operations Manager</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>\n</span></p><table cellpadding=\"0\" cellspacing=\"0\" align=\"left\">\n<tbody>\n<tr>\n<td width=\"0\" height=\"8\"></td>\n</tr>\n<tr>\n<td></td>\n<td><img width=\"822\" height=\"5\" style=\"width: 8.5625in; height: .052in;\" src=\"https://support.pluginhive.com/attachments/token/INwCNjSTIzzHSh8tFT9G89bUu/?name=image032.png\"></td>\n</tr>\n</tbody>\n</table>\n<span style=\"font-size: 14.0pt;\">&nbsp;</span><p dir=\"auto\"></p>\n<br>\n<p style=\"line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\" z-index: 251661312; margin-left: 0px; margin-top: 0px; width: 19px; height: 19px;\"><img width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/sQKZsK8cKK7Hfb6nXiG5tGmvx/?name=image033.png\" alt=\"A blue telephone handset on a black background\n\nAI-generated content may be incorrect.\"></span>&nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;01482 711259</p>\n<p style=\"line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\" z-index: 251662336; margin-left: 0px; margin-top: 1px; width: 19px; height: 19px;\"><img width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/ph3LAUueBgQ3hAEQfAJqh8goq/?name=image034.png\" alt=\"A blue pin with a black background\n\nAI-generated content may be incorrect.\"></span>&nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;<span style=\"font-size: 10.0pt; line-height: 150%;\">Alexis Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS</span></p>\n<p style=\"line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\" z-index: 251663360; margin-left: 315px; margin-top: 13px; width: 174px; height: 33px;\"><img width=\"174\" height=\"33\" style=\"width: 1.8125in; height: .3437in;\" src=\"https://support.pluginhive.com/attachments/token/pXAveFYcljJrDgMh6wGD2PD0c/?name=image011.png\"></span><span style=\" z-index: 251664384; margin-left: 0px; margin-top: 1px; width: 19px; height: 19px;\"><img width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/LjLpCbpr1gBxr0JuwaKoYkpvA/?name=image035.png\" alt=\"A blue globe with black background\n\nAI-generated content may be incorrect.\"></span>&nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;<a href=\"http://www.alexisfilters.co.uk/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">www.alexisfilters.co.uk</a> </p>\n<p style=\"line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\" z-index: 251665408; margin-left: 470px; margin-top: 6px; width: 83px; height: 28px;\"><img width=\"83\" height=\"28\" style=\"width: .8645in; height: .2916in;\" src=\"https://support.pluginhive.com/attachments/token/rrTr1K9vpyiZnvkSl4aYH45Zi/?name=image036.png\" alt=\"A white rectangular sign with black text\n\nAI-generated content may be incorrect.\"></span><span style=\" z-index: 251666432; margin-left: 241px; margin-top: 6px; width: 83px; height: 108px;\"><a href=\"https://apps.apple.com/gb/app/alexis-filters/id6446695995\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><img border=\"0\" width=\"83\" height=\"108\" style=\"width: .8645in; height: 1.125in;\" src=\"https://support.pluginhive.com/attachments/token/J7UDNABqiDoPjK4CGFMg3YOLm/?name=image037.png\" title=\"\"></a></span><span style=\" z-index: 251667456; margin-left: 0px; margin-top: 1px; width: 19px; height: 19px;\"><img width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/2SgAjtMvPZuqE4HZFELQ5tPmi/?name=image038.png\" alt=\"A blue envelope with a black background\n\nAI-generated content may be incorrect.\"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"mailto:Jakki.Waters@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; line-height: 150%; \">Jakki.Waters@alexisfilters.co.uk</span></a></p>\n<p style=\"line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\" z-index: 251668480; margin-left: 169px; margin-top: 20px; width: 49px; height: 49px;\"><a href=\"https://www.instagram.com/alexisfilters\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/3TX6iCbsp09r61xhu6B8OSEcV/?name=image039.png\" title=\"\"></a></span><span style=\" z-index: 251669504; margin-left: 65px; margin-top: 19px; width: 49px; height: 49px;\"><a href=\"https://www.facebook.com/alexisfilters\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/jW3mgg2ASEdJoIBDcKIL3ty4K/?name=image040.png\" title=\"\"></a></span><span style=\" z-index: 251670528; margin-left: 13px; margin-top: 19px; width: 49px; height: 49px;\"><a href=\"https://www.linkedin.com/in/alexis-filters-donaldson/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/VOhiOkgd4iUgTyqX1D17efu9G/?name=image041.png\" title=\"\"></a></span><span style=\" z-index: 251671552; margin-left: 117px; margin-top: 19px; width: 49px; height: 49px;\"><a href=\"https://www.twitter.com/alexisfilters\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/TsdDSGj5mzRVWGw1HpOmDlbfI/?name=image042.png\" title=\"\"></a></span><span style=\" z-index: 251672576; margin-left: 571px; margin-top: 9px; width: 257px; height: 72px;\"><img width=\"257\" height=\"72\" style=\"width: 2.677in; height: .75in;\" src=\"https://support.pluginhive.com/attachments/token/bm7qxNg48nXk2Pe7W9iMoMUEK/?name=image043.png\"></span><span style=\" z-index: 251673600; margin-left: 474px; margin-top: 11px; width: 75px; height: 76px;\"><img width=\"75\" height=\"76\" style=\"width: .7812in; height: .7916in;\" src=\"https://support.pluginhive.com/attachments/token/7w0rV9vY0snvuMolT0QDySuT5/?name=image044.jpg\" alt=\"A qr code with a blue and white background\n\nAI-generated content may be incorrect.\"></span><span style=\" z-index: 251674624; margin-left: 327px; margin-top: 12px; width: 139px; height: 50px;\"><a href=\"https://www.alexisfilters.co.uk/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><img border=\"0\" width=\"139\" height=\"50\" style=\"width: 1.4479in; height: .5208in;\" src=\"https://support.pluginhive.com/attachments/token/mR3sPgLXAhnuWUH4Pxm8D0hT4/?name=image045.png\" alt=\"A blue and grey text on a black background\n\nAI-generated content may be incorrect.\" title=\"\"></a></span>&nbsp;&nbsp;</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<p style=\"background-color: white; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 7.5pt; color: black;\">To view our privacy policy see&nbsp;</span><span style=\"color: black;\"><a href=\"https://www.alexisfilters.co.uk/privacy-policy\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 7.5pt; \">Our\n Privacy Policy</span></a></span><span style=\"font-size: 7.5pt; \"></span></p>\n<p style=\"background-color: white; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 7.5pt; color: black;\">Disclaimer</span></b><span style=\"font-size: 7.5pt; color: black;\">- This is an email from Alexis Filters\n LTD and is confidential. If you are not the intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster at\n</span><span style=\"color: black;\"><a href=\"mailto:sales@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 7.5pt; \">sales@alexisfilters.co.uk</span></a></span><span style=\"font-size: 7.5pt; color: black;\">.\n Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under\n the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n</span><span style=\"font-size: 7.5pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n<div style=\"border-top-width: 1.0pt; border-top-color: #E1E1E1; font-size: pt; padding: 3.0pt 0cm 0cm; border-style: solid none none;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><b><span>From:</span></b><span> Vinny Shone &lt;vinny@clickconvertmarketing.com&gt;\n<br>\n<b>Sent:</b> 24 April 2026 10:31<br>\n<b>To:</b> Jakki Waters &lt;jakki.waters@alexisfilters.co.uk&gt;<br>\n<b>Cc:</b> William Hansard &lt;Billy.hansard@alexisfilters.co.uk&gt;<br>\n<b>Subject:</b> Re: FW: [#<a href=\"/agent/tickets/31020\" target=\"_blank\" rel=\"ticket\">#31020</a>##] Your ticket has been Closed</span></p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">Hi Jakki,<br>\n<br>\nIt would be best to to loop in PluginHive support to resolve a VAT double-charging issue.<br>\n<br>\nThe Problem: &gt; FedEx is sending their live API rates already inclusive of VAT. However, WooCommerce expects shipping rates to be exclusive of VAT so it can apply the taxes natively. As Billy noticed, this is causing WooCommerce to add VAT on top of an already-taxed\n FedEx rate at checkout.<br>\n<br>\nWhat We Need to Know:<br>\nCan this be fixed within the PluginHive settings, or does FedEx need to change how rates are returned at the account level?<br>\n<br>\nAcceptable Solutions:<br>\n<br>\nIdeal: FedEx/PluginHive sends the raw, tax-exclusive base rate to WooCommerce.<br>\n<br>\nAlternative: PluginHive separates the shipping charge from the VAT before passing it to WooCommerce.<br>\n<br>\nWe need WooCommerce to handle the tax calculation natively so that our VAT liabilities are recorded accurately in both WooCommerce and Sage.</p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">On Fri, 24 Apr 2026 at 10:12, Jakki Waters &lt;<a href=\"mailto:jakki.waters@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">jakki.waters@alexisfilters.co.uk</a>&gt; wrote:</p>\n</div>\n<blockquote style=\"border-left-width: 1.0pt; border-left-color: #CCCCCC; margin-left: 4.8pt; margin-right: 0cm; padding: 0cm 0cm 0cm 6.0pt; border-style: none none none solid;\">\n<div>\n<div>\n<div>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">Hi Vinny</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">Before I go back to plus in Hive on this, I wanted to check that this isn’t a setting on our side that is duplicating the tax per the below email.</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">Can you please advise?</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<div>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">Kind regards</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><img border=\"0\" width=\"282\" height=\"156\" style=\"width: 2.9375in; height: 1.625in;\" src=\"https://support.pluginhive.com/attachments/token/xIUEFil3zySr9sHYeq5CWu7Oj/?name=image002.png\" alt=\"A group of different types of filters\n\nAI-generated content may be incorrect.\"><b><span style=\"font-size: 22.0pt; color: #1DA8DF;\">Jakki\n Waters</span></b></p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 14.0pt;\">Business Operations Manager</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\">\n<tbody>\n<tr style=\"height: 6.0pt;\">\n<td width=\"0\" style=\"width: .3pt; height: 6.0pt; padding: 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"padding: 0cm;\"></td>\n<td style=\"padding: 0cm;\">\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"822\" height=\"5\" style=\"width: 8.5625in; height: .052in;\" src=\"https://support.pluginhive.com/attachments/token/zyuBRR1boTHKtbIey55MxTgi9/?name=image004.png\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 14.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><br>\n</p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/JEVC7a8EvzrFThra8KoOyZ9jT/?name=image006.png\" alt=\"A blue telephone handset on a black background\n\nAI-generated content may be incorrect.\">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;01482 711259</p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/LBmmMm43DXZ7iwHJcNd37Hh1r/?name=image008.png\" alt=\"A blue pin with a black background\n\nAI-generated content may be incorrect.\">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<span style=\"font-size: 10.0pt; line-height: 150%;\">Alexis\n Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS</span></p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"174\" height=\"33\" style=\"width: 1.8125in; height: .3437in;\" src=\"https://support.pluginhive.com/attachments/token/pXAveFYcljJrDgMh6wGD2PD0c/?name=image011.png\"><img border=\"0\" width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/ysQxXOAzIxpGJiijFquzvgrc0/?name=image015.png\" alt=\"A blue globe with black background\n\nAI-generated content may be incorrect.\">&nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;<a href=\"http://www.alexisfilters.co.uk/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">www.alexisfilters.co.uk</a>\n</p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"83\" height=\"28\" style=\"width: .8645in; height: .2916in;\" src=\"https://support.pluginhive.com/attachments/token/B17zinnn7QFzXBlNX67avAES4/?name=image019.png\" alt=\"A white rectangular sign with black text\n\nAI-generated content may be incorrect.\"><a href=\"https://apps.apple.com/gb/app/alexis-filters/id6446695995\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"83\" height=\"108\" style=\"width: .8645in; height: 1.125in;\" src=\"https://support.pluginhive.com/attachments/token/gJrrw4zSeJZFtk4c28mF3bS0x/?name=image023.png\"></span></a><img border=\"0\" width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/LdJM7ZEsgGurFycAYNUs1fjMb/?name=image027.png\" alt=\"A blue envelope with a black background\n\nAI-generated content may be incorrect.\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"mailto:Jakki.Waters@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; line-height: 150%; \">Jakki.Waters@alexisfilters.co.uk</span></a></p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<a href=\"https://www.instagram.com/alexisfilters\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/y1gD8z4ZNdvLRvDgk5apgu3fE/?name=image031.png\"></span></a><a href=\"https://www.facebook.com/alexisfilters\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/aOipFbb6MorGR8WFJkjj1hih9/?name=image048.png\"></span></a><a href=\"https://www.linkedin.com/in/alexis-filters-donaldson/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/ppfnioRMBLoLb30YkAkZ5wneH/?name=image050.png\"></span></a><a href=\"https://www.twitter.com/alexisfilters\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/PhaVsdXGJF27t8eGhdGD3zJFf/?name=image052.png\"></span></a><img border=\"0\" width=\"257\" height=\"72\" style=\"width: 2.677in; height: .75in;\" src=\"https://support.pluginhive.com/attachments/token/MInqltvJ2uFo4XclJUJXt2DGf/?name=image054.png\"><img border=\"0\" width=\"75\" height=\"76\" style=\"width: .7812in; height: .7916in;\" src=\"https://support.pluginhive.com/attachments/token/Y2h5K0jogZQqHZRU2aiiEpyml/?name=image056.jpg\" alt=\"A qr code with a blue and white background\n\nAI-generated content may be incorrect.\"><a href=\"https://www.alexisfilters.co.uk/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"139\" height=\"50\" style=\"width: 1.4479in; height: .5208in;\" src=\"https://support.pluginhive.com/attachments/token/sUYmLgpsFfhXDfdxDnPd8OmjY/?name=image058.png\" alt=\"A blue and grey text on a black background\n\nAI-generated content may be incorrect.\"></span></a>&nbsp;&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" background-color: white; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<span style=\"font-size: 7.5pt; color: black;\">To view our privacy policy see&nbsp;</span><span style=\"color: black;\"><a href=\"https://www.alexisfilters.co.uk/privacy-policy\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 7.5pt; \">Our\n Privacy Policy</span></a></span></p>\n<p style=\" background-color: white; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<b><span style=\"font-size: 7.5pt; color: black;\">Disclaimer</span></b><span style=\"font-size: 7.5pt; color: black;\">- This is an email from Alexis Filters LTD and is confidential. If you are not the\n intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster at\n</span><span style=\"color: black;\"><a href=\"mailto:sales@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 7.5pt; \">sales@alexisfilters.co.uk</span></a></span><span style=\"font-size: 7.5pt; color: black;\">.\n Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under\n the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n</span></p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n</div>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<div>\n<div style=\"border-top-width: 1.0pt; padding: 3.0pt 0cm 0cm; border-color: currentcolor; border-style: solid none none;\">\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><b><span>From:</span></b><span> William Hansard &lt;<a href=\"mailto:Billy.hansard@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">Billy.hansard@alexisfilters.co.uk</a>&gt;\n<br>\n<b>Sent:</b> 24 April 2026 10:11<br>\n<b>To:</b> Jakki Waters &lt;<a href=\"mailto:jakki.waters@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">jakki.waters@alexisfilters.co.uk</a>&gt;<br>\n<b>Subject:</b> RE: [#<a href=\"/agent/tickets/31020\" target=\"_blank\" rel=\"ticket\">#31020</a>##] Your ticket has been Closed</span></p>\n</div>\n</div>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">Hi Jakki,</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">I have enabled the tax option on WooCommerce,</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">It is now charging the customer tax on the shipping when one of the options is selected,\n</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><br>\nHowever, tax is already included in the FedEx price, and this has not been taken off the cost in the shipping option,\n</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">Please see below on how we are charged for shipping through FedEx.</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><img border=\"0\" width=\"583\" height=\"239\" style=\"width: 6.0729in; height: 2.4895in;\" src=\"https://support.pluginhive.com/attachments/token/qWYbyhccNUC5mjuswMeMAgueG/?name=image009.png\"></p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">With this new option enabled, we are charging the customer for tax twice.</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">Many thanks,</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">Billy</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><img border=\"0\" width=\"282\" height=\"156\" style=\"width: 2.9375in; height: 1.625in;\" src=\"https://support.pluginhive.com/attachments/token/Y1JPyc74OPISIYaSBLYy8KSc0/?name=image061.png\" alt=\"A group of different types of filters\n\nAI-generated content may be incorrect.\"><a style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"></a><a style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"></a><span><b><span style=\"font-size: 22.0pt; color: #1DA8DF;\">Billy\n Hansard</span></b></span></p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 14.0pt;\">Customer Service &amp; Digital Support</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\">\n<tbody>\n<tr style=\"height: 6.0pt;\">\n<td width=\"0\" style=\"width: .3pt; height: 6.0pt; padding: 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"padding: 0cm;\"></td>\n<td style=\"padding: 0cm;\">\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"822\" height=\"5\" style=\"width: 8.5625in; height: .052in;\" src=\"https://support.pluginhive.com/attachments/token/zyuBRR1boTHKtbIey55MxTgi9/?name=image004.png\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 14.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><br>\n</p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/JEVC7a8EvzrFThra8KoOyZ9jT/?name=image006.png\" alt=\"A blue telephone handset on a black background\n\nAI-generated content may be incorrect.\">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;01482 711259</p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/l06W7SeZkfR7uA8qVfQFHm04B/?name=image062.png\" alt=\"A blue pin with a black background\n\nAI-generated content may be incorrect.\"><span style=\"font-size: 11.0pt; line-height: 150%;\">&nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;Alexis Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS</span></p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"174\" height=\"33\" style=\"width: 1.8125in; height: .3437in;\" src=\"https://support.pluginhive.com/attachments/token/pXAveFYcljJrDgMh6wGD2PD0c/?name=image011.png\"><img border=\"0\" width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/KB3MVDGZ0cTWY3a1sVEX5ZaKi/?name=image063.png\" alt=\"A blue globe with black background\n\nAI-generated content may be incorrect.\">&nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;<a href=\"http://www.alexisfilters.co.uk/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">www.alexisfilters.co.uk</a>\n</p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<a href=\"https://play.google.com/store/apps/details?id=com.adventoris.alexisfilters&amp;utm_source=emea_Med\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"83\" height=\"111\" style=\"width: .8645in; height: 1.1562in;\" src=\"https://support.pluginhive.com/attachments/token/fmsPxep6u8QPIPN1zhdO45pne/?name=image064.png\"></span></a><a href=\"https://apps.apple.com/gb/app/alexis-filters/id6446695995\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"83\" height=\"108\" style=\"width: .8645in; height: 1.125in;\" src=\"https://support.pluginhive.com/attachments/token/fM9fDaCyQu2s8WRaIT78SmOg4/?name=image065.png\"></span></a><img border=\"0\" width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/ysnl8YOEGJ4IuOT9AmwrB9sz1/?name=image066.png\" alt=\"A blue envelope with a black background\n\nAI-generated content may be incorrect.\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"mailto:billy.hansard@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; line-height: 150%; \">billy.hansard@alexisfilters.co.uk</span></a></p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<a href=\"https://www.instagram.com/alexisfilters\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/tjDYtR4EFhj6wDUl2NWxh6kve/?name=image067.png\"></span></a><a href=\"https://www.facebook.com/alexisfilters\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/GMzwh9sRa8n2PjGlyISz1vK9C/?name=image068.png\"></span></a><a href=\"https://www.linkedin.com/in/alexis-filters-donaldson/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/1JFp3NSnetwruYf5PJ9HpEEy5/?name=image069.png\"></span></a><a href=\"https://www.twitter.com/alexisfilters\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/TqjhE9mfN2dqBg5ONF1tBEhLt/?name=image070.png\"></span></a><img border=\"0\" width=\"257\" height=\"72\" style=\"width: 2.677in; height: .75in;\" src=\"https://support.pluginhive.com/attachments/token/HDk8jIBSimBPY8jbGlgl3S3eG/?name=image071.png\"><a href=\"https://www.alexisfilters.co.uk/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"139\" height=\"50\" style=\"width: 1.4479in; height: .5208in;\" src=\"https://support.pluginhive.com/attachments/token/j8yYrmoGBfTIyTXOktu5Y4vTC/?name=image072.png\" alt=\"A blue and grey text on a black background\n\nAI-generated content may be incorrect.\"></span></a>&nbsp;&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" background-color: white; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<span style=\"font-size: 7.5pt; color: black;\">To view our privacy policy see&nbsp;</span><span style=\"color: black;\"><a href=\"https://www.alexisfilters.co.uk/privacy-policy\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 7.5pt; \">Our\n Privacy Policy</span></a></span></p>\n<p style=\" background-color: white; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<b><span style=\"font-size: 7.5pt; color: black;\">Disclaimer</span></b><span style=\"font-size: 7.5pt; color: black;\">- This is an email from Alexis Filters LTD and is confidential. If you are not the\n intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster at\n</span><span style=\"color: black;\"><a href=\"mailto:sales@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 7.5pt; \">sales@alexisfilters.co.uk</span></a></span><span style=\"font-size: 7.5pt; color: black;\">.\n Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under\n the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n</span></p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<div>\n<div style=\"border-top-width: 1.0pt; padding: 3.0pt 0cm 0cm; border-color: currentcolor; border-style: solid none none;\">\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><b><span>From:</span></b><span> Jakki Waters &lt;<a href=\"mailto:jakki.waters@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">jakki.waters@alexisfilters.co.uk</a>&gt;\n<br>\n<b>Sent:</b> 24 April 2026 09:57<br>\n<b>To:</b> William Hansard &lt;<a href=\"mailto:Billy.hansard@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">Billy.hansard@alexisfilters.co.uk</a>&gt;<br>\n<b>Subject:</b> FW: [#<a href=\"/agent/tickets/31020\" target=\"_blank\" rel=\"ticket\">#31020</a>##] Your ticket has been Closed</span></p>\n</div>\n</div>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">Hi Billy</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">Can you check that this has been changed now please and can you monitor new orders to make sure this is pulling through correctly and let me know.</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">Many thanks</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">Kind regards</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><img border=\"0\" width=\"282\" height=\"156\" style=\"width: 2.9375in; height: 1.625in;\" src=\"https://support.pluginhive.com/attachments/token/jmhatWv9P6vWjfDy4dI3FLpME/?name=image086.png\" alt=\"A group of different types of filters\n\nAI-generated content may be incorrect.\"><b><span style=\"font-size: 22.0pt; color: #1DA8DF;\">Jakki\n Waters</span></b></p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 14.0pt;\">Business Operations Manager</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\">\n<tbody>\n<tr style=\"height: 6.0pt;\">\n<td width=\"0\" style=\"width: .3pt; height: 6.0pt; padding: 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"padding: 0cm;\"></td>\n<td style=\"padding: 0cm;\">\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"822\" height=\"5\" style=\"width: 8.5625in; height: .052in;\" src=\"https://support.pluginhive.com/attachments/token/zyuBRR1boTHKtbIey55MxTgi9/?name=image004.png\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 14.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><br>\n</p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/JEVC7a8EvzrFThra8KoOyZ9jT/?name=image006.png\" alt=\"A blue telephone handset on a black background\n\nAI-generated content may be incorrect.\">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;01482 711259</p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/4NyvUMc32zqDMAZy74q5MaeVG/?name=image087.png\" alt=\"A blue pin with a black background\n\nAI-generated content may be incorrect.\">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<span style=\"font-size: 10.0pt; line-height: 150%;\">Alexis\n Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS</span></p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"174\" height=\"33\" style=\"width: 1.8125in; height: .3437in;\" src=\"https://support.pluginhive.com/attachments/token/pXAveFYcljJrDgMh6wGD2PD0c/?name=image011.png\"><img border=\"0\" width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/KTsgusNv0pylCaDGK2o8ixN1k/?name=image088.png\" alt=\"A blue globe with black background\n\nAI-generated content may be incorrect.\">&nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;<a href=\"http://www.alexisfilters.co.uk/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">www.alexisfilters.co.uk</a>\n</p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<img border=\"0\" width=\"83\" height=\"28\" style=\"width: .8645in; height: .2916in;\" src=\"https://support.pluginhive.com/attachments/token/3DIHY73S0wRkLy1sdqfotzsr6/?name=image089.png\" alt=\"A white rectangular sign with black text\n\nAI-generated content may be incorrect.\"><a href=\"https://apps.apple.com/gb/app/alexis-filters/id6446695995\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"83\" height=\"108\" style=\"width: .8645in; height: 1.125in;\" src=\"https://support.pluginhive.com/attachments/token/skbiugT0QPlgYjSXh19s1VKU8/?name=image090.png\"></span></a><img border=\"0\" width=\"19\" height=\"19\" style=\"width: .1979in; height: .1979in;\" src=\"https://support.pluginhive.com/attachments/token/Tw1CoKTKsTRWnH6ix2gw7yEo6/?name=image091.png\" alt=\"A blue envelope with a black background\n\nAI-generated content may be incorrect.\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"mailto:Jakki.Waters@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; line-height: 150%; \">Jakki.Waters@alexisfilters.co.uk</span></a></p>\n<p style=\" line-height: 150%; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<a href=\"https://www.instagram.com/alexisfilters\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/DXNirByfESMIl0Ej5FGropkFd/?name=image092.png\"></span></a><a href=\"https://www.facebook.com/alexisfilters\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/wl6zkpDAst33s6aCV3xSJscSt/?name=image093.png\"></span></a><a href=\"https://www.linkedin.com/in/alexis-filters-donaldson/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/03Z5VjZTdPGeJCcmaFA3QVave/?name=image094.png\"></span></a><a href=\"https://www.twitter.com/alexisfilters\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"49\" height=\"49\" style=\"width: .5104in; height: .5104in;\" src=\"https://support.pluginhive.com/attachments/token/WupHcQ7RP2cNpN9vY9J5trG31/?name=image095.png\"></span></a><img border=\"0\" width=\"257\" height=\"72\" style=\"width: 2.677in; height: .75in;\" src=\"https://support.pluginhive.com/attachments/token/QT3nfntOqBy21LdKIJgiYyORP/?name=image096.png\"><img border=\"0\" width=\"75\" height=\"76\" style=\"width: .7812in; height: .7916in;\" src=\"https://support.pluginhive.com/attachments/token/ADDgw1LFOp3AXZju5KqmgDLzg/?name=image097.jpg\" alt=\"A qr code with a blue and white background\n\nAI-generated content may be incorrect.\"><a href=\"https://www.alexisfilters.co.uk/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"text-decoration: none;\"><img border=\"0\" width=\"139\" height=\"50\" style=\"width: 1.4479in; height: .5208in;\" src=\"https://support.pluginhive.com/attachments/token/wkjzrgSfJYylwydfL4yx5qoYu/?name=image098.png\" alt=\"A blue and grey text on a black background\n\nAI-generated content may be incorrect.\"></span></a>&nbsp;&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<p style=\" background-color: white; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<span style=\"font-size: 7.5pt; color: black;\">To view our privacy policy see&nbsp;</span><span style=\"color: black;\"><a href=\"https://www.alexisfilters.co.uk/privacy-policy\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 7.5pt; \">Our\n Privacy Policy</span></a></span></p>\n<p style=\" background-color: white; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<b><span style=\"font-size: 7.5pt; color: black;\">Disclaimer</span></b><span style=\"font-size: 7.5pt; color: black;\">- This is an email from Alexis Filters LTD and is confidential. If you are not the\n intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster at\n</span><span style=\"color: black;\"><a href=\"mailto:sales@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 7.5pt; \">sales@alexisfilters.co.uk</span></a></span><span style=\"font-size: 7.5pt; color: black;\">.\n Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under\n the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n</span></p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<div style=\"border-top-width: 1.0pt; padding: 3.0pt 0cm 0cm; border-color: currentcolor; border-style: solid none none;\">\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><b><span>From:</span></b><span> Woosage Support &lt;<a href=\"mailto:support@woosage.com\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">support@woosage.com</a>&gt;\n<br>\n<b>Sent:</b> 23 April 2026 09:40<br>\n<b>To:</b> Jakki Waters &lt;<a href=\"mailto:jakki.waters@alexisfilters.co.uk\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">jakki.waters@alexisfilters.co.uk</a>&gt;<br>\n<b>Subject:</b> [#<a href=\"/agent/tickets/31020\" target=\"_blank\" rel=\"ticket\">#31020</a>##] Your ticket has been Closed</span></p>\n</div>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n<div>\n<div align=\"center\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; background-color: #F2F2F2; background-color: #F2F2F2\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"padding: 22.5pt 15.0pt;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"90%\" style=\"width: 90.0%;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"background-color: white; padding: 22.5pt; border: 1.0pt solid #DADADA; background-color: white\">\n<div>\n<div>\n<p style=\" line-height: 18.0pt; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<span style=\"font-size: 10.5pt; color: #222222;\">Dear jakki.waters,</span></p>\n</div>\n<div>\n<p style=\" line-height: 18.0pt; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<span style=\"font-size: 10.5pt; color: #222222;\">&nbsp;</span></p>\n</div>\n<div>\n<p style=\" line-height: 18.0pt; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<span style=\"font-size: 10.5pt; color: #222222;\">The ticket \"31020 VAT for Carriage\" is being Closed as we believe the issue has now been resolved.</span></p>\n</div>\n<div>\n<p style=\" line-height: 18.0pt; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<span style=\"font-size: 10.5pt; color: #222222;\">&nbsp;</span></p>\n</div>\n<div>\n<p style=\" line-height: 18.0pt; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<span style=\"font-size: 10.5pt; color: #222222;\">If this is not the case you can re-open this ticket by simply replying to this email.</span></p>\n</div>\n<div>\n<p style=\" line-height: 18.0pt; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<span style=\"font-size: 10.5pt; color: #222222;\">&nbsp;</span></p>\n</div>\n<div>\n<p style=\" line-height: 18.0pt; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<span style=\"font-size: 10.5pt; color: #222222;\">Let us know if you get any further issues and we will be happy to assist you.</span></p>\n</div>\n</div>\n<div>\n<div>\n<p style=\" line-height: 18.0pt; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<span style=\"font-size: 10.5pt; color: #222222;\">&nbsp;</span></p>\n</div>\n<div>\n<p style=\" line-height: 18.0pt; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<span style=\"font-size: 10.5pt; color: #222222;\">Regards,</span></p>\n</div>\n<div>\n<p style=\" line-height: 18.0pt; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">\n<span style=\"font-size: 10.5pt; color: #222222;\">Woosage&nbsp;Support Team.</span></p>\n</div>\n</div>\n</td>\n</tr>\n<tr>\n<td valign=\"top\" style=\"padding: 3.75pt 0cm 0cm;\"></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\">&nbsp;</p>\n</div>\n</div>\n</div>\n</div>\n</blockquote>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><br>\n</p>\n</div>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>-- </span></p>\n<div>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse: collapse; border-color: currentcolor;\">\n<tbody>\n<tr style=\"height: 30.75pt;\">\n<td valign=\"top\" style=\"height: 30.75pt; overflow: hidden; padding: .75pt; border-color: white; border-style: solid solid solid none; border-width: 1.0pt;\">\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 10.0pt; \">Kind Regards,</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 14.0pt; \">Vinny Shone</span></b></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><i><span style=\"font-size: 10.0pt; color: #444444;\">Web Developer</span></i></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #444444; padding: 0cm; border-style: none; border-width: 1.0pt;\"><img border=\"0\" width=\"241\" height=\"60\" style=\"width: 2.5104in; height: .625in;\" src=\"https://lh5.googleusercontent.com/JTPifRoIP9sp5kgzDz8OCGRr7X-U3-DV6TamGrvyc0m3KJFkq8C5_ZATiEaj62k7wBW2ZMlHM7iepCk5VVQKodua-aNl17fuAsemiZkj-PH5Bqsosoo8UE3dV_T2iqRle3jm0hbb\"></span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 10.0pt; color: #939597;\">US:</span><span style=\"font-size: 10.0pt; color: #444444;\"> 1 888 225 0466</span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 10.0pt; color: #939597;\">UK:</span><span style=\"font-size: 10.0pt; color: #444444;\"> 01244 470 067</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 10.0pt; color: blue;\"><a href=\"mailto:vinny@clickconvertmarketing.com\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">vinny@clickconvertmarketing.com</a></span></p>\n<p style=\"margin: 0cm;\" dir=\"auto\"><a href=\"http://clickconvertmarketing.com/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 10.0pt; color: #1155CC;\">clickconvertmarketing.com</span></a></p>\n</td>\n</tr>\n<tr style=\"height: 21.0pt;\">\n<td valign=\"top\" style=\"border-bottom-width: 1.0pt; border-bottom-color: white; border-right-width: 1.0pt; border-right-color: white; height: 21.0pt; overflow: hidden; padding: .75pt; border-style: none solid solid none;\">\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 9.0pt; padding: 0cm; border-style: none; border-width: 1.0pt;\"><img border=\"0\" width=\"20\" height=\"20\" style=\"width: .2083in; height: .2083in;\" src=\"https://lh4.googleusercontent.com/gUnFiYuu1c6_-rb8yRv9A6T4SS1QVEZdb9pQ42BxUcCw10lk_iymzBMn77KIxox4zDFAB0MGW_46EuibUtdpZJBl8xCTiet8TKC0KdxH-E8hAm43bzJ6ThdgtVYXgGog_4A8b7ac\"></span><a href=\"https://instagram.com/clickconvertdigitalmarketing?utm_medium=copy_link\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: #1155CC; text-decoration: none; padding: 0cm; border-style: none; border-width: 1.0pt;\"><img border=\"0\" width=\"20\" height=\"21\" style=\"width: .2083in; height: .2187in;\" src=\"https://lh4.googleusercontent.com/j58A6sUmsTrNwcPmijUpY2ZO0BcL_acIfe_gB9MeeZ-aOKnmW4acqipRRTdE-wbe5TqQyaMLMbRL41l659nkVVJ5Dh-aFHrf8xHUYk276zIgU8CWFZo19TNb4SYmnNoT25afKEc4\" alt=\"facebook icon\"></span></a><a href=\"https://www.linkedin.com/company/click-convert\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: #1155CC; text-decoration: none; padding: 0cm; border-style: none; border-width: 1.0pt;\"><img border=\"0\" width=\"24\" height=\"20\" style=\"width: .25in; height: .2083in;\" src=\"https://lh3.googleusercontent.com/c2Ih2TlMBASC0qvXYX2b7yHZKiPUQIEUqAK6lSCfRPu3Jb5KtU33dAfahzeh5qS-nhnvedIDi0WlM4Yehksaxs09OLKpHGvUF9Mlm_B2qfVDwrQggZQfsdzsqUn1Ry7qt4V-KKSI\"></span></a></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"display: none;\">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td width=\"590\" valign=\"top\" style=\"width: 442.5pt; padding: 0cm; border: 1.0pt solid white;\">\n<p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\"><br>\n</span><span style=\" color: #222222;\">This message is confidential and for use by the addressee only. If you are not the intended recipient, you must not use, disclose, distribute, copy, print, or rely on this message. Please notify\n the sender by return email and then delete the message from your computer. Click Convert accepts no responsibility for changes made to this message after it was sent nor for any loss or damage from receipt or use.</span><span style=\"font-size: 11.0pt; color: black;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\">&nbsp;</p>\n</div>\n</div>\n</div>\n</div></div>",
+      "plain_body": "Hi Touseef \n &nbsp; \n Please can you refer to the 2 emails below and advise? \n &nbsp; \n Sorry to be a pain. \n &nbsp; \n Kind regards \n &nbsp; \n Jakki\n Waters \n Business Operations Manager \n \n \n\n\n\n\n\n\n\n\n\n\n&nbsp; \n\n\n &nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;01482 711259 \n &nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;Alexis Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS \n &nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;www.alexisfilters.co.uk  \n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jakki.Waters@alexisfilters.co.uk \n &nbsp;&nbsp; \n &nbsp; \n &nbsp; \n &nbsp; \n &nbsp; \n To view our privacy policy see&nbsp;Our\n Privacy Policy \n Disclaimer- This is an email from Alexis Filters\n LTD and is confidential. If you are not the intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster at\nsales@alexisfilters.co.uk.\n Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under\n the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n \n &nbsp; \n &nbsp; \n \n From: Vinny Shone &lt;vinny@clickconvertmarketing.com&gt;\n\n\nSent: 24 April 2026 10:31\n\nTo: Jakki Waters &lt;jakki.waters@alexisfilters.co.uk&gt;\n\nCc: William Hansard &lt;Billy.hansard@alexisfilters.co.uk&gt;\n\nSubject: Re: FW: [##31020##] Your ticket has been Closed \n \n &nbsp; \n \n \n Hi Jakki,\n\n\n\nIt would be best to to loop in PluginHive support to resolve a VAT double-charging issue.\n\n\n\nThe Problem: &gt; FedEx is sending their live API rates already inclusive of VAT. However, WooCommerce expects shipping rates to be exclusive of VAT so it can apply the taxes natively. As Billy noticed, this is causing WooCommerce to add VAT on top of an already-taxed\n FedEx rate at checkout.\n\n\n\nWhat We Need to Know:\n\nCan this be fixed within the PluginHive settings, or does FedEx need to change how rates are returned at the account level?\n\n\n\nAcceptable Solutions:\n\n\n\nIdeal: FedEx/PluginHive sends the raw, tax-exclusive base rate to WooCommerce.\n\n\n\nAlternative: PluginHive separates the shipping charge from the VAT before passing it to WooCommerce.\n\n\n\nWe need WooCommerce to handle the tax calculation natively so that our VAT liabilities are recorded accurately in both WooCommerce and Sage. \n \n &nbsp; \n \n \n On Fri, 24 Apr 2026 at 10:12, Jakki Waters &lt;jakki.waters@alexisfilters.co.uk&gt; wrote: \n \n \n \n \n \n Hi Vinny \n &nbsp; \n Before I go back to plus in Hive on this, I wanted to check that this isn’t a setting on our side that is duplicating the tax per the below email. \n &nbsp; \n Can you please advise? \n &nbsp; \n \n Kind regards \n &nbsp; \n Jakki\n Waters \n Business Operations Manager \n\n\n\n\n\n\n\n\n \n \n\n\n\n\n &nbsp; \n \n\n \n \n&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;01482 711259 \n \n&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Alexis\n Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS \n \n&nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;www.alexisfilters.co.uk\n \n \n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jakki.Waters@alexisfilters.co.uk \n \n&nbsp;&nbsp; \n &nbsp; \n &nbsp; \n &nbsp; \n &nbsp; \n \nTo view our privacy policy see&nbsp;Our\n Privacy Policy \n \nDisclaimer- This is an email from Alexis Filters LTD and is confidential. If you are not the\n intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster at\nsales@alexisfilters.co.uk.\n Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under\n the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n \n &nbsp; \n \n &nbsp; \n \n \n From: William Hansard &lt;Billy.hansard@alexisfilters.co.uk&gt;\n\n\nSent: 24 April 2026 10:11\n\nTo: Jakki Waters &lt;jakki.waters@alexisfilters.co.uk&gt;\n\nSubject: RE: [##31020##] Your ticket has been Closed \n \n \n &nbsp; \n Hi Jakki, \n &nbsp; \n I have enabled the tax option on WooCommerce, \n It is now charging the customer tax on the shipping when one of the options is selected,\n \n \n\nHowever, tax is already included in the FedEx price, and this has not been taken off the cost in the shipping option,\n \n Please see below on how we are charged for shipping through FedEx. \n &nbsp; \n  \n &nbsp; \n With this new option enabled, we are charging the customer for tax twice. \n &nbsp; \n Many thanks, \n &nbsp; \n Billy \n &nbsp; \n Billy\n Hansard \n Customer Service &amp; Digital Support \n\n\n\n\n\n\n\n\n \n \n\n\n\n\n &nbsp; \n \n\n \n \n&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;01482 711259 \n \n&nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;Alexis Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS \n \n&nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;www.alexisfilters.co.uk\n \n \n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;billy.hansard@alexisfilters.co.uk \n \n&nbsp;&nbsp; \n &nbsp; \n &nbsp; \n &nbsp; \n &nbsp; \n \nTo view our privacy policy see&nbsp;Our\n Privacy Policy \n \nDisclaimer- This is an email from Alexis Filters LTD and is confidential. If you are not the\n intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster at\nsales@alexisfilters.co.uk.\n Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under\n the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n \n &nbsp; \n \n \n From: Jakki Waters &lt;jakki.waters@alexisfilters.co.uk&gt;\n\n\nSent: 24 April 2026 09:57\n\nTo: William Hansard &lt;Billy.hansard@alexisfilters.co.uk&gt;\n\nSubject: FW: [##31020##] Your ticket has been Closed \n \n \n &nbsp; \n Hi Billy \n &nbsp; \n Can you check that this has been changed now please and can you monitor new orders to make sure this is pulling through correctly and let me know. \n &nbsp; \n Many thanks \n &nbsp; \n Kind regards \n &nbsp; \n Jakki\n Waters \n Business Operations Manager \n\n\n\n\n\n\n\n\n \n \n\n\n\n\n &nbsp; \n \n\n \n \n&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;01482 711259 \n \n&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Alexis\n Filters, Unit 20, Melton Enterprise Park, Redcliff Road, North Ferriby, HU14 3RS \n \n&nbsp;&nbsp;&nbsp;&nbsp;\n &nbsp;&nbsp;www.alexisfilters.co.uk\n \n \n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jakki.Waters@alexisfilters.co.uk \n \n&nbsp;&nbsp; \n &nbsp; \n &nbsp; \n &nbsp; \n &nbsp; \n \nTo view our privacy policy see&nbsp;Our\n Privacy Policy \n \nDisclaimer- This is an email from Alexis Filters LTD and is confidential. If you are not the\n intended recipient you must not disclose or use the information for any purpose Please delete the email immediately. If you have received this email in error please notify our postmaster at\nsales@alexisfilters.co.uk.\n Any views in the email are those of the sender only and not those of the Alexis Filters LTD company or its Directors. As part of conducting its business, Alexis Filters LTD may monitor and record emails and their contents passing through their network under\n the Telecommunications Regulations 2000. Although we have checked this e-mail for viruses, it is your responsibility to scan the message and attachments prior to opening them. We do not accept any responsibility for the consequences of passing on any virus.\n \n &nbsp; \n &nbsp; \n \n From: Woosage Support &lt;support@woosage.com&gt;\n\n\nSent: 23 April 2026 09:40\n\nTo: Jakki Waters &lt;jakki.waters@alexisfilters.co.uk&gt;\n\nSubject: [##31020##] Your ticket has been Closed \n \n &nbsp; \n \n \n\n\n\n\n\n\n\n\n \n \n \nDear jakki.waters, \n \n \n \n&nbsp; \n \n \n \nThe ticket \"31020 VAT for Carriage\" is being Closed as we believe the issue has now been resolved. \n \n \n \n&nbsp; \n \n \n \nIf this is not the case you can re-open this ticket by simply replying to this email. \n \n \n \n&nbsp; \n \n \n \nLet us know if you get any further issues and we will be happy to assist you. \n \n \n \n \n \n&nbsp; \n \n \n \nRegards, \n \n \n \nWoosage&nbsp;Support Team. \n \n \n\n\n\n\n\n\n\n\n\n\n\n \n &nbsp; \n \n \n \n \n \n \n \n \n\n \n \n \n &nbsp; \n \n --  \n \n \n\n\n\n\n Kind Regards, \n &nbsp; \n Vinny Shone \n Web Developer \n &nbsp; \n  \n US: 1 888 225 0466 \n UK: 01244 470 067 \n &nbsp; \n vinny@clickconvertmarketing.com \n clickconvertmarketing.com \n\n\n\n\n  \n\n\n\n\n &nbsp; \n\n\n\n\n \n\nThis message is confidential and for use by the addressee only. If you are not the intended recipient, you must not use, disclose, distribute, copy, print, or rely on this message. Please notify\n the sender by return email and then delete the message from your computer. Click Convert accepts no responsibility for changes made to this message after it was sent nor for any loss or damage from receipt or use. \n\n\n\n\n &nbsp;",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289571162905.json",
+          "id": 57289571162905,
+          "file_name": "image003.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/Dr93NlyCh4E6nqpfdKMRdZgRz/?name=image003.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/Dr93NlyCh4E6nqpfdKMRdZgRz/?name=image003.png",
+          "content_type": "image/png",
+          "size": 391,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289552226329.json",
+              "id": 57289552226329,
+              "file_name": "image003_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/2ZWbMadMnHEdiJpHBCIlXHuBY/?name=image003_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/2ZWbMadMnHEdiJpHBCIlXHuBY/?name=image003_thumb.png",
+              "content_type": "image/png",
+              "size": 228,
+              "width": 80,
+              "height": 1,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "malware_not_found"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289571185689.json",
+          "id": 57289571185689,
+          "file_name": "image007.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/qhqNXmB52Cm3B9nHAQfOEFfXL/?name=image007.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/qhqNXmB52Cm3B9nHAQfOEFfXL/?name=image007.png",
+          "content_type": "image/png",
+          "size": 1566,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289580333209.json",
+              "id": 57289580333209,
+              "file_name": "image007_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/o1PQAagKjlhDenLDTWhDuiISu/?name=image007_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/o1PQAagKjlhDenLDTWhDuiISu/?name=image007_thumb.png",
+              "content_type": "image/png",
+              "size": 1433,
+              "width": 52,
+              "height": 54,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "malware_not_found"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289571191321.json",
+          "id": 57289571191321,
+          "file_name": "image009.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/jFMyWhU3hi7CIkaO9diZJnH6f/?name=image009.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/jFMyWhU3hi7CIkaO9diZJnH6f/?name=image009.png",
+          "content_type": "image/png",
+          "size": 2309,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289536725785.json",
+              "id": 57289536725785,
+              "file_name": "image009_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/BHRfMtpJW7omVMc4cgpVTRAMx/?name=image009_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/BHRfMtpJW7omVMc4cgpVTRAMx/?name=image009_thumb.png",
+              "content_type": "image/png",
+              "size": 2497,
+              "width": 43,
+              "height": 43,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289571208857.json",
+          "id": 57289571208857,
+          "file_name": "image013.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/f7aZxBdaM1UDpuahYRlJFEwYd/?name=image013.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/f7aZxBdaM1UDpuahYRlJFEwYd/?name=image013.png",
+          "content_type": "image/png",
+          "size": 32772,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289536726553.json",
+              "id": 57289536726553,
+              "file_name": "image013_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/5upGYSXmJdkoYRmckkxepfl5I/?name=image013_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/5upGYSXmJdkoYRmckkxepfl5I/?name=image013_thumb.png",
+              "content_type": "image/png",
+              "size": 12244,
+              "width": 62,
+              "height": 80,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289579835289.json",
+          "id": 57289579835289,
+          "file_name": "image001.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/8kZlO0JKXEp0ssDxH0HwLSw3E/?name=image001.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/8kZlO0JKXEp0ssDxH0HwLSw3E/?name=image001.png",
+          "content_type": "image/png",
+          "size": 397461,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289580333465.json",
+              "id": 57289580333465,
+              "file_name": "image001_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/lVs8wLH7snlNWt7JFyO4kvbHi/?name=image001_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/lVs8wLH7snlNWt7JFyO4kvbHi/?name=image001_thumb.png",
+              "content_type": "image/png",
+              "size": 7626,
+              "width": 80,
+              "height": 59,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "malware_not_found"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289579863833.json",
+          "id": 57289579863833,
+          "file_name": "image005.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/InuMaCAlf3R7irz884EuDPObc/?name=image005.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/InuMaCAlf3R7irz884EuDPObc/?name=image005.png",
+          "content_type": "image/png",
+          "size": 1371,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289557121689.json",
+              "id": 57289557121689,
+              "file_name": "image005_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/sLpHuVxkAYRQnez0IKP6rQkCr/?name=image005_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/sLpHuVxkAYRQnez0IKP6rQkCr/?name=image005_thumb.png",
+              "content_type": "image/png",
+              "size": 1233,
+              "width": 53,
+              "height": 57,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "malware_not_found"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289579888281.json",
+          "id": 57289579888281,
+          "file_name": "image011.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/vXNaexxiupMjjSkCkG8dcGmjG/?name=image011.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/vXNaexxiupMjjSkCkG8dcGmjG/?name=image011.png",
+          "content_type": "image/png",
+          "size": 134523,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289571639065.json",
+              "id": 57289571639065,
+              "file_name": "image011_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/CFgneUf1RLDJHErPkAYu115oi/?name=image011_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/CFgneUf1RLDJHErPkAYu115oi/?name=image011_thumb.png",
+              "content_type": "image/png",
+              "size": 2808,
+              "width": 80,
+              "height": 27,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289579904281.json",
+          "id": 57289579904281,
+          "file_name": "image015.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/24PYaCafYALORsSNziFsVrvkR/?name=image015.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/24PYaCafYALORsSNziFsVrvkR/?name=image015.png",
+          "content_type": "image/png",
+          "size": 1540,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289536731289.json",
+              "id": 57289536731289,
+              "file_name": "image015_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/TVVUBZuVaOsPY0nyPe0hnijrw/?name=image015_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/TVVUBZuVaOsPY0nyPe0hnijrw/?name=image015_thumb.png",
+              "content_type": "image/png",
+              "size": 1714,
+              "width": 43,
+              "height": 43,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289571219609.json",
+          "id": 57289571219609,
+          "file_name": "image017.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/QcHx7bpDtuYuIa7IpxMFsP3FR/?name=image017.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/QcHx7bpDtuYuIa7IpxMFsP3FR/?name=image017.png",
+          "content_type": "image/png",
+          "size": 50193,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289557131417.json",
+              "id": 57289557131417,
+              "file_name": "image017_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/mLl4oS68KTJL9k1hjz6qh7YA6/?name=image017_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/mLl4oS68KTJL9k1hjz6qh7YA6/?name=image017_thumb.png",
+              "content_type": "image/png",
+              "size": 9178,
+              "width": 80,
+              "height": 80,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289571235737.json",
+          "id": 57289571235737,
+          "file_name": "image019.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/rX5C2KOn3f4ETTC8NNFPniZIW/?name=image019.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/rX5C2KOn3f4ETTC8NNFPniZIW/?name=image019.png",
+          "content_type": "image/png",
+          "size": 27473,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289580339353.json",
+              "id": 57289580339353,
+              "file_name": "image019_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/TqtiFlSWQWh5CslK4WZKnMpvJ/?name=image019_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/TqtiFlSWQWh5CslK4WZKnMpvJ/?name=image019_thumb.png",
+              "content_type": "image/png",
+              "size": 5613,
+              "width": 80,
+              "height": 80,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289571244825.json",
+          "id": 57289571244825,
+          "file_name": "image021.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/GSjOa1DOrDA5sTDWNaBhzT5jd/?name=image021.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/GSjOa1DOrDA5sTDWNaBhzT5jd/?name=image021.png",
+          "content_type": "image/png",
+          "size": 15817,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289571644825.json",
+              "id": 57289571644825,
+              "file_name": "image021_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/RmASmyeaSLHHAGpg8B3sggItb/?name=image021_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/RmASmyeaSLHHAGpg8B3sggItb/?name=image021_thumb.png",
+              "content_type": "image/png",
+              "size": 3550,
+              "width": 80,
+              "height": 80,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289571274521.json",
+          "id": 57289571274521,
+          "file_name": "image027.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/2ZwvuXfnKPHy55FsilGWiMr2Q/?name=image027.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/2ZwvuXfnKPHy55FsilGWiMr2Q/?name=image027.jpg",
+          "content_type": "image/jpeg",
+          "size": 99417,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289580340505.json",
+              "id": 57289580340505,
+              "file_name": "image027_thumb.jpg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/R8zuXF92Iw7macQroHMxPlniu/?name=image027_thumb.jpg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/R8zuXF92Iw7macQroHMxPlniu/?name=image027_thumb.jpg",
+              "content_type": "image/jpeg",
+              "size": 5499,
+              "width": 80,
+              "height": 80,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289579936281.json",
+          "id": 57289579936281,
+          "file_name": "image023.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/8X5mWtRaAc2ei5TANHjnU3kfF/?name=image023.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/8X5mWtRaAc2ei5TANHjnU3kfF/?name=image023.png",
+          "content_type": "image/png",
+          "size": 27100,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289571645465.json",
+              "id": 57289571645465,
+              "file_name": "image023_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/bye8rvcZwHnKdGO6mzQwuotVc/?name=image023_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/bye8rvcZwHnKdGO6mzQwuotVc/?name=image023_thumb.png",
+              "content_type": "image/png",
+              "size": 4941,
+              "width": 80,
+              "height": 80,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289579951897.json",
+          "id": 57289579951897,
+          "file_name": "image025.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/sPql7qw2vHqWwUTDkvlydCLnG/?name=image025.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/sPql7qw2vHqWwUTDkvlydCLnG/?name=image025.png",
+          "content_type": "image/png",
+          "size": 54177,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289552233753.json",
+              "id": 57289552233753,
+              "file_name": "image025_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/u5y5awvE1fsTyRYGuqvLItNM8/?name=image025_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/u5y5awvE1fsTyRYGuqvLItNM8/?name=image025_thumb.png",
+              "content_type": "image/png",
+              "size": 4183,
+              "width": 80,
+              "height": 23,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289579971993.json",
+          "id": 57289579971993,
+          "file_name": "image029.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/T4y8QfTNZFqKxIRd1SawHPaGE/?name=image029.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/T4y8QfTNZFqKxIRd1SawHPaGE/?name=image029.png",
+          "content_type": "image/png",
+          "size": 365395,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57289552239129.json",
+              "id": 57289552239129,
+              "file_name": "image029_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/xjKierg1avV2CI9lfnMaFYVC5/?name=image029_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/xjKierg1avV2CI9lfnMaFYVC5/?name=image029_thumb.png",
+              "content_type": "image/png",
+              "size": 2651,
+              "width": 80,
+              "height": 27,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 57289570813209,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jakki.waters@alexisfilters.co.uk",
+            "name": "Jakki Waters",
+            "original_recipients": [
+              "jakki.waters@alexisfilters.co.uk",
+              "support@pluginhive.com",
+              "billy.hansard@alexisfilters.co.uk",
+              "vinny@clickconvertmarketing.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-24T09:47:26Z",
+      "metadata": {
+        "system": {
+          "message_id": "<VI0PR03MB10508FCA4DB775CC82A17640BDB2B2@VI0PR03MB10508.eurprd03.prod.outlook.com>",
+          "email_id": "01KPZE5FZXNT5GXB01XFGRM6F9",
+          "raw_email_identifier": "2369120/7df56005-6c7f-421e-9238-05b68c67106c.eml",
+          "json_email_identifier": "2369120/7df56005-6c7f-421e-9238-05b68c67106c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57292937603481,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "UK Store\n1 order\nFedEx, DHL, and EasyPost account for DPD account connected\nExplored plugin for both rates and labels\n$29 Popular plan",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">UK Store<br>1 order<br>FedEx, DHL, and EasyPost account for DPD account connected<br>Explored plugin for both rates and labels<br>$29 Popular plan<br></div>",
+      "plain_body": "UK Store\n1 order\nFedEx, DHL, and EasyPost account for DPD account connected\nExplored plugin for both rates and labels\n$29 Popular plan",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57292937603353,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-24T11:52:15Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57292937962521,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Jakki Waters,\n\nThank you for your response.\n\nPlease allow us some time to forward your requirement to our team for checking its feasibility.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jakki Waters,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Please allow us some time to forward your requirement to our team for checking its feasibility.<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jakki Waters,\n&nbsp;\nThank you for your response.\n&nbsp;\nPlease allow us some time to forward your requirement to our team for checking its feasibility.\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57292937962393,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-24T11:52:20Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57293121205657,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3:\n\nSame case as reported on https://pluginhive.zendesk.com/agent/tickets/385094\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1777032006239309",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3:<br>&nbsp;<br>Same case as reported on <a rel=\"noopener noreferrer\" href=\"https://pluginhive.zendesk.com/agent/tickets/385094\">https://pluginhive.zendesk.com/agent/tickets/385094</a><br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1777032006239309\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1777032006239309</a><br></div>",
+      "plain_body": "L3:\n&nbsp;\nSame case as reported on https://pluginhive.zendesk.com/agent/tickets/385094\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1777032006239309",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57293121205529,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-24T12:00:25Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57293528384281,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "URL - www.alexisfilters.co.uk\nAccount ID - 5cee1dab-d023-4c17-98a8-c94881597fba",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">URL - <a rel=\"noopener noreferrer\" href=\"http://www.alexisfilters.co.uk\">www.alexisfilters.co.uk</a><br>Account ID - 5cee1dab-d023-4c17-98a8-c94881597fba<br></div>",
+      "plain_body": "URL - www.alexisfilters.co.uk\nAccount ID - 5cee1dab-d023-4c17-98a8-c94881597fba",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57293528384153,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-24T12:18:51Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

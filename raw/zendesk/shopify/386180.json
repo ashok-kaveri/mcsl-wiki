@@ -1,0 +1,219 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/386180.json",
+    "id": 386180,
+    "external_id": null,
+    "via": {
+      "channel": "api",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-04-26T21:35:53Z",
+    "updated_at": "2026-04-26T21:35:53Z",
+    "generated_timestamp": 1777239353,
+    "type": null,
+    "subject": "No Function - HELP.",
+    "raw_subject": "No Function - HELP.",
+    "description": "PH MultiCarrier isn't working at all, not even loading. It is just cycling and then sometimes says bad gateway. \r\nHELP",
+    "priority": null,
+    "status": "new",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 56942544249369,
+    "submitter_id": 56942544249369,
+    "assignee_id": null,
+    "organization_id": null,
+    "group_id": null,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "https://admin.shopify.com/store/healthiewholesalers"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0432803832"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850726,
+    "encoded_id": "LYK51G-3DVJN",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "https://admin.shopify.com/store/healthiewholesalers"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0432803832"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57348287601433,
+      "type": "Comment",
+      "author_id": 56942544249369,
+      "body": "PH MultiCarrier isn't working at all, not even loading. It is just cycling and then sometimes says bad gateway. \r\nHELP",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">PH MultiCarrier isn't working at all, not even loading. It is just cycling and then sometimes says bad gateway. \n<br>HELP</p></div>",
+      "plain_body": "PH MultiCarrier isn't working at all, not even loading. It is just cycling and then sometimes says bad gateway. \n\nHELP",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57348287601305,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-26T21:35:53Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.8.5; https://www.pluginhive.com",
+          "ip_address": "159.65.74.253",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

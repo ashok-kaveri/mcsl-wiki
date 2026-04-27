@@ -1,0 +1,1395 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/385094.json",
+    "id": 385094,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "alekos@sabaton.net",
+          "name": "Alekos"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-04-21T09:13:15Z",
+    "updated_at": "2026-04-24T12:00:16Z",
+    "generated_timestamp": 1777032016,
+    "type": null,
+    "subject": "FedEx carrier Package dimensions",
+    "raw_subject": "FedEx carrier Package dimensions",
+    "description": "Dear PluginHive,\n\n \n\nI have added FedEx as carrier for our store at https://store.sabaton.net\n\n \n\nBut I am unable to change the Package Dimensions here:\n\n \n\n \n\nCan you please advise?\n\nThe minimum is set to 20x20x20 but I don’t want this.\n\n \n\nThanks\n\nAlekos\n\n \n\n \n\nAlekos Konstantinou\n\nDigital Development Director\n\n \n\nEmail: alekos@sabaton.net\n\nWeb: www.sabaton.net (http://www.sabaton.net/)\n\nStore: store.sabaton.net  (https://store.sabaton.net/)",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 418705722612,
+    "submitter_id": 418705722612,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      903869146406
+    ],
+    "follower_ids": [
+      903869146406
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "high_agent_replies",
+      "l3",
+      "last_reply_agent",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "80d2c59c-1d91-474f-84d9-7f4253cbc45c"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "WMDVPD-W3RYX",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "80d2c59c-1d91-474f-84d9-7f4253cbc45c"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57185189168281,
+      "type": "Comment",
+      "author_id": 418705722612,
+      "body": "Dear PluginHive,\n\n\n\nI have added FedEx as carrier for our store athttps://store.sabaton.net\n\n\n\nBut I am unable to change the Package Dimensions here:\n\n\n\n![](https://support.pluginhive.com/attachments/token/uGYhJstpkd4HZ9v1Y2jKJc4sg/?name=image001.png)\n\n\n\nCan you please advise?\n\nThe minimum is set to 20x20x20 but I don’t want this.\n\n\n\nThanks\n\nAlekos\n\n\n\n\n\nAlekos Konstantinou\n\n**Digital Development Director**\n\n\n\nEmail:alekos@sabaton.net\n\nWeb: www.sabaton.net\n\nStore:store.sabaton.net",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">\n<div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">Dear PluginHive,</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">I have added FedEx as carrier for our store at\n<a href=\"https://store.sabaton.net\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\">https://store.sabaton.net</a></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">But I am unable to change the Package Dimensions here:</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\"><img border=\"0\" width=\"879\" height=\"202\" style=\"width: 9.1562in; height: 2.1041in;\" src=\"https://support.pluginhive.com/attachments/token/uGYhJstpkd4HZ9v1Y2jKJc4sg/?name=image001.png\"></span><span style=\"font-size: 11.0pt;\"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">Can you please advise?</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">The minimum is set to 20x20x20 but I don’t want this.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">Thanks</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">Alekos</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Alekos Konstantinou</span><span style=\"font-size: 11.0pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><b><span style=\"font-size: 11.0pt; \">Digital Development Director</span></b><span style=\"font-size: 11.0pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span><span style=\"font-size: 11.0pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Email:\n<a href=\"mailto:alekos@sabaton.net\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: #0563C1;\">alekos@sabaton.net</span></a>\n</span><span style=\"font-size: 11.0pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Web:&nbsp;<a href=\"http://www.sabaton.net/\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: #0563C1;\">www.sabaton.net</span></a>\n</span><span style=\"font-size: 11.0pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Store:\n<a href=\"https://store.sabaton.net/\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: #0563C1;\">store.sabaton.net\n</span></a>&nbsp;</span><span style=\"font-size: 11.0pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p>\n</div></div>",
+      "plain_body": "Dear PluginHive, \n &nbsp; \n I have added FedEx as carrier for our store at\nhttps://store.sabaton.net \n &nbsp; \n But I am unable to change the Package Dimensions here: \n &nbsp; \n  \n &nbsp; \n Can you please advise? \n The minimum is set to 20x20x20 but I don’t want this. \n &nbsp; \n Thanks \n Alekos \n &nbsp; \n &nbsp; \n Alekos Konstantinou \n Digital Development Director \n &nbsp; \n Email:\nalekos@sabaton.net\n \n Web:&nbsp;www.sabaton.net\n \n Store:\nstore.sabaton.net\n&nbsp; \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57185189168153,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "alekos@sabaton.net",
+            "name": "Alekos",
+            "original_recipients": [
+              "alekos@sabaton.net",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-21T09:13:15Z",
+      "metadata": {
+        "system": {
+          "message_id": "<GV2P189MB22599BA6FE949B87110BE05CD02C2@GV2P189MB2259.EURP189.PROD.OUTLOOK.COM>",
+          "email_id": "01KPQN190KJG2XQ6EAFJAJB871",
+          "raw_email_identifier": "2369120/07266be1-2fd3-45d5-b9d1-d0cf67d4b01f.eml",
+          "json_email_identifier": "2369120/07266be1-2fd3-45d5-b9d1-d0cf67d4b01f.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57186040909337,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Store: Cyprus\nOrders - 633\nDHL and FedEx added\nLabels - 292 in Apr\nRates - Yes\nPlan - $49\nActive from 2022-01-26",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Store: Cyprus<br>Orders - 633<br>DHL and FedEx added<br>Labels - 292 in Apr<br>Rates - Yes<br>Plan - $49<br>Active from 2022-01-26<br></div>",
+      "plain_body": "Store: Cyprus\nOrders - 633\nDHL and FedEx added\nLabels - 292 in Apr\nRates - Yes\nPlan - $49\nActive from 2022-01-26",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57186040909209,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-21T09:38:15Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57186078876825,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Alekos,\n\nGood Day!\n\nThe package dimensions available in the FedEx Carrier Settings is used the plugin only for Freight shipment (>150 lbs).\n\nThis dimension will not be used by the plugin for normal shipments and the plugin will continue using the Packaging setup for package sizes for your orders.\n\nYou can ignore this setup and let us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Alekos,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>The package dimensions available in the FedEx Carrier Settings is used the plugin only for Freight shipment (&gt;150 lbs).<br>&nbsp;<br>This dimension will not be used by the plugin for normal shipments and the plugin will continue using the Packaging setup for package sizes for your orders.<br>&nbsp;<br>You can ignore this setup and let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Alekos,\n&nbsp;\nGood Day!\n&nbsp;\nThe package dimensions available in the FedEx Carrier Settings is used the plugin only for Freight shipment (&gt;150 lbs).\n&nbsp;\nThis dimension will not be used by the plugin for normal shipments and the plugin will continue using the Packaging setup for package sizes for your orders.\n&nbsp;\nYou can ignore this setup and let us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57186078876697,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-21T09:40:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57187782961945,
+      "type": "Comment",
+      "author_id": 418705722612,
+      "body": "Thanks Touseef.\n\n\n\nIs it possible you provide me with the Request and Response for any of the FedEx services for this request ID:**9e350538-0d76-4486-8e4a-15ba10bba15e**\n\n?\n\n** **\n\nWhen I try to see it myself from the backend both return N/A.\n\n\n\n![](https://support.pluginhive.com/attachments/token/2xmUNF1ftgVHLRQkRtjujX8Y9/?name=image001.png)\n\n\n\nThanks\n\nAlekos\n\n** **",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Thanks Touseef.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Is it possible you provide me with the Request and Response for any of the FedEx services for this request ID:\n</span><b><span style=\"font-size: 11.0pt; \">9e350538-0d76-4486-8e4a-15ba10bba15e\n</span></b></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">?</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><b><span style=\"font-size: 11.0pt; \">&nbsp;</span></b></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">When I try to see it myself from the backend both return N/A.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \"><img width=\"786\" height=\"429\" style=\"width: 8.1875in; height: 4.4687in;\" src=\"https://support.pluginhive.com/attachments/token/2xmUNF1ftgVHLRQkRtjujX8Y9/?name=image001.png\"></span><span style=\"font-size: 11.0pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Thanks</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Alekos</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><b><span style=\"font-size: 11.0pt; \">&nbsp;</span></b></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Thanks Touseef. \n &nbsp; \n Is it possible you provide me with the Request and Response for any of the FedEx services for this request ID:\n9e350538-0d76-4486-8e4a-15ba10bba15e\n \n ? \n &nbsp; \n When I try to see it myself from the backend both return N/A. \n &nbsp; \n  \n &nbsp; \n Thanks \n Alekos \n &nbsp; \n &nbsp; \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57187782961817,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "alekos@sabaton.net",
+            "name": "Alekos",
+            "original_recipients": [
+              "alekos@sabaton.net",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-21T10:40:03Z",
+      "metadata": {
+        "system": {
+          "message_id": "<GV2P189MB225942FC06736CC06FFDFB55D02C2@GV2P189MB2259.EURP189.PROD.OUTLOOK.COM>",
+          "email_id": "01KPQT08BZRNMG1MH0YD9BB2FG",
+          "raw_email_identifier": "2369120/79bd6309-f027-4d61-903d-2d53fe768d80.eml",
+          "json_email_identifier": "2369120/79bd6309-f027-4d61-903d-2d53fe768d80.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57189520809369,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Alekos,\n\nThank you for your response.\n\nIt seems like the FedEx configuration may be missing something.\n\nI would request that you add your FedEx Account once again in the plugin and delete the existing FedEx Account integration.\n\nPost that try creating the same transaction on your store and check the log created in the plugin.\n\nIf you continue seeing the same case, please let us know and we will check your case further.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Alekos,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>It seems like the FedEx configuration may be missing something.<br>&nbsp;<br>I would request that you add your FedEx Account once again in the plugin and delete the existing FedEx Account integration.<br>&nbsp;<br>Post that try creating the same transaction on your store and check the log created in the plugin.<br>&nbsp;<br>If you continue seeing the same case, please let us know and we will check your case further.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Alekos,\n&nbsp;\nThank you for your response.\n&nbsp;\nIt seems like the FedEx configuration may be missing something.\n&nbsp;\nI would request that you add your FedEx Account once again in the plugin and delete the existing FedEx Account integration.\n&nbsp;\nPost that try creating the same transaction on your store and check the log created in the plugin.\n&nbsp;\nIf you continue seeing the same case, please let us know and we will check your case further.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57189520809241,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-21T11:43:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57189460558489,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Discussed with Veena. Waiting for customer response.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with Veena. Waiting for customer response.<br></div>",
+      "plain_body": "Discussed with Veena. Waiting for customer response.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57189508794009,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-21T11:44:15Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57189993859225,
+      "type": "Comment",
+      "author_id": 418705722612,
+      "body": "Just reconnected FedEx, same issue\n\nThere is no request and response in the Rate Logs\n\n\n\nPlease advise\n\nThanks\n\nAlekos",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Just reconnected FedEx, same issue</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">There is no request and response in the Rate Logs</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Please advise</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Thanks</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Alekos</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Just reconnected FedEx, same issue \n There is no request and response in the Rate Logs \n &nbsp; \n Please advise \n Thanks \n Alekos \n &nbsp; \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57189993859097,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "alekos@sabaton.net",
+            "name": "Alekos",
+            "original_recipients": [
+              "alekos@sabaton.net",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-21T12:04:56Z",
+      "metadata": {
+        "system": {
+          "message_id": "<GV2P189MB22591E0176014266CF9C6439D02C2@GV2P189MB2259.EURP189.PROD.OUTLOOK.COM>",
+          "email_id": "01KPQYVPW9E4CW9C0W69C12R10",
+          "raw_email_identifier": "2369120/9730f1b2-8c8a-4e86-a88e-0fd472ec6629.eml",
+          "json_email_identifier": "2369120/9730f1b2-8c8a-4e86-a88e-0fd472ec6629.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57190019549977,
+      "type": "Comment",
+      "author_id": 418705722612,
+      "body": "This is theRequest Id in the Request Log :**d5b03946-766d-4e25-83d1-8ab718bb5763**\n\n** **\n\n![](https://support.pluginhive.com/attachments/token/RnrFLh8im8wRdIAlbRFh1AFDW/?name=image001.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">This is the\n</span><span style=\"font-size: 11.0pt; \">Request Id in the Request Log :<b>d5b03946-766d-4e25-83d1-8ab718bb5763</b></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><b><span style=\"font-size: 11.0pt; \">&nbsp;</span></b></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \"><img width=\"1425\" height=\"83\" style=\"width: 14.8385in; height: .8593in;\" src=\"https://support.pluginhive.com/attachments/token/RnrFLh8im8wRdIAlbRFh1AFDW/?name=image001.png\"></span><span style=\"font-size: 11.0pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "This is the\nRequest Id in the Request Log :d5b03946-766d-4e25-83d1-8ab718bb5763 \n &nbsp; \n  \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57190019548057,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "alekos@sabaton.net",
+            "name": "Alekos",
+            "original_recipients": [
+              "alekos@sabaton.net",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-21T12:05:59Z",
+      "metadata": {
+        "system": {
+          "message_id": "<GV2P189MB2259CF9F2FF66F933EAA39BBD02C2@GV2P189MB2259.EURP189.PROD.OUTLOOK.COM>",
+          "email_id": "01KPQYXJ2EEHENV8TDWPQNJHRS",
+          "raw_email_identifier": "2369120/dd8ec0f8-7790-4547-94f2-1f7f6a805be9.eml",
+          "json_email_identifier": "2369120/dd8ec0f8-7790-4547-94f2-1f7f6a805be9.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57191416301977,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Alekos,\n\nThank you for sharing the details.\n\nPlease allow us some time to check your case further.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Alekos,<br>&nbsp;<br>Thank you for sharing the details.<br>&nbsp;<br>Please allow us some time to check your case further.<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Alekos,\n&nbsp;\nThank you for sharing the details.\n&nbsp;\nPlease allow us some time to check your case further.\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57191416301849,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-21T13:07:55Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57191496341017,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1776777127387629\n\nCyprus customer using WSS for rates and labels with DHL.\nCustomer has added his FedEx Account with the plugin now and is testing it for the rates on checkout.\nHe has shared that the XML in the Request logs for FedEx are showing NA, even though the FedEx rates are successfully returned as in attached screenshots.\nExample Log - **d5b03946-766d-4e25-83d1-8ab718bb5763**\nPlease check and let us know the reason for this case.\n\nURL - https://store.sabaton.net\nAccount ID - 80d2c59c-1d91-474f-84d9-7f4253cbc45c",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1776777127387629\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1776777127387629</a><br>&nbsp;<br>Cyprus customer using WSS for rates and labels with DHL.<br>Customer has added his FedEx Account with the plugin now and is testing it for the rates on checkout.<br>He has shared that the XML in the Request logs for FedEx are showing NA, even though the FedEx rates are successfully returned as in attached screenshots.<br>Example Log - <strong>d5b03946-766d-4e25-83d1-8ab718bb5763</strong><br>Please check and let us know the reason for this case.<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"https://store.sabaton.net\">https://store.sabaton.net</a><br>Account ID - 80d2c59c-1d91-474f-84d9-7f4253cbc45c<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1776777127387629\n&nbsp;\nCyprus customer using WSS for rates and labels with DHL.\nCustomer has added his FedEx Account with the plugin now and is testing it for the rates on checkout.\nHe has shared that the XML in the Request logs for FedEx are showing NA, even though the FedEx rates are successfully returned as in attached screenshots.\nExample Log - d5b03946-766d-4e25-83d1-8ab718bb5763\nPlease check and let us know the reason for this case.\n&nbsp;\nURL - https://store.sabaton.net\nAccount ID - 80d2c59c-1d91-474f-84d9-7f4253cbc45c",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57191508962329.json",
+          "id": 57191508962329,
+          "file_name": "Screenshot at Apr 21 18-37-17.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/jOQQ4kUh6ZvffLEEfPP0wbpvm/?name=Screenshot+at+Apr+21+18-37-17.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/jOQQ4kUh6ZvffLEEfPP0wbpvm/?name=Screenshot+at+Apr+21+18-37-17.png",
+          "content_type": "image/png",
+          "size": 494424,
+          "width": 2808,
+          "height": 1542,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57191446331545.json",
+              "id": 57191446331545,
+              "file_name": "Screenshot_at_Apr_21_18-37-17_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/w0fGqYv8kSPTJjfcDHIk5aZ61/?name=Screenshot_at_Apr_21_18-37-17_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/w0fGqYv8kSPTJjfcDHIk5aZ61/?name=Screenshot_at_Apr_21_18-37-17_thumb.png",
+              "content_type": "image/png",
+              "size": 8497,
+              "width": 80,
+              "height": 44,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57191457185049.json",
+          "id": 57191457185049,
+          "file_name": "Screenshot at Apr 21 18-37-04.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/zxYBPtrORd7O9uW9uCRnHaTfb/?name=Screenshot+at+Apr+21+18-37-04.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/zxYBPtrORd7O9uW9uCRnHaTfb/?name=Screenshot+at+Apr+21+18-37-04.png",
+          "content_type": "image/png",
+          "size": 573915,
+          "width": 2804,
+          "height": 1558,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57191457207193.json",
+              "id": 57191457207193,
+              "file_name": "Screenshot_at_Apr_21_18-37-04_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/15vb4WPToXA96nGp6PzbuwpbW/?name=Screenshot_at_Apr_21_18-37-04_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/15vb4WPToXA96nGp6PzbuwpbW/?name=Screenshot_at_Apr_21_18-37-04_thumb.png",
+              "content_type": "image/png",
+              "size": 10112,
+              "width": 80,
+              "height": 44,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 57191496340889,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-21T13:12:48Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57192064990745,
+      "type": "Comment",
+      "author_id": 418705722612,
+      "body": "Thank you",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Thank you</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Thank you \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57192064990617,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "alekos@sabaton.net",
+            "name": "Alekos",
+            "original_recipients": [
+              "alekos@sabaton.net",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-21T13:40:44Z",
+      "metadata": {
+        "system": {
+          "message_id": "<GV2P189MB22593911915D486B38A24165D02C2@GV2P189MB2259.EURP189.PROD.OUTLOOK.COM>",
+          "email_id": "01KPR4B42649Q6B67WB1CN37DQ",
+          "raw_email_identifier": "2369120/099830ea-9dd8-4b29-91bf-a9c959db0d1a.eml",
+          "json_email_identifier": "2369120/099830ea-9dd8-4b29-91bf-a9c959db0d1a.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57211207752601,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "For Cypress, FedEx rates are not available via FedEx API. The rates displayed are dummy rates. Hence the request and response will be marked as NA.\n\nKindly pass the information and ask merchant to use DHL rates or flat rates at the checkout.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">For Cypress, FedEx rates are not available via FedEx API. The rates displayed are dummy rates. Hence the request and response will be marked as NA.&nbsp;<br>&nbsp;<br>Kindly pass the information and ask merchant to use DHL rates or flat rates at the checkout.<br>[Veena]<br></div>",
+      "plain_body": "For Cypress, FedEx rates are not available via FedEx API. The rates displayed are dummy rates. Hence the request and response will be marked as NA.&nbsp;\n&nbsp;\nKindly pass the information and ask merchant to use DHL rates or flat rates at the checkout.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57211207752473,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-22T05:18:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57213515711513,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Alekos,\n\nThank you for your patience.\n\nWe have checked your case and I would like to share that for Cypress, FedEx rates are not available via FedEx API. The rates displayed are dummy rates. Hence, the request and response will be marked as NA.\n\nI request that you use either the DHL rates or flat rates on checkout of your store. For label generation, you can use FedEx services, however, the rates displayed in the app for the services will not be the actual rates that FedEx charges you for shipping.\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Alekos,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We have checked your case and I would like to share that for Cypress, FedEx rates are not available via FedEx API. The rates displayed are dummy rates. Hence, the request and response will be marked as NA.&nbsp;<br>&nbsp;<br>I request that you use either the DHL rates or flat rates on checkout of your store. For label generation, you can use FedEx services, however, the rates displayed in the app for the services will not be the actual rates that FedEx charges you for shipping.<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Alekos,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe have checked your case and I would like to share that for Cypress, FedEx rates are not available via FedEx API. The rates displayed are dummy rates. Hence, the request and response will be marked as NA.&nbsp;\n&nbsp;\nI request that you use either the DHL rates or flat rates on checkout of your store. For label generation, you can use FedEx services, however, the rates displayed in the app for the services will not be the actual rates that FedEx charges you for shipping.\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57213515711385,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-22T06:26:03Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57251701594393,
+      "type": "Comment",
+      "author_id": 418705722612,
+      "body": "Hi Touseef, adding Emmanouil from FedEx to the conversation.\n\n\n\nEmmanouil informed me that**Cyprus** is a country that FedEx rates should work as expected.\n\nThe status of the country was changed in Q4 of 2025, so you should be able to make the rates work without much effort.\n\n\n\nFor more information, Emmanouil in CC shall advise.\n\nPlease let us know.\n\nThanks\n\nAlekos",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Hi Touseef, adding Emmanouil from FedEx to the conversation.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Emmanouil informed me that\n<b>Cyprus</b> is a country that FedEx rates should work as expected. </span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">The status of the country was changed in Q4 of 2025, so you should be able to make the rates work without much effort.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">For more information, Emmanouil in CC shall advise.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Please let us know.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Thanks</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Alekos</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Hi Touseef, adding Emmanouil from FedEx to the conversation. \n &nbsp; \n Emmanouil informed me that\nCyprus is a country that FedEx rates should work as expected.  \n The status of the country was changed in Q4 of 2025, so you should be able to make the rates work without much effort. \n &nbsp; \n For more information, Emmanouil in CC shall advise. \n Please let us know. \n Thanks \n Alekos \n &nbsp; \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57251701594265,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "alekos@sabaton.net",
+            "name": "Alekos",
+            "original_recipients": [
+              "alekos@sabaton.net",
+              "support@pluginhive.com",
+              "emmanouil.varouchas@fedex.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T08:00:56Z",
+      "metadata": {
+        "system": {
+          "message_id": "<GV2P189MB22599298ED4134AC799D6F66D02A2@GV2P189MB2259.EURP189.PROD.OUTLOOK.COM>",
+          "email_id": "01KPWNPAB7Y73M1GERH4ZNRDSW",
+          "raw_email_identifier": "2369120/d1585511-259c-4bc8-b528-422f034d0439.eml",
+          "json_email_identifier": "2369120/d1585511-259c-4bc8-b528-422f034d0439.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57256922144793,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Alekos,\n\nThank you for including Emmanouil from FedEx in this thread.\n\nAs per our understanding, the actual shipping rates may be available from FedEx for shipping from Cyprus on their rates calculator on fedex.com, however, from FedEx APIs, rates are not available.\n\nPlease find attached the rates RequestResponse file attached here for reference.\n\n**@Emmanouil,** could you please review the attachment and share your input on this case?\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Alekos,<br>&nbsp;<br>Thank you for including Emmanouil from FedEx in this thread.<br>&nbsp;<br>As per our understanding, the actual shipping rates may be available from FedEx for shipping from Cyprus on their rates calculator on <a rel=\"noopener noreferrer\" href=\"http://fedex.com\">fedex.com</a>, however, from FedEx APIs, rates are not available.<br>&nbsp;<br>Please find attached the rates RequestResponse file attached here for reference.<br>&nbsp;<br><strong>@Emmanouil, </strong>could you please review the attachment and share your input on this case?<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Alekos,\n&nbsp;\nThank you for including Emmanouil from FedEx in this thread.\n&nbsp;\nAs per our understanding, the actual shipping rates may be available from FedEx for shipping from Cyprus on their rates calculator on fedex.com, however, from FedEx APIs, rates are not available.\n&nbsp;\nPlease find attached the rates RequestResponse file attached here for reference.\n&nbsp;\n@Emmanouil, could you please review the attachment and share your input on this case?\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57256806083225.json",
+          "id": 57256806083225,
+          "file_name": "Cypress_rates.zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/guoaUjWYQpwvhYquPa0Hl3KTR/?name=Cypress_rates.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/guoaUjWYQpwvhYquPa0Hl3KTR/?name=Cypress_rates.zip",
+          "content_type": "application/zip",
+          "size": 3522,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 57256922144665,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T10:33:43Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57257388888729,
+      "type": "Comment",
+      "author_id": 903869146406,
+      "body": "Hi Touseef,\n\n\n\nthe response indeed reads :\n\n\"code\": \"RATE.LOCATION.NOSERVICE\",\n\n\"message\": \"FedEx service is not currently available to this origin / destination combination. Enter new information or contact FedEx Customer Service.\"\n\n\n\nBut, it is not related to origin / Cyprus. In the request you have set as recipient a postal code in Greece, 10565, which is not accepted. You can check also with the Postcode validation API to confirm.\n\nChange it to a valid postcode in Greece, for example 19003, and it works.\n\n\n\nKind regards /Μεεκτίμηση\n\n\n\n\n\n**Manos Varouchas**|Customer Technology Support Specialist | FedEx Express Greece Single Member LLC |\n\nOffice +30 2130396910 | Mobile +30 6949725039 | Fleming Rd, Industrial Park of Markopoulo Mesogaias, 190 03 Athens, Greece | fedex.com",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Hi Touseef,</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">the response indeed reads :</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">\"code\": \"RATE.LOCATION.NOSERVICE\",</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">\"message\": \"FedEx service is not currently available to this origin / destination combination. Enter new information or contact FedEx Customer Service.\"</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">But, it is not related to origin / Cyprus. In the request you have set as recipient a postal code in Greece, 10565, which is not accepted. You can check also with the Postcode\n validation API to confirm.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Change it to a valid postcode in Greece, for example 19003, and it works.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black; \">Kind regards /\n</span><span style=\"font-size: 11.0pt; color: black; \">Με</span><span style=\"font-size: 11.0pt; color: black; \">\n</span><span style=\"font-size: 11.0pt; color: black; \">εκτίμηση</span><span style=\"font-size: 11.0pt; color: black;\"></span></p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black; \">&nbsp;</span></p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black; \">&nbsp;</span></p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 11.0pt; color: black; \">Manos Varouchas\n</span></b><span style=\"font-size: 11.0pt; color: black; \">|<b>\n</b>Customer Technology Support Specialist | FedEx Express Greece Single Member LLC |\n</span></p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black; \">Office +30 2130396910 | Mobile +30 6949725039 | Fleming Rd, Industrial Park of Markopoulo Mesogaias,\n 190 03 Athens, Greece | <a href=\"http://www.fedex.com/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: #0563C1;\">fedex.com</span></a></span></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Hi Touseef, \n &nbsp; \n the response indeed reads : \n \"code\": \"RATE.LOCATION.NOSERVICE\", \n \"message\": \"FedEx service is not currently available to this origin / destination combination. Enter new information or contact FedEx Customer Service.\" \n &nbsp; \n But, it is not related to origin / Cyprus. In the request you have set as recipient a postal code in Greece, 10565, which is not accepted. You can check also with the Postcode\n validation API to confirm. \n Change it to a valid postcode in Greece, for example 19003, and it works. \n &nbsp; \n \n \n \n \n \n \n Kind regards /\nΜε\nεκτίμηση \n &nbsp; \n &nbsp; \n Manos Varouchas\n|\nCustomer Technology Support Specialist | FedEx Express Greece Single Member LLC |\n \n Office +30 2130396910 | Mobile +30 6949725039 | Fleming Rd, Industrial Park of Markopoulo Mesogaias,\n 190 03 Athens, Greece | fedex.com \n \n \n \n \n \n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57257388888601,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "alekos@sabaton.net",
+            "name": "Alekos",
+            "original_recipients": [
+              "emmanouil.varouchas@fedex.com",
+              "support@pluginhive.com",
+              "alekos@sabaton.net"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T10:51:50Z",
+      "metadata": {
+        "system": {
+          "message_id": "<PH7PR12MB8795FD08871F82D9F0155DABF22A2@PH7PR12MB8795.namprd12.prod.outlook.com>",
+          "email_id": "01KPWZF4TSZEJ6NXQCJSN2BX2J",
+          "raw_email_identifier": "2369120/149af2ba-7aed-4efe-b863-cca877c70317.eml",
+          "json_email_identifier": "2369120/149af2ba-7aed-4efe-b863-cca877c70317.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          418705722612
+        ]
+      }
+    },
+    {
+      "id": 57258482625561,
+      "type": "Comment",
+      "author_id": 418705722612,
+      "body": "Hi all,\n\n\n\nI tried to use this valid address : Voulis 3, Athina 105 62, Attica, Greece\n\n\n\nPluginHive still gave me dummy rates.. seems the FedEx account rates are not being parsed.\n\n\n\n@Touseff  - If you are planning to enable the automation rates on checkout to test something, please disable it afterwards as this should not be live unless it’s fixed.\n\n\n\nThanks\n\nAlekos",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Hi all,</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">I tried to use this valid address : Voulis 3, Athina 105 62, Attica, Greece</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">PluginHive still gave me dummy rates.. seems the FedEx account rates are not being parsed.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">@Touseff&nbsp; - If you are planning to enable the automation rates on checkout to test something, please disable it afterwards as this should not be live unless it’s fixed.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Thanks</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Alekos</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Hi all, \n &nbsp; \n I tried to use this valid address : Voulis 3, Athina 105 62, Attica, Greece \n &nbsp; \n PluginHive still gave me dummy rates.. seems the FedEx account rates are not being parsed. \n &nbsp; \n @Touseff&nbsp; - If you are planning to enable the automation rates on checkout to test something, please disable it afterwards as this should not be live unless it’s fixed. \n &nbsp; \n Thanks \n Alekos \n &nbsp; \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57258467887769,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "alekos@sabaton.net",
+            "name": "Alekos",
+            "original_recipients": [
+              "alekos@sabaton.net",
+              "emmanouil.varouchas@fedex.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T11:32:15Z",
+      "metadata": {
+        "system": {
+          "message_id": "<GV2P189MB2259848D31559BDE97786A1ED02A2@GV2P189MB2259.EURP189.PROD.OUTLOOK.COM>",
+          "email_id": "01KPX1S9F5EHQYRDZZTEJZYGMF",
+          "raw_email_identifier": "2369120/775c4f08-cec3-4d40-a7dc-7f9a886b4650.eml",
+          "json_email_identifier": "2369120/775c4f08-cec3-4d40-a7dc-7f9a886b4650.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57259235238297,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Alekos and Emmanouil,\n\n**@Emmanouil,** Thank you for your response on this case.\n\nWe have checked the case by using the postal code 19003 on checkout of the store and could observe that the FedEx rates are being returned successfully from the plugin for the Greece address.\n\n**@Alekos,** you can check the **Request Id :fb24b0c4-212e-46c7-8b1c-76003f5737ca** where a successful log is available for the FedEx rates.\nI have also disabled the FedEx rule after checking the case on your store.\n\nPlease check and let us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Alekos and Emmanouil,<br>&nbsp;<br><strong>@Emmanouil,</strong> Thank you for your response on this case.<br>&nbsp;<br>We have checked the case by using the postal code 19003 on checkout of the store and could observe that the FedEx rates are being returned successfully from the plugin for the Greece address.<br>&nbsp;<br><strong>@Alekos,</strong> you can check the <strong>Request Id :fb24b0c4-212e-46c7-8b1c-76003f5737ca </strong>where a successful log is available for the FedEx rates.<br>I have also disabled the FedEx rule after checking the case on your store.<br>&nbsp;<br>Please check and let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Alekos and Emmanouil,\n&nbsp;\n@Emmanouil, Thank you for your response on this case.\n&nbsp;\nWe have checked the case by using the postal code 19003 on checkout of the store and could observe that the FedEx rates are being returned successfully from the plugin for the Greece address.\n&nbsp;\n@Alekos, you can check the Request Id :fb24b0c4-212e-46c7-8b1c-76003f5737ca where a successful log is available for the FedEx rates.\nI have also disabled the FedEx rule after checking the case on your store.\n&nbsp;\nPlease check and let us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57259234436121.json",
+          "id": 57259234436121,
+          "file_name": "Screenshot at Apr 23 17-36-53.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/ABPpDeReVrkol14iERS4tfrx3/?name=Screenshot+at+Apr+23+17-36-53.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/ABPpDeReVrkol14iERS4tfrx3/?name=Screenshot+at+Apr+23+17-36-53.png",
+          "content_type": "image/png",
+          "size": 907135,
+          "width": 2876,
+          "height": 1704,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57259234479769.json",
+              "id": 57259234479769,
+              "file_name": "Screenshot_at_Apr_23_17-36-53_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/mSAyEaA3uDGlglllmgqXAqYcN/?name=Screenshot_at_Apr_23_17-36-53_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/mSAyEaA3uDGlglllmgqXAqYcN/?name=Screenshot_at_Apr_23_17-36-53_thumb.png",
+              "content_type": "image/png",
+              "size": 12752,
+              "width": 80,
+              "height": 47,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 57259235238169,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T12:07:16Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57259349266457,
+      "type": "Comment",
+      "author_id": 418705722612,
+      "body": "Hi Touseef,\n\n\n\nCan you check then why this one did return dummy rates?\n\n\n\n**Request Id :f9c2f2bd-36a3-4e9f-8db6-94200eafa637**\n\n\n\nVoulis 3\n\nAthina\n\nGreece\n\n105 62\n\n\n\nThis is a valid address.\n\n\n\nThanks\n\nAlekos",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Hi Touseef,</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Can you check then why this one did return dummy rates?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 11.0pt; \">Request Id :f9c2f2bd-36a3-4e9f-8db6-94200eafa637</span></b></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Voulis 3</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Athina</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Greece</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">105 62</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">This is a valid address.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Thanks</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Alekos</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Hi Touseef, \n &nbsp; \n Can you check then why this one did return dummy rates?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n \n &nbsp; \n Request Id :f9c2f2bd-36a3-4e9f-8db6-94200eafa637 \n &nbsp; \n Voulis 3 \n Athina \n Greece \n 105 62 \n &nbsp; \n This is a valid address. \n &nbsp; \n Thanks \n Alekos \n &nbsp; \n &nbsp; \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57259349266329,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "alekos@sabaton.net",
+            "name": "Alekos",
+            "original_recipients": [
+              "alekos@sabaton.net",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T12:10:24Z",
+      "metadata": {
+        "system": {
+          "message_id": "<GV2P189MB22594DE90DB8B3811431E054D02A2@GV2P189MB2259.EURP189.PROD.OUTLOOK.COM>",
+          "email_id": "01KPX3Z41ZTH9Y76S61S39CEJ0",
+          "raw_email_identifier": "2369120/17289b13-c6fd-4ec7-8ea8-e0bac740d175.eml",
+          "json_email_identifier": "2369120/17289b13-c6fd-4ec7-8ea8-e0bac740d175.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57259435994905,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Alekos,\n\nEarlier, for Cyprus, the plugin was showing dummy rates.\n\nHowever, as confirmed by Manos Varouchas, in his response, that the rates are available when checking for the correct postal code.\n\nWe have now enabled the live rates calculation from the plugin.\n\nYou can try checking the rates again for the same address and let us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Alekos,<br>&nbsp;<br>Earlier, for Cyprus, the plugin was showing dummy rates.<br>&nbsp;<br>However, as confirmed by Manos Varouchas, in his response, that the rates are available when checking for the correct postal code.<br>&nbsp;<br>We have now enabled the live rates calculation from the plugin.<br>&nbsp;<br>You can try checking the rates again for the same address and let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Alekos,\n&nbsp;\nEarlier, for Cyprus, the plugin was showing dummy rates.\n&nbsp;\nHowever, as confirmed by Manos Varouchas, in his response, that the rates are available when checking for the correct postal code.\n&nbsp;\nWe have now enabled the live rates calculation from the plugin.\n&nbsp;\nYou can try checking the rates again for the same address and let us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57259435994777,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T12:15:39Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57260914840857,
+      "type": "Comment",
+      "author_id": 418705722612,
+      "body": "Thanks Touseef.\n\nOk, it seems the rates are active now..\n\n\n\nOne thing I noticed is that the final rate (13.98) returned by PluginHive includes the Cyprus VAT (19%):\n\n\n\n![](https://support.pluginhive.com/attachments/token/hlPNlOT8qjaFk15xYAxIAyci5/?name=image001.png)\n\n\n\nHowever, our store also charges VAT to the shipping rate based on the shipping country via WooCommerce’s Tax feature.\n\n\n\nAs such, if we use the above rate (13.98), WooCommerce will also add an additional 24% (Greece’s VAT) on top of that. So customers are sort of paying VAT twice\n\n\n\nIs it be possible to add the option in the carrier settings to select whether we want the rate returned to include VAT or not?\n\n\n\nSimilar to what is available on the DHL carrier:\n\n\n\n![](https://support.pluginhive.com/attachments/token/ymcmWvntr4dQHWbjHV9giz40C/?name=image002.jpg)\n\n\n\nThanks\n\nAlekos\n\n\n\n\n\nAs such, is we’d need to have the FedEx rate returned without VAT",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Thanks Touseef.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Ok, it seems the rates are active now..</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">One thing I noticed is that the final rate (13.98) returned by PluginHive includes the Cyprus VAT (19%):</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \"><img width=\"319\" height=\"168\" style=\"width: 3.3229in; height: 1.75in;\" src=\"https://support.pluginhive.com/attachments/token/hlPNlOT8qjaFk15xYAxIAyci5/?name=image001.png\"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">However, our store also charges VAT to the shipping rate based on the shipping country via WooCommerce’s Tax feature.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">As such, if we use the above rate (13.98), WooCommerce will also add an additional 24% (Greece’s VAT) on top of that. So customers are sort of paying VAT twice</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Is it be possible to add the option in the carrier settings to select whether we want the rate returned to include VAT or not?</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Similar to what is available on the DHL carrier:</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \"><img width=\"224\" height=\"115\" style=\"width: 2.3333in; height: 1.1979in;\" src=\"https://support.pluginhive.com/attachments/token/ymcmWvntr4dQHWbjHV9giz40C/?name=image002.jpg\"></span><span style=\"font-size: 11.0pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Thanks</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Alekos</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">As such, is we’d need to have the FedEx rate returned without VAT</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Thanks Touseef. \n Ok, it seems the rates are active now.. \n &nbsp; \n One thing I noticed is that the final rate (13.98) returned by PluginHive includes the Cyprus VAT (19%): \n &nbsp; \n  \n &nbsp; \n However, our store also charges VAT to the shipping rate based on the shipping country via WooCommerce’s Tax feature. \n &nbsp; \n As such, if we use the above rate (13.98), WooCommerce will also add an additional 24% (Greece’s VAT) on top of that. So customers are sort of paying VAT twice \n &nbsp; \n Is it be possible to add the option in the carrier settings to select whether we want the rate returned to include VAT or not? \n &nbsp; \n Similar to what is available on the DHL carrier: \n &nbsp; \n  \n &nbsp; \n Thanks \n Alekos \n &nbsp; \n &nbsp; \n As such, is we’d need to have the FedEx rate returned without VAT \n &nbsp; \n &nbsp; \n &nbsp; \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57260914840729,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "alekos@sabaton.net",
+            "name": "Alekos",
+            "original_recipients": [
+              "alekos@sabaton.net",
+              "support@pluginhive.com",
+              "emmanouil.varouchas@fedex.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T13:21:43Z",
+      "metadata": {
+        "system": {
+          "message_id": "<GV2P189MB2259CA02BDCC2D4392AB7B1CD02A2@GV2P189MB2259.EURP189.PROD.OUTLOOK.COM>",
+          "email_id": "01KPX81P0PCKZ9HGECQ5QQGR25",
+          "raw_email_identifier": "2369120/4d294cdd-35fa-4e32-b899-a9b89ee83c3d.eml",
+          "json_email_identifier": "2369120/4d294cdd-35fa-4e32-b899-a9b89ee83c3d.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57261012924441,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Alekos,\n\nThank you for your response.\n\nFor FedEx integration, taxes will be inclusive of the rates returned by FedEx. We cannot optionally remove this from the rates response.\n\nFor Greece, you can setup separate taxes in the WooCommerce Tax settings and do not enable it for Shipping rates on checkout.\n\nThis way, for Greece, taxes on shipping will not be calculated on checkout.\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Alekos,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>For FedEx integration, taxes will be inclusive of the rates returned by FedEx. We cannot optionally remove this from the rates response.<br>&nbsp;<br>For Greece, you can setup separate taxes in the WooCommerce Tax settings and do not enable it for Shipping rates on checkout.<br>&nbsp;<br>This way, for Greece, taxes on shipping will not be calculated on checkout.<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Alekos,\n&nbsp;\nThank you for your response.\n&nbsp;\nFor FedEx integration, taxes will be inclusive of the rates returned by FedEx. We cannot optionally remove this from the rates response.\n&nbsp;\nFor Greece, you can setup separate taxes in the WooCommerce Tax settings and do not enable it for Shipping rates on checkout.\n&nbsp;\nThis way, for Greece, taxes on shipping will not be calculated on checkout.\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57261012924313,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T13:26:05Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57261132017177,
+      "type": "Comment",
+      "author_id": 418705722612,
+      "body": "Hi Touseef\n\n\n\nThis is not possible to be done. We need to have the FedEx rates without the VAT.\n\nWe will be using FedEx worldwide, similar to DHL and our also standard post office (not in pluginhive). Not only Greece.\n\n\n\nAll EU are subject to local VAT rate.  Hence, this is why DHL allows us to get the rate without VAT (in your plugin).\n\n\n\nWe cannot add separate tax settings for each country. Everything works fine with DHL and our standard post office rates which do not include VAT.\n\n\n\n![](https://support.pluginhive.com/attachments/token/hlPNlOT8qjaFk15xYAxIAyci5/?name=image001.png)\n\n\n\nIn the rate response, the “totalNetFedExCharge” is the rate without the VATCharge. Correct me if I am wrong?\n\n\n\nThanjsk\n\nAlekos",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Hi Touseef</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">This is not possible to be done. We need to have the FedEx rates without the VAT.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">We will be using FedEx worldwide, similar to DHL and our also standard post office (not in pluginhive). Not only Greece.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">All EU are subject to local VAT rate. &nbsp;Hence, this is why DHL allows us to get the rate without VAT (in your plugin).</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">We cannot add separate tax settings for each country. Everything works fine with DHL and our standard post office rates which do not include VAT.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\"><img width=\"319\" height=\"168\" style=\"width: 3.3229in; height: 1.75in;\" src=\"https://support.pluginhive.com/attachments/token/hlPNlOT8qjaFk15xYAxIAyci5/?name=image001.png\"></span><span style=\"font-size: 11.0pt; \"></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">In the rate response, the “totalNetFedExCharge” is the rate without the VATCharge. Correct me if I am wrong?</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Thanjsk</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Alekos</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Hi Touseef \n &nbsp; \n This is not possible to be done. We need to have the FedEx rates without the VAT. \n We will be using FedEx worldwide, similar to DHL and our also standard post office (not in pluginhive). Not only Greece. \n &nbsp; \n All EU are subject to local VAT rate. &nbsp;Hence, this is why DHL allows us to get the rate without VAT (in your plugin). \n &nbsp; \n We cannot add separate tax settings for each country. Everything works fine with DHL and our standard post office rates which do not include VAT. \n &nbsp; \n  \n &nbsp; \n In the rate response, the “totalNetFedExCharge” is the rate without the VATCharge. Correct me if I am wrong? \n &nbsp; \n Thanjsk \n Alekos \n &nbsp; \n &nbsp; \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57261132017049,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "alekos@sabaton.net",
+            "name": "Alekos",
+            "original_recipients": [
+              "alekos@sabaton.net",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T13:30:24Z",
+      "metadata": {
+        "system": {
+          "message_id": "<GV2P189MB2259A877878A62F61DA3F628D02A2@GV2P189MB2259.EURP189.PROD.OUTLOOK.COM>",
+          "email_id": "01KPX8HJ9FKETYDSMG8ZFF8E7S",
+          "raw_email_identifier": "2369120/6b36b56d-7f43-4f9a-8bb1-aa9057ac9f4c.eml",
+          "json_email_identifier": "2369120/6b36b56d-7f43-4f9a-8bb1-aa9057ac9f4c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57262325037721,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Discussed with Veena over call.\nTaxes are not part of the rates requested from Fedex.\ntotalVatCharge is inclusive part of the rates response, which we cannot exclude on our end.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with Veena over call.<br>Taxes are not part of the rates requested from Fedex.<br>totalVatCharge is inclusive part of the rates response, which we cannot exclude on our end.<br></div>",
+      "plain_body": "Discussed with Veena over call.\nTaxes are not part of the rates requested from Fedex.\ntotalVatCharge is inclusive part of the rates response, which we cannot exclude on our end.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57262325035289,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T14:34:18Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57262330726041,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Alekos,\n\nThank you for your response.\n\nI have discussed your case with our team and would like to share that Taxes on shipping are not part of the rates requested from Fedex. For this a toggle could be provided when we include the Taxes in the rates request from the plugin.\n\nThe **totalVatCharge** is inclusive part of the rates response from FedEx, which we cannot exclude on our end.\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Alekos,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>I have discussed your case with our team and would like to share that Taxes on shipping are not part of the rates requested from Fedex. For this a toggle could be provided when we include the Taxes in the rates request from the plugin.<br>&nbsp;<br>The <strong>totalVatCharge</strong> is inclusive part of the rates response from FedEx, which we cannot exclude on our end.<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Alekos,\n&nbsp;\nThank you for your response.\n&nbsp;\nI have discussed your case with our team and would like to share that Taxes on shipping are not part of the rates requested from Fedex. For this a toggle could be provided when we include the Taxes in the rates request from the plugin.\n&nbsp;\nThe totalVatCharge is inclusive part of the rates response from FedEx, which we cannot exclude on our end.\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57262330725913,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T14:36:37Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57289655008409,
+      "type": "Comment",
+      "author_id": 418705722612,
+      "body": "Hi Touseef, after looking at the request log, I am confident a solution can be reached since the FedEx response includes both the charge with VAT/tax and without VAT/tax.\n\n\n\nTo give you an understanding about the situation. After a change in the way taxes are calculated on eCommerce orders in Europe, we are obliged to charge VAT on the orders based on the order’s destination country. And this is when WooCommerce comes handy where we have different Tax rates for each European country (for example, Greece has a VAT of 24%, Germany 19%, Sweden 25% and so on).\n\n\n\nNow, when we request a FedEx rate via API, the API returns our account’s rates and on top of that with our account’s (Cyprus) VAT which is 19%. On top of that, WooCommerce adds the respective country’s VAT which means the customer will pay double VAT. The customer should only pay their country’s VAT, not Cyprus’ VAT.\n\nThis is the reason why we need to use the rate from FedEx that does not include the VAT rate (totalNetFedExCharge).\n\n\n\nI looked at the FedEx response rates for 4 countries:",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Hi Touseef, after looking at the request log, I am confident a solution can be reached since the FedEx response includes both the charge with VAT/tax and without VAT/tax.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">To give you an understanding about the situation. After a change in the way taxes are calculated on eCommerce orders in Europe, we are obliged to charge VAT on the orders\n based on the order’s destination country. And this is when WooCommerce comes handy where we have different Tax rates for each European country (for example, Greece has a VAT of 24%, Germany 19%, Sweden 25% and so on).</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Now, when we request a FedEx rate via API, the API returns our account’s rates and on top of that with our account’s (Cyprus) VAT which is 19%. On top of that, WooCommerce\n adds the respective country’s VAT which means the customer will pay double VAT. The customer should only pay their country’s VAT, not Cyprus’ VAT.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">This is the reason why we need to use the rate from FedEx that does not include the VAT rate (totalNetFedExCharge).\n</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">I looked at the FedEx response rates for 4 countries:\n</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Hi Touseef, after looking at the request log, I am confident a solution can be reached since the FedEx response includes both the charge with VAT/tax and without VAT/tax. \n &nbsp; \n To give you an understanding about the situation. After a change in the way taxes are calculated on eCommerce orders in Europe, we are obliged to charge VAT on the orders\n based on the order’s destination country. And this is when WooCommerce comes handy where we have different Tax rates for each European country (for example, Greece has a VAT of 24%, Germany 19%, Sweden 25% and so on). \n &nbsp; \n Now, when we request a FedEx rate via API, the API returns our account’s rates and on top of that with our account’s (Cyprus) VAT which is 19%. On top of that, WooCommerce\n adds the respective country’s VAT which means the customer will pay double VAT. The customer should only pay their country’s VAT, not Cyprus’ VAT. \n This is the reason why we need to use the rate from FedEx that does not include the VAT rate (totalNetFedExCharge).\n \n &nbsp; \n I looked at the FedEx response rates for 4 countries:\n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57289655008281,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "alekos@sabaton.net",
+            "name": "Alekos",
+            "original_recipients": [
+              "alekos@sabaton.net",
+              "support@pluginhive.com",
+              "emmanouil.varouchas@fedex.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-24T09:50:33Z",
+      "metadata": {
+        "system": {
+          "message_id": "<GV2P189MB2259E2DEB42897EB9D89174ED02B2@GV2P189MB2259.EURP189.PROD.OUTLOOK.COM>",
+          "email_id": "01KPZEBKFT4YX8RHZ7J9W1H55F",
+          "raw_email_identifier": "2369120/cb6f5d87-1629-495c-8706-75524b5c8f53.eml",
+          "json_email_identifier": "2369120/cb6f5d87-1629-495c-8706-75524b5c8f53.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57292872782233,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Alekos,\n\nThank you for your response.\n\nPlease allow us some time to forward your requirement to our team for checking its feasibility.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Alekos,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Please allow us some time to forward your requirement to our team for checking its feasibility.<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Alekos,\n&nbsp;\nThank you for your response.\n&nbsp;\nPlease allow us some time to forward your requirement to our team for checking its feasibility.\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57292872782105,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-24T11:49:46Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57293120533785,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1777032006239309\n\nCyprus Customer using WSS with FedEx and DHL for rates and labels.\nMerchant wants the plugin to show only the **totalNetFedExCharge** as shipping rate on checkout and not include the **totalVatCharge** in case of FedEx.\n ![](https://support.pluginhive.com/attachments/token/hlPNlOT8qjaFk15xYAxIAyci5/?name=image001.png)\nReason for this requirement from merchant is that he is calculating the VAT from WooCommerce ad VAT is calculated on shipping as well. [Plugin is set as Taxable for Tax Calculation]\nAs such, currently, the VAT is being charged twice which the customer does not want.\n\nCould you please check and let us know if an option can be provided to show rates on checkout from the plugin excluding the **totalVatCharge?**\nMerchant is looking for a similar option as is available with DHL Express.\n ![](https://support.pluginhive.com/attachments/token/ymcmWvntr4dQHWbjHV9giz40C/?name=image002.jpg)\nURL - https://store.sabaton.net\nAccount ID - 80d2c59c-1d91-474f-84d9-7f4253cbc45c",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1777032006239309\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1777032006239309</a><br>&nbsp;<br>Cyprus Customer using WSS with FedEx and DHL for rates and labels.<br>Merchant wants the plugin to show only the <strong>totalNetFedExCharge</strong> as shipping rate on checkout and not include the <strong>totalVatCharge </strong>in case of FedEx.<br><img style=\" width: 406px;\" src=\"https://support.pluginhive.com/attachments/token/hlPNlOT8qjaFk15xYAxIAyci5/?name=image001.png\"><br>Reason for this requirement from merchant is that he is calculating the VAT from WooCommerce ad VAT is calculated on shipping as well. [Plugin is set as Taxable for Tax Calculation]<br>As such, currently, the VAT is being charged twice which the customer does not want.<br>&nbsp;<br>Could you please check and let us know if an option can be provided to show rates on checkout from the plugin excluding the <strong>totalVatCharge?</strong><br>Merchant is looking for a similar option as is available with DHL Express.<br><img style=\" width: 224px;\" src=\"https://support.pluginhive.com/attachments/token/ymcmWvntr4dQHWbjHV9giz40C/?name=image002.jpg\"><br>URL - <a rel=\"noopener noreferrer\" href=\"https://store.sabaton.net/\">https://store.sabaton.net</a><br>Account ID - 80d2c59c-1d91-474f-84d9-7f4253cbc45c<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1777032006239309\n&nbsp;\nCyprus Customer using WSS with FedEx and DHL for rates and labels.\nMerchant wants the plugin to show only the totalNetFedExCharge as shipping rate on checkout and not include the totalVatCharge in case of FedEx.\n\nReason for this requirement from merchant is that he is calculating the VAT from WooCommerce ad VAT is calculated on shipping as well. [Plugin is set as Taxable for Tax Calculation]\nAs such, currently, the VAT is being charged twice which the customer does not want.\n&nbsp;\nCould you please check and let us know if an option can be provided to show rates on checkout from the plugin excluding the totalVatCharge?\nMerchant is looking for a similar option as is available with DHL Express.\n\nURL - https://store.sabaton.net\nAccount ID - 80d2c59c-1d91-474f-84d9-7f4253cbc45c",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57293120533657,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-24T12:00:16Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

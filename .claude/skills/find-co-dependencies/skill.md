@@ -84,8 +84,20 @@ import json, sys, os
 
 file_path = sys.argv[1]
 
+# Detect wiki root
+wiki_root = os.getcwd()
+while wiki_root != '/':
+    if (os.path.isfile(os.path.join(wiki_root, 'CLAUDE.md')) and
+        os.path.isdir(os.path.join(wiki_root, 'wiki')) and
+        os.path.isdir(os.path.join(wiki_root, 'raw'))):
+        break
+    wiki_root = os.path.dirname(wiki_root)
+else:
+    print("Error: Could not find wiki root", file=sys.stderr)
+    sys.exit(1)
+
 try:
-    with open("wiki/architecture/reverse-test-coverage.md") as f:
+    with open(os.path.join(wiki_root, "wiki/architecture/reverse-test-coverage.md")) as f:
         content = f.read()
 except FileNotFoundError:
     print("⚠️  reverse-test-coverage.md not found — run /reverse-test-coverage build first")
@@ -159,8 +171,20 @@ import json, sys, os
 
 file_path = sys.argv[1]
 
+# Detect wiki root
+wiki_root = os.getcwd()
+while wiki_root != '/':
+    if (os.path.isfile(os.path.join(wiki_root, 'CLAUDE.md')) and
+        os.path.isdir(os.path.join(wiki_root, 'wiki')) and
+        os.path.isdir(os.path.join(wiki_root, 'raw'))):
+        break
+    wiki_root = os.path.dirname(wiki_root)
+else:
+    print("Error: Could not find wiki root", file=sys.stderr)
+    sys.exit(1)
+
 try:
-    with open("wiki/architecture/coupling-map.md") as f:
+    with open(os.path.join(wiki_root, "wiki/architecture/coupling-map.md")) as f:
         content = f.read()
 except FileNotFoundError:
     print("\n⚠️  coupling-map.md not found — run /git-co-change-graph init")
@@ -212,6 +236,18 @@ import sys, os
 
 file_path = sys.argv[1]
 
+# Detect wiki root
+wiki_root = os.getcwd()
+while wiki_root != '/':
+    if (os.path.isfile(os.path.join(wiki_root, 'CLAUDE.md')) and
+        os.path.isdir(os.path.join(wiki_root, 'wiki')) and
+        os.path.isdir(os.path.join(wiki_root, 'raw'))):
+        break
+    wiki_root = os.path.dirname(wiki_root)
+else:
+    print("Error: Could not find wiki root", file=sys.stderr)
+    sys.exit(1)
+
 # Map file path to ZI area
 # This is heuristic-based
 DOMAIN_MAP = {
@@ -235,7 +271,7 @@ if not area:
 print(f"\n**ZI Area Coupling** (mapped to area: `{area}`):")
 
 try:
-    with open("wiki/zendesk/area-coupling.md") as f:
+    with open(os.path.join(wiki_root, "wiki/zendesk/area-coupling.md")) as f:
         content = f.read()
 except FileNotFoundError:
     print("   ⚠️  area-coupling.md not found — run /zendesk-overlap build first")
@@ -289,12 +325,24 @@ If `INPUT_TYPE == "area"`:
 
 ```bash
 python3 << 'PYEOF'
-import sys
+import sys, os
 
 area = sys.argv[1].strip().lower()
 
+# Detect wiki root
+wiki_root = os.getcwd()
+while wiki_root != '/':
+    if (os.path.isfile(os.path.join(wiki_root, 'CLAUDE.md')) and
+        os.path.isdir(os.path.join(wiki_root, 'wiki')) and
+        os.path.isdir(os.path.join(wiki_root, 'raw'))):
+        break
+    wiki_root = os.path.dirname(wiki_root)
+else:
+    print("Error: Could not find wiki root", file=sys.stderr)
+    sys.exit(1)
+
 try:
-    with open("wiki/zendesk/area-coupling.md") as f:
+    with open(os.path.join(wiki_root, "wiki/zendesk/area-coupling.md")) as f:
         content = f.read()
 except FileNotFoundError:
     print("⚠️  area-coupling.md not found — run /zendesk-overlap build first")
@@ -350,6 +398,18 @@ import sys, os
 
 area = sys.argv[1].strip().lower()
 
+# Detect wiki root
+wiki_root = os.getcwd()
+while wiki_root != '/':
+    if (os.path.isfile(os.path.join(wiki_root, 'CLAUDE.md')) and
+        os.path.isdir(os.path.join(wiki_root, 'wiki')) and
+        os.path.isdir(os.path.join(wiki_root, 'raw'))):
+        break
+    wiki_root = os.path.dirname(wiki_root)
+else:
+    print("Error: Could not find wiki root", file=sys.stderr)
+    sys.exit(1)
+
 # Map ZI area to code domains
 AREA_TO_DOMAIN = {
     "carrier-config":    ["server/src/shared/API/carriers/"],
@@ -375,7 +435,7 @@ if not domains:
     sys.exit(0)
 
 try:
-    with open("wiki/architecture/coupling-map.md") as f:
+    with open(os.path.join(wiki_root, "wiki/architecture/coupling-map.md")) as f:
         content = f.read()
 except FileNotFoundError:
     print("   ⚠️  coupling-map.md not found — run /git-co-change-graph init")
@@ -433,6 +493,18 @@ import sys, os
 
 area = sys.argv[1].strip().lower()
 
+# Detect wiki root
+wiki_root = os.getcwd()
+while wiki_root != '/':
+    if (os.path.isfile(os.path.join(wiki_root, 'CLAUDE.md')) and
+        os.path.isdir(os.path.join(wiki_root, 'wiki')) and
+        os.path.isdir(os.path.join(wiki_root, 'raw'))):
+        break
+    wiki_root = os.path.dirname(wiki_root)
+else:
+    print("Error: Could not find wiki root", file=sys.stderr)
+    sys.exit(1)
+
 # Map ZI area to test directories
 AREA_TO_TESTS = {
     "carrier-config":    ["carrierOtherDetails/"],
@@ -454,7 +526,7 @@ if not test_dirs:
     sys.exit(0)
 
 try:
-    with open("wiki/features.md") as f:
+    with open(os.path.join(wiki_root, "wiki/features.md")) as f:
         content = f.read()
 except FileNotFoundError:
     print("   ⚠️  features.md not found")
@@ -1010,10 +1082,22 @@ Use this Python script:
 
 ```bash
 python3 << 'PYEOF'
-import re, json
+import re, json, os
+
+# Detect wiki root
+wiki_root = os.getcwd()
+while wiki_root != '/':
+    if (os.path.isfile(os.path.join(wiki_root, 'CLAUDE.md')) and
+        os.path.isdir(os.path.join(wiki_root, 'wiki')) and
+        os.path.isdir(os.path.join(wiki_root, 'raw'))):
+        break
+    wiki_root = os.path.dirname(wiki_root)
+else:
+    print("Error: Could not find wiki root", file=sys.stderr)
+    exit(1)
 
 try:
-    with open("wiki/index.md") as f:
+    with open(os.path.join(wiki_root, "wiki/index.md")) as f:
         content = f.read()
 except FileNotFoundError:
     print("⚠️  wiki/index.md not found")
@@ -1030,7 +1114,7 @@ for line in content.split('\n'):
         desc = match.group(3)
         modules.append({
             'name': name,
-            'path': f"wiki/{path}",
+            'path': os.path.join(wiki_root, "wiki", path),
             'description': desc
         })
 

@@ -1,0 +1,437 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/385815.json",
+    "id": 385815,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "szabi@caltog.org",
+          "name": "szabi@caltog.org"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-04-23T18:56:25Z",
+    "updated_at": "2026-04-25T07:55:42Z",
+    "generated_timestamp": 1777103743,
+    "type": null,
+    "subject": "Request to raise our product quantity limit",
+    "raw_subject": "Request to raise our product quantity limit",
+    "description": "Hello!\n\nWe recently learned that there is a product quantity limit built into your PH Multicarrier Shipping app on Shopify. This is causing issues with our checkout process as we get very large orders about 2-6 times a month that the app doesn't allow through. We are hoping to raise that limit. I also wanted to check if that is a total item quantity limit, or a per product limit?\n\nPlease let us know if that is possible!\n\nThank you,\n—Szabi\n\nSzabolcs Kiss\nBrand Manager, Californians Together\n\ncalifornianstogether.org (https://californianstogether.org)\n\n525 E. 7th Street, Suite C203 Long Beach, CA 90813  (https://maps.google.com/?q=525+E.+7th+Street,+Suite+C203+Long+Beach,+CA+90813)",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 50416848409753,
+    "submitter_id": 50416848409753,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "l3",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "rfdbdm-du.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "449NG3-1LVZW",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "rfdbdm-du.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57265626063769,
+      "type": "Comment",
+      "author_id": 50416848409753,
+      "body": "Hello!\n\n\n\nWe recently learned that there is a product quantity limit built into your PH Multicarrier Shipping app on Shopify. This is causing issues with our checkout process as we get very large orders about 2-6 times a month that the app doesn't allow through. We are hoping to raise that limit. I also wanted to check if that is a total item quantity limit, or a per product limit?\n\n\n\nPlease let us know if that is possible!\n\n\n\nThank you,\n\n—Szabi\n\n\n\n ![photo](https://d36urhup7zbd7q.cloudfront.net/u/MnPgrYPGyo7/5de03012-70f2-48a1-95c7-b3c2d19b131a.png)\n\nSzabolcs Kiss\nBrand Manager, Californians Together\n\n![icon](https://gifo.srv.wisestamp.com/s/rfw1/212121/24/trans.png) californianstogether.org\n\n![icon](https://gifo.srv.wisestamp.com/s/rfa2/212121/24/trans.png) 525 E. 7th Street, Suite C203 Long Beach, CA 90813\n\n![custom_u/MnPgrYPGyo7/1687880108964](https://gifo.srv.wisestamp.com/s/custom/https%3A%2F%2Fd36urhup7zbd7q.cloudfront.net%2Fu%2FMnPgrYPGyo7%2F1687880108964.png/48/0.png)\n\n![facebook](https://gifo.srv.wisestamp.com/s/fb/3b5998/48/0/border.png)\n\n![instagram](https://gifo.srv.wisestamp.com/s/inst/E4405F/48/0/border.png)\n\n![linkedin](https://gifo.srv.wisestamp.com/s/ld/0077b5/48/0/border.png)\n\n![twitter](https://gifo.srv.wisestamp.com/s/tw/000000/48/0/border.png)\n\n\n ![__tpx__](https://tracy.srv.wisestamp.com/px/wsid/VGyBnOJQ3A3p.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hello!</div><div><br></div><div>We recently learned that there is a product quantity limit built into your PH Multicarrier Shipping app on Shopify. This is causing&nbsp;issues with our checkout process as we get very large orders about 2-6 times a month that the app doesn't allow through. We are hoping to raise that limit. I also wanted to check if&nbsp;that is a total item quantity limit, or a per product limit?</div><div><br></div><div>Please let us know if that is possible!</div><div><br></div><div>Thank you,</div><div>—Szabi</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><table style=\"direction: ltr; border-collapse: collapse;\"><tbody><tr><td style=\"font-size: 0; height: 12px; line-height: 0;\"></td></tr><tr><td><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%;\" width=\"100%\"><tbody><tr><td><table cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse; line-height: 1.15; color: #000;\"><tbody><tr><td style=\"vertical-align: top; width: 65px; text-align: center; padding: .01px 14px 0.01px 1px;\" align=\"center\" valign=\"top\"><img src=\"https://d36urhup7zbd7q.cloudfront.net/u/MnPgrYPGyo7/5de03012-70f2-48a1-95c7-b3c2d19b131a.png\" height=\"65\" width=\"65\" alt=\"photo\" style=\"width: 65px; vertical-align: middle; border-radius: 0; height: 65px;\"></td><td valign=\"top\" style=\"vertical-align: top; border-left-width: 1px; border-left-color: #bdbdbd; border-left-style: solid; padding: .01px 0.01px 0.01px 14px;\"><table cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse;\"><tbody><tr><td style=\" padding: .01px;\"><p style=\"line-height: 120%; font-size: 16px; margin: .1px;\" dir=\"auto\"><span style=\"text-transform: initial; font-weight: bold; font-style: normal; color: #646464; letter-spacing: 0; white-space: nowrap; font-size: 16px;\">Szabolcs Kiss</span><br><span style=\"text-transform: initial; font-weight: bold; font-style: normal; color: #646464; white-space: nowrap; font-size: 13px;\">Brand Manager,</span> <span style=\"text-transform: initial; font-weight: bold; font-style: normal; color: #646464; white-space: nowrap; font-size: 13px;\">Californians Together</span></p></td></tr><tr><td><table cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse;\"><tbody><tr><td width=\"214\" style=\"padding-top: 14px; white-space: nowrap; width: 214px; \"><p style=\"line-height: 99%; font-size: 11px; color: #212121; margin: 1px;\" dir=\"auto\"><span style=\"white-space: nowrap;\"><img src=\"https://gifo.srv.wisestamp.com/s/rfw1/212121/24/trans.png\" style=\"line-height: 120%; width: 12px;\" width=\"12\" alt=\"icon\"><a href=\"https://californianstogether.org\" style=\" text-decoration: unset;\" rel=\"noreferrer\"><span style=\"line-height: 120%; color: #212121; white-space: nowrap;\"> californianstogether.org</span></a></span></p></td></tr><tr><td width=\"433\" style=\"padding-top: 7px; white-space: nowrap; width: 433px; \"><p style=\"line-height: 99%; font-size: 11px; color: #212121; margin: 1px;\" dir=\"auto\"><span style=\"white-space: nowrap;\"><img src=\"https://gifo.srv.wisestamp.com/s/rfa2/212121/24/trans.png\" style=\"line-height: 120%; width: 12px;\" width=\"12\" alt=\"icon\"><a href=\"https://maps.google.com/?q=525+E.+7th+Street,+Suite+C203+Long+Beach,+CA+90813\" style=\" text-decoration: unset;\" rel=\"noreferrer\"><span style=\"line-height: 120%; color: #212121; white-space: nowrap;\"> 525 E. 7th Street, Suite C203 Long Beach, CA 90813 </span></a></span></p></td></tr></tbody></table></td></tr><tr><td style=\"padding: 14px 0.01px 0.01px;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td align=\"left\" style=\"padding-right: 6px; text-align: center; padding-top: 0;\"><p style=\"margin: 1px;\" dir=\"auto\"><a href=\"https://californianstogether.org\" rel=\"noreferrer\"><img width=\"24\" height=\"24\" src=\"https://gifo.srv.wisestamp.com/s/custom/https%3A%2F%2Fd36urhup7zbd7q.cloudfront.net%2Fu%2FMnPgrYPGyo7%2F1687880108964.png/48/0.png\" style=\"float: left; border-style: none;\" border=\"0\" alt=\"custom_u/MnPgrYPGyo7/1687880108964\" align=\"left\"></a></p></td><td align=\"left\" style=\"padding-right: 6px; text-align: center; padding-top: 0;\"><p style=\"margin: 1px;\" dir=\"auto\"><a href=\"https://www.facebook.com/CaliforniansTogether/\" rel=\"noreferrer\"><img width=\"24\" height=\"24\" src=\"https://gifo.srv.wisestamp.com/s/fb/3b5998/48/0/border.png\" style=\"float: left; border-style: none;\" border=\"0\" alt=\"facebook\" align=\"left\"></a></p></td><td align=\"left\" style=\"padding-right: 6px; text-align: center; padding-top: 0;\"><p style=\"margin: 1px;\" dir=\"auto\"><a href=\"https://www.linkedin.com/company/californians-together\" rel=\"noreferrer\"><img width=\"24\" height=\"24\" src=\"https://gifo.srv.wisestamp.com/s/inst/E4405F/48/0/border.png\" style=\"float: left; border-style: none;\" border=\"0\" alt=\"instagram\" align=\"left\"></a></p></td><td align=\"left\" style=\"padding-right: 6px; text-align: center; padding-top: 0;\"><p style=\"margin: 1px;\" dir=\"auto\"><a href=\"https://www.linkedin.com/company/californians-together\" rel=\"noreferrer\"><img width=\"24\" height=\"24\" src=\"https://gifo.srv.wisestamp.com/s/ld/0077b5/48/0/border.png\" style=\"float: left; border-style: none;\" border=\"0\" alt=\"linkedin\" align=\"left\"></a></p></td><td align=\"left\" style=\"padding-right: 6px; text-align: center; padding-top: 0;\"><p style=\"margin: 1px;\" dir=\"auto\"><a href=\"https://twitter.com/caltog\" rel=\"noreferrer\"><img width=\"24\" height=\"24\" src=\"https://gifo.srv.wisestamp.com/s/tw/000000/48/0/border.png\" style=\"float: left; border-style: none;\" border=\"0\" alt=\"twitter\" align=\"left\"></a></p></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td style=\" font-size: .01px; line-height: 0;\">&nbsp;</td></tr></tbody></table></div><img src=\"https://tracy.srv.wisestamp.com/px/wsid/VGyBnOJQ3A3p.png\" alt=\"__tpx__\"></div></div></div></div>",
+      "plain_body": "Hello!  \n  We recently learned that there is a product quantity limit built into your PH Multicarrier Shipping app on Shopify. This is causing&nbsp;issues with our checkout process as we get very large orders about 2-6 times a month that the app doesn't allow through. We are hoping to raise that limit. I also wanted to check if&nbsp;that is a total item quantity limit, or a per product limit?  \n  Please let us know if that is possible!  \n  Thank you,  —Szabi  \n     Szabolcs Kiss\nBrand Manager, Californians Together   californianstogether.org   525 E. 7th Street, Suite C203 Long Beach, CA 90813            &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57265626063641,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "szabi@caltog.org",
+            "name": "szabi@caltog.org",
+            "original_recipients": [
+              "szabi@caltog.org",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T18:56:25Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAAjq-CV3XsJd5Pc8eyd+jjfwX=L67E5kStmNrm5oXgs5xCQ0Tw@mail.gmail.com>",
+          "email_id": "01KPXV6KW3K4DX3VV5YB0K9EAB",
+          "raw_email_identifier": "2369120/8d9832e0-b13b-4aab-a9a8-9ae06212dd23.eml",
+          "json_email_identifier": "2369120/8d9832e0-b13b-4aab-a9a8-9ae06212dd23.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57266872001561,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "USA Store\n44 orders\n\nUSPS account connected\n\nExplored app for both rates and labels\n\n$19 Starter plan",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">USA Store<br>44 orders<br>&nbsp;<br>USPS account connected<br>&nbsp;<br>Explored app for both rates and labels<br>&nbsp;<br>$19 Starter plan<br></div>",
+      "plain_body": "USA Store\n44 orders\n&nbsp;\nUSPS account connected\n&nbsp;\nExplored app for both rates and labels\n&nbsp;\n$19 Starter plan",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57266872001433,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T21:09:35Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57266927175449,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Szabi,\n\nGood day!\n\nYou are correct—there is currently a limit of 300 quantities per item. If a customer attempts to place an order with more than 300 units of a single item, the rates may fail.\nWe can certainly increase this limit. Could you please let us know the preferred maximum quantity per item?\n\nAdditionally, most of your products are lightweight (around or under 1 lb), while the configured boxes have a maximum weight of 70 lbs. For larger orders (for example, when the maximum quantity is added), could you help us understand how many boxes you would expect the shipment to be split into?\n\nThis will help us configure the setup more accurately.\n\nLooking forward to your response.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Szabi,<br>&nbsp;<br>Good day!<br>&nbsp;<br>You are correct—there is currently a limit of 300 quantities per item. If a customer attempts to place an order with more than 300 units of a single item, the rates may fail.<br>We can certainly increase this limit. Could you please let us know the preferred maximum quantity per item?<br>&nbsp;<br>Additionally, most of your products are lightweight (around or under 1 lb), while the configured boxes have a maximum weight of 70 lbs. For larger orders (for example, when the maximum quantity is added), could you help us understand how many boxes you would expect the shipment to be split into?<br>&nbsp;<br>This will help us configure the setup more accurately.<br>&nbsp;<br>Looking forward to your response.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Szabi,\n&nbsp;\nGood day!\n&nbsp;\nYou are correct—there is currently a limit of 300 quantities per item. If a customer attempts to place an order with more than 300 units of a single item, the rates may fail.\nWe can certainly increase this limit. Could you please let us know the preferred maximum quantity per item?\n&nbsp;\nAdditionally, most of your products are lightweight (around or under 1 lb), while the configured boxes have a maximum weight of 70 lbs. For larger orders (for example, when the maximum quantity is added), could you help us understand how many boxes you would expect the shipment to be split into?\n&nbsp;\nThis will help us configure the setup more accurately.\n&nbsp;\nLooking forward to your response.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57266927175321,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-23T21:17:11Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57304661560089,
+      "type": "Comment",
+      "author_id": 50416848409753,
+      "body": "Hello!\n\n\n\nGreat! If it is per product, I think the maximum number should be 800. We only have a few products we expect to sell that many of at one time, most importantly our Seal of Biliteracy Medallions. I set the max weight at 70lbs (the USPS limit) while I was trying to piece together why our customers were having trouble with their address verification, I now changed them back to 30lbs. In general our items do not weigh enough to reach the weight limits for the boxes, the boxes fill up by volume.\n\n\n\nFor the medallion product, we regularly receive orders of 100-200 and on occasion orders of 200-800. Technically, based on the 30lb weight limit of the boxes, we can pack 300 of these 0.1lb medallions into a box, so almost all of our orders are shipped in a single box, save for those big ones.\n\n\n\nFor our publications we regularly receive orders in the hundreds, usually not of a single book though. The largest box we use for these is 11.25x8.75x10\". Just as an example: it takes 100 of our 0.1in thick Teacher Education Digests to fill a 10\" box, which ends up weighing only around 23lbs. Our High School Counselor Toolkit is 0.43in thick, so only 23 fits in a 10\" box, and weighs around 26lbs (once again it caps out due to volume, not weight). So if someone orders 200 of these Counselor toolkits we would ship them in 9 boxes.\n\n\n\nYour app has been doing a really good job estimating our shipping costs so far (disregarding the issues with the quantity limit), however we print the labels manually through Shopify because the algorithm creates unnecessarily complex packing (mixing and matching products randomly to optimize boxes). This is fine so far, the app ends up creating roughly the same number of boxes that we do when we stack stuff more logically, and at worst it adds a box which is completely fine.\n\n\n\nWe just started processing orders, so if anything else comes up I will reach out. Please let me know when the quantity limit is moved up to 800!\n\n\n\nThank you,\n\n—Szabi\n\n\n\n ![photo](https://d36urhup7zbd7q.cloudfront.net/u/MnPgrYPGyo7/5de03012-70f2-48a1-95c7-b3c2d19b131a.png)\n\nSzabolcs Kiss\nBrand Manager, Californians Together\n\n![icon](https://gifo.srv.wisestamp.com/s/rfw1/212121/24/trans.png) californianstogether.org\n\n![icon](https://gifo.srv.wisestamp.com/s/rfa2/212121/24/trans.png) 525 E. 7th Street, Suite C203 Long Beach, CA 90813\n\n![custom_u/MnPgrYPGyo7/1687880108964](https://gifo.srv.wisestamp.com/s/custom/https%3A%2F%2Fd36urhup7zbd7q.cloudfront.net%2Fu%2FMnPgrYPGyo7%2F1687880108964.png/48/0.png)\n\n![facebook](https://gifo.srv.wisestamp.com/s/fb/3b5998/48/0/border.png)\n\n![instagram](https://gifo.srv.wisestamp.com/s/inst/E4405F/48/0/border.png)\n\n![linkedin](https://gifo.srv.wisestamp.com/s/ld/0077b5/48/0/border.png)\n\n![twitter](https://gifo.srv.wisestamp.com/s/tw/000000/48/0/border.png)\n\n\n ![__tpx__](https://tracy.srv.wisestamp.com/px/wsid/VGyBnOJQ3A3p.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hello!</div><div><br></div><div>Great! If it is per product, I think the maximum number should&nbsp;be 800. We only have a few products we expect to sell that many of at one time, most importantly&nbsp;our Seal of Biliteracy Medallions. I set the max weight at 70lbs (the USPS limit) while I was trying to piece together why our customers were having trouble with their address verification, I now changed them back to 30lbs. In general our items do not weigh enough to reach the weight limits for the boxes, the boxes fill up by volume.</div><div><br></div><div>For the medallion product, we regularly receive orders of 100-200 and on occasion orders of 200-800. Technically, based on the 30lb weight limit of the boxes, we can pack 300 of these 0.1lb medallions into a box, so almost all of our orders are shipped in a single box, save for those big ones.</div><div><br></div><div>For our publications we regularly receive orders in the hundreds, usually not of a single book though. The largest box we use for these is 11.25x8.75x10\". Just as an example: it takes 100 of our 0.1in thick Teacher Education Digests to fill a 10\" box, which ends up weighing only around 23lbs. Our High School Counselor Toolkit is 0.43in thick, so only 23 fits in a 10\" box, and weighs around 26lbs (once again it caps out due to volume, not weight). So if someone orders 200 of these Counselor toolkits we would ship them in 9 boxes.</div><div><br></div><div>Your app has been doing a really good job estimating our shipping costs so far (disregarding the issues with the quantity limit), however we print the labels manually through Shopify because the algorithm creates unnecessarily complex packing (mixing and matching products randomly to optimize boxes). This is fine so far, the app ends up creating roughly the same number of boxes that we do when we stack stuff more logically, and at worst it adds a box which is completely&nbsp;fine.</div><div><br></div><div>We just started processing orders, so if anything else comes up I will reach out. Please let me know when the quantity limit is moved up to 800!</div><div><br></div><div>Thank you,</div><div>—Szabi</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><table style=\"direction: ltr; border-collapse: collapse;\"><tbody><tr><td style=\"font-size: 0; height: 12px; line-height: 0;\"></td></tr><tr><td><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%;\" width=\"100%\"><tbody><tr><td><table cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse; line-height: 1.15; color: #000;\"><tbody><tr><td style=\"vertical-align: top; width: 65px; text-align: center; padding: .01px 14px 0.01px 1px;\" align=\"center\" valign=\"top\"><img src=\"https://d36urhup7zbd7q.cloudfront.net/u/MnPgrYPGyo7/5de03012-70f2-48a1-95c7-b3c2d19b131a.png\" height=\"65\" width=\"65\" alt=\"photo\" style=\"width: 65px; vertical-align: middle; border-radius: 0; height: 65px;\"></td><td valign=\"top\" style=\"vertical-align: top; border-left-width: 1px; border-left-color: #bdbdbd; border-left-style: solid; padding: .01px 0.01px 0.01px 14px;\"><table cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse;\"><tbody><tr><td style=\" padding: .01px;\"><p style=\"line-height: 120%; font-size: 16px; margin: .1px;\" dir=\"auto\"><span style=\"text-transform: initial; font-weight: bold; font-style: normal; color: #646464; letter-spacing: 0; white-space: nowrap; font-size: 16px;\">Szabolcs Kiss</span><br><span style=\"text-transform: initial; font-weight: bold; font-style: normal; color: #646464; white-space: nowrap; font-size: 13px;\">Brand Manager,</span> <span style=\"text-transform: initial; font-weight: bold; font-style: normal; color: #646464; white-space: nowrap; font-size: 13px;\">Californians Together</span></p></td></tr><tr><td><table cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse;\"><tbody><tr><td width=\"214\" style=\"padding-top: 14px; white-space: nowrap; width: 214px; \"><p style=\"line-height: 99%; font-size: 11px; color: #212121; margin: 1px;\" dir=\"auto\"><span style=\"white-space: nowrap;\"><img src=\"https://gifo.srv.wisestamp.com/s/rfw1/212121/24/trans.png\" style=\"line-height: 120%; width: 12px;\" width=\"12\" alt=\"icon\"><a href=\"https://californianstogether.org\" style=\" text-decoration: unset;\" rel=\"noreferrer\"><span style=\"line-height: 120%; color: #212121; white-space: nowrap;\"> californianstogether.org</span></a></span></p></td></tr><tr><td width=\"433\" style=\"padding-top: 7px; white-space: nowrap; width: 433px; \"><p style=\"line-height: 99%; font-size: 11px; color: #212121; margin: 1px;\" dir=\"auto\"><span style=\"white-space: nowrap;\"><img src=\"https://gifo.srv.wisestamp.com/s/rfa2/212121/24/trans.png\" style=\"line-height: 120%; width: 12px;\" width=\"12\" alt=\"icon\"><a href=\"https://maps.google.com/?q=525+E.+7th+Street,+Suite+C203+Long+Beach,+CA+90813\" style=\" text-decoration: unset;\" rel=\"noreferrer\"><span style=\"line-height: 120%; color: #212121; white-space: nowrap;\"> 525 E. 7th Street, Suite C203 Long Beach, CA 90813 </span></a></span></p></td></tr></tbody></table></td></tr><tr><td style=\"padding: 14px 0.01px 0.01px;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td align=\"left\" style=\"padding-right: 6px; text-align: center; padding-top: 0;\"><p style=\"margin: 1px;\" dir=\"auto\"><a href=\"https://californianstogether.org\" rel=\"noreferrer\"><img width=\"24\" height=\"24\" src=\"https://gifo.srv.wisestamp.com/s/custom/https%3A%2F%2Fd36urhup7zbd7q.cloudfront.net%2Fu%2FMnPgrYPGyo7%2F1687880108964.png/48/0.png\" style=\"float: left; border-style: none;\" border=\"0\" alt=\"custom_u/MnPgrYPGyo7/1687880108964\" align=\"left\"></a></p></td><td align=\"left\" style=\"padding-right: 6px; text-align: center; padding-top: 0;\"><p style=\"margin: 1px;\" dir=\"auto\"><a href=\"https://www.facebook.com/CaliforniansTogether/\" rel=\"noreferrer\"><img width=\"24\" height=\"24\" src=\"https://gifo.srv.wisestamp.com/s/fb/3b5998/48/0/border.png\" style=\"float: left; border-style: none;\" border=\"0\" alt=\"facebook\" align=\"left\"></a></p></td><td align=\"left\" style=\"padding-right: 6px; text-align: center; padding-top: 0;\"><p style=\"margin: 1px;\" dir=\"auto\"><a href=\"https://www.linkedin.com/company/californians-together\" rel=\"noreferrer\"><img width=\"24\" height=\"24\" src=\"https://gifo.srv.wisestamp.com/s/inst/E4405F/48/0/border.png\" style=\"float: left; border-style: none;\" border=\"0\" alt=\"instagram\" align=\"left\"></a></p></td><td align=\"left\" style=\"padding-right: 6px; text-align: center; padding-top: 0;\"><p style=\"margin: 1px;\" dir=\"auto\"><a href=\"https://www.linkedin.com/company/californians-together\" rel=\"noreferrer\"><img width=\"24\" height=\"24\" src=\"https://gifo.srv.wisestamp.com/s/ld/0077b5/48/0/border.png\" style=\"float: left; border-style: none;\" border=\"0\" alt=\"linkedin\" align=\"left\"></a></p></td><td align=\"left\" style=\"padding-right: 6px; text-align: center; padding-top: 0;\"><p style=\"margin: 1px;\" dir=\"auto\"><a href=\"https://twitter.com/caltog\" rel=\"noreferrer\"><img width=\"24\" height=\"24\" src=\"https://gifo.srv.wisestamp.com/s/tw/000000/48/0/border.png\" style=\"float: left; border-style: none;\" border=\"0\" alt=\"twitter\" align=\"left\"></a></p></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td style=\" font-size: .01px; line-height: 0;\">&nbsp;</td></tr></tbody></table></div><img src=\"https://tracy.srv.wisestamp.com/px/wsid/VGyBnOJQ3A3p.png\" alt=\"__tpx__\"></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hello!  \n  Great! If it is per product, I think the maximum number should&nbsp;be 800. We only have a few products we expect to sell that many of at one time, most importantly&nbsp;our Seal of Biliteracy Medallions. I set the max weight at 70lbs (the USPS limit) while I was trying to piece together why our customers were having trouble with their address verification, I now changed them back to 30lbs. In general our items do not weigh enough to reach the weight limits for the boxes, the boxes fill up by volume.  \n  For the medallion product, we regularly receive orders of 100-200 and on occasion orders of 200-800. Technically, based on the 30lb weight limit of the boxes, we can pack 300 of these 0.1lb medallions into a box, so almost all of our orders are shipped in a single box, save for those big ones.  \n  For our publications we regularly receive orders in the hundreds, usually not of a single book though. The largest box we use for these is 11.25x8.75x10\". Just as an example: it takes 100 of our 0.1in thick Teacher Education Digests to fill a 10\" box, which ends up weighing only around 23lbs. Our High School Counselor Toolkit is 0.43in thick, so only 23 fits in a 10\" box, and weighs around 26lbs (once again it caps out due to volume, not weight). So if someone orders 200 of these Counselor toolkits we would ship them in 9 boxes.  \n  Your app has been doing a really good job estimating our shipping costs so far (disregarding the issues with the quantity limit), however we print the labels manually through Shopify because the algorithm creates unnecessarily complex packing (mixing and matching products randomly to optimize boxes). This is fine so far, the app ends up creating roughly the same number of boxes that we do when we stack stuff more logically, and at worst it adds a box which is completely&nbsp;fine.  \n  We just started processing orders, so if anything else comes up I will reach out. Please let me know when the quantity limit is moved up to 800!  \n  Thank you,  —Szabi  \n     Szabolcs Kiss\nBrand Manager, Californians Together   californianstogether.org   525 E. 7th Street, Suite C203 Long Beach, CA 90813            &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57304661559961,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "szabi@caltog.org",
+            "name": "szabi@caltog.org",
+            "original_recipients": [
+              "szabi@caltog.org",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-25T01:15:03Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAAjq-CUvbTBjv4qiBFNm5HHf0oZwCEMgaz+jMh4EoJfeVR_agA@mail.gmail.com>",
+          "email_id": "01KQ138KZ1917E0YZJBQBRAYYC",
+          "raw_email_identifier": "2369120/cb0beddc-d831-48b9-8351-fa61d83def23.eml",
+          "json_email_identifier": "2369120/cb0beddc-d831-48b9-8351-fa61d83def23.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57305023629337,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Szabi,\n\nThank you for sharing the details.\n\nPlease allow us sometime. Will get back to you on this.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Szabi,<br>&nbsp;<br>Thank you for sharing the details.&nbsp;<br>&nbsp;<br>Please allow us sometime. Will get back to you on this.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Szabi,\n&nbsp;\nThank you for sharing the details.&nbsp;\n&nbsp;\nPlease allow us sometime. Will get back to you on this.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57305023629209,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-25T01:32:06Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "115.96.180.161",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57305026135833,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Need to check about the requirement internally and take further action",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need to check about the requirement internally and take further action<br></div>",
+      "plain_body": "Need to check about the requirement internally and take further action",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57305033151769,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-25T01:32:44Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "115.96.180.161",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57313699945881,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need assistance from the L3 team on the below case:\n\n**Case:** Increase product quantity limit to 800 per item\n\n**Details:**\nThe MCSL customer is selling paper posters, medals, and certificates, all of which weigh less than 1 lb. Even if a customer orders up to 800 medals (each weighing ~0.1 lbs), they can be packed within acceptable limits.\n\nThe customer is using the box packing method with a maximum weight set to 30 lbs. Even for large orders, the total number of boxes would remain within carrier limits.\n\n**Request:**\nCould you please check and confirm if the product quantity limit per item can be increased to 800?\n\n**Store Details:**\nStore URL – rfdbdm-du.myshopify.com\nAccount ID –ba15bb9e-ec48-4485-9967-b64c972a42fa",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need assistance from the L3 team on the below case:<br>&nbsp;<br><strong>Case:</strong> Increase product quantity limit to 800 per item<br>&nbsp;<br><strong>Details:</strong><br>The MCSL customer is selling paper posters, medals, and certificates, all of which weigh less than 1 lb. Even if a customer orders up to 800 medals (each weighing ~0.1 lbs), they can be packed within acceptable limits.<br>&nbsp;<br>The customer is using the box packing method with a maximum weight set to 30 lbs. Even for large orders, the total number of boxes would remain within carrier limits.<br>&nbsp;<br><strong>Request:</strong><br>Could you please check and confirm if the product quantity limit per item can be increased to 800?<br>&nbsp;<br><strong>Store Details:</strong><br>Store URL – <a rel=\"noopener noreferrer\" href=\"http://rfdbdm-du.myshopify.com\">rfdbdm-du.myshopify.com</a>&nbsp;<br>Account ID –ba15bb9e-ec48-4485-9967-b64c972a42fa&nbsp;<br></div>",
+      "plain_body": "Need assistance from the L3 team on the below case:\n&nbsp;\nCase: Increase product quantity limit to 800 per item\n&nbsp;\nDetails:\nThe MCSL customer is selling paper posters, medals, and certificates, all of which weigh less than 1 lb. Even if a customer orders up to 800 medals (each weighing ~0.1 lbs), they can be packed within acceptable limits.\n&nbsp;\nThe customer is using the box packing method with a maximum weight set to 30 lbs. Even for large orders, the total number of boxes would remain within carrier limits.\n&nbsp;\nRequest:\nCould you please check and confirm if the product quantity limit per item can be increased to 800?\n&nbsp;\nStore Details:\nStore URL – rfdbdm-du.myshopify.com&nbsp;\nAccount ID –ba15bb9e-ec48-4485-9967-b64c972a42fa&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57313699945753,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-25T07:55:42Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "49.37.179.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}
