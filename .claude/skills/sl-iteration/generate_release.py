@@ -93,7 +93,9 @@ multi_section_cards = {zi: sections for zi, sections in section_membership.items
 # Build note
 multi_section_note = ""
 if multi_section_cards:
-    card_details = [f"{zi} ({', '.join(sections)})" for zi, sections in sorted(multi_section_cards.items())]
+    # Filter out None keys and sort
+    valid_cards = {zi: sections for zi, sections in multi_section_cards.items() if zi is not None}
+    card_details = [f"{zi} ({', '.join(sections)})" for zi, sections in sorted(valid_cards.items())]
     multi_section_note = f"\n\n**Note:** The following {len(multi_section_cards)} card(s) appear in multiple sections: {'; '.join(card_details)}. Total unique cards: {processed_data['total_cards']}."
 
 summary_table = f"""## Summary
