@@ -4,3 +4,24 @@
 [submodule "raw/mcsl-test-automation"]
 	path = raw/mcsl-test-automation
 	url = git@bitbucket.org:xadapter-cyd/mcsl-test-automation.git
+[submodule "raw/carrier-registration"]
+	path = raw/carrier-registration
+	url = git@gitlab.com:pghive/services/carrier-registration-api.git
+[submodule "raw/ship-rate-track-proxy"]
+	path = raw/ship-rate-track-proxy
+	url = git@gitlab.com:pghive/services/ship-rate-track-proxy-api.git
+[submodule "raw/reporting"]
+	path = raw/reporting
+	url = git@bitbucket.org:xadapter-cyd/reporting.git
+[submodule "raw/order-search"]
+	path = raw/order-search
+	url = git@gitlab.com:pghive/services/order-search.git
+[submodule "raw/storepep-internal-api"]
+	path = raw/storepep-internal-api
+	url = git@gitlab.com:pghive/services/storepep-internal-api.git
+[submodule "raw/order-updates"]
+	path = raw/order-updates
+	url = git@gitlab.com:pghive/services/order-updates.git
+[submodule "raw/fulfillment-service"]
+	path = raw/fulfillment-service
+	url = git@gitlab.com:pghive/services/fulfillment-service.git

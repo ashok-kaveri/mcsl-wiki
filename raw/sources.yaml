@@ -14,6 +14,48 @@ sources:
     path: raw/mcsl-test-automation
     description: "Playwright E2E test suite"
     repo: git@bitbucket.org:xadapter-cyd/mcsl-test-automation.git
+  
+  carrier-registration:
+    type: git-submodule
+    path: raw/carrier-registration
+    description: "Carrier registration for carriers"
+    repo: git@gitlab.com:pghive/services/carrier-registration-api.git
+
+  ship-rate-track-proxy:
+    type: git-submodule
+    path: raw/ship-rate-track-proxy
+    description: "Ship rate track apis that are implementation of the carrier APIs"
+    repo: git@gitlab.com:pghive/services/ship-rate-track-proxy-api.git
+
+  reporting:
+    type: git-submodule
+    path: raw/reporting
+    description: "Reporting source base. That takes up reporting"
+    repo:  git@bitbucket.org:xadapter-cyd/reporting.git
+
+  order-search:
+    type: git-submodule
+    path: raw/order-search
+    description: "Order search service for advanced search and filtering capabilities"
+    repo: git@gitlab.com:pghive/services/order-search.git
+
+  storepep-internal-api:
+    type: git-submodule
+    path: raw/storepep-internal-api
+    description: "Internal API service for inter-service communication"
+    repo: git@gitlab.com:pghive/services/storepep-internal-api.git
+
+  order-updates:
+    type: git-submodule
+    path: raw/order-updates
+    description: "Order updates service handling order status changes and notifications"
+    repo: git@gitlab.com:pghive/services/order-updates.git
+
+  fulfillment-service:
+    type: git-submodule
+    path: raw/fulfillment-service
+    description: "Fulfillment service managing order fulfillment workflows"
+    repo: git@gitlab.com:pghive/services/fulfillment-service.git
 
   zendesk:
     type: webhook-json

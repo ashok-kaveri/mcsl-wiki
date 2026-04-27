@@ -2,13 +2,32 @@
 title: StorePep KB Index
 category: index
 status: complete
-last_updated: 2026-04-23
+last_updated: 2026-04-27
 git_reference: current
 ---
 
 # StorePep KB Index
 
-Last updated: 2026-04-23
+Last updated: 2026-04-27
+
+## Sources
+
+Git submodules (code repositories):
+- [storepep-react](../raw/storepep-react/) - Main StorePep SaaS codebase (React frontend + Node backend)
+- [mcsl-test-automation](../raw/mcsl-test-automation/) - Playwright E2E test suite
+- [carrier-registration](../raw/carrier-registration/) - Carrier registration service
+- [ship-rate-track-proxy](../raw/ship-rate-track-proxy/) - Ship rate track APIs (carrier API implementations)
+- [reporting](../raw/reporting/) - Reporting source base
+- [order-search](../raw/order-search/) - Order search service for advanced search and filtering
+- [storepep-internal-api](../raw/storepep-internal-api/) - Internal API service for inter-service communication
+- [order-updates](../raw/order-updates/) - Order updates service handling status changes and notifications
+- [fulfillment-service](../raw/fulfillment-service/) - Fulfillment service managing order fulfillment workflows
+
+Other sources:
+- Zendesk tickets - Customer support tickets (webhook-json)
+- Regression scenarios - Master regression test plan (Google Sheets CSV export)
+- Stage Zero Analysis - Cross-app support triage sheet (Google Sheets)
+- Slack conversations - Internal product/engineering discussions (manual markdown)
 
 ## Architecture
 
@@ -18,6 +37,14 @@ Last updated: 2026-04-23
 - [Technology Stack](architecture/technology-stack.md) - Complete dependency listing and version information
 - [Carriers and Adapters](architecture/carriers-and-adapters.md) - Complete catalog of 45+ shipping carriers with codes (C1-C54), adapter classes, API endpoints, and protocol types
 - [File Co-Change Coupling Map](architecture/coupling-map.md) - Files that frequently change together; blast-radius reference for planned changes (5233 pairs from last year)
+- [Reverse Test Coverage Map](architecture/reverse-test-coverage.md) - Source file → test spec mapping; blast-radius reference for planned changes
+- [Carrier Registration](architecture/carrier-registration.md) - Carrier registration service architecture (stub)
+- [Ship Rate Track Proxy](architecture/ship-rate-track-proxy.md) - Carrier API proxy service architecture (stub)
+- [Reporting](architecture/reporting.md) - Reporting system architecture (stub)
+- [Order Search](architecture/order-search.md) - Order search service architecture (stub)
+- [StorePep Internal API](architecture/storepep-internal-api.md) - Internal API service architecture (stub)
+- [Order Updates](architecture/order-updates.md) - Order updates service architecture (stub)
+- [Fulfillment Service](architecture/fulfillment-service.md) - Fulfillment service architecture (stub)
 - [Data Flow](architecture/data-flow.md) - How data moves through the system (stub)
 - [Authentication Flow](architecture/authentication-flow.md) - Login, sessions, and ACL (stub)
 - [Deployment Pipeline](architecture/deployment-pipeline.md) - CI/CD and build process (stub)
@@ -118,7 +145,8 @@ Last updated: 2026-04-23
 
 ---
 
-**Total pages**: 225+ (58 wiki + 66 ticket summaries + 100+ story cards + 1 index)
-**Last ingestion**: 2026-04-23 (Carrier catalog documentation: 45+ carriers with complete reference)
+**Total pages**: 232+ (65 wiki + 66 ticket summaries + 100+ story cards + 1 index)
+**Last update**: 2026-04-27 (Added 7 new source repositories: carrier-registration, ship-rate-track-proxy, reporting, order-search, storepep-internal-api, order-updates, fulfillment-service)
 **Status**: Architecture + Orders + Shipping + Automation + Stores + Products + Warehouses + Product Management + Support Triage + Zendesk Issue Pipeline documented
 **Test Coverage**: 58 automated Playwright tests covering 95 features
+**Sources**: 9 git submodules + 4 other source types (Zendesk, Google Sheets, Slack)

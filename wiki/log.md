@@ -1,5 +1,35 @@
 # StorePep KB Activity Log
 
+## [2026-04-27 02:29] sources | Added 7 New Source Repositories
+- Added submodules:
+  - `raw/carrier-registration` - Carrier registration service (GitLab)
+  - `raw/ship-rate-track-proxy` - Ship rate track API implementations (GitLab)
+  - `raw/reporting` - Reporting source base (Bitbucket)
+  - `raw/order-search` - Order search service (GitLab)
+  - `raw/storepep-internal-api` - Internal API service (GitLab)
+  - `raw/order-updates` - Order updates service (GitLab)
+  - `raw/fulfillment-service` - Fulfillment service (GitLab)
+- Created: `architecture/carrier-registration.md` (placeholder stub)
+- Created: `architecture/ship-rate-track-proxy.md` (placeholder stub)
+- Created: `architecture/reporting.md` (placeholder stub)
+- Created: `architecture/order-search.md` (placeholder stub)
+- Created: `architecture/storepep-internal-api.md` (placeholder stub)
+- Created: `architecture/order-updates.md` (placeholder stub)
+- Created: `architecture/fulfillment-service.md` (placeholder stub)
+- Updated: `raw/sources.yaml` (added 7 new git-submodule entries)
+- Updated: `wiki/index.md` (added Sources section + 7 architecture pages)
+- Updated: `wiki/log.md`
+- Git reference: 5f4e58990f71acea410996b5e885f82c21e741e2
+- Submodule commits:
+  - carrier-registration: 8861b97
+  - ship-rate-track-proxy: 0187f5f
+  - reporting: 4728b3d
+  - order-search: 87a25e4
+  - storepep-internal-api: 71d57ae
+  - order-updates: 95c3fe4
+  - fulfillment-service: 4cef4a0
+- Summary: Registered 7 additional code repositories as git submodules for future wiki ingestion. Services include: carrier-registration (carrier onboarding workflows), ship-rate-track-proxy (carrier API implementations), reporting (analytics and dashboards), order-search (advanced search/filtering), storepep-internal-api (inter-service communication), order-updates (status changes and notifications), and fulfillment-service (order fulfillment workflows). All submodules successfully cloned and ready for documentation. Created placeholder architecture pages with status=partial, ready for ingestion workflow when needed.
+
 ## [2026-04-23 15:00] ingest | Carriers and Adapters Complete Catalog
 - Created: `architecture/carriers-and-adapters.md`
 - Updated: `index.md` (added carriers-and-adapters.md to Architecture section)
