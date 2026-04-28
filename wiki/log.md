@@ -1,5 +1,12 @@
 # StorePep KB Activity Log
 
+## [2026-04-28 18:15] document | Carrier OAuth Registration Flow Pattern
+- Created: `patterns/carrier-oauth-flow.md` — OAuth 2.0 authorization code flow documentation
+- Updated: `index.md` — Added carrier OAuth flow to Patterns section, updated total pages to 238+
+- Updated: `log.md`
+- Git reference: aa78e90db3b0d01ce297d68a370fc67524440a9f (carrier-registration submodule)
+- Summary: Documented carrier OAuth registration flow pattern from PlantUML diagram (raw/carrier-registration/docs/ups_oauth.puml) and implementation code. Pattern applies to 5+ OAuth-based carriers (UPS Ready OAuth, UPS DAP OAuth, USPS REST, Amazon Shipping, PostNord). Flow stages: (1) Initiation - license generation and pre-registration, (2) Polling loop - 5-second interval bookmark polling for status, (3) Login flow - state token generation (CSRF protection via Auth Provider + Jakash), redirect to carrier login, OAuth callback with auth code, token exchange, user info fetch, (4) Account confirmation - user selects account details from carrier response, (5) Access key generation - client credentials returned, polling stops. Documented UPS Ready OAuth implementation (RemoteAPI.js, RegistrationProvider.js): generateToken() with authorization_code grant, refreshToken() with refresh_token grant, fallback generateTokenWithBasicAuth() with client_credentials grant. Database schema: merchant_registration (status tracking), merchant_credentials (encrypted token storage with versioning). State token security: CSRF prevention, 15-min timeout, one-time use, license+carrier binding. Error handling: invalid_grant, invalid_client, invalid_scope, server_error, invalid_state. Polling strategy: client-side loop with 5-second interval, server caching recommendation. Events: CarrierRegisteredForPluginLicense emitted to StorePep platform for credential caching. Comparison to legacy carriers: OAuth (access+refresh tokens, multi-step, expiry, auto-refresh) vs legacy (API key+password, single-step, static, no refresh). UPS Ready vs UPS DAP differences: target audience (SMB vs enterprise), authorization (3-legged vs 2-legged possible), scopes (standard vs extended).
+
 ## [2026-04-28 17:30] ingest | Carrier Registration Service
 - Updated: `architecture/carrier-registration.md` — Replaced stub with comprehensive documentation
 - Updated: `index.md` — Updated carrier-registration description in Architecture section

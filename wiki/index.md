@@ -120,6 +120,7 @@ Other sources:
 
 ## Patterns
 
+- [Carrier OAuth Registration Flow](patterns/carrier-oauth-flow.md) - OAuth 2.0 authorization code flow for UPS Ready, UPS DAP, USPS, Amazon Shipping, and PostNord with state token CSRF protection, polling-based status, multi-step confirmation, and token refresh automation
 - [API Conventions](patterns/api-conventions.md) - REST URL structure, request/response formats (stub)
 - [Redux Patterns](patterns/redux-patterns.md) - Action/reducer conventions, 87 actions, 26 reducers (stub)
 - [Component Patterns](patterns/component-patterns.md) - React component conventions, Material-UI (stub)
@@ -151,8 +152,8 @@ Other sources:
 
 ---
 
-**Total pages**: 237+ (70 wiki + 66 ticket summaries + 100+ story cards + 1 index)
-**Last update**: 2026-04-28 (Ingested shopify-multicarrier-app: Shopify shell for multi-carrier app)
+**Total pages**: 238+ (71 wiki + 66 ticket summaries + 100+ story cards + 1 index)
+**Last update**: 2026-04-28 (Documented carrier OAuth registration flow pattern)
 **Status**: Architecture + Orders + Shipping + Automation + Stores + Products + Warehouses + Reporting + Product Management + Support Triage + Zendesk Issue Pipeline documented
 **Test Coverage**: 58 automated Playwright tests covering 95 features
 **Sources**: 10 git submodules + 4 other source types (Zendesk, Google Sheets, Slack)
