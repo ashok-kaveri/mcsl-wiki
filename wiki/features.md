@@ -1,6 +1,6 @@
 ---
 title: StorePep Features - Complete Test Coverage
-category: testing
+category: test-coverage
 sources: [regression-scenarios, mcsl-test-automation]
 status: complete
 last_updated: 2026-04-22
