@@ -42,7 +42,7 @@ Other sources:
 - [Reverse Test Coverage Map](architecture/reverse-test-coverage.md) - Source file → test spec mapping; blast-radius reference for planned changes
 - [Event-Driven Reporting](architecture/event-driven-reporting.md) - Event-driven architecture for async order aggregation and CSV export with SQS/S3/email delivery
 - [Carrier API Proxy Pattern](architecture/carrier-api-proxy-pattern.md) - Unified API Gateway pattern for 18+ carrier integrations with adapter pattern, dynamic loading, and protocol abstraction (SOAP/REST/XML)
-- [Carrier Registration](architecture/carrier-registration.md) - Carrier registration service architecture (stub)
+- [Carrier Registration Service](architecture/carrier-registration.md) - Carrier onboarding and OAuth management microservice with 15+ carriers, PostgreSQL credential storage, multi-step workflows, and HAL API (268 JS files, 35 migrations)
 - [Order Search](architecture/order-search.md) - Order search service architecture (stub)
 - [StorePep Internal API](architecture/storepep-internal-api.md) - Internal API service architecture (stub)
 - [Order Updates](architecture/order-updates.md) - Order updates service architecture (stub)

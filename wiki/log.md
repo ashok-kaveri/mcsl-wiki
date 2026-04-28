@@ -1,5 +1,12 @@
 # StorePep KB Activity Log
 
+## [2026-04-28 17:30] ingest | Carrier Registration Service
+- Updated: `architecture/carrier-registration.md` — Replaced stub with comprehensive documentation
+- Updated: `index.md` — Updated carrier-registration description in Architecture section
+- Updated: `log.md`
+- Git reference: aa78e90db3b0d01ce297d68a370fc67524440a9f (carrier-registration submodule)
+- Summary: Ingested carrier-registration microservice (268 JS files, ~11,958 LOC, 35 migrations). Documented carrier onboarding and OAuth management service that manages registration workflows, credential storage, and token lifecycle for 15+ carriers (FedEx REST, UPS OAuth, Amazon Shipping, PostNord, USPS, Delhivery, etc.). Core functions: (1) Multi-step registration workflows (Invoice/PIN/Support-based for FedEx), (2) OAuth 2.0 token lifecycle (obtain, refresh, store), (3) Encrypted credential storage in PostgreSQL (4 tables: merchant_registration, merchant_credentials, merchant_license_map, merchant_token_requests), (4) License-to-carrier mappings, (5) Platform-specific credential isolation (Shopify, WooCommerce, Magento). Key routes: POST /registration (register), GET /registration (workflow steps), PUT /registration/license (renew), GET /registration/credentials (fetch), POST /registration/verification (verify). Services: 33 files (RegistrationProvider, LicenseRegistrationProvider, AuthProvider, CredentialProvider, TokenRefreshProvider, WorkflowStepsProvider). Infrastructure: 15 carrier modules with Service Locator pattern. API: RESTful with HAL resources, content negotiation (V0/V1), JWT auth + x-phive-api-key. Database: PostgreSQL with 35 migrations. Events: Emits CarrierRegisteredForPluginLicense consumed by StorePep platform for credential caching. Deployment: Lambda + API Gateway, Ansible, Jenkins CI/CD, Docker. Comparison table to ship-rate-track-proxy: registration is upstream stateful setup service (one-time/periodic), ship-rate-track-proxy is downstream stateless operational service (high-frequency per shipment). Identified 8 tech debt items (low test coverage 17 tests, 64KB config file, no idempotency, error handling gaps, no rate limiting, platform spoofing risk, V0 API legacy, credential versioning bloat).
+
 ## [2026-04-28 16:51] ingest | Shopify Multi-Carrier App Shell
 - Added submodule: `raw/shopify-multicarrier-app` — Shopify shell for multi carrier app
 - Created: `architecture/shopify-multicarrier-app.md` — Shopify OAuth wrapper and installation shell architecture
