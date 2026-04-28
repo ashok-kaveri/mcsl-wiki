@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/zendesk/2026-04-28.md",
+                "file": "wiki/architecture/carrier-registration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-28"
+              "title": "carrier-registration"
             }
           }
         ]
@@ -53,11 +53,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ZI-360",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,23 +185,25 @@
   },
   "active": "601b0503667b3fa9",
   "lastOpenFiles": [
+    "raw/storepep-react/storepepSAAS/server/db-migrations/20260428071103-update-royalmail-services-via-easypost.js",
+    "raw/carrier-registration/docs/fedex/pin_validation.puml",
+    "raw/carrier-registration/docs/fedex/main.puml",
+    "raw/carrier-registration/docs/fedex/e2e.puml",
+    "raw/carrier-registration/docs/fedex/address_pin_generation.puml",
+    "raw/carrier-registration/docs/fedex",
+    "wiki/architecture/carrier-api-proxy-pattern.md",
+    "wiki/zendesk/2026-04-28.md",
+    "wiki/patterns/carrier-oauth-flow.md",
     "raw/carrier-registration/docs/ups_oauth.puml",
     "raw/carrier-registration/docs",
     "raw/zendesk/shopify/386361.json",
     "raw/zendesk/shopify/386494.json",
     "raw/zendesk/shopify/386498.json",
-    "raw/zendesk/shopify/386509.json",
-    "raw/zendesk/shopify/386514.json",
     "wiki/architecture/shopify-multicarrier-app.md",
-    "raw/shopify-multicarrier-app/wiki/architecture",
-    "raw/shopify-multicarrier-app/wiki",
-    "raw/shopify-multicarrier-app/server/src/modules/common/events/index.js",
-    "raw/shopify-multicarrier-app/server/src/modules/common/events/eventBusPublisher.js",
     "raw/shopify-multicarrier-app/client/public/images/logo.png",
     "wiki/product/stories/ZI-360.md",
     "Untitled.canvas",
     "wiki/zendesk/summaries/381243.md",
-    "wiki/zendesk/2026-04-28.md",
     "wiki/product/releases/MCSL-377.md",
     "wiki/product/releases/MCSL-378.md",
     "wiki/zendesk/2026-04-27.md",
@@ -221,8 +222,6 @@
     "wiki/product/stories/ZI-339.md",
     "wiki/product/stories/ZI-349.md",
     "wiki/product/stories/ZI-356.md",
-    "wiki/product/stories/ZI-355.md",
-    "wiki/product/stories/ZI-354.md",
-    "wiki/product/stories/ZI-353.md"
+    "wiki/product/stories/ZI-355.md"
   ]
 }
