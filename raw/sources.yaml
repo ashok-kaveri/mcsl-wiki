@@ -9,6 +9,12 @@ sources:
     description: "Main StorePep SaaS codebase (React frontend + Node backend)"
     repo: git@bitbucket.org:xadapter-cyd/storepep-react.git
 
+  shopify-multicarrier-app:
+    type: git-submodule
+    path: raw/shopify-multicarrier-app
+    description: "Shopify Multi Carrier App codebase"
+    repo: git@bitbucket.org:xadapter-cyd/shopify-multicarrier-app.git
+
   mcsl-test-automation:
     type: git-submodule
     path: raw/mcsl-test-automation
@@ -56,6 +62,7 @@ sources:
     path: raw/fulfillment-service
     description: "Fulfillment service managing order fulfillment workflows"
     repo: git@gitlab.com:pghive/services/fulfillment-service.git
+
 
   zendesk:
     type: webhook-json
