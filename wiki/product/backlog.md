@@ -291,3 +291,40 @@ Cross-listed issues: ZI-052 (Label Gen + FedEx REST), ZI-058 (Label Gen + Austra
 - [Zendesk Issue Extraction 2026-04-13](../zendesk/2026-04-13.md) - Source ZI issue extraction from 66 tickets
 - [Ground Zero Sprint Views](../support/ground-zero/sprint-views.md) - 6 priority queues spanning all apps
 - [Ground Zero Pain Ranking](../support/ground-zero/pain-ranking.md) - Full 68-ticket cross-app ranked list
+
+---
+
+## Shipped in MCSL 377 — 2026-04-28 (re-shipped)
+
+**Release Summary**: 29 cards total (18 Ready To Ship, 2 Support Closed, 2 Unsupported Partnership, 2 Carrier Platform Issues, 1 BUG REPORTED, 1 QA READY, 2 Open, 1 Spill Over)
+
+**Shipped/Closed**: 24 cards (18 Ready To Ship + 2 Support Closed + 2 Unsupported Partnership + 2 Carrier Platform Issues)
+
+**⚠️ Non-terminal at re-ship**: 5 cards (1 BUG REPORTED, 1 QA READY, 2 Open, 1 Spill Over)
+
+| ZI | Status | Ticket | Card |
+|----|--------|--------|------|
+| ZI-007 | Ready To Ship | [#304193](../zendesk/summaries/304193.md) | [Link](https://trello.com/c/5MHzHTHX) |
+| ZI-012 | Ready To Ship | [#348049](../zendesk/summaries/348049.md) | [Link](https://trello.com/c/4O2qtG5a) |
+| ZI-013 | Ready To Ship | [#354696](../zendesk/summaries/354696.md) | [Link](https://trello.com/c/eS4A1leH) |
+| ZI-015 | Ready To Ship | [#361776](../zendesk/summaries/361776.md) | [Link](https://trello.com/c/PkYyotgd) |
+| ZI-021 | Ready To Ship | [#369144](../zendesk/summaries/369144.md) | [Link](https://trello.com/c/f7opk5j4) |
+| ZI-022 | Ready To Ship | [#369556](../zendesk/summaries/369556.md) | [Link](https://trello.com/c/xGKh9VxZ) |
+| ZI-032 | Ready To Ship | [#373991](../zendesk/summaries/373991.md) | [Link](https://trello.com/c/YMDkiZpi) |
+| ZI-033 | Ready To Ship | [#373991](../zendesk/summaries/373991.md) | [Link](https://trello.com/c/vxt5hVgw) |
+| ZI-035 | Ready To Ship | [#374851](../zendesk/summaries/374851.md) | [Link](https://trello.com/c/5IrdjdB5) |
+| ZI-039 | Ready To Ship | [#377526](../zendesk/summaries/377526.md) | [Link](https://trello.com/c/SUyCh7kL) |
+| ZI-041 | Ready To Ship | [#377526](../zendesk/summaries/377526.md) | [Link](https://trello.com/c/gvXEqh1o) |
+| ZI-046 | Ready To Ship | [#377574](../zendesk/summaries/377574.md) | [Link](https://trello.com/c/6d6xn2el) |
+| ZI-048 | Ready To Ship | [#378511](../zendesk/summaries/378511.md) | [Link](https://trello.com/c/XOMzbVqD) |
+| ZI-049 | Ready To Ship | [#378513](../zendesk/summaries/378513.md) | [Link](https://trello.com/c/2xiIZROW) |
+| ZI-060 | Ready To Ship | [#380339](../zendesk/summaries/380339.md) | [Link](https://trello.com/c/vqCI9275) |
+| ZI-067 | Ready To Ship | [#381380](../zendesk/summaries/381380.md) | [Link](https://trello.com/c/IroRLJ0E) |
+| ZI-071 | Ready To Ship | [#382009](../zendesk/summaries/382009.md) | [Link](https://trello.com/c/Nad1fC51) |
+| ZI-263 | Ready To Ship | [#384408](../zendesk/summaries/384408.md) | [Link](https://trello.com/c/DJn4GJCG) |
+| ZI-023 | Support Closed | [#369556](../zendesk/summaries/369556.md) | [Link](https://trello.com/c/v6cIPFyE) |
+| ZI-051 | Support Closed | [#379042](../zendesk/summaries/379042.md) | [Link](https://trello.com/c/xuBZ7old) |
+| ZI-018 | Unsupported Partnership | [#366630](../zendesk/summaries/366630.md) | [Link](https://trello.com/c/NJ7hg2Oi) |
+| ZI-057 | Unsupported Partnership | [#379963](../zendesk/summaries/379963.md) | [Link](https://trello.com/c/DxVXh1CF) |
+| ZI-008 | Carrier Platform Issues | [#306141](../zendesk/summaries/306141.md) | [Link](https://trello.com/c/9rdDqCiL) |
+| ZI-069 | Carrier Platform Issues | [#382009](../zendesk/summaries/382009.md) | [Link](https://trello.com/c/IDjBgyhh) |

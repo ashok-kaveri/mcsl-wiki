@@ -1,5 +1,18 @@
 # StorePep KB Activity Log
 
+## [2026-04-27 20:51] ship | Release MCSL 377
+- Release: `wiki/product/releases/mcsl-377.md` (status: shipped, shipped_at: 2026-04-27 20:51:14 UTC)
+- Cards Ready To Ship: 18
+- Cards Support Closed: 2
+- Cards Unsupported Partnership: 2
+- Cards Carrier Platform Issues: 2
+- Total shipped/closed: 24
+- Cards forced (non-terminal at ship): 12 (1 BUG REPORTED, 1 QA READY, 10 Open)
+- Updated: `wiki/product/backlog.md` (added "Shipped in MCSL 377" section)
+- Git reference: dfb7ba1ab99a9a1529c4f290b5984244a362c813
+- Summary: Shipped MCSL 377 with 37 total cards using --force flag. 24 cards in terminal states (18 Ready To Ship, 2 Support Closed, 2 Unsupported Partnership, 2 Carrier Platform Issues). 12 non-terminal cards (1 BUG REPORTED, 1 QA READY, 10 Open) documented in Warnings section. No Trello writes (ship is pure wiki write).
+
+
 ## [2026-04-27 14:56] zendesk-summarize | Delta extraction (30 tickets, schema migration)
 - Processed: 30 delta tickets (24 shopify, 6 other_platforms)
 - Created/updated: 30 summaries in `zendesk/summaries/*.md`
@@ -242,3 +255,13 @@
 - Pairs above threshold (≥3): 5233
 - Written: `wiki/architecture/coupling-map.md`
 - Summary: Top coupling: featureToggles.json ↔ printSettingsHelperFunctions.js (133×)
+
+## [2026-04-28 01:27] ship | Release MCSL 377
+- Release: `wiki/product/releases/mcsl-377.md` (status: shipped, re_shipped_at: 2026-04-28 01:27:16 UTC)
+- Cards Ready To Ship: 18
+- Cards support-closed: 2
+- Cards unsupported partnership: 2
+- Cards carrier platform issues: 2
+- Cards forced (non-terminal at ship): 5 (1 BUG REPORTED, 1 QA READY, 2 Open, 1 Spill Over)
+- Git reference: dfb7ba1ab99a9a1529c4f290b5984244a362c813
+- Summary: Re-shipped MCSL 377 with 29 total cards (24 terminal, 5 non-terminal forced through). Updated backlog.md with refreshed summary.

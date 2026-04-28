@@ -4,13 +4,15 @@ category: product-release
 tag: "MCSL 377"
 tag_slug: mcsl-377
 board_id: 63e1e0414b6026c45be1087c
-lane_filter: "SL MCSL 377: Iteration backlog"
-status: draft
-last_synced: 2026-04-26 14:19:53 UTC
-shipped_at: null
-git_reference: a75d4bc0c99ca241897a05d44b22414db9ff0278
+lane_filter: "None"
+status: shipped
+last_synced: "2026-04-28 01:27:16 UTC"
+shipped_at: "2026-04-27 20:51:14 UTC"
+re_shipped_at:
+  - "2026-04-28 01:27:16 UTC"
+git_reference: dfb7ba1ab99a9a1529c4f290b5984244a362c813
 tickets_delta_on_last_sync: 0
-cards_total: 28
+cards_total: 29
 cards_shipped: 0
 cards_ready_to_ship: 18
 cards_high_risk: 2
@@ -18,13 +20,13 @@ cards_support_closed: 2
 cards_unsupported_partnership: 2
 cards_carrier_platform_issues: 2
 cards_bug_reported: 1
-cards_open: 1
+cards_open: 2
 cards_spill_over: 1
 ---
 
 # Release MCSL 377
 
-> **Status**: draft · **Last synced**: 2026-04-26 14:19 UTC · **Board**: [ph-WIP](https://trello.com/b/63e1e0414b6026c45be1087c)
+> **Status**: RE-SHIPPED 2026-04-28 01:27:16 UTC (originally 2026-04-27 20:51:14 UTC) · **Last synced**: 2026-04-28 01:27 UTC · **Board**: [ph-WIP](https://trello.com/b/63e1e0414b6026c45be1087c)
 
 ## Summary
 
@@ -39,11 +41,11 @@ cards_spill_over: 1
 | BUG REPORTED | 1 |
 | QA READY | 1 |
 | DEV | 0 |
-| Open (not started) | 1 |
+| Open (not started) | 2 |
 | Spill Over | 1 |
-| **Total** | **28** |
+| **Total** | **29** |
 
-**Note:** The following 2 card(s) appear in multiple sections: ZI-012 (Ready To Ship, ⚠️ High Risk); ZI-057 (Unsupported Partnership, ⚠️ High Risk). Total unique cards: 28.
+**Note:** The following 3 card(s) appear in multiple sections: ZI-012 (Ready To Ship, ⚠️ High Risk); ZI-057 (Unsupported Partnership, ⚠️ High Risk); ZI-071 (Ready To Ship, Open (not started)). Total unique cards: 29.
 
 ## Legend
 
@@ -123,7 +125,7 @@ cards_spill_over: 1
 |----|--------|------|
 | ZI-058 | [#380339](../../zendesk/summaries/380339.md) | [Link](https://trello.com/c/sSi9UvRe) |
 
-## Still Open (2)
+## Still Open (3)
 
 ### QA READY (1)
 
@@ -135,18 +137,30 @@ cards_spill_over: 1
 
 *No cards in this state*
 
-### Open / not started (1)
+### Open / not started (2)
 
 | ZI | Ticket | Card |
 |----|--------|------|
 | ZI-043 | [#377526](../../zendesk/summaries/377526.md) | [Link](https://trello.com/c/zeDfg5F5) |
+| ZI-071 | [#382009](../../zendesk/summaries/382009.md) | [Link](https://trello.com/c/MqNu7xPa) |
+
+## Warnings
+
+Re-shipped with non-terminal cards:
+
+| ZI | State | Card |
+|----|-------|------|
+| ZI-024 | BUG REPORTED | [Link](https://trello.com/c/60eHAZHb) |
+| ZI-025 | QA READY | [Link](https://trello.com/c/fLfH0osZ) |
+| ZI-043 | Open (not started) | [Link](https://trello.com/c/zeDfg5F5) |
+| ZI-071 | Open (not started) | [Link](https://trello.com/c/MqNu7xPa) |
+| ZI-058 | Spill Over | [Link](https://trello.com/c/sSi9UvRe) |
 
 ## Notes
 
 - Cards missing `[close-reason: ...]` comment: TBD
 - Cards with no ph-WIP correlation: 0 (all cards are on ph-WIP board)
 - Cards dropped since last snapshot: 0
-- Warnings: None
 
 ## Cross-Links
 
