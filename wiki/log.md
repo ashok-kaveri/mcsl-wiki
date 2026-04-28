@@ -1,5 +1,13 @@
 # StorePep KB Activity Log
 
+## [2026-04-28 16:51] ingest | Shopify Multi-Carrier App Shell
+- Added submodule: `raw/shopify-multicarrier-app` — Shopify shell for multi carrier app
+- Created: `architecture/shopify-multicarrier-app.md` — Shopify OAuth wrapper and installation shell architecture
+- Updated: `index.md` — Added shopify-multicarrier-app to sources and architecture section
+- Updated: `log.md`
+- Git reference: 8ca5f05476a5f44b05cf7d8ab79cf09d58d91743 (shopify-multicarrier-app submodule)
+- Summary: Ingested shopify-multicarrier-app, a Shopify-specific OAuth/installation wrapper (113 JS files: 84 server, 29 client). This is NOT the main StorePep platform — it's a lightweight shell that handles Shopify App Store distribution. Core functions: (1) Shopify OAuth flow and store authentication, (2) Account provisioning on main StorePep platform via JWT, (3) Shopify subscription billing management, (4) Store metadata and location sync, (5) API proxy between Shopify and StorePep. Key routes: shopify.js (OAuth, billing, webhooks), storepepConnect.js (account registration, login, location sync), rates.js (rate proxy), plans.js (subscription plans). Database: Local MongoDB with shops schema (access tokens, StorePep UUIDs, billing info) and settings. Tech stack: React 16, Redux, Express 4, Mongoose 5, Shopify Polaris 3, @phivejs packages (config, eventing, feature-switch). Platform integration: All shipping logic delegated to StorePep via REST API with JWT auth. Documented differences from storepep-react: purpose (OAuth shell vs. full platform), scope (installation/billing vs. shipping workflow), UI (minimal vs. complete), database (shops only vs. full platform schema), deployment (Shopify App Store vs. SaaS). Identified tech debt: legacy schema fields, hardcoded scopes, error handling gaps, scope management pattern.
+
 ## [2026-04-27 20:51] ship | Release MCSL 377
 - Release: `wiki/product/releases/mcsl-377.md` (status: shipped, shipped_at: 2026-04-27 20:51:14 UTC)
 - Cards Ready To Ship: 18

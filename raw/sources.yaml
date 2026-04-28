@@ -12,7 +12,7 @@ sources:
   shopify-multicarrier-app:
     type: git-submodule
     path: raw/shopify-multicarrier-app
-    description: "Shopify Multi Carrier App codebase"
+    description: "Shopify shell for multi carrier app"
     repo: git@bitbucket.org:xadapter-cyd/shopify-multicarrier-app.git
 
   mcsl-test-automation:

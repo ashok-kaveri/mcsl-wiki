@@ -2,18 +2,19 @@
 title: StorePep KB Index
 category: index
 status: complete
-last_updated: 2026-04-27
+last_updated: 2026-04-28
 git_reference: current
 ---
 
 # StorePep KB Index
 
-Last updated: 2026-04-27
+Last updated: 2026-04-28
 
 ## Sources
 
 Git submodules (code repositories):
 - [storepep-react](../raw/storepep-react/) - Main StorePep SaaS codebase (React frontend + Node backend)
+- [shopify-multicarrier-app](../raw/shopify-multicarrier-app/) - Shopify shell for multi carrier app
 - [mcsl-test-automation](../raw/mcsl-test-automation/) - Playwright E2E test suite
 - [carrier-registration](../raw/carrier-registration/) - Carrier registration service
 - [ship-rate-track-proxy](../raw/ship-rate-track-proxy/) - Ship rate track APIs (carrier API implementations)
@@ -32,6 +33,7 @@ Other sources:
 ## Architecture
 
 - [Overview](architecture/overview.md) - High-level system architecture and component interaction
+- [Shopify Multi-Carrier App Shell](architecture/shopify-multicarrier-app.md) - Shopify OAuth wrapper and installation shell bridging Shopify stores to StorePep platform
 - [Frontend Architecture](architecture/frontend-architecture.md) - React, Redux, Material-UI setup and patterns
 - [Backend Architecture](architecture/backend-architecture.md) - Express, MongoDB, service layer architecture
 - [Technology Stack](architecture/technology-stack.md) - Complete dependency listing and version information
@@ -149,8 +151,8 @@ Other sources:
 
 ---
 
-**Total pages**: 236+ (69 wiki + 66 ticket summaries + 100+ story cards + 1 index)
-**Last update**: 2026-04-27 (Ingested ship-rate-track-proxy: carrier API proxy pattern + unified gateway)
+**Total pages**: 237+ (70 wiki + 66 ticket summaries + 100+ story cards + 1 index)
+**Last update**: 2026-04-28 (Ingested shopify-multicarrier-app: Shopify shell for multi-carrier app)
 **Status**: Architecture + Orders + Shipping + Automation + Stores + Products + Warehouses + Reporting + Product Management + Support Triage + Zendesk Issue Pipeline documented
 **Test Coverage**: 58 automated Playwright tests covering 95 features
-**Sources**: 9 git submodules + 4 other source types (Zendesk, Google Sheets, Slack)
+**Sources**: 10 git submodules + 4 other source types (Zendesk, Google Sheets, Slack)
