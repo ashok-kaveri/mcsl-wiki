@@ -18,8 +18,8 @@
       }
     },
     "created_at": "2026-04-27T15:06:00Z",
-    "updated_at": "2026-04-27T15:54:31Z",
-    "generated_timestamp": 1777305271,
+    "updated_at": "2026-04-28T03:22:43Z",
+    "generated_timestamp": 1777346564,
     "type": null,
     "subject": "Billing Problem",
     "raw_subject": "Billing Problem",
@@ -85,7 +85,7 @@
       },
       {
         "id": 11144851505177,
-        "value": null
+        "value": "69f02802950743d4f0b759ce"
       },
       {
         "id": 11647557879065,
@@ -157,7 +157,7 @@
       },
       {
         "id": 11144851505177,
-        "value": null
+        "value": "69f02802950743d4f0b759ce"
       },
       {
         "id": 11647557879065,
@@ -312,6 +312,86 @@
         }
       },
       "created_at": "2026-04-27T15:54:31Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57382226548377,
+      "type": "Comment",
+      "author_id": 55030227170585,
+      "body": "It is for our Visa ending in 4994\n\n\n\n4/20 Charge for $29 titled Popular Plan\n\n4/20 Charge for $29 titled Popular Plan\n\n4/21 Charge for $29 titled Popular Plan\n\n\n\nTim Boettcher\n\n303.744.3505\n\nTrue Pump & Equipment, Inc.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0in 0in .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">It is for our Visa ending in 4994</span></p>\n<p style=\"font-size: 12.0pt; margin: 0in 0in .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0in 0in .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">4/20 Charge for $29 titled Popular Plan</span></p>\n<p style=\"font-size: 12.0pt; margin: 0in 0in .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">4/20 Charge for $29 titled Popular Plan</span></p>\n<p style=\"font-size: 12.0pt; margin: 0in 0in .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">4/21 Charge for $29 titled Popular Plan</span></p>\n<p style=\"font-size: 12.0pt; margin: 0in 0in .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">&nbsp;</span></p>\n<div>\n<p style=\"font-size: 12.0pt; margin: 0in 0in .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: navy;\">Tim Boettcher</span><span style=\"font-size: 11.0pt; color: navy;\"></span></p>\n<p style=\"font-size: 12.0pt; margin: 0in 0in .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: navy;\">303.744.3505</span></p>\n<p style=\"font-size: 12.0pt; margin: 0in 0in .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: navy;\">True Pump &amp; Equipment, Inc.</span><span style=\"font-size: 11.0pt; color: navy;\"></span></p>\n</div>\n<p style=\"font-size: 12.0pt; margin: 0in 0in .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "It is for our Visa ending in 4994 \n &nbsp; \n 4/20 Charge for $29 titled Popular Plan \n 4/20 Charge for $29 titled Popular Plan \n 4/21 Charge for $29 titled Popular Plan \n &nbsp; \n \n Tim Boettcher \n 303.744.3505 \n True Pump &amp; Equipment, Inc. \n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57382226548249,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "tboettcher@truepump.com",
+            "name": "Tim Boettcher",
+            "original_recipients": [
+              "tboettcher@truepump.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-27T17:59:41Z",
+      "metadata": {
+        "system": {
+          "message_id": "<8145485e71bd4421b62931fe7e9b1670@truepump.com>",
+          "email_id": "01KQ81HKCS3Y42M9J5052YHV1F",
+          "raw_email_identifier": "2369120/8f93fa79-e68a-4cbb-bade-4d9dc3b56cc1.eml",
+          "json_email_identifier": "2369120/8f93fa79-e68a-4cbb-bade-4d9dc3b56cc1.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57383034985369,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Tim Boettcher,\n\nThank you for your reply.\n\nPlease allow us some time we get back to you with an update.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Tim Boettcher,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>Please allow us some time we get back to you with an update.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Tim Boettcher,\n&nbsp;\nThank you for your reply.\n&nbsp;\nPlease allow us some time we get back to you with an update.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57383034985241,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-27T19:25:11Z",
       "metadata": {
         "system": {
           "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
