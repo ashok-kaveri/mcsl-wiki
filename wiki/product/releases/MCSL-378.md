@@ -6,6 +6,7 @@ tag_slug: mcsl-378
 board_id: 63e1e0414b6026c45be1087c
 lane_filter: "None"
 status: draft
+last_updated: 2026-04-27
 last_synced: 2026-04-27 20:16:10 UTC
 shipped_at: null
 git_reference: a75d4bc0c99ca241897a05d44b22414db9ff0278

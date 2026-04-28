@@ -6,6 +6,7 @@ tag_slug: mcsl-377
 board_id: 63e1e0414b6026c45be1087c
 lane_filter: "None"
 status: shipped
+last_updated: 2026-04-28
 last_synced: "2026-04-28 01:27:16 UTC"
 shipped_at: "2026-04-27 20:51:14 UTC"
 re_shipped_at:
