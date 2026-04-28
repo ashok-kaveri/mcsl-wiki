@@ -2265,19 +2265,79 @@ If validation fails, the script will report specific mismatches with card names,
 
 **Step 1 — Parse arguments and run snapshot:**
 
-**Parse flags:**
+**CRITICAL: Parse ALL flags from the ship command first:**
+
+Parse the ship command arguments using the Mode 3 argument parsing algorithm (see "Argument Parsing (Mode 1 and Mode 3)" section):
 - Extract `tag` (required positional argument)
-- Extract `--board <name>` → resolve to board ID (default: PH_WIP_BOARD)
-- Extract `--lane <name>` → lane filter (default: None)
+- Extract `--board <name>` → resolve to board ID using `BOARD_NAMES` mapping (default: PH_WIP_BOARD if not specified)
+- Extract `--lane <name>` → lane filter (default: None if not specified)
 - Extract `--force` flag (default: False)
 - Extract `--no-sync` flag (default: False)
 
-**Run snapshot**: Execute full Mode 3b logic with parsed arguments:
+**CRITICAL: Preserve existing release parameters if they exist:**
+
+Before running snapshot, check if the release file already exists and preserve its parameters:
+
 ```bash
-python3 snapshot_release.py "$tag" --board "$board" --lane "$lane"
-# (omit --board if using default, omit --lane if not specified)
+TAG_SLUG=$(echo "$tag" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+RELEASE_FILE="wiki/product/releases/${TAG_SLUG}.md"
+
+# If release file exists, read and preserve lane_filter
+if [ -f "$RELEASE_FILE" ]; then
+    EXISTING_LANE=$(yq eval '.lane_filter' "$RELEASE_FILE")
+
+    # If no --lane was passed in ship command, use the existing lane_filter
+    if [ -z "$lane_name" ] && [ "$EXISTING_LANE" != "null" ]; then
+        lane_name="$EXISTING_LANE"
+        echo "ℹ️  Preserving existing lane filter: $lane_name"
+    fi
+fi
 ```
-Ensures release.md is current.
+
+**Run snapshot with ALL parsed parameters:**
+
+```bash
+# MANDATORY: Pass ALL parsed parameters to snapshot (even if default values)
+# This ensures snapshot uses the SAME board/lane that ship command specified
+
+# Build snapshot command with board parameter
+snapshot_cmd="python3 .claude/skills/sl-iteration/snapshot_release.py \"$tag\" --board \"$board_name_or_id\""
+
+# Add --lane if specified (either from command or preserved from existing release)
+if [ -n "$lane_name" ]; then
+    snapshot_cmd="$snapshot_cmd --lane \"$lane_name\""
+fi
+
+# Execute snapshot
+eval $snapshot_cmd
+```
+
+**Example parameter flows:**
+
+1. First-time ship (no existing release):
+   - User runs: `/sl-iteration ship "MCSL 377" --board ph-wip`
+   - Parse: `tag="MCSL 377"`, `board="ph-wip"`, `lane=None`
+   - No existing release → lane stays None
+   - Call: `python3 snapshot_release.py "MCSL 377" --board ph-wip`
+
+2. Re-ship existing release (preserves lane):
+   - Existing release has: `lane_filter: "SL MCSL 377: Iteration backlog"`
+   - User runs: `/sl-iteration ship "MCSL 377" --board ph-wip`
+   - Parse: `tag="MCSL 377"`, `board="ph-wip"`, `lane=None`
+   - Reads existing release → preserves lane: `"SL MCSL 377: Iteration backlog"`
+   - Call: `python3 snapshot_release.py "MCSL 377" --board ph-wip --lane "SL MCSL 377: Iteration backlog"`
+
+3. Override with explicit lane:
+   - User runs: `/sl-iteration ship "MCSL 377" --board ph-wip --lane "Different Lane"`
+   - Parse: `tag="MCSL 377"`, `board="ph-wip"`, `lane="Different Lane"`
+   - Explicit --lane in command overrides existing lane_filter
+   - Call: `python3 snapshot_release.py "MCSL 377" --board ph-wip --lane "Different Lane"`
+
+**DO NOT skip passing --board even if it's the default** - the snapshot script needs to know which board ship is targeting.
+
+**DO NOT skip preserving lane_filter** - existing releases must maintain their lane scope on re-ship.
+
+Ensures release.md reflects the SAME board state that ship will freeze.
 
 **Step 2 — Parse latest snapshot**: Re-read the freshly written release.md. Count cards by state.
 
