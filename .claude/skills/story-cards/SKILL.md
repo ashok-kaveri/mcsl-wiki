@@ -398,7 +398,7 @@ Each scenario must have:
 6. Write the user story, acceptance criteria, and GWT scenarios following the writing rules
 7. Write story card to `wiki/product/stories/ZI-NNN.md` (include closure note if closed)
 7.5. **QUALITY GATE (MANDATORY)** — Automated validation using `validate_story_card.py`:
-   - Run: `python validate_story_card.py wiki/product/stories/ZI-NNN.md`
+   - Run: `python .claude/skills/story-cards/validate_story_card.py wiki/product/stories/ZI-NNN.md`
    - Validation checks:
      - Title quality (no questions, specific, actionable, under 120 chars)
      - User Story quality (not generic, grounded in customer situation, at least 150 chars)
@@ -614,9 +614,9 @@ Auto-detect carriers from ticket summary + title using these keywords:
 
 ### Automated Validation
 
-**Tool**: `validate_story_card.py` at project root
+**Tool**: `.claude/skills/story-cards/validate_story_card.py`
 
-**Usage**: `python validate_story_card.py wiki/product/stories/ZI-NNN.md`
+**Usage**: `python .claude/skills/story-cards/validate_story_card.py wiki/product/stories/ZI-NNN.md`
 
 **Exit codes**:
 - `0` — validation passed, card meets quality standards
@@ -676,7 +676,7 @@ Auto-detect carriers from ticket summary + title using these keywords:
 
 **Automated validation enforces quality at every card creation:**
 
-1. **After writing the markdown** → `python validate_story_card.py wiki/product/stories/ZI-NNN.md`
+1. **After writing the markdown** → `python .claude/skills/story-cards/validate_story_card.py wiki/product/stories/ZI-NNN.md`
 2. **If validation fails** (exit code 1):
    - Read the validation output carefully
    - Identify which sections failed (Title, User Story, Simple AC, GWT scenarios)
