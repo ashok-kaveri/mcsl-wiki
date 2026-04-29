@@ -397,10 +397,22 @@ Each scenario must have:
 5. Compute SLA target and status
 6. Write the user story, acceptance criteria, and GWT scenarios following the writing rules
 7. Write story card to `wiki/product/stories/ZI-NNN.md` (include closure note if closed)
-7.5. **QUALITY GATE (MANDATORY)** — Run the card through the Quality Assurance checklist above:
-   - If ANY check fails → STOP, REWRITE, RE-VALIDATE, repeat until ALL checks pass
-   - If ALL checks pass → proceed to step 8
-   - **This is a hard stop. Do not skip.**
+7.5. **QUALITY GATE (MANDATORY)** — Automated validation using `validate_story_card.py`:
+   - Run: `python validate_story_card.py wiki/product/stories/ZI-NNN.md`
+   - Validation checks:
+     - Title quality (no questions, specific, actionable, under 120 chars)
+     - User Story quality (not generic, grounded in customer situation, at least 150 chars)
+     - Simple Acceptance Criteria (at least 3 items, no vague patterns, at least 20 chars each)
+     - Given/When/Then scenarios (at least 3 scenarios, complete GWT structure, specific clauses)
+   - **If validation FAILS** (exit code 1):
+     - Read the validation output to understand which checks failed
+     - REWRITE the failing sections (title, user story, AC, or GWT)
+     - Save the updated card
+     - RE-VALIDATE with the same command
+     - Repeat until exit code 0 (all checks pass)
+   - **If validation PASSES** (exit code 0):
+     - Proceed to step 8
+   - **This is a hard stop. Never push to Trello without passing validation.**
 8. **Duplicate detection**:
    - **Fetch board fresh right now** (do NOT reuse a cached snapshot from earlier in the same run): `GET /boards/69dd9134576a26fcb79b670d/cards?fields=name,desc,shortUrl,id` (no `limit` param)
    - Initialize: `is_duplicate = False`, `duplicate_card_url = None`, `duplicate_zi = None`, `existing_card_id = None`
@@ -598,9 +610,22 @@ Auto-detect carriers from ticket summary + title using these keywords:
 
 ## Quality Assurance Gate (MANDATORY BEFORE PUBLISHING)
 
-**EVERY story card MUST pass these checks before Trello push. If ANY check fails, REJECT and rewrite.**
+**EVERY story card MUST pass automated validation before Trello push.**
 
-### Card Title Quality Checklist
+### Automated Validation
+
+**Tool**: `validate_story_card.py` at project root
+
+**Usage**: `python validate_story_card.py wiki/product/stories/ZI-NNN.md`
+
+**Exit codes**:
+- `0` — validation passed, card meets quality standards
+- `1` — validation failed, card has quality issues (see output for details)
+- `2` — usage error or file not found
+
+**Enforcement**: The skill MUST NOT proceed to Trello push unless validation passes. If validation fails, rewrite the failing sections and validate again.
+
+### Card Title Quality Checklist (automated)
 
 - [ ] **NOT a question** — Title should be a statement, not the question from the ticket
   - ❌ Bad: "Give the WooCommerce Shipping Services Plugin another try?"
@@ -649,13 +674,19 @@ Auto-detect carriers from ticket summary + title using these keywords:
 
 ### ENFORCEMENT
 
-**If a card fails ANY check:**
-1. **STOP** — do not push to Trello
-2. **REWRITE** — title, user story, and/or acceptance criteria
-3. **RE-VALIDATE** — run through checklist again
-4. **ONLY THEN PUSH**
+**Automated validation enforces quality at every card creation:**
 
-**This is non-negotiable.** Generic boilerplate cards waste developer time and confuse the backlog. Every card must be worth reading.
+1. **After writing the markdown** → `python validate_story_card.py wiki/product/stories/ZI-NNN.md`
+2. **If validation fails** (exit code 1):
+   - Read the validation output carefully
+   - Identify which sections failed (Title, User Story, Simple AC, GWT scenarios)
+   - REWRITE only the failing sections
+   - Save the updated card
+   - RE-VALIDATE with the same command
+   - Repeat until exit code 0
+3. **Only after validation passes** → proceed to Trello push
+
+**This is non-negotiable and automated.** The validation script is the gatekeeper. No card reaches Trello without passing all checks. Generic boilerplate cards waste developer time and confuse the backlog. Every card must be worth reading.
 
 ---
 

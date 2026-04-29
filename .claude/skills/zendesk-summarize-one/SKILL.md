@@ -77,6 +77,11 @@ From the ticket path:
 
 ## Step 4: Analyze and summarize
 
+**CRITICAL**: Consult `@docs/lessons_learned_zendesk_summarize.md` for best practices, especially:
+- Priority reading order for large tickets (L3 comments first)
+- How to handle numbered lists in L3 escalations (each item = distinct issue)
+- Search patterns for `dev_needed` tickets
+
 Read through the comments (in reverse to find current state, then forward for timeline) and identify:
 
 1. **Timeline & Key Phases**: Major phases of the ticket lifecycle (initial request, investigation, escalation, resolution)

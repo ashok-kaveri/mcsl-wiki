@@ -109,6 +109,8 @@ Report any truncated or corrupt files.
 
 **CRITICAL**: Use `/zendesk-summarize-one <ticketId>` skill to summarize each ticket. Do NOT parse JSON directly.
 
+**Best practices**: The `/zendesk-summarize-one` skill references `@docs/lessons_learned_zendesk_summarize.md` for quality guidelines.
+
 ```bash
 # Single ticket mode:
 /zendesk-summarize-one $ARGUMENTS
