@@ -1,0 +1,1662 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/377088.json",
+    "id": 377088,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "sunshinesupply2016@yahoo.com",
+          "name": "Duong Pham"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-04T18:38:52Z",
+    "updated_at": "2026-04-14T13:31:49Z",
+    "generated_timestamp": 1776173509,
+    "type": null,
+    "subject": "Notification.",
+    "raw_subject": "Notification.",
+    "description": "Hi, \nPlease see below for an email received from you guys. Can you please help direct me on how to do this so I don't run into disruptions for my business moving forward? \n\n| Hi there, |\n| We're reaching out with an important update that directly affects your FedEx Shipping Plugin for WooCommerce with Print Label. FedEx has officially announced the retirement of its legacy Web Services (SOAP) APIs, and all merchants using FedEx for shipping must migrate to FedEx REST APIs to avoid disruption. |\n| As a FedEx Certified Compatible Solution Provider, the FedEx Shipping Plugin for WooCommerce with Print Label is fully prepared for REST APIs. We've already completed verification and production readiness — so the transition on your end is straightforward. |\n\n\n| What's Happening |\n| FedEx is permanently retiring its Web Services platform. If you're currently using legacy Web Services credentials (meter number, authentication key, etc.) in your FedEx Shipping Plugin for WooCommerce with Print Label, those credentials will stop working according to the following timeline: |\n\n\n| \n| Migration Timeline |\n| \n| • | March 31, 2026 — Final provider API verification & production readiness deadline |\n\n |\n| \n| • | April 1, 2026 — Meter deactivation window begins; Web Services retirement starts |\n\n |\n| \n| • | June 1, 2026 — Final Web Services shutdown (all legacy endpoints permanently offline) |\n\n |\n\n |\n\n\n| What This Means for You |\n| If no action is taken, your FedEx shipping rates, label printing, and tracking functionality within the plugin may be affected after April 1, 2026. This could impact your ability to display shipping rates, print FedEx labels, and fulfill orders from your WooCommerce store. |\n\n\n| How to Migrate (3 Simple Steps) |\n\n\n| \n| 1 |\n\n | Register for FedEx REST APIs\nComplete the registration directly from within the plugin settings. You'll need to provide your account and contact details — name, company name, phone number, email, and the complete business address associated with your FedEx account. |\n\n\n|   | Validate Your FedEx Account\nChoose a verification method to confirm your identity:\n| • OTP via SMS |\n| • OTP via Phone Call |\n| • OTP via Email |\n| • Invoice |\n| • Help Desk |\n\n |\n\n\n| \n| 2 |\n\n | Credentials Configured Automatically\nOnce registration and validation are complete, your new REST API credentials will be configured automatically within the plugin. No manual key entry required. |\n\n\n| \n| 3 |\n\n | Test & Confirm\nRun a test shipment or rate request to verify that shipping rates display correctly and label printing works as expected with the new REST API credentials. |\n\n\n\nThank you,Duong Pham | Manager Sunshine Nail & Beauty Supply, LLC\n4833 South 72nd Street Omaha, NE 68127 Tel: (402) 884-5972",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 30106058833945,
+    "submitter_id": 30106058833945,
+    "assignee_id": 408652762191,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      50108494045721
+    ],
+    "follower_ids": [
+      50108494045721
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "high_agent_replies",
+      "issues_with_setting_up_the_plugin",
+      "last_reply_agent",
+      "system_email_notification_failure",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "https://ssnailsupply.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69c9f7056390b883c8c286a4"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "offered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "44RM0J-N313L",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "https://ssnailsupply.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69c9f7056390b883c8c286a4"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 55701004262809,
+      "type": "Comment",
+      "author_id": 30106058833945,
+      "body": "Hi,\n\n\n\nPlease see below for an email received from you guys. Can you please help direct me on how to do this so I don't run into disruptions for my business moving forward?\n\n\n\nHi there,\nWe're reaching out with an important update that directly affects your **FedEx Shipping Plugin for WooCommerce with Print Label**. **FedEx has officially announced the retirement of its legacy Web Services (SOAP) APIs**, and all merchants using FedEx for shipping must migrate to FedEx REST APIs to avoid disruption.\n**As a FedEx Certified Compatible Solution Provider, the FedEx Shipping Plugin for WooCommerce with Print Label is fully prepared for REST APIs.** We've already completed verification and production readiness — so the transition on your end is straightforward.\n\nWhat's Happening\nFedEx is permanently retiring its Web Services platform. If you're currently using legacy Web Services credentials (meter number, authentication key, etc.) in your FedEx Shipping Plugin for WooCommerce with Print Label, those credentials will stop working according to the following timeline:\n\nMigration Timeline\n\n• **March 31, 2026** — Final provider API verification & production readiness deadline\n\n• **April 1, 2026** — Meter deactivation window begins; Web Services retirement starts\n\n• **June 1, 2026** — Final Web Services shutdown (all legacy endpoints permanently offline)\n\nWhat This Means for You\nIf no action is taken, **your FedEx shipping rates, label printing, and tracking functionality within the plugin may be affected after April 1, 2026.** This could impact your ability to display shipping rates, print FedEx labels, and fulfill orders from your WooCommerce store.\n\nHow to Migrate (3 Simple Steps)\n\n1 **Register for FedEx REST APIs**\nComplete the registration directly from within the plugin settings. You'll need to provide your account and contact details — name, company name, phone number, email, and the complete business address associated with your FedEx account.\n\n  **Validate Your FedEx Account**\nChoose a verification method to confirm your identity:\n\n• OTP via SMS\n• OTP via Phone Call\n• OTP via Email\n• Invoice\n• Help Desk\n\n2 **Credentials Configured Automatically**\nOnce registration and validation are complete, your new REST API credentials will be configured automatically within the plugin. No manual key entry required.\n\n3 **Test & Confirm**\nRun a test shipment or rate request to verify that shipping rates display correctly and label printing works as expected with the new REST API credentials.\n\n\n\n\n\nThank you,\nDuong Pham | Manager\nSunshine Nail & Beauty Supply, LLC\n\n4833 South 72nd Street\n\nOmaha, NE 68127\n\nTel: (402) 884-5972",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 13px;\"><div dir=\"ltr\">Hi,&nbsp;</div><div dir=\"ltr\"><br></div><div dir=\"ltr\">Please see below for an email received from you guys. Can you please help direct me on how to do this so I don't run into disruptions for my business moving forward?&nbsp;</div><div dir=\"ltr\"><br></div><div dir=\"ltr\"><div><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\" outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td style=\" font-size: 15px; line-height: 24px; color: rgb(45, 45, 45); padding-bottom: 20px; outline: none !important;\">Hi there,</td></tr><tr style=\"outline: none !important;\"><td style=\" font-size: 15px; line-height: 24px; color: rgb(45, 45, 45); padding-bottom: 20px; outline: none !important;\">We're reaching out with an important update that directly affects your&nbsp;<a href=\"https://followup.pluginhive.com/e/1105462/pping-plugin-with-print-label-/j4dl81/1119271749/h/adlS3rXhiGZYWG6hxmuR7JJceychUGp8GnsgBwhE1HM\" style=\"color: rgb(25, 106, 212); text-decoration-line: underline; outline: none !important;\" rel=\"noreferrer\"><strong style=\"outline: none !important;\">FedEx Shipping Plugin for WooCommerce with Print Label</strong></a>.&nbsp;<strong style=\"outline: none !important;\">FedEx has officially announced the retirement of its legacy Web Services (SOAP) APIs</strong>, and all merchants using FedEx for shipping must migrate to FedEx REST APIs to avoid disruption.</td></tr><tr style=\"outline: none !important;\"><td style=\" font-size: 15px; line-height: 24px; color: rgb(45, 45, 45); padding-bottom: 24px; outline: none !important;\"><strong style=\"outline: none !important; color: rgb(77, 20, 140);\">As a FedEx Certified Compatible Solution Provider, the FedEx Shipping Plugin for WooCommerce with Print Label is fully prepared for REST APIs.</strong>&nbsp;We've already completed verification and production readiness — so the transition on your end is straightforward.</td></tr></tbody></table><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\" outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td style=\" font-size: 17px; font-weight: 700; color: rgb(26, 26, 26); padding-bottom: 12px; outline: none !important;\">What's Happening</td></tr><tr style=\"outline: none !important;\"><td style=\" font-size: 15px; line-height: 24px; color: rgb(45, 45, 45); padding-bottom: 8px; outline: none !important;\">FedEx is permanently retiring its Web Services platform. If you're currently using legacy Web Services credentials (meter number, authentication key, etc.) in your FedEx Shipping Plugin for WooCommerce with Print Label, those credentials will stop working according to the following timeline:</td></tr></tbody></table><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\" outline: none !important; margin: 16px 0px 24px;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td style=\"background-color: rgb(249, 245, 255); border-left-width: 4px; border-left-color: rgb(77, 20, 140); border-left-style: solid; border-radius: 0px 6px 6px 0px; outline: none !important; padding: 20px 24px; background-color: F9F5FF\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td style=\" font-weight: 700; color: rgb(77, 20, 140); text-transform: uppercase; letter-spacing: 0.8px; padding-bottom: 12px; outline: none !important;\">Migration Timeline</td></tr><tr style=\"outline: none !important;\"><td style=\"padding-bottom: 10px; outline: none !important;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td valign=\"top\" style=\"padding-right: 10px; font-size: 14px; line-height: 22px; color: rgb(255, 98, 0); font-weight: 700; outline: none !important;\">•</td><td style=\" font-size: 14px; line-height: 22px; color: rgb(45, 45, 45); outline: none !important;\"><strong style=\"outline: none !important;\">March 31, 2026</strong>&nbsp;— Final provider API verification &amp; production readiness deadline</td></tr></tbody></table></td></tr><tr style=\"outline: none !important;\"><td style=\"padding-bottom: 10px; outline: none !important;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td valign=\"top\" style=\"padding-right: 10px; font-size: 14px; line-height: 22px; color: rgb(255, 98, 0); font-weight: 700; outline: none !important;\">•</td><td style=\" font-size: 14px; line-height: 22px; color: rgb(45, 45, 45); outline: none !important;\"><strong style=\"outline: none !important;\">April 1, 2026</strong>&nbsp;— Meter deactivation window begins; Web Services retirement starts</td></tr></tbody></table></td></tr><tr style=\"outline: none !important;\"><td style=\"outline: none !important;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td valign=\"top\" style=\"padding-right: 10px; font-size: 14px; line-height: 22px; color: rgb(255, 98, 0); font-weight: 700; outline: none !important;\">•</td><td style=\" font-size: 14px; line-height: 22px; color: rgb(45, 45, 45); outline: none !important;\"><strong style=\"outline: none !important;\">June 1, 2026</strong>&nbsp;— Final Web Services shutdown (all legacy endpoints permanently offline)</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\" outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td style=\" font-size: 17px; font-weight: 700; color: rgb(26, 26, 26); padding-bottom: 12px; outline: none !important;\">What This Means for You</td></tr><tr style=\"outline: none !important;\"><td style=\" font-size: 15px; line-height: 24px; color: rgb(45, 45, 45); padding-bottom: 20px; outline: none !important;\">If no action is taken,&nbsp;<strong style=\"outline: none !important;\">your FedEx shipping rates, label printing, and tracking functionality within the plugin may be affected after April 1, 2026.</strong>&nbsp;This could impact your ability to display shipping rates, print FedEx labels, and fulfill orders from your WooCommerce store.</td></tr></tbody></table><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\" outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td style=\" font-size: 17px; font-weight: 700; color: rgb(26, 26, 26); padding-bottom: 16px; outline: none !important;\">How to Migrate (3 Simple Steps)</td></tr></tbody></table><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\" margin-bottom: 14px; outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td valign=\"top\" width=\"40\" style=\"padding-top: 2px; outline: none !important;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td style=\"background-color: rgb(77, 20, 140); color: rgb(255, 255, 255); font-weight: 700; width: 28px; min-height: 28px; text-align: center; line-height: 28px; border-radius: 50%; outline: none !important; background-color: 4D148C\" align=\"center\">1</td></tr></tbody></table></td><td style=\" font-size: 14px; line-height: 22px; color: rgb(45, 45, 45); padding-left: 8px; outline: none !important;\"><strong style=\"outline: none !important;\">Register for FedEx REST APIs</strong><br style=\"outline: none !important;\">Complete the registration directly from within the plugin settings. You'll need to provide your account and contact details — name, company name, phone number, email, and the complete business address associated with your FedEx account.</td></tr></tbody></table><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\" margin-bottom: 14px; outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td valign=\"top\" width=\"40\" style=\"outline: none !important;\">&nbsp;</td><td style=\" font-size: 14px; line-height: 22px; color: rgb(45, 45, 45); padding-left: 8px; outline: none !important;\"><strong style=\"outline: none !important;\">Validate Your FedEx Account</strong><br style=\"outline: none !important;\">Choose a verification method to confirm your identity:<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"outline: none !important; margin-top: 6px;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td style=\"font-size: 13px; line-height: 20px; color: rgb(85, 85, 85); outline: none !important; padding: 2px 0px;\">• OTP via SMS</td></tr><tr style=\"outline: none !important;\"><td style=\"font-size: 13px; line-height: 20px; color: rgb(85, 85, 85); outline: none !important; padding: 2px 0px;\">• OTP via Phone Call</td></tr><tr style=\"outline: none !important;\"><td style=\"font-size: 13px; line-height: 20px; color: rgb(85, 85, 85); outline: none !important; padding: 2px 0px;\">• OTP via Email</td></tr><tr style=\"outline: none !important;\"><td style=\"font-size: 13px; line-height: 20px; color: rgb(85, 85, 85); outline: none !important; padding: 2px 0px;\">• Invoice</td></tr><tr style=\"outline: none !important;\"><td style=\"font-size: 13px; line-height: 20px; color: rgb(85, 85, 85); outline: none !important; padding: 2px 0px;\">• Help Desk</td></tr></tbody></table></td></tr></tbody></table><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\" margin-bottom: 14px; outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td valign=\"top\" width=\"40\" style=\"padding-top: 2px; outline: none !important;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td style=\"background-color: rgb(77, 20, 140); color: rgb(255, 255, 255); font-weight: 700; width: 28px; min-height: 28px; text-align: center; line-height: 28px; border-radius: 50%; outline: none !important; background-color: 4D148C\" align=\"center\">2</td></tr></tbody></table></td><td style=\" font-size: 14px; line-height: 22px; color: rgb(45, 45, 45); padding-left: 8px; outline: none !important;\"><strong style=\"outline: none !important;\">Credentials Configured Automatically</strong><br style=\"outline: none !important;\">Once registration and validation are complete, your new REST API credentials will be configured automatically within the plugin. No manual key entry required.</td></tr></tbody></table><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\" margin-bottom: 28px; outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td valign=\"top\" width=\"40\" style=\"padding-top: 2px; outline: none !important;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"outline: none !important;\"><tbody style=\"outline: none !important;\"><tr style=\"outline: none !important;\"><td style=\"background-color: rgb(77, 20, 140); color: rgb(255, 255, 255); font-weight: 700; width: 28px; min-height: 28px; text-align: center; line-height: 28px; border-radius: 50%; outline: none !important; background-color: 4D148C\" align=\"center\">3</td></tr></tbody></table></td><td style=\" font-size: 14px; line-height: 22px; color: rgb(45, 45, 45); padding-left: 8px; outline: none !important;\"><strong style=\"outline: none !important;\">Test &amp; Confirm</strong><br style=\"outline: none !important;\">Run a test shipment or rate request to verify that shipping rates display correctly and label printing works as expected with the new REST API credentials.</td></tr></tbody></table></div><br></div><div><br></div><div><div><span style=\"font-size: small; \">Thank you,</span></div><span style=\"font-size: small; \">Duong Pham | Manager&nbsp;</span><div><span style=\"font-size: small; \">Sunshine Nail &amp; Beauty Supply, LLC<br></span><div><span style=\"font-size: small; \">4833 South 72nd Street&nbsp;</span></div><div><span style=\"font-size: small; \">Omaha, NE 68127&nbsp;</span></div><div><span style=\"font-size: small; \">Tel: (402) 884-5972</span></div></div></div></div></div>",
+      "plain_body": "Hi,&nbsp;  \n  Please see below for an email received from you guys. Can you please help direct me on how to do this so I don't run into disruptions for my business moving forward?&nbsp;  \n   Hi there,We're reaching out with an important update that directly affects your&nbsp;FedEx Shipping Plugin for WooCommerce with Print Label.&nbsp;FedEx has officially announced the retirement of its legacy Web Services (SOAP) APIs, and all merchants using FedEx for shipping must migrate to FedEx REST APIs to avoid disruption.As a FedEx Certified Compatible Solution Provider, the FedEx Shipping Plugin for WooCommerce with Print Label is fully prepared for REST APIs.&nbsp;We've already completed verification and production readiness — so the transition on your end is straightforward.What's HappeningFedEx is permanently retiring its Web Services platform. If you're currently using legacy Web Services credentials (meter number, authentication key, etc.) in your FedEx Shipping Plugin for WooCommerce with Print Label, those credentials will stop working according to the following timeline:Migration Timeline•March 31, 2026&nbsp;— Final provider API verification &amp; production readiness deadline•April 1, 2026&nbsp;— Meter deactivation window begins; Web Services retirement starts•June 1, 2026&nbsp;— Final Web Services shutdown (all legacy endpoints permanently offline)What This Means for YouIf no action is taken,&nbsp;your FedEx shipping rates, label printing, and tracking functionality within the plugin may be affected after April 1, 2026.&nbsp;This could impact your ability to display shipping rates, print FedEx labels, and fulfill orders from your WooCommerce store.How to Migrate (3 Simple Steps)1Register for FedEx REST APIs Complete the registration directly from within the plugin settings. You'll need to provide your account and contact details — name, company name, phone number, email, and the complete business address associated with your FedEx account.&nbsp;Validate Your FedEx Account Choose a verification method to confirm your identity:• OTP via SMS• OTP via Phone Call• OTP via Email• Invoice• Help Desk2Credentials Configured Automatically Once registration and validation are complete, your new REST API credentials will be configured automatically within the plugin. No manual key entry required.3Test &amp; Confirm Run a test shipment or rate request to verify that shipping rates display correctly and label printing works as expected with the new REST API credentials. \n  \n   Thank you, Duong Pham | Manager&nbsp; Sunshine Nail &amp; Beauty Supply, LLC\n 4833 South 72nd Street&nbsp;  Omaha, NE 68127&nbsp;  Tel: (402) 884-5972",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55701004262681,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sunshinesupply2016@yahoo.com",
+            "name": "Duong Pham",
+            "original_recipients": [
+              "sunshinesupply2016@yahoo.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-04T18:38:52Z",
+      "metadata": {
+        "system": {
+          "message_id": "<1719462828.5034041.1772649526077@mail.yahoo.com>",
+          "client": "WebService/1.1.25198 YMailNorrin",
+          "email_id": "01KJX2AGV285WH0SCM1PC7C9JA",
+          "raw_email_identifier": "2369120/72157c02-1fad-4b72-b98c-6e00d3054a74.eml",
+          "json_email_identifier": "2369120/72157c02-1fad-4b72-b98c-6e00d3054a74.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55713562353817,
+      "type": "Comment",
+      "author_id": 408652762191,
+      "body": "Hello Duong Pham,\n\nThank you for reaching out to us.\nRest assured, we are here to assist you.\n\nBefore we proceed, we noticed that you do not have an active license for the **FedEx Shipping Plugin for WooCommerce with Print Label**, and the FedEx plugin has already been refunded.\n\nCould you please clarify which solution you are referring to?\n\nOnce we have this information, we’ll be able to assist you accordingly.\n\nLooking forward to your response.\n\nRegards,\n\nShivani Shinde\nIT Analyst\nTeam PluginHive\nhttps://www.pluginhive.com",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Duong Pham,<br>&nbsp;<br>Thank you for reaching out to us.<br>Rest assured, we are here to assist you.<br>&nbsp;<br>Before we proceed, we noticed that you do not have an active license for the <strong>FedEx Shipping Plugin for WooCommerce with Print Label</strong>, and the FedEx plugin has already been refunded.<br>&nbsp;<br>Could you please clarify which solution you are referring to?<br>&nbsp;<br>Once we have this information, we’ll be able to assist you accordingly.<br>&nbsp;<br>Looking forward to your response.<br>\n\n<span class=\"collapse-signature\"></span><div class=\"signature\"><p dir=\"auto\">Regards,</p>\n<p dir=\"auto\">Shivani Shinde<br>\nIT Analyst<br>\nTeam PluginHive<br>\n<a href=\"https://www.pluginhive.com\" rel=\"noreferrer\">https://www.pluginhive.com</a></p></div></div>",
+      "plain_body": "Hello Duong Pham,\n&nbsp;\nThank you for reaching out to us.\nRest assured, we are here to assist you.\n&nbsp;\nBefore we proceed, we noticed that you do not have an active license for the FedEx Shipping Plugin for WooCommerce with Print Label, and the FedEx plugin has already been refunded.\n&nbsp;\nCould you please clarify which solution you are referring to?\n&nbsp;\nOnce we have this information, we’ll be able to assist you accordingly.\n&nbsp;\nLooking forward to your response.\n\n\n  Regards, \n Shivani Shinde\n\nIT Analyst\n\nTeam PluginHive\n\nhttps://www.pluginhive.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55713562353689,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-05T03:55:31Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "15.204.43.201",
+          "location": "Hillsboro, OR, United States",
+          "latitude": 45.5397,
+          "longitude": -122.9638
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55738432326937,
+      "type": "Comment",
+      "author_id": 30106058833945,
+      "body": "I currently have the PluginHive Woocommerce Shipping Service for 1 year. Here is my invoice ID: 7136e4c9-a2f1-44fa-b4c5-b33019f9279f\n\n\n\nThank you,\nDuong Pham | Manager\nSunshine Nail & Beauty Supply, LLC\n\n4833 South 72nd Street\n\nOmaha, NE 68127\n\nTel: (402) 884-5972",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 13px;\"><div><div dir=\"ltr\">I currently have the PluginHive Woocommerce Shipping Service for 1 year. Here is my invoice ID:&nbsp;<span><span style=\" letter-spacing: 0.5px;\">7136e4c9-a2f1-44fa-b4c5-b33019f9279f</span></span></div><div><br></div><div><div><span style=\"font-size: small; \">Thank you,</span></div><span style=\"font-size: small; \">Duong Pham | Manager&nbsp;</span><div><span style=\"font-size: small; \">Sunshine Nail &amp; Beauty Supply, LLC<br></span><div><span style=\"font-size: small; \">4833 South 72nd Street&nbsp;</span></div><div><span style=\"font-size: small; \">Omaha, NE 68127&nbsp;</span></div><div><span style=\"font-size: small; \">Tel: (402) 884-5972</span></div></div></div></div>\n <div><br></div><div><br></div>\n \n </div></div>",
+      "plain_body": "I currently have the PluginHive Woocommerce Shipping Service for 1 year. Here is my invoice ID:&nbsp;7136e4c9-a2f1-44fa-b4c5-b33019f9279f  \n   Thank you, Duong Pham | Manager&nbsp; Sunshine Nail &amp; Beauty Supply, LLC\n 4833 South 72nd Street&nbsp;  Omaha, NE 68127&nbsp;  Tel: (402) 884-5972",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55738432326809,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sunshinesupply2016@yahoo.com",
+            "name": "Duong Pham",
+            "original_recipients": [
+              "sunshinesupply2016@yahoo.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-05T21:33:19Z",
+      "metadata": {
+        "system": {
+          "message_id": "<2096272559.5573359.1772746388242@mail.yahoo.com>",
+          "client": "WebService/1.1.25198 YMailNorrin",
+          "email_id": "01KJZYPKWHVZ7SNECYN5QHZB26",
+          "raw_email_identifier": "2369120/e3417d12-a169-433a-8967-8923807b79a4.eml",
+          "json_email_identifier": "2369120/e3417d12-a169-433a-8967-8923807b79a4.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55744763709209,
+      "type": "Comment",
+      "author_id": 408652762191,
+      "body": "Customer is using WSS. Please check.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer is using WSS. Please check.&nbsp;<br></div>",
+      "plain_body": "Customer is using WSS. Please check.&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55744763709081,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T01:54:28Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "ip_address": "15.204.43.201",
+          "location": "Hillsboro, OR, United States",
+          "latitude": 45.5397,
+          "longitude": -122.9638
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55749215952409,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Store: US\nCarrier: FedEx, UPS and USPS\nOrders: NA\nActive for labels only\nPlan: $319 Yearly Popular\nActive for 189 days",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Store: US<br>Carrier: FedEx, UPS and USPS<br>Orders: NA<br>Active for labels only<br>Plan: $319 Yearly Popular<br>Active for 189 days<br></div>",
+      "plain_body": "Store: US\nCarrier: FedEx, UPS and USPS\nOrders: NA\nActive for labels only\nPlan: $319 Yearly Popular\nActive for 189 days",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55749215952281,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T03:56:43Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55749543838617,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Duong,\n\nThank you for sharing the details.\n\nThe email you received is regarding the official announcement from FedEx about the retirement of their legacy Web Services (SOAP) APIs, which is the method currently used to connect your FedEx account in the plugin.\n\nTo avoid any disruption in service after March 31, 2026, it is necessary to migrate your integration to the FedEx REST APIs.\n\nWe will be happy to assist you with connecting your FedEx account using the REST API. To proceed, please schedule a meeting using the appointment link below:\n[Schedule an appointment]\n\nIf you do not see any available slots at the moment, please check again over the weekend. The slots for next Monday should become available by then, and you can book a suitable time.\n\nLooking forward to assisting you.\n\nBest regards,\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Duong,<br>&nbsp;<br>Thank you for sharing the details.<br>&nbsp;<br>The email you received is regarding the official announcement from FedEx about the retirement of their legacy Web Services (SOAP) APIs, which is the method currently used to connect your FedEx account in the plugin.<br>&nbsp;<br>To avoid any disruption in service after March 31, 2026, it is necessary to migrate your integration to the FedEx REST APIs.<br>&nbsp;<br>We will be happy to assist you with connecting your FedEx account using the REST API. To proceed, please schedule a meeting using the appointment link below:<br><a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=https://ssnailsupply.com&amp;email=&amp;ticket=377088&amp;key=1772769755416\">[Schedule an appointment]</a><br>&nbsp;<br>If you do not see any available slots at the moment, please check again over the weekend. The slots for next Monday should become available by then, and you can book a suitable time.<br>&nbsp;<br>Looking forward to assisting you.<br>&nbsp;<br>Best regards,<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Duong,\n&nbsp;\nThank you for sharing the details.\n&nbsp;\nThe email you received is regarding the official announcement from FedEx about the retirement of their legacy Web Services (SOAP) APIs, which is the method currently used to connect your FedEx account in the plugin.\n&nbsp;\nTo avoid any disruption in service after March 31, 2026, it is necessary to migrate your integration to the FedEx REST APIs.\n&nbsp;\nWe will be happy to assist you with connecting your FedEx account using the REST API. To proceed, please schedule a meeting using the appointment link below:\n[Schedule an appointment]\n&nbsp;\nIf you do not see any available slots at the moment, please check again over the weekend. The slots for next Monday should become available by then, and you can book a suitable time.\n&nbsp;\nLooking forward to assisting you.\n&nbsp;\nBest regards,\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55749543838489,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T04:03:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55919247839641,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Request #378276 \"Give the WooCommerce Shipping Se...\" was closed and merged into this request. Last comment in request #378276:\r\n\r\nHello Omaha SEO,\r\n\r\n We regret that you had to uninstall our **WooCommerce Shipping Services Plugin** from https://test1.ssnailsupply.com\r\n\r\n If you have faced any difficulties with the plugin, we can hop on a call to assist you. Or if you are awaiting your WooCommerce store launch, do let us know so we can extend your free trial period.\r\n\r\n\r\n> **Did you know?**\r\n>\r\n> - _Our shipping plugin is certified by top shipping carriers like UPS, FedEx, USPS, Stamps.com, DHL Express, Australia Post, Canada Post, Post Nord & many more._\r\n> - _This plugin will allow you to ship with multiple carrier(s)._\r\n> - _Print 100 (s) of shipping labels in a single click._\r\n> - _Our shipping experts will provide you with quick and reliable support._\r\n\r\n\r\n\r\n Let’s schedule a quick call to discuss how exactly we can help you reach your shipping requirements.\r\n\r\n We would like to hear from you.\r\n\r\n Thanks and Regards,\r\n Team PluginHive\r\nhttps://www.pluginhive.com/about/#team",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/378276\" target=\"_blank\" rel=\"ticket\">#378276</a> \"Give the WooCommerce Shipping Se...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/378276\" target=\"_blank\" rel=\"ticket\">#378276</a>:</p>\n<p dir=\"auto\">Hello Omaha SEO,</p>\n<p dir=\"auto\">We regret that you had to uninstall our <strong>WooCommerce Shipping Services Plugin</strong> from <a href=\"https://test1.ssnailsupply.com\" rel=\"noreferrer\">https://test1.ssnailsupply.com</a></p>\n<p dir=\"auto\">If you have faced any difficulties with the plugin, we can hop on a call to assist you. Or if you are awaiting your WooCommerce store launch, do let us know so we can extend your free trial period.</p>\n<blockquote dir=\"ltr\">\n<p dir=\"auto\"><strong>Did you know?</strong></p>\n<ul type=\"disc\" dir=\"auto\">\n<li type=\"disc\"><em>Our shipping plugin is certified by top shipping carriers like UPS, FedEx, USPS, Stamps.com, DHL Express, Australia Post, Canada Post, Post Nord &amp; many more.</em></li>\n<li type=\"disc\"><em>This plugin will allow you to ship with multiple carrier(s).</em></li>\n<li type=\"disc\"><em>Print 100 (s) of shipping labels in a single click.</em></li>\n<li type=\"disc\"><em>Our shipping experts will provide you with quick and reliable support.</em></li>\n</ul>\n</blockquote>\n<p dir=\"auto\">Let’s schedule a quick call to discuss how exactly we can help you reach your shipping requirements.</p>\n<p dir=\"auto\">We would like to hear from you.</p>\n<p dir=\"auto\">Thanks and Regards,<br>\n Team PluginHive<br>\n<a href=\"https://www.pluginhive.com/about/#team\" rel=\"noreferrer\">https://www.pluginhive.com/about/#team</a></p></div>",
+      "plain_body": "Request #378276 \"Give the WooCommerce Shipping Se...\" was closed and merged into this request. Last comment in request #378276: \n Hello Omaha SEO, \n We regret that you had to uninstall our WooCommerce Shipping Services Plugin from https://test1.ssnailsupply.com \n If you have faced any difficulties with the plugin, we can hop on a call to assist you. Or if you are awaiting your WooCommerce store launch, do let us know so we can extend your free trial period. \n \n Did you know? \n \n Our shipping plugin is certified by top shipping carriers like UPS, FedEx, USPS, Stamps.com, DHL Express, Australia Post, Canada Post, Post Nord &amp; many more. \n This plugin will allow you to ship with multiple carrier(s). \n Print 100 (s) of shipping labels in a single click. \n Our shipping experts will provide you with quick and reliable support. \n \n \n Let’s schedule a quick call to discuss how exactly we can help you reach your shipping requirements. \n We would like to hear from you. \n Thanks and Regards,\n\n Team PluginHive\n\nhttps://www.pluginhive.com/about/#team",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55919247839513,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              378276
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-03-11T13:54:55Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55919566791193,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Request #378279 \"Give the WooCommerce Shipping Se...\" was closed and merged into this request. Last comment in request #378279:\r\n\r\nHello Omaha SEO,\r\n\r\n We regret that you had to uninstall our **WooCommerce Shipping Services Plugin** from https://test1.ssnailsupply.com\r\n\r\n If you have faced any difficulties with the plugin, we can hop on a call to assist you. Or if you are awaiting your WooCommerce store launch, do let us know so we can extend your free trial period.\r\n\r\n\r\n> **Did you know?**\r\n>\r\n> - _Our shipping plugin is certified by top shipping carriers like UPS, FedEx, USPS, Stamps.com, DHL Express, Australia Post, Canada Post, Post Nord & many more._\r\n> - _This plugin will allow you to ship with multiple carrier(s)._\r\n> - _Print 100 (s) of shipping labels in a single click._\r\n> - _Our shipping experts will provide you with quick and reliable support._\r\n\r\n\r\n\r\n Let’s schedule a quick call to discuss how exactly we can help you reach your shipping requirements.\r\n\r\n We would like to hear from you.\r\n\r\n Thanks and Regards,\r\n Team PluginHive\r\nhttps://www.pluginhive.com/about/#team",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/378279\" target=\"_blank\" rel=\"ticket\">#378279</a> \"Give the WooCommerce Shipping Se...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/378279\" target=\"_blank\" rel=\"ticket\">#378279</a>:</p>\n<p dir=\"auto\">Hello Omaha SEO,</p>\n<p dir=\"auto\">We regret that you had to uninstall our <strong>WooCommerce Shipping Services Plugin</strong> from <a href=\"https://test1.ssnailsupply.com\" rel=\"noreferrer\">https://test1.ssnailsupply.com</a></p>\n<p dir=\"auto\">If you have faced any difficulties with the plugin, we can hop on a call to assist you. Or if you are awaiting your WooCommerce store launch, do let us know so we can extend your free trial period.</p>\n<blockquote dir=\"ltr\">\n<p dir=\"auto\"><strong>Did you know?</strong></p>\n<ul type=\"disc\" dir=\"auto\">\n<li type=\"disc\"><em>Our shipping plugin is certified by top shipping carriers like UPS, FedEx, USPS, Stamps.com, DHL Express, Australia Post, Canada Post, Post Nord &amp; many more.</em></li>\n<li type=\"disc\"><em>This plugin will allow you to ship with multiple carrier(s).</em></li>\n<li type=\"disc\"><em>Print 100 (s) of shipping labels in a single click.</em></li>\n<li type=\"disc\"><em>Our shipping experts will provide you with quick and reliable support.</em></li>\n</ul>\n</blockquote>\n<p dir=\"auto\">Let’s schedule a quick call to discuss how exactly we can help you reach your shipping requirements.</p>\n<p dir=\"auto\">We would like to hear from you.</p>\n<p dir=\"auto\">Thanks and Regards,<br>\n Team PluginHive<br>\n<a href=\"https://www.pluginhive.com/about/#team\" rel=\"noreferrer\">https://www.pluginhive.com/about/#team</a></p></div>",
+      "plain_body": "Request #378279 \"Give the WooCommerce Shipping Se...\" was closed and merged into this request. Last comment in request #378279: \n Hello Omaha SEO, \n We regret that you had to uninstall our WooCommerce Shipping Services Plugin from https://test1.ssnailsupply.com \n If you have faced any difficulties with the plugin, we can hop on a call to assist you. Or if you are awaiting your WooCommerce store launch, do let us know so we can extend your free trial period. \n \n Did you know? \n \n Our shipping plugin is certified by top shipping carriers like UPS, FedEx, USPS, Stamps.com, DHL Express, Australia Post, Canada Post, Post Nord &amp; many more. \n This plugin will allow you to ship with multiple carrier(s). \n Print 100 (s) of shipping labels in a single click. \n Our shipping experts will provide you with quick and reliable support. \n \n \n Let’s schedule a quick call to discuss how exactly we can help you reach your shipping requirements. \n We would like to hear from you. \n Thanks and Regards,\n\n Team PluginHive\n\nhttps://www.pluginhive.com/about/#team",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55919582673689,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              378279
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-03-11T14:10:54Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56072553947929,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: Duong Pham\nEmail: Sunshinesupply2016@yahoo.com\nPhone Number: 402-452-4013\nStore URL: https://ssnailsupply.com\nDate & Time: March 17, 2026 05:00 pm (America/Chicago -05:00)\n\nPluginHive Date & Time: March 18, 2026 3:30 am",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Appointment Scheduled with PluginHive Support</p>\n<p dir=\"auto\">Customer Details:<br>\nName: Duong Pham<br>\nEmail: <a href=\"mailto:Sunshinesupply2016@yahoo.com\" rel=\"noreferrer\">Sunshinesupply2016@yahoo.com</a><br>\nPhone Number: 402-452-4013<br>\nStore URL: <a href=\"https://ssnailsupply.com\" rel=\"noreferrer\">https://ssnailsupply.com</a><br>\nDate &amp; Time: March 17, 2026 05:00 pm (America/Chicago -05:00)</p>\n<p dir=\"auto\">PluginHive Date &amp; Time: March 18, 2026 3:30 am</p></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support \n Customer Details:\n\nName: Duong Pham\n\nEmail: Sunshinesupply2016@yahoo.com\n\nPhone Number: 402-452-4013\n\nStore URL: https://ssnailsupply.com\n\nDate &amp; Time: March 17, 2026 05:00 pm (America/Chicago -05:00) \n PluginHive Date &amp; Time: March 18, 2026 3:30 am",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56072553947801,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-16T21:26:38Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.9.4; https://appointments.pluginhive.com",
+          "ip_address": "159.89.131.157",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56107041338777,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Duong Pham,\n\nThank you for booking the slot.\n\nPlease join the meeting at the scheduled time, i.e. today at 5:00 PM Chicago time - https://us05web.zoom.us/j/89083595244?pwd=b8XYNxoiYjkQZUOwCbbDEUs3y0P9z6.1\n\nMeeting ID: 890 8359 5244\nPasscode: 9KMapW\n\nLooking forward to talking to you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Duong Pham,<br>&nbsp;<br>Thank you for booking the slot.<br>&nbsp;<br>Please join the meeting at the scheduled time, i.e. today at 5:00 PM Chicago time - <a rel=\"noopener noreferrer\" href=\"https://us05web.zoom.us/j/89083595244?pwd=b8XYNxoiYjkQZUOwCbbDEUs3y0P9z6.1\">https://us05web.zoom.us/j/89083595244?pwd=b8XYNxoiYjkQZUOwCbbDEUs3y0P9z6.1</a>&nbsp;<br>&nbsp;<br>Meeting ID: 890 8359 5244<br>Passcode: 9KMapW<br>&nbsp;<br>Looking forward to talking to you.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Duong Pham,\n&nbsp;\nThank you for booking the slot.\n&nbsp;\nPlease join the meeting at the scheduled time, i.e. today at 5:00 PM Chicago time - https://us05web.zoom.us/j/89083595244?pwd=b8XYNxoiYjkQZUOwCbbDEUs3y0P9z6.1&nbsp;\n&nbsp;\nMeeting ID: 890 8359 5244\nPasscode: 9KMapW\n&nbsp;\nLooking forward to talking to you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56107097448857,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T21:27:51Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56108108616217,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Duong,\n\nThank you for your valuable time over the call, and it was nice talking to you.\n\nFeel free to reachout to us anytime you need assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Duong,<br>&nbsp;<br>Thank you for your valuable time over the call, and it was nice talking to you.<br>&nbsp;<br>Feel free to reachout to us anytime you need assistance from our end.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Duong,\n&nbsp;\nThank you for your valuable time over the call, and it was nice talking to you.\n&nbsp;\nFeel free to reachout to us anytime you need assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56108115031321,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T22:38:36Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56108250779673,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Call summary:\n\nAssisted the customer with migrating to FedEx Rest API - migration completed smoothly with invoice validation type\n\nAlso guided on updating automation rules and packaging settings.\n\nOn call we reprocessed orders and confirmed rates are working as expected\n\nCustomer had few queries related to tracking and order importing and how product will be synced - addressed\n\nCustomer was happy and requested for review",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Call summary:<br>&nbsp;<br>Assisted the customer with migrating to FedEx Rest API - migration completed smoothly with invoice validation type<br>&nbsp;<br>Also guided on updating automation rules and packaging settings.<br>&nbsp;<br>On call we reprocessed orders and confirmed rates are working as expected<br>&nbsp;<br>Customer had few queries related to tracking and order importing and how product will be synced - addressed<br>&nbsp;<br>Customer was happy and requested for review<br>&nbsp;<br></div>",
+      "plain_body": "Call summary:\n&nbsp;\nAssisted the customer with migrating to FedEx Rest API - migration completed smoothly with invoice validation type\n&nbsp;\nAlso guided on updating automation rules and packaging settings.\n&nbsp;\nOn call we reprocessed orders and confirmed rates are working as expected\n&nbsp;\nCustomer had few queries related to tracking and order importing and how product will be synced - addressed\n&nbsp;\nCustomer was happy and requested for review\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56108250779161,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T22:50:15Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56285148727321,
+      "type": "Comment",
+      "author_id": 30106058833945,
+      "body": "Hi, So after using the updated FedEx connection. I noticed that the pricing isn’t matching of what I supposed to get if I was to ship directly from FedEx web page. Is there anyway that you can check on this for me to resolve it ? Thanks Duong\n\n\n\nSent from Yahoo Mail for iPhone",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi, \n\nSo after using the updated FedEx connection. I noticed that the pricing isn’t matching of what I supposed to get if I was to ship directly from FedEx web page. Is there anyway that you can check on this for me to resolve it ? \n\nThanks \nDuong <br><br><br><div><a style=\"font-size: 12px;\" href=\"https://mail.onelink.me/107872968?pid=nativeplacement&amp;c=Global_Acquisition_YMktg_315_Internal_EmailSignature&amp;af_sub1=Acquisition&amp;af_sub2=Global_YMktg&amp;af_sub3=&amp;af_sub4=100000604&amp;af_sub5=EmailSignature__Static_&amp;af_ios_store_cpp=9d3a686e-218d-4849-8298-b480188dc8ac&amp;af_android_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.yahoo.mobile.client.android.mail%26listing%3Demail_signature\" rel=\"noreferrer\">Sent from Yahoo Mail for iPhone</a><br></div><br></div>",
+      "plain_body": "Hi, \n\nSo after using the updated FedEx connection. I noticed that the pricing isn’t matching of what I supposed to get if I was to ship directly from FedEx web page. Is there anyway that you can check on this for me to resolve it ? \n\nThanks \nDuong \n\n\n Sent from Yahoo Mail for iPhone",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56285148727193,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sunshinesupply2016@yahoo.com",
+            "name": "Duong Pham",
+            "original_recipients": [
+              "sunshinesupply2016@yahoo.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T23:52:41Z",
+      "metadata": {
+        "system": {
+          "message_id": "<1737261177.2115069.1774309945014@mail.yahoo.com>",
+          "client": "WebService/1.1.25380 YahooMailIosMobile",
+          "email_id": "01KMEHTR5R2ZWTFDGS63XGJDHS",
+          "raw_email_identifier": "2369120/e79844ad-1398-4bbc-bec6-ff7fa4aceb99.eml",
+          "json_email_identifier": "2369120/e79844ad-1398-4bbc-bec6-ff7fa4aceb99.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56287923915929,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Duong,\n\nGood day!\n\nCould you please share some screenshots of where you are seeing the discrepancy in the rates, we can check and get back to you.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Duong,<br>&nbsp;<br>Good day!<br><br>Could you please share some screenshots of where you are seeing the discrepancy in the rates, we can check and get back to you.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Duong,\n&nbsp;\nGood day!\n\nCould you please share some screenshots of where you are seeing the discrepancy in the rates, we can check and get back to you.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56287923915801,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-24T01:21:43Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "27.7.92.211",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56383715797913,
+      "type": "Comment",
+      "author_id": 30106058833945,
+      "body": "Hi,\n\n\n\nPlease see the attached screenshot for reference.\n\nInitially, I thought the pricing discrepancy was due to the **declared value** of each shipment, since the default is set at **$100 per package**. However, I never experienced this issue with the previous FedEx connection.\n\nToday, I noticed a significant increase in shipping costs, so I ran a comparison using the same **$100 declared value**. The pricing between the **PluginHive system and the FedEx website is noticeably different**, which is concerning.\n\nCould you please look into this and let me know what’s causing the discrepancy? This is affecting our shipping costs, so I’d appreciate a prompt response.\n\n\n\n\n\nThank you,\nDuong Pham | Manager\nSunshine Nail & Beauty Supply, LLC\n\n4833 South 72nd Street\n\nOmaha, NE 68127\n\nTel: (402) 884-5972",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div><div><div style=\" font-size: 13px;\"><div><div dir=\"ltr\"><div><div dir=\"ltr\">Hi,</div><div dir=\"ltr\"><br></div><div>Please see the attached screenshot for reference.</div>\n<p dir=\"auto\">Initially, I thought the pricing discrepancy was due to the <strong>declared value</strong> of each shipment, since the default is set at <strong>$100 per package</strong>. However, I never experienced this issue with the previous FedEx connection.</p>\n<p dir=\"auto\">Today, I noticed a significant increase in shipping costs, so I ran a comparison using the same <strong>$100 declared value</strong>. The pricing between the <strong>PluginHive system and the FedEx website is noticeably different</strong>, which is concerning.</p>\n<p dir=\"auto\">Could you please look into this and let me know what’s causing the discrepancy? This is affecting our shipping costs, so I’d appreciate a prompt response.</p></div><div><br></div></div><div><br></div><div><div><span style=\"font-size: small; \">Thank you,</span></div><span style=\"font-size: small; \">Duong Pham | Manager&nbsp;</span><div><span style=\"font-size: small; \">Sunshine Nail &amp; Beauty Supply, LLC<br></span><div><span style=\"font-size: small; \">4833 South 72nd Street&nbsp;</span></div><div><span style=\"font-size: small; \">Omaha, NE 68127&nbsp;</span></div><div><span style=\"font-size: small; \">Tel: (402) 884-5972</span></div></div></div></div>\n <div><br></div><div><br></div>\n \n </div><div></div></div></div></div>",
+      "plain_body": "Hi,  \n  Please see the attached screenshot for reference. \n Initially, I thought the pricing discrepancy was due to the declared value of each shipment, since the default is set at $100 per package. However, I never experienced this issue with the previous FedEx connection. \n Today, I noticed a significant increase in shipping costs, so I ran a comparison using the same $100 declared value. The pricing between the PluginHive system and the FedEx website is noticeably different, which is concerning. \n Could you please look into this and let me know what’s causing the discrepancy? This is affecting our shipping costs, so I’d appreciate a prompt response.   \n   \n   Thank you, Duong Pham | Manager&nbsp; Sunshine Nail &amp; Beauty Supply, LLC\n 4833 South 72nd Street&nbsp;  Omaha, NE 68127&nbsp;  Tel: (402) 884-5972",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56383691955481.json",
+          "id": 56383691955481,
+          "file_name": "IMG_1818.jpeg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/UX3vrRFS9gTrTTLnIvFIK7E76/?name=IMG_1818.jpeg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/UX3vrRFS9gTrTTLnIvFIK7E76/?name=IMG_1818.jpeg",
+          "content_type": "image/jpeg",
+          "size": 7622696,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56383727026713.json",
+              "id": 56383727026713,
+              "file_name": "IMG_1818_thumb.jpeg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/88xAmYaORgO0zXjEVgYIhnfIL/?name=IMG_1818_thumb.jpeg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/88xAmYaORgO0zXjEVgYIhnfIL/?name=IMG_1818_thumb.jpeg",
+              "content_type": "image/jpeg",
+              "size": 2593,
+              "width": 80,
+              "height": 60,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56383715806361.json",
+          "id": 56383715806361,
+          "file_name": "IMG_1817.jpeg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/Y4Nkk2bZSEF07UW6ot9sAtjGW/?name=IMG_1817.jpeg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/Y4Nkk2bZSEF07UW6ot9sAtjGW/?name=IMG_1817.jpeg",
+          "content_type": "image/jpeg",
+          "size": 8956536,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56383707123993.json",
+              "id": 56383707123993,
+              "file_name": "IMG_1817_thumb.jpeg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/AuvEwnHAJyPFIFY2NgPioL6QC/?name=IMG_1817_thumb.jpeg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/AuvEwnHAJyPFIFY2NgPioL6QC/?name=IMG_1817_thumb.jpeg",
+              "content_type": "image/jpeg",
+              "size": 2314,
+              "width": 80,
+              "height": 60,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 56383715797785,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sunshinesupply2016@yahoo.com",
+            "name": "Duong Pham",
+            "original_recipients": [
+              "sunshinesupply2016@yahoo.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T20:19:56Z",
+      "metadata": {
+        "system": {
+          "message_id": "<1323878948.493602.1774556324357@mail.yahoo.com>",
+          "client": "WebService/1.1.25449 YahooMailIosMobile",
+          "email_id": "01KMNWTZDRKE2SW5RGZGC0R9F5",
+          "raw_email_identifier": "2369120/b04efada-cccd-4530-99d3-a01b4686d967.eml",
+          "json_email_identifier": "2369120/b04efada-cccd-4530-99d3-a01b4686d967.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56384556513945,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Duong,\n\nThank you for sharing the details.\n\nHowever, we do not have complete details from the rates provided on carrier portal.\n\nSo, can we connect over a Zoom call to discuss about this in detail? You can book a slot for the call using this link - Click Here\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Duong,<br>&nbsp;<br>Thank you for sharing the details.&nbsp;<br>&nbsp;<br>However, we do not have complete details from the rates provided on carrier portal.&nbsp;<br>&nbsp;<br>So, can we connect over a Zoom call to discuss about this in detail? You can book a slot for the call using this link - <a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=https://ssnailsupply.com&amp;email=sunshinesupply2016@yahoo.com&amp;ticket=377088&amp;key=1774562066346\">Click Here</a><br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Duong,\n&nbsp;\nThank you for sharing the details.&nbsp;\n&nbsp;\nHowever, we do not have complete details from the rates provided on carrier portal.&nbsp;\n&nbsp;\nSo, can we connect over a Zoom call to discuss about this in detail? You can book a slot for the call using this link - Click Here\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56384556513817,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T21:54:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56384788355225,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: Duong Pham\nEmail: sunshinesupply2016@yahoo.com\nPhone Number: 4024524013\nStore URL: https://ssnailsupply.com\nDate & Time: March 27, 2026 05:00 pm (America/Chicago -05:00)\n\nPluginHive Date & Time: March 28, 2026 3:30 am",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Appointment Scheduled with PluginHive Support</p>\n<p dir=\"auto\">Customer Details:<br>\nName: Duong Pham<br>\nEmail: <a href=\"mailto:sunshinesupply2016@yahoo.com\" rel=\"noreferrer\">sunshinesupply2016@yahoo.com</a><br>\nPhone Number: 4024524013<br>\nStore URL: <a href=\"https://ssnailsupply.com\" rel=\"noreferrer\">https://ssnailsupply.com</a><br>\nDate &amp; Time: March 27, 2026 05:00 pm (America/Chicago -05:00)</p>\n<p dir=\"auto\">PluginHive Date &amp; Time: March 28, 2026 3:30 am</p></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support \n Customer Details:\n\nName: Duong Pham\n\nEmail: sunshinesupply2016@yahoo.com\n\nPhone Number: 4024524013\n\nStore URL: https://ssnailsupply.com\n\nDate &amp; Time: March 27, 2026 05:00 pm (America/Chicago -05:00) \n PluginHive Date &amp; Time: March 28, 2026 3:30 am",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56384788355097,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T22:07:04Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.9.4; https://appointments.pluginhive.com",
+          "ip_address": "159.89.131.157",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56417699608089,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Duong Pham,\n\nGood day!\n\nWe have a meeting scheduled at 5 PM today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n\nMeeting Link: https://us04web.zoom.us/j/74932356368?pwd=x9CO9mrNNxxyXbfAEG3KRJ3zpw1vn4.1\nMeeting ID: 749 3235 6368\nPasscode: J6LLMB\n\nNOTE: The meeting is scheduled for 30 minutes. We kindly request you to be present on the call as per the scheduled timings, extending the call or delayed calls are not encouraged due to prior commitments.\n\nPre-requisites:\n\n- Ensure that your system has a working microphone.\n- Permissions to share screen\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Duong Pham,<br>&nbsp;<br>Good day!<br><br>We have a meeting scheduled at 5 PM today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.<br>&nbsp;<br>Meeting Link: <a rel=\"noopener noreferrer\" href=\"https://us04web.zoom.us/j/74932356368?pwd=x9CO9mrNNxxyXbfAEG3KRJ3zpw1vn4.1\">https://us04web.zoom.us/j/74932356368?pwd=x9CO9mrNNxxyXbfAEG3KRJ3zpw1vn4.1</a><br>Meeting ID: 749 3235 6368<br>Passcode: J6LLMB<br>&nbsp;<br>NOTE: The meeting is scheduled for 30 minutes. We kindly request you to be present on the call as per the scheduled timings, extending the call or delayed calls are not encouraged due to prior commitments.<br>&nbsp;<br>Pre-requisites:<br><ul dir=\"auto\"><li>Ensure that your system has a working microphone.</li><li>Permissions to share screen<br>&nbsp;</li></ul>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Duong Pham,\n&nbsp;\nGood day!\n\nWe have a meeting scheduled at 5 PM today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n&nbsp;\nMeeting Link: https://us04web.zoom.us/j/74932356368?pwd=x9CO9mrNNxxyXbfAEG3KRJ3zpw1vn4.1\nMeeting ID: 749 3235 6368\nPasscode: J6LLMB\n&nbsp;\nNOTE: The meeting is scheduled for 30 minutes. We kindly request you to be present on the call as per the scheduled timings, extending the call or delayed calls are not encouraged due to prior commitments.\n&nbsp;\nPre-requisites:\n  Ensure that your system has a working microphone.  Permissions to share screen\n&nbsp;  Best regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56417746656665,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T21:57:23Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56418161322649,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Duong Pham,\n\nThank you for your time over the call.\n\nRegarding the case related to Package Edit and Shipping Rate Discrepancy, please allow us sometime. Will check and get back to you.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Duong Pham,<br>&nbsp;<br>Thank you for your time over the call.&nbsp;<br>&nbsp;<br>Regarding the case related to Package Edit and Shipping Rate Discrepancy, please allow us sometime. Will check and get back to you.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Duong Pham,\n&nbsp;\nThank you for your time over the call.&nbsp;\n&nbsp;\nRegarding the case related to Package Edit and Shipping Rate Discrepancy, please allow us sometime. Will check and get back to you.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56418144931865,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-27T22:35:28Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56439367592729,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "L3 - Need assistance with two cases\n\n\n- New Edit Package feature not available for the FedEx Rest API account. Please refer to the recording shared below for more details\n\n- For the FedEx shipping rates, the customer found a discrpancy with the rates shown through the app and on the FedEx portal. For FedEx 2 Day, the shipping cost shown on the FedEx portal is $11.93  and in the plugin is $16.88\nThere is a surcharge of $4.95 applied by FedEx which is causing the rate difference. This surcharge is related to a declared value (refer to the Request Response XML attached).\nIn the request, the customs value of the product is passed which might be causing to add a surcharge. FYI the order used for checking this case is a Domestic order.\nThere is no settings enabled in the plugin related to the insurance, so not sure from where this surcharge is getting added.\nPlease refer to the video recording link shared and the Request Response XMLs attached for better understanding of the case.\n\nVideo Recording Link - https://drive.google.com/file/d/1VchxU2YmqLNO7jN4i7xkKLrBUlagORiE/view?usp=sharing\n\nPlease check and let us know of the updates\n\nStore URL - https://ssnailsupply.com\nAccount ID - 97b76d06-a9a5-4bcf-9d77-b20bce1f99b2",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3 - Need assistance with two cases<br>&nbsp;<br><ul dir=\"auto\"><li>New Edit Package feature not available for the FedEx Rest API account. Please refer to the recording shared below for more details<br>&nbsp;</li><li>For the FedEx shipping rates, the customer found a discrpancy with the rates shown through the app and on the FedEx portal. For FedEx 2 Day, the shipping cost shown on the FedEx portal is $11.93 &nbsp;and in the plugin is $16.88&nbsp;<br>There is a surcharge of $4.95 applied by FedEx which is causing the rate difference. This surcharge is related to a declared value (refer to the Request Response XML attached).&nbsp;<br>In the request, the customs value of the product is passed which might be causing to add a surcharge. FYI the order used for checking this case is a Domestic order.<br>There is no settings enabled in the plugin related to the insurance, so not sure from where this surcharge is getting added.<br>Please refer to the video recording link shared and the Request Response XMLs attached for better understanding of the case.</li></ul>&nbsp;<br>Video Recording Link - <a rel=\"noopener noreferrer\" href=\"https://drive.google.com/file/d/1VchxU2YmqLNO7jN4i7xkKLrBUlagORiE/view?usp=sharing\">https://drive.google.com/file/d/1VchxU2YmqLNO7jN4i7xkKLrBUlagORiE/view?usp=sharing</a><br>&nbsp;<br>Please check and let us know of the updates<br>&nbsp;<br>Store URL - <a rel=\"noopener noreferrer\" href=\"https://ssnailsupply.com\">https://ssnailsupply.com</a>&nbsp;<br>Account ID - 97b76d06-a9a5-4bcf-9d77-b20bce1f99b2<br></div>",
+      "plain_body": "L3 - Need assistance with two cases\n&nbsp;\n  New Edit Package feature not available for the FedEx Rest API account. Please refer to the recording shared below for more details\n&nbsp;  For the FedEx shipping rates, the customer found a discrpancy with the rates shown through the app and on the FedEx portal. For FedEx 2 Day, the shipping cost shown on the FedEx portal is $11.93 &nbsp;and in the plugin is $16.88&nbsp;\nThere is a surcharge of $4.95 applied by FedEx which is causing the rate difference. This surcharge is related to a declared value (refer to the Request Response XML attached).&nbsp;\nIn the request, the customs value of the product is passed which might be causing to add a surcharge. FYI the order used for checking this case is a Domestic order.\nThere is no settings enabled in the plugin related to the insurance, so not sure from where this surcharge is getting added.\nPlease refer to the video recording link shared and the Request Response XMLs attached for better understanding of the case.  &nbsp;\nVideo Recording Link - https://drive.google.com/file/d/1VchxU2YmqLNO7jN4i7xkKLrBUlagORiE/view?usp=sharing\n&nbsp;\nPlease check and let us know of the updates\n&nbsp;\nStore URL - https://ssnailsupply.com&nbsp;\nAccount ID - 97b76d06-a9a5-4bcf-9d77-b20bce1f99b2",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56439371411225.json",
+          "id": 56439371411225,
+          "file_name": "RequestResponse (77).zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/isHYLj06fG7cLBFp3Yp8uftxv/?name=RequestResponse+%2877%29.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/isHYLj06fG7cLBFp3Yp8uftxv/?name=RequestResponse+%2877%29.zip",
+          "content_type": "application/zip",
+          "size": 140242,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56439367592601,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-28T17:34:06Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "115.99.242.246",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56486462073625,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "For 2nd case -\n\nOrder Number to check - 124531\n\nScreenshots from FedEx portal -\n\n ![](https://pluginhive.zendesk.com/attachments/token/hLwSrTiFyWK5qhGR42MWXN9Rk/?name=image.png)\n\n ![](https://pluginhive.zendesk.com/attachments/token/voIuJoYmaEN72mTCsaR5xxEM9/?name=image.png)\n\n ![](https://pluginhive.zendesk.com/attachments/token/c8EubpkQrgSwnLPWW5oYciYLb/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">For 2nd case -&nbsp;<br>&nbsp;<br>Order Number to check - 124531<br>&nbsp;<br>Screenshots from FedEx portal -&nbsp;<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 733px;\" src=\"https://pluginhive.zendesk.com/attachments/token/hLwSrTiFyWK5qhGR42MWXN9Rk/?name=image.png\"></span><br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 696px;\" src=\"https://pluginhive.zendesk.com/attachments/token/voIuJoYmaEN72mTCsaR5xxEM9/?name=image.png\"></span><br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 731px;\" src=\"https://pluginhive.zendesk.com/attachments/token/c8EubpkQrgSwnLPWW5oYciYLb/?name=image.png\"></span><br></div>",
+      "plain_body": "For 2nd case -&nbsp;\n&nbsp;\nOrder Number to check - 124531\n&nbsp;\nScreenshots from FedEx portal -&nbsp;\n&nbsp;\n\n&nbsp;\n\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56486416402969,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T09:50:12Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "27.4.206.205",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56487922553369,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "1. New Edit package for FedEx Rest is yet to be developed. Will update once done.\n2.\n\nThe rates mismatch is due to the product price, kindly enter custom value while checking rates in Fedex.com and verify.\n\n\n\n\n\n    \"surCharges\": [{ \"type\": \"INSURED_VALUE\", \"description\": \"Declared Value\", \"amount\": 4.95 }],\n\n\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><ol dir=\"auto\"><li>New Edit package for FedEx Rest is yet to be developed. Will update once done.</li><li><p dir=\"auto\">The rates mismatch is due to the product price, kindly enter custom value while checking rates in <a rel=\"noopener noreferrer\" href=\"http://fedex.com\">Fedex.com</a> and verify.</p><p dir=\"auto\">&nbsp;</p><p dir=\"auto\">&nbsp;</p><pre><code>\"surCharges\": [<br>                                {<br>                                    \"type\": \"INSURED_VALUE\",<br>                                    \"description\": \"Declared Value\",<br>                                    \"amount\": 4.95<br>                                }<br>                            ],</code></pre><p dir=\"auto\">&nbsp;</p><p dir=\"auto\">[Veena]</p></li></ol></div>",
+      "plain_body": "New Edit package for FedEx Rest is yet to be developed. Will update once done.   The rates mismatch is due to the product price, kindly enter custom value while checking rates in Fedex.com and verify.  &nbsp;  &nbsp;  \"surCharges\": [\n                                {\n                                    \"type\": \"INSURED_VALUE\",\n                                    \"description\": \"Declared Value\",\n                                    \"amount\": 4.95\n                                }\n                            ],  &nbsp;  [Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56487922553241,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T10:39:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56495848803481,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Moving back to L3 -\n\n\n1. Understood. The requirement has to go to Dev_Needed\n\n2. In the plugin, there is no settings related to insurance enabled and the product associated with the order does not have any customs value provided. In the request we are passing customs value for a domestic shipment?\nSince the customs value or declared value is needed for the insurance and in this case since customer does not need the packages to be insured, we would like to know why and where this surcharge is getting calculated?",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving back to L3 -&nbsp;<br>&nbsp;<br><ol dir=\"auto\"><li>Understood. The requirement has to go to Dev_Needed<br>&nbsp;</li><li>In the plugin, there is no settings related to insurance enabled and the product associated with the order does not have any customs value provided. In the request we are passing customs value for a domestic shipment?<br>Since the customs value or declared value is needed for the insurance and in this case since customer does not need the packages to be insured, we would like to know why and where this surcharge is getting calculated?</li></ol></div>",
+      "plain_body": "Moving back to L3 -&nbsp;\n&nbsp;\n  Understood. The requirement has to go to Dev_Needed\n&nbsp;  In the plugin, there is no settings related to insurance enabled and the product associated with the order does not have any customs value provided. In the request we are passing customs value for a domestic shipment?\nSince the customs value or declared value is needed for the insurance and in this case since customer does not need the packages to be insured, we would like to know why and where this surcharge is getting calculated?",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56495848803353,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T18:03:20Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56507208292377,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "2. The product price is being passed in the request, Product price do affect the product price. Did we check rates at fedex.com by adding the declared value?\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">2. The product price is being passed in the request, Product price do affect the product price. Did we check rates at <a rel=\"noopener noreferrer\" href=\"http://fedex.com\">fedex.com</a> by adding the declared value?<br>&nbsp;<br>[Veena]<br></div>",
+      "plain_body": "2. The product price is being passed in the request, Product price do affect the product price. Did we check rates at fedex.com by adding the declared value?\n&nbsp;\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56507208292249,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T03:25:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56510568155033,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Duong Pham,\n\nGood Day!\n\nTo check your rates mismatch case further, could you please share a screenshot of the rates you are seeing when you enable the higher limit of liability option and add the order value as highlighted in the attached screenshot.\n\nPlease share the screenshot so that it contains the Ship From, Ship To Address. Package Details and the rates returned.\n\nThis will help us in verifying and checking your case further.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Duong Pham,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>To check your rates mismatch case further, could you please share a screenshot of the rates you are seeing when you enable the higher limit of liability option and add the order value as highlighted in the attached screenshot.<br>&nbsp;<br>Please share the screenshot so that it contains the Ship From, Ship To Address. Package Details and the rates returned.<br>&nbsp;<br>This will help us in verifying and checking your case further.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Duong Pham,\n&nbsp;\nGood Day!\n&nbsp;\nTo check your rates mismatch case further, could you please share a screenshot of the rates you are seeing when you enable the higher limit of liability option and add the order value as highlighted in the attached screenshot.\n&nbsp;\nPlease share the screenshot so that it contains the Ship From, Ship To Address. Package Details and the rates returned.\n&nbsp;\nThis will help us in verifying and checking your case further.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56509489148313.json",
+          "id": 56509489148313,
+          "file_name": "Screenshot at Mar 31 10-05-12.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/HLu6uYjKyzS3w3Nz77Kf4foXC/?name=Screenshot+at+Mar+31+10-05-12.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/HLu6uYjKyzS3w3Nz77Kf4foXC/?name=Screenshot+at+Mar+31+10-05-12.png",
+          "content_type": "image/png",
+          "size": 497905,
+          "width": 2038,
+          "height": 1552,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56509432805145.json",
+              "id": 56509432805145,
+              "file_name": "Screenshot_at_Mar_31_10-05-12_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/lo1TYu46SdCJKULnE4ycfcCIs/?name=Screenshot_at_Mar_31_10-05-12_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/lo1TYu46SdCJKULnE4ycfcCIs/?name=Screenshot_at_Mar_31_10-05-12_thumb.png",
+              "content_type": "image/png",
+              "size": 10198,
+              "width": 80,
+              "height": 61,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 56510568154905,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T05:07:19Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56532278941465,
+      "type": "Comment",
+      "author_id": 30106058833945,
+      "body": "Looks like when I click on that box, the price matches what is provided in Pluginhive. See attachment.\n\n\n\nThank you,\nDuong Pham | Manager\nSunshine Nail & Beauty Supply, LLC\n\n4833 South 72nd Street\n\nOmaha, NE 68127\n\nTel: (402) 884-5972",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 13px;\"><div><div dir=\"ltr\">Looks like when I click on that box, the price matches what is provided in Pluginhive. See attachment.&nbsp;</div><div><br></div><div><div><span style=\"font-size: small; \">Thank you,</span></div><span style=\"font-size: small; \">Duong Pham | Manager&nbsp;</span><div><span style=\"font-size: small; \">Sunshine Nail &amp; Beauty Supply, LLC<br></span><div><span style=\"font-size: small; \">4833 South 72nd Street&nbsp;</span></div><div><span style=\"font-size: small; \">Omaha, NE 68127&nbsp;</span></div><div><span style=\"font-size: small; \">Tel: (402) 884-5972</span></div></div></div></div>\n <div><br></div><div><br></div>\n \n </div></div>",
+      "plain_body": "Looks like when I click on that box, the price matches what is provided in Pluginhive. See attachment.&nbsp;  \n   Thank you, Duong Pham | Manager&nbsp; Sunshine Nail &amp; Beauty Supply, LLC\n 4833 South 72nd Street&nbsp;  Omaha, NE 68127&nbsp;  Tel: (402) 884-5972",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56532299252121.json",
+          "id": 56532299252121,
+          "file_name": "ship rate 03-31-2026 #2.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/4gstIJN8lB5VckRsaDKi77YXt/?name=ship+rate+03-31-2026+%232.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/4gstIJN8lB5VckRsaDKi77YXt/?name=ship+rate+03-31-2026+%232.jpg",
+          "content_type": "image/jpeg",
+          "size": 77186,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56532292254617.json",
+              "id": 56532292254617,
+              "file_name": "ship_rate_03-31-2026__2_thumb.jpg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/99MFh4SNIQZuZbWSIpIzpoiJn/?name=ship_rate_03-31-2026__2_thumb.jpg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/99MFh4SNIQZuZbWSIpIzpoiJn/?name=ship_rate_03-31-2026__2_thumb.jpg",
+              "content_type": "image/jpeg",
+              "size": 1600,
+              "width": 80,
+              "height": 78,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56532299261721.json",
+          "id": 56532299261721,
+          "file_name": "ship rate 03-31-2026.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/DZQ9RXQ1Xjx6KXqRPOk96Kjh6/?name=ship+rate+03-31-2026.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/DZQ9RXQ1Xjx6KXqRPOk96Kjh6/?name=ship+rate+03-31-2026.jpg",
+          "content_type": "image/jpeg",
+          "size": 47530,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56532261578777.json",
+              "id": 56532261578777,
+              "file_name": "ship_rate_03-31-2026_thumb.jpg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/62IY13X8gMD8PdKbvQTOd6IJQ/?name=ship_rate_03-31-2026_thumb.jpg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/62IY13X8gMD8PdKbvQTOd6IJQ/?name=ship_rate_03-31-2026_thumb.jpg",
+              "content_type": "image/jpeg",
+              "size": 1524,
+              "width": 80,
+              "height": 45,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 56532278941337,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sunshinesupply2016@yahoo.com",
+            "name": "Duong Pham",
+            "original_recipients": [
+              "sunshinesupply2016@yahoo.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T21:46:54Z",
+      "metadata": {
+        "system": {
+          "message_id": "<731673659.2210373.1774993600495@mail.yahoo.com>",
+          "client": "WebService/1.1.25449 YMailNorrin",
+          "email_id": "01KN2XT61KHAR5A0AYB1GY4WSR",
+          "raw_email_identifier": "2369120/59a331c6-8964-4d6f-9412-842049e7e32e.eml",
+          "json_email_identifier": "2369120/59a331c6-8964-4d6f-9412-842049e7e32e.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56533137459609,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Duong Pham,\n\nThank you for the confirmation.\n\nWill get back to you on this.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Duong Pham,<br>&nbsp;<br>Thank you for the confirmation.&nbsp;<br>&nbsp;<br>Will get back to you on this.&nbsp;<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Duong Pham,\n&nbsp;\nThank you for the confirmation.&nbsp;\n&nbsp;\nWill get back to you on this.&nbsp;\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56533137459481,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T22:42:34Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "115.99.141.72",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56533180759449,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Moving back to l3 - The customer provided a Carriage Value as $103.80 and the One Rate for 2 Day service provided is matching the rate shown through the app.\n\nHowever, the customer wants to see the actual one rate of $11.93 and not $16.88 as the customer does not wants the insurance applied for the domestic shipments.\n\nSo, the case here is about the customs value passed in the request which is not required for the customer.\n\nPlease check and provide an update.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving back to l3 - The customer provided a Carriage Value as $103.80 and the One Rate for 2 Day service provided is matching the rate shown through the app.&nbsp;<br>&nbsp;<br>However, the customer wants to see the actual one rate of $11.93 and not $16.88 as the customer does not wants the insurance applied for the domestic shipments.&nbsp;<br>&nbsp;<br>So, the case here is about the customs value passed in the request which is not required for the customer.&nbsp;<br>&nbsp;<br>Please check and provide an update.<br></div>",
+      "plain_body": "Moving back to l3 - The customer provided a Carriage Value as $103.80 and the One Rate for 2 Day service provided is matching the rate shown through the app.&nbsp;\n&nbsp;\nHowever, the customer wants to see the actual one rate of $11.93 and not $16.88 as the customer does not wants the insurance applied for the domestic shipments.&nbsp;\n&nbsp;\nSo, the case here is about the customs value passed in the request which is not required for the customer.&nbsp;\n&nbsp;\nPlease check and provide an update.",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56533135383065.json",
+          "id": 56533135383065,
+          "file_name": "ship rate 03-31-2026.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/jKKMoMXjhLAVB5v88vnYD8ldd/?name=ship+rate+03-31-2026.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/jKKMoMXjhLAVB5v88vnYD8ldd/?name=ship+rate+03-31-2026.jpg",
+          "content_type": "image/jpeg",
+          "size": 47530,
+          "width": 873,
+          "height": 487,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56533135389849.json",
+              "id": 56533135389849,
+              "file_name": "ship_rate_03-31-2026_thumb.jpg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/pHHsrhBGXFzrOZIqk7jreMF7q/?name=ship_rate_03-31-2026_thumb.jpg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/pHHsrhBGXFzrOZIqk7jreMF7q/?name=ship_rate_03-31-2026_thumb.jpg",
+              "content_type": "image/jpeg",
+              "size": 1524,
+              "width": 80,
+              "height": 45,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56533135388313.json",
+          "id": 56533135388313,
+          "file_name": "ship rate 03-31-2026 #2.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/AZd61NgkpzucqgNCSHMHtw8aM/?name=ship+rate+03-31-2026+%232.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/AZd61NgkpzucqgNCSHMHtw8aM/?name=ship+rate+03-31-2026+%232.jpg",
+          "content_type": "image/jpeg",
+          "size": 77186,
+          "width": 830,
+          "height": 814,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56533135393945.json",
+              "id": 56533135393945,
+              "file_name": "ship_rate_03-31-2026__2_thumb.jpg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/W72OTNelAUKwjjsW0gGLmwwJs/?name=ship_rate_03-31-2026__2_thumb.jpg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/W72OTNelAUKwjjsW0gGLmwwJs/?name=ship_rate_03-31-2026__2_thumb.jpg",
+              "content_type": "image/jpeg",
+              "size": 1600,
+              "width": 80,
+              "height": 78,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 56533180759321,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T22:46:43Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "115.99.141.72",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56543270600857,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We have identified the case due to which the rates fetched aren't matching. This will be fixed in upcoming release.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have identified the case due to which the rates fetched aren't matching. This will be fixed in upcoming release.<br>[Veena]<br></div>",
+      "plain_body": "We have identified the case due to which the rates fetched aren't matching. This will be fixed in upcoming release.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56543270600729,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T04:08:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56544064635929,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Duong Pham,\n\nThank you for your patience.\n\nWe have identified the case due to which the rates fetched from the plugin are not matching your account rates.\n\nWe will be enhancing the plugin to correct the case. This enhancement will be made available in the upcoming release which is being put on priority.\n\nWe will update you as soon as the enhancement is made available.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Duong Pham,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We have identified the case due to which the rates fetched from the plugin are not matching your account rates.<br>&nbsp;<br>We will be enhancing the plugin to correct the case. This enhancement will be made available in the upcoming release which is being put on priority.<br>&nbsp;<br>We will update you as soon as the enhancement is made available.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Duong Pham,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe have identified the case due to which the rates fetched from the plugin are not matching your account rates.\n&nbsp;\nWe will be enhancing the plugin to correct the case. This enhancement will be made available in the upcoming release which is being put on priority.\n&nbsp;\nWe will update you as soon as the enhancement is made available.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56544064635801,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T04:33:01Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56583142095641,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We have fixed the fedex discrepancy issue.\n\nAlso, Fedex has assigned the Insurance surcharges for shipment that are over 500$.\nhttps://www.fedex.com/en-us/shipping/declared-value.html\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have fixed the fedex discrepancy issue.<br>&nbsp;<br>Also, Fedex has assigned the Insurance surcharges for shipment that are over 500$.<br><a rel=\"noopener noreferrer\" href=\"https://www.fedex.com/en-us/shipping/declared-value.html\">https://www.fedex.com/en-us/shipping/declared-value.html</a><br>&nbsp;<br>[Veena]<br></div>",
+      "plain_body": "We have fixed the fedex discrepancy issue.\n&nbsp;\nAlso, Fedex has assigned the Insurance surcharges for shipment that are over 500$.\nhttps://www.fedex.com/en-us/shipping/declared-value.html\n&nbsp;\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56583142095513,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T06:13:18Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56594424923417,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Case not working as expected. Shared with Veena and moving back to L3.\nWaiting for new update from Veena so that we can check the case again.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Case not working as expected. Shared with Veena and moving back to L3.<br>Waiting for new update from Veena so that we can check the case again.<br></div>",
+      "plain_body": "Case not working as expected. Shared with Veena and moving back to L3.\nWaiting for new update from Veena so that we can check the case again.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56594424923289,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T12:14:38Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56595363853721,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "This has been fixed. Kindly test and inform the merchant.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This has been fixed. Kindly test and inform the merchant.<br>[Veena]<br></div>",
+      "plain_body": "This has been fixed. Kindly test and inform the merchant.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56595363853593,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T12:58:56Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56597835031833,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "WSS release for this enhancement is still in progress. Moving to dev after checking with Veena.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">WSS release for this enhancement is still in progress. Moving to dev after checking with Veena.<br></div>",
+      "plain_body": "WSS release for this enhancement is still in progress. Moving to dev after checking with Veena.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56597835031705,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T15:11:25Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "122.171.16.124",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56624709615385,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Duong Pham,\n\nThank you for your patience.\n\nOur team has addressed the case for FedEx rates mismatch that you were seeing from the plugin on your store.\n\nNow the rates are showing correctly on checkout of your store without any additional insurance charges and the same will be available during label generation with the plugin.\n\nYou can test the case again with the plugin on your store and let us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Duong Pham,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Our team has addressed the case for FedEx rates mismatch that you were seeing from the plugin on your store.<br>&nbsp;<br>Now the rates are showing correctly on checkout of your store without any additional insurance charges and the same will be available during label generation with the plugin.<br>&nbsp;<br>You can test the case again with the plugin on your store and let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Duong Pham,\n&nbsp;\nThank you for your patience.\n&nbsp;\nOur team has addressed the case for FedEx rates mismatch that you were seeing from the plugin on your store.\n&nbsp;\nNow the rates are showing correctly on checkout of your store without any additional insurance charges and the same will be available during label generation with the plugin.\n&nbsp;\nYou can test the case again with the plugin on your store and let us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56624678921625,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-03T11:15:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "122.171.16.124",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56624732457113,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": " ![](https://pluginhive.zendesk.com/attachments/token/z5qpV6lHFBdbvd0wOCE1xQd2P/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><img style=\" width: 680px;\" src=\"https://pluginhive.zendesk.com/attachments/token/z5qpV6lHFBdbvd0wOCE1xQd2P/?name=image.png\"><br></div>",
+      "plain_body": "",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56624742597529,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-03T11:16:42Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "122.171.16.124",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56964777787545,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Planned for 378.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Planned for 378.<br>[Veena]<br></div>",
+      "plain_body": "Planned for 378.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56964806927385,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T13:31:49Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "152.57.117.139",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

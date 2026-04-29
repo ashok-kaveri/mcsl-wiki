@@ -1,0 +1,770 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/386476.json",
+    "id": 386476,
+    "external_id": null,
+    "via": {
+      "channel": "api",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-04-28T06:28:11Z",
+    "updated_at": "2026-04-29T07:41:09Z",
+    "generated_timestamp": 1777448469,
+    "type": "question",
+    "subject": "Give the WooCommerce Shipping Services Plugin another try? We can extend the free trial.",
+    "raw_subject": "Give the WooCommerce Shipping Services Plugin another try? We can extend the free trial.",
+    "description": "Hello Jason,\n\n We regret that you had to uninstall our **WooCommerce Shipping Services Plugin** from https://os.emmetts.com.au\n\n If you have faced any difficulties with the plugin, we can hop on a call to assist you. Or if you are awaiting your WooCommerce store launch, do let us know so we can extend your free trial period.\n\n\n> **Did you know?**\n>\n> - _Our shipping plugin is certified by top shipping carriers like UPS, FedEx, USPS, Stamps.com, DHL Express, Australia Post, Canada Post, Post Nord & many more._\n> - _This plugin will allow you to ship with multiple carrier(s)._\n> - _Print 100 (s) of shipping labels in a single click._\n> - _Our shipping experts will provide you with quick and reliable support._\n\n\n\n Let’s schedule a quick call to discuss how exactly we can help you reach your shipping requirements.\n\n We would like to hear from you.\n\n Thanks and Regards,\n Team PluginHive\nhttps://www.pluginhive.com/about/#team",
+    "priority": "normal",
+    "status": "open",
+    "recipient": null,
+    "requester_id": 57400035918873,
+    "submitter_id": 57400035918873,
+    "assignee_id": 44512844768153,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      1900132637947,
+      12308907245209,
+      57427579369753
+    ],
+    "follower_ids": [
+      1900132637947,
+      12308907245209,
+      57427579369753
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "issues_with_setting_up_the_plugin",
+      "last_reply_agent",
+      "shopify",
+      "system_email_notification_failure",
+      "woocommerce_shipping_services",
+      "wss_uninstallation"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "8faa7fdd-dc2b-425a-addc-ff0e7cddb28a"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69f185c8f245b3aec358022b"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "LYWVNM-6J19W",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "8faa7fdd-dc2b-425a-addc-ff0e7cddb28a"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69f185c8f245b3aec358022b"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57400002540825,
+      "type": "Comment",
+      "author_id": 57400035918873,
+      "body": "Hello Jason,\n\n We regret that you had to uninstall our **WooCommerce Shipping Services Plugin** from https://os.emmetts.com.au\n\n If you have faced any difficulties with the plugin, we can hop on a call to assist you. Or if you are awaiting your WooCommerce store launch, do let us know so we can extend your free trial period.\n\n\n> **Did you know?**\n>\n> - _Our shipping plugin is certified by top shipping carriers like UPS, FedEx, USPS, Stamps.com, DHL Express, Australia Post, Canada Post, Post Nord & many more._\n> - _This plugin will allow you to ship with multiple carrier(s)._\n> - _Print 100 (s) of shipping labels in a single click._\n> - _Our shipping experts will provide you with quick and reliable support._\n\n\n\n Let’s schedule a quick call to discuss how exactly we can help you reach your shipping requirements.\n\n We would like to hear from you.\n\n Thanks and Regards,\n Team PluginHive\nhttps://www.pluginhive.com/about/#team",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason, \n        <br>\n        <br>\n        We regret that you had to uninstall our <b>WooCommerce Shipping Services Plugin</b> from https://os.emmetts.com.au\n        <br>\n        <br>\n        If you have faced any difficulties with the plugin, we can hop on a call to assist you.\n        Or if you are awaiting your WooCommerce store launch, do let us know so we can extend your free trial period.\n        <br>\n        <br>\n        <blockquote><b>Did you know?</b>\n        <br>\n        <br>\n        <li>\n        <i>Our shipping plugin is certified by top shipping carriers like UPS, FedEx, USPS, Stamps.com, DHL Express, Australia Post, Canada Post, Post Nord &amp; many more.</i>\n        </li>\n        <li>\n        <i>This plugin will allow you to ship with multiple carrier(s).</i>\n        </li>\n        <li>\n        <i>Print 100 (s) of shipping labels in a single click.</i>\n        </li>\n        <li>\n        <i>Our shipping experts will provide you with quick and reliable support.</i>\n        </li>\n        </blockquote>\n        <br>\n        <br>\n        Let’s schedule a quick call to discuss how exactly we can help you reach your shipping requirements.\n        <br>\n        <br>\n        We would like to hear from you.\n        <br>\n        <br>\n        Thanks and Regards,\n        <br>\n        Team PluginHive\n        <br>\n        <a href=\"https://www.pluginhive.com/about/#team\" rel=\"noreferrer\">https://www.pluginhive.com/about/#team</a><p dir=\"auto\"></p></div>",
+      "plain_body": "Hello Jason, \n        \n\n        \n\n        We regret that you had to uninstall our WooCommerce Shipping Services Plugin from https://os.emmetts.com.au\n        \n\n        \n\n        If you have faced any difficulties with the plugin, we can hop on a call to assist you.\n        Or if you are awaiting your WooCommerce store launch, do let us know so we can extend your free trial period.\n        \n\n        \n\n         Did you know?\n        \n\n        \n\n         \n        Our shipping plugin is certified by top shipping carriers like UPS, FedEx, USPS, Stamps.com, DHL Express, Australia Post, Canada Post, Post Nord &amp; many more.\n         \n         \n        This plugin will allow you to ship with multiple carrier(s).\n         \n         \n        Print 100 (s) of shipping labels in a single click.\n         \n         \n        Our shipping experts will provide you with quick and reliable support.\n         \n         \n        \n\n        \n\n        Let’s schedule a quick call to discuss how exactly we can help you reach your shipping requirements.\n        \n\n        \n\n        We would like to hear from you.\n        \n\n        \n\n        Thanks and Regards,\n        \n\n        Team PluginHive\n        \n\n        https://www.pluginhive.com/about/#team",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57400002540697,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-28T06:28:11Z",
+      "metadata": {
+        "system": {
+          "client": "axios/0.16.2",
+          "ip_address": "138.68.13.182",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57400415327385,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+61343283339",
+        "to": "+61353623015",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA9ec95399cba73f71e8648ce971a1f584/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 57400342618521,
+        "call_duration": 115,
+        "answered_by_id": 44512844768153,
+        "started_at": "2026-04-28T06:37:40Z",
+        "location": "",
+        "author_id": 44512844768153,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Priyanka Mukhia",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+61 3 4328 3339",
+      "formatted_to": "+61 3 5362 3015",
+      "transcription_visible": false,
+      "author_id": 44512844768153,
+      "body": "Outbound call to +61 3 5362 3015\nCall Details:\n\nCall from: +61 3 4328 3339\nCall to: +61 3 5362 3015\nTime of call: 2026-04-28 06:37:40 UTC\nCalled by: Priyanka Mukhia\nLength of phone call: 1 minute, 55 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA9ec95399cba73f71e8648ce971a1f584/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +61 3 5362 3015<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +61 3 4328 3339<br>\nCall to: +61 3 5362 3015<br>\nTime of call: 2026-04-28 06:37:40 UTC<br>\nCalled by: Priyanka Mukhia<br>\nLength of phone call: 1 minute, 55 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA9ec95399cba73f71e8648ce971a1f584/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA9ec95399cba73f71e8648ce971a1f584/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-04-28T06:39:35Z",
+      "audit_id": 57400415323929,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+61 3 4328 3339",
+            "phone": "+61343283339",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+61 3 5362 3015",
+            "phone": "+61353623015",
+            "name": "+61 3 5362 3015"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57400573135257,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Jason,\n\nThank you so much for your time over the call.\n\nYour honest feedback means a lot to us! Please take a minute to leave us a review. This will keep our team motivated.\nhttps://www.trustpilot.com/review/pluginhive.com\n\nIf you have any questions or need further assistance, please feel free to reach out to us anytime —we’re happy to help.\n\nWishing you a great day ahead!\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br><br>Thank you so much for your time over the call.<br>&nbsp;<br>Your honest feedback means a lot to us! Please take a minute to leave us a review. This will keep our team motivated.<br><a rel=\"noopener noreferrer\" href=\"https://www.trustpilot.com/review/pluginhive.com\">https://www.trustpilot.com/review/pluginhive.com</a><br><br>If you have any questions or need further assistance, please feel free to reach out to us anytime —we’re happy to help.<br><br>Wishing you a great day ahead!<br><br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n\nThank you so much for your time over the call.\n&nbsp;\nYour honest feedback means a lot to us! Please take a minute to leave us a review. This will keep our team motivated.\nhttps://www.trustpilot.com/review/pluginhive.com\n\nIf you have any questions or need further assistance, please feel free to reach out to us anytime —we’re happy to help.\n\nWishing you a great day ahead!\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57400573135129,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-28T06:42:52Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57400586881433,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "AU store\nTNT australia added\nusing for rates and labels\n$29 plan\nI spoke with customer and he said he uninstalled for testing and he is using it\nHe is happy with the app\nI requested for review however he said he doesn't have time\nmail sent and review requested via mail",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">AU store&nbsp;<br>TNT australia added<br>using for rates and labels<br>$29 plan&nbsp;<br>I spoke with customer and he said he uninstalled for testing and he is using it&nbsp;<br>He is happy with the app&nbsp;<br>I requested for review however he said he doesn't have time&nbsp;<br>mail sent and review requested via mail<br></div>",
+      "plain_body": "AU store&nbsp;\nTNT australia added\nusing for rates and labels\n$29 plan&nbsp;\nI spoke with customer and he said he uninstalled for testing and he is using it&nbsp;\nHe is happy with the app&nbsp;\nI requested for review however he said he doesn't have time&nbsp;\nmail sent and review requested via mail",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57400586880793,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-28T06:43:00Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57427579402649,
+      "type": "Comment",
+      "author_id": 1900132637947,
+      "body": "In taking a copy of our production website https://www.emmetts.com.au/shop and using a test server, an exact copy at https://os.emmetts.com.au I disabled the plugin, the reason for you calling me.\n\nSeems now we have lost functionality and shipping on our production server is defaulting to fallback rate -  why??\n\n\n\n ![](https://support.pluginhive.com/attachments/token/QcsWdCATaR40yRQMNgbWhJzJn/?name=image.png)\n\n**Jason Keys**\nSenior Web Developer & Systems Administrator\nEmmetts, Group Support Centre\n41a Roberts Avenue Horsham Victoria 3400\nT: 03 5362 3015 | M: 0418 504 177\nJKeys@emmetts.com.au | www.emmetts.com.au\n ![](https://support.pluginhive.com/attachments/token/FzsDIO1d8Yh33WYcF307XkJF1/?name=facebook_32x32_20a77f03-00c0-4385-ac4d-3fc9ed92f421.png)  ![](https://support.pluginhive.com/attachments/token/ircFHwuuZI82GLm1IpFkgNmB6/?name=linkedin_32x32_4780aec9-de05-44f1-9b3f-62b0c830bb20.png)  ![](https://support.pluginhive.com/attachments/token/8WiZB5ReEuo0ZQVYlLTiNpja7/?name=x_32x32_8a7e5e1b-27b3-4d5c-a4fe-9c53ccb84c12.png)  ![](https://support.pluginhive.com/attachments/token/Q79dAh563RRBmtRnHzbXHcTLe/?name=youtube_32x32_70a01c6c-dbdd-48a1-8994-89b19e8d3ed8.png)  ![](https://support.pluginhive.com/attachments/token/DD4pDw9Ynyg3uNjPmpAfXkLIe/?name=instagram_32x32_c611d5d5-dfce-4968-8dc2-97063afe26d3.png)  ![Emmetts AO email signature.png](https://support.pluginhive.com/attachments/token/ckrS6sg0NsqaiA46eWX4qzz95/?name=emmettsaoemailsignature_a74b7dea-44c6-43a2-92ff-09683c228c29.png)\n ![Mar-Apr2026 0.99% Finance.jpg](https://support.pluginhive.com/attachments/token/0lP5Za3f508QloaIKkIbjICFi/?name=mar-apr20260.99%25finance_48cdb655-118d-4571-9801-c8452e36baa1.jpg) ![fat.png](https://support.pluginhive.com/attachments/token/MLPq9PfZm5z7HvZJsiysJojlW/?name=fat_431eb9c8-c4dc-4ae4-b264-136f04682f16.png)\nThe information contained in this e-mail may be confidential. You should only read, disclose, re-transmit, copy, distribute, act in reliance on or commercialise the information if you are authorised to do so. If you are not the intended recipient of this e-mail, please notify me immediately by replying to this e-mail and then destroy any electronic or paper copy of this message. Any views in this e-mail are those of the individual sender, except where the sender specifically states them to be the views of Emmetts. Emmetts do not represent, warrant or guarantee that the integrity of this e-mail has been maintained nor that the e-mail is free of virus or interference. Binding agreements with Emmetts, or by staff on behalf of Emmetts cannot be made by e-mail.\n\nNote: I choose to work flexibly and send emails outside normal office hours (8am to 5pm, Monday to Friday). There is no expectation for you to read and / or respond to my emails outside your contracted working hours, unless you would like to.\n\n* * *",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nIn taking a copy of our production website <a href=\"https://www.emmetts.com.au/shop\" rel=\"noreferrer\">\nhttps://www.emmetts.com.au/shop</a>&nbsp;and using a test server, an exact copy at <a href=\"https://os.emmetts.com.au/\" rel=\"noreferrer\">\nhttps://os.emmetts.com.au</a>&nbsp;I disabled the plugin, the reason for you calling me.</div>\n<div style=\" font-size: 11pt; color: rgb(0, 0, 0);\">\nSeems now we have lost functionality and shipping on our production server is defaulting to fallback rate -&nbsp; why??</div>\n<div></div>\n<div><br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<img style=\"max-width: 894px;\" src=\"https://support.pluginhive.com/attachments/token/QcsWdCATaR40yRQMNgbWhJzJn/?name=image.png\"><br>\n</div>\n<p style=\" font-size: 10pt; margin: 0.1pt;\" dir=\"auto\"><br></p><table style=\"width: 480px;\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\">\n <tbody>\n <tr>\n <td style=\"font-size: 10pt; width: 334px; color: #3d3c3f; padding-bottom: 20px;\" valign=\"top\"><span><b style=\"color: #3d3c3f;\"><span>Jason Keys</span></b><br></span><span>Senior Web Developer &amp; Systems Administrator<br></span><span>Emmetts, Group Support Centre</span><br><span>41a Roberts Avenue Horsham Victoria 3400</span><br><span>T: <a style=\"text-decoration: none; color: rgb(61, 60, 63); \" href=\"tel:03%205362%203015\" rel=\"noreferrer\">03 5362 3015</a>&nbsp;| M: <a style=\"text-decoration: none; color: rgb(61, 60, 63); \" href=\"tel:0418%20504%20177\" rel=\"noreferrer\">0418 504 177</a><br></span><span><a style=\"color: rgb(0, 105, 180); \" href=\"mailto:JKeys@emmetts.com.au\" rel=\"noreferrer\">JKeys@emmetts.com.au</a>&nbsp;</span><span><span>| </span><a href=\"https://www.emmetts.com.au\" title=\"\" rel=\"noreferrer\">www.emmetts.com.au</a><span>&nbsp;<br></span><span></span></span></td>\n <td style=\"font-size: 10pt; width: 146px; padding-bottom: 20px;\" valign=\"bottom\" align=\"right\"><span><a href=\"https://www.facebook.com/emmettsfarmequipment/\" rel=\"noreferrer\"><br></a><br></span></td></tr>\n <tr><td valign=\"middle\" colspan=\"1\" style=\"width: 334px; text-align: left;\" align=\"left\"><a href=\"https://www.facebook.com/emmettsfarmequipment/\" rel=\"noreferrer\"><img src=\"https://support.pluginhive.com/attachments/token/FzsDIO1d8Yh33WYcF307XkJF1/?name=facebook_32x32_20a77f03-00c0-4385-ac4d-3fc9ed92f421.png\"></a>&nbsp;<a href=\"https://au.linkedin.com/company/emmetts\" rel=\"noreferrer\"><img src=\"https://support.pluginhive.com/attachments/token/ircFHwuuZI82GLm1IpFkgNmB6/?name=linkedin_32x32_4780aec9-de05-44f1-9b3f-62b0c830bb20.png\"></a>&nbsp;<a href=\"https://twitter.com/EmmettsGroup\" rel=\"noreferrer\"><img src=\"https://support.pluginhive.com/attachments/token/8WiZB5ReEuo0ZQVYlLTiNpja7/?name=x_32x32_8a7e5e1b-27b3-4d5c-a4fe-9c53ccb84c12.png\"></a>&nbsp;<a href=\"https://www.youtube.com/user/EmmettGroup\" rel=\"noreferrer\"><img src=\"https://support.pluginhive.com/attachments/token/Q79dAh563RRBmtRnHzbXHcTLe/?name=youtube_32x32_70a01c6c-dbdd-48a1-8994-89b19e8d3ed8.png\"></a>&nbsp;<a href=\"https://www.instagram.com/emmetts_stayingpower/\" rel=\"noreferrer\"><img src=\"https://support.pluginhive.com/attachments/token/DD4pDw9Ynyg3uNjPmpAfXkLIe/?name=instagram_32x32_c611d5d5-dfce-4968-8dc2-97063afe26d3.png\"></a>&nbsp;</td><td valign=\"middle\" colspan=\"1\" style=\"width: 146px; text-align: right;\" align=\"right\"><a href=\"https://www.emmetts.com.au/\" title=\"\" rel=\"noreferrer\"><img src=\"https://support.pluginhive.com/attachments/token/ckrS6sg0NsqaiA46eWX4qzz95/?name=emmettsaoemailsignature_a74b7dea-44c6-43a2-92ff-09683c228c29.png\" border=\"0\" width=\"254\" height=\"42\" alt=\"Emmetts AO email signature.png\" style=\"width: 254px; height: 42px;\"></a></td></tr><tr>\n <td style=\"font-size: 10pt; width: 480px; padding-bottom: 20px;\" valign=\"top\" colspan=\"2\"><a href=\"https://www.emmetts.com.au/current-offers/\" title=\"\" rel=\"noreferrer\"><img src=\"https://support.pluginhive.com/attachments/token/0lP5Za3f508QloaIKkIbjICFi/?name=mar-apr20260.99%25finance_48cdb655-118d-4571-9801-c8452e36baa1.jpg\" border=\"0\" width=\"600\" height=\"60\" alt=\"Mar-Apr2026 0.99% Finance.jpg\" style=\"width: 600px; height: 60px;\"></a><img src=\"https://support.pluginhive.com/attachments/token/MLPq9PfZm5z7HvZJsiysJojlW/?name=fat_431eb9c8-c4dc-4ae4-b264-136f04682f16.png\" border=\"0\" alt=\"fat.png\"><br></td></tr>\n <tr>\n <td style=\"width: 480px;\" valign=\"top\" colspan=\"2\"><font color=\"#9b9b9b\"><span style=\"font-size: 10.6667px; \">The information contained in this e-mail may be confidential. You should only read, disclose, re-transmit, copy, distribute, act in reliance on or commercialise the information if you are authorised to do so. If you are not the intended recipient of this e-mail, please notify me immediately by replying to this e-mail and then destroy any electronic or paper copy of this message. Any views in this e-mail are those of the individual sender, except where the sender specifically states them to be the views of Emmetts. Emmetts do not represent, warrant or guarantee that the integrity of this e-mail has been maintained nor that the e-mail is free of virus or interference. Binding agreements with Emmetts, or by staff on behalf of Emmetts cannot be made by e-mail.</span></font><br></td></tr>\n <tr><td style=\"width: 480px;\" valign=\"top\" colspan=\"2\"><font color=\"#9b9b9b\"><span style=\"font-size: 10.6667px; \"><br>Note: I choose to work flexibly and send emails outside normal office hours (8am to 5pm, Monday to Friday). There is no expectation for you to read and / or respond to my emails outside your contracted working hours, unless you would like to.</span></font><br></td></tr></tbody></table>\n\n<hr style=\"display: inline-block; width: 98%;\"></div>",
+      "plain_body": "In taking a copy of our production website \nhttps://www.emmetts.com.au/shop&nbsp;and using a test server, an exact copy at \nhttps://os.emmetts.com.au&nbsp;I disabled the plugin, the reason for you calling me. \n \nSeems now we have lost functionality and shipping on our production server is defaulting to fallback rate -&nbsp; why?? \n \n \n\n \n \n\n\n \n \n \n \n \n Jason Keys\nSenior Web Developer &amp; Systems Administrator\nEmmetts, Group Support Centre\n41a Roberts Avenue Horsham Victoria 3400\nT: 03 5362 3015&nbsp;| M: 0418 504 177\nJKeys@emmetts.com.au&nbsp;| www.emmetts.com.au&nbsp;\n\n \n\n\n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n \n\n \n The information contained in this e-mail may be confidential. You should only read, disclose, re-transmit, copy, distribute, act in reliance on or commercialise the information if you are authorised to do so. If you are not the intended recipient of this e-mail, please notify me immediately by replying to this e-mail and then destroy any electronic or paper copy of this message. Any views in this e-mail are those of the individual sender, except where the sender specifically states them to be the views of Emmetts. Emmetts do not represent, warrant or guarantee that the integrity of this e-mail has been maintained nor that the e-mail is free of virus or interference. Binding agreements with Emmetts, or by staff on behalf of Emmetts cannot be made by e-mail.\n\n \nNote: I choose to work flexibly and send emails outside normal office hours (8am to 5pm, Monday to Friday). There is no expectation for you to read and / or respond to my emails outside your contracted working hours, unless you would like to.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57427579402521,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "shop@os.emmetts.com.au",
+            "name": "Jason",
+            "original_recipients": [
+              "jkeys@emmetts.com.au",
+              "support@pluginhive.com",
+              "raddlem@emmetts.com.au",
+              "aclappwassenaar@emmetts.com.au"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-29T02:56:47Z",
+      "metadata": {
+        "system": {
+          "message_id": "<SY9P282MB5958259990B02D53D5ECC42192342@SY9P282MB5958.AUSP282.PROD.OUTLOOK.COM>",
+          "email_id": "01KQBJNN0A7M599Y66PTXA65Y0",
+          "raw_email_identifier": "2369120/ee73856f-c96b-4dd6-af41-9b6ffb124c81.eml",
+          "json_email_identifier": "2369120/ee73856f-c96b-4dd6-af41-9b6ffb124c81.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57429913198105,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "plugin is inactive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">plugin is inactive<br>&nbsp;<br></div>",
+      "plain_body": "plugin is inactive\n&nbsp;",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57429925659545.json",
+          "id": 57429925659545,
+          "file_name": "Screenshot at Apr 29 09-36-04.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/gp8g4VDlGQ7rnulu0EiDQRQkt/?name=Screenshot+at+Apr+29+09-36-04.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/gp8g4VDlGQ7rnulu0EiDQRQkt/?name=Screenshot+at+Apr+29+09-36-04.png",
+          "content_type": "image/png",
+          "size": 732694,
+          "width": 2878,
+          "height": 1502,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57429925683097.json",
+              "id": 57429925683097,
+              "file_name": "Screenshot_at_Apr_29_09-36-04_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/kbDbXppn6AETGiDyqKJ0ZOm9g/?name=Screenshot_at_Apr_29_09-36-04_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/kbDbXppn6AETGiDyqKJ0ZOm9g/?name=Screenshot_at_Apr_29_09-36-04_thumb.png",
+              "content_type": "image/png",
+              "size": 9992,
+              "width": 80,
+              "height": 42,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 57429913197977,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-29T04:06:32Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57429997652121,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Jason,\n\nGood Day!\n\nUpon checking, it seems like the plugin has become inactive on your live store.\n\nPlease allow us some time so that we can make the plugin active again.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>Upon checking, it seems like the plugin has become inactive on your live store.<br>&nbsp;<br>Please allow us some time so that we can make the plugin active again.<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nGood Day!\n&nbsp;\nUpon checking, it seems like the plugin has become inactive on your live store.\n&nbsp;\nPlease allow us some time so that we can make the plugin active again.\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57429997651993,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-29T04:09:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57430131716889,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1777435939668309\n\nAu Customer using WSS with TNT Au.\nPlugin has become Inactive on customer store.\nPlease check and activate the plugin.\n\nURL - https://www.emmetts.com.au/shop\nAccount ID - 8faa7fdd-dc2b-425a-addc-ff0e7cddb28a",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1777435939668309\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1777435939668309</a><br>&nbsp;<br>Au Customer using WSS with TNT Au.<br>Plugin has become Inactive on customer store.<br>Please check and activate the plugin.<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"https://www.emmetts.com.au/shop\">https://www.emmetts.com.au/shop</a><br>Account ID - 8faa7fdd-dc2b-425a-addc-ff0e7cddb28a<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1777435939668309\n&nbsp;\nAu Customer using WSS with TNT Au.\nPlugin has become Inactive on customer store.\nPlease check and activate the plugin.\n&nbsp;\nURL - https://www.emmetts.com.au/shop\nAccount ID - 8faa7fdd-dc2b-425a-addc-ff0e7cddb28a",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57430082743961.json",
+          "id": 57430082743961,
+          "file_name": "Screenshot at Apr 29 09-36-04.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/cWBHLAMLfJ4rLuerNtIZsiMGq/?name=Screenshot+at+Apr+29+09-36-04.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/cWBHLAMLfJ4rLuerNtIZsiMGq/?name=Screenshot+at+Apr+29+09-36-04.png",
+          "content_type": "image/png",
+          "size": 732694,
+          "width": 2878,
+          "height": 1502,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57430115382425.json",
+              "id": 57430115382425,
+              "file_name": "Screenshot_at_Apr_29_09-36-04_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/iLeFQrkClgxxzwoMhHCQQBFw3/?name=Screenshot_at_Apr_29_09-36-04_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/iLeFQrkClgxxzwoMhHCQQBFw3/?name=Screenshot_at_Apr_29_09-36-04_thumb.png",
+              "content_type": "image/png",
+              "size": 9992,
+              "width": 80,
+              "height": 42,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 57430131716761,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-29T04:12:43Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57430482543385,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "plugin is now loading.\nverified that rates are also showing on checkout.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">plugin is now loading.<br>verified that rates are also showing on checkout.<br></div>",
+      "plain_body": "plugin is now loading.\nverified that rates are also showing on checkout.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57430482542617,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-29T04:23:55Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57430540445593,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+61343283339",
+        "to": "+61418504177",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA50242c06abbcbbd0a43b77a64b4ad18d/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 57430455109401,
+        "call_duration": 108,
+        "answered_by_id": 18854260804761,
+        "started_at": "2026-04-29T04:24:14Z",
+        "location": "",
+        "author_id": 18854260804761,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Touseef",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+61 3 4328 3339",
+      "formatted_to": "+61 418 504 177",
+      "transcription_visible": false,
+      "author_id": 18854260804761,
+      "body": "Outbound call to +61 418 504 177\nCall Details:\n\nCall from: +61 3 4328 3339\nCall to: +61 418 504 177\nTime of call: 2026-04-29 04:24:14 UTC\nCalled by: Touseef\nLength of phone call: 1 minute, 48 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA50242c06abbcbbd0a43b77a64b4ad18d/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +61 418 504 177<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +61 3 4328 3339<br>\nCall to: +61 418 504 177<br>\nTime of call: 2026-04-29 04:24:14 UTC<br>\nCalled by: Touseef<br>\nLength of phone call: 1 minute, 48 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA50242c06abbcbbd0a43b77a64b4ad18d/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA50242c06abbcbbd0a43b77a64b4ad18d/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-04-29T04:26:03Z",
+      "audit_id": 57430575991961,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+61 3 4328 3339",
+            "phone": "+61343283339",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+61 418 504 177",
+            "phone": "+61418504177",
+            "name": "+61 418 504 177"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57430577985561,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Informed the customer over phone call that plugin is now active and rates are available on checkout.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Informed the customer over phone call that plugin is now active and rates are available on checkout.<br></div>",
+      "plain_body": "Informed the customer over phone call that plugin is now active and rates are available on checkout.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57430577984281,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-29T04:26:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57430603443993,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Jason,\n\nThank you for your time on the call.\n\nAs shared, the plugin is now active and accessible on your store. You can try accessing the plugin and let us know if you have any further queries.\n\nAdditionally, we have cross checked and can confirm that the shipping rates are available on checkout from the plugin as well.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Thank you for your time on the call.<br>&nbsp;<br>As shared, the plugin is now active and accessible on your store. You can try accessing the plugin and let us know if you have any further queries.<br>&nbsp;<br>Additionally, we have cross checked and can confirm that the shipping rates are available on checkout from the plugin as well.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nThank you for your time on the call.\n&nbsp;\nAs shared, the plugin is now active and accessible on your store. You can try accessing the plugin and let us know if you have any further queries.\n&nbsp;\nAdditionally, we have cross checked and can confirm that the shipping rates are available on checkout from the plugin as well.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57430603443353,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-29T04:27:43Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57430622027673,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Keeping in L3 for further investigation from L3 on this recurring case.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Keeping in L3 for further investigation from L3 on this recurring case.<br></div>",
+      "plain_body": "Keeping in L3 for further investigation from L3 on this recurring case.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57430636543641,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-29T04:28:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57434335003673,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We will be working on fixing plugin loading issue due to isActive: false. Moving this to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will be working on fixing plugin loading issue due to isActive: false. Moving this to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "We will be working on fixing plugin loading issue due to isActive: false. Moving this to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57434335003545,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-29T06:10:21Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

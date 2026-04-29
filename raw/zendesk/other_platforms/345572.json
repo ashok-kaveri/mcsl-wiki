@@ -1,0 +1,751 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/345572.json",
+    "id": 345572,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "to": {},
+        "from": {
+          "ticket_id": 335396,
+          "subject": "question with estimated delivery dates",
+          "channel": "api"
+        },
+        "rel": "follow_up"
+      }
+    },
+    "created_at": "2025-08-25T21:38:23Z",
+    "updated_at": "2026-03-23T08:22:07Z",
+    "generated_timestamp": 1774254128,
+    "type": null,
+    "subject": "Re: [PluginHive] Re: question with estimated delivery dates",
+    "raw_subject": "Re: [PluginHive] Re: question with estimated delivery dates",
+    "description": "This is a follow-up to your previous request #335396 \"question with estimated del...\"\n\nHello, \nI wanted to touch base to see if you had an updated time of when the delivery date vs the number of days in transit would be done?\nMany thanks,\nLewis",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 48296027076377,
+    "submitter_id": 48296027076377,
+    "assignee_id": 6932179641113,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "bigcommerce",
+      "bigcommerce_ship__rate_and_track_for_fedex",
+      "dev_completed",
+      "dev_needed",
+      "high_agent_replies",
+      "issues_with_setting_up_the_plugin",
+      "last_reply_customer"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "bigcommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "bigcommerce_ship__rate_and_track_for_fedex"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "41854998-5d07-4865-8d1e-23e44bbc9427"
+      },
+      {
+        "id": 6680360109081,
+        "value": "7026067670"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "dev_completed"
+      },
+      {
+        "id": 11120226386585,
+        "value": "2026-01-27"
+      },
+      {
+        "id": 11144851505177,
+        "value": "686f3b7c03b8b7458c3efd5c"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "9NDKWX-54WKL",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "bigcommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "bigcommerce_ship__rate_and_track_for_fedex"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "41854998-5d07-4865-8d1e-23e44bbc9427"
+      },
+      {
+        "id": 6680360109081,
+        "value": "7026067670"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "dev_completed"
+      },
+      {
+        "id": 11120226386585,
+        "value": "2026-01-27"
+      },
+      {
+        "id": 11144851505177,
+        "value": "686f3b7c03b8b7458c3efd5c"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 50111901973273,
+      "type": "Comment",
+      "author_id": 48296027076377,
+      "body": "This is a follow-up to your previous request #335396 \"question with estimated del...\"\n\nHello,\nI wanted to touch base to see if you had an updated time of when the delivery date vs the number of days in transit would be done?\n\nMany thanks,\n\nLewis",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><div>This is a follow-up to your previous request <a href=\"/agent/tickets/335396\" target=\"_blank\" rel=\"ticket\">#335396</a> \"question with estimated del...\"</div><div dir=\"ltr\">Hello,&nbsp;<div>I wanted to touch base to see if you had an updated time of when the delivery date vs the number of days in transit would be done?</div><div>Many thanks,</div><div>Lewis</div></div><br><div></div></div>",
+      "plain_body": "This is a follow-up to your previous request #335396 \"question with estimated del...\"  Hello,&nbsp; I wanted to touch base to see if you had an updated time of when the delivery date vs the number of days in transit would be done?  Many thanks,  Lewis",
+      "public": true,
+      "attachments": [],
+      "audit_id": 50111901973145,
+      "via": {
+        "channel": "web",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": 335396,
+            "subject": "question with estimated delivery dates",
+            "channel": "api"
+          },
+          "rel": "follow_up"
+        }
+      },
+      "created_at": "2025-08-25T21:38:23Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKey2-3jdngwGt1PTFJ+e84iCfrC6SgJikVSYSmcJeW_37z86Q@mail.gmail.com>",
+          "email_id": "01K3HJNTW4ACF3PW7NGGC3PHPC",
+          "raw_email_identifier": "2369120/41b675fc-7029-4466-87e3-da56b17eae10.eml",
+          "json_email_identifier": "2369120/41b675fc-7029-4466-87e3-da56b17eae10.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 50112008850329,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Dear Lewis,\n\nGreetings!\n\nOur team is still working on your request and we will keep you updated at the earliest.\n\nThank you once again for your patience and understanding.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Dear Lewis,<br>&nbsp;<br>Greetings!<br>&nbsp;<br>Our team is still working on your request and we will keep you updated at the earliest.<br>&nbsp;<br>Thank you once again for your patience and understanding.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Dear Lewis,\n&nbsp;\nGreetings!\n&nbsp;\nOur team is still working on your request and we will keep you updated at the earliest.\n&nbsp;\nThank you once again for your patience and understanding.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 50112008850201,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-08-25T21:54:01Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 50112033787161,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "**Ref Ticket:** **https://pluginhive.zendesk.com/agent/tickets/335396**\n\n**Need assistance from L3 Team:**\n\nThe customer wanted to show estimated delivery dates at checkout in date format rather than showing it in days. Currently, the app is showing in days at checkout.\n\nCurrent Way:\n\n ![](https://pluginhive.zendesk.com/attachments/token/Moq6XtP8brnsJkLtE33LY1ONB/?name=image.png)\n\nExpected Way:\n\n ![](https://pluginhive.zendesk.com/attachments/token/wi0xRKzQagI4K69NBkJvws5ef/?name=image.png)\n\nI had discussed with Sanoop sir on this and moving to L3 for checking the feasibility.\n\n**Store Details:**\n**App:** BigCommerce FedEx App\n**Store URL:** https://store-9bzin0a726.mybigcommerce.com (https://www.sororityspecialties.com)\n**Account ID:** 41854998-5d07-4865-8d1e-23e44bbc9427\n**Carrier:** FedEx\n**Active For:** Rates\n**Active From:** 26th June 2026. Currently on trial plan.\nCustomer has currently setup the FedEx app for BigCommerce on one site. Once they confirm, if the app is working as expected, they will be adding the app to a couple of other stores.\n\n**Requirement:** The customer should show the estimated delivery date in date format rather than in days.\n\n\n**Latest update from Veena on July 25, 2025:**\n\nThis enhancement is picked up fro development. Tentative release time: 3 to 4 weeks. Move the ticket to dev_needed after replying\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><strong>Ref Ticket: </strong><a rel=\"noopener noreferrer\" href=\"https://pluginhive.zendesk.com/agent/tickets/335396\"><strong>https://pluginhive.zendesk.com/agent/tickets/335396</strong></a><br>&nbsp;<br><strong><u>Need assistance from L3 Team:</u></strong><br>&nbsp;<br>The customer wanted to show estimated delivery dates at checkout in date format rather than showing it in days. Currently, the app is showing in days at checkout.<br>&nbsp;<br>Current Way:<br>&nbsp;<br><img src=\"https://pluginhive.zendesk.com/attachments/token/Moq6XtP8brnsJkLtE33LY1ONB/?name=image.png\" style=\"width: 528px;\"><br>&nbsp;<br>Expected Way:<br>&nbsp;<br><img src=\"https://pluginhive.zendesk.com/attachments/token/wi0xRKzQagI4K69NBkJvws5ef/?name=image.png\" style=\"width: 521px;\"><br>&nbsp;<br>I had discussed with Sanoop sir on this and moving to L3 for checking the feasibility.<br>&nbsp;<br><strong>Store Details:</strong><br><strong>App:</strong> BigCommerce FedEx App<br><strong>Store URL:</strong> <a rel=\"noopener noreferrer\" href=\"https://store-9bzin0a726.mybigcommerce.com/\">https://store-9bzin0a726.mybigcommerce.com</a> (<a rel=\"noopener noreferrer\" href=\"https://www.sororityspecialties.com/\">https://www.sororityspecialties.com</a>)<br><strong>Account ID:</strong> 41854998-5d07-4865-8d1e-23e44bbc9427<br><strong>Carrier: </strong>FedEx<br><strong>Active For: </strong>Rates<br><strong>Active From: </strong>26th June 2026. Currently on trial plan.<br>Customer has currently setup the FedEx app for BigCommerce on one site. Once they confirm, if the app is working as expected, they will be adding the app to a couple of other stores.<br>&nbsp;<br><strong>Requirement:</strong> The customer should show the estimated delivery date in date format rather than in days.<br>&nbsp;<br>&nbsp;<br><strong>Latest update from Veena on July 25, 2025:</strong><br>&nbsp;<br>This enhancement is picked up fro development. Tentative release time: 3 to 4 weeks. Move the ticket to dev_needed after replying<br>[Veena]<br></div>",
+      "plain_body": "Ref Ticket: https://pluginhive.zendesk.com/agent/tickets/335396\n&nbsp;\nNeed assistance from L3 Team:\n&nbsp;\nThe customer wanted to show estimated delivery dates at checkout in date format rather than showing it in days. Currently, the app is showing in days at checkout.\n&nbsp;\nCurrent Way:\n&nbsp;\n\n&nbsp;\nExpected Way:\n&nbsp;\n\n&nbsp;\nI had discussed with Sanoop sir on this and moving to L3 for checking the feasibility.\n&nbsp;\nStore Details:\nApp: BigCommerce FedEx App\nStore URL: https://store-9bzin0a726.mybigcommerce.com (https://www.sororityspecialties.com)\nAccount ID: 41854998-5d07-4865-8d1e-23e44bbc9427\nCarrier: FedEx\nActive For: Rates\nActive From: 26th June 2026. Currently on trial plan.\nCustomer has currently setup the FedEx app for BigCommerce on one site. Once they confirm, if the app is working as expected, they will be adding the app to a couple of other stores.\n&nbsp;\nRequirement: The customer should show the estimated delivery date in date format rather than in days.\n&nbsp;\n&nbsp;\nLatest update from Veena on July 25, 2025:\n&nbsp;\nThis enhancement is picked up fro development. Tentative release time: 3 to 4 weeks. Move the ticket to dev_needed after replying\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 50112079742105,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-08-25T21:56:12Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 52175997884569,
+      "type": "Comment",
+      "author_id": 48296027076377,
+      "body": "Hello,\nI wanted to touch base to see if you had an updated time of when the delivery date vs the number of days in transit would be done?  In August you guys said it would be done soon and it's months later.\n\nMany thanks,\n\nLewis",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello,&nbsp;<div>I wanted to touch base to see if you had an updated time of when the delivery date vs the number of days in transit would be done?&nbsp; In August you guys said it would be done soon and it's months later.</div><div>Many thanks,</div><div>Lewis</div></div><br><div></div></div>",
+      "plain_body": "Hello,&nbsp; I wanted to touch base to see if you had an updated time of when the delivery date vs the number of days in transit would be done?&nbsp; In August you guys said it would be done soon and it's months later.  Many thanks,  Lewis",
+      "public": true,
+      "attachments": [],
+      "audit_id": 52175997884441,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "lewis@sororityspecialties.com",
+            "name": "Lewis Dawes",
+            "original_recipients": [
+              "lewis@sororityspecialties.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-11-05T14:59:05Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKey2-2uSb=Cw+HMSPE8Ws-PBgHs3eTSbkKKuQ_JWV=R=T96=g@mail.gmail.com>",
+          "email_id": "01K9A8EJCVKYC7CJJEJ070KGZM",
+          "raw_email_identifier": "2369120/2708521d-9899-45e4-ab49-b5753e3219d9.eml",
+          "json_email_identifier": "2369120/2708521d-9899-45e4-ab49-b5753e3219d9.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 52176856424089,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Lewis,\n\nPlease allow us sometime.\n\nWe will check about this with our team and get back to you with an update.\n\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Lewis,<br>&nbsp;<br>Please allow us sometime.&nbsp;<br>&nbsp;<br>We will check about this with our team and get back to you with an update.<br>&nbsp;<br>Thanks and Regards,<br>Sagar K S<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Lewis,\n&nbsp;\nPlease allow us sometime.&nbsp;\n&nbsp;\nWe will check about this with our team and get back to you with an update.\n&nbsp;\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 52176856423961,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-11-05T16:05:39Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 52176891462169,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Customer is asking for an update on the Enhancement ETA. Informed the team to check and provide the ETA",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer is asking for an update on the Enhancement ETA. Informed the team to check and provide the ETA<br></div>",
+      "plain_body": "Customer is asking for an update on the Enhancement ETA. Informed the team to check and provide the ETA",
+      "public": false,
+      "attachments": [],
+      "audit_id": 52176891462041,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-11-05T16:06:15Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 52205595655577,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We will provide updated ETA by tomorrow.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will provide updated ETA by tomorrow.<br>[Veena]<br></div>",
+      "plain_body": "We will provide updated ETA by tomorrow.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 52205595655193,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-11-06T11:38:02Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 52211284454425,
+      "type": "Comment",
+      "author_id": 48296027076377,
+      "body": "Thanks.  Another question.  Does the product I'm using only work with Fedex or will it work with UPS too?\nThanks,\n\nLewis",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Thanks.&nbsp; Another question.&nbsp; Does the product I'm using only work with Fedex or will it work with UPS too?<div>Thanks,</div><div>Lewis</div></div><br><div></div></div>",
+      "plain_body": "Thanks.&nbsp; Another question.&nbsp; Does the product I'm using only work with Fedex or will it work with UPS too? Thanks,  Lewis",
+      "public": true,
+      "attachments": [],
+      "audit_id": 52211284454297,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "lewis@sororityspecialties.com",
+            "name": "Lewis Dawes",
+            "original_recipients": [
+              "lewis@sororityspecialties.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-11-06T17:25:43Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKey2-0xmq_k3Dy9-PcM9eHJG_GL832W6NuDdWFSwHGYYLKwVw@mail.gmail.com>",
+          "email_id": "01K9D37S99N2823KZ6F3EC6C8Y",
+          "raw_email_identifier": "2369120/5a45fb23-4469-4c84-bc16-46d423d78ca7.eml",
+          "json_email_identifier": "2369120/5a45fb23-4469-4c84-bc16-46d423d78ca7.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 52211533211417,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Lewis Dawes,\n\nGood Day!\n\nThe **Ship, Rate and Track for FedEx by PluginHive** app is a FedEx specific integration and does not provide integrations for any other carriers like UPS.\n\nOur solution **Multi Carrier Shipping Label by PluginHive** app can be used for integrations with multiple carriers in one place and it supports FedEx and UPS carrier integration.\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Lewis Dawes,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>The <strong>Ship, Rate and Track for FedEx by PluginHive </strong>app is a FedEx specific integration and does not provide integrations for any other carriers like UPS.<br>&nbsp;<br>Our solution <a rel=\"noopener noreferrer\" href=\"https://www.bigcommerce.com/apps/multi-carrier-shipping-label-by-pluginhive/\"><strong>Multi Carrier Shipping Label by PluginHive</strong></a> app can be used for integrations with multiple carriers in one place and it supports FedEx and UPS carrier integration.<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Lewis Dawes,\n&nbsp;\nGood Day!\n&nbsp;\nThe Ship, Rate and Track for FedEx by PluginHive app is a FedEx specific integration and does not provide integrations for any other carriers like UPS.\n&nbsp;\nOur solution Multi Carrier Shipping Label by PluginHive app can be used for integrations with multiple carriers in one place and it supports FedEx and UPS carrier integration.\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 52211533211289,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-11-06T17:52:33Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "115.99.108.2",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 52236914340633,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We are in contact with BigCommerce for this case. We will update on this.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We are in contact with BigCommerce for this case. We will update on this.<br>[Veena]<br></div>",
+      "plain_body": "We are in contact with BigCommerce for this case. We will update on this.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 52236957431577,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-11-07T10:51:51Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 52380650938521,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "This enhancement is scheduled to be released after Black Friday. Please inform and move to dev_needed.\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This enhancement is scheduled to be released after Black Friday. Please inform and move to dev_needed.<br>&nbsp;<br>[Veena]<br></div>",
+      "plain_body": "This enhancement is scheduled to be released after Black Friday. Please inform and move to dev_needed.\n&nbsp;\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 52380650938393,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-11-12T12:14:24Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 52380753668249,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Lewis,\n\nThank you for your patience.\n\nWe have an update related to the enhancement and it is scheduled to be released after Black Friday.\n\nWe will keep you updated.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Lewis,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We have an update related to the enhancement and it is scheduled to be released after Black Friday.<br>&nbsp;<br>We will keep you updated.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Lewis,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe have an update related to the enhancement and it is scheduled to be released after Black Friday.\n&nbsp;\nWe will keep you updated.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 52380753668121,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-11-12T12:19:53Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 52383400491673,
+      "type": "Comment",
+      "author_id": 48296027076377,
+      "body": "Thanks for the update!",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Thanks for the update!</div><br><div></div></div>",
+      "plain_body": "Thanks for the update!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 52383400491545,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "lewis@sororityspecialties.com",
+            "name": "Lewis Dawes",
+            "original_recipients": [
+              "lewis@sororityspecialties.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-11-12T14:54:52Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKey2-3XJbR3DDsf0+VjLegw2xc4o5B5D3ia1E8-UMTixk6VQg@mail.gmail.com>",
+          "email_id": "01K9W8ZVGQ9DNTPWPE1E2GZQBK",
+          "raw_email_identifier": "2369120/6bb7a63b-28d5-4e5f-92ba-10a1ea525ed4.eml",
+          "json_email_identifier": "2369120/6bb7a63b-28d5-4e5f-92ba-10a1ea525ed4.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55750749748249,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "To be released in 373a.\n[veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">To be released in 373a.<br>[veena]<br></div>",
+      "plain_body": "To be released in 373a.\n[veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55750749748121,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T04:37:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55917305308697,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We have enhanced the app to display delivery date along with service name. Please test it tomorrow and inform.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have enhanced the app to display delivery date along with service name. Please test it tomorrow and inform.<br>[Veena]<br></div>",
+      "plain_body": "We have enhanced the app to display delivery date along with service name. Please test it tomorrow and inform.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55917305308569,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-11T12:17:33Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56269015899929,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Moving to Dev_needed. The estimated delivery is still showing in Days instead of Date.\n\n ![](https://pluginhive.zendesk.com/attachments/token/tPGQDi8g5zlTOTulXpBhSj6Ez/?name=image.png)\n\nThe customer is on BigCommerce Ship, Rate & Track for FedEx App.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving to Dev_needed. The estimated delivery is still showing in Days instead of Date.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 496px;\" src=\"https://pluginhive.zendesk.com/attachments/token/tPGQDi8g5zlTOTulXpBhSj6Ez/?name=image.png\"></span><br>&nbsp;<br>The customer is on BigCommerce Ship, Rate &amp; Track for FedEx App.<br></div>",
+      "plain_body": "Moving to Dev_needed. The estimated delivery is still showing in Days instead of Date.\n&nbsp;\n\n&nbsp;\nThe customer is on BigCommerce Ship, Rate &amp; Track for FedEx App.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56269015899801,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T08:22:07Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

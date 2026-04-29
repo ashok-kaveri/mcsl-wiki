@@ -1,0 +1,1651 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/379340.json",
+    "id": 379340,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-03-17T15:25:09Z",
+    "updated_at": "2026-04-16T10:36:28Z",
+    "generated_timestamp": 1776335788,
+    "type": "question",
+    "subject": "hello\n\nas requested we changed to new fedex rest a...",
+    "raw_subject": "hello\n\nas requested we changed to new fedex rest a...",
+    "description": "hello\n\nas requested we changed to new fedex rest api, but it now doesn't show up in checkout. what do we miss?\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/settings/carriers/fedex-rest/2ea0b5a4-3413-470e-b794-879d3ed0faa5",
+    "priority": "normal",
+    "status": "open",
+    "recipient": null,
+    "requester_id": 32992673030169,
+    "submitter_id": 32992673030169,
+    "assignee_id": 44512844768153,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "high_agent_replies",
+      "last_reply_agent",
+      "other",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "system_email_notification_failure",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "0616ac.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "00415752255"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69c12d27092a49fbe60f29c2"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "GZ9626-05023",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "0616ac.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "00415752255"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "69c12d27092a49fbe60f29c2"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56102996051865,
+      "type": "Comment",
+      "author_id": 32992673030169,
+      "body": "hello\n\nas requested we changed to new fedex rest api, but it now doesn't show up in checkout. what do we miss?\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/settings/carriers/fedex-rest/2ea0b5a4-3413-470e-b794-879d3ed0faa5",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">hello</p>\n\n<p dir=\"auto\">as requested we changed to new fedex rest api, but it now doesn't show up in checkout. what do we miss?</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/settings/carriers/fedex-rest/2ea0b5a4-3413-470e-b794-879d3ed0faa5\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/settings/carriers/fedex-rest/2ea0b5a4-3413-470e-b794-879d3ed0faa5</a></p></div>",
+      "plain_body": "hello \n\n as requested we changed to new fedex rest api, but it now doesn't show up in checkout. what do we miss? \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/settings/carriers/fedex-rest/2ea0b5a4-3413-470e-b794-879d3ed0faa5",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56102996051737,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-03-17T15:25:09Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "185.36.222.154",
+          "location": "Zurich, ZH, Switzerland",
+          "latitude": 47.3779,
+          "longitude": 8.5236
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 56103894895001,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Switzerland store\n$9 plan starter\nusing for rates and labels\nmultiple payments done\ni checked the rates in customer's store and rates are coming up\nthe automation rules are correct as well\nmail sent",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Switzerland store&nbsp;<br>$9 plan starter<br>using for rates and labels&nbsp;<br>multiple payments done<br>i checked the rates in customer's store and rates are coming up&nbsp;<br>the automation rules are correct as well&nbsp;<br>mail sent&nbsp;<br></div>",
+      "plain_body": "Switzerland store&nbsp;\n$9 plan starter\nusing for rates and labels&nbsp;\nmultiple payments done\ni checked the rates in customer's store and rates are coming up&nbsp;\nthe automation rules are correct as well&nbsp;\nmail sent&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56103894894873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T16:28:00Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.161.44",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56104214236825,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Luca,\n\nGreetings from PluginHive!\n\nI checked from our end and can confirm that the FedEx rates are now displaying at checkout. Please refer to the screenshots below for your reference.\nAdditionally, I can see that the automation rule is configured correctly.\n\nYou can also verify the rate requests from your end by navigating to:\nApp Menu → Settings → Shipping Rates → Request Log\n\nPlease check and let us know if you are still facing any concerns — we’ll be happy to assist further.\n\n ![](https://pluginhive.zendesk.com/attachments/token/WDGunqtHHcnijZmAiUmMURwV2/?name=Screenshot+2026-03-17+at+9.54.57%E2%80%AFPM.png)\n ![](https://pluginhive.zendesk.com/attachments/token/hI9wB3omBP79XoEdPrHct0L5L/?name=Screenshot+2026-03-17+at+9.56.15%E2%80%AFPM.png)\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Luca,<br>&nbsp;<br>Greetings from PluginHive!<br>&nbsp;<br>I checked from our end and can confirm that the FedEx rates are now displaying at checkout. Please refer to the screenshots below for your reference.<br>Additionally, I can see that the automation rule is configured correctly.<br>&nbsp;<br>You can also verify the rate requests from your end by navigating to:<br>App Menu → Settings → Shipping Rates → Request Log<br>&nbsp;<br>Please check and let us know if you are still facing any concerns — we’ll be happy to assist further.<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/WDGunqtHHcnijZmAiUmMURwV2/?name=Screenshot+2026-03-17+at+9.54.57%E2%80%AFPM.png\"></span><br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/hI9wB3omBP79XoEdPrHct0L5L/?name=Screenshot+2026-03-17+at+9.56.15%E2%80%AFPM.png\"></span><br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Luca,\n&nbsp;\nGreetings from PluginHive!\n&nbsp;\nI checked from our end and can confirm that the FedEx rates are now displaying at checkout. Please refer to the screenshots below for your reference.\nAdditionally, I can see that the automation rule is configured correctly.\n&nbsp;\nYou can also verify the rate requests from your end by navigating to:\nApp Menu → Settings → Shipping Rates → Request Log\n&nbsp;\nPlease check and let us know if you are still facing any concerns — we’ll be happy to assist further.\n&nbsp;\n\n\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56104214236697,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T16:54:36Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.161.44",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56170052945689,
+      "type": "Comment",
+      "author_id": 32992673030169,
+      "body": "Hi Priyanka\n\n\nThank you for your message.\n\n\n\nYes it works sometimes but not all the times.\n\nMany times it falls back to the manually entered backup price which isn’t dynamic. Could you tell me why?\n\n\n\nBest,\n\nLuca",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Priyanka\n<div><br>\n</div>\n<div>Thank you for your message.</div>\n<div><br>\n</div>\n<div>Yes it works sometimes but not all the times.&nbsp;</div>\n<div>Many times it falls back to the manually entered backup price which isn’t dynamic. Could you tell me why?</div>\n<div><br>\n</div>\n<div>Best,</div>\n<div>Luca<br>\n\n</div></div>",
+      "plain_body": "Hi Priyanka\n \n\n \n Thank you for your message. \n \n\n \n Yes it works sometimes but not all the times.&nbsp; \n Many times it falls back to the manually entered backup price which isn’t dynamic. Could you tell me why? \n \n\n \n Best, \n Luca",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56170052945561,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "luca@green.hockey",
+            "name": "Luca Keller",
+            "original_recipients": [
+              "luca@green.hockey",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T13:55:42Z",
+      "metadata": {
+        "system": {
+          "message_id": "<C82B01FF-20D0-4DB2-9D0B-A8C2232D6745@green.hockey>",
+          "email_id": "01KM362RV37SBEZVYRG25QFHZ8",
+          "raw_email_identifier": "2369120/58c3178a-09e3-4d4a-becd-702755f53a05.eml",
+          "json_email_identifier": "2369120/58c3178a-09e3-4d4a-becd-702755f53a05.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56171659364121,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Luca Keller,\n\nWe checked the logs and could not find any failures. If you encounter the rate issue again, could you please share a complete screenshot of the checkout page, including the product details and shipping address? This will help us replicate the order and verify the rate status.\n\nPlease let us know how it goes or if you need any assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Luca Keller,<br>&nbsp;<br>We checked the logs and could not find any failures. If you encounter the rate issue again, could you please share a complete screenshot of the checkout page, including the product details and shipping address? This will help us replicate the order and verify the rate status.<br>&nbsp;<br>Please let us know how it goes or if you need any assistance from our end.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Luca Keller,\n&nbsp;\nWe checked the logs and could not find any failures. If you encounter the rate issue again, could you please share a complete screenshot of the checkout page, including the product details and shipping address? This will help us replicate the order and verify the rate status.\n&nbsp;\nPlease let us know how it goes or if you need any assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56171659363993,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-19T15:33:28Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.37.177.226",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56197879064345,
+      "type": "Comment",
+      "author_id": 32992673030169,
+      "body": "Hello Manohar\n\n\n\nWe jsut experienced the problem first time with a client.\n\nHe ordere but could only choose backup rat, even though the rates in PH Multicarrier were successfull.\n\nCan there be anything misconfigured, so that Shopify doesn't use the rates, even though they're provided?\n\n\n\nPlease let me know, we'd need to sort this asap..\n\n\n\nThank you very much\n\nLuca\n\n\n\nGrow the Game.\n\n\nLuca Keller\n\nGreen Hockey AG\nTitlisstrasse 2, 8032 Zurich, Switzerland\n\nPhone +41 44 575 22 58\n\nMobile +41 79 265 79 33\n\n ![Green Hockey](https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg)\n\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n\n\n\n\n\n------ Originalnachricht ------\n\nVon \"Manohar V (PluginHive)\" <support@pluginhive.com>\n\nAn \"Luca Keller\" <luca@green.hockey>\n\nDatum 3/19/2026 4:33:28 PM\n\nBetreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Hello Manohar</div>\n<div><br>\n</div>\n<div>We jsut experienced the problem first time with a client.</div>\n<div>He ordere but could only choose backup rat, even though the rates in PH Multicarrier were successfull.</div>\n<div>Can there be anything misconfigured, so that Shopify doesn't use the rates, even though they're provided?</div>\n<div><br>\n</div>\n<div>Please let me know, we'd need to sort this asap..</div>\n<div><br>\n</div>\n<div>Thank you very much</div>\n<div>Luca</div>\n<div><br>\n</div>\n<div style=\"clear: both;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\" max-width: 560px; color: rgb(10, 10, 10);\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(253,253,253);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; margin-bottom: 20px;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(210,210,210);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 360px; border-bottom-width: 1px; border-bottom-color: rgb(2, 249, 0); border-bottom-style: solid;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"vertical-align: middle; padding-bottom: 10px;\" valign=\"middle\">\n<div style=\"font-size: 26px; font-weight: 700; color: rgb(2, 249, 0); letter-spacing: -0.4px; line-height: 1.1;\">\nGrow the Game. </div>\n</td>\n</tr>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"height: 10px; line-height: 10px; font-size: 0px;\">&nbsp; </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n\n<div style=\"font-size: 17px; font-weight: 600; color: rgb(10, 10, 10); margin-bottom: 10px; letter-spacing: -0.2px;\">\nLuca Keller </div>\n\n<div style=\"width: 360px; font-size: 13px; color: rgb(82, 82, 82); line-height: 1.6; margin-bottom: 12px;\">\n<div><span style=\"font-weight: 600; color: rgb(10, 10, 10);\">Green Hockey AG</span><br>\nTitlisstrasse 2, 8032 Zurich, Switzerland </div>\n<div style=\"margin-top: 6px;\">Phone <a href=\"tel:+41445752258\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 44 575 22 58</a> </div>\n<div>Mobile <a href=\"tel:+41792657933\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 79 265 79 33</a> </div>\n</div>\n\n<div style=\"width: 360px; padding: 10px 0px 14px;\"><img src=\"https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg\" alt=\"Green Hockey\" style=\"height: 25px; display: block; opacity: 0.9;\">\n</div>\n\n<div style=\"width: 600px; font-size: 10px; color: rgb(115, 115, 115); line-height: 1.5; padding-top: 10px; border-top-width: 1px; border-top-color: rgb(237, 237, 237); border-top-style: solid;\">\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div><br>\n</div>\n<div><br>\n</div>\n<div>\n<div>------ Originalnachricht ------</div>\n<div>Von \"Manohar V (PluginHive)\" &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;</div>\n<div>An \"Luca Keller\" &lt;<a href=\"mailto:luca@green.hockey\" rel=\"noreferrer\">luca@green.hockey</a>&gt;</div>\n<div>Datum 3/19/2026 4:33:28 PM</div>\n<div>Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...</div>\n</div>\n<div><br>\n</div>\n<div style=\"width: 100% !important; margin: 0; padding: 0;\">\n\n</div></div>",
+      "plain_body": "Hello Manohar \n \n\n \n We jsut experienced the problem first time with a client. \n He ordere but could only choose backup rat, even though the rates in PH Multicarrier were successfull. \n Can there be anything misconfigured, so that Shopify doesn't use the rates, even though they're provided? \n \n\n \n Please let me know, we'd need to sort this asap.. \n \n\n \n Thank you very much \n Luca \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n \nGrow the Game.  \n\n\n\n&nbsp; \n\n\n\n\n\n\n\n\n \nLuca Keller  \n\n \n Green Hockey AG\n\nTitlisstrasse 2, 8032 Zurich, Switzerland  \n Phone \n+41 44 575 22 58  \n Mobile \n+41 79 265 79 33  \n \n\n \n \n\n \nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n \n\n\n\n\n \n \n\n \n \n\n \n \n ------ Originalnachricht ------ \n Von \"Manohar V (PluginHive)\" &lt;support@pluginhive.com&gt; \n An \"Luca Keller\" &lt;luca@green.hockey&gt; \n Datum 3/19/2026 4:33:28 PM \n Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56197879064217,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "luca@green.hockey",
+            "name": "Luca Keller",
+            "original_recipients": [
+              "luca@green.hockey",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T11:14:17Z",
+      "metadata": {
+        "system": {
+          "message_id": "<emc071996f-6f87-491f-8e13-2b8c3c3e472e@green.hockey>",
+          "email_id": "01KM5F7XT39GG0GTGA93YF9ZGX",
+          "raw_email_identifier": "2369120/2ed3fb14-ed18-4348-a1cd-b3b3cf1accb0.eml",
+          "json_email_identifier": "2369120/2ed3fb14-ed18-4348-a1cd-b3b3cf1accb0.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56198168349337,
+      "type": "Comment",
+      "author_id": 32992673030169,
+      "body": "Hello again\n\n\n\nI think I might have found the problem:\n\nMy automation was pulling all possible rates from UPS and Fedex, pprobably timing out Shopify.\n\nI reduced them, now it seems to work. Is that possible?\n\n\n\nThank you\n\nLuca\n\n\n\nGrow the Game.\n\n\nLuca Keller\n\nGreen Hockey AG\nTitlisstrasse 2, 8032 Zurich, Switzerland\n\nPhone +41 44 575 22 58\n\nMobile +41 79 265 79 33\n\n ![Green Hockey](https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg)\n\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n\n\n\n\n\n------ Originalnachricht ------\n\nVon \"Luca Keller\" <luca@green.hockey>\n\nAn \"PluginHive\" <support@pluginhive.com>\n\nDatum 3/20/2026 12:14:07 PM\n\nBetreff Re: [PluginHive] Re: hello as requested we changed to new fedex rest a...\n\n\n\n> Hello Manohar\n>\n>\n>\n> We jsut experienced the problem first time with a client.\n>\n> He ordere but could only choose backup rat, even though the rates in PH Multicarrier were successfull.\n>\n> Can there be anything misconfigured, so that Shopify doesn't use the rates, even though they're provided?\n>\n>\n>\n> Please let me know, we'd need to sort this asap..\n>\n>\n>\n> Thank you very much\n>\n> Luca\n>\n>\n>\n> Grow the Game.\n>\n>\n> Luca Keller\n>\n> Green Hockey AG\n> Titlisstrasse 2, 8032 Zurich, Switzerland\n>\n> Phone +41 44 575 22 58\n>\n> Mobile +41 79 265 79 33\n>\n> ![Green Hockey](https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg)\n>\n> Confidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n>\n>\n>\n>\n>\n> ------ Originalnachricht ------\n>\n> Von \"Manohar V (PluginHive)\" <support@pluginhive.com>\n>\n> An \"Luca Keller\" <luca@green.hockey>\n>\n> Datum 3/19/2026 4:33:28 PM\n>\n> Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Hello again</div>\n<div><br>\n</div>\n<div>I think I might have found the problem:</div>\n<div>My automation was pulling all possible rates from UPS and Fedex, pprobably timing out Shopify.</div>\n<div>I reduced them, now it seems to work. Is that possible?</div>\n<div><br>\n</div>\n<div>Thank you</div>\n<div>Luca</div>\n<div><br>\n</div>\n<div style=\"clear: both;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\" max-width: 560px; color: rgb(10, 10, 10);\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(253,253,253);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; margin-bottom: 20px;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(210,210,210);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 360px; border-bottom-width: 1px; border-bottom-color: rgb(2, 249, 0); border-bottom-style: solid;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"vertical-align: middle; padding-bottom: 10px;\" valign=\"middle\">\n<div style=\"font-size: 26px; font-weight: 700; color: rgb(2, 249, 0); letter-spacing: -0.4px; line-height: 1.1;\">\nGrow the Game. </div>\n</td>\n</tr>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"height: 10px; line-height: 10px; font-size: 0px;\">&nbsp; </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n\n<div style=\"font-size: 17px; font-weight: 600; color: rgb(10, 10, 10); margin-bottom: 10px; letter-spacing: -0.2px;\">\nLuca Keller </div>\n\n<div style=\"width: 360px; font-size: 13px; color: rgb(82, 82, 82); line-height: 1.6; margin-bottom: 12px;\">\n<div><span style=\"font-weight: 600; color: rgb(10, 10, 10);\">Green Hockey AG</span><br>\nTitlisstrasse 2, 8032 Zurich, Switzerland </div>\n<div style=\"margin-top: 6px;\">Phone <a href=\"tel:+41445752258\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 44 575 22 58</a> </div>\n<div>Mobile <a href=\"tel:+41792657933\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 79 265 79 33</a> </div>\n</div>\n\n<div style=\"width: 360px; padding: 10px 0px 14px;\"><img src=\"https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg\" alt=\"Green Hockey\" style=\"height: 25px; display: block; opacity: 0.9;\">\n</div>\n\n<div style=\"width: 600px; font-size: 10px; color: rgb(115, 115, 115); line-height: 1.5; padding-top: 10px; border-top-width: 1px; border-top-color: rgb(237, 237, 237); border-top-style: solid;\">\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div><br>\n</div>\n<div><br>\n</div>\n<div>\n<div>------ Originalnachricht ------</div>\n<div>Von \"Luca Keller\" &lt;<a href=\"mailto:luca@green.hockey\" rel=\"noreferrer\">luca@green.hockey</a>&gt;</div>\n<div>An \"PluginHive\" &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;</div>\n<div>Datum 3/20/2026 12:14:07 PM</div>\n<div>Betreff Re: [PluginHive] Re: hello as requested we changed to new fedex rest a...</div>\n</div>\n<div><br>\n</div>\n<div style=\" font-size: 12pt;\">\n<blockquote style=\"margin-left: 5px; margin-right: 0px; padding-left: 10px; padding-right: 0px; border-left-width: 1px; border-left-color: rgb(204, 204, 204); border-left-style: solid; margin-top: 3px; padding-top: 0px;\">\n<div>Hello Manohar</div>\n<div><br>\n</div>\n<div>We jsut experienced the problem first time with a client.</div>\n<div>He ordere but could only choose backup rat, even though the rates in PH Multicarrier were successfull.</div>\n<div>Can there be anything misconfigured, so that Shopify doesn't use the rates, even though they're provided?</div>\n<div><br>\n</div>\n<div>Please let me know, we'd need to sort this asap..</div>\n<div><br>\n</div>\n<div>Thank you very much</div>\n<div>Luca</div>\n<div><br>\n</div>\n<div style=\"clear: both;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\" max-width: 560px; color: rgb(10, 10, 10);\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(253,253,253);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; margin-bottom: 20px;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(210,210,210);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 360px; border-bottom-width: 1px; border-bottom-color: rgb(2, 249, 0); border-bottom-style: solid;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"vertical-align: middle; padding-bottom: 10px;\" valign=\"middle\">\n<div style=\"font-size: 26px; font-weight: 700; color: rgb(2, 249, 0); letter-spacing: -0.4px; line-height: 1.1;\">\nGrow the Game. </div>\n</td>\n</tr>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"height: 10px; line-height: 10px; font-size: 0px;\">&nbsp; </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n\n<div style=\"font-size: 17px; font-weight: 600; color: rgb(10, 10, 10); margin-bottom: 10px; letter-spacing: -0.2px;\">\nLuca Keller </div>\n\n<div style=\"width: 360px; font-size: 13px; color: rgb(82, 82, 82); line-height: 1.6; margin-bottom: 12px;\">\n<div><span style=\"font-weight: 600; color: rgb(10, 10, 10);\">Green Hockey AG</span><br>\nTitlisstrasse 2, 8032 Zurich, Switzerland </div>\n<div style=\"margin-top: 6px;\">Phone <a href=\"tel:+41445752258\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 44 575 22 58</a> </div>\n<div>Mobile <a href=\"tel:+41792657933\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 79 265 79 33</a> </div>\n</div>\n\n<div style=\"width: 360px; padding: 10px 0px 14px;\"><img src=\"https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg\" alt=\"Green Hockey\" style=\"height: 25px; display: block; opacity: 0.9;\">\n</div>\n\n<div style=\"width: 600px; font-size: 10px; color: rgb(115, 115, 115); line-height: 1.5; padding-top: 10px; border-top-width: 1px; border-top-color: rgb(237, 237, 237); border-top-style: solid;\">\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div><br>\n</div>\n<div><br>\n</div>\n<div>\n<div>------ Originalnachricht ------</div>\n<div>Von \"Manohar V (PluginHive)\" &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;</div>\n<div>An \"Luca Keller\" &lt;<a href=\"mailto:luca@green.hockey\" rel=\"noreferrer\">luca@green.hockey</a>&gt;</div>\n<div>Datum 3/19/2026 4:33:28 PM</div>\n<div>Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...</div>\n</div>\n<div><br>\n</div>\n\n</blockquote>\n</div></div>",
+      "plain_body": "Hello again \n \n\n \n I think I might have found the problem: \n My automation was pulling all possible rates from UPS and Fedex, pprobably timing out Shopify. \n I reduced them, now it seems to work. Is that possible? \n \n\n \n Thank you \n Luca \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n \nGrow the Game.  \n\n\n\n&nbsp; \n\n\n\n\n\n\n\n\n \nLuca Keller  \n\n \n Green Hockey AG\n\nTitlisstrasse 2, 8032 Zurich, Switzerland  \n Phone \n+41 44 575 22 58  \n Mobile \n+41 79 265 79 33  \n \n\n \n \n\n \nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n \n\n\n\n\n \n \n\n \n \n\n \n \n ------ Originalnachricht ------ \n Von \"Luca Keller\" &lt;luca@green.hockey&gt; \n An \"PluginHive\" &lt;support@pluginhive.com&gt; \n Datum 3/20/2026 12:14:07 PM \n Betreff Re: [PluginHive] Re: hello as requested we changed to new fedex rest a... \n \n \n\n \n \n \n Hello Manohar \n \n\n \n We jsut experienced the problem first time with a client. \n He ordere but could only choose backup rat, even though the rates in PH Multicarrier were successfull. \n Can there be anything misconfigured, so that Shopify doesn't use the rates, even though they're provided? \n \n\n \n Please let me know, we'd need to sort this asap.. \n \n\n \n Thank you very much \n Luca \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n \nGrow the Game.  \n\n\n\n&nbsp; \n\n\n\n\n\n\n\n\n \nLuca Keller  \n\n \n Green Hockey AG\n\nTitlisstrasse 2, 8032 Zurich, Switzerland  \n Phone \n+41 44 575 22 58  \n Mobile \n+41 79 265 79 33  \n \n\n \n \n\n \nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n \n\n\n\n\n \n \n\n \n \n\n \n \n ------ Originalnachricht ------ \n Von \"Manohar V (PluginHive)\" &lt;support@pluginhive.com&gt; \n An \"Luca Keller\" &lt;luca@green.hockey&gt; \n Datum 3/19/2026 4:33:28 PM \n Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56198168348569,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "luca@green.hockey",
+            "name": "Luca Keller",
+            "original_recipients": [
+              "luca@green.hockey",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T11:27:28Z",
+      "metadata": {
+        "system": {
+          "message_id": "<embf907ccd-211b-4636-ad77-bc196bbba4a7@green.hockey>",
+          "email_id": "01KM5G02JKSMERBDEC4G19SXRV",
+          "raw_email_identifier": "2369120/f1993dc5-3684-4549-a868-259ef3a69d12.eml",
+          "json_email_identifier": "2369120/f1993dc5-3684-4549-a868-259ef3a69d12.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56198226344089,
+      "type": "Comment",
+      "author_id": 32992673030169,
+      "body": "It's still happening so probably not..\n\nIt takes really long on Shopify to fetch rates and in the end it uses backup rate..\n\n\n\nGrow the Game.\n\n\nLuca Keller\n\nGreen Hockey AG\nTitlisstrasse 2, 8032 Zurich, Switzerland\n\nPhone +41 44 575 22 58\n\nMobile +41 79 265 79 33\n\n ![Green Hockey](https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg)\n\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n\n\n\n\n\n------ Originalnachricht ------\n\nVon \"Luca Keller\" <luca@green.hockey>\n\nAn \"PluginHive\" <support@pluginhive.com>\n\nDatum 3/20/2026 12:27:16 PM\n\nBetreff Re[2]: [PluginHive] Re: hello as requested we changed to new fedex rest a...\n\n\n\n> Hello again\n>\n>\n>\n> I think I might have found the problem:\n>\n> My automation was pulling all possible rates from UPS and Fedex, pprobably timing out Shopify.\n>\n> I reduced them, now it seems to work. Is that possible?\n>\n>\n>\n> Thank you\n>\n> Luca\n>\n>\n>\n> Grow the Game.\n>\n>\n> Luca Keller\n>\n> Green Hockey AG\n> Titlisstrasse 2, 8032 Zurich, Switzerland\n>\n> Phone +41 44 575 22 58\n>\n> Mobile +41 79 265 79 33\n>\n> ![Green Hockey](https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg)\n>\n> Confidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n>\n>\n>\n>\n>\n> ------ Originalnachricht ------\n>\n> Von \"Luca Keller\" <luca@green.hockey>\n>\n> An \"PluginHive\" <support@pluginhive.com>\n>\n> Datum 3/20/2026 12:14:07 PM\n>\n> Betreff Re: [PluginHive] Re: hello as requested we changed to new fedex rest a...\n>\n>\n>\n> > Hello Manohar\n> >\n> >\n> >\n> > We jsut experienced the problem first time with a client.\n> >\n> > He ordere but could only choose backup rat, even though the rates in PH Multicarrier were successfull.\n> >\n> > Can there be anything misconfigured, so that Shopify doesn't use the rates, even though they're provided?\n> >\n> >\n> >\n> > Please let me know, we'd need to sort this asap..\n> >\n> >\n> >\n> > Thank you very much\n> >\n> > Luca\n> >\n> >\n> >\n> > Grow the Game.\n> >\n> >\n> > Luca Keller\n> >\n> > Green Hockey AG\n> > Titlisstrasse 2, 8032 Zurich, Switzerland\n> >\n> > Phone +41 44 575 22 58\n> >\n> > Mobile +41 79 265 79 33\n> >\n> > ![Green Hockey](https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg)\n> >\n> > Confidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n> >\n> >\n> >\n> >\n> >\n> > ------ Originalnachricht ------\n> >\n> > Von \"Manohar V (PluginHive)\" <support@pluginhive.com>\n> >\n> > An \"Luca Keller\" <luca@green.hockey>\n> >\n> > Datum 3/19/2026 4:33:28 PM\n> >\n> > Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>It's still happening so probably not..</div>\n<div>It takes really long on Shopify to fetch rates and in the end it uses backup rate..</div>\n<div><br>\n</div>\n<div style=\"clear: both;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\" max-width: 560px; color: rgb(10, 10, 10);\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(253,253,253);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; margin-bottom: 20px;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(210,210,210);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 360px; border-bottom-width: 1px; border-bottom-color: rgb(2, 249, 0); border-bottom-style: solid;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"vertical-align: middle; padding-bottom: 10px;\" valign=\"middle\">\n<div style=\"font-size: 26px; font-weight: 700; color: rgb(2, 249, 0); letter-spacing: -0.4px; line-height: 1.1;\">\nGrow the Game. </div>\n</td>\n</tr>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"height: 10px; line-height: 10px; font-size: 0px;\">&nbsp; </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n\n<div style=\"font-size: 17px; font-weight: 600; color: rgb(10, 10, 10); margin-bottom: 10px; letter-spacing: -0.2px;\">\nLuca Keller </div>\n\n<div style=\"width: 360px; font-size: 13px; color: rgb(82, 82, 82); line-height: 1.6; margin-bottom: 12px;\">\n<div><span style=\"font-weight: 600; color: rgb(10, 10, 10);\">Green Hockey AG</span><br>\nTitlisstrasse 2, 8032 Zurich, Switzerland </div>\n<div style=\"margin-top: 6px;\">Phone <a href=\"tel:+41445752258\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 44 575 22 58</a> </div>\n<div>Mobile <a href=\"tel:+41792657933\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 79 265 79 33</a> </div>\n</div>\n\n<div style=\"width: 360px; padding: 10px 0px 14px;\"><img src=\"https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg\" alt=\"Green Hockey\" style=\"height: 25px; display: block; opacity: 0.9;\">\n</div>\n\n<div style=\"width: 600px; font-size: 10px; color: rgb(115, 115, 115); line-height: 1.5; padding-top: 10px; border-top-width: 1px; border-top-color: rgb(237, 237, 237); border-top-style: solid;\">\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div><br>\n</div>\n<div><br>\n</div>\n<div>\n<div>------ Originalnachricht ------</div>\n<div>Von \"Luca Keller\" &lt;<a href=\"mailto:luca@green.hockey\" rel=\"noreferrer\">luca@green.hockey</a>&gt;</div>\n<div>An \"PluginHive\" &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;</div>\n<div>Datum 3/20/2026 12:27:16 PM</div>\n<div>Betreff Re[2]: [PluginHive] Re: hello as requested we changed to new fedex rest a...</div>\n</div>\n<div><br>\n</div>\n<div style=\" font-size: 12pt;\">\n<blockquote style=\"margin-left: 5px; margin-right: 0px; padding-left: 10px; padding-right: 0px; border-left-width: 1px; border-left-color: rgb(204, 204, 204); border-left-style: solid; margin-top: 3px; padding-top: 0px;\">\n<div>Hello again</div>\n<div><br>\n</div>\n<div>I think I might have found the problem:</div>\n<div>My automation was pulling all possible rates from UPS and Fedex, pprobably timing out Shopify.</div>\n<div>I reduced them, now it seems to work. Is that possible?</div>\n<div><br>\n</div>\n<div>Thank you</div>\n<div>Luca</div>\n<div><br>\n</div>\n<div style=\"clear: both;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\" max-width: 560px; color: rgb(10, 10, 10);\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(253,253,253);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; margin-bottom: 20px;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(210,210,210);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 360px; border-bottom-width: 1px; border-bottom-color: rgb(2, 249, 0); border-bottom-style: solid;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"vertical-align: middle; padding-bottom: 10px;\" valign=\"middle\">\n<div style=\"font-size: 26px; font-weight: 700; color: rgb(2, 249, 0); letter-spacing: -0.4px; line-height: 1.1;\">\nGrow the Game. </div>\n</td>\n</tr>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"height: 10px; line-height: 10px; font-size: 0px;\">&nbsp; </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n\n<div style=\"font-size: 17px; font-weight: 600; color: rgb(10, 10, 10); margin-bottom: 10px; letter-spacing: -0.2px;\">\nLuca Keller </div>\n\n<div style=\"width: 360px; font-size: 13px; color: rgb(82, 82, 82); line-height: 1.6; margin-bottom: 12px;\">\n<div><span style=\"font-weight: 600; color: rgb(10, 10, 10);\">Green Hockey AG</span><br>\nTitlisstrasse 2, 8032 Zurich, Switzerland </div>\n<div style=\"margin-top: 6px;\">Phone <a href=\"tel:+41445752258\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 44 575 22 58</a> </div>\n<div>Mobile <a href=\"tel:+41792657933\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 79 265 79 33</a> </div>\n</div>\n\n<div style=\"width: 360px; padding: 10px 0px 14px;\"><img src=\"https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg\" alt=\"Green Hockey\" style=\"height: 25px; display: block; opacity: 0.9;\">\n</div>\n\n<div style=\"width: 600px; font-size: 10px; color: rgb(115, 115, 115); line-height: 1.5; padding-top: 10px; border-top-width: 1px; border-top-color: rgb(237, 237, 237); border-top-style: solid;\">\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div><br>\n</div>\n<div><br>\n</div>\n<div>\n<div>------ Originalnachricht ------</div>\n<div>Von \"Luca Keller\" &lt;<a href=\"mailto:luca@green.hockey\" rel=\"noreferrer\">luca@green.hockey</a>&gt;</div>\n<div>An \"PluginHive\" &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;</div>\n<div>Datum 3/20/2026 12:14:07 PM</div>\n<div>Betreff Re: [PluginHive] Re: hello as requested we changed to new fedex rest a...</div>\n</div>\n<div><br>\n</div>\n<div style=\" font-size: 12pt;\">\n<blockquote style=\"margin-left: 5px; margin-right: 0px; padding-left: 10px; padding-right: 0px; border-left-width: 1px; border-left-color: rgb(204, 204, 204); border-left-style: solid; margin-top: 3px; padding-top: 0px;\">\n<div>Hello Manohar</div>\n<div><br>\n</div>\n<div>We jsut experienced the problem first time with a client.</div>\n<div>He ordere but could only choose backup rat, even though the rates in PH Multicarrier were successfull.</div>\n<div>Can there be anything misconfigured, so that Shopify doesn't use the rates, even though they're provided?</div>\n<div><br>\n</div>\n<div>Please let me know, we'd need to sort this asap..</div>\n<div><br>\n</div>\n<div>Thank you very much</div>\n<div>Luca</div>\n<div><br>\n</div>\n<div style=\"clear: both;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\" max-width: 560px; color: rgb(10, 10, 10);\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(253,253,253);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; margin-bottom: 20px;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(210,210,210);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 360px; border-bottom-width: 1px; border-bottom-color: rgb(2, 249, 0); border-bottom-style: solid;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"vertical-align: middle; padding-bottom: 10px;\" valign=\"middle\">\n<div style=\"font-size: 26px; font-weight: 700; color: rgb(2, 249, 0); letter-spacing: -0.4px; line-height: 1.1;\">\nGrow the Game. </div>\n</td>\n</tr>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"height: 10px; line-height: 10px; font-size: 0px;\">&nbsp; </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n\n<div style=\"font-size: 17px; font-weight: 600; color: rgb(10, 10, 10); margin-bottom: 10px; letter-spacing: -0.2px;\">\nLuca Keller </div>\n\n<div style=\"width: 360px; font-size: 13px; color: rgb(82, 82, 82); line-height: 1.6; margin-bottom: 12px;\">\n<div><span style=\"font-weight: 600; color: rgb(10, 10, 10);\">Green Hockey AG</span><br>\nTitlisstrasse 2, 8032 Zurich, Switzerland </div>\n<div style=\"margin-top: 6px;\">Phone <a href=\"tel:+41445752258\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 44 575 22 58</a> </div>\n<div>Mobile <a href=\"tel:+41792657933\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 79 265 79 33</a> </div>\n</div>\n\n<div style=\"width: 360px; padding: 10px 0px 14px;\"><img src=\"https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg\" alt=\"Green Hockey\" style=\"height: 25px; display: block; opacity: 0.9;\">\n</div>\n\n<div style=\"width: 600px; font-size: 10px; color: rgb(115, 115, 115); line-height: 1.5; padding-top: 10px; border-top-width: 1px; border-top-color: rgb(237, 237, 237); border-top-style: solid;\">\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div><br>\n</div>\n<div><br>\n</div>\n<div>\n<div>------ Originalnachricht ------</div>\n<div>Von \"Manohar V (PluginHive)\" &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;</div>\n<div>An \"Luca Keller\" &lt;<a href=\"mailto:luca@green.hockey\" rel=\"noreferrer\">luca@green.hockey</a>&gt;</div>\n<div>Datum 3/19/2026 4:33:28 PM</div>\n<div>Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...</div>\n</div>\n<div><br>\n</div>\n\n</blockquote>\n</div>\n</blockquote>\n</div></div>",
+      "plain_body": "It's still happening so probably not.. \n It takes really long on Shopify to fetch rates and in the end it uses backup rate.. \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n \nGrow the Game.  \n\n\n\n&nbsp; \n\n\n\n\n\n\n\n\n \nLuca Keller  \n\n \n Green Hockey AG\n\nTitlisstrasse 2, 8032 Zurich, Switzerland  \n Phone \n+41 44 575 22 58  \n Mobile \n+41 79 265 79 33  \n \n\n \n \n\n \nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n \n\n\n\n\n \n \n\n \n \n\n \n \n ------ Originalnachricht ------ \n Von \"Luca Keller\" &lt;luca@green.hockey&gt; \n An \"PluginHive\" &lt;support@pluginhive.com&gt; \n Datum 3/20/2026 12:27:16 PM \n Betreff Re[2]: [PluginHive] Re: hello as requested we changed to new fedex rest a... \n \n \n\n \n \n \n Hello again \n \n\n \n I think I might have found the problem: \n My automation was pulling all possible rates from UPS and Fedex, pprobably timing out Shopify. \n I reduced them, now it seems to work. Is that possible? \n \n\n \n Thank you \n Luca \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n \nGrow the Game.  \n\n\n\n&nbsp; \n\n\n\n\n\n\n\n\n \nLuca Keller  \n\n \n Green Hockey AG\n\nTitlisstrasse 2, 8032 Zurich, Switzerland  \n Phone \n+41 44 575 22 58  \n Mobile \n+41 79 265 79 33  \n \n\n \n \n\n \nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n \n\n\n\n\n \n \n\n \n \n\n \n \n ------ Originalnachricht ------ \n Von \"Luca Keller\" &lt;luca@green.hockey&gt; \n An \"PluginHive\" &lt;support@pluginhive.com&gt; \n Datum 3/20/2026 12:14:07 PM \n Betreff Re: [PluginHive] Re: hello as requested we changed to new fedex rest a... \n \n \n\n \n \n \n Hello Manohar \n \n\n \n We jsut experienced the problem first time with a client. \n He ordere but could only choose backup rat, even though the rates in PH Multicarrier were successfull. \n Can there be anything misconfigured, so that Shopify doesn't use the rates, even though they're provided? \n \n\n \n Please let me know, we'd need to sort this asap.. \n \n\n \n Thank you very much \n Luca \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n \nGrow the Game.  \n\n\n\n&nbsp; \n\n\n\n\n\n\n\n\n \nLuca Keller  \n\n \n Green Hockey AG\n\nTitlisstrasse 2, 8032 Zurich, Switzerland  \n Phone \n+41 44 575 22 58  \n Mobile \n+41 79 265 79 33  \n \n\n \n \n\n \nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n \n\n\n\n\n \n \n\n \n \n\n \n \n ------ Originalnachricht ------ \n Von \"Manohar V (PluginHive)\" &lt;support@pluginhive.com&gt; \n An \"Luca Keller\" &lt;luca@green.hockey&gt; \n Datum 3/19/2026 4:33:28 PM \n Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56198245983001,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "luca@green.hockey",
+            "name": "Luca Keller",
+            "original_recipients": [
+              "luca@green.hockey",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T11:29:39Z",
+      "metadata": {
+        "system": {
+          "message_id": "<em34c94d6e-0b36-45fd-8756-fff0dfcb9587@green.hockey>",
+          "email_id": "01KM5G41YFKA1ZN9M43RGJR9P0",
+          "raw_email_identifier": "2369120/5ec577a5-43d3-4ecd-b816-50e7f089d556.eml",
+          "json_email_identifier": "2369120/5ec577a5-43d3-4ecd-b816-50e7f089d556.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56202072918297,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Luca Keller,\n\nApologies for the inconvenience. I would like to review this case and assist you further.\n\nTo do so, could you please approve the Shopify store collaborator request we sent to **shop@green.hockey** and confirm once done? You can accept the request directly in Shopify by going to **Settings -> Users -> Pending Requests**, where you will find the request from **info@pluginhive.com**.\n\nLooking forward to your confirmation.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Luca Keller,<br>&nbsp;<br>Apologies for the inconvenience. I would like to review this case and assist you further.<br>&nbsp;<br>To do so, could you please approve the Shopify store collaborator request we sent to <a href=\"mailto:shop@green.hockey\" rel=\"noreferrer\"><strong>shop@green.hockey</strong></a> and confirm once done? You can accept the request directly in Shopify by going to <strong>Settings -&gt; Users -&gt; Pending Requests</strong>, where you will find the request from <a href=\"mailto:info@pluginhive.com\" rel=\"noreferrer\"><strong>info@pluginhive.com</strong></a>.&nbsp;<br>&nbsp;<br>Looking forward to your confirmation.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Luca Keller,\n&nbsp;\nApologies for the inconvenience. I would like to review this case and assist you further.\n&nbsp;\nTo do so, could you please approve the Shopify store collaborator request we sent to shop@green.hockey and confirm once done? You can accept the request directly in Shopify by going to Settings -&gt; Users -&gt; Pending Requests, where you will find the request from info@pluginhive.com.&nbsp;\n&nbsp;\nLooking forward to your confirmation.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56202072918169,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T14:46:52Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56202107936537,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "We tried placing orders today ad we are getting fallback rate instead of calculated rates - I would like to check weather future services option is enabled or not before asking for assistance from the team\nRates log ID - **f52d0a16646a330d2225a7f48d01fb8c**\n\nCheckout page screenshot\n ![](https://pluginhive.zendesk.com/attachments/token/P5thMMFT0yEVaIP0Bcwkwhcxc/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We tried placing orders today ad we are getting fallback rate instead of calculated rates - I would like to check weather future services option is enabled or not before asking for assistance from the team<br>Rates log ID - <strong>f52d0a16646a330d2225a7f48d01fb8c</strong><br>&nbsp;<br>Checkout page screenshot<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/P5thMMFT0yEVaIP0Bcwkwhcxc/?name=image.png\"></span><br></div>",
+      "plain_body": "We tried placing orders today ad we are getting fallback rate instead of calculated rates - I would like to check weather future services option is enabled or not before asking for assistance from the team\nRates log ID - f52d0a16646a330d2225a7f48d01fb8c\n&nbsp;\nCheckout page screenshot",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56202107936409,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T14:48:30Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56202325502361,
+      "type": "Comment",
+      "author_id": 32992673030169,
+      "body": "I've approved it! 🙂\n\nThank you for your help Manohar!\n\n\n\nGrow the Game.\n\n\nLuca Keller\n\nGreen Hockey AG\nTitlisstrasse 2, 8032 Zurich, Switzerland\n\nPhone +41 44 575 22 58\n\nMobile +41 79 265 79 33\n\n ![Green Hockey](https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg)\n\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n\n\n\n\n\n------ Originalnachricht ------\n\nVon \"Manohar V (PluginHive)\" <support@pluginhive.com>\n\nAn \"Luca Keller\" <luca@green.hockey>\n\nDatum 3/20/2026 3:46:53 PM\n\nBetreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>I've approved it!&nbsp;🙂</div>\n<div>Thank you for your help Manohar!</div>\n<div><br>\n</div>\n<div style=\"clear: both;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\" max-width: 560px; color: rgb(10, 10, 10);\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(253,253,253);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; margin-bottom: 20px;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(210,210,210);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 360px; border-bottom-width: 1px; border-bottom-color: rgb(2, 249, 0); border-bottom-style: solid;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"vertical-align: middle; padding-bottom: 10px;\" valign=\"middle\">\n<div style=\"font-size: 26px; font-weight: 700; color: rgb(2, 249, 0); letter-spacing: -0.4px; line-height: 1.1;\">\nGrow the Game. </div>\n</td>\n</tr>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"height: 10px; line-height: 10px; font-size: 0px;\">&nbsp; </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n\n<div style=\"font-size: 17px; font-weight: 600; color: rgb(10, 10, 10); margin-bottom: 10px; letter-spacing: -0.2px;\">\nLuca Keller </div>\n\n<div style=\"width: 360px; font-size: 13px; color: rgb(82, 82, 82); line-height: 1.6; margin-bottom: 12px;\">\n<div><span style=\"font-weight: 600; color: rgb(10, 10, 10);\">Green Hockey AG</span><br>\nTitlisstrasse 2, 8032 Zurich, Switzerland </div>\n<div style=\"margin-top: 6px;\">Phone <a href=\"tel:+41445752258\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 44 575 22 58</a> </div>\n<div>Mobile <a href=\"tel:+41792657933\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 79 265 79 33</a> </div>\n</div>\n\n<div style=\"width: 360px; padding: 10px 0px 14px;\"><img src=\"https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg\" alt=\"Green Hockey\" style=\"height: 25px; display: block; opacity: 0.9;\">\n</div>\n\n<div style=\"width: 600px; font-size: 10px; color: rgb(115, 115, 115); line-height: 1.5; padding-top: 10px; border-top-width: 1px; border-top-color: rgb(237, 237, 237); border-top-style: solid;\">\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div><br>\n</div>\n<div><br>\n</div>\n<div>\n<div>------ Originalnachricht ------</div>\n<div>Von \"Manohar V (PluginHive)\" &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;</div>\n<div>An \"Luca Keller\" &lt;<a href=\"mailto:luca@green.hockey\" rel=\"noreferrer\">luca@green.hockey</a>&gt;</div>\n<div>Datum 3/20/2026 3:46:53 PM</div>\n<div>Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...</div>\n</div>\n<div><br>\n</div>\n<div style=\"width: 100% !important; margin: 0; padding: 0;\">\n\n</div></div>",
+      "plain_body": "I've approved it!&nbsp;🙂 \n Thank you for your help Manohar! \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n \nGrow the Game.  \n\n\n\n&nbsp; \n\n\n\n\n\n\n\n\n \nLuca Keller  \n\n \n Green Hockey AG\n\nTitlisstrasse 2, 8032 Zurich, Switzerland  \n Phone \n+41 44 575 22 58  \n Mobile \n+41 79 265 79 33  \n \n\n \n \n\n \nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n \n\n\n\n\n \n \n\n \n \n\n \n \n ------ Originalnachricht ------ \n Von \"Manohar V (PluginHive)\" &lt;support@pluginhive.com&gt; \n An \"Luca Keller\" &lt;luca@green.hockey&gt; \n Datum 3/20/2026 3:46:53 PM \n Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56202325502233,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "luca@green.hockey",
+            "name": "Luca Keller",
+            "original_recipients": [
+              "luca@green.hockey",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T15:04:18Z",
+      "metadata": {
+        "system": {
+          "message_id": "<em87b7a8ec-1148-439f-8a77-64eb75bb7c02@green.hockey>",
+          "email_id": "01KM5WD1KHQJ7A7H5KM514MR5R",
+          "raw_email_identifier": "2369120/090ea5da-e0e5-4b48-9509-0057415b63d4.eml",
+          "json_email_identifier": "2369120/090ea5da-e0e5-4b48-9509-0057415b63d4.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56202826394777,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Luca Keller,\n\nI have removed and re-added the carrier services, and the rates are loading faster now.\n\nCould you please try placing an order and check how it goes? I would also recommend monitoring upcoming orders to ensure everything continues to work smoothly.\n\nPlease feel free to reach out anytime if you need any assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Luca Keller,<br>&nbsp;<br>I have removed and re-added the carrier services, and the rates are loading faster now.<br>&nbsp;<br>Could you please try placing an order and check how it goes? I would also recommend monitoring upcoming orders to ensure everything continues to work smoothly.<br>&nbsp;<br>Please feel free to reach out anytime if you need any assistance from our end.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Luca Keller,\n&nbsp;\nI have removed and re-added the carrier services, and the rates are loading faster now.\n&nbsp;\nCould you please try placing an order and check how it goes? I would also recommend monitoring upcoming orders to ensure everything continues to work smoothly.\n&nbsp;\nPlease feel free to reach out anytime if you need any assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56202826394649,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T15:41:23Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56202792501529,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Customer recently connected FedEx account using Rest API - it seems customer updated previos FedEx rules with new account but not updated services - we removed and re added services and rates are working",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer recently connected FedEx account using Rest API - it seems customer updated previos FedEx rules with new account but not updated services - we removed and re added services and rates are working&nbsp;<br></div>",
+      "plain_body": "Customer recently connected FedEx account using Rest API - it seems customer updated previos FedEx rules with new account but not updated services - we removed and re added services and rates are working&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56202792500761,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T15:42:16Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56203121089177,
+      "type": "Comment",
+      "author_id": 32992673030169,
+      "body": "Hello Manohar\n\n\nThank you very much. I just tested it and 2 out of 3 times it still timed out unfortunately.. What else could be causing this?\n\n\n\nBest,\n\nLuca\n\n\n\nSent from my iPhone",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hello Manohar\n<div><br>\n</div>\n<div>Thank you very much. I just tested it and 2 out of 3 times it still timed out unfortunately.. What else could be causing this?</div>\n<div><br>\n</div>\n<div>Best,&nbsp;</div>\n<div>Luca</div>\n<div><br>\n<div dir=\"ltr\">Sent from my iPhone</div>\n\n</div></div>",
+      "plain_body": "Hello Manohar\n \n\n \n Thank you very much. I just tested it and 2 out of 3 times it still timed out unfortunately.. What else could be causing this? \n \n\n \n Best,&nbsp; \n Luca \n \n\n Sent from my iPhone",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56203121089049,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "luca@green.hockey",
+            "name": "Luca Keller",
+            "original_recipients": [
+              "luca@green.hockey",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T16:04:28Z",
+      "metadata": {
+        "system": {
+          "message_id": "<1B3E95CF-48EC-4A6C-A7C3-54208E91FBA6@green.hockey>",
+          "email_id": "01KM5ZV7YA05SQBQ603M404M43",
+          "raw_email_identifier": "2369120/d794d8bb-4d48-4e67-8097-e7be00be9ff5.eml",
+          "json_email_identifier": "2369120/d794d8bb-4d48-4e67-8097-e7be00be9ff5.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56205694362649,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Luca Keller,\n\nPlease allow us some time we check and get back to you with an update.\n\nWe appricate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Luca Keller,<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br>&nbsp;<br>We appricate your time and patience.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Luca Keller,\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n&nbsp;\nWe appricate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56205694362521,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T20:49:12Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56205774321177,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "I need assistance from the L3 team regarding the following case.\n\n**Case Summary:**\nA customer on the $9 Starter plan has reported that fallback rates are being displayed at checkout instead of calculated rates.\n\n**Details:**\nWe reviewed the app settings, carrier accounts, automation rules, and shipping zones, and everything appears to be configured correctly. We were also able to replicate the scenario while placing test orders.\n\nFrom the logs, the rates are being returned successfully. However, for the same order, the calculated rates are not consistently displayed at checkout, and fallback rates are shown instead.\n\nI have attached a short video demonstrating the entire process.\n\n**Additional Information:**\n\n- This behavior appears to be intermittent. The customer reported that out of three attempts, it failed twice.\n- The customer would like to ensure that calculated rates are displayed consistently to avoid any potential shipping loss.\n\n**Expected Result:**\nCalculated rates should be displayed at checkout consistently.\n\n**Rates Log Reference:**\nf52d0a16646a330d2225a7f48d01fb8c\n\n**Store Details:**\nStore URL: 0616ac.myshopify.com\nAccount ID: c77cce87-72f3-4ad4-920f-9d5651b43657",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I need assistance from the L3 team regarding the following case.<br>&nbsp;<br><strong>Case Summary:</strong><br>A customer on the $9 Starter plan has reported that fallback rates are being displayed at checkout instead of calculated rates.<br>&nbsp;<br><strong>Details:</strong><br>We reviewed the app settings, carrier accounts, automation rules, and shipping zones, and everything appears to be configured correctly. We were also able to replicate the scenario while placing test orders.<br>&nbsp;<br>From the logs, the rates are being returned successfully. However, for the same order, the calculated rates are not consistently displayed at checkout, and fallback rates are shown instead.<br>&nbsp;<br>I have attached a short video demonstrating the entire process.<br>&nbsp;<br><strong>Additional Information:</strong><br><ul dir=\"auto\"><li>This behavior appears to be intermittent. The customer reported that out of three attempts, it failed twice.</li><li>The customer would like to ensure that calculated rates are displayed consistently to avoid any potential shipping loss.</li></ul>&nbsp;<br><strong>Expected Result:</strong><br>Calculated rates should be displayed at checkout consistently.<br>&nbsp;<br><strong>Rates Log Reference:</strong><br>f52d0a16646a330d2225a7f48d01fb8c<br>&nbsp;<br><strong>Store Details:</strong><br>Store URL: <a rel=\"noopener noreferrer\" href=\"http://0616ac.myshopify.com\">0616ac.myshopify.com</a>&nbsp;<br>Account ID: c77cce87-72f3-4ad4-920f-9d5651b43657<br></div>",
+      "plain_body": "I need assistance from the L3 team regarding the following case.\n&nbsp;\nCase Summary:\nA customer on the $9 Starter plan has reported that fallback rates are being displayed at checkout instead of calculated rates.\n&nbsp;\nDetails:\nWe reviewed the app settings, carrier accounts, automation rules, and shipping zones, and everything appears to be configured correctly. We were also able to replicate the scenario while placing test orders.\n&nbsp;\nFrom the logs, the rates are being returned successfully. However, for the same order, the calculated rates are not consistently displayed at checkout, and fallback rates are shown instead.\n&nbsp;\nI have attached a short video demonstrating the entire process.\n&nbsp;\nAdditional Information:\n  This behavior appears to be intermittent. The customer reported that out of three attempts, it failed twice.  The customer would like to ensure that calculated rates are displayed consistently to avoid any potential shipping loss.  &nbsp;\nExpected Result:\nCalculated rates should be displayed at checkout consistently.\n&nbsp;\nRates Log Reference:\nf52d0a16646a330d2225a7f48d01fb8c\n&nbsp;\nStore Details:\nStore URL: 0616ac.myshopify.com&nbsp;\nAccount ID: c77cce87-72f3-4ad4-920f-9d5651b43657",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56205762638873.json",
+          "id": 56205762638873,
+          "file_name": "Green Hockey.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/tfPxld27BAVG06b9dSzg9MEga/?name=Green+Hockey.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/tfPxld27BAVG06b9dSzg9MEga/?name=Green+Hockey.mov",
+          "content_type": "video/quicktime",
+          "size": 23511634,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56205762696985.json",
+          "id": 56205762696985,
+          "file_name": "f52d0a16646a330d2225a7f48d01fb8c.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/267cvOQcmLockDH98nAg0Bp9b/?name=f52d0a16646a330d2225a7f48d01fb8c.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/267cvOQcmLockDH98nAg0Bp9b/?name=f52d0a16646a330d2225a7f48d01fb8c.png",
+          "content_type": "image/png",
+          "size": 87685,
+          "width": 1387,
+          "height": 700,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/56205762698777.json",
+              "id": 56205762698777,
+              "file_name": "f52d0a16646a330d2225a7f48d01fb8c_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/wJPuIY5x8yhzpcFeGyfm68dL3/?name=f52d0a16646a330d2225a7f48d01fb8c_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/wJPuIY5x8yhzpcFeGyfm68dL3/?name=f52d0a16646a330d2225a7f48d01fb8c_thumb.png",
+              "content_type": "image/png",
+              "size": 1206,
+              "width": 80,
+              "height": 40,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 56205774321049,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-20T20:55:10Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56269080101273,
+      "type": "Comment",
+      "author_id": 32992673030169,
+      "body": "Hi Manohar\n\n\n\nHope you're well and you had a nice weeken.\n\n\n\nAny news on this? Had 2 orders over the weekend, both with backup rates..\n\n\n\nAll the best\n\nLuca\n\n\n\nGrow the Game.\n\n\nLuca Keller\n\nGreen Hockey AG\nTitlisstrasse 2, 8032 Zurich, Switzerland\n\nPhone +41 44 575 22 58\n\nMobile +41 79 265 79 33\n\n ![Green Hockey](https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg)\n\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n\n\n\n\n\n------ Originalnachricht ------\n\nVon \"Manohar V (PluginHive)\" <support@pluginhive.com>\n\nAn \"Luca Keller\" <luca@green.hockey>\n\nDatum 3/20/2026 9:49:13 PM\n\nBetreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Hi Manohar</div>\n<div><br>\n</div>\n<div>Hope you're well and you had a nice weeken.</div>\n<div><br>\n</div>\n<div>Any news on this? Had 2 orders over the weekend, both with backup rates..</div>\n<div><br>\n</div>\n<div>All the best</div>\n<div>Luca</div>\n<div><br>\n</div>\n<div style=\"clear: both;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\" max-width: 560px; color: rgb(10, 10, 10);\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(253,253,253);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; margin-bottom: 20px;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(210,210,210);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 360px; border-bottom-width: 1px; border-bottom-color: rgb(2, 249, 0); border-bottom-style: solid;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"vertical-align: middle; padding-bottom: 10px;\" valign=\"middle\">\n<div style=\"font-size: 26px; font-weight: 700; color: rgb(2, 249, 0); letter-spacing: -0.4px; line-height: 1.1;\">\nGrow the Game. </div>\n</td>\n</tr>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"height: 10px; line-height: 10px; font-size: 0px;\">&nbsp; </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n\n<div style=\"font-size: 17px; font-weight: 600; color: rgb(10, 10, 10); margin-bottom: 10px; letter-spacing: -0.2px;\">\nLuca Keller </div>\n\n<div style=\"width: 360px; font-size: 13px; color: rgb(82, 82, 82); line-height: 1.6; margin-bottom: 12px;\">\n<div><span style=\"font-weight: 600; color: rgb(10, 10, 10);\">Green Hockey AG</span><br>\nTitlisstrasse 2, 8032 Zurich, Switzerland </div>\n<div style=\"margin-top: 6px;\">Phone <a href=\"tel:+41445752258\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 44 575 22 58</a> </div>\n<div>Mobile <a href=\"tel:+41792657933\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 79 265 79 33</a> </div>\n</div>\n\n<div style=\"width: 360px; padding: 10px 0px 14px;\"><img src=\"https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg\" alt=\"Green Hockey\" style=\"height: 25px; display: block; opacity: 0.9;\">\n</div>\n\n<div style=\"width: 600px; font-size: 10px; color: rgb(115, 115, 115); line-height: 1.5; padding-top: 10px; border-top-width: 1px; border-top-color: rgb(237, 237, 237); border-top-style: solid;\">\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div><br>\n</div>\n<div><br>\n</div>\n<div>\n<div>------ Originalnachricht ------</div>\n<div>Von \"Manohar V (PluginHive)\" &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;</div>\n<div>An \"Luca Keller\" &lt;<a href=\"mailto:luca@green.hockey\" rel=\"noreferrer\">luca@green.hockey</a>&gt;</div>\n<div>Datum 3/20/2026 9:49:13 PM</div>\n<div>Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...</div>\n</div>\n<div><br>\n</div>\n<div style=\"width: 100% !important; margin: 0; padding: 0;\">\n\n</div></div>",
+      "plain_body": "Hi Manohar \n \n\n \n Hope you're well and you had a nice weeken. \n \n\n \n Any news on this? Had 2 orders over the weekend, both with backup rates.. \n \n\n \n All the best \n Luca \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n \nGrow the Game.  \n\n\n\n&nbsp; \n\n\n\n\n\n\n\n\n \nLuca Keller  \n\n \n Green Hockey AG\n\nTitlisstrasse 2, 8032 Zurich, Switzerland  \n Phone \n+41 44 575 22 58  \n Mobile \n+41 79 265 79 33  \n \n\n \n \n\n \nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n \n\n\n\n\n \n \n\n \n \n\n \n \n ------ Originalnachricht ------ \n Von \"Manohar V (PluginHive)\" &lt;support@pluginhive.com&gt; \n An \"Luca Keller\" &lt;luca@green.hockey&gt; \n Datum 3/20/2026 9:49:13 PM \n Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56269080101145,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "luca@green.hockey",
+            "name": "Luca Keller",
+            "original_recipients": [
+              "luca@green.hockey",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T08:23:22Z",
+      "metadata": {
+        "system": {
+          "message_id": "<em9bb75599-f93b-403a-9f68-9296e477742f@green.hockey>",
+          "email_id": "01KMCWN39FKH9WQMNRAXCCV4PY",
+          "raw_email_identifier": "2369120/8c571d83-992d-472a-b1d8-25572956e4ca.eml",
+          "json_email_identifier": "2369120/8c571d83-992d-472a-b1d8-25572956e4ca.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56278292157849,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Luca Keller,\n\nThank you for your reply.\n\nTechnical team is working on this case. We will get back to you as soon as we have an update.\n\nWe appricate your understanding and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Luca Keller,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>Technical team is working on this case. We will get back to you as soon as we have an update.<br>&nbsp;<br>We appricate your understanding and patience.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Luca Keller,\n&nbsp;\nThank you for your reply.\n&nbsp;\nTechnical team is working on this case. We will get back to you as soon as we have an update.\n&nbsp;\nWe appricate your understanding and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56278292157721,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-23T14:42:09Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.221.191.187",
+          "location": "Hyderabad, TS, India",
+          "latitude": 17.3843,
+          "longitude": 78.4583
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56370031408665,
+      "type": "Comment",
+      "author_id": 32992673030169,
+      "body": "Hi Manohar\n\n\n\nHope you're doing well.\n\n\n\nJust following up on this — do you have any update?\n\nWe're currently running into issues with orders due to missing rates, so this is becoming urgent.\n\n\n\nPLease let me know, thank you.\n\n\n\nAll the best,\n\nLuca\n\n\n\nGrow the Game.\n\n\nLuca Keller\n\nGreen Hockey AG\nTitlisstrasse 2, 8032 Zurich, Switzerland\n\nPhone +41 44 575 22 58\n\nMobile +41 79 265 79 33\n\n ![Green Hockey](https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg)\n\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n\n\n\n\n\n------ Originalnachricht ------\n\nVon \"Manohar V (PluginHive)\" <support@pluginhive.com>\n\nAn \"Luca Keller\" <luca@green.hockey>\n\nDatum 3/23/2026 3:42:11 PM\n\nBetreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Hi Manohar</div>\n<div><br>\n</div>\n<div>Hope you're doing well.</div>\n<div><br>\n</div>\n<div>Just following up on this — do you have any update?</div>\n<div>We're currently running into issues with orders due to missing rates, so this is becoming urgent.</div>\n<div><br>\n</div>\n<div>PLease let me know, thank you.</div>\n<div><br>\n</div>\n<div>All the best,</div>\n<div>Luca</div>\n<div><br>\n</div>\n<div style=\"clear: both;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\" max-width: 560px; color: rgb(10, 10, 10);\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(253,253,253);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; margin-bottom: 20px;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(210,210,210);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 360px; border-bottom-width: 1px; border-bottom-color: rgb(2, 249, 0); border-bottom-style: solid;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"vertical-align: middle; padding-bottom: 10px;\" valign=\"middle\">\n<div style=\"font-size: 26px; font-weight: 700; color: rgb(2, 249, 0); letter-spacing: -0.4px; line-height: 1.1;\">\nGrow the Game. </div>\n</td>\n</tr>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"height: 10px; line-height: 10px; font-size: 0px;\">&nbsp; </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n\n<div style=\"font-size: 17px; font-weight: 600; color: rgb(10, 10, 10); margin-bottom: 10px; letter-spacing: -0.2px;\">\nLuca Keller </div>\n\n<div style=\"width: 360px; font-size: 13px; color: rgb(82, 82, 82); line-height: 1.6; margin-bottom: 12px;\">\n<div><span style=\"font-weight: 600; color: rgb(10, 10, 10);\">Green Hockey AG</span><br>\nTitlisstrasse 2, 8032 Zurich, Switzerland </div>\n<div style=\"margin-top: 6px;\">Phone <a href=\"tel:+41445752258\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 44 575 22 58</a> </div>\n<div>Mobile <a href=\"tel:+41792657933\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 79 265 79 33</a> </div>\n</div>\n\n<div style=\"width: 360px; padding: 10px 0px 14px;\"><img src=\"https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg\" alt=\"Green Hockey\" style=\"height: 25px; display: block; opacity: 0.9;\">\n</div>\n\n<div style=\"width: 600px; font-size: 10px; color: rgb(115, 115, 115); line-height: 1.5; padding-top: 10px; border-top-width: 1px; border-top-color: rgb(237, 237, 237); border-top-style: solid;\">\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div><br>\n</div>\n<div><br>\n</div>\n<div>\n<div>------ Originalnachricht ------</div>\n<div>Von \"Manohar V (PluginHive)\" &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;</div>\n<div>An \"Luca Keller\" &lt;<a href=\"mailto:luca@green.hockey\" rel=\"noreferrer\">luca@green.hockey</a>&gt;</div>\n<div>Datum 3/23/2026 3:42:11 PM</div>\n<div>Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...</div>\n</div>\n<div><br>\n</div>\n<div style=\"width: 100% !important; margin: 0; padding: 0;\">\n\n</div></div>",
+      "plain_body": "Hi Manohar \n \n\n \n Hope you're doing well. \n \n\n \n Just following up on this — do you have any update? \n We're currently running into issues with orders due to missing rates, so this is becoming urgent. \n \n\n \n PLease let me know, thank you. \n \n\n \n All the best, \n Luca \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n \nGrow the Game.  \n\n\n\n&nbsp; \n\n\n\n\n\n\n\n\n \nLuca Keller  \n\n \n Green Hockey AG\n\nTitlisstrasse 2, 8032 Zurich, Switzerland  \n Phone \n+41 44 575 22 58  \n Mobile \n+41 79 265 79 33  \n \n\n \n \n\n \nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n \n\n\n\n\n \n \n\n \n \n\n \n \n ------ Originalnachricht ------ \n Von \"Manohar V (PluginHive)\" &lt;support@pluginhive.com&gt; \n An \"Luca Keller\" &lt;luca@green.hockey&gt; \n Datum 3/23/2026 3:42:11 PM \n Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56370031408537,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "luca@green.hockey",
+            "name": "Luca Keller",
+            "original_recipients": [
+              "luca@green.hockey",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T08:08:24Z",
+      "metadata": {
+        "system": {
+          "message_id": "<emdcdd3cda-7887-4411-bd35-12c7bf415bea@green.hockey>",
+          "email_id": "01KMMJZTTA7EC7F82GGXJW20PW",
+          "raw_email_identifier": "2369120/8877011c-070c-4e81-9ac7-35226f7794f0.eml",
+          "json_email_identifier": "2369120/8877011c-070c-4e81-9ac7-35226f7794f0.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56373499898905,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Luca Keller,\n\nThank you for your response.\n\nOur technical team is checking your case. As of now, we do not have a new update for you. We will reach out to you as soon as we hear from them.\n\nWe appreciate your understanding and patience.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Luca Keller,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Our technical team is checking your case. As of now, we do not have a new update for you. We will reach out to you as soon as we hear from them.<br>&nbsp;<br>We appreciate your understanding and patience.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Luca Keller,\n&nbsp;\nThank you for your response.\n&nbsp;\nOur technical team is checking your case. As of now, we do not have a new update for you. We will reach out to you as soon as we hear from them.\n&nbsp;\nWe appreciate your understanding and patience.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56373499898777,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-26T09:54:54Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "49.43.114.131",
+          "location": "Kanpur, UP, India",
+          "latitude": 26.4631,
+          "longitude": 80.3479
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56439945941529,
+      "type": "Comment",
+      "author_id": 32992673030169,
+      "body": "Hi Manohar,\n\n\n\nSorry for being persistent, but we've been waiting for about a week now and really need this resolved. Any update from the technical team?\n\n\n\nThanks,\n\nLuca\n\n\n\nSorry that i have to be",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Hi Manohar,</div>\n<div><br>\n</div>\n<div>Sorry for being persistent, but we've been waiting for about a week now and really need this resolved. Any update from the technical team?</div>\n<div><br>\n</div>\n<div>Thanks,</div>\n<div>Luca</div>\n<div><br>\n</div>\n<div>Sorry that i have to be&nbsp;<br>\n\n</div></div>",
+      "plain_body": "Hi Manohar, \n \n\n \n Sorry for being persistent, but we've been waiting for about a week now and really need this resolved. Any update from the technical team? \n \n\n \n Thanks, \n Luca \n \n\n \n Sorry that i have to be&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56439945941401,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "luca@green.hockey",
+            "name": "Luca Keller",
+            "original_recipients": [
+              "luca@green.hockey",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-28T18:38:56Z",
+      "metadata": {
+        "system": {
+          "message_id": "<349E009A-549B-46FA-A3A8-A50FBE59A962@green.hockey>",
+          "email_id": "01KMTVVRY0XZCE2FXVYMJSCXG6",
+          "raw_email_identifier": "2369120/37dfc2b6-b767-44d6-ba6b-add24b81950b.eml",
+          "json_email_identifier": "2369120/37dfc2b6-b767-44d6-ba6b-add24b81950b.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56473220476697,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Luca,\n\nApologies for the delay in addressing your case.\n\nYour case has been escalated to the senior technical team for further review.\n\nWe will update you as soon as we hear back from them.\n\nThank you for your continued patience and understanding.\n\nRegards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Luca,<br>&nbsp;<br>Apologies for the delay in addressing your case.<br>&nbsp;<br>Your case has been escalated to the senior technical team for further review.<br>&nbsp;<br>We will update you as soon as we hear back from them.<br>&nbsp;<br>Thank you for your continued patience and understanding.<br>&nbsp;<br>Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Luca,\n&nbsp;\nApologies for the delay in addressing your case.\n&nbsp;\nYour case has been escalated to the senior technical team for further review.\n&nbsp;\nWe will update you as soon as we hear back from them.\n&nbsp;\nThank you for your continued patience and understanding.\n&nbsp;\nRegards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56473220476569,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T03:46:02Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56473312194201,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "https://pluginhive.slack.com/archives/C02E15X8X0C/p1774842453305029?thread_ts=1774040222.906989&cid=C02E15X8X0C\nFollowed up again with team and Requested for an update on the case.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1774842453305029?thread_ts=1774040222.906989&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1774842453305029?thread_ts=1774040222.906989&amp;cid=C02E15X8X0C</a><br>Followed up again with team and Requested for an update on the case.<br></div>",
+      "plain_body": "https://pluginhive.slack.com/archives/C02E15X8X0C/p1774842453305029?thread_ts=1774040222.906989&amp;cid=C02E15X8X0C\nFollowed up again with team and Requested for an update on the case.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56473303018009,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T03:48:08Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56489108507161,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We are actively working on this, we will get back.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We are actively working on this, we will get back.<br>[Veena]<br></div>",
+      "plain_body": "We are actively working on this, we will get back.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56489108506905,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-30T11:26:43Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56521057533593,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "The fix is in qa. Will be released asap.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">The fix is in qa. Will be released asap.<br>[Veena]<br></div>",
+      "plain_body": "The fix is in qa. Will be released asap.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56521057533465,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T10:03:11Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56522989500697,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Luca,\n\nThank you for your patience!\n\nThe fix is in testing phase and will be released as soon as possible.\n\nWe will keep you updated on the progress.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Luca,<br>&nbsp;<br>Thank you for your patience!<br>&nbsp;<br>The fix is in testing phase and will be released as soon as possible.<br>&nbsp;<br>We will keep you updated on the progress.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Luca,\n&nbsp;\nThank you for your patience!\n&nbsp;\nThe fix is in testing phase and will be released as soon as possible.\n&nbsp;\nWe will keep you updated on the progress.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56522989500569,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-31T11:13:51Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56556987121945,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We have fixed the issue with delay in rates. Kindly ask the merchant to verify.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have fixed the issue with delay in rates. Kindly ask the merchant to verify.<br>[Veena]<br></div>",
+      "plain_body": "We have fixed the issue with delay in rates. Kindly ask the merchant to verify.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56556987121817,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T10:48:54Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56557897264153,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Luca,\n\nThank you for your patience!\n\nWe have fixed the case with the delay in rates.\n\nI do request you to check and let me know if you need any further assistance.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Luca,<br>&nbsp;<br>Thank you for your patience!<br>&nbsp;<br>We have fixed the case with the delay in rates.<br>&nbsp;<br>I do request you to check and let me know if you need any further assistance.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Luca,\n&nbsp;\nThank you for your patience!\n&nbsp;\nWe have fixed the case with the delay in rates.\n&nbsp;\nI do request you to check and let me know if you need any further assistance.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56557897264025,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-01T11:20:39Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56585535576473,
+      "type": "Comment",
+      "author_id": 32992673030169,
+      "body": "Hi SIbi\n\n\n\nThank you for your message and the support.\n\n\n\nUnfortunately we tested and are still seeing backup rates.\n\nOnly like 1 out of 5 tests showed the correct rates..\n\nWe also had another order which used the backup rate.\n\n\n\nWhat else could be the problem?\n\n\n\nAll the best,\n\nLuca\n\n\n\nGrow the Game.\n\n\nLuca Keller\n\nGreen Hockey AG\nTitlisstrasse 2, 8032 Zurich, Switzerland\n\nPhone +41 44 575 22 58\n\nMobile +41 79 265 79 33\n\n ![Green Hockey](https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg)\n\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n\n\n\n\n\n------ Originalnachricht ------\n\nVon \"Sibi (PluginHive)\" <support@pluginhive.com>\n\nAn \"Luca Keller\" <luca@green.hockey>\n\nDatum 4/1/2026 1:20:41 PM\n\nBetreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Hi SIbi</div>\n<div><br>\n</div>\n<div>Thank you for your message and the support.</div>\n<div><br>\n</div>\n<div>Unfortunately we tested and are still seeing backup rates.</div>\n<div>Only like 1 out of 5 tests showed the correct rates..</div>\n<div>We also had another order which used the backup rate.</div>\n<div><br>\n</div>\n<div>What else could be the problem?</div>\n<div><br>\n</div>\n<div>All the best,</div>\n<div>Luca</div>\n<div><br>\n</div>\n<div style=\"clear: both;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\" max-width: 560px; color: rgb(10, 10, 10);\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(253,253,253);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; margin-bottom: 20px;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(210,210,210);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 360px; border-bottom-width: 1px; border-bottom-color: rgb(2, 249, 0); border-bottom-style: solid;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"vertical-align: middle; padding-bottom: 10px;\" valign=\"middle\">\n<div style=\"font-size: 26px; font-weight: 700; color: rgb(2, 249, 0); letter-spacing: -0.4px; line-height: 1.1;\">\nGrow the Game. </div>\n</td>\n</tr>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"height: 10px; line-height: 10px; font-size: 0px;\">&nbsp; </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n\n<div style=\"font-size: 17px; font-weight: 600; color: rgb(10, 10, 10); margin-bottom: 10px; letter-spacing: -0.2px;\">\nLuca Keller </div>\n\n<div style=\"width: 360px; font-size: 13px; color: rgb(82, 82, 82); line-height: 1.6; margin-bottom: 12px;\">\n<div><span style=\"font-weight: 600; color: rgb(10, 10, 10);\">Green Hockey AG</span><br>\nTitlisstrasse 2, 8032 Zurich, Switzerland </div>\n<div style=\"margin-top: 6px;\">Phone <a href=\"tel:+41445752258\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 44 575 22 58</a> </div>\n<div>Mobile <a href=\"tel:+41792657933\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 79 265 79 33</a> </div>\n</div>\n\n<div style=\"width: 360px; padding: 10px 0px 14px;\"><img src=\"https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg\" alt=\"Green Hockey\" style=\"height: 25px; display: block; opacity: 0.9;\">\n</div>\n\n<div style=\"width: 600px; font-size: 10px; color: rgb(115, 115, 115); line-height: 1.5; padding-top: 10px; border-top-width: 1px; border-top-color: rgb(237, 237, 237); border-top-style: solid;\">\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div><br>\n</div>\n<div><br>\n</div>\n<div>\n<div>------ Originalnachricht ------</div>\n<div>Von \"Sibi (PluginHive)\" &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;</div>\n<div>An \"Luca Keller\" &lt;<a href=\"mailto:luca@green.hockey\" rel=\"noreferrer\">luca@green.hockey</a>&gt;</div>\n<div>Datum 4/1/2026 1:20:41 PM</div>\n<div>Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...</div>\n</div>\n<div><br>\n</div>\n<div style=\"width: 100% !important; margin: 0; padding: 0;\">\n\n</div></div>",
+      "plain_body": "Hi SIbi \n \n\n \n Thank you for your message and the support. \n \n\n \n Unfortunately we tested and are still seeing backup rates. \n Only like 1 out of 5 tests showed the correct rates.. \n We also had another order which used the backup rate. \n \n\n \n What else could be the problem? \n \n\n \n All the best, \n Luca \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n \nGrow the Game.  \n\n\n\n&nbsp; \n\n\n\n\n\n\n\n\n \nLuca Keller  \n\n \n Green Hockey AG\n\nTitlisstrasse 2, 8032 Zurich, Switzerland  \n Phone \n+41 44 575 22 58  \n Mobile \n+41 79 265 79 33  \n \n\n \n \n\n \nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n \n\n\n\n\n \n \n\n \n \n\n \n \n ------ Originalnachricht ------ \n Von \"Sibi (PluginHive)\" &lt;support@pluginhive.com&gt; \n An \"Luca Keller\" &lt;luca@green.hockey&gt; \n Datum 4/1/2026 1:20:41 PM \n Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56585535576345,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "luca@green.hockey",
+            "name": "Luca Keller",
+            "original_recipients": [
+              "luca@green.hockey",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T07:20:38Z",
+      "metadata": {
+        "system": {
+          "message_id": "<emb92776e9-3963-46b3-ba18-6465598fd68d@green.hockey>",
+          "email_id": "01KN6H1C283KP5JHCNJ0Y8JQG7",
+          "raw_email_identifier": "2369120/bbe34c9c-73e6-4818-8567-0e6874b48386.eml",
+          "json_email_identifier": "2369120/bbe34c9c-73e6-4818-8567-0e6874b48386.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56590798473625,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Luca Keller,\n\nGood Day!\n\nI have tried checking your case further from my end on your store by recreating a transaction with different addresses. I could observe that the FedEx rates are consistently available on checkout.\n\nPlease review the attached screen recording of the same. Could you please check the case once again and if you are still seeing the fallback rates, please record the screen and share the recording with us for further review?\n\nLooking forward to your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Luca Keller,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>I have tried checking your case further from my end on your store by recreating a transaction with different addresses. I could observe that the FedEx rates are consistently available on checkout.<br>&nbsp;<br>Please review the attached screen recording of the same. Could you please check the case once again and if you are still seeing the fallback rates, please record the screen and share the recording with us for further review?<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Luca Keller,\n&nbsp;\nGood Day!\n&nbsp;\nI have tried checking your case further from my end on your store by recreating a transaction with different addresses. I could observe that the FedEx rates are consistently available on checkout.\n&nbsp;\nPlease review the attached screen recording of the same. Could you please check the case once again and if you are still seeing the fallback rates, please record the screen and share the recording with us for further review?\n&nbsp;\nLooking forward to your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56590025495321.json",
+          "id": 56590025495321,
+          "file_name": "Screen Recording 2026-04-02 at 2.56.11 PM.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/mJ2dugKG23hxM8E1QuvNRW9NU/?name=Screen+Recording+2026-04-02+at+2.56.11%E2%80%AFPM.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/mJ2dugKG23hxM8E1QuvNRW9NU/?name=Screen+Recording+2026-04-02+at+2.56.11%E2%80%AFPM.mov",
+          "content_type": "video/quicktime",
+          "size": 22435705,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56590798473497,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T09:54:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56590836275353,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Checked on customer store with multiple addresses and rates are available from app on checkout. Shared the screen recording with customer.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Checked on customer store with multiple addresses and rates are available from app on checkout. Shared the screen recording with customer.<br></div>",
+      "plain_body": "Checked on customer store with multiple addresses and rates are available from app on checkout. Shared the screen recording with customer.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56590836270873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-02T09:55:00Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56918734861977,
+      "type": "Comment",
+      "author_id": 32992673030169,
+      "body": "Hi Touseef,\n\n\n\nHope you're doing well.\n\n\n\nUnfortunately the shipping rates still don't work properly.\n\nWe had 5 orders since Friday and all except for one used the backup rate. I just did a test which also failed: https://we.tl/t-v9xdd5nGuAv24M8z\n\nCan you please provide a solution to this problem, as it persists for quite some time now..\n\n\n\nThank you,\n\nLuca\n\n\n\nGrow the Game.\n\n\nLuca Keller\n\nGreen Hockey AG\nTitlisstrasse 2, 8032 Zurich, Switzerland\n\nPhone +41 44 575 22 58\n\nMobile +41 79 265 79 33\n\n ![Green Hockey](https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg)\n\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n\n\n\n\n\n------ Originalnachricht ------\n\nVon \"Luca Keller\" <luca@green.hockey>\n\nAn \"PluginHive\" <support@pluginhive.com>\n\nDatum 4/2/2026 12:23:26 PM\n\nBetreff Re: [PluginHive] Re: hello as requested we changed to new fedex rest a...\n\n\n\n> Hi TZouseef\n>\n>\n>\n> We did further testing and it seems to work perfectly, sorry for the confusion!\n>\n> The first two i did didn't work, don't know what happened there.\n>\n>\n>\n> We will regularly check on our orders and would get back at you if we see irregularities.\n>\n>\n>\n> Thank you and everyone for the team for solving this, much appreciated!\n>\n>\n>\n> All the best,\n> Luca\n>\n>\n>\n> Grow the Game.\n>\n>\n> Luca Keller\n>\n> Green Hockey AG\n> Titlisstrasse 2, 8032 Zurich, Switzerland\n>\n> Phone +41 44 575 22 58\n>\n> Mobile +41 79 265 79 33\n>\n> ![Green Hockey](https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg)\n>\n> Confidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n>\n>\n>\n>\n>\n> ------ Originalnachricht ------\n>\n> Von \"Touseef (PluginHive)\" <support@pluginhive.com>\n>\n> An \"Luca Keller\" <luca@green.hockey>\n>\n> Datum 4/2/2026 11:54:23 AM\n>\n> Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Hi Touseef,</div>\n<div><br>\n</div>\n<div>Hope you're doing well.</div>\n<div><br>\n</div>\n<div>Unfortunately the shipping rates still don't work properly.</div>\n<div>We had 5 orders since Friday and all except for one used the backup rate. I just did a test which also failed:&nbsp;<a href=\"https://we.tl/t-v9xdd5nGuAv24M8z\" style=\"font-size: 12pt;\" rel=\"noreferrer\">https://we.tl/t-v9xdd5nGuAv24M8z</a></div>\n<div>Can you please provide a solution to this problem, as it persists for quite some time now..</div>\n<div><br>\n</div>\n<div>Thank you,</div>\n<div>Luca</div>\n<div><br>\n</div>\n<div style=\"clear: both;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\" max-width: 560px; color: rgb(10, 10, 10);\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(253,253,253);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; margin-bottom: 20px;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(210,210,210);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 360px; border-bottom-width: 1px; border-bottom-color: rgb(2, 249, 0); border-bottom-style: solid;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"vertical-align: middle; padding-bottom: 10px;\" valign=\"middle\">\n<div style=\"font-size: 26px; font-weight: 700; color: rgb(2, 249, 0); letter-spacing: -0.4px; line-height: 1.1;\">\nGrow the Game. </div>\n</td>\n</tr>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"height: 10px; line-height: 10px; font-size: 0px;\">&nbsp; </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n\n<div style=\"font-size: 17px; font-weight: 600; color: rgb(10, 10, 10); margin-bottom: 10px; letter-spacing: -0.2px;\">\nLuca Keller </div>\n\n<div style=\"width: 360px; font-size: 13px; color: rgb(82, 82, 82); line-height: 1.6; margin-bottom: 12px;\">\n<div><span style=\"font-weight: 600; color: rgb(10, 10, 10);\">Green Hockey AG</span><br>\nTitlisstrasse 2, 8032 Zurich, Switzerland </div>\n<div style=\"margin-top: 6px;\">Phone <a href=\"tel:+41445752258\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 44 575 22 58</a> </div>\n<div>Mobile <a href=\"tel:+41792657933\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 79 265 79 33</a> </div>\n</div>\n\n<div style=\"width: 360px; padding: 10px 0px 14px;\"><img src=\"https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg\" alt=\"Green Hockey\" style=\"height: 25px; display: block; opacity: 0.9;\">\n</div>\n\n<div style=\"width: 600px; font-size: 10px; color: rgb(115, 115, 115); line-height: 1.5; padding-top: 10px; border-top-width: 1px; border-top-color: rgb(237, 237, 237); border-top-style: solid;\">\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div><br>\n</div>\n<div><br>\n</div>\n<div>\n<div>------ Originalnachricht ------</div>\n<div>Von \"Luca Keller\" &lt;<a href=\"mailto:luca@green.hockey\" rel=\"noreferrer\">luca@green.hockey</a>&gt;</div>\n<div>An \"PluginHive\" &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;</div>\n<div>Datum 4/2/2026 12:23:26 PM</div>\n<div>Betreff Re: [PluginHive] Re: hello as requested we changed to new fedex rest a...</div>\n</div>\n<div><br>\n</div>\n<div style=\" font-size: 12pt;\">\n<blockquote style=\"margin-left: 5px; margin-right: 0px; padding-left: 10px; padding-right: 0px; border-left-width: 1px; border-left-color: rgb(204, 204, 204); border-left-style: solid; margin-top: 3px; padding-top: 0px;\">\n<div>Hi TZouseef</div>\n<div><br>\n</div>\n<div>We did further testing and it seems to work perfectly, sorry for the confusion!</div>\n<div>The first two i did didn't work, don't know what happened there.</div>\n<div><br>\n</div>\n<div>We will regularly check on our orders and would get back at you if we see irregularities.</div>\n<div><br>\n</div>\n<div>Thank you and everyone for the team for solving this, much appreciated!</div>\n<div><br>\n</div>\n<div>All the best,<br>\nLuca</div>\n<div><br>\n</div>\n<div style=\"clear: both;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\" max-width: 560px; color: rgb(10, 10, 10);\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(253,253,253);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%; margin-bottom: 20px;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"border-color: rgb(210,210,210);\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 360px; border-bottom-width: 1px; border-bottom-color: rgb(2, 249, 0); border-bottom-style: solid;\">\n<tbody>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"vertical-align: middle; padding-bottom: 10px;\" valign=\"middle\">\n<div style=\"font-size: 26px; font-weight: 700; color: rgb(2, 249, 0); letter-spacing: -0.4px; line-height: 1.1;\">\nGrow the Game. </div>\n</td>\n</tr>\n<tr style=\"border-color: rgb(128,128,128);\">\n<td style=\"height: 10px; line-height: 10px; font-size: 0px;\">&nbsp; </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n\n<div style=\"font-size: 17px; font-weight: 600; color: rgb(10, 10, 10); margin-bottom: 10px; letter-spacing: -0.2px;\">\nLuca Keller </div>\n\n<div style=\"width: 360px; font-size: 13px; color: rgb(82, 82, 82); line-height: 1.6; margin-bottom: 12px;\">\n<div><span style=\"font-weight: 600; color: rgb(10, 10, 10);\">Green Hockey AG</span><br>\nTitlisstrasse 2, 8032 Zurich, Switzerland </div>\n<div style=\"margin-top: 6px;\">Phone <a href=\"tel:+41445752258\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 44 575 22 58</a> </div>\n<div>Mobile <a href=\"tel:+41792657933\" style=\"color: rgb(82, 82, 82); text-decoration: none;\" rel=\"noreferrer\">\n+41 79 265 79 33</a> </div>\n</div>\n\n<div style=\"width: 360px; padding: 10px 0px 14px;\"><img src=\"https://lwigjmwvqvbruibiypwh.supabase.co/storage/v1/object/public/signatures/Greenhockey_grey.svg\" alt=\"Green Hockey\" style=\"height: 25px; display: block; opacity: 0.9;\">\n</div>\n\n<div style=\"width: 600px; font-size: 10px; color: rgb(115, 115, 115); line-height: 1.5; padding-top: 10px; border-top-width: 1px; border-top-color: rgb(237, 237, 237); border-top-style: solid;\">\nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div><br>\n</div>\n<div><br>\n</div>\n<div>\n<div>------ Originalnachricht ------</div>\n<div>Von \"Touseef (PluginHive)\" &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;</div>\n<div>An \"Luca Keller\" &lt;<a href=\"mailto:luca@green.hockey\" rel=\"noreferrer\">luca@green.hockey</a>&gt;</div>\n<div>Datum 4/2/2026 11:54:23 AM</div>\n<div>Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...</div>\n</div>\n<div><br>\n</div>\n\n</blockquote>\n</div></div>",
+      "plain_body": "Hi Touseef, \n \n\n \n Hope you're doing well. \n \n\n \n Unfortunately the shipping rates still don't work properly. \n We had 5 orders since Friday and all except for one used the backup rate. I just did a test which also failed:&nbsp;https://we.tl/t-v9xdd5nGuAv24M8z \n Can you please provide a solution to this problem, as it persists for quite some time now.. \n \n\n \n Thank you, \n Luca \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n \nGrow the Game.  \n\n\n\n&nbsp; \n\n\n\n\n\n\n\n\n \nLuca Keller  \n\n \n Green Hockey AG\n\nTitlisstrasse 2, 8032 Zurich, Switzerland  \n Phone \n+41 44 575 22 58  \n Mobile \n+41 79 265 79 33  \n \n\n \n \n\n \nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n \n\n\n\n\n \n \n\n \n \n\n \n \n ------ Originalnachricht ------ \n Von \"Luca Keller\" &lt;luca@green.hockey&gt; \n An \"PluginHive\" &lt;support@pluginhive.com&gt; \n Datum 4/2/2026 12:23:26 PM \n Betreff Re: [PluginHive] Re: hello as requested we changed to new fedex rest a... \n \n \n\n \n \n \n Hi TZouseef \n \n\n \n We did further testing and it seems to work perfectly, sorry for the confusion! \n The first two i did didn't work, don't know what happened there. \n \n\n \n We will regularly check on our orders and would get back at you if we see irregularities. \n \n\n \n Thank you and everyone for the team for solving this, much appreciated! \n \n\n \n All the best,\n\nLuca \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n \nGrow the Game.  \n\n\n\n&nbsp; \n\n\n\n\n\n\n\n\n \nLuca Keller  \n\n \n Green Hockey AG\n\nTitlisstrasse 2, 8032 Zurich, Switzerland  \n Phone \n+41 44 575 22 58  \n Mobile \n+41 79 265 79 33  \n \n\n \n \n\n \nConfidential communication intended solely for the addressee. Unauthorized use, disclosure, or distribution is prohibited. If received in error, please notify the sender and delete immediately.\n \n\n\n\n\n \n \n\n \n \n\n \n \n ------ Originalnachricht ------ \n Von \"Touseef (PluginHive)\" &lt;support@pluginhive.com&gt; \n An \"Luca Keller\" &lt;luca@green.hockey&gt; \n Datum 4/2/2026 11:54:23 AM \n Betreff [PluginHive] Re: hello as requested we changed to new fedex rest a...",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56918734861849,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "luca@green.hockey",
+            "name": "Luca Keller",
+            "original_recipients": [
+              "luca@green.hockey",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T07:16:48Z",
+      "metadata": {
+        "system": {
+          "message_id": "<em6656bf42-09a8-47e5-b1fa-268be3c70681@green.hockey>",
+          "email_id": "01KP2V69FJP1R4JS408RJ0TR8R",
+          "raw_email_identifier": "2369120/acbc1ec2-f04d-4b66-934f-48b35afecf50.eml",
+          "json_email_identifier": "2369120/acbc1ec2-f04d-4b66-934f-48b35afecf50.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56920720275865,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Luca Keller,\n\nThank you for your response and sharing the case.\n\nPlease allow us some time so that we can escalate your case further.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Luca Keller,<br>&nbsp;<br>Thank you for your response and sharing the case.<br>&nbsp;<br>Please allow us some time so that we can escalate your case further.<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Luca Keller,\n&nbsp;\nThank you for your response and sharing the case.\n&nbsp;\nPlease allow us some time so that we can escalate your case further.\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56920720275737,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T08:08:30Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56920970395673,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1776068063814559?thread_ts=1774040222.906989&cid=C02E15X8X0C\n\nCustomer has shared the same case again where the orders are being placed using the Shopify backup rates instead of the rates from the app.\nIn the Request Logs in the app, the rates are available but not showing on checkout due to the delay.\nFrom Friday, he has received 5 orders, 4 of which are ordered using the Shopify backup rates.\nExample - Order **2024-1357,** was placed on Friday with backup rates, but in the app **Request Id :dea52dbb8fcc89b3a22837e459bdf0ef** the rates are available.\n\nPlease check the case further as it is a recurring case reported by customer.\n\n**Store Details:**\nStore URL: 0616ac.myshopify.com\nAccount ID: c77cce87-72f3-4ad4-920f-9d5651b43657",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Back to L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1776068063814559?thread_ts=1774040222.906989&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1776068063814559?thread_ts=1774040222.906989&amp;cid=C02E15X8X0C</a><br>&nbsp;<br>Customer has shared the same case again where the orders are being placed using the Shopify backup rates instead of the rates from the app.<br>In the Request Logs in the app, the rates are available but not showing on checkout due to the delay.<br>From Friday, he has received 5 orders, 4 of which are ordered using the Shopify backup rates.<br>Example - Order <strong>2024-1357, </strong>was placed on Friday with backup rates, but in the app <strong>Request Id :dea52dbb8fcc89b3a22837e459bdf0ef </strong>the rates are available.<br>&nbsp;<br>Please check the case further as it is a recurring case reported by customer.<br>&nbsp;<br><strong>Store Details:</strong><br>Store URL: <a rel=\"noopener noreferrer\" href=\"http://0616ac.myshopify.com/\">0616ac.myshopify.com</a><br>Account ID: c77cce87-72f3-4ad4-920f-9d5651b43657<br></div>",
+      "plain_body": "Back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1776068063814559?thread_ts=1774040222.906989&amp;cid=C02E15X8X0C\n&nbsp;\nCustomer has shared the same case again where the orders are being placed using the Shopify backup rates instead of the rates from the app.\nIn the Request Logs in the app, the rates are available but not showing on checkout due to the delay.\nFrom Friday, he has received 5 orders, 4 of which are ordered using the Shopify backup rates.\nExample - Order 2024-1357, was placed on Friday with backup rates, but in the app Request Id :dea52dbb8fcc89b3a22837e459bdf0ef the rates are available.\n&nbsp;\nPlease check the case further as it is a recurring case reported by customer.\n&nbsp;\nStore Details:\nStore URL: 0616ac.myshopify.com\nAccount ID: c77cce87-72f3-4ad4-920f-9d5651b43657",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56920758085401.json",
+          "id": 56920758085401,
+          "file_name": "Recording 2026-04-13 091346.mp4",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/vOYjqtzWpPEYdMuT8TWRn2uWX/?name=Recording+2026-04-13+091346.mp4",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/vOYjqtzWpPEYdMuT8TWRn2uWX/?name=Recording+2026-04-13+091346.mp4",
+          "content_type": "video/mp4",
+          "size": 11202840,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/56920766181273.json",
+          "id": 56920766181273,
+          "file_name": "Screen Recording 2026-04-13 at 1.34.29 PM.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/dM8dfK19MI9cJaLt5yTc6flYq/?name=Screen+Recording+2026-04-13+at+1.34.29%E2%80%AFPM.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/dM8dfK19MI9cJaLt5yTc6flYq/?name=Screen+Recording+2026-04-13+at+1.34.29%E2%80%AFPM.mov",
+          "content_type": "video/quicktime",
+          "size": 32157104,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 56920970395545,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T08:14:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56927113355161,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Need to check this\n-[Athul]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need to check this<br>-[Athul]<br></div>",
+      "plain_body": "Need to check this\n-[Athul]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56927113354905,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-13T11:34:42Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "103.163.65.25",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57033208864793,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Merchant has disabled the automation rule, we have enabled and tried rates on Tuesday, Wednesday and Thursday, we didn't encounter any delays. Kindly inform the same to merchant, and Keep the ticket open in dev_needed, so we can monitor.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Merchant has disabled the automation rule, we have enabled and tried rates on Tuesday, Wednesday and Thursday, we didn't encounter any delays. Kindly inform the same to merchant, and Keep the ticket open in dev_needed, so we can monitor.<br>[Veena]<br></div>",
+      "plain_body": "Merchant has disabled the automation rule, we have enabled and tried rates on Tuesday, Wednesday and Thursday, we didn't encounter any delays. Kindly inform the same to merchant, and Keep the ticket open in dev_needed, so we can monitor.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57033208864665,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-16T09:41:01Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57034679976601,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Input from DevTeam:\n\n\"There is a very specific case where it happens during a token refresh.... Will need some dev to fix this...\"\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Input from DevTeam:<br>&nbsp;<br>\"There is a very specific case where it happens during a token refresh.... Will need some dev to fix this...\"<br>&nbsp;<br>[Veena]<br></div>",
+      "plain_body": "Input from DevTeam:\n&nbsp;\n\"There is a very specific case where it happens during a token refresh.... Will need some dev to fix this...\"\n&nbsp;\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57034679976217,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-16T10:28:21Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57034874342553,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Luca Keller,\n\nThank you for your patience.\n\nWe have been monitoring your case for the last couple of days.\n\nAs the Rate Automation rules were disabled from your end in the app, we had enabled them and checked your case for rates on checkout and reverted the changes in the app.\nOver the last few days, we did not see any rates failure from the app on your store.\n\nWe will continue monitoring your case from our end. Please reach out to us if you see the same case again on your end.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Luca Keller,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We have been monitoring your case for the last couple of days.<br>&nbsp;<br>As the Rate Automation rules were disabled from your end in the app, we had enabled them and checked your case for rates on checkout and reverted the changes in the app.<br>Over the last few days, we did not see any rates failure from the app on your store.<br>&nbsp;<br>We will continue monitoring your case from our end. Please reach out to us if you see the same case again on your end.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Luca Keller,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe have been monitoring your case for the last couple of days.\n&nbsp;\nAs the Rate Automation rules were disabled from your end in the app, we had enabled them and checked your case for rates on checkout and reverted the changes in the app.\nOver the last few days, we did not see any rates failure from the app on your store.\n&nbsp;\nWe will continue monitoring your case from our end. Please reach out to us if you see the same case again on your end.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57034874342425,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-16T10:36:28Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

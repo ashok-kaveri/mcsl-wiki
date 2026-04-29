@@ -1,0 +1,980 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/384139.json",
+    "id": 384139,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "sahas@wpcreative.com.au",
+          "name": "Sahas"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-04-15T04:26:36Z",
+    "updated_at": "2026-04-22T08:06:01Z",
+    "generated_timestamp": 1776845162,
+    "type": null,
+    "subject": "Issue with Store Pick Up time",
+    "raw_subject": "Issue with Store Pick Up time",
+    "description": "Hi Tossef, \n\nI tried calling the support number, but no one answered.\n\nSeparately, we’ve noticed that when users attempt to place orders after store closing time, the plugin doesn't assign the order to the next available date (i.e. the immediate next day). This prevents customers from completing their purchases and causes frustration.\n\nUrgent: Please prioritize looking into this and ensure orders can be placed 24/7, with appropriate handling for after-hours scheduling?\n\nAlso, as a heads up, for responses to this email, please do not include my clients, as they’ve requested not to be CC’d on technical discussions.\n\nCheers,\nSahas Pokhrel\nProject Manager\nm: 0482 098 171  \na: Suite 18, 89 Jones Street, Ultimo NSW 2007\nw: www.wpcreative.com.au (https://www.wpcreative.com.au/)",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 56287780201625,
+    "submitter_id": 56287780201625,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "fa26708b-960c-48a0-a22f-29c03f3c1428"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "44Y9JM-GN6KL",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "fa26708b-960c-48a0-a22f-29c03f3c1428"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 56982518130201,
+      "type": "Comment",
+      "author_id": 56287780201625,
+      "body": "Hi Tossef,\n\n\n\nI tried calling the support number, but no one answered.\n\nSeparately, we’ve noticed that when users attempt to place orders after store closing time, the plugin doesn't assign the order to the next available date (i.e. the immediate next day). This prevents customers from completing their purchases and causes frustration.\n\n**Urgent: Please prioritize looking into this and ensure orders can be placed 24/7, with appropriate handling for after-hours scheduling?**\n\nAlso, as a heads up, for responses to this email, please do not include my clients, as they’ve requested not to be CC’d on technical discussions.\n\n\nCheers,\n**Sahas Pokhrel**\nProject Manager\n\n**m: **0482 098 171\n\n**a: **Suite 18, 89 Jones Street, Ultimo NSW 2007\n\n**w: **www.wpcreative.com.au",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi Tossef,&nbsp;</div><div><br></div><div>I tried calling the support number, but no one answered.<br><br>Separately, we’ve noticed that when users attempt to place orders after store closing time, the plugin doesn't assign the order to the next available date (i.e. the immediate next day). This prevents customers from completing their purchases and causes frustration.<br><br><b>Urgent: Please prioritize looking into this and ensure orders can be placed 24/7, with appropriate handling for after-hours scheduling?</b><br><br>Also, as a heads up, for responses to this email, please do not include my clients, as they’ve requested not to be CC’d on technical discussions.<br><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><span style=\"color: rgb(51,51,51);\">Cheers,<br><b>Sahas Pokhrel</b><br></span><span style=\"color: rgb(34,34,34);\">Project Manager</span><br style=\"color: rgb(34,34,34);\"><div><div><font><font color=\"#333333\" style=\"color: rgb(34,34,34);\"><b>m:&nbsp;</b></font><font color=\"#333333\">0482 098 171</font><font color=\"#222222\">&nbsp;&nbsp;</font></font></div><div style=\"color: rgb(34,34,34);\"><font><font color=\"#333333\"><b>a:&nbsp;</b>Suite 18</font>, 89 Jones Street, Ultimo NSW 2007</font></div><div style=\"color: rgb(34,34,34);\"><strong style=\"color: rgb(51,51,51);\">w:&nbsp;</strong><a href=\"https://www.wpcreative.com.au/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\">www.wpcreative.com.au</a></div></div></div></div></div></div></div>",
+      "plain_body": "Hi Tossef,&nbsp;  \n  I tried calling the support number, but no one answered.\n\nSeparately, we’ve noticed that when users attempt to place orders after store closing time, the plugin doesn't assign the order to the next available date (i.e. the immediate next day). This prevents customers from completing their purchases and causes frustration.\n\nUrgent: Please prioritize looking into this and ensure orders can be placed 24/7, with appropriate handling for after-hours scheduling?\n\nAlso, as a heads up, for responses to this email, please do not include my clients, as they’ve requested not to be CC’d on technical discussions.\n\n    Cheers,\nSahas Pokhrel\nProject Manager   m:&nbsp;0482 098 171&nbsp;&nbsp;  a:&nbsp;Suite 18, 89 Jones Street, Ultimo NSW 2007  w:&nbsp;www.wpcreative.com.au",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56982518130073,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sahas@wpcreative.com.au",
+            "name": "Sahas",
+            "original_recipients": [
+              "sahas@wpcreative.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-15T04:26:36Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKMv+H-Fxkn8weLQyOGmar8fdSbD0EVkAOV25O_ZPE-tvtLRGw@mail.gmail.com>",
+          "email_id": "01KP7P84AD35B0R6QWCYE3GRYG",
+          "raw_email_identifier": "2369120/bd5f2957-9eda-48dc-a70b-8401507958dd.eml",
+          "json_email_identifier": "2369120/bd5f2957-9eda-48dc-a70b-8401507958dd.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56987280823321,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Request #384138 \"Missed call from Caller +61 482 ...\" was closed and merged into this request. Last comment in request #384138:",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/384138\" target=\"_blank\" rel=\"ticket\">#384138</a> \"Missed call from Caller +61 482 ...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/384138\" target=\"_blank\" rel=\"ticket\">#384138</a>:</p></div>",
+      "plain_body": "Request #384138 \"Missed call from Caller +61 482 ...\" was closed and merged into this request. Last comment in request #384138:",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56987280823193,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              384138
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-04-15T06:37:38Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56987398345753,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Au Store.\nTNT Au and FedEx added\nOrders - NA\nRates - Yes\nLabels - 2 in March\nPlan - $29\nActive from 2026-03-24",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Au Store.<br>TNT Au and FedEx added<br>Orders - NA<br>Rates - Yes<br>Labels - 2 in March<br>Plan - $29<br>Active from 2026-03-24<br></div>",
+      "plain_body": "Au Store.\nTNT Au and FedEx added\nOrders - NA\nRates - Yes\nLabels - 2 in March\nPlan - $29\nActive from 2026-03-24",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56987398345625,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-15T06:40:52Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56987623182745,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Sahas,\n\nGood Day!\n\nUpon checking, I could observe that the TNT Australia pickup timing in the plugin was moved back to 2 PM after our last discussion.\n\nAs shared last time, 2 PM is not the correct pickup timing for TNT Australia for your location. Due to this, the rates were failing.\n\nI have updated the pickup timing to 1 PM now, and the rates are available on checkout of your store. I would request that you do not change the pickup timing set in the plugin now for TNT Australia.\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sahas,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>Upon checking, I could observe that the TNT Australia pickup timing in the plugin was moved back to 2 PM after our last discussion.<br>&nbsp;<br>As shared last time, 2 PM is not the correct pickup timing for TNT Australia for your location. Due to this, the rates were failing.<br>&nbsp;<br>I have updated the pickup timing to 1 PM now, and the rates are available on checkout of your store. I would request that you do not change the pickup timing set in the plugin now for TNT Australia.<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sahas,\n&nbsp;\nGood Day!\n&nbsp;\nUpon checking, I could observe that the TNT Australia pickup timing in the plugin was moved back to 2 PM after our last discussion.\n&nbsp;\nAs shared last time, 2 PM is not the correct pickup timing for TNT Australia for your location. Due to this, the rates were failing.\n&nbsp;\nI have updated the pickup timing to 1 PM now, and the rates are available on checkout of your store. I would request that you do not change the pickup timing set in the plugin now for TNT Australia.\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56987623182617,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-15T06:46:48Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56988290118681,
+      "type": "Comment",
+      "author_id": 56287780201625,
+      "body": "Hi Toseef,\n\n\n\nWill this ensure that the api request wont fail as long as the timing remains 1pm? Could we please have more clarification on why 2pm wont work ? is it a weird quirk of Fedex itself or store lcoation/timezone or something else ?\n\n\n\nWe want the store to receive orders 24/7.\n\n\n\nThanks\n\n\n\nCheers,\n**Sahas Pokhrel**\nProject Manager\n\n**m: **0482 098 171\n\n**a: **Suite 18, 89 Jones Street, Ultimo NSW 2007\n\n**w: **www.wpcreative.com.au",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div><div dir=\"auto\">Hi Toseef,</div><div dir=\"auto\"><br></div><div dir=\"auto\">Will this ensure that the api request wont fail as long as the timing remains 1pm? Could we please have more clarification on why 2pm wont work ? is it a weird quirk of Fedex itself or store lcoation/timezone or something else ?</div><div dir=\"auto\"><br></div><div dir=\"auto\">We want the store to receive orders 24/7.&nbsp;</div><div dir=\"auto\"><br></div><div dir=\"auto\">Thanks</div></div><div><br></div><div><div dir=\"ltr\"><span style=\"color: rgb(51,51,51);\">Cheers,<br><b>Sahas Pokhrel</b><br></span><span style=\"color: rgb(34,34,34);\">Project Manager</span><br style=\"color: rgb(34,34,34);\"><div><div><font><font color=\"#333333\" style=\"color: rgb(34,34,34);\"><b>m:&nbsp;</b></font><font color=\"#333333\">0482 098 171</font><font color=\"#222222\">&nbsp;&nbsp;</font></font></div><div style=\"color: rgb(34,34,34);\"><font><font color=\"#333333\"><b>a:&nbsp;</b>Suite 18</font>, 89 Jones Street, Ultimo NSW 2007</font></div><div style=\"color: rgb(34,34,34);\"><strong style=\"color: rgb(51,51,51);\">w:&nbsp;</strong><a href=\"https://www.wpcreative.com.au/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\">www.wpcreative.com.au</a></div></div></div></div></div><br><div></div></div>",
+      "plain_body": "Hi Toseef,  \n  Will this ensure that the api request wont fail as long as the timing remains 1pm? Could we please have more clarification on why 2pm wont work ? is it a weird quirk of Fedex itself or store lcoation/timezone or something else ?  \n  We want the store to receive orders 24/7.&nbsp;  \n  Thanks   \n   Cheers,\nSahas Pokhrel\nProject Manager   m:&nbsp;0482 098 171&nbsp;&nbsp;  a:&nbsp;Suite 18, 89 Jones Street, Ultimo NSW 2007  w:&nbsp;www.wpcreative.com.au",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56988290118553,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sahas@wpcreative.com.au",
+            "name": "Sahas",
+            "original_recipients": [
+              "sahas@wpcreative.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-15T07:04:27Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKMv+H9Q-VxJKk6Aacbg_E+x_KF2h6UNN=TJY24PPqMW70gPTA@mail.gmail.com>",
+          "email_id": "01KP7Z95V909MKRN3HNJ19FDWW",
+          "raw_email_identifier": "2369120/fd5f2cb5-782a-4e16-ac57-b6c29603dd12.eml",
+          "json_email_identifier": "2369120/fd5f2cb5-782a-4e16-ac57-b6c29603dd12.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56992364863257,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Sahas,\n\nPickup timing for each location differs for TNT Australia.\n\n2 PM seems to be later than what is expected by TNT Australia for your location due to which the rates were failing.\n\n1 PM or earlier is the correct pickup timing for your location and the rates are being returned correctly.\n\nAs long as the expected timing on TNT Australia side remains same for your location, the rates from the plugin should not fail.\n\nIf you face any difficulties, please reach out to us with details and we will check the case further.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sahas,<br>&nbsp;<br>Pickup timing for each location differs for TNT Australia.<br>&nbsp;<br>2 PM seems to be later than what is expected by TNT Australia for your location due to which the rates were failing.<br>&nbsp;<br>1 PM or earlier is the correct pickup timing for your location and the rates are being returned correctly.<br>&nbsp;<br>As long as the expected timing on TNT Australia side remains same for your location, the rates from the plugin should not fail.<br>&nbsp;<br>If you face any difficulties, please reach out to us with details and we will check the case further.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sahas,\n&nbsp;\nPickup timing for each location differs for TNT Australia.\n&nbsp;\n2 PM seems to be later than what is expected by TNT Australia for your location due to which the rates were failing.\n&nbsp;\n1 PM or earlier is the correct pickup timing for your location and the rates are being returned correctly.\n&nbsp;\nAs long as the expected timing on TNT Australia side remains same for your location, the rates from the plugin should not fail.\n&nbsp;\nIf you face any difficulties, please reach out to us with details and we will check the case further.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56992364863129,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-15T08:42:54Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56993364926489,
+      "type": "Comment",
+      "author_id": 56287780201625,
+      "body": "Hi Toseef,\n\n\n\nWhen we view things from the customer's perspective, the customer should be able to place their order regardless of the timing. Since the orders are typically processed in 2-3 days, the plugin should automatically select the other available pickup time.\n\n\n\nCan you please pass the message to the developer? The requirement is simple: users should be able to place their order regardless of the time they place it. We cannot say user, do not place order at 9 PM and come back tomorrow to place an order.\n\n\n\nCheers,\n**Sahas Pokhrel**\nProject Manager\n\n**m: **0482 098 171\n\n**a: **Suite 18, 89 Jones Street, Ultimo NSW 2007\n\n**w: **www.wpcreative.com.au",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi Toseef,&nbsp;</div><div><br></div><div>When we view things from the customer's perspective, the customer should be able to place their order regardless of the timing. Since the orders are typically processed in 2-3 days, the plugin should automatically select the other available pickup time.&nbsp;</div><div><br></div><div>Can you please pass the message to&nbsp;the developer? The requirement is simple: users should be able to place their order regardless of the time they place it. We cannot say user, do not place order at 9 PM and come back tomorrow to place an order.&nbsp;</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><span style=\"color: rgb(51,51,51);\">Cheers,<br><b>Sahas Pokhrel</b><br></span><span style=\"color: rgb(34,34,34);\">Project Manager</span><br style=\"color: rgb(34,34,34);\"><div><div><font><font color=\"#333333\" style=\"color: rgb(34,34,34);\"><b>m:&nbsp;</b></font><font color=\"#333333\">0482 098 171</font><font color=\"#222222\">&nbsp;&nbsp;</font></font></div><div style=\"color: rgb(34,34,34);\"><font><font color=\"#333333\"><b>a:&nbsp;</b>Suite 18</font>, 89 Jones Street, Ultimo NSW 2007</font></div><div style=\"color: rgb(34,34,34);\"><strong style=\"color: rgb(51,51,51);\">w:&nbsp;</strong><a href=\"https://www.wpcreative.com.au/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\">www.wpcreative.com.au</a></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi Toseef,&nbsp;  \n  When we view things from the customer's perspective, the customer should be able to place their order regardless of the timing. Since the orders are typically processed in 2-3 days, the plugin should automatically select the other available pickup time.&nbsp;  \n  Can you please pass the message to&nbsp;the developer? The requirement is simple: users should be able to place their order regardless of the time they place it. We cannot say user, do not place order at 9 PM and come back tomorrow to place an order.&nbsp;  \n    Cheers,\nSahas Pokhrel\nProject Manager   m:&nbsp;0482 098 171&nbsp;&nbsp;  a:&nbsp;Suite 18, 89 Jones Street, Ultimo NSW 2007  w:&nbsp;www.wpcreative.com.au",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56993364926361,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sahas@wpcreative.com.au",
+            "name": "Sahas",
+            "original_recipients": [
+              "sahas@wpcreative.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-15T09:07:18Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKMv+H_y=fEsMCi8s6M66zBO10KaTX4ws_LYT7HaHooxGfgXuQ@mail.gmail.com>",
+          "email_id": "01KP86A3S1NAESFAVM1AXTH0CY",
+          "raw_email_identifier": "2369120/c16f91df-b122-4abb-848b-9ce5e493cdb7.eml",
+          "json_email_identifier": "2369120/c16f91df-b122-4abb-848b-9ce5e493cdb7.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56994707481369,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Sahas,\n\nThere is no restriction on the end user side about the timings.\n\nThe rates should be available around the clock if the setup in the plugin is correct and as per carrier requirements.\n\nYou can try checking for rates on checkout of your store at different hours through the day to verify if the rates are available from the plugin.\n\nIf you face any further difficulties, we will escalate your case so that it can be addressed.\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sahas,<br>&nbsp;<br>There is no restriction on the end user side about the timings.&nbsp;<br>&nbsp;<br>The rates should be available around the clock if the setup in the plugin is correct and as per carrier requirements.<br>&nbsp;<br>You can try checking for rates on checkout of your store at different hours through the day to verify if the rates are available from the plugin.<br>&nbsp;<br>If you face any further difficulties, we will escalate your case so that it can be addressed.<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sahas,\n&nbsp;\nThere is no restriction on the end user side about the timings.&nbsp;\n&nbsp;\nThe rates should be available around the clock if the setup in the plugin is correct and as per carrier requirements.\n&nbsp;\nYou can try checking for rates on checkout of your store at different hours through the day to verify if the rates are available from the plugin.\n&nbsp;\nIf you face any further difficulties, we will escalate your case so that it can be addressed.\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56994707481241,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-15T09:43:00Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57057788763033,
+      "type": "Comment",
+      "author_id": 56287780201625,
+      "body": "Hi Toseef,\n\n\n\nCould you kindly try ordering an item on the website please? We have not updated anything regarding the pick-up time, but only the rates are failing again.\n\n\n\nThis has really created a lot of frustration for customer Toseef, and it's simply unacceptable. Could you kindly laison me with the developer please?\n\nPlease let me have a technical reply to the situation, and clearly let me know how your team is handling the orders after 1 PM pickup time, I would need the response in JSON please.\n\n\n\nCheers,\n**Sahas Pokhrel**\nProject Manager\n\n**m: **0482 098 171\n\n**a: **Suite 18, 89 Jones Street, Ultimo NSW 2007\n\n**w: **www.wpcreative.com.au",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi Toseef,&nbsp;</div><div><br></div><div>Could you kindly try ordering an item on the website please? We have not updated anything regarding the pick-up time, but only the rates are failing again.&nbsp;</div><div><br></div><div>This has really created a lot of frustration for customer Toseef, and it's simply unacceptable. Could you kindly laison me with the developer please?&nbsp;<br><br>Please let me have a technical reply to the situation, and clearly let me know how your team is handling the orders after 1 PM pickup time, I would need the response in JSON please.&nbsp;</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><span style=\"color: rgb(51,51,51);\">Cheers,<br><b>Sahas Pokhrel</b><br></span><span style=\"color: rgb(34,34,34);\">Project Manager</span><br style=\"color: rgb(34,34,34);\"><div><div><font><font color=\"#333333\" style=\"color: rgb(34,34,34);\"><b>m:&nbsp;</b></font><font color=\"#333333\">0482 098 171</font><font color=\"#222222\">&nbsp;&nbsp;</font></font></div><div style=\"color: rgb(34,34,34);\"><font><font color=\"#333333\"><b>a:&nbsp;</b>Suite 18</font>, 89 Jones Street, Ultimo NSW 2007</font></div><div style=\"color: rgb(34,34,34);\"><strong style=\"color: rgb(51,51,51);\">w:&nbsp;</strong><a href=\"https://www.wpcreative.com.au/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\">www.wpcreative.com.au</a></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi Toseef,&nbsp;  \n  Could you kindly try ordering an item on the website please? We have not updated anything regarding the pick-up time, but only the rates are failing again.&nbsp;  \n  This has really created a lot of frustration for customer Toseef, and it's simply unacceptable. Could you kindly laison me with the developer please?&nbsp;\n\nPlease let me have a technical reply to the situation, and clearly let me know how your team is handling the orders after 1 PM pickup time, I would need the response in JSON please.&nbsp;  \n    Cheers,\nSahas Pokhrel\nProject Manager   m:&nbsp;0482 098 171&nbsp;&nbsp;  a:&nbsp;Suite 18, 89 Jones Street, Ultimo NSW 2007  w:&nbsp;www.wpcreative.com.au",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57057788762905,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sahas@wpcreative.com.au",
+            "name": "Sahas",
+            "original_recipients": [
+              "sahas@wpcreative.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T04:31:45Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKMv+H83h=V1iX6xhptYeZEmm6hf7+TuzJH11Yynts4hhUAAHw@mail.gmail.com>",
+          "email_id": "01KPCVAZV147XZ2V4TD7YVD4S4",
+          "raw_email_identifier": "2369120/3c43e9ca-5da6-40bb-bdac-717379208311.eml",
+          "json_email_identifier": "2369120/3c43e9ca-5da6-40bb-bdac-717379208311.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57064269005465,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Checking internally with Keerthi about the response.\nHave checked and rates are now coming from the plugin.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Checking internally with Keerthi about the response.<br>Have checked and rates are now coming from the plugin.<br></div>",
+      "plain_body": "Checking internally with Keerthi about the response.\nHave checked and rates are now coming from the plugin.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57064281889561,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T07:39:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57064629180697,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Sahas,\n\nThank you for reaching out with your case.\n\nPlease allow us some time to check your case with our technical team.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sahas,<br>&nbsp;<br>Thank you for reaching out with your case.<br>&nbsp;<br>Please allow us some time to check your case with our technical team.<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sahas,\n&nbsp;\nThank you for reaching out with your case.\n&nbsp;\nPlease allow us some time to check your case with our technical team.\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57064629180569,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T07:48:42Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57065434128793,
+      "type": "Comment",
+      "author_id": 56287780201625,
+      "body": "Hi Toseef,\n\n\n\nYes please. We have encountered this scenario multiple times.\n\n\n\nPlease ensure the platform supports the customer orders 24/7.  I will expect a technical reply detailing exactly what has been done to mitigate the issue. Please ask your developer team to send us the plugin's response when orders are placed after 1 PM. We will review the JSON response from your team.\n\n\n\nCheers,\n**Sahas Pokhrel**\nProject Manager\n\n**m: **0482 098 171\n\n**a: **Suite 18, 89 Jones Street, Ultimo NSW 2007\n\n**w: **www.wpcreative.com.au",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi Toseef,&nbsp;</div><div><br></div><div>Yes please. We have encountered this scenario multiple times.&nbsp;</div><div><br></div><div>Please ensure the platform supports the customer orders 24/7.&nbsp; I will expect a technical reply detailing exactly what has been&nbsp;done to mitigate the issue. Please ask your developer team to send us the plugin's response when orders are placed after 1 PM. We will review the JSON response from your team.&nbsp;</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><span style=\"color: rgb(51,51,51);\">Cheers,<br><b>Sahas Pokhrel</b><br></span><span style=\"color: rgb(34,34,34);\">Project Manager</span><br style=\"color: rgb(34,34,34);\"><div><div><font><font color=\"#333333\" style=\"color: rgb(34,34,34);\"><b>m:&nbsp;</b></font><font color=\"#333333\">0482 098 171</font><font color=\"#222222\">&nbsp;&nbsp;</font></font></div><div style=\"color: rgb(34,34,34);\"><font><font color=\"#333333\"><b>a:&nbsp;</b>Suite 18</font>, 89 Jones Street, Ultimo NSW 2007</font></div><div style=\"color: rgb(34,34,34);\"><strong style=\"color: rgb(51,51,51);\">w:&nbsp;</strong><a href=\"https://www.wpcreative.com.au/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\">www.wpcreative.com.au</a></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi Toseef,&nbsp;  \n  Yes please. We have encountered this scenario multiple times.&nbsp;  \n  Please ensure the platform supports the customer orders 24/7.&nbsp; I will expect a technical reply detailing exactly what has been&nbsp;done to mitigate the issue. Please ask your developer team to send us the plugin's response when orders are placed after 1 PM. We will review the JSON response from your team.&nbsp;  \n    Cheers,\nSahas Pokhrel\nProject Manager   m:&nbsp;0482 098 171&nbsp;&nbsp;  a:&nbsp;Suite 18, 89 Jones Street, Ultimo NSW 2007  w:&nbsp;www.wpcreative.com.au",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57065434128665,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sahas@wpcreative.com.au",
+            "name": "Sahas",
+            "original_recipients": [
+              "sahas@wpcreative.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T08:11:21Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKMv+H9_XfdjL_66Q_4bSKQPGkuaBxSGVhnzoUhTVzbauZAPeQ@mail.gmail.com>",
+          "email_id": "01KPD7X3DMNRVAY65CGB3GD6DS",
+          "raw_email_identifier": "2369120/4bc66cba-455c-4e11-b780-0ae2657e4d6a.eml",
+          "json_email_identifier": "2369120/4bc66cba-455c-4e11-b780-0ae2657e4d6a.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57067551759385,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Need assistance from team about this case.\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1776417050903239\n\nAustralia Customer using WSS with TNT Australia for rates.\nCouple of days ago, customer had reported rates failure case and upon checking, we observed that the rates were failing with error \"**The % collection time is past your local depot's latest possible collection time - please select a later date or call 13 11 50.**\"\nAt that time, the case was resolved by changing the Pickup Time set in the plugin to 1 PM from 2 PM. The booking cutoff time for his account is 14:00 hours.\nToday, the customer reported the same case again and upon checking, the Pickup time was still 1 PM in the plugin, but the rates were still failing with the same error. (**Request Id :e5e38faf-d05b-477c-99ac-11781d408682**)\nAfter changing the Pickup time to 2PM, 3PM rates were still failing.\nNow, when I moved back the Pickup time to 1 PM, rates are available again from the plugin. (**Request Id :a1c0bf55-a01a-479a-a095-b84f697c6da0**)\n\nDeveloper of the store has shared the following and has requested technical response along with JSON response -\n\n_Hi Toseef,_\n_Could you kindly try ordering an item on the website please? We have not updated anything regarding the pick-up time, but only the rates are failing again._\n_This has really created a lot of frustration for customer Toseef, and it's simply unacceptable. Could you kindly laison me with the developer please? _\n_Please let me have a technical reply to the situation, and clearly let me know how your team is handling the orders after 1 PM pickup time, I would need the response in JSON please. _\n\nCould you please check the case and let us know what response can be provided along with JSON response?\nDiscussed this case with Keerthi before posting here.\n\nURL - https://csid.com.au\nAccount ID - fa26708b-960c-48a0-a22f-29c03f3c1428",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need assistance from team about this case.<br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1776417050903239\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1776417050903239</a><br>&nbsp;<br>Australia Customer using WSS with TNT Australia for rates.<br>Couple of days ago, customer had reported rates failure case and upon checking, we observed that the rates were failing with error \"<strong>The % collection time is past your local depot's latest possible collection time - please select a later date or call 13 11 50.</strong>\"<br>At that time, the case was resolved by changing the Pickup Time set in the plugin to 1 PM from 2 PM. The booking cutoff time for his account is 14:00 hours.<br>Today, the customer reported the same case again and upon checking, the Pickup time was still 1 PM in the plugin, but the rates were still failing with the same error. (<strong>Request Id :e5e38faf-d05b-477c-99ac-11781d408682</strong>)<br>After changing the Pickup time to 2PM, 3PM rates were still failing.&nbsp;<br>Now, when I moved back the Pickup time to 1 PM, rates are available again from the plugin. (<strong>Request Id :a1c0bf55-a01a-479a-a095-b84f697c6da0</strong>)<br>&nbsp;<br>Developer of the store has shared the following and has requested technical response along with JSON response -&nbsp;<br>&nbsp;<br><i>Hi Toseef,</i><br><i>Could you kindly try ordering an item on the website please? We have not updated anything regarding the pick-up time, but only the rates are failing again.</i><br><i>This has really created a lot of frustration for customer Toseef, and it's simply unacceptable. Could you kindly laison me with the developer please?&nbsp;</i><br><i>Please let me have a technical reply to the situation, and clearly let me know how your team is handling the orders after 1 PM pickup time, I would need the response in JSON please.&nbsp;</i><br>&nbsp;<br>Could you please check the case and let us know what response can be provided along with JSON response?<br>Discussed this case with Keerthi before posting here.<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"https://csid.com.au\">https://csid.com.au</a><br>Account ID - fa26708b-960c-48a0-a22f-29c03f3c1428<br></div>",
+      "plain_body": "Need assistance from team about this case.\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1776417050903239\n&nbsp;\nAustralia Customer using WSS with TNT Australia for rates.\nCouple of days ago, customer had reported rates failure case and upon checking, we observed that the rates were failing with error \"The % collection time is past your local depot's latest possible collection time - please select a later date or call 13 11 50.\"\nAt that time, the case was resolved by changing the Pickup Time set in the plugin to 1 PM from 2 PM. The booking cutoff time for his account is 14:00 hours.\nToday, the customer reported the same case again and upon checking, the Pickup time was still 1 PM in the plugin, but the rates were still failing with the same error. (Request Id :e5e38faf-d05b-477c-99ac-11781d408682)\nAfter changing the Pickup time to 2PM, 3PM rates were still failing.&nbsp;\nNow, when I moved back the Pickup time to 1 PM, rates are available again from the plugin. (Request Id :a1c0bf55-a01a-479a-a095-b84f697c6da0)\n&nbsp;\nDeveloper of the store has shared the following and has requested technical response along with JSON response -&nbsp;\n&nbsp;\nHi Toseef,\nCould you kindly try ordering an item on the website please? We have not updated anything regarding the pick-up time, but only the rates are failing again.\nThis has really created a lot of frustration for customer Toseef, and it's simply unacceptable. Could you kindly laison me with the developer please?&nbsp;\nPlease let me have a technical reply to the situation, and clearly let me know how your team is handling the orders after 1 PM pickup time, I would need the response in JSON please.&nbsp;\n&nbsp;\nCould you please check the case and let us know what response can be provided along with JSON response?\nDiscussed this case with Keerthi before posting here.\n&nbsp;\nURL - https://csid.com.au\nAccount ID - fa26708b-960c-48a0-a22f-29c03f3c1428",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57067551759257,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T09:11:02Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57072692642713,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Sahas,\n\nI have discussed your case with the technical team and based on my discussion, below is their feedback about how rates are requested from TNT Australia by our plugin. If we receive any more feedback from our team, we will update you.\n\nThe pickup timing setup in the plugin for TNT Australia is the shipment booking cutoff time for your account which is 2 PM.\n\nThe shipment booking cutoff time is different for each region based on the local pickup timing by TNT Australia. The pickup date and time should not be same or later than the TNT Australia local pickup/shipment booking cutoff timing.\n\nWhen the Pickup timing is set as 1 PM and rates are checked before 1 PM, the current day date is passed as shipping date from the plugin and rates are returned accordingly.\nIf the rates are checked after 1 PM, next working day is passed (weekends and holidays are skipped) to TNT Australia from our end for rates request.\nAn example of rates requested after 1 PM is shared in the attachment for your reference. Here, the shipping date is shared as 20th March which is Monday.\n\nAs long as the cutoff timing for your region is not changed by TNT Australia, the rates should not fail with the setup, and we have not had many similar recurring cases for some time now.\n\nPlease review this and let us know if you have any further queries or concerns.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sahas,<br>&nbsp;<br>I have discussed your case with the technical team and based on my discussion, below is their feedback about how rates are requested from TNT Australia by our plugin. If we receive any more feedback from our team, we will update you.<br>&nbsp;<br>The pickup timing setup in the plugin for TNT Australia is the shipment booking cutoff time for your account which is 2 PM.<br>&nbsp;<br>The shipment booking cutoff time is different for each region based on the local pickup timing by TNT Australia. The pickup date and time should not be same or later than the TNT Australia local pickup/shipment booking cutoff timing.<br>&nbsp;<br>When the Pickup timing is set as 1 PM and rates are checked before 1 PM, the current day date is passed as shipping date from the plugin and rates are returned accordingly.<br>If the rates are checked after 1 PM, next working day is passed (weekends and holidays are skipped) to TNT Australia from our end for rates request.<br>An example of rates requested after 1 PM is shared in the attachment for your reference. Here, the shipping date is shared as 20th March which is Monday.<br>&nbsp;<br>As long as the cutoff timing for your region is not changed by TNT Australia, the rates should not fail with the setup, and we have not had many similar recurring cases for some time now.<br>&nbsp;<br>Please review this and let us know if you have any further queries or concerns.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sahas,\n&nbsp;\nI have discussed your case with the technical team and based on my discussion, below is their feedback about how rates are requested from TNT Australia by our plugin. If we receive any more feedback from our team, we will update you.\n&nbsp;\nThe pickup timing setup in the plugin for TNT Australia is the shipment booking cutoff time for your account which is 2 PM.\n&nbsp;\nThe shipment booking cutoff time is different for each region based on the local pickup timing by TNT Australia. The pickup date and time should not be same or later than the TNT Australia local pickup/shipment booking cutoff timing.\n&nbsp;\nWhen the Pickup timing is set as 1 PM and rates are checked before 1 PM, the current day date is passed as shipping date from the plugin and rates are returned accordingly.\nIf the rates are checked after 1 PM, next working day is passed (weekends and holidays are skipped) to TNT Australia from our end for rates request.\nAn example of rates requested after 1 PM is shared in the attachment for your reference. Here, the shipping date is shared as 20th March which is Monday.\n&nbsp;\nAs long as the cutoff timing for your region is not changed by TNT Australia, the rates should not fail with the setup, and we have not had many similar recurring cases for some time now.\n&nbsp;\nPlease review this and let us know if you have any further queries or concerns.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57072427031577.json",
+          "id": 57072427031577,
+          "file_name": "RequestResponse - 2026-04-17T172613.502.zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/nFzBEkwW8Van6NElyXRCRIYE3/?name=RequestResponse+-+2026-04-17T172613.502.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/nFzBEkwW8Van6NElyXRCRIYE3/?name=RequestResponse+-+2026-04-17T172613.502.zip",
+          "content_type": "application/zip",
+          "size": 3306,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57072393486361.json",
+          "id": 57072393486361,
+          "file_name": "Screenshot at Apr 17 17-26-57.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/lYc5nNCzZVdxM99ARz0aq0t4i/?name=Screenshot+at+Apr+17+17-26-57.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/lYc5nNCzZVdxM99ARz0aq0t4i/?name=Screenshot+at+Apr+17+17-26-57.png",
+          "content_type": "image/png",
+          "size": 1111015,
+          "width": 2536,
+          "height": 1232,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57072393512729.json",
+              "id": 57072393512729,
+              "file_name": "Screenshot_at_Apr_17_17-26-57_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/iM1xv4OZ7d0CAJdYhMPmW3PX4/?name=Screenshot_at_Apr_17_17-26-57_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/iM1xv4OZ7d0CAJdYhMPmW3PX4/?name=Screenshot_at_Apr_17_17-26-57_thumb.png",
+              "content_type": "image/png",
+              "size": 1791,
+              "width": 80,
+              "height": 39,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 57072692642585,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T12:12:44Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57072693976089,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Discussed with Keerthi and Veena and responded accordingly.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with Keerthi and Veena and responded accordingly.<br></div>",
+      "plain_body": "Discussed with Keerthi and Veena and responded accordingly.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57072693975833,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-17T12:13:07Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57211255022745,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We are aware of the TNT rates failure due to incorrect pickup time error, and we are working on finding a solution for this case. Kindly pass the information and move the ticket to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We are aware of the TNT rates failure due to incorrect pickup time error, and we are working on finding a solution for this case. Kindly pass the information and move the ticket to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "We are aware of the TNT rates failure due to incorrect pickup time error, and we are working on finding a solution for this case. Kindly pass the information and move the ticket to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57211255022617,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-22T05:20:15Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57216615020441,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Sahas,\n\nThank you for your patience.\n\nWe have discussed your case further internally and are aware about the TNT rates failure due to incorrect pickup time errors.\n\nWe are working on finding a solution for this case.\n\nWe will update you as soon as we have more information about it.\n\nFeel free to reach out if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sahas,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We have discussed your case further internally and are aware about the TNT rates failure due to incorrect pickup time errors.<br>&nbsp;<br>We are working on finding a solution for this case.<br>&nbsp;<br>We will update you as soon as we have more information about it.<br>&nbsp;<br>Feel free to reach out if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sahas,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe have discussed your case further internally and are aware about the TNT rates failure due to incorrect pickup time errors.\n&nbsp;\nWe are working on finding a solution for this case.\n&nbsp;\nWe will update you as soon as we have more information about it.\n&nbsp;\nFeel free to reach out if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57216615020313,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-22T07:51:16Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57216944500505,
+      "type": "Comment",
+      "author_id": 56287509880473,
+      "body": "Remove ezabelle@csid.com.au from this ticket and future Hive tickets.\n\n\n\nGet Outlook for iOS",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 12pt;\">\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\" dir=\"ltr\">\nRemove ezabelle@csid.com.au from this ticket and future Hive tickets.</div>\n</div>\n<div style=\" font-size: 12pt;\" dir=\"auto\">\n<br>\n</div>\n<div style=\" font-size: 12pt;\">\nGet <a href=\"https://aka.ms/o0ukef\" rel=\"noreferrer\">Outlook for iOS</a></div></div>",
+      "plain_body": "Remove ezabelle@csid.com.au from this ticket and future Hive tickets. \n \n \n\n\n \n \nGet Outlook for iOS",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57216944500377,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sahas@wpcreative.com.au",
+            "name": "Sahas",
+            "original_recipients": [
+              "ezabelle@csid.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-22T08:00:55Z",
+      "metadata": {
+        "system": {
+          "message_id": "<SYZP282MB33292A2ADC77D3FE62E42D738E2D2@SYZP282MB3329.AUSP282.PROD.OUTLOOK.COM>",
+          "email_id": "01KPT39JWK2T058QGBV9EJ5EXP",
+          "raw_email_identifier": "2369120/5176ccd3-2bd5-4d08-92f0-10a9d7321b75.eml",
+          "json_email_identifier": "2369120/5176ccd3-2bd5-4d08-92f0-10a9d7321b75.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57217019787161,
+      "type": "Comment",
+      "author_id": 56287780201625,
+      "body": "Hi Toseef,\n\n\n\nThank you for your reply; indeed, the fix is a necessity for anyone using this plugin.\n\n\n\nAlso could you kindly not cc any of our clients of CSID with support emails? For the time being, all technical emails can route to me.\n\n\n\n\n\nCheers,\n**Sahas Pokhrel**\nProject Manager\n\n**m: **0482 098 171\n\n**a: **Suite 18, 89 Jones Street, Ultimo NSW 2007\n\n**w: **www.wpcreative.com.au",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div><font color=\"#333333\">Hi Toseef,&nbsp;</font></div><div><font color=\"#333333\"><br></font></div><div><font color=\"#333333\">Thank you for your reply; indeed, the fix is a necessity for anyone using this plugin.&nbsp;</font></div><div><font color=\"#333333\"><br></font></div><div><font color=\"#333333\">Also could you kindly not cc any of our clients of CSID with support emails? For the time being, all technical emails can route to me.&nbsp;</font></div><div><font color=\"#333333\"><br></font></div><div><div dir=\"ltr\"><div dir=\"ltr\"><span style=\"color: rgb(51,51,51);\"><br></span></div><div dir=\"ltr\"><span style=\"color: rgb(51,51,51);\">Cheers,<br><b>Sahas Pokhrel</b><br></span><span style=\"color: rgb(34,34,34);\">Project Manager</span><br style=\"color: rgb(34,34,34);\"><div><div><font><font color=\"#333333\" style=\"color: rgb(34,34,34);\"><b>m:&nbsp;</b></font><font color=\"#333333\">0482 098 171</font><font color=\"#222222\">&nbsp;&nbsp;</font></font></div><div style=\"color: rgb(34,34,34);\"><font><font color=\"#333333\"><b>a:&nbsp;</b>Suite 18</font>, 89 Jones Street, Ultimo NSW 2007</font></div><div style=\"color: rgb(34,34,34);\"><strong style=\"color: rgb(51,51,51);\">w:&nbsp;</strong><a href=\"https://www.wpcreative.com.au/\" style=\"color: rgb(17,85,204);\" rel=\"noreferrer\">www.wpcreative.com.au</a></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi Toseef,&nbsp;  \n  Thank you for your reply; indeed, the fix is a necessity for anyone using this plugin.&nbsp;  \n  Also could you kindly not cc any of our clients of CSID with support emails? For the time being, all technical emails can route to me.&nbsp;  \n    \n  Cheers,\nSahas Pokhrel\nProject Manager   m:&nbsp;0482 098 171&nbsp;&nbsp;  a:&nbsp;Suite 18, 89 Jones Street, Ultimo NSW 2007  w:&nbsp;www.wpcreative.com.au",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57217019784857,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sahas@wpcreative.com.au",
+            "name": "Sahas",
+            "original_recipients": [
+              "sahas@wpcreative.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-22T08:02:10Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKMv+H90mK2tL46n2Q1GKzhHAYrKVjchYKQUuk8daKzuFQrCcw@mail.gmail.com>",
+          "email_id": "01KPT3BSP2HTMM2Q2BYPE8WZGP",
+          "raw_email_identifier": "2369120/d550c35f-4f71-4ae5-baf7-09e9ac13c75a.eml",
+          "json_email_identifier": "2369120/d550c35f-4f71-4ae5-baf7-09e9ac13c75a.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57217164540313,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Sahas,\n\nThank you for your response.\n\nWe have removed other emails from this thread.\n\nWe will reach out to you as soon as we have more information about the case resolution.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sahas,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>We have removed other emails from this thread.<br>&nbsp;<br>We will reach out to you as soon as we have more information about the case resolution.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sahas,\n&nbsp;\nThank you for your response.\n&nbsp;\nWe have removed other emails from this thread.\n&nbsp;\nWe will reach out to you as soon as we have more information about the case resolution.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57217164540185,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-22T08:06:01Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

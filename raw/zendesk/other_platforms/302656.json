@@ -1,0 +1,724 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/302656.json",
+    "id": 302656,
+    "external_id": null,
+    "via": {
+      "channel": "api",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2024-12-06T17:27:42Z",
+    "updated_at": "2026-04-14T13:32:44Z",
+    "generated_timestamp": 1776173565,
+    "type": null,
+    "subject": "Media Mail and Forcing Address Authentication",
+    "raw_subject": "Media Mail and Forcing Address Authentication",
+    "description": "1. We have USPS connected, but aren't able to pull media mail rates for shipping.\r\n2. We'd like direction on how to force the customer to verify their own shipping address at checkout rather than us manually correcting them when printing labels.",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 39942383133337,
+    "submitter_id": 39942383133337,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      40023863867673,
+      9977129389337,
+      18854260804761
+    ],
+    "follower_ids": [
+      40023863867673,
+      9977129389337,
+      18854260804761
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "back-log",
+      "dev_needed",
+      "last_reply_agent",
+      "other",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "e8b8c947-fd89-4769-bcde-7ee3779ca2b6"
+      },
+      {
+        "id": 6680360109081,
+        "value": "6198557072"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "back-log"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "67d916b2ba658cc90ea18014"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "WDW740-PNVWX",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "e8b8c947-fd89-4769-bcde-7ee3779ca2b6"
+      },
+      {
+        "id": 6680360109081,
+        "value": "6198557072"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "back-log"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "67d916b2ba658cc90ea18014"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 40870860907033,
+      "type": "Comment",
+      "author_id": 39942383133337,
+      "body": "1. We have USPS connected, but aren't able to pull media mail rates for shipping.\r\n2. We'd like direction on how to force the customer to verify their own shipping address at checkout rather than us manually correcting them when printing labels.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">1. We have USPS connected, but aren't able to pull media mail rates for shipping.\n<br>2. We'd like direction on how to force the customer to verify their own shipping address at checkout rather than us manually correcting them when printing labels.</p></div>",
+      "plain_body": "1. We have USPS connected, but aren't able to pull media mail rates for shipping.\n\n2. We'd like direction on how to force the customer to verify their own shipping address at checkout rather than us manually correcting them when printing labels.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40870860906905,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-06T17:27:42Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.7.1; https://www.pluginhive.com",
+          "ip_address": "159.65.74.253",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3417,
+          "longitude": -121.9753
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40871720311705,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Request #302657 \"Re: Welcome to PluginHive! We’re...\" was closed and merged into this request. Last comment in request #302657:\r\n\r\nThis is a follow-up to your previous request #298593 \"Welcome to PluginHive! We’r...\"\r\n\r\nHello Sibi,\r\n\r\nWe have two questions:\r\n1. We'd like to have USPS media mail as an option, but are having trouble connecting to it.\r\n2. I'd also like some direction for forcing customers to validate their own address when checking out so we don't have to do it manually when printing labels.\r\n\r\n\r\n\r\nThank you,\r\n\r\nGrant",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/302657\" target=\"_blank\" rel=\"ticket\">#302657</a> \"Re: Welcome to PluginHive! We’re...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/302657\" target=\"_blank\" rel=\"ticket\">#302657</a>:</p>\n<p dir=\"auto\">This is a follow-up to your previous request <a href=\"/agent/tickets/298593\" target=\"_blank\" rel=\"ticket\">#298593</a> \"Welcome to PluginHive! We’r...\"</p>\n<p dir=\"auto\">Hello Sibi,</p>\n<p dir=\"auto\">We have two questions:<br>\n1. We'd like to have USPS media mail as an option, but are having trouble connecting to it.<br>\n2. I'd also like some direction for forcing customers to validate their own address when checking out so we don't have to do it manually when printing labels.</p>\n<p dir=\"auto\">Thank you,</p>\n<p dir=\"auto\">Grant</p></div>",
+      "plain_body": "Request #302657 \"Re: Welcome to PluginHive! We’re...\" was closed and merged into this request. Last comment in request #302657: \n This is a follow-up to your previous request #298593 \"Welcome to PluginHive! We’r...\" \n Hello Sibi, \n We have two questions:\n\n1. We'd like to have USPS media mail as an option, but are having trouble connecting to it.\n\n2. I'd also like some direction for forcing customers to validate their own address when checking out so we don't have to do it manually when printing labels. \n Thank you, \n Grant",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40871720311577,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              302657
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2024-12-06T18:53:09Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40871783341337,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Michelle and Grant,\n\nThank you for reaching out with your query.\n\nRegarding the Media mail option not being available, please allow us some time to check this case. We will update you soon.\n\nRegarding address verification on checkout, please note that the plugin will return the rates on checkout based on the address provided.\nAddress verification on checkout is not a functionality of the plugin.\n\nYou can use another plugin which provides this functionality on checkout on your store.\n\nLet us know if you have any queries in the meantime.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Michelle and Grant,<br>&nbsp;<br>Thank you for reaching out with your query.<br>&nbsp;<br>Regarding the Media mail option not being available, please allow us some time to check this case. We will update you soon.<br>&nbsp;<br>Regarding address verification on checkout, please note that the plugin will return the rates on checkout based on the address provided.<br>Address verification on checkout is not a functionality of the plugin.<br>&nbsp;<br>You can use another plugin which provides this functionality on checkout on your store.<br>&nbsp;<br>Let us know if you have any queries in the meantime.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Michelle and Grant,\n&nbsp;\nThank you for reaching out with your query.\n&nbsp;\nRegarding the Media mail option not being available, please allow us some time to check this case. We will update you soon.\n&nbsp;\nRegarding address verification on checkout, please note that the plugin will return the rates on checkout based on the address provided.\nAddress verification on checkout is not a functionality of the plugin.\n&nbsp;\nYou can use another plugin which provides this functionality on checkout on your store.\n&nbsp;\nLet us know if you have any queries in the meantime.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40871783341209,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-06T18:56:58Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "116.73.137.165",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40872206624025,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3:\n\nWSS US Customer using with UPS and USPS.\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1733513915921409\n\nCustomer is looking to show the USPS Media Mail option on checkout using the plugin.\nI have checked and in the automation rules this option is not available but in the rates response XML, the Media Mail option is there.\nPlease check and let me know if I am missing something here.\nFYI a custom box is being used by the customer with which I am seeing Media Mail option on USPS website.\n\nStore Details -\nURL - https://homegrownnationalpark.org\nUUID - e8b8c947-fd89-4769-bcde-7ee3779ca2b6\nUsing the plugin actively with UPS for rates and labels.\nActive From 2024-11-15",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3:<br>&nbsp;<br>WSS US Customer using with UPS and USPS.<br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1733513915921409\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1733513915921409</a><br>&nbsp;<br>Customer is looking to show the USPS Media Mail option on checkout using the plugin.<br>I have checked and in the automation rules this option is not available but in the rates response XML, the Media Mail option is there.<br>Please check and let me know if I am missing something here.<br>FYI a custom box is being used by the customer with which I am seeing Media Mail option on USPS website.<br>&nbsp;<br>Store Details -<br>URL - <a rel=\"noopener noreferrer\" href=\"https://homegrownnationalpark.org/\">https://homegrownnationalpark.org</a><br>UUID - e8b8c947-fd89-4769-bcde-7ee3779ca2b6<br>Using the plugin actively with UPS for rates and labels.<br>Active From 2024-11-15<br></div>",
+      "plain_body": "L3:\n&nbsp;\nWSS US Customer using with UPS and USPS.\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1733513915921409\n&nbsp;\nCustomer is looking to show the USPS Media Mail option on checkout using the plugin.\nI have checked and in the automation rules this option is not available but in the rates response XML, the Media Mail option is there.\nPlease check and let me know if I am missing something here.\nFYI a custom box is being used by the customer with which I am seeing Media Mail option on USPS website.\n&nbsp;\nStore Details -\nURL - https://homegrownnationalpark.org\nUUID - e8b8c947-fd89-4769-bcde-7ee3779ca2b6\nUsing the plugin actively with UPS for rates and labels.\nActive From 2024-11-15",
+      "public": false,
+      "attachments": [],
+      "audit_id": 40872206623897,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-06T19:39:24Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "116.73.137.165",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40872229685529,
+      "type": "Comment",
+      "author_id": 39942383133337,
+      "body": "Thank you. Do you offer a plugin that would force address verification at checkout?\n\n\nThe context is we've only used UPS shipping so far, and about every 3rd order we have to manually accept a different address before we can print a label.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Thank you. Do you offer a plugin that would force address verification at checkout?&nbsp;<div><br></div><div>The context is we've only used UPS shipping so far, and about every 3rd order we have to manually accept a different address before we can print a label.</div></div><br><div></div></div>",
+      "plain_body": "Thank you. Do you offer a plugin that would force address verification at checkout?&nbsp; \n  The context is we've only used UPS shipping so far, and about every 3rd order we have to manually accept a different address before we can print a label.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40872229685401,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "gjensen@homegrownnationalpark.org",
+            "name": "Michelle Alfandari",
+            "original_recipients": [
+              "gjensen@homegrownnationalpark.org",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-06T19:46:28Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABVBCPf8TaNwj-PRhD+1oBF9SoVMd1vMpwc_G1g3wqA89xQKjQ@mail.gmail.com>",
+          "email_id": "01JEER4Q5S816P7M894ZHH1DX4",
+          "raw_email_identifier": "2369120/b3d79b39-cdab-4d03-9e5d-9adb12539e6e.eml",
+          "json_email_identifier": "2369120/b3d79b39-cdab-4d03-9e5d-9adb12539e6e.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 40872489153945,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Michelle Alfandari,\n\nThank you for your response.\n\nI understand your concern.\n\nHowever, we do not have any solution for address verification on checkout.\n\nLet us know if you have any queries in the meantime.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Michelle Alfandari,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>I understand your concern.<br>&nbsp;<br>However, we do not have any solution for address verification on checkout.<br>&nbsp;<br>Let us know if you have any queries in the meantime.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Michelle Alfandari,\n&nbsp;\nThank you for your response.\n&nbsp;\nI understand your concern.\n&nbsp;\nHowever, we do not have any solution for address verification on checkout.\n&nbsp;\nLet us know if you have any queries in the meantime.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40872489153817,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-06T20:12:55Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "116.73.137.165",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40873354246809,
+      "type": "Comment",
+      "author_id": 39942383133337,
+      "body": "OK, thank you.\nWe're trying to print labels for the USPS options that we have available, but we're unsuccessful. The UPS labels are working fine.\n\nI just tried to print a USPS Ground label and received this error:\n\n03d7a45e9f42115b21c910c9e4deb55f4314482c70426d96df17a9b70a375a58 unavailable",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">OK, thank&nbsp;you.<br>We're trying to print labels for the USPS options that we have available, but we're unsuccessful. The UPS labels are working&nbsp;fine.<br><br>I just tried to print a USPS Ground label and received this error:<br><br><span style=\"color: rgb(255,0,0); font-size: 12px; letter-spacing: 0.5px;\">03d7a45e9f42115b21c910c9e4deb55f4314482c70426d96df17a9b70a375a58 unavailable</span></div><br></div>",
+      "plain_body": "OK, thank&nbsp;you.\nWe're trying to print labels for the USPS options that we have available, but we're unsuccessful. The UPS labels are working&nbsp;fine.\n\nI just tried to print a USPS Ground label and received this error:\n\n03d7a45e9f42115b21c910c9e4deb55f4314482c70426d96df17a9b70a375a58 unavailable",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40873354246681,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "gjensen@homegrownnationalpark.org",
+            "name": "Michelle Alfandari",
+            "original_recipients": [
+              "gjensen@homegrownnationalpark.org",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-06T21:53:13Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CABVBCPcuXpBVsh=GXvEqgEN5XktW0Z7BnuwJYC9aPh7mCeeMpg@mail.gmail.com>",
+          "email_id": "01JEEZCS03XHZ5M4JVZRWY5W5J",
+          "raw_email_identifier": "2369120/cd0412c7-e480-4318-bdf2-243256e88cbd.eml",
+          "json_email_identifier": "2369120/cd0412c7-e480-4318-bdf2-243256e88cbd.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 40875549582745,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Michelle,\n\nSorry for the difficulties you faced in generating shipping labels.\n\nPlease allow us some time we check and get back to you with an update.\n\nIn the meantime can you please try to cross check the error once with USPS team? and verify everythign was set correctly at your account level like payment?\n\nDo let us know how it goes.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Michelle,<br>&nbsp;<br>Sorry for the difficulties you faced in generating shipping labels.<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br>&nbsp;<br>In the meantime can you please try to cross check the error once with USPS team? and verify everythign was set correctly at your account level like payment?<br>&nbsp;<br>Do let us know how it goes.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Michelle,\n&nbsp;\nSorry for the difficulties you faced in generating shipping labels.\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n&nbsp;\nIn the meantime can you please try to cross check the error once with USPS team? and verify everythign was set correctly at your account level like payment?\n&nbsp;\nDo let us know how it goes.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40875549582617,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-07T00:22:19Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40875603073945,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Requested input on USPS label failure case and shared details in slack\n\nOrder number 6432 and XML file attached\n\n\n### Request:\n\n    { \"paymentAuthorizationRequest\": { \"roles\": [{ \"roleName\": \"PAYER\", \"CRID\": \"49149924\", \"MID\": \"903756570\", \"manifestMID\": \"903756570\", \"accountType\": \"EPS\", \"accountNumber\": \"1000234129\" }, { \"roleName\": \"LABEL_OWNER\", \"CRID\": \"49149924\", \"MID\": \"903756570\", \"manifestMID\": \"903756570\", \"accountType\": \"EPS\", \"accountNumber\": \"1000234129\" }] }, \"requests\": [{ \"imageInfo\": { \"imageType\": \"PDF\", \"labelType\": \"4X6LABEL\", \"receiptOption\": \"SEPARATE_PAGE\" }, \"toAddress\": { \"streetAddress\": \"27 PLEASANT ST\", \"city\": \"DORCHESTER\", \"state\": \"MA\", \"ZIPCode\": \"02125\", \"firstName\": \"Cynthia\", \"lastName\": \"Bauman\", \"firm\": \"\", \"phone\": \"2019127006\", \"email\": \"baumancynthia@hotmail.com\" }, \"fromAddress\": { \"streetAddress\": \"125 Highland Ave\", \"city\": \"Jersey City\", \"state\": \"NJ\", \"ZIPCode\": \"07306\", \"firstName\": \"Tim\", \"lastName\": \"Snyder\", \"firm\": \"Homegrown National Park\", \"phone\": \"2019127006\", \"email\": \"admin@homegrownnationalpark.org\" }, \"packageDescription\": { \"weightUOM\": \"lb\", \"dimensionsUOM\": \"in\", \"weight\": 3.93, \"length\": 14, \"height\": 1.0625, \"width\": 10.5, \"mailClass\": \"USPS_GROUND_ADVANTAGE\", \"destinationEntryFacilityType\": \"NONE\", \"customerReference\": [ { \"referenceNumber\": \"9432-1\", \"printReferenceNumber\": true }], \"extraServices\": [], \"mailingDate\": \"2024-12-06\", \"shape\": \"RECTANGULAR\", \"packagingType\": \"VARIABLE\", \"processingCategory\": \"MACHINABLE\", \"packageOptions\": { \"packageValue\": 41, \"nonDeliveryOption\": \"RETURN\" } } } ]}\n### Response:\n\n    { \"error\": { \"message\": \"03d7a45e9f42115b21c910c9e4deb55f4314482c70426d96df17a9b70a375a58 unavailable\" }}",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Requested input on USPS label failure case and shared details in slack<br>&nbsp;<br>Order number 6432 and XML file attached<br>&nbsp;<br><h3 style=\"margin-left: 20px;\" dir=\"auto\">Request:</h3><pre><code>{<br>    \"paymentAuthorizationRequest\": {<br>        \"roles\": [<br>            {<br>                \"roleName\": \"PAYER\",<br>                \"CRID\": \"49149924\",<br>                \"MID\": \"903756570\",<br>                \"manifestMID\": \"903756570\",<br>                \"accountType\": \"EPS\",<br>                \"accountNumber\": \"1000234129\"<br>            },<br>            {<br>                \"roleName\": \"LABEL_OWNER\",<br>                \"CRID\": \"49149924\",<br>                \"MID\": \"903756570\",<br>                \"manifestMID\": \"903756570\",<br>                \"accountType\": \"EPS\",<br>                \"accountNumber\": \"1000234129\"<br>            }<br>        ]<br>    },<br>    \"requests\": [<br>        {<br>            \"imageInfo\": {<br>                \"imageType\": \"PDF\",<br>                \"labelType\": \"4X6LABEL\",<br>                \"receiptOption\": \"SEPARATE_PAGE\"<br>            },<br>            \"toAddress\": {<br>                \"streetAddress\": \"27 PLEASANT ST\",<br>                \"city\": \"DORCHESTER\",<br>                \"state\": \"MA\",<br>                \"ZIPCode\": \"02125\",<br>                \"firstName\": \"Cynthia\",<br>                \"lastName\": \"Bauman\",<br>                \"firm\": \"\",<br>                \"phone\": \"2019127006\",<br>                \"email\": \"baumancynthia@hotmail.com\"<br>            },<br>            \"fromAddress\": {<br>                \"streetAddress\": \"125 Highland Ave\",<br>                \"city\": \"Jersey City\",<br>                \"state\": \"NJ\",<br>                \"ZIPCode\": \"07306\",<br>                \"firstName\": \"Tim\",<br>                \"lastName\": \"Snyder\",<br>                \"firm\": \"Homegrown National Park\",<br>                \"phone\": \"2019127006\",<br>                \"email\": \"admin@homegrownnationalpark.org\"<br>            },<br>            \"packageDescription\": {<br>                \"weightUOM\": \"lb\",<br>                \"dimensionsUOM\": \"in\",<br>                \"weight\": 3.93,<br>                \"length\": 14,<br>                \"height\": 1.0625,<br>                \"width\": 10.5,<br>                \"mailClass\": \"USPS_GROUND_ADVANTAGE\",<br>                \"destinationEntryFacilityType\": \"NONE\",<br>                \"customerReference\": [<br>                    {<br>                        \"referenceNumber\": \"9432-1\",<br>                        \"printReferenceNumber\": true<br>                    }<br>                ],<br>                \"extraServices\": [],<br>                \"mailingDate\": \"2024-12-06\",<br>                \"shape\": \"RECTANGULAR\",<br>                \"packagingType\": \"VARIABLE\",<br>                \"processingCategory\": \"MACHINABLE\",<br>                \"packageOptions\": {<br>                    \"packageValue\": 41,<br>                    \"nonDeliveryOption\": \"RETURN\"<br>                }<br>            }<br>        }<br>    ]<br>}</code></pre><h3 style=\"margin-left: 20px;\" dir=\"auto\">Response:</h3><pre><code>{<br>    \"error\": {<br>        \"message\": \"03d7a45e9f42115b21c910c9e4deb55f4314482c70426d96df17a9b70a375a58 unavailable\"<br>    }<br>}</code></pre></div>",
+      "plain_body": "Requested input on USPS label failure case and shared details in slack\n&nbsp;\nOrder number 6432 and XML file attached\n&nbsp;\n Request:  {\n    \"paymentAuthorizationRequest\": {\n        \"roles\": [\n            {\n                \"roleName\": \"PAYER\",\n                \"CRID\": \"49149924\",\n                \"MID\": \"903756570\",\n                \"manifestMID\": \"903756570\",\n                \"accountType\": \"EPS\",\n                \"accountNumber\": \"1000234129\"\n            },\n            {\n                \"roleName\": \"LABEL_OWNER\",\n                \"CRID\": \"49149924\",\n                \"MID\": \"903756570\",\n                \"manifestMID\": \"903756570\",\n                \"accountType\": \"EPS\",\n                \"accountNumber\": \"1000234129\"\n            }\n        ]\n    },\n    \"requests\": [\n        {\n            \"imageInfo\": {\n                \"imageType\": \"PDF\",\n                \"labelType\": \"4X6LABEL\",\n                \"receiptOption\": \"SEPARATE_PAGE\"\n            },\n            \"toAddress\": {\n                \"streetAddress\": \"27 PLEASANT ST\",\n                \"city\": \"DORCHESTER\",\n                \"state\": \"MA\",\n                \"ZIPCode\": \"02125\",\n                \"firstName\": \"Cynthia\",\n                \"lastName\": \"Bauman\",\n                \"firm\": \"\",\n                \"phone\": \"2019127006\",\n                \"email\": \"baumancynthia@hotmail.com\"\n            },\n            \"fromAddress\": {\n                \"streetAddress\": \"125 Highland Ave\",\n                \"city\": \"Jersey City\",\n                \"state\": \"NJ\",\n                \"ZIPCode\": \"07306\",\n                \"firstName\": \"Tim\",\n                \"lastName\": \"Snyder\",\n                \"firm\": \"Homegrown National Park\",\n                \"phone\": \"2019127006\",\n                \"email\": \"admin@homegrownnationalpark.org\"\n            },\n            \"packageDescription\": {\n                \"weightUOM\": \"lb\",\n                \"dimensionsUOM\": \"in\",\n                \"weight\": 3.93,\n                \"length\": 14,\n                \"height\": 1.0625,\n                \"width\": 10.5,\n                \"mailClass\": \"USPS_GROUND_ADVANTAGE\",\n                \"destinationEntryFacilityType\": \"NONE\",\n                \"customerReference\": [\n                    {\n                        \"referenceNumber\": \"9432-1\",\n                        \"printReferenceNumber\": true\n                    }\n                ],\n                \"extraServices\": [],\n                \"mailingDate\": \"2024-12-06\",\n                \"shape\": \"RECTANGULAR\",\n                \"packagingType\": \"VARIABLE\",\n                \"processingCategory\": \"MACHINABLE\",\n                \"packageOptions\": {\n                    \"packageValue\": 41,\n                    \"nonDeliveryOption\": \"RETURN\"\n                }\n            }\n        }\n    ]\n}  Response:  {\n    \"error\": {\n        \"message\": \"03d7a45e9f42115b21c910c9e4deb55f4314482c70426d96df17a9b70a375a58 unavailable\"\n    }\n}",
+      "public": false,
+      "attachments": [],
+      "audit_id": 40875603073817,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-07T00:27:10Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40951514044697,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "I am getting the following error while fetching the payment details. Ask merchant to contact USPS for the same.\n\n{ \"apiVersion\": \"/payments/v3\", \"error\": { \"code\": \"401\", \"message\": \"\", \"errors\": [] } }\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I am getting the following error while fetching the payment details. Ask merchant to contact USPS for the same.<br>&nbsp;<br>{ \"apiVersion\": \"/payments/v3\", \"error\": { \"code\": \"401\", \"message\": \"\", \"errors\": [] } }<br>&nbsp;<br>[Veena]<br>&nbsp;<br></div>",
+      "plain_body": "I am getting the following error while fetching the payment details. Ask merchant to contact USPS for the same.\n&nbsp;\n{ \"apiVersion\": \"/payments/v3\", \"error\": { \"code\": \"401\", \"message\": \"\", \"errors\": [] } }\n&nbsp;\n[Veena]\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 40951514044569,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-09T07:50:31Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+          "ip_address": "106.51.67.57",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 40952593373593,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Michelle Alfandari,\n\nGood Day!\n\nWe have an update for your query. When we are trying to fetch the payment details of the order, we are getting the following error message.\n\nCould you please contact the USPS team and check about this with them? Let us know of the updates.\n\n{ \"apiVersion\": \"/payments/v3\", \"error\": { \"code\": \"401\", \"message\": \"\", \"errors\": [] } }\n\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Michelle Alfandari,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>We have an update for your query. When we are trying to fetch the payment details of the order, we are getting the following error message.&nbsp;<br>&nbsp;<br>Could you please contact the USPS team and check about this with them? Let us know of the updates.<br>&nbsp;<br>{ \"apiVersion\": \"/payments/v3\", \"error\": { \"code\": \"401\", \"message\": \"\", \"errors\": [] } }<br>&nbsp;<br>Thanks and Regards,<br>Sagar K S<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Michelle Alfandari,\n&nbsp;\nGood Day!\n&nbsp;\nWe have an update for your query. When we are trying to fetch the payment details of the order, we are getting the following error message.&nbsp;\n&nbsp;\nCould you please contact the USPS team and check about this with them? Let us know of the updates.\n&nbsp;\n{ \"apiVersion\": \"/payments/v3\", \"error\": { \"code\": \"401\", \"message\": \"\", \"errors\": [] } }\n&nbsp;\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 40952593373465,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-09T08:09:35Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 41138369794969,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "**Manohar V** **Touseef** Please follow up with the customer. Try raising a ticket from our end to USPS if needed.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><a href=\"/users/9977129389337\" class=\"atmention\">Manohar V</a> <a href=\"/users/18854260804761\" class=\"atmention\">Touseef</a> Please follow up with the customer. Try raising a ticket from our end to USPS if needed.<br></div>",
+      "plain_body": "Manohar V Touseef Please follow up with the customer. Try raising a ticket from our end to USPS if needed.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 41138369794841,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-13T09:46:58Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "152.58.242.101",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 41139737232409,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "**Veena** Please check the USPS Media Mail service not being available from the app case.\n\n ![](https://pluginhive.zendesk.com/attachments/token/BAa2j9BSU7MYAVDyBP5xBnBtr/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><a href=\"/users/390739881171\" class=\"atmention\">Veena</a> Please check the USPS Media Mail service not being available from the app case.<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/BAa2j9BSU7MYAVDyBP5xBnBtr/?name=image.png\"></span><br></div>",
+      "plain_body": "Veena Please check the USPS Media Mail service not being available from the app case.\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 41139737232281,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-13T10:24:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 41143921505177,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We are yet to bring in the media Mail services into the app. This option isnt available in the app.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We are yet to bring in the media Mail services into the app. This option isnt available in the app.<br>[Veena]<br></div>",
+      "plain_body": "We are yet to bring in the media Mail services into the app. This option isnt available in the app.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 41143921505049,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-13T12:49:16Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+          "ip_address": "49.37.180.45",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 41144646765721,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Michelle,\n\nHope you are doing well.\n\nI am reaching out to provide you an update on your query about the USPS Media Mail service from the app.\n\nAs of now, the USPS Media Mail service is not available from the app. So, you will not be able to show them on checkout using the app.\n\nWe will work on including this USPS service in the near future in app.\n\nAdditionally, I would like to check if you were able to resolve the payment related issue in your account with the help of USPS team.\n\nAwaiting your response\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Michelle,<br>&nbsp;<br>Hope you are doing well.<br>&nbsp;<br>I am reaching out to provide you an update on your query about the USPS Media Mail service from the app.<br>&nbsp;<br>As of now, the USPS Media Mail service is not available from the app. So, you will not be able to show them on checkout using the app.<br>&nbsp;<br>We will work on including this USPS service in the near future in app.<br>&nbsp;<br>Additionally, I would like to check if you were able to resolve the payment related issue in your account with the help of USPS team.<br>&nbsp;<br>Awaiting your response<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Michelle,\n&nbsp;\nHope you are doing well.\n&nbsp;\nI am reaching out to provide you an update on your query about the USPS Media Mail service from the app.\n&nbsp;\nAs of now, the USPS Media Mail service is not available from the app. So, you will not be able to show them on checkout using the app.\n&nbsp;\nWe will work on including this USPS service in the near future in app.\n&nbsp;\nAdditionally, I would like to check if you were able to resolve the payment related issue in your account with the help of USPS team.\n&nbsp;\nAwaiting your response\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 41144646765593,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-12-13T13:16:03Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "116.73.137.165",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56964799452697,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Planned for 378.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Planned for 378.<br>[Veena]<br></div>",
+      "plain_body": "Planned for 378.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56964799452569,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T13:32:44Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "152.57.117.139",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

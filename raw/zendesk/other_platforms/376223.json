@@ -1,0 +1,2106 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/376223.json",
+    "id": 376223,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "sofie.bitling@gmail.com",
+          "name": "Sofie Bitling"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-02-27T13:49:48Z",
+    "updated_at": "2026-04-29T00:45:07Z",
+    "generated_timestamp": 1777423508,
+    "type": "question",
+    "subject": "Error in US invoices with PostNord",
+    "raw_subject": "Error in US invoices with PostNord",
+    "description": "The amount I pay In custom taxes is based on subtotal and not on Grand\ntotal as it should be.\nPlease help me resolve this issue asap!\n\n\nSo this a case for example:\n\n\n1, Customer with order number 406449 and tracking code LA102174925SE have\npaid 113.96 USD for the products.\n[image: image.png]\n[image: image.png]\n\n\n\n2, I created a label with PostNord in multicarrier app.\n[image: image.png]\n\n\n\n3, I get the invoice from PostNord and notice that the orders looks too\nbig. I found out that multicarrier makes the custom invoice with the\nSubtotal amount instead of the Grand total amount that is the correct\namount to pay custom fees on.\n[image: att.U6WBBGZH3iIK4oKGpKDq7Zu1v-ORwMRpWuzdJEjXMPo.jpeg]\n\n\n\nVänliga hälsningar\nSofie Bitling\nimage.png\nimage.png\natt.U6WBBGZH3iIK4oKGpKDq7Zu1v-ORwMRpWuzdJEjXMPo.jpeg\nimage.png",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 52345988527129,
+    "submitter_id": 52345988527129,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      52514054332313
+    ],
+    "follower_ids": [
+      52514054332313
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "bigcommerce",
+      "bigcommerce_multi_carrier_shipping_label_app",
+      "dev_needed",
+      "high_agent_replies",
+      "last_reply_agent"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "bigcommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "bigcommerce_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "eb5b4aa6-2e50-4429-8171-688c8c2e81d0"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "offered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "44M0JX-4JX7W",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "bigcommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "bigcommerce_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "eb5b4aa6-2e50-4429-8171-688c8c2e81d0"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 55547016959769,
+      "type": "Comment",
+      "author_id": 52345988527129,
+      "body": "The amount I pay In custom taxes is based on subtotal and not on Grand total as it should be.\n\nPlease help me resolve this issue asap!\n\n\n\n\n\nSo this a case for example:\n\n\n\n\n\n1, Customer with order number 406449 and tracking code LA102174925SE have paid 113.96 USD for the products.\n\n ![image.png](https://support.pluginhive.com/attachments/token/PwlJM6jQMHOa4WictaSmDlMSs/?name=image.png)\n\n ![image.png](https://support.pluginhive.com/attachments/token/Zwbz5C3tIVrHNaxkdhkDYS9Lt/?name=image.png)\n\n\n\n\n\n\n\n2, I created a label with PostNord in multicarrier app.\n\n ![image.png](https://support.pluginhive.com/attachments/token/hlg6E2A8qLQEcLuaTqt8jOhiE/?name=image.png)\n\n\n\n\n\n\n\n3, I get the invoice from PostNord and notice that the orders looks too big. I found out that multicarrier makes the custom invoice with the Subtotal amount instead of the Grand total amount that is the correct amount to pay custom fees on.\n\n ![att.U6WBBGZH3iIK4oKGpKDq7Zu1v-ORwMRpWuzdJEjXMPo.jpeg](https://support.pluginhive.com/attachments/token/EwKbpSfRuoV2jeMuqoHDEYmTR/?name=att.U6WBBGZH3iIK4oKGpKDq7Zu1v-ORwMRpWuzdJEjXMPo.jpeg)\n\n\n\n\n\n\nVänliga hälsningar\n\nSofie Bitling",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\"><div>The amount I pay In custom taxes is based on subtotal and not on Grand total as it should be.</div><div>Please help me resolve this issue asap!</div><div><br></div><div><br></div><div>So this a case for example:</div><div><br></div><div><br></div><div>1, Customer with order number&nbsp;<span style=\"background-color: rgba(247,248,250,0.5); color: rgb(52,49,63); font-size: 15px;\">406449</span>&nbsp;and tracking code&nbsp;<span style=\"color: rgb(0,0,0); font-size: 16px;\">LA102174925SE</span>&nbsp;have paid 113.96 USD for the products.</div><div><img src=\"https://support.pluginhive.com/attachments/token/PwlJM6jQMHOa4WictaSmDlMSs/?name=image.png\" alt=\"image.png\" width=\"1056\" height=\"46\" style=\"margin-right: 0px;\"><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/Zwbz5C3tIVrHNaxkdhkDYS9Lt/?name=image.png\" alt=\"image.png\" width=\"370\" height=\"152\" style=\"margin-right: 0px;\"><br></div><div><br></div><div><br></div><div><br></div><div>2, I created a label&nbsp;with PostNord in multicarrier app.</div><div><img src=\"https://support.pluginhive.com/attachments/token/hlg6E2A8qLQEcLuaTqt8jOhiE/?name=image.png\" alt=\"image.png\" width=\"1061\" height=\"74\" style=\"margin-right: 0px;\"><br></div><div><br></div><div><br></div><div><br></div><div>3, I get the invoice from PostNord and notice that the orders looks too big. I found out that multicarrier makes the custom invoice with the Subtotal amount instead of the Grand total amount that is the correct amount to pay custom fees on.</div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><img src=\"https://support.pluginhive.com/attachments/token/EwKbpSfRuoV2jeMuqoHDEYmTR/?name=att.U6WBBGZH3iIK4oKGpKDq7Zu1v-ORwMRpWuzdJEjXMPo.jpeg\" alt=\"att.U6WBBGZH3iIK4oKGpKDq7Zu1v-ORwMRpWuzdJEjXMPo.jpeg\" width=\"630\" height=\"1121\" style=\"margin-right: 0px;\"></div><div dir=\"ltr\"><br></div><div dir=\"ltr\"><br></div><div><br>Vänliga hälsningar</div><div dir=\"ltr\">Sofie Bitling<br></div></div></div></div></div>\n</div></div>",
+      "plain_body": "The amount I pay In custom taxes is based on subtotal and not on Grand total as it should be.  Please help me resolve this issue asap!  \n  \n  So this a case for example:  \n  \n  1, Customer with order number&nbsp;406449&nbsp;and tracking code&nbsp;LA102174925SE&nbsp;have paid 113.96 USD for the products.  \n  \n  \n  \n  \n  2, I created a label&nbsp;with PostNord in multicarrier app.  \n  \n  \n  \n  3, I get the invoice from PostNord and notice that the orders looks too big. I found out that multicarrier makes the custom invoice with the Subtotal amount instead of the Grand total amount that is the correct amount to pay custom fees on.       \n  \n  \nVänliga hälsningar  Sofie Bitling",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55547016959641,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sofie.bitling@gmail.com",
+            "name": "Sofie Bitling",
+            "original_recipients": [
+              "sofie.bitling@gmail.com",
+              "support@pluginhive.com",
+              "joakim.bitling@gmail.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-27T13:49:48Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAHY0LCqbAMb3MPhOa=KpFi2nNMdGVJKK+gMGnsB9KW=Br+CORQ@mail.gmail.com>",
+          "email_id": "01KJFNSGH16D0N9G4N7RT0Q1DY",
+          "raw_email_identifier": "2369120/f80e1886-984a-4e52-8081-b2cbe87e3024.eml",
+          "json_email_identifier": "2369120/f80e1886-984a-4e52-8081-b2cbe87e3024.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55547261001113,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Sweden store\nPostNord added\nOrder count NA\n413 labels in Feb\nActive from Dec 2025 and $49 plan selected",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Sweden store<br>PostNord added<br>Order count NA<br>413 labels in Feb<br>Active from Dec 2025 and $49 plan selected<br></div>",
+      "plain_body": "Sweden store\nPostNord added\nOrder count NA\n413 labels in Feb\nActive from Dec 2025 and $49 plan selected",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55547261000985,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-27T14:02:16Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55547342145177,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Unable to access the plugin from the back end - not opening store details\n\nneed to check the order line item price and price in app '\n\nWhy discounted price i.e grand total is not being considered?",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Unable to access the plugin from the back end - not opening store details<br>&nbsp;<br>need to check the order line item price and price in app '<br>&nbsp;<br>Why discounted price i.e grand total is not being considered?<br></div>",
+      "plain_body": "Unable to access the plugin from the back end - not opening store details\n&nbsp;\nneed to check the order line item price and price in app '\n&nbsp;\nWhy discounted price i.e grand total is not being considered?",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55547281729433,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-27T14:04:24Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55547521500185,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Sofie Bitling,\n\nWe would like to review this case in detail to better understand the situation.\n\nTo proceed, could you please provide temporary store access along with the login URL? This will allow us to check how the product prices are reflected in the orders and within the app’s packaging settings. We will also review the general configuration to identify what might be causing this behavior.\n\nThis will help us analyze the setup thoroughly and guide you with the required adjustments.\n\nLooking forward to your response.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sofie Bitling,<br>&nbsp;<br>We would like to review this case in detail to better understand the situation.<br>&nbsp;<br>To proceed, could you please provide temporary store access along with the login URL? This will allow us to check how the product prices are reflected in the orders and within the app’s packaging settings. We will also review the general configuration to identify what might be causing this behavior.<br>&nbsp;<br>This will help us analyze the setup thoroughly and guide you with the required adjustments.<br>&nbsp;<br>Looking forward to your response.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sofie Bitling,\n&nbsp;\nWe would like to review this case in detail to better understand the situation.\n&nbsp;\nTo proceed, could you please provide temporary store access along with the login URL? This will allow us to check how the product prices are reflected in the orders and within the app’s packaging settings. We will also review the general configuration to identify what might be causing this behavior.\n&nbsp;\nThis will help us analyze the setup thoroughly and guide you with the required adjustments.\n&nbsp;\nLooking forward to your response.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55547521500057,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-27T14:13:56Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55621772693017,
+      "type": "Comment",
+      "author_id": 52345988527129,
+      "body": "I have made an user account with email: support@pluginhive.com\n\nRL for logging in is the following, and store name is \"CNS Watch Bands\"\nhttps://login.bigcommerce.com/\n\n\n\n\n\nVänliga hälsningar\n\nSofie Bitling",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>I have made an user account with email: <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a><br><br>RL for logging in is the following, and store name is \"CNS Watch Bands\"<br><a href=\"https://login.bigcommerce.com/\" rel=\"noreferrer\">https://login.bigcommerce.com/</a></div><div><br></div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div dir=\"ltr\"><div>Vänliga hälsningar</div><div>Sofie Bitling</div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "I have made an user account with email: support@pluginhive.com\n\nRL for logging in is the following, and store name is \"CNS Watch Bands\"\nhttps://login.bigcommerce.com/  \n  \n       Vänliga hälsningar  Sofie Bitling",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55621772692889,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sofie.bitling@gmail.com",
+            "name": "Sofie Bitling",
+            "original_recipients": [
+              "sofie.bitling@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-02T10:08:59Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAHY0LCo44de8wOXhuyaoXz4y-rn7x=vL=d4OYQ7J-u330r1WcA@mail.gmail.com>",
+          "email_id": "01KJQ0BF9QZF14M9F1ARKE0FBA",
+          "raw_email_identifier": "2369120/e11c9cbc-25e2-42c6-abd2-cfdaf513acf8.eml",
+          "json_email_identifier": "2369120/e11c9cbc-25e2-42c6-abd2-cfdaf513acf8.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55622480631705,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Request #376592 \"You have been added to a BigComm...\" was closed and merged into this request. Last comment in request #376592:\r\n\r\n ![BigCommerce Logo](https://cdn.bigcommerce.com/login/assets/bc-logo-black-275b7bec588a5ff3829117c8b89a7b9460b588d527dcc9fced7d3c7665f3f479.png \"BigCommerce logo\")\r\n\r\nStore Access\r\n\r\nHello,\r\n\r\nYou have been granted access to the BigCommerce store CNS Watch Bands. Please log in using your existing BigCommerce account to access it.\r\n\r\nLog in\r\n\r\nForgot your password? You can reset your password if needed.\r\n\r\nThanks!\r\n The BigCommerce team\r\n\r\n ![BigCommerce Logo](https://cdn.bigcommerce.com/login/assets/bc-logo-small-white-b85f7542764417eb4eb88b5e23019dc5917638d02fae9741b53028e65affafbe.png \"BigCommerce logo\") Facebook Twitter",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/376592\" target=\"_blank\" rel=\"ticket\">#376592</a> \"You have been added to a BigComm...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/376592\" target=\"_blank\" rel=\"ticket\">#376592</a>:</p>\n<p dir=\"auto\"><img src=\"https://cdn.bigcommerce.com/login/assets/bc-logo-black-275b7bec588a5ff3829117c8b89a7b9460b588d527dcc9fced7d3c7665f3f479.png\" alt=\"BigCommerce Logo\"></p>\n<p dir=\"auto\">Store Access</p>\n<p dir=\"auto\">Hello,</p>\n<p dir=\"auto\">You have been granted access to the BigCommerce store CNS Watch Bands. Please log in using your existing BigCommerce account to access it.</p>\n<p dir=\"auto\">Log in</p>\n<p dir=\"auto\">Forgot your password? You can reset your password if needed.</p>\n<p dir=\"auto\">Thanks!<br>\n The BigCommerce team</p>\n<p dir=\"auto\"><img src=\"https://cdn.bigcommerce.com/login/assets/bc-logo-small-white-b85f7542764417eb4eb88b5e23019dc5917638d02fae9741b53028e65affafbe.png\" alt=\"BigCommerce Logo\"> Facebook Twitter</p></div>",
+      "plain_body": "Request #376592 \"You have been added to a BigComm...\" was closed and merged into this request. Last comment in request #376592: \n  \n Store Access \n Hello, \n You have been granted access to the BigCommerce store CNS Watch Bands. Please log in using your existing BigCommerce account to access it. \n Log in \n Forgot your password? You can reset your password if needed. \n Thanks!\n\n The BigCommerce team \n  Facebook Twitter",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55622480631577,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              376592
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-03-02T10:33:31Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55625635536921,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Sofie,\n\nThank you for providing the access.\n\nHowever, I could observe that the order is selected with the price of $113.96 and also it is in processing status.\n\nCould you please try generating the label for the above order and share the screenshot of the invoice so we can check from our end?\n\nLooking forward to hearing from you.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sofie,<br>&nbsp;<br>Thank you for providing the access.<br>&nbsp;<br>However, I could observe that the order is selected with the price of $113.96 and also it is in processing status.<br>&nbsp;<br>Could you please try generating the label for the above order and share the screenshot of the invoice so we can check from our end?<br>&nbsp;<br>Looking forward to hearing from you.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sofie,\n&nbsp;\nThank you for providing the access.\n&nbsp;\nHowever, I could observe that the order is selected with the price of $113.96 and also it is in processing status.\n&nbsp;\nCould you please try generating the label for the above order and share the screenshot of the invoice so we can check from our end?\n&nbsp;\nLooking forward to hearing from you.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55625635536793,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-02T12:37:46Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55626629437977,
+      "type": "Comment",
+      "author_id": 52345988527129,
+      "body": "I can not generate that lable again, I guess I didn't had a subscription around that date, please see:\n\n ![image.png](https://support.pluginhive.com/attachments/token/qaZ4ExUnIqJNUd7ErJwnmYnxT/?name=image.png)\n\n\n\n\n\n\n\nIf we take another example of an more recent order 409569, I attached the documents and labels created by multi shipper:\n\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/8FLSsx7ymss98GDPaE77OYDwJ/?name=image.png)\n\n ![image.png](https://support.pluginhive.com/attachments/token/dKleRno70qc2Jqzpg1d3CxiGu/?name=image.png)\n\n\n\n\n\nVänliga hälsningar\n\nSofie Bitling",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>I can not generate that lable again, I guess I didn't&nbsp;had a subscription around that date, please see:</div><div><img src=\"https://support.pluginhive.com/attachments/token/qaZ4ExUnIqJNUd7ErJwnmYnxT/?name=image.png\" alt=\"image.png\" width=\"979\" height=\"548\" style=\"margin-right: 0px;\"><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div><br></div><div><br></div><div><br></div><div>If we take another example of an more recent order 409569, I attached&nbsp;the documents and labels&nbsp;created by multi shipper:</div><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/8FLSsx7ymss98GDPaE77OYDwJ/?name=image.png\" alt=\"image.png\" width=\"973\" height=\"45\" style=\"margin-right: 0px;\"><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/dKleRno70qc2Jqzpg1d3CxiGu/?name=image.png\" alt=\"image.png\" width=\"415\" height=\"632\" style=\"margin-right: 0px;\"><br></div><div><br></div><div><br></div><div>Vänliga hälsningar</div><div>Sofie Bitling<br></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "I can not generate that lable again, I guess I didn't&nbsp;had a subscription around that date, please see:  \n      \n  \n  \n  If we take another example of an more recent order 409569, I attached&nbsp;the documents and labels&nbsp;created by multi shipper:  \n  \n  \n  \n  \n  Vänliga hälsningar  Sofie Bitling",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55626663345689.json",
+          "id": 55626663345689,
+          "file_name": "Bobby Chen 409569.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/ZQFSOJggmQlmf6ObJ59Hmq9JS/?name=Bobby+Chen+409569.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/ZQFSOJggmQlmf6ObJ59Hmq9JS/?name=Bobby+Chen+409569.pdf",
+          "content_type": "application/pdf",
+          "size": 43188,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 55626629437849,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sofie.bitling@gmail.com",
+            "name": "Sofie Bitling",
+            "original_recipients": [
+              "sofie.bitling@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-02T13:26:39Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAHY0LCpOw2pLrE98ydOC_pUfz+9GrBBt5NhGpeBEkdjSKBD+pA@mail.gmail.com>",
+          "email_id": "01KJQBN816WBRE4HFQJ1Y8G31Z",
+          "raw_email_identifier": "2369120/2d6503bf-4425-4e9c-be8e-3a05aca9c820.eml",
+          "json_email_identifier": "2369120/2d6503bf-4425-4e9c-be8e-3a05aca9c820.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55629475407513,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Request #376614 \"Re: [PluginHive] Re: Ship to the...\" was closed and merged into this request. Last comment in request #376614:\r\n\r\nThis is a screan recording of how it looks like when I clock on \"Manage subscription on the app\".\r\n ![](https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png) CNS Watch Bands BigCommerce Control Panel - Google Chrome 2026-03-02 14-41-39.mp4\r\n\r\n\r\n\r\nVänliga hälsningar\r\n\r\nSofie Bitling",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/376614\" target=\"_blank\" rel=\"ticket\">#376614</a> \"Re: [PluginHive] Re: Ship to the...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/376614\" target=\"_blank\" rel=\"ticket\">#376614</a>:</p>\n<p dir=\"auto\">This is a screan recording of how it looks like when I clock on \"Manage subscription on the app\".<br>\n <img src=\"https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png\" alt=\"\"> CNS Watch Bands BigCommerce Control Panel - Google Chrome 2026-03-02 14-41-39.mp4</p>\n<p dir=\"auto\">Vänliga hälsningar</p>\n<p dir=\"auto\">Sofie Bitling</p></div>",
+      "plain_body": "Request #376614 \"Re: [PluginHive] Re: Ship to the...\" was closed and merged into this request. Last comment in request #376614: \n This is a screan recording of how it looks like when I clock on \"Manage subscription on the app\".\n\n  CNS Watch Bands BigCommerce Control Panel - Google Chrome 2026-03-02 14-41-39.mp4 \n Vänliga hälsningar \n Sofie Bitling",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55629490292249,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              376614
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-03-02T16:16:15Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55630358190489,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Customer has 2 concerns:\n-Customer states the custom prices are different on postnord and through our app\nI tried checking customer's ac from backend however it's not opening\n-Customer is unable to subscribe to the plan\nmail sent with AL",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer has 2 concerns:&nbsp;<br>-Customer states the custom prices are different on postnord and through our app&nbsp;<br>I tried checking customer's ac from backend however it's not opening&nbsp;<br>-Customer is unable to subscribe to the plan&nbsp;<br>mail sent with AL&nbsp;<br></div>",
+      "plain_body": "Customer has 2 concerns:&nbsp;\n-Customer states the custom prices are different on postnord and through our app&nbsp;\nI tried checking customer's ac from backend however it's not opening&nbsp;\n-Customer is unable to subscribe to the plan&nbsp;\nmail sent with AL&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55630358190361,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-02T17:24:27Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.162.137",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55630389840537,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Sofie,\n\nThank you for sharing the details regarding your concerns with PostNord custom prices and the subscription plan.\n\nTo assist you effectively, we would like to review both points together over a call. Could you please book a session at your convenience using the link below? During the call, we can troubleshoot the backend access and guide you through the subscription setup.\n[Book a call]\n\nLooking forward to your response.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Sofie,<br>&nbsp;<br>Thank you for sharing the details regarding your concerns with PostNord custom prices and the subscription plan.<br>&nbsp;<br>To assist you effectively, we would like to review both points together over a call. Could you please book a session at your convenience using the link below? During the call, we can troubleshoot the backend access and guide you through the subscription setup.<br>[<a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=eb5b4aa6-2e50-4429-8171-688c8c2e81d0&amp;email=sofie.bitling@gmail.com&amp;ticket=376223&amp;key=1772472429007\">Book a call</a>]<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Sofie,\n&nbsp;\nThank you for sharing the details regarding your concerns with PostNord custom prices and the subscription plan.\n&nbsp;\nTo assist you effectively, we would like to review both points together over a call. Could you please book a session at your convenience using the link below? During the call, we can troubleshoot the backend access and guide you through the subscription setup.\n[Book a call]\n&nbsp;\nLooking forward to your response.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55630389840409,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-02T17:27:32Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.162.137",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55733129830809,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: Sofie Bitling\nEmail: sofie.bitling@gmail.com\nPhone Number: 0768792994\nStore URL: eb5b4aa6-2e50-4429-8171-688c8c2e81d0\nDate & Time: March 6, 2026 11:30 am (Europe/Stockholm +01:00)\n\nPluginHive Date & Time: March 6, 2026 4:00 pm",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Appointment Scheduled with PluginHive Support</p>\n<p dir=\"auto\">Customer Details:<br>\nName: Sofie Bitling<br>\nEmail: <a href=\"mailto:sofie.bitling@gmail.com\" rel=\"noreferrer\">sofie.bitling@gmail.com</a><br>\nPhone Number: 0768792994<br>\nStore URL: eb5b4aa6-2e50-4429-8171-688c8c2e81d0<br>\nDate &amp; Time: March 6, 2026 11:30 am (Europe/Stockholm +01:00)</p>\n<p dir=\"auto\">PluginHive Date &amp; Time: March 6, 2026 4:00 pm</p></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support \n Customer Details:\n\nName: Sofie Bitling\n\nEmail: sofie.bitling@gmail.com\n\nPhone Number: 0768792994\n\nStore URL: eb5b4aa6-2e50-4429-8171-688c8c2e81d0\n\nDate &amp; Time: March 6, 2026 11:30 am (Europe/Stockholm +01:00) \n PluginHive Date &amp; Time: March 6, 2026 4:00 pm",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55733129830681,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-05T14:24:29Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.9.1; https://appointments.pluginhive.com",
+          "ip_address": "159.89.131.157",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55762893272217,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Sofie,\n\nI am Priyanka from PluginHive, and we have a meeting scheduled at 11:30 am (Europe/Stockholm +01:00) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n\nMeeting Link:\n\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/76071561787?pwd=UMmGhozVs66JhmvrF1zU1ubdyj9tQF.1\n\nMeeting ID: 760 7156 1787\nPasscode: cwg2mK\n\nNOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.\n\nPrerequisites:\nEnsure that your system has a working microphone.\nPermissions to share the screen\n\nRegards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sofie,<br><br>I am Priyanka from PluginHive, and we have a meeting scheduled at 11:30 am (Europe/Stockholm +01:00) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.<br><br>Meeting Link:<br><br>Join Zoom Meeting<br><a rel=\"noopener noreferrer\" href=\"https://us04web.zoom.us/j/76071561787?pwd=UMmGhozVs66JhmvrF1zU1ubdyj9tQF.1\">https://us04web.zoom.us/j/76071561787?pwd=UMmGhozVs66JhmvrF1zU1ubdyj9tQF.1</a><br>&nbsp;<br>Meeting ID: 760 7156 1787<br>Passcode: cwg2mK<br><br>NOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.<br><br>Prerequisites:<br>Ensure that your system has a working microphone.<br>Permissions to share the screen<br><br>Regards,<br>Priyanka<br>Team PluginHive<br>&nbsp;<br></div>",
+      "plain_body": "Hello Sofie,\n\nI am Priyanka from PluginHive, and we have a meeting scheduled at 11:30 am (Europe/Stockholm +01:00) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n\nMeeting Link:\n\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/76071561787?pwd=UMmGhozVs66JhmvrF1zU1ubdyj9tQF.1\n&nbsp;\nMeeting ID: 760 7156 1787\nPasscode: cwg2mK\n\nNOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.\n\nPrerequisites:\nEnsure that your system has a working microphone.\nPermissions to share the screen\n\nRegards,\nPriyanka\nTeam PluginHive\n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55762922500889,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T10:23:04Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55763120598681,
+      "type": "Comment",
+      "author_id": 52345988527129,
+      "body": "I am online.\n\n\n\nVänliga hälsningar\n\nSofie Bitling",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>I am online.&nbsp;</div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div dir=\"ltr\"><div><br></div><div>Vänliga hälsningar</div><div>Sofie Bitling</div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "I am online.&nbsp;       \n  Vänliga hälsningar  Sofie Bitling",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55763120598553,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sofie.bitling@gmail.com",
+            "name": "Sofie Bitling",
+            "original_recipients": [
+              "sofie.bitling@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T10:32:10Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAHY0LCr+GZsV0_kpOu6DTuv8dSjGeSAiK_KMHQ12FtL9NKvJ7w@mail.gmail.com>",
+          "email_id": "01KK1B8SGHH5XH2JQP05VG2VJ6",
+          "raw_email_identifier": "2369120/77aadabe-40fd-4db7-9cf7-695ea4ff8707.eml",
+          "json_email_identifier": "2369120/77aadabe-40fd-4db7-9cf7-695ea4ff8707.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55763225650073,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+61343283339",
+        "to": "+46768792994",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA271809dd97187cae944b9c17b647b0ed/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 55763160519577,
+        "call_duration": 36,
+        "answered_by_id": 44512844768153,
+        "started_at": "2026-03-06T10:33:37Z",
+        "location": "",
+        "author_id": 44512844768153,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Priyanka Mukhia",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+61 3 4328 3339",
+      "formatted_to": "+46 76 879 29 94",
+      "transcription_visible": false,
+      "author_id": 44512844768153,
+      "body": "Outbound call to +46 76 879 29 94\nCall Details:\n\nCall from: +61 3 4328 3339\nCall to: +46 76 879 29 94\nTime of call: 2026-03-06 10:33:37 UTC\nCalled by: Priyanka Mukhia\nLength of phone call: 36 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA271809dd97187cae944b9c17b647b0ed/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +46 76 879 29 94<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +61 3 4328 3339<br>\nCall to: +46 76 879 29 94<br>\nTime of call: 2026-03-06 10:33:37 UTC<br>\nCalled by: Priyanka Mukhia<br>\nLength of phone call: 36 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA271809dd97187cae944b9c17b647b0ed/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA271809dd97187cae944b9c17b647b0ed/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-03-06T10:34:14Z",
+      "audit_id": 55763225649177,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+61 3 4328 3339",
+            "phone": "+61343283339",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+46 76 879 29 94",
+            "phone": "+46768792994",
+            "name": "+46 76 879 29 94"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55764334163097,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Sofie,\n\nThank you for your time over the call.\n\nPlease allow me some time to check and update you,\n\nRegards,\nPriyanka M\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Sofie,&nbsp;<br>&nbsp;<br>Thank you for your time over the call.&nbsp;<br>&nbsp;<br>Please allow me some time to check and update you,<br>&nbsp;<br>Regards,<br>Priyanka M<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Sofie,&nbsp;\n&nbsp;\nThank you for your time over the call.&nbsp;\n&nbsp;\nPlease allow me some time to check and update you,\n&nbsp;\nRegards,\nPriyanka M\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55764334162969,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T11:15:30Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55765043404185,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Call summary: Customer has 2 queries :\n\n1. Customer is unable to subscribe for plans , It's showing a blank page .  (Raising l3 for this)\n2. Customer mentioned that for orders shipped from Sweden to the US, when a discount is applied, the value printed on the CN22 customs form shows the total product value without the discount applied. For example, in Order No. 409569, the amount displayed reflects the full price instead of the discounted price. The customer expects the discounted value to be shown so that customs duties are calculated based on the actual amount paid.\n\nRecording: https://drive.google.com/drive/folders/1O66Db_zhVTPKO-WaNfidAHml8rE8Q5_c?usp=sharing",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Call summary: Customer has 2 queries :&nbsp;<br><ol dir=\"auto\"><li>Customer is unable to subscribe for plans , It's showing a blank page . &nbsp;(Raising l3 for this)</li><li>Customer mentioned that for orders shipped from Sweden to the US, when a discount is applied, the value printed on the CN22 customs form shows the total product value without the discount applied. For example, in Order No. 409569, the amount displayed reflects the full price instead of the discounted price. The customer expects the discounted value to be shown so that customs duties are calculated based on the actual amount paid.</li></ol>&nbsp;<br>Recording: <a rel=\"noopener noreferrer\" href=\"https://drive.google.com/drive/folders/1O66Db_zhVTPKO-WaNfidAHml8rE8Q5_c?usp=sharing\">https://drive.google.com/drive/folders/1O66Db_zhVTPKO-WaNfidAHml8rE8Q5_c?usp=sharing</a><br>&nbsp;<br></div>",
+      "plain_body": "Call summary: Customer has 2 queries :&nbsp;\n  Customer is unable to subscribe for plans , It's showing a blank page . &nbsp;(Raising l3 for this)  Customer mentioned that for orders shipped from Sweden to the US, when a discount is applied, the value printed on the CN22 customs form shows the total product value without the discount applied. For example, in Order No. 409569, the amount displayed reflects the full price instead of the discounted price. The customer expects the discounted value to be shown so that customs duties are calculated based on the actual amount paid.  &nbsp;\nRecording: https://drive.google.com/drive/folders/1O66Db_zhVTPKO-WaNfidAHml8rE8Q5_c?usp=sharing\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55765043403673,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T11:44:04Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55765568175385,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+441544300877",
+        "to": "+46768792994",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA3fa45b86b5c07234aa06de0cd251ed00/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 55765576325529,
+        "call_duration": 60,
+        "answered_by_id": 44512844768153,
+        "started_at": "2026-03-06T12:06:02Z",
+        "location": "",
+        "author_id": 44512844768153,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Priyanka Mukhia",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+44 1544 300877",
+      "formatted_to": "+46 76 879 29 94",
+      "transcription_visible": false,
+      "author_id": 44512844768153,
+      "body": "Outbound call to +46 76 879 29 94\nCall Details:\n\nCall from: +44 1544 300877\nCall to: +46 76 879 29 94\nTime of call: 2026-03-06 12:06:02 UTC\nCalled by: Priyanka Mukhia\nLength of phone call: 1 minute\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA3fa45b86b5c07234aa06de0cd251ed00/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +46 76 879 29 94<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +44 1544 300877<br>\nCall to: +46 76 879 29 94<br>\nTime of call: 2026-03-06 12:06:02 UTC<br>\nCalled by: Priyanka Mukhia<br>\nLength of phone call: 1 minute<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA3fa45b86b5c07234aa06de0cd251ed00/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA3fa45b86b5c07234aa06de0cd251ed00/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-03-06T12:07:03Z",
+      "audit_id": 55765592653977,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+44 1544 300877",
+            "phone": "+441544300877",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+46 76 879 29 94",
+            "phone": "+46768792994",
+            "name": "+46 76 879 29 94"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55765668757401,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Need to raise L3 once we get confirmation from customer on:\n\nShe needs to try and pay from different browser (chrome / safari) Once the payment is resolved, we need to ask her test order for us to check. We have the backend access.\n\n\nQuery 1: Customer has contacted us again stating that she is unable to subscribe to the plans, as it is displaying a blank page. The subscription ended on Feb 20 2026, they have not been able to renew. The payment subscription ID page is blank. Customer was on $49 monthly plan\n\n\nQuery 2: Customer mentioned that for orders shipped from Sweden to the US, when a discount is applied, the value printed on the CN22 customs form shows the total product value without the discount applied. For example, in Order No. 409569, the amount displayed reflects the full price instead of the discounted price. The customer expects the discounted value to be shown so that customs duties are calculated based on the actual amount paid.\n\nThe subtotal $58.75 and Grand total is $47 with discount applied, However the subtotal is printed on the form. Screenshots are attached.\n\n\nURL - https://store-e639qazpfv.mybigcommerce.com\nAccount ID - eb5b4aa6-2e50-4429-8171-688c8c2e81d0\n\nCredentials :\nemail: support@pluginhive.com\nRL for logging in is the following, and store name is \"CNS Watch Bands\"\nhttps://login.bigcommerce.com/",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need to raise L3 once we get confirmation from customer on:&nbsp;<br>&nbsp;<br>She needs to try and pay from different browser (chrome / safari) Once the payment is resolved, we need to ask her test order for us to check. We have the backend access.&nbsp;<br>&nbsp;<br>&nbsp;<br>Query 1: Customer has contacted us again stating that she is unable to subscribe to the plans, as it is displaying a blank page. The subscription ended on Feb 20 2026, they have not been able to renew. The payment subscription ID page is blank. Customer was on $49 monthly plan<br>&nbsp;<br>&nbsp;<br>Query 2: Customer mentioned that for orders shipped from Sweden to the US, when a discount is applied, the value printed on the CN22 customs form shows the total product value without the discount applied. For example, in Order No. 409569, the amount displayed reflects the full price instead of the discounted price. The customer expects the discounted value to be shown so that customs duties are calculated based on the actual amount paid.<br>&nbsp;<br>The subtotal $58.75 and Grand total is $47 with discount applied, However the subtotal is printed on the form. Screenshots are attached.<br>&nbsp;<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"https://store-e639qazpfv.mybigcommerce.com\">https://store-e639qazpfv.mybigcommerce.com</a><br>Account ID - eb5b4aa6-2e50-4429-8171-688c8c2e81d0&nbsp;<br>&nbsp;<br>Credentials :&nbsp;<br>email: <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a><br>RL for logging in is the following, and store name is \"CNS Watch Bands\"<br><a rel=\"noopener noreferrer\" href=\"https://login.bigcommerce.com/\">https://login.bigcommerce.com/</a><br></div>",
+      "plain_body": "Need to raise L3 once we get confirmation from customer on:&nbsp;\n&nbsp;\nShe needs to try and pay from different browser (chrome / safari) Once the payment is resolved, we need to ask her test order for us to check. We have the backend access.&nbsp;\n&nbsp;\n&nbsp;\nQuery 1: Customer has contacted us again stating that she is unable to subscribe to the plans, as it is displaying a blank page. The subscription ended on Feb 20 2026, they have not been able to renew. The payment subscription ID page is blank. Customer was on $49 monthly plan\n&nbsp;\n&nbsp;\nQuery 2: Customer mentioned that for orders shipped from Sweden to the US, when a discount is applied, the value printed on the CN22 customs form shows the total product value without the discount applied. For example, in Order No. 409569, the amount displayed reflects the full price instead of the discounted price. The customer expects the discounted value to be shown so that customs duties are calculated based on the actual amount paid.\n&nbsp;\nThe subtotal $58.75 and Grand total is $47 with discount applied, However the subtotal is printed on the form. Screenshots are attached.\n&nbsp;\n&nbsp;\nURL - https://store-e639qazpfv.mybigcommerce.com\nAccount ID - eb5b4aa6-2e50-4429-8171-688c8c2e81d0&nbsp;\n&nbsp;\nCredentials :&nbsp;\nemail: support@pluginhive.com\nRL for logging in is the following, and store name is \"CNS Watch Bands\"\nhttps://login.bigcommerce.com/",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55765701856153,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T12:11:08Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55765728545689,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Sofie,\n\nI tried reaching you at +46 76 879 29 94, but the call was not answered. So I’m following up via email instead.\n\nRegarding the difficulty in subscribing, could you please try subscribing using both Safari and Google Chrome browsers? Sometimes the blank page may appear due to browser-related concerns.\n\nIf the problem persists, kindly share a screenshot of the page you see so we can check this further from our end.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Sofie,<br>&nbsp;<br>I tried reaching you at +46 76 879 29 94, but the call was not answered. So I’m following up via email instead.<br>&nbsp;<br>Regarding the difficulty in subscribing, could you please try subscribing using both Safari and Google Chrome browsers? Sometimes the blank page may appear due to browser-related concerns.<br>&nbsp;<br>If the problem persists, kindly share a screenshot of the page you see so we can check this further from our end.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br>&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "Hi Sofie,\n&nbsp;\nI tried reaching you at +46 76 879 29 94, but the call was not answered. So I’m following up via email instead.\n&nbsp;\nRegarding the difficulty in subscribing, could you please try subscribing using both Safari and Google Chrome browsers? Sometimes the blank page may appear due to browser-related concerns.\n&nbsp;\nIf the problem persists, kindly share a screenshot of the page you see so we can check this further from our end.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive\n&nbsp;\n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55765744686873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T12:13:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55765751595545,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Keeping it open as its payment related",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Keeping it open as its payment related<br></div>",
+      "plain_body": "Keeping it open as its payment related",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55765751595417,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T12:13:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55770882668825,
+      "type": "Comment",
+      "author_id": 52345988527129,
+      "body": "I dont have safari, but when I shared my screan with you I used Google Chrome, and now I tried with google explorer and it did not work:\n\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/i8CpW0zz6OElJRSaAJgDmVwsl/?name=image.png)\n\n\n\nVänliga hälsningar\n\nSofie Bitling",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>I dont have safari, but when I shared my screan&nbsp;with you I used Google Chrome, and now I tried with google explorer and it did not work:</div><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/i8CpW0zz6OElJRSaAJgDmVwsl/?name=image.png\" alt=\"image.png\" width=\"986\" height=\"581\" style=\"margin-right: 0px;\"><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div dir=\"ltr\"><div><br></div><div>Vänliga hälsningar</div><div>Sofie Bitling</div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "I dont have safari, but when I shared my screan&nbsp;with you I used Google Chrome, and now I tried with google explorer and it did not work:  \n  \n       \n  Vänliga hälsningar  Sofie Bitling",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55770882668697,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sofie.bitling@gmail.com",
+            "name": "Sofie Bitling",
+            "original_recipients": [
+              "sofie.bitling@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T17:11:22Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAHY0LCq0jY2sEMvPp_iwYU7JvWHP8DjyaVTnKt37K2KaJ0OcRQ@mail.gmail.com>",
+          "email_id": "01KK223N9BW40JSTYW6V3JQ087",
+          "raw_email_identifier": "2369120/408ba9fa-6fe9-4a1d-ad1b-81f6a593bfe0.eml",
+          "json_email_identifier": "2369120/408ba9fa-6fe9-4a1d-ad1b-81f6a593bfe0.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55774052985497,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Sofie Bitling,\n\nPlease allow us some time while we check this and get back to you with an update.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sofie Bitling,<br>&nbsp;<br>Please allow us some time while we check this and get back to you with an update.<br>&nbsp;<br>We appreciate your time and patience.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sofie Bitling,\n&nbsp;\nPlease allow us some time while we check this and get back to you with an update.\n&nbsp;\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55774052985369,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T22:31:39Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55774050987929,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Requested Priyanka to check and take it forward",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Requested Priyanka to check and take it forward<br></div>",
+      "plain_body": "Requested Priyanka to check and take it forward",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55774041974041,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-06T22:34:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55794058988569,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Sofie,\n\nCould you please try subscribing using the Safari browser and let us know how it goes?\n\nIf the problem persists, kindly share a screenshot of the page you see so we can check this further from our end.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Sofie,<br>&nbsp;<br>Could you please try subscribing using the Safari browser and let us know how it goes?&nbsp;<br>&nbsp;<br>If the problem persists, kindly share a screenshot of the page you see so we can check this further from our end.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Sofie,\n&nbsp;\nCould you please try subscribing using the Safari browser and let us know how it goes?&nbsp;\n&nbsp;\nIf the problem persists, kindly share a screenshot of the page you see so we can check this further from our end.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55794058988441,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-07T15:07:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "49.207.210.134",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55794060111513,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "I had discussed this with veena and replied customer\nmail sent\nmoving on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I had discussed this with veena and replied customer&nbsp;<br>mail sent&nbsp;<br>moving on hold<br></div>",
+      "plain_body": "I had discussed this with veena and replied customer&nbsp;\nmail sent&nbsp;\nmoving on hold",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55794060110745,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-07T15:08:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "49.207.210.134",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55874480321049,
+      "type": "Comment",
+      "author_id": 52345988527129,
+      "body": "I dont have safari I´m on a PC with windows. But when I try from my iPhone on Safari it looks like this:\n\n\n\n ![](https://support.pluginhive.com/attachments/token/GXNPS23qPitmGhktiWFErAuth/?name=IMG_2343.png)\n\n\n\n\nVänliga hälsningar\n\nSofie Bitling",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div><div dir=\"ltr\"><div dir=\"auto\">I dont&nbsp;have safari I´m&nbsp;on&nbsp;a PC with windows. But when I try from my iPhone on Safari it looks like this:</div><div dir=\"auto\"><br></div><div dir=\"auto\"><div><img src=\"https://support.pluginhive.com/attachments/token/GXNPS23qPitmGhktiWFErAuth/?name=IMG_2343.png\" style=\"max-width: 100%;\"></div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div dir=\"ltr\"><div><br></div><div>Vänliga hälsningar</div></div></div></div></div></div></div></div><div><div dir=\"ltr\"><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div dir=\"ltr\"><div>Sofie Bitling</div></div></div></div></div></div><br></div><br>\n</div></div>",
+      "plain_body": "I dont&nbsp;have safari I´m&nbsp;on&nbsp;a PC with windows. But when I try from my iPhone on Safari it looks like this:  \n    \n       \n  Vänliga hälsningar                Sofie Bitling",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55874480320921,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sofie.bitling@gmail.com",
+            "name": "Sofie Bitling",
+            "original_recipients": [
+              "sofie.bitling@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-10T07:45:37Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAHY0LCpgP+7L-_rGT+Fztop3ZsAQa4S6GJVW931jrmBAOJk0Sw@mail.gmail.com>",
+          "email_id": "01KKBBAM9SZQ8NV5KSVRDC5HXG",
+          "raw_email_identifier": "2369120/f6229265-2ae2-424b-976c-1f5c3abd6ebb.eml",
+          "json_email_identifier": "2369120/f6229265-2ae2-424b-976c-1f5c3abd6ebb.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55878922639641,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Sofie,\n\nThank you for your time over the call.\n\nPlease allow me some time to check and update you,\n\nRegards,\nPriyanka M\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Sofie,&nbsp;<br>&nbsp;<br>Thank you for your time over the call.&nbsp;<br>&nbsp;<br>Please allow me some time to check and update you,<br>&nbsp;<br>Regards,<br>Priyanka M<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Sofie,&nbsp;\n&nbsp;\nThank you for your time over the call.&nbsp;\n&nbsp;\nPlease allow me some time to check and update you,\n&nbsp;\nRegards,\nPriyanka M\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55878922639513,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-10T09:52:35Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55879165626777,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "L3:https://pluginhive.slack.com/archives/C02E15X8X0C/p1773136691892979\n Plugin Loading issue for manage subscription page\n\nQuery 1: Customer has contacted us again stating that she is unable to subscribe to the plans, as it is displaying a blank page. The subscription ended on Feb 20 2026, they have not been able to renew. The payment subscription ID page is blank. Customer was on $49 monthly plan\n\nQuery 2: Customer mentioned that for orders shipped from Sweden to the US, when a discount is applied, the value printed on the CN22 customs form shows the total product value without the discount applied. For example, in Order No. 409569, the amount displayed reflects the full price instead of the discounted price. The customer expects the discounted value to be shown so that customs duties are calculated based on the actual amount paid.\n\nThe subtotal $58.75 and Grand total is $47 with discount applied, However the subtotal is printed on the form. Screenshots are attached.\n\n\nURL - https://store-e639qazpfv.mybigcommerce.com\nAccount ID - eb5b4aa6-2e50-4429-8171-688c8c2e81d0\n\nCredentials :\nemail: support@pluginhive.com\nRL for logging in is the following, and store name is \"CNS Watch Bands\"\nhttps://login.bigcommerce.com/",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3:<a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1773136691892979\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1773136691892979</a><br>&nbsp;Plugin Loading issue for manage subscription page&nbsp;<br>&nbsp;<br>Query 1: Customer has contacted us again stating that she is unable to subscribe to the plans, as it is displaying a blank page. The subscription ended on Feb 20 2026, they have not been able to renew. The payment subscription ID page is blank. Customer was on $49 monthly plan<br>&nbsp;<br>Query 2: Customer mentioned that for orders shipped from Sweden to the US, when a discount is applied, the value printed on the CN22 customs form shows the total product value without the discount applied. For example, in Order No. 409569, the amount displayed reflects the full price instead of the discounted price. The customer expects the discounted value to be shown so that customs duties are calculated based on the actual amount paid.<br>&nbsp;<br>The subtotal $58.75 and Grand total is $47 with discount applied, However the subtotal is printed on the form. Screenshots are attached.<br>&nbsp;<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"https://store-e639qazpfv.mybigcommerce.com/\">https://store-e639qazpfv.mybigcommerce.com</a><br>Account ID - eb5b4aa6-2e50-4429-8171-688c8c2e81d0&nbsp;<br>&nbsp;<br>Credentials :<br>email: <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a><br>RL for logging in is the following, and store name is \"CNS Watch Bands\"<br><a rel=\"noopener noreferrer\" href=\"https://login.bigcommerce.com/\">https://login.bigcommerce.com/</a><br></div>",
+      "plain_body": "L3:https://pluginhive.slack.com/archives/C02E15X8X0C/p1773136691892979\n&nbsp;Plugin Loading issue for manage subscription page&nbsp;\n&nbsp;\nQuery 1: Customer has contacted us again stating that she is unable to subscribe to the plans, as it is displaying a blank page. The subscription ended on Feb 20 2026, they have not been able to renew. The payment subscription ID page is blank. Customer was on $49 monthly plan\n&nbsp;\nQuery 2: Customer mentioned that for orders shipped from Sweden to the US, when a discount is applied, the value printed on the CN22 customs form shows the total product value without the discount applied. For example, in Order No. 409569, the amount displayed reflects the full price instead of the discounted price. The customer expects the discounted value to be shown so that customs duties are calculated based on the actual amount paid.\n&nbsp;\nThe subtotal $58.75 and Grand total is $47 with discount applied, However the subtotal is printed on the form. Screenshots are attached.\n&nbsp;\n&nbsp;\nURL - https://store-e639qazpfv.mybigcommerce.com\nAccount ID - eb5b4aa6-2e50-4429-8171-688c8c2e81d0&nbsp;\n&nbsp;\nCredentials :\nemail: support@pluginhive.com\nRL for logging in is the following, and store name is \"CNS Watch Bands\"\nhttps://login.bigcommerce.com/",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55879194077337,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-10T10:00:11Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55883811350681,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We are investigating the issue and we need more time to check\n-[Athu;]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We are investigating the issue and we need more time to check<br>-[Athu;]<br></div>",
+      "plain_body": "We are investigating the issue and we need more time to check\n-[Athu;]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55883811350425,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-10T13:03:34Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "103.163.65.25",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55908812104857,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "1. We have corrected the subscription.\n2.\n\nWe will enhance the app to print the discounted value on custom documents for postnord in upcoming release.\n\nInform the merchant and move the ticket to dev_needed.\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><ol dir=\"auto\"><li>We have corrected the subscription.</li><li><p dir=\"auto\">We will enhance the app to print the discounted value on custom documents for postnord in upcoming release.</p><p dir=\"auto\"><br>Inform the merchant and move the ticket to dev_needed.</p><p dir=\"auto\">[Veena]</p></li></ol></div>",
+      "plain_body": "We have corrected the subscription.   We will enhance the app to print the discounted value on custom documents for postnord in upcoming release.  \nInform the merchant and move the ticket to dev_needed.  [Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55908812104729,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-11T07:32:41Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55916511980953,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Sofie,\n\nThank you for your patience.\n\nOur team has now corrected the subscription page, and you should be able to access it and renew your plan normally. Please try again and let us know if everything works fine on your end.\n\nRegarding the CN22 customs form, we checked the details and noticed that the subtotal value is currently printed instead of the discounted total. Our development team will be updating the app in a future release so that the discounted value will be printed on the customs document for PostNord shipments. We will keep you updated.\n\nFor your reference, please check the attached screenshot.\n\nPlease let us know if you have any questions. We’ll be happy to help.\n\n\n ![](https://pluginhive.zendesk.com/attachments/token/6JoPDsQ290wkje5XoIo3s1fgR/?name=Screenshot+2026-03-11+at+4.59.50%E2%80%AFPM.png)\nThanks and Regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sofie,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Our team has now corrected the subscription page, and you should be able to access it and renew your plan normally. Please try again and let us know if everything works fine on your end.<br>&nbsp;<br>Regarding the CN22 customs form, we checked the details and noticed that the subtotal value is currently printed instead of the discounted total. Our development team will be updating the app in a future release so that the discounted value will be printed on the customs document for PostNord shipments. We will keep you updated.<br>&nbsp;<br>For your reference, please check the attached screenshot.<br>&nbsp;<br>Please let us know if you have any questions. We’ll be happy to help.<br>&nbsp;<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/6JoPDsQ290wkje5XoIo3s1fgR/?name=Screenshot+2026-03-11+at+4.59.50%E2%80%AFPM.png\"></span><br>Thanks and Regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sofie,\n&nbsp;\nThank you for your patience.\n&nbsp;\nOur team has now corrected the subscription page, and you should be able to access it and renew your plan normally. Please try again and let us know if everything works fine on your end.\n&nbsp;\nRegarding the CN22 customs form, we checked the details and noticed that the subtotal value is currently printed instead of the discounted total. Our development team will be updating the app in a future release so that the discounted value will be printed on the customs document for PostNord shipments. We will keep you updated.\n&nbsp;\nFor your reference, please check the attached screenshot.\n&nbsp;\nPlease let us know if you have any questions. We’ll be happy to help.\n&nbsp;\n&nbsp;\n\nThanks and Regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55916511980825,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-11T11:41:01Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55947940541721,
+      "type": "Comment",
+      "author_id": 52345988527129,
+      "body": "Thank you for your help!\n\nI think it worked for me to renew the subscription now.\n\nOkay great please keep me updated about the CN22.\n\n\n\nVänliga hälsningar\n\nSofie Bitling",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Thank you for your help!&nbsp;</div><div>I think it worked for me to renew the subscription now.&nbsp;</div><div>Okay great please keep me updated about the CN22.</div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div dir=\"ltr\"><div><br></div><div>Vänliga hälsningar</div><div>Sofie Bitling</div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Thank you for your help!&nbsp;  I think it worked for me to renew the subscription now.&nbsp;  Okay great please keep me updated about the CN22.       \n  Vänliga hälsningar  Sofie Bitling",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55947940541593,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sofie.bitling@gmail.com",
+            "name": "Sofie Bitling",
+            "original_recipients": [
+              "sofie.bitling@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-12T09:46:50Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAHY0LCp04Ad7wFtEObudq44BLams7bwFzyBkX6E7cNf-cNGiYQ@mail.gmail.com>",
+          "email_id": "01KKGQ22V4TC9H40H1VT32M116",
+          "raw_email_identifier": "2369120/3ff78d5d-793c-4edc-a04a-9f2cbaa42fe6.eml",
+          "json_email_identifier": "2369120/3ff78d5d-793c-4edc-a04a-9f2cbaa42fe6.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55949887493017,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Sofie,\n\nSure, I will keep you updated regarding the CN22.\n\nPlease feel free to reach out if you have any other questions in the meantime.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sofie,<br>&nbsp;<br>Sure, I will keep you updated regarding the CN22.<br>&nbsp;<br>Please feel free to reach out if you have any other questions in the meantime.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sofie,\n&nbsp;\nSure, I will keep you updated regarding the CN22.\n&nbsp;\nPlease feel free to reach out if you have any other questions in the meantime.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55949887492889,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-12T10:57:20Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55956345858585,
+      "type": "Comment",
+      "author_id": 52345988527129,
+      "body": "I get this error when I try to generate a lable. We only use DSD as a currency on our site.\n\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/RsBORT40pS0Cms85lXv9EVVFK/?name=image.png)\n\n\n\nVänliga hälsningar\n\nSofie Bitling",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>I get this error when I try to generate a lable. We only use DSD as a currency on our site.</div><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/RsBORT40pS0Cms85lXv9EVVFK/?name=image.png\" alt=\"image.png\" width=\"1359\" height=\"769\" style=\"margin-right: 25px;\"><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div dir=\"ltr\"><div><br></div><div>Vänliga hälsningar</div><div>Sofie Bitling</div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "I get this error when I try to generate a lable. We only use DSD as a currency on our site.  \n  \n       \n  Vänliga hälsningar  Sofie Bitling",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55956345858457,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sofie.bitling@gmail.com",
+            "name": "Sofie Bitling",
+            "original_recipients": [
+              "sofie.bitling@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-12T17:00:04Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAHY0LCrHeek9TdqSZ9W12Q5vYC45VMhvJYPJDqoiS29CZ+KU9A@mail.gmail.com>",
+          "email_id": "01KKHFV8RV2710HG0D3RBG6MYM",
+          "raw_email_identifier": "2369120/7efff129-66e0-4cc0-b4ca-f21c9614d631.eml",
+          "json_email_identifier": "2369120/7efff129-66e0-4cc0-b4ca-f21c9614d631.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55957919699097,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Sofie,\n\nI have attached a short video explaining how to change the currency to USD and generate labels. Currently, the Shipment Source Currency option is selected, which means the currency of your origin country will be used.\n\nPlease let us know if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sofie,<br>&nbsp;<br>I have attached a short video explaining how to change the currency to USD and generate labels. Currently, the Shipment Source Currency option is selected, which means the currency of your origin country will be used.<br>&nbsp;<br>Please let us know if you need any assistance.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sofie,\n&nbsp;\nI have attached a short video explaining how to change the currency to USD and generate labels. Currently, the Shipment Source Currency option is selected, which means the currency of your origin country will be used.\n&nbsp;\nPlease let us know if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/55957938333849.json",
+          "id": 55957938333849,
+          "file_name": "Screen Recording 2026-03-13 at 12.32.51 AM.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/k3Dsmn8S2YCFr1h6OlS63rVF1/?name=Screen+Recording+2026-03-13+at+12.32.51+AM.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/k3Dsmn8S2YCFr1h6OlS63rVF1/?name=Screen+Recording+2026-03-13+at+12.32.51+AM.mov",
+          "content_type": "video/quicktime",
+          "size": 12400765,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 55957919698969,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-12T19:30:19Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55987176116633,
+      "type": "Comment",
+      "author_id": 52345988527129,
+      "body": "Ok, thank you for your help it works now!\n\n\n\nVänliga hälsningar\n\nSofie Bitling",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Ok, thank you for your help it works now!</div><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div dir=\"ltr\"><div><br></div><div>Vänliga hälsningar</div><div>Sofie Bitling</div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Ok, thank you for your help it works now!       \n  Vänliga hälsningar  Sofie Bitling",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55987176116505,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sofie.bitling@gmail.com",
+            "name": "Sofie Bitling",
+            "original_recipients": [
+              "sofie.bitling@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-13T13:57:01Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAHY0LCoXWLTp04N4uVxShJOXn7Z_LxQ90QtdjVd-gp5SqFGyuA@mail.gmail.com>",
+          "email_id": "01KKKQRWR4N56H9X5RFP7HFXNZ",
+          "raw_email_identifier": "2369120/f1e426bd-d23a-4c73-af1e-0077d5d1ed92.eml",
+          "json_email_identifier": "2369120/f1e426bd-d23a-4c73-af1e-0077d5d1ed92.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55988090671641,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Sofie,\n\nThank you for your reply.\n\nFeel free to reachout to us anytime you need assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sofie,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>Feel free to reachout to us anytime you need assistance from our end.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sofie,\n&nbsp;\nThank you for your reply.\n&nbsp;\nFeel free to reachout to us anytime you need assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55988090671513,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-13T14:51:55Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55988075401753,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Moving case back to dev needed - We will enhance the app to print the discounted value on custom documents for postnord in upcoming release.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving case back to dev needed - We will enhance the app to print the discounted value on custom documents for postnord in upcoming release.<br></div>",
+      "plain_body": "Moving case back to dev needed - We will enhance the app to print the discounted value on custom documents for postnord in upcoming release.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55988069114905,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-13T14:52:11Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57376178517913,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Request #386284 \"URGENT error - Declaration to US...\" was closed and merged into this request. Last comment in request #386284:\r\n\r\nHi, It appears that the declaration to the US is still not working properly. This is now a very URGENT problem that needs to be fixed.\r\n\r\nI have two different examples listed here:\r\n\r\n\r\n\r\nFirst one is with an error with ordinary price on sale price + discount.\r\n\r\nThis is order number 413756   :\r\n\r\n ![image.png](https://support.pluginhive.com/attachments/token/rziEewCc5wMMqWZ3OWzU9hLnE/?name=image.png)\r\n\r\nProducts is 9.95 + 9.95 + 12.95, minus discount -4.92, plus 8.95 in shipping is total of 36.88\r\n\r\n\r\n\r\nIn multi carrier shipping label I get this information:\r\n\r\nProducts are 15.95 + 19.95 + 12.95 which is previous prices without ongoing sale. but it still states the accurate order total of 36.88.\r\n\r\n ![image.png](https://support.pluginhive.com/attachments/token/awaeLIiQlUBcDvAqhh64MhRV4/?name=image.png)\r\n\r\n\r\n\r\nWhen I press print documents to create a label there is wrong information on the CN22, it states total order value to 48.85 instead of 27.39 (32.85 - 4.92) which is the actual order value.\r\n\r\nWe need to pay Tariffs on this amount so tat it is very important that it is correct.\r\n\r\n ![image.png](https://support.pluginhive.com/attachments/token/UhtsKttzTb5Vi1bua5qHn8Ev3/?name=image.png)\r\n\r\n\r\n\r\n\r\n\r\n-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\n\r\n\r\n\r\nSecond example, error with price import.\r\n\r\n\r\n\r\nThis is order number 413641:\r\n\r\n\r\n\r\n ![image.png](https://support.pluginhive.com/attachments/token/DSQZllmJotGBTZ5s64MBnlAqk/?name=image.png)\r\n\r\nThe Barracuda strap Navy in 18 mm is on sale for the moment and is now 3.95, previously is was 9.95.\r\n\r\n\r\n\r\nIn multi carrier shipping label I get this information:\r\n\r\nBaracuda strap Navy 18mm is 15.95, and that is a price we have never used on this products, so that is a price import error or something.\r\n\r\n ![image.png](https://support.pluginhive.com/attachments/token/PSJXkTVpVO4iwjRvUMbDYAP8J/?name=image.png)\r\n\r\n\r\n\r\nWhen I press print documents to create a label there is wrong information on the CN22, it states total order value to 23.90 instead of 11.90:\r\n\r\n\r\n\r\n ![image.png](https://support.pluginhive.com/attachments/token/77hAPhijNJiGfp8bvhtjBKFip/?name=image.png)\r\n\r\n\r\n\r\n\r\n\r\nVänliga hälsningar\r\n\r\nSofie Bitling",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/386284\" target=\"_blank\" rel=\"ticket\">#386284</a> \"URGENT error - Declaration to US...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/386284\" target=\"_blank\" rel=\"ticket\">#386284</a>:</p>\n<p dir=\"auto\">Hi, It appears that the declaration to the US is still not working properly. This is now a very URGENT problem that needs to be fixed.</p>\n<p dir=\"auto\">I have two different examples listed here:</p>\n<p dir=\"auto\">First one is with an error with ordinary price on sale price + discount.</p>\n<p dir=\"auto\">This is order number 413756   :</p>\n<p dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/rziEewCc5wMMqWZ3OWzU9hLnE/?name=image.png\" alt=\"image.png\"></p>\n<p dir=\"auto\">Products is 9.95 + 9.95 + 12.95, minus discount -4.92, plus 8.95 in shipping is total of 36.88</p>\n<p dir=\"auto\">In multi carrier shipping label I get this information:</p>\n<p dir=\"auto\">Products are 15.95 + 19.95 + 12.95 which is previous prices without ongoing sale. but it still states the accurate order total of 36.88.</p>\n<p dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/awaeLIiQlUBcDvAqhh64MhRV4/?name=image.png\" alt=\"image.png\"></p>\n<p dir=\"auto\">When I press print documents to create a label there is wrong information on the CN22, it states total order value to 48.85 instead of 27.39 (32.85 - 4.92) which is the actual order value.</p>\n<p dir=\"auto\">We need to pay Tariffs on this amount so tat it is very important that it is correct.</p>\n<p dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/UhtsKttzTb5Vi1bua5qHn8Ev3/?name=image.png\" alt=\"image.png\"></p>\n<hr>\n<p dir=\"auto\">Second example, error with price import.</p>\n<p dir=\"auto\">This is order number 413641:</p>\n<p dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/DSQZllmJotGBTZ5s64MBnlAqk/?name=image.png\" alt=\"image.png\"></p>\n<p dir=\"auto\">The Barracuda strap Navy in 18 mm is on sale for the moment and is now 3.95, previously is was 9.95.</p>\n<p dir=\"auto\">In multi carrier shipping label I get this information:</p>\n<p dir=\"auto\">Baracuda strap Navy 18mm is 15.95, and that is a price we have never used on this products, so that is a price import error or something.</p>\n<p dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/PSJXkTVpVO4iwjRvUMbDYAP8J/?name=image.png\" alt=\"image.png\"></p>\n<p dir=\"auto\">When I press print documents to create a label there is wrong information on the CN22, it states total order value to 23.90 instead of 11.90:</p>\n<p dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/77hAPhijNJiGfp8bvhtjBKFip/?name=image.png\" alt=\"image.png\"></p>\n<p dir=\"auto\">Vänliga hälsningar</p>\n<p dir=\"auto\">Sofie Bitling</p></div>",
+      "plain_body": "Request #386284 \"URGENT error - Declaration to US...\" was closed and merged into this request. Last comment in request #386284: \n Hi, It appears that the declaration to the US is still not working properly. This is now a very URGENT problem that needs to be fixed. \n I have two different examples listed here: \n First one is with an error with ordinary price on sale price + discount. \n This is order number 413756   : \n  \n Products is 9.95 + 9.95 + 12.95, minus discount -4.92, plus 8.95 in shipping is total of 36.88 \n In multi carrier shipping label I get this information: \n Products are 15.95 + 19.95 + 12.95 which is previous prices without ongoing sale. but it still states the accurate order total of 36.88. \n  \n When I press print documents to create a label there is wrong information on the CN22, it states total order value to 48.85 instead of 27.39 (32.85 - 4.92) which is the actual order value. \n We need to pay Tariffs on this amount so tat it is very important that it is correct. \n  \n \n Second example, error with price import. \n This is order number 413641: \n  \n The Barracuda strap Navy in 18 mm is on sale for the moment and is now 3.95, previously is was 9.95. \n In multi carrier shipping label I get this information: \n Baracuda strap Navy 18mm is 15.95, and that is a price we have never used on this products, so that is a price import error or something. \n  \n When I press print documents to create a label there is wrong information on the CN22, it states total order value to 23.90 instead of 11.90: \n  \n Vänliga hälsningar \n Sofie Bitling",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376200602521.json",
+          "id": 57376200602521,
+          "file_name": "image.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/4ygnWm1D3MTcOPbh3oARpndTQ/?name=image.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/4ygnWm1D3MTcOPbh3oARpndTQ/?name=image.png",
+          "content_type": "image/png",
+          "size": 272628,
+          "width": 2302,
+          "height": 1348,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376178572825.json",
+              "id": 57376178572825,
+              "file_name": "image_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/MfKv2Haeh5H2FZW8Bfv4h913M/?name=image_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/MfKv2Haeh5H2FZW8Bfv4h913M/?name=image_thumb.png",
+              "content_type": "image/png",
+              "size": 2877,
+              "width": 80,
+              "height": 47,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "malware_not_found"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376200648217.json",
+          "id": 57376200648217,
+          "file_name": "image.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/TGSSUPGHMXprlJNbqwkjQdy4R/?name=image.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/TGSSUPGHMXprlJNbqwkjQdy4R/?name=image.png",
+          "content_type": "image/png",
+          "size": 279216,
+          "width": 2346,
+          "height": 1362,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376178653209.json",
+              "id": 57376178653209,
+              "file_name": "image_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/ZJyPORTO8rexCOSXvBDCuLLL0/?name=image_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/ZJyPORTO8rexCOSXvBDCuLLL0/?name=image_thumb.png",
+              "content_type": "image/png",
+              "size": 1842,
+              "width": 80,
+              "height": 46,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376178738713.json",
+          "id": 57376178738713,
+          "file_name": "image.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/GNo7npuCcABZ5Peoo4Mv8xy30/?name=image.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/GNo7npuCcABZ5Peoo4Mv8xy30/?name=image.png",
+          "content_type": "image/png",
+          "size": 158088,
+          "width": 792,
+          "height": 919,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376200857625.json",
+              "id": 57376200857625,
+              "file_name": "image_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/Miul3lt2ap5NoRYs2r6g2wMKl/?name=image_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/Miul3lt2ap5NoRYs2r6g2wMKl/?name=image_thumb.png",
+              "content_type": "image/png",
+              "size": 5805,
+              "width": 69,
+              "height": 80,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376200709913.json",
+          "id": 57376200709913,
+          "file_name": "image.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/DZD0E88c0MT1kFBoaV9JEHszh/?name=image.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/DZD0E88c0MT1kFBoaV9JEHszh/?name=image.png",
+          "content_type": "image/png",
+          "size": 145542,
+          "width": 2326,
+          "height": 938,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376200736281.json",
+              "id": 57376200736281,
+              "file_name": "image_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/BMGmuaDHu7dq1JpJf9QjQs7ZV/?name=image_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/BMGmuaDHu7dq1JpJf9QjQs7ZV/?name=image_thumb.png",
+              "content_type": "image/png",
+              "size": 2225,
+              "width": 80,
+              "height": 32,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376178838425.json",
+          "id": 57376178838425,
+          "file_name": "image.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/VRNBU5qzeTOYdtKarYq2exddH/?name=image.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/VRNBU5qzeTOYdtKarYq2exddH/?name=image.png",
+          "content_type": "image/png",
+          "size": 252144,
+          "width": 2339,
+          "height": 1371,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376200892313.json",
+              "id": 57376200892313,
+              "file_name": "image_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/PZNaYoGYoT7wNGQitbm645R24/?name=image_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/PZNaYoGYoT7wNGQitbm645R24/?name=image_thumb.png",
+              "content_type": "image/png",
+              "size": 1793,
+              "width": 80,
+              "height": 47,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376200917785.json",
+          "id": 57376200917785,
+          "file_name": "image.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/380Xf6cwnJmJt2v0o1q4KkHPI/?name=image.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/380Xf6cwnJmJt2v0o1q4KkHPI/?name=image.png",
+          "content_type": "image/png",
+          "size": 143562,
+          "width": 793,
+          "height": 980,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376200940825.json",
+              "id": 57376200940825,
+              "file_name": "image_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/gv1GWD85sHWqUZBwrYTmQOZ0R/?name=image_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/gv1GWD85sHWqUZBwrYTmQOZ0R/?name=image_thumb.png",
+              "content_type": "image/png",
+              "size": 5174,
+              "width": 65,
+              "height": 80,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376178916121.json",
+          "id": 57376178916121,
+          "file_name": "413641 lable.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/MhSUGOonoAheAjZWbonnKYUIU/?name=413641+lable.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/MhSUGOonoAheAjZWbonnKYUIU/?name=413641+lable.pdf",
+          "content_type": "application/pdf",
+          "size": 19287,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57376178925081.json",
+          "id": 57376178925081,
+          "file_name": "413756   lable.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/HnvYNlkEyR0MIf1YLDXgb7ndq/?name=413756+++lable.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/HnvYNlkEyR0MIf1YLDXgb7ndq/?name=413756+++lable.pdf",
+          "content_type": "application/pdf",
+          "size": 19381,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 57376200569753,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              386284
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-04-27T12:00:35Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57376350545305,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Sofie Bitling,\n\nThank you for reaching out with your case.\n\nWe do understand your concern on this case.\n\nOur team is already working on the enhancement to address your case and it has been prioritized for the upcoming release cycle.\n\nThe expected ETA for the enhancement is about 1 month time. However, we have requested our technical team to check for feasibility of an earlier release of the enhancement.\n\nWe will update you if anything changes.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sofie Bitling,<br>&nbsp;<br>Thank you for reaching out with your case.<br>&nbsp;<br>We do understand your concern on this case.<br>&nbsp;<br>Our team is already working on the enhancement to address your case and it has been prioritized for the upcoming release cycle.<br>&nbsp;<br>The expected ETA for the enhancement is about 1 month time. However, we have requested our technical team to check for feasibility of an earlier release of the enhancement.<br>&nbsp;<br>We will update you if anything changes.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sofie Bitling,\n&nbsp;\nThank you for reaching out with your case.\n&nbsp;\nWe do understand your concern on this case.\n&nbsp;\nOur team is already working on the enhancement to address your case and it has been prioritized for the upcoming release cycle.\n&nbsp;\nThe expected ETA for the enhancement is about 1 month time. However, we have requested our technical team to check for feasibility of an earlier release of the enhancement.\n&nbsp;\nWe will update you if anything changes.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57376350545177,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-27T12:07:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57376405315353,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Keerthi discussed with Veena.\nCurrent ETA for the enhancement is 379. However, as per discussion between Keerthi and Veena, team to check if this enhancement can be prioritised for 378.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Keerthi discussed with Veena.<br>Current ETA for the enhancement is 379. However, as per discussion between Keerthi and Veena, team to check if this enhancement can be prioritised for 378.<br></div>",
+      "plain_body": "Keerthi discussed with Veena.\nCurrent ETA for the enhancement is 379. However, as per discussion between Keerthi and Veena, team to check if this enhancement can be prioritised for 378.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57376405314457,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-27T12:08:09Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57410645459737,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "This case will be prioritized. Please move the ticket to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This case will be prioritized. Please move the ticket to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "This case will be prioritized. Please move the ticket to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57410645459609,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-28T11:43:51Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57411056825497,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Sofie Bitling,\n\nThank you for your patience.\n\nWe can confirm that the enhancement for your case will be prioritised and will be made available in about 3 weeks time.\n\nWe will update you as soon as the enhancement is made available.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sofie Bitling,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We can confirm that the enhancement for your case will be prioritised and will be made available in about 3 weeks time.<br>&nbsp;<br>We will update you as soon as the enhancement is made available.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Sofie Bitling,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe can confirm that the enhancement for your case will be prioritised and will be made available in about 3 weeks time.\n&nbsp;\nWe will update you as soon as the enhancement is made available.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57411056825369,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-28T12:00:17Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57417540861209,
+      "type": "Comment",
+      "author_id": 52345988527129,
+      "body": "That’s a very long time. Can you fix it faster please?\n\n\nBest regards Sofie Bitling +46768792994\n\n\n\n\n\ntis 28 apr. 2026 kl. 14:00 skrev Touseef (PluginHive) <support@pluginhive.com>:",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">That’s a very long time. Can you fix it faster please?<br><br><div><div dir=\"ltr\">Best regards\nSofie Bitling \n+46768792994</div></div></div><div><br></div><div><br><div><div dir=\"ltr\">tis 28 apr. 2026 kl. 14:00 skrev Touseef (PluginHive) &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;:<br></div></div></div></div>",
+      "plain_body": "That’s a very long time. Can you fix it faster please?\n\n  Best regards\nSofie Bitling \n+46768792994    \n  \n  tis 28 apr. 2026 kl. 14:00 skrev Touseef (PluginHive) &lt;support@pluginhive.com&gt;:",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57417540861081,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sofie.bitling@gmail.com",
+            "name": "Sofie Bitling",
+            "original_recipients": [
+              "sofie.bitling@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-28T18:09:01Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAHY0LCpTYD0=2jSO75y+XVHHoY20HJsJ8P5kcdi+ZC6T-dM0Fg@mail.gmail.com>",
+          "email_id": "01KQAMFBJZHBF6BYR0ZWTE34ZF",
+          "raw_email_identifier": "2369120/a8b8da45-92b5-4a05-b77b-49668dc3a6de.eml",
+          "json_email_identifier": "2369120/a8b8da45-92b5-4a05-b77b-49668dc3a6de.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57423061702425,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Sofie,,\n\nWe do understand your concern.\n\nAs we have other pending enhancements, this enhancement would take 3 weeks to be available.\n\nWe appreciate your understanding and patience.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sofie,,<br>&nbsp;<br>We do understand your concern.&nbsp;<br>&nbsp;<br>As we have other pending enhancements, this enhancement would take 3 weeks to be available.&nbsp;<br>&nbsp;<br>We appreciate your understanding and patience.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Sofie,,\n&nbsp;\nWe do understand your concern.&nbsp;\n&nbsp;\nAs we have other pending enhancements, this enhancement would take 3 weeks to be available.&nbsp;\n&nbsp;\nWe appreciate your understanding and patience.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57423061702297,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-29T00:45:07Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

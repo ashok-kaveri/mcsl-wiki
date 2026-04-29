@@ -1,0 +1,1017 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/364411.json",
+    "id": 364411,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "hobbylinkinternational@gmail.com",
+          "name": "Kenny"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2025-12-12T17:06:31Z",
+    "updated_at": "2026-04-14T13:32:22Z",
+    "generated_timestamp": 1776173543,
+    "type": null,
+    "subject": "USPS Flat Rate Box Dimensions & Packing Behavior Issues",
+    "raw_subject": "USPS Flat Rate Box Dimensions & Packing Behavior Issues",
+    "description": "Hi there,\n\nFirst off, I’m very happy I purchased the plugin — it’s going to be a big help on my site. However, I’ve run into a few issues with the USPS flat rate box setup and packing logic that I wanted to bring to your attention.\n\n1. Missing and incorrect USPS Flat Rate box sizes\n\nRight now, the plugin only lists the side-loading USPS Medium Flat Rate box. There is also a top-loading USPS Medium Flat Rate box with the following dimensions:\n\n*\n\nMedium Flat Rate Top Loader\n\n**\n\nID: 11 x 8.5 x 5.5\n\n**\n\nOD: 11.25 x 8.75 x 6\n\nBecause this top-loading medium box isn’t available, the plugin is skipping it and jumping straight to the Large Flat Rate box, which overcharges the customer and uses a larger box than needed.\n\nIn addition, the dimensions for the Large Flat Rate box in the plugin are not accurate. You currently have it listed as 12 x 12 x 5.5 for both inside and outside dimensions. The actual USPS dimensions are:\n\n*\n\nLarge Flat Rate Top Loader\n\n**\n\nID: 12 x 11.75 x 8\n\n**\n\nOD: 12.25 x 12 x 8.5\n\nThe plugin’s current dimensions effectively lose about 3 inches of usable height.\n\nThere is also a Large Flat Rate Side Loading box that is not present in the plugin:\n\n*\n\nLarge Flat Rate Side Loader\n\n**\n\nID: 14.875 x 11.875 x 3\n\n**\n\nOD: 15 x 12 x 3.125\n\nAll of the above USPS flat rate boxes are rated for 70 lbs domestic, and many of us rely on these free USPS-supplied boxes rather than our own custom packaging. Having all of these boxes available, with accurate dimensions, is important for correct packing and pricing.\n\n2. Behavior when using only USPS Flat Rate boxes\n\nFor stores that exclusively use USPS Flat Rate boxes (and not their own custom boxes), the plugin tends to jump to the Large Flat Rate box instead of selecting the smallest appropriate flat rate option. In my case, Priority Mail will sometimes show up using a custom box that is cheaper than a USPS Flat Rate box, but many businesses don’t buy their own boxes and rely solely on USPS flat rate packaging.\n\n3. Product dimensions being changed and forcing the wrong box\n\nI’ve attached screenshots for this part.\n\nThe product I’m testing is:\n\n*\n\nWeight: 0.65 lb\n\n*\n\nDimensions: 10 x 8 x 5\n\nThis should easily fit into a Medium Top-Loading Flat Rate box. However, the plugin is changing the item’s dimensions to 12 x 5.5 x 12 during packing, which forces it into a Large Flat Rate box instead of the correct medium box.\n\nIn my own setup, I created a custom top-loading medium box, and when that is used, Ground Advantage and Priority Mail (in my own box) show up correctly. But because the USPS box dimensions in the plugin are incorrect and incomplete, the system keeps selecting the highest-priced Large Flat Rate box instead of a Medium Flat Rate box supplied by USPS.\n\nThank you for your time and help with this situation. If you need any additional screenshots, test data, or examples from my store setup, I’m happy to provide them.\n--\nAll the best,\n\nKenny Conklin\n\nCEO Hobby Link International Inc.\n\nEditor Hobby Link International Publications\n\nhttps://www.hobbylinkinternational.com\nhttps://www.community.hobbylinkinternational.com\n\nHobby Link International Inc.\n2 Oakwood Drive\nParlin NJ 08859\n\n1-347-993-6806",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 52418955418137,
+    "submitter_id": 52418955418137,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_customer",
+      "to-do",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "hli3dfx.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "6944fa8e43ad14176dcfcea3"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "45VVEP-GP1JJ",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "hli3dfx.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "to-do"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "6944fa8e43ad14176dcfcea3"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 53296866506137,
+      "type": "Comment",
+      "author_id": 52418955418137,
+      "body": "Hi there,\n\nFirst off, I’m very happy I purchased the plugin — it’s going to be a big help on my site. However, I’ve run into a few issues with the USPS flat rate box setup and packing logic that I wanted to bring to your attention.\n\n**1. Missing and incorrect USPS Flat Rate box sizes**\n\nRight now, the plugin only lists the _side-loading_ USPS Medium Flat Rate box. There is also a _top-loading_ USPS Medium Flat Rate box with the following dimensions:\n\n-\n\n**Medium Flat Rate Top Loader**\n\n  -\n\nID: 11 x 8.5 x 5.5\n\n  -\n\nOD: 11.25 x 8.75 x 6\n\nBecause this top-loading medium box isn’t available, the plugin is skipping it and jumping straight to the **Large Flat Rate box**, which overcharges the customer and uses a larger box than needed.\n\nIn addition, the dimensions for the Large Flat Rate box in the plugin are not accurate. You currently have it listed as 12 x 12 x 5.5 for both inside and outside dimensions. The actual USPS dimensions are:\n\n-\n\n**Large Flat Rate Top Loader**\n\n  -\n\nID: 12 x 11.75 x 8\n\n  -\n\nOD: 12.25 x 12 x 8.5\n\nThe plugin’s current dimensions effectively lose about 3 inches of usable height.\n\nThere is also a **Large Flat Rate Side Loading** box that is not present in the plugin:\n\n-\n\n**Large Flat Rate Side Loader**\n\n  -\n\nID: 14.875 x 11.875 x 3\n\n  -\n\nOD: 15 x 12 x 3.125\n\nAll of the above USPS flat rate boxes are rated for 70 lbs domestic, and many of us rely on these free USPS-supplied boxes rather than our own custom packaging. Having all of these boxes available, with accurate dimensions, is important for correct packing and pricing.\n\n**2. Behavior when using only USPS Flat Rate boxes**\n\nFor stores that exclusively use USPS Flat Rate boxes (and not their own custom boxes), the plugin tends to jump to the **Large Flat Rate box** instead of selecting the smallest appropriate flat rate option. In my case, Priority Mail will sometimes show up using a custom box that is cheaper than a USPS Flat Rate box, but many businesses don’t buy their own boxes and rely solely on USPS flat rate packaging.\n\n**3. Product dimensions being changed and forcing the wrong box**\n\nI’ve attached screenshots for this part.\n\nThe product I’m testing is:\n\n-\n\n**Weight:** 0.65 lb\n\n-\n\n**Dimensions:** 10 x 8 x 5\n\nThis should easily fit into a **Medium Top-Loading Flat Rate box**. However, the plugin is changing the item’s dimensions to **12 x 5.5 x 12** during packing, which forces it into a **Large Flat Rate box** instead of the correct medium box.\n\nIn my own setup, I created a custom top-loading medium box, and when that is used, Ground Advantage and Priority Mail (in my own box) show up correctly. But because the USPS box dimensions in the plugin are incorrect and incomplete, the system keeps selecting the highest-priced Large Flat Rate box instead of a Medium Flat Rate box supplied by USPS.\n\nThank you for your time and help with this situation. If you need any additional screenshots, test data, or examples from my store setup, I’m happy to provide them.\n--\n\nAll the best,\n\n\nKenny Conklin\n\n\n\nCEO Hobby Link International Inc.\n\n\n\nEditor Hobby Link International Publications\n\n\n\nhttps://www.hobbylinkinternational.com\n\nhttps://www.community.hobbylinkinternational.com\n\n\n\nHobby Link International Inc.\n\n2 Oakwood Drive\n\nParlin NJ 08859\n\n\n\n1-347-993-6806",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">\n<p dir=\"auto\">Hi there,</p>\n<p dir=\"auto\">First off, I’m very happy I purchased the plugin — it’s going to be a big help on my site. However, I’ve run into a few issues with the USPS flat rate box setup and packing logic that I wanted to bring to your attention.</p>\n<p dir=\"auto\"><strong>1. Missing and incorrect USPS Flat Rate box sizes</strong></p>\n<p dir=\"auto\">Right now, the plugin only lists the <em>side-loading</em> USPS Medium Flat Rate box. There is also a <em>top-loading</em> USPS Medium Flat Rate box with the following dimensions:</p>\n<ul dir=\"auto\"><li>\n<p dir=\"auto\"><strong>Medium Flat Rate Top Loader</strong></p>\n<ul dir=\"auto\"><li>\n<p dir=\"auto\">ID: 11 x 8.5 x 5.5</p>\n</li><li>\n<p dir=\"auto\">OD: 11.25 x 8.75 x 6</p>\n</li></ul>\n</li></ul>\n<p dir=\"auto\">Because this top-loading medium box isn’t available, the plugin is skipping it and jumping straight to the <strong>Large Flat Rate box</strong>, which overcharges the customer and uses a larger box than needed.</p>\n<p dir=\"auto\">In addition, the dimensions for the Large Flat Rate box in the plugin are not accurate. You currently have it listed as 12 x 12 x 5.5 for both inside and outside dimensions. The actual USPS dimensions are:</p>\n<ul dir=\"auto\"><li>\n<p dir=\"auto\"><strong>Large Flat Rate Top Loader</strong></p>\n<ul dir=\"auto\"><li>\n<p dir=\"auto\">ID: 12 x 11.75 x 8</p>\n</li><li>\n<p dir=\"auto\">OD: 12.25 x 12 x 8.5</p>\n</li></ul>\n</li></ul>\n<p dir=\"auto\">The plugin’s current dimensions effectively lose about 3 inches of usable height.</p>\n<p dir=\"auto\">There is also a <strong>Large Flat Rate Side Loading</strong> box that is not present in the plugin:</p>\n<ul dir=\"auto\"><li>\n<p dir=\"auto\"><strong>Large Flat Rate Side Loader</strong></p>\n<ul dir=\"auto\"><li>\n<p dir=\"auto\">ID: 14.875 x 11.875 x 3</p>\n</li><li>\n<p dir=\"auto\">OD: 15 x 12 x 3.125</p>\n</li></ul>\n</li></ul>\n<p dir=\"auto\">All of the above USPS flat rate boxes are rated for 70 lbs domestic, and many of us rely on these free USPS-supplied boxes rather than our own custom packaging. Having all of these boxes available, with accurate dimensions, is important for correct packing and pricing.</p>\n<p dir=\"auto\"><strong>2. Behavior when using only USPS Flat Rate boxes</strong></p>\n<p dir=\"auto\">For stores that exclusively use USPS Flat Rate boxes (and not their own custom boxes), the plugin tends to jump to the <strong>Large Flat Rate box</strong> instead of selecting the smallest appropriate flat rate option. In my case, Priority Mail will sometimes show up using a custom box that is cheaper than a USPS Flat Rate box, but many businesses don’t buy their own boxes and rely solely on USPS flat rate packaging.</p>\n<p dir=\"auto\"><strong>3. Product dimensions being changed and forcing the wrong box</strong></p>\n<p dir=\"auto\">I’ve attached screenshots for this part.</p>\n<p dir=\"auto\">The product I’m testing is:</p>\n<ul dir=\"auto\"><li>\n<p dir=\"auto\"><strong>Weight:</strong> 0.65 lb</p>\n</li><li>\n<p dir=\"auto\"><strong>Dimensions:</strong> 10 x 8 x 5</p>\n</li></ul>\n<p dir=\"auto\">This should easily fit into a <strong>Medium Top-Loading Flat Rate box</strong>. However, the plugin is changing the item’s dimensions to <strong>12 x 5.5 x 12</strong> during packing, which forces it into a <strong>Large Flat Rate box</strong> instead of the correct medium box.</p>\n<p dir=\"auto\">In my own setup, I created a custom top-loading medium box, and when that is used, Ground Advantage and Priority Mail (in my own box) show up correctly. But because the USPS box dimensions in the plugin are incorrect and incomplete, the system keeps selecting the highest-priced Large Flat Rate box instead of a Medium Flat Rate box supplied by USPS.</p>\nThank you for your time and help with this situation. If you need any additional screenshots, test data, or examples from my store setup, I’m happy to provide them.\n\n<br><span>-- </span><br><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\">All the best,<div><br></div><div>Kenny Conklin</div><div><br></div><div>CEO Hobby Link International Inc.</div><div><br></div><div>Editor Hobby Link International Publications</div><div><br></div><div><a href=\"https://www.hobbylinkinternational.com\" rel=\"noreferrer\">https://www.hobbylinkinternational.com</a></div><div><a href=\"https://www.community.hobbylinkinternational.com\" rel=\"noreferrer\">https://www.community.hobbylinkinternational.com</a></div><div><br></div><div>Hobby Link International Inc.</div><div>2 Oakwood Drive</div><div>Parlin NJ 08859</div><div><br></div><div>1-347-993-6806<br></div></div></div></div></div></div>",
+      "plain_body": "Hi there, \n First off, I’m very happy I purchased the plugin — it’s going to be a big help on my site. However, I’ve run into a few issues with the USPS flat rate box setup and packing logic that I wanted to bring to your attention. \n 1. Missing and incorrect USPS Flat Rate box sizes \n Right now, the plugin only lists the side-loading USPS Medium Flat Rate box. There is also a top-loading USPS Medium Flat Rate box with the following dimensions: \n  \n Medium Flat Rate Top Loader \n  \n ID: 11 x 8.5 x 5.5 \n  \n OD: 11.25 x 8.75 x 6 \n  \n  \n Because this top-loading medium box isn’t available, the plugin is skipping it and jumping straight to the Large Flat Rate box, which overcharges the customer and uses a larger box than needed. \n In addition, the dimensions for the Large Flat Rate box in the plugin are not accurate. You currently have it listed as 12 x 12 x 5.5 for both inside and outside dimensions. The actual USPS dimensions are: \n  \n Large Flat Rate Top Loader \n  \n ID: 12 x 11.75 x 8 \n  \n OD: 12.25 x 12 x 8.5 \n  \n  \n The plugin’s current dimensions effectively lose about 3 inches of usable height. \n There is also a Large Flat Rate Side Loading box that is not present in the plugin: \n  \n Large Flat Rate Side Loader \n  \n ID: 14.875 x 11.875 x 3 \n  \n OD: 15 x 12 x 3.125 \n  \n  \n All of the above USPS flat rate boxes are rated for 70 lbs domestic, and many of us rely on these free USPS-supplied boxes rather than our own custom packaging. Having all of these boxes available, with accurate dimensions, is important for correct packing and pricing. \n 2. Behavior when using only USPS Flat Rate boxes \n For stores that exclusively use USPS Flat Rate boxes (and not their own custom boxes), the plugin tends to jump to the Large Flat Rate box instead of selecting the smallest appropriate flat rate option. In my case, Priority Mail will sometimes show up using a custom box that is cheaper than a USPS Flat Rate box, but many businesses don’t buy their own boxes and rely solely on USPS flat rate packaging. \n 3. Product dimensions being changed and forcing the wrong box \n I’ve attached screenshots for this part. \n The product I’m testing is: \n  \n Weight: 0.65 lb \n  \n Dimensions: 10 x 8 x 5 \n  \n This should easily fit into a Medium Top-Loading Flat Rate box. However, the plugin is changing the item’s dimensions to 12 x 5.5 x 12 during packing, which forces it into a Large Flat Rate box instead of the correct medium box. \n In my own setup, I created a custom top-loading medium box, and when that is used, Ground Advantage and Priority Mail (in my own box) show up correctly. But because the USPS box dimensions in the plugin are incorrect and incomplete, the system keeps selecting the highest-priced Large Flat Rate box instead of a Medium Flat Rate box supplied by USPS. \nThank you for your time and help with this situation. If you need any additional screenshots, test data, or examples from my store setup, I’m happy to provide them.\n\n\n-- \n   All the best, \n  Kenny Conklin  \n  CEO Hobby Link International Inc.  \n  Editor Hobby Link International Publications  \n  https://www.hobbylinkinternational.com  https://www.community.hobbylinkinternational.com  \n  Hobby Link International Inc.  2 Oakwood Drive  Parlin NJ 08859  \n  1-347-993-6806",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/53296866513049.json",
+          "id": 53296866513049,
+          "file_name": "Screenshot 2025-12-12 113703.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/QTpOSOdCU6SVlBqI3hFy7uadf/?name=Screenshot+2025-12-12+113703.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/QTpOSOdCU6SVlBqI3hFy7uadf/?name=Screenshot+2025-12-12+113703.png",
+          "content_type": "image/png",
+          "size": 248189,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/53296880416921.json",
+              "id": 53296880416921,
+              "file_name": "Screenshot_2025-12-12_113703_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/Fk9njGKn7LveKWM9evuEnj1pI/?name=Screenshot_2025-12-12_113703_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/Fk9njGKn7LveKWM9evuEnj1pI/?name=Screenshot_2025-12-12_113703_thumb.png",
+              "content_type": "image/png",
+              "size": 2069,
+              "width": 80,
+              "height": 33,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/53296888640921.json",
+          "id": 53296888640921,
+          "file_name": "Screenshot 2025-12-12 113254.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/Ury7YOSbNYyZomFiIVhq9in3v/?name=Screenshot+2025-12-12+113254.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/Ury7YOSbNYyZomFiIVhq9in3v/?name=Screenshot+2025-12-12+113254.png",
+          "content_type": "image/png",
+          "size": 267952,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/53296872390041.json",
+              "id": 53296872390041,
+              "file_name": "Screenshot_2025-12-12_113254_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/9xR4rx6IPUko0DV7HOtQI3YAp/?name=Screenshot_2025-12-12_113254_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/9xR4rx6IPUko0DV7HOtQI3YAp/?name=Screenshot_2025-12-12_113254_thumb.png",
+              "content_type": "image/png",
+              "size": 1191,
+              "width": 80,
+              "height": 37,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/53296888649241.json",
+          "id": 53296888649241,
+          "file_name": "Screenshot 2025-12-12 113324.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/JNb9MQz44rtNbnORuJYUXm5ji/?name=Screenshot+2025-12-12+113324.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/JNb9MQz44rtNbnORuJYUXm5ji/?name=Screenshot+2025-12-12+113324.png",
+          "content_type": "image/png",
+          "size": 94834,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/53296888716441.json",
+              "id": 53296888716441,
+              "file_name": "Screenshot_2025-12-12_113324_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/mNauBGXm4cpRgKPBIDubsYAFF/?name=Screenshot_2025-12-12_113324_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/mNauBGXm4cpRgKPBIDubsYAFF/?name=Screenshot_2025-12-12_113324_thumb.png",
+              "content_type": "image/png",
+              "size": 1349,
+              "width": 80,
+              "height": 28,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/53296888652953.json",
+          "id": 53296888652953,
+          "file_name": "Screenshot 2025-12-12 115637.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/Eu0G3rSlFcAnfnjTSgayajFTA/?name=Screenshot+2025-12-12+115637.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/Eu0G3rSlFcAnfnjTSgayajFTA/?name=Screenshot+2025-12-12+115637.png",
+          "content_type": "image/png",
+          "size": 131390,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/53296866571929.json",
+              "id": 53296866571929,
+              "file_name": "Screenshot_2025-12-12_115637_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/pmj9tjlQJcjLNtWBqTVRBUAaJ/?name=Screenshot_2025-12-12_115637_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/pmj9tjlQJcjLNtWBqTVRBUAaJ/?name=Screenshot_2025-12-12_115637_thumb.png",
+              "content_type": "image/png",
+              "size": 4291,
+              "width": 80,
+              "height": 71,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 53296866506009,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "hobbylinkinternational@gmail.com",
+            "name": "Kenny",
+            "original_recipients": [
+              "hobbylinkinternational@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-12T17:06:32Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMXO+4nKfC_QO7NQFF=sN6Bg78E46YJd_M-QV99D_ufhQ_pU=w@mail.gmail.com>",
+          "email_id": "01KC9REDGH6SX7FZBZ3YB4PSJ6",
+          "raw_email_identifier": "2369120/8c10cb2f-8eec-4cba-b1df-e84f8c1dc8a7.eml",
+          "json_email_identifier": "2369120/8c10cb2f-8eec-4cba-b1df-e84f8c1dc8a7.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 53297702751641,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Store: US\nOrders: NA\nCarriers: USPS, UPS and FedEx.\nInstalled On: 02.12.2025\nActivity:\n\n- Rates: Active\n- Labels: Inactive\nCurrently on trial.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Store: US<br>Orders: NA<br>Carriers: USPS, UPS and FedEx.<br>Installed On: 02.12.2025<br>Activity:<br><ul dir=\"auto\"><li>Rates: Active</li><li>Labels: Inactive</li></ul>Currently on trial.<br></div>",
+      "plain_body": "Store: US\nOrders: NA\nCarriers: USPS, UPS and FedEx.\nInstalled On: 02.12.2025\nActivity:\n  Rates: Active  Labels: Inactive  Currently on trial.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 53297702751513,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-12T18:06:24Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+          "ip_address": "49.37.171.172",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 53297715576985,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Kenny,\n\nThank you for reaching out with your case.\n\nWe will be happy to look into the USPS Flat rate box sizes case you have shared.\n\nTo verify the same from our end, could you please share the official USPS page link where these box sizes are listed.\n\nWe will check and verify the case and take necessary action as needed.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Kenny,<br>&nbsp;<br>Thank you for reaching out with your case.<br>&nbsp;<br>We will be happy to look into the USPS Flat rate box sizes case you have shared.<br>&nbsp;<br>To verify the same from our end, could you please share the official USPS page link where these box sizes are listed.<br>&nbsp;<br>We will check and verify the case and take necessary action as needed.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Kenny,\n&nbsp;\nThank you for reaching out with your case.\n&nbsp;\nWe will be happy to look into the USPS Flat rate box sizes case you have shared.\n&nbsp;\nTo verify the same from our end, could you please share the official USPS page link where these box sizes are listed.\n&nbsp;\nWe will check and verify the case and take necessary action as needed.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 53297715576857,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-12T18:08:09Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+          "ip_address": "49.37.171.172",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 53299114717209,
+      "type": "Comment",
+      "author_id": 52418955418137,
+      "body": "Hi Touseef,\n\nThank you for the quick response.\n\nUSPS does not provide a single consolidated table with the internal and external dimensions of all their Flat Rate boxes, and several of the box types do not have dedicated USPS web pages with ID/OD measurements. Because of this, the most accurate and reliable source is the **physical USPS packaging itself**, where the official dimensions are printed directly on each flat, unassembled box.\n\nI’ve taken photos of all the USPS Flat Rate boxes I use in my business and have attached them to this email. Each set includes:\n\n1.\n\nA photo of the box as it comes from USPS\n\n2.\n\nA close-up photo of the printed ID/OD dimensions\n\nUSPS clearly labels every box except for **the Large Flat Rate Side-Loading box**. USPS does not label the Large Flat Rate Side-Loading box with the words “Large Flat Rate,” but the printed ID/OD measurements confirm it is the correct official Flat Rate Side Loader.\n\nAttached are photos for the following box types:\n\n-\n\nSmall Flat Rate Box\n\n-\n\nMedium Flat Rate Box – Top Loading\n\n-\n\nMedium Flat Rate Box – Side Loading\n\n-\n\nLarge Flat Rate Box – Top Loading\n\n-\n\nLarge Flat Rate Box – Side Loading (unlabeled, but official)\n\nPlease let me know if you need any additional photos, measurements, or information.\n\nThank you again for your help,\nKenny\n\n ![](https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png) USPS_Large_FlatRate_SideLoad_Dimensions.jpg.jpg\n\n ![](https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png) USPS_Large_FlatRate_SideLoad_Full.jpg.jpg\n\n ![](https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png) USPS_Large_FlatRate_TopLoad_Dimensions.jpg.jpg\n\n ![](https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png) USPS_Large_FlatRate_TopLoad_Full.jpg.jpg\n\n ![](https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png) USPS_Medium_FlatRate_SideLoad_Dimensions.jpg.jpg\n\n ![](https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png) USPS_Medium_FlatRate_SideLoad_Full.jpg.jpg\n\n ![](https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png) USPS_Medium_FlatRate_TopLoad_Dimensions.jpg.jpg\n\n ![](https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png) USPS_Medium_FlatRate_TopLoad_Full.jpg.jpg\n\n ![](https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png) USPS_Small_FlatRate_Box_Dimensions.jpg.jpg\n\n ![](https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png) USPS_Small_FlatRate_Box_Full.jpg.jpg",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">\n<p dir=\"auto\">Hi Touseef,</p>\n<p dir=\"auto\">Thank you for the quick response.</p>\n<p dir=\"auto\">USPS does not provide a single consolidated table with the internal and external dimensions of all their Flat Rate boxes, and several of the box types do not have dedicated USPS web pages with ID/OD measurements. Because of this, the most accurate and reliable source is the <strong>physical USPS packaging itself</strong>, where the official dimensions are printed directly on each flat, unassembled box.</p>\n<p dir=\"auto\">I’ve taken photos of all the USPS Flat Rate boxes I use in my business and have attached them to this email. Each set includes:</p>\n<ol dir=\"auto\"><li>\n<p dir=\"auto\">A photo of the box as it comes from USPS</p>\n</li><li>\n<p dir=\"auto\">A close-up photo of the printed ID/OD dimensions</p>\n</li></ol>\n<p dir=\"auto\">USPS clearly labels every box except for <strong>the Large Flat Rate Side-Loading box</strong>. USPS does not label the Large Flat Rate Side-Loading box with the words “Large Flat Rate,” but the printed ID/OD measurements confirm it is the correct official Flat Rate Side Loader.</p>\n<p dir=\"auto\">Attached are photos for the following box types:</p>\n<ul dir=\"auto\"><li>\n<p dir=\"auto\">Small Flat Rate Box</p>\n</li><li>\n<p dir=\"auto\">Medium Flat Rate Box – Top Loading</p>\n</li><li>\n<p dir=\"auto\">Medium Flat Rate Box – Side Loading</p>\n</li><li>\n<p dir=\"auto\">Large Flat Rate Box – Top Loading</p>\n</li><li>\n<p dir=\"auto\">Large Flat Rate Box – Side Loading (unlabeled, but official)</p>\n</li></ul>\n<p dir=\"auto\">Please let me know if you need any additional photos, measurements, or information.</p>\n<p dir=\"auto\">Thank you again for your help,<br>\nKenny</p><div style=\"width: 386px; height: 20px; max-height: 20px; background-color: rgb(245,245,245); color: rgb(34,34,34); margin: 6px 0px; padding: 10px; border: 1px solid rgb(221,221,221); font: 14px/20px &quot;Google Sans&quot;, sans-serif;\"><a href=\"https://drive.google.com/file/d/1P82SZ4OUZyM4S9Ts075SW00qZwd10gH2/view?usp=drive_web\" style=\"color: #202124; display: inline-block; max-width: 356px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; border-style: none;\" rel=\"noreferrer\"><img style=\"vertical-align: text-bottom; padding-right: 10px; height: 20px; border-style: none;\" alt=\"\" src=\"https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png\">&nbsp;<span dir=\"ltr\" style=\"vertical-align: bottom; text-decoration: none;\">USPS_Large_FlatRate_SideLoad_Dimensions.jpg.jpg</span></a></div><div style=\"width: 386px; height: 20px; max-height: 20px; background-color: rgb(245,245,245); color: rgb(34,34,34); margin: 6px 0px; padding: 10px; border: 1px solid rgb(221,221,221); font: 14px/20px &quot;Google Sans&quot;, sans-serif;\"><a href=\"https://drive.google.com/file/d/1XHQDp2Yh89aDB2sEB2OULUacA1JvAnEs/view?usp=drive_web\" style=\"color: #202124; display: inline-block; max-width: 356px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; border-style: none;\" rel=\"noreferrer\"><img style=\"vertical-align: text-bottom; padding-right: 10px; height: 20px; border-style: none;\" alt=\"\" src=\"https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png\">&nbsp;<span dir=\"ltr\" style=\"vertical-align: bottom; text-decoration: none;\">USPS_Large_FlatRate_SideLoad_Full.jpg.jpg</span></a></div><div style=\"width: 386px; height: 20px; max-height: 20px; background-color: rgb(245,245,245); color: rgb(34,34,34); margin: 6px 0px; padding: 10px; border: 1px solid rgb(221,221,221); font: 14px/20px &quot;Google Sans&quot;, sans-serif;\"><a href=\"https://drive.google.com/file/d/1q-2T8jstkdxmkCM8FYA80IrAFm9JkZqo/view?usp=drive_web\" style=\"color: #202124; display: inline-block; max-width: 356px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; border-style: none;\" rel=\"noreferrer\"><img style=\"vertical-align: text-bottom; padding-right: 10px; height: 20px; border-style: none;\" alt=\"\" src=\"https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png\">&nbsp;<span dir=\"ltr\" style=\"vertical-align: bottom; text-decoration: none;\">USPS_Large_FlatRate_TopLoad_Dimensions.jpg.jpg</span></a></div><div style=\"width: 386px; height: 20px; max-height: 20px; background-color: rgb(245,245,245); color: rgb(34,34,34); margin: 6px 0px; padding: 10px; border: 1px solid rgb(221,221,221); font: 14px/20px &quot;Google Sans&quot;, sans-serif;\"><a href=\"https://drive.google.com/file/d/1zgbBKFaJPkyHdpA_yekoPBVc3s7-WX7a/view?usp=drive_web\" style=\"color: #202124; display: inline-block; max-width: 356px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; border-style: none;\" rel=\"noreferrer\"><img style=\"vertical-align: text-bottom; padding-right: 10px; height: 20px; border-style: none;\" alt=\"\" src=\"https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png\">&nbsp;<span dir=\"ltr\" style=\"vertical-align: bottom; text-decoration: none;\">USPS_Large_FlatRate_TopLoad_Full.jpg.jpg</span></a></div><div style=\"width: 386px; height: 20px; max-height: 20px; background-color: rgb(245,245,245); color: rgb(34,34,34); margin: 6px 0px; padding: 10px; border: 1px solid rgb(221,221,221); font: 14px/20px &quot;Google Sans&quot;, sans-serif;\"><a href=\"https://drive.google.com/file/d/1nRe6yDXI5vO8lf8ZL7Qxbi86lJXQUqmS/view?usp=drive_web\" style=\"color: #202124; display: inline-block; max-width: 356px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; border-style: none;\" rel=\"noreferrer\"><img style=\"vertical-align: text-bottom; padding-right: 10px; height: 20px; border-style: none;\" alt=\"\" src=\"https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png\">&nbsp;<span dir=\"ltr\" style=\"vertical-align: bottom; text-decoration: none;\">USPS_Medium_FlatRate_SideLoad_Dimensions.jpg.jpg</span></a></div><div style=\"width: 386px; height: 20px; max-height: 20px; background-color: rgb(245,245,245); color: rgb(34,34,34); margin: 6px 0px; padding: 10px; border: 1px solid rgb(221,221,221); font: 14px/20px &quot;Google Sans&quot;, sans-serif;\"><a href=\"https://drive.google.com/file/d/19hS9Yrpw3BY59eth0VJUzSQNw4C-Sxxu/view?usp=drive_web\" style=\"color: #202124; display: inline-block; max-width: 356px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; border-style: none;\" rel=\"noreferrer\"><img style=\"vertical-align: text-bottom; padding-right: 10px; height: 20px; border-style: none;\" alt=\"\" src=\"https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png\">&nbsp;<span dir=\"ltr\" style=\"vertical-align: bottom; text-decoration: none;\">USPS_Medium_FlatRate_SideLoad_Full.jpg.jpg</span></a></div><div style=\"width: 386px; height: 20px; max-height: 20px; background-color: rgb(245,245,245); color: rgb(34,34,34); margin: 6px 0px; padding: 10px; border: 1px solid rgb(221,221,221); font: 14px/20px &quot;Google Sans&quot;, sans-serif;\"><a href=\"https://drive.google.com/file/d/1tLO0qdwruRKOypZK4kmk5uJjzaqo5BeG/view?usp=drive_web\" style=\"color: #202124; display: inline-block; max-width: 356px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; border-style: none;\" rel=\"noreferrer\"><img style=\"vertical-align: text-bottom; padding-right: 10px; height: 20px; border-style: none;\" alt=\"\" src=\"https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png\">&nbsp;<span dir=\"ltr\" style=\"vertical-align: bottom; text-decoration: none;\">USPS_Medium_FlatRate_TopLoad_Dimensions.jpg.jpg</span></a></div><div style=\"width: 386px; height: 20px; max-height: 20px; background-color: rgb(245,245,245); color: rgb(34,34,34); margin: 6px 0px; padding: 10px; border: 1px solid rgb(221,221,221); font: 14px/20px &quot;Google Sans&quot;, sans-serif;\"><a href=\"https://drive.google.com/file/d/1y3P-3CGbsSfRD7G0uhIslzuvowuEB8or/view?usp=drive_web\" style=\"color: #202124; display: inline-block; max-width: 356px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; border-style: none;\" rel=\"noreferrer\"><img style=\"vertical-align: text-bottom; padding-right: 10px; height: 20px; border-style: none;\" alt=\"\" src=\"https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png\">&nbsp;<span dir=\"ltr\" style=\"vertical-align: bottom; text-decoration: none;\">USPS_Medium_FlatRate_TopLoad_Full.jpg.jpg</span></a></div><div style=\"width: 386px; height: 20px; max-height: 20px; background-color: rgb(245,245,245); color: rgb(34,34,34); margin: 6px 0px; padding: 10px; border: 1px solid rgb(221,221,221); font: 14px/20px &quot;Google Sans&quot;, sans-serif;\"><a href=\"https://drive.google.com/file/d/1q2zPT-tqbCLkYEG-0t3AukNbG1KmdZwh/view?usp=drive_web\" style=\"color: #202124; display: inline-block; max-width: 356px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; border-style: none;\" rel=\"noreferrer\"><img style=\"vertical-align: text-bottom; padding-right: 10px; height: 20px; border-style: none;\" alt=\"\" src=\"https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png\">&nbsp;<span dir=\"ltr\" style=\"vertical-align: bottom; text-decoration: none;\">USPS_Small_FlatRate_Box_Dimensions.jpg.jpg</span></a></div><div style=\"width: 386px; height: 20px; max-height: 20px; background-color: rgb(245,245,245); color: rgb(34,34,34); margin: 6px 0px; padding: 10px; border: 1px solid rgb(221,221,221); font: 14px/20px &quot;Google Sans&quot;, sans-serif;\"><a href=\"https://drive.google.com/file/d/11w52NU-iPx1hwWU2HCdxjW9KIp7wYsKs/view?usp=drive_web\" style=\"color: #202124; display: inline-block; max-width: 356px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; border-style: none;\" rel=\"noreferrer\"><img style=\"vertical-align: text-bottom; padding-right: 10px; height: 20px; border-style: none;\" alt=\"\" src=\"https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png\">&nbsp;<span dir=\"ltr\" style=\"vertical-align: bottom; text-decoration: none;\">USPS_Small_FlatRate_Box_Full.jpg.jpg</span></a></div></div><br><div></div></div>",
+      "plain_body": "Hi Touseef, \n Thank you for the quick response. \n USPS does not provide a single consolidated table with the internal and external dimensions of all their Flat Rate boxes, and several of the box types do not have dedicated USPS web pages with ID/OD measurements. Because of this, the most accurate and reliable source is the physical USPS packaging itself, where the official dimensions are printed directly on each flat, unassembled box. \n I’ve taken photos of all the USPS Flat Rate boxes I use in my business and have attached them to this email. Each set includes: \n  \n A photo of the box as it comes from USPS \n  \n A close-up photo of the printed ID/OD dimensions \n  \n USPS clearly labels every box except for the Large Flat Rate Side-Loading box. USPS does not label the Large Flat Rate Side-Loading box with the words “Large Flat Rate,” but the printed ID/OD measurements confirm it is the correct official Flat Rate Side Loader. \n Attached are photos for the following box types: \n  \n Small Flat Rate Box \n  \n Medium Flat Rate Box – Top Loading \n  \n Medium Flat Rate Box – Side Loading \n  \n Large Flat Rate Box – Top Loading \n  \n Large Flat Rate Box – Side Loading (unlabeled, but official) \n  \n Please let me know if you need any additional photos, measurements, or information. \n Thank you again for your help,\n\nKenny  &nbsp;USPS_Large_FlatRate_SideLoad_Dimensions.jpg.jpg  &nbsp;USPS_Large_FlatRate_SideLoad_Full.jpg.jpg  &nbsp;USPS_Large_FlatRate_TopLoad_Dimensions.jpg.jpg  &nbsp;USPS_Large_FlatRate_TopLoad_Full.jpg.jpg  &nbsp;USPS_Medium_FlatRate_SideLoad_Dimensions.jpg.jpg  &nbsp;USPS_Medium_FlatRate_SideLoad_Full.jpg.jpg  &nbsp;USPS_Medium_FlatRate_TopLoad_Dimensions.jpg.jpg  &nbsp;USPS_Medium_FlatRate_TopLoad_Full.jpg.jpg  &nbsp;USPS_Small_FlatRate_Box_Dimensions.jpg.jpg  &nbsp;USPS_Small_FlatRate_Box_Full.jpg.jpg",
+      "public": true,
+      "attachments": [],
+      "audit_id": 53299114717081,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "hobbylinkinternational@gmail.com",
+            "name": "Kenny",
+            "original_recipients": [
+              "hobbylinkinternational@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-12T20:21:30Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMXO+4kMFeqZ-L3YTrcytD__ppCsWDJc6iBWSczP5PW5GO=BgA@mail.gmail.com>",
+          "email_id": "01KCA3KH0FE1TA1KN11M146D6C",
+          "raw_email_identifier": "2369120/7a70abda-039c-436f-be0a-208b45286f73.eml",
+          "json_email_identifier": "2369120/7a70abda-039c-436f-be0a-208b45286f73.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 53299248264089,
+      "type": "Comment",
+      "author_id": 52418955418137,
+      "body": "They actually came out with two more boxes a small and a large priority flat rate box, I just ordered those and should be to me I probably about a week, once those come in I will send you pictures and dimensions of those too.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">They actually came out with two more boxes a small and a large priority flat rate box, I just ordered those and should be to me I probably&nbsp;about a week, once those come in I will send you pictures and dimensions of those too.</div><br><div></div></div>",
+      "plain_body": "They actually came out with two more boxes a small and a large priority flat rate box, I just ordered those and should be to me I probably&nbsp;about a week, once those come in I will send you pictures and dimensions of those too.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 53299235043225,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "hobbylinkinternational@gmail.com",
+            "name": "Kenny",
+            "original_recipients": [
+              "hobbylinkinternational@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-12T20:44:52Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMXO+4nSk7pwr=gwym5cHbRXM=1sTFPz4a2U5U_8cNvYNEASMA@mail.gmail.com>",
+          "email_id": "01KCA4Y9DDNZ0444QNPNE5XPC2",
+          "raw_email_identifier": "2369120/7d5e03ab-8640-4720-8b10-b0b4fc11db7c.eml",
+          "json_email_identifier": "2369120/7d5e03ab-8640-4720-8b10-b0b4fc11db7c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 53299773808793,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Kenny,\n\nThank you for your response.\n\nI do acknowledge the missing box sizes and the dimensions mismatch case you have shared.\n\nHowever, for us to make changes in the app, we will have to verify the same details on USPS official sources which is the reason for my request to share any official page where these details are listed.\n\nThis will help us in reaching out to USPS team to get confirmation with reference and make changes in the plugin if necessary.\n\nCould you please refer to this page - https://store.usps.com/store/shipping-supplies and let us know if all the boxes listed here are correct and as per the details you are sharing?\n\nOnce confirmed, we will check your case further.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Kenny,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>I do acknowledge the missing box sizes and the dimensions mismatch case you have shared.<br>&nbsp;<br>However, for us to make changes in the app, we will have to verify the same details on USPS official sources which is the reason for my request to share any official page where these details are listed.<br>&nbsp;<br>This will help us in reaching out to USPS team to get confirmation with reference and make changes in the plugin if necessary.<br>&nbsp;<br>Could you please refer to this page - <a rel=\"noopener noreferrer\" href=\"https://store.usps.com/store/shipping-supplies\">https://store.usps.com/store/shipping-supplies</a> and let us know if all the boxes listed here are correct and as per the details you are sharing?<br>&nbsp;<br>Once confirmed, we will check your case further.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Kenny,\n&nbsp;\nThank you for your response.\n&nbsp;\nI do acknowledge the missing box sizes and the dimensions mismatch case you have shared.\n&nbsp;\nHowever, for us to make changes in the app, we will have to verify the same details on USPS official sources which is the reason for my request to share any official page where these details are listed.\n&nbsp;\nThis will help us in reaching out to USPS team to get confirmation with reference and make changes in the plugin if necessary.\n&nbsp;\nCould you please refer to this page - https://store.usps.com/store/shipping-supplies and let us know if all the boxes listed here are correct and as per the details you are sharing?\n&nbsp;\nOnce confirmed, we will check your case further.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 53299773808665,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-12T21:51:40Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+          "ip_address": "49.37.171.172",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 53302004626329,
+      "type": "Comment",
+      "author_id": 52418955418137,
+      "body": "H\n\nHi Touseef,\n\nThank you for your quick reply.\n\nThe USPS page you linked does list the correct Flat Rate box types, and the boxes shown there match the same physical boxes I photographed. However, that USPS page does not provide any ID/OD (internal or external) dimensions for the Flat Rate boxes. USPS does not publish the exact dimensions on their store site, which is why I provided photos of the physical boxes with the printed measurements directly from USPS packaging.\n\nTo answer your question:\n\nYes, the USPS store page shows the correct box types.\nNo, it does not include the dimensions needed to verify or correct the plugin.\n\nThis is why the printed dimensions on the actual USPS packaging are the most accurate reference available. These measurements come directly from USPS manufacturing and are printed on each box they supply.\n\nPlease let me know if you need me to identify which photo corresponds to which box type shown on the USPS page. I am happy to provide any additional details.\n\nThank you again,\nKenny\n\nSmall Flat Rate Priority Box\n\n(You have this one in the plugin. This is the commonly used small box.)\nhttps://store.usps.com/store/product/priority-mail-flat-rate-small-box-P_SMALL_FRB\n\nSmall Flat Rate Priority Box – Type 2\n(Currently not included in the plugin. This version offers slightly more internal space at the same small flat rate price.)\nhttps://store.usps.com/store/product/priority-mail-small-box-P_O_1096L\n\nMedium Flat Rate Priority Box – Top Loading\n(This is an important one missing from the plugin. Without this medium top-loading box, packing tends to skip directly to the large flat rate box. USPS uses this box for both domestic and international service. You do have the this box but it is only set to international)\nhttps://store.usps.com/store/product/priority-mail-flat-rate-medium-box-P_O_FRB1\n\nMedium Flat Rate Priority Box – Side Loading\n(This one is already included in the plugin.)\nhttps://store.usps.com/store/product/priority-mail-flat-rate-side-loading-medium-box-P_O_FRB2\n\nLarge Flat Rate Priority Box – Top Loading\n(This large flat rate box is included in the plugin.)\nhttps://store.usps.com/store/product/priority-mail-flat-rate-large-box-P_LARGE_FRB\n\nLarge Flat Rate Priority Box – Top Loading Type 2\n(This version is not currently in the plugin and offers slightly different usable space at the same large flat rate price.)\nhttps://store.usps.com/store/product/priority-mail-large-box-P_O_BOX7\n\nLarge Flat Rate Priority Box – Side Loading\n(This large side-loading flat rate box is not currently included in the plugin.)\nhttps://store.usps.com/store/product/priority-mail-side-loading-large-box-P_O_1095",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div><div><div><div>\n<p dir=\"auto\">H\n</p><p dir=\"auto\">Hi Touseef,</p>\n<p dir=\"auto\">Thank you for your quick reply.</p>\n<p dir=\"auto\">The USPS page you linked does list the correct Flat Rate box types, and the boxes shown there match the same physical boxes I photographed. However, that USPS page does not provide any ID/OD (internal or external) dimensions for the Flat Rate boxes. USPS does not publish the exact dimensions on their store site, which is why I provided photos of the physical boxes with the printed measurements directly from USPS packaging.</p>\n<p dir=\"auto\">To answer your question:</p>\n<p dir=\"auto\">Yes, the USPS store page shows the correct box types.<br>\nNo, it does not include the dimensions needed to verify or correct the plugin.</p>\n<p dir=\"auto\">This is why the printed dimensions on the actual USPS packaging are the most accurate reference available. These measurements come directly from USPS manufacturing and are printed on each box they supply.</p>\n<p dir=\"auto\">Please let me know if you need me to identify which photo corresponds to which box type shown on the USPS page. I am happy to provide any additional details.</p>\n<p dir=\"auto\">Thank you again,<br>\nKenny</p>\n\nSmall Flat Rate Priority Box</div></div></div></div><div>\n(You have this one in the plugin. This is the commonly used small box.)<br>\n<a href=\"https://store.usps.com/store/product/priority-mail-flat-rate-small-box-P_SMALL_FRB\" rel=\"noreferrer\">https://store.usps.com/store/product/priority-mail-flat-rate-small-box-P_SMALL_FRB<span></span></a>\n<p dir=\"auto\">Small Flat Rate Priority Box – Type 2<br>\n(Currently not included in the plugin. This version offers slightly more internal space at the same small flat rate price.)<br>\n<a href=\"https://store.usps.com/store/product/priority-mail-small-box-P_O_1096L\" rel=\"noreferrer\">https://store.usps.com/store/product/priority-mail-small-box-P_O_1096L<span></span></a></p>Medium Flat Rate Priority Box – Top Loading<br>\n(This is an important one missing from the plugin. Without this medium top-loading box, packing tends to skip directly to the large flat rate box. USPS uses this box for both domestic and international service. You do have the this box but it is only set to international)<br>\n<a href=\"https://store.usps.com/store/product/priority-mail-flat-rate-medium-box-P_O_FRB1\" rel=\"noreferrer\">https://store.usps.com/store/product/priority-mail-flat-rate-medium-box-P_O_FRB1<span></span></a><br><br>Medium Flat Rate Priority Box – Side Loading<br>\n(This one is already included in the plugin.)<br>\n<a href=\"https://store.usps.com/store/product/priority-mail-flat-rate-side-loading-medium-box-P_O_FRB2\" rel=\"noreferrer\">https://store.usps.com/store/product/priority-mail-flat-rate-side-loading-medium-box-P_O_FRB2<span></span></a><br><br>Large Flat Rate Priority Box – Top Loading<br>\n(This large flat rate box is included in the plugin.)<br>\n<a href=\"https://store.usps.com/store/product/priority-mail-flat-rate-large-box-P_LARGE_FRB\" rel=\"noreferrer\">https://store.usps.com/store/product/priority-mail-flat-rate-large-box-P_LARGE_FRB<br><br><span></span></a>Large Flat Rate Priority Box – Top Loading Type 2<br>\n(This version is not currently in the plugin and offers slightly different usable space at the same large flat rate price.)<br>\n<a href=\"https://store.usps.com/store/product/priority-mail-large-box-P_O_BOX7\" rel=\"noreferrer\">https://store.usps.com/store/product/priority-mail-large-box-P_O_BOX7<span></span></a><br><br>Large Flat Rate Priority Box – Side Loading<br>\n(This large side-loading flat rate box is not currently included in the plugin.)<br>\n<a href=\"https://store.usps.com/store/product/priority-mail-side-loading-large-box-P_O_1095\" rel=\"noreferrer\">https://store.usps.com/store/product/priority-mail-side-loading-large-box-P_O_1095<span></span></a>\n\n<br><br></div><div><br></div></div><br><div></div></div>",
+      "plain_body": "H\n  Hi Touseef, \n Thank you for your quick reply. \n The USPS page you linked does list the correct Flat Rate box types, and the boxes shown there match the same physical boxes I photographed. However, that USPS page does not provide any ID/OD (internal or external) dimensions for the Flat Rate boxes. USPS does not publish the exact dimensions on their store site, which is why I provided photos of the physical boxes with the printed measurements directly from USPS packaging. \n To answer your question: \n Yes, the USPS store page shows the correct box types.\n\nNo, it does not include the dimensions needed to verify or correct the plugin. \n This is why the printed dimensions on the actual USPS packaging are the most accurate reference available. These measurements come directly from USPS manufacturing and are printed on each box they supply. \n Please let me know if you need me to identify which photo corresponds to which box type shown on the USPS page. I am happy to provide any additional details. \n Thank you again,\n\nKenny \n\nSmall Flat Rate Priority Box     \n(You have this one in the plugin. This is the commonly used small box.)\n\nhttps://store.usps.com/store/product/priority-mail-flat-rate-small-box-P_SMALL_FRB\n Small Flat Rate Priority Box – Type 2\n\n(Currently not included in the plugin. This version offers slightly more internal space at the same small flat rate price.)\n\nhttps://store.usps.com/store/product/priority-mail-small-box-P_O_1096L Medium Flat Rate Priority Box – Top Loading\n\n(This is an important one missing from the plugin. Without this medium top-loading box, packing tends to skip directly to the large flat rate box. USPS uses this box for both domestic and international service. You do have the this box but it is only set to international)\n\nhttps://store.usps.com/store/product/priority-mail-flat-rate-medium-box-P_O_FRB1\n\nMedium Flat Rate Priority Box – Side Loading\n\n(This one is already included in the plugin.)\n\nhttps://store.usps.com/store/product/priority-mail-flat-rate-side-loading-medium-box-P_O_FRB2\n\nLarge Flat Rate Priority Box – Top Loading\n\n(This large flat rate box is included in the plugin.)\n\nhttps://store.usps.com/store/product/priority-mail-flat-rate-large-box-P_LARGE_FRB\n\nLarge Flat Rate Priority Box – Top Loading Type 2\n\n(This version is not currently in the plugin and offers slightly different usable space at the same large flat rate price.)\n\nhttps://store.usps.com/store/product/priority-mail-large-box-P_O_BOX7\n\nLarge Flat Rate Priority Box – Side Loading\n\n(This large side-loading flat rate box is not currently included in the plugin.)\n\nhttps://store.usps.com/store/product/priority-mail-side-loading-large-box-P_O_1095",
+      "public": true,
+      "attachments": [],
+      "audit_id": 53302004626201,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "hobbylinkinternational@gmail.com",
+            "name": "Kenny",
+            "original_recipients": [
+              "hobbylinkinternational@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-13T00:43:03Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMXO+4=bmJKMn=0V9TyQV8CHBxf2SqeC_UVPmK+QtWm8R7OtPQ@mail.gmail.com>",
+          "email_id": "01KCAJJCYQFB3EJSZRVJ4H4R8C",
+          "raw_email_identifier": "2369120/c4081018-3dcf-4b0d-81b9-366804509f2a.eml",
+          "json_email_identifier": "2369120/c4081018-3dcf-4b0d-81b9-366804509f2a.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 53302152605081,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Kenny,\n\nThank you for your detailed response.\n\nPlease allow us some time to check the case further.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Kenny,<br>&nbsp;<br>Thank you for your detailed response.<br>&nbsp;<br>Please allow us some time to check the case further.&nbsp;<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Kenny,\n&nbsp;\nThank you for your detailed response.\n&nbsp;\nPlease allow us some time to check the case further.&nbsp;\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 53302152604953,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-13T00:54:01Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+          "ip_address": "49.37.171.172",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 53302250909465,
+      "type": "Comment",
+      "author_id": 52418955418137,
+      "body": "Hi Touseef,\n\nThank you for the quick update. I appreciate you taking the time to review everything, and I’ll wait for your findings. Please let me know if you need anything else from my end.\n\nThanks again,\nKenny",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">\n<p dir=\"auto\">Hi Touseef,</p>\n<p dir=\"auto\">Thank you for the quick update. I appreciate you taking the time to review everything, and I’ll wait for your findings. Please let me know if you need anything else from my end.</p>\n<p dir=\"auto\">Thanks again,<br>\nKenny</p>\n\n<br></div><br><div></div></div>",
+      "plain_body": "Hi Touseef, \n Thank you for the quick update. I appreciate you taking the time to review everything, and I’ll wait for your findings. Please let me know if you need anything else from my end. \n Thanks again,\n\nKenny",
+      "public": true,
+      "attachments": [],
+      "audit_id": 53302250909337,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "hobbylinkinternational@gmail.com",
+            "name": "Kenny",
+            "original_recipients": [
+              "hobbylinkinternational@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-13T00:59:19Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMXO+4mPU2SRCXq_wFVP8Gtkdd5K-8hp86GtXyks+QuuNCs5UA@mail.gmail.com>",
+          "email_id": "01KCAKG647AS509DJ4YA5BWHQN",
+          "raw_email_identifier": "2369120/dedd8422-1106-42c2-af6e-36036f82ec3e.eml",
+          "json_email_identifier": "2369120/dedd8422-1106-42c2-af6e-36036f82ec3e.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 53302237003929,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3:\n\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1765587623417279\nUS customer using WSS mainly for rates with USPS. He has started using the plugin from 02.12.2025\nCustomer has shared that the USPS flat rates boxes added in the app are missing some box sizes and he would like those to be added for flat rate calculation.\nBelow is the list of boxes which are present and not present in the plugin as shared by customer -\n\nSmall Flat Rate Priority Box\n(You have this one in the plugin. This is the commonly used small box.)\nhttps://store.usps.com/store/product/priority-mail-flat-rate-small-box-P_SMALL_FRB\n\nSmall Flat Rate Priority Box – Type 2\n**(Currently not included in the plugin. This version offers slightly more internal space at the same small flat rate price.)**\nhttps://store.usps.com/store/product/priority-mail-small-box-P_O_1096L\n\nMedium Flat Rate Priority Box – Top Loading\n**(This is an important one missing from the plugin. Without this medium top-loading box, packing tends to skip directly to the large flat rate box. USPS uses this box for both domestic and international service. You do have the this box but it is only set to international)**\nhttps://store.usps.com/store/product/priority-mail-flat-rate-medium-box-P_O_FRB1\n\nMedium Flat Rate Priority Box – Side Loading\n(This one is already included in the plugin.)\nhttps://store.usps.com/store/product/priority-mail-flat-rate-side-loading-medium-box-P_O_FRB2\n\nLarge Flat Rate Priority Box – Top Loading\n(This large flat rate box is included in the plugin.)\nhttps://store.usps.com/store/product/priority-mail-flat-rate-large-box-P_LARGE_FRB\n\nLarge Flat Rate Priority Box – Top Loading Type 2\n**(This version is not currently in the plugin and offers slightly different usable space at the same large flat rate price.)**\nhttps://store.usps.com/store/product/priority-mail-large-box-P_O_BOX7\n\nLarge Flat Rate Priority Box – Side Loading\n**(This large side-loading flat rate box is not currently included in the plugin.)**\nhttps://store.usps.com/store/product/priority-mail-side-loading-large-box-P_O_1095\n\nI have cross checked this as well.\nCould you please check and let us know if these boxes can be included in the plugin as well?\n\nURL - hli3dfx.com\nAccount ID - b51dee4b-4485-48a6-8908-10cc7648dae5",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3:<br>&nbsp;<br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1765587623417279\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1765587623417279</a><br>US customer using WSS mainly for rates with USPS. He has started using the plugin from 02.12.2025<br>Customer has shared that the USPS flat rates boxes added in the app are missing some box sizes and he would like those to be added for flat rate calculation.<br>Below is the list of boxes which are present and not present in the plugin as shared by customer -&nbsp;<br>&nbsp;<br>Small Flat Rate Priority Box<br>(You have this one in the plugin. This is the commonly used small box.)<br><a rel=\"noopener noreferrer\" href=\"https://store.usps.com/store/product/priority-mail-flat-rate-small-box-P_SMALL_FRB\">https://store.usps.com/store/product/priority-mail-flat-rate-small-box-P_SMALL_FRB</a><br>&nbsp;<br>Small Flat Rate Priority Box – Type 2<br><strong>(Currently not included in the plugin. This version offers slightly more internal space at the same small flat rate price.)</strong><br><a rel=\"noopener noreferrer\" href=\"https://store.usps.com/store/product/priority-mail-small-box-P_O_1096L\">https://store.usps.com/store/product/priority-mail-small-box-P_O_1096L</a><br>&nbsp;<br>Medium Flat Rate Priority Box – Top Loading<br><strong>(This is an important one missing from the plugin. Without this medium top-loading box, packing tends to skip directly to the large flat rate box. USPS uses this box for both domestic and international service. You do have the this box but it is only set to international)</strong><br><a rel=\"noopener noreferrer\" href=\"https://store.usps.com/store/product/priority-mail-flat-rate-medium-box-P_O_FRB1\">https://store.usps.com/store/product/priority-mail-flat-rate-medium-box-P_O_FRB1</a><br><br>Medium Flat Rate Priority Box – Side Loading<br>(This one is already included in the plugin.)<br><a rel=\"noopener noreferrer\" href=\"https://store.usps.com/store/product/priority-mail-flat-rate-side-loading-medium-box-P_O_FRB2\">https://store.usps.com/store/product/priority-mail-flat-rate-side-loading-medium-box-P_O_FRB2</a><br><br>Large Flat Rate Priority Box – Top Loading<br>(This large flat rate box is included in the plugin.)<br><a rel=\"noopener noreferrer\" href=\"https://store.usps.com/store/product/priority-mail-flat-rate-large-box-P_LARGE_FRB\">https://store.usps.com/store/product/priority-mail-flat-rate-large-box-P_LARGE_FRB</a><br><br>Large Flat Rate Priority Box – Top Loading Type 2<br><strong>(This version is not currently in the plugin and offers slightly different usable space at the same large flat rate price.)</strong><br><a rel=\"noopener noreferrer\" href=\"https://store.usps.com/store/product/priority-mail-large-box-P_O_BOX7\">https://store.usps.com/store/product/priority-mail-large-box-P_O_BOX7</a><br><br>Large Flat Rate Priority Box – Side Loading<br><strong>(This large side-loading flat rate box is not currently included in the plugin.)</strong><br><a rel=\"noopener noreferrer\" href=\"https://store.usps.com/store/product/priority-mail-side-loading-large-box-P_O_1095\">https://store.usps.com/store/product/priority-mail-side-loading-large-box-P_O_1095</a><br>&nbsp;<br>I have cross checked this as well.<br>Could you please check and let us know if these boxes can be included in the plugin as well?<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://hli3dfx.com\">hli3dfx.com</a><br>Account ID - b51dee4b-4485-48a6-8908-10cc7648dae5<br></div>",
+      "plain_body": "L3:\n&nbsp;\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1765587623417279\nUS customer using WSS mainly for rates with USPS. He has started using the plugin from 02.12.2025\nCustomer has shared that the USPS flat rates boxes added in the app are missing some box sizes and he would like those to be added for flat rate calculation.\nBelow is the list of boxes which are present and not present in the plugin as shared by customer -&nbsp;\n&nbsp;\nSmall Flat Rate Priority Box\n(You have this one in the plugin. This is the commonly used small box.)\nhttps://store.usps.com/store/product/priority-mail-flat-rate-small-box-P_SMALL_FRB\n&nbsp;\nSmall Flat Rate Priority Box – Type 2\n(Currently not included in the plugin. This version offers slightly more internal space at the same small flat rate price.)\nhttps://store.usps.com/store/product/priority-mail-small-box-P_O_1096L\n&nbsp;\nMedium Flat Rate Priority Box – Top Loading\n(This is an important one missing from the plugin. Without this medium top-loading box, packing tends to skip directly to the large flat rate box. USPS uses this box for both domestic and international service. You do have the this box but it is only set to international)\nhttps://store.usps.com/store/product/priority-mail-flat-rate-medium-box-P_O_FRB1\n\nMedium Flat Rate Priority Box – Side Loading\n(This one is already included in the plugin.)\nhttps://store.usps.com/store/product/priority-mail-flat-rate-side-loading-medium-box-P_O_FRB2\n\nLarge Flat Rate Priority Box – Top Loading\n(This large flat rate box is included in the plugin.)\nhttps://store.usps.com/store/product/priority-mail-flat-rate-large-box-P_LARGE_FRB\n\nLarge Flat Rate Priority Box – Top Loading Type 2\n(This version is not currently in the plugin and offers slightly different usable space at the same large flat rate price.)\nhttps://store.usps.com/store/product/priority-mail-large-box-P_O_BOX7\n\nLarge Flat Rate Priority Box – Side Loading\n(This large side-loading flat rate box is not currently included in the plugin.)\nhttps://store.usps.com/store/product/priority-mail-side-loading-large-box-P_O_1095\n&nbsp;\nI have cross checked this as well.\nCould you please check and let us know if these boxes can be included in the plugin as well?\n&nbsp;\nURL - hli3dfx.com\nAccount ID - b51dee4b-4485-48a6-8908-10cc7648dae5",
+      "public": false,
+      "attachments": [],
+      "audit_id": 53302237003801,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-13T01:00:36Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+          "ip_address": "49.37.171.172",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 53368216660377,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We will enhance the app to add the missing flat rate boxes in the WSS app.\nPlease inform the customer and move this card to **dev_needed**.\n-[Athul]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will enhance the app to add the missing flat rate boxes in the WSS app.<br>Please inform the customer and move this card to <strong>dev_needed</strong>.<br>-[Athul]<br></div>",
+      "plain_body": "We will enhance the app to add the missing flat rate boxes in the WSS app.\nPlease inform the customer and move this card to dev_needed.\n-[Athul]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 53368216660249,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-15T09:43:37Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+          "ip_address": "103.163.65.25",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 53368302064793,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Kenny,\n\nThank you for your patience.\n\nWe will be enhancing the app to add the missing flat rate boxes in the plugin and we will keep you updated once the plugin is enhanced.\n\nMeanwhile, do let us know if you need any further assistance.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Kenny,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We will be enhancing the app to add the missing flat rate boxes in the plugin and we will keep you updated once the plugin is enhanced.<br>&nbsp;<br>Meanwhile, do let us know if you need any further assistance.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Kenny,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe will be enhancing the app to add the missing flat rate boxes in the plugin and we will keep you updated once the plugin is enhanced.\n&nbsp;\nMeanwhile, do let us know if you need any further assistance.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 53368302064665,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-15T09:46:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "49.37.249.56",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 53378569198105,
+      "type": "Comment",
+      "author_id": 52418955418137,
+      "body": "Thank you so much for the update I really appreciate your help and really love your plugin!!",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Thank you so much for the update I really appreciate your help and really love your plugin!!</div><br><div></div></div>",
+      "plain_body": "Thank you so much for the update I really appreciate your help and really love your plugin!!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 53378569197977,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "hobbylinkinternational@gmail.com",
+            "name": "Kenny",
+            "original_recipients": [
+              "hobbylinkinternational@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-15T18:55:30Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMXO+4ng1DXtXeAEHH4uzkN=nJRi+qeaik+1ppAFfiUDYi=59g@mail.gmail.com>",
+          "email_id": "01KCHNW5XCMF3PECJVPAZY7256",
+          "raw_email_identifier": "2369120/ab6d9a05-bfce-4f04-b518-bc756e66be2b.eml",
+          "json_email_identifier": "2369120/ab6d9a05-bfce-4f04-b518-bc756e66be2b.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 53378572002201,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Kenny,\n\nThank you for your feedback.\n\nWe will keep you posted on the updates.\n\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Kenny,<br>&nbsp;<br>Thank you for your feedback.<br>&nbsp;<br>We will keep you posted on the updates.<br>&nbsp;<br>Thanks and Regards,<br>Sagar K S<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Kenny,\n&nbsp;\nThank you for your feedback.\n&nbsp;\nWe will keep you posted on the updates.\n&nbsp;\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 53378572002073,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-15T18:57:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 53789890659865,
+      "type": "Comment",
+      "author_id": 52418955418137,
+      "body": "Hey guys I have been trying to get a reset code for my password on the main site so I can update my credit card info but I am not getting a reset email at all :( any help would be appreciated.\n\nI saw an update a little while back and checked the shipping boxes I am assuming the fixed shipping boxes wasn't in that update?",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hey guys I have been trying to get a reset code for my password on the main site so I can update my credit card info but I am not getting a reset email at all :( any help would be appreciated.<br></div>I saw an update a little while back and checked the shipping boxes I am assuming the fixed shipping boxes wasn't in that update?</div><br></div>",
+      "plain_body": "Hey guys I have been trying to get a reset code for my password on the main site so I can update my credit card info but I am not getting a reset email at all :( any help would be appreciated.\n I saw an update a little while back and checked the shipping boxes I am assuming the fixed shipping boxes wasn't in that update?",
+      "public": true,
+      "attachments": [],
+      "audit_id": 53789890659737,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "hobbylinkinternational@gmail.com",
+            "name": "Kenny",
+            "original_recipients": [
+              "hobbylinkinternational@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-30T03:33:56Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMXO+4=ksnfVnRHXU6Lde3=ObVigTJXBrNw4E1XdoVQzafd1yw@mail.gmail.com>",
+          "email_id": "01KDPN3GJES3HNQYSACPZKQD7B",
+          "raw_email_identifier": "2369120/5a01b7d3-8dbb-4b1c-a46a-d460c6fed284.eml",
+          "json_email_identifier": "2369120/5a01b7d3-8dbb-4b1c-a46a-d460c6fed284.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 53791424762521,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Kenny,\n\nYou are currently using the **WooCommerce Shipping Services** plugin, which is an advanced solution. The subscription and payment details for this plugin are managed directly within the plugin itself, and there is no need to create a separate PluginHive account.\n\nTo update your card details, you will need to subscribe to the plugin again using the new card information. You can do this by navigating to **Plugin → Accounts → Manage Subscription → Change Subscription**, where you can select a plan and complete the payment. Once the payment is successful, the subscription will be activated with the new card details, and future renewals will be processed using the updated payment method. (Screenshots attached for reference.)\n\nFor your reference, the current subscription is scheduled to expire on **January 13, 2025**. You may update the subscription using the new card details one or two days prior to the expiry date to ensure uninterrupted service.\n\nRegarding the missing USPS Flat Rate boxes, we are actively working on this enhancement. The additional box options will be included in an upcoming release, which is expected to be available by the end of January 2025. Rest assured, we will keep you updated on progress.\n\nPlease feel free to reach out to us anytime if you need assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive\n\n ![](https://pluginhive.zendesk.com/attachments/token/e5OpdBjdKX0Q3Qzu9Ml2LERSF/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Kenny,<br>&nbsp;<br>You are currently using the <strong>WooCommerce Shipping Services</strong> plugin, which is an advanced solution. The subscription and payment details for this plugin are managed directly within the plugin itself, and there is no need to create a separate PluginHive account.<br>&nbsp;<br>To update your card details, you will need to subscribe to the plugin again using the new card information. You can do this by navigating to <strong>Plugin → Accounts → Manage Subscription → Change Subscription</strong>, where you can select a plan and complete the payment. Once the payment is successful, the subscription will be activated with the new card details, and future renewals will be processed using the updated payment method. (Screenshots attached for reference.)<br>&nbsp;<br>For your reference, the current subscription is scheduled to expire on <strong>January 13, 2025</strong>. You may update the subscription using the new card details one or two days prior to the expiry date to ensure uninterrupted service.<br>&nbsp;<br>Regarding the missing USPS Flat Rate boxes, we are actively working on this enhancement. The additional box options will be included in an upcoming release, which is expected to be available by the end of January 2025. Rest assured, we will keep you updated on progress.<br>&nbsp;<br>Please feel free to reach out to us anytime if you need assistance from our end.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/e5OpdBjdKX0Q3Qzu9Ml2LERSF/?name=image.png\"></span><br></div>",
+      "plain_body": "Hello Kenny,\n&nbsp;\nYou are currently using the WooCommerce Shipping Services plugin, which is an advanced solution. The subscription and payment details for this plugin are managed directly within the plugin itself, and there is no need to create a separate PluginHive account.\n&nbsp;\nTo update your card details, you will need to subscribe to the plugin again using the new card information. You can do this by navigating to Plugin → Accounts → Manage Subscription → Change Subscription, where you can select a plan and complete the payment. Once the payment is successful, the subscription will be activated with the new card details, and future renewals will be processed using the updated payment method. (Screenshots attached for reference.)\n&nbsp;\nFor your reference, the current subscription is scheduled to expire on January 13, 2025. You may update the subscription using the new card details one or two days prior to the expiry date to ensure uninterrupted service.\n&nbsp;\nRegarding the missing USPS Flat Rate boxes, we are actively working on this enhancement. The additional box options will be included in an upcoming release, which is expected to be available by the end of January 2025. Rest assured, we will keep you updated on progress.\n&nbsp;\nPlease feel free to reach out to us anytime if you need assistance from our end.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive\n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 53791424762393,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-30T04:25:01Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 53810971450905,
+      "type": "Comment",
+      "author_id": 52418955418137,
+      "body": "Awesome, thanks for the info!",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Awesome, thanks for the info!&nbsp;</div><br><div></div></div>",
+      "plain_body": "Awesome, thanks for the info!&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 53810971450777,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "hobbylinkinternational@gmail.com",
+            "name": "Kenny",
+            "original_recipients": [
+              "hobbylinkinternational@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-12-30T19:53:22Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMXO+4nVUNfW=U92ieQd=2yDcx4JZhiGs_jgC-B6uKNyXmC8dg@mail.gmail.com>",
+          "email_id": "01KDRD4WJSWHEH3KRDQNXAJ2N6",
+          "raw_email_identifier": "2369120/12a132a0-5c45-45af-b4c8-0b8a55845ec0.eml",
+          "json_email_identifier": "2369120/12a132a0-5c45-45af-b4c8-0b8a55845ec0.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56964824099993,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Planned for 378.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Planned for 378.<br>[Veena]<br></div>",
+      "plain_body": "Planned for 378.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56964814547993,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T13:32:22Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "152.57.117.139",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}
