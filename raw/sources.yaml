@@ -63,6 +63,12 @@ sources:
     description: "Fulfillment service managing order fulfillment workflows"
     repo: git@gitlab.com:pghive/services/fulfillment-service.git
 
+  woocommerce-plugin:
+    type: git-submodule
+    path: raw/woocommerce-plugin
+    description: "PluginHive WooCommerce Shipping Services plugin (WordPress/WooCommerce plugin distributed to merchants)"
+    repo: git@bitbucket.org:xadapter-cyd/multi-carrier-shipping-plugin-for-woocommerce.git
+
 
   zendesk:
     type: webhook-json
