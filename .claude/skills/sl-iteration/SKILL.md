@@ -503,14 +503,44 @@ if '--release-tag' in tokens:
     release_tag = ' '.join(tokens[tag_idx + 1:])
 ```
 
+### PREREQUISITE: Read StoryLab card FIRST
+
+**MANDATORY BEFORE ANY CODE ANALYSIS**:
+
+1. **Always read the StoryLab card description FIRST** — before searching code, before reading any files
+2. Extract the ticket ID from the StoryLab card name (format: `ZI-NNN — <title> [#<ticketId>]`)
+3. Read the full card description to understand:
+   - What the customer reported
+   - What the expected behavior should be
+   - What area/feature is affected
+4. Use this context to guide your code search (search terms, file paths, carrier names, etc.)
+
+**Why this is critical**:
+- StoryLab card contains the user story, acceptance criteria, and customer evidence
+- Without reading it first, you may search for the wrong things in the code
+- The ticket summary in the StoryLab desc provides essential keywords for code search
+
+**Process**:
+```bash
+# Get StoryLab URL from ph-WIP card description (first line)
+curl -s "https://api.trello.com/1/cards/{phWipCardId}?fields=desc&key=...&token=..." | jq -r '.desc'
+
+# Read the StoryLab card using the shortUrl
+curl -s "https://api.trello.com/1/cards/{storylabCardShortId}?fields=name,desc&key=...&token=..." | jq -r '{name, desc}'
+```
+
+Once you've read and understood the StoryLab context, **then** proceed to Step 1.
+
+---
+
 ### Step 1: Read ALL context from the card
 
 Four sources — read all of them:
 
 1. **ph-WIP card description**: `GET /cards/{cardId}?fields=name,desc,idLabels,shortUrl`
-   - The first line is the StoryLab `shortUrl`
-   - May already contain a previous `## AI Code Analysis` section (if reassessing)
-   - May contain additional notes added by devs
+   - Read the first line to get the StoryLab `shortUrl`
+   - The description may contain developer notes - these are for context only
+   - **DO NOT modify the description in any way during Step 1 (this is READ ONLY)**
 
 2. **ph-WIP card comments**: `GET /cards/{cardId}/actions?filter=commentCard`
    - Devs may have added context, file paths, error logs, clarifications
@@ -1062,7 +1092,7 @@ Needs human triage — no code match found. Issue is too vague or requires produ
 
 **Save the analysis file** to a temp location (e.g., `/tmp/ZI-{id}-analysis-{YYYYMMDDHHMMSS}.md`) for upload in Step 6.
 
-### Step 6: Upload analysis attachment + update card
+### Step 6: Upload analysis attachment + update confidence label
 
 **6.1 Check for existing analysis and read if present (determines first-time vs reassessment)**:
 
@@ -1131,27 +1161,19 @@ curl -s -X POST "https://api.trello.com/1/cards/{cardId}/attachments?key=$TRELLO
 
 **All analysis attachments are preserved** — Trello maintains full history. Users can view all past analyses sorted by timestamp in the attachment list.
 
-**6.3 Simplify card description** (idempotent — safe to run multiple times):
+**6.3 DO NOT modify card description**
 
-Set description to minimal content:
+**CRITICAL - DO NOT:**
+- Add AI analysis summaries to the card description
+- Update the card description in any way
+- "Simplify" the description
+- Add generic notes like "see attachments"
+- Touch the description field at all
 
-```python
-# Extract StoryLab URL from first line (always preserved)
-existing_desc = card['desc']
-lines = existing_desc.split('\n')
-storylab_url = lines[0] if lines else ''
+**The card description remains exactly as-is.**
+**All analysis output goes ONLY into the attachment file.**
 
-# Set minimal description
-new_desc = f"{storylab_url}\n\n_Latest AI analysis: see attachments (sorted by date)_"
-```
-
-```bash
-curl -s -X PUT "https://api.trello.com/1/cards/{cardId}?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{"desc": "<new_desc from above>"}'
-```
-
-**Important**: This step is **idempotent** and preserves the StoryLab URL. If devs add manual notes between the URL and the AI note, they will be overwritten. **Devs should use comments** for manual notes, not the description.
+This rule applies to both first-time analysis AND reassessment.
 
 **6.4 Remove any existing confidence label** from the card:
 ```bash
@@ -1166,9 +1188,21 @@ curl -s -X POST "https://api.trello.com/1/cards/{cardId}/idLabels?key=$TRELLO_AP
   -d '{"value": "<confidence label ID>"}'
 ```
 
-### Step 7: Report and (optionally) post reassessment comment
+**Step 6 Checklist** (verify before moving to Step 7):
 
-**7.1 Post reassessment comment** (only if `is_reassessment == True` from Step 6.1):
+- [ ] Analysis attachment uploaded
+- [ ] Confidence label added
+- [ ] Card description NOT MODIFIED (unchanged from Step 1)
+- [ ] No summary added to description
+- [ ] No "simplification" performed
+
+**If you modified the card description in ANY way, you violated the workflow.**
+
+### Step 7: Report and post analysis comment
+
+**7.1 Post analysis comment** (MANDATORY for both first-time and reassessment):
+
+**If `is_reassessment == True`** (card has previous analysis attachments):
 
 ```bash
 curl -s -X POST "https://api.trello.com/1/cards/{cardId}/actions/comments?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN" \
@@ -1176,15 +1210,23 @@ curl -s -X POST "https://api.trello.com/1/cards/{cardId}/actions/comments?key=$T
   -d '{"text": "**Reassessment completed** (sl-iteration analyze)\n\n**Confidence**: <LEVEL> (updated)\n**Status**: <status from Key Findings>\n\n**Root Cause Identified**: \n<one-sentence summary from analysis>\n\n**Key Files**:\n- <file:line>\n- <file:line>\n\n**Implementation**: <brief scope, e.g., \"One-line fix + tests\">.\n\n📎 **Full analysis**: See latest attachment `ZI-{id}-analysis-{YYYYMMDDHHMMSS}.md`"}'
 ```
 
+**If `is_reassessment == False`** (first-time analysis):
+
+```bash
+curl -s -X POST "https://api.trello.com/1/cards/{cardId}/actions/comments?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"text": "**Analysis completed** (sl-iteration analyze)\n\n**Confidence**: <LEVEL>\n**Status**: <status from Key Findings>\n\n**Root Cause Identified**: \n<one-sentence summary from analysis>\n\n**Key Files**:\n- <file:line>\n- <file:line>\n\n**Implementation**: <brief scope, e.g., \"One-line fix + tests\">.\n\n📎 **Full analysis**: See attachment `ZI-{id}-analysis-{YYYYMMDDHHMMSS}.md`"}'
+```
+
 This comment provides stakeholders with:
-- Updated confidence level
+- Confidence level (first-time) or updated confidence (reassessment)
 - Current status (from Key Findings)
 - Root cause summary
 - Key affected files with line numbers
 - Implementation scope summary
-- Reference to the latest analysis attachment (timestamped)
+- Reference to the analysis attachment (timestamped)
 
-**Skip comment posting if first-time analysis** (`is_reassessment == False`). First-time analysis uploads the attachment only—no comment needed.
+**CRITICAL**: This step is MANDATORY for both first-time and reassessment. Always post a comment after uploading analysis to ensure stakeholders are notified.
 
 **7.2 Print report** for user review:
 
@@ -1212,11 +1254,55 @@ Implementation checklist: ✓
 - Done Definition: 4 checks before merge
 
 Attachment uploaded: ZI-035-analysis-20260426143022.md
-Comment posted: ✓ (reassessment summary for stakeholders) | ✗ (first-time, no comment)
+Comment posted: ✓ (first-time analysis summary for stakeholders) | ✓ (reassessment summary for stakeholders)
 Card updated: https://trello.com/c/ABC123
 ```
 
 **7.3 Wait for user** to say "next" before processing the next card (for `analyze next`, `analyze all`, `analyze @member` modes).
+
+---
+
+## Common Mistakes to Avoid
+
+### ❌ WRONG: Adding AI analysis summary to card description
+
+**DO NOT DO THIS:**
+```markdown
+---
+
+## AI Code Analysis
+
+**Status**: 📝 READY FOR DEV
+**Confidence**: HIGH
+**Analysis**: [link to attachment]
+**Affected Files**: 3 (file1.js, file2.js, file3.js)
+**Root Cause**: [summary]
+**Solution**: [summary]
+**Risk Level**: [summary]
+```
+
+**WHY:** The analysis belongs ONLY in the attachment file. The card description should contain only the StoryLab URL and any developer notes that were already there.
+
+### ❌ WRONG: "Simplifying" the card description
+
+**DO NOT:** Replace the description with a minimal version, set it to just the URL, or add generic notes like "see attachments."
+
+**WHY:** The description may contain developer notes that provide important context. Leave it completely unchanged.
+
+### ❌ WRONG: Interpreting "May already contain AI Code Analysis section" as an instruction
+
+**DO NOT:** Read the line "May already contain a previous ## AI Code Analysis section (if reassessing)" and think you should CREATE or UPDATE this section.
+
+**WHY:** That line describes what you might FIND when reading for context. It is NOT an instruction to write anything to the description.
+
+### ✅ CORRECT: Upload attachment + add label, nothing else
+
+**The complete Step 6 workflow:**
+1. Upload analysis file as attachment
+2. Add confidence label
+3. Done. Do not touch description.
+
+**If you did anything else to the card description, you violated the workflow.**
 
 ---
 
