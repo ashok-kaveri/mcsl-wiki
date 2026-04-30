@@ -97,6 +97,15 @@ curl -s -X POST "https://api.trello.com/1/cards/{cardId}/actions/comments?key=$T
 ```
 
 ### Add an attachment to a card
+
+**Upload a file:**
+```bash
+curl -s -X POST \
+  "https://api.trello.com/1/cards/{cardId}/attachments?key=${TRELLO_API_KEY}&token=${TRELLO_TOKEN}" \
+  -F "file=@/path/to/file.md"
+```
+
+**Attach from URL:**
 ```bash
 curl -s -X POST "https://api.trello.com/1/cards/{cardId}/attachments?key=$TRELLO_API_KEY&token=$TRELLO_TOKEN" \
   -H "Content-Type: application/json" \
@@ -134,3 +143,4 @@ Fetch all cards in parallel for speed.
 - "add a card 'Fix bug' to the In Progress lane on board abc123" → resolve lane, create card
 - "move card https://trello.com/c/xyz to Done" → resolve lane ID, update card
 - "add a comment to card xyz: 'Deployed to staging'" → post comment
+- "upload file /tmp/analysis.md to card xyz" → file upload attachment
