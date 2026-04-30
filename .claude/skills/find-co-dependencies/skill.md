@@ -96,6 +96,15 @@ else:
     print("Error: Could not find wiki root", file=sys.stderr)
     sys.exit(1)
 
+# Normalize path - try with and without storepepSAAS/ prefix
+path_variants = [file_path]
+if file_path.startswith('storepepSAAS/'):
+    # If path has prefix, also try without it
+    path_variants.append(file_path[len('storepepSAAS/'):])
+else:
+    # If path doesn't have prefix, also try with it
+    path_variants.append('storepepSAAS/' + file_path)
+
 try:
     with open(os.path.join(wiki_root, "wiki/architecture/reverse-test-coverage.md")) as f:
         content = f.read()
@@ -118,7 +127,7 @@ for line in content.split('\n'):
         cols = [c.strip() for c in line.split("|")[1:-1]]
         if len(cols) >= 3:
             src = cols[0].strip("`")
-            if src == file_path:
+            if src in path_variants:
                 test_count = cols[1]
                 test_files = cols[2]
                 print(f"✅ **Direct Test Coverage**: {test_count} tests")
@@ -148,7 +157,7 @@ for line in content.split('\n'):
         cols = [c.strip() for c in line.split("|")[1:-1]]
         if len(cols) >= 3:
             src = cols[0].strip("`")
-            if src == file_path:
+            if src in path_variants:
                 partner_count = cols[1]
                 partners = cols[2]
                 print(f"   {partner_count} co-change partners have test coverage")
@@ -183,6 +192,15 @@ else:
     print("Error: Could not find wiki root", file=sys.stderr)
     sys.exit(1)
 
+# Normalize path - try with and without storepepSAAS/ prefix
+path_variants = [file_path]
+if file_path.startswith('storepepSAAS/'):
+    # If path has prefix, also try without it
+    path_variants.append(file_path[len('storepepSAAS/'):])
+else:
+    # If path doesn't have prefix, also try with it
+    path_variants.append('storepepSAAS/' + file_path)
+
 try:
     with open(os.path.join(wiki_root, "wiki/architecture/coupling-map.md")) as f:
         content = f.read()
@@ -207,9 +225,10 @@ for line in content.split('\n'):
             count = cols[1]
             file_a = cols[2].strip("`")
             file_b = cols[3].strip("`")
-            if file_a == file_path:
+            # Check against all path variants
+            if file_a in path_variants:
                 partners.append((count, file_b))
-            elif file_b == file_path:
+            elif file_b in path_variants:
                 partners.append((count, file_a))
     elif in_table and not line.startswith("|"):
         break
