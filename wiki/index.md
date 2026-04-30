@@ -53,6 +53,12 @@ Other sources:
 
 ## Modules
 
+### Frontend
+- [Orders UI](modules/frontend/orders-ui.md) - React/Redux order management interface with AG Grid, real-time updates, bulk actions, and advanced filtering
+- [Shipping UI](modules/frontend/shipping-ui.md) - Label generation, manifests, carrier configuration (70+ carriers), rate shopping, tracking, OAuth registration flows
+- [Packaging UI](modules/frontend/packaging-ui.md) - Box inventory, packing algorithms (5 methods), product-box mappings, carrier boxes, unit conversions
+- [Settings UI](modules/frontend/settings-ui.md) - Comprehensive account configuration: stores (7 platforms), automation (21 components), users/permissions, tax, general settings
+
 ### Orders
 - [Order Lifecycle](modules/orders/order-lifecycle.md) - Core order flow from import through shipping and tracking
 - [Order Bulk Actions](modules/orders/order-bulk-actions.md) - 40+ bulk operations for managing orders at scale
@@ -122,8 +128,8 @@ Other sources:
 
 - [Carrier OAuth Registration Flow](patterns/carrier-oauth-flow.md) - OAuth 2.0 authorization code flow for UPS Ready, UPS DAP, USPS, Amazon Shipping, and PostNord with state token CSRF protection, polling-based status, multi-step confirmation, and token refresh automation
 - [FedEx REST Registration Flow](patterns/carrier-fedex-rest-registration.md) - FedEx REST API multi-step registration with 3 validation methods (PIN-based SMS/Email, Invoice-based, Support-based auto-approval), child credential generation, platform-specific parent OAuth tokens, and regional support (US/APAC/MEISA/LAC/CA/AMEA)
+- [Redux Patterns](patterns/redux-patterns.md) - Complete Redux architecture: ~100 action types, 30+ action modules, 26+ reducers, async patterns with Redux Thunk, Redux Form integration, immutable state updates, selector patterns, and best practices
 - [API Conventions](patterns/api-conventions.md) - REST URL structure, request/response formats (stub)
-- [Redux Patterns](patterns/redux-patterns.md) - Action/reducer conventions, 87 actions, 26 reducers (stub)
 - [Component Patterns](patterns/component-patterns.md) - React component conventions, Material-UI (stub)
 - [Error Handling](patterns/error-handling.md) - Server and client-side error patterns (stub)
 - [Service Layer](patterns/service-layer.md) - Backend service class structure (stub)
@@ -153,8 +159,9 @@ Other sources:
 
 ---
 
-**Total pages**: 239+ (72 wiki + 66 ticket summaries + 100+ story cards + 1 index)
-**Last update**: 2026-04-28 (Documented FedEx REST registration flow pattern)
-**Status**: Architecture + Orders + Shipping + Automation + Stores + Products + Warehouses + Reporting + Product Management + Support Triage + Zendesk Issue Pipeline documented
+**Total pages**: 244+ (77 wiki + 66 ticket summaries + 100+ story cards + 1 index)
+**Last update**: 2026-04-30 (Documented frontend shipping, packaging, and settings UI modules)
+**Status**: Architecture + Orders + Shipping + Automation + Stores + Products + Warehouses + Reporting + Product Management + Support Triage + Zendesk Issue Pipeline + Frontend (Orders, Shipping, Packaging, Settings) documented
 **Test Coverage**: 58 automated Playwright tests covering 95 features
+**Client Scale**: 702 JS files, ~100 Redux action types, 30+ action modules, 26+ reducers, 100+ routes, 70+ carrier forms, 12 settings sections
 **Sources**: 10 git submodules + 4 other source types (Zendesk, Google Sheets, Slack)

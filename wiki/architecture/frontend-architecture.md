@@ -2,8 +2,8 @@
 title: Frontend Architecture
 category: architecture
 status: complete
-last_updated: 2026-04-07
-git_reference: 01e683142eab5eeb25e98dadfdc499e984aff1f8
+last_updated: 2026-04-30
+git_reference: 45dd3176f9dfacf353ecea93fc284c8a07d7c020
 ---
 
 # Frontend Architecture
@@ -131,35 +131,97 @@ The application bootstraps in this sequence:
 
 ### Store Structure
 
-The Redux store is organized by domain:
+**File**: `client/src/reducers/rootReducers.js:55-115`
+
+The Redux store combines 26+ reducers organized by domain:
 
 ```javascript
 {
-  auth: {                    // Authentication state
-    isAuthenticated: bool,
-    user: object,
-    storepepTeamUser: object
-  },
-  orders: {                  // Order management
-    ordersList: [],
-    selectedOrder: {},
-    filters: {},
-    // ...
-  },
-  products: {                // Product catalog
-    productsList: [],
-    selectedProduct: {},
-    // ...
-  },
-  settings: {                // Account settings
-    carriers: [],
-    stores: [],
-    packaging: [],
-    // ...
-  },
-  // ... other domains (manifests, labels, workflows, etc.)
+  // Authentication & User
+  auth: {},                           // Merchant user auth (storepepUserReducer)
+  storepepTeamAuth: {},               // Admin/team auth (storepepTeamReducer)
+  displayLoginPopup: bool,            // Login modal state
+  displaySessionExpiredPopup: bool,   // Session expiry modal
+  accountSetupStatus: bool,           // Account setup completion
+
+  // Orders
+  orders: {},                         // Order page state
+  totalorders: {},                    // Total order counts
+  ordersLoader: bool,                 // Loading state
+  ordersCount: {},                    // Count by status
+  ordersFilters: {},                  // Filter state
+  ordersTab: {},                      // Active tab state
+  orderSearchRequest: {},             // Search query state
+
+  // Products
+  productsCount: {},                  // Product counts
+  productsFilters: {},                // Product filter state
+  productCustomValues: {},            // Custom product metadata
+
+  // Shipping & Labels
+  packaging: {},                      // Packaging settings
+  storedPackages: {},                 // Saved package configurations
+  returnPackages: {},                 // Return label packages
+  label: {},                          // Label generation state
+  addressDetails: {},                 // Origin address (originAddress)
+  tracking: {},                       // Tracking state
+  trackingOrdersCount: {},            // Tracking counts
+
+  // Carriers
+  carrierDetails: {},                 // Carrier info
+  carrierServices: {},                // Carrier service options
+  carrierHolidayServices: {},         // Holiday service availability
+  carrierServiceNames: {},            // Display names
+  carrierHalHelpConfig: {},           // HAL help config
+  easypostSavedCarrierList: {},       // EasyPost carriers
+  distinctCarrierTypes: {},           // Unique carrier types
+  dhlExpress: {},                     // DHL Express settings
+
+  // Stores & Platforms
+  storeDetails: {},                   // Connected store info
+  woocommerce: {},                    // WooCommerce settings
+
+  // Automation & Workflows
+  automationRule: {},                 // Automation rules state
+  workflows: {},                      // Workflow definitions
+  jobs: {},                           // Background jobs
+
+  // UI & UX
+  multiSelect: {},                    // Multi-select state
+  batchKey: {},                       // Batch operation key
+  toggleNavBarDrawer: bool,           // Drawer open/close
+  subNavBarContext: {},               // Sub-navigation context
+  notifications: [],                  // Notification queue
+  notificationsCount: {},             // Unread counts
+  clientToggles: {},                  // Feature toggles
+  toggles: {},                        // Additional toggles
+
+  // Templates
+  packingSlipTemplate: {},            // Packing slip template
+  taxInvoiceTemplate: {},             // Tax invoice template
+  emailTemplate: {},                  // Email template
+  pickListTemplate: {},               // Pick list template
+
+  // Other
+  generalSettings: {},                // App-wide settings
+  licenseAgreements: {},              // Agreement acceptance state
+  messagesStore: {},                  // Messaging system
+  exportOrders: {},                   // Order export state
+  touchlessPrint: {},                 // Touchless printing state
+  vendorDetails: {},                  // Vendor information
+  UTCTimeZoneOffset: {},              // Timezone offset
+  dateFilterRange: {},                // Date range selection
+  enabledFeatures: {},                // Feature entitlements
+  subscriptionUpgrade: {},            // Subscription state
+
+  // Redux-Form
+  form: {}                            // Redux-Form state
 }
 ```
+
+**Reset Behavior** (`rootReducers.js:117-129`):
+- `USER_LOGOUT` - Clears entire state
+- `CLEAR_STOREPEP_USER` - Clears user state but retains admin auth and form state
 
 ### Action Pattern
 
@@ -223,25 +285,88 @@ export default function(state = initialState, action) {
 
 ## Routing
 
-StorePep uses React Router v4 with two main route configurations:
+**Main Router**: `client/src/routes.js:1-109`
+
+StorePep uses React Router v4 with a dual-tiered routing system supporting both merchant users and internal admin users.
+
+### Root Routes (`routes.js`)
+
+**Public Routes**:
+- `/` - Redirect to login or dashboard based on auth state
+- `/signUp` - User registration
+- `/verify/:verificationtype/:verificationData` - Email verification
+- `/forgotpassword` - Password reset
+- `/accountsetup` - Account setup completion page
+
+**Auth Detection** (`routes.js:56-92`):
+- Checks `storepepteamToken` → redirect to `/storepepteam/home/accounts`
+- Checks `jwtToken` → redirect to `/home/views/orders/status/allorders`
+- No token → show login/signup
+
+**Modals**:
+- `LoginPopup` - Triggered by `displayLoginPopup` Redux state
+- `SessionExpiredPopUp` - Triggered by `displaySessionExpiredPopup`
+- `SubscriptionGracePeriodPopup` - Shown when subscription in grace period (non-payment routes only)
 
 ### 1. Merchant Routes (`storepepUsersRoutes.js`)
-Routes for merchant users managing their shipping operations:
-- `/orders` - Order management
-- `/products` - Product catalog
-- `/settings` - Account configuration
-- `/labels` - Label generation
-- `/manifest` - Manifest creation
-- `/tracking` - Shipment tracking
-- `/subscription` - Billing and subscription
+
+**File**: `client/src/storepepUsersRoutes.js:1-239` (239 lines, 100+ routes)
+
+All merchant routes are wrapped with HOCs via `WrappedComponents` (`componentWrapper.js`) providing:
+- Authentication check
+- Account setup completion check
+- Subscription tier validation
+
+**Route Categories**:
+
+**Profile & Billing**:
+- `/home/myprofile/billingaddress`
+- `/home/myprofile/payment` (Stripe/PayPal)
+- `/home/myprofile/subscription`
+- `/home/myprofile/subscription/change`
+- `/home/myprofile/subscription/invoice`
+- `/home/myprofile/changepassword`
+
+**Orders & Views**:
+- `/home/views/orders/status/:status` - Order grid by status
+- `/home/views/orders/action/labelcreated/:batchId` - Batch results
+- `/home/views/order/action/manifest/:identifier` - Manifest view
+- `/home/views/order/action/pickup/:identifier` - Pickup view
+- `/home/views/order/:orderId` - Order summary/details
+
+**Settings**:
+- `/home/settings/stores/:platform` - Store connections (Shopify, WooCommerce, Magento, etc.)
+- `/home/settings/carriers/:carrier` - Carrier configuration (FedEx, UPS, USPS, DHL, etc.)
+- `/home/settings/shipper/originaddress` - Shipper address
+- `/home/settings/shipper/packaging` - Packaging settings
+- `/home/settings/shipper/shippingzones` - Shipping zones
+- `/home/settings/automation` - Automation rules
+- `/home/settings/users` - User management
+
+**Products & Tracking**:
+- `/home/products` - Product catalog
+- `/home/tracking` - Shipment tracking
+
+**Advanced Features**:
+- `/home/orderexport` - Order export
+- `/home/jobs` - Background jobs
+- `/home/widget` - Widget configuration
+- `/home/settings/frontend-rates` - Frontend rates API (WooCommerce)
 
 ### 2. Admin Routes (`storepepTeamRoutes.js`)
-Routes for StorePep team members managing the platform:
-- `/storepep-team/accounts` - Account management
-- `/storepep-team/support` - Support tools
-- `/storepep-team/analytics` - Platform analytics
 
-**Route Protection**: HOC (Higher-Order Component) wrappers check authentication and authorization before rendering protected routes.
+Routes for StorePep internal team managing the platform:
+- `/storepepteam/home/accounts` - Account management
+- `/storepepteam/home/support` - Support tools
+- `/storepepteam/home/analytics` - Platform analytics
+- `/storepepteam/home/plans` - Plan management
+- `/storepepteam/home/affiliates` - Affiliate program
+
+**Route Protection**: All routes use HOC wrappers from `componentWrapper.js` checking:
+- Authentication status
+- Account setup completion
+- Subscription tier (Lite, Advanced, Pro)
+- Feature toggle flags
 
 ## Component Architecture
 
@@ -401,16 +526,53 @@ Supports modern JavaScript (ES2015+) and JSX:
 
 **Directory**: `client/src/ACL/`
 
-Components are wrapped with HOCs that check:
-- User authentication status
-- User subscription tier (Lite, Advanced, Pro)
-- Feature toggle flags
-- Account-level permissions
+The frontend implements role-based access control and feature gating through a set of configuration files and HOC wrappers.
 
-**Pattern**:
+### ACL Modules
+
+| File | Purpose |
+|------|---------|
+| `config.js` | ACL configuration and role definitions |
+| `userRoleBasedAccessMapper.js` | Maps user roles to allowed features/pages |
+| `urlToPermissionMapper.js` | Maps routes to required permissions |
+| `userBasedCarriers.js` | Restricts carrier access by account |
+| `userBasedAutomationConditions.js` | Restricts automation rule types by subscription tier |
+| `storepepProcessBasedPermissions.js` | Process-specific permissions (e.g., batch operations) |
+
+### Permission Checks
+
+Components are wrapped with HOCs that check:
+- User authentication status (`isAuthenticated`)
+- User subscription tier (Lite, Advanced, Pro)
+- Feature toggle flags (`clientToggles`, `toggles` Redux state)
+- Account-level permissions (multi-user accounts)
+- URL-based permissions (route access)
+
+**HOC Pattern**:
 ```javascript
-export default withAuth(withSubscription('Pro')(ComponentName));
+// Component wrapper checking auth + subscription
+export default withAuth(
+  withSubscription('Pro')(
+    withFeatureToggle('advanced_automation')(
+      ComponentName
+    )
+  )
+);
 ```
+
+### Subscription Tiers
+
+Access restrictions by tier:
+- **Lite**: Basic label generation, limited carriers
+- **Advanced**: Multi-user, automation rules, advanced features
+- **Pro**: All features, API access, priority support
+
+### Carrier Access Restrictions
+
+Some carriers require specific subscription tiers or account approval:
+- Amazon Shipping - Pro tier
+- DHL eCommerce - Account approval
+- Regional carriers - Geographic restrictions
 
 ## Form Management (Redux-Form)
 
@@ -430,6 +592,21 @@ Redux-Form integrates with Redux for:
   validate={[required, email]}
 />
 ```
+
+## Direct Label Printing (QZ Tray)
+
+**Package**: `qz-tray` 2.2.4
+
+StorePep integrates with QZ Tray for direct thermal printer communication, enabling:
+- Direct printing to label printers (Zebra, Dymo, Brother, etc.)
+- Browser-to-printer communication without downloads
+- Batch printing workflows
+- Print queue management
+
+**Use Cases**:
+- Touchless label printing
+- Bulk label generation → auto-print
+- Packing slip and pick list printing
 
 ## Error Tracking (Sentry)
 
@@ -480,6 +657,15 @@ Redux-Form integrates with Redux for:
 - [Redux Patterns](../patterns/redux-patterns.md) (to be created)
 - [API Conventions](../patterns/api-conventions.md) (to be created)
 
+## Codebase Metrics
+
+- **Total JavaScript Files**: 702 files in `client/src/`
+- **Redux Action Types**: ~100 action types defined (`actions/types.js:1-100`)
+- **Action Modules**: 30+ action modules organized by domain
+- **Reducers**: 26+ reducers combined in root reducer
+- **Routes**: 100+ routes across merchant and admin routing
+- **LOC**: Routes file alone is 239 lines; codebase is extensive
+
 ## Known Issues / Tech Debt
 
 1. **Material-UI Version Mixing**: Dual v0 and v3 providers add bundle size and complexity - migration in progress
@@ -488,6 +674,7 @@ Redux-Form integrates with Redux for:
 4. **Axios Version**: 0.19.0 has known security vulnerabilities - needs update
 5. **Class Components**: Most components are class-based - could benefit from hooks refactor
 6. **Webpack 4**: Webpack 5+ offers better performance and tree-shaking
+7. **Codebase Size**: 702 JS files suggest opportunity for modularization and code splitting optimization
 
 ## Related Pages
 
