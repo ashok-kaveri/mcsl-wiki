@@ -8,6 +8,7 @@ import json
 import urllib.request
 import urllib.parse
 import argparse
+import subprocess
 from datetime import datetime
 
 # Board name to ID mapping
