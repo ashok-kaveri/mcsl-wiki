@@ -1977,7 +1977,7 @@ Run the **3-step Python pipeline** in sequence:
 
 ```bash
 # Step 1-2: Fetch Trello data and resolve labels
-python3 .claude/skills/sl-iteration/snapshot_release.py "<tag>" "<board_id>" "<lane_name>"
+python3 .claude/skills/sl-iteration/snapshot_release.py "<tag>" --board "<board_name_or_id>" --lane "<lane_name>"
 
 # Step 3: Process cards and determine states
 python3 .claude/skills/sl-iteration/process_cards.py
@@ -1988,8 +1988,8 @@ python3 .claude/skills/sl-iteration/generate_release.py
 
 **Arguments:**
 - `<tag>` — Release tag name (e.g., "MCSL 378")
-- `<board_id>` — Trello board ID or DEFAULT_STORYLAB_BOARD
-- `<lane_name>` — Lane name filter (e.g., "SL MCSL 378: Iteration backlog") or empty string for no filter
+- `--board <board_name_or_id>` — Board name (ph-wip, storylab) or board ID
+- `--lane <lane_name>` — Lane name filter (e.g., "SL MCSL 378: Iteration backlog") or omit for no filter
 
 The scripts implement the full 10-state legend (including Carrier Platform Issues and Spill Over). **Never reimplement this workflow inline** — always use the existing scripts.
 
