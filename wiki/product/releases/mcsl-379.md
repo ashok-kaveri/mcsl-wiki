@@ -6,11 +6,11 @@ tag_slug: mcsl-379
 board_id: 63e1e0414b6026c45be1087c
 lane_filter: "SL MCSL 379: Iteration backlog"
 status: draft
-last_synced: 2026-05-06 18:18:15 UTC
+last_synced: 2026-05-08 06:55:17 UTC
 shipped_at: null
-git_reference: 83c6f1ebd71329328056d6222c2867eec145d988
-tickets_delta_on_last_sync: 0
-cards_total: 24
+git_reference: 107b291cb62386f4646e7a57ac37234db5d7bdde
+tickets_delta_on_last_sync: 2
+cards_total: 26
 cards_shipped: 0
 cards_ready_to_ship: 0
 cards_high_risk: 0
@@ -18,13 +18,13 @@ cards_support_closed: 2
 cards_unsupported_partnership: 0
 cards_carrier_platform_issues: 1
 cards_bug_reported: 0
-cards_open: 3
-cards_spill_over: 0
+cards_open: 2
+cards_spill_over: 1
 ---
 
 # Release MCSL 379
 
-> **Status**: draft · **Last synced**: 2026-05-06 18:18 UTC · **Board**: [ph-WIP](https://trello.com/b/63e1e0414b6026c45be1087c)
+> **Status**: draft · **Last synced**: 2026-05-08 06:55 UTC · **Board**: [ph-WIP](https://trello.com/b/63e1e0414b6026c45be1087c)
 
 ## Summary
 
@@ -37,11 +37,11 @@ cards_spill_over: 0
 | Unsupported Partnership | 0 |
 | Carrier Platform Issues | 1 |
 | BUG REPORTED | 0 |
-| QA READY | 12 |
-| DEV | 6 |
-| Open (not started) | 3 |
-| Spill Over | 0 |
-| **Total** | **24** |
+| QA READY | 18 |
+| DEV | 2 |
+| Open (not started) | 2 |
+| Spill Over | 1 |
+| **Total** | **26** |
 
 ## Legend
 
@@ -81,47 +81,50 @@ cards_spill_over: 0
 
 *No cards in this state*
 
-## Spill Over (0)
-
-*No cards in this state*
-
-## Still Open (21)
-
-### QA READY (12)
+## Spill Over (1)
 
 | ZI | Ticket | Card |
 |----|--------|------|
+| ZI-476 | [#368959](../../zendesk/summaries/368959.md) | [Link](https://trello.com/c/ijFhhSAc) |
+
+## Still Open (22)
+
+### QA READY (18)
+
+| ZI | Ticket | Card |
+|----|--------|------|
+| ZI-006 | [#299137](../../zendesk/summaries/299137.md) | [Link](https://trello.com/c/7DRt7Jqe) |
 | ZI-007 | [#304193](../../zendesk/summaries/304193.md) | [Link](https://trello.com/c/kugYy69n) |
 | ZI-029 | [#372492](../../zendesk/summaries/372492.md) | [Link](https://trello.com/c/Us2XLGqr) |
 | ZI-038 | [#377217](../../zendesk/summaries/377217.md) | [Link](https://trello.com/c/Eo3o2WsB) |
+| ZI-043 | [#377526](../../zendesk/summaries/377526.md) | [Link](https://trello.com/c/SqrZcx4z) |
 | ZI-098 | [#379796](../../zendesk/summaries/379796.md) | [Link](https://trello.com/c/JkgfnMi8) |
 | ZI-472 | [#302656](../../zendesk/summaries/302656.md) | [Link](https://trello.com/c/Wli0l0TB) |
+| ZI-477 | [#376223](../../zendesk/summaries/376223.md) | [Link](https://trello.com/c/GRV234aH) |
 | ZI-478 | [#376463](../../zendesk/summaries/376463.md) | [Link](https://trello.com/c/U3tENyFg) |
+| ZI-480 | [#379784](../../zendesk/summaries/379784.md) | [Link](https://trello.com/c/Ss18vokJ) |
 | ZI-483 | [#386476](../../zendesk/summaries/386476.md) | [Link](https://trello.com/c/p9fNw7eE) |
 | ZI-484 | [#381931](../../zendesk/summaries/381931.md) | [Link](https://trello.com/c/dKIiWNFu) |
 | ZI-487 | [#379098](../../zendesk/summaries/379098.md) | [Link](https://trello.com/c/7Uj47zfp) |
 | ZI-490 | [#377113](../../zendesk/summaries/377113.md) | [Link](https://trello.com/c/zwduryU6) |
 | ZI-491 | [#379340](../../zendesk/summaries/379340.md) | [Link](https://trello.com/c/cvNTvO3c) |
 | ZI-493 | [#386728](../../zendesk/summaries/386728.md) | [Link](https://trello.com/c/wb9lsySR) |
+| ZI-494 | [#330209](../../zendesk/summaries/330209.md) | [Link](https://trello.com/c/hXVfnBi6) |
+| ZI-495 | [#332163](../../zendesk/summaries/332163.md) | [Link](https://trello.com/c/wh9nVAi1) |
 
-### DEV (6)
+### DEV (2)
 
 | ZI | Ticket | Card |
 |----|--------|------|
-| ZI-006 | [#299137](../../zendesk/summaries/299137.md) | [Link](https://trello.com/c/7DRt7Jqe) |
-| ZI-043 | [#377526](../../zendesk/summaries/377526.md) | [Link](https://trello.com/c/SqrZcx4z) |
 | ZI-099 | [#381046](../../zendesk/summaries/381046.md) | [Link](https://trello.com/c/2nOsmCQv) |
 | ZI-475 | [#364411](../../zendesk/summaries/364411.md) | [Link](https://trello.com/c/AfFDeSZo) |
-| ZI-477 | [#376223](../../zendesk/summaries/376223.md) | [Link](https://trello.com/c/GRV234aH) |
-| ZI-480 | [#379784](../../zendesk/summaries/379784.md) | [Link](https://trello.com/c/Ss18vokJ) |
 
-### Open / not started (3)
+### Open / not started (2)
 
 | ZI | Ticket | Card |
 |----|--------|------|
 | ZI-010 | [#338603](../../zendesk/summaries/338603.md) | [Link](https://trello.com/c/5itDFu6c) |
 | ZI-079 | [#382961](../../zendesk/summaries/382961.md) | [Link](https://trello.com/c/kbBTnreW) |
-| ZI-476 | [#368959](../../zendesk/summaries/368959.md) | [Link](https://trello.com/c/ijFhhSAc) |
 
 ## Notes
 
