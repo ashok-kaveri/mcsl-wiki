@@ -213,6 +213,34 @@ def build_high_risk_table(cards):
 
 high_risk_table = build_high_risk_table(high_risk_cards)
 
+# Build Ad-hoc Cards section (cards without ZI-NNN in name — typically dev-initiated work)
+def build_adhoc_section(cards_by_state):
+    adhoc = []
+    for state, cards in cards_by_state.items():
+        for card in cards:
+            if not card.get('zi_id'):
+                adhoc.append((state, card))
+
+    if not adhoc:
+        return ""
+
+    lines = [f"## Ad-hoc Cards ({len(adhoc)})\n"]
+    lines.append("*Cards tagged for this release but not mirrored from a ZI issue — typically dev-initiated work (refactors, infra, platform changes).*\n")
+    for state, card in adhoc:
+        name = card.get('name', '').strip()
+        desc = (card.get('desc') or '').strip()
+        # Keep first paragraph, cap at ~300 chars
+        first_para = desc.split('\n\n', 1)[0].strip() if desc else '_No description_'
+        if len(first_para) > 300:
+            first_para = first_para[:300].rstrip() + '…'
+        url = card.get('shortUrl', '')
+        lines.append(f"### {name}\n")
+        lines.append(f"**State:** {state}  ·  **Card:** [{url}]({url})\n")
+        lines.append(f"{first_para}\n")
+    return "\n".join(lines)
+
+adhoc_section = build_adhoc_section(cards_by_state)
+
 # Build all card tables
 card_tables = []
 for state in ['Shipped', 'Ready To Ship']:
@@ -264,6 +292,8 @@ markdown = f"""{frontmatter}
 {summary_table}
 
 {legend}
+
+{adhoc_section}
 
 {chr(10).join(card_tables)}
 
