@@ -180,17 +180,30 @@ def fetch_card_details(card_shortlink):
     params = "fields=name,idLabels,labels,shortUrl"
     return fetch_json(f"{url}?{params}")
 
+SUPPORT_CLOSED_VARIANTS = {
+    'closed by support', 'sl: closed by support'
+}
+UNSUPPORTED_PARTNERSHIP_VARIANT = 'unsupported partnership for carrier'
+
 def detect_state_from_labels(card_labels, state_label_map):
     """Detect state from card's labels."""
     card_label_ids = {lbl['id'] for lbl in card_labels}
     card_label_names = {lbl['name'] for lbl in card_labels}
+    card_label_names_lower = {n.strip().lower() for n in card_label_names}
 
-    # Walk state precedence order
+    # StoryLab closure labels take precedence over ph-WIP state (matches coarsen_state in process_cards.py)
+    for name_lower in card_label_names_lower:
+        if name_lower in SUPPORT_CLOSED_VARIANTS:
+            return 'Support Closed', name_lower, card_label_names
+
+    for name_lower in card_label_names_lower:
+        if name_lower == UNSUPPORTED_PARTNERSHIP_VARIANT:
+            return 'Unsupported Partnership', name_lower, card_label_names
+
+    # Walk ph-WIP state precedence order
     for state_name in STATE_LABEL_NAMES:
         label_ids = state_label_map.get(state_name, set())
         if card_label_ids & label_ids:
-            # Found a matching state label
-            # Coarsen to report bucket
             if state_name in ['SHIPPED', 'PROD']:
                 return 'Shipped', state_name, card_label_names
             elif state_name == 'QA_VERIFIED':
