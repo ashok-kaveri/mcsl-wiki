@@ -6,17 +6,17 @@ tag_slug: mcsl-378
 board_id: 63e1e0414b6026c45be1087c
 lane_filter: "SL MCSL 378: Iteration backlog"
 status: draft
-last_synced: 2026-05-06 18:05:13 UTC
+last_synced: 2026-05-11 03:40:26 UTC
 shipped_at: 
 git_reference: a75d4bc0c99ca241897a05d44b22414db9ff0278
 tickets_delta_on_last_sync: 0
-cards_total: 24
-cards_shipped: 0
-cards_ready_to_ship: 18
-cards_high_risk: 0
+cards_total: 26
+cards_shipped: 22
+cards_ready_to_ship: 0
+cards_high_risk: 1
 cards_support_closed: 2
 cards_unsupported_partnership: 0
-cards_carrier_platform_issues: 4
+cards_carrier_platform_issues: 2
 cards_bug_reported: 0
 cards_open: 0
 cards_spill_over: 0
@@ -24,24 +24,26 @@ cards_spill_over: 0
 
 # Release MCSL 378
 
-> **Status**: draft · **Last synced**: 2026-05-06 18:05 UTC · **Board**: [ph-WIP](https://trello.com/b/63e1e0414b6026c45be1087c)
+> **Status**: draft · **Last synced**: 2026-05-11 03:40 UTC · **Board**: [ph-WIP](https://trello.com/b/63e1e0414b6026c45be1087c)
 
 ## Summary
 
 | State | Count |
 |-------|-------|
-| Shipped | 0 |
-| Ready To Ship | 18 |
-| ⚠️ High Risk | 0 |
+| Shipped | 22 |
+| Ready To Ship | 0 |
+| ⚠️ High Risk | 1 |
 | Support Closed | 2 |
 | Unsupported Partnership | 0 |
-| Carrier Platform Issues | 4 |
+| Carrier Platform Issues | 2 |
 | BUG REPORTED | 0 |
 | QA READY | 0 |
 | DEV | 0 |
 | Open (not started) | 0 |
 | Spill Over | 0 |
-| **Total** | **24** |
+| **Total** | **26** |
+
+**Note:** The following 2 card(s) appear in multiple sections: ZI-056 (Shipped, ⚠️ High Risk). Total unique cards: 26.
 
 ## Legend
 
@@ -57,20 +59,38 @@ cards_spill_over: 0
 - **Open (not started)** — in product backlog but dev hasn't started (no ph-WIP state label)
 - **Spill Over** — cards that could not be completed in the current iteration and were moved out (ph-WIP `Spill Over` label)
 
-## Shipped (0)
+## Ad-hoc Cards (2)
 
-*No cards in this state*
-## Ready To Ship (18)
+*Cards tagged for this release but not mirrored from a ZI issue — typically dev-initiated work (refactors, infra, platform changes).*
+
+### FedEx One Rate: One rate inclusion logic for domestic and international
+
+**State:** Shipped  ·  **Card:** [https://trello.com/c/6jBLYcry](https://trello.com/c/6jBLYcry)
+
+PR: [https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/2989](https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/2989 "smartCard-inline")
+
+### Remove Rates and Transit api from Fedex Rest
+
+**State:** Shipped  ·  **Card:** [https://trello.com/c/rMxNSEHj](https://trello.com/c/rMxNSEHj)
+
+Now the Comprehensive Rates API supports all required features, including duties and taxes calculation for international shipments.
+
+
+## Shipped (22)
 
 | ZI | Ticket | Card |
 |----|--------|------|
+| None | N/A | [Link](https://trello.com/c/6jBLYcry) |
+| None | N/A | [Link](https://trello.com/c/rMxNSEHj) |
 | ZI-001 | [#218195](../../zendesk/summaries/218195.md) | [Link](https://trello.com/c/x09Qjr61) |
 | ZI-003 | [#277997](../../zendesk/summaries/277997.md) | [Link](https://trello.com/c/vKDjnEyW) |
 | ZI-005 | [#277997](../../zendesk/summaries/277997.md) | [Link](https://trello.com/c/wOd9bAUk) |
 | ZI-014 | [#360396](../../zendesk/summaries/360396.md) | [Link](https://trello.com/c/QLBwlKPc) |
 | ZI-016 | [#361776](../../zendesk/summaries/361776.md) | [Link](https://trello.com/c/WOwgVH5u) |
+| ZI-031 | [#373200](../../zendesk/summaries/373200.md) | [Link](https://trello.com/c/wrq8DeiO) |
 | ZI-034 | [#374022](../../zendesk/summaries/374022.md) | [Link](https://trello.com/c/s1w3iq7e) |
 | ZI-053 | [#379042](../../zendesk/summaries/379042.md) | [Link](https://trello.com/c/glNHyl10) |
+| ZI-056 | [#379784](../../zendesk/summaries/379784.md) | [Link](https://trello.com/c/gIiVFfHR) |
 | ZI-058 | [#380339](../../zendesk/summaries/380339.md) | [Link](https://trello.com/c/WADXzgnk) |
 | ZI-059 | [#380339](../../zendesk/summaries/380339.md) | [Link](https://trello.com/c/hMK8aQ3F) |
 | ZI-062 | [#380339](../../zendesk/summaries/380339.md) | [Link](https://trello.com/c/CIhn4HuZ) |
@@ -82,6 +102,17 @@ cards_spill_over: 0
 | ZI-266 | [#384731](../../zendesk/summaries/384731.md) | [Link](https://trello.com/c/1o49nwpU) |
 | ZI-357 | [#385094](../../zendesk/summaries/385094.md) | [Link](https://trello.com/c/PIEqO2BZ) |
 | ZI-360 | [#381243](../../zendesk/summaries/381243.md) | [Link](https://trello.com/c/6ojjAb0Z) |
+## Ready To Ship (0)
+
+*No cards in this state*
+## ⚠️ High Risk (1)
+
+**Cards with QA_VERIFIED AND (Carrier Platform Issues OR Unsupported Partnership)**
+*(Possible use of customer credentials for verification - requires special care)*
+
+| ZI | Ticket | Carriers | Card |
+|----|--------|----------|------|
+| ZI-056 | [#379784](../../zendesk/summaries/379784.md) | UPS, PostNord | [Link](https://trello.com/c/gIiVFfHR) |
 ## Support Closed (2)
 
 | ZI | Ticket | Reason | Card |
@@ -91,13 +122,11 @@ cards_spill_over: 0
 ## Unsupported Partnership (0)
 
 *No cards in this state*
-## Carrier Platform Issues (4)
+## Carrier Platform Issues (2)
 
 | ZI | Ticket | Carriers | Card |
 |----|--------|----------|------|
-| ZI-031 | [#373200](../../zendesk/summaries/373200.md) | PostNord | [Link](https://trello.com/c/wrq8DeiO) |
 | ZI-045 | [#377574](../../zendesk/summaries/377574.md) | BlueDart | [Link](https://trello.com/c/VuaZddp7) |
-| ZI-056 | [#379784](../../zendesk/summaries/379784.md) | UPS, PostNord | [Link](https://trello.com/c/gIiVFfHR) |
 | ZI-068 | [#381931](../../zendesk/summaries/381931.md) | BlueDart | [Link](https://trello.com/c/v02oGD3e) |
 ## BUG REPORTED (0)
 
