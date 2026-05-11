@@ -1,0 +1,716 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/309068.json",
+    "id": 309068,
+    "external_id": null,
+    "via": {
+      "channel": "api",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2025-01-17T14:06:34Z",
+    "updated_at": "2026-04-14T13:32:58Z",
+    "generated_timestamp": 1776173578,
+    "type": null,
+    "subject": "Currency Settings",
+    "raw_subject": "Currency Settings",
+    "description": "Can I set your plugin to convert the shipping fee to my store currency using a fixed rate before it displays to the customers? Currently, the shipping fee is not working well with the YayCurrency switcher that I am using.",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 40592516664217,
+    "submitter_id": 40592516664217,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "back-log",
+      "dev_needed",
+      "issues_with_setting_up_the_plugin",
+      "last_reply_agent",
+      "redacted_content",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "e05b3c03-cdac-4b27-a66c-9ee2034de5e6"
+      },
+      {
+        "id": 6680360109081,
+        "value": "3065143420"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "back-log"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "684f959f019555ef902d9097"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "VW47ZE-343ML",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "e05b3c03-cdac-4b27-a66c-9ee2034de5e6"
+      },
+      {
+        "id": 6680360109081,
+        "value": "3065143420"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "back-log"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "684f959f019555ef902d9097"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 42482563819929,
+      "type": "Comment",
+      "author_id": 40592516664217,
+      "body": "Can I set your plugin to convert the shipping fee to my store currency using a fixed rate before it displays to the customers? Currently, the shipping fee is not working well with the YayCurrency switcher that I am using.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Can I set your plugin to convert the shipping fee to my store currency using a fixed rate before it displays to the customers? Currently, the shipping fee is not working well with the YayCurrency switcher that I am using.</p></div>",
+      "plain_body": "Can I set your plugin to convert the shipping fee to my store currency using a fixed rate before it displays to the customers? Currently, the shipping fee is not working well with the YayCurrency switcher that I am using.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 42482563819801,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-17T14:06:34Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.7.1; https://www.pluginhive.com",
+          "ip_address": "159.65.74.253",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3419,
+          "longitude": -121.9754
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42483469376153,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Somto,\n\nHope you are doing well!\n\nWe do have compatibility with Aelia Multi-currency Switcher & WooCommerce Currency Switcher (official) solutions.\n\nRegarding YayCurrency swithers: As of now, I have not tested the working of our plugin alongside the YayCommerce (https://yaycommerce.com/yaycurrency-woocommerce-multi-currency-switcher/ ) plugin that you are using. so we cannot guarantee compatibility.\n\nWe recommend trying the WooCOmmerce Currency Switcher (official) solution and verifying how it goes.\n\nDo let us know if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Somto,<br>&nbsp;<br>Hope you are doing well!<br>&nbsp;<br>We do have compatibility with Aelia Multi-currency Switcher &amp; WooCommerce Currency Switcher (official) solutions.&nbsp;<br>&nbsp;<br>Regarding YayCurrency swithers: As of now, I have not tested the working of our plugin alongside the&nbsp;YayCommerce (<a rel=\"noopener noreferrer\" href=\"https://yaycommerce.com/yaycurrency-woocommerce-multi-currency-switcher/\">https://yaycommerce.com/yaycurrency-woocommerce-multi-currency-switcher/</a>&nbsp;) plugin that you are using. so we cannot guarantee compatibility.<br>&nbsp;<br>We recommend trying the WooCOmmerce Currency Switcher (official) solution and verifying how it goes.&nbsp;<br>&nbsp;<br>Do let us know if you need any assistance.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Somto,\n&nbsp;\nHope you are doing well!\n&nbsp;\nWe do have compatibility with Aelia Multi-currency Switcher &amp; WooCommerce Currency Switcher (official) solutions.&nbsp;\n&nbsp;\nRegarding YayCurrency swithers: As of now, I have not tested the working of our plugin alongside the&nbsp;YayCommerce (https://yaycommerce.com/yaycurrency-woocommerce-multi-currency-switcher/&nbsp;) plugin that you are using. so we cannot guarantee compatibility.\n&nbsp;\nWe recommend trying the WooCOmmerce Currency Switcher (official) solution and verifying how it goes.&nbsp;\n&nbsp;\nDo let us know if you need any assistance.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 42483469376025,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-17T14:53:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42483476054169,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Moving to ON HOLD to review this ticket with Keerthi.\n\nThe case is about currency converter\n\nFYI, customers from Canada using Canada Post and UPS and used the plugin only for rates till now",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving to ON HOLD to review this ticket with Keerthi.<br>&nbsp;<br>The case is about currency converter<br>&nbsp;<br>FYI, customers from Canada using Canada Post and UPS and used the plugin only for rates till now<br></div>",
+      "plain_body": "Moving to ON HOLD to review this ticket with Keerthi.\n&nbsp;\nThe case is about currency converter\n&nbsp;\nFYI, customers from Canada using Canada Post and UPS and used the plugin only for rates till now",
+      "public": false,
+      "attachments": [],
+      "audit_id": 42483476054041,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-17T14:55:26Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42661587052697,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Discussed with Sanoop regarding the Currency conversion option. Sanoop will check with Mirdas and let us know if we will bring this option or not.\n\nRequirement - \"Can I set your plugin to convert the shipping fee to my store currency using a fixed rate before it displays to the customers?\"",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with Sanoop regarding the Currency conversion option. Sanoop will check with Mirdas and let us know if we will bring this option or not.<br>&nbsp;<br>Requirement - \"Can I set your plugin to convert the shipping fee to my store currency using a fixed rate before it displays to the customers?\"<br>&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "Discussed with Sanoop regarding the Currency conversion option. Sanoop will check with Mirdas and let us know if we will bring this option or not.\n&nbsp;\nRequirement - \"Can I set your plugin to convert the shipping fee to my store currency using a fixed rate before it displays to the customers?\"\n&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 42661587052569,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-22T13:45:04Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42730884012697,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Request #310143 \"URL\" was closed and merged into this request. Last comment in request #310143:\r\n\r\nHi,\r\n\r\nIs it possible to change the ending of my store URL? Right now, it appears as https://somtico.com/dashboard/pluginhive/. Can I customize it to end differently instead of \"pluginhive\"?\r\n\r\nThank you!",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/310143\" target=\"_blank\" rel=\"ticket\">#310143</a> \"URL\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/310143\" target=\"_blank\" rel=\"ticket\">#310143</a>:</p>\n<p dir=\"auto\">Hi,</p>\n<p dir=\"auto\">Is it possible to change the ending of my store URL? Right now, it appears as <a href=\"https://somtico.com/dashboard/pluginhive/\" rel=\"noreferrer\">https://somtico.com/dashboard/pluginhive/</a>. Can I customize it to end differently instead of \"pluginhive\"?</p>\n<p dir=\"auto\">Thank you!</p></div>",
+      "plain_body": "Request #310143 \"URL\" was closed and merged into this request. Last comment in request #310143: \n Hi, \n Is it possible to change the ending of my store URL? Right now, it appears as https://somtico.com/dashboard/pluginhive/. Can I customize it to end differently instead of \"pluginhive\"? \n Thank you!",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/42730911616665.json",
+          "id": 42730911616665,
+          "file_name": "Screenshot 2025-01-23 204419.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/cBD8cqhnhhHbtTXFh6bpWUg8a/?name=Screenshot+2025-01-23+204419.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/cBD8cqhnhhHbtTXFh6bpWUg8a/?name=Screenshot+2025-01-23+204419.png",
+          "content_type": "image/png",
+          "size": 118013,
+          "width": 1920,
+          "height": 990,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/42730884045081.json",
+              "id": 42730884045081,
+              "file_name": "Screenshot_2025-01-23_204419_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/okkLZgLhi9nG6MsvVrzsIP3sn/?name=Screenshot_2025-01-23_204419_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/okkLZgLhi9nG6MsvVrzsIP3sn/?name=Screenshot_2025-01-23_204419_thumb.png",
+              "content_type": "image/png",
+              "size": 2442,
+              "width": 80,
+              "height": 41,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 42730884011673,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              310143
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2025-01-24T06:40:59Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42735791839385,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Need to check with Sanoop and Currency conversion option and the URL query.\n\n1. Can I set your plugin to convert the shipping fee to my store currency using a fixed rate before it displays to the customers?\n2. Is it possible to change the ending of my store URL? Right now, it appears as https://somtico.com/dashboard/pluginhive/. Can I customize it to end differently instead of \"pluginhive\"?",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need to check with Sanoop and Currency conversion option and the URL query.<br>&nbsp;<br><ol dir=\"auto\"><li>Can I set your plugin to convert the shipping fee to my store currency using a fixed rate before it displays to the customers?</li><li>Is it possible to change the ending of my store URL? Right now, it appears as <a rel=\"noopener noreferrer\" href=\"https://somtico.com/dashboard/pluginhive/\">https://somtico.com/dashboard/pluginhive/</a>. Can I customize it to end differently instead of \"pluginhive\"?</li></ol><br>&nbsp;<br></div>",
+      "plain_body": "Need to check with Sanoop and Currency conversion option and the URL query.\n&nbsp;\n  Can I set your plugin to convert the shipping fee to my store currency using a fixed rate before it displays to the customers?  Is it possible to change the ending of my store URL? Right now, it appears as https://somtico.com/dashboard/pluginhive/. Can I customize it to end differently instead of \"pluginhive\"?  \n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 42735791838489,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-24T08:40:58Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "152.58.208.234",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42745022050585,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Hello Somto,\n\nGood day!\n\nI wanted to provide you update regarding your query on customising the URL. We have noted this request for future enhancements and we will notify once this feature is available.\n\nThank you for your understanding.\n\nBest regards,\nKeerthi\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Somto,<br>&nbsp;<br>Good day!<br>&nbsp;<br>I wanted to provide you update regarding your query on customising the URL. We have noted this request for future enhancements and we will notify once this feature is available.<br>&nbsp;<br>Thank you for your understanding.<br>&nbsp;<br>Best regards,<br>Keerthi<br>PluginHive<br></div>",
+      "plain_body": "Hello Somto,\n&nbsp;\nGood day!\n&nbsp;\nI wanted to provide you update regarding your query on customising the URL. We have noted this request for future enhancements and we will notify once this feature is available.\n&nbsp;\nThank you for your understanding.\n&nbsp;\nBest regards,\nKeerthi\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 42745012722457,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-24T13:42:04Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "152.58.209.225",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42745064608665,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "[L3: Option to customize the Vendor dashboard URL and YayCurrency Switcher compatibility]\n(FYI to team: I did not inform customer about the compatibility part yet as we have not tested the feasibility)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">[L3: Option to customize the Vendor dashboard URL and YayCurrency Switcher compatibility]<br>(FYI to team: I did not inform customer about the compatibility part yet as we have not tested the feasibility)<br></div>",
+      "plain_body": "[L3: Option to customize the Vendor dashboard URL and YayCurrency Switcher compatibility]\n(FYI to team: I did not inform customer about the compatibility part yet as we have not tested the feasibility)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 42745071952665,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-24T13:44:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "152.58.209.225",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42830522993433,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We are working on feasibility check for the compatibility.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We are working on feasibility check for the compatibility.<br>[Veena]&nbsp;<br></div>",
+      "plain_body": "We are working on feasibility check for the compatibility.\n[Veena]&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 42830522993305,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-27T12:13:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 42832126455065,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "L3: We will inform the final status to customer once everything goes live. Moving back to L3, this can then be moved to dev needed.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: We will inform the final status to customer once everything goes live. Moving back to L3, this can then be moved to dev needed.<br></div>",
+      "plain_body": "L3: We will inform the final status to customer once everything goes live. Moving back to L3, this can then be moved to dev needed.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 42832126454809,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-01-27T13:22:49Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+          "ip_address": "152.58.244.4",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 46070930687897,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Request #325185 \"Profile cancelled\" was closed and merged into this request. Last comment in request #325185:\r\n\r\nHello Minal Prakash Kokane,\r\n\r\n ![PayPal](https://www.paypalobjects.com/digitalassets/c/system-triggered-email/n/layout/images/ppe/pp-logo_x2.png \"PayPal\")\r\n\r\nThe recurring payment for Somtochukwu Ufondu has been cancelled.\r\n\r\nThe following PayPal recurring payment profile is no longer active. We won't bill the buyer again. If you need any support regarding this recurring payment profile, please contact us by clicking Help and Contact at the bottom of the PayPal homepage.\r\n\r\nProfile ID: I-THWF9SX7NUTL\r\nFor: Yearly Starter\r\nBuyer name: Somtochukwu Ufondu\r\nBuyer email: somtoufondu@gmail.com\r\n\r\n**Payment details**\r\n\r\nStart Date: Mar 01, 2025\r\nAmount per cycle: $209.00 USD\r\nLast payment date: Mar 01, 2025\r\nLast payment amount: $209.00 USD\r\n\r\n ![PayPal](https://www.paypalobjects.com/digitalassets/c/system-triggered-email/n/layout/images/ppe/pp-logo_x2.png)\r\n* * *\r\n\r\nHelp & Contact | Security | Apps\r\n\r\n ![Twitter](https://www.paypalobjects.com/digitalassets/c/system-triggered-email/n/layout/images/quantum_leap/footer-social-icons_x.png) ![Instagram](https://paypalobjects.com/digitalassets/c/system-triggered-email/n/layout/images/quantum_leap/footer-social-icons_instagram.png) ![Facebook](https://paypalobjects.com/digitalassets/c/system-triggered-email/n/layout/images/quantum_leap/footer-social-icons_facebook.png) ![LinkedIn](https://paypalobjects.com/digitalassets/c/system-triggered-email/n/layout/images/quantum_leap/footer-social-icons_linkedin.png)\r\n\r\nPayPal is committed to preventing fraudulent emails. Emails from PayPal will always contain your full name. Learn to identify phishing\r\n\r\nPlease do not reply to this email. To get in touch, go to the PayPal website and click Help & Contact.\r\n\r\nNot sure why you received this email? Learn more\r\n\r\nPayPal Services in India are provided by PayPal Payments Private Limited (CIN U74990MH2009PTC194653). Users are advised to read the terms and conditions carefully.\r\n\r\nPayPal RT000038:en_GB(en-IN):1.3.0:b9e832188d7c4\r\n\r\n ![](https://t.paypal.com/ts?v=1&utm_source=unp&utm_medium=email&utm_campaign=RT000038&utm_unptid=e75bcd94-1c50-11f0-afa7-8f0c2ffc4492&ppid=RT000038&cnac=IN&rsta=en_GB%28en-IN%29&cust=VERPG3PPQRC3Y&unptid=e75bcd94-1c50-11f0-afa7-8f0c2ffc4492&calc=b9e832188d7c4&unp_tpcid=email-recurringpayment-merchantprofile-cancelled-merchant&page=main%3Aemail%3ART000038&pgrp=main%3Aemail&e=op&mchn=em&s=ci&mail=sys&appVersion=1.324.0&tenant_name=PAYPAL&xt=145585%2C154413%2C104038&link_ref=t.paypal.com_ts)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/325185\" target=\"_blank\" rel=\"ticket\">#325185</a> \"Profile cancelled\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/325185\" target=\"_blank\" rel=\"ticket\">#325185</a>:</p>\n<p dir=\"auto\">Hello Minal Prakash Kokane,</p>\n<p dir=\"auto\"><img src=\"https://www.paypalobjects.com/digitalassets/c/system-triggered-email/n/layout/images/ppe/pp-logo_x2.png\" alt=\"PayPal\"></p>\n<p dir=\"auto\">The recurring payment for Somtochukwu Ufondu has been cancelled.</p>\n<p dir=\"auto\">The following PayPal recurring payment profile is no longer active. We won't bill the buyer again. If you need any support regarding this recurring payment profile, please contact us by clicking Help and Contact at the bottom of the PayPal homepage.</p>\n<p dir=\"auto\">Profile ID: I-THWF9SX7NUTL<br>\nFor: Yearly Starter<br>\nBuyer name: Somtochukwu Ufondu<br>\nBuyer email: <a href=\"mailto:somtoufondu@gmail.com\" rel=\"noreferrer\">somtoufondu@gmail.com</a></p>\n<p dir=\"auto\"><strong>Payment details</strong></p>\n<p dir=\"auto\">Start Date: Mar 01, 2025<br>\nAmount per cycle: $209.00 USD<br>\nLast payment date: Mar 01, 2025<br>\nLast payment amount: $209.00 USD</p>\n<p dir=\"auto\"><img src=\"https://www.paypalobjects.com/digitalassets/c/system-triggered-email/n/layout/images/ppe/pp-logo_x2.png\" alt=\"PayPal\"></p>\n<hr>\n<p dir=\"auto\">Help &amp; Contact | Security | Apps</p>\n<p dir=\"auto\"><img src=\"https://www.paypalobjects.com/digitalassets/c/system-triggered-email/n/layout/images/quantum_leap/footer-social-icons_x.png\" alt=\"Twitter\"> <img src=\"https://paypalobjects.com/digitalassets/c/system-triggered-email/n/layout/images/quantum_leap/footer-social-icons_instagram.png\" alt=\"Instagram\"> <img src=\"https://paypalobjects.com/digitalassets/c/system-triggered-email/n/layout/images/quantum_leap/footer-social-icons_facebook.png\" alt=\"Facebook\"> <img src=\"https://paypalobjects.com/digitalassets/c/system-triggered-email/n/layout/images/quantum_leap/footer-social-icons_linkedin.png\" alt=\"LinkedIn\"></p>\n<p dir=\"auto\">PayPal is committed to preventing fraudulent emails. Emails from PayPal will always contain your full name. Learn to identify phishing</p>\n<p dir=\"auto\">Please do not reply to this email. To get in touch, go to the PayPal website and click Help &amp; Contact.</p>\n<p dir=\"auto\">Not sure why you received this email? Learn more</p>\n<p dir=\"auto\">PayPal Services in India are provided by PayPal Payments Private Limited (CIN U74990MH2009PTC194653). Users are advised to read the terms and conditions carefully.</p>\n<p dir=\"auto\">PayPal RT000038:en_GB(en-IN):1.3.0:b9e832188d7c4</p>\n<p dir=\"auto\"><img src=\"https://t.paypal.com/ts?v=1&amp;utm_source=unp&amp;utm_medium=email&amp;utm_campaign=RT000038&amp;utm_unptid=e75bcd94-1c50-11f0-afa7-8f0c2ffc4492&amp;ppid=RT000038&amp;cnac=IN&amp;rsta=en_GB%28en-IN%29&amp;cust=VERPG3PPQRC3Y&amp;unptid=e75bcd94-1c50-11f0-afa7-8f0c2ffc4492&amp;calc=b9e832188d7c4&amp;unp_tpcid=email-recurringpayment-merchantprofile-cancelled-merchant&amp;page=main%3Aemail%3ART000038&amp;pgrp=main%3Aemail&amp;e=op&amp;mchn=em&amp;s=ci&amp;mail=sys&amp;appVersion=1.324.0&amp;tenant_name=PAYPAL&amp;xt=145585%2C154413%2C104038&amp;link_ref=t.paypal.com_ts\" alt=\"\"></p></div>",
+      "plain_body": "Request #325185 \"Profile cancelled\" was closed and merged into this request. Last comment in request #325185: \n Hello Minal Prakash Kokane, \n  \n The recurring payment for Somtochukwu Ufondu has been cancelled. \n The following PayPal recurring payment profile is no longer active. We won't bill the buyer again. If you need any support regarding this recurring payment profile, please contact us by clicking Help and Contact at the bottom of the PayPal homepage. \n Profile ID: I-THWF9SX7NUTL\n\nFor: Yearly Starter\n\nBuyer name: Somtochukwu Ufondu\n\nBuyer email: somtoufondu@gmail.com \n Payment details \n Start Date: Mar 01, 2025\n\nAmount per cycle: $209.00 USD\n\nLast payment date: Mar 01, 2025\n\nLast payment amount: $209.00 USD \n  \n \n Help &amp; Contact | Security | Apps \n     \n PayPal is committed to preventing fraudulent emails. Emails from PayPal will always contain your full name. Learn to identify phishing \n Please do not reply to this email. To get in touch, go to the PayPal website and click Help &amp; Contact. \n Not sure why you received this email? Learn more \n PayPal Services in India are provided by PayPal Payments Private Limited (CIN U74990MH2009PTC194653). Users are advised to read the terms and conditions carefully. \n PayPal RT000038:en_GB(en-IN):1.3.0:b9e832188d7c4",
+      "public": false,
+      "attachments": [],
+      "audit_id": 46070930687769,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              325185
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2025-04-22T20:02:14Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 46071017907993,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇<br></div>",
+      "plain_body": "▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇",
+      "public": false,
+      "attachments": [],
+      "audit_id": 46071017907865,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-04-22T20:03:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+          "ip_address": "223.185.128.250",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591,
+          "email_id": null
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 46071099447193,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+18312676349",
+        "to": "+13065143420",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA95c6c24c0bb8427d5245a88524a89c1f/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 46071067740057,
+        "call_duration": 177,
+        "answered_by_id": 388269142331,
+        "started_at": "2025-04-22T20:04:02Z",
+        "location": "",
+        "author_id": 388269142331,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Keerthi",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+1 (831) 267-6349",
+      "formatted_to": "+1 (306) 514-3420",
+      "transcription_visible": false,
+      "author_id": 388269142331,
+      "body": "Outbound call to +1 (306) 514-3420\nCall Details:\n\nCall from: +1 (831) 267-6349\nCall to: +1 (306) 514-3420\nTime of call: 2025-04-22 20:04:02 UTC\nCalled by: Keerthi\nLength of phone call: 2 minutes, 57 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA95c6c24c0bb8427d5245a88524a89c1f/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +1 (306) 514-3420<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +1 (831) 267-6349<br>\nCall to: +1 (306) 514-3420<br>\nTime of call: 2025-04-22 20:04:02 UTC<br>\nCalled by: Keerthi<br>\nLength of phone call: 2 minutes, 57 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA95c6c24c0bb8427d5245a88524a89c1f/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA95c6c24c0bb8427d5245a88524a89c1f/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2025-04-22T20:07:00Z",
+      "audit_id": 46071099446809,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+1 (831) 267-6349",
+            "phone": "+18312676349",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+1 (306) 514-3420",
+            "phone": "+13065143420",
+            "name": "+1 (306) 514-3420"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 46071058473625,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Call Summary: Customer upgraded the plan with a different payment card and is actively using the plugin. Moving back to dev needed.\n\n[L3: Option to customize the Vendor dashboard URL and YayCurrency Switcher compatibility]\n(FYI to team: I did not inform customer about the compatibility part yet as we have not tested the feasibility",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Call Summary: Customer upgraded the plan with a different payment card and is actively using the plugin. Moving back to dev needed.<br>&nbsp;<br>[L3: Option to customize the Vendor dashboard URL and YayCurrency Switcher compatibility]<br>(FYI to team: I did not inform customer about the compatibility part yet as we have not tested the feasibility<br></div>",
+      "plain_body": "Call Summary: Customer upgraded the plan with a different payment card and is actively using the plugin. Moving back to dev needed.\n&nbsp;\n[L3: Option to customize the Vendor dashboard URL and YayCurrency Switcher compatibility]\n(FYI to team: I did not inform customer about the compatibility part yet as we have not tested the feasibility",
+      "public": false,
+      "attachments": [],
+      "audit_id": 46071058473497,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-04-22T20:08:13Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+          "ip_address": "223.185.128.250",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56964826018201,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Planned for 378.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Planned for 378.<br>[Veena]<br></div>",
+      "plain_body": "Planned for 378.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56964826018073,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T13:32:58Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "152.57.117.139",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

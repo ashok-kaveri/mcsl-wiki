@@ -1,0 +1,1586 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/260001.json",
+    "id": 260001,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "nick@dieselheat.com.au",
+          "name": "Nick"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2024-03-12T23:03:11Z",
+    "updated_at": "2026-04-14T13:32:51Z",
+    "generated_timestamp": 1776173571,
+    "type": null,
+    "subject": "Bundled Prodcuts",
+    "raw_subject": "Bundled Prodcuts",
+    "description": "Guys\n\nWe have recently started to use bundled products and it is making issues with the freight.\n\nFor bundled products you have the option to calculate the weight for shipping based on either the sum of all the items (main product and content products) or just using the size and weight of the main item.\n\nIn our case we are using the bundled items to allow the system to manage stock , but when we ship - the product weight and volume still just comes from the main product - not the content products as these are built into the main product.\n\n\n\nIn Woo all the invoices, packing slips etc. ignore the content products - so they do not show, but PluginHive is ignoring the setting Assembled Weight - Ignore and is adding up all the bundled items to get the total size and weight. \n\n\nCan you please adjust pluginhive to also ignore the content products when it calculates the weight and volume - as these are built into the items being shipped.\n\nIf you need to check an order see 191081 for product Eberspacher D2L AS3 Diesel Air Heater Marine Kit (12V). \n\nThe product has all the items below as content items, but the shipping weight should be 50 x50 x20 and 10kg. But the system is now adding in the weights of all the content itesm as well.\n\n\n \nHamish - the lines for the content items must be flagged somehow in Woo so the Assembled weight can be either included or ignored and so the content lines do not show on the checkout screen, invoices etc. - can you please let us now how this works so PluginHive can look for that flag as well.\n\nthanks\n\nNick\n\n\n--\n\nNick Tanner\n\nDIESELHEAT\n\n39 Golden Valley Road\nCygnet TAS 7112\nMobile 0418 130 971",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 398513528231,
+    "submitter_id": 398513528231,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      7658200629657,
+      904029198866
+    ],
+    "follower_ids": [
+      7658200629657,
+      904029198866
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "back-log",
+      "dev_needed",
+      "high_agent_replies",
+      "last_reply_agent",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "48d4f70d-5b08-4060-93f5-7d63fbd15be4"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "back-log"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "65f98cf9ccddacdfbcd8433a"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "VMKEP7-JPDML",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "48d4f70d-5b08-4060-93f5-7d63fbd15be4"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "back-log"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "65f98cf9ccddacdfbcd8433a"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 29821221596825,
+      "type": "Comment",
+      "author_id": 398513528231,
+      "body": "Guys\n\n\nWe have recently started to use bundled products and it is making issues with the freight.\n\n\n\nFor bundled products you have the option to calculate the weight for shipping based on either the sum of all the items (main product and content products) or just using the size and weight of the main item.\n\n\n\nIn our case we are using the bundled items to allow the system to manage stock , but when we ship - the product weight and volume still just comes from the main product - not the content products as these are built into the main product.\n\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/04nZe0mezjtS2xsCtDrUsbgRj/?name=image.png)\n\n\n\nIn Woo all the invoices, packing slips etc. ignore the content products - so they do not show, but PluginHive is ignoring the setting Assembled Weight - Ignore and is adding up all the bundled items to get the total size and weight.\n\n ![image.png](https://support.pluginhive.com/attachments/token/CoRHVDF2sfMQQKLmYdZPxkm0F/?name=image.png)\n\n\n\nCan you please adjust pluginhive to also ignore the content products when it calculates the weight and volume - as these are built into the items being shipped.\n\n\n\nIf you need to check an order see 191081 for product Eberspacher D2L AS3 Diesel Air Heater Marine Kit (12V).\n\n\n\nThe product has all the items below as content items, but the shipping weight should be 50 x50 x20 and 10kg. But the system is now adding in the weights of all the content itesm as well.\n\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/BK0v1KA8nMnzhGrrSTao7MlAQ/?name=image.png)\n\n\n\nHamish - the lines for the content items must be flagged somehow in Woo so the Assembled weight can be either included or ignored and so the content lines do not show on the checkout screen, invoices etc. - can you please let us now how this works so PluginHive can look for that flag as well.\n\n\n\nthanks\n\n\n\nNick\n\n\n\n\n\n--\n\nNick Tanner\n\nDIESELHEAT\n\n39 Golden Valley Road\nCygnet TAS 7112\nMobile 0418 130 971",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Guys<div><br></div><div>We have recently started to use bundled products&nbsp;and it is making issues with the freight.</div><div><br></div><div>For bundled products&nbsp;you have the option to calculate&nbsp;the weight for shipping&nbsp;based on either the sum of all the items (main product and content products) or just using the size and weight of the main item.</div><div><br></div><div>In our case we are using the bundled items to allow the system to manage stock , but when we ship - the product&nbsp;weight and volume&nbsp;still just comes from the main product&nbsp;- not the content products as these are built into the main product.</div><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/04nZe0mezjtS2xsCtDrUsbgRj/?name=image.png\" alt=\"image.png\" width=\"543\" height=\"215\"><br></div><div><br><div>In Woo all the invoices, packing slips etc. ignore the content products&nbsp;- so they do not show, but PluginHive is ignoring&nbsp;the setting Assembled Weight - Ignore and is adding up all the bundled items&nbsp;to get the total size and weight.&nbsp;</div><div><img src=\"https://support.pluginhive.com/attachments/token/CoRHVDF2sfMQQKLmYdZPxkm0F/?name=image.png\" alt=\"image.png\" width=\"543\" height=\"39\"><br></div><div><br></div><div>Can you please adjust pluginhive to also ignore the content products when it calculates the weight and volume - as these are built into the items being shipped.</div><div><br></div><div>If you need to check an order see 191081 for product&nbsp;Eberspacher D2L AS3 Diesel Air Heater Marine Kit (12V).&nbsp;</div><div><br></div><div>The product has all the items below as content items, but the shipping weight should be 50 x50 x20 and 10kg. But the system is now adding in the weights of all the content itesm as well.</div><div><br></div><img src=\"https://support.pluginhive.com/attachments/token/BK0v1KA8nMnzhGrrSTao7MlAQ/?name=image.png\" alt=\"image.png\" width=\"543\" height=\"309\"><br><div>&nbsp;</div><div>Hamish - the lines for the content items&nbsp;must be flagged somehow in Woo so the Assembled weight can be either included or ignored and so the content lines do not show on the checkout&nbsp;screen, invoices etc. - can you please let us now how this works so PluginHive can look for that flag as well.</div><div><br></div><div>thanks</div><div><br></div><div>Nick</div><div><br></div><div><br></div><span>-- </span><br><div dir=\"ltr\"><div dir=\"ltr\"><p style=\"font-size: 12.8px;\" dir=\"auto\"><span style=\"font-size: 12.8px;\">Nick Tanner</span><br></p><p style=\"font-size: 12.8px;\" dir=\"auto\">DIESELHEAT</p><p style=\"font-size: 12.8px;\" dir=\"auto\">39 Golden Valley Road<br><span style=\"font-size: 12.8px;\">Cygnet TAS 7112<br></span><span style=\"font-size: 12.8px;\">Mobile 0418 130 971</span><br></p><div><br></div></div></div></div></div></div>",
+      "plain_body": "Guys \n  We have recently started to use bundled products&nbsp;and it is making issues with the freight.  \n  For bundled products&nbsp;you have the option to calculate&nbsp;the weight for shipping&nbsp;based on either the sum of all the items (main product and content products) or just using the size and weight of the main item.  \n  In our case we are using the bundled items to allow the system to manage stock , but when we ship - the product&nbsp;weight and volume&nbsp;still just comes from the main product&nbsp;- not the content products as these are built into the main product.  \n  \n  \n In Woo all the invoices, packing slips etc. ignore the content products&nbsp;- so they do not show, but PluginHive is ignoring&nbsp;the setting Assembled Weight - Ignore and is adding up all the bundled items&nbsp;to get the total size and weight.&nbsp;  \n  \n  Can you please adjust pluginhive to also ignore the content products when it calculates the weight and volume - as these are built into the items being shipped.  \n  If you need to check an order see 191081 for product&nbsp;Eberspacher D2L AS3 Diesel Air Heater Marine Kit (12V).&nbsp;  \n  The product has all the items below as content items, but the shipping weight should be 50 x50 x20 and 10kg. But the system is now adding in the weights of all the content itesm as well.  \n \n &nbsp;  Hamish - the lines for the content items&nbsp;must be flagged somehow in Woo so the Assembled weight can be either included or ignored and so the content lines do not show on the checkout&nbsp;screen, invoices etc. - can you please let us now how this works so PluginHive can look for that flag as well.  \n  thanks  \n  Nick  \n  \n -- \n   Nick Tanner\n  DIESELHEAT  39 Golden Valley Road\nCygnet TAS 7112\nMobile 0418 130 971",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29821221596697,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nick@dieselheat.com.au",
+            "name": "Nick",
+            "original_recipients": [
+              "hi@hamish.com.au",
+              "nick@dieselheat.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-12T23:03:11Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAArw_bgiR=HzpHLhp7EAQ-1V8SOYGWiBwMAPm765gHsUUp1fvA@mail.gmail.com>",
+          "email_id": "01HRTEFK3J17AB5KRS0KA4QY3K",
+          "raw_email_identifier": "2369120/d7800aba-6876-43b7-960e-b37af7ac5b14.eml",
+          "json_email_identifier": "2369120/d7800aba-6876-43b7-960e-b37af7ac5b14.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 29822134308889,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Nick,\n\nGreetings from PluginHive!\n\nAs of now, our WooCommerce Shipping Service solution does not support Bundled Products.\n\nWe appreciate your understanding.\n\nFeel free to reach out to us if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>Greetings from PluginHive!<br>&nbsp;<br>As of now, our WooCommerce Shipping Service solution does not support Bundled Products.<br>&nbsp;<br>We appreciate your understanding.<br>&nbsp;<br>Feel free to reach out to us if you need any assistance.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nGreetings from PluginHive!\n&nbsp;\nAs of now, our WooCommerce Shipping Service solution does not support Bundled Products.\n&nbsp;\nWe appreciate your understanding.\n&nbsp;\nFeel free to reach out to us if you need any assistance.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29822134308761,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-12T23:45:08Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          "ip_address": "106.216.204.177",
+          "location": "Hyderabad, TS, India",
+          "latitude": 17.3724,
+          "longitude": 78.4378
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 29822128128793,
+      "type": "Comment",
+      "author_id": 398513528231,
+      "body": "Hi Manohar\n\n\nYes _ I know - but we need it to support this as we need to use bundled products but we cannot have the weights being calculated incorrectly on our shipping. Bundled products is an official woo plugin and we need you to support the option to use the main product weight._\n\n\n\n_Nick_",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Manohar<div><br></div><div>Yes&nbsp;<i>&nbsp;I know - but we need it to support this as we need to use bundled products&nbsp;but we cannot have the weights being calculated incorrectly on our shipping. Bundled products&nbsp;is an official&nbsp;woo plugin and we need you to support the option to use the main product&nbsp;weight.</i></div><div><i><br></i></div><div><i>Nick</i></div><div><i><br></i></div><div><i><br></i></div></div><br></div>",
+      "plain_body": "Hi Manohar \n  Yes&nbsp;&nbsp;I know - but we need it to support this as we need to use bundled products&nbsp;but we cannot have the weights being calculated incorrectly on our shipping. Bundled products&nbsp;is an official&nbsp;woo plugin and we need you to support the option to use the main product&nbsp;weight.  \n  Nick",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29822128128665,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nick@dieselheat.com.au",
+            "name": "Nick",
+            "original_recipients": [
+              "nick@dieselheat.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-12T23:47:29Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAArw_bg5rDGb5n9crrhw+YQ=SUvbGXo0QE+BU-OaqweZgsX9Dw@mail.gmail.com>",
+          "email_id": "01HRTH0QCSBKF9YZRVMPV8D37V",
+          "raw_email_identifier": "2369120/f21c5505-f0d0-481f-a908-47a7be9fdda4.eml",
+          "json_email_identifier": "2369120/f21c5505-f0d0-481f-a908-47a7be9fdda4.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 29826003477273,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Nick,\n\nThank you for your response.\n\nAs mentioned in the previous email, the WooCommerce Shipping Services plugin does not integrate with Bundled Products.\n\nWe have noted this requirement to check the feasibility in the future. We will notify you if any progress on this subject.\n\n\nBest Regards,\n\nSibi Firoz\n\nIT Analyst\nPluginHive\n ![Pluginhive](https://www.pluginhive.com/wp-content/uploads/2020/04/pluginhive_logo.png)\nPhone: +1 831 267 6349\nWebsite: https://www.pluginhive.com/",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>As mentioned in the previous email, the WooCommerce Shipping Services plugin does not integrate with Bundled Products.<br>&nbsp;<br>We have noted this requirement to check the feasibility in the future. We will notify you if any progress on this subject.&nbsp;<br>&nbsp;<br>\n\n<span class=\"collapse-signature\"></span><div class=\"signature\"><p dir=\"auto\">Best Regards,</p>\n<p dir=\"auto\">Sibi Firoz</p>\n<p dir=\"auto\">IT Analyst<br>\nPluginHive<br>\n<a href=\"https://www.pluginhive.com/\" rel=\"noreferrer\"><img src=\"https://www.pluginhive.com/wp-content/uploads/2020/04/pluginhive_logo.png\" alt=\"Pluginhive\"></a><br>\nPhone:&nbsp;+1 831 267 6349<br>\nWebsite:&nbsp;<a href=\"https://www.pluginhive.com/\" rel=\"noreferrer\">https://www.pluginhive.com/</a></p></div></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nThank you for your response.\n&nbsp;\nAs mentioned in the previous email, the WooCommerce Shipping Services plugin does not integrate with Bundled Products.\n&nbsp;\nWe have noted this requirement to check the feasibility in the future. We will notify you if any progress on this subject.&nbsp;\n&nbsp;\n\n\n  Best Regards, \n Sibi Firoz \n IT Analyst\n\nPluginHive\n\n\n\nPhone:&nbsp;+1 831 267 6349\n\nWebsite:&nbsp;https://www.pluginhive.com/",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29826003477145,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-13T01:26:44Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 29826401835545,
+      "type": "Comment",
+      "author_id": 398513528231,
+      "body": "Hi Sibi\n\n\nI'm sorry but this needs to be looked at more urgently. It's not complicated and it's not possible that a woo authorised plugin cannot operate with your system. We need bundled products to manage stock and your system for freight. We need your system to work with bundled products.\n\n\n\nPlease escalate this issue as we need this resolved.\n\n\n\nNick",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Hi Sibi<div dir=\"auto\"><br></div><div dir=\"auto\">I'm sorry but this needs to be looked at more urgently. It's not complicated and it's not possible that a woo authorised plugin cannot operate with your system. We need bundled products to manage stock and your system for freight. We need your system to work with bundled products.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Please escalate this issue as we need this resolved.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Nick</div><div dir=\"auto\"><br></div></div><br></div>",
+      "plain_body": "Hi Sibi \n  I'm sorry but this needs to be looked at more urgently. It's not complicated and it's not possible that a woo authorised plugin cannot operate with your system. We need bundled products to manage stock and your system for freight. We need your system to work with bundled products.  \n  Please escalate this issue as we need this resolved.  \n  Nick",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29826401835417,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nick@dieselheat.com.au",
+            "name": "Nick",
+            "original_recipients": [
+              "nick@dieselheat.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-13T01:35:05Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAArw_biw_KdfaGSN18OST+4e=oWNZpxXiL-CG3bBiGNqph-XbQ@mail.gmail.com>",
+          "email_id": "01HRTQ5QVPVPYZXXR1KHV1SBJ5",
+          "raw_email_identifier": "2369120/b14960aa-019c-4a82-aeb7-fc94a50510a0.eml",
+          "json_email_identifier": "2369120/b14960aa-019c-4a82-aeb7-fc94a50510a0.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 29831152132505,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Nick,\n\nGood Day!\n\nSibi has logged off for the day. I will be happy to assist you.\n\nI have escalated your request to our team.\n\nSo, please allow us some time and we will get back to with an update soon.\n\nFeel free to reach out if you have any further queries in the meantime.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>Sibi has logged off for the day. I will be happy to assist you.<br>&nbsp;<br>I have escalated your request to our team.<br>&nbsp;<br>So, please allow us some time and we will get back to with an update soon.<br>&nbsp;<br>Feel free to reach out if you have any further queries in the meantime.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nGood Day!\n&nbsp;\nSibi has logged off for the day. I will be happy to assist you.\n&nbsp;\nI have escalated your request to our team.\n&nbsp;\nSo, please allow us some time and we will get back to with an update soon.\n&nbsp;\nFeel free to reach out if you have any further queries in the meantime.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29831152132377,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-13T03:15:11Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 29831178310681,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Moving to L3.\n\nAs discussed with Vimal, we have to check the feasibility of official Woo Bundled Products plugin with our WSS plugin.\n\nStore Details -\n- URL - https://www.dieselheat.com.au (Live)\n- App - WSS - 48d4f70d-5b08-4060-93f5-7d63fbd15be4\n- Store Location - Australia\n- Business - Diesel appliances for caravans, RVs, boats and off grid.\n- Carriers - DHL, AuPost MPB, TNT Aus.\n- Shipping Policy & Checkout Flow: Rates and Labels (approx 150 labels per month)\n- Order Count in last 14 days: 189 when last checked\n- Subscription Plan - $29 Plan\n- Customer active from 2022-08-23",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving to L3.<br>&nbsp;<br>As discussed with Vimal, we have to check the feasibility of official Woo Bundled Products plugin with our WSS plugin.<br>&nbsp;<br>Store Details -<br><ul dir=\"auto\"><li>URL - <a rel=\"noopener noreferrer\" href=\"https://www.dieselheat.com.au\">https://www.dieselheat.com.au</a> (Live)</li><li>App - WSS - 48d4f70d-5b08-4060-93f5-7d63fbd15be4</li><li>Store Location - Australia</li><li>Business - Diesel appliances for caravans, RVs, boats and off grid.</li><li>Carriers - DHL, AuPost MPB, TNT Aus.</li><li>Shipping Policy &amp; Checkout Flow: Rates and Labels (approx 150 labels per month)</li><li>Order Count in last 14 days: 189 when last checked</li><li>Subscription Plan - $29 Plan</li><li>Customer active from 2022-08-23</li></ul></div>",
+      "plain_body": "Moving to L3.\n&nbsp;\nAs discussed with Vimal, we have to check the feasibility of official Woo Bundled Products plugin with our WSS plugin.\n&nbsp;\nStore Details -\n  URL - https://www.dieselheat.com.au (Live)  App - WSS - 48d4f70d-5b08-4060-93f5-7d63fbd15be4  Store Location - Australia  Business - Diesel appliances for caravans, RVs, boats and off grid.  Carriers - DHL, AuPost MPB, TNT Aus.  Shipping Policy &amp; Checkout Flow: Rates and Labels (approx 150 labels per month)  Order Count in last 14 days: 189 when last checked  Subscription Plan - $29 Plan  Customer active from 2022-08-23",
+      "public": false,
+      "attachments": [],
+      "audit_id": 29831178310553,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-13T03:15:21Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 29852092332441,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We will check the feasibility for the Print option in label created and label batch view. Kindly move this to dev_needed for a timebeing.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will check the feasibility for the Print option in label created and label batch view. Kindly move this to dev_needed for a timebeing.<br>[Veena]<br></div>",
+      "plain_body": "We will check the feasibility for the Print option in label created and label batch view. Kindly move this to dev_needed for a timebeing.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 29852092332313,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-13T11:16:24Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 29852709837593,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Nick,\n\nWe will check the feasibility of your request and let you know once we have an update for the same.\n\nIf you have any further queries, do let us know.\n\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>We will check the feasibility of your request and let you know once we have an update for the same.&nbsp;<br>&nbsp;<br>If you have any further queries, do let us know.<br>&nbsp;<br>Thanks and Regards,<br>Sagar K S<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nWe will check the feasibility of your request and let you know once we have an update for the same.&nbsp;\n&nbsp;\nIf you have any further queries, do let us know.\n&nbsp;\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29852709837465,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-13T11:37:04Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 29865323874841,
+      "type": "Comment",
+      "author_id": 398513528231,
+      "body": "Hi Sagar\n\n\nPlease note right now the freight quote in the cart is looking at only the main product, but when booking it includes the weight/volume of the main product + the contents products - so quoting at cart is working differently to booking.\n\n\n\nLet me know if you need more information. This is obviously a huge issue for us.\n\n\n\nthanks\n\n\n\nNick",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Sagar<div><br></div><div>Please note right now the freight quote in the cart is looking at only the main product, but when booking it includes the weight/volume of the main product&nbsp;+ the contents products&nbsp;- so quoting at cart is working differently&nbsp;to booking.&nbsp;</div><div><br></div><div>Let me know if you need more information. This is obviously&nbsp;a huge issue for us.</div><div><br></div><div>thanks</div><div><br></div><div>Nick</div></div><br></div>",
+      "plain_body": "Hi Sagar \n  Please note right now the freight quote in the cart is looking at only the main product, but when booking it includes the weight/volume of the main product&nbsp;+ the contents products&nbsp;- so quoting at cart is working differently&nbsp;to booking.&nbsp;  \n  Let me know if you need more information. This is obviously&nbsp;a huge issue for us.  \n  thanks  \n  Nick",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29865323874713,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nick@dieselheat.com.au",
+            "name": "Nick",
+            "original_recipients": [
+              "nick@dieselheat.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-13T23:32:35Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAArw_bhA3P4GRK6M71_Kg8GxyZ23AaeP1rTK+U0-5Zv4Jm3q1Q@mail.gmail.com>",
+          "email_id": "01HRX2J54N9N41ZWB0Y26RPV5H",
+          "raw_email_identifier": "2369120/dc03d27d-fe1d-4423-83d3-5454a2f3b560.eml",
+          "json_email_identifier": "2369120/dc03d27d-fe1d-4423-83d3-5454a2f3b560.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 29869580003609,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Nick,\n\nThank you for your response and Sagar is not available at the moment.\n\nAs mentioned in our previous response, we are checking the feasibility of your request and keep you updated.\n\n\n\nBest Regards,\n\nSibi Firoz\n\nIT Analyst\nPluginHive\n ![Pluginhive](https://www.pluginhive.com/wp-content/uploads/2020/04/pluginhive_logo.png)\nPhone: +1 831 267 6349\nWebsite: https://www.pluginhive.com/",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>Thank you for your response and Sagar is not available at the moment.<br>&nbsp;<br>As mentioned in our previous response, we are checking the feasibility of your request and keep you updated.<br>&nbsp;<br>&nbsp;<br>\n\n<span class=\"collapse-signature\"></span><div class=\"signature\"><p dir=\"auto\">Best Regards,</p>\n<p dir=\"auto\">Sibi Firoz</p>\n<p dir=\"auto\">IT Analyst<br>\nPluginHive<br>\n<a href=\"https://www.pluginhive.com/\" rel=\"noreferrer\"><img src=\"https://www.pluginhive.com/wp-content/uploads/2020/04/pluginhive_logo.png\" alt=\"Pluginhive\"></a><br>\nPhone:&nbsp;+1 831 267 6349<br>\nWebsite:&nbsp;<a href=\"https://www.pluginhive.com/\" rel=\"noreferrer\">https://www.pluginhive.com/</a></p></div></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nThank you for your response and Sagar is not available at the moment.\n&nbsp;\nAs mentioned in our previous response, we are checking the feasibility of your request and keep you updated.\n&nbsp;\n&nbsp;\n\n\n  Best Regards, \n Sibi Firoz \n IT Analyst\n\nPluginHive\n\n\n\nPhone:&nbsp;+1 831 267 6349\n\nWebsite:&nbsp;https://www.pluginhive.com/",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29869580003481,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-14T01:24:23Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 29877735751449,
+      "type": "Comment",
+      "author_id": 398513528231,
+      "body": "Hi Sagar\n\n\nAnother issue we found - this customer booked Aust. Post express post - but when we made the label your system overrode it to TNT Road Express. I think this is because your system added in the bundle contents at tiem of booking but did not look at them at time of quoting\n\n ![image.png](https://support.pluginhive.com/attachments/token/OzKUzSSs821Tac7Fy7RceqU30/?name=image.png)\n\n ![image.png](https://support.pluginhive.com/attachments/token/bwqpq057VRxz01zPZkY1lCJfQ/?name=image.png)\n\n\n\nbut in pluginhive\n\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/rbD0KGwXKzIHXylBfWYAvp819/?name=image.png)\n\n ![image.png](https://support.pluginhive.com/attachments/token/hBvVKExm5iiOlkC9HXhpeSj6q/?name=image.png)\n\n\n\nIt is the same issue - but the plugin is actually changing the shipping method as well which we cannot allow.\n\n\n\nNick",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Sagar<div><br></div><div>Another issue we found - this customer booked Aust. Post express post - but when we made the label your system overrode it to TNT Road Express. I think this is because&nbsp;your system added in the bundle contents at tiem of booking but did not look at them at time of quoting</div><div><img src=\"https://support.pluginhive.com/attachments/token/OzKUzSSs821Tac7Fy7RceqU30/?name=image.png\" alt=\"image.png\" width=\"563\" height=\"131\"><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/bwqpq057VRxz01zPZkY1lCJfQ/?name=image.png\" alt=\"image.png\" width=\"563\" height=\"269\"><br></div><div><br></div><div>but in pluginhive</div><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/rbD0KGwXKzIHXylBfWYAvp819/?name=image.png\" alt=\"image.png\" width=\"563\" height=\"206\"><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/hBvVKExm5iiOlkC9HXhpeSj6q/?name=image.png\" alt=\"image.png\" width=\"563\" height=\"233\"><br></div><div><br></div><div>It is the same issue - but the plugin is actually changing the shipping method as well which we cannot allow.</div><div><br></div><div>Nick</div></div><br></div>",
+      "plain_body": "Hi Sagar \n  Another issue we found - this customer booked Aust. Post express post - but when we made the label your system overrode it to TNT Road Express. I think this is because&nbsp;your system added in the bundle contents at tiem of booking but did not look at them at time of quoting  \n  \n  \n  but in pluginhive  \n  \n  \n  \n  It is the same issue - but the plugin is actually changing the shipping method as well which we cannot allow.  \n  Nick",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29877735751321,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nick@dieselheat.com.au",
+            "name": "Nick",
+            "original_recipients": [
+              "nick@dieselheat.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-14T04:24:09Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAArw_bjkUvZebe9XXVRJsueSU_C3ypQEi8vRwCh+=BkGAWOMoA@mail.gmail.com>",
+          "email_id": "01HRXK80BYNHEYT80FE23BVH4B",
+          "raw_email_identifier": "2369120/74b150a4-d485-4422-bdc3-f194012e3ba1.eml",
+          "json_email_identifier": "2369120/74b150a4-d485-4422-bdc3-f194012e3ba1.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 29880588893849,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Request #260260 \"Order Changing Carrier\" was closed and merged into this request. Last comment in request #260260:\r\n\r\nThis order\r\n ![image.png](https://support.pluginhive.com/attachments/token/TqvpNH3aSFAQgrUGtxh1vmbc6/?name=image.png)\r\n\r\n\r\n\r\n\r\n\r\nwas quoted with Express post\r\n\r\n ![image.png](https://support.pluginhive.com/attachments/token/deCbpGXj05Fh5IuQrBUU8lKdj/?name=image.png)\r\n\r\nbut it booked with TNT\r\n\r\n ![image.png](https://support.pluginhive.com/attachments/token/icxjYRKs69JLSRoiXFLg45lhF/?name=image.png)\r\n\r\n\r\n\r\nWe have this issue at the moment where bundled products are making the carrier chane - but this is a simple product - not bundled\r\n\r\n\r\n\r\nwhy has the carrier changed?\r\n\r\n\r\n\r\nthanks\r\n\r\n\r\n\r\nNick\r\n\r\n\r\n\r\n--\r\n\r\nNick Tanner\r\n\r\nDIESELHEAT\r\n\r\n39 Golden Valley Road\r\nCygnet TAS 7112\r\nMobile 0418 130 971",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/260260\" target=\"_blank\" rel=\"ticket\">#260260</a> \"Order Changing Carrier\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/260260\" target=\"_blank\" rel=\"ticket\">#260260</a>:</p>\n<p dir=\"auto\">This order<br>\n <img src=\"https://support.pluginhive.com/attachments/token/TqvpNH3aSFAQgrUGtxh1vmbc6/?name=image.png\" alt=\"image.png\"></p>\n<p dir=\"auto\">was quoted with Express post</p>\n<p dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/deCbpGXj05Fh5IuQrBUU8lKdj/?name=image.png\" alt=\"image.png\"></p>\n<p dir=\"auto\">but it booked with TNT</p>\n<p dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/icxjYRKs69JLSRoiXFLg45lhF/?name=image.png\" alt=\"image.png\"></p>\n<p dir=\"auto\">We have this issue at the moment where bundled products are making the carrier chane - but this is a simple product - not bundled</p>\n<p dir=\"auto\">why has the carrier changed?</p>\n<p dir=\"auto\">thanks</p>\n<p dir=\"auto\">Nick</p>\n<p dir=\"auto\">--</p>\n<p dir=\"auto\">Nick Tanner</p>\n<p dir=\"auto\">DIESELHEAT</p>\n<p dir=\"auto\">39 Golden Valley Road<br>\nCygnet TAS 7112<br>\nMobile 0418 130 971</p></div>",
+      "plain_body": "Request #260260 \"Order Changing Carrier\" was closed and merged into this request. Last comment in request #260260: \n This order\n\n  \n was quoted with Express post \n  \n but it booked with TNT \n  \n We have this issue at the moment where bundled products are making the carrier chane - but this is a simple product - not bundled \n why has the carrier changed? \n thanks \n Nick \n -- \n Nick Tanner \n DIESELHEAT \n 39 Golden Valley Road\n\nCygnet TAS 7112\n\nMobile 0418 130 971",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/29880589005337.json",
+          "id": 29880589005337,
+          "file_name": "image.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/SlqooLLp9Y4hdKPE6cvPMe9Pp/?name=image.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/SlqooLLp9Y4hdKPE6cvPMe9Pp/?name=image.png",
+          "content_type": "image/png",
+          "size": 35881,
+          "width": 1404,
+          "height": 337,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/29880597445529.json",
+              "id": 29880597445529,
+              "file_name": "image_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/1ht7tHLDY58mvxdRuEOea8UlX/?name=image_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/1ht7tHLDY58mvxdRuEOea8UlX/?name=image_thumb.png",
+              "content_type": "image/png",
+              "size": 1102,
+              "width": 80,
+              "height": 19,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/29880589043993.json",
+          "id": 29880589043993,
+          "file_name": "image.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/AfqNhq3M9hfXucYVx81wz2qCt/?name=image.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/AfqNhq3M9hfXucYVx81wz2qCt/?name=image.png",
+          "content_type": "image/png",
+          "size": 32813,
+          "width": 1417,
+          "height": 505,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/29880589057177.json",
+              "id": 29880589057177,
+              "file_name": "image_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/59bWDbQyXWyh8VmODs9R74GuL/?name=image_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/59bWDbQyXWyh8VmODs9R74GuL/?name=image_thumb.png",
+              "content_type": "image/png",
+              "size": 1033,
+              "width": 80,
+              "height": 29,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/29880589112345.json",
+          "id": 29880589112345,
+          "file_name": "image.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/Naw2FrkZ3xRzJ8AEZOEkZWEqJ/?name=image.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/Naw2FrkZ3xRzJ8AEZOEkZWEqJ/?name=image.png",
+          "content_type": "image/png",
+          "size": 5391,
+          "width": 1063,
+          "height": 54,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/29880589120281.json",
+              "id": 29880589120281,
+              "file_name": "image_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/sLhzgTq9KzBQllXTb6pgym0Aa/?name=image_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/sLhzgTq9KzBQllXTb6pgym0Aa/?name=image_thumb.png",
+              "content_type": "image/png",
+              "size": 488,
+              "width": 80,
+              "height": 4,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 29880588893721,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              260260
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2024-03-14T05:26:36Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 29881038190617,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Nick,\n\nGood Day!\n\nI have checked your query and could observe that in the plugin the Automation Rule for the MyPost Business Account which will control the label generation using MyPost Business services is disabled as shared in the screenshot below.\n\nThis is the reason why the plugin in only checking for TNT Australia and DHL rates and assigning the cheapest available service to your Orders.\n\nI have enabled the automation rule from my end and now it should work as expected.\n\nPlease cross check the same with a new Order and confirm.\n\n ![](https://pluginhive.zendesk.com/attachments/token/m8KuTcqAMQQnTmSrEJUjCAOyJ/?name=Untitled2.png)\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>I have checked your query and could observe that in the plugin the Automation Rule for the MyPost Business Account which will control the label generation using MyPost Business services is disabled as shared in the screenshot below.<br>&nbsp;<br>This is the reason why the plugin in only checking for TNT Australia and DHL rates and assigning the cheapest available service to your Orders.<br>&nbsp;<br>I have enabled the automation rule from my end and now it should work as expected.<br>&nbsp;<br>Please cross check the same with a new Order and confirm.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\"width: 697px;\" src=\"https://pluginhive.zendesk.com/attachments/token/m8KuTcqAMQQnTmSrEJUjCAOyJ/?name=Untitled2.png\"></span><br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nGood Day!\n&nbsp;\nI have checked your query and could observe that in the plugin the Automation Rule for the MyPost Business Account which will control the label generation using MyPost Business services is disabled as shared in the screenshot below.\n&nbsp;\nThis is the reason why the plugin in only checking for TNT Australia and DHL rates and assigning the cheapest available service to your Orders.\n&nbsp;\nI have enabled the automation rule from my end and now it should work as expected.\n&nbsp;\nPlease cross check the same with a new Order and confirm.\n&nbsp;\n\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29881038190489,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-14T05:36:46Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 29881486462233,
+      "type": "Comment",
+      "author_id": 904029198866,
+      "body": "We have not touched this - do you know why it would be disabled?",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">We have not touched this - do you know why it would&nbsp;be disabled?</div><br></div>",
+      "plain_body": "We have not touched this - do you know why it would&nbsp;be disabled?",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29881486462105,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nick@dieselheat.com.au",
+            "name": "Nick",
+            "original_recipients": [
+              "sales@dieselheat.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-14T05:47:08Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKA+wnQwcFapg9OqyVEF78otFgHNZP5pueZakFtwa-3Dc0aVnA@mail.gmail.com>",
+          "email_id": "01HRXQZZE4VR7W0S39KWVGR1ZM",
+          "raw_email_identifier": "2369120/60dc85f1-e238-452e-86fa-432743c8cb3c.eml",
+          "json_email_identifier": "2369120/60dc85f1-e238-452e-86fa-432743c8cb3c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 29881589971225,
+      "type": "Comment",
+      "author_id": 398513528231,
+      "body": "ok - we have many confusing issues going on at the moment - it is hard to see what is caused by bundled products and what is caused by this rule getting turned off - I have no idea how the rule got turned off since we are not touching the settings in the plugin... our IT guys are trying to set up a staging site to do some testing maybe they turned it off by mistake.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">ok - we have many confusing issues going on at the moment - it is hard to see what is caused by bundled products and what is caused&nbsp;by this rule getting turned off - I have no idea how the rule got turned off since we are not touching the settings in the plugin... our IT guys are trying to set up a staging site to do some testing maybe they turned it off by mistake.</div><br></div>",
+      "plain_body": "ok - we have many confusing issues going on at the moment - it is hard to see what is caused by bundled products and what is caused&nbsp;by this rule getting turned off - I have no idea how the rule got turned off since we are not touching the settings in the plugin... our IT guys are trying to set up a staging site to do some testing maybe they turned it off by mistake.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29881589970713,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nick@dieselheat.com.au",
+            "name": "Nick",
+            "original_recipients": [
+              "nick@dieselheat.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-14T05:49:46Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAArw_bjLAt_MvkK1KatEPsxXNzyJgvFy-0r_8pZokR3VpEZhug@mail.gmail.com>",
+          "email_id": "01HRXR4SQTHKG0JKZGXNG7MTMV",
+          "raw_email_identifier": "2369120/e88b8299-879a-43ce-b228-0073a0b0a3fd.eml",
+          "json_email_identifier": "2369120/e88b8299-879a-43ce-b228-0073a0b0a3fd.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 29884715151129,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Nick,\n\nThank you for the acknowledgement.\n\nPlease feel free to reach out if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>Thank you for the acknowledgement.<br>&nbsp;<br>Please feel free to reach out if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nThank you for the acknowledgement.\n&nbsp;\nPlease feel free to reach out if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 29884715151001,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-14T07:00:04Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 30072637540889,
+      "type": "Comment",
+      "author_id": 398513528231,
+      "body": "Hi Guys\n\n\nWhat is happening with the issues around bundled products and the plugin not supporting them properly?\n\n\n\nthanks\n\n\n\nNick",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Guys<div><br></div><div>What is happening&nbsp;with&nbsp;the issues around bundled products&nbsp;and the plugin not supporting them properly?</div><div><br></div><div>thanks</div><div><br></div><div>Nick</div></div><br></div>",
+      "plain_body": "Hi Guys \n  What is happening&nbsp;with&nbsp;the issues around bundled products&nbsp;and the plugin not supporting them properly?  \n  thanks  \n  Nick",
+      "public": true,
+      "attachments": [],
+      "audit_id": 30072637540761,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nick@dieselheat.com.au",
+            "name": "Nick",
+            "original_recipients": [
+              "nick@dieselheat.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-19T02:18:53Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAArw_bhJeR6J6vQQVr7gRvof7-d+YijMi5SgKU5Bk=+we0Rcmg@mail.gmail.com>",
+          "email_id": "01HSA828YAGQ9Q25ZKAPZ40W3Z",
+          "raw_email_identifier": "2369120/9ae86040-369d-4a1d-88b7-b73fbc57ae74.eml",
+          "json_email_identifier": "2369120/9ae86040-369d-4a1d-88b7-b73fbc57ae74.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 30073014551705,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Nick,\n\nGood Day!\n\nOur development team is looking into the feasibility of Woo Bundled Products plugin with our plugin.\n\nWe will update you once we hear from them.\n\nThank you for your patience and understanding.\n\nRegards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>Our development team is looking into the feasibility of Woo Bundled Products plugin with our plugin.<br>&nbsp;<br>We will update you once we hear from them.<br>&nbsp;<br>Thank you for your patience and understanding.<br>&nbsp;<br>Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nGood Day!\n&nbsp;\nOur development team is looking into the feasibility of Woo Bundled Products plugin with our plugin.\n&nbsp;\nWe will update you once we hear from them.\n&nbsp;\nThank you for your patience and understanding.\n&nbsp;\nRegards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 30073014551577,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-19T02:26:55Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 30203343413017,
+      "type": "Comment",
+      "author_id": 398513528231,
+      "body": "Hi Touseef\n\n\n\n\n\nIs there any news on this? Right now we are losing many hundreds of dollars as your system quotes with the right weight, but books with the larger incorrect weight because it adds in all the bundled items so we are paying too much for every shipment.\n\n\n\nI really need this fixed urgently to stop this cost.\n\n\n\nI am willing to pay a once off fee equal to 1 year of plugin hive  user fee to pluginhive to expedite this.\n\n\n\nThanks\n\n\n\nNick",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div>Hi Touseef</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">Is there any news on this? Right now we are losing many hundreds of dollars as your system quotes with the right weight, but books with the larger incorrect weight because it adds in all the bundled items so we are paying too much for every shipment.&nbsp;</div><div dir=\"auto\"><br></div><div dir=\"auto\">I really need this fixed urgently to stop this cost.</div><div dir=\"auto\"><br></div><div dir=\"auto\">I am willing to pay a once off fee equal to 1 year of plugin hive&nbsp; user fee to pluginhive to expedite this.&nbsp;</div><div dir=\"auto\"><br></div><div dir=\"auto\">Thanks</div><div dir=\"auto\"><br></div><div dir=\"auto\">Nick</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br><br></div></div></div>",
+      "plain_body": "Hi Touseef  \n  \n  Is there any news on this? Right now we are losing many hundreds of dollars as your system quotes with the right weight, but books with the larger incorrect weight because it adds in all the bundled items so we are paying too much for every shipment.&nbsp;  \n  I really need this fixed urgently to stop this cost.  \n  I am willing to pay a once off fee equal to 1 year of plugin hive&nbsp; user fee to pluginhive to expedite this.&nbsp;  \n  Thanks  \n  Nick",
+      "public": true,
+      "attachments": [],
+      "audit_id": 30203343412889,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nick@dieselheat.com.au",
+            "name": "Nick",
+            "original_recipients": [
+              "nick@dieselheat.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-21T21:51:50Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAArw_bjUXW9_N0P3vjyYkhCdUqwK_nttTdEF5-HyKHrDi91W8A@mail.gmail.com>",
+          "email_id": "01HSHFZDWZBXA2Y2RH4EDXE5CN",
+          "raw_email_identifier": "2369120/bc911ff6-e5db-4351-93e4-9975e21c1936.eml",
+          "json_email_identifier": "2369120/bc911ff6-e5db-4351-93e4-9975e21c1936.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 30203355429913,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Nick,\n\nI understand your concern.\n\nPlease allow us some time we check and get back to you with an update.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>I understand your concern.<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br>&nbsp;<br>We appreciate your time and patience.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nI understand your concern.\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n&nbsp;\nWe appreciate your time and patience.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 30203355429785,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-21T21:53:40Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 30236293457049,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "We will enhance the app to support Bundled products. this will be available by end of next month.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will enhance the app to support Bundled products. this will be available by end of next month.<br>[Veena]<br></div>",
+      "plain_body": "We will enhance the app to support Bundled products. this will be available by end of next month.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 30236293456921,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-22T11:46:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 30236296601881,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Add this to dev_needed after replying.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Add this to dev_needed after replying.<br>[Veena]<br></div>",
+      "plain_body": "Add this to dev_needed after replying.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 30236305560857,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-22T11:46:32Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 30236391008025,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Nick,\n\nWe will be enhancing the app to support bundled products. This will be available by end of next month.\n\nWe will let you know once released.\n\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>We will be enhancing the app to support bundled products. This will be available by end of next month.<br>&nbsp;<br>We will let you know once released.<br>&nbsp;<br>Thanks and Regards,<br>Sagar K S<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nWe will be enhancing the app to support bundled products. This will be available by end of next month.\n&nbsp;\nWe will let you know once released.\n&nbsp;\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 30236391007897,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-03-22T11:50:17Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 32262293884441,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Request #268740 \"Bundled Prodcuts\" was closed and merged into this request. Last comment in request #268740:\r\n\r\nHi - we are still having to book every freight manually as your system is not compatible with product bundles - the change we need is very small and simple but we have been waiting a long time - please clarify when will this be done?\r\n\r\n\r\n\r\n\r\n\r\n\r\n--\r\n\r\nNick Tanner\r\n\r\nDIESELHEAT\r\n\r\n39 Golden Valley Road\r\nCygnet TAS 7112\r\nMobile 0418 130 971",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/268740\" target=\"_blank\" rel=\"ticket\">#268740</a> \"Bundled Prodcuts\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/268740\" target=\"_blank\" rel=\"ticket\">#268740</a>:</p>\n<p dir=\"auto\">Hi - we are still having to book every freight manually as your system is not compatible with product bundles - the change we need is very small and simple but we have been waiting a long time - please clarify when will this be done?</p>\n<p dir=\"auto\">--</p>\n<p dir=\"auto\">Nick Tanner</p>\n<p dir=\"auto\">DIESELHEAT</p>\n<p dir=\"auto\">39 Golden Valley Road<br>\nCygnet TAS 7112<br>\nMobile 0418 130 971</p></div>",
+      "plain_body": "Request #268740 \"Bundled Prodcuts\" was closed and merged into this request. Last comment in request #268740: \n Hi - we are still having to book every freight manually as your system is not compatible with product bundles - the change we need is very small and simple but we have been waiting a long time - please clarify when will this be done? \n -- \n Nick Tanner \n DIESELHEAT \n 39 Golden Valley Road\n\nCygnet TAS 7112\n\nMobile 0418 130 971",
+      "public": false,
+      "attachments": [],
+      "audit_id": 32262293884313,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              268740
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2024-05-09T20:15:18Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 32262275672729,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Nick,\n\nI understand your concern.\n\nPlease allow us some time we check and get back to you with an update.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>I understand your concern.<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br>&nbsp;<br>We appreciate your time and patience.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nI understand your concern.\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n&nbsp;\nWe appreciate your time and patience.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 32262292363033,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-05-09T20:15:35Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 33014630981273,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Request #271155 \"support for bundled prodcuts\" was closed and merged into this request. Last comment in request #271155:\r\n\r\nHi Pluginhive - we are still waiting for you to fix the system so that bundled products calculate freight properly. You promised this ages ago - can you please get this sorted?\r\n\r\n\r\n\r\n\r\n\r\n\r\n--\r\n\r\nNick Tanner\r\n\r\nDIESELHEAT\r\n\r\n39 Golden Valley Road\r\nCygnet TAS 7112\r\nMobile 0418 130 971",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/271155\" target=\"_blank\" rel=\"ticket\">#271155</a> \"support for bundled prodcuts\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/271155\" target=\"_blank\" rel=\"ticket\">#271155</a>:</p>\n<p dir=\"auto\">Hi Pluginhive - we are still waiting for you to fix the system so that bundled products calculate freight properly. You promised this ages ago - can you please get this sorted?</p>\n<p dir=\"auto\">--</p>\n<p dir=\"auto\">Nick Tanner</p>\n<p dir=\"auto\">DIESELHEAT</p>\n<p dir=\"auto\">39 Golden Valley Road<br>\nCygnet TAS 7112<br>\nMobile 0418 130 971</p></div>",
+      "plain_body": "Request #271155 \"support for bundled prodcuts\" was closed and merged into this request. Last comment in request #271155: \n Hi Pluginhive - we are still waiting for you to fix the system so that bundled products calculate freight properly. You promised this ages ago - can you please get this sorted? \n -- \n Nick Tanner \n DIESELHEAT \n 39 Golden Valley Road\n\nCygnet TAS 7112\n\nMobile 0418 130 971",
+      "public": false,
+      "attachments": [],
+      "audit_id": 33014686273689,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              271155
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2024-05-27T23:13:43Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 33014678840857,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Nick,\n\nPlease allow us some time we check and get back to you with an update.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br>&nbsp;<br>We appreciate your time and patience.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n&nbsp;\nWe appreciate your time and patience.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 33014678840601,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2024-05-27T23:15:05Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9634,
+          "longitude": 77.5855
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 43401479880729,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+61343283339",
+        "to": "+61418130971",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAe6821ef06933dc971df281c4ea291c15/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 43401476856345,
+        "call_duration": 20,
+        "answered_by_id": 10478126723609,
+        "started_at": "2025-02-12T02:14:42Z",
+        "location": "",
+        "author_id": 10478126723609,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Sagar K S",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+61 3 4328 3339",
+      "formatted_to": "+61 418 130 971",
+      "transcription_visible": false,
+      "author_id": 10478126723609,
+      "body": "Outbound call to +61 418 130 971\nCall Details:\n\nCall from: +61 3 4328 3339\nCall to: +61 418 130 971\nTime of call: 2025-02-12 02:14:42 UTC\nCalled by: Sagar K S\nLength of phone call: 20 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAe6821ef06933dc971df281c4ea291c15/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +61 418 130 971<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +61 3 4328 3339<br>\nCall to: +61 418 130 971<br>\nTime of call: 2025-02-12 02:14:42 UTC<br>\nCalled by: Sagar K S<br>\nLength of phone call: 20 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAe6821ef06933dc971df281c4ea291c15/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAe6821ef06933dc971df281c4ea291c15/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2025-02-12T02:15:04Z",
+      "audit_id": 43401492642457,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+61 3 4328 3339",
+            "phone": "+61343283339",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+61 418 130 971",
+            "phone": "+61418130971",
+            "name": "+61 418 130 971"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 43401516351385,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Called the number provided but reached automated voicemail",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Called the number provided but reached automated voicemail<br></div>",
+      "plain_body": "Called the number provided but reached automated voicemail",
+      "public": false,
+      "attachments": [],
+      "audit_id": 43401516350105,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-02-12T02:16:18Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 43401697590425,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Nick,\n\nHope you are doing well.\n\nI am following up on this ticket regarding the enhancement related to the Bundled products.\n\nDue to major developments related to few shipping carriers ad some unforeseen conditions, we were not able to expedite this enhancement.\n\nI would like to know if this enhancement is crucial for your business, so that I can have a discussion with our team and try expediting the enhancement.\n\nAppreciate your patience and understanding with this.\n\nLooking forward to hearing from you.\n\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>Hope you are doing well.<br>&nbsp;<br>I am following up on this ticket regarding the enhancement related to the Bundled products.&nbsp;<br>&nbsp;<br>Due to major developments related to few shipping carriers ad some unforeseen conditions, we were not able to expedite this enhancement.&nbsp;<br>&nbsp;<br>I would like to know if this enhancement is crucial for your business, so that I can have a discussion with our team and try expediting the enhancement.<br>&nbsp;<br>Appreciate your patience and understanding with this.&nbsp;<br>&nbsp;<br>Looking forward to hearing from you.<br>&nbsp;<br>Thanks and Regards,<br>Sagar K S<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nHope you are doing well.\n&nbsp;\nI am following up on this ticket regarding the enhancement related to the Bundled products.&nbsp;\n&nbsp;\nDue to major developments related to few shipping carriers ad some unforeseen conditions, we were not able to expedite this enhancement.&nbsp;\n&nbsp;\nI would like to know if this enhancement is crucial for your business, so that I can have a discussion with our team and try expediting the enhancement.\n&nbsp;\nAppreciate your patience and understanding with this.&nbsp;\n&nbsp;\nLooking forward to hearing from you.\n&nbsp;\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 43401697586969,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-02-12T02:19:56Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 43404063357081,
+      "type": "Comment",
+      "author_id": 904029198866,
+      "body": "Sagar - right now we have to enter every box size manually and we have been doing it for over a year now. Really this is a very simple fix for you - please do not give up and get it done.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Sagar - right now we have to enter every box size manually and we have been doing it for over a year now. Really this is a very simple fix for you - please do not give up and get it done.&nbsp;</div><br><div></div></div>",
+      "plain_body": "Sagar - right now we have to enter every box size manually and we have been doing it for over a year now. Really this is a very simple fix for you - please do not give up and get it done.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 43404063356953,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nick@dieselheat.com.au",
+            "name": "Nick",
+            "original_recipients": [
+              "sales@dieselheat.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2025-02-12T03:11:04Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAKA+wnTDC3sD5kJA6cfh43XH56Zgz8u7Jq71nTstcorZBGdz3A@mail.gmail.com>",
+          "email_id": "01JKW26XAPM6H5NZYR40W52HHC",
+          "raw_email_identifier": "2369120/51773102-f9f9-4284-8d9f-07b924bcec78.eml",
+          "json_email_identifier": "2369120/51773102-f9f9-4284-8d9f-07b924bcec78.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 43404216343833,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Nick,\n\nThank you for your response.\n\nI have informed the team about this. We will let you know of any updates on the enahancement at the earliest.\n\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>I have informed the team about this. We will let you know of any updates on the enahancement at the earliest.<br>&nbsp;<br>Thanks and Regards,<br>Sagar K S<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nThank you for your response.\n&nbsp;\nI have informed the team about this. We will let you know of any updates on the enahancement at the earliest.\n&nbsp;\nThanks and Regards,\nSagar K S\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 43404216343705,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-02-12T03:15:35Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 45605676071705,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Customer is actively using the plugin and is waiting for this dev.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer is actively using the plugin and is waiting for this dev.<br></div>",
+      "plain_body": "Customer is actively using the plugin and is waiting for this dev.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 45605676071321,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2025-04-10T15:37:50Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+          "ip_address": "49.37.155.172",
+          "location": "Hyderabad, TS, India",
+          "latitude": 17.3843,
+          "longitude": 78.4583
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56964816003353,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Planned for 378.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Planned for 378.<br>[Veena]<br></div>",
+      "plain_body": "Planned for 378.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56964816003097,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T13:32:51Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "152.57.117.139",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/387108.json",
+    "id": 387108,
+    "external_id": null,
+    "via": {
+      "channel": "api",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-05-01T19:11:38Z",
+    "updated_at": "2026-05-06T08:44:09Z",
+    "generated_timestamp": 1778057050,
+    "type": null,
+    "subject": "stripe payment webhook update (updateStipeInvoiceDetails)",
+    "raw_subject": "stripe payment webhook update (updateStipeInvoiceDetails)",
+    "description": "{\"error\":\"no matches\",\"updateFromStripe\":{\"id\":\"evt_1TSMTLDOl8P0Ke60S2WI317m\",\"object\":\"event\",\"api_version\":\"2023-08-16\",\"created\":1777662694,\"data\":{\"object\":{\"id\":\"in_1TSMTKDOl8P0Ke60WmK6h6iS\",\"object\":\"invoice\",\"account_country\":\"US\",\"account_name\":\"PluginHive\",\"account_tax_ids\":null,\"amount_due\":1900,\"amount_overpaid\":0,\"amount_paid\":0,\"amount_remaining\":1900,\"amount_shipping\":0,\"application\":null,\"application_fee_amount\":null,\"attempt_count\":0,\"attempted\":false,\"auto_advance\":true,\"automatic_tax\":{\"disabled_reason\":null,\"enabled\":false,\"liability\":null,\"provider\":null,\"status\":null},\"automatically_finalizes_at\":1777921895,\"billing_reason\":\"subscription_cycle\",\"charge\":null,\"collection_method\":\"charge_automatically\",\"created\":1777662694,\"currency\":\"usd\",\"custom_fields\":null,\"customer\":\"cus_T9p3JEM6biMLiu\",\"customer_account\":null,\"customer_address\":null,\"customer_email\":\"info@passauhockey.com\",\"customer_name\":null,\"customer_phone\":null,\"customer_shipping\":{\"address\":{\"city\":\"Chambly\",\"country\":\"CA\",\"line1\":\"2340 boul Industriel\",\"line2\":\"2340 boul Industriel\",\"postal_code\":\"J3L 4V2\",\"state\":\"QC\"},\"name\":\"Vincent Lemieux\",\"phone\":\"4506587587\"},\"customer_tax_exempt\":\"none\",\"customer_tax_ids\":[],\"default_payment_method\":null,\"default_source\":null,\"default_tax_rates\":[],\"description\":null,\"discount\":null,\"discounts\":[],\"due_date\":null,\"effective_at\":null,\"ending_balance\":null,\"footer\":null,\"from_invoice\":null,\"hosted_invoice_url\":null,\"invoice_pdf\":null,\"issuer\":{\"type\":\"self\"},\"last_finalization_error\":null,\"latest_revision\":null,\"lines\":{\"object\":\"list\",\"data\":[{\"id\":\"il_1TSMTKDOl8P0Ke60SQlVvdnd\",\"object\":\"line_item\",\"amount\":1900,\"amount_excluding_tax\":1900,\"currency\":\"usd\",\"description\":\"1 × Starter (at $19.00 / month)\",\"discount_amounts\":[],\"discountable\":true,\"discounts\":[],\"invoice\":\"in_1TSMTKDOl8P0Ke60WmK6h6iS\",\"livemode\":true,\"metadata\":{\"contextId\":\"0a009940-5c99-4585-b96f-29d1edbfd458\",\"brand\":\"PLUGINHIVE\"},\"parent\":{\"invoice_item_details\":null,\"license_fee_subscription_details\":null,\"subscription_item_details\":{\"invoice_item\":null,\"proration\":false,\"proration_details\":{\"credited_items\":null},\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\",\"subscription_item\":\"si_T9p3OTiqdWLsoi\"},\"type\":\"subscription_item_details\"},\"period\":{\"end\":1780341018,\"start\":1777662618},\"plan\":{\"id\":\"St_Syup_19USD_L_L\",\"object\":\"plan\",\"active\":true,\"aggregate_usage\":null,\"amount\":1900,\"amount_decimal\":\"1900\",\"billing_scheme\":\"per_unit\",\"created\":1738672578,\"currency\":\"usd\",\"interval\":\"month\",\"interval_count\":1,\"livemode\":true,\"metadata\":{\"brand\":\"PLUGINHIVE\"},\"meter\":null,\"nickname\":\"Starter\",\"product\":\"prod_RiBj4j2I8GaHWB\",\"tiers_mode\":null,\"transform_usage\":null,\"trial_period_days\":null,\"usage_type\":\"licensed\"},\"pretax_credit_amounts\":[],\"price\":{\"id\":\"St_Syup_19USD_L_L\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1738672578,\"currency\":\"usd\",\"custom_unit_amount\":null,\"livemode\":true,\"lookup_key\":null,\"metadata\":{\"brand\":\"PLUGINHIVE\"},\"nickname\":\"Starter\",\"product\":\"prod_RiBj4j2I8GaHWB\",\"recurring\":{\"aggregate_usage\":null,\"interval\":\"month\",\"interval_count\":1,\"meter\":null,\"trial_period_days\":null,\"usage_type\":\"licensed\"},\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"recurring\",\"unit_amount\":1900,\"unit_amount_decimal\":\"1900\"},\"pricing\":{\"price_details\":{\"price\":\"St_Syup_19USD_L_L\",\"product\":\"prod_RiBj4j2I8GaHWB\"},\"type\":\"price_details\",\"unit_amount_decimal\":\"1900\"},\"proration\":false,\"proration_details\":{\"credited_items\":null},\"quantity\":1,\"quantity_decimal\":\"1\",\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\",\"subscription_item\":\"si_T9p3OTiqdWLsoi\",\"subtotal\":1900,\"tax_amounts\":[],\"tax_rates\":[],\"taxes\":[],\"type\":\"subscription\",\"unit_amount_excluding_tax\":\"1900\"}],\"has_more\":false,\"total_count\":1,\"url\":\"/v1/invoices/in_1TSMTKDOl8P0Ke60WmK6h6iS/lines\"},\"livemode\":true,\"metadata\":{},\"next_payment_attempt\":1777666294,\"number\":null,\"on_behalf_of\":null,\"paid\":false,\"paid_out_of_band\":false,\"parent\":{\"quote_details\":null,\"subscription_details\":{\"metadata\":{\"contextId\":\"0a009940-5c99-4585-b96f-29d1edbfd458\",\"brand\":\"PLUGINHIVE\"},\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\"},\"type\":\"subscription_details\"},\"payment_intent\":null,\"payment_settings\":{\"default_mandate\":null,\"payment_method_options\":null,\"payment_method_types\":null},\"period_end\":1777662618,\"period_start\":1775070618,\"post_payment_credit_notes_amount\":0,\"pre_payment_credit_notes_amount\":0,\"quote\":null,\"receipt_number\":null,\"rendering\":null,\"rendering_options\":null,\"shipping_cost\":null,\"shipping_details\":null,\"starting_balance\":0,\"statement_descriptor\":null,\"status\":\"draft\",\"status_transitions\":{\"finalized_at\":null,\"marked_uncollectible_at\":null,\"paid_at\":null,\"voided_at\":null},\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\",\"subscription_details\":{\"metadata\":{\"contextId\":\"0a009940-5c99-4585-b96f-29d1edbfd458\",\"brand\":\"PLUGINHIVE\",\"subtotal\":1900,\"subtotal_excluding_tax\":1900,\"tax\":null,\"test_clock\":null,\"total\":1900,\"total_discount_amounts\":[],\"total_excluding_tax\":1900,\"total_pretax_credit_amounts\":[],\"total_tax_amounts\":[],\"total_taxes\":[],\"transfer_data\":null,\"webhooks_delivered_at\":null,\"livemode\":true,\"pending_webhooks\":2,\"request\":{\"id\":null,\"idempotency_key\":null},\"type\":\"invoice.created\"",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@storepep.com",
+    "requester_id": 368383421891,
+    "submitter_id": 368383421891,
+    "assignee_id": null,
+    "organization_id": 360096729272,
+    "group_id": null,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": null
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "GZ5JW2-MG0WX",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": null
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57517653443225,
+      "type": "Comment",
+      "author_id": 368383421891,
+      "body": "{\"error\":\"no matches\",\"updateFromStripe\":{\"id\":\"evt_1TSMTLDOl8P0Ke60S2WI317m\",\"object\":\"event\",\"api_version\":\"2023-08-16\",\"created\":1777662694,\"data\":{\"object\":{\"id\":\"in_1TSMTKDOl8P0Ke60WmK6h6iS\",\"object\":\"invoice\",\"account_country\":\"US\",\"account_name\":\"PluginHive\",\"account_tax_ids\":null,\"amount_due\":1900,\"amount_overpaid\":0,\"amount_paid\":0,\"amount_remaining\":1900,\"amount_shipping\":0,\"application\":null,\"application_fee_amount\":null,\"attempt_count\":0,\"attempted\":false,\"auto_advance\":true,\"automatic_tax\":{\"disabled_reason\":null,\"enabled\":false,\"liability\":null,\"provider\":null,\"status\":null},\"automatically_finalizes_at\":1777921895,\"billing_reason\":\"subscription_cycle\",\"charge\":null,\"collection_method\":\"charge_automatically\",\"created\":1777662694,\"currency\":\"usd\",\"custom_fields\":null,\"customer\":\"cus_T9p3JEM6biMLiu\",\"customer_account\":null,\"customer_address\":null,\"customer_email\":\"info@passauhockey.com\",\"customer_name\":null,\"customer_phone\":null,\"customer_shipping\":{\"address\":{\"city\":\"Chambly\",\"country\":\"CA\",\"line1\":\"2340 boul Industriel\",\"line2\":\"2340 boul Industriel\",\"postal_code\":\"J3L 4V2\",\"state\":\"QC\"},\"name\":\"Vincent Lemieux\",\"phone\":\"4506587587\"},\"customer_tax_exempt\":\"none\",\"customer_tax_ids\":[],\"default_payment_method\":null,\"default_source\":null,\"default_tax_rates\":[],\"description\":null,\"discount\":null,\"discounts\":[],\"due_date\":null,\"effective_at\":null,\"ending_balance\":null,\"footer\":null,\"from_invoice\":null,\"hosted_invoice_url\":null,\"invoice_pdf\":null,\"issuer\":{\"type\":\"self\"},\"last_finalization_error\":null,\"latest_revision\":null,\"lines\":{\"object\":\"list\",\"data\":[{\"id\":\"il_1TSMTKDOl8P0Ke60SQlVvdnd\",\"object\":\"line_item\",\"amount\":1900,\"amount_excluding_tax\":1900,\"currency\":\"usd\",\"description\":\"1 × Starter (at $19.00 / month)\",\"discount_amounts\":[],\"discountable\":true,\"discounts\":[],\"invoice\":\"in_1TSMTKDOl8P0Ke60WmK6h6iS\",\"livemode\":true,\"metadata\":{\"contextId\":\"0a009940-5c99-4585-b96f-29d1edbfd458\",\"brand\":\"PLUGINHIVE\"},\"parent\":{\"invoice_item_details\":null,\"license_fee_subscription_details\":null,\"subscription_item_details\":{\"invoice_item\":null,\"proration\":false,\"proration_details\":{\"credited_items\":null},\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\",\"subscription_item\":\"si_T9p3OTiqdWLsoi\"},\"type\":\"subscription_item_details\"},\"period\":{\"end\":1780341018,\"start\":1777662618},\"plan\":{\"id\":\"St_Syup_19USD_L_L\",\"object\":\"plan\",\"active\":true,\"aggregate_usage\":null,\"amount\":1900,\"amount_decimal\":\"1900\",\"billing_scheme\":\"per_unit\",\"created\":1738672578,\"currency\":\"usd\",\"interval\":\"month\",\"interval_count\":1,\"livemode\":true,\"metadata\":{\"brand\":\"PLUGINHIVE\"},\"meter\":null,\"nickname\":\"Starter\",\"product\":\"prod_RiBj4j2I8GaHWB\",\"tiers_mode\":null,\"transform_usage\":null,\"trial_period_days\":null,\"usage_type\":\"licensed\"},\"pretax_credit_amounts\":[],\"price\":{\"id\":\"St_Syup_19USD_L_L\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1738672578,\"currency\":\"usd\",\"custom_unit_amount\":null,\"livemode\":true,\"lookup_key\":null,\"metadata\":{\"brand\":\"PLUGINHIVE\"},\"nickname\":\"Starter\",\"product\":\"prod_RiBj4j2I8GaHWB\",\"recurring\":{\"aggregate_usage\":null,\"interval\":\"month\",\"interval_count\":1,\"meter\":null,\"trial_period_days\":null,\"usage_type\":\"licensed\"},\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"recurring\",\"unit_amount\":1900,\"unit_amount_decimal\":\"1900\"},\"pricing\":{\"price_details\":{\"price\":\"St_Syup_19USD_L_L\",\"product\":\"prod_RiBj4j2I8GaHWB\"},\"type\":\"price_details\",\"unit_amount_decimal\":\"1900\"},\"proration\":false,\"proration_details\":{\"credited_items\":null},\"quantity\":1,\"quantity_decimal\":\"1\",\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\",\"subscription_item\":\"si_T9p3OTiqdWLsoi\",\"subtotal\":1900,\"tax_amounts\":[],\"tax_rates\":[],\"taxes\":[],\"type\":\"subscription\",\"unit_amount_excluding_tax\":\"1900\"}],\"has_more\":false,\"total_count\":1,\"url\":\"/v1/invoices/in_1TSMTKDOl8P0Ke60WmK6h6iS/lines\"},\"livemode\":true,\"metadata\":{},\"next_payment_attempt\":1777666294,\"number\":null,\"on_behalf_of\":null,\"paid\":false,\"paid_out_of_band\":false,\"parent\":{\"quote_details\":null,\"subscription_details\":{\"metadata\":{\"contextId\":\"0a009940-5c99-4585-b96f-29d1edbfd458\",\"brand\":\"PLUGINHIVE\"},\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\"},\"type\":\"subscription_details\"},\"payment_intent\":null,\"payment_settings\":{\"default_mandate\":null,\"payment_method_options\":null,\"payment_method_types\":null},\"period_end\":1777662618,\"period_start\":1775070618,\"post_payment_credit_notes_amount\":0,\"pre_payment_credit_notes_amount\":0,\"quote\":null,\"receipt_number\":null,\"rendering\":null,\"rendering_options\":null,\"shipping_cost\":null,\"shipping_details\":null,\"starting_balance\":0,\"statement_descriptor\":null,\"status\":\"draft\",\"status_transitions\":{\"finalized_at\":null,\"marked_uncollectible_at\":null,\"paid_at\":null,\"voided_at\":null},\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\",\"subscription_details\":{\"metadata\":{\"contextId\":\"0a009940-5c99-4585-b96f-29d1edbfd458\",\"brand\":\"PLUGINHIVE\"}},\"subtotal\":1900,\"subtotal_excluding_tax\":1900,\"tax\":null,\"test_clock\":null,\"total\":1900,\"total_discount_amounts\":[],\"total_excluding_tax\":1900,\"total_pretax_credit_amounts\":[],\"total_tax_amounts\":[],\"total_taxes\":[],\"transfer_data\":null,\"webhooks_delivered_at\":null}},\"livemode\":true,\"pending_webhooks\":2,\"request\":{\"id\":null,\"idempotency_key\":null},\"type\":\"invoice.created\"}}",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">{\"error\":\"no matches\",\"updateFromStripe\":{\"id\":\"evt_1TSMTLDOl8P0Ke60S2WI317m\",\"object\":\"event\",\"api_version\":\"2023-08-16\",\"created\":1777662694,\"data\":{\"object\":{\"id\":\"in_1TSMTKDOl8P0Ke60WmK6h6iS\",\"object\":\"invoice\",\"account_country\":\"US\",\"account_name\":\"PluginHive\",\"account_tax_ids\":null,\"amount_due\":1900,\"amount_overpaid\":0,\"amount_paid\":0,\"amount_remaining\":1900,\"amount_shipping\":0,\"application\":null,\"application_fee_amount\":null,\"attempt_count\":0,\"attempted\":false,\"auto_advance\":true,\"automatic_tax\":{\"disabled_reason\":null,\"enabled\":false,\"liability\":null,\"provider\":null,\"status\":null},\"automatically_finalizes_at\":1777921895,\"billing_reason\":\"subscription_cycle\",\"charge\":null,\"collection_method\":\"charge_automatically\",\"created\":1777662694,\"currency\":\"usd\",\"custom_fields\":null,\"customer\":\"cus_T9p3JEM6biMLiu\",\"customer_account\":null,\"customer_address\":null,\"customer_email\":\"<a href=\"mailto:info@passauhockey.com\" rel=\"noreferrer\">info@passauhockey.com</a>\",\"customer_name\":null,\"customer_phone\":null,\"customer_shipping\":{\"address\":{\"city\":\"Chambly\",\"country\":\"CA\",\"line1\":\"2340 boul Industriel\",\"line2\":\"2340 boul Industriel\",\"postal_code\":\"J3L 4V2\",\"state\":\"QC\"},\"name\":\"Vincent Lemieux\",\"phone\":\"4506587587\"},\"customer_tax_exempt\":\"none\",\"customer_tax_ids\":[],\"default_payment_method\":null,\"default_source\":null,\"default_tax_rates\":[],\"description\":null,\"discount\":null,\"discounts\":[],\"due_date\":null,\"effective_at\":null,\"ending_balance\":null,\"footer\":null,\"from_invoice\":null,\"hosted_invoice_url\":null,\"invoice_pdf\":null,\"issuer\":{\"type\":\"self\"},\"last_finalization_error\":null,\"latest_revision\":null,\"lines\":{\"object\":\"list\",\"data\":[{\"id\":\"il_1TSMTKDOl8P0Ke60SQlVvdnd\",\"object\":\"line_item\",\"amount\":1900,\"amount_excluding_tax\":1900,\"currency\":\"usd\",\"description\":\"1 × Starter (at $19.00 / month)\",\"discount_amounts\":[],\"discountable\":true,\"discounts\":[],\"invoice\":\"in_1TSMTKDOl8P0Ke60WmK6h6iS\",\"livemode\":true,\"metadata\":{\"contextId\":\"0a009940-5c99-4585-b96f-29d1edbfd458\",\"brand\":\"PLUGINHIVE\"},\"parent\":{\"invoice_item_details\":null,\"license_fee_subscription_details\":null,\"subscription_item_details\":{\"invoice_item\":null,\"proration\":false,\"proration_details\":{\"credited_items\":null},\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\",\"subscription_item\":\"si_T9p3OTiqdWLsoi\"},\"type\":\"subscription_item_details\"},\"period\":{\"end\":1780341018,\"start\":1777662618},\"plan\":{\"id\":\"St_Syup_19USD_L_L\",\"object\":\"plan\",\"active\":true,\"aggregate_usage\":null,\"amount\":1900,\"amount_decimal\":\"1900\",\"billing_scheme\":\"per_unit\",\"created\":1738672578,\"currency\":\"usd\",\"interval\":\"month\",\"interval_count\":1,\"livemode\":true,\"metadata\":{\"brand\":\"PLUGINHIVE\"},\"meter\":null,\"nickname\":\"Starter\",\"product\":\"prod_RiBj4j2I8GaHWB\",\"tiers_mode\":null,\"transform_usage\":null,\"trial_period_days\":null,\"usage_type\":\"licensed\"},\"pretax_credit_amounts\":[],\"price\":{\"id\":\"St_Syup_19USD_L_L\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1738672578,\"currency\":\"usd\",\"custom_unit_amount\":null,\"livemode\":true,\"lookup_key\":null,\"metadata\":{\"brand\":\"PLUGINHIVE\"},\"nickname\":\"Starter\",\"product\":\"prod_RiBj4j2I8GaHWB\",\"recurring\":{\"aggregate_usage\":null,\"interval\":\"month\",\"interval_count\":1,\"meter\":null,\"trial_period_days\":null,\"usage_type\":\"licensed\"},\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"recurring\",\"unit_amount\":1900,\"unit_amount_decimal\":\"1900\"},\"pricing\":{\"price_details\":{\"price\":\"St_Syup_19USD_L_L\",\"product\":\"prod_RiBj4j2I8GaHWB\"},\"type\":\"price_details\",\"unit_amount_decimal\":\"1900\"},\"proration\":false,\"proration_details\":{\"credited_items\":null},\"quantity\":1,\"quantity_decimal\":\"1\",\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\",\"subscription_item\":\"si_T9p3OTiqdWLsoi\",\"subtotal\":1900,\"tax_amounts\":[],\"tax_rates\":[],\"taxes\":[],\"type\":\"subscription\",\"unit_amount_excluding_tax\":\"1900\"}],\"has_more\":false,\"total_count\":1,\"url\":\"/v1/invoices/in_1TSMTKDOl8P0Ke60WmK6h6iS/lines\"},\"livemode\":true,\"metadata\":{},\"next_payment_attempt\":1777666294,\"number\":null,\"on_behalf_of\":null,\"paid\":false,\"paid_out_of_band\":false,\"parent\":{\"quote_details\":null,\"subscription_details\":{\"metadata\":{\"contextId\":\"0a009940-5c99-4585-b96f-29d1edbfd458\",\"brand\":\"PLUGINHIVE\"},\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\"},\"type\":\"subscription_details\"},\"payment_intent\":null,\"payment_settings\":{\"default_mandate\":null,\"payment_method_options\":null,\"payment_method_types\":null},\"period_end\":1777662618,\"period_start\":1775070618,\"post_payment_credit_notes_amount\":0,\"pre_payment_credit_notes_amount\":0,\"quote\":null,\"receipt_number\":null,\"rendering\":null,\"rendering_options\":null,\"shipping_cost\":null,\"shipping_details\":null,\"starting_balance\":0,\"statement_descriptor\":null,\"status\":\"draft\",\"status_transitions\":{\"finalized_at\":null,\"marked_uncollectible_at\":null,\"paid_at\":null,\"voided_at\":null},\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\",\"subscription_details\":{\"metadata\":{\"contextId\":\"0a009940-5c99-4585-b96f-29d1edbfd458\",\"brand\":\"PLUGINHIVE\"}},\"subtotal\":1900,\"subtotal_excluding_tax\":1900,\"tax\":null,\"test_clock\":null,\"total\":1900,\"total_discount_amounts\":[],\"total_excluding_tax\":1900,\"total_pretax_credit_amounts\":[],\"total_tax_amounts\":[],\"total_taxes\":[],\"transfer_data\":null,\"webhooks_delivered_at\":null}},\"livemode\":true,\"pending_webhooks\":2,\"request\":{\"id\":null,\"idempotency_key\":null},\"type\":\"invoice.created\"}}</p></div>",
+      "plain_body": "{\"error\":\"no matches\",\"updateFromStripe\":{\"id\":\"evt_1TSMTLDOl8P0Ke60S2WI317m\",\"object\":\"event\",\"api_version\":\"2023-08-16\",\"created\":1777662694,\"data\":{\"object\":{\"id\":\"in_1TSMTKDOl8P0Ke60WmK6h6iS\",\"object\":\"invoice\",\"account_country\":\"US\",\"account_name\":\"PluginHive\",\"account_tax_ids\":null,\"amount_due\":1900,\"amount_overpaid\":0,\"amount_paid\":0,\"amount_remaining\":1900,\"amount_shipping\":0,\"application\":null,\"application_fee_amount\":null,\"attempt_count\":0,\"attempted\":false,\"auto_advance\":true,\"automatic_tax\":{\"disabled_reason\":null,\"enabled\":false,\"liability\":null,\"provider\":null,\"status\":null},\"automatically_finalizes_at\":1777921895,\"billing_reason\":\"subscription_cycle\",\"charge\":null,\"collection_method\":\"charge_automatically\",\"created\":1777662694,\"currency\":\"usd\",\"custom_fields\":null,\"customer\":\"cus_T9p3JEM6biMLiu\",\"customer_account\":null,\"customer_address\":null,\"customer_email\":\"info@passauhockey.com\",\"customer_name\":null,\"customer_phone\":null,\"customer_shipping\":{\"address\":{\"city\":\"Chambly\",\"country\":\"CA\",\"line1\":\"2340 boul Industriel\",\"line2\":\"2340 boul Industriel\",\"postal_code\":\"J3L 4V2\",\"state\":\"QC\"},\"name\":\"Vincent Lemieux\",\"phone\":\"4506587587\"},\"customer_tax_exempt\":\"none\",\"customer_tax_ids\":[],\"default_payment_method\":null,\"default_source\":null,\"default_tax_rates\":[],\"description\":null,\"discount\":null,\"discounts\":[],\"due_date\":null,\"effective_at\":null,\"ending_balance\":null,\"footer\":null,\"from_invoice\":null,\"hosted_invoice_url\":null,\"invoice_pdf\":null,\"issuer\":{\"type\":\"self\"},\"last_finalization_error\":null,\"latest_revision\":null,\"lines\":{\"object\":\"list\",\"data\":[{\"id\":\"il_1TSMTKDOl8P0Ke60SQlVvdnd\",\"object\":\"line_item\",\"amount\":1900,\"amount_excluding_tax\":1900,\"currency\":\"usd\",\"description\":\"1 × Starter (at $19.00 / month)\",\"discount_amounts\":[],\"discountable\":true,\"discounts\":[],\"invoice\":\"in_1TSMTKDOl8P0Ke60WmK6h6iS\",\"livemode\":true,\"metadata\":{\"contextId\":\"0a009940-5c99-4585-b96f-29d1edbfd458\",\"brand\":\"PLUGINHIVE\"},\"parent\":{\"invoice_item_details\":null,\"license_fee_subscription_details\":null,\"subscription_item_details\":{\"invoice_item\":null,\"proration\":false,\"proration_details\":{\"credited_items\":null},\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\",\"subscription_item\":\"si_T9p3OTiqdWLsoi\"},\"type\":\"subscription_item_details\"},\"period\":{\"end\":1780341018,\"start\":1777662618},\"plan\":{\"id\":\"St_Syup_19USD_L_L\",\"object\":\"plan\",\"active\":true,\"aggregate_usage\":null,\"amount\":1900,\"amount_decimal\":\"1900\",\"billing_scheme\":\"per_unit\",\"created\":1738672578,\"currency\":\"usd\",\"interval\":\"month\",\"interval_count\":1,\"livemode\":true,\"metadata\":{\"brand\":\"PLUGINHIVE\"},\"meter\":null,\"nickname\":\"Starter\",\"product\":\"prod_RiBj4j2I8GaHWB\",\"tiers_mode\":null,\"transform_usage\":null,\"trial_period_days\":null,\"usage_type\":\"licensed\"},\"pretax_credit_amounts\":[],\"price\":{\"id\":\"St_Syup_19USD_L_L\",\"object\":\"price\",\"active\":true,\"billing_scheme\":\"per_unit\",\"created\":1738672578,\"currency\":\"usd\",\"custom_unit_amount\":null,\"livemode\":true,\"lookup_key\":null,\"metadata\":{\"brand\":\"PLUGINHIVE\"},\"nickname\":\"Starter\",\"product\":\"prod_RiBj4j2I8GaHWB\",\"recurring\":{\"aggregate_usage\":null,\"interval\":\"month\",\"interval_count\":1,\"meter\":null,\"trial_period_days\":null,\"usage_type\":\"licensed\"},\"tax_behavior\":\"unspecified\",\"tiers_mode\":null,\"transform_quantity\":null,\"type\":\"recurring\",\"unit_amount\":1900,\"unit_amount_decimal\":\"1900\"},\"pricing\":{\"price_details\":{\"price\":\"St_Syup_19USD_L_L\",\"product\":\"prod_RiBj4j2I8GaHWB\"},\"type\":\"price_details\",\"unit_amount_decimal\":\"1900\"},\"proration\":false,\"proration_details\":{\"credited_items\":null},\"quantity\":1,\"quantity_decimal\":\"1\",\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\",\"subscription_item\":\"si_T9p3OTiqdWLsoi\",\"subtotal\":1900,\"tax_amounts\":[],\"tax_rates\":[],\"taxes\":[],\"type\":\"subscription\",\"unit_amount_excluding_tax\":\"1900\"}],\"has_more\":false,\"total_count\":1,\"url\":\"/v1/invoices/in_1TSMTKDOl8P0Ke60WmK6h6iS/lines\"},\"livemode\":true,\"metadata\":{},\"next_payment_attempt\":1777666294,\"number\":null,\"on_behalf_of\":null,\"paid\":false,\"paid_out_of_band\":false,\"parent\":{\"quote_details\":null,\"subscription_details\":{\"metadata\":{\"contextId\":\"0a009940-5c99-4585-b96f-29d1edbfd458\",\"brand\":\"PLUGINHIVE\"},\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\"},\"type\":\"subscription_details\"},\"payment_intent\":null,\"payment_settings\":{\"default_mandate\":null,\"payment_method_options\":null,\"payment_method_types\":null},\"period_end\":1777662618,\"period_start\":1775070618,\"post_payment_credit_notes_amount\":0,\"pre_payment_credit_notes_amount\":0,\"quote\":null,\"receipt_number\":null,\"rendering\":null,\"rendering_options\":null,\"shipping_cost\":null,\"shipping_details\":null,\"starting_balance\":0,\"statement_descriptor\":null,\"status\":\"draft\",\"status_transitions\":{\"finalized_at\":null,\"marked_uncollectible_at\":null,\"paid_at\":null,\"voided_at\":null},\"subscription\":\"sub_1SDVPqDOl8P0Ke60uc4r3sJW\",\"subscription_details\":{\"metadata\":{\"contextId\":\"0a009940-5c99-4585-b96f-29d1edbfd458\",\"brand\":\"PLUGINHIVE\"}},\"subtotal\":1900,\"subtotal_excluding_tax\":1900,\"tax\":null,\"test_clock\":null,\"total\":1900,\"total_discount_amounts\":[],\"total_excluding_tax\":1900,\"total_pretax_credit_amounts\":[],\"total_tax_amounts\":[],\"total_taxes\":[],\"transfer_data\":null,\"webhooks_delivered_at\":null}},\"livemode\":true,\"pending_webhooks\":2,\"request\":{\"id\":null,\"idempotency_key\":null},\"type\":\"invoice.created\"}}",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57517653443097,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-01T19:11:38Z",
+      "metadata": {
+        "system": {
+          "client": "axios/0.16.2",
+          "ip_address": "165.227.28.252",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57649476951961,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Investigation pending.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Investigation pending.<br>[Veena]<br></div>",
+      "plain_body": "Investigation pending.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57649476943641,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-06T08:44:09Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

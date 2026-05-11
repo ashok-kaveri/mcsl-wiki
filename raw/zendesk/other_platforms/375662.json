@@ -1,0 +1,637 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/375662.json",
+    "id": 375662,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "josefb@racetechtitanium.com",
+          "name": "josefb@racetechtitanium.com"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-02-24T17:03:48Z",
+    "updated_at": "2026-04-14T13:31:59Z",
+    "generated_timestamp": 1776173520,
+    "type": null,
+    "subject": "Shipping Address Changes",
+    "raw_subject": "Shipping Address Changes",
+    "description": "Hello guys!\n\n \n\nI hope you are doing well. I am interested if you are able to make an update to the plugin to automatically change the shipping address in the plugin when it is updated on the Order Details page in Woocommerce.\n\n \n\nRight now If I change the Shipping address from Address A to Address B on the order, the shipping plugin keeps Address A as the shipping address. We then have to manually change the shipping address in the shipping plugin so the order goes to the correct updated address B.\n\nIs there any way you can automatically update the new shipping address in the Shipping Plugin when changes are saved in the Order Details Page?\n\n \n\nHere’s a video explaining a bit more: https://www.loom.com/share/c94f5388d583456c98bedb3dbddf1fb5\n\n \n\nThanks so much!\n\n \n\nJosef Bosnyak\n\nSales Executive\n\nRaceTech Titanium\n\n \n\n(618) 307-5637\n\nJosefB@RaceTechTitanium.com\n\nRaceTechTitanium.com (https://racetechtitanium.com/)\n\n805 Biltmore Blvd. South Roxana, IL 62087",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 26128244142361,
+    "submitter_id": 26128244142361,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "https://racetechtitanium.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "LE5W1K-YRP9W",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "https://racetechtitanium.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 55449632466585,
+      "type": "Comment",
+      "author_id": 26128244142361,
+      "body": "Hello guys!\n\n\n\nI hope you are doing well. I am interested if you are able to make an update to the plugin to automatically change the shipping address in the plugin when it is updated on the Order Details page in Woocommerce.\n\n\n\nRight now If I change the Shipping address from Address A to Address B on the order, the shipping plugin keeps Address A as the shipping address. We then have to manually change the shipping address in the shipping plugin so the order goes to the correct updated address B.\n\nIs there any way you can automatically update the new shipping address in the Shipping Plugin when changes are saved in the Order Details Page?\n\n\n\nHere’s a video explaining a bit more: https://www.loom.com/share/c94f5388d583456c98bedb3dbddf1fb5\n\n\n\nThanks so much!\n\n\n\n![](https://support.pluginhive.com/attachments/token/GP0yxnszPxXTOsTveceXf5Kxj/?name=image001.jpg)\n\n![](https://support.pluginhive.com/attachments/token/xuuR72F28fytbBjjBxRk49aGt/?name=image002.png)\n\n![facebook](https://support.pluginhive.com/attachments/token/kFAK7gjJnhR0EMbtmRI9XRsjz/?name=image003.png)\n\n![twitter](https://support.pluginhive.com/attachments/token/BWCQbAwkws9cXozw1jBXZlP2Y/?name=image004.png)\n\n![linkedin](https://support.pluginhive.com/attachments/token/tYs0wNerlpvtheovvqR6Gge3a/?name=image005.png)\n\n![instagram](https://support.pluginhive.com/attachments/token/xDoc4CAKCZjNaXaaFYSP58wlq/?name=image006.png)\n\n**Josef Bosnyak**\n\nSales Executive\n\nRaceTech Titanium\n\n\n\n![](https://support.pluginhive.com/attachments/token/PIna3Diu5i7YqGGLDTp7F2b0G/?name=image007.png)\n\n(618) 307-5637\n\n![](https://support.pluginhive.com/attachments/token/nDel4EncMMmMOSDF1ejuMH7gM/?name=image008.png)\n\nJosefB@RaceTechTitanium.com\n\n![](https://support.pluginhive.com/attachments/token/rqi5e8wTCkpTl7HQ5TlWo1ZNj/?name=image009.png)\n\nRaceTechTitanium.com\n\n![](https://support.pluginhive.com/attachments/token/yZXyMhpcWKE7D01AnsNCHMG1s/?name=image010.png)\n\n805 Biltmore Blvd. South Roxana, IL 62087",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">\n<div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">Hello guys! </span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">I hope you are doing well. I am interested if you are able to make an update to the plugin to automatically change the shipping address in the plugin when it is updated on the Order Details page in Woocommerce.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">Right now If I change the Shipping address from Address A to Address B on the order, the shipping plugin keeps Address A as the shipping address. We then have to manually change the shipping address in the\n shipping plugin so the order goes to the correct updated address B.<br>\n<br>\nIs there any way you can automatically update the new shipping address in the Shipping Plugin when changes are saved in the Order Details Page?</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">Here’s a video explaining a bit more:\n<a href=\"https://www.loom.com/share/c94f5388d583456c98bedb3dbddf1fb5\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\">https://www.loom.com/share/c94f5388d583456c98bedb3dbddf1fb5</a></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">Thanks so much!</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 13.5pt; \"><img border=\"0\" width=\"130\" height=\"130\" style=\"width: 1.3541in; height: 1.3541in;\" src=\"https://support.pluginhive.com/attachments/token/GP0yxnszPxXTOsTveceXf5Kxj/?name=image001.jpg\"><span></span></span></p>\n</td>\n</tr>\n<tr style=\"height: 22.5pt;\">\n<td style=\"height: 22.5pt; padding: 0in;\"></td>\n</tr>\n<tr>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 13.5pt; \"><img border=\"0\" width=\"130\" height=\"26\" style=\"width: 1.3541in; height: .2708in;\" src=\"https://support.pluginhive.com/attachments/token/xuuR72F28fytbBjjBxRk49aGt/?name=image002.png\"></span><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n</tr>\n<tr style=\"height: 22.5pt;\">\n<td style=\"height: 22.5pt; padding: 0in;\"></td>\n</tr>\n<tr>\n<td style=\"padding: 0in;\">\n<div align=\"center\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://www.facebook.com/racetechtitanium/\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 13.5pt; color: blue; background-color: #EE2D33; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"24\" style=\"width: .25in; height: .25in;\" src=\"https://support.pluginhive.com/attachments/token/kFAK7gjJnhR0EMbtmRI9XRsjz/?name=image003.png\" alt=\"facebook\"></span></a><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n<td width=\"5\" style=\"width: 3.75pt; padding: 0in;\"></td>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://twitter.com/RacetechT\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 13.5pt; color: blue; background-color: #EE2D33; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"24\" style=\"width: .25in; height: .25in;\" src=\"https://support.pluginhive.com/attachments/token/BWCQbAwkws9cXozw1jBXZlP2Y/?name=image004.png\" alt=\"twitter\"></span></a><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n<td width=\"5\" style=\"width: 3.75pt; padding: 0in;\"></td>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://www.linkedin.com/company/racetech-titanium/\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 13.5pt; color: blue; background-color: #EE2D33; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"24\" style=\"width: .25in; height: .25in;\" src=\"https://support.pluginhive.com/attachments/token/tYs0wNerlpvtheovvqR6Gge3a/?name=image005.png\" alt=\"linkedin\"></span></a><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n<td width=\"5\" style=\"width: 3.75pt; padding: 0in;\"></td>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://www.instagram.com/racetechtitanium/\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 13.5pt; color: blue; background-color: #EE2D33; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"24\" style=\"width: .25in; height: .25in;\" src=\"https://support.pluginhive.com/attachments/token/xDoc4CAKCZjNaXaaFYSP58wlq/?name=image006.png\" alt=\"instagram\"></span></a><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n<td width=\"5\" style=\"width: 3.75pt; padding: 0in;\"></td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td width=\"46\" style=\"width: 34.5pt; padding: 0in;\"></td>\n<td style=\"padding: 0in;\">\n<p style=\"background-color: white; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><b><span style=\"font-size: 13.5pt; color: black; \">Josef&nbsp;Bosnyak</span></b></p>\n<p style=\"line-height: 16.5pt; background-color: white; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 10.5pt; color: black; \">Sales Executive</span></p>\n<p style=\"line-height: 16.5pt; background-color: white; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 10.5pt; color: black; \">RaceTech Titanium</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"293\" style=\"width: 220.05pt; background-color: white; background-color: white\">\n<tbody>\n<tr style=\"height: 22.5pt;\">\n<td style=\"height: 22.5pt; padding: 0in;\"></td>\n</tr>\n<tr style=\"height: .75pt;\">\n<td width=\"293\" style=\"width: 220.05pt; border-bottom-width: 1.0pt; border-bottom-color: #EE2D33; height: .75pt; padding: 0in; border-style: none none solid;\">\n</td>\n</tr>\n<tr style=\"height: 22.5pt;\">\n<td style=\"height: 22.5pt; padding: 0in;\"></td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; display: none; \">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background-color: white; background-color: white\">\n<tbody>\n<tr style=\"height: 18.75pt;\">\n<td width=\"30\" style=\"width: 22.5pt; height: 18.75pt; padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"bottom\" style=\"padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black; background-color: #EE2D33;\"><img border=\"0\" width=\"13\" height=\"13\" style=\"width: .1354in; height: .1354in;\" src=\"https://support.pluginhive.com/attachments/token/PIna3Diu5i7YqGGLDTp7F2b0G/?name=image007.png\"></span><span style=\"font-size: 11.0pt; \"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"height: 18.75pt; padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black; \"><a href=\"tel:(618)%20307-5637\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: black;\">(618) 307-5637</span></a></span><span style=\"font-size: 13.5pt; color: black; \"></span></p>\n</td>\n</tr>\n<tr style=\"height: 18.75pt;\">\n<td width=\"30\" style=\"width: 22.5pt; height: 18.75pt; padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"bottom\" style=\"padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black; background-color: #EE2D33;\"><img border=\"0\" width=\"13\" height=\"13\" style=\"width: .1354in; height: .1354in;\" src=\"https://support.pluginhive.com/attachments/token/nDel4EncMMmMOSDF1ejuMH7gM/?name=image008.png\"></span><span style=\"font-size: 11.0pt; \"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"height: 18.75pt; padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: white; \"><a href=\"mailto:JosefB@RaceTechTitanium.com\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: black;\">JosefB@RaceTechTitanium.com</span></a></span><span style=\"font-size: 13.5pt; color: white; \"></span></p>\n</td>\n</tr>\n<tr style=\"height: 18.75pt;\">\n<td width=\"30\" style=\"width: 22.5pt; height: 18.75pt; padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"bottom\" style=\"padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black; background-color: #EE2D33;\"><img border=\"0\" width=\"13\" height=\"13\" style=\"width: .1354in; height: .1354in;\" src=\"https://support.pluginhive.com/attachments/token/rqi5e8wTCkpTl7HQ5TlWo1ZNj/?name=image009.png\"></span><span style=\"font-size: 11.0pt; \"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"height: 18.75pt; padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: white; \"><a href=\"https://racetechtitanium.com/\" style=\" color: #467886; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: black;\">RaceTechTitanium.com</span></a></span><span style=\"font-size: 13.5pt; color: white; \"></span></p>\n</td>\n</tr>\n<tr style=\"height: 18.75pt;\">\n<td width=\"30\" style=\"width: 22.5pt; height: 18.75pt; padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"bottom\" style=\"padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black; background-color: #EE2D33;\"><img border=\"0\" width=\"13\" height=\"13\" style=\"width: .1354in; height: .1354in;\" src=\"https://support.pluginhive.com/attachments/token/yZXyMhpcWKE7D01AnsNCHMG1s/?name=image010.png\"></span><span style=\"font-size: 11.0pt; \"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"height: 18.75pt; padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 9.0pt; color: black; \">805 Biltmore Blvd. South Roxana, IL 62087</span><span style=\"font-size: 13.5pt; color: white; \"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; display: none; \">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background-color: white; background-color: white\">\n<tbody>\n<tr>\n<td style=\"padding: 0in;\"></td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt; \"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\">&nbsp;</p>\n</div></div>",
+      "plain_body": "Hello guys!  \n &nbsp; \n I hope you are doing well. I am interested if you are able to make an update to the plugin to automatically change the shipping address in the plugin when it is updated on the Order Details page in Woocommerce. \n &nbsp; \n Right now If I change the Shipping address from Address A to Address B on the order, the shipping plugin keeps Address A as the shipping address. We then have to manually change the shipping address in the\n shipping plugin so the order goes to the correct updated address B.\n\n\n\nIs there any way you can automatically update the new shipping address in the Shipping Plugin when changes are saved in the Order Details Page? \n &nbsp; \n Here’s a video explaining a bit more:\nhttps://www.loom.com/share/c94f5388d583456c98bedb3dbddf1fb5 \n &nbsp; \n Thanks so much! \n &nbsp; \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n  \n\n\n\n  \n\n\n\n  \n\n\n\n\n\n \n\n\n\n\n\n\n\n Josef&nbsp;Bosnyak \n Sales Executive \n RaceTech Titanium \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n &nbsp; \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n (618) 307-5637 \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n JosefB@RaceTechTitanium.com \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n RaceTechTitanium.com \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n 805 Biltmore Blvd. South Roxana, IL 62087 \n\n\n\n\n &nbsp; \n\n\n\n\n\n\n\n  \n\n\n\n\n &nbsp; \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55449632466457,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "josefb@racetechtitanium.com",
+            "name": "josefb@racetechtitanium.com",
+            "original_recipients": [
+              "josefb@racetechtitanium.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-24T17:03:48Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CY4PR1801MB18803B82BB5BAAD94B4BB9A3BA74A@CY4PR1801MB1880.namprd18.prod.outlook.com>",
+          "email_id": "01KJ89PJF2X2F79WFJBW1HTGKZ",
+          "raw_email_identifier": "2369120/71b3ad13-5310-4828-a652-8d65a565e038.eml",
+          "json_email_identifier": "2369120/71b3ad13-5310-4828-a652-8d65a565e038.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55449706814873,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "US store\n485 order\ncustomer is using the app for rates and labels\nups and usps added\n$49 monthly plan\n\nActive from 2023-12-07",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">US store<br>485 order<br>customer is using the app for rates and labels<br>ups and usps added<br>$49 monthly plan&nbsp;<br>&nbsp;<br>Active from 2023-12-07<br></div>",
+      "plain_body": "US store\n485 order\ncustomer is using the app for rates and labels\nups and usps added\n$49 monthly plan&nbsp;\n&nbsp;\nActive from 2023-12-07",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55449706814745,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-24T17:08:35Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55449726728217,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Josef,\n\nGood day!\n\nKindly allow us some time to review this case internally. We will get back to you with an update.\n\nWe truly appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Josef,<br>&nbsp;<br>Good day!<br>&nbsp;<br>Kindly allow us some time to review this case internally. We will get back to you with an update.<br>&nbsp;<br>We truly appreciate your time and patience.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Josef,\n&nbsp;\nGood day!\n&nbsp;\nKindly allow us some time to review this case internally. We will get back to you with an update.\n&nbsp;\nWe truly appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55449726728089,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-24T17:12:19Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55449743428633,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need to discuss this case internally on how to proceed",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need to discuss this case internally on how to proceed<br></div>",
+      "plain_body": "Need to discuss this case internally on how to proceed",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55449743428377,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-24T17:12:42Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55449745283481,
+      "type": "Comment",
+      "author_id": 26128244142361,
+      "body": "Hey Manohar!\n\n\n\nNot a problem.\n\n\n\nThanks so much!\n\n\n\n![](https://support.pluginhive.com/attachments/token/8Q9u3GZqeKFt8SzC5C3n9HjLW/?name=image001.jpg)\n\n![](https://support.pluginhive.com/attachments/token/q0NslGbB8zj56BlkRvVtxGq2M/?name=image002.png)\n\n![facebook](https://support.pluginhive.com/attachments/token/U2TA2gpYeGfowyj9iwHmw45Wr/?name=image003.png)\n\n![twitter](https://support.pluginhive.com/attachments/token/177AbV8gLJQKXf6LE6XMCCACH/?name=image004.png)\n\n![linkedin](https://support.pluginhive.com/attachments/token/DfHOBjWlWd3Lx0HecI1lqnEuT/?name=image005.png)\n\n![instagram](https://support.pluginhive.com/attachments/token/HFTif5kVQHR8Sm2Jiv5NtWLnJ/?name=image006.png)\n\n**Josef Bosnyak**\n\nSales Executive\n\nRaceTech Titanium\n\n\n\n![](https://support.pluginhive.com/attachments/token/0TIq5gjQcISmBKGnT17PVIemZ/?name=image007.png)\n\n(618) 307-5637\n\n![](https://support.pluginhive.com/attachments/token/UPTdRGFHa1OjTEQ0NOfHnaNIg/?name=image008.png)\n\nJosefB@RaceTechTitanium.com\n\n![](https://support.pluginhive.com/attachments/token/3ivixq4TJnSr8M2xgJnlLxjpd/?name=image009.png)\n\nRaceTechTitanium.com\n\n![](https://support.pluginhive.com/attachments/token/MnjOZ1FZHXyM0I8ZXQdg18uNm/?name=image010.png)\n\n805 Biltmore Blvd. South Roxana, IL 62087",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">Hey Manohar!</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">Not a problem.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">Thanks so much!</span></p>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 13.5pt; \"><img width=\"130\" height=\"130\" style=\"width: 1.3541in; height: 1.3541in;\" src=\"https://support.pluginhive.com/attachments/token/8Q9u3GZqeKFt8SzC5C3n9HjLW/?name=image001.jpg\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 22.5pt;\">\n<td style=\"height: 22.5pt; padding: 0in;\"></td>\n</tr>\n<tr>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 13.5pt; \"><img width=\"130\" height=\"26\" style=\"width: 1.3541in; height: .2708in;\" src=\"https://support.pluginhive.com/attachments/token/q0NslGbB8zj56BlkRvVtxGq2M/?name=image002.png\"></span><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n</tr>\n<tr style=\"height: 22.5pt;\">\n<td style=\"height: 22.5pt; padding: 0in;\"></td>\n</tr>\n<tr>\n<td style=\"padding: 0in;\">\n<div align=\"center\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://www.facebook.com/racetechtitanium/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 13.5pt; background-color: #EE2D33; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"24\" style=\"width: .25in; height: .25in;\" src=\"https://support.pluginhive.com/attachments/token/U2TA2gpYeGfowyj9iwHmw45Wr/?name=image003.png\" alt=\"facebook\"></span></a><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n<td width=\"5\" style=\"width: 3.75pt; padding: 0in;\"></td>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://twitter.com/RacetechT\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 13.5pt; background-color: #EE2D33; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"24\" style=\"width: .25in; height: .25in;\" src=\"https://support.pluginhive.com/attachments/token/177AbV8gLJQKXf6LE6XMCCACH/?name=image004.png\" alt=\"twitter\"></span></a><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n<td width=\"5\" style=\"width: 3.75pt; padding: 0in;\"></td>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://www.linkedin.com/company/racetech-titanium/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 13.5pt; background-color: #EE2D33; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"24\" style=\"width: .25in; height: .25in;\" src=\"https://support.pluginhive.com/attachments/token/DfHOBjWlWd3Lx0HecI1lqnEuT/?name=image005.png\" alt=\"linkedin\"></span></a><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n<td width=\"5\" style=\"width: 3.75pt; padding: 0in;\"></td>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://www.instagram.com/racetechtitanium/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 13.5pt; background-color: #EE2D33; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"24\" style=\"width: .25in; height: .25in;\" src=\"https://support.pluginhive.com/attachments/token/HFTif5kVQHR8Sm2Jiv5NtWLnJ/?name=image006.png\" alt=\"instagram\"></span></a><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n<td width=\"5\" style=\"width: 3.75pt; padding: 0in;\"></td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td width=\"46\" style=\"width: 34.5pt; padding: 0in;\"></td>\n<td style=\"padding: 0in;\">\n<p style=\"background-color: white; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><b><span style=\"font-size: 13.5pt; color: black;\">Josef&nbsp;Bosnyak</span></b></p>\n<p style=\"line-height: 16.5pt; background-color: white; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 10.5pt; color: black;\">Sales Executive</span></p>\n<p style=\"line-height: 16.5pt; background-color: white; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 10.5pt; color: black;\">RaceTech Titanium</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"293\" style=\"width: 220.05pt; background-color: white; background-color: white\">\n<tbody>\n<tr style=\"height: 22.5pt;\">\n<td style=\"height: 22.5pt; padding: 0in;\"></td>\n</tr>\n<tr style=\"height: .75pt;\">\n<td width=\"293\" style=\"width: 220.05pt; border-bottom-width: 1.0pt; border-bottom-color: #EE2D33; height: .75pt; padding: 0in; border-style: none none solid;\">\n</td>\n</tr>\n<tr style=\"height: 22.5pt;\">\n<td style=\"height: 22.5pt; padding: 0in;\"></td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; display: none;\">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background-color: white; background-color: white\">\n<tbody>\n<tr style=\"height: 18.75pt;\">\n<td width=\"30\" style=\"width: 22.5pt; height: 18.75pt; padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"bottom\" style=\"padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black; background-color: #EE2D33;\"><img border=\"0\" width=\"13\" height=\"13\" style=\"width: .1354in; height: .1354in;\" src=\"https://support.pluginhive.com/attachments/token/0TIq5gjQcISmBKGnT17PVIemZ/?name=image007.png\"></span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"height: 18.75pt; padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black;\"><a href=\"tel:(618)%20307-5637\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: black;\">(618) 307-5637</span></a></span><span style=\"font-size: 13.5pt; color: black;\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 18.75pt;\">\n<td width=\"30\" style=\"width: 22.5pt; height: 18.75pt; padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"bottom\" style=\"padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black; background-color: #EE2D33;\"><img border=\"0\" width=\"13\" height=\"13\" style=\"width: .1354in; height: .1354in;\" src=\"https://support.pluginhive.com/attachments/token/UPTdRGFHa1OjTEQ0NOfHnaNIg/?name=image008.png\"></span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"height: 18.75pt; padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: white;\"><a href=\"mailto:JosefB@RaceTechTitanium.com\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: black;\">JosefB@RaceTechTitanium.com</span></a></span><span style=\"font-size: 13.5pt; color: white;\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 18.75pt;\">\n<td width=\"30\" style=\"width: 22.5pt; height: 18.75pt; padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"bottom\" style=\"padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black; background-color: #EE2D33;\"><img border=\"0\" width=\"13\" height=\"13\" style=\"width: .1354in; height: .1354in;\" src=\"https://support.pluginhive.com/attachments/token/3ivixq4TJnSr8M2xgJnlLxjpd/?name=image009.png\"></span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"height: 18.75pt; padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: white;\"><a href=\"https://racetechtitanium.com/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: black;\">RaceTechTitanium.com</span></a></span><span style=\"font-size: 13.5pt; color: white;\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 18.75pt;\">\n<td width=\"30\" style=\"width: 22.5pt; height: 18.75pt; padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"bottom\" style=\"padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black; background-color: #EE2D33;\"><img border=\"0\" width=\"13\" height=\"13\" style=\"width: .1354in; height: .1354in;\" src=\"https://support.pluginhive.com/attachments/token/MnjOZ1FZHXyM0I8ZXQdg18uNm/?name=image010.png\"></span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"height: 18.75pt; padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 9.0pt; color: black;\">805 Biltmore Blvd. South Roxana, IL 62087</span><span style=\"font-size: 13.5pt; color: white;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; display: none;\">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background-color: white; background-color: white\">\n<tbody>\n<tr>\n<td style=\"padding: 0in;\"></td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Hey Manohar! \n &nbsp; \n Not a problem. \n &nbsp; \n Thanks so much! \n \n &nbsp; \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n  \n\n\n\n  \n\n\n\n  \n\n\n\n\n\n \n\n\n\n\n\n\n\n Josef&nbsp;Bosnyak \n Sales Executive \n RaceTech Titanium \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n &nbsp; \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n (618) 307-5637 \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n JosefB@RaceTechTitanium.com \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n RaceTechTitanium.com \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n 805 Biltmore Blvd. South Roxana, IL 62087 \n\n\n\n\n &nbsp; \n\n\n\n\n\n\n\n  \n\n\n\n\n &nbsp; \n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55449745283353,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "josefb@racetechtitanium.com",
+            "name": "josefb@racetechtitanium.com",
+            "original_recipients": [
+              "josefb@racetechtitanium.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-24T17:13:59Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CY4PR1801MB18806E8EADAB8AEBABFBEDE4BA74A@CY4PR1801MB1880.namprd18.prod.outlook.com>",
+          "email_id": "01KJ8A97XCRX2WTS6R1264011D",
+          "raw_email_identifier": "2369120/5eb7ea2a-a4c8-4e65-931c-a394857f3842.eml",
+          "json_email_identifier": "2369120/5eb7ea2a-a4c8-4e65-931c-a394857f3842.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 55474076578457,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Josef,\n\nThank you for your reply.\n\nWe are currently discussing this with our product team and will share an update with you as soon as we receive further information.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Josef,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>We are currently discussing this with our product team and will share an update with you as soon as we receive further information.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Josef,\n&nbsp;\nThank you for your reply.\n&nbsp;\nWe are currently discussing this with our product team and will share an update with you as soon as we receive further information.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 55474076578329,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-25T09:26:10Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 55474257395737,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "I discussed this case with Vimal.\n\nVeena will further review this with the production team and confirm the feasibility.\n\n**Case:** Auto Order Update Sync Option\n\n**Details:**\nA $49 Premium plan WSS customer has requested an automatic order update sync feature. They would like any updates made to the WooCommerce order (such as changes to address or items) to automatically reflect in WSS, so they can process orders with the updated details.\n\nCurrently, there is no order update sync feature. As a result, the customer must manually cross-check each order before generating labels. This process is time-consuming, and in several instances, order updates were missed, leading to deliveries being sent to incorrect addresses or with incorrect details.\n\n**Store Details:**\nStore URL: https://racetechtitanium.com\nAccount ID: 50f8db8e-31b9-4cf7-a40f-2caa9a14be89\nActive From: 2023-12-07\nPlan: $49 Premium Plan",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I discussed this case with Vimal.<br>&nbsp;<br>Veena will further review this with the production team and confirm the feasibility.<br>&nbsp;<br><strong>Case:</strong> Auto Order Update Sync Option<br>&nbsp;<br><strong>Details:</strong><br>A $49 Premium plan WSS customer has requested an automatic order update sync feature. They would like any updates made to the WooCommerce order (such as changes to address or items) to automatically reflect in WSS, so they can process orders with the updated details.<br>&nbsp;<br>Currently, there is no order update sync feature. As a result, the customer must manually cross-check each order before generating labels. This process is time-consuming, and in several instances, order updates were missed, leading to deliveries being sent to incorrect addresses or with incorrect details.<br>&nbsp;<br><strong>Store Details:</strong><br>Store URL: <a rel=\"noopener noreferrer\" href=\"https://racetechtitanium.com\">https://racetechtitanium.com</a><br>Account ID: 50f8db8e-31b9-4cf7-a40f-2caa9a14be89<br>Active From: 2023-12-07<br>Plan: $49 Premium Plan<br></div>",
+      "plain_body": "I discussed this case with Vimal.\n&nbsp;\nVeena will further review this with the production team and confirm the feasibility.\n&nbsp;\nCase: Auto Order Update Sync Option\n&nbsp;\nDetails:\nA $49 Premium plan WSS customer has requested an automatic order update sync feature. They would like any updates made to the WooCommerce order (such as changes to address or items) to automatically reflect in WSS, so they can process orders with the updated details.\n&nbsp;\nCurrently, there is no order update sync feature. As a result, the customer must manually cross-check each order before generating labels. This process is time-consuming, and in several instances, order updates were missed, leading to deliveries being sent to incorrect addresses or with incorrect details.\n&nbsp;\nStore Details:\nStore URL: https://racetechtitanium.com\nAccount ID: 50f8db8e-31b9-4cf7-a40f-2caa9a14be89\nActive From: 2023-12-07\nPlan: $49 Premium Plan",
+      "public": false,
+      "attachments": [],
+      "audit_id": 55474242687257,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-02-25T09:32:02Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56072299644825,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Moving this ticket back to L3 to get an update from Veena",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving this ticket back to L3 to get an update from Veena<br></div>",
+      "plain_body": "Moving this ticket back to L3 to get an update from Veena",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56072299644697,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-16T21:02:56Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56096061173529,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "This enhancement is in queue, will be ready by next month.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This enhancement is in queue, will be ready by next month.<br>[Veena]<br></div>",
+      "plain_body": "This enhancement is in queue, will be ready by next month.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56096061173401,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T10:06:49Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56096441516313,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Josef,\n\nThank you for your patience!\n\nThe enhancement for the order sync is in queue and will be ready by next month.\n\nWe will be keeping you updated.\n\nRegards,\n\nSibi Firoz\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Josef,<br>&nbsp;<br>Thank you for your patience!<br>&nbsp;<br>The enhancement for the order sync is in queue and will be ready by next month.<br>&nbsp;<br>We will be keeping you updated.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi Firoz<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Josef,\n&nbsp;\nThank you for your patience!\n&nbsp;\nThe enhancement for the order sync is in queue and will be ready by next month.\n&nbsp;\nWe will be keeping you updated.\n&nbsp;\nRegards,\n&nbsp;\nSibi Firoz\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56096441516185,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T10:20:14Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56101994258073,
+      "type": "Comment",
+      "author_id": 26128244142361,
+      "body": "Thanks so much for the update! Looking forward to the new functionality!\n\n\n\nIf you need someone to test it, please let me know. I’d be happy to help!\n\n\n\nThanks,\n\n\n\n![](https://support.pluginhive.com/attachments/token/m5FAIvf31bzyTp8U6bCGEQEgQ/?name=image001.jpg)\n\n![](https://support.pluginhive.com/attachments/token/WFZlvvpHoPwcxbwNClUQC9A64/?name=image002.png)\n\n![facebook](https://support.pluginhive.com/attachments/token/lBSVdptVNt0kr0RnuHnxa5cDE/?name=image003.png)\n\n![twitter](https://support.pluginhive.com/attachments/token/nU94dQ1Ik2bg2zNNhBpexorJo/?name=image004.png)\n\n![linkedin](https://support.pluginhive.com/attachments/token/yKk8dPHYDFqP6Yjc5TYnpPf1R/?name=image005.png)\n\n![instagram](https://support.pluginhive.com/attachments/token/SWSL7qZ3AuE5CVLvfJlpPqonk/?name=image006.png)\n\n**Josef Bosnyak**\n\nSales Executive\n\nRaceTech Titanium\n\n\n\n![](https://support.pluginhive.com/attachments/token/CqDPGILvuASXr9CKMoqSI4T5s/?name=image007.png)\n\n(618) 307-5637\n\n![](https://support.pluginhive.com/attachments/token/sGj1opCt8uk0C6r8ojxd0l14K/?name=image008.png)\n\nJosefB@RaceTechTitanium.com\n\n![](https://support.pluginhive.com/attachments/token/wB50YuUP8vHjxhCNHDeofytIh/?name=image009.png)\n\nRaceTechTitanium.com\n\n![](https://support.pluginhive.com/attachments/token/2sRFpmQ1mFooN683aN1v6iyYK/?name=image010.png)\n\n805 Biltmore Blvd. South Roxana, IL 62087",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">Thanks so much for the update! Looking forward to the new functionality!</span></p>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">If you need someone to test it, please let me know. I’d be happy to help!</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">Thanks, </span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 13.5pt; \"><img width=\"130\" height=\"130\" style=\"width: 1.3541in; height: 1.3541in;\" src=\"https://support.pluginhive.com/attachments/token/m5FAIvf31bzyTp8U6bCGEQEgQ/?name=image001.jpg\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 22.5pt;\">\n<td style=\"height: 22.5pt; padding: 0in;\"></td>\n</tr>\n<tr>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 13.5pt; \"><img width=\"130\" height=\"26\" style=\"width: 1.3541in; height: .2708in;\" src=\"https://support.pluginhive.com/attachments/token/WFZlvvpHoPwcxbwNClUQC9A64/?name=image002.png\"></span><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n</tr>\n<tr style=\"height: 22.5pt;\">\n<td style=\"height: 22.5pt; padding: 0in;\"></td>\n</tr>\n<tr>\n<td style=\"padding: 0in;\">\n<div align=\"center\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://www.facebook.com/racetechtitanium/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 13.5pt; background-color: #EE2D33; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"24\" style=\"width: .25in; height: .25in;\" src=\"https://support.pluginhive.com/attachments/token/lBSVdptVNt0kr0RnuHnxa5cDE/?name=image003.png\" alt=\"facebook\"></span></a><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n<td width=\"5\" style=\"width: 3.75pt; padding: 0in;\"></td>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://twitter.com/RacetechT\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 13.5pt; background-color: #EE2D33; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"24\" style=\"width: .25in; height: .25in;\" src=\"https://support.pluginhive.com/attachments/token/nU94dQ1Ik2bg2zNNhBpexorJo/?name=image004.png\" alt=\"twitter\"></span></a><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n<td width=\"5\" style=\"width: 3.75pt; padding: 0in;\"></td>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://www.linkedin.com/company/racetech-titanium/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 13.5pt; background-color: #EE2D33; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"24\" style=\"width: .25in; height: .25in;\" src=\"https://support.pluginhive.com/attachments/token/yKk8dPHYDFqP6Yjc5TYnpPf1R/?name=image005.png\" alt=\"linkedin\"></span></a><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n<td width=\"5\" style=\"width: 3.75pt; padding: 0in;\"></td>\n<td style=\"padding: 0in;\">\n<p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://www.instagram.com/racetechtitanium/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 13.5pt; background-color: #EE2D33; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"24\" style=\"width: .25in; height: .25in;\" src=\"https://support.pluginhive.com/attachments/token/SWSL7qZ3AuE5CVLvfJlpPqonk/?name=image006.png\" alt=\"instagram\"></span></a><span style=\"font-size: 13.5pt; \"></span></p>\n</td>\n<td width=\"5\" style=\"width: 3.75pt; padding: 0in;\"></td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td width=\"46\" style=\"width: 34.5pt; padding: 0in;\"></td>\n<td style=\"padding: 0in;\">\n<p style=\"background-color: white; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><b><span style=\"font-size: 13.5pt; color: black;\">Josef&nbsp;Bosnyak</span></b></p>\n<p style=\"line-height: 16.5pt; background-color: white; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 10.5pt; color: black;\">Sales Executive</span></p>\n<p style=\"line-height: 16.5pt; background-color: white; font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 10.5pt; color: black;\">RaceTech Titanium</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"293\" style=\"width: 220.05pt; background-color: white; background-color: white\">\n<tbody>\n<tr style=\"height: 22.5pt;\">\n<td style=\"height: 22.5pt; padding: 0in;\"></td>\n</tr>\n<tr style=\"height: .75pt;\">\n<td width=\"293\" style=\"width: 220.05pt; border-bottom-width: 1.0pt; border-bottom-color: #EE2D33; height: .75pt; padding: 0in; border-style: none none solid;\">\n</td>\n</tr>\n<tr style=\"height: 22.5pt;\">\n<td style=\"height: 22.5pt; padding: 0in;\"></td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; display: none;\">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background-color: white; background-color: white\">\n<tbody>\n<tr style=\"height: 18.75pt;\">\n<td width=\"30\" style=\"width: 22.5pt; height: 18.75pt; padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"bottom\" style=\"padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black; background-color: #EE2D33;\"><img border=\"0\" width=\"13\" height=\"13\" style=\"width: .1354in; height: .1354in;\" src=\"https://support.pluginhive.com/attachments/token/CqDPGILvuASXr9CKMoqSI4T5s/?name=image007.png\"></span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"height: 18.75pt; padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black;\"><a href=\"tel:(618)%20307-5637\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: black;\">(618) 307-5637</span></a></span><span style=\"font-size: 13.5pt; color: black;\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 18.75pt;\">\n<td width=\"30\" style=\"width: 22.5pt; height: 18.75pt; padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"bottom\" style=\"padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black; background-color: #EE2D33;\"><img border=\"0\" width=\"13\" height=\"13\" style=\"width: .1354in; height: .1354in;\" src=\"https://support.pluginhive.com/attachments/token/sGj1opCt8uk0C6r8ojxd0l14K/?name=image008.png\"></span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"height: 18.75pt; padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: white;\"><a href=\"mailto:JosefB@RaceTechTitanium.com\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: black;\">JosefB@RaceTechTitanium.com</span></a></span><span style=\"font-size: 13.5pt; color: white;\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 18.75pt;\">\n<td width=\"30\" style=\"width: 22.5pt; height: 18.75pt; padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"bottom\" style=\"padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black; background-color: #EE2D33;\"><img border=\"0\" width=\"13\" height=\"13\" style=\"width: .1354in; height: .1354in;\" src=\"https://support.pluginhive.com/attachments/token/wB50YuUP8vHjxhCNHDeofytIh/?name=image009.png\"></span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"height: 18.75pt; padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: white;\"><a href=\"https://racetechtitanium.com/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 9.0pt; color: black;\">RaceTechTitanium.com</span></a></span><span style=\"font-size: 13.5pt; color: white;\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 18.75pt;\">\n<td width=\"30\" style=\"width: 22.5pt; height: 18.75pt; padding: 0in;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"bottom\" style=\"padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; color: black; background-color: #EE2D33;\"><img border=\"0\" width=\"13\" height=\"13\" style=\"width: .1354in; height: .1354in;\" src=\"https://support.pluginhive.com/attachments/token/2sRFpmQ1mFooN683aN1v6iyYK/?name=image010.png\"></span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"height: 18.75pt; padding: 0in;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 9.0pt; color: black;\">805 Biltmore Blvd. South Roxana, IL 62087</span><span style=\"font-size: 13.5pt; color: white;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 13.5pt; display: none;\">&nbsp;</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background-color: white; background-color: white\">\n<tbody>\n<tr>\n<td style=\"padding: 0in;\"></td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Thanks so much for the update! Looking forward to the new functionality! \n \n &nbsp; \n If you need someone to test it, please let me know. I’d be happy to help! \n &nbsp; \n Thanks,  \n &nbsp; \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n  \n\n\n\n  \n\n\n\n  \n\n\n\n\n\n \n\n\n\n\n\n\n\n Josef&nbsp;Bosnyak \n Sales Executive \n RaceTech Titanium \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n &nbsp; \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n (618) 307-5637 \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n JosefB@RaceTechTitanium.com \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n RaceTechTitanium.com \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n 805 Biltmore Blvd. South Roxana, IL 62087 \n\n\n\n\n &nbsp; \n\n\n\n\n\n\n\n  \n\n\n\n\n &nbsp; \n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56101994257945,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "josefb@racetechtitanium.com",
+            "name": "josefb@racetechtitanium.com",
+            "original_recipients": [
+              "josefb@racetechtitanium.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T14:24:49Z",
+      "metadata": {
+        "system": {
+          "message_id": "<SA1PR18MB988362D819C045B0BF44FEFB8BBA41A@SA1PR18MB988362.namprd18.prod.outlook.com>",
+          "email_id": "01KKY2YJHF9VQ4W8WCJP9600S0",
+          "raw_email_identifier": "2369120/07725ed6-09f7-4fcf-b8c6-65a6bf36d4a6.eml",
+          "json_email_identifier": "2369120/07725ed6-09f7-4fcf-b8c6-65a6bf36d4a6.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 56102316498201,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Josef,\n\nThank you for your reply.\n\nWe will keep you updated on the progress regarding the order update syncing.\n\nIn the meantime, please feel free to reach out to us if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Josef,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>We will keep you updated on the progress regarding the order update syncing.<br>&nbsp;<br>In the meantime, please feel free to reach out to us if you need any assistance.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Josef,\n&nbsp;\nThank you for your reply.\n&nbsp;\nWe will keep you updated on the progress regarding the order update syncing.\n&nbsp;\nIn the meantime, please feel free to reach out to us if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 56102316498073,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-03-17T14:42:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 56964778326169,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Planned for 378.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Planned for 378.<br>[Veena]<br></div>",
+      "plain_body": "Planned for 378.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 56964778323097,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-04-14T13:31:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "152.57.117.139",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}
