@@ -1,5 +1,59 @@
 # StorePep KB Activity Log
 
+## [2026-05-11 17:00] zendesk-summarize-one + story-cards | Ticket #368959 re-pulled and 3 new ZIs added
+- Trigger: User flagged that the existing summary for #368959 said "USPS manifest" and "customer: Not specified" — both wrong
+- Re-pulled fresh from Zendesk API via `scripts/sync-zendesk-by-ids.sh 368959`
+- Rewrote `wiki/zendesk/summaries/368959.md` — customer is Victoria Groetelaars / Greaves Jams (same as ZI-499); carriers are Canada Post + Canpar; 3 distinct open issues, not 1
+- Added ZI-512/513/514 to `wiki/zendesk/2026-05-11.md` (manual update since the 368959 JSON change is uncommitted and wouldn't be picked up by formal git-diff delta)
+- Created story cards:
+  - ZI-512 — Canada Post manifest fulfill+transmit (label-generation, pain 10) — engineering done, blocked on credential testing → https://trello.com/c/H3DH4Z5X
+  - ZI-513 — Canada Post discard-label UX for post-2025-07-02 regime (label-generation, pain 9) → https://trello.com/c/HaCxgIOH
+  - ZI-514 — Opt-in for silent auto-carrier-fallback (rate-shopping, pain 8) → https://trello.com/c/eHGb6Rh1
+- All 3 pushed with Duplicate label since they're same-ticket-different-ZI; APR 25-30 lane, pos:top (SLA breached)
+- Same customer (Greaves Jams) now has 6 active ZIs across 2 tickets (#350796: ZI-499/500/501; #368959: ZI-512/513/514) — cumulative frustration signal worth flagging in the backlog
+
+## [2026-05-11 16:30] story-cards | Delta — 17 cards pushed to StoryLab (APR 25-30 lane)
+- Cards created: 5 (ZI-496, ZI-497, ZI-499, ZI-506, ZI-510, ZI-511) — single canonical card per ticket
+- Cards created with Duplicate label: 11 (ZI-396, ZI-507, ZI-498, ZI-500, ZI-501, ZI-502, ZI-503, ZI-504, ZI-505, ZI-508, ZI-509) — same-ticket-different-ZI or daily-index dup_of references
+- Cards superseded (desc replaced + comment): 1 (ZI-479 → points to ZI-508/509)
+- All 17 validated via `validate_story_card.py` before push (5 cards required one rewrite cycle for vague-pattern words / short When clauses)
+- Default lane APR 25-30 (`69dd9e0e8a7bb8b998765ee7`); all SLA-breached, `pos: top`
+- Trello URLs recorded in script output; see board: https://trello.com/b/d1xk25XH/storylab
+
+## [2026-05-11 15:30] zendesk-summarize | Delta — 11 tickets, 16 new ZIs (ZI-496 → ZI-511)
+- Delta anchor: `107b291cb62386f4646e7a57ac37234db5d7bdde` (2026-05-08) → HEAD `88a256a3`
+- Tickets processed: 11 (260001, 309068, 330209, 332163, 350796, 351838, 375662, 376856, 377088, 387029, 387108)
+- Tickets with open issues: 9 (330209/332163 are closed-by-merge)
+- Summaries created/refreshed:
+  - New: 260001, 309068, 350796, 351838, 375662, 387029, 387108
+  - Rewritten (prior summary failed quality gate): 376856, 377088
+  - Refreshed last_updated only (JSON has 0 comments post-close): 330209, 332163
+- Created: `wiki/zendesk/2026-05-11.md` — delta-only daily index
+- ID assignments:
+  - Fresh: ZI-496..ZI-501, ZI-503..ZI-506, ZI-508..ZI-511 (14 IDs)
+  - Duplicate-of: ZI-502→ZI-499 (Composite Products), ZI-507→ZI-396 (UPS WorldEase)
+  - Carry-forward from 2026-04-29: ZI-396 (376856), ZI-479 (377088 — prior mischaracterization superseded by ZI-508/509)
+  - Carry-forward from 2026-05-08: ZI-494, ZI-495 (closed)
+- Themes surfacing in this delta:
+  - WooCommerce non-simple/variable product types: Bundled (ZI-496), Composite (ZI-499, ZI-502), Product Bundles/Add-Ons compatibility (ZI-500) — three customers blocked
+  - FedEx SOAP→REST migration aftermath: Edit Package missing (ZI-508), insurance-surcharge bug from declared-value pass-through (ZI-509)
+  - Carrier-API rejections: TNT Express `&`-in-product-name (ZI-510), APO addresses via Stamps USPS (ZI-504)
+  - Order sync gaps: address/item edits not propagated (ZI-506)
+- 7 of 14 active ZIs explicitly tagged `Planned for 378` in their tickets
+- Next step: user should run `/roadmap regenerate` to update April 2026 roadmap from new summaries
+
+## [2026-05-11 14:00] story-cards | Delta refresh — ZI-494, ZI-495 (DHL REST API migration)
+- Delta anchor: `107b291cb62386f4646e7a57ac37234db5d7bdde` → HEAD `88a256a3`
+- Changed Zendesk tickets: 11 files (2 mapped to existing ZIs, 9 unmapped — pre-ZI tickets)
+- Matched ZI issues: ZI-494 (#330209), ZI-495 (#332163) — both closed/resolved
+- Updated: `wiki/product/stories/ZI-494.md`, `wiki/product/stories/ZI-495.md` — refreshed SLA days-overdue (346→350, 333→337) and `last_updated`
+- Validated: both pass `validate_story_card.py`
+- StoryLab: 2 existing cards refreshed (same-ZI update path):
+  - [ZI-494](https://trello.com/c/Katn81Sa) — desc refreshed, comment posted
+  - [ZI-495](https://trello.com/c/Fo8tsnWb) — desc refreshed, comment posted
+- Both cards already in APR 18-21 lane (`69dd9e0d579ac835a8b72efe`) with PROD label — no lane move, no label changes
+- Note: 9 unmapped changed tickets (`376856`, `387029`, `260001`, `309068`, `350796`, `351838`, `375662`, `377088`, `387108`) are not in the 2026-05-08 daily index; they would need a `/zendesk-summarize delta` run before story-cards can pick them up
+
 ## [2026-04-30 15:30] ingest | Frontend Shipping, Packaging, and Settings UI
 - Created: `modules/frontend/shipping-ui.md` — Shipping UI module: label generation, manifests (4 components), carrier configuration (70+ forms), rate shopping, tracking, OAuth flows (UPS, USPS, FedEx REST, Amazon, PostNord, Canada Post), multi-carrier support, test mode, default dimensions, special services, shipping zones
 - Created: `modules/frontend/packaging-ui.md` — Packaging UI module: box inventory management (displayBoxes, addOrEditBox, addCarrierBox, addUspsBox), 5 packing algorithms (weight-based, box packing, stack packing, quantity-based, weight/volume-based), product-box mappings, carrier-specific boxes (USPS flat rate, FedEx One Rate), unit conversions (lbs/in, kgs/cm, gms/cm), advanced config, packing simulation
