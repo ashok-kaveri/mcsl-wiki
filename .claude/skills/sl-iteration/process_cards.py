@@ -21,7 +21,7 @@ print(f"  Processing {len(tagged_cards)} cards")
 print()
 
 # Build state label map
-STATE_LABEL_NAMES = ['SHIPPED', 'PROD', 'QA_VERIFIED', 'QA Reported', 'Ready for QA', 'Dev Done', 'DEV', 'BUG REPORTED', 'SL: Carrier Platform Issues', 'Spill Over']
+STATE_LABEL_NAMES = ['SHIPPED', 'PROD', 'QA_VERIFIED', 'QA Reported', 'Ready for QA', 'Dev Done', 'DEV', 'BUG REPORTED', 'SL: Carrier Platform Issues', 'Spill Over', 'Traded Off']
 state_label_map = {}
 
 for state_name in STATE_LABEL_NAMES:
@@ -64,6 +64,7 @@ def coarsen_state(card):
         ('Dev Done', 'QA READY'),
         ('DEV', 'DEV'),
         ('Spill Over', 'Spill Over'),
+        ('Traded Off', 'Traded Off'),
     ]
 
     for label_name, coarsened_state in state_precedence:
@@ -85,7 +86,8 @@ cards_by_state = {
     'QA READY': [],
     'DEV': [],
     'Open (not started)': [],
-    'Spill Over': []
+    'Spill Over': [],
+    'Traded Off': []
 }
 
 # High Risk cards (both QA_VERIFIED and SL: Carrier Platform Issues)

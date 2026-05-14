@@ -50,7 +50,7 @@ last_synced: {now_utc}
 shipped_at: {frontmatter_shipped_at}
 git_reference: {frontmatter_git_ref}
 tickets_delta_on_last_sync: {preserved.get('tickets_delta_on_last_sync', 0)}
-cards_total: {state_counts.get('Shipped', 0) + state_counts.get('Ready To Ship', 0) + state_counts.get('Support Closed', 0) + state_counts.get('Unsupported Partnership', 0) + state_counts.get('Carrier Platform Issues', 0) + state_counts.get('BUG REPORTED', 0) + state_counts.get('QA READY', 0) + state_counts.get('DEV', 0) + state_counts.get('Open (not started)', 0) + state_counts.get('Spill Over', 0)}
+cards_total: {state_counts.get('Shipped', 0) + state_counts.get('Ready To Ship', 0) + state_counts.get('Support Closed', 0) + state_counts.get('Unsupported Partnership', 0) + state_counts.get('Carrier Platform Issues', 0) + state_counts.get('BUG REPORTED', 0) + state_counts.get('QA READY', 0) + state_counts.get('DEV', 0) + state_counts.get('Open (not started)', 0) + state_counts.get('Spill Over', 0) + state_counts.get('Traded Off', 0)}
 cards_shipped: {state_counts.get('Shipped', 0)}
 cards_ready_to_ship: {state_counts.get('Ready To Ship', 0)}
 cards_high_risk: {len(high_risk_cards)}
@@ -60,6 +60,7 @@ cards_carrier_platform_issues: {state_counts.get('Carrier Platform Issues', 0)}
 cards_bug_reported: {state_counts.get('BUG REPORTED', 0)}
 cards_open: {state_counts.get('Open (not started)', 0)}
 cards_spill_over: {state_counts.get('Spill Over', 0)}
+cards_traded_off: {state_counts.get('Traded Off', 0)}
 ---"""
 
 # Build status banner
@@ -113,6 +114,7 @@ summary_table = f"""## Summary
 | DEV | {state_counts.get('DEV', 0)} |
 | Open (not started) | {state_counts.get('Open (not started)', 0)} |
 | Spill Over | {state_counts.get('Spill Over', 0)} |
+| Traded Off | {state_counts.get('Traded Off', 0)} |
 | **Total** | **{processed_data['total_cards']}** |{multi_section_note}"""
 
 # Build legend
@@ -128,7 +130,8 @@ legend = """## Legend
 - **QA READY** — code complete, in QA (ph-WIP Dev Done, Ready for QA, or QA Reported labels — NOT yet verified)
 - **DEV** — active development (ph-WIP DEV label)
 - **Open (not started)** — in product backlog but dev hasn't started (no ph-WIP state label)
-- **Spill Over** — cards that could not be completed in the current iteration and were moved out (ph-WIP `Spill Over` label)"""
+- **Spill Over** — cards that could not be completed in the current iteration and were moved out (ph-WIP `Spill Over` label)
+- **Traded Off** — cards intentionally dropped from this iteration to make room for new cards brought in (ph-WIP `Traded Off` label)"""
 
 # Function to build card tables for each state
 def build_card_table(state, cards):
@@ -179,7 +182,7 @@ def build_card_table(state, cards):
             card_link = f"[Link]({card['shortUrl']})"
             lines.append(f"| {zi} | {ticket_link} | {carriers} | {card_link} |")
 
-    elif state in ['BUG REPORTED', 'QA READY', 'DEV', 'Open (not started)', 'Spill Over']:
+    elif state in ['BUG REPORTED', 'QA READY', 'DEV', 'Open (not started)', 'Spill Over', 'Traded Off']:
         lines.append("| ZI | Ticket | Card |")
         lines.append("|----|--------|------|")
         for card in sorted(cards, key=lambda c: c.get('zi_id') or ''):
@@ -257,6 +260,9 @@ for state in ['Support Closed', 'Unsupported Partnership', 'Carrier Platform Iss
 # Build Spill Over section
 spill_over_section = build_card_table('Spill Over', cards_by_state.get('Spill Over', []))
 
+# Build Traded Off section
+traded_off_section = build_card_table('Traded Off', cards_by_state.get('Traded Off', []))
+
 # Build "Still Open" section
 still_open = []
 still_open.append("## Still Open ({})".format(
@@ -299,6 +305,8 @@ markdown = f"""{frontmatter}
 
 {spill_over_section}
 
+{traded_off_section}
+
 {chr(10).join(still_open)}
 
 {notes}
@@ -325,6 +333,7 @@ print(f"  QA READY: {state_counts.get('QA READY', 0)}")
 print(f"  DEV: {state_counts.get('DEV', 0)}")
 print(f"  Open: {state_counts.get('Open (not started)', 0)}")
 print(f"  Spill Over: {state_counts.get('Spill Over', 0)}")
+print(f"  Traded Off: {state_counts.get('Traded Off', 0)}")
 print()
 if frontmatter_git_ref and frontmatter_git_ref != 'None':
     print(f"git_reference: {frontmatter_git_ref[:8]} (preserved from previous snapshot)")
