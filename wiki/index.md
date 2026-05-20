@@ -153,6 +153,8 @@ Other sources:
 
 ### Zendesk Issue Extraction
 
+- [Issue Extraction — 2026-05-20](zendesk/2026-05-20.md) - 11-ticket delta; 37 new issues (ZI-520 → ZI-556) across MCSL, FedEx app, AusPost & NZ Post roadmaps
+- [Issue Extraction — 2026-05-11](zendesk/2026-05-11.md) - 17-ticket delta; ZI-496 → ZI-519
 - [Issue Extraction — 2026-04-20](zendesk/2026-04-20.md) - Latest ZI issues extracted from Shopify MCSL tickets, grouped by feature area
 - [Area Coupling Map](zendesk/area-coupling.md) - ZI area co-occurrence map; blast-radius reference cross-referenced against code coupling
 - Per-ticket summaries: [zendesk/summaries/](zendesk/summaries/) - One structured summary per ticket with timeline, open/resolved issues, customer context

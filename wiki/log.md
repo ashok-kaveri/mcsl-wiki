@@ -1,5 +1,21 @@
 # StorePep KB Activity Log
 
+## [2026-05-20 18:30] zendesk-summarize | 11-ticket delta — ZI-520 → ZI-556
+- Trigger: User asked to fetch and summarise a batch of 11 new Zendesk tickets (9 fetched initially + 2 added mid-batch)
+- Fetched via `scripts/sync-zendesk-by-ids.sh`:
+  - shopify: #389826, #387563, #389467, #389897, #390108, #390510, #391078 (7)
+  - other_platforms: #387845, #390097, #387886, #390467, #390467 (4)
+- Created summaries: `wiki/zendesk/summaries/{389826,387563,387845,389467,389897,390097,390108,390510,387886,390467,391078}.md`
+- Created daily index: `wiki/zendesk/2026-05-20.md` (37 issues; ZI-520 → ZI-556; 0 carry-forwards, 0 duplicates)
+- Git reference: f627c31d4cd88d1490dd22bab4feb221abead04d (fetch commit)
+- Headline themes:
+  - **FedEx REST + no-postal-code countries** — ZI-548 (FedEx app, Morrison/Belgium) + ZI-555 (MCSL, Cybershaft/Japan) + ZI-556 (cross-app coordination). Same bug, two code paths; Morrison already escalated with multiple missed ETAs
+  - **AusPost regulatory deadline 2026-08-04** — ZI-537/538/539 (mandatory recipient phone for eParcel + MPB; opt-out tracking)
+  - **NZ Post Q4 roadmap** — ZI-540/541/542/543 (SOv2, label enhancements, MyNZPB SMB integration)
+  - **Email sender / SMTP gap** — ZI-530, 552, 553, 554 (welcome emails, tracking notifications, end-customer complaint triage)
+  - **Large-catalog merchants on small plans** — ZI-525, 533, 534, 535, 536 (78k-product ez90xj-ps + label-cap Anandhaas)
+- Next: run `/roadmap regenerate` to refresh the roadmap from these new summaries
+
 ## [2026-05-11 17:00] zendesk-summarize-one + story-cards | Ticket #368959 re-pulled and 3 new ZIs added
 - Trigger: User flagged that the existing summary for #368959 said "USPS manifest" and "customer: Not specified" — both wrong
 - Re-pulled fresh from Zendesk API via `scripts/sync-zendesk-by-ids.sh 368959`
