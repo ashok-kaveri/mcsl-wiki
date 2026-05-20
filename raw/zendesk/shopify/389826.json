@@ -1,0 +1,661 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/389826.json",
+    "id": 389826,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "vimal@pluginhive.com",
+          "name": "Vimal Bhaskaran"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-05-14T10:52:04Z",
+    "updated_at": "2026-05-18T12:28:51Z",
+    "generated_timestamp": 1779107331,
+    "type": null,
+    "subject": "Re: VA- Verified Address Feature for Aswini Homeo",
+    "raw_subject": "Re: VA- Verified Address Feature for Aswini Homeo",
+    "description": "Hi Ram,\n\nThank you for sharing the details regarding the new Verified Address capability for Amazon Shipping in the India marketplace, along with the API documentation.\n\nWe are looping in our technical and support teams to review and take up the integration of this functionality. Based on our initial analysis, we are targeting an early June rollout for this feature, subject to successful implementation and testing.\n\nAs discussed over the phone, we kindly request your confirmation that once this feature is successfully rolled out, Aswni will process the full shipping volume through PluginHive with Amazon Shipping.\n\nOur team will review the shared documentation in detail and will reach out if any further technical clarifications are required during the integration process.\n\nLooking forward to your confirmation.\n\nThanks & Regards,\n\nVimal\n\nTeam PluginHive\n\n\n> On 14 May 2026, at 12:53 PM, Shinde, Ram <ramshind@amazon.com> wrote:\n> \n> Your attachment is now available for secure download. Amazon has replaced the attachment in this email with download link.\n> Important: This link may contain content that is confidential. Please exercise appropriate caution when sharing.\n> 1 Attachment Download all <https://us-west-2.secure-attach.amazon.com/all/c204d29e-3fe7-4451-9145-c523fe8594f5/97941639-d3d8-4312-bf06-40c3fa9e351e> Passcode required AZZSXy\n> API Documentation.docx <https://us-west-2.secure-attach.amazon.com/97941639-d3d8-4312-bf06-40c3fa9e351e/7dbd988f-3a46-4f42-bcf5-32d431cbcfcf>\n> Attachments Available Until: June 13, 2026, 07:23 (UTC+00:00)\n> Help us improve: Share Your Feedback <https://amazonexteu.qualtrics.com/jfe/form/SV_ehuz6zGo8YnsRKK> Visit Here  <https://docs.secure-attach.amazon.com/guide>for FAQs and support resources.\n> Dear Vimal,\n>  \n> We are introducing a new Verified Address capability as part of Amazon Shipping for the India marketplace, aimed at providing higher confidence on address deliverability and enabling better carrier allocation decisions for shippers. We would like to request your support in reviewing and incorporating this capability into your existing integration architecture for Amazon Shipping. As background, we are sharing the latest API Documentation – Verified Address, which outlines the detailed technical changes and expected behavior.\n>  \n> At a high level, the Verified Address capability includes the following:\n> A new verification signal returned via the GetRates API as part of the benefits.includedBenefits array, specifically\n> DESTINATION_ADDRESS_VERIFIED, indicating high deliverability confidence\n> The feature is fully backward compatible; existing API requests remain unchanged\n> Verification is best-effort, with graceful degradation when verification inputs are missing or the verification service is unavailable (the benefit will appear under excludedBenefits)\n> No impact to core API SLAs, with circuit-breaker–based fallback behavior\n> Applicable to the India (IN) marketplace only, with a planned availability starting 9th Feb 2026 for limited shippers under a controlled rollout\n>  \n> We request the integrator channel to:\n> Review the attached API documentation in detail\n> Assess and plan any required architecture changes to consume and propagate the new includedBenefits / excludedBenefits signals from GetRates API responses\n> Align on handling of optional inputs, fallback behavior, and the dynamic (non-idempotent) nature of verification responses\n> Incorporate and test the changes in sandbox ahead of the India marketplace rollout\n>  \n> Please let us know if you have any questions or need further clarification on the technical or integration aspects. We would be happy to set up a follow-up call if required.\n>  \n> Looking forward to your support and confirmation.\n>  \n> Regards,\n> Ram Amrut Shinde\n> Sales Manager\n> E: ramshind@amazon.com <mailto:ramshind@amazon.com> | M: +91-9270010798\n>  <https://shipping.amazon.in/>￼\nimage001.png",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 410186940351,
+    "submitter_id": 410186940351,
+    "assignee_id": null,
+    "organization_id": 360081186532,
+    "group_id": null,
+    "collaborator_ids": [
+      57918314810649,
+      48494096219929,
+      43373643811609,
+      903409790923,
+      369115090851,
+      390739881171,
+      388269142331
+    ],
+    "follower_ids": [
+      57918314810649,
+      48494096219929,
+      43373643811609,
+      903409790923,
+      369115090851,
+      390739881171,
+      388269142331
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "aswini-ayur.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "VE7941-KME54",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "aswini-ayur.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57918314862745,
+      "type": "Comment",
+      "author_id": 410186940351,
+      "body": "Hi Ram,\n\nThank you for sharing the details regarding the new Verified Address capability for Amazon Shipping in the India marketplace, along with the API documentation.\n\nWe are looping in our technical and support teams to review and take up the integration of this functionality. Based on our initial analysis, we are targeting an early June rollout for this feature, subject to successful implementation and testing.\n\nAs discussed over the phone, we kindly request your confirmation that once this feature is successfully rolled out, Aswni will process the full shipping volume through PluginHive with Amazon Shipping.\n\nOur team will review the shared documentation in detail and will reach out if any further technical clarifications are required during the integration process.\n\nLooking forward to your confirmation.\n\nThanks & Regards,\n\nVimal\n\nTeam PluginHive\n\n\n\n> On 14 May 2026, at 12:53 PM, Shinde, Ram <ramshind@amazon.com> wrote:\n>\n>\n> Your attachment is now available for secure download. Amazon has replaced the attachment in this email with download link.\n>\n> **Important:** This link may contain content that is confidential. Please exercise appropriate caution when sharing.\n>\n> - 1 Attachment\n>  - Download all\n>  - Passcode required **AZZSXy**\n>\n> - API Documentation.docx\n>\n> Attachments Available Until: **June 13, 2026, 07:23 (UTC+00:00)**\n>\n> Help us improve: Share Your Feedback Visit Here for FAQs and support resources.\n>\n> Dear Vimal,\n>\n>\n>\n> We are introducing a new **Verified Address capability** as part of **Amazon Shipping for the India marketplace**, aimed at providing higher confidence on address deliverability and enabling better carrier allocation decisions for shippers. We would like to request your support in reviewing and incorporating this capability into your existing integration architecture for Amazon Shipping. As background, we are sharing the latest **API Documentation – Verified Address**, which outlines the detailed technical changes and expected behavior.\n>\n>\n>\n> At a high level, the Verified Address capability includes the following:\n>\n> - A new verification signal returned via the **GetRates API** as part of the benefits.includedBenefits array, specifically\n> **DESTINATION_ADDRESS_VERIFIED**, indicating high deliverability confidence\n> - The feature is **fully backward compatible**; existing API requests remain unchanged\n> - Verification is **best-effort**, with graceful degradation when verification inputs are missing or the verification service is unavailable (the benefit will appear under excludedBenefits)\n> - No impact to core API SLAs, with circuit-breaker–based fallback behavior\n> - Applicable to the **India (IN) marketplace only**, with a planned availability starting **9th Feb 2026** for limited shippers under a controlled rollout\n>\n>\n>\n> We request the integrator channel to:\n>\n> - Review the attached API documentation in detail\n> - Assess and plan any required architecture changes to consume and propagate the new includedBenefits / excludedBenefits signals from GetRates API responses\n> - Align on handling of optional inputs, fallback behavior, and the dynamic (non-idempotent) nature of verification responses\n> - Incorporate and test the changes in sandbox ahead of the India marketplace rollout\n>\n>\n>\n> Please let us know if you have any questions or need further clarification on the technical or integration aspects. We would be happy to set up a follow-up call if required.\n>\n>\n>\n> Looking forward to your support and confirmation.\n>\n>\n>\n> Regards,\n>\n> Ram Amrut Shinde\n>\n> Sales Manager\n> E: ramshind@amazon.com **| **M: +91-9270010798\n>\n> ![image001.png](https://support.pluginhive.com/attachments/token/IKIpEkPGSvRqh6oNSHuKsPI2Z/?name=image001.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Hi Ram,</p><p dir=\"auto\">Thank you for sharing the details regarding the new Verified Address capability for Amazon Shipping in the India marketplace, along with the API documentation.</p><p dir=\"auto\">We are looping in our technical and support teams to review and take up the integration of this functionality. Based on our initial analysis, we are targeting an early June rollout for this feature, subject to successful implementation and testing.</p><p dir=\"auto\">As discussed over the phone, we kindly request your confirmation that once this feature is successfully rolled out, Aswni will process the full shipping volume through PluginHive with Amazon Shipping.</p><p dir=\"auto\">Our team will review the shared documentation in detail and will reach out if any further technical clarifications are required during the integration process.</p><p dir=\"auto\">Looking forward to your confirmation.</p><p dir=\"auto\">Thanks &amp; Regards,</p><p dir=\"auto\">Vimal</p><p dir=\"auto\">Team PluginHive</p><div><br><blockquote><div>On 14 May 2026, at 12:53 PM, Shinde, Ram &lt;ramshind@amazon.com&gt; wrote:</div><br><div><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\" letter-spacing: normal; orphans: auto; text-transform: none; widows: auto; word-spacing: 0px; text-decoration: none; width: 925px; margin-bottom: 20px; border-collapse: collapse; \"><tbody><tr><td style=\"border-radius: 2px; padding: 8px 16px; border: 1px solid rgb(170,183,184);\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 891px; border-collapse: collapse; margin-bottom: 4px;\"><tbody><tr><td style=\"font-size: 14px; padding: 0px;\">Your attachment is now available for secure download. Amazon has replaced the attachment in this email with download link.</td></tr></tbody></table><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 891px; border-collapse: collapse; margin-bottom: 4px;\"><tbody><tr><td style=\"font-size: 13px; padding: 0px;\"><strong>Important:</strong><span>&nbsp;</span>This link may contain content that is confidential. Please exercise appropriate caution when sharing.</td></tr></tbody></table><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 891px; border-collapse: collapse; margin-top: 4px; margin-bottom: 8px;\"><tbody><tr><td style=\"padding: 0px 0px 4px;\"><ul style=\"display: inline-block; margin: 0px; padding: 0px;\" dir=\"auto\"><li style=\"display: inline-block; list-style-type: none; margin: 0px;\"><span style=\"display: inline-block; padding-right: 12px; font-weight: 600; font-size: 14px; \">1 Attachment</span></li><span>&nbsp;</span><li style=\"display: inline-block; list-style-type: none; margin: 0px;\"><span style=\"display: inline-block; padding-right: 12px; font-size: 14px; \"><a href=\"https://us-west-2.secure-attach.amazon.com/all/c204d29e-3fe7-4451-9145-c523fe8594f5/97941639-d3d8-4312-bf06-40c3fa9e351e\" style=\"color: rgb(0, 115, 187); text-decoration: none;\" rel=\"noreferrer\">Download all</a></span></li><span>&nbsp;</span><li style=\"display: inline-block; list-style-type: none; margin: 0px;\"><span style=\"font-size: 13px; color: rgb(85, 85, 85); background-color: rgb(209, 241, 255); border-radius: 2px; padding: 4px 8px;\">Passcode required<span>&nbsp;</span><strong>AZZSXy</strong></span></li></ul></td></tr><tr><td style=\"padding: 4px 0px 0px;\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 891px; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 0px;\"><ul style=\"display: inline-block; width: 891px; margin: 0px; padding: 0px;\" dir=\"auto\"><li style=\"display: inline-block; list-style-type: none; margin: 0px;\"><span style=\"display: inline-block; padding-right: 12px; padding-bottom: 8px;\"><a href=\"https://us-west-2.secure-attach.amazon.com/97941639-d3d8-4312-bf06-40c3fa9e351e/7dbd988f-3a46-4f42-bcf5-32d431cbcfcf\" title=\"API Documentation.docx\" style=\"color: rgb(0, 115, 187); text-decoration: none; font-size: 14px; \" rel=\"noreferrer\">API Documentation.docx</a></span></li></ul></td></tr></tbody></table></td></tr></tbody></table><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 891px; border-collapse: collapse; margin-bottom: 8px;\"><tbody><tr><td style=\"font-size: 13px; padding: 0px;\">Attachments Available Until:<span>&nbsp;</span><strong>June 13, 2026, 07:23 (UTC+00:00)</strong></td></tr></tbody></table><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse: collapse; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(231, 231, 231); padding-top: 8px;\"><tbody><tr><td style=\"font-size: 12px; color: rgb(85, 85, 85); padding: 0px;\"><span style=\"display: inline-block; padding-right: 24px; padding-bottom: 4px; font-size: 12px;\">Help us improve:<span>&nbsp;</span><a href=\"https://amazonexteu.qualtrics.com/jfe/form/SV_ehuz6zGo8YnsRKK\" style=\"color: rgb(0, 115, 187); text-decoration: none; font-size: 12px;\" rel=\"noreferrer\">Share Your Feedback</a></span><span>&nbsp;</span><span style=\"display: inline-block; padding-bottom: 4px; font-size: 12px;\">Visit<span>&nbsp;</span><a href=\"https://docs.secure-attach.amazon.com/guide\" style=\"color: rgb(0, 115, 187); text-decoration: none; font-size: 12px;\" rel=\"noreferrer\">Here<span>&nbsp;</span></a>for FAQs and support resources.</span></td></tr></tbody></table></td></tr></tbody></table><div style=\"page: WordSection1; font-size: 14px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; text-decoration: none;\" align=\"start\"><div style=\"font-size: 12pt; margin: 0in;\"><span>Dear Vimal,</span></div><div style=\"font-size: 12pt; margin: 0in;\"><span>&nbsp;</span></div><div style=\"font-size: 12pt; margin: 0in;\">We are introducing a new<span>&nbsp;</span><b>Verified Address capability</b><span>&nbsp;</span>as part of<span>&nbsp;</span><b>Amazon Shipping for the India marketplace</b>, aimed at providing higher confidence on address deliverability and enabling better carrier allocation decisions for shippers. We would like to request your support in reviewing and incorporating this capability into your existing integration architecture for Amazon Shipping. As background, we are sharing the latest<span>&nbsp;</span><b>API Documentation – Verified Address</b>, which outlines the detailed technical changes and expected behavior.</div><div style=\"font-size: 12pt; margin: 0in;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0in;\">At a high level, the Verified Address capability includes the following:</div><ul style=\"margin-bottom: 0in; margin-top: 0in;\" dir=\"auto\"><li style=\"font-size: 12pt; margin: 0in;\">A new verification signal returned via the<span>&nbsp;</span><b>GetRates API</b><span>&nbsp;</span>as part of the benefits.includedBenefits array, specifically<br><b>DESTINATION_ADDRESS_VERIFIED</b>, indicating high deliverability confidence</li><li style=\"font-size: 12pt; margin: 0in;\">The feature is<span>&nbsp;</span><b>fully backward compatible</b>; existing API requests remain unchanged</li><li style=\"font-size: 12pt; margin: 0in;\">Verification is<span>&nbsp;</span><b>best-effort</b>, with graceful degradation when verification inputs are missing or the verification service is unavailable (the benefit will appear under excludedBenefits)</li><li style=\"font-size: 12pt; margin: 0in;\">No impact to core API SLAs, with circuit-breaker–based fallback behavior</li><li style=\"font-size: 12pt; margin: 0in;\">Applicable to the<span>&nbsp;</span><b>India (IN) marketplace only</b>, with a planned availability starting<span>&nbsp;</span><b>9th Feb 2026</b><span>&nbsp;</span>for limited shippers under a controlled rollout</li></ul><div style=\"font-size: 12pt; margin: 0in;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0in;\">We request the integrator channel to:</div><ul style=\"margin-bottom: 0in; margin-top: 0in;\" dir=\"auto\"><li style=\"font-size: 12pt; margin: 0in;\">Review the attached API documentation in detail</li><li style=\"font-size: 12pt; margin: 0in;\">Assess and plan any required architecture changes to consume and propagate the new includedBenefits / excludedBenefits signals from GetRates API responses</li><li style=\"font-size: 12pt; margin: 0in;\">Align on handling of optional inputs, fallback behavior, and the dynamic (non-idempotent) nature of verification responses</li><li style=\"font-size: 12pt; margin: 0in;\">Incorporate and test the changes in sandbox ahead of the India marketplace rollout</li></ul><div style=\"font-size: 12pt; margin: 0in;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0in;\">Please let us know if you have any questions or need further clarification on the technical or integration aspects. We would be happy to set up a follow-up call if required.</div><div style=\"font-size: 12pt; margin: 0in;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0in;\">Looking forward to your support and confirmation.</div><div style=\"font-size: 12pt; margin: 0in;\"><span>&nbsp;</span></div><div><div style=\"font-size: 12pt; margin: 0in;\"><span>Regards,</span><span style=\"font-size: 11pt; \"></span></div><div style=\"font-size: 12pt; margin: 0in;\"><span style=\" color: rgb(5, 120, 255);\">Ram Amrut Shinde</span></div><div style=\"font-size: 12pt; margin: 0in;\"><span>Sales Manager</span><span style=\" color: rgb(88, 46, 0);\"><br></span><span style=\" color: rgb(5, 120, 255);\">E:</span><span style=\" color: rgb(228, 121, 17);\">&nbsp;</span><span><a href=\"mailto:ramshind@amazon.com\" rel=\"noreferrer\">ramshind@amazon.com</a><span><span>&nbsp;</span></span><b><span style=\"color: rgb(31, 78, 121);\">|<span>&nbsp;</span></span></b><span style=\"color: rgb(5, 120, 255);\">M:</span><span style=\"color: rgb(47, 84, 150);\">&nbsp;</span>+91-9270010798<span></span></span></div><div style=\"font-size: 12pt; margin: 0in;\"><a href=\"https://shipping.amazon.in/\" rel=\"noreferrer\"><span style=\" color: windowtext; text-decoration: none;\"><img alt=\"image001.png\" src=\"https://support.pluginhive.com/attachments/token/IKIpEkPGSvRqh6oNSHuKsPI2Z/?name=image001.png\"></span></a></div></div></div></div></blockquote></div><br></div>",
+      "plain_body": "Hi Ram,  Thank you for sharing the details regarding the new Verified Address capability for Amazon Shipping in the India marketplace, along with the API documentation.  We are looping in our technical and support teams to review and take up the integration of this functionality. Based on our initial analysis, we are targeting an early June rollout for this feature, subject to successful implementation and testing.  As discussed over the phone, we kindly request your confirmation that once this feature is successfully rolled out, Aswni will process the full shipping volume through PluginHive with Amazon Shipping.  Our team will review the shared documentation in detail and will reach out if any further technical clarifications are required during the integration process.  Looking forward to your confirmation.  Thanks &amp; Regards,  Vimal  Team PluginHive  \n  On 14 May 2026, at 12:53 PM, Shinde, Ram &lt;ramshind@amazon.com&gt; wrote: \n Your attachment is now available for secure download. Amazon has replaced the attachment in this email with download link.Important:&nbsp;This link may contain content that is confidential. Please exercise appropriate caution when sharing.  1 Attachment &nbsp; Download all &nbsp; Passcode required&nbsp;AZZSXy    API Documentation.docx  Attachments Available Until:&nbsp;June 13, 2026, 07:23 (UTC+00:00)Help us improve:&nbsp;Share Your Feedback&nbsp;Visit&nbsp;Here&nbsp;for FAQs and support resources.  Dear Vimal,  &nbsp;  We are introducing a new&nbsp;Verified Address capability&nbsp;as part of&nbsp;Amazon Shipping for the India marketplace, aimed at providing higher confidence on address deliverability and enabling better carrier allocation decisions for shippers. We would like to request your support in reviewing and incorporating this capability into your existing integration architecture for Amazon Shipping. As background, we are sharing the latest&nbsp;API Documentation – Verified Address, which outlines the detailed technical changes and expected behavior.  &nbsp;  At a high level, the Verified Address capability includes the following:   A new verification signal returned via the&nbsp;GetRates API&nbsp;as part of the benefits.includedBenefits array, specifically\nDESTINATION_ADDRESS_VERIFIED, indicating high deliverability confidence  The feature is&nbsp;fully backward compatible; existing API requests remain unchanged  Verification is&nbsp;best-effort, with graceful degradation when verification inputs are missing or the verification service is unavailable (the benefit will appear under excludedBenefits)  No impact to core API SLAs, with circuit-breaker–based fallback behavior  Applicable to the&nbsp;India (IN) marketplace only, with a planned availability starting&nbsp;9th Feb 2026&nbsp;for limited shippers under a controlled rollout   &nbsp;  We request the integrator channel to:   Review the attached API documentation in detail  Assess and plan any required architecture changes to consume and propagate the new includedBenefits / excludedBenefits signals from GetRates API responses  Align on handling of optional inputs, fallback behavior, and the dynamic (non-idempotent) nature of verification responses  Incorporate and test the changes in sandbox ahead of the India marketplace rollout   &nbsp;  Please let us know if you have any questions or need further clarification on the technical or integration aspects. We would be happy to set up a follow-up call if required.  &nbsp;  Looking forward to your support and confirmation.  &nbsp;   Regards,  Ram Amrut Shinde  Sales Manager\nE:&nbsp;ramshind@amazon.com&nbsp;|&nbsp;M:&nbsp;+91-9270010798",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57918314862617,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "vimal@pluginhive.com",
+            "name": "Vimal Bhaskaran",
+            "original_recipients": [
+              "vimal@pluginhive.com",
+              "ramshind@amazon.com",
+              "support@pluginhive.com",
+              "abhilash@pluginhive.com",
+              "narvindd@amazon.com",
+              "manomoyc@amazon.com",
+              "sanoop@pluginhive.com",
+              "veena@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T10:52:04Z",
+      "metadata": {
+        "system": {
+          "message_id": "<D699CAE0-B2C4-4C00-B1D4-DE0B506DD225@pluginhive.com>",
+          "client": "Apple Mail (2.3826.600.51.1.1)",
+          "email_id": "01KRK1TREE6PCA1Z1K63BNXZBK",
+          "raw_email_identifier": "2369120/c1d5e87b-df78-43f2-a8e6-63b950ed7c6d.eml",
+          "json_email_identifier": "2369120/c1d5e87b-df78-43f2-a8e6-63b950ed7c6d.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57918372431897,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "please dont reply this ticket without consulting senior team -- Vimal\nattaching the api doc here",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">please dont reply this ticket without consulting senior team -- Vimal<br>attaching the api doc here<br></div>",
+      "plain_body": "please dont reply this ticket without consulting senior team -- Vimal\nattaching the api doc here",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57918365553817.json",
+          "id": 57918365553817,
+          "file_name": "VA-_Verified_Address_Feature_for_Aswini_Homeo.zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/jCAuwhKTwGFKKenIScXNPHYzV/?name=VA-_Verified_Address_Feature_for_Aswini_Homeo.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/jCAuwhKTwGFKKenIScXNPHYzV/?name=VA-_Verified_Address_Feature_for_Aswini_Homeo.zip",
+          "content_type": "application/zip",
+          "size": 26553,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 57918363171353,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T10:55:22Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57918669638169,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Veena to review the document and share the analysis. Post that move to dev-needed.\n[Input from Vimal]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Veena to review the document and share the analysis. Post that move to dev-needed.<br>[Input from Vimal]<br></div>",
+      "plain_body": "Veena to review the document and share the analysis. Post that move to dev-needed.\n[Input from Vimal]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57918669638041,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T11:05:15Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57919735348121,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "This will be taken up for 381. Moving to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This will be taken up for 381. Moving to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "This will be taken up for 381. Moving to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57919735347993,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T11:45:21Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57920318754329,
+      "type": "Comment",
+      "author_id": 43373643811609,
+      "body": "Hi Vimal,\n\n\n\nThanks for your email, please if you can enable the feature by next week since Aswini wants to scaleup the volume with us.\n\n\n\nRegards,\n\nRam Amrut Shinde\n\nSales Manager\n E: ramshind@amazon.com **|** M: +91-9270010798\n\n![](https://support.pluginhive.com/attachments/token/lpyfQdhPmxc31WNqxeb5KQKNZ/?name=image001.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>Hi Vimal,</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>Thanks for your email, please if you can enable the feature by next week since Aswini wants to scaleup the volume with us.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>&nbsp;</span></p>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>Regards,</span><span style=\"font-size: 11.0pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\" color: #0578FF; \">Ram Amrut Shinde</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>Sales Manager\n</span><span style=\" color: #582E00; \"><br>\n</span><span style=\" color: #0578FF; \">E:</span><span style=\" color: #E47911; \">&nbsp;</span><span><a href=\"mailto:ramshind@amazon.com\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">ramshind@amazon.com</a><span style=\"color: black;\">\n</span><b><span style=\"color: #1F4E79;\">| </span></b><span style=\"color: #0578FF;\">M:</span><span style=\"color: #2F5496;\">&nbsp;</span>+91-9270010798<span style=\"color: black;\"></span></span></p>\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://shipping.amazon.in/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\" color: windowtext; text-decoration: none;\"><img border=\"0\" width=\"140\" height=\"25\" style=\"width: 1.4583in; height: .2638in;\" src=\"https://support.pluginhive.com/attachments/token/lpyfQdhPmxc31WNqxeb5KQKNZ/?name=image001.png\"></span></a><span></span></p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Hi Vimal, \n &nbsp; \n Thanks for your email, please if you can enable the feature by next week since Aswini wants to scaleup the volume with us. \n &nbsp; \n \n Regards, \n Ram Amrut Shinde \n Sales Manager\n\n\nE:&nbsp;ramshind@amazon.com\n| M:&nbsp;+91-9270010798 \n  \n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57920318754201,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "vimal@pluginhive.com",
+            "name": "Vimal Bhaskaran",
+            "original_recipients": [
+              "ramshind@amazon.com",
+              "vimal@pluginhive.com",
+              "support@pluginhive.com",
+              "abhilash@pluginhive.com",
+              "narvindd@amazon.com",
+              "manomoyc@amazon.com",
+              "sanoop@pluginhive.com",
+              "veena@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T12:07:45Z",
+      "metadata": {
+        "system": {
+          "message_id": "<0101019e2662a1e4-53a1f298-6ace-4311-bc09-fa8ec40f1a8c-000000@us-west-2.amazonses.com>",
+          "email_id": "01KRK65B9XF3A6F7D0BM6PNWYN",
+          "ip_address": "54.240.87.200",
+          "raw_email_identifier": "2369120/456cec43-5924-4625-abfb-22da99b9651d.eml",
+          "json_email_identifier": "2369120/456cec43-5924-4625-abfb-22da99b9651d.json",
+          "eml_redacted": false,
+          "location": "United States",
+          "latitude": 37.751,
+          "longitude": -97.822
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          410186940351
+        ]
+      }
+    },
+    {
+      "id": 57946423164569,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Customer expects a functionality to identify orders that are best suited to be shipped via Amazon Shipping using the address validation API. While some addresses currently receive rates and labels from Amazon Shipping, return rates have been significantly high due to delivery quality issues in certain locations. The API is expected to confirm whether an address is fully serviceable/deliverable through Amazon, enabling us to provide an option to filter such orders and proceed with label creation only for highly deliverable shipments. This enhancement can help significantly reduce return rates and improve delivery success.\n\nThis feature is important to help win back the customer, Asawhi, who has indicated that they are willing to process their full shipment volume through Pluginhive once this functionality is successfully rolled out. The expected volume is approximately **50K shipments per month**.\n\nAdditionally, we are currently in the final stages of signing a partnership agreement with Amazon Shipping India to offer MCSL free of cost to their customers. Amazon has also committed to providing a consistent flow of customer referrals through their sales team.\n\nHistorically, delivery quality has been one of the key reasons for churn among Amazon Shipping customers. This feature could significantly improve customer retention and reduce churn by ensuring only highly deliverable shipments are processed through Amazon Shipping, ultimately improving delivery performance and customer satisfaction.\n--Vimal",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer expects a functionality to identify orders that are best suited to be shipped via Amazon Shipping using the address validation API. While some addresses currently receive rates and labels from Amazon Shipping, return rates have been significantly high due to delivery quality issues in certain locations. The API is expected to confirm whether an address is fully serviceable/deliverable through Amazon, enabling us to provide an option to filter such orders and proceed with label creation only for highly deliverable shipments. This enhancement can help significantly reduce return rates and improve delivery success.<br>&nbsp;<br>This feature is important to help win back the customer, Asawhi, who has indicated that they are willing to process their full shipment volume through Pluginhive once this functionality is successfully rolled out. The expected volume is approximately <strong>50K shipments per month</strong>.<br>&nbsp;<br>Additionally, we are currently in the final stages of signing a partnership agreement with Amazon Shipping India to offer MCSL free of cost to their customers. Amazon has also committed to providing a consistent flow of customer referrals through their sales team.<br>&nbsp;<br>Historically, delivery quality has been one of the key reasons for churn among Amazon Shipping customers. This feature could significantly improve customer retention and reduce churn by ensuring only highly deliverable shipments are processed through Amazon Shipping, ultimately improving delivery performance and customer satisfaction.<br>--Vimal<br></div>",
+      "plain_body": "Customer expects a functionality to identify orders that are best suited to be shipped via Amazon Shipping using the address validation API. While some addresses currently receive rates and labels from Amazon Shipping, return rates have been significantly high due to delivery quality issues in certain locations. The API is expected to confirm whether an address is fully serviceable/deliverable through Amazon, enabling us to provide an option to filter such orders and proceed with label creation only for highly deliverable shipments. This enhancement can help significantly reduce return rates and improve delivery success.\n&nbsp;\nThis feature is important to help win back the customer, Asawhi, who has indicated that they are willing to process their full shipment volume through Pluginhive once this functionality is successfully rolled out. The expected volume is approximately 50K shipments per month.\n&nbsp;\nAdditionally, we are currently in the final stages of signing a partnership agreement with Amazon Shipping India to offer MCSL free of cost to their customers. Amazon has also committed to providing a consistent flow of customer referrals through their sales team.\n&nbsp;\nHistorically, delivery quality has been one of the key reasons for churn among Amazon Shipping customers. This feature could significantly improve customer retention and reduce churn by ensuring only highly deliverable shipments are processed through Amazon Shipping, ultimately improving delivery performance and customer satisfaction.\n--Vimal",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57946423163801,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T07:23:16Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57950978929433,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Waiting for ETA (Moving to L3 based on Vimal's Input)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Waiting for ETA (Moving to L3 based on Vimal's Input)<br></div>",
+      "plain_body": "Waiting for ETA (Moving to L3 based on Vimal's Input)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57950978929305,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T09:28:32Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58034253930905,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "ETA: June 1st week.\n**Keerthi** , please confirm if this can be moved to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA: June 1st week.&nbsp;<br><a href=\"/users/388269142331\" class=\"atmention\">Keerthi</a> , please confirm if this can be moved to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "ETA: June 1st week.&nbsp;\nKeerthi , please confirm if this can be moved to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58034253930777,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-18T05:21:25Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58049024678041,
+      "type": "Comment",
+      "author_id": 390739881171,
+      "body": "Hello Ram,\n\n\n\nWe would like to connect over a call to discuss the implementation of verified address capability on Wednesday 20th May, 3 pm IST.\n\n\n\nKindly let us know if this works for you.\n\n\n\nBest Regards,\n\nVeena\n\nTeam PluginHive\n\n\n\n> On 14 May 2026, at 4:21 PM, vimal <vimal@pluginhive.com> wrote:\n>\n>\n> Hi Ram,\n>\n> Thank you for sharing the details regarding the new Verified Address capability for Amazon Shipping in the India marketplace, along with the API documentation.\n>\n> We are looping in our technical and support teams to review and take up the integration of this functionality. Based on our initial analysis, we are targeting an early June rollout for this feature, subject to successful implementation and testing.\n>\n> As discussed over the phone, we kindly request your confirmation that once this feature is successfully rolled out, Aswni will process the full shipping volume through PluginHive with Amazon Shipping.\n>\n> Our team will review the shared documentation in detail and will reach out if any further technical clarifications are required during the integration process.\n>\n> Looking forward to your confirmation.\n>\n> Thanks & Regards,\n>\n> Vimal\n>\n> Team PluginHive",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hello Ram,<div><br></div><div>We would like to connect over a call to discuss the implementation of verified address capability on Wednesday 20th May, 3 pm IST.</div><div><br></div><div>Kindly let us know if this works for you.</div><div><br></div><div>Best Regards,</div><div>Veena</div><div>Team PluginHive&nbsp;</div><div><div><br><blockquote><div>On 14 May 2026, at 4:21 PM, vimal &lt;vimal@pluginhive.com&gt; wrote:</div><br><div><div style=\"overflow-wrap: break-word; line-break: after-white-space;\"><p dir=\"auto\">Hi Ram,</p><p dir=\"auto\">Thank you for sharing the details regarding the new Verified Address capability for Amazon Shipping in the India marketplace, along with the API documentation.</p><p dir=\"auto\">We are looping in our technical and support teams to review and take up the integration of this functionality. Based on our initial analysis, we are targeting an early June rollout for this feature, subject to successful implementation and testing.</p><p dir=\"auto\">As discussed over the phone, we kindly request your confirmation that once this feature is successfully rolled out, Aswni will process the full shipping volume through PluginHive with Amazon Shipping.</p><p dir=\"auto\">Our team will review the shared documentation in detail and will reach out if any further technical clarifications are required during the integration process.</p><p dir=\"auto\">Looking forward to your confirmation.</p><p dir=\"auto\">Thanks &amp; Regards,</p><p dir=\"auto\">Vimal</p><p dir=\"auto\">Team PluginHive</p></div></div></blockquote></div></div></div>",
+      "plain_body": "Hello Ram, \n  We would like to connect over a call to discuss the implementation of verified address capability on Wednesday 20th May, 3 pm IST.  \n  Kindly let us know if this works for you.  \n  Best Regards,  Veena  Team PluginHive&nbsp;   \n  On 14 May 2026, at 4:21 PM, vimal &lt;vimal@pluginhive.com&gt; wrote: \n   Hi Ram,  Thank you for sharing the details regarding the new Verified Address capability for Amazon Shipping in the India marketplace, along with the API documentation.  We are looping in our technical and support teams to review and take up the integration of this functionality. Based on our initial analysis, we are targeting an early June rollout for this feature, subject to successful implementation and testing.  As discussed over the phone, we kindly request your confirmation that once this feature is successfully rolled out, Aswni will process the full shipping volume through PluginHive with Amazon Shipping.  Our team will review the shared documentation in detail and will reach out if any further technical clarifications are required during the integration process.  Looking forward to your confirmation.  Thanks &amp; Regards,  Vimal  Team PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58049024675353,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "vimal@pluginhive.com",
+            "name": "Vimal Bhaskaran",
+            "original_recipients": [
+              "veena@pluginhive.com",
+              "vimal@pluginhive.com",
+              "ramshind@amazon.com",
+              "support@pluginhive.com",
+              "abhilash@pluginhive.com",
+              "narvindd@amazon.com",
+              "manomoyc@amazon.com",
+              "sanoop@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-18T12:25:23Z",
+      "metadata": {
+        "system": {
+          "message_id": "<A236F21D-2CBB-40C8-BD6D-048FEB4545B0@pluginhive.com>",
+          "client": "Apple Mail (2.3826.500.181.1.5)",
+          "email_id": "01KRXGRFFQ3AFBNDBG4S1BCNXV",
+          "raw_email_identifier": "2369120/be56893b-c64d-4808-9497-5b6608a3f696.eml",
+          "json_email_identifier": "2369120/be56893b-c64d-4808-9497-5b6608a3f696.json",
+          "eml_redacted": false,
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          410186940351
+        ]
+      }
+    },
+    {
+      "id": 58049073808537,
+      "type": "Comment",
+      "author_id": 43373643811609,
+      "body": "Hi Veena,\n\n\n\nI have shared an invite please check.\n\n\n\nRegards,\n\nRam Amrut Shinde\n\nSales Manager\n E: ramshind@amazon.com **|** M: +91-9270010798\n\n![](https://support.pluginhive.com/attachments/token/mwOdVTzoiUpcbu1tL91e4t8EC/?name=image001.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>Hi Veena,</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>I have shared an invite please check.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>&nbsp;</span></p>\n<div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>Regards,</span><span style=\"font-size: 11.0pt; \"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\" color: #0578FF; \">Ram Amrut Shinde</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>Sales Manager\n</span><span style=\" color: #582E00; \"><br>\n</span><span style=\" color: #0578FF; \">E:</span><span style=\" color: #E47911; \">&nbsp;</span><span><a href=\"mailto:ramshind@amazon.com\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">ramshind@amazon.com</a><span style=\"color: black;\">\n</span><b><span style=\"color: #1F4E79;\">| </span></b><span style=\"color: #0578FF;\">M:</span><span style=\"color: #2F5496;\">&nbsp;</span>+91-9270010798<span style=\"color: black;\"></span></span></p>\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><a href=\"https://shipping.amazon.in/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\" color: windowtext; text-decoration: none;\"><img border=\"0\" width=\"140\" height=\"25\" style=\"width: 1.4583in; height: .2638in;\" src=\"https://support.pluginhive.com/attachments/token/mwOdVTzoiUpcbu1tL91e4t8EC/?name=image001.png\"></span></a><span></span></p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span>&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Hi Veena, \n &nbsp; \n I have shared an invite please check. \n &nbsp; \n \n Regards, \n Ram Amrut Shinde \n Sales Manager\n\n\nE:&nbsp;ramshind@amazon.com\n| M:&nbsp;+91-9270010798 \n  \n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58049113640217,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "vimal@pluginhive.com",
+            "name": "Vimal Bhaskaran",
+            "original_recipients": [
+              "ramshind@amazon.com",
+              "veena@pluginhive.com",
+              "vimal@pluginhive.com",
+              "support@pluginhive.com",
+              "abhilash@pluginhive.com",
+              "narvindd@amazon.com",
+              "manomoyc@amazon.com",
+              "sanoop@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-18T12:28:51Z",
+      "metadata": {
+        "system": {
+          "message_id": "<0100019e3b0f6873-f5da107f-9a5a-4744-b0a6-4cac78a8a34a-000000@email.amazonses.com>",
+          "email_id": "01KRXGYVWAKED2VFJSF8DZ1JF2",
+          "ip_address": "54.240.76.46",
+          "raw_email_identifier": "2369120/22a997cc-5c47-4d16-b4a2-02def61a442b.eml",
+          "json_email_identifier": "2369120/22a997cc-5c47-4d16-b4a2-02def61a442b.json",
+          "eml_redacted": false,
+          "location": "United States",
+          "latitude": 37.751,
+          "longitude": -97.822
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          410186940351
+        ]
+      }
+    }
+  ]
+}

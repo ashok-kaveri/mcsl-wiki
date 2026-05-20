@@ -1,0 +1,236 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/390510.json",
+    "id": 390510,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-05-18T09:22:18Z",
+    "updated_at": "2026-05-18T09:22:30Z",
+    "generated_timestamp": 1779096150,
+    "type": null,
+    "subject": "Love of india existing issues",
+    "raw_subject": "Love of india existing issues",
+    "description": "_**EXISTING ISSUES THAT NEED CORRECTION**_\n_**━━━━━━━━━━━━━━━━━━━━━━━**_\n**1. Batch Creation Issues for Large Volumes**\n\n\n- When creating very large batches (example: 1000+ orders), **batch creation takes a long time**.\n- During this delay, the **system does not redirect automatically to the Label Batch page.** _(For smaller batches, the redirect works correctly. This issue is also captured in the __**video**_ _shared earlier)_\n- During batch creation, the app displays **“Error in Batch Creation” message**, which is misleading. This confuses the customer even though the batch may still be processing successfully.\n\n\n**2. Failed Labels Appearing as Processing in Multiple Batches**\n\n\n**Part of their Workflow**\n\n- Suppose: Out of 100 orders, 2 labels fail.\n- Customer retries those failed orders with another carrier.\n\n\n**Issue:**\n\n- Those same orders continue to appear as “Processing” in the original failed batch as well.\n- At the same time, they also appear in the new retry batch.\n- The retried carrier name also gets updated in the Original batch, leading to confusion.\n\nThere may also be printing-related inconsistencies connected to this behavior, as mentioned earlier by the Dev team.\n\n**3. Printing Mismatch / “Not in Ship” Case**\n\nObserved today:\n\n- Order #45279880 was not part of the Label Print\n- Deepak reviewed and informed that the **order was in “Not in Ship” status**\n- However, the **label was generated & Order was fulfille**d in Shopify for this order. That tracking ID is still valid : https://track.amazon.in/tracking/369348516162\n\n\nThis is the first time this particular case has been observed, and the root cause is currently unclear.\n\n**4. Setup the carriers based on priority**\n\n\n- Create all Amazon labels\n- Switch Delhivery carrier to Amazon and try label creation, some may fail and some success.\n- Retry all failed labels with Amazon once again.\n- Remaining failed orders are then attempted with Delhivery.\n- If still failed, they retry with XpressBees.\n\n\n\n\n[Veena]",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 8448825445657,
+    "submitter_id": 8448825445657,
+    "assignee_id": null,
+    "organization_id": 360081186532,
+    "group_id": null,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": false,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "q4_dec_end",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "loveofindia.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": "q4_dec_end"
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "GZRY0W-M0GXX",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "loveofindia.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": "q4_dec_end"
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58043847395993,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "_**EXISTING ISSUES THAT NEED CORRECTION**_\n_**━━━━━━━━━━━━━━━━━━━━━━━**_\n**1. Batch Creation Issues for Large Volumes**\n\n\n- When creating very large batches (example: 1000+ orders), **batch creation takes a long time**.\n- During this delay, the **system does not redirect automatically to the Label Batch page.** _(For smaller batches, the redirect works correctly. This issue is also captured in the __**video**_ _shared earlier)_\n- During batch creation, the app displays **“Error in Batch Creation” message**, which is misleading. This confuses the customer even though the batch may still be processing successfully.\n\n\n**2. Failed Labels Appearing as Processing in Multiple Batches**\n\n\n**Part of their Workflow**\n\n- Suppose: Out of 100 orders, 2 labels fail.\n- Customer retries those failed orders with another carrier.\n\n\n**Issue:**\n\n- Those same orders continue to appear as “Processing” in the original failed batch as well.\n- At the same time, they also appear in the new retry batch.\n- The retried carrier name also gets updated in the Original batch, leading to confusion.\n\nThere may also be printing-related inconsistencies connected to this behavior, as mentioned earlier by the Dev team.\n\n**3. Printing Mismatch / “Not in Ship” Case**\n\nObserved today:\n\n- Order #45279880 was not part of the Label Print\n- Deepak reviewed and informed that the **order was in “Not in Ship” status**\n- However, the **label was generated & Order was fulfille**d in Shopify for this order. That tracking ID is still valid : https://track.amazon.in/tracking/369348516162\n\n\nThis is the first time this particular case has been observed, and the root cause is currently unclear.\n\n**4. Setup the carriers based on priority**\n\n\n- Create all Amazon labels\n- Switch Delhivery carrier to Amazon and try label creation, some may fail and some success.\n- Retry all failed labels with Amazon once again.\n- Remaining failed orders are then attempted with Delhivery.\n- If still failed, they retry with XpressBees.\n\n\n\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><i><strong>EXISTING ISSUES THAT NEED CORRECTION</strong></i><br><i><strong>━━━━━━━━━━━━━━━━━━━━━━━</strong></i><br><strong>1. Batch Creation Issues for Large Volumes</strong><br>&nbsp;<br><ul dir=\"auto\"><li>When creating very large batches (example: 1000+ orders),<strong> batch creation takes a long time</strong>.</li><li>During this delay, the&nbsp;<strong>system does not redirect automatically to the Label Batch page.</strong>&nbsp;<i>(For smaller batches, the redirect works correctly. This issue is also captured in the&nbsp;</i><a rel=\"noopener noreferrer\" href=\"https://drive.google.com/file/d/1xijq4emSTHUCjVVKE4oOQBgjou9I8aK6/view\"><i><strong><u>video</u></strong></i></a><i> shared earlier)</i></li><li>During batch creation, the app displays&nbsp;<strong>“Error in Batch Creation” message</strong>, which is misleading. This confuses the customer even though the batch may still be processing successfully.</li></ul>&nbsp;<br><strong>2. Failed Labels Appearing as Processing in Multiple Batches</strong><br><br>&nbsp;<br><strong>Part of their Workflow</strong><br><ul dir=\"auto\"><li>Suppose: Out of 100 orders, 2 labels fail.</li><li>Customer retries those failed orders with another carrier.</li></ul>&nbsp;<br><strong>Issue:</strong><br><ul dir=\"auto\"><li>Those same orders continue to appear as “Processing” in the original failed batch as well.</li><li>At the same time, they also appear in the new retry batch.</li><li>The retried carrier name also gets updated in the Original batch, leading to confusion.</li></ul>There may also be printing-related inconsistencies connected to this behavior, as mentioned earlier by the Dev team.<br>&nbsp;<br><strong>3. Printing Mismatch / “Not in Ship” Case</strong><br><br>Observed today:<br><ul dir=\"auto\"><li>Order <a href=\"/agent/tickets/45279880\" target=\"_blank\" rel=\"ticket\">#45279880</a> was not part of the Label Print</li><li>Deepak reviewed and informed that the<strong> order was in “Not in Ship” status</strong></li><li>However, the<strong> label was generated &amp; Order was fulfille</strong>d in Shopify for this order. That tracking ID is still valid :&nbsp;<a rel=\"noopener noreferrer\" href=\"https://track.amazon.in/tracking/369348516162\"><u>https://track.amazon.in/tracking/369348516162</u></a>&nbsp;</li></ul>&nbsp;<br>This is the first time this particular case has been observed, and the root cause is currently unclear.<br>&nbsp;<br><strong>4. Setup the carriers based on priority</strong><br>&nbsp;<br><ul dir=\"auto\"><li>Create all Amazon labels</li><li>Switch Delhivery carrier to Amazon and try label creation, some may fail and some success.</li><li>Retry all failed labels with Amazon once again.</li><li>Remaining failed orders are then attempted with Delhivery.</li><li>If still failed, they retry with XpressBees.<br><br><br><br><br>[Veena]</li></ul></div>",
+      "plain_body": "EXISTING ISSUES THAT NEED CORRECTION\n━━━━━━━━━━━━━━━━━━━━━━━\n1. Batch Creation Issues for Large Volumes\n&nbsp;\n  When creating very large batches (example: 1000+ orders), batch creation takes a long time.  During this delay, the&nbsp;system does not redirect automatically to the Label Batch page.&nbsp;(For smaller batches, the redirect works correctly. This issue is also captured in the&nbsp;video shared earlier)  During batch creation, the app displays&nbsp;“Error in Batch Creation” message, which is misleading. This confuses the customer even though the batch may still be processing successfully.  &nbsp;\n2. Failed Labels Appearing as Processing in Multiple Batches\n\n&nbsp;\nPart of their Workflow\n  Suppose: Out of 100 orders, 2 labels fail.  Customer retries those failed orders with another carrier.  &nbsp;\nIssue:\n  Those same orders continue to appear as “Processing” in the original failed batch as well.  At the same time, they also appear in the new retry batch.  The retried carrier name also gets updated in the Original batch, leading to confusion.  There may also be printing-related inconsistencies connected to this behavior, as mentioned earlier by the Dev team.\n&nbsp;\n3. Printing Mismatch / “Not in Ship” Case\n\nObserved today:\n  Order #45279880 was not part of the Label Print  Deepak reviewed and informed that the order was in “Not in Ship” status  However, the label was generated &amp; Order was fulfilled in Shopify for this order. That tracking ID is still valid :&nbsp;https://track.amazon.in/tracking/369348516162&nbsp;  &nbsp;\nThis is the first time this particular case has been observed, and the root cause is currently unclear.\n&nbsp;\n4. Setup the carriers based on priority\n&nbsp;\n  Create all Amazon labels  Switch Delhivery carrier to Amazon and try label creation, some may fail and some success.  Retry all failed labels with Amazon once again.  Remaining failed orders are then attempted with Delhivery.  If still failed, they retry with XpressBees.\n\n\n\n\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58043847395737,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-18T09:22:18Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/createTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

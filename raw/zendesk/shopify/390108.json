@@ -1,0 +1,303 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/390108.json",
+    "id": 390108,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-05-15T11:44:05Z",
+    "updated_at": "2026-05-18T09:04:35Z",
+    "generated_timestamp": 1779095075,
+    "type": null,
+    "subject": "NZ Post – Roadmap Discussion",
+    "raw_subject": "NZ Post – Roadmap Discussion",
+    "description": "Hi Team,\n\n**NZ Post has shared multiple new integration capabilities that we should evaluate and plan to bring into our solution as part of our NZ Post roadmap.**\n\n1. **SOv2 Shipping API Endpoint:** NZ Post has introduced the latest SOv2 endpoint with support for:\n\n- _Consignment-level pricing_\n- _Domestic add-ons (e.g., Signature Required for approved senders)_\n- _Oversize shipment handling via Fliway_\n- _Express service support_\n\n\n_More information_ - https://anypoint.mulesoft.com/exchange/portals/nz-post-group/b8271f09-2ad8-4e1c-b6b1-322c5727d148/shippingoptions-api/minor/1.0/pages/bcp-l3l/Domestic/\n\n2. **Parcel Label API Enhancements**\n\n- _Shipping platform logo support on labels_\n- _Merchant 1D barcode support for returns_/inbound workflows\n\n\n3. **My NZ Post for Business (MyNZPB)**\n\nNZ Post has also developed a separate integration for MyNZPB accounts, which are targeted at smaller merchants who do not qualify for deferred-payment/credit accounts (typically under NZD 10K annual spend).\n\nSimilar to Australia Post MPB, this has strong potential for SMB merchants who currently may not have access to standard NZ Post credit accounts. Supporting MyNZPB in our solution can help onboard and support a larger SMB merchant base, improve adoption among smaller merchants, and also create additional revenue opportunities for us from the SMB segment.\n\nThese updates can help strengthen our NZ Post integration offering overall and improve feature parity with NZ Post’s latest capabilities.\n\n**Requesting the team to:**\n\n- _Review the new APIs/capabilities_\n- _Evaluate implementation feasibility and dependencies_\n- _Assess how these can be incorporated into our existing NZ Post integration_\n- _Share the proposed next steps, effort estimation, and ETA accordingly_\n\n\nNZ Post is also open to setting up a dedicated discussion for technical walkthroughs if required.\n\nThanks,\nAbhilash",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 903409790923,
+    "submitter_id": 8448825445657,
+    "assignee_id": null,
+    "organization_id": 360081186532,
+    "group_id": null,
+    "collaborator_ids": [
+      410186940351
+    ],
+    "follower_ids": [
+      410186940351
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": false,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "q4_dec_end",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": "q4_dec_end"
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "VE7V4X-VX1G5",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": "q4_dec_end"
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57954927772185,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Hi Team,\n\n**NZ Post has shared multiple new integration capabilities that we should evaluate and plan to bring into our solution as part of our NZ Post roadmap.**\n\n1. **SOv2 Shipping API Endpoint:** NZ Post has introduced the latest SOv2 endpoint with support for:\n\n- _Consignment-level pricing_\n- _Domestic add-ons (e.g., Signature Required for approved senders)_\n- _Oversize shipment handling via Fliway_\n- _Express service support_\n\n\n_More information_ - https://anypoint.mulesoft.com/exchange/portals/nz-post-group/b8271f09-2ad8-4e1c-b6b1-322c5727d148/shippingoptions-api/minor/1.0/pages/bcp-l3l/Domestic/\n\n2. **Parcel Label API Enhancements**\n\n- _Shipping platform logo support on labels_\n- _Merchant 1D barcode support for returns_/inbound workflows\n\n\n3. **My NZ Post for Business (MyNZPB)**\n\nNZ Post has also developed a separate integration for MyNZPB accounts, which are targeted at smaller merchants who do not qualify for deferred-payment/credit accounts (typically under NZD 10K annual spend).\n\nSimilar to Australia Post MPB, this has strong potential for SMB merchants who currently may not have access to standard NZ Post credit accounts. Supporting MyNZPB in our solution can help onboard and support a larger SMB merchant base, improve adoption among smaller merchants, and also create additional revenue opportunities for us from the SMB segment.\n\nThese updates can help strengthen our NZ Post integration offering overall and improve feature parity with NZ Post’s latest capabilities.\n\n**Requesting the team to:**\n\n- _Review the new APIs/capabilities_\n- _Evaluate implementation feasibility and dependencies_\n- _Assess how these can be incorporated into our existing NZ Post integration_\n- _Share the proposed next steps, effort estimation, and ETA accordingly_\n\n\nNZ Post is also open to setting up a dedicated discussion for technical walkthroughs if required.\n\nThanks,\nAbhilash",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br><strong>NZ Post has shared multiple new integration capabilities that we should evaluate and plan to bring into our solution as part of our NZ Post roadmap.</strong><br>&nbsp;<br><ol dir=\"auto\"><li><strong>SOv2 Shipping API Endpoint: </strong>NZ Post has introduced the latest SOv2 endpoint with support for:</li></ol><ul dir=\"auto\"><li><i>Consignment-level pricing</i></li><li><i>Domestic add-ons (e.g., Signature Required for approved senders)</i></li><li><i>Oversize shipment handling via Fliway</i></li><li><i>Express service support</i></li></ul>&nbsp;<br><i>More information </i>- <a rel=\"noopener noreferrer\" href=\"https://anypoint.mulesoft.com/exchange/portals/nz-post-group/b8271f09-2ad8-4e1c-b6b1-322c5727d148/shippingoptions-api/minor/1.0/pages/bcp-l3l/Domestic/\">https://anypoint.mulesoft.com/exchange/portals/nz-post-group/b8271f09-2ad8-4e1c-b6b1-322c5727d148/shippingoptions-api/minor/1.0/pages/bcp-l3l/Domestic/</a>&nbsp;<br><br>2. <strong>Parcel Label API Enhancements</strong><br><ul dir=\"auto\"><li><i>Shipping platform logo support on labels</i></li><li><i>Merchant 1D barcode support for returns</i>/inbound workflows<br>&nbsp;</li></ul>3. <strong>My NZ Post for Business (MyNZPB)</strong><br><br>NZ Post has also developed a separate integration for MyNZPB accounts, which are targeted at smaller merchants who do not qualify for deferred-payment/credit accounts (typically under NZD 10K annual spend).<br>&nbsp;<br>Similar to Australia Post MPB, this has strong potential for SMB merchants who currently may not have access to standard NZ Post credit accounts. Supporting MyNZPB in our solution can help onboard and support a larger SMB merchant base, improve adoption among smaller merchants, and also create additional revenue opportunities for us from the SMB segment.<br>&nbsp;<br>These updates can help strengthen our NZ Post integration offering overall and improve feature parity with NZ Post’s latest capabilities.<br>&nbsp;<br><strong>Requesting the team to:</strong><br><ul dir=\"auto\"><li><i>Review the new APIs/capabilities</i></li><li><i>Evaluate implementation feasibility and dependencies</i></li><li><i>Assess how these can be incorporated into our existing NZ Post integration</i></li><li><i>Share the proposed next steps, effort estimation, and ETA accordingly</i></li></ul>&nbsp;<br>NZ Post is also open to setting up a dedicated discussion for technical walkthroughs if required.<br>&nbsp;<br>Thanks,<br>Abhilash<br></div>",
+      "plain_body": "Hi Team,\n&nbsp;\nNZ Post has shared multiple new integration capabilities that we should evaluate and plan to bring into our solution as part of our NZ Post roadmap.\n&nbsp;\n  SOv2 Shipping API Endpoint: NZ Post has introduced the latest SOv2 endpoint with support for:    Consignment-level pricing  Domestic add-ons (e.g., Signature Required for approved senders)  Oversize shipment handling via Fliway  Express service support  &nbsp;\nMore information - https://anypoint.mulesoft.com/exchange/portals/nz-post-group/b8271f09-2ad8-4e1c-b6b1-322c5727d148/shippingoptions-api/minor/1.0/pages/bcp-l3l/Domestic/&nbsp;\n\n2. Parcel Label API Enhancements\n  Shipping platform logo support on labels  Merchant 1D barcode support for returns/inbound workflows\n&nbsp;  3. My NZ Post for Business (MyNZPB)\n\nNZ Post has also developed a separate integration for MyNZPB accounts, which are targeted at smaller merchants who do not qualify for deferred-payment/credit accounts (typically under NZD 10K annual spend).\n&nbsp;\nSimilar to Australia Post MPB, this has strong potential for SMB merchants who currently may not have access to standard NZ Post credit accounts. Supporting MyNZPB in our solution can help onboard and support a larger SMB merchant base, improve adoption among smaller merchants, and also create additional revenue opportunities for us from the SMB segment.\n&nbsp;\nThese updates can help strengthen our NZ Post integration offering overall and improve feature parity with NZ Post’s latest capabilities.\n&nbsp;\nRequesting the team to:\n  Review the new APIs/capabilities  Evaluate implementation feasibility and dependencies  Assess how these can be incorporated into our existing NZ Post integration  Share the proposed next steps, effort estimation, and ETA accordingly  &nbsp;\nNZ Post is also open to setting up a dedicated discussion for technical walkthroughs if required.\n&nbsp;\nThanks,\nAbhilash",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57954883908505.json",
+          "id": 57954883908505,
+          "file_name": "Product inform - Parcel Label API enhancements.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/jR70OgTRhuxvRyZ6N23uAwz9m/?name=Product+inform+-+Parcel+Label+API+enhancements.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/jR70OgTRhuxvRyZ6N23uAwz9m/?name=Product+inform+-+Parcel+Label+API+enhancements.pdf",
+          "content_type": "application/pdf",
+          "size": 1047144,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57954925686937.json",
+          "id": 57954925686937,
+          "file_name": "AP-Third Party Site Developer Integration Guide-210426-024342.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/PEA8oQZjhAPFZa4cIF34kqVdn/?name=AP-Third+Party+Site+Developer+Integration+Guide-210426-024342.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/PEA8oQZjhAPFZa4cIF34kqVdn/?name=AP-Third+Party+Site+Developer+Integration+Guide-210426-024342.pdf",
+          "content_type": "application/pdf",
+          "size": 345575,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 57954927772057,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T11:44:05Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/createTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57956528549273,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Moving to L3:\n\nNeed ETA from team after they have checked the details.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving to L3:<br>&nbsp;<br>Need ETA from team after they have checked the details.<br></div>",
+      "plain_body": "Moving to L3:\n&nbsp;\nNeed ETA from team after they have checked the details.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57956528549145,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T12:51:54Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

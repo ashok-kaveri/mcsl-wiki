@@ -1,0 +1,576 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/391078.json",
+    "id": 391078,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-05-20T02:14:34Z",
+    "updated_at": "2026-05-20T05:41:30Z",
+    "generated_timestamp": 1779255690,
+    "type": null,
+    "subject": "I'm unable to automatically calculate FedEx shippi...",
+    "raw_subject": "I'm unable to automatically calculate FedEx shippi...",
+    "description": "I'm unable to automatically calculate FedEx shipping costs to Hong Kong.\n\nI've tried it for several other countries without any problems.\n\nThe issue might be related to switching my FedEx account to the REST API recently.\n\nPlease investigate this issue immediately.\n\n------------------\n送信元: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 52257442120473,
+    "submitter_id": 52257442120473,
+    "assignee_id": 10478126723609,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "cybershaft.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+81298716408"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "LY51VW-WXX6J",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "cybershaft.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+81298716408"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58099076815897,
+      "type": "Comment",
+      "author_id": 52257442120473,
+      "body": "I'm unable to automatically calculate FedEx shipping costs to Hong Kong.\n\nI've tried it for several other countries without any problems.\n\nThe issue might be related to switching my FedEx account to the REST API recently.\n\nPlease investigate this issue immediately.\n\n------------------\n送信元: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">I'm unable to automatically calculate FedEx shipping costs to Hong Kong.</p>\n\n<p dir=\"auto\">I've tried it for several other countries without any problems.</p>\n\n<p dir=\"auto\">The issue might be related to switching my FedEx account to the REST API recently.</p>\n\n<p dir=\"auto\">Please investigate this issue immediately.</p>\n\n<p dir=\"auto\">------------------\n<br>送信元: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/status/allorders\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/status/allorders</a></p></div>",
+      "plain_body": "I'm unable to automatically calculate FedEx shipping costs to Hong Kong. \n\n I've tried it for several other countries without any problems. \n\n The issue might be related to switching my FedEx account to the REST API recently. \n\n Please investigate this issue immediately. \n\n ------------------\n\n送信元: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58099090819737.json",
+          "id": 58099090819737,
+          "file_name": "スクリーンショット 2026-05-20 111345.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/sy8dx7DCEb06dJbLpHtURzzKp/?name=%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88+2026-05-20+111345.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/sy8dx7DCEb06dJbLpHtURzzKp/?name=%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88+2026-05-20+111345.png",
+          "content_type": "image/png",
+          "size": 36740,
+          "width": 311,
+          "height": 291,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58099090846873.json",
+              "id": 58099090846873,
+              "file_name": "スクリーンショット_2026-05-20_111345_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/YIIhEFYgjn4ghXFImrNuguSJk/?name=%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2026-05-20_111345_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/YIIhEFYgjn4ghXFImrNuguSJk/?name=%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2026-05-20_111345_thumb.png",
+              "content_type": "image/png",
+              "size": 4377,
+              "width": 80,
+              "height": 75,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 58099076815769,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-05-20T02:14:34Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "ip_address": "118.8.199.150",
+          "location": "Moriya, 08, Japan",
+          "latitude": 35.9318,
+          "longitude": 139.9969
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 58100275464985,
+      "type": "Comment",
+      "author_id": 52257442120473,
+      "body": "Dear Sir,\n\n\n\nThe countries experiencing errors were Hong Kong, Taiwan, and China.\n\nThere may be other countries experiencing errors.\n\nPlease address this issue as soon as possible.\n\n\n\nBest regards,\n\nKenji Hasegawa\n\nCybershaft",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\"><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Dear Sir,</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">The countries experiencing errors were Hong Kong, Taiwan, and China.</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">There may be other countries experiencing errors.</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Please address this issue as soon as possible.</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Best regards,</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Kenji Hasegawa</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Cybershaft</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><div><div style=\"border-top-width: 1.0pt; border-top-color: #E1E1E1; padding: 3.0pt 0mm 0mm; border-style: solid none none;\"></div></div></div></div>",
+      "plain_body": "Dear Sir,  &nbsp;  The countries experiencing errors were Hong Kong, Taiwan, and China.  There may be other countries experiencing errors.  Please address this issue as soon as possible.  &nbsp;  Best regards,  Kenji Hasegawa  Cybershaft  &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58100259345177,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "cybershaft777@yahoo.co.jp",
+            "name": "kenji",
+            "original_recipients": [
+              "cybershaft777@yahoo.co.jp",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T02:47:25Z",
+      "metadata": {
+        "system": {
+          "message_id": "<039a01dce802$f7034ec0$e509ec40$@yahoo.co.jp>",
+          "client": "Microsoft Outlook 16.0",
+          "email_id": "01KS1MFPT453BNBR6D25RR3A8E",
+          "raw_email_identifier": "2369120/54151702-0b33-4747-bedf-fa54f2617c83.eml",
+          "json_email_identifier": "2369120/54151702-0b33-4747-bedf-fa54f2617c83.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58102293451289,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Japan store\n2 orders\nUsing for rates\nActive from Nov 2025 and $19 plan selected",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Japan store&nbsp;<br>2 orders<br>Using for rates<br>Active from Nov 2025 and $19 plan selected<br></div>",
+      "plain_body": "Japan store&nbsp;\n2 orders\nUsing for rates\nActive from Nov 2025 and $19 plan selected",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58102293451161,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T03:42:21Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58102840569881,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Kenji,\n\nWe are sorry for any inconvenience caused.\n\nFor Hong Kong and Taiwan address where the Postal Code is not available or not mandatory, currently the rates are not shown. I have forwarded the case to our team for further investigation.\n\nI added a product to the cart and checked rates for a Chinese address and the FedEx rates are shown at the checkout.\n\n ![](https://pluginhive.zendesk.com/attachments/token/YLJljOqSz7X9ujAjepiDpX7fy/?name=image.png)\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Kenji,<br>&nbsp;<br>We are sorry for any inconvenience caused.&nbsp;<br>&nbsp;<br>For Hong Kong and Taiwan address where the Postal Code is not available or not mandatory, currently the rates are not shown. I have forwarded the case to our team for further investigation.<br>&nbsp;<br>I added a product to the cart and checked rates for a Chinese address and the FedEx rates are shown at the checkout.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 655px;\" src=\"https://pluginhive.zendesk.com/attachments/token/YLJljOqSz7X9ujAjepiDpX7fy/?name=image.png\"></span><br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Kenji,\n&nbsp;\nWe are sorry for any inconvenience caused.&nbsp;\n&nbsp;\nFor Hong Kong and Taiwan address where the Postal Code is not available or not mandatory, currently the rates are not shown. I have forwarded the case to our team for further investigation.\n&nbsp;\nI added a product to the cart and checked rates for a Chinese address and the FedEx rates are shown at the checkout.\n&nbsp;\n\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58102840569753,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T04:00:05Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58103166513177,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "L3 - Rates failure for HK and Taiwan address from FedEx Rest\n\nAs the postal code is not available and not mandatory for the above mentioned countries, the rates were not provided by FedEx with the error message \"postalCode can not be null\"\n\nIn the request, we are not passing any node for postal code under recipient address. I have attached the Request Response for reference\n\nPlease check and let us know of the updates\n\nStore URL - cybershaft.myshopify.com\nApp - Shopify MCSL\nAccount ID - bc72311a-e3f8-4faf-af85-8649c5b4bd51",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3 - Rates failure for HK and Taiwan address from FedEx Rest<br>&nbsp;<br>As the postal code is not available and not mandatory for the above mentioned countries, the rates were not provided by FedEx with the error message \"postalCode can not be null\"<br>&nbsp;<br>In the request, we are not passing any node for postal code under recipient address. I have attached the Request Response for reference<br>&nbsp;<br>Please check and let us know of the updates<br>&nbsp;<br>Store URL - <a rel=\"noopener noreferrer\" href=\"http://cybershaft.myshopify.com\">cybershaft.myshopify.com</a>&nbsp;<br>App - Shopify MCSL<br>Account ID - bc72311a-e3f8-4faf-af85-8649c5b4bd51<br></div>",
+      "plain_body": "L3 - Rates failure for HK and Taiwan address from FedEx Rest\n&nbsp;\nAs the postal code is not available and not mandatory for the above mentioned countries, the rates were not provided by FedEx with the error message \"postalCode can not be null\"\n&nbsp;\nIn the request, we are not passing any node for postal code under recipient address. I have attached the Request Response for reference\n&nbsp;\nPlease check and let us know of the updates\n&nbsp;\nStore URL - cybershaft.myshopify.com&nbsp;\nApp - Shopify MCSL\nAccount ID - bc72311a-e3f8-4faf-af85-8649c5b4bd51",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58103165228313.json",
+          "id": 58103165228313,
+          "file_name": "RequestResponse (89).zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/N6YAy4dnAG3BlLwk4W4nEuWiA/?name=RequestResponse+%2889%29.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/N6YAy4dnAG3BlLwk4W4nEuWiA/?name=RequestResponse+%2889%29.zip",
+          "content_type": "application/zip",
+          "size": 4340,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58103166513049,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T04:06:42Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58103528170521,
+      "type": "Comment",
+      "author_id": 52257442120473,
+      "body": "Dear Sagar,\n\n\n\nThank you for your prompt investigation.\n\nAs you pointed out, for China and Taiwan, the shipping cost was automatically calculated based on the postal code entered.\n\nOrders from customers in Hong Kong are currently delayed, so we've decided to treat Hong Kong as a separate, independent area and handle shipments via both DHL and FedEx to avoid problems until they are resolved.\n\n\n\nWe await the results of the investigation and the measures taken in Hong Kong.\n\n\n\nBest regards,\n\nKenji Hasegawa",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\"><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Dear Sagar,</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Thank you for your prompt investigation.</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">As you pointed out, for China and Taiwan, the shipping cost was automatically calculated based on the postal code entered.</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Orders from customers in Hong Kong are currently delayed, so we've decided to treat Hong Kong as a separate, independent area and handle shipments via both DHL and FedEx to avoid problems until they are resolved.</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">We await the results of the investigation and the measures taken in Hong Kong.</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Best regards,</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">Kenji Hasegawa</span></p><p style=\"font-size: 12.0pt; margin: 0mm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><div><div style=\"border-top-width: 1.0pt; border-top-color: #E1E1E1; padding: 3.0pt 0mm 0mm; border-style: solid none none;\"></div></div></div></div>",
+      "plain_body": "Dear Sagar,  &nbsp;  Thank you for your prompt investigation.  As you pointed out, for China and Taiwan, the shipping cost was automatically calculated based on the postal code entered.  Orders from customers in Hong Kong are currently delayed, so we've decided to treat Hong Kong as a separate, independent area and handle shipments via both DHL and FedEx to avoid problems until they are resolved.  &nbsp;  We await the results of the investigation and the measures taken in Hong Kong.  &nbsp;  Best regards,  Kenji Hasegawa  &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58103528170393,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "cybershaft777@yahoo.co.jp",
+            "name": "kenji",
+            "original_recipients": [
+              "cybershaft777@yahoo.co.jp",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T04:16:28Z",
+      "metadata": {
+        "system": {
+          "message_id": "<03c901dce80f$673b5f50$35b21df0$@yahoo.co.jp>",
+          "client": "Microsoft Outlook 16.0",
+          "email_id": "01KS1SJQHC4FZRP69P155VCQZZ",
+          "raw_email_identifier": "2369120/2ecb90f4-3872-4fd4-b28b-ae9c1922911b.eml",
+          "json_email_identifier": "2369120/2ecb90f4-3872-4fd4-b28b-ae9c1922911b.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58103536030361,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Kenji,\n\nThank you for your response.\n\nWe will let you know of the updates.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Kenji,<br>&nbsp;<br>Thank you for your response.&nbsp;<br>&nbsp;<br>We will let you know of the updates.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Kenji,\n&nbsp;\nThank you for your response.&nbsp;\n&nbsp;\nWe will let you know of the updates.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58103536030233,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T04:17:40Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58103771068441,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We are aware about the case and fix is scheduled to be released by 1st week of June.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We are aware about the case and fix is scheduled to be released by 1st week of June.<br>[Veena]<br></div>",
+      "plain_body": "We are aware about the case and fix is scheduled to be released by 1st week of June.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58103771068313,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T04:24:16Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58106570120601,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Kenji,\n\nWe will be providing a resolution for the case and it would be available by 1st week of June.\n\nWill keep you posted on the updates.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Kenji,<br>&nbsp;<br>We will be providing a resolution for the case and it would be available by 1st week of June.&nbsp;<br>&nbsp;<br>Will keep you posted on the updates.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Kenji,\n&nbsp;\nWe will be providing a resolution for the case and it would be available by 1st week of June.&nbsp;\n&nbsp;\nWill keep you posted on the updates.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58106570120473,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T05:41:30Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}
