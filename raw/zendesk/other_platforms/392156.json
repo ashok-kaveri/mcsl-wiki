@@ -1,0 +1,770 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/392156.json",
+    "id": 392156,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "vladimir.zh@leyako.com",
+          "name": "Volodymyr Zhogov"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-05-26T11:33:38Z",
+    "updated_at": "2026-05-27T07:01:37Z",
+    "generated_timestamp": 1779865297,
+    "type": "question",
+    "subject": "please help",
+    "raw_subject": "please help",
+    "description": "Hi! The module has stopped working and won't print labels.\nPlease help me figure this out and fix the problem.\nI've never had this problem before.\n\nI don't understand why it's giving me these errors. The account is active.\n\n--\nBest Ragards\n*COO: Vladimir Zhogov*\n*LEYAKO OU*\n*VAT: EE102153363*\nEstonia, Tallinn\n*FOLLOW US:*\nwww.leyakoreya.ee ( http://www.leyakoreya.ee/ )\nFacebook ( https://www.facebook.com/leya.koreya )\nInstagram ( https://www.instagram.com/leyakoreya )\nTikTok ( https://www.tiktok.com/@leyakoreya )\n\nWe are glad to cooperate\nScreenshot_212.jpg\nScreenshot_209.jpg\nScreenshot_211.jpg\nScreenshot_210.jpg\nScreenshot_213.jpg",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 52244476591129,
+    "submitter_id": 52244476591129,
+    "assignee_id": 44512844768153,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "l3",
+      "last_reply_agent",
+      "other",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "https://leyakoreya.ee"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "9YR553-MVNYL",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "https://leyakoreya.ee"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58306457709977,
+      "type": "Comment",
+      "author_id": 52244476591129,
+      "body": "Hi! The module has stopped working and won't print labels.\nPlease help me figure this out and fix the problem.\nI've never had this problem before.\n\n\n\nI don't understand why it's giving me these errors. The account is active.\n\n\n\n--\nBest Ragards\n\n**COO: Vladimir Zhogov**\n**LEYAKO OU**\n\n**VAT: EE102153363**\n\nEstonia, Tallinn\n\n**FOLLOW US:**\nwww.leyakoreya.ee\n\nFacebook\nInstagram\nTikTok\n\nWe are glad to cooperate",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Hi! The module has stopped working and won't print labels.<br>Please help me figure this out and fix the problem.<br>I've never had this problem before.</div><div>&nbsp;</div><div>I don't understand why it's giving me these errors. The account is active.</div><div>&nbsp;</div><div><div><div>--<div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\">Best Ragards</div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><strong>COO: Vladimir Zhogov</strong><br><strong>LEYAKO OU</strong></div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><strong>VAT:&nbsp;EE102153363</strong></div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><div style=\"text-align: left;\" align=\"left\">Estonia, Tallinn</div><div style=\"text-align: left;\" align=\"left\"><strong>FOLLOW US:</strong><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"http://www.leyakoreya.ee/\" rel=\"noreferrer\">www.leyakoreya.ee</a>&nbsp;</div><div style=\"text-align: left;\" align=\"left\"><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.facebook.com/leya.koreya\" rel=\"noreferrer\">Facebook</a><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.instagram.com/leyakoreya\" rel=\"noreferrer\">Instagram</a><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.tiktok.com/@leyakoreya\" rel=\"noreferrer\">TikTok</a><br><br>We are glad to cooperate</div></div></div></div></div></div>",
+      "plain_body": "Hi! The module has stopped working and won't print labels.\nPlease help me figure this out and fix the problem.\nI've never had this problem before.  &nbsp;  I don't understand why it's giving me these errors. The account is active.  &nbsp;    -- Best Ragards  COO: Vladimir Zhogov\nLEYAKO OU  VAT:&nbsp;EE102153363   Estonia, Tallinn  FOLLOW US:\nwww.leyakoreya.ee&nbsp;  Facebook\nInstagram\nTikTok\n\nWe are glad to cooperate",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58306424471321.json",
+          "id": 58306424471321,
+          "file_name": "Screenshot_209.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/68DLI6OBOeWP0lbcHOjYoz9zA/?name=Screenshot_209.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/68DLI6OBOeWP0lbcHOjYoz9zA/?name=Screenshot_209.jpg",
+          "content_type": "image/jpeg",
+          "size": 207181,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58306441330457.json",
+              "id": 58306441330457,
+              "file_name": "Screenshot_209_thumb.jpg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/C7pCakrdmMEFsSC5h2pOQOvO4/?name=Screenshot_209_thumb.jpg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/C7pCakrdmMEFsSC5h2pOQOvO4/?name=Screenshot_209_thumb.jpg",
+              "content_type": "image/jpeg",
+              "size": 872,
+              "width": 80,
+              "height": 29,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58306457712793.json",
+          "id": 58306457712793,
+          "file_name": "Screenshot_212.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/m5EQF4chppA8bDrv87BMuMt0F/?name=Screenshot_212.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/m5EQF4chppA8bDrv87BMuMt0F/?name=Screenshot_212.jpg",
+          "content_type": "image/jpeg",
+          "size": 149301,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58306404988953.json",
+              "id": 58306404988953,
+              "file_name": "Screenshot_212_thumb.jpg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/z3K2LHg75AdxvN3Qx2LDrKHwh/?name=Screenshot_212_thumb.jpg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/z3K2LHg75AdxvN3Qx2LDrKHwh/?name=Screenshot_212_thumb.jpg",
+              "content_type": "image/jpeg",
+              "size": 801,
+              "width": 80,
+              "height": 29,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58306457748505.json",
+          "id": 58306457748505,
+          "file_name": "Screenshot_211.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/2KtnmQbhQItQLDMZlzVkUefax/?name=Screenshot_211.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/2KtnmQbhQItQLDMZlzVkUefax/?name=Screenshot_211.jpg",
+          "content_type": "image/jpeg",
+          "size": 162791,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58306457967129.json",
+              "id": 58306457967129,
+              "file_name": "Screenshot_211_thumb.jpg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/GfFEkgmnrKtvAOS5WtzhloMBq/?name=Screenshot_211_thumb.jpg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/GfFEkgmnrKtvAOS5WtzhloMBq/?name=Screenshot_211_thumb.jpg",
+              "content_type": "image/jpeg",
+              "size": 961,
+              "width": 80,
+              "height": 30,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58306457753497.json",
+          "id": 58306457753497,
+          "file_name": "Screenshot_210.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/CpyRG7sJHLyYZ25eMq7ie9j1e/?name=Screenshot_210.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/CpyRG7sJHLyYZ25eMq7ie9j1e/?name=Screenshot_210.jpg",
+          "content_type": "image/jpeg",
+          "size": 213625,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58306441332249.json",
+              "id": 58306441332249,
+              "file_name": "Screenshot_210_thumb.jpg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/N3J4Kr18TT7jdfve6coDgY7cU/?name=Screenshot_210_thumb.jpg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/N3J4Kr18TT7jdfve6coDgY7cU/?name=Screenshot_210_thumb.jpg",
+              "content_type": "image/jpeg",
+              "size": 1045,
+              "width": 80,
+              "height": 28,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58306424497817.json",
+          "id": 58306424497817,
+          "file_name": "Screenshot_213.jpg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/20xcmnRKHBE3uDsCFPhnOi8z6/?name=Screenshot_213.jpg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/20xcmnRKHBE3uDsCFPhnOi8z6/?name=Screenshot_213.jpg",
+          "content_type": "image/jpeg",
+          "size": 138097,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58306393944601.json",
+              "id": 58306393944601,
+              "file_name": "Screenshot_213_thumb.jpg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/sqIzn3iIjw3JMXqzwFMnta3xA/?name=Screenshot_213_thumb.jpg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/sqIzn3iIjw3JMXqzwFMnta3xA/?name=Screenshot_213_thumb.jpg",
+              "content_type": "image/jpeg",
+              "size": 851,
+              "width": 80,
+              "height": 28,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 58306457709849,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "vladimir.zh@leyako.com",
+            "name": "Volodymyr Zhogov",
+            "original_recipients": [
+              "vladimir.zh@leyako.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T11:33:38Z",
+      "metadata": {
+        "system": {
+          "message_id": "<1779795197.131380264@f178.i.mail.ru>",
+          "client": "Mail.Ru Mailer 1.0",
+          "email_id": "01KSJ0ZCWAVBFST6YQZGM08W7R",
+          "ip_address": "89.221.237.254",
+          "raw_email_identifier": "2369120/42b8df42-f2c0-4306-b7eb-e994ea375a91.eml",
+          "json_email_identifier": "2369120/42b8df42-f2c0-4306-b7eb-e994ea375a91.json",
+          "eml_redacted": false,
+          "location": "Russia",
+          "latitude": 55.7386,
+          "longitude": 37.6068
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58309232045721,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Estonia Store\n320 orders\nDHL and FedEx accounts connected'\nExplored app for both rates and labels\n$209 Yearly Starter plan",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Estonia Store<br>320 orders<br>DHL and FedEx accounts connected'<br>Explored app for both rates and labels<br>$209 Yearly Starter plan<br></div>",
+      "plain_body": "Estonia Store\n320 orders\nDHL and FedEx accounts connected'\nExplored app for both rates and labels\n$209 Yearly Starter plan",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58309232045593,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T13:10:11Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58311514219673,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Checking internally",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Checking internally<br></div>",
+      "plain_body": "Checking internally",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58311498707865,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T14:44:30Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58311930192921,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Vladimir,\n\nPlease allow me some time to check and update you.\n\nRegards,\nPriyanka\nTeam Pluginhive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Vladimir,<br>&nbsp;<br>Please allow me some time to check and update you.<br>&nbsp;<br>Regards,&nbsp;<br>Priyanka<br>Team Pluginhive<br></div>",
+      "plain_body": "Hi Vladimir,\n&nbsp;\nPlease allow me some time to check and update you.\n&nbsp;\nRegards,&nbsp;\nPriyanka\nTeam Pluginhive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58311930192793,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T15:04:39Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58315220724505,
+      "type": "Comment",
+      "author_id": 52244476591129,
+      "body": "How long its take and what a problem?\n\n\n\n\n--\nBest Ragards\n\n**COO: Vladimir Zhogov**\n**LEYAKO OU**\n\n**VAT: EE102153363**\n\nEstonia, Tallinn\n\n**FOLLOW US:**\nwww.leyakoreya.ee\n\nFacebook\nInstagram\nTikTok\n\nWe are glad to cooperate\n\n\n\n> Вторник, 26 мая 2026, 18:05 +03:00 от Priyanka Mukhia (PluginHive) <support@pluginhive.com>:\n>\n>\n>\n>\n> Your request (392156) has been updated. To add additional comments, reply to this email.\n>\n> ![](https://pluginhive.zendesk.com/system/photos/46180332470297/Screenshot_2025-04-25_at_11.54.16_AM.png)\n>\n> **Priyanka Mukhia** (PluginHive)\n>\n> May 26, 2026, 20:34 GMT+5:30\n>\n> Hi Vladimir,\n>\n> Please allow me some time to check and update you.\n>\n> Regards,\n> Priyanka\n> Team Pluginhive\n>\n>\n>\n>\n>\n> ![](https://pluginhive.zendesk.com/images/2016/default-avatar-80.png)\n>\n> **Volodymyr Zhogov**\n>\n> May 26, 2026, 17:03 GMT+5:30\n>\n> Hi! The module has stopped working and won't print labels.\n> Please help me figure this out and fix the problem.\n> I've never had this problem before.\n>\n>\n>\n> I don't understand why it's giving me these errors. The account is active.\n>\n>\n>\n> --\n> Best Ragards\n>\n> **COO: Vladimir Zhogov**\n> **LEYAKO OU**\n>\n> **VAT: EE102153363**\n>\n> Estonia, Tallinn\n>\n> **FOLLOW US:**\n> www.leyakoreya.ee\n>\n> Facebook\n> Instagram\n> TikTok\n>\n> We are glad to cooperate\n>\n>\n>\n> Attachment(s)\n> Screenshot_209.jpg\n> Screenshot_212.jpg\n> Screenshot_211.jpg\n> Screenshot_210.jpg\n> Screenshot_213.jpg\n>\n> ![PluginHive](https://www.pluginhive.com/wp-content/uploads/2019/09/pluginhive_logo.png)\n>\n> Our Support is available 24/5.\n>\n> Please expect a delay during weekends & holidays due to partial coverage.\n>\n> Documentation **|**\n>\n> Videos **|**\n>\n> WooCommerce Plugins **|**\n>\n> Shopify Apps **|**\n>\n> Magento Extensions\n>\n> ![ph-facebook](https://www.pluginhive.com/wp-content/uploads/2022/05/PH-facebook.png) ![ph-linkedin](https://www.pluginhive.com/wp-content/uploads/2022/05/PH-linkedin.png) ![ph-twitter](https://www.pluginhive.com/wp-content/uploads/2022/05/PH-twitter.png) ![ph-youtube](https://www.pluginhive.com/wp-content/uploads/2022/05/PH-youtube.png) ![ph-twitter](https://www.pluginhive.com/wp-content/uploads/2022/05/PH-instagram.png)\n>\n> [9YR553-MVNYL]",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>How long its take and what a problem?<br><br><br>&nbsp;<div><div><div>--<div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\">Best Ragards</div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><strong>COO: Vladimir Zhogov</strong><br><strong>LEYAKO OU</strong></div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><strong>VAT:&nbsp;EE102153363</strong></div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><div style=\"text-align: left;\" align=\"left\">Estonia, Tallinn</div><div style=\"text-align: left;\" align=\"left\"><strong>FOLLOW US:</strong><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"http://www.leyakoreya.ee/\" rel=\"noreferrer\">www.leyakoreya.ee</a>&nbsp;</div><div style=\"text-align: left;\" align=\"left\"><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.facebook.com/leya.koreya\" rel=\"noreferrer\">Facebook</a><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.instagram.com/leyakoreya\" rel=\"noreferrer\">Instagram</a><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.tiktok.com/@leyakoreya\" rel=\"noreferrer\">TikTok</a><br><br>We are glad to cooperate</div></div></div></div></div><br><div><blockquote style=\"border-left-width: 1px; border-left-color: #0857A6; border-left-style: solid; margin: 10px; padding: 0 0 0 10px;\"><span>Вторник, 26 мая 2026, 18:05 +03:00 от Priyanka Mukhia (PluginHive) &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;:</span><br>&nbsp;<div><div><div><div><div><div><div style=\"color: #444444; font-size: 12px; line-height: 18px; padding: 10px;\"><div style=\"color: #b5b5b5;\">&nbsp;</div><p dir=\"auto\">Your request (392156) has been updated. To add additional comments, reply to this email.</p><div style=\"margin-top: 25px;\"><table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tbody><tr><td width=\"100%\" style=\"border-top-width: 1px; border-top-color: #c5c5c5; border-top-style: dotted; padding: 15px 0;\"><table width=\"100%\" style=\"table-layout: fixed;\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tbody><tr><td valign=\"top\" style=\"width: 40px; padding: 0 15px;\"><img width=\"40\" style=\"height: auto; line-height: 100%; outline: none; text-decoration: none; border-radius: 5px;\" src=\"https://pluginhive.zendesk.com/system/photos/46180332470297/Screenshot_2025-04-25_at_11.54.16_AM.png\" height=\"40\" alt=\"\"></td><td width=\"100%\" valign=\"top\" style=\"margin: 0; padding: 0;\"><p style=\"color: #1b1d1e; font-size: 15px; line-height: 18px; margin-bottom: 0; margin-top: 0; padding: 0;\" dir=\"auto\"><strong>Priyanka Mukhia</strong> (PluginHive)</p><p style=\"color: #bbbbbb; font-size: 13px; line-height: 25px; margin-bottom: 15px; margin-top: 0; padding: 0;\" dir=\"auto\">May 26, 2026, 20:34 GMT+5:30</p><div style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Hi Vladimir,<br>&nbsp;<br>Please allow me some time to check and update you.<br>&nbsp;<br>Regards,&nbsp;<br>Priyanka<br>Team Pluginhive</div><p dir=\"auto\">&nbsp;</p></td></tr></tbody></table></td></tr></tbody></table><p dir=\"auto\">&nbsp;</p><table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tbody><tr><td width=\"100%\" style=\"border-top-width: 1px; border-top-color: #c5c5c5; border-top-style: dotted; padding: 15px 0;\"><table width=\"100%\" style=\"table-layout: fixed;\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tbody><tr><td valign=\"top\" style=\"width: 40px; padding: 0 15px;\"><img width=\"40\" style=\"height: auto; line-height: 100%; outline: none; text-decoration: none; border-radius: 5px;\" src=\"https://pluginhive.zendesk.com/images/2016/default-avatar-80.png\" height=\"40\" alt=\"\"></td><td width=\"100%\" valign=\"top\" style=\"margin: 0; padding: 0;\"><p style=\"color: #1b1d1e; font-size: 15px; line-height: 18px; margin-bottom: 0; margin-top: 0; padding: 0;\" dir=\"auto\"><strong>Volodymyr Zhogov</strong></p><p style=\"color: #bbbbbb; font-size: 13px; line-height: 25px; margin-bottom: 15px; margin-top: 0; padding: 0;\" dir=\"auto\">May 26, 2026, 17:03 GMT+5:30</p><div><div>Hi! The module has stopped working and won't print labels.<br>Please help me figure this out and fix the problem.<br>I've never had this problem before.</div><div>&nbsp;</div><div>I don't understand why it's giving me these errors. The account is active.</div><div>&nbsp;</div><div><div><div>--<div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\">Best Ragards</div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><strong>COO: Vladimir Zhogov</strong><br><strong>LEYAKO OU</strong></div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><strong>VAT:&nbsp;EE102153363</strong></div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><div style=\"text-align: left;\" align=\"left\">Estonia, Tallinn</div><div style=\"text-align: left;\" align=\"left\"><strong>FOLLOW US:</strong><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"http://www.leyakoreya.ee/\" rel=\"noreferrer\">www.leyakoreya.ee</a>&nbsp;</div><div style=\"text-align: left;\" align=\"left\"><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.facebook.com/leya.koreya\" rel=\"noreferrer\">Facebook</a><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.instagram.com/leyakoreya\" rel=\"noreferrer\">Instagram</a><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.tiktok.com/@leyakoreya\" rel=\"noreferrer\">TikTok</a><br><br>We are glad to cooperate</div></div></div></div></div></div><p dir=\"auto\">&nbsp;</p><p style=\"color: #333333; font-size: 14px; line-height: 22px; margin-bottom: 15px; margin-top: 15px;\" dir=\"auto\">Attachment(s)<br><a href=\"https://support.pluginhive.com/attachments/token/68DLI6OBOeWP0lbcHOjYoz9zA/?name=Screenshot_209.jpg\" rel=\"noreferrer\">Screenshot_209.jpg</a><br><a href=\"https://support.pluginhive.com/attachments/token/m5EQF4chppA8bDrv87BMuMt0F/?name=Screenshot_212.jpg\" rel=\"noreferrer\">Screenshot_212.jpg</a><br><a href=\"https://support.pluginhive.com/attachments/token/2KtnmQbhQItQLDMZlzVkUefax/?name=Screenshot_211.jpg\" rel=\"noreferrer\">Screenshot_211.jpg</a><br><a href=\"https://support.pluginhive.com/attachments/token/CpyRG7sJHLyYZ25eMq7ie9j1e/?name=Screenshot_210.jpg\" rel=\"noreferrer\">Screenshot_210.jpg</a><br><a href=\"https://support.pluginhive.com/attachments/token/20xcmnRKHBE3uDsCFPhnOi8z6/?name=Screenshot_213.jpg\" rel=\"noreferrer\">Screenshot_213.jpg</a></p></td></tr></tbody></table></td></tr></tbody></table></div></div><div><div><a href=\"https://www.pluginhive.com/\" rel=\"noreferrer\"><img width=\"200\" src=\"https://www.pluginhive.com/wp-content/uploads/2019/09/pluginhive_logo.png\" border=\"0\" alt=\"PluginHive\"> </a></div><p dir=\"auto\">Our Support is available 24/5.</p><p style=\"font-size: 13px;\" dir=\"auto\">Please expect a delay during weekends &amp; holidays due to partial coverage.</p><div style=\"display: block;\"><div style=\"float: left;\"><a href=\"https://www.pluginhive.com/knowledge-base/\" rel=\"noreferrer\">Documentation</a> <b>|</b>&nbsp;</div><div style=\"float: left;\"><a href=\"https://www.youtube.com/channel/UC4J2IaD8yuWPI4r8qc7-3LQ/videos\" rel=\"noreferrer\">Videos</a> <b>|</b>&nbsp;</div><div style=\"float: left;\"><a href=\"https://www.pluginhive.com/product-category/woocommerce-plugin/\" rel=\"noreferrer\">WooCommerce Plugins</a> <b>|</b>&nbsp;</div><div style=\"float: left;\"><a href=\"https://www.pluginhive.com/product-category/shopify-apps/\" rel=\"noreferrer\">Shopify Apps</a> <b>|</b>&nbsp;</div><div style=\"float: left;\"><a href=\"https://www.pluginhive.com/product-category/magento-extensions/\" rel=\"noreferrer\">Magento Extensions</a></div></div><div style=\"clear: both; display: block; padding-top: 10px;\"><a style=\"text-decoration: none; padding: 0 5px;\" href=\"https://www.facebook.com/pluginhive\" rel=\"noreferrer\"><img width=\"30\" src=\"https://www.pluginhive.com/wp-content/uploads/2022/05/PH-facebook.png\" height=\"30\" border=\"0\" alt=\"ph-facebook\"> </a> <a style=\"text-decoration: none; padding: 0 5px;\" href=\"https://in.linkedin.com/company/pluginhive\" rel=\"noreferrer\"> <img width=\"30\" src=\"https://www.pluginhive.com/wp-content/uploads/2022/05/PH-linkedin.png\" height=\"30\" border=\"0\" alt=\"ph-linkedin\"> </a> <a style=\"text-decoration: none; padding: 0 5px;\" href=\"https://twitter.com/PluginHive\" rel=\"noreferrer\"> <img width=\"30\" src=\"https://www.pluginhive.com/wp-content/uploads/2022/05/PH-twitter.png\" height=\"30\" border=\"0\" alt=\"ph-twitter\"> </a> <a style=\"text-decoration: none; padding: 0 5px;\" href=\"https://www.youtube.com/channel/UC4J2IaD8yuWPI4r8qc7-3LQ\" rel=\"noreferrer\"> <img width=\"30\" src=\"https://www.pluginhive.com/wp-content/uploads/2022/05/PH-youtube.png\" height=\"30\" border=\"0\" alt=\"ph-youtube\"> </a> <a style=\"text-decoration: none; padding: 0 5px;\" href=\"https://www.instagram.com/pluginhive_/\" rel=\"noreferrer\"> <img width=\"30\" src=\"https://www.pluginhive.com/wp-content/uploads/2022/05/PH-instagram.png\" height=\"30\" border=\"0\" alt=\"ph-twitter\"> </a></div></div><span style=\"color: #FFFFFF;\">[9YR553-MVNYL]</span></div></div></div></div></div></div></blockquote></div></div></div>",
+      "plain_body": "How long its take and what a problem?\n\n\n&nbsp;   -- Best Ragards  COO: Vladimir Zhogov\nLEYAKO OU  VAT:&nbsp;EE102153363   Estonia, Tallinn  FOLLOW US:\nwww.leyakoreya.ee&nbsp;  Facebook\nInstagram\nTikTok\n\nWe are glad to cooperate     \n  Вторник, 26 мая 2026, 18:05 +03:00 от Priyanka Mukhia (PluginHive) &lt;support@pluginhive.com&gt;:\n&nbsp;        &nbsp;  Your request (392156) has been updated. To add additional comments, reply to this email.   Priyanka Mukhia (PluginHive)  May 26, 2026, 20:34 GMT+5:30  Hi Vladimir,\n&nbsp;\nPlease allow me some time to check and update you.\n&nbsp;\nRegards,&nbsp;\nPriyanka\nTeam Pluginhive  &nbsp;  &nbsp;  Volodymyr Zhogov  May 26, 2026, 17:03 GMT+5:30   Hi! The module has stopped working and won't print labels.\nPlease help me figure this out and fix the problem.\nI've never had this problem before.  &nbsp;  I don't understand why it's giving me these errors. The account is active.  &nbsp;    -- Best Ragards  COO: Vladimir Zhogov\nLEYAKO OU  VAT:&nbsp;EE102153363   Estonia, Tallinn  FOLLOW US:\nwww.leyakoreya.ee&nbsp;  Facebook\nInstagram\nTikTok\n\nWe are glad to cooperate       &nbsp;  Attachment(s)\nScreenshot_209.jpg\nScreenshot_212.jpg\nScreenshot_211.jpg\nScreenshot_210.jpg\nScreenshot_213.jpg        Our Support is available 24/5.  Please expect a delay during weekends &amp; holidays due to partial coverage.   Documentation |&nbsp;  Videos |&nbsp;  WooCommerce Plugins |&nbsp;  Shopify Apps |&nbsp;  Magento Extensions                  [9YR553-MVNYL]",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58315220724377,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "vladimir.zh@leyako.com",
+            "name": "Volodymyr Zhogov",
+            "original_recipients": [
+              "vladimir.zh@leyako.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T18:04:09Z",
+      "metadata": {
+        "system": {
+          "message_id": "<1779818614.241483858@f733.i.mail.ru>",
+          "client": "Mail.Ru Mailer 1.0",
+          "email_id": "01KSJQAJE0J0S3JYV0TE1HH6Y4",
+          "ip_address": "95.163.59.21",
+          "raw_email_identifier": "2369120/537b2859-d8a6-4eac-b252-640d069d1832.eml",
+          "json_email_identifier": "2369120/537b2859-d8a6-4eac-b252-640d069d1832.json",
+          "eml_redacted": false,
+          "location": "Russia",
+          "latitude": 55.7386,
+          "longitude": 37.6068
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58318837411481,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Vladimir,\n\nWe apologize for the wait — we understand this is blocking your shipments, and we want to resolve it as quickly as possible.\n\nTo proceed, could you please confirm if this error is returned for only one shipment or is it frequently happening?\n\nThanks and regards,\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Vladimir,<br>&nbsp;<br>We apologize for the wait — we understand this is blocking your shipments, and we want to resolve it as quickly as possible.<br>&nbsp;<br>To proceed, could you please confirm if this error is returned for only one shipment or is it frequently happening?<br>&nbsp;<br>Thanks and regards,<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Vladimir,\n&nbsp;\nWe apologize for the wait — we understand this is blocking your shipments, and we want to resolve it as quickly as possible.\n&nbsp;\nTo proceed, could you please confirm if this error is returned for only one shipment or is it frequently happening?\n&nbsp;\nThanks and regards,\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58318837411353,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T22:10:41Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58331812918425,
+      "type": "Comment",
+      "author_id": 52244476591129,
+      "body": "This problem occurs with other orders too.\n\n--\n Отправлено из Mail для Android\n\nсреда, 27 мая 2026г., 01:11 +03:00 от Sibi (PluginHive) support@pluginhive.com:\n\n\n> Your request (392156) has been updated. To add additional comments, reply to this email.\n>\n>\n>\n> ![](http://img.imgsmail.ru/mail/ru/images/dumb.gif)\n>\n> **Sibi** (PluginHive)\n>\n>\n>\n> May 27, 2026, 03:40 GMT+5:30\n>\n>\n> Hello Vladimir,\n>\n> We apologize for the wait — we understand this is blocking your shipments, and we want to resolve it as quickly as possible.\n>\n> To proceed, could you please confirm if this error is returned for only one shipment or is it frequently happening?\n>\n> Thanks and regards,\n> Sibi\n> Team PluginHive\n>\n>\n>\n> ![](http://img.imgsmail.ru/mail/ru/images/dumb.gif)\n>\n> **Volodymyr Zhogov**\n>\n>\n>\n> May 26, 2026, 23:34 GMT+5:30\n>\n>\n>\n> How long its take and what a problem?\n>\n>\n>\n>\n> --\n> Best Ragards\n>\n> **COO: Vladimir Zhogov**\n> **LEYAKO OU**\n>\n> **VAT: EE102153363**\n>\n> Estonia, Tallinn\n>\n> **FOLLOW US:**\n> www.leyakoreya.ee\n>\n> Facebook\n> Instagram\n> TikTok\n>\n> We are glad to cooperate\n>\n>\n>\n> > Вторник, 26 мая 2026, 18:05 +03:00 от Priyanka Mukhia (PluginHive) <support@pluginhive.com>:\n> >\n> >\n> >\n> >\n> > Your request (392156) has been updated. To add additional comments, reply to this email.\n> >\n> > ![](http://img.imgsmail.ru/mail/ru/images/dumb.gif)\n> >\n> > **Priyanka Mukhia** (PluginHive)\n> >\n> > May 26, 2026, 20:34 GMT+5:30\n> >\n> > Hi Vladimir,\n> >\n> > Please allow me some time to check and update you.\n> >\n> > Regards,\n> > Priyanka\n> > Team Pluginhive\n> >\n> >\n> >\n> >\n> >\n> > ![](http://img.imgsmail.ru/mail/ru/images/dumb.gif)\n> >\n> > **Volodymyr Zhogov**\n> >\n> > May 26, 2026, 17:03 GMT+5:30\n> >\n> > Hi! The module has stopped working and won't print labels.\n> > Please help me figure this out and fix the problem.\n> > I've never had this problem before.\n> >\n> >\n> >\n> > I don't understand why it's giving me these errors. The account is active.\n> >\n> >\n> >\n> > --\n> > Best Ragards\n> >\n> > **COO: Vladimir Zhogov**\n> > **LEYAKO OU**\n> >\n> > **VAT: EE102153363**\n> >\n> > Estonia, Tallinn\n> >\n> > **FOLLOW US:**\n> > www.leyakoreya.ee\n> >\n> > Facebook\n> > Instagram\n> > TikTok\n> >\n> > We are glad to cooperate\n> >\n> >\n> >\n> > Attachment(s)\n> > Screenshot_209.jpg\n> > Screenshot_212.jpg\n> > Screenshot_211.jpg\n> > Screenshot_210.jpg\n> > Screenshot_213.jpg\n> >\n> > ![PluginHive](http://img.imgsmail.ru/mail/ru/images/dumb.gif)\n> >\n> > Our Support is available 24/5.\n> >\n> > Please expect a delay during weekends & holidays due to partial coverage.\n> >\n> > Documentation **|**\n> >\n> > Videos **|**\n> >\n> > WooCommerce Plugins **|**\n> >\n> > Shopify Apps **|**\n> >\n> > Magento Extensions\n> >\n> > ![ph-facebook](http://img.imgsmail.ru/mail/ru/images/dumb.gif) ![ph-linkedin](http://img.imgsmail.ru/mail/ru/images/dumb.gif) ![ph-twitter](http://img.imgsmail.ru/mail/ru/images/dumb.gif) ![ph-youtube](http://img.imgsmail.ru/mail/ru/images/dumb.gif) ![ph-twitter](http://img.imgsmail.ru/mail/ru/images/dumb.gif)\n> >\n> > [9YR553-MVNYL]\n>\n>\n>\n> ![](http://img.imgsmail.ru/mail/ru/images/dumb.gif)\n>\n> **Priyanka Mukhia** (PluginHive)\n>\n>\n>\n> May 26, 2026, 20:34 GMT+5:30\n>\n>\n> Hi Vladimir,\n>\n> Please allow me some time to check and update you.\n>\n> Regards,\n> Priyanka\n> Team Pluginhive\n>\n>\n>\n> ![](http://img.imgsmail.ru/mail/ru/images/dumb.gif)\n>\n> **Volodymyr Zhogov**\n>\n>\n>\n> May 26, 2026, 17:03 GMT+5:30\n>\n>\n>\n> Hi! The module has stopped working and won't print labels.\n> Please help me figure this out and fix the problem.\n> I've never had this problem before.\n>\n>\n>\n> I don't understand why it's giving me these errors. The account is active.\n>\n>\n>\n> --\n> Best Ragards\n>\n> **COO: Vladimir Zhogov**\n> **LEYAKO OU**\n>\n> **VAT: EE102153363**\n>\n> Estonia, Tallinn\n>\n> **FOLLOW US:**\n> www.leyakoreya.ee\n>\n> Facebook\n> Instagram\n> TikTok\n>\n> We are glad to cooperate\n>\n> Attachment(s)\n> Screenshot_209.jpg\n> Screenshot_212.jpg\n> Screenshot_211.jpg\n> Screenshot_210.jpg\n> Screenshot_213.jpg\n>\n> ![PluginHive](http://img.imgsmail.ru/mail/ru/images/dumb.gif)\n>\n> Our Support is available 24/5.\n>\n> Please expect a delay during weekends & holidays due to partial coverage.\n>\n> Documentation**|**\n>\n> Videos**|**\n>\n> WooCommerce Plugins**|**\n>\n> Shopify Apps**|**\n>\n> Magento Extensions\n>\n> ![ph-facebook](http://img.imgsmail.ru/mail/ru/images/dumb.gif) ![ph-linkedin](http://img.imgsmail.ru/mail/ru/images/dumb.gif) ![ph-twitter](http://img.imgsmail.ru/mail/ru/images/dumb.gif) ![ph-youtube](http://img.imgsmail.ru/mail/ru/images/dumb.gif) ![ph-twitter](http://img.imgsmail.ru/mail/ru/images/dumb.gif)\n>\n> [9YR553-MVNYL]",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p style=\"margin-top: 0px;\" dir=\"auto\">This problem occurs with other orders too.</p>\n<div>\n <p dir=\"auto\">--<br>\n Отправлено из <a href=\"https://mail.ru/\" rel=\"noreferrer\">Mail</a> для Android</p>\n</div>среда, 27 мая 2026г., 01:11 +03:00 от Sibi (PluginHive) <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>:<br><br><blockquote style=\"border-left-width: 1px; border-left-color: #0077FF; border-left-style: solid; margin: 0px 0px 0px 10px; padding: 0px 0px 0px 10px;\"><div><div>\n \n \n \n <div>\n <div>\n \n \n\n<div style=\"line-height: 18px; padding: 10px;\">\n <div style=\"color: #b5b5b5;\"></div>\n <p dir=\"auto\">Your request (392156) has been updated. To add additional comments, reply to this email.<br></p><div style=\"margin-top: 25px;\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"> <tbody><tr> <td width=\"100%\" style=\"border-top-width: 1px; border-top-color: #c5c5c5; border-top-style: dotted; border-collapse: collapse; padding: 15px 0;\"> <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"table-layout: fixed;\"> <tbody><tr> <td valign=\"top\" style=\"width: 40px; border-collapse: collapse; padding: 0 15px;\"> <img width=\"40\" height=\"40\" alt=\"\" style=\"height: auto; line-height: 100%; outline: none; text-decoration: none; border-radius: 5px;\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\"> </td> <td width=\"100%\" style=\"border-collapse: collapse; margin: 0; padding: 0;\" valign=\"top\"> <p dir=\"auto\"> <strong>Sibi</strong> (PluginHive) </p> <p dir=\"auto\"> May 27, 2026, 03:40 GMT+5:30 </p> <div dir=\"auto\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Hello Vladimir,<br>&nbsp;<br>We apologize for the wait — we understand this is blocking your shipments, and we want to resolve it as quickly as possible.<br>&nbsp;<br>To proceed, could you please confirm if this error is returned for only one shipment or is it frequently happening?<br>&nbsp;<br>Thanks and regards,<br>Sibi<br>Team PluginHive<br></div><p dir=\"auto\"> </p></td> </tr> </tbody></table> </td> </tr></tbody></table><p dir=\"auto\"></p><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"> <tbody><tr> <td width=\"100%\" style=\"border-top-width: 1px; border-top-color: #c5c5c5; border-top-style: dotted; border-collapse: collapse; padding: 15px 0;\"> <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"table-layout: fixed;\"> <tbody><tr> <td valign=\"top\" style=\"width: 40px; border-collapse: collapse; padding: 0 15px;\"> <img width=\"40\" height=\"40\" alt=\"\" style=\"height: auto; line-height: 100%; outline: none; text-decoration: none; border-radius: 5px;\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\"> </td> <td width=\"100%\" style=\"border-collapse: collapse; margin: 0; padding: 0;\" valign=\"top\"> <p dir=\"auto\"> <strong>Volodymyr Zhogov</strong> </p> <p dir=\"auto\"> May 26, 2026, 23:34 GMT+5:30 </p> <div dir=\"auto\"><div>How long its take and what a problem?<br><br><br>&nbsp;<div><div><div>--<div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\">Best Ragards</div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><strong>COO: Vladimir Zhogov</strong><br><strong>LEYAKO OU</strong></div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><strong>VAT:&nbsp;EE102153363</strong></div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><div style=\"text-align: left;\" align=\"left\">Estonia, Tallinn</div><div style=\"text-align: left;\" align=\"left\"><strong>FOLLOW US:</strong><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"http://www.leyakoreya.ee/\" rel=\"noreferrer\">www.leyakoreya.ee</a>&nbsp;</div><div style=\"text-align: left;\" align=\"left\"><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.facebook.com/leya.koreya\" rel=\"noreferrer\">Facebook</a><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.instagram.com/leyakoreya\" rel=\"noreferrer\">Instagram</a><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.tiktok.com/@leyakoreya\" rel=\"noreferrer\">TikTok</a><br><br>We are glad to cooperate</div></div></div></div></div><br><div><blockquote style=\"border-left-width: 1px; border-left-color: #0857A6; border-left-style: solid; margin: 10px; padding: 0 0 0 10px;\"><span>Вторник, 26 мая 2026, 18:05 +03:00 от Priyanka Mukhia (PluginHive) &lt;<a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>&gt;:</span><br>&nbsp;<div><div><div><div><div><div><div style=\"color: #444444; font-size: 12px; line-height: 18px; padding: 10px;\"><div style=\"color: #b5b5b5;\">&nbsp;</div><p dir=\"auto\">Your request (392156) has been updated. To add additional comments, reply to this email.</p><div style=\"margin-top: 25px;\"><table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tbody><tr><td width=\"100%\" style=\"border-top-width: 1px; border-top-color: #c5c5c5; border-top-style: dotted; border-collapse: collapse; padding: 15px 0;\"><table width=\"100%\" style=\"table-layout: fixed;\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tbody><tr><td valign=\"top\" style=\"width: 40px; border-collapse: collapse; padding: 0 15px;\"><img width=\"40\" style=\"height: auto; line-height: 100%; outline: none; text-decoration: none; border-radius: 5px;\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" height=\"40\" alt=\"\"></td><td width=\"100%\" valign=\"top\" style=\"border-collapse: collapse; margin: 0; padding: 0;\"><p style=\"color: #1b1d1e; font-size: 15px; line-height: 18px; margin-bottom: 0; margin-top: 0; padding: 0;\" dir=\"auto\"><strong>Priyanka Mukhia</strong> (PluginHive)</p><p style=\"color: #bbbbbb; font-size: 13px; line-height: 25px; margin-bottom: 15px; margin-top: 0; padding: 0;\" dir=\"auto\">May 26, 2026, 20:34 GMT+5:30</p><div style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Hi Vladimir,<br>&nbsp;<br>Please allow me some time to check and update you.<br>&nbsp;<br>Regards,&nbsp;<br>Priyanka<br>Team Pluginhive</div><p dir=\"auto\">&nbsp;</p></td></tr></tbody></table></td></tr></tbody></table><p dir=\"auto\">&nbsp;</p><table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tbody><tr><td width=\"100%\" style=\"border-top-width: 1px; border-top-color: #c5c5c5; border-top-style: dotted; border-collapse: collapse; padding: 15px 0;\"><table width=\"100%\" style=\"table-layout: fixed;\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tbody><tr><td valign=\"top\" style=\"width: 40px; border-collapse: collapse; padding: 0 15px;\"><img width=\"40\" style=\"height: auto; line-height: 100%; outline: none; text-decoration: none; border-radius: 5px;\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" height=\"40\" alt=\"\"></td><td width=\"100%\" valign=\"top\" style=\"border-collapse: collapse; margin: 0; padding: 0;\"><p style=\"color: #1b1d1e; font-size: 15px; line-height: 18px; margin-bottom: 0; margin-top: 0; padding: 0;\" dir=\"auto\"><strong>Volodymyr Zhogov</strong></p><p style=\"color: #bbbbbb; font-size: 13px; line-height: 25px; margin-bottom: 15px; margin-top: 0; padding: 0;\" dir=\"auto\">May 26, 2026, 17:03 GMT+5:30</p><div><div>Hi! The module has stopped working and won't print labels.<br>Please help me figure this out and fix the problem.<br>I've never had this problem before.</div><div>&nbsp;</div><div>I don't understand why it's giving me these errors. The account is active.</div><div>&nbsp;</div><div><div><div>--<div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\">Best Ragards</div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><strong>COO: Vladimir Zhogov</strong><br><strong>LEYAKO OU</strong></div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><strong>VAT:&nbsp;EE102153363</strong></div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><div style=\"text-align: left;\" align=\"left\">Estonia, Tallinn</div><div style=\"text-align: left;\" align=\"left\"><strong>FOLLOW US:</strong><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"http://www.leyakoreya.ee/\" rel=\"noreferrer\">www.leyakoreya.ee</a>&nbsp;</div><div style=\"text-align: left;\" align=\"left\"><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.facebook.com/leya.koreya\" rel=\"noreferrer\">Facebook</a><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.instagram.com/leyakoreya\" rel=\"noreferrer\">Instagram</a><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.tiktok.com/@leyakoreya\" rel=\"noreferrer\">TikTok</a><br><br>We are glad to cooperate</div></div></div></div></div></div><p dir=\"auto\">&nbsp;</p><p style=\"color: #333333; font-size: 14px; line-height: 22px; margin-bottom: 15px; margin-top: 15px;\" dir=\"auto\">Attachment(s)<br><a href=\"https://support.pluginhive.com/attachments/token/68DLI6OBOeWP0lbcHOjYoz9zA/?name=Screenshot_209.jpg\" rel=\"noreferrer\">Screenshot_209.jpg</a><br><a href=\"https://support.pluginhive.com/attachments/token/m5EQF4chppA8bDrv87BMuMt0F/?name=Screenshot_212.jpg\" rel=\"noreferrer\">Screenshot_212.jpg</a><br><a href=\"https://support.pluginhive.com/attachments/token/2KtnmQbhQItQLDMZlzVkUefax/?name=Screenshot_211.jpg\" rel=\"noreferrer\">Screenshot_211.jpg</a><br><a href=\"https://support.pluginhive.com/attachments/token/CpyRG7sJHLyYZ25eMq7ie9j1e/?name=Screenshot_210.jpg\" rel=\"noreferrer\">Screenshot_210.jpg</a><br><a href=\"https://support.pluginhive.com/attachments/token/20xcmnRKHBE3uDsCFPhnOi8z6/?name=Screenshot_213.jpg\" rel=\"noreferrer\">Screenshot_213.jpg</a></p></td></tr></tbody></table></td></tr></tbody></table></div></div><div><div><a href=\"https://www.pluginhive.com/\" rel=\"noreferrer\"><img width=\"200\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" border=\"0\" alt=\"PluginHive\"> </a></div><p dir=\"auto\">Our Support is available 24/5.</p><p style=\"font-size: 13px;\" dir=\"auto\">Please expect a delay during weekends &amp; holidays due to partial coverage.</p><div style=\"display: block;\"><div style=\"float: left;\"><a href=\"https://www.pluginhive.com/knowledge-base/\" rel=\"noreferrer\">Documentation</a> <b>|</b>&nbsp;</div><div style=\"float: left;\"><a href=\"https://www.youtube.com/channel/UC4J2IaD8yuWPI4r8qc7-3LQ/videos\" rel=\"noreferrer\">Videos</a> <b>|</b>&nbsp;</div><div style=\"float: left;\"><a href=\"https://www.pluginhive.com/product-category/woocommerce-plugin/\" rel=\"noreferrer\">WooCommerce Plugins</a> <b>|</b>&nbsp;</div><div style=\"float: left;\"><a href=\"https://www.pluginhive.com/product-category/shopify-apps/\" rel=\"noreferrer\">Shopify Apps</a> <b>|</b>&nbsp;</div><div style=\"float: left;\"><a href=\"https://www.pluginhive.com/product-category/magento-extensions/\" rel=\"noreferrer\">Magento Extensions</a></div></div><div style=\"clear: both; display: block; padding-top: 10px;\"><a style=\"text-decoration: none; padding: 0 5px;\" href=\"https://www.facebook.com/pluginhive\" rel=\"noreferrer\"><img width=\"30\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" height=\"30\" border=\"0\" alt=\"ph-facebook\"> </a> <a style=\"text-decoration: none; padding: 0 5px;\" href=\"https://in.linkedin.com/company/pluginhive\" rel=\"noreferrer\"> <img width=\"30\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" height=\"30\" border=\"0\" alt=\"ph-linkedin\"> </a> <a style=\"text-decoration: none; padding: 0 5px;\" href=\"https://twitter.com/PluginHive\" rel=\"noreferrer\"> <img width=\"30\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" height=\"30\" border=\"0\" alt=\"ph-twitter\"> </a> <a style=\"text-decoration: none; padding: 0 5px;\" href=\"https://www.youtube.com/channel/UC4J2IaD8yuWPI4r8qc7-3LQ\" rel=\"noreferrer\"> <img width=\"30\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" height=\"30\" border=\"0\" alt=\"ph-youtube\"> </a> <a style=\"text-decoration: none; padding: 0 5px;\" href=\"https://www.instagram.com/pluginhive_/\" rel=\"noreferrer\"> <img width=\"30\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" height=\"30\" border=\"0\" alt=\"ph-twitter\"> </a></div></div><span style=\"color: #FFFFFF;\">[9YR553-MVNYL]</span></div></div></div></div></div></div></blockquote></div></div></div><p dir=\"auto\"> </p></td> </tr> </tbody></table> </td> </tr></tbody></table><p dir=\"auto\"></p><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"> <tbody><tr> <td width=\"100%\" style=\"border-top-width: 1px; border-top-color: #c5c5c5; border-top-style: dotted; border-collapse: collapse; padding: 15px 0;\"> <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"table-layout: fixed;\"> <tbody><tr> <td valign=\"top\" style=\"width: 40px; border-collapse: collapse; padding: 0 15px;\"> <img width=\"40\" height=\"40\" alt=\"\" style=\"height: auto; line-height: 100%; outline: none; text-decoration: none; border-radius: 5px;\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\"> </td> <td width=\"100%\" style=\"border-collapse: collapse; margin: 0; padding: 0;\" valign=\"top\"> <p dir=\"auto\"> <strong>Priyanka Mukhia</strong> (PluginHive) </p> <p dir=\"auto\"> May 26, 2026, 20:34 GMT+5:30 </p> <div dir=\"auto\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Hi Vladimir,<br>&nbsp;<br>Please allow me some time to check and update you.<br>&nbsp;<br>Regards,&nbsp;<br>Priyanka<br>Team Pluginhive<br></div><p dir=\"auto\"> </p></td> </tr> </tbody></table> </td> </tr></tbody></table><p dir=\"auto\"></p><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"> <tbody><tr> <td width=\"100%\" style=\"border-top-width: 1px; border-top-color: #c5c5c5; border-top-style: dotted; border-collapse: collapse; padding: 15px 0;\"> <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"table-layout: fixed;\"> <tbody><tr> <td valign=\"top\" style=\"width: 40px; border-collapse: collapse; padding: 0 15px;\"> <img width=\"40\" height=\"40\" alt=\"\" style=\"height: auto; line-height: 100%; outline: none; text-decoration: none; border-radius: 5px;\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\"> </td> <td width=\"100%\" style=\"border-collapse: collapse; margin: 0; padding: 0;\" valign=\"top\"> <p dir=\"auto\"> <strong>Volodymyr Zhogov</strong> </p> <p dir=\"auto\"> May 26, 2026, 17:03 GMT+5:30 </p> <div dir=\"auto\"><div>Hi! The module has stopped working and won't print labels.<br>Please help me figure this out and fix the problem.<br>I've never had this problem before.</div><div>&nbsp;</div><div>I don't understand why it's giving me these errors. The account is active.</div><div>&nbsp;</div><div><div><div>--<div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\">Best Ragards</div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><strong>COO: Vladimir Zhogov</strong><br><strong>LEYAKO OU</strong></div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><strong>VAT:&nbsp;EE102153363</strong></div><div style=\"background-color: #ffffff; color: #2c2d2e; font-size: 15px; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;\" align=\"start\"><div style=\"text-align: left;\" align=\"left\">Estonia, Tallinn</div><div style=\"text-align: left;\" align=\"left\"><strong>FOLLOW US:</strong><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"http://www.leyakoreya.ee/\" rel=\"noreferrer\">www.leyakoreya.ee</a>&nbsp;</div><div style=\"text-align: left;\" align=\"left\"><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.facebook.com/leya.koreya\" rel=\"noreferrer\">Facebook</a><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.instagram.com/leyakoreya\" rel=\"noreferrer\">Instagram</a><br><a style=\"color: var(--vkui--color_text_link); text-decoration: underline;\" href=\"https://www.tiktok.com/@leyakoreya\" rel=\"noreferrer\">TikTok</a><br><br>We are glad to cooperate</div></div></div></div></div></div><p dir=\"auto\"> </p><p style=\"line-height: 22px;\" dir=\"auto\"> Attachment(s)<br> <a href=\"https://support.pluginhive.com/attachments/token/68DLI6OBOeWP0lbcHOjYoz9zA/?name=Screenshot_209.jpg\" rel=\"noreferrer\">Screenshot_209.jpg</a><br> <a href=\"https://support.pluginhive.com/attachments/token/m5EQF4chppA8bDrv87BMuMt0F/?name=Screenshot_212.jpg\" rel=\"noreferrer\">Screenshot_212.jpg</a><br> <a href=\"https://support.pluginhive.com/attachments/token/2KtnmQbhQItQLDMZlzVkUefax/?name=Screenshot_211.jpg\" rel=\"noreferrer\">Screenshot_211.jpg</a><br> <a href=\"https://support.pluginhive.com/attachments/token/CpyRG7sJHLyYZ25eMq7ie9j1e/?name=Screenshot_210.jpg\" rel=\"noreferrer\">Screenshot_210.jpg</a><br> <a href=\"https://support.pluginhive.com/attachments/token/20xcmnRKHBE3uDsCFPhnOi8z6/?name=Screenshot_213.jpg\" rel=\"noreferrer\">Screenshot_213.jpg</a><br> </p> </td> </tr> </tbody></table> </td> </tr></tbody></table></div>\n \n </div>\n <div style=\"background-color: #f8f9f9; margin: 0; padding: 15px 10px;\">\n \n <div>\n <a href=\"https://www.pluginhive.com/\" rel=\"noreferrer\">\n <img width=\"200\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" alt=\"PluginHive\" border=\"0\">\n </a>\n </div>\n \n <p dir=\"auto\" style=\"font-size: 15px; font-weight: bold; color: black;\">Our Support is available 24/5.</p>\n <p style=\"font-size: 13px;\" dir=\"auto\">Please expect a delay during weekends &amp; holidays due to partial coverage.</p>\n \n <div style=\"display: block;\">\n <div style=\"float: left;\">\n <a href=\"https://www.pluginhive.com/knowledge-base/\" rel=\"noreferrer\">Documentation</a>\n <b>|</b>&nbsp;\n </div>\n <div style=\"float: left;\">\n <a href=\"https://www.youtube.com/channel/UC4J2IaD8yuWPI4r8qc7-3LQ/videos\" rel=\"noreferrer\">Videos</a>\n <b>|</b>&nbsp;\n </div>\n <div style=\"float: left;\">\n <a href=\"https://www.pluginhive.com/product-category/woocommerce-plugin/\" rel=\"noreferrer\">WooCommerce Plugins</a>\n <b>|</b>&nbsp;\n </div>\n <div style=\"float: left;\">\n <a href=\"https://www.pluginhive.com/product-category/shopify-apps/\" rel=\"noreferrer\">Shopify Apps</a>\n <b>|</b>&nbsp;\n </div>\n <div style=\"float: left;\">\n <a href=\"https://www.pluginhive.com/product-category/magento-extensions/\" rel=\"noreferrer\">Magento Extensions</a>\n </div>\n \n </div>\n \n <div style=\"display: block; clear: both; padding-top: 10px;\">\n <a href=\"https://www.facebook.com/pluginhive\" style=\"text-decoration: none; padding: 0 5px;\" rel=\"noreferrer\">\n <img width=\"30\" height=\"30\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" alt=\"ph-facebook\" border=\"0\">\n </a>\n <a href=\"https://in.linkedin.com/company/pluginhive\" style=\"text-decoration: none; padding: 0 5px;\" rel=\"noreferrer\">\n <img width=\"30\" height=\"30\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" alt=\"ph-linkedin\" border=\"0\">\n </a>\n <a href=\"https://twitter.com/PluginHive\" style=\"text-decoration: none; padding: 0 5px;\" rel=\"noreferrer\">\n <img width=\"30\" height=\"30\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" alt=\"ph-twitter\" border=\"0\">\n </a>\n <a href=\"https://www.youtube.com/channel/UC4J2IaD8yuWPI4r8qc7-3LQ\" style=\"text-decoration: none; padding: 0 5px;\" rel=\"noreferrer\">\n <img width=\"30\" height=\"30\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" alt=\"ph-youtube\" border=\"0\">\n </a>\n <a href=\"https://www.instagram.com/pluginhive_/\" style=\"text-decoration: none; padding: 0 5px;\" rel=\"noreferrer\">\n <img width=\"30\" height=\"30\" src=\"https://imageproxy.zdassets.com/f90611a067ca0cb5b145151d131343a66ed9037d?url=http%3A%2F%2Fimg.imgsmail.ru%2Fmail%2Fru%2Fimages%2Fdumb.gif\" alt=\"ph-twitter\" border=\"0\">\n </a>\n </div>\n \n </div>\n<span style=\"color: #FFFFFF;\">[9YR553-MVNYL]</span>\n</div>\n \n </div>\n</div></div></blockquote></div>",
+      "plain_body": "This problem occurs with other orders too. \n \n  --\n\n Отправлено из Mail для Android \n среда, 27 мая 2026г., 01:11 +03:00 от Sibi (PluginHive) support@pluginhive.com:\n\n   \n \n \n \n  \n  \n \n \n\n \n  \n  Your request (392156) has been updated. To add additional comments, reply to this email.\n             Sibi (PluginHive)     May 27, 2026, 03:40 GMT+5:30    Hello Vladimir,\n&nbsp;\nWe apologize for the wait — we understand this is blocking your shipments, and we want to resolve it as quickly as possible.\n&nbsp;\nTo proceed, could you please confirm if this error is returned for only one shipment or is it frequently happening?\n&nbsp;\nThanks and regards,\nSibi\nTeam PluginHive\n                    Volodymyr Zhogov     May 26, 2026, 23:34 GMT+5:30     How long its take and what a problem?\n\n\n&nbsp;   -- Best Ragards  COO: Vladimir Zhogov\nLEYAKO OU  VAT:&nbsp;EE102153363   Estonia, Tallinn  FOLLOW US:\nwww.leyakoreya.ee&nbsp;  Facebook\nInstagram\nTikTok\n\nWe are glad to cooperate     \n  Вторник, 26 мая 2026, 18:05 +03:00 от Priyanka Mukhia (PluginHive) &lt;support@pluginhive.com&gt;:\n&nbsp;        &nbsp;  Your request (392156) has been updated. To add additional comments, reply to this email.   Priyanka Mukhia (PluginHive)  May 26, 2026, 20:34 GMT+5:30  Hi Vladimir,\n&nbsp;\nPlease allow me some time to check and update you.\n&nbsp;\nRegards,&nbsp;\nPriyanka\nTeam Pluginhive  &nbsp;  &nbsp;  Volodymyr Zhogov  May 26, 2026, 17:03 GMT+5:30   Hi! The module has stopped working and won't print labels.\nPlease help me figure this out and fix the problem.\nI've never had this problem before.  &nbsp;  I don't understand why it's giving me these errors. The account is active.  &nbsp;    -- Best Ragards  COO: Vladimir Zhogov\nLEYAKO OU  VAT:&nbsp;EE102153363   Estonia, Tallinn  FOLLOW US:\nwww.leyakoreya.ee&nbsp;  Facebook\nInstagram\nTikTok\n\nWe are glad to cooperate       &nbsp;  Attachment(s)\nScreenshot_209.jpg\nScreenshot_212.jpg\nScreenshot_211.jpg\nScreenshot_210.jpg\nScreenshot_213.jpg        Our Support is available 24/5.  Please expect a delay during weekends &amp; holidays due to partial coverage.   Documentation |&nbsp;  Videos |&nbsp;  WooCommerce Plugins |&nbsp;  Shopify Apps |&nbsp;  Magento Extensions                  [9YR553-MVNYL]                             Priyanka Mukhia (PluginHive)     May 26, 2026, 20:34 GMT+5:30    Hi Vladimir,\n&nbsp;\nPlease allow me some time to check and update you.\n&nbsp;\nRegards,&nbsp;\nPriyanka\nTeam Pluginhive\n                    Volodymyr Zhogov     May 26, 2026, 17:03 GMT+5:30     Hi! The module has stopped working and won't print labels.\nPlease help me figure this out and fix the problem.\nI've never had this problem before.  &nbsp;  I don't understand why it's giving me these errors. The account is active.  &nbsp;    -- Best Ragards  COO: Vladimir Zhogov\nLEYAKO OU  VAT:&nbsp;EE102153363   Estonia, Tallinn  FOLLOW US:\nwww.leyakoreya.ee&nbsp;  Facebook\nInstagram\nTikTok\n\nWe are glad to cooperate           Attachment(s)\n Screenshot_209.jpg\n Screenshot_212.jpg\n Screenshot_211.jpg\n Screenshot_210.jpg\n Screenshot_213.jpg\n        \n \n  \n  \n \n  \n \n \n \n  \n \n  Our Support is available 24/5. \n  Please expect a delay during weekends &amp; holidays due to partial coverage. \n \n  \n  \n Documentation\n |&nbsp;\n  \n  \n Videos\n |&nbsp;\n  \n  \n WooCommerce Plugins\n |&nbsp;\n  \n  \n Shopify Apps\n |&nbsp;\n  \n  \n Magento Extensions\n  \n \n  \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n  \n[9YR553-MVNYL]",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58331812918297,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "vladimir.zh@leyako.com",
+            "name": "Volodymyr Zhogov",
+            "original_recipients": [
+              "vladimir.zh@leyako.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T04:45:44Z",
+      "metadata": {
+        "system": {
+          "message_id": "<1779857128.887693655@f527.i.mail.ru>",
+          "client": "Mail.Ru Mailer 1.0",
+          "email_id": "01KSKW19C2XEYRMRGJHXX5KM1P",
+          "ip_address": "95.163.59.62",
+          "raw_email_identifier": "2369120/6bdd8912-6616-4a22-bdb8-5ce30b1c97b3.eml",
+          "json_email_identifier": "2369120/6bdd8912-6616-4a22-bdb8-5ce30b1c97b3.json",
+          "eml_redacted": false,
+          "location": "Russia",
+          "latitude": 55.7386,
+          "longitude": 37.6068
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58333007188377,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Priyanka is checking internally. Informed her to check",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Priyanka is checking internally. Informed her to check<br></div>",
+      "plain_body": "Priyanka is checking internally. Informed her to check",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58333038024857,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T05:16:30Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58336549429913,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Customer has 2 queries:\n1. The labels are failing with the error \"Total Declared value exceeds customs value. Please update and try again\"\nUpon checking the custom value is passed as 125.39999999999999 and declared value is passed as 127.40\n\n2. Order 258685 is failing with the error \"Destination postal code missing or invalid.\" requested customer to cross check destinaton postal code and try again",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer has 2 queries:&nbsp;<br><ol dir=\"auto\"><li><p dir=\"auto\">The labels are failing with the error \"Total Declared value exceeds customs value. Please update and try again\"&nbsp;<br>Upon checking the custom value is passed as 125.39999999999999 and declared value is passed as 127.40</p><p dir=\"auto\">Raising l3 for this&nbsp;</p></li><li>Order 258685 is failing with the error \"Destination postal code missing or invalid.\" requested customer to cross check destinaton postal code and try again</li></ol></div>",
+      "plain_body": "Customer has 2 queries:&nbsp;\n   The labels are failing with the error \"Total Declared value exceeds customs value. Please update and try again\"&nbsp;\nUpon checking the custom value is passed as 125.39999999999999 and declared value is passed as 127.40  Raising l3 for this&nbsp;   Order 258685 is failing with the error \"Destination postal code missing or invalid.\" requested customer to cross check destinaton postal code and try again",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58336549429273,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T06:49:16Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58336885329433,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Vladimir,\n\nThank you for your patience.\n\nRegarding the label failure for Order #258403, we are currently checking this with our technical team. If this is an urgent shipment, we would request you to please fulfil the order outside of the app for now. We will update you as soon as we receive an update from our technical team.\n\nRegarding Order #258685, the label generation is failing with the following error:\n“Destination postal code missing or invalid.”\nCould you please cross-check the destination postal code and try generating the label again?\n\nYou can also try recreating the shipment directly on the FedEx website to verify whether rates and shipment creation are working for that postal code.\n\nPlease let us know if you need any further assistance.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Vladimir,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Regarding the label failure for Order <a href=\"/agent/tickets/258403\" target=\"_blank\" rel=\"ticket\">#258403</a>, we are currently checking this with our technical team. If this is an urgent shipment, we would request you to please fulfil the order outside of the app for now. We will update you as soon as we receive an update from our technical team.<br>&nbsp;<br>Regarding Order <a href=\"/agent/tickets/258685\" target=\"_blank\" rel=\"ticket\">#258685</a>, the label generation is failing with the following error:<br>“Destination postal code missing or invalid.”<br>Could you please cross-check the destination postal code and try generating the label again?<br>&nbsp;<br>You can also try recreating the shipment directly on the FedEx website to verify whether rates and shipment creation are working for that postal code.<br>&nbsp;<br>Please let us know if you need any further assistance.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Vladimir,\n&nbsp;\nThank you for your patience.\n&nbsp;\nRegarding the label failure for Order #258403, we are currently checking this with our technical team. If this is an urgent shipment, we would request you to please fulfil the order outside of the app for now. We will update you as soon as we receive an update from our technical team.\n&nbsp;\nRegarding Order #258685, the label generation is failing with the following error:\n“Destination postal code missing or invalid.”\nCould you please cross-check the destination postal code and try generating the label again?\n&nbsp;\nYou can also try recreating the shipment directly on the FedEx website to verify whether rates and shipment creation are working for that postal code.\n&nbsp;\nPlease let us know if you need any further assistance.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58336885329305,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T06:58:11Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58337017140889,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1779865248855479\n\nWSS customer from Estonia is unable to generate the label, and it is failing with the error:\n“Total Declared value exceeds customs value. Please update and try again.”\n\nFor Order 258403, upon checking the logs:\n- Customs value is being passed as 127.39999999999999\n- Declared value is being passed as 127.40\n\n\n\nCustomer is using FedEx carrier.Ideally, the customs value should also be rounded and passed as 127.40\nI have attached the logs below for reference.\n\nCould you please check and assist further?\n\nStore URL: https://leyakoreya.ee\nAc ID: 512d0981-b53e-4eea-8c51-b9fed8788975",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1779865248855479\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1779865248855479</a><br>&nbsp;<br>WSS customer from Estonia is unable to generate the label, and it is failing with the error:<br>“Total Declared value exceeds customs value. Please update and try again.”<br><br>For Order 258403, upon checking the logs:<br><ul dir=\"auto\"><li>Customs value is being passed as 127.39999999999999</li><li>Declared value is being passed as 127.40</li></ul><br><br>Customer is using FedEx carrier.Ideally, the customs value should also be rounded and passed as 127.40<br>I have attached the logs below for reference.<br><br>Could you please check and assist further?<br><br>Store URL: <a rel=\"noopener noreferrer\" href=\"https://leyakoreya.ee\">https://leyakoreya.ee</a><br>Ac ID: 512d0981-b53e-4eea-8c51-b9fed8788975<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1779865248855479\n&nbsp;\nWSS customer from Estonia is unable to generate the label, and it is failing with the error:\n“Total Declared value exceeds customs value. Please update and try again.”\n\nFor Order 258403, upon checking the logs:\n  Customs value is being passed as 127.39999999999999  Declared value is being passed as 127.40  \n\nCustomer is using FedEx carrier.Ideally, the customs value should also be rounded and passed as 127.40\nI have attached the logs below for reference.\n\nCould you please check and assist further?\n\nStore URL: https://leyakoreya.ee\nAc ID: 512d0981-b53e-4eea-8c51-b9fed8788975",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58337017139481,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T07:01:37Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}
