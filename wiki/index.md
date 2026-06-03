@@ -64,6 +64,7 @@ Other sources:
 - [Order Bulk Actions](modules/orders/order-bulk-actions.md) - 40+ bulk operations for managing orders at scale
 - [Order Returns](modules/orders/order-returns.md) - Return label generation and return tracking
 - [Order Address Management](modules/orders/order-address-management.md) - Address validation, correction, and multi-address handling
+- [Order Update Scenarios (Functional)](modules/orders/order-update-scenarios.md) - Exhaustive functional catalog of Shopify-initiated, MCSL-initiated, post-fulfilment, concurrency, load, and multi-user order-update scenarios
 
 ### Shipping
 - [Carrier System Overview](modules/shipping/carrier-system-overview.md) - Multi-carrier architecture with adaptor pattern for 43 carriers

@@ -382,3 +382,83 @@
 - Cards forced (non-terminal at ship): 5 (1 BUG REPORTED, 1 QA READY, 2 Open, 1 Spill Over)
 - Git reference: dfb7ba1ab99a9a1529c4f290b5984244a362c813
 - Summary: Re-shipped MCSL 377 with 29 total cards (24 terminal, 5 non-terminal forced through). Updated backlog.md with refreshed summary.
+
+## [2026-05-27 11:30] zendesk-summarize | Delta pull (#392156, #391961)
+- Pulled: 2 tickets (392156, 391961) via `scripts/sync-zendesk-by-ids.sh` → `raw/zendesk/other_platforms/`
+- Created: `wiki/zendesk/summaries/392156.md` (2 open issues: label-generation, international)
+- Created: `wiki/zendesk/summaries/391961.md` (1 open issue: onboarding install blocker)
+- Created: `wiki/zendesk/2026-05-27.md` (daily index — ZI-560 → ZI-562)
+- Git reference: 67c396dc9cf012c10487eb4cf39e771646ae049b
+- Summary: 3 new ZI issues on `other_platforms / woocommerce`. ZI-560 = FedEx customs-value float rounding bug (L3); ZI-561 = FedEx invalid destination postal code (single order, pending customer); ZI-562 = WSS plugin entry "Let's Start Fulfilling" denied to store Admin (L3, full install blocker).
+
+## [2026-05-27 12:00] story-cards | ZI-560, ZI-561, ZI-562
+- Created: wiki/product/stories/ZI-560.md, ZI-561.md, ZI-562.md (all validated ✓)
+- Pushed to StoryLab:
+  - ZI-560 → APR 13-16 (Pain 10) — https://trello.com/c/QEwQokK3
+  - ZI-561 → APR 16-18 (Pain 8-9) — https://trello.com/c/msZjZIf7
+  - ZI-562 → APR 25-30 (Later)    — https://trello.com/c/MEE76M96
+- Git reference: 67c396dc9cf012c10487eb4cf39e771646ae049b
+- Summary: 3 WooCommerce cards. ZI-560 = FedEx customs-value float rounding (P10, Label & Document Quality). ZI-561 = FedEx invalid postal code (P8-9, International & Customs, sibling of ZI-560). ZI-562 = WSS "Let's Start Fulfilling" Admin permission deny (P8-9, Onboarding & Retention).
+
+## [2026-05-27 12:15] sl-iteration | release-single ZI-560 → MCSL 380
+- Source: ZI-560 on StoryLab (https://trello.com/c/QEwQokK3) — already had MCSL 380 label
+- Target lane: SL MCSL 380: Iteration backlog (ph-WIP)
+- Mode: 4 (copy single card)
+- Duplicate check: passed (23 cards already in lane, no ZI-560 hit)
+- Labels mirrored with "SL: " prefix: 5 (Pain 10, Label & Document Quality, WooCommerce, FedEx, MCSL 380)
+- ph-WIP card: https://trello.com/c/SxMRyxyy
+
+## [2026-05-27 12:35] sl-iteration | snapshot MCSL 380 (re-run)
+- File refreshed: wiki/product/releases/mcsl-380.md
+- Board: ph-WIP, lane: SL MCSL 380: Iteration backlog (24 cards)
+- State delta vs prior run (10 min earlier): Ready To Ship 11→14 (+3), QA READY 2→1, DEV 1→0, BUG REPORTED 3→2
+- git_reference preserved: 55b9e1ad06e4197d6a18fc48fc3460d522536771
+- Validation: 1 mismatch (ZI-555 — same Dev-Done + BUG-REPORTED label-precedence quirk as last run; pre-existing script issue, not new)
+
+## [2026-06-03 00:00] ingest | Order Update Scenarios (Functional Business Catalog)
+- Created: `wiki/modules/orders/order-update-scenarios.md`
+- Updated: `wiki/index.md` (Orders section)
+- Sources: storepep-react (webhooks.js, internalOrderWebhook.js, ordersSyncEngine.js, fulfillmentOrderUpdatingListener.js, storePepConstants.js); order-updates microservice (diff engine, versioning, order_lock/shop_lock, SQS/SNS workers); Shopify order-status docs
+- Git reference: 67c396dc9cf012c10487eb4cf39e771646ae049b
+- Summary: Combined functional catalog of all order-update scenarios — 25 Shopify-initiated (S1-S25), 7 post-fulfilment (P1-P7), 10 MCSL-app-initiated write-back (M1-M10), concurrency (C1-C6), bulk/load (L1-L6), multi-user (U1-U5), error/edge (E1-E6). Documents the change-priority model (30-50 + forced), the MCSL→Shopify echo loop, and the version/diff/lock mechanisms that prevent reprocessing.
+
+## [2026-06-03 00:30] ingest | Order Update QA Scenarios (CSV)
+- Created: `wiki/modules/orders/order-update-qa-scenarios.csv` (65 Given/When/Then QA cases)
+- Updated: `wiki/modules/orders/order-update-scenarios.md` (added downloadable-CSV section + verification-caveat callout)
+- Columns: ID, Section, Scenario, Given, When, Then, DiffPriority, Trigger, Verification, Caveat
+- Verification flags: ~20 rows code-Verified (diff def / webhook topics / status constants read this session); remainder Inferred from subagent exploration, flagged draft
+- High-priority verify-before-trust rows: U1 (double-fulfilment risk), M6/M8 (write-back + echo), P6/C2 (echo suppression), P1/P3 (no-relabel guarantees)
+- Summary: QA spec is behavioral source-of-truth; does NOT track automation status (that stays in features.md) and does NOT touch regression CSV
+
+## [2026-06-03 01:15] query | Order-update QA gap analysis vs regression + bulk fulfilment
+- Updated: `wiki/modules/orders/order-update-qa-scenarios.csv` (65→72 rows; added RegressionCoverage + RegressionRef columns; added S26 note, S27 unfulfil, BF1-BF7 bulk fulfilment)
+- Updated: `wiki/modules/orders/order-update-scenarios.md` (gap-analysis section, Bulk Fulfilment table, S26/S27)
+- Sources read: regression-scenarios.xlsx sheets Order_Update, Orders Grid, Batch Flow; order-diff-definition.json (note absence); features.md
+- Key findings:
+  - Bulk fulfilment IS well-covered (Orders Grid 45.0/61.0, Batch Flow 11/14/parallel/retry) — NOT a gap; advisor caught that Order_Update sheet alone would have produced false gaps
+  - M6/M8 write-back CONFIRMED by regression (Orders Grid 17.0 asserts Shopify/Woo order marked fulfilled) — clears prior caveat
+  - order note is NOT a diff-engine field — flows through separate order.note.updating.listener (catalog gap, added S26)
+  - Order_Update sheet ~96% manual (only 7.0 AUTO=YES) — automation gap distinct from coverage
+  - Tier-1 testable gaps: S5/P5/E2 archive cutoff, S7 auth-expiry, S8 deferred, S10/S11 refund, S15 in-progress, S21 subscription, U1 double-fulfilment, U2 two-operators, BF2 echo storm
+- Summary: two-tier gap classification (testable vs N/A-infra); reverse gaps (S26 note, S27 unfulfil) found in regression but missing from catalog
+
+## [2026-06-03 02:30] query | Verify echo/U1/M6/M8 + COD + tracking app + returns
+- Cloned + explored: git@bitbucket.org:xadapter-cyd/shopify-tracking-app.git (HEAD 4798bea)
+- Read (storepep-react): ordersSyncEngine.js, fulfillmentOrderUpdatingListener.js, shopifyToStorepepOrderMapper.js
+- Read (order-updates): OrderComparator.js, DiffSelector.js, OrderUpdateCalculatingService.js
+- Updated: order-update-scenarios.md (two→three systems, corrected echo model, §7 Tracking, §8 Returns gap, COD detail) + order-update-qa-scenarios.csv (72→83 rows: +S28 COD-reconfirm, +T1-T8 tracking; corrected M6/M8/U1/P6/C2)
+- Verified facts:
+  - M6/M8 write-back CONFIRMED in code (syncCurrentStoreOrders loops syncStore per order; bulk = N write-backs)
+  - ECHO CORRECTED: shouldApplyUpdate fires when updated_at strictly newer (+ fulfilment-cancellation at equal ts). MCSL fulfilment echo is newer + changes monitored field → NOT suppressed by order-updates (loop broken by MCSL-side idempotency, unverified). Tracking-URL echo: tracking_info not a monitored field → compare() empty → OrderDiffNotDetected. updated_at gate only stops not-newer/duplicate webhooks.
+  - U1 CORRECTED: ordersSyncEngine has NO pre-check before syncStore (verified); double-fulfilment depends on untraced upstream order-selection
+  - COD: two mechanisms (status+outstanding via isCodCheckEnabled; legacy gateway-name) + Please Reconfirm ambiguity (S28); regression Order_Update 30-32
+  - Tracking is a SEPARATE app (shopify-tracking-app) consuming fulfillments/create|update (NOT handled by order-updates); writes back via fulfillmentEventCreate + tracking_info rewrite; status machine INITIAL/IN_TRANSIT/OUT_FOR_DELIVERY/DELIVERED + exceptions
+  - RETURNS GAP (verified by grep): NO system subscribes to Shopify returns/* or refunds/* webhooks; tracking app only EXCEPTION_3→FAILURE; MCSL return labels are operator-initiated
+- Summary: order updates span THREE systems; echo model corrected; tracking + returns are catalog/coverage blind spots
+
+## [2026-06-03 03:00] query | Shopify Return Management coverage check
+- Verified (grep all 3 repos + code-read): Shopify Return Management (returns/* + reverse_* webhooks, returnCreate/ReturnInput GraphQL) is NOT integrated anywhere; order.returns never parsed
+- Refunds: only legacy flag-gated path (shopifyToStorepepOrderMapper:285-300) subtracts refunded qty from shippable line items (both partial.fulfilment + orderStatusUpdate must be OFF)
+- StorePep returns = operator-initiated carrier RMA reverse labels (carriers.js ReturnLabel/rma; DHL/FedEx/UPS/EasyPost ReturnRequest); separate returnBatchStatus/returnLabel[] data model; order-returns.md
+- Updated: order-update-scenarios.md §8 (three-layer table) + CSV (+S29 legacy refund adjust, +S30 Return Management gap) = 85 rows
+- Summary: three non-overlapping return/refund worlds; Shopify Return Management is a hard gap
