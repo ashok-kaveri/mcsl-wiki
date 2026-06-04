@@ -1,0 +1,960 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/391628.json",
+    "id": 391628,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-05-22T14:27:43Z",
+    "updated_at": "2026-05-26T19:25:49Z",
+    "generated_timestamp": 1779823549,
+    "type": null,
+    "subject": "we have some orders that the system charge custome...",
+    "raw_subject": "we have some orders that the system charge custome...",
+    "description": "we have some orders that the system charge customers for 2 labels, and it shows that it split the order for 2 packages. those are usully big orders but very light orders that are less than 3lb. we use one rate that is up to 40-50lb so why the system charge the customer double for those orders \n\n------------------\nSubmitted from: https://app-fedex.pluginhive.io/shopify/orders/6775191306464",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 37757496759065,
+    "submitter_id": 37757496759065,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "9f2ea1-08.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "8137160675"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "L4GMYE-M0LVW",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "9f2ea1-08.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "8137160675"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58192725470361,
+      "type": "Comment",
+      "author_id": 37757496759065,
+      "body": "we have some orders that the system charge customers for 2 labels, and it shows that it split the order for 2 packages. those are usully big orders but very light orders that are less than 3lb. we use one rate that is up to 40-50lb so why the system charge the customer double for those orders \n\n------------------\nSubmitted from: https://app-fedex.pluginhive.io/shopify/orders/6775191306464",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">we have some orders that the system charge customers for 2 labels, and it shows that it split the order for 2 packages. those are usully big orders but very light orders that are less than 3lb. we use one rate that is up to 40-50lb so why the system charge the customer double for those orders </p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://app-fedex.pluginhive.io/shopify/orders/6775191306464\" target=\"_blank\" rel=\"nofollow noreferrer\">https://app-fedex.pluginhive.io/shopify/orders/6775191306464</a></p></div>",
+      "plain_body": "we have some orders that the system charge customers for 2 labels, and it shows that it split the order for 2 packages. those are usully big orders but very light orders that are less than 3lb. we use one rate that is up to 40-50lb so why the system charge the customer double for those orders  \n\n ------------------\n\nSubmitted from: https://app-fedex.pluginhive.io/shopify/orders/6775191306464",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58192681763225.json",
+          "id": 58192681763225,
+          "file_name": "Screenshot 2026-05-22 at 10.27.27 AM.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/OQTzkxCyo31iQr3uB9H3jB0Lt/?name=Screenshot+2026-05-22+at+10.27.27%E2%80%AFAM.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/OQTzkxCyo31iQr3uB9H3jB0Lt/?name=Screenshot+2026-05-22+at+10.27.27%E2%80%AFAM.png",
+          "content_type": "image/png",
+          "size": 258855,
+          "width": 1282,
+          "height": 1968,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58192681780377.json",
+              "id": 58192681780377,
+              "file_name": "Screenshot_2026-05-22_at_10.27.27_AM_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/nMdMHspkPpo67l3J3BPJaTF9I/?name=Screenshot_2026-05-22_at_10.27.27_AM_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/nMdMHspkPpo67l3J3BPJaTF9I/?name=Screenshot_2026-05-22_at_10.27.27_AM_thumb.png",
+              "content_type": "image/png",
+              "size": 1499,
+              "width": 52,
+              "height": 80,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 58192725470233,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-05-22T14:27:43Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "ip_address": "23.116.179.112",
+          "location": "Miami, FL, United States",
+          "latitude": 25.8119,
+          "longitude": -80.2318
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 58193580690457,
+      "type": "Comment",
+      "author_id": 37757496759065,
+      "body": "Also, we noticed that in Florida at check-out, our customers don't get to see the cheapest rate. In the example in the photos below, the customer saw at checkout the cheapest priority overnight that it is not one rate but also priority overnight Saturday delivery one rate that is the expensive one. We have the 2 apps of the PH, and the customer should see at checkout the cheapest between one rate or not one rate when it comes to priority overnight. it looks like the customer received at checkout the rates for the 2 day and priority saturday delivery from the PH for Fedex and the regular priority overnight from the PH multiple.\n\n\n\n![](https://support.pluginhive.com/attachments/token/y16ftuIz41rPVtTaKHtBjgQw9/?name=Screenshot_2026-05-22_at_11.06.56_AM-af40b80d-9d98-4776-a18b-beedcb2e0bd5.png)\n\n\n\n![](https://support.pluginhive.com/attachments/token/RhAQqnNHzHnCExrDCigaTHiJ2/?name=Screenshot_2026-05-22_at_11.06.11_AM-04eee8ce-f755-47b4-bb77-739c63bcdaad.png)\n\n\n\n![](https://support.pluginhive.com/attachments/token/k4ClAXoPN3ueroHOPWVfU1AzX/?name=IMG_8732-bb448422-523a-4f30-aab2-b195c1a18384.png)\n\n\n\nBest wishes,\n\nOrahhair Support",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>Also, we noticed that in Florida at check-out, our customers don't get to see the cheapest rate. In the example in the photos below, the customer saw at checkout the cheapest priority overnight that it is not one rate but also priority overnight Saturday delivery one rate that is the expensive one. We have the 2 apps of the PH, and the customer should see at checkout the cheapest between one rate or not one rate when it comes to priority overnight. it looks like the customer received at checkout the rates for the 2 day and priority saturday delivery from the PH for Fedex and the regular priority overnight from the PH multiple. <br></div><div><br></div><figure style=\"display: inline-block; margin: 0;\"><img src=\"https://support.pluginhive.com/attachments/token/y16ftuIz41rPVtTaKHtBjgQw9/?name=Screenshot_2026-05-22_at_11.06.56_AM-af40b80d-9d98-4776-a18b-beedcb2e0bd5.png\" style=\"max-width: 100%;\" width=\"400\"></figure><div><br></div><figure style=\"display: inline-block; margin: 0;\"><img src=\"https://support.pluginhive.com/attachments/token/RhAQqnNHzHnCExrDCigaTHiJ2/?name=Screenshot_2026-05-22_at_11.06.11_AM-04eee8ce-f755-47b4-bb77-739c63bcdaad.png\" style=\"max-width: 100%;\" width=\"400\"></figure><div><br></div><figure style=\"display: inline-block; margin: 0;\"><img src=\"https://support.pluginhive.com/attachments/token/k4ClAXoPN3ueroHOPWVfU1AzX/?name=IMG_8732-bb448422-523a-4f30-aab2-b195c1a18384.png\" style=\"max-width: 100%;\" width=\"400\"></figure><div><br></div><div>Best wishes,</div><div>Orahhair Support</div><div><br></div></div>",
+      "plain_body": "Also, we noticed that in Florida at check-out, our customers don't get to see the cheapest rate. In the example in the photos below, the customer saw at checkout the cheapest priority overnight that it is not one rate but also priority overnight Saturday delivery one rate that is the expensive one. We have the 2 apps of the PH, and the customer should see at checkout the cheapest between one rate or not one rate when it comes to priority overnight. it looks like the customer received at checkout the rates for the 2 day and priority saturday delivery from the PH for Fedex and the regular priority overnight from the PH multiple. \n  \n  \n  \n  \n  Best wishes,  Orahhair Support",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58193551111193,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "contact@orahhair.com",
+            "name": "Assi",
+            "original_recipients": [
+              "contact@orahhair.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T15:19:05Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177946313453.160.8611205024905104367.ticket-id-gAAAAABqEHPegeLMNX7QssU8mtMeHv2AgFkkia5s0_sd9syNt4je9Cu9WocOIE1Yl2f19hHviSwnyfVttZNVYp4Qf2NAj8qOdQ==@gorgias.com>",
+          "email_id": "01KS849ATEN32JB1J6AKPR6PJ0",
+          "raw_email_identifier": "2369120/bfc65da8-a6e7-4d23-956e-5299b0ccbb71.eml",
+          "json_email_identifier": "2369120/bfc65da8-a6e7-4d23-956e-5299b0ccbb71.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58193817381785,
+      "type": "Comment",
+      "author_id": 37757496759065,
+      "body": "and also out of Florida, customers get the priority overnight from the cheaper source that is not one rate but the pririty Saturday delivery they get to see the expensive one rate that have no discounts\n\n\n\n![](https://support.pluginhive.com/attachments/token/M0Hs2jav6vFz9Y7a7896XrHeF/?name=Screenshot_2026-05-22_at_11.28.04_AM-812377f8-d0c8-404d-9754-312ae3b470e4.png)\n\n\n\n\n\n\n\nBest wishes,\n\nOrahhair Support\n\n\n\nOn Fri, May 22 2026, at 03:18 PM, Orahhair Support <contact@orahhair.com> wrote:\n\n> Also, we noticed that in Florida at check-out, our customers don't get to see the cheapest rate. In the example in the photos below, the customer saw at checkout the cheapest priority overnight that it is not one rate but also priority overnight Saturday delivery one rate that is the expensive one. We have the 2 apps of the PH, and the customer should see at checkout the cheapest between one rate or not one rate when it comes to priority overnight. it looks like the customer received at checkout the rates for the 2 day and priority saturday delivery from the PH for Fedex and the regular priority overnight from the PH multiple.\n>\n>\n>\n> ![](https://support.pluginhive.com/attachments/token/xQpsAskq5tcgwDUwXQoZSMY59/?name=Screenshot_2026-05-22_at_11.06.56_AM-af40b80d-9d98-4776-a18b-beedcb2e0bd5.png)\n>\n>\n>\n> ![](https://support.pluginhive.com/attachments/token/ZMAwVl9TjGwfGrgN1SVp5vSEX/?name=Screenshot_2026-05-22_at_11.06.11_AM-04eee8ce-f755-47b4-bb77-739c63bcdaad.png)\n>\n>\n>\n> ![](https://support.pluginhive.com/attachments/token/FVjyTmghjDgasMfrZ8EKpA0li/?name=IMG_8732-bb448422-523a-4f30-aab2-b195c1a18384.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>and also out of Florida, customers get the priority overnight from the cheaper source that is not one rate but the pririty Saturday delivery they get to see the expensive one rate that have no discounts</div><div><br></div><figure style=\"display: inline-block; margin: 0;\"><img src=\"https://support.pluginhive.com/attachments/token/M0Hs2jav6vFz9Y7a7896XrHeF/?name=Screenshot_2026-05-22_at_11.28.04_AM-812377f8-d0c8-404d-9754-312ae3b470e4.png\" style=\"max-width: 100%;\" width=\"400\"></figure><div><br></div><div><br></div><div><br></div><div>Best wishes,</div><div>Orahhair Support</div><div><br><div>On Fri, May 22 2026, at 03:18 PM, Orahhair Support <span dir=\"ltr\">&lt;<a href=\"mailto:contact@orahhair.com\" rel=\"noreferrer\">contact@orahhair.com</a>&gt;</span> wrote:<br><blockquote style=\"border-left-width: 1px; border-left-color: #ccc; border-left-style: solid; padding-left: 1ex; margin: 0 0 0 .8ex;\"><div>Also, we noticed that in Florida at check-out, our customers don't get to see the cheapest rate. In the example in the photos below, the customer saw at checkout the cheapest priority overnight that it is not one rate but also priority overnight Saturday delivery one rate that is the expensive one. We have the 2 apps of the PH, and the customer should see at checkout the cheapest between one rate or not one rate when it comes to priority overnight. it looks like the customer received at checkout the rates for the 2 day and priority saturday delivery from the PH for Fedex and the regular priority overnight from the PH multiple. <br></div><div><br></div><figure style=\"display: inline-block; margin: 0;\"><img src=\"https://support.pluginhive.com/attachments/token/xQpsAskq5tcgwDUwXQoZSMY59/?name=Screenshot_2026-05-22_at_11.06.56_AM-af40b80d-9d98-4776-a18b-beedcb2e0bd5.png\" style=\"max-width: 100%;\" width=\"400\"></figure><div><br></div><figure style=\"display: inline-block; margin: 0;\"><img src=\"https://support.pluginhive.com/attachments/token/ZMAwVl9TjGwfGrgN1SVp5vSEX/?name=Screenshot_2026-05-22_at_11.06.11_AM-04eee8ce-f755-47b4-bb77-739c63bcdaad.png\" style=\"max-width: 100%;\" width=\"400\"></figure><div><br></div><figure style=\"display: inline-block; margin: 0;\"><img src=\"https://support.pluginhive.com/attachments/token/FVjyTmghjDgasMfrZ8EKpA0li/?name=IMG_8732-bb448422-523a-4f30-aab2-b195c1a18384.png\" style=\"max-width: 100%;\" width=\"400\"></figure></blockquote></div></div></div>",
+      "plain_body": "and also out of Florida, customers get the priority overnight from the cheaper source that is not one rate but the pririty Saturday delivery they get to see the expensive one rate that have no discounts  \n  \n  \n  \n  Best wishes,  Orahhair Support  \n On Fri, May 22 2026, at 03:18 PM, Orahhair Support &lt;contact@orahhair.com&gt; wrote:\n  Also, we noticed that in Florida at check-out, our customers don't get to see the cheapest rate. In the example in the photos below, the customer saw at checkout the cheapest priority overnight that it is not one rate but also priority overnight Saturday delivery one rate that is the expensive one. We have the 2 apps of the PH, and the customer should see at checkout the cheapest between one rate or not one rate when it comes to priority overnight. it looks like the customer received at checkout the rates for the 2 day and priority saturday delivery from the PH for Fedex and the regular priority overnight from the PH multiple.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58193817381273,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "contact@orahhair.com",
+            "name": "Assi",
+            "original_recipients": [
+              "contact@orahhair.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T15:33:22Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177946398960.529.14336732728882176134.ticket-id-gAAAAABqEHc1i95pwNlTXzzT67uSkTvc64U_SmE53Q_hVcqevHBUDv3iXuhQSKhHuB-6hWWjaBL9rL_ck0KPfhZReqUMJEZw3Q==@gorgias.com>",
+          "email_id": "01KS853F8D6YTGD3QXZ6NN641H",
+          "raw_email_identifier": "2369120/74c12af1-8274-4160-a456-e764547aa6dc.eml",
+          "json_email_identifier": "2369120/74c12af1-8274-4160-a456-e764547aa6dc.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58194354029081,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "US Store.\nOrders - 355\nLabels - 504 in May\nRates - Yes\nPlan - $19\nActive from 2024-09-16",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">US Store.<br>Orders - 355<br>Labels - 504 in May<br>Rates - Yes<br>Plan - $19<br>Active from 2024-09-16<br></div>",
+      "plain_body": "US Store.\nOrders - 355\nLabels - 504 in May\nRates - Yes\nPlan - $19\nActive from 2024-09-16",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58194354028953,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T16:12:27Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58194825323033,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Assi,\n\nGood Day!\n\nFor your first query, the app packs the products based on the product weight and dimensions (if available) in to one of the packages enabled in. the Packaging Settings.\n\nIf based on the configured weights (either the Box Max weight or total weight of the products as configured in Shopify), the app canoot pack all the items in to a single package, then it will split the order into 2 packages.\n\nPlease refer to Box Packing Method and how it works here - https://www.pluginhive.com/knowledge-base/pack-products-optimally-and-save-shipping-costs-with-shopify-fedex-app/#box-packing\n\nRegarding the rates on checkout, when Saturday Delivery option is enabled in the app (Settings > Account Settings > Saturday Delivery), Saturday Delivery rates will be shown on checkout for the applicable services.\n\nTo check the cases further, could you please share the following details -\n- Screenshot of the complete transaction from the checkout of your store in which the products added in cart and the address provided are clearly visible along with the rates returned by the app. We will replicate the same transaction from our end and check the case further.\n- Correct One Rate available for Overnight services available on your FedEx account on fedex.com by using the exact same transaction details (ship from, ship to address, package weight and FedEx box). This will help us in verify the rates returned from the app for your cases.\n\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Assi,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>For your first query, the app packs the products based on the product weight and dimensions (if available) in to one of the packages enabled in. the Packaging Settings.<br>&nbsp;<br>If based on the configured weights (either the Box Max weight or total weight of the products as configured in Shopify), the app canoot pack all the items in to a single package, then it will split the order into 2 packages.<br>&nbsp;<br>Please refer to Box Packing Method and how it works here - <a rel=\"noopener noreferrer\" href=\"https://www.pluginhive.com/knowledge-base/pack-products-optimally-and-save-shipping-costs-with-shopify-fedex-app/#box-packing\">https://www.pluginhive.com/knowledge-base/pack-products-optimally-and-save-shipping-costs-with-shopify-fedex-app/#box-packing</a><br>&nbsp;<br>Regarding the rates on checkout, when Saturday Delivery option is enabled in the app (Settings &gt; Account Settings &gt; Saturday Delivery), Saturday Delivery rates will be shown on checkout for the applicable services.<br>&nbsp;<br>To check the cases further, could you please share the following details -&nbsp;<br><ul dir=\"auto\"><li>Screenshot of the complete transaction from the checkout of your store in which the products added in cart and the address provided are clearly visible along with the rates returned by the app. We will replicate the same transaction from our end and check the case further.</li><li>Correct One Rate available for Overnight services available on your FedEx account on <a rel=\"noopener noreferrer\" href=\"http://fedex.com\">fedex.com</a> by using the exact same transaction details (ship from, ship to address, package weight and FedEx box). This will help us in verify the rates returned from the app for your cases.</li></ul>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Assi,\n&nbsp;\nGood Day!\n&nbsp;\nFor your first query, the app packs the products based on the product weight and dimensions (if available) in to one of the packages enabled in. the Packaging Settings.\n&nbsp;\nIf based on the configured weights (either the Box Max weight or total weight of the products as configured in Shopify), the app canoot pack all the items in to a single package, then it will split the order into 2 packages.\n&nbsp;\nPlease refer to Box Packing Method and how it works here - https://www.pluginhive.com/knowledge-base/pack-products-optimally-and-save-shipping-costs-with-shopify-fedex-app/#box-packing\n&nbsp;\nRegarding the rates on checkout, when Saturday Delivery option is enabled in the app (Settings &gt; Account Settings &gt; Saturday Delivery), Saturday Delivery rates will be shown on checkout for the applicable services.\n&nbsp;\nTo check the cases further, could you please share the following details -&nbsp;\n  Screenshot of the complete transaction from the checkout of your store in which the products added in cart and the address provided are clearly visible along with the rates returned by the app. We will replicate the same transaction from our end and check the case further.  Correct One Rate available for Overnight services available on your FedEx account on fedex.com by using the exact same transaction details (ship from, ship to address, package weight and FedEx box). This will help us in verify the rates returned from the app for your cases.  &nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58194825322905,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T16:47:04Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58194979769241,
+      "type": "Comment",
+      "author_id": 37757496759065,
+      "body": "You're asking me a lot of stuff that I feel is not needed. Can we make a zoom call and I'll share the screen. As mentioned we are using the 2 PH apps simultaneously at checkout so we can show the one rate and also accounts rate. And I know the system will choose what it's cheaper. But when it comes to the priority Saturday delivery the system always choose the one rate and it shows the customer a very high rate.\n\nAlso is it possible to speak with the same agent who was setting up my shipping settings?",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">You're asking me a lot of stuff that I feel is not needed. Can we make a zoom call and I'll share the screen. As mentioned we are using the 2 PH apps simultaneously at checkout so we can show the one rate and also accounts rate. And I know the system will choose what it's cheaper. But when it comes to the priority Saturday delivery the system always choose the one rate and it shows the customer a very high rate. </p><p dir=\"auto\">Also is it possible to speak with the same agent who was setting up my shipping settings? </p></div>",
+      "plain_body": "You're asking me a lot of stuff that I feel is not needed. Can we make a zoom call and I'll share the screen. As mentioned we are using the 2 PH apps simultaneously at checkout so we can show the one rate and also accounts rate. And I know the system will choose what it's cheaper. But when it comes to the priority Saturday delivery the system always choose the one rate and it shows the customer a very high rate.   Also is it possible to speak with the same agent who was setting up my shipping settings?",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58194979769113,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "contact@orahhair.com",
+            "name": "Assi",
+            "original_recipients": [
+              "contact@orahhair.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T16:58:55Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177946912880.1271.8828642815782558093.ticket-id-gAAAAABqEItIK73dku2idGguqA4XHiS4WogWHIokm2pSWPgd9MosvrutwYb5m0qp3yqWMGUQPYUH3u1PdjnLGr5JaEJFBAAvSg==@gorgias.com>",
+          "email_id": "01KS8A09JXM7CNF0WYRH444X9B",
+          "raw_email_identifier": "2369120/f306e5f0-586c-4751-9bbd-e95cd01580c2.eml",
+          "json_email_identifier": "2369120/f306e5f0-586c-4751-9bbd-e95cd01580c2.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58195066652697,
+      "type": "Comment",
+      "author_id": 37757496759065,
+      "body": "Also regarding the packaging, we use exclusively FedEx padded pak and the max weight is 40lb.  the order screen shot that I sent earlier clearly show the weight was less than 3lb in total so why did it split it to 2 packages?",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Also regarding the packaging, we use exclusively FedEx padded pak and the max weight is 40lb. &nbsp;the order screen shot that I sent earlier clearly show the weight was less than 3lb in total so why did it split it to 2 packages?&nbsp;</div><div><br><div></div></div></div>",
+      "plain_body": "Also regarding the packaging, we use exclusively FedEx padded pak and the max weight is 40lb. &nbsp;the order screen shot that I sent earlier clearly show the weight was less than 3lb in total so why did it split it to 2 packages?&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58195066652441,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "contact@orahhair.com",
+            "name": "Assi",
+            "original_recipients": [
+              "contact@orahhair.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T17:04:02Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5qZfXPVEzo=zUwG_oY56i-8QyjKXmM=Xtct2MsTz3Y8MuSZA@mail.gmail.com>",
+          "email_id": "01KS8A9N3DZDVR97S1TQB944PZ",
+          "raw_email_identifier": "2369120/d3176c4c-1e50-411d-b7c0-3317bcf6d407.eml",
+          "json_email_identifier": "2369120/d3176c4c-1e50-411d-b7c0-3317bcf6d407.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58195174889241,
+      "type": "Comment",
+      "author_id": 37757496759065,
+      "body": "Is Manohar available for a call to help us figure it out.\n\n\n\nOn Fri, May 22 2026, at 05:03 PM, Orahhair Support <contact@orahhair.com> wrote:\n\n> Also regarding the packaging, we use exclusively FedEx padded pak and the max weight is 40lb.  the order screen shot that I sent earlier clearly show the weight was less than 3lb in total so why did it split it to 2 packages?",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Is Manohar available for a call to help us figure it out. </p><div><br><div>On Fri, May 22 2026, at 05:03 PM, Orahhair Support <span dir=\"ltr\">&lt;<a href=\"mailto:contact@orahhair.com\" rel=\"noreferrer\">contact@orahhair.com</a>&gt;</span> wrote:<br><blockquote style=\"border-left-width: 1px; border-left-color: #ccc; border-left-style: solid; padding-left: 1ex; margin: 0 0 0 .8ex;\"><div dir=\"auto\">Also regarding the packaging, we use exclusively FedEx padded pak and the max weight is 40lb. &nbsp;the order screen shot that I sent earlier clearly show the weight was less than 3lb in total so why did it split it to 2 packages?&nbsp;</div><div><br></div>\n</blockquote></div></div></div>",
+      "plain_body": "Is Manohar available for a call to help us figure it out.   \n On Fri, May 22 2026, at 05:03 PM, Orahhair Support &lt;contact@orahhair.com&gt; wrote:\n  Also regarding the packaging, we use exclusively FedEx padded pak and the max weight is 40lb. &nbsp;the order screen shot that I sent earlier clearly show the weight was less than 3lb in total so why did it split it to 2 packages?&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58195174888473,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "contact@orahhair.com",
+            "name": "Assi",
+            "original_recipients": [
+              "contact@orahhair.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T17:08:05Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177946967928.1155.6908791583385351624.ticket-id-gAAAAABqEI1vSQ6iNP_SJXU6ryBHGNyxNbJoD5iSSlqbkLdFhHIUj-poinpoBJOV8Tiq7goTRQkMKyax58s00hDREU65j0VMvQ==@gorgias.com>",
+          "email_id": "01KS8AH35FGDP4M5ECAC33WJ5A",
+          "raw_email_identifier": "2369120/e9253e1d-2468-4ead-9382-2d7c85114f31.eml",
+          "json_email_identifier": "2369120/e9253e1d-2468-4ead-9382-2d7c85114f31.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58195492033177,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Assi,\n\nPlease allow us some time to check this case. We will get back to you with an update as soon as possible.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Assi,<br>&nbsp;<br>Please allow us some time to check this case. We will get back to you with an update as soon as possible.<br>&nbsp;<br>We appreciate your time and patience.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Assi,\n&nbsp;\nPlease allow us some time to check this case. We will get back to you with an update as soon as possible.\n&nbsp;\nWe appreciate your time and patience.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58195492033049,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T17:31:54Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58195466916249,
+      "type": "Comment",
+      "author_id": 37757496759065,
+      "body": "Hi Manohar, Thank you",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><p dir=\"auto\">Hi Manohar, Thank you </p></div>",
+      "plain_body": "Hi Manohar, Thank you",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58195466916121,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "contact@orahhair.com",
+            "name": "Assi",
+            "original_recipients": [
+              "contact@orahhair.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T17:33:40Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177947121580.1492.12952066902720331517.ticket-id-gAAAAABqEJNv4mV85sjnkKNUR9huvsIcUilRrY0Tp6kIprdGgTBGER1Tw8RMSKWGRxqlTiyXxD9uG2detyTXKoodniwI0Rregg==@gorgias.com>",
+          "email_id": "01KS8BZXNYVZ26Z3W6CB9A61AG",
+          "raw_email_identifier": "2369120/cd4812cf-aa7d-4500-be06-f5157aa5a183.eml",
+          "json_email_identifier": "2369120/cd4812cf-aa7d-4500-be06-f5157aa5a183.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58195692389017,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Assi,\n\nWe have adjusted the default dimensions to allow more items to be packed into a single package. Going forward, you should not face problems with items being packed into multiple packages unnecessarily.\n\nRegarding the **FedEx Priority Overnight Saturday Delivery (without One Rate)** service not showing, please allow us some time to check this from our end. We will get back to you with an update.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Assi,<br>&nbsp;<br>We have adjusted the default dimensions to allow more items to be packed into a single package. Going forward, you should not face problems with items being packed into multiple packages unnecessarily.<br>&nbsp;<br>Regarding the <strong>FedEx Priority Overnight Saturday Delivery (without One Rate)</strong> service not showing, please allow us some time to check this from our end. We will get back to you with an update.&nbsp;<br>&nbsp;<br>We appreciate your time and patience.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Assi,\n&nbsp;\nWe have adjusted the default dimensions to allow more items to be packed into a single package. Going forward, you should not face problems with items being packed into multiple packages unnecessarily.\n&nbsp;\nRegarding the FedEx Priority Overnight Saturday Delivery (without One Rate) service not showing, please allow us some time to check this from our end. We will get back to you with an update.&nbsp;\n&nbsp;\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58195692388889,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T17:49:16Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58200134585625,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need assistance from L3 team:\n\n**Case:** FedEx Saturday Delivery as an individual service (similar to the FedEx app) is missing in MCSL.\n\n**Details:**\nThe customer using the FedEx app installed MCSL to use One Rate along with account rates. Their goal is to compare rates between One Rate and account rates and use the cheapest option.\n\nCurrently, **FedEx 2Day** and **FedEx Priority Overnight** are working as expected.\n\nHowever, **FedEx Priority Overnight Saturday Delivery** service is missing. The customer wants to offer both:\n- FedEx Priority Overnight (weekday delivery)\n- FedEx Priority Overnight Saturday Delivery\n\n\nThis was working in the FedEx app because **Priority Overnight** and **Priority Overnight Saturday Delivery** were available as two separate/individual services.\n\nIn MCSL, there is only one **FedEx Priority Overnight** service, where Saturday Delivery is added as a special service instead of being shown as a separate service.\n\n**Requirement:**\nCould you please check the feasibility of bringing FedEx Saturday Delivery services as individual services in MCSL, similar to how they are available in the FedEx app?\n\n**Store Details:**\n**Store URL:** **9f2ea1-08.myshopify.com**** **\n**Account ID: 5e1aab9a-77f8-4ed8-9c94-43610f52ca28**\n\n\n ![](https://pluginhive.zendesk.com/attachments/token/8eXicNwn8rWN2T1m8Yfs2G6qM/?name=image.png)\n ![](https://pluginhive.zendesk.com/attachments/token/kX7uUJJpcyQtl7Q4aJX0cR8IQ/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need assistance from L3 team:<br>&nbsp;<br><strong>Case:</strong> FedEx Saturday Delivery as an individual service (similar to the FedEx app) is missing in MCSL.<br>&nbsp;<br><strong>Details:</strong><br>The customer using the FedEx app installed MCSL to use One Rate along with account rates. Their goal is to compare rates between One Rate and account rates and use the cheapest option.<br>&nbsp;<br>Currently, <strong>FedEx 2Day</strong> and <strong>FedEx Priority Overnight</strong> are working as expected.<br>&nbsp;<br>However, <strong>FedEx Priority Overnight Saturday Delivery</strong> service is missing. The customer wants to offer both:<br><ul dir=\"auto\"><li>FedEx Priority Overnight (weekday delivery)</li><li>FedEx Priority Overnight Saturday Delivery</li></ul>&nbsp;<br>This was working in the FedEx app because <strong>Priority Overnight</strong> and <strong>Priority Overnight Saturday Delivery</strong> were available as two separate/individual services.<br>&nbsp;<br>In MCSL, there is only one <strong>FedEx Priority Overnight</strong> service, where Saturday Delivery is added as a special service instead of being shown as a separate service.<br>&nbsp;<br><strong>Requirement:</strong><br>Could you please check the feasibility of bringing FedEx Saturday Delivery services as individual services in MCSL, similar to how they are available in the FedEx app?<br>&nbsp;<br><strong>Store Details:</strong><br><strong>Store URL: </strong><a rel=\"noopener noreferrer\" href=\"http://9f2ea1-08.myshopify.com\"><strong>9f2ea1-08.myshopify.com</strong></a><strong>&nbsp;</strong><br><strong>Account ID: 5e1aab9a-77f8-4ed8-9c94-43610f52ca28</strong><br>&nbsp;<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/8eXicNwn8rWN2T1m8Yfs2G6qM/?name=image.png\"></span><br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/kX7uUJJpcyQtl7Q4aJX0cR8IQ/?name=image.png\"></span><br></div>",
+      "plain_body": "Need assistance from L3 team:\n&nbsp;\nCase: FedEx Saturday Delivery as an individual service (similar to the FedEx app) is missing in MCSL.\n&nbsp;\nDetails:\nThe customer using the FedEx app installed MCSL to use One Rate along with account rates. Their goal is to compare rates between One Rate and account rates and use the cheapest option.\n&nbsp;\nCurrently, FedEx 2Day and FedEx Priority Overnight are working as expected.\n&nbsp;\nHowever, FedEx Priority Overnight Saturday Delivery service is missing. The customer wants to offer both:\n  FedEx Priority Overnight (weekday delivery)  FedEx Priority Overnight Saturday Delivery  &nbsp;\nThis was working in the FedEx app because Priority Overnight and Priority Overnight Saturday Delivery were available as two separate/individual services.\n&nbsp;\nIn MCSL, there is only one FedEx Priority Overnight service, where Saturday Delivery is added as a special service instead of being shown as a separate service.\n&nbsp;\nRequirement:\nCould you please check the feasibility of bringing FedEx Saturday Delivery services as individual services in MCSL, similar to how they are available in the FedEx app?\n&nbsp;\nStore Details:\nStore URL: 9f2ea1-08.myshopify.com&nbsp;\nAccount ID: 5e1aab9a-77f8-4ed8-9c94-43610f52ca28\n&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58200134585497,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-23T00:40:53Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58260092605081,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "**FedEx Priority Overnight** and **Priority Overnight Saturday Delivery** are not 2 different services, **Priority Overnight Saturday Delivery ** is created by app to display **FedEx Priority Overnight** charges with additional Saturday delivery surcharge.  In FedEx app have provision to display a service with and without surcharge,\n\nIts not a missing service case.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><strong>FedEx Priority Overnight </strong>and<strong> Priority Overnight Saturday Delivery </strong>are not 2 different services, <strong>Priority Overnight Saturday Delivery&nbsp;</strong> is created by app to display <strong>FedEx Priority Overnight </strong>charges with additional Saturday delivery surcharge. &nbsp;In FedEx app have provision to display a service with and without surcharge,<br>&nbsp;<br>Its not a missing service case.<br>[Veena]<br></div>",
+      "plain_body": "FedEx Priority Overnight and Priority Overnight Saturday Delivery are not 2 different services, Priority Overnight Saturday Delivery&nbsp; is created by app to display FedEx Priority Overnight charges with additional Saturday delivery surcharge. &nbsp;In FedEx app have provision to display a service with and without surcharge,\n&nbsp;\nIts not a missing service case.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58260092604953,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T07:24:09Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58267885998105,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Need to discuss the case with Manohar first before replying to customer.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need to discuss the case with Manohar first before replying to customer.<br></div>",
+      "plain_body": "Need to discuss the case with Manohar first before replying to customer.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58267885997465,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T12:03:15Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Lucknow, UP, India",
+          "latitude": 26.8373,
+          "longitude": 80.9165
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58272769453465,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Moving this case back to L3.\nCustomer requirement: The customer wants both **FedEx Priority Overnight** and **FedEx Priority Overnight Saturday Delivery** services to be displayed as two separate options when applicable, allowing customers to choose their preferred service.\n\nThe customer expects functionality similar to the FedEx app.\n\nAs mentioned in my previous internal note, could you please check the feasibility of bringing FedEx Saturday Delivery services as individual services in MCSL, similar to how they are available in the FedEx app?",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving this case back to L3.<br>Customer requirement: The customer wants both <strong>FedEx Priority Overnight</strong> and <strong>FedEx Priority Overnight Saturday Delivery</strong> services to be displayed as two separate options when applicable, allowing customers to choose their preferred service.<br>&nbsp;<br>The customer expects functionality similar to the FedEx app.<br>&nbsp;<br>As mentioned in my previous internal note, could you please check the feasibility of bringing FedEx Saturday Delivery services as individual services in MCSL, similar to how they are available in the FedEx app?<br></div>",
+      "plain_body": "Moving this case back to L3.\nCustomer requirement: The customer wants both FedEx Priority Overnight and FedEx Priority Overnight Saturday Delivery services to be displayed as two separate options when applicable, allowing customers to choose their preferred service.\n&nbsp;\nThe customer expects functionality similar to the FedEx app.\n&nbsp;\nAs mentioned in my previous internal note, could you please check the feasibility of bringing FedEx Saturday Delivery services as individual services in MCSL, similar to how they are available in the FedEx app?",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58272769453337,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T16:47:41Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58302495932697,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We will enhance the app to display a service with and without Saturday delivery surcharges at checkout. Will be included 382. By 2nd week of June. Inform the merchant and move the ticket to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will enhance the app to display a service with and without Saturday delivery surcharges at checkout. Will be included 382. By 2nd week of June. Inform the merchant and move the ticket to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "We will enhance the app to display a service with and without Saturday delivery surcharges at checkout. Will be included 382. By 2nd week of June. Inform the merchant and move the ticket to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58302495932569,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T09:29:19Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58304196868761,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Assi,\n\nGood day!\n\nWe will enhance the app to display the service names with and without Saturday Delivery surcharges.\n\nThe enhancement will be available by 2nd week of June. Will keep you posted on the updates.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Assi,<br>&nbsp;<br>Good day!<br><br>We will enhance the app to display the service names with and without Saturday Delivery surcharges.&nbsp;<br>&nbsp;<br>The enhancement will be available by 2nd week of June. Will keep you posted on the updates.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Assi,\n&nbsp;\nGood day!\n\nWe will enhance the app to display the service names with and without Saturday Delivery surcharges.&nbsp;\n&nbsp;\nThe enhancement will be available by 2nd week of June. Will keep you posted on the updates.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58304196868377,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T10:19:22Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58312516412697,
+      "type": "Comment",
+      "author_id": 37757496759065,
+      "body": "ok so now my customers see at checkout the cheapest rate of the priority overnight. will they be able to see also only the cheapest of the Saturday delivery? I don't want to show them with One Rate and without One Rate but only the rate that its cheaper like we did with the regular overnight.\n\n\n\nBest wishes,\n\nOrahhair Support",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>ok so now my customers see at checkout the cheapest rate of the priority overnight. will they be able to see also only the cheapest of the Saturday delivery? I don't want to show them with One Rate and without One Rate but only the rate that its cheaper like we did with the regular overnight.</div><div><br></div><div>Best wishes,</div><div>Orahhair Support</div></div>",
+      "plain_body": "ok so now my customers see at checkout the cheapest rate of the priority overnight. will they be able to see also only the cheapest of the Saturday delivery? I don't want to show them with One Rate and without One Rate but only the rate that its cheaper like we did with the regular overnight.  \n  Best wishes,  Orahhair Support",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58312516412569,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "contact@orahhair.com",
+            "name": "Assi",
+            "original_recipients": [
+              "contact@orahhair.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T15:35:26Z",
+      "metadata": {
+        "system": {
+          "message_id": "<177980972191.228.7728394532672333986.ticket-id-gAAAAABqFb25Yw18oBM-i0rQ3zrCbLmKiYHXHwpIerP9TwRjxBKpams0Vkfv_S8uT9pXEDyoQkiAnsgc7_yExvX3Lc-EZO_lAQ==@gorgias.com>",
+          "email_id": "01KSJET9R7N4NYG5Y4B40DT6SW",
+          "raw_email_identifier": "2369120/a92fe731-8a0a-4053-a595-90664f6bce92.eml",
+          "json_email_identifier": "2369120/a92fe731-8a0a-4053-a595-90664f6bce92.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58316444730777,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Assi,\n\nThank you for your reply.\n\nIn the **PH Ship Rate & Track for FedEx** app, **FedEx Priority Overnight** and **FedEx Priority Overnight Saturday Delivery** are available as two separate services.\n\nHowever, in the new **PH Multi Carrier Shipping Label** app, there is currently only one **FedEx Priority Overnight** service, and **FedEx Priority Overnight Saturday Delivery** is not available as a separate service.\nWhen it is Thursday or Friday, the **FedEx Priority Overnight** service is displayed including the Saturday Delivery surcharge.\n\nAt the moment, the **FedEx 2Day** and **Priority Overnight** services are working as expected, and no changes are needed. However, **FedEx Priority Overnight Saturday Delivery** is currently being displayed with one rate and not without One Rate.\n\nWe will be enhancing the app to make **FedEx Priority Overnight** and **FedEx Priority Overnight Saturday Delivery** available as two separate services, similar to the FedEx app. This will allow the app to compare the rates with and without One Rate and display the cheapest available FedEx Priority Overnight Saturday Delivery service.\n\nThis enhancement is expected to be ready by the **2nd week of June**. Rest assured, we will keep you posted.\n\nWe appreciate your understanding.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Assi,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>In the <strong>PH Ship Rate &amp; Track for FedEx</strong> app, <strong>FedEx Priority Overnight</strong> and <strong>FedEx Priority Overnight Saturday Delivery</strong> are available as two separate services.<br>&nbsp;<br>However, in the new <strong>PH Multi Carrier Shipping Label</strong> app, there is currently only one <strong>FedEx Priority Overnight</strong> service, and <strong>FedEx Priority Overnight Saturday Delivery</strong> is not available as a separate service.<br>When it is Thursday or Friday, the <strong>FedEx Priority Overnight</strong> service is displayed including the Saturday Delivery surcharge.<br>&nbsp;<br>At the moment, the <strong>FedEx 2Day</strong> and <strong>Priority Overnight</strong> services are working as expected, and no changes are needed. However, <strong>FedEx Priority Overnight Saturday Delivery</strong> is currently being displayed with one rate and not without One Rate.<br>&nbsp;<br>We will be enhancing the app to make <strong>FedEx Priority Overnight</strong> and <strong>FedEx Priority Overnight Saturday Delivery</strong> available as two separate services, similar to the FedEx app. This will allow the app to compare the rates with and without One Rate and display the cheapest available FedEx Priority Overnight Saturday Delivery service.<br>&nbsp;<br>This enhancement is expected to be ready by the <strong>2nd week of June</strong>. Rest assured, we will keep you posted.<br>&nbsp;<br>We appreciate your understanding.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Assi,\n&nbsp;\nThank you for your reply.\n&nbsp;\nIn the PH Ship Rate &amp; Track for FedEx app, FedEx Priority Overnight and FedEx Priority Overnight Saturday Delivery are available as two separate services.\n&nbsp;\nHowever, in the new PH Multi Carrier Shipping Label app, there is currently only one FedEx Priority Overnight service, and FedEx Priority Overnight Saturday Delivery is not available as a separate service.\nWhen it is Thursday or Friday, the FedEx Priority Overnight service is displayed including the Saturday Delivery surcharge.\n&nbsp;\nAt the moment, the FedEx 2Day and Priority Overnight services are working as expected, and no changes are needed. However, FedEx Priority Overnight Saturday Delivery is currently being displayed with one rate and not without One Rate.\n&nbsp;\nWe will be enhancing the app to make FedEx Priority Overnight and FedEx Priority Overnight Saturday Delivery available as two separate services, similar to the FedEx app. This will allow the app to compare the rates with and without One Rate and display the cheapest available FedEx Priority Overnight Saturday Delivery service.\n&nbsp;\nThis enhancement is expected to be ready by the 2nd week of June. Rest assured, we will keep you posted.\n&nbsp;\nWe appreciate your understanding.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58316444730649,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T19:25:49Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

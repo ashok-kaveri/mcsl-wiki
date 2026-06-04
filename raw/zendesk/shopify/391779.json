@@ -1,0 +1,1063 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/391779.json",
+    "id": 391779,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-05-23T09:29:58Z",
+    "updated_at": "2026-05-27T06:51:04Z",
+    "generated_timestamp": 1779864664,
+    "type": null,
+    "subject": "Hi! We received your response and screen recording...",
+    "raw_subject": "Hi! We received your response and screen recording...",
+    "description": "Hi! We received your response and screen recording. Thank you so much for taking the time to explain it.\n\nWe did set up the rate automation and tested it for the CounterCool product https://laurasgourmet.com/products/countercool\n\nWe reverted the settings because it is the production site and didn't want to show any errors on checkout for customers.\n\nI have set up rate automation as you described. The checkout page shows an error that shipping is not available to any address we tested for Guam, Puerto Rico, Marshall Islands, and AA.\n\nThe settings are live, and our customers from PR, Guam, Marshall Islands, and AA will see the shipping error. Let me know if you need some time to figure it out.\n\nAlso, please respond to support@madebuara.com. Your last response landed in the client's inbox. It delays our response times to you.\n\nThanks again for your help. Happy to jump on a call if needed.\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 49383205470617,
+    "submitter_id": 49383205470617,
+    "assignee_id": 10478126723609,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "laurasgourmet.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+91978000056471"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "W1J9KL-JEK33",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "laurasgourmet.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+91978000056471"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58211895097497,
+      "type": "Comment",
+      "author_id": 49383205470617,
+      "body": "Hi! We received your response and screen recording. Thank you so much for taking the time to explain it.\n\nWe did set up the rate automation and tested it for the CounterCool product https://laurasgourmet.com/products/countercool\n\nWe reverted the settings because it is the production site and didn't want to show any errors on checkout for customers.\n\nI have set up rate automation as you described. The checkout page shows an error that shipping is not available to any address we tested for Guam, Puerto Rico, Marshall Islands, and AA.\n\nThe settings are live, and our customers from PR, Guam, Marshall Islands, and AA will see the shipping error. Let me know if you need some time to figure it out.\n\nAlso, please respond to support@madebuara.com. Your last response landed in the client's inbox. It delays our response times to you.\n\nThanks again for your help. Happy to jump on a call if needed.\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hi! We received your response and screen recording. Thank you so much for taking the time to explain it.</p>\n\n<p dir=\"auto\">We did set up the rate automation and tested it for the CounterCool product <a href=\"https://laurasgourmet.com/products/countercool\" target=\"_blank\" rel=\"nofollow noreferrer\">https://laurasgourmet.com/products/countercool</a></p>\n\n<p dir=\"auto\">We reverted the settings because it is the production site and didn't want to show any errors on checkout for customers.</p>\n\n<p dir=\"auto\">I have set up rate automation as you described. The checkout page shows an error that shipping is not available to any address we tested for Guam, Puerto Rico, Marshall Islands, and AA.</p>\n\n<p dir=\"auto\">The settings are live, and our customers from PR, Guam, Marshall Islands, and AA will see the shipping error. Let me know if you need some time to figure it out.</p>\n\n<p dir=\"auto\">Also, please respond to <a href=\"mailto:support@madebuara.com\" rel=\"noreferrer\">support@madebuara.com</a>. Your last response landed in the client's inbox. It delays our response times to you.</p>\n\n<p dir=\"auto\">Thanks again for your help. Happy to jump on a call if needed.</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/status/allorders\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/status/allorders</a></p></div>",
+      "plain_body": "Hi! We received your response and screen recording. Thank you so much for taking the time to explain it. \n\n We did set up the rate automation and tested it for the CounterCool product https://laurasgourmet.com/products/countercool \n\n We reverted the settings because it is the production site and didn't want to show any errors on checkout for customers. \n\n I have set up rate automation as you described. The checkout page shows an error that shipping is not available to any address we tested for Guam, Puerto Rico, Marshall Islands, and AA. \n\n The settings are live, and our customers from PR, Guam, Marshall Islands, and AA will see the shipping error. Let me know if you need some time to figure it out. \n\n Also, please respond to support@madebuara.com. Your last response landed in the client's inbox. It delays our response times to you. \n\n Thanks again for your help. Happy to jump on a call if needed. \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58211895097369,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-05-23T09:29:58Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "ip_address": "223.178.213.133",
+          "location": "Chandigarh, CH, India",
+          "latitude": 30.7339,
+          "longitude": 76.7889
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 58213944538649,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "US Store\n92 orders\nFedEx and UPS account added\n57 labels in May\nActive from Aug 2025 and $19 plan selected",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">US Store<br>92 orders<br>FedEx and UPS account added<br>57 labels in May<br>Active from Aug 2025 and $19 plan selected<br></div>",
+      "plain_body": "US Store\n92 orders\nFedEx and UPS account added\n57 labels in May\nActive from Aug 2025 and $19 plan selected",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58213948340633,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-23T11:00:02Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58214053097753,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Ankur,\n\nGood day!\n\nCould you share a complete screenshot from the checkout page where the shipping rates are not shown, so we can check and assist accordingly.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ankur,<br>&nbsp;<br>Good day!<br><br>Could you share a complete screenshot from the checkout page where the shipping rates are not shown, so we can check and assist accordingly.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Ankur,\n&nbsp;\nGood day!\n\nCould you share a complete screenshot from the checkout page where the shipping rates are not shown, so we can check and assist accordingly.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58214053097625,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-23T11:03:48Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58214424163993,
+      "type": "Comment",
+      "author_id": 49383205470617,
+      "body": "Hi Sagar,\n\n\nI have attached two screenshots, one for Guam and the other for Puerto Rico.\n\n\n\nSincerely,\n\nAnkur Verma",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Sagar,<div><br></div><div>I have attached two <span style=\"background-image: none; border-style: none;\">screenshots,</span> one for Guam and the other for Puerto Rico.&nbsp;</div><div><br></div><div>Sincerely,</div><div>Ankur Verma</div><br></div><br><div></div></div>",
+      "plain_body": "Hi Sagar, \n  I have attached two screenshots, one for Guam and the other for Puerto Rico.&nbsp;  \n  Sincerely,  Ankur Verma",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58214411213593.json",
+          "id": 58214411213593,
+          "file_name": "Puerto Rico.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/qpiKk1FOWOU4mIywY24aocRlg/?name=Puerto+Rico.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/qpiKk1FOWOU4mIywY24aocRlg/?name=Puerto+Rico.png",
+          "content_type": "image/png",
+          "size": 312196,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58214394723097.json",
+              "id": 58214394723097,
+              "file_name": "Puerto_Rico_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/P5CU94QPpty5YoXEBBVlK7OG7/?name=Puerto_Rico_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/P5CU94QPpty5YoXEBBVlK7OG7/?name=Puerto_Rico_thumb.png",
+              "content_type": "image/png",
+              "size": 3652,
+              "width": 57,
+              "height": 80,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58214424181145.json",
+          "id": 58214424181145,
+          "file_name": "Guam.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/js7wh7U8Pb42OMrrt8aS5TqPX/?name=Guam.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/js7wh7U8Pb42OMrrt8aS5TqPX/?name=Guam.png",
+          "content_type": "image/png",
+          "size": 311301,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58214394712345.json",
+              "id": 58214394712345,
+              "file_name": "Guam_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/BiYhG1XL6uZP9aeOd9gVzb944/?name=Guam_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/BiYhG1XL6uZP9aeOd9gVzb944/?name=Guam_thumb.png",
+              "content_type": "image/png",
+              "size": 3604,
+              "width": 57,
+              "height": 80,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 58214424163865,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "support@madebyaura.com",
+            "name": "Ankur Verma",
+            "original_recipients": [
+              "support@madebyaura.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-23T11:18:11Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAG5wJS_9S5ZuT2WXYc48Zr_PmZyUDaqzjSpGhGu907-O3YAvUg@mail.gmail.com>",
+          "email_id": "01KSA8X0Z6ERD91CV6NH8RBY48",
+          "raw_email_identifier": "2369120/9783f311-cccb-4669-a31c-2832bae5bb75.eml",
+          "json_email_identifier": "2369120/9783f311-cccb-4669-a31c-2832bae5bb75.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58216725095961,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Ankur,\n\nThank you for sharing the screenshots.\n\nCountercool product comes under a shipping class and there is an automation rule created for this shipping class where a shipping zone is also selected.\n\nHowever, in the shipping zone, the Puerto Rico and Guam are not added. Also, the Match All Conditions option was enabled which should be kept disabled. Please add both Puerto Rico and Guam in the shipping zone and save the changes. Once done check for the rates and confirm.\n\n ![](https://pluginhive.zendesk.com/attachments/token/cjau7FE6h5idkdTE5UeMqSn0F/?name=image.png)\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ankur,<br>&nbsp;<br>Thank you for sharing the screenshots.&nbsp;<br>&nbsp;<br>Countercool product comes under a shipping class and there is an automation rule created for this shipping class where a shipping zone is also selected.&nbsp;<br>&nbsp;<br>However, in the shipping zone, the Puerto Rico and Guam are not added. Also, the Match All Conditions option was enabled which should be kept disabled. Please add both Puerto Rico and Guam in the shipping zone and save the changes. Once done check for the rates and confirm.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 1051px;\" src=\"https://pluginhive.zendesk.com/attachments/token/cjau7FE6h5idkdTE5UeMqSn0F/?name=image.png\"></span><br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Ankur,\n&nbsp;\nThank you for sharing the screenshots.&nbsp;\n&nbsp;\nCountercool product comes under a shipping class and there is an automation rule created for this shipping class where a shipping zone is also selected.&nbsp;\n&nbsp;\nHowever, in the shipping zone, the Puerto Rico and Guam are not added. Also, the Match All Conditions option was enabled which should be kept disabled. Please add both Puerto Rico and Guam in the shipping zone and save the changes. Once done check for the rates and confirm.\n&nbsp;\n\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58216725095833,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-23T13:16:04Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58216934500121,
+      "type": "Comment",
+      "author_id": 49383205470617,
+      "body": "Sagar,\n\n\nHere's what we want to do:\n\n- CounterCool $15 flat rate per unit for **Contiguous US + AK + HI** shipping zone\n- CounterCool $20 flat rate per unit for **Puerto Rico + Guam + Marshall Islands + AA** shipping zone\n\nWe created two rate automations using the same shipping class and two different shipping zones. The app should match the Country/State in the checkout page and present the shipping rate for that zone as configured in the app.\n\n\n\nYour screenshot suggests adding PR and Guam to the **Contiguous US + AK + HI** shipping zone, which isn't what we want. Doing so would display $15 shipping for PR and Guam.\n\n\n\nSincerely,\n\nAnkur Verma",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Sagar,<div><br></div><div>Here's what we want to do:<br><ul dir=\"auto\"><li>CounterCool $15 flat rate per unit for <b>Contiguous US&nbsp;+ AK <a rel=\"noreferrer\">+</a>&nbsp;HI</b> shipping zone</li><li>CounterCool $20 flat rate per unit for <b>Puerto Rico&nbsp;+ Guam&nbsp;+ Marshall Islands&nbsp;+ AA</b>&nbsp;shipping zone</li></ul><div>We created two rate automations using the same shipping class <span style=\"background-image: none; border-style: none;\">and</span> two different shipping zones. The app should match the Country/State in the checkout page and present the shipping <span style=\"background-image: none; border-style: none;\">rate</span> for that zone <span style=\"background-image: none; border-style: none;\">as configured in</span> the app.&nbsp;</div><div><br></div><div>Your screenshot suggests adding PR and Guam to the&nbsp;<b>Contiguous US&nbsp;+ AK&nbsp;<a rel=\"noreferrer\">+</a>&nbsp;HI</b>&nbsp;shipping zone, which isn't what we want. Doing so would display $15 shipping for PR and Guam.</div></div><div><br></div><div>Sincerely,</div><div>Ankur Verma</div></div><br><div></div></div>",
+      "plain_body": "Sagar, \n  Here's what we want to do:\n  CounterCool $15 flat rate per unit for Contiguous US&nbsp;+ AK +&nbsp;HI shipping zone  CounterCool $20 flat rate per unit for Puerto Rico&nbsp;+ Guam&nbsp;+ Marshall Islands&nbsp;+ AA&nbsp;shipping zone   We created two rate automations using the same shipping class and two different shipping zones. The app should match the Country/State in the checkout page and present the shipping rate for that zone as configured in the app.&nbsp;  \n  Your screenshot suggests adding PR and Guam to the&nbsp;Contiguous US&nbsp;+ AK&nbsp;+&nbsp;HI&nbsp;shipping zone, which isn't what we want. Doing so would display $15 shipping for PR and Guam.   \n  Sincerely,  Ankur Verma",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58216934499993,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "support@madebyaura.com",
+            "name": "Ankur Verma",
+            "original_recipients": [
+              "support@madebyaura.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-23T13:30:24Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAG5wJS8gNU2MSMq6958jzwaJxoEwbMcjFnbJvrcCLbq4xLpo1w@mail.gmail.com>",
+          "email_id": "01KSAGF64MBQG8KSYW5JEW1DJ7",
+          "raw_email_identifier": "2369120/6232faab-c342-4d7a-b103-c6673d2e7477.eml",
+          "json_email_identifier": "2369120/6232faab-c342-4d7a-b103-c6673d2e7477.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58217637266457,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Ankur,\n\nIn the shipping zone \"PR + Guam + Marshall Islands + AFA\" in the app, i have selected the option US - Puerto Rico and now the shipping rate is shown for a Puerto Rico address at the checkout.\n\nRegarding Rates not shown for other states, will check from our end about this and get back to you.\n\n ![](https://pluginhive.zendesk.com/attachments/token/NuElt7BPOXD0hsjYJcUy5AgeB/?name=image.png)\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ankur,<br>&nbsp;<br>In the shipping zone \"PR + Guam + Marshall Islands + AFA\" in the app, i have selected the option US - Puerto Rico and now the shipping rate is shown for a Puerto Rico address at the checkout.&nbsp;<br>&nbsp;<br>Regarding Rates not shown for other states, will check from our end about this and get back to you.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 605px;\" src=\"https://pluginhive.zendesk.com/attachments/token/NuElt7BPOXD0hsjYJcUy5AgeB/?name=image.png\"></span><br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Ankur,\n&nbsp;\nIn the shipping zone \"PR + Guam + Marshall Islands + AFA\" in the app, i have selected the option US - Puerto Rico and now the shipping rate is shown for a Puerto Rico address at the checkout.&nbsp;\n&nbsp;\nRegarding Rates not shown for other states, will check from our end about this and get back to you.\n&nbsp;\n\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58217637266329,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-23T14:14:05Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58255168706585,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "L3 - Case Related to Rates Failure for Guam and Marshall Islands\n\nCustomer has created a shipping zone where he selected Guam, Puerto Rico, Marshall Islands separately and AFA as US-AA (as shown in screenshot 1 below).\n\nThe customer has created a rate automation rule named \"CounterCool $20 per unit\" where this shipping zone is added and a flat rate is added to show at the checkout.\n\nThe flat rate set was not shown for Puerto Rico, Guam and Marshall Islands and customer complained the same.\n\nUpon checking, i go to know that when we select the country-state as the option, the rates are provided. So, i selected US-Puerto Rico as the option (as shown in screenshot 1) and the rates are shown for a Puerto Rico address now (screenshot 2 shared below).\nI verified this for US-AA and it also worked (screenshot 3 shared below).\n\nHowever, in the shipping zones, we do not have this option for Guam and Marshall Islands and hence the rates are still not shown for the address related to these two states.\n\nCould you check if we can bring a country state option for Guam and Marshall Islands as well. Let us know of the updates.\n\nStore URL - laurasgourmet.myshopify.com\nApp - MCSL\nAccount ID - 060138b4-6aa6-4b3a-adcf-33d6ac355249\n\n ![](https://pluginhive.zendesk.com/attachments/token/uGql3bsd5Jb9rtItLTylJvdbQ/?name=image.png)\n\n ![](https://pluginhive.zendesk.com/attachments/token/NuElt7BPOXD0hsjYJcUy5AgeB/?name=image.png)\n\n ![](https://pluginhive.zendesk.com/attachments/token/UB67NGJ0byppzJC5JPYrwNhcz/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3 - Case Related to Rates Failure for Guam and Marshall Islands<br>&nbsp;<br>Customer has created a shipping zone where he selected Guam, Puerto Rico, Marshall Islands separately and AFA as US-AA (as shown in screenshot 1 below).&nbsp;<br>&nbsp;<br>The customer has created a rate automation rule named \"CounterCool $20 per unit\" where this shipping zone is added and a flat rate is added to show at the checkout.<br>&nbsp;<br>The flat rate set was not shown for Puerto Rico, Guam and Marshall Islands and customer complained the same.&nbsp;<br>&nbsp;<br>Upon checking, i go to know that when we select the country-state as the option, the rates are provided. So, i selected US-Puerto Rico as the option (as shown in screenshot 1) and the rates are shown for a Puerto Rico address now (screenshot 2 shared below).<br>I verified this for US-AA and it also worked (screenshot 3 shared below).&nbsp;<br>&nbsp;<br>However, in the shipping zones, we do not have this option for Guam and Marshall Islands and hence the rates are still not shown for the address related to these two states.<br>&nbsp;<br>Could you check if we can bring a country state option for Guam and Marshall Islands as well. Let us know of the updates.<br>&nbsp;<br>Store URL - <a rel=\"noopener noreferrer\" href=\"http://laurasgourmet.myshopify.com\">laurasgourmet.myshopify.com</a>&nbsp;<br>App - MCSL&nbsp;<br>Account ID - 060138b4-6aa6-4b3a-adcf-33d6ac355249<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 932px;\" src=\"https://pluginhive.zendesk.com/attachments/token/uGql3bsd5Jb9rtItLTylJvdbQ/?name=image.png\"></span><br>&nbsp;<br><img style=\"width: 635px;\" src=\"https://pluginhive.zendesk.com/attachments/token/NuElt7BPOXD0hsjYJcUy5AgeB/?name=image.png\"><br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 636px;\" src=\"https://pluginhive.zendesk.com/attachments/token/UB67NGJ0byppzJC5JPYrwNhcz/?name=image.png\"></span><br></div>",
+      "plain_body": "L3 - Case Related to Rates Failure for Guam and Marshall Islands\n&nbsp;\nCustomer has created a shipping zone where he selected Guam, Puerto Rico, Marshall Islands separately and AFA as US-AA (as shown in screenshot 1 below).&nbsp;\n&nbsp;\nThe customer has created a rate automation rule named \"CounterCool $20 per unit\" where this shipping zone is added and a flat rate is added to show at the checkout.\n&nbsp;\nThe flat rate set was not shown for Puerto Rico, Guam and Marshall Islands and customer complained the same.&nbsp;\n&nbsp;\nUpon checking, i go to know that when we select the country-state as the option, the rates are provided. So, i selected US-Puerto Rico as the option (as shown in screenshot 1) and the rates are shown for a Puerto Rico address now (screenshot 2 shared below).\nI verified this for US-AA and it also worked (screenshot 3 shared below).&nbsp;\n&nbsp;\nHowever, in the shipping zones, we do not have this option for Guam and Marshall Islands and hence the rates are still not shown for the address related to these two states.\n&nbsp;\nCould you check if we can bring a country state option for Guam and Marshall Islands as well. Let us know of the updates.\n&nbsp;\nStore URL - laurasgourmet.myshopify.com&nbsp;\nApp - MCSL&nbsp;\nAccount ID - 060138b4-6aa6-4b3a-adcf-33d6ac355249\n&nbsp;\n\n&nbsp;\n\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58255168706457,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T04:42:39Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58259759333913,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "I am not able to see any rates hit when the Guam is selected as address, Can we get collaborator access and check further.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I am not able to see any rates hit when the Guam is selected as address, Can we get collaborator access and check further.<br>[Veena]<br></div>",
+      "plain_body": "I am not able to see any rates hit when the Guam is selected as address, Can we get collaborator access and check further.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58259759333785,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T07:13:53Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58263803440025,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Ankur Verma,\n\nGood Day!\n\nOur team is checking your case.\n\nTo check further, we would require Collaborator Access for your store https://laurasgourmet.com/ (laurasgourmet.myshopify.com). We have raised the request from our end on email id laurasgourmet@laurasgourmet.com\n\nPlease accept and let us know by replying to this email.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ankur Verma,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>Our team is checking your case.<br>&nbsp;<br>To check further, we would require Collaborator Access for your store <a rel=\"noopener noreferrer\" href=\"https://laurasgourmet.com/\">https://laurasgourmet.com/</a> (<a rel=\"noopener noreferrer\" href=\"https://laurasgourmet.myshopify.com/\">laurasgourmet.myshopify.com)</a>. We have raised the request from our end on email id <a href=\"mailto:laurasgourmet@laurasgourmet.com\" rel=\"noreferrer\">laurasgourmet@laurasgourmet.com</a><br>&nbsp;<br>Please accept and let us know by replying to this email.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Ankur Verma,\n&nbsp;\nGood Day!\n&nbsp;\nOur team is checking your case.\n&nbsp;\nTo check further, we would require Collaborator Access for your store https://laurasgourmet.com/ (laurasgourmet.myshopify.com). We have raised the request from our end on email id laurasgourmet@laurasgourmet.com\n&nbsp;\nPlease accept and let us know by replying to this email.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58263803439897,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T09:24:42Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Lucknow, UP, India",
+          "latitude": 26.8373,
+          "longitude": 80.9165
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58295499105817,
+      "type": "Comment",
+      "author_id": 49383205470617,
+      "body": "Touseef,\n\n\nWe haven't received the request in the Shopify Users dashboard. That's where we see and approve Collaborator Requests.\n\n\n\nSincerely,\n\n\n\nClick here to schedule a video call »\n\n\n ![](https://madebyaura.com/wp-content/uploads/email-signatures/avatar-ankur-verma.png)\nAnkur Verma\n\nFounder & Lead UI/UX Designer\n\nankur@madebyaura.com\n\n\nMadeByAura\nwww.madebyaura.com",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Touseef,<div><br></div><div>We haven't received&nbsp;the request in&nbsp;the Shopify Users dashboard. That's where we see and approve Collaborator Requests.</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div style=\"color: rgb(34,34,34);\">Sincerely,<br></div><div style=\"color: rgb(34,34,34);\"><br></div><div style=\"color: rgb(34,34,34);\"><table width=\"330px\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-spacing: 0px; border-collapse: collapse; font-size: 13px; line-height: 1.2em; color: rgb(0,0,0);\"><tbody><tr><td style=\"padding: 5px 0px; border-color: rgb(204,204,204) initial; border-style: dashed initial; border-width: 1px 0px;\"><a href=\"https://madebyaura.com/schedule/ankur\" style=\"color: rgb(0,116,204);\" rel=\"noreferrer\">Click here to schedule a video call »</a></td></tr><tr><td style=\"font-size: 0px; line-height: 10px;\">&nbsp;</td></tr><tr><td><table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-spacing: 0px; border-collapse: collapse; font-size: 14px; line-height: 1.2em;\"><tbody><tr><td width=\"110\" style=\"padding-right: 10px; vertical-align: top;\" valign=\"top\"><img width=\"110\" height=\"110\" src=\"https://madebyaura.com/wp-content/uploads/email-signatures/avatar-ankur-verma.png\" style=\"display: block;\"></td><td style=\"font-size: 12px; padding-left: 10px; border-left-width: 1px; border-left-color: rgb(204,204,204); border-left-style: solid;\"><div style=\"font-size: 15px;\">Ankur Verma</div><div style=\"color: rgb(85,85,85);\">Founder &amp; Lead UI/UX Designer</div><div><a href=\"mailto:ankur@madebyaura.com\" style=\"color: rgb(0,116,204);\" rel=\"noreferrer\">ankur@madebyaura.com</a></div><br><div style=\"margin-right: 5px;\">MadeByAura</div><a href=\"https://madebyaura.com/\" style=\"color: rgb(0,116,204);\" rel=\"noreferrer\">www.madebyaura.com</a></td></tr></tbody></table></td></tr></tbody></table></div></div></div></div></div><br><div></div></div>",
+      "plain_body": "Touseef, \n  We haven't received&nbsp;the request in&nbsp;the Shopify Users dashboard. That's where we see and approve Collaborator Requests.  \n     Sincerely,\n  \n  Click here to schedule a video call »&nbsp; Ankur Verma  Founder &amp; Lead UI/UX Designer  ankur@madebyaura.com \n MadeByAura www.madebyaura.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58295499105689,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "support@madebyaura.com",
+            "name": "Ankur Verma",
+            "original_recipients": [
+              "support@madebyaura.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T06:42:31Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAG5wJS_+Nfrpr0WNgajS1RAfOKcZx-Z8LTFE43AjjLoW6oShKQ@mail.gmail.com>",
+          "email_id": "01KSHGAF3M9F9ZD423A34XSB52",
+          "raw_email_identifier": "2369120/8acd7570-0ab7-442e-b3cc-76ec33ef4d95.eml",
+          "json_email_identifier": "2369120/8acd7570-0ab7-442e-b3cc-76ec33ef4d95.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58297168429593,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Ankur,\n\nGood day!\n\nThe collaborator access has been requested to the mail ID laurasgourmet@laurasgourmet.com\n\nCould you check and grant the access and let us know once done?\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ankur,<br>&nbsp;<br>Good day!<br>&nbsp;<br>The collaborator access has been requested to the mail ID <a href=\"mailto:laurasgourmet@laurasgourmet.com\" rel=\"noreferrer\">laurasgourmet@laurasgourmet.com</a><br>&nbsp;<br>Could you check and grant the access and let us know once done?<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Ankur,\n&nbsp;\nGood day!\n&nbsp;\nThe collaborator access has been requested to the mail ID laurasgourmet@laurasgourmet.com\n&nbsp;\nCould you check and grant the access and let us know once done?\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58297168429465,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T07:20:35Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58302039863577,
+      "type": "Comment",
+      "author_id": 49383205470617,
+      "body": "Hi Sagar,\n\n\nI have approved the request. Thank you.\n\n\n\nSincerely,\n\nAnkur Verma",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Sagar,<div><br></div><div>I have approved the request. Thank you.</div><div><br></div><div>Sincerely,</div><div>Ankur Verma</div></div><br><div></div></div>",
+      "plain_body": "Hi Sagar, \n  I have approved the request. Thank you.  \n  Sincerely,  Ankur Verma",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58302039863449,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "support@madebyaura.com",
+            "name": "Ankur Verma",
+            "original_recipients": [
+              "support@madebyaura.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T09:18:34Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAG5wJS9Hm3Zrm=hhGAooeSFQeYVx7ofjYed59FbUAGxuQW=iUw@mail.gmail.com>",
+          "email_id": "01KSHS87SSSG1VQ8TRETAXP8XV",
+          "raw_email_identifier": "2369120/f2267140-a561-4d85-98f7-8398400789ef.eml",
+          "json_email_identifier": "2369120/f2267140-a561-4d85-98f7-8398400789ef.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58305457382297,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Ankur,\n\nThank you for granting access to the store.\n\nCan we get the permission to remove and readd our PH Multi Carrier app rate from the shipping zone under the shipping profile D2C CounterCool?\n\nAwaiting your permission.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ankur,<br>&nbsp;<br>Thank you for granting access to the store.<br>&nbsp;<br>Can we get the permission to remove and readd our PH Multi Carrier app rate from the shipping zone under the shipping profile D2C CounterCool?&nbsp;<br>&nbsp;<br>Awaiting your permission.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Ankur,\n&nbsp;\nThank you for granting access to the store.\n&nbsp;\nCan we get the permission to remove and readd our PH Multi Carrier app rate from the shipping zone under the shipping profile D2C CounterCool?&nbsp;\n&nbsp;\nAwaiting your permission.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58305457382169,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T11:03:24Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58305447504793,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "The product for which the rate to be checked is counter cool\n\nOnce the customer gives the permission, we need to remove and readd the app rate from the shipping profile mentioned",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">The product for which the rate to be checked is counter cool<br>&nbsp;<br>Once the customer gives the permission, we need to remove and readd the app rate from the shipping profile mentioned<br></div>",
+      "plain_body": "The product for which the rate to be checked is counter cool\n&nbsp;\nOnce the customer gives the permission, we need to remove and readd the app rate from the shipping profile mentioned",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58305492581401,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T11:04:35Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58305618760985,
+      "type": "Comment",
+      "author_id": 49383205470617,
+      "body": "Yes, please proceed.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Yes, please proceed.&nbsp;</div><br><div></div></div>",
+      "plain_body": "Yes, please proceed.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58305618760857,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "support@madebyaura.com",
+            "name": "Ankur Verma",
+            "original_recipients": [
+              "support@madebyaura.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T11:09:07Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAG5wJS9Csh0gcBqG3Sq3ncvE3GK4nEZvQ-NLF=jqNCZg_YJRxA@mail.gmail.com>",
+          "email_id": "01KSHZJNPJF6H1ADTCV66DYTDR",
+          "raw_email_identifier": "2369120/8337532f-411b-4b17-a9f9-dcdbe951b2df.eml",
+          "json_email_identifier": "2369120/8337532f-411b-4b17-a9f9-dcdbe951b2df.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58310149431321,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Ankur,\n\nThank you for the permission.\n\nWe will check further and let you know of the updates.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ankur,<br>&nbsp;<br>Thank you for the permission.&nbsp;<br>&nbsp;<br>We will check further and let you know of the updates.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Ankur,\n&nbsp;\nThank you for the permission.&nbsp;\n&nbsp;\nWe will check further and let you know of the updates.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58310149431193,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T13:48:39Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58311508047385,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Moving back to L3 -\n\nWe are able to get the request log created when checked rates for a Guam address and the automation summary is blank as the automation rule is not getting triggerred\n\nRequest Log ID - aa7bb900c0458a02804875b0b83872e4\n\nPlease check further and let us know of the updates",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving back to L3 -&nbsp;<br>&nbsp;<br>We are able to get the request log created when checked rates for a Guam address and the automation summary is blank as the automation rule is not getting triggerred<br>&nbsp;<br>Request Log ID - aa7bb900c0458a02804875b0b83872e4<br>&nbsp;<br>Please check further and let us know of the updates<br></div>",
+      "plain_body": "Moving back to L3 -&nbsp;\n&nbsp;\nWe are able to get the request log created when checked rates for a Guam address and the automation summary is blank as the automation rule is not getting triggerred\n&nbsp;\nRequest Log ID - aa7bb900c0458a02804875b0b83872e4\n&nbsp;\nPlease check further and let us know of the updates",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58311508047257,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T14:44:45Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58333346684569,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "This needs a fix. Will be considered for next cycle. Kindly help merchant configure flat rate for Guam in Shopify for the timebeing.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This needs a fix. Will be considered for next cycle. Kindly help merchant configure flat rate for Guam in Shopify for the timebeing.<br>[Veena]<br></div>",
+      "plain_body": "This needs a fix. Will be considered for next cycle. Kindly help merchant configure flat rate for Guam in Shopify for the timebeing.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58333346684441,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T05:25:44Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58335494551705,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Ankur,\n\nWe have an update on the case.\n\nA resolution is needed to resolve the case and it would be available in two weeks.\n\nSo, for time being, you can create separate zone in shopify for Guam and Marshall Islands and add the flat rate in shopify and show them at the checkout.\n\nWe will let you know of the updates.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ankur,<br>&nbsp;<br>We have an update on the case.&nbsp;<br>&nbsp;<br>A resolution is needed to resolve the case and it would be available in two weeks.&nbsp;<br>&nbsp;<br>So, for time being, you can create separate zone in shopify for Guam and Marshall Islands and add the flat rate in shopify and show them at the checkout.&nbsp;<br>&nbsp;<br>We will let you know of the updates.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Ankur,\n&nbsp;\nWe have an update on the case.&nbsp;\n&nbsp;\nA resolution is needed to resolve the case and it would be available in two weeks.&nbsp;\n&nbsp;\nSo, for time being, you can create separate zone in shopify for Guam and Marshall Islands and add the flat rate in shopify and show them at the checkout.&nbsp;\n&nbsp;\nWe will let you know of the updates.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58335494551577,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T06:20:03Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58336550179481,
+      "type": "Comment",
+      "author_id": 49383205470617,
+      "body": "Thank you, Sagar.\n\n\nFYI, we have disabled the $20 flat rate automation rule and removed the shipping zone from the $15 rule. It will help us offer the $15 rate to all destinations until resolve the issue.\n\n\n\nSincerely,\n\nAnkur",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Thank you, Sagar.<div><br></div><div>FYI, we <span style=\"background-image: none; border-style: none;\">have </span>disabled the $20 flat rate automation rule and removed the shipping zone from the $15 rule. It will help us offer the $15 rate to all destinations <span style=\"background-image: none; border-style: none;\">until</span> resolve the issue.</div><div><br></div><div>Sincerely,</div><div>Ankur</div></div><br><div></div></div>",
+      "plain_body": "Thank you, Sagar. \n  FYI, we have disabled the $20 flat rate automation rule and removed the shipping zone from the $15 rule. It will help us offer the $15 rate to all destinations until resolve the issue.  \n  Sincerely,  Ankur",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58336550179353,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "support@madebyaura.com",
+            "name": "Ankur Verma",
+            "original_recipients": [
+              "support@madebyaura.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T06:49:24Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAG5wJS88Qje0nhxq18=vExZZb3oFp2i1E7GZzBo2sqy325u8yw@mail.gmail.com>",
+          "email_id": "01KSM33SPKEDR4M8Q5M95SD96D",
+          "raw_email_identifier": "2369120/ff7b556f-e6e6-4c47-b4b3-015aa89be4d4.eml",
+          "json_email_identifier": "2369120/ff7b556f-e6e6-4c47-b4b3-015aa89be4d4.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58336630160793,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Ankur,\n\nSure!\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ankur,<br>&nbsp;<br>Sure!<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Ankur,\n&nbsp;\nSure!\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58336630160665,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T06:51:03Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

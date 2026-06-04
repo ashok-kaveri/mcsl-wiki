@@ -1,0 +1,2843 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/389508.json",
+    "id": 389508,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "info@dermahealer.com",
+          "name": "Arunas"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-05-13T10:17:22Z",
+    "updated_at": "2026-05-26T14:22:14Z",
+    "generated_timestamp": 1779805334,
+    "type": null,
+    "subject": "Re: Reminder: FedEx REST API Migration for PH Multi Carrier Shipping Label App",
+    "raw_subject": "Re: Reminder: FedEx REST API Migration for PH Multi Carrier Shipping Label App",
+    "description": "Hi PluginHive Support Team,\n\nShopify Store URL: dermahealer.co.uk\nFedEx Account Number: 874939153\n\nI am writing to get assistance regarding our FedEx migration from the\nlegacy SOAP API to the new REST API inside your Shopify app for\ndermahealer.co.uk\n\nI have strictly followed your official troubleshooting instructions,\nbut I am still stuck. I click the register button immediately after\nentering my details, and the app displays a \"Registration Failed\"\nerror before proceeding any further.\n\nHere is exactly what I have already done to troubleshoot:\n\nDisabled Legacy Account: I disabled our old FedEx SOAP account inside\nthe app configuration to prevent conflicts.\nMatched FedEx Profile Data: I verified and entered our company name\nand address details exactly as they appear under the \"FedEx Contact\nInformation\" section in our portal.\nChecked Billing Data: I also cross-referenced and tried the exact\nformatting listed under \"FedEx Accounts & Payments\" to ensure zero\ncharacter mismatches.\nChecked Formatting: I confirmed there are no extra trailing spaces and\nthat the text fits standard API limitations.\n\nDespite these steps, the validation handshake continues to fail at the\nexact same step.\n\nCould you please check your backend logs for our Shopify store to see\nthe exact error response being returned by the FedEx REST gateway? P\nlease let me know how we can get this bypassed or manually authenticated.\n\nThank you, and I look forward to your prompt response.\n\nBest regards,\nArunas Druktenis\n\n\nOn Mon, May 11, 2026 at 10:22 AM Manvi <manvimeshram@pluginhive.com> wrote:\n>\n> Hi Arunas,\n>\n> I wanted to send a quick reminder regarding the FedEx Web Services Retirement that began on April 1, 2026. While the migration process is already underway, we have secured an extension for our customers until June 1, 2026.\n>\n> If your Shopify app — “PH Multi Carrier Shipping Label” — has not yet been migrated to FedEx REST APIs, your FedEx shipping rates, label generation, and tracking services may be impacted once the transition is fully enforced.\n>\n> Steps to Complete the Migration:\n>\n> Open your Shopify app settings\n> Complete the FedEx REST API registration using your FedEx account details\n> Verify your account via SMS, email, phone, invoice, or Help Desk\n> Your new credentials will be configured automatically\n> Run a quick test to confirm everything is working\n>\n> Please refer to the YouTube Tutorial walk through for step-by-step guidance during the migration process.\n>\n> If you encounter any issues or need assistance at any stage, simply reply to this email or contact us at support@pluginhive.com\n>\n> Best regards,\n> Manvi M | Partnerships Executive\n> The PluginHive Team\n> FedEx Certified Compatible Solution Provider\n>\n> If you have already completed the migration, please ignore this email.",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 15564246995609,
+    "submitter_id": 15564246995609,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      51794070621593,
+      903409790923
+    ],
+    "follower_ids": [
+      51794070621593,
+      903409790923
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "high_agent_replies",
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "dermahealer-com.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "6a0a8998f321479c9a28d727"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "VEEY4Y-LRNNL",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "dermahealer-com.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "6a0a8998f321479c9a28d727"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57881592601497,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Hi PluginHive Support Team,\n\nShopify Store URL: dermahealer.co.uk\nFedEx Account Number: 874939153\n\nI am writing to get assistance regarding our FedEx migration from the\nlegacy SOAP API to the new REST API inside your Shopify app for\ndermahealer.co.uk\n\nI have strictly followed your official troubleshooting instructions,\nbut I am still stuck. I click the register button immediately after\nentering my details, and the app displays a \"Registration Failed\"\nerror before proceeding any further.\n\nHere is exactly what I have already done to troubleshoot:\n\nDisabled Legacy Account: I disabled our old FedEx SOAP account inside\nthe app configuration to prevent conflicts.\nMatched FedEx Profile Data: I verified and entered our company name\nand address details exactly as they appear under the \"FedEx Contact\nInformation\" section in our portal.\nChecked Billing Data: I also cross-referenced and tried the exact\nformatting listed under \"FedEx Accounts & Payments\" to ensure zero\ncharacter mismatches.\nChecked Formatting: I confirmed there are no extra trailing spaces and\nthat the text fits standard API limitations.\n\nDespite these steps, the validation handshake continues to fail at the\nexact same step.\n\nCould you please check your backend logs for our Shopify store to see\nthe exact error response being returned by the FedEx REST gateway? P\nlease let me know how we can get this bypassed or manually authenticated.\n\nThank you, and I look forward to your prompt response.\n\nBest regards,\nArunas Druktenis\n\nOn Mon, May 11, 2026 at 10:22 AM Manvi <manvimeshram@pluginhive.com> wrote:\n>\n> Hi Arunas,\n>\n> I wanted to send a quick reminder regarding the FedEx Web Services Retirement that began on April 1, 2026. While the migration process is already underway, we have secured an extension for our customers until June 1, 2026.\n>\n> If your Shopify app — “PH Multi Carrier Shipping Label” — has not yet been migrated to FedEx REST APIs, your FedEx shipping rates, label generation, and tracking services may be impacted once the transition is fully enforced.\n>\n> Steps to Complete the Migration:\n>\n> Open your Shopify app settings\n> Complete the FedEx REST API registration using your FedEx account details\n> Verify your account via SMS, email, phone, invoice, or Help Desk\n> Your new credentials will be configured automatically\n> Run a quick test to confirm everything is working\n>\n> Please refer to the YouTube Tutorial walk through for step-by-step guidance during the migration process.\n>\n> If you encounter any issues or need assistance at any stage, simply reply to this email or contact us at support@pluginhive.com\n>\n> Best regards,\n> Manvi M | Partnerships Executive\n> The PluginHive Team\n> FedEx Certified Compatible Solution Provider\n>\n> If you have already completed the migration, please ignore this email.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hi PluginHive Support Team,</p>\n\n<p dir=\"auto\">Shopify Store URL: dermahealer.co.uk\n<br>FedEx Account Number: 874939153</p>\n\n<p dir=\"auto\">I am writing to get assistance regarding our FedEx migration from the\n<br>legacy SOAP API to the new REST API inside your Shopify app for\n<br>dermahealer.co.uk</p>\n\n<p dir=\"auto\">I have strictly followed your official troubleshooting instructions,\n<br>but I am still stuck. I click the register button immediately after\n<br>entering my details, and the app displays a \"Registration Failed\"\n<br>error before proceeding any further.</p>\n\n<p dir=\"auto\">Here is exactly what I have already done to troubleshoot:</p>\n\n<p dir=\"auto\">Disabled Legacy Account: I disabled our old FedEx SOAP account inside\n<br>the app configuration to prevent conflicts.\n<br>Matched FedEx Profile Data: I verified and entered our company name\n<br>and address details exactly as they appear under the \"FedEx Contact\n<br>Information\" section in our portal.\n<br>Checked Billing Data: I also cross-referenced and tried the exact\n<br>formatting listed under \"FedEx Accounts &amp; Payments\" to ensure zero\n<br>character mismatches.\n<br>Checked Formatting: I confirmed there are no extra trailing spaces and\n<br>that the text fits standard API limitations.</p>\n\n<p dir=\"auto\">Despite these steps, the validation handshake continues to fail at the\n<br>exact same step.</p>\n\n<p dir=\"auto\">Could you please check your backend logs for our Shopify store to see\n<br>the exact error response being returned by the FedEx REST gateway? P\n<br>lease let me know how we can get this bypassed or manually authenticated.</p>\n\n<p dir=\"auto\">Thank you, and I look forward to your prompt response.</p>\n\n<p dir=\"auto\">Best regards,\n<br>Arunas Druktenis</p>\n\n<p dir=\"auto\">On Mon, May 11, 2026 at 10:22 AM Manvi &lt;<a href=\"mailto:manvimeshram@pluginhive.com\" rel=\"noreferrer\">manvimeshram@pluginhive.com</a>&gt; wrote:\n<br>&gt;\n<br>&gt; Hi Arunas,\n<br>&gt;\n<br>&gt; I wanted to send a quick reminder regarding the FedEx Web Services Retirement that began on April 1, 2026. While the migration process is already underway, we have secured an extension for our customers until June 1, 2026.\n<br>&gt;\n<br>&gt; If your Shopify app — “PH Multi Carrier Shipping Label” — has not yet been migrated to FedEx REST APIs, your FedEx shipping rates, label generation, and tracking services may be impacted once the transition is fully enforced.\n<br>&gt;\n<br>&gt; Steps to Complete the Migration:\n<br>&gt;\n<br>&gt; Open your Shopify app settings\n<br>&gt; Complete the FedEx REST API registration using your FedEx account details\n<br>&gt; Verify your account via SMS, email, phone, invoice, or Help Desk\n<br>&gt; Your new credentials will be configured automatically\n<br>&gt; Run a quick test to confirm everything is working\n<br>&gt;\n<br>&gt; Please refer to the YouTube Tutorial walk through for step-by-step guidance during the migration process.\n<br>&gt;\n<br>&gt; If you encounter any issues or need assistance at any stage, simply reply to this email or contact us at <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a>\n<br>&gt;\n<br>&gt; Best regards,\n<br>&gt; Manvi M | Partnerships Executive\n<br>&gt; The PluginHive Team\n<br>&gt; FedEx Certified Compatible Solution Provider\n<br>&gt;\n<br>&gt; If you have already completed the migration, please ignore this email.</p></div>",
+      "plain_body": "Hi PluginHive Support Team, \n\n Shopify Store URL: dermahealer.co.uk\n\nFedEx Account Number: 874939153 \n\n I am writing to get assistance regarding our FedEx migration from the\n\nlegacy SOAP API to the new REST API inside your Shopify app for\n\ndermahealer.co.uk \n\n I have strictly followed your official troubleshooting instructions,\n\nbut I am still stuck. I click the register button immediately after\n\nentering my details, and the app displays a \"Registration Failed\"\n\nerror before proceeding any further. \n\n Here is exactly what I have already done to troubleshoot: \n\n Disabled Legacy Account: I disabled our old FedEx SOAP account inside\n\nthe app configuration to prevent conflicts.\n\nMatched FedEx Profile Data: I verified and entered our company name\n\nand address details exactly as they appear under the \"FedEx Contact\n\nInformation\" section in our portal.\n\nChecked Billing Data: I also cross-referenced and tried the exact\n\nformatting listed under \"FedEx Accounts &amp; Payments\" to ensure zero\n\ncharacter mismatches.\n\nChecked Formatting: I confirmed there are no extra trailing spaces and\n\nthat the text fits standard API limitations. \n\n Despite these steps, the validation handshake continues to fail at the\n\nexact same step. \n\n Could you please check your backend logs for our Shopify store to see\n\nthe exact error response being returned by the FedEx REST gateway? P\n\nlease let me know how we can get this bypassed or manually authenticated. \n\n Thank you, and I look forward to your prompt response. \n\n Best regards,\n\nArunas Druktenis \n\n On Mon, May 11, 2026 at 10:22 AM Manvi &lt;manvimeshram@pluginhive.com&gt; wrote:\n\n&gt;\n\n&gt; Hi Arunas,\n\n&gt;\n\n&gt; I wanted to send a quick reminder regarding the FedEx Web Services Retirement that began on April 1, 2026. While the migration process is already underway, we have secured an extension for our customers until June 1, 2026.\n\n&gt;\n\n&gt; If your Shopify app — “PH Multi Carrier Shipping Label” — has not yet been migrated to FedEx REST APIs, your FedEx shipping rates, label generation, and tracking services may be impacted once the transition is fully enforced.\n\n&gt;\n\n&gt; Steps to Complete the Migration:\n\n&gt;\n\n&gt; Open your Shopify app settings\n\n&gt; Complete the FedEx REST API registration using your FedEx account details\n\n&gt; Verify your account via SMS, email, phone, invoice, or Help Desk\n\n&gt; Your new credentials will be configured automatically\n\n&gt; Run a quick test to confirm everything is working\n\n&gt;\n\n&gt; Please refer to the YouTube Tutorial walk through for step-by-step guidance during the migration process.\n\n&gt;\n\n&gt; If you encounter any issues or need assistance at any stage, simply reply to this email or contact us at support@pluginhive.com\n\n&gt;\n\n&gt; Best regards,\n\n&gt; Manvi M | Partnerships Executive\n\n&gt; The PluginHive Team\n\n&gt; FedEx Certified Compatible Solution Provider\n\n&gt;\n\n&gt; If you have already completed the migration, please ignore this email.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57881592601369,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "manvimeshram@pluginhive.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T10:17:22Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=LkbtNtgDkaCoCjFoXs6Foa44DJKnWdcGGhRhGUB2OKcmh+Q@mail.gmail.com>",
+          "email_id": "01KRGDEHT3QQMMNY2WF3B45MA4",
+          "raw_email_identifier": "2369120/0da00dc8-aeab-45fe-a71b-ed1b096ac9f6.eml",
+          "json_email_identifier": "2369120/0da00dc8-aeab-45fe-a71b-ed1b096ac9f6.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57881773779865,
+      "type": "Comment",
+      "author_id": 51794070621593,
+      "body": "Hi Arunas, \n\nThank you outlining issues you faced. \n\nOur support team will reach out to you shortly and help you migrate the store.\n\nThank you for your patience and understanding.\n\nBest Regards,\nManvi M\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hi Arunas, </p>\n\n<p dir=\"auto\">Thank you outlining issues you faced. </p>\n\n<p dir=\"auto\">Our support team will reach out to you shortly and help you migrate the store.</p>\n\n<p dir=\"auto\">Thank you for your patience and understanding.</p>\n\n<p dir=\"auto\">Best Regards,\n<br>Manvi M\n<br>PluginHive</p></div>",
+      "plain_body": "Hi Arunas,  \n\n Thank you outlining issues you faced.  \n\n Our support team will reach out to you shortly and help you migrate the store. \n\n Thank you for your patience and understanding. \n\n Best Regards,\n\nManvi M\n\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57881751353753,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "manvimeshram@pluginhive.com",
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T10:22:35Z",
+      "metadata": {
+        "system": {
+          "message_id": "<D67259F2-1E3E-4662-BFDF-70102B993A83@pluginhive.com>",
+          "client": "Apple Mail (2.3696.120.41.1.10)",
+          "email_id": "01KRGDR3816PD01NMY5KG8TAD3",
+          "raw_email_identifier": "2369120/38013871-b130-498a-b434-a5a8cfcbbafa.eml",
+          "json_email_identifier": "2369120/38013871-b130-498a-b434-a5a8cfcbbafa.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          15564246995609
+        ]
+      }
+    },
+    {
+      "id": 57884260543001,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nThank you for reaching out with your query.\n\nThe Registration will not go through if you had made 3 unsuccessful attempts as FedEx API will block new registration attempts.\n\nPlease wait for 24 hours from the time of the last attempt and try registering again.\n\nKeep us informed of the progress so that we can assist you as needed.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for reaching out with your query.<br>&nbsp;<br>The Registration will not go through if you had made 3 unsuccessful attempts as FedEx API will block new registration attempts.<br>&nbsp;<br>Please wait for 24 hours from the time of the last attempt and try registering again.<br>&nbsp;<br>Keep us informed of the progress so that we can assist you as needed.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for reaching out with your query.\n&nbsp;\nThe Registration will not go through if you had made 3 unsuccessful attempts as FedEx API will block new registration attempts.\n&nbsp;\nPlease wait for 24 hours from the time of the last attempt and try registering again.\n&nbsp;\nKeep us informed of the progress so that we can assist you as needed.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57884260542873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T11:54:45Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57884254774937,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Lithuania Store.\nOrders - 104\nLabels - 85 in May\nRates - No\nActive from 2023-02-14",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Lithuania Store.<br>Orders - 104<br>Labels - 85 in May<br>Rates - No<br>Active from 2023-02-14<br></div>",
+      "plain_body": "Lithuania Store.\nOrders - 104\nLabels - 85 in May\nRates - No\nActive from 2023-02-14",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57884238081945,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T11:56:10Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57884690536345,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Hi,\n\n\n\nthanks for reply. I do not know the reason why registration failed.\n\nNext time it will be the same unless I know what is wrong.\n\nWhat info should I use from Fedex website for registration.\n\nSee attached screenshot.\n\n\n\nThanks\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi,</div><div><br></div><div>thanks for reply. I do not know the reason why registration failed.</div><div>Next time it will be the same unless I know what is wrong.</div><div>What info should I use from Fedex website for registration.</div><div>See attached screenshot.&nbsp;</div><div><br></div><div>Thanks</div><div>Arunas</div></div><br><div></div></div>",
+      "plain_body": "Hi,  \n  thanks for reply. I do not know the reason why registration failed.  Next time it will be the same unless I know what is wrong.  What info should I use from Fedex website for registration.  See attached screenshot.&nbsp;  \n  Thanks  Arunas",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57884690537881.json",
+          "id": 57884690537881,
+          "file_name": "fedex.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/CwrYRYErBVo8TlKNCR2p6dZrF/?name=fedex.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/CwrYRYErBVo8TlKNCR2p6dZrF/?name=fedex.png",
+          "content_type": "image/png",
+          "size": 141331,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57884733241497.json",
+              "id": 57884733241497,
+              "file_name": "fedex_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/HntYk6faPtqPFyQ2KuMmYVL9R/?name=fedex_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/HntYk6faPtqPFyQ2KuMmYVL9R/?name=fedex_thumb.png",
+              "content_type": "image/png",
+              "size": 1735,
+              "width": 80,
+              "height": 32,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 57884690536217,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T12:11:25Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=LkbsP9SfR3rXGn80w+sk7=5TXmR=cDAtJ4zFsZUdupAQGZQ@mail.gmail.com>",
+          "email_id": "01KRGKZBJ1HBRVWR27HZ8T1EBG",
+          "raw_email_identifier": "2369120/136c6960-a9dd-40c9-b990-4bd5f42b7c9d.eml",
+          "json_email_identifier": "2369120/136c6960-a9dd-40c9-b990-4bd5f42b7c9d.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57885094664345,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nYou are on the correct page for the information.\n\nI would also like to clarify that even if the information you are providing is correct, FedEx will not allow the registration due to previous incorrect attempts.\n\nPlease try only once after 24 hours using the details and let us know how it goes.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>You are on the correct page for the information.<br>&nbsp;<br>I would also like to clarify that even if the information you are providing is correct, FedEx will not allow the registration due to previous incorrect attempts.<br>&nbsp;<br>Please try only once after 24 hours using the details and let us know how it goes.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nYou are on the correct page for the information.\n&nbsp;\nI would also like to clarify that even if the information you are providing is correct, FedEx will not allow the registration due to previous incorrect attempts.\n&nbsp;\nPlease try only once after 24 hours using the details and let us know how it goes.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57885094664217,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T12:26:37Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57885146672793,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Thanks, I understand about 3 attempts.\n\nBut all 3 attempts were made with the correct information entered.\n\nSo tomorrow will be the same issue.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Thanks, I understand about 3 attempts.</div><div>But all 3 attempts were made with the correct information entered.&nbsp;</div><div>So tomorrow will be the same issue.</div></div><br><div></div></div>",
+      "plain_body": "Thanks, I understand about 3 attempts.  But all 3 attempts were made with the correct information entered.&nbsp;  So tomorrow will be the same issue.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57885146672665,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T12:28:23Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=LkbvcWJZHyF4+gt00kkHKZrLjPsRTNi3f6S4Ngv5=v5oL8g@mail.gmail.com>",
+          "email_id": "01KRGMYEES8VJ239E0N3RE23NY",
+          "raw_email_identifier": "2369120/2461f8c5-3a96-4281-9b5e-395d42d27da8.eml",
+          "json_email_identifier": "2369120/2461f8c5-3a96-4281-9b5e-395d42d27da8.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57885613307545,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nThank you for your response.\n\nPreviously, you had successfully registered your FedEx Account with our app using the following address details -\n**V. Nageviciaus 3, Vilnius, 08237, Lithuania**\n\nIf nothing has changed with your account like the registered billing address, then this address details should work in adding your account again.\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Previously, you had successfully registered your FedEx Account with our app using the following address details -&nbsp;<br><strong>V. Nageviciaus 3, Vilnius, 08237, Lithuania</strong><br>&nbsp;<br>If nothing has changed with your account like the registered billing address, then this address details should work in adding your account again.<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for your response.\n&nbsp;\nPreviously, you had successfully registered your FedEx Account with our app using the following address details -&nbsp;\nV. Nageviciaus 3, Vilnius, 08237, Lithuania\n&nbsp;\nIf nothing has changed with your account like the registered billing address, then this address details should work in adding your account again.\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57885613307417,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T12:51:15Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57885662486169,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Yes, correct.\n\nI used the same details for REST API as well.\n\nWill try again tomorrow.\n\nIf still error, I can give access to store for you to check yourself.\n\n\n\nThanks\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Yes, correct.</div><div>I used the same details for REST API as well.</div><div>Will try again tomorrow.<br></div><div>If still error, I can give access to store for you to check yourself.</div><div><br></div><div>Thanks</div><div>Arunas</div></div><br><div></div></div>",
+      "plain_body": "Yes, correct.  I used the same details for REST API as well.  Will try again tomorrow.\n  If still error, I can give access to store for you to check yourself.  \n  Thanks  Arunas",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57885662486041,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T12:53:48Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=Lkbvdk-w7_MToEG4gF8u7SaKevMKdi423orBJJ9duvG=w9A@mail.gmail.com>",
+          "email_id": "01KRGPCZSXRTDRNNXZ3Q7ZCWR0",
+          "raw_email_identifier": "2369120/c51c9c4c-c3e9-4fa9-a783-d128ff96a0c5.eml",
+          "json_email_identifier": "2369120/c51c9c4c-c3e9-4fa9-a783-d128ff96a0c5.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57886293885721,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nThank you for your response.\n\nYou can provide the access if you face the same error again along with a recent FedEx Invoice so that we can try adding the account again in the app using REST on your store.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>You can provide the access if you face the same error again along with a recent FedEx Invoice so that we can try adding the account again in the app using REST on your store.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for your response.\n&nbsp;\nYou can provide the access if you face the same error again along with a recent FedEx Invoice so that we can try adding the account again in the app using REST on your store.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57886293885593,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T13:19:30Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57887246611993,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Thanks Touseef,\n\n\nI have added your email touseef@pluginhive.com to both of my stores as a user:\n\ndermahealer.com\n\ndermahealer.co.uk\n\n\nI will try re-register with Fedex again tomorrow and will let you know.\n\n\n\nThanks\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Thanks Touseef,<br><br></div><div>I have added your email <a href=\"mailto:touseef@pluginhive.com\" rel=\"noreferrer\">touseef@pluginhive.com</a> to both of my stores as a user:</div><div><a href=\"http://dermahealer.com\" rel=\"noreferrer\">dermahealer.com</a><br></div><div><a href=\"http://dermahealer.co.uk\" rel=\"noreferrer\">dermahealer.co.uk</a><br><br></div><div>I will try re-register with Fedex again tomorrow and will let you know.</div><div><br></div><div>Thanks</div><div>Arunas</div></div><br><div></div></div>",
+      "plain_body": "Thanks Touseef,\n\n  I have added your email touseef@pluginhive.com to both of my stores as a user:  dermahealer.com\n  dermahealer.co.uk\n\n  I will try re-register with Fedex again tomorrow and will let you know.  \n  Thanks  Arunas",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57887246611865,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T14:05:16Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=Lkbt0z49C+nZcQK_F5Kc9sTLt-qSDeXxbbPjeUTAZ-DFL-Q@mail.gmail.com>",
+          "email_id": "01KRGTFV2CQ87DX8GHX9JWHF10",
+          "raw_email_identifier": "2369120/1ec3462c-6e6c-4493-8d7a-af2cdbeb71be.eml",
+          "json_email_identifier": "2369120/1ec3462c-6e6c-4493-8d7a-af2cdbeb71be.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57887465240601,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "NRN as of now.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">NRN as of now.<br></div>",
+      "plain_body": "NRN as of now.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57887465240473,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T14:15:11Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57919542402073,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Needs followup after 8 PM IST.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Needs followup after 8 PM IST.<br></div>",
+      "plain_body": "Needs followup after 8 PM IST.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57919542401945,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T11:37:19Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57923415204249,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "+370 608 00 370 - Call not connected\n+37052416620 - Call not connected",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">+370 608 00 370 - Call not connected<br>+37052416620 - Call not connected<br></div>",
+      "plain_body": "+370 608 00 370 - Call not connected\n+37052416620 - Call not connected",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57923415203609,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T14:33:05Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57923509050649,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nGood Day!\n\nI am following up on this conversation to check if you were able to add your FedEx Account in the app after waiting for 24 hours.\n\nIf you have not tried, please try only once and if the registration fails again, please get back to us.\n\nAdditionally, please share a recent FedEx INVOICE for your account so that we can try adding the FedEx Account in the app on your store from our end.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>I am following up on this conversation to check if you were able to add your FedEx Account in the app after waiting for 24 hours.<br>&nbsp;<br>If you have not tried, please try only once and if the registration fails again, please get back to us.<br>&nbsp;<br>Additionally, please share a recent FedEx INVOICE for your account so that we can try adding the FedEx Account in the app on your store from our end.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nGood Day!\n&nbsp;\nI am following up on this conversation to check if you were able to add your FedEx Account in the app after waiting for 24 hours.\n&nbsp;\nIf you have not tried, please try only once and if the registration fails again, please get back to us.\n&nbsp;\nAdditionally, please share a recent FedEx INVOICE for your account so that we can try adding the FedEx Account in the app on your store from our end.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57923509050521,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T14:38:11Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57952320202137,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Hi,\n\n\n\n2 stores:\n\ndermahealer.co.uk\n\ndermahealer.com\n\n\n\nI tried to register today and got \"registration failed\" error (tried only once)\n\nPlease find attached:\n\n- latest fedex invoice\n\n- my screenshots\n\n\n\nPlease try adding the FedEx Account in the app from your end and let me know if anything else is needed from my end.\n\n\n\nThanks and regards,\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\"><div>Hi,</div><div><br></div><div>2 stores:</div><div></div><div><a href=\"http://dermahealer.co.uk\" rel=\"noreferrer\">dermahealer.co.uk</a></div><div>\n<a href=\"http://dermahealer.com\" rel=\"noreferrer\">dermahealer.com</a></div><div><br></div><div>I tried to register today and got \"registration failed\" error (tried only once)</div><div>Please find attached:</div><div>- latest fedex invoice</div><div>- my screenshots</div><div><br></div><div>Please try adding the FedEx Account in the app from your end and let me know if anything else is needed from my end.</div><div><br></div><div>Thanks and regards,</div><div>Arunas</div></div><br><div></div></div></div>",
+      "plain_body": "Hi,  \n  2 stores:   dermahealer.co.uk  \ndermahealer.com  \n  I tried to register today and got \"registration failed\" error (tried only once)  Please find attached:  - latest fedex invoice  - my screenshots  \n  Please try adding the FedEx Account in the app from your end and let me know if anything else is needed from my end.  \n  Thanks and regards,  Arunas",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57952311931417.json",
+          "id": 57952311931417,
+          "file_name": "Screenshot1.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/93WVuv1nKZTyUmQD10nKdLOd5/?name=Screenshot1.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/93WVuv1nKZTyUmQD10nKdLOd5/?name=Screenshot1.png",
+          "content_type": "image/png",
+          "size": 55996,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57952341863705.json",
+              "id": 57952341863705,
+              "file_name": "Screenshot1_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/FpB3S08FKhV93W0ptixrFY5jc/?name=Screenshot1_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/FpB3S08FKhV93W0ptixrFY5jc/?name=Screenshot1_thumb.png",
+              "content_type": "image/png",
+              "size": 1127,
+              "width": 80,
+              "height": 27,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57952311936665.json",
+          "id": 57952311936665,
+          "file_name": "Screenshot2.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/Os7Co3IfavWneLCt1XEydVALZ/?name=Screenshot2.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/Os7Co3IfavWneLCt1XEydVALZ/?name=Screenshot2.png",
+          "content_type": "image/png",
+          "size": 53854,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57952336558873.json",
+              "id": 57952336558873,
+              "file_name": "Screenshot2_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/1KRIGDBDhReusEtPXN1IbGxYo/?name=Screenshot2_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/1KRIGDBDhReusEtPXN1IbGxYo/?name=Screenshot2_thumb.png",
+              "content_type": "image/png",
+              "size": 1067,
+              "width": 80,
+              "height": 28,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57952311941273.json",
+          "id": 57952311941273,
+          "file_name": "Fedex_invoice_ 683223553.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/qACAsl5gvPMQhFufTbs4c7ut0/?name=Fedex_invoice_+683223553.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/qACAsl5gvPMQhFufTbs4c7ut0/?name=Fedex_invoice_+683223553.pdf",
+          "content_type": "application/pdf",
+          "size": 103283,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 57952320202009,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T10:11:59Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=Lkbs1_S+k87fs+=tzVggAJ7_4wkd+U7sH-wktzgJkQFO8Tg@mail.gmail.com>",
+          "email_id": "01KRNHY1EY9RQEAXR5CJZKAGZZ",
+          "raw_email_identifier": "2369120/8fbc5879-136d-4918-8858-b89a85443cf9.eml",
+          "json_email_identifier": "2369120/8fbc5879-136d-4918-8858-b89a85443cf9.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57953488100889,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nThank you for your response.\n\nI noticed 2 things on your store when I tried adding the FedEx REST Account from my end -\n- The Invoice you have shared is a VAT Invoice and not a shipping Invoice. Please share a shipping Invoice with us.\n- You are subscribed to the Basic Plan with the app on both of your stores, which offers only 1 carrier integration. Could you please confirm if you have recently changed the subscription plan in the app and subscribed to Basic Plan? As you are on Basic Plan now, we are not able to add additional accounts in the app on your store.\n\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>I noticed 2 things on your store when I tried adding the FedEx REST Account from my end -<br><ul dir=\"auto\"><li>The Invoice you have shared is a VAT Invoice and not a shipping Invoice. Please share a shipping Invoice with us.</li><li>You are subscribed to the Basic Plan with the app on both of your stores, which offers only 1 carrier integration. Could you please confirm if you have recently changed the subscription plan in the app and subscribed to Basic Plan? As you are on Basic Plan now, we are not able to add additional accounts in the app on your store.</li></ul>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for your response.\n&nbsp;\nI noticed 2 things on your store when I tried adding the FedEx REST Account from my end -\n  The Invoice you have shared is a VAT Invoice and not a shipping Invoice. Please share a shipping Invoice with us.  You are subscribed to the Basic Plan with the app on both of your stores, which offers only 1 carrier integration. Could you please confirm if you have recently changed the subscription plan in the app and subscribed to Basic Plan? As you are on Basic Plan now, we are not able to add additional accounts in the app on your store.  &nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57953488100761,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T10:51:19Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57954294911897,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Hi,  Touseef,\n\n\n\n1) Fedex shipping invoice attached.\n\n2) We have not made any changes in our subscription since we started using your app. We always had at least 2 carriers enabled (DHL and Fedex).\n\nWe have never experienced any issues using 2 carriers.\n\n\n\nThanks\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\"><div>Hi,&nbsp;\nTouseef,</div><div><br></div><div>1) Fedex shipping invoice attached.</div><div>2) We have not made any changes in our subscription since we started using your app. We always had at least 2 carriers enabled (DHL and Fedex).<br></div><div>We have never experienced any issues using 2 carriers.</div><div><br></div><div>Thanks</div><div>Arunas</div><br></div><div dir=\"ltr\"><br></div><br><div></div></div></div>",
+      "plain_body": "Hi,&nbsp;\nTouseef,  \n  1) Fedex shipping invoice attached.  2) We have not made any changes in our subscription since we started using your app. We always had at least 2 carriers enabled (DHL and Fedex).\n  We have never experienced any issues using 2 carriers.  \n  Thanks  Arunas",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57954274896537.json",
+          "id": 57954274896537,
+          "file_name": "683222889_copy.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/dnnEJA1K3Bpzl7Rsk340Kjj19/?name=683222889_copy.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/dnnEJA1K3Bpzl7Rsk340Kjj19/?name=683222889_copy.pdf",
+          "content_type": "application/pdf",
+          "size": 1072972,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 57954294911769,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T11:21:13Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=Lkbtv70ZMycf=N8hs8cm72wXoduCXUd5SxOSs5uqbvYH4ug@mail.gmail.com>",
+          "email_id": "01KRNNWTABCY8G1SKXDHWPJFJA",
+          "raw_email_identifier": "2369120/cae9338e-5eae-481e-ad0b-c01982f43d1c.eml",
+          "json_email_identifier": "2369120/cae9338e-5eae-481e-ad0b-c01982f43d1c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57955120277657,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nThank you for your response and sharing the Invoice.\n\nWe can observe that you have 3 integrations available in the app on your store, out of which one FedEx is not being used. Can we remove this integration and try adding the FedEx REST account again?\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for your response and sharing the Invoice.<br>&nbsp;<br>We can observe that you have 3 integrations available in the app on your store, out of which one FedEx is not being used. Can we remove this integration and try adding the FedEx REST account again?<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for your response and sharing the Invoice.\n&nbsp;\nWe can observe that you have 3 integrations available in the app on your store, out of which one FedEx is not being used. Can we remove this integration and try adding the FedEx REST account again?\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57955120277529,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T11:53:25Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57955267760281,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Yes, you can try it. It is our spare Fedex account, not used at the moment. But it should not be causing a problem in my opinion. Something wrong on Fedex side.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Yes, you can try it. It is our spare Fedex account, not used at the moment. But it should not be causing a problem in my opinion. Something wrong on Fedex side.&nbsp;</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br><div dir=\"auto\"></div></div></div>",
+      "plain_body": "Yes, you can try it. It is our spare Fedex account, not used at the moment. But it should not be causing a problem in my opinion. Something wrong on Fedex side.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57955267760153,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T11:58:44Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=LkbvQBzAt2ck1_Kp23=Fbcs+99OV3BBWk_d-EQpmtojmR3Q@mail.gmail.com>",
+          "email_id": "01KRNR1K5QY967K4H2S25TTEJM",
+          "raw_email_identifier": "2369120/fc8eb769-ceb5-454d-abfd-931890129629.eml",
+          "json_email_identifier": "2369120/fc8eb769-ceb5-454d-abfd-931890129629.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57955641928857,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nThank you for your response.\n\nPlease allow us some time to check your case further and we will update you soon.\n\nIn the meantime, you can continue using the existing integration for FedEx for your requirements.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Please allow us some time to check your case further and we will update you soon.<br>&nbsp;<br>In the meantime, you can continue using the existing integration for FedEx for your requirements.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for your response.\n&nbsp;\nPlease allow us some time to check your case further and we will update you soon.\n&nbsp;\nIn the meantime, you can continue using the existing integration for FedEx for your requirements.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57955641928729,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T12:13:29Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57955954190361,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1778847898801819\n\nLithuania Customer using MCSL-S on 2 stores dermahealer-com.myshopify.com and dermahealer-uk.myshopify.com\nCustomer is active from 2021 in one store and 2023 on another. He is on Basic Plan on both stores.\nCustomer is using 3 accounts (2 active and 1 inactive) on both stores without any difficulties.\nCustomer is now trying to add the FedEx Account using REST in the app but the integration is not going through due to plan limitation.\nWe have verified that the details being provided are correct.\nCould you please enable the app on customer store with another integration slot, so that we can add the FedEx REST Account without disturbing the current setup?\n\nURL - dermahealer-com.myshopify.com\nAccount ID - 0cf46b3a-562f-410c-b9fd-786152020248\n\nURL - dermahealer-uk.myshopify.com\nAccount ID - 2ec92218-e5ba-4300-a9c8-99b863c1e820",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1778847898801819\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1778847898801819</a><br>&nbsp;<br>Lithuania Customer using MCSL-S on 2 stores <a rel=\"noopener noreferrer\" href=\"http://dermahealer-com.myshopify.com\">dermahealer-com.myshopify.com</a> and <a rel=\"noopener noreferrer\" href=\"http://dermahealer-uk.myshopify.com\">dermahealer-uk.myshopify.com</a>&nbsp;<br>Customer is active from 2021 in one store and 2023 on another. He is on Basic Plan on both stores.<br>Customer is using 3 accounts (2 active and 1 inactive) on both stores without any difficulties.<br>Customer is now trying to add the FedEx Account using REST in the app but the integration is not going through due to plan limitation.<br>We have verified that the details being provided are correct.<br>Could you please enable the app on customer store with another integration slot, so that we can add the FedEx REST Account without disturbing the current setup?<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://dermahealer-com.myshopify.com\">dermahealer-com.myshopify.com</a><br>Account ID - 0cf46b3a-562f-410c-b9fd-786152020248<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://dermahealer-uk.myshopify.com\">dermahealer-uk.myshopify.com</a>&nbsp;<br>Account ID - 2ec92218-e5ba-4300-a9c8-99b863c1e820<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1778847898801819\n&nbsp;\nLithuania Customer using MCSL-S on 2 stores dermahealer-com.myshopify.com and dermahealer-uk.myshopify.com&nbsp;\nCustomer is active from 2021 in one store and 2023 on another. He is on Basic Plan on both stores.\nCustomer is using 3 accounts (2 active and 1 inactive) on both stores without any difficulties.\nCustomer is now trying to add the FedEx Account using REST in the app but the integration is not going through due to plan limitation.\nWe have verified that the details being provided are correct.\nCould you please enable the app on customer store with another integration slot, so that we can add the FedEx REST Account without disturbing the current setup?\n&nbsp;\nURL - dermahealer-com.myshopify.com\nAccount ID - 0cf46b3a-562f-410c-b9fd-786152020248\n&nbsp;\nURL - dermahealer-uk.myshopify.com&nbsp;\nAccount ID - 2ec92218-e5ba-4300-a9c8-99b863c1e820",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57955700436377.json",
+          "id": 57955700436377,
+          "file_name": "dermahealer - 3 carriers.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/LjtfZfjdG6O6NlvBCPiQIPZNI/?name=dermahealer+-+3+carriers.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/LjtfZfjdG6O6NlvBCPiQIPZNI/?name=dermahealer+-+3+carriers.png",
+          "content_type": "image/png",
+          "size": 639240,
+          "width": 2878,
+          "height": 1440,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57955673888409.json",
+              "id": 57955673888409,
+              "file_name": "dermahealer_-_3_carriers_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/s72mRYoKcVm6z9InSetPbFI02/?name=dermahealer_-_3_carriers_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/s72mRYoKcVm6z9InSetPbFI02/?name=dermahealer_-_3_carriers_thumb.png",
+              "content_type": "image/png",
+              "size": 11054,
+              "width": 80,
+              "height": 40,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 57955954190233,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T12:25:23Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57955975385113,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Ok, noted. Many thanks!",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Ok, noted. Many thanks!</div><div dir=\"auto\"><br><div dir=\"auto\"></div></div></div>",
+      "plain_body": "Ok, noted. Many thanks!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57955975384985,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T12:28:11Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=Lkbt74H-yVGZ_g0o=qHL+JgqhuKK9szLW0Ys9TWKQV7QQrw@mail.gmail.com>",
+          "email_id": "01KRNSQFS83BKTRDS509W19VM3",
+          "raw_email_identifier": "2369120/f524f1e9-100c-45fe-9fc0-71f17a504935.eml",
+          "json_email_identifier": "2369120/f524f1e9-100c-45fe-9fc0-71f17a504935.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58033519430425,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Plan updated for both stores.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Plan updated for both stores.<br>[Veena]<br></div>",
+      "plain_body": "Plan updated for both stores.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58033519430297,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-18T05:02:14Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58048918172185,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Back to L3:\n\nWe are not able to add the FedEx REST Account still.\nIt is because of number of carrier limit as I have confirmed that the details being used are correct for adding the account.\nPlease check once again.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Back to L3:<br>&nbsp;<br>We are not able to add the FedEx REST Account still.<br>It is because of number of carrier limit as I have confirmed that the details being used are correct for adding the account.<br>Please check once again.<br></div>",
+      "plain_body": "Back to L3:\n&nbsp;\nWe are not able to add the FedEx REST Account still.\nIt is because of number of carrier limit as I have confirmed that the details being used are correct for adding the account.\nPlease check once again.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58048918172057,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-18T12:19:45Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58049515962137,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nThank you for your patience.\n\nWe have added the FedEx REST Account in both your stores and updated the automation rules to use the new integration.\n\nI request you to please review the setup and make sure that it is identical to your old integration. Once done, please process a new order and let us know if everything is working okay.\n\nIf you need any assistance, please feel free to reach out.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We have added the FedEx REST Account in both your stores and updated the automation rules to use the new integration.<br>&nbsp;<br>I request you to please review the setup and make sure that it is identical to your old integration. Once done, please process a new order and let us know if everything is working okay.<br>&nbsp;<br>If you need any assistance, please feel free to reach out.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe have added the FedEx REST Account in both your stores and updated the automation rules to use the new integration.\n&nbsp;\nI request you to please review the setup and make sure that it is identical to your old integration. Once done, please process a new order and let us know if everything is working okay.\n&nbsp;\nIf you need any assistance, please feel free to reach out.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58049515962009,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-18T12:46:58Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58049510667929,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Veena informed that the changes are now made and additional account can be added.\nSuccessfully migrated on both stores.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Veena informed that the changes are now made and additional account can be added.<br>Successfully migrated on both stores.<br></div>",
+      "plain_body": "Veena informed that the changes are now made and additional account can be added.\nSuccessfully migrated on both stores.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58049533752345,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-18T12:47:33Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58055664302745,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Hello, Touseef,\n\n\n\nmany thanks for adding FedEx Rest account.\n\nI run a few tests in dermahealer.com and noticed several problems so far.\n\n\n\n1) There is something wrong with the address formatting. Street name and number always printed twice.\n\n- See label attached\n\n- See screenshot of address correction window\n\nThis was never an issue with old API account\n\n\n\n2) Automation rules do not work same way as in API\n\nWe have only 3 rules:\n\n1 Fedex Intern Priority (default)\n\n2 Fedex regional Economy\n\n3 DHL\n\nNow all new order are processed as DHL by default.\n\n\n\nThere are 2 unprocessed order that you can test freely.\n\nCan you please check and fix those 2 issues?\n\n\n\nThanks\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\"><div>Hello, Touseef,</div><div><br></div><div>many thanks for adding FedEx Rest account.</div><div>I run a few tests in <a href=\"http://dermahealer.com\" rel=\"noreferrer\">dermahealer.com</a> and noticed several problems so far.</div><div><br></div><div>1) There is something wrong with the address formatting. Street name and number always printed twice.</div><div>- See label attached</div><div>- See screenshot of address correction window</div><div>This was never an issue with old API account</div><div><br></div><div>2) Automation rules do not work same way as in API</div><div>We have only 3 rules:<br></div><div>1 Fedex Intern Priority (default)</div><div>2 Fedex regional Economy</div><div>3 DHL</div><div>Now all new order are processed as DHL by default.</div><div><br></div><div>\nThere are 2 unprocessed order that you can test freely.\n\n</div><div></div><div>Can you please check and fix those 2 issues?&nbsp;</div><div><br></div><div>Thanks</div><div>Arunas</div></div><br><div></div></div></div>",
+      "plain_body": "Hello, Touseef,  \n  many thanks for adding FedEx Rest account.  I run a few tests in dermahealer.com and noticed several problems so far.  \n  1) There is something wrong with the address formatting. Street name and number always printed twice.  - See label attached  - See screenshot of address correction window  This was never an issue with old API account  \n  2) Automation rules do not work same way as in API  We have only 3 rules:\n  1 Fedex Intern Priority (default)  2 Fedex regional Economy  3 DHL  Now all new order are processed as DHL by default.  \n  \nThere are 2 unprocessed order that you can test freely.\n\n   Can you please check and fix those 2 issues?&nbsp;  \n  Thanks  Arunas",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58055664306713.json",
+          "id": 58055664306713,
+          "file_name": "label.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/4VbBEXYqyGm5VmTOiNzDG9Fg1/?name=label.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/4VbBEXYqyGm5VmTOiNzDG9Fg1/?name=label.pdf",
+          "content_type": "application/pdf",
+          "size": 139227,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58055668620313.json",
+          "id": 58055668620313,
+          "file_name": "1.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/EFulrLgeuQxdrSlHsAW7kdzKe/?name=1.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/EFulrLgeuQxdrSlHsAW7kdzKe/?name=1.png",
+          "content_type": "image/png",
+          "size": 122661,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58055681412761.json",
+              "id": 58055681412761,
+              "file_name": "1_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/oWftKxhhzAwiKvE5275tZWBR7/?name=1_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/oWftKxhhzAwiKvE5275tZWBR7/?name=1_thumb.png",
+              "content_type": "image/png",
+              "size": 3057,
+              "width": 80,
+              "height": 53,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58055668625561.json",
+          "id": 58055668625561,
+          "file_name": "2.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/OLgeCB1bu1Ne91VP6gK96YSVb/?name=2.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/OLgeCB1bu1Ne91VP6gK96YSVb/?name=2.png",
+          "content_type": "image/png",
+          "size": 55414,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58055664351513.json",
+              "id": 58055664351513,
+              "file_name": "2_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/ouw6XflZa86dlTnSMWN01Ro0U/?name=2_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/ouw6XflZa86dlTnSMWN01Ro0U/?name=2_thumb.png",
+              "content_type": "image/png",
+              "size": 2447,
+              "width": 80,
+              "height": 50,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 58055664302617,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-18T19:56:00Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=LkbuP+VXDYrx4FcrC+SpH-ftDLt21u5OqyEb2+bxmXqzOSQ@mail.gmail.com>",
+          "email_id": "01KRYAHJTNP95W80ZGRBXA1X84",
+          "raw_email_identifier": "2369120/54008dce-2927-434b-92a1-ee5de9763915.eml",
+          "json_email_identifier": "2369120/54008dce-2927-434b-92a1-ee5de9763915.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58056304569881,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nThank you for your response.\n\nTo answer your queries -\n1. For this case, please allow us some time to check this case with our team. We will update you soon.\nRegarding the address correction, you can ignore it as the address provided are generally authenticated by Shopify during checkout.\n\n2. For the rules, the rules are configured to always use the cheapest available service for the label generation. No existing rule is available to make any service as default option for the orders.\nAs DHL service is the cheapest, the app is assigning the service to your orders.\nIf you have any particular criteria on which the services should be assigned (like Customer selected shipping option, order weight, etc), you can let us know and we will check the feasibility to apply the criteria in the rules.\n\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>To answer your queries -&nbsp;<br><ol dir=\"auto\"><li>For this case, please allow us some time to check this case with our team. We will update you soon.<br>Regarding the address correction, you can ignore it as the address provided are generally authenticated by Shopify during checkout.<br>&nbsp;</li><li>For the rules, the rules are configured to always use the cheapest available service for the label generation. No existing rule is available to make any service as default option for the orders.<br>As DHL service is the cheapest, the app is assigning the service to your orders.<br>If you have any particular criteria on which the services should be assigned (like Customer selected shipping option, order weight, etc), you can let us know and we will check the feasibility to apply the criteria in the rules.</li></ol>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for your response.\n&nbsp;\nTo answer your queries -&nbsp;\n  For this case, please allow us some time to check this case with our team. We will update you soon.\nRegarding the address correction, you can ignore it as the address provided are generally authenticated by Shopify during checkout.\n&nbsp;  For the rules, the rules are configured to always use the cheapest available service for the label generation. No existing rule is available to make any service as default option for the orders.\nAs DHL service is the cheapest, the app is assigning the service to your orders.\nIf you have any particular criteria on which the services should be assigned (like Customer selected shipping option, order weight, etc), you can let us know and we will check the feasibility to apply the criteria in the rules.  &nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58056304569753,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-18T21:01:32Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58056376600473,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1779138343010449?thread_ts=1778847898.801819&cid=C02E15X8X0C\n\nCustomer has recently migrated to FedEx REST API.\nCustomer has processed a order and noticed that the Recipient Address Line 1 and Address Line 2 are being combined and printed twice on the label even though the address line 1 and address line 2 are separately provided.\nAttached screenshot of the label, order in the app with Recipient address and the Label RequestResponse for review.\nCould you please check and let us know if this is expected behaviour?\n\nURL - dermahealer-com.myshopify.com\nAccount ID - 0cf46b3a-562f-410c-b9fd-786152020248",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1779138343010449?thread_ts=1778847898.801819&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1779138343010449?thread_ts=1778847898.801819&amp;cid=C02E15X8X0C</a><br>&nbsp;<br>Customer has recently migrated to FedEx REST API.<br>Customer has processed a order and noticed that the Recipient Address Line 1 and Address Line 2 are being combined and printed twice on the label even though the address line 1 and address line 2 are separately provided.<br>Attached screenshot of the label, order in the app with Recipient address and the Label RequestResponse for review.<br>Could you please check and let us know if this is expected behaviour?<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://dermahealer-com.myshopify.com\">dermahealer-com.myshopify.com</a><br>Account ID - 0cf46b3a-562f-410c-b9fd-786152020248<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1779138343010449?thread_ts=1778847898.801819&amp;cid=C02E15X8X0C\n&nbsp;\nCustomer has recently migrated to FedEx REST API.\nCustomer has processed a order and noticed that the Recipient Address Line 1 and Address Line 2 are being combined and printed twice on the label even though the address line 1 and address line 2 are separately provided.\nAttached screenshot of the label, order in the app with Recipient address and the Label RequestResponse for review.\nCould you please check and let us know if this is expected behaviour?\n&nbsp;\nURL - dermahealer-com.myshopify.com\nAccount ID - 0cf46b3a-562f-410c-b9fd-786152020248",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58056309975065.json",
+          "id": 58056309975065,
+          "file_name": "2d661e8f-6099-45fe-ade5-9cf6135f8be6.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/V1aTSpsHoQKMxgzaVSxOUjTpE/?name=2d661e8f-6099-45fe-ade5-9cf6135f8be6.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/V1aTSpsHoQKMxgzaVSxOUjTpE/?name=2d661e8f-6099-45fe-ade5-9cf6135f8be6.pdf",
+          "content_type": "application/pdf",
+          "size": 139197,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58056309975577.json",
+          "id": 58056309975577,
+          "file_name": "Screenshot at May 19 02-26-21.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/weca21p6cVWPSspVXwzCk99at/?name=Screenshot+at+May+19+02-26-21.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/weca21p6cVWPSspVXwzCk99at/?name=Screenshot+at+May+19+02-26-21.png",
+          "content_type": "image/png",
+          "size": 452172,
+          "width": 2482,
+          "height": 1428,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58056318324505.json",
+          "id": 58056318324505,
+          "file_name": "RequestResponse - 2026-05-19T022606.868.zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/MCKajwFfQiWmxEaTPh7ikl8M3/?name=RequestResponse+-+2026-05-19T022606.868.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/MCKajwFfQiWmxEaTPh7ikl8M3/?name=RequestResponse+-+2026-05-19T022606.868.zip",
+          "content_type": "application/zip",
+          "size": 608850,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58056376600345,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-18T21:05:53Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58056436654361,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Hi,\n\n\n\n1. We use address correction. In API account the street name appeared only once. I think it is related to label printing as welll. Street name appears twice in both places: label and correction window. API account did not have this problem\n\n\n\n2. Our automation was working fine in API. You can switch back and test. Even when DHL was cheaper, FEDEX was always chosen as default option. This needs to be corrected for REST to be the same as old API. You can switch and test yourself.\n\n\n\nThanks\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Hi,</div><div dir=\"auto\"><br></div><div dir=\"auto\">1. We use address correction. In API account the street name appeared only once. I think it is related to label printing as welll. Street name appears twice in both places: label and correction window. API account did not have this problem</div><div dir=\"auto\"><br></div><div dir=\"auto\">2. Our automation was working fine in API. You can switch back and test. Even when DHL was cheaper, FEDEX was always chosen as default option. This needs to be corrected for REST to be the same as old API. You can switch and test yourself.&nbsp;</div><div dir=\"auto\"><br></div><div dir=\"auto\">Thanks</div><div dir=\"auto\">Arunas</div><div dir=\"auto\"><br><div dir=\"auto\"></div></div></div>",
+      "plain_body": "Hi,  \n  1. We use address correction. In API account the street name appeared only once. I think it is related to label printing as welll. Street name appears twice in both places: label and correction window. API account did not have this problem  \n  2. Our automation was working fine in API. You can switch back and test. Even when DHL was cheaper, FEDEX was always chosen as default option. This needs to be corrected for REST to be the same as old API. You can switch and test yourself.&nbsp;  \n  Thanks  Arunas",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58056436654233,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-18T21:10:14Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=Lkbv1wrP4NAHZBvipQkaFg+BExUk86asC0cgtKd5UvE+3xA@mail.gmail.com>",
+          "email_id": "01KRYESH332D2VMQFDFFTM43E7",
+          "raw_email_identifier": "2369120/fcceea4a-3ece-4f66-bdd8-1c97b6e6dfb5.eml",
+          "json_email_identifier": "2369120/fcceea4a-3ece-4f66-bdd8-1c97b6e6dfb5.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58063678596633,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Arunas,\n\nRegarding the Street Address details case, it has been forwarded to our tech team and they are checking the case. Once we have an update, will reach out to you.\n\nRegarding the automation rules, will discuss with Touseef and get back to you.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Regarding the Street Address details case, it has been forwarded to our tech team and they are checking the case. Once we have an update, will reach out to you.<br>&nbsp;<br>Regarding the automation rules, will discuss with Touseef and get back to you.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nRegarding the Street Address details case, it has been forwarded to our tech team and they are checking the case. Once we have an update, will reach out to you.\n&nbsp;\nRegarding the automation rules, will discuss with Touseef and get back to you.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58063678596505,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-19T02:09:15Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58067022402329,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Hi Sagar,\n\n\n\nthanks for reply.\n\nI have switched back to old API and all issues have disappeared (no double street name, automation works as expected).\n\n\nSo I can say for sure that new REST integration has issues and needs to be improved.\n\n\n\nDouble printing of street name appears in 3 places (all 3 attached):\n\n- address correction window\n\n- label\n\n- commercial invoice\n\nI think it is the same coding issue.\n\n\n\nThanks\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\"><div>Hi Sagar,</div><div><br></div><div>thanks for reply.</div><div>I have switched back to old API and all issues have disappeared (no double street name, automation works as expected).<br><br></div><div>So I can say for sure that new REST integration has issues and needs to be improved.</div><div><br></div><div>Double printing of street name appears in 3 places (all 3 attached):</div><div>- address correction window</div><div>- label</div><div>- commercial invoice</div><div>I think it is the same coding issue.</div><div><br></div><div>Thanks</div><div>Arunas</div></div><br><div></div></div></div>",
+      "plain_body": "Hi Sagar,  \n  thanks for reply.  I have switched back to old API and all issues have disappeared (no double street name, automation works as expected).\n\n  So I can say for sure that new REST integration has issues and needs to be improved.  \n  Double printing of street name appears in 3 places (all 3 attached):  - address correction window  - label  - commercial invoice  I think it is the same coding issue.  \n  Thanks  Arunas",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58067022405145.json",
+          "id": 58067022405145,
+          "file_name": "2.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/8P5c8MZWJpHdkx6BoUSSnS2ob/?name=2.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/8P5c8MZWJpHdkx6BoUSSnS2ob/?name=2.png",
+          "content_type": "image/png",
+          "size": 55414,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58067022580761.json",
+              "id": 58067022580761,
+              "file_name": "2_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/Jz9SJUzSywQh8FOJnqj6FJ2a5/?name=2_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/Jz9SJUzSywQh8FOJnqj6FJ2a5/?name=2_thumb.png",
+              "content_type": "image/png",
+              "size": 2447,
+              "width": 80,
+              "height": 50,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58067022410649.json",
+          "id": 58067022410649,
+          "file_name": "1.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/04sI5EKyA0TTIZ49RKko7gJrz/?name=1.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/04sI5EKyA0TTIZ49RKko7gJrz/?name=1.png",
+          "content_type": "image/png",
+          "size": 122661,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58067036550553.json",
+              "id": 58067036550553,
+              "file_name": "1_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/jpFlYC7419eRXB7UWI5KAzdoP/?name=1_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/jpFlYC7419eRXB7UWI5KAzdoP/?name=1_thumb.png",
+              "content_type": "image/png",
+              "size": 3057,
+              "width": 80,
+              "height": 53,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58067022418969.json",
+          "id": 58067022418969,
+          "file_name": "label.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/lrhvzRxEwL5ERInwDCMgwDvsa/?name=label.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/lrhvzRxEwL5ERInwDCMgwDvsa/?name=label.pdf",
+          "content_type": "application/pdf",
+          "size": 139227,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58067031046425.json",
+          "id": 58067031046425,
+          "file_name": "invoice.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/JngNWHcFov2MzgOKYWRh0bYRG/?name=invoice.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/JngNWHcFov2MzgOKYWRh0bYRG/?name=invoice.pdf",
+          "content_type": "application/pdf",
+          "size": 150139,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58067022402201,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-19T03:43:05Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=LkbvFL23b8V4fUoAMp-2p+Z=6Emj+7+iALh0BYoXKQNwvuA@mail.gmail.com>",
+          "email_id": "01KRZ58TD6T4K41XPHA28HYVM4",
+          "raw_email_identifier": "2369120/8fdb362d-dfe4-4603-a2ef-2246599bc33f.eml",
+          "json_email_identifier": "2369120/8fdb362d-dfe4-4603-a2ef-2246599bc33f.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58102235954585,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "The issue with duplicated names and streetlines has been addressed. Kindly ask the merchant to generate a new label and verify.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">The issue with duplicated names and streetlines has been addressed. Kindly ask the merchant to generate a new label and verify.<br>[Veena]<br></div>",
+      "plain_body": "The issue with duplicated names and streetlines has been addressed. Kindly ask the merchant to generate a new label and verify.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58102235954457,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T03:40:52Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58104416145817,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Arunas,\n\nGood day!\n\nWe have resolved the case related to duplicated name and streetline shown on the documents.\n\nPlease generate a label for a new order with the Rest API account to confirm the working.\n\nLet us know how it goes.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Good day!<br><br>We have resolved the case related to duplicated name and streetline shown on the documents.&nbsp;<br>&nbsp;<br>Please generate a label for a new order with the Rest API account to confirm the working.&nbsp;<br>&nbsp;<br>Let us know how it goes.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nGood day!\n\nWe have resolved the case related to duplicated name and streetline shown on the documents.&nbsp;\n&nbsp;\nPlease generate a label for a new order with the Rest API account to confirm the working.&nbsp;\n&nbsp;\nLet us know how it goes.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58104416145689,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T04:42:14Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58122947328665,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Hi Sagar,\n\n\n\nthanks for the email. i tested REST again:\n\n\n\n1) Fedex International Priority ->  duplicated name and streetline shown on the documents-> YES, FIXED\n\n2) FedEx® Regional Economy ->  duplicated name and streetline shown on the documents-> PROBLEM (not fixed). See 2 PDF attached.\n\n3) Regarding the automation rules -> still not working the same way as old API account (not fixed).\n\n\n\nRegards,\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\"><div>Hi Sagar,</div><div><br></div><div>thanks for the email. i tested REST again:</div><div><br></div><div>1) Fedex International Priority -&gt;&nbsp; duplicated name and streetline shown on the documents-&gt; YES, FIXED</div><div>2)&nbsp;<span title=\"FedEx® Regional Economy\">FedEx® Regional Economy -&gt;&nbsp;</span>\nduplicated name and streetline shown on the documents-&gt; PROBLEM (not fixed). See 2 PDF attached.</div><div>3) Regarding the automation rules -&gt; still not working the same way as old API account (not fixed).</div><div><br></div><div>Regards,</div><div>Arunas</div><div><br></div></div><br><div></div></div></div>",
+      "plain_body": "Hi Sagar,  \n  thanks for the email. i tested REST again:  \n  1) Fedex International Priority -&gt;&nbsp; duplicated name and streetline shown on the documents-&gt; YES, FIXED  2)&nbsp;FedEx® Regional Economy -&gt;&nbsp;\nduplicated name and streetline shown on the documents-&gt; PROBLEM (not fixed). See 2 PDF attached.  3) Regarding the automation rules -&gt; still not working the same way as old API account (not fixed).  \n  Regards,  Arunas",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58122947330073.json",
+          "id": 58122947330073,
+          "file_name": "label2.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/KS4Gu93C1HpVxCD25SOblj1pt/?name=label2.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/KS4Gu93C1HpVxCD25SOblj1pt/?name=label2.pdf",
+          "content_type": "application/pdf",
+          "size": 139290,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58122947334169.json",
+          "id": 58122947334169,
+          "file_name": "invoice2.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/aYu1WNTajkoTv6DAtWZLqAZPs/?name=invoice2.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/aYu1WNTajkoTv6DAtWZLqAZPs/?name=invoice2.pdf",
+          "content_type": "application/pdf",
+          "size": 150164,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58122947328537,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T14:22:04Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=LkbvXe7hwgNujZKsUy1Xn5ZbYnjJMAnP4djKSZTxE1z-0AA@mail.gmail.com>",
+          "email_id": "01KS2W7J5Z4P2WBV3T8GMXD4QA",
+          "raw_email_identifier": "2369120/1d01f9ab-593e-4022-ad8f-939633fec1d5.eml",
+          "json_email_identifier": "2369120/1d01f9ab-593e-4022-ad8f-939633fec1d5.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58124468428441,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nThank you for your response.\n\nFor your second case, can we use an order on your store and test the case ourselves? If so, please share the order number which we can use.\n\nRegarding the third case, we will check it further and get back to you.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>For your second case, can we use an order on your store and test the case ourselves? If so, please share the order number which we can use.<br>&nbsp;<br>Regarding the third case, we will check it further and get back to you.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for your response.\n&nbsp;\nFor your second case, can we use an order on your store and test the case ourselves? If so, please share the order number which we can use.\n&nbsp;\nRegarding the third case, we will check it further and get back to you.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58124468428313,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T15:51:52Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58125188612249,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Please use order US9843. Thanks",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\"><div>Please use order&nbsp;US9843. Thanks</div></div><br><div></div></div></div>",
+      "plain_body": "Please use order&nbsp;US9843. Thanks",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58125188612121,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T16:40:50Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=Lkbuo6zepk70azxDQXFtpnqtpZ91wt2MD0oy_c0aP0ETpXA@mail.gmail.com>",
+          "email_id": "01KS345PC7CCX7Y4CYY1YEJ794",
+          "raw_email_identifier": "2369120/ebec8833-b74e-4a0f-af57-7824a7433b9c.eml",
+          "json_email_identifier": "2369120/ebec8833-b74e-4a0f-af57-7824a7433b9c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58125252717209,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "or better US9842 (IRELAND)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\"><div>or better&nbsp;US9842 (IRELAND)</div></div><br><div></div></div></div>",
+      "plain_body": "or better&nbsp;US9842 (IRELAND)",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58125252717081,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T16:44:09Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=Lkbs4RchqSJKsnq2b5o1PZiJP3q78NuOo84ECA-a=ueRwsA@mail.gmail.com>",
+          "email_id": "01KS34BS99W10V8ZC5KVZEV22C",
+          "raw_email_identifier": "2369120/ee7967e4-3dc4-455b-ad60-e454bf21ee36.eml",
+          "json_email_identifier": "2369120/ee7967e4-3dc4-455b-ad60-e454bf21ee36.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58126977489561,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nThank you for your response.\n\nWhile testing your case, I have by mistake fulfilled the order US9842 from the app.\n\nCould you please mark the order as Unfulfilled in Shopify and let us know so that we can cancel the fulfillment of the order in the app?\n\nI apologize for the honest mistake and await your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>While testing your case, I have by mistake fulfilled the order US9842 from the app.<br>&nbsp;<br>Could you please mark the order as Unfulfilled in Shopify and let us know so that we can cancel the fulfillment of the order in the app?<br>&nbsp;<br>I apologize for the honest mistake and await your response.&nbsp;<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for your response.\n&nbsp;\nWhile testing your case, I have by mistake fulfilled the order US9842 from the app.\n&nbsp;\nCould you please mark the order as Unfulfilled in Shopify and let us know so that we can cancel the fulfillment of the order in the app?\n&nbsp;\nI apologize for the honest mistake and await your response.&nbsp;\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58126977489433,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T19:11:19Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58137606984857,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Hi,\n\n\n\ndo not worry about order US9842. We will re-process it manually directly in Fedex Shipping Manager and update tracking number in Shopify.\n\n\n\nDo you need anything else from my side? Where you able to find a problem?\n\n\n\nThanks\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\"><div>Hi,</div><div><br></div><div>do not worry about order US9842. We will re-process it manually directly in Fedex Shipping Manager and update tracking number in Shopify.</div><div><br></div><div>Do you need anything else from my side? Where you able to find a problem?</div><div><br></div><div>Thanks</div><div>Arunas</div></div><br><div></div></div></div>",
+      "plain_body": "Hi,  \n  do not worry about order US9842. We will re-process it manually directly in Fedex Shipping Manager and update tracking number in Shopify.  \n  Do you need anything else from my side? Where you able to find a problem?  \n  Thanks  Arunas",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58137606984729,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T03:14:38Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=Lkbvq+D-bv5D+Qe+VPcPwunE_0p9QbhoiQh+EwDD_8daKLg@mail.gmail.com>",
+          "email_id": "01KS48E6Y2ZVJS73CE6AYR1B6Z",
+          "raw_email_identifier": "2369120/44cf74fe-86fc-4382-b84d-f3840e899738.eml",
+          "json_email_identifier": "2369120/44cf74fe-86fc-4382-b84d-f3840e899738.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58140677905945,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Arunas,\n\nSince the order US9842 is already fulfilled, can we use the order US9843 for testing (or) could you share any other order number?\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Since the order US9842 is already fulfilled, can we use the order US9843 for testing (or) could you share any other order number?<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nSince the order US9842 is already fulfilled, can we use the order US9843 for testing (or) could you share any other order number?\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58140677905817,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T04:44:52Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58142450102041,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Yes, please go ahead and use it",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Yes, please go ahead and use it</div><div dir=\"auto\"><br></div><div><br><div></div></div></div>",
+      "plain_body": "Yes, please go ahead and use it",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58142450101913,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T05:34:15Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=LkbvFjM76LCQHRyxXjvYr9iu+yjzAA9QdwfAgTGhR0KPDZg@mail.gmail.com>",
+          "email_id": "01KS4GDWD5F0Z66ZJZ1P4CDRX5",
+          "raw_email_identifier": "2369120/6108575a-1344-4ecb-8b25-39a3922c7e24.eml",
+          "json_email_identifier": "2369120/6108575a-1344-4ecb-8b25-39a3922c7e24.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58142832179737,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Arunas,\n\nThank you for the permission.\n\nWe will check and get back to you.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for the permission.&nbsp;<br>&nbsp;<br>We will check and get back to you.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for the permission.&nbsp;\n&nbsp;\nWe will check and get back to you.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58142832179609,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T05:46:20Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58142837662105,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Customer has given permission to test for the order US9843\n\nHave informed Touseef to test the case",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer has given permission to test for the order US9843<br>&nbsp;<br>Have informed Touseef to test the case<br></div>",
+      "plain_body": "Customer has given permission to test for the order US9843\n&nbsp;\nHave informed Touseef to test the case",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58142837660697,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T05:46:58Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58152514405657,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nThank you for your patience.\n\nI have escalated the 2nd case to the technical team for review, where the Address Line was printing twice when FedEx Regional Economy is used.\nWe will update you once we hear back from them.\n\nRegarding the automation rule case, we will need a Unfulfilled order (or a test order) to check the case again and escalate it for assistance. As of now, all the orders are Fulfilled in the app.\nPlease let us know once you have a new test order so that we can test the rules case again and assist you further.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>I have escalated the 2nd case to the technical team for review, where the Address Line was printing twice when FedEx Regional Economy is used.<br>We will update you once we hear back from them.<br>&nbsp;<br>Regarding the automation rule case, we will need a Unfulfilled order (or a test order) to check the case again and escalate it for assistance. As of now, all the orders are Fulfilled in the app.<br>Please let us know once you have a new test order so that we can test the rules case again and assist you further.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for your patience.\n&nbsp;\nI have escalated the 2nd case to the technical team for review, where the Address Line was printing twice when FedEx Regional Economy is used.\nWe will update you once we hear back from them.\n&nbsp;\nRegarding the automation rule case, we will need a Unfulfilled order (or a test order) to check the case again and escalate it for assistance. As of now, all the orders are Fulfilled in the app.\nPlease let us know once you have a new test order so that we can test the rules case again and assist you further.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58152514405401,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T10:22:04Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58152718301209,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1779359278410259?thread_ts=1778847898.801819&cid=C02E15X8X0C\n\nCustomer had reported earlier that the Address Line 1 and Address Line 2 combined are printing twice on the FedEx labels when REST integration is used.\nWe had checked this case and provided a fix, post which labels for FedEx International Priority were generated correctly.\nHowever, customer has reported that although for FedEx International Priority, the labels are printed with correct information, when FedEx Regional Economy is used, the same case as earlier is happening.\nPlease find attached the label and RequestResponse XML for Order US9842 for this case. Label was generated yesterday with the app.\nPlease check.\n\nURL - dermahealer-com.myshopify.com\nAccount ID - 0cf46b3a-562f-410c-b9fd-786152020248",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1779359278410259?thread_ts=1778847898.801819&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1779359278410259?thread_ts=1778847898.801819&amp;cid=C02E15X8X0C</a><br>&nbsp;<br>Customer had reported earlier that the Address Line 1 and Address Line 2 combined are printing twice on the FedEx labels when REST integration is used.<br>We had checked this case and provided a fix, post which labels for FedEx International Priority were generated correctly.<br>However, customer has reported that although for FedEx International Priority, the labels are printed with correct information, when FedEx Regional Economy is used, the same case as earlier is happening.<br>Please find attached the label and RequestResponse XML for Order US9842 for this case. Label was generated yesterday with the app.<br>Please check.<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://dermahealer-com.myshopify.com/\">dermahealer-com.myshopify.com</a><br>Account ID - 0cf46b3a-562f-410c-b9fd-786152020248<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1779359278410259?thread_ts=1778847898.801819&amp;cid=C02E15X8X0C\n&nbsp;\nCustomer had reported earlier that the Address Line 1 and Address Line 2 combined are printing twice on the FedEx labels when REST integration is used.\nWe had checked this case and provided a fix, post which labels for FedEx International Priority were generated correctly.\nHowever, customer has reported that although for FedEx International Priority, the labels are printed with correct information, when FedEx Regional Economy is used, the same case as earlier is happening.\nPlease find attached the label and RequestResponse XML for Order US9842 for this case. Label was generated yesterday with the app.\nPlease check.\n&nbsp;\nURL - dermahealer-com.myshopify.com\nAccount ID - 0cf46b3a-562f-410c-b9fd-786152020248",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58152655561241.json",
+          "id": 58152655561241,
+          "file_name": "c2f2212a-4769-4c6d-93be-29b8afb0be5a.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/w7Puc4dGuFce9jLC3bsWwiY7C/?name=c2f2212a-4769-4c6d-93be-29b8afb0be5a.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/w7Puc4dGuFce9jLC3bsWwiY7C/?name=c2f2212a-4769-4c6d-93be-29b8afb0be5a.pdf",
+          "content_type": "application/pdf",
+          "size": 139280,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58152672726297.json",
+          "id": 58152672726297,
+          "file_name": "Screenshot at May 21 15-56-22.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/8tF4HjGyjrkOiTtzYhMqBN7NY/?name=Screenshot+at+May+21+15-56-22.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/8tF4HjGyjrkOiTtzYhMqBN7NY/?name=Screenshot+at+May+21+15-56-22.png",
+          "content_type": "image/png",
+          "size": 469461,
+          "width": 2878,
+          "height": 1280,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58152672744345.json",
+              "id": 58152672744345,
+              "file_name": "Screenshot_at_May_21_15-56-22_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/6v2Rp0Ysd7WL7Z4iYLLARKcne/?name=Screenshot_at_May_21_15-56-22_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/6v2Rp0Ysd7WL7Z4iYLLARKcne/?name=Screenshot_at_May_21_15-56-22_thumb.png",
+              "content_type": "image/png",
+              "size": 8186,
+              "width": 80,
+              "height": 36,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58152702264473.json",
+          "id": 58152702264473,
+          "file_name": "RequestResponse - 2026-05-21T155607.428.zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/gUCBK8LG83Wcuz5t6VRH8s7CN/?name=RequestResponse+-+2026-05-21T155607.428.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/gUCBK8LG83Wcuz5t6VRH8s7CN/?name=RequestResponse+-+2026-05-21T155607.428.zip",
+          "content_type": "application/zip",
+          "size": 608499,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58152718301081,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T10:28:12Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58153246636313,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Can we please get a sample order to test this out.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Can we please get a sample order to test this out.<br>[Veena]<br></div>",
+      "plain_body": "Can we please get a sample order to test this out.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58153246636185,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T10:48:27Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58153337482521,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "I have already requested for a new Unfulfilled order for testing another case for customer. Will test this again along with the additional case.\nAwaiting customer response.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I have already requested for a new Unfulfilled order for testing another case for customer. Will test this again along with the additional case.&nbsp;<br>Awaiting customer response.<br></div>",
+      "plain_body": "I have already requested for a new Unfulfilled order for testing another case for customer. Will test this again along with the additional case.&nbsp;\nAwaiting customer response.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58153337482393,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T10:51:26Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58158296423449,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Hi,\n\n\n\nI created a test order US9852. Please run all needed test.\n\n\n\nThanks\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hi,</div><div><br></div><div>I created a test order US9852. Please run all needed test.</div><div><br></div><div>Thanks</div><div>Arunas</div></div><br><div></div></div>",
+      "plain_body": "Hi,  \n  I created a test order US9852. Please run all needed test.  \n  Thanks  Arunas",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58158296423321,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T14:33:45Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=LkbsvrirF85qCXQn84nO1Ne=ahBkw+XFPN5hpV5KgSnSynA@mail.gmail.com>",
+          "email_id": "01KS5F9QSASPTSBT5ZW1C30SAR",
+          "raw_email_identifier": "2369120/c55ef029-1df4-4743-805c-3381fe81b6be.eml",
+          "json_email_identifier": "2369120/c55ef029-1df4-4743-805c-3381fe81b6be.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58159009920409,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Arunas,\n\nThank you for your response and sharing the order number.\n\nWe have tested the order with the FedEx Regional Economy service and the label generated has the Address Line 1 printed only once. I have left the order in the Label Created Status for you to review.\nPlease check and try the case with a new order. I have also reverted the changes made in the automation rule after testing.\n\nRegarding the rules not being applied correctly when FedEx REST is assigned to the rules, please allow us some time and we will check and get back to you.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for your response and sharing the order number.<br>&nbsp;<br>We have tested the order with the FedEx Regional Economy service and the label generated has the Address Line 1 printed only once. I have left the order in the Label Created Status for you to review.<br>Please check and try the case with a new order. I have also reverted the changes made in the automation rule after testing.<br>&nbsp;<br>Regarding the rules not being applied correctly when FedEx REST is assigned to the rules, please allow us some time and we will check and get back to you.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for your response and sharing the order number.\n&nbsp;\nWe have tested the order with the FedEx Regional Economy service and the label generated has the Address Line 1 printed only once. I have left the order in the Label Created Status for you to review.\nPlease check and try the case with a new order. I have also reverted the changes made in the automation rule after testing.\n&nbsp;\nRegarding the rules not being applied correctly when FedEx REST is assigned to the rules, please allow us some time and we will check and get back to you.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58159009920281,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T15:18:51Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58159391368217,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1779378373815069?thread_ts=1778847898.801819&cid=C02E15X8X0C\n\nNeed assistance in understanding the logic with the Label Automation rule application when FedEx SOAP vs FedEx REST is enabled for the rules.\nCustomer has created 3 rules for his requirement -\n1. Rule for FedEx with International Priority.\n2. Rule for FedEx with Regional Economy.\n3. Rule for DHL with Worldwide Express.\n\n\nCustomer is not using the app for rates.\nWhen the FedEx SOAP is enabled in the rules, the orders are assigned FedEx International Priority upon import. If this service is not available, then FedEx Regional Economy is assigned. If both FedEx services are not available, then DHL is being assigned to the order by default.\n\nThis is the setup that the customer wants and is happy with.\n\nNow, when REST is enabled in the FedEx rules, the cheapest is being assigned to the order, irrespective of the rule priority. This is NOT what customer wants.\n\nI have attached a screen recording of the same for reference in the slack thread.\n\nPlease check and provide you input.\n\nNOTE: Tested the Address Line twice case FedEx Regional Economy again and it is working as expected.\n\nURL - dermahealer-com.myshopify.com\nAccount ID - 0cf46b3a-562f-410c-b9fd-786152020248",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1779378373815069?thread_ts=1778847898.801819&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1779378373815069?thread_ts=1778847898.801819&amp;cid=C02E15X8X0C</a><br>&nbsp;<br>Need assistance in understanding the logic with the Label Automation rule application when FedEx SOAP vs FedEx REST is enabled for the rules.<br>Customer has created 3 rules for his requirement -&nbsp;<br><ol dir=\"auto\"><li>Rule for FedEx with International Priority.</li><li>Rule for FedEx with Regional Economy.</li><li>Rule for DHL with Worldwide Express.</li></ol>&nbsp;<br>Customer is not using the app for rates.<br>When the FedEx SOAP is enabled in the rules, the orders are assigned FedEx International Priority upon import. If this service is not available, then FedEx Regional Economy is assigned. If both FedEx services are not available, then DHL is being assigned to the order by default.<br>&nbsp;<br>This is the setup that the customer wants and is happy with.<br>&nbsp;<br>Now, when REST is enabled in the FedEx rules, the cheapest is being assigned to the order, irrespective of the rule priority. This is NOT what customer wants.<br>&nbsp;<br>I have attached a screen recording of the same for reference in the slack thread.<br>&nbsp;<br>Please check and provide you input.<br>&nbsp;<br>NOTE: Tested the Address Line twice case FedEx Regional Economy again and it is working as expected.<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://dermahealer-com.myshopify.com/\">dermahealer-com.myshopify.com</a><br>Account ID - 0cf46b3a-562f-410c-b9fd-786152020248<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1779378373815069?thread_ts=1778847898.801819&amp;cid=C02E15X8X0C\n&nbsp;\nNeed assistance in understanding the logic with the Label Automation rule application when FedEx SOAP vs FedEx REST is enabled for the rules.\nCustomer has created 3 rules for his requirement -&nbsp;\n  Rule for FedEx with International Priority.  Rule for FedEx with Regional Economy.  Rule for DHL with Worldwide Express.  &nbsp;\nCustomer is not using the app for rates.\nWhen the FedEx SOAP is enabled in the rules, the orders are assigned FedEx International Priority upon import. If this service is not available, then FedEx Regional Economy is assigned. If both FedEx services are not available, then DHL is being assigned to the order by default.\n&nbsp;\nThis is the setup that the customer wants and is happy with.\n&nbsp;\nNow, when REST is enabled in the FedEx rules, the cheapest is being assigned to the order, irrespective of the rule priority. This is NOT what customer wants.\n&nbsp;\nI have attached a screen recording of the same for reference in the slack thread.\n&nbsp;\nPlease check and provide you input.\n&nbsp;\nNOTE: Tested the Address Line twice case FedEx Regional Economy again and it is working as expected.\n&nbsp;\nURL - dermahealer-com.myshopify.com\nAccount ID - 0cf46b3a-562f-410c-b9fd-786152020248",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58159391368089,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T15:46:58Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58160103279001,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Hi,\n\n\n\nthanks for the update.\n\n\n\n1)  Tested and confirmed:\n\n- Fedex International Priority ->  duplicated name and streetline shown on the documents-> YES, FIXED\n- FedEx Regional Economy -> duplicated name and streetline shown on the documents-> YES, FIXED\n\n\n\n2) Automation rules not being applied correctly when FedEx REST -> will wait for your info.\n\nThanks and Regards,\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\"><div>Hi,</div><div><br></div><div>thanks for the update.</div><div><br></div><div>1)&nbsp; Tested and confirmed:</div><div>- Fedex International Priority -&gt;&nbsp; duplicated name and streetline shown on the documents-&gt; YES, FIXED\n\n<br>- FedEx Regional Economy -&gt; duplicated name and streetline shown on the documents-&gt; YES, FIXED\n\n</div><div><br></div><div>2) Automation rules not being applied correctly when FedEx REST -&gt; will wait for your info.<br>&nbsp;<br>Thanks and Regards,</div><div>Arunas</div></div><br><div></div></div></div>",
+      "plain_body": "Hi,  \n  thanks for the update.  \n  1)&nbsp; Tested and confirmed:  - Fedex International Priority -&gt;&nbsp; duplicated name and streetline shown on the documents-&gt; YES, FIXED\n\n\n- FedEx Regional Economy -&gt; duplicated name and streetline shown on the documents-&gt; YES, FIXED\n\n  \n  2) Automation rules not being applied correctly when FedEx REST -&gt; will wait for your info.\n&nbsp;\nThanks and Regards,  Arunas",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58160103278873,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T16:39:31Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=LkbuA=4Z5J7PmcC2vz=POKpoC-y2Q4=6qTgn+9WU+X+R2PA@mail.gmail.com>",
+          "email_id": "01KS5PG00FCE7KH1DYM8VQQQPS",
+          "raw_email_identifier": "2369120/6abd1862-79e3-4b2b-8703-505d0a4931bb.eml",
+          "json_email_identifier": "2369120/6abd1862-79e3-4b2b-8703-505d0a4931bb.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58302750583705,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We have identified the issue with service selection and the same will be handled in upcoming release.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have identified the issue with service selection and the same will be handled in upcoming release.<br>[Veena]<br></div>",
+      "plain_body": "We have identified the issue with service selection and the same will be handled in upcoming release.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58302750583577,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T09:35:41Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58305771448089,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Arunas,\n\nGood day!\n\nWe have identified the case related to automation rules not working as per your requirement.\n\nThis will be handled in the upcoming releases. Will keep you posted on the updates.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Good day!<br><br>We have identified the case related to automation rules not working as per your requirement.&nbsp;<br>&nbsp;<br>This will be handled in the upcoming releases. Will keep you posted on the updates.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nGood day!\n\nWe have identified the case related to automation rules not working as per your requirement.&nbsp;\n&nbsp;\nThis will be handled in the upcoming releases. Will keep you posted on the updates.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58305771447961,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T11:13:28Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58310767703065,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Great, many thanks.\n\nWill wait for your information.\n\n\n\nRegards,\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Great, many thanks.</div><div>Will wait for your information.</div><div><br></div><div>Regards,</div><div>Arunas</div></div><br><div></div></div>",
+      "plain_body": "Great, many thanks.  Will wait for your information.  \n  Regards,  Arunas",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58310767702937,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T14:11:46Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=LkbvD8StcSfPP5UvG3W8rLG9-z8t0t7cqXOpGSO-yqMFimA@mail.gmail.com>",
+          "email_id": "01KSJA11Q1Z21WZTAFF1GJ4KSP",
+          "raw_email_identifier": "2369120/92a6dc76-c7e9-491e-a196-f953ec82a598.eml",
+          "json_email_identifier": "2369120/92a6dc76-c7e9-491e-a196-f953ec82a598.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58310981699609,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Moving to dev_needed. Customer acknowledged.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving to dev_needed. Customer acknowledged.<br></div>",
+      "plain_body": "Moving to dev_needed. Customer acknowledged.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58310981699481,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T14:22:14Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

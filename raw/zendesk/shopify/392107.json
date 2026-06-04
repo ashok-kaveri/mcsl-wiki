@@ -1,0 +1,956 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/392107.json",
+    "id": 392107,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-05-26T01:50:10Z",
+    "updated_at": "2026-06-02T12:09:52Z",
+    "generated_timestamp": 1780402192,
+    "type": null,
+    "subject": "Hi there,\n\nHow to fix the Calculated transit time ...",
+    "raw_subject": "Hi there,\n\nHow to fix the Calculated transit time ...",
+    "description": "Hi there,\n\nHow to fix the Calculated transit time shown to customers using automated rates? For example it is wrongfully showing U.S. customers 1-2 business days which is impossible.\n\nThank you\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/settings/carriers/dhlexpress/6ba229ed-ca62-4d71-a96a-b0785c067261",
+    "priority": null,
+    "status": "pending",
+    "recipient": null,
+    "requester_id": 46900348163865,
+    "submitter_id": 46900348163865,
+    "assignee_id": 10478126723609,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "95a96e-3.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "1"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850766,
+    "encoded_id": "V74MEJ-X0DK5",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "95a96e-3.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "1"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58284309138841,
+      "type": "Comment",
+      "author_id": 46900348163865,
+      "body": "Hi there,\n\nHow to fix the Calculated transit time shown to customers using automated rates? For example it is wrongfully showing U.S. customers 1-2 business days which is impossible.\n\nThank you\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/settings/carriers/dhlexpress/6ba229ed-ca62-4d71-a96a-b0785c067261",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hi there,</p>\n\n<p dir=\"auto\">How to fix the Calculated transit time shown to customers using automated rates? For example it is wrongfully showing U.S. customers 1-2 business days which is impossible.</p>\n\n<p dir=\"auto\">Thank you</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/settings/carriers/dhlexpress/6ba229ed-ca62-4d71-a96a-b0785c067261\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/settings/carriers/dhlexpress/6ba229ed-ca62-4d71-a96a-b0785c067261</a></p></div>",
+      "plain_body": "Hi there, \n\n How to fix the Calculated transit time shown to customers using automated rates? For example it is wrongfully showing U.S. customers 1-2 business days which is impossible. \n\n Thank you \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/settings/carriers/dhlexpress/6ba229ed-ca62-4d71-a96a-b0785c067261",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58284309138713,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-05-26T01:50:10Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "ip_address": "119.18.3.67",
+          "location": "Sydney, NSW, Australia",
+          "latitude": -33.8897,
+          "longitude": 151.1764
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 58285008621209,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Au store\n516 orders\nAu Post and MPB accounts added\n39 labels in May\nActive from May 2025 and $29 plan selected",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Au store<br>516 orders<br>Au Post and MPB accounts added<br>39 labels in May<br>Active from May 2025 and $29 plan selected<br></div>",
+      "plain_body": "Au store\n516 orders\nAu Post and MPB accounts added\n39 labels in May\nActive from May 2025 and $29 plan selected",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58285008621081,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T02:06:25Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58285612992153,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Matt,\n\nGood day!\n\nThe transit time shown at checkout for automated rates comes directly from the DHL Express API, calculated based on your configured shipper origin address and the customer's destination.\n\nYou can replicate a transaction on the DHL portal and check for the delivery days provided there.\n\nFor more details, we request you to check with the carrier team.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Matt,<br>&nbsp;<br>Good day!<br><br>The transit time shown at checkout for automated rates comes directly from the DHL Express API, calculated based on your configured shipper origin address and the customer's destination.<br>&nbsp;<br>You can replicate a transaction on the DHL portal and check for the delivery days provided there.&nbsp;<br>&nbsp;<br>For more details, we request you to check with the carrier team.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Matt,\n&nbsp;\nGood day!\n\nThe transit time shown at checkout for automated rates comes directly from the DHL Express API, calculated based on your configured shipper origin address and the customer's destination.\n&nbsp;\nYou can replicate a transaction on the DHL portal and check for the delivery days provided there.&nbsp;\n&nbsp;\nFor more details, we request you to check with the carrier team.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58285612992025,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T02:20:24Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58286345023257,
+      "type": "Comment",
+      "author_id": 46900348163865,
+      "body": "Hi Sagar,\n\n\nThank you for the quick response.\n\n\n\nDHL shows 2 total transit days never 1, where does does the 1 in 1-2 days come from?\n\n\n\nCould we please:\n\n1. disable it?\n\n2. edit or add additional days ontop?\n\n\n\nThank you",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi&nbsp;Sagar,<div><br></div><div>Thank you for the quick response.</div><div><br></div><div>DHL shows 2 total transit days never 1, where&nbsp;does does the 1 in 1-2 days come from?</div><div><br></div><div>Could we please:</div><div>1. disable it?</div><div>2. edit or add additional days ontop?</div><div><br></div><div>Thank you</div><div><br></div></div><br><div></div></div>",
+      "plain_body": "Hi&nbsp;Sagar, \n  Thank you for the quick response.  \n  DHL shows 2 total transit days never 1, where&nbsp;does does the 1 in 1-2 days come from?  \n  Could we please:  1. disable it?  2. edit or add additional days ontop?  \n  Thank you",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58286345023129,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "the11mode@gmail.com",
+            "name": "Matt",
+            "original_recipients": [
+              "the11mode@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T02:38:21Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAFPiQ3j6z=o+NNve=i2OiCmszo-qVcgwKVVGwqGeGN5udRpwpg@mail.gmail.com>",
+          "email_id": "01KSH2BDZ3HJC93733FD8D73MG",
+          "raw_email_identifier": "2369120/8431f2cf-35e8-4847-bc73-fae589d62564.eml",
+          "json_email_identifier": "2369120/8431f2cf-35e8-4847-bc73-fae589d62564.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58286897382169,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Matt,\n\nThank you for your response.\n\nI understand that DHL is providing two transit days and the same will be passed to shopify through the app. The shopify consider only the business days and show the delivery days at the checkout.\n\n1. To disable this, Navigate to App Settings -> General Settings -> Shipping -> Disable option \"Estimated Delivery At Checkout\" -> Save (as shown below)\n\n2. Currently, there is no option to provide additional days to the delivery days provided by carrier. Will check with the team for the possibilities and get back to you\n\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Matt,<br>&nbsp;<br>Thank you for your response.&nbsp;<br>&nbsp;<br>I understand that DHL is providing two transit days and the same will be passed to shopify through the app. The shopify consider only the business days and show the delivery days at the checkout.<br>&nbsp;<br><ol dir=\"auto\"><li>To disable this, Navigate to App Settings -&gt; General Settings -&gt; Shipping -&gt; Disable option \"Estimated Delivery At Checkout\" -&gt; Save (as shown below)<br>&nbsp;</li><li>Currently, there is no option to provide additional days to the delivery days provided by carrier. Will check with the team for the possibilities and get back to you<br>&nbsp;</li></ol>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Matt,\n&nbsp;\nThank you for your response.&nbsp;\n&nbsp;\nI understand that DHL is providing two transit days and the same will be passed to shopify through the app. The shopify consider only the business days and show the delivery days at the checkout.\n&nbsp;\n  To disable this, Navigate to App Settings -&gt; General Settings -&gt; Shipping -&gt; Disable option \"Estimated Delivery At Checkout\" -&gt; Save (as shown below)\n&nbsp;  Currently, there is no option to provide additional days to the delivery days provided by carrier. Will check with the team for the possibilities and get back to you\n&nbsp;  Best regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58286897382041,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T02:50:57Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58287024232345,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Matt,\n\nAdding to the previous response, sharing the screenshot below.\n\n ![](https://pluginhive.zendesk.com/attachments/token/ZUngTQ0g5kdbCjaaY8oMVnueE/?name=image.png)\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Matt,<br>&nbsp;<br>Adding to the previous response, sharing the screenshot below.&nbsp;<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 908px;\" src=\"https://pluginhive.zendesk.com/attachments/token/ZUngTQ0g5kdbCjaaY8oMVnueE/?name=image.png\"></span><br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Matt,\n&nbsp;\nAdding to the previous response, sharing the screenshot below.&nbsp;\n&nbsp;\n\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58287024230553,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T02:53:46Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58287031275161,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "L3 - Request to add additional days for the estimated delivery days provided by DHL Express\n\nPlease check the possibilities for this requirement and let us know of the updates\n\nStore URL - 95a96e-3.myshopify.com\nApp - Shopify MCSL\nAccount ID - 72f79881-3d74-4a1e-b36a-677c75a1d68d",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3 - Request to add additional days for the estimated delivery days provided by DHL Express<br>&nbsp;<br>Please check the possibilities for this requirement and let us know of the updates<br>&nbsp;<br>Store URL - 95a96e-3.myshopify.com<br>App - Shopify MCSL<br>Account ID - 72f79881-3d74-4a1e-b36a-677c75a1d68d<br></div>",
+      "plain_body": "L3 - Request to add additional days for the estimated delivery days provided by DHL Express\n&nbsp;\nPlease check the possibilities for this requirement and let us know of the updates\n&nbsp;\nStore URL - 95a96e-3.myshopify.com\nApp - Shopify MCSL\nAccount ID - 72f79881-3d74-4a1e-b36a-677c75a1d68d",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58287031275033,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T02:54:32Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58288234180505,
+      "type": "Comment",
+      "author_id": 46900348163865,
+      "body": "Thank you Sagar, we'll disable it until DHL Express can provide an answer to this.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Thank&nbsp;you&nbsp;Sagar, we'll disable&nbsp;it until DHL Express can provide an answer to this.</div><br><div></div></div>",
+      "plain_body": "Thank&nbsp;you&nbsp;Sagar, we'll disable&nbsp;it until DHL Express can provide an answer to this.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58288234180377,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "the11mode@gmail.com",
+            "name": "Matt",
+            "original_recipients": [
+              "the11mode@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T03:25:45Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAFPiQ3gHUW573gCt8F-j5uwx6_6_SMq7RUeH1EhogizRnVfvaA@mail.gmail.com>",
+          "email_id": "01KSH526V17X3V4ADN8SB20GER",
+          "raw_email_identifier": "2369120/01e4be90-0a5b-4aa8-92ea-f2b61dfc4ca1.eml",
+          "json_email_identifier": "2369120/01e4be90-0a5b-4aa8-92ea-f2b61dfc4ca1.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58289045787289,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "This enhancement is considered for release 382. Kindly inform the merchant and move the ticket to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This enhancement is considered for release 382. Kindly inform the merchant and move the ticket to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "This enhancement is considered for release 382. Kindly inform the merchant and move the ticket to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58289045787161,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T03:49:52Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58289160994585,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Matt,\n\nSure! Also, we have considered to enhance the app to provide an option to add additional days for the delivery days provided by the carrier.\n\nThe enhancement will be available by 2nd week of June. Will let you know of the updates.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Matt,<br>&nbsp;<br>Sure! Also, we have considered to enhance the app to provide an option to add additional days for the delivery days provided by the carrier.&nbsp;<br>&nbsp;<br>The enhancement will be available by 2nd week of June. Will let you know of the updates.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Matt,\n&nbsp;\nSure! Also, we have considered to enhance the app to provide an option to add additional days for the delivery days provided by the carrier.&nbsp;\n&nbsp;\nThe enhancement will be available by 2nd week of June. Will let you know of the updates.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58289160994457,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T03:53:33Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58289228414617,
+      "type": "Comment",
+      "author_id": 46900348163865,
+      "body": "Thank you Sagar, that would be good also, as it allows for fulfillment times as well. Thanks!",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Thank you&nbsp;Sagar, that would be good also, as it allows for fulfillment times as well. Thanks!</div><br><div></div></div>",
+      "plain_body": "Thank you&nbsp;Sagar, that would be good also, as it allows for fulfillment times as well. Thanks!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58289228414489,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "the11mode@gmail.com",
+            "name": "Matt",
+            "original_recipients": [
+              "the11mode@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T03:55:38Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAFPiQ3hW3PvL_W428Ku1Yp=YbV68OFVr1cEdw08EPHo1dDYNPA@mail.gmail.com>",
+          "email_id": "01KSH6RXXBE0XFW606W3CEJ8P4",
+          "raw_email_identifier": "2369120/87fb0faf-0a20-4398-98d2-d5eb76f0f734.eml",
+          "json_email_identifier": "2369120/87fb0faf-0a20-4398-98d2-d5eb76f0f734.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58381756305049,
+      "type": "Comment",
+      "author_id": 46900348163865,
+      "body": "Hi Sagar,\n\n\nWe reviewed many shipments in DHL and they previously say 2 or 3 or 4 days.\n\n\n\nFor these U.S. shipments they only ever said 2 at the minimum, never 1, so why did the auto rates show \"1-2 days\"?\n\n\n\nAlso, DHL provides \"Total transit days\" and \"Est. delivery date\", can you use \"Est. delivery date\" instead?\n\n> ![screenshot.png](https://support.pluginhive.com/attachments/token/cMkjVXDpIdcuvazURpgjJe8H6/?name=screenshot.png)\n\n\n\nDHL replied to our enquiry \"the portal calculates transit times and estimated delivery dates using a combination of operational factors. The total transit days are typically based on standard transit time ranges between the selected origin and destination, under normal conditions.\"\n\n\n\nThanks",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi&nbsp;Sagar,<div><br></div><div>We reviewed many shipments in DHL and they previously say 2 or 3 or 4 days.</div><div><br></div><div>For these U.S. shipments they only ever said 2 at the minimum, never 1, so why did the auto rates show \"1-2 days\"?</div><div><br></div><div>Also, DHL provides \"Total transit days\" and \"Est. delivery date\", can you use \"Est. delivery date\" instead?</div><div><blockquote style=\"margin: 0 0 0 40px; padding: 0px; border-style: none;\"><div><img src=\"https://support.pluginhive.com/attachments/token/cMkjVXDpIdcuvazURpgjJe8H6/?name=screenshot.png\" alt=\"screenshot.png\" width=\"375\" height=\"57\"></div></blockquote></div><div><br></div><div>DHL replied to our enquiry \"the portal calculates transit times and estimated delivery dates using a combination of operational factors. The total transit days are typically based on standard transit time ranges between the selected origin and destination, under normal conditions.\"</div><div><br></div><div>Thanks</div></div><br></div>",
+      "plain_body": "Hi&nbsp;Sagar, \n  We reviewed many shipments in DHL and they previously say 2 or 3 or 4 days.  \n  For these U.S. shipments they only ever said 2 at the minimum, never 1, so why did the auto rates show \"1-2 days\"?  \n  Also, DHL provides \"Total transit days\" and \"Est. delivery date\", can you use \"Est. delivery date\" instead?        \n  DHL replied to our enquiry \"the portal calculates transit times and estimated delivery dates using a combination of operational factors. The total transit days are typically based on standard transit time ranges between the selected origin and destination, under normal conditions.\"  \n  Thanks",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58381756304921,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "the11mode@gmail.com",
+            "name": "Matt",
+            "original_recipients": [
+              "the11mode@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-28T08:12:50Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAFPiQ3joD1LQRsbxOgw5Ax8+dXBBNO9PqN0T7TwC4HHwYOPxxQ@mail.gmail.com>",
+          "email_id": "01KSPT99VQQE0931WXM2GH7FN7",
+          "raw_email_identifier": "2369120/e254babf-80ad-4e4e-9e80-8a8428b0ffdd.eml",
+          "json_email_identifier": "2369120/e254babf-80ad-4e4e-9e80-8a8428b0ffdd.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58383972252697,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Matt,\n\nGood day!\n\nI have checked a recent transaction details under the App Settings -> Shipping Rates -> Request Log (as shown in below screenshot) and estimated delivery days provided for this transaction by DHL is 4 days.\n\nAs conveyed in the previous response, we pass the same number of days to the shopify along with the delivery date and the shopify will consider only the business days and show the final delivery days on the checkout. Also, showing the delivery date on the checkout is in the control of shopify and the app does not have control over it.\n\n ![](https://pluginhive.zendesk.com/attachments/token/4SvJhYVVqF4C3KiCTz7VYUHYF/?name=image.png)\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Matt,<br>&nbsp;<br>Good day!<br><br>I have checked a recent transaction details under the App Settings -&gt; Shipping Rates -&gt; Request Log (as shown in below screenshot) and estimated delivery days provided for this transaction by DHL is 4 days.&nbsp;<br>&nbsp;<br>As conveyed in the previous response, we pass the same number of days to the shopify along with the delivery date and the shopify will consider only the business days and show the final delivery days on the checkout. Also, showing the delivery date on the checkout is in the control of shopify and the app does not have control over it.&nbsp;<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 1109px;\" src=\"https://pluginhive.zendesk.com/attachments/token/4SvJhYVVqF4C3KiCTz7VYUHYF/?name=image.png\"></span><br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Matt,\n&nbsp;\nGood day!\n\nI have checked a recent transaction details under the App Settings -&gt; Shipping Rates -&gt; Request Log (as shown in below screenshot) and estimated delivery days provided for this transaction by DHL is 4 days.&nbsp;\n&nbsp;\nAs conveyed in the previous response, we pass the same number of days to the shopify along with the delivery date and the shopify will consider only the business days and show the final delivery days on the checkout. Also, showing the delivery date on the checkout is in the control of shopify and the app does not have control over it.&nbsp;\n&nbsp;\n\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58383972252569,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-28T09:07:33Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58388824435609,
+      "type": "Comment",
+      "author_id": 46900348163865,
+      "body": "Hi Sagar,\n\n\nCan you please review the ones from Tuesday?\n\n\n\nThere were many that showed 2 days in the DHL portal but showed 1-2 days at checkout.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi&nbsp;Sagar,<div><br></div><div>Can you please review the ones from Tuesday?</div><div><br></div><div>There were many that showed 2 days in the DHL portal but showed 1-2 days at checkout.</div><div><br></div></div><br><div></div></div>",
+      "plain_body": "Hi&nbsp;Sagar, \n  Can you please review the ones from Tuesday?  \n  There were many that showed 2 days in the DHL portal but showed 1-2 days at checkout.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58388824435481,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "the11mode@gmail.com",
+            "name": "Matt",
+            "original_recipients": [
+              "the11mode@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-28T11:51:31Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAFPiQ3i7c=O-syZ35dFgNHX_jgisTcCyHSMN=yFpa+YRF0SK+g@mail.gmail.com>",
+          "email_id": "01KSQ6SQ4JNFYQYSFAAX6W8CWX",
+          "raw_email_identifier": "2369120/b0af9552-e1b3-499b-a919-77381e5194d7.eml",
+          "json_email_identifier": "2369120/b0af9552-e1b3-499b-a919-77381e5194d7.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58393056292505,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Matt,\n\nWe would like to review this together with you over a call with real-time rates and delivery estimates so that we can better compare the DHL portal results with the checkout display.\nCould you please book a call at your convenience using the link below?\n[Book a call]\n\nLooking forward to assisting you further.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Matt,<br>&nbsp;<br>We would like to review this together with you over a call with real-time rates and delivery estimates so that we can better compare the DHL portal results with the checkout display.<br>Could you please book a call at your convenience using the link below?<br>[<a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=95a96e-3.myshopify.com&amp;email=the11mode@gmail.com&amp;ticket=392107&amp;key=1779980680403\">Book a call</a>]<br>&nbsp;<br>Looking forward to assisting you further.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Matt,\n&nbsp;\nWe would like to review this together with you over a call with real-time rates and delivery estimates so that we can better compare the DHL portal results with the checkout display.\nCould you please book a call at your convenience using the link below?\n[Book a call]\n&nbsp;\nLooking forward to assisting you further.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58393056292377,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-28T15:05:21Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58393072613017,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "There's been lot of back and forth mails and customer hasn't shared the exact details\nneed to review on call\nmoving on hold for fu",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">There's been lot of back and forth mails and customer hasn't shared the exact details&nbsp;<br>need to review on call&nbsp;<br>moving on hold for fu<br></div>",
+      "plain_body": "There's been lot of back and forth mails and customer hasn't shared the exact details&nbsp;\nneed to review on call&nbsp;\nmoving on hold for fu",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58393081980569,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-28T15:05:53Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58544356659993,
+      "type": "Comment",
+      "author_id": 46900348163865,
+      "body": "Hi,\n\n\nHere are screenshots that show DHL Express say 2 business days for US orders\n\n\n\n> ![Screenshot (1).png](https://support.pluginhive.com/attachments/token/R5ETzGcbC4bz9xSlR0FsZI5nT/?name=Screenshot+%281%29.png)\n\n> ![Screenshot (2).png](https://support.pluginhive.com/attachments/token/hc0PAdSVZJ252COa4rjCHOzf1/?name=Screenshot+%282%29.png)\n\n> ![Screenshot (3).png](https://support.pluginhive.com/attachments/token/2pfgUytoQlg1xC17PcOOJQkMS/?name=Screenshot+%283%29.png)\n\n> ![Screenshot (4).png](https://support.pluginhive.com/attachments/token/AM4VXqXJza4ukIfhCo0RUqWjo/?name=Screenshot+%284%29.png)\n\n> ![Screenshot (5).png](https://support.pluginhive.com/attachments/token/PgtbGawDmol7JfjVbwunHe7X6/?name=Screenshot+%285%29.png)\n\nThese are all US orders\n\n\n\nHowever, shipping shows 1-2 days at checkout\n\n\n\n> ![Checkout.png](https://support.pluginhive.com/attachments/token/V3twcgB8RWoTwgfC7fa3nHaH7/?name=Checkout.png)\n\n\n\nWhere does the \"1 day\" come from?\n\n\n\nThanks",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi,<div><br></div><div>Here are screenshots that show DHL Express say 2 business days for US orders</div><div><br></div><div><blockquote style=\"margin: 0 0 0 40px; padding: 0px; border-style: none;\"><div><img src=\"https://support.pluginhive.com/attachments/token/R5ETzGcbC4bz9xSlR0FsZI5nT/?name=Screenshot+%281%29.png\" alt=\"Screenshot (1).png\" width=\"380\" height=\"61\"></div><div><br></div></blockquote></div><blockquote style=\"margin: 0 0 0 40px; padding: 0px; border-style: none;\"><div><img src=\"https://support.pluginhive.com/attachments/token/hc0PAdSVZJ252COa4rjCHOzf1/?name=Screenshot+%282%29.png\" alt=\"Screenshot (2).png\" width=\"380\" height=\"61\"></div><div></div></blockquote><blockquote style=\"margin: 0 0 0 40px; padding: 0px; border-style: none;\"><div><img src=\"https://support.pluginhive.com/attachments/token/2pfgUytoQlg1xC17PcOOJQkMS/?name=Screenshot+%283%29.png\" alt=\"Screenshot (3).png\" width=\"380\" height=\"61\"></div><div></div></blockquote><blockquote style=\"margin: 0 0 0 40px; padding: 0px; border-style: none;\"><img src=\"https://support.pluginhive.com/attachments/token/AM4VXqXJza4ukIfhCo0RUqWjo/?name=Screenshot+%284%29.png\" alt=\"Screenshot (4).png\" width=\"380\" height=\"61\"><br></blockquote><blockquote style=\"margin: 0 0 0 40px; padding: 0px; border-style: none;\"><div><img src=\"https://support.pluginhive.com/attachments/token/PgtbGawDmol7JfjVbwunHe7X6/?name=Screenshot+%285%29.png\" alt=\"Screenshot (5).png\" width=\"380\" height=\"61\"></div><div></div></blockquote><div>These are all US orders</div><div><br></div><div>However, shipping shows 1-2 days at checkout</div><div><br></div><blockquote style=\"margin: 0 0 0 40px; padding: 0px; border-style: none;\"><div><img src=\"https://support.pluginhive.com/attachments/token/V3twcgB8RWoTwgfC7fa3nHaH7/?name=Checkout.png\" alt=\"Checkout.png\" width=\"559\" height=\"283\"></div></blockquote><div><br></div><div>Where does the \"1 day\" come from?</div><div><br></div><div>Thanks</div></div><br><div></div></div>",
+      "plain_body": "Hi, \n  Here are screenshots that show DHL Express say 2 business days for US orders  \n      \n              \n       These are all US orders  \n  However, shipping shows 1-2 days at checkout  \n      \n  Where does the \"1 day\" come from?  \n  Thanks",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58544356659865,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "the11mode@gmail.com",
+            "name": "Matt",
+            "original_recipients": [
+              "the11mode@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T08:20:02Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAFPiQ3i=6HeVf1qcsSqjBjB565_e0UyC1ENMtjefhwxQ7Z=O1w@mail.gmail.com>",
+          "email_id": "01KT3PP0NW9HZT9Q9YKPZ2629G",
+          "raw_email_identifier": "2369120/3db9dedc-c7a1-48c4-9a2e-acf839d9108b.eml",
+          "json_email_identifier": "2369120/3db9dedc-c7a1-48c4-9a2e-acf839d9108b.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58547057660569,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Matt,\n\nThank you for sharing the details.\n\nThe estimated delivery days are shared by the app to Shopify to show on checkout. Shopify usually updates the estimate and adds the additional data on checkout.\nIf this is creating any difficulties in your shipping process, please share more information about the same and we will check the case further.\n\nAdditionally, could you also please confirm if the Estimated Delivery Dates option in Shopify Settings > Shipping and Delivery is enabled on your store as in sample screenshot below?\n\nIf it is enabled, could you please disable it and try checking for the rates and estimates on checkout again?\n\nLet us know how it goes.\n\n ![](https://pluginhive.zendesk.com/attachments/token/Hc3oPDLeWSYt0G6jJXU5f5PpJ/?name=image.png)\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Matt,<br>&nbsp;<br>Thank you for sharing the details.<br>&nbsp;<br>The estimated delivery days are shared by the app to Shopify to show on checkout. Shopify usually updates the estimate and adds the additional data on checkout.<br>If this is creating any difficulties in your shipping process, please share more information about the same and we will check the case further.<br>&nbsp;<br>Additionally, could you also please confirm if the Estimated Delivery Dates option in Shopify Settings &gt; Shipping and Delivery is enabled on your store as in sample screenshot below?<br>&nbsp;<br>If it is enabled, could you please disable it and try checking for the rates and estimates on checkout again?<br>&nbsp;<br>Let us know how it goes.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 658px;\" src=\"https://pluginhive.zendesk.com/attachments/token/Hc3oPDLeWSYt0G6jJXU5f5PpJ/?name=image.png\"></span><br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Matt,\n&nbsp;\nThank you for sharing the details.\n&nbsp;\nThe estimated delivery days are shared by the app to Shopify to show on checkout. Shopify usually updates the estimate and adds the additional data on checkout.\nIf this is creating any difficulties in your shipping process, please share more information about the same and we will check the case further.\n&nbsp;\nAdditionally, could you also please confirm if the Estimated Delivery Dates option in Shopify Settings &gt; Shipping and Delivery is enabled on your store as in sample screenshot below?\n&nbsp;\nIf it is enabled, could you please disable it and try checking for the rates and estimates on checkout again?\n&nbsp;\nLet us know how it goes.\n&nbsp;\n\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58547057660441,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T09:29:18Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58549515533465,
+      "type": "Comment",
+      "author_id": 46900348163865,
+      "body": "Hi Touseef,\n\n\nThis is already disabled.\n\n\n\nThe problem is the app is showing \"1 to 2 business days\" when DHL only shows 2 days, never one.\n\n\n\nWhere does the \"1\" come from?",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi&nbsp;Touseef,<div><br></div><div>This is already disabled.</div><div><br></div><div>The problem is the app is showing \"1 to 2 business days\" when DHL only shows 2 days, never one.</div><div><br></div><div>Where does the \"1\" come from?</div><div><br></div></div><br><div></div></div>",
+      "plain_body": "Hi&nbsp;Touseef, \n  This is already disabled.  \n  The problem is the app is showing \"1 to 2 business days\" when DHL only shows 2 days, never one.  \n  Where does the \"1\" come from?",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58549515533337,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "the11mode@gmail.com",
+            "name": "Matt",
+            "original_recipients": [
+              "the11mode@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T10:42:40Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAFPiQ3iPshgK5SwZHr-3OX1v3=jPtGzRoa5ZO=16z5t7ZG2+Zw@mail.gmail.com>",
+          "email_id": "01KT3YV8TK7T81XT9F8WBRCZ21",
+          "raw_email_identifier": "2369120/e05bc5e8-9334-4dcb-8613-97722d6c2fa3.eml",
+          "json_email_identifier": "2369120/e05bc5e8-9334-4dcb-8613-97722d6c2fa3.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58552035602969,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Matt,\n\nThank you for your response and confirmation.\n\nThe estimated delivery display format is decided by Shopify to show on checkout. The app is passing the exact delivery date to Shopify for the service and Shopify is using its standard format to show the estimated delivery on checkout.\nSo, the \"**1 to**\" in \"1 to 2 Business Days\" is being included from Shopify on checkout.\n\nYou can also try creating a flat rate in Shopify and assign estimated delivery to the rate and check the case.\n\nLet us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Matt,<br>&nbsp;<br>Thank you for your response and confirmation.<br>&nbsp;<br>The estimated delivery display format is decided by Shopify to show on checkout. The app is passing the exact delivery date to Shopify for the service and Shopify is using its standard format to show the estimated delivery on checkout.<br>So, the \"<strong>1 to</strong>\" in \"1 to 2 Business Days\" is being included from Shopify on checkout.<br>&nbsp;<br>You can also try creating a flat rate in Shopify and assign estimated delivery to the rate and check the case.<br>&nbsp;<br>Let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Matt,\n&nbsp;\nThank you for your response and confirmation.\n&nbsp;\nThe estimated delivery display format is decided by Shopify to show on checkout. The app is passing the exact delivery date to Shopify for the service and Shopify is using its standard format to show the estimated delivery on checkout.\nSo, the \"1 to\" in \"1 to 2 Business Days\" is being included from Shopify on checkout.\n&nbsp;\nYou can also try creating a flat rate in Shopify and assign estimated delivery to the rate and check the case.\n&nbsp;\nLet us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58552035602841,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T12:09:52Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

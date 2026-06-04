@@ -1,0 +1,308 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/391159.json",
+    "id": 391159,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-05-20T12:19:03Z",
+    "updated_at": "2026-05-28T05:06:42Z",
+    "generated_timestamp": 1779944802,
+    "type": null,
+    "subject": "GLS Integration Roadmap Discussion and API Evaluation",
+    "raw_subject": "GLS Integration Roadmap Discussion and API Evaluation",
+    "description": "Hi Team,\n\nWe had a discussion with the GLS team today regarding their available APIs, integration roadmap, and market opportunities.\n\n**Key highlights from the discussion:**\n\n• GLS suggested that we initially start with the **ShipIT API integration** and gradually move towards **MyGLS API integration** once the first phase is live and stable.\n\n• Unlike some carriers, GLS does not provide a **single unified API for all countries**. Their integrations are structured based on **country clusters and regional APIs**.\n\n• For certain countries such as **Spain** and other regional markets, GLS also provides dedicated **National APIs**. These National APIs support **additional services and capabilities** that may not be fully available through the Global APIs.\n\n• Because of this, GLS recommended that we evaluate:\n- **Global GLS API integrations**\n- **Country-specific/National API integrations** where additional services are required\n\n\n• We had already initiated discussions with GLS around two months ago, and **Manu has completed the Track & Trace API integration**.\n\n• **Shipping API credentials and API documentation** have also been added for technical evaluation.\n\n• GLS specifically highlighted strong market demand for **Czech Republic and Ireland integrations**. According to them, there are currently **very limited or no existing providers adequately supporting these markets**.\n\n• Their recommendation is to progressively support integrations across **all GLS-supported countries**. Once shipment volumes increase, they are open to exploring **deeper partnership opportunities and engagement** from their side as well.\n\nRequesting the team to:\n• Review the available GLS APIs and documentation\n• Evaluate implementation feasibility and technical dependencies\n• Assess support strategy for:\n\n- ShipIT API\n- MyGLS API\n- Country-specific/National APIs\n• Evaluate **high-demand markets such as Czech Republic and Ireland** as potential priority integrations\n• Share proposed next steps, implementation effort estimation, and tentative ETA accordingly\n\n\nGLS is also open to arranging additional technical discussions or walkthrough sessions if required.\n\nThanks,\nAbhilash",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 903409790923,
+    "submitter_id": 8448825445657,
+    "assignee_id": null,
+    "organization_id": 360081186532,
+    "group_id": null,
+    "collaborator_ids": [
+      410186940351
+    ],
+    "follower_ids": [
+      410186940351
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": false,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "q4_dec_end",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": "q4_dec_end"
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "GNKK72-56JXX",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": "q4_dec_end"
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58120171458457,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Hi Team,\n\nWe had a discussion with the GLS team today regarding their available APIs, integration roadmap, and market opportunities.\n\n**Key highlights from the discussion:**\n\n• GLS suggested that we initially start with the **ShipIT API integration** and gradually move towards **MyGLS API integration** once the first phase is live and stable.\n\n• Unlike some carriers, GLS does not provide a **single unified API for all countries**. Their integrations are structured based on **country clusters and regional APIs**.\n\n• For certain countries such as **Spain** and other regional markets, GLS also provides dedicated **National APIs**. These National APIs support **additional services and capabilities** that may not be fully available through the Global APIs.\n\n• Because of this, GLS recommended that we evaluate:\n- **Global GLS API integrations**\n- **Country-specific/National API integrations** where additional services are required\n\n\n• We had already initiated discussions with GLS around two months ago, and **Manu has completed the Track & Trace API integration**.\n\n• **Shipping API credentials and API documentation** have also been added for technical evaluation.\n\n• GLS specifically highlighted strong market demand for **Czech Republic and Ireland integrations**. According to them, there are currently **very limited or no existing providers adequately supporting these markets**.\n\n• Their recommendation is to progressively support integrations across **all GLS-supported countries**. Once shipment volumes increase, they are open to exploring **deeper partnership opportunities and engagement** from their side as well.\n\nRequesting the team to:\n• Review the available GLS APIs and documentation\n• Evaluate implementation feasibility and technical dependencies\n• Assess support strategy for:\n\n- ShipIT API\n- MyGLS API\n- Country-specific/National APIs\n• Evaluate **high-demand markets such as Czech Republic and Ireland** as potential priority integrations\n• Share proposed next steps, implementation effort estimation, and tentative ETA accordingly\n\n\nGLS is also open to arranging additional technical discussions or walkthrough sessions if required.\n\nThanks,\nAbhilash",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br>We had a discussion with the GLS team today regarding their available APIs, integration roadmap, and market opportunities.<br>&nbsp;<br><strong>Key highlights from the discussion:</strong><br>&nbsp;<br>• GLS suggested that we initially start with the <strong>ShipIT API integration</strong> and gradually move towards <strong>MyGLS API integration</strong> once the first phase is live and stable.<br>&nbsp;<br>• Unlike some carriers, GLS does not provide a <strong>single unified API for all countries</strong>. Their integrations are structured based on <strong>country clusters and regional APIs</strong>.<br>&nbsp;<br>• For certain countries such as <strong>Spain</strong> and other regional markets, GLS also provides dedicated <strong>National APIs</strong>. These National APIs support <strong>additional services and capabilities</strong> that may not be fully available through the Global APIs.<br>&nbsp;<br>• Because of this, GLS recommended that we evaluate:<br><ul dir=\"auto\"><li><strong>Global GLS API integrations</strong></li><li><strong>Country-specific/National API integrations</strong> where additional services are required</li></ul>&nbsp;<br>• We had already initiated discussions with GLS around two months ago, and <strong>Manu has completed the Track &amp; Trace API integration</strong>.<br>&nbsp;<br>• <strong>Shipping API credentials and API documentation</strong> have also been added for technical evaluation.<br>&nbsp;<br>• GLS specifically highlighted strong market demand for <strong>Czech Republic and Ireland integrations</strong>. According to them, there are currently <strong>very limited or no existing providers adequately supporting these markets</strong>.<br>&nbsp;<br>• Their recommendation is to progressively support integrations across <strong>all GLS-supported countries</strong>. Once shipment volumes increase, they are open to exploring <strong>deeper partnership opportunities and engagement</strong> from their side as well.<br>&nbsp;<br>Requesting the team to:<br>• Review the available GLS APIs and documentation<br>• Evaluate implementation feasibility and technical dependencies<br>• Assess support strategy for:<br><ul dir=\"auto\"><li>ShipIT API</li><li>MyGLS API</li><li>Country-specific/National APIs<br>• Evaluate <strong>high-demand markets such as Czech Republic and Ireland</strong> as potential priority integrations<br>• Share proposed next steps, implementation effort estimation, and tentative ETA accordingly</li></ul>&nbsp;<br>GLS is also open to arranging additional technical discussions or walkthrough sessions if required.<br>&nbsp;<br>Thanks,&nbsp;<br>Abhilash<br></div>",
+      "plain_body": "Hi Team,\n&nbsp;\nWe had a discussion with the GLS team today regarding their available APIs, integration roadmap, and market opportunities.\n&nbsp;\nKey highlights from the discussion:\n&nbsp;\n• GLS suggested that we initially start with the ShipIT API integration and gradually move towards MyGLS API integration once the first phase is live and stable.\n&nbsp;\n• Unlike some carriers, GLS does not provide a single unified API for all countries. Their integrations are structured based on country clusters and regional APIs.\n&nbsp;\n• For certain countries such as Spain and other regional markets, GLS also provides dedicated National APIs. These National APIs support additional services and capabilities that may not be fully available through the Global APIs.\n&nbsp;\n• Because of this, GLS recommended that we evaluate:\n  Global GLS API integrations  Country-specific/National API integrations where additional services are required  &nbsp;\n• We had already initiated discussions with GLS around two months ago, and Manu has completed the Track &amp; Trace API integration.\n&nbsp;\n• Shipping API credentials and API documentation have also been added for technical evaluation.\n&nbsp;\n• GLS specifically highlighted strong market demand for Czech Republic and Ireland integrations. According to them, there are currently very limited or no existing providers adequately supporting these markets.\n&nbsp;\n• Their recommendation is to progressively support integrations across all GLS-supported countries. Once shipment volumes increase, they are open to exploring deeper partnership opportunities and engagement from their side as well.\n&nbsp;\nRequesting the team to:\n• Review the available GLS APIs and documentation\n• Evaluate implementation feasibility and technical dependencies\n• Assess support strategy for:\n  ShipIT API  MyGLS API  Country-specific/National APIs\n• Evaluate high-demand markets such as Czech Republic and Ireland as potential priority integrations\n• Share proposed next steps, implementation effort estimation, and tentative ETA accordingly  &nbsp;\nGLS is also open to arranging additional technical discussions or walkthrough sessions if required.\n&nbsp;\nThanks,&nbsp;\nAbhilash",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58120171458329,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T12:19:03Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/createTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58120498773145,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "**GLS Test credentials are shared below:**\n\n\n_**URL: **https://dev-portal.gls-group.net/_\n_**Email:** carrierintegrations@pluginhive.com _\n_**Password:**!TzVDYYPzD5iQ7c_ _**App Name:** PHive Tracking_\n_**App ID:** 45390e2c-dc35-4374-b404-2fe11a176880_\n_**API Key: **d92edYbQi3GNbEKDGiYp37avSL2f6I5e_\n_**API Secret: **puLbeQ06MrcI8LG1_\n_**ContactID** (you will need to use the ShipIT API): 276a45e7ZY_\n\nAll API documents are available inside the GLS portal. Let me know if you need any help to find them.\n\n**(Abhilash)**",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><strong>GLS Test credentials are shared below:</strong><br>&nbsp;<br><table><tbody><tr><td><i><strong>URL:&nbsp;</strong>https://dev-portal.gls-group.net/</i><br><i><strong>Email:</strong> carrierintegrations@pluginhive.com&nbsp;</i><br><i><strong>Password:</strong> !TzVDYYPzD5iQ7c</i></td><td><i><strong>App Name:</strong> PHive Tracking</i><br><i><strong>App ID:</strong> 45390e2c-dc35-4374-b404-2fe11a176880</i><br><i><strong>API Key:&nbsp;</strong>d92edYbQi3GNbEKDGiYp37avSL2f6I5e</i><br><i><strong>API Secret:&nbsp;</strong>puLbeQ06MrcI8LG1</i><br><i><strong>ContactID</strong> (you will need to use the ShipIT API): 276a45e7ZY</i></td></tr></tbody></table>All API documents are available inside the GLS portal. Let me know if you need any help to find them.<br>&nbsp;<br><strong>(Abhilash)</strong><br></div>",
+      "plain_body": "GLS Test credentials are shared below:\n&nbsp;\nURL:&nbsp;https://dev-portal.gls-group.net/\nEmail: carrierintegrations@pluginhive.com&nbsp;\nPassword: !TzVDYYPzD5iQ7cApp Name: PHive Tracking\nApp ID: 45390e2c-dc35-4374-b404-2fe11a176880\nAPI Key:&nbsp;d92edYbQi3GNbEKDGiYp37avSL2f6I5e\nAPI Secret:&nbsp;puLbeQ06MrcI8LG1\nContactID (you will need to use the ShipIT API): 276a45e7ZYAll API documents are available inside the GLS portal. Let me know if you need any help to find them.\n&nbsp;\n(Abhilash)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58120529852953,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T12:29:18Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58343028281113,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Moving to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "Moving to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58343028280985,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T09:35:40Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Kochi, KL, India",
+          "latitude": 9.9406,
+          "longitude": 76.2653
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

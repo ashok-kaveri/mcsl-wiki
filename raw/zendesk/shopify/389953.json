@@ -1,0 +1,929 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/389953.json",
+    "id": 389953,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-05-14T19:01:25Z",
+    "updated_at": "2026-05-28T18:08:38Z",
+    "generated_timestamp": 1779991718,
+    "type": null,
+    "subject": "We have new problem with FedEx Rest .\n\nLOST SIGNAT...",
+    "raw_subject": "We have new problem with FedEx Rest .\n\nLOST SIGNAT...",
+    "description": "We have new problem with FedEx Rest .\n\nLOST SIGNATURE REQUIRED OPTION\n\nSee images\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/98c9423a-77de-4b6e-8195-db0ad777c41f/d11517d3-3ad6-4105-8b5e-74a045f81361/new",
+    "priority": null,
+    "status": "hold",
+    "recipient": null,
+    "requester_id": 5479117258777,
+    "submitter_id": 5479117258777,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "rugged-race-products.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "18054312233"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850786,
+    "encoded_id": "VE7R72-J4454",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "rugged-race-products.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "18054312233"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57926895224857,
+      "type": "Comment",
+      "author_id": 5479117258777,
+      "body": "We have new problem with FedEx Rest .\n\nLOST SIGNATURE REQUIRED OPTION\n\nSee images\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/98c9423a-77de-4b6e-8195-db0ad777c41f/d11517d3-3ad6-4105-8b5e-74a045f81361/new",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">We have new problem with FedEx Rest .</p>\n\n<p dir=\"auto\">LOST SIGNATURE REQUIRED OPTION</p>\n\n<p dir=\"auto\">See images</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/summary/98c9423a-77de-4b6e-8195-db0ad777c41f/d11517d3-3ad6-4105-8b5e-74a045f81361/new\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/summary/98c9423a-77de-4b6e-8195-db0ad777c41f/d11517d3-3ad6-4105-8b5e-74a045f81361/new</a></p></div>",
+      "plain_body": "We have new problem with FedEx Rest . \n\n LOST SIGNATURE REQUIRED OPTION \n\n See images \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/98c9423a-77de-4b6e-8195-db0ad777c41f/d11517d3-3ad6-4105-8b5e-74a045f81361/new",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57926843982873.json",
+          "id": 57926843982873,
+          "file_name": "FedExRest-NoSignatureRequiredOption.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/w1lsBqwDt5B7OSOPkEqQQTyY5/?name=FedExRest-NoSignatureRequiredOption.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/w1lsBqwDt5B7OSOPkEqQQTyY5/?name=FedExRest-NoSignatureRequiredOption.png",
+          "content_type": "image/png",
+          "size": 72012,
+          "width": 1043,
+          "height": 743,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57926874811417.json",
+              "id": 57926874811417,
+              "file_name": "FedExRest-NoSignatureRequiredOption_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/ZssahHrjXyHKdsg8jQGZnVnOZ/?name=FedExRest-NoSignatureRequiredOption_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/ZssahHrjXyHKdsg8jQGZnVnOZ/?name=FedExRest-NoSignatureRequiredOption_thumb.png",
+              "content_type": "image/png",
+              "size": 2494,
+              "width": 80,
+              "height": 57,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57926886857241.json",
+          "id": 57926886857241,
+          "file_name": "FedExOld-YesSignatureRequiredOption.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/2jo7mIMR687u6CwPmrB5XzMzc/?name=FedExOld-YesSignatureRequiredOption.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/2jo7mIMR687u6CwPmrB5XzMzc/?name=FedExOld-YesSignatureRequiredOption.png",
+          "content_type": "image/png",
+          "size": 76483,
+          "width": 938,
+          "height": 789,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 57926895224729,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-05-14T19:01:25Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "12.162.21.24",
+          "location": "Arroyo Grande, CA, United States",
+          "latitude": 35.1661,
+          "longitude": -120.4651
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 57927442822937,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "USA Store\n2436 orders\n\nUPS, FedEx, Stamps USPS accounts connected\n\nActively using app for both rates and labels\n\n$200 custom plan 3",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">USA Store<br>2436 orders<br>&nbsp;<br>UPS, FedEx, Stamps USPS accounts connected<br>&nbsp;<br>Actively using app for both rates and labels<br>&nbsp;<br>$200 custom plan 3<br></div>",
+      "plain_body": "USA Store\n2436 orders\n&nbsp;\nUPS, FedEx, Stamps USPS accounts connected\n&nbsp;\nActively using app for both rates and labels\n&nbsp;\n$200 custom plan 3",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57927442822809,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T20:03:45Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57927431832217,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Reggie,\n\nPlease allow us some time we check and get back to you with an update.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Reggie,<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br>&nbsp;<br>We appreciate your time and patience.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Reggie,\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n&nbsp;\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57927431832089,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T20:04:58Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57927569780249,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need assistance from L3 team:\n\nCase: Signature option not showing in MCSL SLGP\n\nDetails:\nA $200 Custom Plan MCSL customer recently migrated to the FedEx REST API and reported that the signature option is not showing on the SLGP screen.\n\nWith FedEx SOAP and other carriers, we are able to see the “Signature Required” checkbox on the SLGP screen. However, for FedEx REST, the option is not appearing.\n\nWe were also able to replicate the same behavior in the support-qa collabo QA MCSL app.\n\nCould you please check and provide your input?\n\nStore Details:\nStore URL - rugged-race-products.myshopify.com\nAccount ID - ec7136eb-95e8-437b-a415-b61d2fc684e9\n\n ![](https://pluginhive.zendesk.com/attachments/token/E2CtZuUDVC0UBToEQMr8q6TC4/?name=image.png) ![](https://pluginhive.zendesk.com/attachments/token/iwDs78RjFDVeMbnruFunnWNFr/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need assistance from L3 team:<br>&nbsp;<br>Case: Signature option not showing in MCSL SLGP<br>&nbsp;<br>Details:<br>A $200 Custom Plan MCSL customer recently migrated to the FedEx REST API and reported that the signature option is not showing on the SLGP screen.<br>&nbsp;<br>With FedEx SOAP and other carriers, we are able to see the “Signature Required” checkbox on the SLGP screen. However, for FedEx REST, the option is not appearing.<br>&nbsp;<br>We were also able to replicate the same behavior in the support-qa collabo QA MCSL app.<br>&nbsp;<br>Could you please check and provide your input?<br>&nbsp;<br>Store Details:<br>Store URL - <a rel=\"noopener noreferrer\" href=\"http://rugged-race-products.myshopify.com\">rugged-race-products.myshopify.com</a>&nbsp;<br>Account ID - ec7136eb-95e8-437b-a415-b61d2fc684e9<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/E2CtZuUDVC0UBToEQMr8q6TC4/?name=image.png\"><img src=\"https://pluginhive.zendesk.com/attachments/token/iwDs78RjFDVeMbnruFunnWNFr/?name=image.png\"></span><br>&nbsp;<br></div>",
+      "plain_body": "Need assistance from L3 team:\n&nbsp;\nCase: Signature option not showing in MCSL SLGP\n&nbsp;\nDetails:\nA $200 Custom Plan MCSL customer recently migrated to the FedEx REST API and reported that the signature option is not showing on the SLGP screen.\n&nbsp;\nWith FedEx SOAP and other carriers, we are able to see the “Signature Required” checkbox on the SLGP screen. However, for FedEx REST, the option is not appearing.\n&nbsp;\nWe were also able to replicate the same behavior in the support-qa collabo QA MCSL app.\n&nbsp;\nCould you please check and provide your input?\n&nbsp;\nStore Details:\nStore URL - rugged-race-products.myshopify.com&nbsp;\nAccount ID - ec7136eb-95e8-437b-a415-b61d2fc684e9\n&nbsp;\n\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57927569780121,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T20:16:39Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57953650139545,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Fix is in progress. will be deployed asap.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Fix is in progress. will be deployed asap.<br>[Veena]<br></div>",
+      "plain_body": "Fix is in progress. will be deployed asap.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57953624466969,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T10:57:30Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57958957003417,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+18312676349",
+        "to": "+18054312233",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAcbc652235013808f86c448c8e1a1a673/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 57958449135769,
+        "call_duration": 1862,
+        "answered_by_id": 388269142331,
+        "started_at": "2026-05-15T14:23:19Z",
+        "location": "",
+        "author_id": 388269142331,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Keerthi",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+1 (831) 267-6349",
+      "formatted_to": "+1 (805) 431-2233",
+      "transcription_visible": false,
+      "author_id": 388269142331,
+      "body": "Outbound call to +1 (805) 431-2233\nCall Details:\n\nCall from: +1 (831) 267-6349\nCall to: +1 (805) 431-2233\nTime of call: 2026-05-15 14:23:19 UTC\nCalled by: Keerthi\nLength of phone call: 31 minutes, 2 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAcbc652235013808f86c448c8e1a1a673/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +1 (805) 431-2233<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +1 (831) 267-6349<br>\nCall to: +1 (805) 431-2233<br>\nTime of call: 2026-05-15 14:23:19 UTC<br>\nCalled by: Keerthi<br>\nLength of phone call: 31 minutes, 2 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAcbc652235013808f86c448c8e1a1a673/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAcbc652235013808f86c448c8e1a1a673/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-05-15T14:54:22Z",
+      "audit_id": 57958928327833,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+1 (831) 267-6349",
+            "phone": "+18312676349",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+1 (805) 431-2233",
+            "phone": "+18054312233",
+            "name": "Caller +1 (805) 431-2233"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57959050728089,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+18312676349",
+        "to": "+18054312233",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA4888634b3e6400e03324bc1962ca0311/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 57958966934553,
+        "call_duration": 359,
+        "answered_by_id": 388269142331,
+        "started_at": "2026-05-15T14:54:46Z",
+        "location": "",
+        "author_id": 388269142331,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Keerthi",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+1 (831) 267-6349",
+      "formatted_to": "+1 (805) 431-2233",
+      "transcription_visible": false,
+      "author_id": 388269142331,
+      "body": "Outbound call to +1 (805) 431-2233\nCall Details:\n\nCall from: +1 (831) 267-6349\nCall to: +1 (805) 431-2233\nTime of call: 2026-05-15 14:54:46 UTC\nCalled by: Keerthi\nLength of phone call: 5 minutes, 59 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA4888634b3e6400e03324bc1962ca0311/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +1 (805) 431-2233<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +1 (831) 267-6349<br>\nCall to: +1 (805) 431-2233<br>\nTime of call: 2026-05-15 14:54:46 UTC<br>\nCalled by: Keerthi<br>\nLength of phone call: 5 minutes, 59 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA4888634b3e6400e03324bc1962ca0311/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA4888634b3e6400e03324bc1962ca0311/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-05-15T15:00:46Z",
+      "audit_id": 57959042474137,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+1 (831) 267-6349",
+            "phone": "+18312676349",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+1 (805) 431-2233",
+            "phone": "+18054312233",
+            "name": "Caller +1 (805) 431-2233"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57960363594777,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "Hello Reggie,\n\nThank you for your time on the call.\n\nAs discussed on the call, the app settings have been reverted to the old FedEx account. I also reviewed this with Manohar, who had connected with you regarding the account migration.\n\n**Regarding the rate difference** between the new and old FedEx accounts, it was related to the ONE RATE option, which in turn is associated with the packaging configuration. Once I disabled the ONE RATE option in the new FedEx account, I was able to match the rates with the old account. _(I had tested this during our call)_\n\nAs of now, we will not be making any further changes from our end, and **the store has been restored to the same setup as before the new integration.**\n\nAdditionally, the orders highlighted in the video below appear to have been placed while the FedEx REST account was enabled. That is why the carrier name for these orders appears as “FedEx REST.” Reprocessing these orders will reassign them to the old account.\nVideo Recording : https://drive.google.com/file/d/1whjocbB0_LpaQ-mlxSXaQLxk4LYsyeZC/view?usp=sharing\n\nTo reprocess the orders:\n- Select the orders\n- Click on **More Actions**\n- Choose **Reprocess Orders**\n\nSince there was previously a rate mismatch between the old and new accounts, I have not made any changes to these orders from my end as of now. Please let us know if you would like us to reassign these orders to the old account.\n\nWe can reconnect next week at your convenience to discuss further regarding the migration. We will keep you posted.\n\nBest regards,\nKeerthi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Reggie,&nbsp;<br>&nbsp;<br>Thank you for your time on the call.<br>&nbsp;<br>As discussed on the call, the app settings have been reverted to the old FedEx account. I also reviewed this with Manohar, who had connected with you regarding the account migration.<br>&nbsp;<br><strong>Regarding the rate difference</strong> between the new and old FedEx accounts, it was related to the ONE RATE option, which in turn is associated with the packaging configuration. Once I disabled the ONE RATE option in the new FedEx account, I was able to match the rates with the old account. <i>(I had tested this during our call)</i><br>&nbsp;<br>As of now, we will not be making any further changes from our end, and <strong>the store has been restored to the same setup as before the new integration.</strong><br>&nbsp;<br>Additionally, the orders highlighted in the video below appear to have been placed while the FedEx REST account was enabled. That is why the carrier name for these orders appears as “FedEx REST.” Reprocessing these orders will reassign them to the old account.<br>Video Recording : <a rel=\"noopener noreferrer\" href=\"https://drive.google.com/file/d/1whjocbB0_LpaQ-mlxSXaQLxk4LYsyeZC/view?usp=sharing\">https://drive.google.com/file/d/1whjocbB0_LpaQ-mlxSXaQLxk4LYsyeZC/view?usp=sharing</a><br>&nbsp;<br>To reprocess the orders:<br><ul dir=\"auto\"><li>Select the orders</li><li>Click on <strong>More Actions</strong></li><li><p dir=\"auto\">Choose <strong>Reprocess Orders</strong></p><p dir=\"auto\">&nbsp;</p></li></ul>Since there was previously a rate mismatch between the old and new accounts, I have not made any changes to these orders from my end as of now. Please let us know if you would like us to reassign these orders to the old account.<br>&nbsp;<br>We can reconnect next week at your convenience to discuss further regarding the migration. We will keep you posted.<br>&nbsp;<br>Best regards,<br>Keerthi<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Reggie,&nbsp;\n&nbsp;\nThank you for your time on the call.\n&nbsp;\nAs discussed on the call, the app settings have been reverted to the old FedEx account. I also reviewed this with Manohar, who had connected with you regarding the account migration.\n&nbsp;\nRegarding the rate difference between the new and old FedEx accounts, it was related to the ONE RATE option, which in turn is associated with the packaging configuration. Once I disabled the ONE RATE option in the new FedEx account, I was able to match the rates with the old account. (I had tested this during our call)\n&nbsp;\nAs of now, we will not be making any further changes from our end, and the store has been restored to the same setup as before the new integration.\n&nbsp;\nAdditionally, the orders highlighted in the video below appear to have been placed while the FedEx REST account was enabled. That is why the carrier name for these orders appears as “FedEx REST.” Reprocessing these orders will reassign them to the old account.\nVideo Recording : https://drive.google.com/file/d/1whjocbB0_LpaQ-mlxSXaQLxk4LYsyeZC/view?usp=sharing\n&nbsp;\nTo reprocess the orders:\n  Select the orders  Click on More Actions   Choose Reprocess Orders  &nbsp;   Since there was previously a rate mismatch between the old and new accounts, I have not made any changes to these orders from my end as of now. Please let us know if you would like us to reassign these orders to the old account.\n&nbsp;\nWe can reconnect next week at your convenience to discuss further regarding the migration. We will keep you posted.\n&nbsp;\nBest regards,\nKeerthi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57960363594521,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T16:27:15Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57961047176729,
+      "type": "Comment",
+      "author_id": 5479117258777,
+      "body": "\n\nThank you. I will request a day next week to again switch over and make required setting with your team to simply duplicate same results but with the fedex rest.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div dir=\"auto\"><br></div><div dir=\"auto\">Thank you. I will request a day next week to again switch over and make required setting with your team to simply duplicate same results but with the fedex rest.</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div></div><br><div></div></div>",
+      "plain_body": "Thank you. I will request a day next week to again switch over and make required setting with your team to simply duplicate same results but with the fedex rest.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57961047176601,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "reggie@ruggedradios.com",
+            "name": "reggie",
+            "original_recipients": [
+              "reggie@ruggedradios.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T17:19:23Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAAoq2ZHJ=M2f7yqTEFM+YOChy5AsOWHQCYfR-ZUAui9F=y4J-Q@mail.gmail.com>",
+          "email_id": "01KRPACQWSRC5BVKP81HNTFFEY",
+          "raw_email_identifier": "2369120/a019d513-b707-40c5-872a-aa35d8ba37f9.eml",
+          "json_email_identifier": "2369120/a019d513-b707-40c5-872a-aa35d8ba37f9.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57961840054937,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Reggie,\n\nThat works perfectly — please share your preferred day and time and we will get the migration session scheduled.\n\nLooking forward to hearing back from you.\n\nThanks and regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Reggie,<br>&nbsp;<br>That works perfectly — please share your preferred day and time and we will get the migration session scheduled.<br>&nbsp;<br>Looking forward to hearing back from you.<br>&nbsp;<br>Thanks and regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Reggie,\n&nbsp;\nThat works perfectly — please share your preferred day and time and we will get the migration session scheduled.\n&nbsp;\nLooking forward to hearing back from you.\n&nbsp;\nThanks and regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57961840054809,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T18:32:12Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Hyderabad, TS, India",
+          "latitude": 17.3843,
+          "longitude": 78.4583
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58161292479257,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Reggie,\n\nGood day!\n\nI’m following up on this email thread to check your preferred date and time for migrating the settings to use the FedEx REST API.\n\nPlease confirm your preferred date, time, and timezone so that we can schedule the call accordingly. Keerthi from our senior team will also join the call to assist with the migration process.\n\nLooking forward to hearing from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Reggie,<br>&nbsp;<br>Good day!<br>&nbsp;<br>I’m following up on this email thread to check your preferred date and time for migrating the settings to use the FedEx REST API.<br>&nbsp;<br>Please confirm your preferred date, time, and timezone so that we can schedule the call accordingly. Keerthi from our senior team will also join the call to assist with the migration process.<br>&nbsp;<br>Looking forward to hearing from you.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Reggie,\n&nbsp;\nGood day!\n&nbsp;\nI’m following up on this email thread to check your preferred date and time for migrating the settings to use the FedEx REST API.\n&nbsp;\nPlease confirm your preferred date, time, and timezone so that we can schedule the call accordingly. Keerthi from our senior team will also join the call to assist with the migration process.\n&nbsp;\nLooking forward to hearing from you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58161323709977,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T18:21:30Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58161324080409,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Discussed with Keerthi and sent followup email",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with Keerthi and sent followup email<br></div>",
+      "plain_body": "Discussed with Keerthi and sent followup email",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58161324080025,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-21T18:21:46Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58353224339481,
+      "type": "Comment",
+      "author_id": 5479117258777,
+      "body": "\n\nHello,\n\n\n\nPlease may we setup an installation time in my USA PAC TIME Thursday ?\n\n\n\nI can be available anytime, even early in my AM morning.\n\n\n\nHave Keerthi with us also?\n\n\n\nWe can not have any issues this time please and we are out of time since the deadline is coming up.\n\n\n\nReply with a meeting time and link please.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\"><br><div>Hello,</div><div><br></div><div>Please may we setup an installation time in my USA PAC TIME Thursday ?</div><div><br></div><div>I can be available anytime, even early in my AM morning.</div><div><br></div><div>Have&nbsp;<span style=\"color: rgb(43,46,47); font-size: 12px;\">Keerthi with us also?&nbsp;</span></div><div><span style=\"color: rgb(43,46,47); font-size: 12px;\"><br></span></div><div><span style=\"color: rgb(43,46,47); font-size: 12px;\">We can not have any issues this time please and we are out of time since the deadline is coming up.</span></div><div><br></div><div>Reply with a meeting time and link please.</div><div><br></div></div><br><div></div></div></div>",
+      "plain_body": "Hello,  \n  Please may we setup an installation time in my USA PAC TIME Thursday ?  \n  I can be available anytime, even early in my AM morning.  \n  Have&nbsp;Keerthi with us also?&nbsp;  \n  We can not have any issues this time please and we are out of time since the deadline is coming up.  \n  Reply with a meeting time and link please.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58353224339353,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "reggie@ruggedradios.com",
+            "name": "reggie",
+            "original_recipients": [
+              "reggie@ruggedradios.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T15:43:41Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAAoq2ZH32_45x6pT3V+B0DvpduEf4PHyxWpKLRFYzw1QVmkNFQ@mail.gmail.com>",
+          "email_id": "01KSN1P445A0SFC8AT7R8CG458",
+          "raw_email_identifier": "2369120/911cae44-7aed-415e-959e-3de6580935de.eml",
+          "json_email_identifier": "2369120/911cae44-7aed-415e-959e-3de6580935de.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58354263542041,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Reggie,\n\nThank you for your reply.\n\nWe can connect on Thursday (tomorrow) at **9:30 AM Los Angeles time (10:00 PM IST)**. You can join the meeting using the link below:\nhttps://us06web.zoom.us/j/84933129173?pwd=O5Vg2BZZTuSfJ3kcSkP1sxIGNjgu9i.1\n\nMeeting ID: 849 3312 9173\nPasscode: 602802\n\nFYI, Keerthi has also been informed and will be joining the call.\n\nLooking forward to talking to you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Reggie,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>We can connect on Thursday (tomorrow) at <strong>9:30 AM Los Angeles time (10:00 PM IST)</strong>. You can join the meeting using the link below:<br><a rel=\"noopener noreferrer\" href=\"https://us06web.zoom.us/j/84933129173?pwd=O5Vg2BZZTuSfJ3kcSkP1sxIGNjgu9i.1\">https://us06web.zoom.us/j/84933129173?pwd=O5Vg2BZZTuSfJ3kcSkP1sxIGNjgu9i.1</a>&nbsp;<br>&nbsp;<br>Meeting ID: 849 3312 9173<br>Passcode: 602802<br>&nbsp;<br>FYI, Keerthi has also been informed and will be joining the call.<br>&nbsp;<br>Looking forward to talking to you.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Reggie,\n&nbsp;\nThank you for your reply.\n&nbsp;\nWe can connect on Thursday (tomorrow) at 9:30 AM Los Angeles time (10:00 PM IST). You can join the meeting using the link below:\nhttps://us06web.zoom.us/j/84933129173?pwd=O5Vg2BZZTuSfJ3kcSkP1sxIGNjgu9i.1&nbsp;\n&nbsp;\nMeeting ID: 849 3312 9173\nPasscode: 602802\n&nbsp;\nFYI, Keerthi has also been informed and will be joining the call.\n&nbsp;\nLooking forward to talking to you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58354263541913,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T16:36:48Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58354216233369,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Call is scheduled for May 28 2026 (Thursday) at 10 PM IST\n\nDiscussed with Keerthi before replying",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Call is scheduled for May 28 2026 (Thursday) at 10 PM IST<br>&nbsp;<br>Discussed with Keerthi before replying<br></div>",
+      "plain_body": "Call is scheduled for May 28 2026 (Thursday) at 10 PM IST\n&nbsp;\nDiscussed with Keerthi before replying",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58354216232985,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T16:37:29Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58395760364057,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Reggie,\n\nThank you for your time over the call.\n\nTo recap, the FedEx REST account is active, and the shipping rates displayed at checkout are being fetched from the FedEx REST account.\n\nPlease note that the old FedEx account is still active only under the Label Automation rules to allow your team to process all pending orders. Once all pending orders have been processed, the old FedEx account can be disabled. I have attached a short video demonstrating how this can be done.\n\nRegarding the fallback rates case, I would like to inform you that there was a temporary outage on May 27, 2026, which was addressed promptly.\n\nPlease feel free to reach out to us anytime if you need any assistance or additional information from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Reggie,<br>&nbsp;<br>Thank you for your time over the call.<br>&nbsp;<br>To recap, the FedEx REST account is active, and the shipping rates displayed at checkout are being fetched from the FedEx REST account.<br>&nbsp;<br>Please note that the old FedEx account is still active only under the Label Automation rules to allow your team to process all pending orders. Once all pending orders have been processed, the old FedEx account can be disabled. I have attached a short video demonstrating how this can be done.<br>&nbsp;<br>Regarding the fallback rates case, I would like to inform you that there was a temporary outage on May 27, 2026, which was addressed promptly.<br>&nbsp;<br>Please feel free to reach out to us anytime if you need any assistance or additional information from our end.<br>&nbsp;<br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Reggie,\n&nbsp;\nThank you for your time over the call.\n&nbsp;\nTo recap, the FedEx REST account is active, and the shipping rates displayed at checkout are being fetched from the FedEx REST account.\n&nbsp;\nPlease note that the old FedEx account is still active only under the Label Automation rules to allow your team to process all pending orders. Once all pending orders have been processed, the old FedEx account can be disabled. I have attached a short video demonstrating how this can be done.\n&nbsp;\nRegarding the fallback rates case, I would like to inform you that there was a temporary outage on May 27, 2026, which was addressed promptly.\n&nbsp;\nPlease feel free to reach out to us anytime if you need any assistance or additional information from our end.\n&nbsp;\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58395744793753.json",
+          "id": 58395744793753,
+          "file_name": "Screen Recording 2026-05-28 at 11.32.34 PM.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/tOAStCRgS68Bo16mpJcmVCdSA/?name=Screen+Recording+2026-05-28+at+11.32.34+PM.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/tOAStCRgS68Bo16mpJcmVCdSA/?name=Screen+Recording+2026-05-28+at+11.32.34+PM.mov",
+          "content_type": "video/quicktime",
+          "size": 14995910,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58395738362137,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-28T18:04:06Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58395821431321,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "**Call Summary:**\n\n- The FedEx REST account has been activated, and both shipping rates and label generation are working successfully through the FedEx REST account.\n- Shipping rates were verified and confirmed to be accurate and matching as expected.\n- The customer confirmed that label generation using the FedEx REST account is functioning properly.\n- The old FedEx account is still active to allow processing of pending orders. The customer to deactivate the old account once all pending orders are completed, likely this week.\n\n\nCall recording - https://drive.google.com/file/d/1tMWp62Wwlqvm7-Jt7A1uhECbiFMcyf8B/view?usp=sharing",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><strong>Call Summary:</strong><br><ul dir=\"auto\"><li>The FedEx REST account has been activated, and both shipping rates and label generation are working successfully through the FedEx REST account.</li><li>Shipping rates were verified and confirmed to be accurate and matching as expected.</li><li>The customer confirmed that label generation using the FedEx REST account is functioning properly.</li><li>The old FedEx account is still active to allow processing of pending orders. The customer to deactivate the old account once all pending orders are completed, likely this week.</li></ul>&nbsp;<br>Call recording - <a rel=\"noopener noreferrer\" href=\"https://drive.google.com/file/d/1tMWp62Wwlqvm7-Jt7A1uhECbiFMcyf8B/view?usp=sharing\">https://drive.google.com/file/d/1tMWp62Wwlqvm7-Jt7A1uhECbiFMcyf8B/view?usp=sharing</a><br></div>",
+      "plain_body": "Call Summary:\n  The FedEx REST account has been activated, and both shipping rates and label generation are working successfully through the FedEx REST account.  Shipping rates were verified and confirmed to be accurate and matching as expected.  The customer confirmed that label generation using the FedEx REST account is functioning properly.  The old FedEx account is still active to allow processing of pending orders. The customer to deactivate the old account once all pending orders are completed, likely this week.  &nbsp;\nCall recording - https://drive.google.com/file/d/1tMWp62Wwlqvm7-Jt7A1uhECbiFMcyf8B/view?usp=sharing",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58395821431065,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-28T18:08:20Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58395807230745,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need to followup if no response from customer",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need to followup if no response from customer<br></div>",
+      "plain_body": "Need to followup if no response from customer",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58395807230617,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-28T18:08:38Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}
