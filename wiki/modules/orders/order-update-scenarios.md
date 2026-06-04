@@ -26,7 +26,7 @@ The central business problem this design solves: **Shopify is noisy.** A single 
 
 Every scenario below is expressed as a **Given/When/Then QA case** in a downloadable CSV — import into a test-management tool or paste into the regression sheet:
 
-**📥 [order-update-qa-scenarios.csv](order-update-qa-scenarios.csv)** — 85 QA cases incl. **Tracking (T1–T8)** and the **Returns/Refunds gap (S29/S30)** (`ID, Section, Scenario, Given, When, Then, DiffPriority, Trigger, Verification, RegressionCoverage, RegressionRef, Caveat`)
+**📥 [order-update-qa-scenarios.csv](order-update-qa-scenarios.csv)** — 97 QA cases incl. **Partial Fulfilment (PF1–PF12)**, **Tracking (T1–T8)** and the **Returns/Refunds gap (S29/S30)** (`ID, Section, Scenario, Given, When, Then, DiffPriority, Trigger, Verification, RegressionCoverage, RegressionRef, Caveat`)
 
 > [!success] Resolved this session (were "verify before trust", now code-checked)
 > - **M6 / M8** write-back — **Verified in code** (`ordersSyncEngine.syncCurrentStoreOrders` loops → `syncStore` per order; `fulfillmentOrderUpdatingListener`). Bulk = N write-backs.
@@ -303,6 +303,31 @@ INITIAL(CONFIRMED) → IN_TRANSIT → OUT_FOR_DELIVERY → DELIVERED
 
 - **shopify-tracking-app**: returns appear only as `EXCEPTION_3` ("Return Exception") → `FAILURE`. No RMA, no reverse-logistics tracking.
 - **Consequence**: a customer return *in Shopify* never reaches StorePep as a return. It surfaces only indirectly — as a refund (`financial_status`, S10/S11) or unfulfil (S27), where the legacy path may reduce line-item quantities (S29). StorePep "returns" mean *printing a reverse label*, operator-triggered, with **no link to Shopify's return objects**. If Shopify-driven return workflows matter, this is the gap to close.
+
+## 9. Partial Fulfilment (dedicated dimension)
+
+Partial fulfilment is not a single scenario — it is an axis crossing source, flag-state, item-recalculation, and sequencing. **Two code paths** handle it: the diff-driven `internalOrderWebhook` route (`deriveStorePepStatus`) and the `externalFulfilmentEventProcessingListener` (`handlePartialFulfilment`).
+
+**Mechanics (verified):** on a partial event, `OrderProcessingService.process()` **strips already-fulfilled items and recomputes line totals, discounts, tax lines and `money_set`** for the *remaining* items, re-maps via the store adapter, sets `PARTIALLY_EXTERNALLY_FULFILED`, and re-imports. `cancelled_at` takes precedence over partial. When `partial.fulfilment.enabled` is **off**, status is forced to `INITIAL`.
+
+| # | Partial scenario | Effect | Verified |
+|---|---|---|---|
+| PF1 | Merchant partially fulfils in Shopify (flag **ON**) | remaining items recalculated (totals/tax/money) → re-imported as `PARTIALLY_EXTERNALLY_FULFILED` | `externalFulfilmentEventProcessingListener.handlePartialFulfilment` + `OrderProcessingService` |
+| PF2 | Merchant partially fulfils (flag **OFF**) | status **forced to `INITIAL`** — MCSL sees it as fully unfulfilled and may ship already-fulfilled items | `deriveStorePepStatus` — **RISK** |
+| PF3 | Operator partially fulfils from MCSL (edit packages, fulfil subset) | per-item write-back to Shopify; `isPartiallyAvailable` set | M8 + ordersSyncEngine |
+| PF4 | Hold some items in Shopify, fulfil remaining in MCSL | remaining items fulfilled; batch creation handles held items | Batch Flow r32-33 (regression) |
+| PF5 | Multi-vendor (WCFM) sub-orders | `isPartiallyAvailable = completedSubOrders ≠ totalSubOrders`; full only when all sub-orders `SHIPPED` | ordersSyncEngine:113-126 |
+| PF6 | Partial → then fulfil the remaining | transitions toward `FULFILLED` / `EXTERNALLY_FULFILED` | end-to-end regression row28 |
+| PF7 | Partial → then remaining items cancelled | remaining cancelled; order resolves | **Inferred** — not traced |
+| PF8 | Partial externally → then line items edited | recalculation re-runs on next event for remaining items | P4 + OrderProcessingService |
+| PF9 | Repeated partial webhooks (idempotency) | each event re-runs `process()` recomputing remaining; should converge, not double-strip | **Inferred** — not traced |
+| PF10 | Totals/tax/money correctness after partial | `calculateTotals` + `updateMoneySet` recompute price/discount/tax/`money_set` for remaining items only | `OrderProcessingService` (verified) |
+| PF11 | Partial fulfilment + COD outstanding | collectible/outstanding should reflect remaining value (intersects S9/S14) | **Inferred** — not traced |
+| PF12 | `cancelled_at` precedence over partial | `CANCELLED` wins even if `fulfillment_status = partial` | `deriveStorePepStatus` (verified) |
+
+> [!warning] Two open partial-fulfilment risks worth tracing
+> - **PF2 (flag OFF → INITIAL):** an externally partially-fulfilled order is treated as fully unfulfilled. Confirm whether downstream label/fulfil guards prevent re-shipping the already-fulfilled items.
+> - **Double-path:** both `internalOrderWebhook` and `externalFulfilmentEventProcessingListener` react to partial fulfilment. Confirm they don't both re-import/recompute the same event.
 
 ## State Machine (MCSL internal)
 

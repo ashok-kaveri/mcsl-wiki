@@ -462,3 +462,15 @@
 - StorePep returns = operator-initiated carrier RMA reverse labels (carriers.js ReturnLabel/rma; DHL/FedEx/UPS/EasyPost ReturnRequest); separate returnBatchStatus/returnLabel[] data model; order-returns.md
 - Updated: order-update-scenarios.md §8 (three-layer table) + CSV (+S29 legacy refund adjust, +S30 Return Management gap) = 85 rows
 - Summary: three non-overlapping return/refund worlds; Shopify Return Management is a hard gap
+
+## [2026-06-03 03:40] query | Partial fulfilment scenario completeness
+- Read: internalOrderWebhook.js (deriveStorePepStatus), externalFulfilmentEventProcessingListener.js (handlePartialFulfilment), OrderProcessingService.js, ordersSyncEngine.js (isPartiallyAvailable)
+- Updated: order-update-scenarios.md (new §9 Partial Fulfilment) + CSV (+PF1-PF12) = 97 rows
+- Verified facts:
+  - TWO partial-fulfilment paths: diff-driven internalOrderWebhook + externalFulfilmentEventProcessingListener
+  - handlePartialFulfilment → OrderProcessingService.process() strips fulfilled items and recomputes totals/discounts/tax/money_set for remaining, re-imports as PARTIALLY_EXTERNALLY_FULFILED
+  - RISK PF2: deriveStorePepStatus forces status to INITIAL when partial.fulfilment.enabled is OFF (order looks fully unfulfilled)
+  - PF12: cancelled_at precedence over partial (CANCELLED wins)
+  - PF5: multi-vendor WCFM isPartiallyAvailable = completedSubOrders != totalSubOrders (ordersSyncEngine:113-126)
+  - Inferred/untraced: PF7 partial-then-cancel, PF9 repeated-webhook idempotency, PF11 partial+COD outstanding, plus double-path non-duplication
+- Summary: partial fulfilment was under-covered (only S17/M8/P4); now a dedicated 12-row dimension. Two open risks flagged: PF2 forced-INITIAL, and the two-path double-processing question.
