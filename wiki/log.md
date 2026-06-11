@@ -474,3 +474,9 @@
   - PF5: multi-vendor WCFM isPartiallyAvailable = completedSubOrders != totalSubOrders (ordersSyncEngine:113-126)
   - Inferred/untraced: PF7 partial-then-cancel, PF9 repeated-webhook idempotency, PF11 partial+COD outstanding, plus double-path non-duplication
 - Summary: partial fulfilment was under-covered (only S17/M8/P4); now a dedicated 12-row dimension. Two open risks flagged: PF2 forced-INITIAL, and the two-path double-processing question.
+
+## [2026-06-11 15:31] feature-story | Product CSV Export for Large Catalogs
+- Created: `wiki/product/features/product-csv-export-large-catalogs.md`
+- Updated: `wiki/index.md`
+- Git reference: 01898b83a15a8ca9495bf890bcdb47a745792c0d
+- Summary: Feature story for ZD #394571 (Biomatik, 78k products) — sync export endpoint is O(n^2) and unbounded, never completes for large catalogs and blocks the imports server event loop. Stories: async export job + notification, streaming linear CSV build, support script `supportScripts/exportProductsToCSV.js` (written, Node v10 compatible), product-count guardrail. Root cause at `routes/products.js:498` / `productsHelperFunctions.js:354`; ops evidence in ops-wiki incident page.
