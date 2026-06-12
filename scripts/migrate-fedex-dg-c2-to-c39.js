@@ -7,6 +7,11 @@
  *   - carriers      : hazardousTypeOfPackaging / hazardousPackagingMaterial
  *                     on C2 carrier records → matching C39 carrier records
  *
+ * Query strategy (73M product documents, no index on isDangerousGoodsPresent):
+ *   1. Fetch C2 carrier account list from the small carriers collection.
+ *   2. Query products PER ACCOUNT using { accountUUID, isDangerousGoodsPresent: true }.
+ *      This hits the accountUUID_1_productType_1 index instead of doing a full scan.
+ *
  * IMPORTANT — this script seeds C39 data ahead of the code/schema switch.
  * The migration is complete only after ALL three steps are done:
  *   1. This script runs with --apply (data copy)
@@ -22,7 +27,7 @@
  *
  * Output files (written next to this script):
  *   dg_migration_dryrun.json   — scope report (dry-run)
- *   dg_migration_before.json   — snapshot of all affected docs before apply
+ *   dg_migration_before.json   — snapshot of affected docs before apply
  *   dg_migration_result.json   — per-document outcome after apply
  *   dg_migration_verify.json   — diff report after verify
  */
@@ -42,8 +47,8 @@ if (!DB_CONNECTION_STRING) {
   process.exit(1);
 }
 
-const SOAP_CODE = 'C2';   // FedEx SOAP — being sunset
-const REST_CODE = 'C39';  // FedEx REST — migration target
+const SOAP_CODE = 'C2';
+const REST_CODE = 'C39';
 
 const DG_FIELDS = [
   'regulation',
@@ -58,17 +63,17 @@ const DG_FIELDS = [
 ];
 
 const args = process.argv.slice(2);
-const MODE_APPLY = args.includes('--apply');
+const MODE_APPLY  = args.includes('--apply');
 const MODE_VERIFY = args.includes('--verify');
-const OVERWRITE = args.includes('--overwrite');
-const SCRIPT_DIR = __dirname;
+const OVERWRITE   = args.includes('--overwrite');
+const SCRIPT_DIR  = __dirname;
 
 mongoose.Promise = global.Promise;
 
 // ── helpers ───────────────────────────────────────────────────────────────────
 
 function writeJson(filename, data) {
-  const outPath = path.join(SCRIPT_DIR, filename);
+  var outPath = path.join(SCRIPT_DIR, filename);
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2));
   console.log('  Written: ' + outPath);
 }
@@ -77,13 +82,11 @@ function hasValue(v) {
   return v !== null && v !== undefined;
 }
 
-// Returns true if the C2 DG sub-doc has at least one defined field worth copying.
 function c2DgHasData(dgC2) {
   if (!dgC2) return false;
-  return DG_FIELDS.some(f => hasValue(dgC2[f]));
+  return DG_FIELDS.some(function(f) { return hasValue(dgC2[f]); });
 }
 
-// Builds a $set payload for dangerousGoods.C39 from dangerousGoods.C2.
 function buildDgSetPayload(dgC2) {
   var payload = {};
   DG_FIELDS.forEach(function(f) {
@@ -97,10 +100,10 @@ function buildDgSetPayload(dgC2) {
 // ── main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const mode = MODE_VERIFY ? 'VERIFY' : (MODE_APPLY ? 'APPLY' : 'DRY-RUN');
+  var mode = MODE_VERIFY ? 'VERIFY' : (MODE_APPLY ? 'APPLY' : 'DRY-RUN');
   console.log('=== FedEx DG migration: C2 → C39 | mode=' + mode + ' ===\n');
 
-  const readPref = (MODE_APPLY || MODE_VERIFY) ? 'primary' : 'secondary';
+  var readPref = (MODE_APPLY || MODE_VERIFY) ? 'primary' : 'secondary';
   await mongoose.connect(DB_CONNECTION_STRING, {
     useMongoClient: true,
     user: DB_USERNAME,
@@ -110,10 +113,9 @@ async function main() {
   console.log('Connected (readPreference=' + readPref + ')');
 
   // Use native collections to bypass Mongoose strict-mode schema validation.
-  // dangerousGoods.C39 is not yet defined in the Mongoose schema, so hydrated
-  // model methods would silently strip those paths on both read and write.
-  const productsColl = mongoose.connection.collection('productsnews');
-  const carriersColl = mongoose.connection.collection('carriers');
+  // dangerousGoods.C39 is not yet in the product schema.
+  var productsColl = mongoose.connection.collection('productsnews');
+  var carriersColl = mongoose.connection.collection('carriers');
 
   if (MODE_VERIFY) {
     await runVerify(productsColl, carriersColl);
@@ -124,63 +126,101 @@ async function main() {
   mongoose.connection.close();
 }
 
+// ── get C2 account list ───────────────────────────────────────────────────────
+// Using the carriers collection (small) as the entry point so we never do a
+// full scan of the 73M-document productsnews collection.
+
+async function getC2AccountUUIDs(carriersColl) {
+  var docs = await carriersColl.find({ carrierCode: SOAP_CODE }).toArray();
+  return Array.from(new Set(docs.map(function(d) { return d.accountUUID; }).filter(Boolean)));
+}
+
+// ── per-account product queries (uses accountUUID_1_productType_1 index) ──────
+
+async function getDgProductsForAccount(productsColl, accountUUID) {
+  return productsColl.find({ accountUUID: accountUUID, isDangerousGoodsPresent: true }).toArray();
+}
+
+async function getAlcoholProductsForAccount(productsColl, accountUUID) {
+  var query = { accountUUID: accountUUID, isAlcoholPresent: true };
+  query['alcohol.' + SOAP_CODE + '.recipientType'] = { $exists: true, $ne: null };
+  return productsColl.find(query).toArray();
+}
+
 // ── DRY-RUN / APPLY ───────────────────────────────────────────────────────────
 
 async function runMigration(productsColl, carriersColl) {
-  // ── Products: DG (dangerousGoods.C2) ───────────────────────────────────────
-  console.log('\nPhase 1: Products — dangerousGoods.C2');
-  const dgProductsRaw = await productsColl.find(
-    { isDangerousGoodsPresent: true },
-    { projection: { _id: 1, productUUID: 1, accountUUID: 1, dangerousGoods: 1 } }
-  ).toArray();
 
-  const dgProducts = dgProductsRaw.filter(function(p) {
-    return c2DgHasData(p.dangerousGoods && p.dangerousGoods[SOAP_CODE]);
-  });
-  console.log('  Products with dangerousGoods.C2 data: ' + dgProducts.length + ' (of ' + dgProductsRaw.length + ' isDangerousGoodsPresent)');
+  // ── Step 1: account list from carriers ────────────────────────────────────
+  console.log('Step 1: Loading C2 carrier accounts...');
+  var c2AccountUUIDs = await getC2AccountUUIDs(carriersColl);
+  console.log('  ' + c2AccountUUIDs.length + ' accounts have C2 carrier configured');
+  if (c2AccountUUIDs.length === 0) {
+    console.log('Nothing to do.');
+    mongoose.connection.close();
+    return;
+  }
 
-  const dgAlreadyHaveC39 = dgProducts.filter(function(p) {
+  // ── Step 2: per-account DG product scan ───────────────────────────────────
+  console.log('\nStep 2: Scanning DG products per account (uses accountUUID index)...');
+  var dgProducts = [];
+  for (var i = 0; i < c2AccountUUIDs.length; i++) {
+    var prods = await getDgProductsForAccount(productsColl, c2AccountUUIDs[i]);
+    var withC2 = prods.filter(function(p) {
+      return c2DgHasData(p.dangerousGoods && p.dangerousGoods[SOAP_CODE]);
+    });
+    dgProducts = dgProducts.concat(withC2);
+    if ((i + 1) % 100 === 0 || i === c2AccountUUIDs.length - 1) {
+      console.log('  [' + (i + 1) + '/' + c2AccountUUIDs.length + ' accounts] ' + dgProducts.length + ' DG products found');
+    }
+  }
+
+  var dgAlreadyHaveC39 = dgProducts.filter(function(p) {
     return c2DgHasData(p.dangerousGoods && p.dangerousGoods[REST_CODE]);
   });
-  const dgNeedsCopy = OVERWRITE ? dgProducts : dgProducts.filter(function(p) {
+  var dgNeedsCopy = OVERWRITE ? dgProducts : dgProducts.filter(function(p) {
     return !c2DgHasData(p.dangerousGoods && p.dangerousGoods[REST_CODE]);
   });
   console.log('  Already have C39 DG data: ' + dgAlreadyHaveC39.length);
-  console.log('  Need copy: ' + dgNeedsCopy.length + (OVERWRITE ? ' (--overwrite: will re-copy all)' : ''));
+  console.log('  Need copy:                ' + dgNeedsCopy.length + (OVERWRITE ? ' (--overwrite)' : ''));
 
-  // ── Products: Alcohol (alcohol.C2.recipientType) ───────────────────────────
-  console.log('\nPhase 2: Products — alcohol.C2.recipientType');
-  const alcoholProductsRaw = await productsColl.find(
-    { isAlcoholPresent: true, ['alcohol.' + SOAP_CODE + '.recipientType']: { $exists: true, $ne: null } },
-    { projection: { _id: 1, productUUID: 1, accountUUID: 1, alcohol: 1 } }
-  ).toArray();
-  const alcoholAlreadyHaveC39 = alcoholProductsRaw.filter(function(p) {
+  // ── Step 3: per-account alcohol scan ──────────────────────────────────────
+  console.log('\nStep 3: Scanning alcohol products per account (uses accountUUID index)...');
+  var alcoholProducts = [];
+  for (var j = 0; j < c2AccountUUIDs.length; j++) {
+    var aprods = await getAlcoholProductsForAccount(productsColl, c2AccountUUIDs[j]);
+    alcoholProducts = alcoholProducts.concat(aprods);
+    if ((j + 1) % 100 === 0 || j === c2AccountUUIDs.length - 1) {
+      console.log('  [' + (j + 1) + '/' + c2AccountUUIDs.length + ' accounts] ' + alcoholProducts.length + ' alcohol products found');
+    }
+  }
+
+  var alcoholAlreadyHaveC39 = alcoholProducts.filter(function(p) {
     return hasValue(p.alcohol && p.alcohol[REST_CODE] && p.alcohol[REST_CODE].recipientType);
   });
-  const alcoholNeedsCopy = OVERWRITE ? alcoholProductsRaw : alcoholProductsRaw.filter(function(p) {
+  var alcoholNeedsCopy = OVERWRITE ? alcoholProducts : alcoholProducts.filter(function(p) {
     return !hasValue(p.alcohol && p.alcohol[REST_CODE] && p.alcohol[REST_CODE].recipientType);
   });
-  console.log('  Products with alcohol.C2.recipientType: ' + alcoholProductsRaw.length);
   console.log('  Already have C39 alcohol data: ' + alcoholAlreadyHaveC39.length);
-  console.log('  Need copy: ' + alcoholNeedsCopy.length);
+  console.log('  Need copy:                     ' + alcoholNeedsCopy.length);
 
-  // ── Per-category account breakdown (mirrors Slack audit queries) ───────────
+  // ── Per-category audit breakdown (mirrors the Slack audit queries) ─────────
   // Equivalent to:
   //   db.productsnews.distinct("accountUUID", { "dangerousGoods.C2.isOtherDangerousGoods": true })
   //   db.productsnews.distinct("accountUUID", { "dangerousGoods.C2.isBattery": true })
   //   db.productsnews.distinct("accountUUID", { isAlcoholPresent: true, "alcohol.C2.recipientType": { $exists: true } })
-  const otherDgAccounts = Array.from(new Set(
+  var otherDgAccounts = Array.from(new Set(
     dgProducts
       .filter(function(p) { return p.dangerousGoods && p.dangerousGoods[SOAP_CODE] && p.dangerousGoods[SOAP_CODE].isOtherDangerousGoods === true; })
       .map(function(p) { return p.accountUUID; })
   ));
-  const batteryAccounts = Array.from(new Set(
+  var batteryAccounts = Array.from(new Set(
     dgProducts
       .filter(function(p) { return p.dangerousGoods && p.dangerousGoods[SOAP_CODE] && p.dangerousGoods[SOAP_CODE].isBattery === true; })
       .map(function(p) { return p.accountUUID; })
   ));
-  const alcoholAccounts = Array.from(new Set(
-    alcoholProductsRaw.map(function(p) { return p.accountUUID; })
+  var alcoholAccounts = Array.from(new Set(
+    alcoholProducts.map(function(p) { return p.accountUUID; })
   ));
 
   console.log('\nAudit breakdown (account counts per DG category):');
@@ -188,69 +228,63 @@ async function runMigration(productsColl, carriersColl) {
   console.log('  isBattery=true             : ' + batteryAccounts.length + ' accounts');
   console.log('  alcohol.recipientType set  : ' + alcoholAccounts.length + ' accounts');
 
-  // ── Carriers: hazardous packaging settings ─────────────────────────────────
-  console.log('\nPhase 3: Carriers — hazardousTypeOfPackaging / hazardousPackagingMaterial');
-  const c2HazCarriers = await carriersColl.find(
-    {
-      carrierCode: SOAP_CODE,
-      $or: [
-        { hazardousTypeOfPackaging: { $exists: true, $ne: null } },
-        { hazardousPackagingMaterial: { $exists: true, $ne: null } },
-      ],
-    },
-    { projection: { _id: 1, accountUUID: 1, carrierCode: 1, hazardousTypeOfPackaging: 1, hazardousPackagingMaterial: 1 } }
-  ).toArray();
+  // ── Step 4: hazardous carrier settings ────────────────────────────────────
+  console.log('\nStep 4: Carriers — hazardousTypeOfPackaging / hazardousPackagingMaterial');
+  var c2HazCarriers = await carriersColl.find({
+    carrierCode: SOAP_CODE,
+    $or: [
+      { hazardousTypeOfPackaging: { $exists: true, $ne: null } },
+      { hazardousPackagingMaterial: { $exists: true, $ne: null } },
+    ],
+  }).toArray();
   console.log('  C2 carriers with hazardous settings: ' + c2HazCarriers.length);
 
-  // Find corresponding C39 carriers for these accounts.
-  const c2AccountUUIDs = c2HazCarriers.map(function(c) { return c.accountUUID; }).filter(Boolean);
-  const c39Carriers = await carriersColl.find(
-    { carrierCode: REST_CODE, accountUUID: { $in: c2AccountUUIDs } },
-    { projection: { _id: 1, accountUUID: 1, hazardousTypeOfPackaging: 1, hazardousPackagingMaterial: 1 } }
+  var hazAccountUUIDs = c2HazCarriers.map(function(c) { return c.accountUUID; }).filter(Boolean);
+  var c39Carriers = await carriersColl.find(
+    { carrierCode: REST_CODE, accountUUID: { $in: hazAccountUUIDs } }
   ).toArray();
 
-  const c39ByAccount = {};
+  var c39ByAccount = {};
   c39Carriers.forEach(function(c) { c39ByAccount[c.accountUUID] = c; });
 
-  const carriersWithC39 = c2HazCarriers.filter(function(c) { return !!c39ByAccount[c.accountUUID]; });
-  const carriersWithoutC39 = c2HazCarriers.filter(function(c) { return !c39ByAccount[c.accountUUID]; });
-  console.log('  Accounts that have a C39 carrier: ' + carriersWithC39.length);
-  console.log('  Accounts missing a C39 carrier (cannot auto-copy): ' + carriersWithoutC39.length);
-
-  const carriersNeedsCopy = OVERWRITE
+  var carriersWithC39    = c2HazCarriers.filter(function(c) { return !!c39ByAccount[c.accountUUID]; });
+  var carriersWithoutC39 = c2HazCarriers.filter(function(c) { return !c39ByAccount[c.accountUUID]; });
+  var carriersNeedsCopy  = OVERWRITE
     ? carriersWithC39
     : carriersWithC39.filter(function(c) {
-        const c39 = c39ByAccount[c.accountUUID];
+        var c39 = c39ByAccount[c.accountUUID];
         return !hasValue(c39.hazardousTypeOfPackaging) && !hasValue(c39.hazardousPackagingMaterial);
       });
-  console.log('  Need copy: ' + carriersNeedsCopy.length);
 
-  // ── Summary ────────────────────────────────────────────────────────────────
-  const scope = {
+  console.log('  Accounts with matching C39 carrier:           ' + carriersWithC39.length);
+  console.log('  Accounts missing C39 (cannot auto-copy):      ' + carriersWithoutC39.length);
+  console.log('  Need copy:                                     ' + carriersNeedsCopy.length);
+
+  // ── Scope summary ──────────────────────────────────────────────────────────
+  var scope = {
     generatedAt: new Date().toISOString(),
     mode: MODE_APPLY ? 'apply' : 'dry-run',
     overwrite: OVERWRITE,
     auditByCategory: {
       note: 'Account UUIDs per DG type — mirrors the Slack audit queries',
       isOtherDangerousGoods: { accountCount: otherDgAccounts.length, accountUUIDs: otherDgAccounts },
-      isBattery: { accountCount: batteryAccounts.length, accountUUIDs: batteryAccounts },
-      alcohol: { accountCount: alcoholAccounts.length, accountUUIDs: alcoholAccounts },
+      isBattery:             { accountCount: batteryAccounts.length,  accountUUIDs: batteryAccounts  },
+      alcohol:               { accountCount: alcoholAccounts.length,  accountUUIDs: alcoholAccounts  },
     },
     products: {
-      dgTotal: dgProductsRaw.length,
-      dgWithC2Data: dgProducts.length,
-      dgAlreadyHaveC39: dgAlreadyHaveC39.length,
-      dgNeedsCopy: dgNeedsCopy.length,
-      alcoholWithC2Data: alcoholProductsRaw.length,
-      alcoholAlreadyHaveC39: alcoholAlreadyHaveC39.length,
-      alcoholNeedsCopy: alcoholNeedsCopy.length,
+      dgWithC2Data:        dgProducts.length,
+      dgAlreadyHaveC39:    dgAlreadyHaveC39.length,
+      dgNeedsCopy:         dgNeedsCopy.length,
+      alcoholWithC2Data:   alcoholProducts.length,
+      alcoholAlreadyC39:   alcoholAlreadyHaveC39.length,
+      alcoholNeedsCopy:    alcoholNeedsCopy.length,
     },
     carriers: {
-      c2WithHazardousSettings: c2HazCarriers.length,
-      haveMatchingC39: carriersWithC39.length,
-      missingC39_cannotAutoCopy: carriersWithoutC39.length,
-      needsCopy: carriersNeedsCopy.length,
-      missingC39AccountUUIDs: carriersWithoutC39.map(function(c) { return c.accountUUID; }),
+      c2WithHazardousSettings:        c2HazCarriers.length,
+      haveMatchingC39:                carriersWithC39.length,
+      missingC39_cannotAutoCopy:      carriersWithoutC39.length,
+      needsCopy:                      carriersNeedsCopy.length,
+      missingC39AccountUUIDs:         carriersWithoutC39.map(function(c) { return c.accountUUID; }),
     },
     note: 'This data copy is a prerequisite. The migration is complete only after ' +
           'the product schema adds dangerousGoods.C39 / alcohol.C39 fields AND ' +
@@ -265,66 +299,46 @@ async function runMigration(productsColl, carriersColl) {
 
   // ── APPLY ──────────────────────────────────────────────────────────────────
 
-  // Snapshot before-state of all affected documents.
-  const beforeProducts = [];
-  const allProductIds = Array.from(new Set(
-    dgNeedsCopy.map(function(p) { return p._id; }).concat(
-      alcoholNeedsCopy.map(function(p) { return p._id; })
-    )
-  ));
-  if (allProductIds.length > 0) {
-    const beforeDocs = await productsColl.find(
-      { _id: { $in: allProductIds } },
-      { projection: { productUUID: 1, accountUUID: 1, dangerousGoods: 1, alcohol: 1 } }
-    ).toArray();
-    beforeProducts.push(...beforeDocs);
-  }
-
-  const beforeCarriers = carriersNeedsCopy.length > 0
-    ? await carriersColl.find(
-        { _id: { $in: carriersNeedsCopy.map(function(c) { return c._id; }) } }
-      ).toArray()
-    : [];
+  // Snapshot before-state (we already have these docs in memory).
+  var beforeProductIds = {};
+  dgNeedsCopy.forEach(function(p)      { beforeProductIds[p._id] = p; });
+  alcoholNeedsCopy.forEach(function(p) { beforeProductIds[p._id] = p; });
 
   writeJson('dg_migration_before.json', {
     generatedAt: new Date().toISOString(),
-    products: beforeProducts,
-    carriers: beforeCarriers,
+    products: Object.keys(beforeProductIds).map(function(k) { return beforeProductIds[k]; }),
+    carriers: carriersNeedsCopy,
   });
   console.log('\nBefore-state snapshot saved.');
 
-  const results = { products: [], carriers: [], errors: [] };
+  var results = { products: [], carriers: [], errors: [] };
 
   // Apply DG copy for products.
   console.log('\nApplying product DG copy (' + dgNeedsCopy.length + ' products)...');
-  for (var i = 0; i < dgNeedsCopy.length; i++) {
-    var prod = dgNeedsCopy[i];
+  for (var di = 0; di < dgNeedsCopy.length; di++) {
+    var prod = dgNeedsCopy[di];
     var dgC2 = prod.dangerousGoods && prod.dangerousGoods[SOAP_CODE];
     var setPayload = buildDgSetPayload(dgC2);
     try {
-      await productsColl.updateOne(
-        { _id: prod._id },
-        { $set: setPayload }
-      );
+      await productsColl.updateOne({ _id: prod._id }, { $set: setPayload });
       results.products.push({ productUUID: prod.productUUID, accountUUID: prod.accountUUID, action: 'dg_copied', fields: Object.keys(setPayload) });
-      if ((i + 1) % 100 === 0) console.log('  ' + (i + 1) + '/' + dgNeedsCopy.length + ' done');
+      if ((di + 1) % 100 === 0) console.log('  ' + (di + 1) + '/' + dgNeedsCopy.length + ' done');
     } catch (err) {
       results.errors.push({ productUUID: prod.productUUID, error: err.message });
       console.error('  Error on product ' + prod.productUUID + ': ' + err.message);
     }
   }
 
-  // Apply alcohol recipientType copy for products.
+  // Apply alcohol copy for products.
   console.log('Applying product alcohol copy (' + alcoholNeedsCopy.length + ' products)...');
-  for (var j = 0; j < alcoholNeedsCopy.length; j++) {
-    var aProd = alcoholNeedsCopy[j];
+  for (var ai2 = 0; ai2 < alcoholNeedsCopy.length; ai2++) {
+    var aProd = alcoholNeedsCopy[ai2];
     var recipientType = aProd.alcohol && aProd.alcohol[SOAP_CODE] && aProd.alcohol[SOAP_CODE].recipientType;
+    var alcoholSet = {};
+    alcoholSet['alcohol.' + REST_CODE + '.recipientType'] = recipientType;
     try {
-      await productsColl.updateOne(
-        { _id: aProd._id },
-        { $set: { ['alcohol.' + REST_CODE + '.recipientType']: recipientType } }
-      );
-      results.products.push({ productUUID: aProd.productUUID, accountUUID: aProd.accountUUID, action: 'alcohol_copied', fields: ['alcohol.' + REST_CODE + '.recipientType'] });
+      await productsColl.updateOne({ _id: aProd._id }, { $set: alcoholSet });
+      results.products.push({ productUUID: aProd.productUUID, accountUUID: aProd.accountUUID, action: 'alcohol_copied', fields: Object.keys(alcoholSet) });
     } catch (err) {
       results.errors.push({ productUUID: aProd.productUUID, error: err.message });
       console.error('  Error on product ' + aProd.productUUID + ': ' + err.message);
@@ -333,36 +347,33 @@ async function runMigration(productsColl, carriersColl) {
 
   // Apply hazardous packaging copy for C39 carriers.
   console.log('Applying carrier hazardous packaging copy (' + carriersNeedsCopy.length + ' carriers)...');
-  for (var k = 0; k < carriersNeedsCopy.length; k++) {
-    var c2carrier = carriersNeedsCopy[k];
-    var c39carrier = c39ByAccount[c2carrier.accountUUID];
+  for (var ci = 0; ci < carriersNeedsCopy.length; ci++) {
+    var c2c = carriersNeedsCopy[ci];
+    var c39c = c39ByAccount[c2c.accountUUID];
     var carrierSet = {};
-    if (hasValue(c2carrier.hazardousTypeOfPackaging)) carrierSet.hazardousTypeOfPackaging = c2carrier.hazardousTypeOfPackaging;
-    if (hasValue(c2carrier.hazardousPackagingMaterial)) carrierSet.hazardousPackagingMaterial = c2carrier.hazardousPackagingMaterial;
+    if (hasValue(c2c.hazardousTypeOfPackaging))  carrierSet.hazardousTypeOfPackaging  = c2c.hazardousTypeOfPackaging;
+    if (hasValue(c2c.hazardousPackagingMaterial)) carrierSet.hazardousPackagingMaterial = c2c.hazardousPackagingMaterial;
     try {
-      await carriersColl.updateOne(
-        { _id: c39carrier._id },
-        { $set: carrierSet }
-      );
-      results.carriers.push({ accountUUID: c2carrier.accountUUID, action: 'carrier_copied', fields: Object.keys(carrierSet) });
+      await carriersColl.updateOne({ _id: c39c._id }, { $set: carrierSet });
+      results.carriers.push({ accountUUID: c2c.accountUUID, action: 'carrier_copied', fields: Object.keys(carrierSet) });
     } catch (err) {
-      results.errors.push({ accountUUID: c2carrier.accountUUID, error: err.message });
-      console.error('  Error on carrier for account ' + c2carrier.accountUUID + ': ' + err.message);
+      results.errors.push({ accountUUID: c2c.accountUUID, error: err.message });
+      console.error('  Error on carrier for account ' + c2c.accountUUID + ': ' + err.message);
     }
   }
 
   scope.applied = {
-    productsDgCopied: dgNeedsCopy.length - results.errors.filter(function(e) { return !!e.productUUID; }).length,
-    alcoholCopied: alcoholNeedsCopy.length,
-    carriersCopied: carriersNeedsCopy.length,
-    errors: results.errors.length,
+    productsDgCopied: dgNeedsCopy.length,
+    alcoholCopied:    alcoholNeedsCopy.length,
+    carriersCopied:   carriersNeedsCopy.length,
+    errors:           results.errors.length,
   };
 
   writeJson('dg_migration_result.json', { scope: scope, results: results });
   console.log('\nApply complete.');
-  console.log('  Product DG copies: ' + (dgNeedsCopy.length));
-  console.log('  Alcohol copies:    ' + (alcoholNeedsCopy.length));
-  console.log('  Carrier copies:    ' + (carriersNeedsCopy.length));
+  console.log('  Product DG copies: ' + dgNeedsCopy.length);
+  console.log('  Alcohol copies:    ' + alcoholNeedsCopy.length);
+  console.log('  Carrier copies:    ' + carriersNeedsCopy.length);
   console.log('  Errors:            ' + results.errors.length);
   if (results.errors.length > 0) {
     console.error('\n!! Some records failed. Check dg_migration_result.json errors array.');
@@ -374,110 +385,107 @@ async function runMigration(productsColl, carriersColl) {
 // ── VERIFY ────────────────────────────────────────────────────────────────────
 
 async function runVerify(productsColl, carriersColl) {
-  console.log('\nVerifying C39 data matches C2...');
-  const mismatches = [];
-  const missing = [];
-  const ok = [];
+  console.log('\nStep 1: Loading C2 carrier accounts...');
+  var c2AccountUUIDs = await getC2AccountUUIDs(carriersColl);
+  console.log('  ' + c2AccountUUIDs.length + ' accounts');
+
+  var mismatches = [];
+  var missing    = [];
+  var ok         = [];
 
   // Products — DG
-  const dgProds = await productsColl.find(
-    { isDangerousGoodsPresent: true },
-    { projection: { productUUID: 1, accountUUID: 1, dangerousGoods: 1, alcohol: 1 } }
-  ).toArray();
+  console.log('\nStep 2: Verifying DG data per account...');
+  for (var i = 0; i < c2AccountUUIDs.length; i++) {
+    var prods = await getDgProductsForAccount(productsColl, c2AccountUUIDs[i]);
+    prods.forEach(function(p) {
+      var c2dg  = p.dangerousGoods && p.dangerousGoods[SOAP_CODE];
+      var c39dg = p.dangerousGoods && p.dangerousGoods[REST_CODE];
+      if (!c2DgHasData(c2dg)) return;
 
-  dgProds.forEach(function(p) {
-    const c2dg = p.dangerousGoods && p.dangerousGoods[SOAP_CODE];
-    const c39dg = p.dangerousGoods && p.dangerousGoods[REST_CODE];
-    if (!c2DgHasData(c2dg)) return; // nothing to verify
-
-    if (!c2DgHasData(c39dg)) {
-      missing.push({ type: 'product_dg', productUUID: p.productUUID, accountUUID: p.accountUUID, detail: 'C39 DG missing' });
-      return;
-    }
-
-    DG_FIELDS.forEach(function(f) {
-      if (hasValue(c2dg[f]) && c2dg[f] !== c39dg[f]) {
-        mismatches.push({ type: 'product_dg', productUUID: p.productUUID, accountUUID: p.accountUUID, field: f, c2: c2dg[f], c39: c39dg && c39dg[f] });
+      if (!c2DgHasData(c39dg)) {
+        missing.push({ type: 'product_dg', productUUID: p.productUUID, accountUUID: p.accountUUID, detail: 'C39 DG missing' });
+        return;
       }
+      var matched = true;
+      DG_FIELDS.forEach(function(f) {
+        if (hasValue(c2dg[f]) && c2dg[f] !== c39dg[f]) {
+          mismatches.push({ type: 'product_dg', productUUID: p.productUUID, accountUUID: p.accountUUID, field: f, c2: c2dg[f], c39: c39dg[f] });
+          matched = false;
+        }
+      });
+      if (matched) ok.push({ type: 'product_dg', productUUID: p.productUUID });
     });
-
-    if (!missing.find(function(m) { return m.productUUID === p.productUUID; }) &&
-        !mismatches.find(function(m) { return m.productUUID === p.productUUID; })) {
-      ok.push({ type: 'product_dg', productUUID: p.productUUID });
+    if ((i + 1) % 100 === 0 || i === c2AccountUUIDs.length - 1) {
+      console.log('  [' + (i + 1) + '/' + c2AccountUUIDs.length + ' accounts] ok=' + ok.length + ' missing=' + missing.length + ' mismatches=' + mismatches.length);
     }
-  });
+  }
 
   // Products — Alcohol
-  const alcoholProds = await productsColl.find(
-    { isAlcoholPresent: true, ['alcohol.' + SOAP_CODE + '.recipientType']: { $exists: true, $ne: null } },
-    { projection: { productUUID: 1, accountUUID: 1, alcohol: 1 } }
-  ).toArray();
-
-  alcoholProds.forEach(function(p) {
-    const c2rt = p.alcohol && p.alcohol[SOAP_CODE] && p.alcohol[SOAP_CODE].recipientType;
-    const c39rt = p.alcohol && p.alcohol[REST_CODE] && p.alcohol[REST_CODE].recipientType;
-    if (!hasValue(c2rt)) return;
-    if (!hasValue(c39rt)) {
-      missing.push({ type: 'product_alcohol', productUUID: p.productUUID, accountUUID: p.accountUUID, detail: 'C39 alcohol.recipientType missing' });
-    } else if (c2rt !== c39rt) {
-      mismatches.push({ type: 'product_alcohol', productUUID: p.productUUID, accountUUID: p.accountUUID, field: 'alcohol.recipientType', c2: c2rt, c39: c39rt });
-    } else {
-      ok.push({ type: 'product_alcohol', productUUID: p.productUUID });
-    }
-  });
+  console.log('\nStep 3: Verifying alcohol data per account...');
+  for (var j = 0; j < c2AccountUUIDs.length; j++) {
+    var aprods = await getAlcoholProductsForAccount(productsColl, c2AccountUUIDs[j]);
+    aprods.forEach(function(p) {
+      var c2rt  = p.alcohol && p.alcohol[SOAP_CODE] && p.alcohol[SOAP_CODE].recipientType;
+      var c39rt = p.alcohol && p.alcohol[REST_CODE]  && p.alcohol[REST_CODE].recipientType;
+      if (!hasValue(c2rt)) return;
+      if (!hasValue(c39rt)) {
+        missing.push({ type: 'product_alcohol', productUUID: p.productUUID, accountUUID: p.accountUUID, detail: 'C39 alcohol.recipientType missing' });
+      } else if (c2rt !== c39rt) {
+        mismatches.push({ type: 'product_alcohol', productUUID: p.productUUID, accountUUID: p.accountUUID, field: 'alcohol.recipientType', c2: c2rt, c39: c39rt });
+      } else {
+        ok.push({ type: 'product_alcohol', productUUID: p.productUUID });
+      }
+    });
+  }
 
   // Carriers
-  const c2HazCarriers = await carriersColl.find(
-    {
-      carrierCode: SOAP_CODE,
-      $or: [
-        { hazardousTypeOfPackaging: { $exists: true, $ne: null } },
-        { hazardousPackagingMaterial: { $exists: true, $ne: null } },
-      ],
-    },
-    { projection: { accountUUID: 1, hazardousTypeOfPackaging: 1, hazardousPackagingMaterial: 1 } }
+  console.log('\nStep 4: Verifying carrier hazardous settings...');
+  var c2HazCarriers = await carriersColl.find({
+    carrierCode: SOAP_CODE,
+    $or: [
+      { hazardousTypeOfPackaging: { $exists: true, $ne: null } },
+      { hazardousPackagingMaterial: { $exists: true, $ne: null } },
+    ],
+  }).toArray();
+
+  var c39Carriers = await carriersColl.find(
+    { carrierCode: REST_CODE, accountUUID: { $in: c2HazCarriers.map(function(c) { return c.accountUUID; }) } }
   ).toArray();
 
-  const c39Carriers = await carriersColl.find(
-    { carrierCode: REST_CODE, accountUUID: { $in: c2HazCarriers.map(function(c) { return c.accountUUID; }) } },
-    { projection: { accountUUID: 1, hazardousTypeOfPackaging: 1, hazardousPackagingMaterial: 1 } }
-  ).toArray();
-
-  const c39ByAcc = {};
+  var c39ByAcc = {};
   c39Carriers.forEach(function(c) { c39ByAcc[c.accountUUID] = c; });
 
   c2HazCarriers.forEach(function(c2c) {
-    const c39c = c39ByAcc[c2c.accountUUID];
+    var c39c = c39ByAcc[c2c.accountUUID];
     if (!c39c) {
       missing.push({ type: 'carrier', accountUUID: c2c.accountUUID, detail: 'No C39 carrier exists for this account' });
       return;
     }
+    var matched = true;
     ['hazardousTypeOfPackaging', 'hazardousPackagingMaterial'].forEach(function(f) {
       if (hasValue(c2c[f]) && c2c[f] !== c39c[f]) {
         mismatches.push({ type: 'carrier', accountUUID: c2c.accountUUID, field: f, c2: c2c[f], c39: c39c[f] });
+        matched = false;
       }
     });
-    if (!missing.find(function(m) { return m.accountUUID === c2c.accountUUID && m.type === 'carrier'; }) &&
-        !mismatches.find(function(m) { return m.accountUUID === c2c.accountUUID && m.type === 'carrier'; })) {
-      ok.push({ type: 'carrier', accountUUID: c2c.accountUUID });
-    }
+    if (matched) ok.push({ type: 'carrier', accountUUID: c2c.accountUUID });
   });
 
-  const report = {
+  var report = {
     generatedAt: new Date().toISOString(),
     summary: { ok: ok.length, missing: missing.length, mismatches: mismatches.length },
     missing: missing,
     mismatches: mismatches,
     ok: ok,
-    note: 'C39 fields are read via native MongoDB driver. If schema/builder have not yet ' +
-          'been updated to C39, mismatches here represent pending code changes, not data errors.',
+    note: 'C39 fields read via native MongoDB driver. Mismatches before the schema/builder ' +
+          'switch are expected — they represent pending code changes, not data errors.',
   };
 
   writeJson('dg_migration_verify.json', report);
   console.log('\nVerification summary:');
-  console.log('  OK:         ' + ok.length);
+  console.log('  OK:          ' + ok.length);
   console.log('  Missing C39: ' + missing.length);
-  console.log('  Mismatches: ' + mismatches.length);
+  console.log('  Mismatches:  ' + mismatches.length);
   if (missing.length > 0 || mismatches.length > 0) {
     console.error('\n!! Issues found. Review dg_migration_verify.json');
     process.exitCode = 1;
