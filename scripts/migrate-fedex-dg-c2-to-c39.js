@@ -164,6 +164,30 @@ async function runMigration(productsColl, carriersColl) {
   console.log('  Already have C39 alcohol data: ' + alcoholAlreadyHaveC39.length);
   console.log('  Need copy: ' + alcoholNeedsCopy.length);
 
+  // ── Per-category account breakdown (mirrors Slack audit queries) ───────────
+  // Equivalent to:
+  //   db.productsnews.distinct("accountUUID", { "dangerousGoods.C2.isOtherDangerousGoods": true })
+  //   db.productsnews.distinct("accountUUID", { "dangerousGoods.C2.isBattery": true })
+  //   db.productsnews.distinct("accountUUID", { isAlcoholPresent: true, "alcohol.C2.recipientType": { $exists: true } })
+  const otherDgAccounts = Array.from(new Set(
+    dgProducts
+      .filter(function(p) { return p.dangerousGoods && p.dangerousGoods[SOAP_CODE] && p.dangerousGoods[SOAP_CODE].isOtherDangerousGoods === true; })
+      .map(function(p) { return p.accountUUID; })
+  ));
+  const batteryAccounts = Array.from(new Set(
+    dgProducts
+      .filter(function(p) { return p.dangerousGoods && p.dangerousGoods[SOAP_CODE] && p.dangerousGoods[SOAP_CODE].isBattery === true; })
+      .map(function(p) { return p.accountUUID; })
+  ));
+  const alcoholAccounts = Array.from(new Set(
+    alcoholProductsRaw.map(function(p) { return p.accountUUID; })
+  ));
+
+  console.log('\nAudit breakdown (account counts per DG category):');
+  console.log('  isOtherDangerousGoods=true : ' + otherDgAccounts.length + ' accounts');
+  console.log('  isBattery=true             : ' + batteryAccounts.length + ' accounts');
+  console.log('  alcohol.recipientType set  : ' + alcoholAccounts.length + ' accounts');
+
   // ── Carriers: hazardous packaging settings ─────────────────────────────────
   console.log('\nPhase 3: Carriers — hazardousTypeOfPackaging / hazardousPackagingMaterial');
   const c2HazCarriers = await carriersColl.find(
@@ -206,6 +230,12 @@ async function runMigration(productsColl, carriersColl) {
     generatedAt: new Date().toISOString(),
     mode: MODE_APPLY ? 'apply' : 'dry-run',
     overwrite: OVERWRITE,
+    auditByCategory: {
+      note: 'Account UUIDs per DG type — mirrors the Slack audit queries',
+      isOtherDangerousGoods: { accountCount: otherDgAccounts.length, accountUUIDs: otherDgAccounts },
+      isBattery: { accountCount: batteryAccounts.length, accountUUIDs: batteryAccounts },
+      alcohol: { accountCount: alcoholAccounts.length, accountUUIDs: alcoholAccounts },
+    },
     products: {
       dgTotal: dgProductsRaw.length,
       dgWithC2Data: dgProducts.length,
