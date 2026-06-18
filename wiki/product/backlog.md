@@ -328,3 +328,31 @@ Cross-listed issues: ZI-052 (Label Gen + FedEx REST), ZI-058 (Label Gen + Austra
 | ZI-057 | Unsupported Partnership | [#379963](../zendesk/summaries/379963.md) | [Link](https://trello.com/c/DxVXh1CF) |
 | ZI-008 | Carrier Platform Issues | [#306141](../zendesk/summaries/306141.md) | [Link](https://trello.com/c/9rdDqCiL) |
 | ZI-069 | Carrier Platform Issues | [#382009](../zendesk/summaries/382009.md) | [Link](https://trello.com/c/IDjBgyhh) |
+
+---
+
+## Shipped in MCSL 381 — 2026-06-16
+
+| ZI | Title | Ticket | Card | Source |
+|----|-------|--------|------|--------|
+| ZI-523 | Amazon Shipping label-failure error message fix | [#387563](../zendesk/summaries/387563.md) | [SL](https://trello.com/c/Gvyyzmdl) | 381 |
+| ZI-524 | Amazon Shipping estimated delivery days in grid | [#387563](../zendesk/summaries/387563.md) | [SL](https://trello.com/c/Cr6MYVVL) | 381 |
+| ZI-530 | Welcome-email overhaul | [#387845](../zendesk/summaries/387845.md) | [SL](https://trello.com/c/m9W9Cblq) | 381 |
+| ZI-531 | TForce carrier integration | [#389467](../zendesk/summaries/389467.md) | [SL](https://trello.com/c/zZlGsCnW) | 381 |
+| ZI-538 | AusPost: sanitise null recipient phone | [#390097](../zendesk/summaries/390097.md) | [SL](https://trello.com/c/br0i86eK) | 381 |
+| ZI-540 | NZ Post Enhancements: SOv2 + Label upgrades | [#390108](../zendesk/summaries/390108.md) | [SL](https://trello.com/c/l1oRHe2L) | 381 |
+| ZI-544 | Love of India: large-batch UX, retry-state, print mismatch | [#390510](../zendesk/summaries/390510.md) | [SL](https://trello.com/c/qaq1crm5) | 381 |
+| ZI-552 | Block tracking-notification emails when SMTP not configured | [#390467](../zendesk/summaries/390467.md) | [SL](https://trello.com/c/nIGCc0JC) | 381 |
+| ZI-583 | Delivro post-integration: shipment field defaults | [#381046](../zendesk/summaries/381046.md) | [SL](https://trello.com/c/I8eVHiKr) | 381p |
+| ZI-094 | UPS custom description (Support Closed) | [#377795](../zendesk/summaries/377795.md) | [SL](https://trello.com/c/UpgWKbYK) | 381 |
+| ZI-103 | Commercial invoice EUR currency (Support Closed) | [#383757](../zendesk/summaries/383757.md) | [SL](https://trello.com/c/iQu7hqb9) | 381 |
+| ZI-534 | Plan-tier product-count limits (Carrier Platform) | [#389897](../zendesk/summaries/389897.md) | [SL](https://trello.com/c/GlcjLhTe) | 381 |
+| ZI-542 | MyNZPB SMB integration (Carrier Platform) | [#390108](../zendesk/summaries/390108.md) | [SL](https://trello.com/c/WddCGKuY) | 381 |
+| — | Carrier Integration India Post | — | [ph-WIP](https://trello.com/c/WOth7i6s) | 381 ad-hoc |
+| — | Carrier Integration DHL Express | — | [ph-WIP](https://trello.com/c/LsmHAIIj) | 381 ad-hoc |
+| — | WSS: flat rate adjustment fix (ZD #394137) | — | [ph-WIP](https://trello.com/c/NLqXsEv7) | 381 ad-hoc |
+| — | FedEx REST Ground Close Manifest | — | [ph-WIP](https://trello.com/c/LzjcrcUr) | 381 ad-hoc |
+| — | Shopify Billing Compliance and Trial Extension | — | [ph-WIP](https://trello.com/c/AH1WgQnW) | 381p |
+| — | Delivro: Flat Rate Zeroed fix | — | [ph-WIP](https://trello.com/c/7hF2HxYq) | 381p (ZI-583) |
+| — | Delivro: BOITE fallback | — | [ph-WIP](https://trello.com/c/TuoIk6Ik) | 381p (ZI-583) |
+| — | Release Label Batches | — | [ph-WIP](https://trello.com/c/FSugx3SX) | 381p |

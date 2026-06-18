@@ -1,5 +1,16 @@
 # StorePep KB Activity Log
 
+## [2026-06-18 02:45] ship | Release MCSL 381
+- Release: `wiki/product/releases/mcsl-381.md` (status: shipped, shipped_at: 2026-06-16)
+- Cards total: 21 (12 ZI from 381 + 4 ad-hoc from 381 + 5 patch from 381p)
+- Ready To Ship: 17
+- Support Closed: 2 (ZI-094, ZI-103)
+- Carrier Platform Issues: 2 (ZI-534, ZI-542)
+- backlog.md: updated (Shipped in MCSL 381 section added)
+- Trello writes: 0 (ship is pure wiki write)
+- Git reference: 09a6ae74
+- Summary: Shipped MCSL 381 with 21 cards including 381p patch cards (Delivro fixes, Billing Compliance, Release Label Batches). New carrier integrations: India Post, DHL Express. Key fixes: AusPost phone sanitisation, NZ Post SOv2, FedEx REST manifest, welcome email overhaul.
+
 ## [2026-05-20 18:30] zendesk-summarize | 11-ticket delta — ZI-520 → ZI-556
 - Trigger: User asked to fetch and summarise a batch of 11 new Zendesk tickets (9 fetched initially + 2 added mid-batch)
 - Fetched via `scripts/sync-zendesk-by-ids.sh`:
