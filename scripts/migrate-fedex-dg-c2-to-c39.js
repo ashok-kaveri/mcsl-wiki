@@ -108,6 +108,8 @@ async function main() {
     useMongoClient: true,
     user: DB_USERNAME,
     pass: DB_PASSWORD,
+    socketTimeoutMS: 0,
+    connectTimeoutMS: 30000,
     db: { readPreference: readPref },
   });
   console.log('Connected (readPreference=' + readPref + ')');
@@ -135,16 +137,44 @@ async function getC2AccountUUIDs(carriersColl) {
   return Array.from(new Set(docs.map(function(d) { return d.accountUUID; }).filter(Boolean)));
 }
 
-// ── per-account product queries (uses accountUUID_1_productType_1 index) ──────
+// ── batched product queries (uses accountUUID_1_productType_1 index) ──────────
+// Using $in over batches of accountUUIDs reduces 2380 round-trips to ~24,
+// avoiding connection timeouts on long sequential loops.
 
-async function getDgProductsForAccount(productsColl, accountUUID) {
-  return productsColl.find({ accountUUID: accountUUID, isDangerousGoodsPresent: true }).toArray();
+var BATCH_SIZE = 100;
+
+function chunkArray(arr, size) {
+  var chunks = [];
+  for (var i = 0; i < arr.length; i += size) {
+    chunks.push(arr.slice(i, i + size));
+  }
+  return chunks;
 }
 
-async function getAlcoholProductsForAccount(productsColl, accountUUID) {
-  var query = { accountUUID: accountUUID, isAlcoholPresent: true };
-  query['alcohol.' + SOAP_CODE + '.recipientType'] = { $exists: true, $ne: null };
-  return productsColl.find(query).toArray();
+async function getDgProductsForAccounts(productsColl, accountUUIDs) {
+  var batches = chunkArray(accountUUIDs, BATCH_SIZE);
+  var results = [];
+  for (var b = 0; b < batches.length; b++) {
+    var docs = await productsColl.find({
+      accountUUID: { $in: batches[b] },
+      isDangerousGoodsPresent: true,
+    }).toArray();
+    results = results.concat(docs);
+    console.log('  [batch ' + (b + 1) + '/' + batches.length + '] ' + results.length + ' DG products found');
+  }
+  return results;
+}
+
+async function getAlcoholProductsForAccounts(productsColl, accountUUIDs) {
+  var batches = chunkArray(accountUUIDs, BATCH_SIZE);
+  var results = [];
+  for (var b = 0; b < batches.length; b++) {
+    var query = { accountUUID: { $in: batches[b] }, isAlcoholPresent: true };
+    query['alcohol.' + SOAP_CODE + '.recipientType'] = { $exists: true, $ne: null };
+    var docs = await productsColl.find(query).toArray();
+    results = results.concat(docs);
+  }
+  return results;
 }
 
 // ── DRY-RUN / APPLY ───────────────────────────────────────────────────────────
@@ -161,19 +191,13 @@ async function runMigration(productsColl, carriersColl) {
     return;
   }
 
-  // ── Step 2: per-account DG product scan ───────────────────────────────────
-  console.log('\nStep 2: Scanning DG products per account (uses accountUUID index)...');
-  var dgProducts = [];
-  for (var i = 0; i < c2AccountUUIDs.length; i++) {
-    var prods = await getDgProductsForAccount(productsColl, c2AccountUUIDs[i]);
-    var withC2 = prods.filter(function(p) {
-      return c2DgHasData(p.dangerousGoods && p.dangerousGoods[SOAP_CODE]);
-    });
-    dgProducts = dgProducts.concat(withC2);
-    if ((i + 1) % 100 === 0 || i === c2AccountUUIDs.length - 1) {
-      console.log('  [' + (i + 1) + '/' + c2AccountUUIDs.length + ' accounts] ' + dgProducts.length + ' DG products found');
-    }
-  }
+  // ── Step 2: batched DG product scan ───────────────────────────────────────
+  console.log('\nStep 2: Scanning DG products in batches of ' + BATCH_SIZE + ' accounts...');
+  var allDgProds = await getDgProductsForAccounts(productsColl, c2AccountUUIDs);
+  var dgProducts = allDgProds.filter(function(p) {
+    return c2DgHasData(p.dangerousGoods && p.dangerousGoods[SOAP_CODE]);
+  });
+  console.log('  ' + dgProducts.length + ' products with C2 DG data (of ' + allDgProds.length + ' isDangerousGoodsPresent)');
 
   var dgAlreadyHaveC39 = dgProducts.filter(function(p) {
     return c2DgHasData(p.dangerousGoods && p.dangerousGoods[REST_CODE]);
@@ -184,16 +208,10 @@ async function runMigration(productsColl, carriersColl) {
   console.log('  Already have C39 DG data: ' + dgAlreadyHaveC39.length);
   console.log('  Need copy:                ' + dgNeedsCopy.length + (OVERWRITE ? ' (--overwrite)' : ''));
 
-  // ── Step 3: per-account alcohol scan ──────────────────────────────────────
-  console.log('\nStep 3: Scanning alcohol products per account (uses accountUUID index)...');
-  var alcoholProducts = [];
-  for (var j = 0; j < c2AccountUUIDs.length; j++) {
-    var aprods = await getAlcoholProductsForAccount(productsColl, c2AccountUUIDs[j]);
-    alcoholProducts = alcoholProducts.concat(aprods);
-    if ((j + 1) % 100 === 0 || j === c2AccountUUIDs.length - 1) {
-      console.log('  [' + (j + 1) + '/' + c2AccountUUIDs.length + ' accounts] ' + alcoholProducts.length + ' alcohol products found');
-    }
-  }
+  // ── Step 3: batched alcohol scan ──────────────────────────────────────────
+  console.log('\nStep 3: Scanning alcohol products in batches of ' + BATCH_SIZE + ' accounts...');
+  var alcoholProducts = await getAlcoholProductsForAccounts(productsColl, c2AccountUUIDs);
+  console.log('  ' + alcoholProducts.length + ' products with alcohol.C2.recipientType');
 
   var alcoholAlreadyHaveC39 = alcoholProducts.filter(function(p) {
     return hasValue(p.alcohol && p.alcohol[REST_CODE] && p.alcohol[REST_CODE].recipientType);
@@ -394,49 +412,43 @@ async function runVerify(productsColl, carriersColl) {
   var ok         = [];
 
   // Products — DG
-  console.log('\nStep 2: Verifying DG data per account...');
-  for (var i = 0; i < c2AccountUUIDs.length; i++) {
-    var prods = await getDgProductsForAccount(productsColl, c2AccountUUIDs[i]);
-    prods.forEach(function(p) {
-      var c2dg  = p.dangerousGoods && p.dangerousGoods[SOAP_CODE];
-      var c39dg = p.dangerousGoods && p.dangerousGoods[REST_CODE];
-      if (!c2DgHasData(c2dg)) return;
+  console.log('\nStep 2: Verifying DG data in batches...');
+  var verifyDgProds = await getDgProductsForAccounts(productsColl, c2AccountUUIDs);
+  verifyDgProds.forEach(function(p) {
+    var c2dg  = p.dangerousGoods && p.dangerousGoods[SOAP_CODE];
+    var c39dg = p.dangerousGoods && p.dangerousGoods[REST_CODE];
+    if (!c2DgHasData(c2dg)) return;
 
-      if (!c2DgHasData(c39dg)) {
-        missing.push({ type: 'product_dg', productUUID: p.productUUID, accountUUID: p.accountUUID, detail: 'C39 DG missing' });
-        return;
-      }
-      var matched = true;
-      DG_FIELDS.forEach(function(f) {
-        if (hasValue(c2dg[f]) && c2dg[f] !== c39dg[f]) {
-          mismatches.push({ type: 'product_dg', productUUID: p.productUUID, accountUUID: p.accountUUID, field: f, c2: c2dg[f], c39: c39dg[f] });
-          matched = false;
-        }
-      });
-      if (matched) ok.push({ type: 'product_dg', productUUID: p.productUUID });
-    });
-    if ((i + 1) % 100 === 0 || i === c2AccountUUIDs.length - 1) {
-      console.log('  [' + (i + 1) + '/' + c2AccountUUIDs.length + ' accounts] ok=' + ok.length + ' missing=' + missing.length + ' mismatches=' + mismatches.length);
+    if (!c2DgHasData(c39dg)) {
+      missing.push({ type: 'product_dg', productUUID: p.productUUID, accountUUID: p.accountUUID, detail: 'C39 DG missing' });
+      return;
     }
-  }
+    var matched = true;
+    DG_FIELDS.forEach(function(f) {
+      if (hasValue(c2dg[f]) && c2dg[f] !== c39dg[f]) {
+        mismatches.push({ type: 'product_dg', productUUID: p.productUUID, accountUUID: p.accountUUID, field: f, c2: c2dg[f], c39: c39dg[f] });
+        matched = false;
+      }
+    });
+    if (matched) ok.push({ type: 'product_dg', productUUID: p.productUUID });
+  });
+  console.log('  DG: ok=' + ok.length + ' missing=' + missing.length + ' mismatches=' + mismatches.length);
 
   // Products — Alcohol
-  console.log('\nStep 3: Verifying alcohol data per account...');
-  for (var j = 0; j < c2AccountUUIDs.length; j++) {
-    var aprods = await getAlcoholProductsForAccount(productsColl, c2AccountUUIDs[j]);
-    aprods.forEach(function(p) {
-      var c2rt  = p.alcohol && p.alcohol[SOAP_CODE] && p.alcohol[SOAP_CODE].recipientType;
-      var c39rt = p.alcohol && p.alcohol[REST_CODE]  && p.alcohol[REST_CODE].recipientType;
-      if (!hasValue(c2rt)) return;
-      if (!hasValue(c39rt)) {
-        missing.push({ type: 'product_alcohol', productUUID: p.productUUID, accountUUID: p.accountUUID, detail: 'C39 alcohol.recipientType missing' });
-      } else if (c2rt !== c39rt) {
-        mismatches.push({ type: 'product_alcohol', productUUID: p.productUUID, accountUUID: p.accountUUID, field: 'alcohol.recipientType', c2: c2rt, c39: c39rt });
-      } else {
-        ok.push({ type: 'product_alcohol', productUUID: p.productUUID });
-      }
-    });
-  }
+  console.log('\nStep 3: Verifying alcohol data in batches...');
+  var verifyAlcProds = await getAlcoholProductsForAccounts(productsColl, c2AccountUUIDs);
+  verifyAlcProds.forEach(function(p) {
+    var c2rt  = p.alcohol && p.alcohol[SOAP_CODE] && p.alcohol[SOAP_CODE].recipientType;
+    var c39rt = p.alcohol && p.alcohol[REST_CODE]  && p.alcohol[REST_CODE].recipientType;
+    if (!hasValue(c2rt)) return;
+    if (!hasValue(c39rt)) {
+      missing.push({ type: 'product_alcohol', productUUID: p.productUUID, accountUUID: p.accountUUID, detail: 'C39 alcohol.recipientType missing' });
+    } else if (c2rt !== c39rt) {
+      mismatches.push({ type: 'product_alcohol', productUUID: p.productUUID, accountUUID: p.accountUUID, field: 'alcohol.recipientType', c2: c2rt, c39: c39rt });
+    } else {
+      ok.push({ type: 'product_alcohol', productUUID: p.productUUID });
+    }
+  });
 
   // Carriers
   console.log('\nStep 4: Verifying carrier hazardous settings...');
