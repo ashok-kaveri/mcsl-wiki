@@ -1,0 +1,644 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/392755.json",
+    "id": 392755,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-05-29T09:29:28Z",
+    "updated_at": "2026-06-18T12:23:56Z",
+    "generated_timestamp": 1781785437,
+    "type": null,
+    "subject": "Hello,\n\nWe would like the customer's Tax ID (VAT n...",
+    "raw_subject": "Hello,\n\nWe would like the customer's Tax ID (VAT n...",
+    "description": "Hello,\n\nWe would like the customer's Tax ID (VAT number or Tax Number) stored in their Shopify customer profile to be automatically transferred to the \"TAX ID\" (or \"TAX No\") field in shipping address and billing address in PH Multi Carrier.\n\nWhen shipping orders to professional/business customers, this Tax ID must be included in both the shipping and billing addresses to ensure smooth customs clearance.\n\nCurrently, the TAX ID field in PH Multi Carrier is always empty, even when the information is registered in Shopify. As a result, our team has to manually enter the Tax ID for every shipment, which is time-consuming and increases the risk of errors.\n\nCould you please let us know if this automatic synchronization can be enabled or implemented?\n\nThank you for your support.\n\nKind regards,\nWako\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/c009fe83-7893-4245-b422-1147f2a44bed/74cb4170-4b0d-4b29-92d1-5e60e8f012fd/new",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 54842114218137,
+    "submitter_id": 54842114218137,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "majo-garn.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+33769635275"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "L40WL1-WZMJN",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "majo-garn.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+33769635275"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58421483515545,
+      "type": "Comment",
+      "author_id": 54842114218137,
+      "body": "Hello,\n\nWe would like the customer's Tax ID (VAT number or Tax Number) stored in their Shopify customer profile to be automatically transferred to the \"TAX ID\" (or \"TAX No\") field in shipping address and billing address in PH Multi Carrier.\n\nWhen shipping orders to professional/business customers, this Tax ID must be included in both the shipping and billing addresses to ensure smooth customs clearance.\n\nCurrently, the TAX ID field in PH Multi Carrier is always empty, even when the information is registered in Shopify. As a result, our team has to manually enter the Tax ID for every shipment, which is time-consuming and increases the risk of errors.\n\nCould you please let us know if this automatic synchronization can be enabled or implemented?\n\nThank you for your support.\n\nKind regards,\nWako\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/c009fe83-7893-4245-b422-1147f2a44bed/74cb4170-4b0d-4b29-92d1-5e60e8f012fd/new",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hello,</p>\n\n<p dir=\"auto\">We would like the customer's Tax ID (VAT number or Tax Number) stored in their Shopify customer profile to be automatically transferred to the \"TAX ID\" (or \"TAX No\") field in shipping address and billing address in PH Multi Carrier.</p>\n\n<p dir=\"auto\">When shipping orders to professional/business customers, this Tax ID must be included in both the shipping and billing addresses to ensure smooth customs clearance.</p>\n\n<p dir=\"auto\">Currently, the TAX ID field in PH Multi Carrier is always empty, even when the information is registered in Shopify. As a result, our team has to manually enter the Tax ID for every shipment, which is time-consuming and increases the risk of errors.</p>\n\n<p dir=\"auto\">Could you please let us know if this automatic synchronization can be enabled or implemented?</p>\n\n<p dir=\"auto\">Thank you for your support.</p>\n\n<p dir=\"auto\">Kind regards,\n<br>Wako</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/summary/c009fe83-7893-4245-b422-1147f2a44bed/74cb4170-4b0d-4b29-92d1-5e60e8f012fd/new\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/summary/c009fe83-7893-4245-b422-1147f2a44bed/74cb4170-4b0d-4b29-92d1-5e60e8f012fd/new</a></p></div>",
+      "plain_body": "Hello, \n\n We would like the customer's Tax ID (VAT number or Tax Number) stored in their Shopify customer profile to be automatically transferred to the \"TAX ID\" (or \"TAX No\") field in shipping address and billing address in PH Multi Carrier. \n\n When shipping orders to professional/business customers, this Tax ID must be included in both the shipping and billing addresses to ensure smooth customs clearance. \n\n Currently, the TAX ID field in PH Multi Carrier is always empty, even when the information is registered in Shopify. As a result, our team has to manually enter the Tax ID for every shipment, which is time-consuming and increases the risk of errors. \n\n Could you please let us know if this automatic synchronization can be enabled or implemented? \n\n Thank you for your support. \n\n Kind regards,\n\nWako \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/c009fe83-7893-4245-b422-1147f2a44bed/74cb4170-4b0d-4b29-92d1-5e60e8f012fd/new",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58421483515417,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-05-29T09:29:28Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "ip_address": "149.232.193.193",
+          "location": "France",
+          "latitude": 48.8582,
+          "longitude": 2.3387
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 58423896466201,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Store: France\nOrders: 233\nCarrier: FedEx and UPS\nActive for labels and rates\nActive from February 3, 2026\nPlan: $29 Popular",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Store: France<br>Orders: 233<br>Carrier: FedEx and UPS<br>Active for labels and rates<br>Active from February 3, 2026<br>Plan: $29 Popular<br></div>",
+      "plain_body": "Store: France\nOrders: 233\nCarrier: FedEx and UPS\nActive for labels and rates\nActive from February 3, 2026\nPlan: $29 Popular",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58423896466073,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T10:46:06Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Kanpur, UP, India",
+          "latitude": 26.4631,
+          "longitude": 80.3479
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58423958108569,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Wako,\n\nThank you for reaching out with your query.\n\nTo assist with your case further, could you please share an order number in Shopify where the recipient TaxID is available and also share a screenshot of where the TaxID is available in the Shopify Order?\nWe will check the feasibility of your requirements.\n\nPlease note that the app syncs the Order details from the Shopify Orders page and does not sync any details from the Customer Profiles. If the TaxID is available in the Shopify order, we will be happy to check the feasibility of your requirement.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Wako,<br>&nbsp;<br>Thank you for reaching out with your query.<br>&nbsp;<br>To assist with your case further, could you please share an order number in Shopify where the recipient TaxID is available and also share a screenshot of where the TaxID is available in the Shopify Order?<br>We will check the feasibility of your requirements.<br>&nbsp;<br>Please note that the app syncs the Order details from the Shopify Orders page and does not sync any details from the Customer Profiles. If the TaxID is available in the Shopify order, we will be happy to check the feasibility of your requirement.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Wako,\n&nbsp;\nThank you for reaching out with your query.\n&nbsp;\nTo assist with your case further, could you please share an order number in Shopify where the recipient TaxID is available and also share a screenshot of where the TaxID is available in the Shopify Order?\nWe will check the feasibility of your requirements.\n&nbsp;\nPlease note that the app syncs the Order details from the Shopify Orders page and does not sync any details from the Customer Profiles. If the TaxID is available in the Shopify order, we will be happy to check the feasibility of your requirement.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58423958108441,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T10:50:12Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Kanpur, UP, India",
+          "latitude": 26.4631,
+          "longitude": 80.3479
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58425121626265,
+      "type": "Comment",
+      "author_id": 54775583692825,
+      "body": "Hello Touseef,\n\n\n\nThank you for your response.\n\nI understand that you synchronize only from Shopify orders, not from customer profiles.\n\n\n\nWe save the customer's Tax ID in the \"Notes\" section in the customers profile, which appears in the \"View notes\" section of the Shopify order.\n\nPlease see the screen recording in the attachment.\n\n\n\nIf you can transfer this \"Note\" section to \"TAX NO\" column in the shipping & billing address on PH mutil carrier app, that would be great.\n\n\n\nKind regards,\nWako Chapurlat\nMAJO GARN\n\nemail wako@majogarn.com\n\nWeb www.majogarn.com",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hello&nbsp;Touseef,</div><div><br></div><div>Thank you for your response.</div><div>I understand&nbsp;that you synchronize only from Shopify orders, not from customer profiles.</div><div><br></div><div>We save the customer's Tax ID in the \"Notes\" section in the customers&nbsp;profile, which appears in the \"View notes\" section of the Shopify order.</div><div>Please see the screen recording in the attachment.</div><div><br></div><div>If you can transfer&nbsp;this \"Note\" section to \"TAX NO\" column in the shipping &amp; billing address on PH mutil carrier app, that would be great.</div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div>Kind regards,</div>Wako Chapurlat&nbsp;<div>MAJO GARN<br><div><div><font size=\"1\" color=\"#000000\">email&nbsp;<a href=\"mailto:wako@majogarn.com\" rel=\"noreferrer\">wako@majogarn.com</a></font></div></div><div><font size=\"1\">Web <a href=\"http://www.majogarn.com\" rel=\"noreferrer\">www.majogarn.com</a></font></div><div><font size=\"1\"><br></font></div><div><br></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hello&nbsp;Touseef,  \n  Thank you for your response.  I understand&nbsp;that you synchronize only from Shopify orders, not from customer profiles.  \n  We save the customer's Tax ID in the \"Notes\" section in the customers&nbsp;profile, which appears in the \"View notes\" section of the Shopify order.  Please see the screen recording in the attachment.  \n  If you can transfer&nbsp;this \"Note\" section to \"TAX NO\" column in the shipping &amp; billing address on PH mutil carrier app, that would be great.  \n     Kind regards, Wako Chapurlat&nbsp; MAJO GARN\n  email&nbsp;wako@majogarn.com   Web www.majogarn.com",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58425121628185.json",
+          "id": 58425121628185,
+          "file_name": "Screen Recording 2026-05-29 at 13.23.07.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/B6jdzyFDGH0op4AElkRlhgQ4H/?name=Screen+Recording+2026-05-29+at+13.23.07.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/B6jdzyFDGH0op4AElkRlhgQ4H/?name=Screen+Recording+2026-05-29+at+13.23.07.mov",
+          "content_type": "video/quicktime",
+          "size": 25661833,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58425121626137,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@majogarn.com",
+            "name": "Wako",
+            "original_recipients": [
+              "wako@majogarn.com",
+              "support@pluginhive.com",
+              "info@majogarn.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T11:30:23Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMx+HNMdczvw7WzGwrFCM+pWYEL5eU9jSWvQFU9QnBW80bDDTw@mail.gmail.com>",
+          "email_id": "01KSSQZ4SV46EKPCKXM3SD40WS",
+          "raw_email_identifier": "2369120/70775a3d-66e2-4e6d-9ba0-8d2be35c27e8.eml",
+          "json_email_identifier": "2369120/70775a3d-66e2-4e6d-9ba0-8d2be35c27e8.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15,
+          2
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          },
+          "2": {
+            "trusted": false
+          }
+        },
+        "trusted": false,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58426436722585,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Wako,\n\nThank you for your response and sharing the details.\n\nWe will be forwarding your requirement to our team for further feasibility testing. Before that, could you also share a screen recording with the process of how the Note is added to the Customer details to Order in Shopify?\n\nThis will give us a better understanding of the process and check the feasibility of your requirement.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Wako,<br>&nbsp;<br>Thank you for your response and sharing the details.<br>&nbsp;<br>We will be forwarding your requirement to our team for further feasibility testing. Before that, could you also share a screen recording with the process of how the Note is added to the Customer details to Order in Shopify?<br>&nbsp;<br>This will give us a better understanding of the process and check the feasibility of your requirement.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Wako,\n&nbsp;\nThank you for your response and sharing the details.\n&nbsp;\nWe will be forwarding your requirement to our team for further feasibility testing. Before that, could you also share a screen recording with the process of how the Note is added to the Customer details to Order in Shopify?\n&nbsp;\nThis will give us a better understanding of the process and check the feasibility of your requirement.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58426436722457,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T12:21:18Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Kanpur, UP, India",
+          "latitude": 26.4631,
+          "longitude": 80.3479
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58514016040089,
+      "type": "Comment",
+      "author_id": 54775583692825,
+      "body": "Hello Touseef,\n\nI believe the customer details in the profile are automatically transferred to the Notes section of the order by Shopify. We do not perform any manual actions, nor do we have a specific app setting to automate this transfer.\n\nThe primary goal remains to have the customer's tax number automatically appear in the Shipping Address and Billing Address columns within the PH Multi Carrier app.\n\nI hope this clarifies the process.\n\nWe would really appreciate it if customer's tax number automatically appears in the shipping address & billing address columns.\n\n\nKind regards,\nWako Chapurlat\nMAJO GARN\n\nemail wako@majogarn.com\n\nWeb www.majogarn.com",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello Touseef,<br><br>I believe the customer details in the profile are automatically transferred to the Notes section of the order by Shopify. We do not perform any manual actions, nor do we have a specific app setting to automate this transfer.<br><br>The primary goal remains to have the customer's tax number automatically appear in the Shipping Address and Billing Address columns within the PH Multi Carrier app.<br><br>I hope this clarifies the process.<br><br>We would really appreciate it if customer's tax number automatically appears in the shipping address &amp; billing address columns.<br><br><div><div dir=\"ltr\"><div dir=\"ltr\"><div>Kind regards,</div>Wako Chapurlat&nbsp;<div>MAJO GARN<br><div><div><font size=\"1\" color=\"#000000\">email&nbsp;<a href=\"mailto:wako@majogarn.com\" rel=\"noreferrer\">wako@majogarn.com</a></font></div></div><div><font size=\"1\">Web <a href=\"http://www.majogarn.com\" rel=\"noreferrer\">www.majogarn.com</a></font></div><div><font size=\"1\"><br></font></div><div><br></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hello Touseef,\n\nI believe the customer details in the profile are automatically transferred to the Notes section of the order by Shopify. We do not perform any manual actions, nor do we have a specific app setting to automate this transfer.\n\nThe primary goal remains to have the customer's tax number automatically appear in the Shipping Address and Billing Address columns within the PH Multi Carrier app.\n\nI hope this clarifies the process.\n\nWe would really appreciate it if customer's tax number automatically appears in the shipping address &amp; billing address columns.\n\n    Kind regards, Wako Chapurlat&nbsp; MAJO GARN\n  email&nbsp;wako@majogarn.com   Web www.majogarn.com",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58514016039961,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@majogarn.com",
+            "name": "Wako",
+            "original_recipients": [
+              "wako@majogarn.com",
+              "support@pluginhive.com",
+              "info@majogarn.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T13:28:56Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAMx+HNMPqZDE-w4WWz1wypriUoF-RLzx8+40QiCeW517kJZfpw@mail.gmail.com>",
+          "email_id": "01KT1NZ01715ZY5XS5SMA13NYS",
+          "raw_email_identifier": "2369120/88cda2e8-a905-49af-950f-59095b321bdb.eml",
+          "json_email_identifier": "2369120/88cda2e8-a905-49af-950f-59095b321bdb.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15,
+          2
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          },
+          "2": {
+            "trusted": false
+          }
+        },
+        "trusted": false,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58516962935321,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Wako,\n\nThank you for your response.\n\nPlease allow us some time to share your requirement with our technical team for further review.\n\nWe will update you once we hear back from them.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Wako,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Please allow us some time to share your requirement with our technical team for further review.<br>&nbsp;<br>We will update you once we hear back from them.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Wako,\n&nbsp;\nThank you for your response.\n&nbsp;\nPlease allow us some time to share your requirement with our technical team for further review.\n&nbsp;\nWe will update you once we hear back from them.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58516962935193,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T16:19:25Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58517426265497,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1780333182220009\n\nFrance Merchant using MCSL-S with FedEx and UPS for rates and labels. He is on Popular Plan.\nMerchant has shared a requirement and I wanted input from team if it would be feasible.\nMerchant received B2B orders as well on his store and in most cases, the Customer Profile in Shopify will contain recipient Tax IDs.\nThis Tax ID is reflected in the Customer specific Shopify Order as Note under the Customer section.\nMerchant wants the app to automatically use this Tax ID as the recipient tax id for the order and show it on the Invoice generated. As of now, he is manually updating the detail in the app for each applicable order.\nMerchant has also shared a screen recording of the same which I have attached here for reference. We also have collaborator access for the store to check the orders.\nMerchant has also confirmed that the Tax ID details in Shopify Order are updated automatically and he is not using any app for this or doing it manually.\nCould you please review the requirement and let us know if this would be feasible?\n\nURL - majo-garn.myshopify.com\nAccount ID - 32f69ae8-db0f-407e-973c-e4e64cefdcee",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1780333182220009\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1780333182220009</a><br>&nbsp;<br>France Merchant using MCSL-S with FedEx and UPS for rates and labels. He is on Popular Plan.<br>Merchant has shared a requirement and I wanted input from team if it would be feasible.<br>Merchant received B2B orders as well on his store and in most cases, the Customer Profile in Shopify will contain recipient Tax IDs.<br>This Tax ID is reflected in the Customer specific Shopify Order as Note under the Customer section.<br>Merchant wants the app to automatically use this Tax ID as the recipient tax id for the order and show it on the Invoice generated. As of now, he is manually updating the detail in the app for each applicable order.<br>Merchant has also shared a screen recording of the same which I have attached here for reference. We also have collaborator access for the store to check the orders.<br>Merchant has also confirmed that the Tax ID details in Shopify Order are updated automatically and he is not using any app for this or doing it manually.<br>Could you please review the requirement and let us know if this would be feasible?<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://majo-garn.myshopify.com\">majo-garn.myshopify.com</a><br>Account ID - 32f69ae8-db0f-407e-973c-e4e64cefdcee<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1780333182220009\n&nbsp;\nFrance Merchant using MCSL-S with FedEx and UPS for rates and labels. He is on Popular Plan.\nMerchant has shared a requirement and I wanted input from team if it would be feasible.\nMerchant received B2B orders as well on his store and in most cases, the Customer Profile in Shopify will contain recipient Tax IDs.\nThis Tax ID is reflected in the Customer specific Shopify Order as Note under the Customer section.\nMerchant wants the app to automatically use this Tax ID as the recipient tax id for the order and show it on the Invoice generated. As of now, he is manually updating the detail in the app for each applicable order.\nMerchant has also shared a screen recording of the same which I have attached here for reference. We also have collaborator access for the store to check the orders.\nMerchant has also confirmed that the Tax ID details in Shopify Order are updated automatically and he is not using any app for this or doing it manually.\nCould you please review the requirement and let us know if this would be feasible?\n&nbsp;\nURL - majo-garn.myshopify.com\nAccount ID - 32f69ae8-db0f-407e-973c-e4e64cefdcee",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58517420521113.json",
+          "id": 58517420521113,
+          "file_name": "Screen Recording 2026-05-29 at 13.23.07 (1).mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/JIHDiNYymuF13H3qDyCm0YcxV/?name=Screen+Recording+2026-05-29+at+13.23.07+%281%29.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/JIHDiNYymuF13H3qDyCm0YcxV/?name=Screen+Recording+2026-05-29+at+13.23.07+%281%29.mov",
+          "content_type": "video/quicktime",
+          "size": 25661833,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58517426265369,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T16:59:55Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58581511359769,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We will consider the enhancement to collect tax id from buyer details and pass in the request. Will update ETA. kindly inform the merchant and move to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will consider the enhancement to collect tax id from buyer details and pass in the request. Will update ETA. kindly inform the merchant and move to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "We will consider the enhancement to collect tax id from buyer details and pass in the request. Will update ETA. kindly inform the merchant and move to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58581511359641,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T07:17:26Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58585338321305,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Wako,\n\nThank you for your patience.\n\nOur team has checked your requirements and it will be considered it for app enhancement.\n\nAs of now, we do not have an exact ETA to share with you.\n\nHowever, once a timeline is available for the enhancement, we will reach out and update you of the same.\n\nFeel free to reach out if you have any further queries in the meantime.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Wako,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Our team has checked your requirements and it will be considered it for app enhancement.<br>&nbsp;<br>As of now, we do not have an exact ETA to share with you.<br>&nbsp;<br>However, once a timeline is available for the enhancement, we will reach out and update you of the same.<br>&nbsp;<br>Feel free to reach out if you have any further queries in the meantime.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Wako,\n&nbsp;\nThank you for your patience.\n&nbsp;\nOur team has checked your requirements and it will be considered it for app enhancement.\n&nbsp;\nAs of now, we do not have an exact ETA to share with you.\n&nbsp;\nHowever, once a timeline is available for the enhancement, we will reach out and update you of the same.\n&nbsp;\nFeel free to reach out if you have any further queries in the meantime.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58585338321177,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T09:10:51Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59131242725657,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "ETA: on or before 7th July.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA: on or before 7th July.<br>[Veena]<br></div>",
+      "plain_body": "ETA: on or before 7th July.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59131179834521,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T12:23:56Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

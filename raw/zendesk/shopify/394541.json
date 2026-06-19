@@ -1,0 +1,528 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/394541.json",
+    "id": 394541,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "abhilash@pluginhive.com",
+          "name": "Abhilash"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-06-10T09:58:05Z",
+    "updated_at": "2026-06-18T13:26:34Z",
+    "generated_timestamp": 1781789194,
+    "type": null,
+    "subject": "Re: Pluginhive x PostNord DO API",
+    "raw_subject": "Re: Pluginhive x PostNord DO API",
+    "description": "Hi Emil, \n\nIt was nice connecting with you, and thank you for sharing more information about the Delivery Options API and its benefits. \n\nThis looks very interesting, and we'd like to explore the integration further. Could you also please help us with the sandbox credentials required for testing?\n\nLooking forward to hearing from you.\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn <https://www.linkedin.com/company/Pluginhive>\n\n> On 9 Jun 2026, at 11:48\u202fAM, Emil Ellonen, PostNord <emil.ellonen@postnord.com> wrote:\n> \n> With PostNord\u2019s Delivery Options API, e-commerce businesses can display more accurate delivery options and delivery times for PostNord services at checkout. The Delivery Options API enables e-commerce checkouts to present precise and up-to-date PostNord delivery options along with estimated delivery times.\n> What are the benefits of the DO API for e-commerce?\n> \n> The DO API helps improve the customer experience and supports sales by:\n> Displaying an estimated delivery day at checkout (e.g. \u201cDelivery on Thursday\u201d)\n> * Showing the latest possible delivery time (e.g. \u201cno later than 4 PM\u201d)\n> * Displaying only the delivery options that are actually available for the specific shipment\n> * Making the checkout clearer and more transparent \u2014 which also improves conversion rates\n> How to get started with the DO API\n> \n> Implementation is straightforward for e-commerce businesses:\n> Technical requirements\n> The checkout solution must support DO API calls\n> or\n> * The business can use a platform or partner where the DO API is already supported\n> \n> If support is already in place, activation is usually all that\u2019s needed. Otherwise, a lightweight checkout integration is required.\n> Required information\n> To calculate delivery options and schedules, the e-commerce platform provides the DO API with:\n> The shipment\u2019s origin address\n> * The time when the shipment is ready for pickup\n> * Receiver information\n> \n> Based on this information, we can determine:\n> Available delivery services\n> * Estimated delivery day and the latest delivery time\n> More information\n> \n> If you\u2019re interested in exploring how the Delivery Options API can enhance your checkout experience, please contact your own contact person or mail tosales.fi@postnord.com <mailto:sales.fi@postnord.com>\n> See in our Showroom how an e-commerce checkout can look with the Delivery Options API.\n> You will find further information for developers here <https://developer.postnord.com/apis/details?systemName=shipment-v1-deliveryoptions>.\n> \n> Kind Regards,\n> PostNord Oy |\n> \n> \n> ________________________________________________________________________________\n> Microsoft Teams -kokous\n> Liity: https://teams.microsoft.com/meet/382962913734495?p=Wi8c8f05WeYRIQP6X2\n> Kokoustunnus: 382 962 913 734 495\n> Tunnuskoodi: Wm9ve9qG\n> Tarvitsetko apua? <https://aka.ms/JoinTeamsMeeting?omkt=fi-FI> | J\u00e4rjestelm\u00e4viittaus <https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmVlODI2YjUtYmM1Zi00OGNkLTlhNmQtZmE0ZWE0MTFkZWNh%40thread.v2/0?context=%7b%22Tid%22%3a%2291f09566-a850-4fae-bbe1-29ad3804a2f6%22%2c%22Oid%22%3a%2294d6b509-f220-4f5e-928a-753e43ea7985%22%7d>\n> Liity videoneuvottelulaitteella\n> Vuokraajan avain: teams@meet.postnord.com\n> Videotunnus: 123 322 797 4\n> Lis\u00e4tietoja <https://pexip.me/teams/meet.postnord.com/1233227974>\n> J\u00e4rjest\u00e4jille: Kokousvaihtoehdot <https://teams.microsoft.com/meetingOptions/?organizerId=94d6b509-f220-4f5e-928a-753e43ea7985&tenantId=91f09566-a850-4fae-bbe1-29ad3804a2f6&threadId=19_meeting_MmVlODI2YjUtYmM1Zi00OGNkLTlhNmQtZmE0ZWE0MTFkZWNh@thread.v2&messageId=0&language=fi-FI>\n> ________________________________________________________________________________\n\ufffc\nMail Attachment.ics",
+    "priority": "high",
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 903409790923,
+    "submitter_id": 903409790923,
+    "assignee_id": null,
+    "organization_id": 360081186532,
+    "group_id": null,
+    "collaborator_ids": [
+      58831865461145,
+      410186940351,
+      58831865474969,
+      58831865485849
+    ],
+    "follower_ids": [
+      58831865461145,
+      410186940351,
+      58831865474969,
+      58831865485849
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "GN2V22-2JJWX",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58831880851993,
+      "type": "Comment",
+      "author_id": 903409790923,
+      "body": "Hi Emil,\n\n\n\nIt was nice connecting with you, and thank you for sharing more information about the Delivery Options API and its benefits.\n\n\n\nThis looks very interesting, and we'd like to explore the integration further. Could you also please help us with the sandbox credentials required for testing?\n\n\n\nLooking forward to hearing from you.\n\n\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn\n\n\n\n> On 9 Jun 2026, at 11:48\u202fAM, Emil Ellonen, PostNord <emil.ellonen@postnord.com> wrote:\n>\n>\n> **With PostNord\u2019s Delivery Options API, e-commerce businesses can display more accurate delivery options and delivery times for PostNord services at checkout.** The Delivery Options API enables e-commerce checkouts to present precise and up-to-date PostNord delivery options along with estimated delivery times.\n>\n> What are the benefits of the DO API for e-commerce?\n>\n>\n> The DO API helps improve the customer experience and supports sales by:\n>\n> - Displaying an estimated delivery day at checkout (e.g. \u201cDelivery on Thursday\u201d)\n> * Showing the latest possible delivery time (e.g. \u201cno later than 4 PM\u201d)\n> * Displaying only the delivery options that are actually available for the specific shipment\n> * Making the checkout clearer and more transparent \u2014 which also improves conversion rates\n>\n> How to get started with the DO API\n>\n>\n> Implementation is straightforward for e-commerce businesses:\n> **Technical requirements**\n>\n> - The checkout solution must support DO API calls\n> or\n> * The business can use a platform or partner where the DO API is already supported\n>\n> If support is already in place, activation is usually all that\u2019s needed. Otherwise, a lightweight checkout integration is required.\n> **Required information**\n> To calculate delivery options and schedules, the e-commerce platform provides the DO API with:\n> - The shipment\u2019s origin address\n> * The time when the shipment is ready for pickup\n> * Receiver information\n>\n> Based on this information, we can determine:\n> - Available delivery services\n> * Estimated delivery day and the latest delivery time\n>\n> More information\n>\n>\n> If you\u2019re interested in exploring how the Delivery Options API can enhance your checkout experience, please contact your own contact person or mail tosales.fi@postnord.com ![](https://itsm.ess.postnord.com/images/icons/mail_small.gif)\n> See in our Showroom how an e-commerce checkout can look with the Delivery Options API.\n> You will find further information for developers here.\n>\n> Kind Regards,\n> PostNord Oy |\n>\n>\n>\n>\n>\n> ________________________________________________________________________________\n>\n> Microsoft Teams -kokous\n>\n> Liity: https://teams.microsoft.com/meet/382962913734495?p=Wi8c8f05WeYRIQP6X2\n>\n> Kokoustunnus: 382 962 913 734 495\n>\n> Tunnuskoodi: Wm9ve9qG\n>\n> * * *\n>\n> Tarvitsetko apua?| J\u00e4rjestelm\u00e4viittaus\n>\n> Liity videoneuvottelulaitteella\n>\n> Vuokraajan avain: teams@meet.postnord.com\n>\n> Videotunnus: 123 322 797 4\n>\n> Lis\u00e4tietoja\n>\n> J\u00e4rjest\u00e4jille: Kokousvaihtoehdot\n>\n> ________________________________________________________________________________\n\n>",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Emil,&nbsp;<div><br></div><div>It was nice connecting with you, and thank you for sharing more information about the Delivery Options API and its benefits.&nbsp;</div><div><br></div><div>This looks very interesting, and we'd like to explore the integration further. Could you also please help us with the sandbox credentials required for testing?</div><div><br></div><div>Looking forward to hearing from you.</div><div><div><br><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n<div><br><blockquote><div>On 9 Jun 2026, at 11:48\u202fAM, Emil Ellonen, PostNord &lt;emil.ellonen@postnord.com&gt; wrote:</div><br><div><div>\n\n<div>\n<div style=\"margin: 0px;\">\n<table style=\"text-align: left; text-indent: 0px; width: auto; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box; margin: 5px 0px 5px 2px;\">\n<tbody>\n<tr>\n<td style=\"text-align: left; text-indent: 0px; padding: 3px 4px; border: 1px solid rgba(9,30,66,0.14);\" align=\"left\">\n<div style=\"text-align: left; text-indent: 0px; font-size: 12pt;\" align=\"left\">\n<b>With PostNord\u2019s Delivery Options API, e-commerce businesses can display more accurate delivery options and delivery times for PostNord services at checkout.</b>&nbsp;The Delivery Options API enables e-commerce checkouts to present precise and up-to-date PostNord\n delivery options along with estimated delivery times.</div>\n<div style=\"text-align: left; line-height: 1.25; font-size: 12pt; margin: 30px 0px 0px;\" align=\"left\">\n<span style=\"font-weight: 500;\">What are the benefits of the DO API for e-commerce?</span></div>\n<div style=\"text-align: left; text-indent: 0px; font-size: 12pt; margin: 10px 0px 0px;\" align=\"left\">\n<br>\nThe DO API helps improve the customer experience and supports sales by:</div>\n<ul style=\"text-align: left; flex-direction: column; display: flex; margin: 10px 0px 0px;\" dir=\"auto\">\n<li style=\" font-size: 12pt; text-indent: 0px; align-self: start;\">\nDisplaying an estimated delivery day at checkout (e.g. \u201cDelivery on Thursday\u201d)<br>\n*&nbsp;Showing the latest possible delivery time (e.g. \u201cno later than 4 PM\u201d)<br>\n*&nbsp;Displaying only the delivery options that are actually available for the specific shipment<br>\n*&nbsp;Making the checkout clearer and more transparent \u2014 which also improves conversion rates<br>\n</li></ul>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div style=\"text-align: left; line-height: 1.25; font-size: 12pt; margin: 30px 0px 0px;\" align=\"left\">\n<span style=\"font-weight: 500;\">How to get started with the DO API</span></div>\n<div style=\"text-align: left; text-indent: 0px; font-size: 12pt; margin: 10px 0px 0px;\" align=\"left\">\n<br>\nImplementation is straightforward for e-commerce businesses:<br>\n<b>Technical requirements</b></div>\n<ul style=\"text-align: left; margin: 10px 0px 0px;\" dir=\"auto\">\n<li style=\" font-size: 12pt;\">\nThe checkout solution must support DO API calls<br>\nor<br>\n*&nbsp;The business can use a platform or partner where the DO API is already supported<br>\n<br>\nIf support is already in place, activation is usually all that\u2019s needed. Otherwise, a lightweight checkout integration is required.<br>\n<b>Required information</b><br>\nTo calculate delivery options and schedules, the e-commerce platform provides the DO API with:</li><li style=\" font-size: 12pt;\">\nThe shipment\u2019s origin address<br>\n*&nbsp;The time when the shipment is ready for pickup<br>\n*&nbsp;Receiver information<br>\n<br>\nBased on this information, we can determine:</li><li style=\" font-size: 12pt;\">\nAvailable delivery services<br>\n*&nbsp;Estimated delivery day and the latest delivery time<br>\n</li></ul>\n<div style=\"text-align: left; line-height: 1.25; font-size: 12pt; margin: 30px 0px 0px;\" align=\"left\">\n<span style=\"font-weight: 500;\">More information</span></div>\n<div style=\"text-align: left; text-indent: 0px; font-size: 12pt; margin: 10px 0px 0px;\" align=\"left\">\n<br>\nIf you\u2019re interested in exploring how the Delivery Options API can enhance your checkout experience, please contact your own contact person or mail to<a href=\"mailto:sales.fi@postnord.com\" title=\"Follow link\" style=\"color: rgb(12, 102, 228);\" rel=\"noreferrer\">sales.fi@postnord.com<img src=\"https://itsm.ess.postnord.com/images/icons/mail_small.gif\" width=\"13\" height=\"12\" style=\"width: 13px; height: 12px; max-width: 1333px; margin: 0px;\"></a><br>\nSee in our Showroom how an e-commerce checkout can look with the Delivery Options API.<br>\nYou will find further information for developers&nbsp;<a href=\"https://developer.postnord.com/apis/details?systemName=shipment-v1-deliveryoptions\" title=\"Follow link\" style=\"color: rgb(12, 102, 228);\" rel=\"noreferrer\">here</a>.<br>\n<br>\nKind Regards,<br>\nPostNord Oy&nbsp;|</div>\n<div style=\" font-size: 12pt;\">\n<br>\n</div>\n<br>\n<div style=\"max-width: 1024px; color: #242424; \">\n<div style=\"margin-bottom: 24px; overflow: hidden; white-space: nowrap;\">\n________________________________________________________________________________</div>\n<div style=\"margin-bottom: 12px;\"><span style=\"font-size: 20px; color: #242424; font-weight: 600;\">Microsoft Teams -kokous</span>\n</div>\n<div style=\"margin-bottom: 6px; overflow-wrap: break-word;\"><span style=\"font-size: 20px; color: #242424; font-weight: 600;\">Liity:\n</span><a title=\"Meeting join\" style=\"font-size: 20px; text-decoration: underline; color: #5B5FC7;\" href=\"https://teams.microsoft.com/meet/382962913734495?p=Wi8c8f05WeYRIQP6X2\" rel=\"noreferrer\">https://teams.microsoft.com/meet/382962913734495?p=Wi8c8f05WeYRIQP6X2</a>\n</div>\n<div style=\"margin-bottom: 6px;\"><span style=\"font-size: 14px; color: #616161;\">Kokoustunnus:\n</span><span style=\"font-size: 14px; color: #242424;\">382 962 913 734 495</span>\n</div>\n<div style=\"margin-bottom: 32px;\"><span style=\"font-size: 14px; color: #616161;\">Tunnuskoodi:\n</span><span style=\"font-size: 14px; color: #242424;\">Wm9ve9qG</span>\n</div>\n<div style=\"margin-bottom: 12px; max-width: 1024px;\">\n<hr style=\"background-color: #616161; height: 1px; border-width: 0;\">\n</div>\n<div style=\"margin-bottom: 24px;\"><a style=\"font-size: 14px; text-decoration: underline; color: #5B5FC7;\" href=\"https://aka.ms/JoinTeamsMeeting?omkt=fi-FI\" rel=\"noreferrer\">Tarvitsetko apua?</a>\n<span style=\"color: #616161;\">|</span> <a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmVlODI2YjUtYmM1Zi00OGNkLTlhNmQtZmE0ZWE0MTFkZWNh%40thread.v2/0?context=%7b%22Tid%22%3a%2291f09566-a850-4fae-bbe1-29ad3804a2f6%22%2c%22Oid%22%3a%2294d6b509-f220-4f5e-928a-753e43ea7985%22%7d\" style=\"font-size: 14px; text-decoration: underline; color: #5B5FC7;\" rel=\"noreferrer\">\nJ\u00e4rjestelm\u00e4viittaus</a> </div>\n<div style=\"margin-bottom: 6px;\"><span style=\"font-size: 16px; color: #242424; font-weight: 600;\">Liity videoneuvottelulaitteella</span>\n</div>\n<div style=\"margin-bottom: 6px;\"><span style=\"font-size: 14px; color: #616161;\">Vuokraajan avain:\n</span><span style=\"font-size: 14px; color: #242424;\">teams@meet.postnord.com</span>\n</div>\n<div style=\"margin-bottom: 6px;\"><span style=\"font-size: 14px; color: #616161;\">Videotunnus:\n</span><span style=\"font-size: 14px; color: #242424;\">123 322 797 4</span>\n</div>\n<div style=\"margin-bottom: 24px;\"><a style=\"font-size: 14px; text-decoration: underline; color: #5B5FC7;\" href=\"https://pexip.me/teams/meet.postnord.com/1233227974\" rel=\"noreferrer\">Lis\u00e4tietoja</a>\n</div>\n<div><span style=\"font-size: 14px; color: #616161;\">J\u00e4rjest\u00e4jille:\n</span><a style=\"font-size: 14px; text-decoration: underline; color: #5B5FC7;\" href=\"https://teams.microsoft.com/meetingOptions/?organizerId=94d6b509-f220-4f5e-928a-753e43ea7985&amp;tenantId=91f09566-a850-4fae-bbe1-29ad3804a2f6&amp;threadId=19_meeting_MmVlODI2YjUtYmM1Zi00OGNkLTlhNmQtZmE0ZWE0MTFkZWNh@thread.v2&amp;messageId=0&amp;language=fi-FI\" rel=\"noreferrer\">Kokousvaihtoehdot</a>\n</div>\n<div style=\"margin-top: 24px; margin-bottom: 6px;\"></div>\n<div style=\"margin-bottom: 24px;\"></div>\n<div style=\"margin-bottom: 24px; overflow: hidden; white-space: nowrap;\">\n________________________________________________________________________________</div>\n</div>\n</div>\n\n</div></div></blockquote></div></div></div><div><div><div><blockquote><div><div></div></div></blockquote></div><br></div></div></div>",
+      "plain_body": "Hi Emil,&nbsp; \n  It was nice connecting with you, and thank you for sharing more information about the Delivery Options API and its benefits.&nbsp;  \n  This looks very interesting, and we'd like to explore the integration further. Could you also please help us with the sandbox credentials required for testing?  \n  Looking forward to hearing from you.   \n \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn \n \n \n  On 9 Jun 2026, at 11:48\u202fAM, Emil Ellonen, PostNord &lt;emil.ellonen@postnord.com&gt; wrote: \n  \n\n \n \n\n\n\n\n \nWith PostNord\u2019s Delivery Options API, e-commerce businesses can display more accurate delivery options and delivery times for PostNord services at checkout.&nbsp;The Delivery Options API enables e-commerce checkouts to present precise and up-to-date PostNord\n delivery options along with estimated delivery times. \n \nWhat are the benefits of the DO API for e-commerce? \n \n\n\nThe DO API helps improve the customer experience and supports sales by: \n \n \nDisplaying an estimated delivery day at checkout (e.g. \u201cDelivery on Thursday\u201d)\n\n*&nbsp;Showing the latest possible delivery time (e.g. \u201cno later than 4 PM\u201d)\n\n*&nbsp;Displaying only the delivery options that are actually available for the specific shipment\n\n*&nbsp;Making the checkout clearer and more transparent \u2014 which also improves conversion rates\n\n  \n\n\n\n\n \n \nHow to get started with the DO API \n \n\n\nImplementation is straightforward for e-commerce businesses:\n\nTechnical requirements \n \n \nThe checkout solution must support DO API calls\n\nor\n\n*&nbsp;The business can use a platform or partner where the DO API is already supported\n\n\n\nIf support is already in place, activation is usually all that\u2019s needed. Otherwise, a lightweight checkout integration is required.\n\nRequired information\n\nTo calculate delivery options and schedules, the e-commerce platform provides the DO API with:  \nThe shipment\u2019s origin address\n\n*&nbsp;The time when the shipment is ready for pickup\n\n*&nbsp;Receiver information\n\n\n\nBased on this information, we can determine:  \nAvailable delivery services\n\n*&nbsp;Estimated delivery day and the latest delivery time\n\n  \n \nMore information \n \n\n\nIf you\u2019re interested in exploring how the Delivery Options API can enhance your checkout experience, please contact your own contact person or mail tosales.fi@postnord.com\n\nSee in our Showroom how an e-commerce checkout can look with the Delivery Options API.\n\nYou will find further information for developers&nbsp;here.\n\n\n\nKind Regards,\n\nPostNord Oy&nbsp;| \n \n\n\n \n\n\n \n \n________________________________________________________________________________ \n Microsoft Teams -kokous\n \n Liity:\nhttps://teams.microsoft.com/meet/382962913734495?p=Wi8c8f05WeYRIQP6X2\n \n Kokoustunnus:\n382 962 913 734 495\n \n Tunnuskoodi:\nWm9ve9qG\n \n \n \n \n Tarvitsetko apua?\n| \nJ\u00e4rjestelm\u00e4viittaus  \n Liity videoneuvottelulaitteella\n \n Vuokraajan avain:\nteams@meet.postnord.com\n \n Videotunnus:\n123 322 797 4\n \n Lis\u00e4tietoja\n \n J\u00e4rjest\u00e4jille:\nKokousvaihtoehdot\n \n \n \n \n________________________________________________________________________________",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58831865518873.json",
+          "id": 58831865518873,
+          "file_name": "Mail Attachment.ics",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/cSMye9EOuv0JaWDV3y1lRcEJl/?name=Mail+Attachment.ics",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/cSMye9EOuv0JaWDV3y1lRcEJl/?name=Mail+Attachment.ics",
+          "content_type": "text/calendar",
+          "size": 6508,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58831880851865,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "abhilash@pluginhive.com",
+              "emil.ellonen@postnord.com",
+              "vimal@pluginhive.com",
+              "petri.molsa@postnord.com",
+              "vesa.karjalainen@postnord.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-10T09:58:05Z",
+      "metadata": {
+        "system": {
+          "message_id": "<A678A89B-6564-4E4E-80CC-0AD4707BC32A@pluginhive.com>",
+          "client": "Apple Mail (2.3864.600.51.1.1)",
+          "email_id": "01KTRFFAWTA7BMHFRN0Q60R7XJ",
+          "raw_email_identifier": "2369120/c5b7f913-f7c4-4779-9709-f8326a57f6d2.eml",
+          "json_email_identifier": "2369120/c5b7f913-f7c4-4779-9709-f8326a57f6d2.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58832147830937,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Hi Team,\n\nI recently spoke with PostNord regarding their Delivery Options (DO) API, which allows merchants to display real-time delivery options, estimated delivery dates, and delivery time windows during checkout.\n\nCurrently, we do not support this functionality in our PostNord integration. PostNord considers this an important feature for improving checkout transparency and conversion rates.\n\nI've attached the API documentation link and a sample checkout/showroom link shared by PostNord to help you better understand how the feature works and how it is presented to customers.\n\nCould we evaluate adding support for the DO API to our PostNord integration roadmap? Please let me know your thoughts on the feasibility and estimated effort involved.\n\nAlso, PostNord mentioned that their Rating API is still under development and is expected to go live in the future. There is currently no ETA available from their side.\n\nAPI Document - https://developer.postnord.com/apis/details/JSnCs4sBlU06aKgBaOHN\nSample Checkout Flow (Staging)- https://checkout-showroom.postnord.com/dev\n\n(Abhilash)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br>I recently spoke with PostNord regarding their Delivery Options (DO) API, which allows merchants to display real-time delivery options, estimated delivery dates, and delivery time windows during checkout.<br>&nbsp;<br>Currently, we do not support this functionality in our PostNord integration. PostNord considers this an important feature for improving checkout transparency and conversion rates.<br>&nbsp;<br>I've attached the API documentation link and a sample checkout/showroom link shared by PostNord to help you better understand how the feature works and how it is presented to customers.<br>&nbsp;<br>Could we evaluate adding support for the DO API to our PostNord integration roadmap? Please let me know your thoughts on the feasibility and estimated effort involved.<br>&nbsp;<br>Also, PostNord mentioned that their Rating API is still under development and is expected to go live in the future. There is currently no ETA available from their side.<br>&nbsp;<br>API Document - <a rel=\"noopener noreferrer\" href=\"https://developer.postnord.com/apis/details/JSnCs4sBlU06aKgBaOHN\">https://developer.postnord.com/apis/details/JSnCs4sBlU06aKgBaOHN</a>&nbsp;<br>Sample Checkout Flow (Staging)- <a rel=\"noopener noreferrer\" href=\"https://checkout-showroom.postnord.com/dev\">https://checkout-showroom.postnord.com/dev</a><br>&nbsp;<br>(Abhilash)<br></div>",
+      "plain_body": "Hi Team,\n&nbsp;\nI recently spoke with PostNord regarding their Delivery Options (DO) API, which allows merchants to display real-time delivery options, estimated delivery dates, and delivery time windows during checkout.\n&nbsp;\nCurrently, we do not support this functionality in our PostNord integration. PostNord considers this an important feature for improving checkout transparency and conversion rates.\n&nbsp;\nI've attached the API documentation link and a sample checkout/showroom link shared by PostNord to help you better understand how the feature works and how it is presented to customers.\n&nbsp;\nCould we evaluate adding support for the DO API to our PostNord integration roadmap? Please let me know your thoughts on the feasibility and estimated effort involved.\n&nbsp;\nAlso, PostNord mentioned that their Rating API is still under development and is expected to go live in the future. There is currently no ETA available from their side.\n&nbsp;\nAPI Document - https://developer.postnord.com/apis/details/JSnCs4sBlU06aKgBaOHN&nbsp;\nSample Checkout Flow (Staging)- https://checkout-showroom.postnord.com/dev\n&nbsp;\n(Abhilash)",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58832131498521.json",
+          "id": 58832131498521,
+          "file_name": "Delivery_Options_API.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/hsztpYa8h9uGkime6QbYwPqqm/?name=Delivery_Options_API.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/hsztpYa8h9uGkime6QbYwPqqm/?name=Delivery_Options_API.pdf",
+          "content_type": "application/pdf",
+          "size": 389742,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58832147830809,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-10T10:03:34Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58832260722457,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Hi Team,\n\nPlease share this with L3.\n\n(Abhilash)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,&nbsp;<br>&nbsp;<br>Please share this with L3.&nbsp;<br>&nbsp;<br>(Abhilash)<br></div>",
+      "plain_body": "Hi Team,&nbsp;\n&nbsp;\nPlease share this with L3.&nbsp;\n&nbsp;\n(Abhilash)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58832245933465,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-10T10:05:37Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58832365295001,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Moving to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "Moving to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58832365294873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-10T10:09:15Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58835444745113,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We have updated the app, now ask the merchant to whitelist the following ip addresses. And let us know if they are still facing the issue.\n\n- 159.89.150.142\n- 165.227.28.252\n- 138.68.13.182\n- 165.227.48.244\n- 157.245.169.250\n\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have updated the app, now ask the merchant to whitelist the following ip addresses. And let us know if they are still facing the issue.<br>&nbsp;<br><ul dir=\"auto\"><li>159.89.150.142</li><li>165.227.28.252</li><li>138.68.13.182</li><li>165.227.48.244</li><li>157.245.169.250<br><br><br>[Veena]</li></ul></div>",
+      "plain_body": "We have updated the app, now ask the merchant to whitelist the following ip addresses. And let us know if they are still facing the issue.\n&nbsp;\n  159.89.150.142  165.227.28.252  138.68.13.182  165.227.48.244  157.245.169.250\n\n\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58835444744985,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-10T11:58:16Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58835446817817,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Ignore the previous internal note.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Ignore the previous internal note.<br>[Veena]<br></div>",
+      "plain_body": "Ignore the previous internal note.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58835446817689,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-10T11:58:50Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59131188109721,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "ETA: on or before 7th July.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA: on or before 7th July.<br>[Veena]<br></div>",
+      "plain_body": "ETA: on or before 7th July.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59131205540633,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T12:22:26Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59132667057817,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Discussed with keerthi\nNo action needed from support\nneed to inform partnership team once done\nticket is in dev needed",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with keerthi&nbsp;<br>No action needed from support&nbsp;<br>need to inform partnership team once done<br>ticket is in dev needed<br>&nbsp;<br></div>",
+      "plain_body": "Discussed with keerthi&nbsp;\nNo action needed from support&nbsp;\nneed to inform partnership team once done\nticket is in dev needed\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59132675097241,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T13:26:34Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

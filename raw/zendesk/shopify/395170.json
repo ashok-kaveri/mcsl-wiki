@@ -1,0 +1,744 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/395170.json",
+    "id": 395170,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-06-15T02:22:48Z",
+    "updated_at": "2026-06-18T12:20:50Z",
+    "generated_timestamp": 1781785251,
+    "type": "question",
+    "subject": "I need to know why orders 68951 and 68952 i can't ...",
+    "raw_subject": "I need to know why orders 68951 and 68952 i can't ...",
+    "description": "I need to know why orders 68951 and 68952 i can't generate labels for\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/61d3e455-0a2d-463b-b042-77d0a7ebd0ec/f3ad1e22-c2be-42f3-ba08-dd08adcfb814/new",
+    "priority": "normal",
+    "status": "open",
+    "recipient": null,
+    "requester_id": 48935064624921,
+    "submitter_id": 48935064624921,
+    "assignee_id": 44512844768153,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "aibot_auto_reply",
+      "dev_needed",
+      "last_reply_agent",
+      "other",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "localeuropean.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "2133325271"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "W15JPD-64J02",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "localeuropean.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "2133325271"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 59001462311193,
+      "type": "Comment",
+      "author_id": 48935064624921,
+      "body": "I need to know why orders 68951 and 68952 i can't generate labels for\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/61d3e455-0a2d-463b-b042-77d0a7ebd0ec/f3ad1e22-c2be-42f3-ba08-dd08adcfb814/new",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">I need to know why orders 68951 and 68952 i can't generate labels for</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/summary/61d3e455-0a2d-463b-b042-77d0a7ebd0ec/f3ad1e22-c2be-42f3-ba08-dd08adcfb814/new\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/summary/61d3e455-0a2d-463b-b042-77d0a7ebd0ec/f3ad1e22-c2be-42f3-ba08-dd08adcfb814/new</a></p></div>",
+      "plain_body": "I need to know why orders 68951 and 68952 i can't generate labels for \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/61d3e455-0a2d-463b-b042-77d0a7ebd0ec/f3ad1e22-c2be-42f3-ba08-dd08adcfb814/new",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59001462311065,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-06-15T02:22:48Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "ip_address": "24.201.83.213",
+          "location": "Saint-L\u00e9onard, QC, Canada",
+          "latitude": 45.5872,
+          "longitude": -73.6082
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 59001482021529,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "\ud83e\udd16 Auto-generated draft \u2014 probation mode (not sent to customer)\nProduct: shopify-mcsl | Signal: keyword | Confidence: MEDIUM\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Ibrahim,\n\nThank you for reaching out. To help you get labels generated for orders 68951 and 68952, please start with these checks:\n\n1. Carrier connection \u2014 Go to MCSL app \u2192 Carriers and confirm the carrier you are trying to use shows a Connected status. If it shows Disconnected or an error, reconnecting the account usually resolves label failures.\n\n2. Order data \u2014 Open each order in the MCSL app and verify the Ship To address is complete (no missing city, postcode, or country), all products have a weight assigned, and the order is in a paid or fulfilled status.\n\n3. Carrier balance (if using Stamps.com or USPS) \u2014 Make sure the account has sufficient postage balance before retrying.\n\n4. Retry the label \u2014 After confirming the above, click Generate Label again on each order.\n\nIf the issue persists, please share the exact error message or status shown in the MCSL app when you attempt to generate the label for these orders, along with the carrier you are using. That will allow us to identify the specific cause and resolve it quickly.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 probation mode (not sent to customer)<br>\nProduct: shopify-mcsl | Signal: keyword | Confidence: MEDIUM<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Ibrahim,</p>\n<p dir=\"auto\">Thank you for reaching out. To help you get labels generated for orders 68951 and 68952, please start with these checks:</p>\n<ol type=\"1\" dir=\"auto\">\n<li><p dir=\"auto\">Carrier connection \u2014 Go to MCSL app \u2192 Carriers and confirm the carrier you are trying to use shows a Connected status. If it shows Disconnected or an error, reconnecting the account usually resolves label failures.</p></li>\n<li><p dir=\"auto\">Order data \u2014 Open each order in the MCSL app and verify the Ship To address is complete (no missing city, postcode, or country), all products have a weight assigned, and the order is in a paid or fulfilled status.</p></li>\n<li><p dir=\"auto\">Carrier balance (if using Stamps.com or USPS) \u2014 Make sure the account has sufficient postage balance before retrying.</p></li>\n<li><p dir=\"auto\">Retry the label \u2014 After confirming the above, click Generate Label again on each order.</p></li>\n</ol>\n<p dir=\"auto\">If the issue persists, please share the exact error message or status shown in the MCSL app when you attempt to generate the label for these orders, along with the carrier you are using. That will allow us to identify the specific cause and resolve it quickly.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+      "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 probation mode (not sent to customer)\n\nProduct: shopify-mcsl | Signal: keyword | Confidence: MEDIUM\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Ibrahim, \n Thank you for reaching out. To help you get labels generated for orders 68951 and 68952, please start with these checks: \n \n  Carrier connection \u2014 Go to MCSL app \u2192 Carriers and confirm the carrier you are trying to use shows a Connected status. If it shows Disconnected or an error, reconnecting the account usually resolves label failures.  \n  Order data \u2014 Open each order in the MCSL app and verify the Ship To address is complete (no missing city, postcode, or country), all products have a weight assigned, and the order is in a paid or fulfilled status.  \n  Carrier balance (if using Stamps.com or USPS) \u2014 Make sure the account has sufficient postage balance before retrying.  \n  Retry the label \u2014 After confirming the above, click Generate Label again on each order.  \n \n If the issue persists, please share the exact error message or status shown in the MCSL app when you attempt to generate the label for these orders, along with the carrier you are using. That will allow us to identify the specific cause and resolve it quickly. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59001458551961,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T02:23:50Z",
+      "metadata": {
+        "system": {
+          "client": "node",
+          "ip_address": "206.189.72.35",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59010408610841,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "US store\nups added\nusing for mostly labels\nactive from : 2026-05-18\n$29 plan\nI CHECKED THE orders in the app and labels are failing with the error \"Invalid Unit of Measurement for the given country\"\"\nthe countries are Germany and canada however for some canada orders are labels are being generated, the store units in the app is pounds\nrequested permission to generate the labels fopr order68951 and 68952\nmoving on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">US store<br>ups added<br>using for mostly labels<br>active from : 2026-05-18<br>$29 plan&nbsp;<br>I CHECKED THE orders in the app and labels are failing with the error \"Invalid Unit of Measurement for the given country\"\"<br>the countries are Germany and canada however for some canada orders are labels are being generated, the store units in the app is pounds&nbsp;<br>requested permission to generate the labels fopr order68951 and 68952<br>moving on hold<br></div>",
+      "plain_body": "US store\nups added\nusing for mostly labels\nactive from : 2026-05-18\n$29 plan&nbsp;\nI CHECKED THE orders in the app and labels are failing with the error \"Invalid Unit of Measurement for the given country\"\"\nthe countries are Germany and canada however for some canada orders are labels are being generated, the store units in the app is pounds&nbsp;\nrequested permission to generate the labels fopr order68951 and 68952\nmoving on hold",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59010408610713,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T06:21:12Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59010613083545,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Ibrahim,\n\nThank you for reaching out.\n\nTo investigate this further, could you please confirm whether we can proceed with generating the labels for Orders 68951 and 68952 from our end?\nThis will allow us to review the concern directly, identify the cause of the failure, and provide you with a resolution as quickly as possible.\n\nWe look forward to your confirmation.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Ibrahim,<br>&nbsp;<br>Thank you for reaching out.<br>&nbsp;<br>To investigate this further, could you please confirm whether we can proceed with generating the labels for Orders 68951 and 68952 from our end?<br>This will allow us to review the concern directly, identify the cause of the failure, and provide you with a resolution as quickly as possible.<br>&nbsp;<br>We look forward to your confirmation.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Ibrahim,\n&nbsp;\nThank you for reaching out.\n&nbsp;\nTo investigate this further, could you please confirm whether we can proceed with generating the labels for Orders 68951 and 68952 from our end?\nThis will allow us to review the concern directly, identify the cause of the failure, and provide you with a resolution as quickly as possible.\n&nbsp;\nWe look forward to your confirmation.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59010613083417,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T06:25:55Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59024412485401,
+      "type": "Comment",
+      "author_id": 48935064624921,
+      "body": "Yes you can. I checked the error log and it says unit of measure not compatible with country\n\n\n\n\n\n ![](https://signaturehound.com/api/v1/file/3bwqwgllvlv4hej \"Profile Picture\")\n\nIBRAHIM HATOUM\n\nDIRECTOR OF OPERATIONS\n\nMontreal, QC\n\n ![](https://signaturehound.com/api/v1/png/email/letter-square/000000.png)\nbaro@thekriptstore.com\n\n ![](https://signaturehound.com/api/v1/png/mobile/letter-square/000000.png)\n+1 (213) 332-5271\n\n ![](https://signaturehound.com/api/v1/png/website/letter-square/000000.png)\nthekriptstore.com\n\n ![](https://signaturehound.com/api/v1/png/facebook/square/000000.png)\n ![](https://signaturehound.com/api/v1/png/instagram/square/000000.png)\n ![](https://signaturehound.com/api/v1/png/tiktok/square/000000.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>\n<div>Yes you can. I checked the error log and it says unit of measure not compatible with country</div>\n</div>\n<div><br>\n<div>\n</div>\n<br>\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse: collapse; margin: 0px;\">\n<tbody>\n<tr>\n<td style=\"padding: 0px 1px 19px 0px;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse: collapse; margin: 0px;\">\n<tbody>\n<tr>\n<td style=\"padding: 0px 1px 0px 0px;\">\n<div style=\"margin: 1px;\"><img src=\"https://signaturehound.com/api/v1/file/3bwqwgllvlv4hej\" alt=\"\" title=\"Profile Picture\" width=\"150\" height=\"14\" style=\"display: block; max-width: 150px; border-width: 0px;\"></div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 0px 1px 0px 0px;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse: collapse; margin: 0px;\">\n<tbody>\n<tr>\n<td style=\"padding: 0px 1px 0px 0px;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse: collapse; margin: 0px;\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; font-size: 11px; line-height: 14px; white-space: nowrap; padding: 0px 25px 0px 0px;\" valign=\"top\">\n<div style=\" font-size: 11px; line-height: 14px; font-weight: 700; color: rgb(0, 0, 0); white-space: nowrap; margin: 1px;\">IBRAHIM HATOUM</div>\n<div style=\" font-size: 11px; line-height: 15px; white-space: nowrap; color: rgb(0, 0, 0); margin: 1px;\">DIRECTOR OF OPERATIONS</div>\n<div style=\" font-size: 11px; line-height: 15px; white-space: nowrap; color: rgb(0, 0, 0); margin: 1px;\">Montreal, QC</div>\n</td>\n<td width=\"10\" style=\"padding: 0px 1px 0px 0px;\"></td>\n<td style=\"vertical-align: top; padding: 0px 1px 0px 0px;\" valign=\"top\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse: collapse; margin: 0px;\">\n<tbody>\n<tr>\n<td style=\"vertical-align: middle; padding: 1px 5px 1px 0px;\" valign=\"middle\">\n<div style=\"margin: 1px;\"><img src=\"https://signaturehound.com/api/v1/png/email/letter-square/000000.png\" alt=\"\" width=\"15\" height=\"15\" style=\"display: block; width: 15px; height: 15px; border-width: 0px;\"></div>\n</td>\n<td style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0,0,1) !important; vertical-align: middle; padding: 1px 0px;\" valign=\"middle\">\n<div style=\"margin: 1px;\"><a href=\"mailto:baro@thekriptstore.com\" style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;\" rel=\"noreferrer\"><span style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;\">baro@thekriptstore.com</span></a></div>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: middle; padding: 1px 5px 1px 0px;\" valign=\"middle\">\n<div style=\"margin: 1px;\"><img src=\"https://signaturehound.com/api/v1/png/mobile/letter-square/000000.png\" alt=\"\" width=\"15\" height=\"15\" style=\"display: block; width: 15px; height: 15px; border-width: 0px;\"></div>\n</td>\n<td style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0,0,1) !important; vertical-align: middle; padding: 1px 0px;\" valign=\"middle\">\n<div style=\"margin: 1px;\"><a href=\"tel:+12133325271\" style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;\" rel=\"noreferrer\"><span style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;\">+1 (213) 332-5271</span></a></div>\n</td>\n</tr>\n\n<tr>\n<td valign=\"middle\" style=\"vertical-align: middle; padding: 1px 5px 1px 0px;\">\n<div style=\"margin: 1px;\"><img src=\"https://signaturehound.com/api/v1/png/website/letter-square/000000.png\" alt=\"\" width=\"15\" height=\"15\" style=\"display: block; width: 15px; height: 15px; border-width: 0px;\"></div>\n</td>\n<td style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0,0,1) !important; font-weight: 700; vertical-align: middle; padding: 1px 0px;\" valign=\"middle\">\n<div style=\"margin: 1px;\"><a href=\"https://www.thekriptstore.com/\" style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0, 0, 0); font-weight: 700; text-decoration: none !important;\" rel=\"noreferrer\"><span style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0, 0, 0); font-weight: 700; text-decoration: none !important;\">thekriptstore.com</span></a></div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td width=\"15\" style=\"padding: 0px 1px 0px 0px;\"></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n\n<tr>\n<td style=\"padding: 0px 1px 0px 0px;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse: collapse; margin: 0px;\">\n<tbody>\n<tr>\n<td width=\"22\" style=\"font-size: 0px; line-height: 0px; padding: 19px 1px 0px 0px;\">\n<div style=\"margin: 1px;\"><a href=\"https://www.facebook.com/thekript\" rel=\"noreferrer\"><img src=\"https://signaturehound.com/api/v1/png/facebook/square/000000.png\" alt=\"\" width=\"22\" height=\"22\" style=\"display: block; width: 22px; height: 22px; border-width: 0px;\"></a></div>\n</td>\n<td width=\"2\" style=\"padding: 0px 0px 1px;\"></td>\n<td width=\"22\" style=\"font-size: 0px; line-height: 0px; padding: 19px 1px 0px 0px;\">\n<div style=\"margin: 1px;\"><a href=\"https://www.instagram.com/thekript\" rel=\"noreferrer\"><img src=\"https://signaturehound.com/api/v1/png/instagram/square/000000.png\" alt=\"\" width=\"22\" height=\"22\" style=\"display: block; width: 22px; height: 22px; border-width: 0px;\"></a></div>\n</td>\n<td width=\"2\" style=\"padding: 0px 0px 1px;\"></td>\n<td width=\"22\" style=\"font-size: 0px; line-height: 0px; padding: 19px 1px 0px 0px;\">\n<div style=\"margin: 1px;\"><a href=\"https://www.tiktok.com/@thekript\" rel=\"noreferrer\"><img src=\"https://signaturehound.com/api/v1/png/tiktok/square/000000.png\" alt=\"\" width=\"22\" height=\"22\" style=\"display: block; width: 22px; height: 22px; border-width: 0px;\"></a></div>\n</td>\n<td width=\"2\" style=\"padding: 0px 0px 1px;\"></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div></div>",
+      "plain_body": "Yes you can. I checked the error log and it says unit of measure not compatible with country \n \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n IBRAHIM HATOUM \n DIRECTOR OF OPERATIONS \n Montreal, QC \n\n\n\n\n\n\n\n  \n\n\n baro@thekriptstore.com \n\n\n\n\n  \n\n\n +1 (213) 332-5271 \n\n\n\n\n\n  \n\n\n thekriptstore.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59024412485273,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "baro@thekriptstore.com",
+            "name": "Ibrahim Hatoum",
+            "original_recipients": [
+              "baro@thekriptstore.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T13:31:17Z",
+      "metadata": {
+        "system": {
+          "message_id": "<9a59996a-fa9e-4262-b037-f7581b80a877@Spark>",
+          "email_id": "01KV5QNBBP8YETKKNWN203YAQ0",
+          "ip_address": "192.168.7.168",
+          "raw_email_identifier": "2369120/b7abba79-eb59-41eb-b393-cb5fca6e940f.eml",
+          "json_email_identifier": "2369120/b7abba79-eb59-41eb-b393-cb5fca6e940f.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59024464413209,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\nProduct: shopify-mcsl | Signal: form_field | Confidence: MEDIUM | Context: 4 message(s)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Ibrahim,\n\nThank you for confirming the error and for granting us permission to generate the labels.\n\nAs our team noted, the issue is that your app is currently set to use pounds (LBS), but UPS requires metric units (KGS) for shipments to Germany. When the app sends the label request using pounds, UPS rejects it with the \"Invalid Unit of Measurement for the given country\" error. This is also the likely cause of some of your Canada orders failing \u2014 UPS enforces metric unit requirements for certain services and destinations.\n\nTo fix this for future orders, please follow these steps:\n\n1. Open the MCSL app and go to App Settings > General.\n2. Change the weight unit from LBS to KG.\n3. Save the settings.\n\nOnce this is updated, please also verify that your product weights in the app reflect values in kilograms, as this change will affect how weights are sent to UPS for all orders going forward.\n\nOur team will proceed with generating the labels for orders 68951 and 68952 from our end and will update you once done. In the meantime, updating the weight unit setting will prevent this error from recurring on future international orders.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)<br>\nProduct: shopify-mcsl | Signal: form_field | Confidence: MEDIUM | Context: 4 message(s)<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Ibrahim,</p>\n<p dir=\"auto\">Thank you for confirming the error and for granting us permission to generate the labels.</p>\n<p dir=\"auto\">As our team noted, the issue is that your app is currently set to use pounds (LBS), but UPS requires metric units (KGS) for shipments to Germany. When the app sends the label request using pounds, UPS rejects it with the \"Invalid Unit of Measurement for the given country\" error. This is also the likely cause of some of your Canada orders failing \u2014 UPS enforces metric unit requirements for certain services and destinations.</p>\n<p dir=\"auto\">To fix this for future orders, please follow these steps:</p>\n<ol type=\"1\" dir=\"auto\">\n<li>Open the MCSL app and go to App Settings &gt; General.</li>\n<li>Change the weight unit from LBS to KG.</li>\n<li>Save the settings.</li>\n</ol>\n<p dir=\"auto\">Once this is updated, please also verify that your product weights in the app reflect values in kilograms, as this change will affect how weights are sent to UPS for all orders going forward.</p>\n<p dir=\"auto\">Our team will proceed with generating the labels for orders 68951 and 68952 from our end and will update you once done. In the meantime, updating the weight unit setting will prevent this error from recurring on future international orders.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+      "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\n\nProduct: shopify-mcsl | Signal: form_field | Confidence: MEDIUM | Context: 4 message(s)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Ibrahim, \n Thank you for confirming the error and for granting us permission to generate the labels. \n As our team noted, the issue is that your app is currently set to use pounds (LBS), but UPS requires metric units (KGS) for shipments to Germany. When the app sends the label request using pounds, UPS rejects it with the \"Invalid Unit of Measurement for the given country\" error. This is also the likely cause of some of your Canada orders failing \u2014 UPS enforces metric unit requirements for certain services and destinations. \n To fix this for future orders, please follow these steps: \n \n Open the MCSL app and go to App Settings &gt; General. \n Change the weight unit from LBS to KG. \n Save the settings. \n \n Once this is updated, please also verify that your product weights in the app reflect values in kilograms, as this change will affect how weights are sent to UPS for all orders going forward. \n Our team will proceed with generating the labels for orders 68951 and 68952 from our end and will update you once done. In the meantime, updating the weight unit setting will prevent this error from recurring on future international orders. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59024470249369,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T13:33:09Z",
+      "metadata": {
+        "system": {
+          "client": "node",
+          "ip_address": "206.189.72.35",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59025193496985,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Ibrahim Hatoum,\n\nThank you for your permission.\n\nWe will be escalating your case so that it can be checked further by our senior team.\n\nBefore that could you please let us know if these 2 orders can wait for some time (say about 24 hours) so that our team can check and update you accordingly?\nIf the orders have to be shipped urgently, you can process them outside of the app for now and do not fulfill the order in Shopify.\n\nAwaiting your confirmation.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ibrahim Hatoum,<br>&nbsp;<br>Thank you for your permission.<br>&nbsp;<br>We will be escalating your case so that it can be checked further by our senior team.<br>&nbsp;<br>Before that could you please let us know if these 2 orders can wait for some time (say about 24 hours) so that our team can check and update you accordingly?<br>If the orders have to be shipped urgently, you can process them outside of the app for now and do not fulfill the order in Shopify.<br>&nbsp;<br>Awaiting your confirmation.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Ibrahim Hatoum,\n&nbsp;\nThank you for your permission.\n&nbsp;\nWe will be escalating your case so that it can be checked further by our senior team.\n&nbsp;\nBefore that could you please let us know if these 2 orders can wait for some time (say about 24 hours) so that our team can check and update you accordingly?\nIf the orders have to be shipped urgently, you can process them outside of the app for now and do not fulfill the order in Shopify.\n&nbsp;\nAwaiting your confirmation.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59025193496857,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T14:07:51Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59025372698905,
+      "type": "Comment",
+      "author_id": 48935064624921,
+      "body": "Yes they can wait\n\n\n\n\n\n ![](https://signaturehound.com/api/v1/file/3bwqwgllvlv4hej \"Profile Picture\")\n\nIBRAHIM HATOUM\n\nDIRECTOR OF OPERATIONS\n\nMontreal, QC\n\n ![](https://signaturehound.com/api/v1/png/email/letter-square/000000.png)\nbaro@thekriptstore.com\n\n ![](https://signaturehound.com/api/v1/png/mobile/letter-square/000000.png)\n+1 (213) 332-5271\n\n ![](https://signaturehound.com/api/v1/png/website/letter-square/000000.png)\nthekriptstore.com\n\n ![](https://signaturehound.com/api/v1/png/facebook/square/000000.png)\n ![](https://signaturehound.com/api/v1/png/instagram/square/000000.png)\n ![](https://signaturehound.com/api/v1/png/tiktok/square/000000.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div>\n<div>Yes they can wait</div>\n</div>\n<div><br>\n<div>\n</div>\n<br>\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse: collapse; margin: 0px;\">\n<tbody>\n<tr>\n<td style=\"padding: 0px 1px 19px 0px;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse: collapse; margin: 0px;\">\n<tbody>\n<tr>\n<td style=\"padding: 0px 1px 0px 0px;\">\n<div style=\"margin: 1px;\"><img src=\"https://signaturehound.com/api/v1/file/3bwqwgllvlv4hej\" alt=\"\" title=\"Profile Picture\" width=\"150\" height=\"14\" style=\"display: block; max-width: 150px; border-width: 0px;\"></div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td style=\"padding: 0px 1px 0px 0px;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse: collapse; margin: 0px;\">\n<tbody>\n<tr>\n<td style=\"padding: 0px 1px 0px 0px;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse: collapse; margin: 0px;\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; font-size: 11px; line-height: 14px; white-space: nowrap; padding: 0px 25px 0px 0px;\" valign=\"top\">\n<div style=\" font-size: 11px; line-height: 14px; font-weight: 700; color: rgb(0, 0, 0); white-space: nowrap; margin: 1px;\">IBRAHIM HATOUM</div>\n<div style=\" font-size: 11px; line-height: 15px; white-space: nowrap; color: rgb(0, 0, 0); margin: 1px;\">DIRECTOR OF OPERATIONS</div>\n<div style=\" font-size: 11px; line-height: 15px; white-space: nowrap; color: rgb(0, 0, 0); margin: 1px;\">Montreal, QC</div>\n</td>\n<td width=\"10\" style=\"padding: 0px 1px 0px 0px;\"></td>\n<td style=\"vertical-align: top; padding: 0px 1px 0px 0px;\" valign=\"top\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse: collapse; margin: 0px;\">\n<tbody>\n<tr>\n<td style=\"vertical-align: middle; padding: 1px 5px 1px 0px;\" valign=\"middle\">\n<div style=\"margin: 1px;\"><img src=\"https://signaturehound.com/api/v1/png/email/letter-square/000000.png\" alt=\"\" width=\"15\" height=\"15\" style=\"display: block; width: 15px; height: 15px; border-width: 0px;\"></div>\n</td>\n<td style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0,0,1) !important; vertical-align: middle; padding: 1px 0px;\" valign=\"middle\">\n<div style=\"margin: 1px;\"><a href=\"mailto:baro@thekriptstore.com\" style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;\" rel=\"noreferrer\"><span style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;\">baro@thekriptstore.com</span></a></div>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: middle; padding: 1px 5px 1px 0px;\" valign=\"middle\">\n<div style=\"margin: 1px;\"><img src=\"https://signaturehound.com/api/v1/png/mobile/letter-square/000000.png\" alt=\"\" width=\"15\" height=\"15\" style=\"display: block; width: 15px; height: 15px; border-width: 0px;\"></div>\n</td>\n<td style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0,0,1) !important; vertical-align: middle; padding: 1px 0px;\" valign=\"middle\">\n<div style=\"margin: 1px;\"><a href=\"tel:+12133325271\" style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;\" rel=\"noreferrer\"><span style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0, 0, 0); text-decoration: none !important;\">+1 (213) 332-5271</span></a></div>\n</td>\n</tr>\n\n<tr>\n<td valign=\"middle\" style=\"vertical-align: middle; padding: 1px 5px 1px 0px;\">\n<div style=\"margin: 1px;\"><img src=\"https://signaturehound.com/api/v1/png/website/letter-square/000000.png\" alt=\"\" width=\"15\" height=\"15\" style=\"display: block; width: 15px; height: 15px; border-width: 0px;\"></div>\n</td>\n<td style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0,0,1) !important; font-weight: 700; vertical-align: middle; padding: 1px 0px;\" valign=\"middle\">\n<div style=\"margin: 1px;\"><a href=\"https://www.thekriptstore.com/\" style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0, 0, 0); font-weight: 700; text-decoration: none !important;\" rel=\"noreferrer\"><span style=\" font-size: 11px; line-height: 14px; white-space: nowrap; color: rgb(0, 0, 0); font-weight: 700; text-decoration: none !important;\">thekriptstore.com</span></a></div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td width=\"15\" style=\"padding: 0px 1px 0px 0px;\"></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n\n<tr>\n<td style=\"padding: 0px 1px 0px 0px;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-collapse: collapse; margin: 0px;\">\n<tbody>\n<tr>\n<td width=\"22\" style=\"font-size: 0px; line-height: 0px; padding: 19px 1px 0px 0px;\">\n<div style=\"margin: 1px;\"><a href=\"https://www.facebook.com/thekript\" rel=\"noreferrer\"><img src=\"https://signaturehound.com/api/v1/png/facebook/square/000000.png\" alt=\"\" width=\"22\" height=\"22\" style=\"display: block; width: 22px; height: 22px; border-width: 0px;\"></a></div>\n</td>\n<td width=\"2\" style=\"padding: 0px 0px 1px;\"></td>\n<td width=\"22\" style=\"font-size: 0px; line-height: 0px; padding: 19px 1px 0px 0px;\">\n<div style=\"margin: 1px;\"><a href=\"https://www.instagram.com/thekript\" rel=\"noreferrer\"><img src=\"https://signaturehound.com/api/v1/png/instagram/square/000000.png\" alt=\"\" width=\"22\" height=\"22\" style=\"display: block; width: 22px; height: 22px; border-width: 0px;\"></a></div>\n</td>\n<td width=\"2\" style=\"padding: 0px 0px 1px;\"></td>\n<td width=\"22\" style=\"font-size: 0px; line-height: 0px; padding: 19px 1px 0px 0px;\">\n<div style=\"margin: 1px;\"><a href=\"https://www.tiktok.com/@thekript\" rel=\"noreferrer\"><img src=\"https://signaturehound.com/api/v1/png/tiktok/square/000000.png\" alt=\"\" width=\"22\" height=\"22\" style=\"display: block; width: 22px; height: 22px; border-width: 0px;\"></a></div>\n</td>\n<td width=\"2\" style=\"padding: 0px 0px 1px;\"></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div></div>",
+      "plain_body": "Yes they can wait \n \n \n\n \n \n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n IBRAHIM HATOUM \n DIRECTOR OF OPERATIONS \n Montreal, QC \n\n\n\n\n\n\n\n  \n\n\n baro@thekriptstore.com \n\n\n\n\n  \n\n\n +1 (213) 332-5271 \n\n\n\n\n\n  \n\n\n thekriptstore.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59025372698777,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "baro@thekriptstore.com",
+            "name": "Ibrahim Hatoum",
+            "original_recipients": [
+              "baro@thekriptstore.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T14:19:26Z",
+      "metadata": {
+        "system": {
+          "message_id": "<25147ea6-2f59-4b04-b35a-cf3445a1d9d5@Spark>",
+          "email_id": "01KV5TDFZE9GA5H2J40HVN9T6K",
+          "ip_address": "026.06.15.07",
+          "raw_email_identifier": "2369120/a8cc3ee2-622d-46ea-ae18-26987180b7ac.eml",
+          "json_email_identifier": "2369120/a8cc3ee2-622d-46ea-ae18-26987180b7ac.json",
+          "eml_redacted": false,
+          "location": "United States",
+          "latitude": 37.751,
+          "longitude": -97.822
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59025388244761,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 6 message(s)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Ibrahim,\n\nThank you for confirming \u2014 we appreciate your patience.\n\nOur senior team is now actively investigating the unit of measurement configuration for orders 68951 and 68952 and will update you within 24 hours with a resolution or a status update.\n\nIn the meantime, if either order becomes time-sensitive before we resolve this, you can process the shipment outside the app and leave the order unfulfilled in Shopify so it does not affect your records.\n\nWe will be in touch shortly.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)<br>\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 6 message(s)<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Ibrahim,</p>\n<p dir=\"auto\">Thank you for confirming \u2014 we appreciate your patience.</p>\n<p dir=\"auto\">Our senior team is now actively investigating the unit of measurement configuration for orders 68951 and 68952 and will update you within 24 hours with a resolution or a status update.</p>\n<p dir=\"auto\">In the meantime, if either order becomes time-sensitive before we resolve this, you can process the shipment outside the app and leave the order unfulfilled in Shopify so it does not affect your records.</p>\n<p dir=\"auto\">We will be in touch shortly.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+      "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\n\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 6 message(s)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Ibrahim, \n Thank you for confirming \u2014 we appreciate your patience. \n Our senior team is now actively investigating the unit of measurement configuration for orders 68951 and 68952 and will update you within 24 hours with a resolution or a status update. \n In the meantime, if either order becomes time-sensitive before we resolve this, you can process the shipment outside the app and leave the order unfulfilled in Shopify so it does not affect your records. \n We will be in touch shortly. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59025413599641,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T14:20:16Z",
+      "metadata": {
+        "system": {
+          "client": "node",
+          "ip_address": "206.189.72.35",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59025619194649,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Ibrahim Hatoum,\n\nThank you for your response.\n\nPlease allow us some time to check your cases further.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ibrahim Hatoum,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Please allow us some time to check your cases further.<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Ibrahim Hatoum,\n&nbsp;\nThank you for your response.\n&nbsp;\nPlease allow us some time to check your cases further.\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59025619194521,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T14:30:20Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59026722817433,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781537819928199\n\nUS Customer using MCSL-S with UPS for labels.\nCustomer shared Orders 68951 and 68952 which are in Initial Status in the app.\nUpon checking, we observed that the UPS rates are failing with error \"**Invalid Unit of Measurement for the given country**\"\nThe unit of measurement being passed in the request is LBS. All the Order details available in the app are in Kg and cms.\nI have tried reprocessing the orders in the app and verified that the store Units are set to Kilogram and the packaging is also set as Kilograms, but the rates are still failing with the same error.\nOrders before these and after these are processing without any issues.\nCould you please check and let us know how this can be resolved in the app?\n\nURL - localeuropean.myshopify.com\nAccount ID - bfbbb21c-18eb-45b4-aa28-1f0e32430b71",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1781537819928199\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1781537819928199</a><br>&nbsp;<br>US Customer using MCSL-S with UPS for labels.<br>Customer shared Orders 68951 and 68952 which are in Initial Status in the app.<br>Upon checking, we observed that the UPS rates are failing with error \"<strong>Invalid Unit of Measurement for the given country</strong>\"<br>The unit of measurement being passed in the request is LBS. All the Order details available in the app are in Kg and cms.<br>I have tried reprocessing the orders in the app and verified that the store Units are set to Kilogram and the packaging is also set as Kilograms, but the rates are still failing with the same error.<br>Orders before these and after these are processing without any issues.<br>Could you please check and let us know how this can be resolved in the app?<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://localeuropean.myshopify.com\">localeuropean.myshopify.com</a><br>Account ID - bfbbb21c-18eb-45b4-aa28-1f0e32430b71<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781537819928199\n&nbsp;\nUS Customer using MCSL-S with UPS for labels.\nCustomer shared Orders 68951 and 68952 which are in Initial Status in the app.\nUpon checking, we observed that the UPS rates are failing with error \"Invalid Unit of Measurement for the given country\"\nThe unit of measurement being passed in the request is LBS. All the Order details available in the app are in Kg and cms.\nI have tried reprocessing the orders in the app and verified that the store Units are set to Kilogram and the packaging is also set as Kilograms, but the rates are still failing with the same error.\nOrders before these and after these are processing without any issues.\nCould you please check and let us know how this can be resolved in the app?\n&nbsp;\nURL - localeuropean.myshopify.com\nAccount ID - bfbbb21c-18eb-45b4-aa28-1f0e32430b71",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/59026698250265.json",
+          "id": 59026698250265,
+          "file_name": "RequestResponse - 2026-06-15T210448.804.zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/PySIBKefhLhGRYmJc8cNvapGn/?name=RequestResponse+-+2026-06-15T210448.804.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/PySIBKefhLhGRYmJc8cNvapGn/?name=RequestResponse+-+2026-06-15T210448.804.zip",
+          "content_type": "application/zip",
+          "size": 4361,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 59026722817305,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T15:37:26Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59058474394521,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We have identified the issue, this will be fixed in upcoming release, kindly inform the merchant and move the ticket to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have identified the issue, this will be fixed in upcoming release, kindly inform the merchant and move the ticket to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "We have identified the issue, this will be fixed in upcoming release, kindly inform the merchant and move the ticket to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59058474394393,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T12:03:56Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59058703673625,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "ETA to be shared by Veena.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA to be shared by Veena.<br></div>",
+      "plain_body": "ETA to be shared by Veena.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59058703673113,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T12:11:33Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59058780606489,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Ibrahim Hatoum,\n\nThank you for your patience.\n\nWe have checked your case related to Orders 68951 and 68952 and the problem has been identified. However, to resolve this case, some enhancement will be needed in the app from our end.\n\nWe will be enhancing the app and updating you soon.\n\nRegarding the orders, if they are to be shipped soon, I request you to generate the labels for them outside the app on ups.com\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Ibrahim Hatoum,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We have checked your case related to Orders 68951 and 68952 and the problem has been identified. However, to resolve this case, some enhancement will be needed in the app from our end.<br>&nbsp;<br>We will be enhancing the app and updating you soon.<br>&nbsp;<br>Regarding the orders, if they are to be shipped soon, I request you to generate the labels for them outside the app on <a rel=\"noopener noreferrer\" href=\"http://ups.com\">ups.com</a><br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Ibrahim Hatoum,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe have checked your case related to Orders 68951 and 68952 and the problem has been identified. However, to resolve this case, some enhancement will be needed in the app from our end.\n&nbsp;\nWe will be enhancing the app and updating you soon.\n&nbsp;\nRegarding the orders, if they are to be shipped soon, I request you to generate the labels for them outside the app on ups.com\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59058780606361,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T12:14:13Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59131149445017,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "ETA: on or before 7th July.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA: on or before 7th July.<br>[Veena]<br></div>",
+      "plain_body": "ETA: on or before 7th July.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59131182495513,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T12:20:50Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,920 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/395207.json",
+    "id": 395207,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "a.jo@satisfyrunning.com",
+          "name": "Anna Jo"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-06-15T10:10:29Z",
+    "updated_at": "2026-06-18T12:20:08Z",
+    "generated_timestamp": 1781785209,
+    "type": null,
+    "subject": "Order #136281",
+    "raw_subject": "Order #136281",
+    "description": "Hello,\n\nI hope you are doing well.\n\nI'm reaching out to ask for your assistance regarding Order #136281.\n\nUnfortunately, I have encountered the same issue as before: \"The tax ID number and/or CNPJ/CPF is invalid.\"\n\nLast time, I verified that the CPF/CNPJ number was correct, but I was still unable to generate the shipping label through the MultiCarrier app. Therefore, I created the label manually on the FedEx website, and it worked successfully.\n\nThis order contains multiple items, and I need to include detailed information about the package contents for shipping purposes. So I would appreciate it if you could investigate and resolve this issue on your end.\n\nThe correct CPF/CNPJ for this order is:\n\n025.474.405-20\n\nThank you very much for your help. I look forward to hearing from you.\n\n\nBest regards,\n\nAnna",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 52754918378649,
+    "submitter_id": 52754918378649,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      27444497009305,
+      21012540710425,
+      56965528320793
+    ],
+    "follower_ids": [
+      27444497009305,
+      21012540710425,
+      56965528320793
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "aibot_auto_reply",
+      "dev_needed",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "satisfyrunning.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "L4D79X-0111W",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "satisfyrunning.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 59019371811993,
+      "type": "Comment",
+      "author_id": 52754918378649,
+      "body": "Hello,\n\nI hope you are doing well.\n\nI'm reaching out to ask for your assistance regarding Order #136281.\n\nUnfortunately, I have encountered the same issue as before: \"The tax ID number and/or CNPJ/CPF is invalid.\"\n\nLast time, I verified that the CPF/CNPJ number was correct, but I was still unable to generate the shipping label through the MultiCarrier app. Therefore, I created the label manually on the FedEx website, and it worked successfully.\n\nThis order contains multiple items, and I need to include detailed information about the package contents for shipping purposes. So I would appreciate it if you could investigate and resolve this issue on your end.\n\nThe correct CPF/CNPJ for this order is:\n\n025.474.405-20\n\nThank you very much for your help. I look forward to hearing from you.\n\n ![Capture d\u2019e\u0301cran 2026-06-15 a\u0300 12.08.17.png](https://support.pluginhive.com/attachments/token/lWyTQYlzyNJ6n2yLmwZVoshwr/?name=Capture+d%E2%80%99e%CC%81cran+2026-06-15+a%CC%80+12.08.17.png)\n\nBest regards,\n\nAnna",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><p dir=\"auto\">Hello,</p><p dir=\"auto\">I hope you are doing well.</p><p dir=\"auto\">I'm reaching out to ask for your assistance regarding Order <a href=\"/agent/tickets/136281\" target=\"_blank\" rel=\"ticket\">#136281</a>.</p><p dir=\"auto\">Unfortunately, I have encountered the same issue as before: \"The tax ID number and/or CNPJ/CPF is invalid.\"</p><p dir=\"auto\">Last time, I verified that the CPF/CNPJ number was correct, but I was still unable to generate the shipping label through the MultiCarrier app. Therefore, I created the label manually on the FedEx website, and it worked successfully.</p><p dir=\"auto\">This order contains multiple items, and I need to include detailed information about the package contents for shipping purposes. So I would appreciate it if you could investigate and resolve this issue on your end.</p><p dir=\"auto\">The correct CPF/CNPJ for this order is:</p><p dir=\"auto\">025.474.405-20</p><p dir=\"auto\">Thank you very much for your help. I look forward to hearing from you.<br></p><img src=\"https://support.pluginhive.com/attachments/token/lWyTQYlzyNJ6n2yLmwZVoshwr/?name=Capture+d%E2%80%99e%CC%81cran+2026-06-15+a%CC%80+12.08.17.png\" alt=\"Capture d\u2019e\u0301cran 2026-06-15 a\u0300 12.08.17.png\" width=\"314\" height=\"188\" style=\"margin-right: 0px;\"><p dir=\"auto\"><br></p><p dir=\"auto\">Best regards,</p><p dir=\"auto\">Anna</p><br><br></div></div>",
+      "plain_body": "Hello,  I hope you are doing well.  I'm reaching out to ask for your assistance regarding Order #136281.  Unfortunately, I have encountered the same issue as before: \"The tax ID number and/or CNPJ/CPF is invalid.\"  Last time, I verified that the CPF/CNPJ number was correct, but I was still unable to generate the shipping label through the MultiCarrier app. Therefore, I created the label manually on the FedEx website, and it worked successfully.  This order contains multiple items, and I need to include detailed information about the package contents for shipping purposes. So I would appreciate it if you could investigate and resolve this issue on your end.  The correct CPF/CNPJ for this order is:  025.474.405-20  Thank you very much for your help. I look forward to hearing from you.\n  \n  Best regards,  Anna",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59019371811865,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "a.jo@satisfyrunning.com",
+            "name": "Anna Jo",
+            "original_recipients": [
+              "a.jo@satisfyrunning.com",
+              "support@pluginhive.com",
+              "ella@satisfyrunning.com",
+              "sanjay@satisfyrunning.com",
+              "l.dalloni@satisfyrunning.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T10:10:29Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CA+u29Vzba67XFCho0X4XuQTaK8zQ7zLNrJFV5Z+Khuqv+94aWA@mail.gmail.com>",
+          "email_id": "01KV5C5KHGPKH1ZZKM9WB94PDQ",
+          "raw_email_identifier": "2369120/cf1fcf46-7b5f-4c22-b086-5b0f53f15661.eml",
+          "json_email_identifier": "2369120/cf1fcf46-7b5f-4c22-b086-5b0f53f15661.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59020245855001,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "France store\n3055 orders\nActive from Jan 2024 for labels\n$200 Custom plan selected",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">France store<br>3055 orders<br>Active from Jan 2024 for labels<br>$200 Custom plan selected<br></div>",
+      "plain_body": "France store\n3055 orders\nActive from Jan 2024 for labels\n$200 Custom plan selected",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59020245854105,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T10:40:48Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59020262422937,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Anna Jo,\n\nThank you for reaching out with your query.\n\nPlease allow us some time and we will check this case further and get back to you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Anna Jo,<br>&nbsp;<br>Thank you for reaching out with your query.<br>&nbsp;<br>Please allow us some time and we will check this case further and get back to you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Anna Jo,\n&nbsp;\nThank you for reaching out with your query.\n&nbsp;\nPlease allow us some time and we will check this case further and get back to you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59020262422809,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T10:41:34Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59023705811993,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Anna Jo,\n\nWe are forwarding your case to our technical team for further review.\n\nWe will update you once we hear back from them.\n\nI request you to not fulfill the order in Shopify in the meantime.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Anna Jo,<br>&nbsp;<br>We are forwarding your case to our technical team for further review.<br>&nbsp;<br>We will update you once we hear back from them.<br>&nbsp;<br>I request you to not fulfill the order in Shopify in the meantime.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Anna Jo,\n&nbsp;\nWe are forwarding your case to our technical team for further review.\n&nbsp;\nWe will update you once we hear back from them.\n&nbsp;\nI request you to not fulfill the order in Shopify in the meantime.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59023705811481,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T12:59:18Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59023856949273,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781528675343239\n\nSATISFY RUNNING has shared a label failure case for Order 136281.\nThe Recipient is from Brazil. The label is failing with the error \"**The tax ID number and/or CNPJ/CPF is invalid.**\"\nCustomer has confirmed and shared the correct CNPJ/CPF number as 025.474.405-20\nEven after adding this number in the order recipient Tax ID manually, the label is failing with the same error.\nPlease review and let us know what needs to be done to generate the label successfully.\n\nURL - satisfyrunning.myshopify.com\nAccount ID - 89ead910-f848-44ee-bf08-93127130de9b",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1781528675343239\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1781528675343239</a><br>&nbsp;<br>SATISFY RUNNING has shared a label failure case for Order 136281.<br>The Recipient is from Brazil. The label is failing with the error \"<strong>The tax ID number and/or CNPJ/CPF is invalid.</strong>\"<br>Customer has confirmed and shared the correct CNPJ/CPF number as 025.474.405-20<br>Even after adding this number in the order recipient Tax ID manually, the label is failing with the same error.<br>Please review and let us know what needs to be done to generate the label successfully.<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://satisfyrunning.myshopify.com/\">satisfyrunning.myshopify.com</a><br>Account ID - 89ead910-f848-44ee-bf08-93127130de9b<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781528675343239\n&nbsp;\nSATISFY RUNNING has shared a label failure case for Order 136281.\nThe Recipient is from Brazil. The label is failing with the error \"The tax ID number and/or CNPJ/CPF is invalid.\"\nCustomer has confirmed and shared the correct CNPJ/CPF number as 025.474.405-20\nEven after adding this number in the order recipient Tax ID manually, the label is failing with the same error.\nPlease review and let us know what needs to be done to generate the label successfully.\n&nbsp;\nURL - satisfyrunning.myshopify.com\nAccount ID - 89ead910-f848-44ee-bf08-93127130de9b",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/59023805256985.json",
+          "id": 59023805256985,
+          "file_name": "RequestResponse - 2026-06-15T183343.795.zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/ByXEs1JRauRzYiopXi6HBHTXS/?name=RequestResponse+-+2026-06-15T183343.795.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/ByXEs1JRauRzYiopXi6HBHTXS/?name=RequestResponse+-+2026-06-15T183343.795.zip",
+          "content_type": "application/zip",
+          "size": 18296,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 59023856949145,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T13:04:46Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59025514799513,
+      "type": "Comment",
+      "author_id": 52754918378649,
+      "body": "Hello,\n\nThank you for your email.\nI look forward to hearing from you soon:)\n\nHave a lovely day,\n\nBest,\nAnna",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello,<br><br>Thank you for your&nbsp;email.<div>I look forward to hearing from you&nbsp;soon:)<br><br>Have a lovely day,<br><br>Best,<br>Anna</div></div><br><div></div></div>",
+      "plain_body": "Hello,\n\nThank you for your&nbsp;email. I look forward to hearing from you&nbsp;soon:)\n\nHave a lovely day,\n\nBest,\nAnna",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59025514799385,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "a.jo@satisfyrunning.com",
+            "name": "Anna Jo",
+            "original_recipients": [
+              "a.jo@satisfyrunning.com",
+              "support@pluginhive.com",
+              "ella@satisfyrunning.com",
+              "sanjay@satisfyrunning.com",
+              "l.dalloni@satisfyrunning.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T14:26:05Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CA+u29VyWNYRD+GE_VAYfchi=CWOmKPDAXa14JL_D0BTh0YwcQQ@mail.gmail.com>",
+          "email_id": "01KV5TSNWRCK3FCAYA5Z7TT1X1",
+          "raw_email_identifier": "2369120/f9089889-619f-4959-b855-20cd1c775155.eml",
+          "json_email_identifier": "2369120/f9089889-619f-4959-b855-20cd1c775155.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59025534147097,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 6 message(s)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Anna,\n\nThank you for your patience \u2014 we appreciate it.\n\nOur technical team has reviewed the label request details for Order #136281 and has identified the specific issue causing the error. We are currently working on a resolution and will follow up with you as soon as we have an update.\n\nIn the meantime, as you already know, generating the label directly through the FedEx website remains a reliable workaround for this order. Please continue to hold off on fulfilling the order in Shopify until we confirm the fix is in place.\n\nWe will be back in touch shortly.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)<br>\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 6 message(s)<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Anna,</p>\n<p dir=\"auto\">Thank you for your patience \u2014 we appreciate it.</p>\n<p dir=\"auto\">Our technical team has reviewed the label request details for Order <a href=\"/agent/tickets/136281\" target=\"_blank\" rel=\"ticket\">#136281</a> and has identified the specific issue causing the error. We are currently working on a resolution and will follow up with you as soon as we have an update.</p>\n<p dir=\"auto\">In the meantime, as you already know, generating the label directly through the FedEx website remains a reliable workaround for this order. Please continue to hold off on fulfilling the order in Shopify until we confirm the fix is in place.</p>\n<p dir=\"auto\">We will be back in touch shortly.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+      "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\n\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 6 message(s)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Anna, \n Thank you for your patience \u2014 we appreciate it. \n Our technical team has reviewed the label request details for Order #136281 and has identified the specific issue causing the error. We are currently working on a resolution and will follow up with you as soon as we have an update. \n In the meantime, as you already know, generating the label directly through the FedEx website remains a reliable workaround for this order. Please continue to hold off on fulfilling the order in Shopify until we confirm the fix is in place. \n We will be back in touch shortly. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59025534146329,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T14:27:39Z",
+      "metadata": {
+        "system": {
+          "client": "node",
+          "ip_address": "206.189.72.35",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59047263058457,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We need to reach out to FedEx helpdesk for this case.  As per request, all the data is being passed correctly.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We need to reach out to FedEx helpdesk for this case. &nbsp;As per request, all the data is being passed correctly.<br>[Veena]<br></div>",
+      "plain_body": "We need to reach out to FedEx helpdesk for this case. &nbsp;As per request, all the data is being passed correctly.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59047263058329,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T06:34:27Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59049485205017,
+      "type": "Comment",
+      "author_id": 52754918378649,
+      "body": "Hello,\n\nI hope you are doing well.\n\nCan I get any update regarding this order?\n\nThank you so much and I'm looking forward to your reply:)\n\nBest,\nAnna",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello,<br><br>I hope you are doing well.<br><br>Can I get any update regarding this order?<br><br>Thank you so much and I'm looking forward to your reply:)<br><br>Best,<br>Anna</div><br><div></div></div>",
+      "plain_body": "Hello,\n\nI hope you are doing well.\n\nCan I get any update regarding this order?\n\nThank you so much and I'm looking forward to your reply:)\n\nBest,\nAnna",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59049493127577,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "a.jo@satisfyrunning.com",
+            "name": "Anna Jo",
+            "original_recipients": [
+              "a.jo@satisfyrunning.com",
+              "support@pluginhive.com",
+              "ella@satisfyrunning.com",
+              "sanjay@satisfyrunning.com",
+              "l.dalloni@satisfyrunning.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T07:31:04Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CA+u29VyM5uz=FG5kV3y22x443o-u_G3kpb37NkZHUjD19tSbPQ@mail.gmail.com>",
+          "email_id": "01KV7NEFGFB6DAFEQKQZEPZW4S",
+          "raw_email_identifier": "2369120/8edf9e4a-3f85-4ee5-8c44-7b231feb393d.eml",
+          "json_email_identifier": "2369120/8edf9e4a-3f85-4ee5-8c44-7b231feb393d.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59049535181977,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 8 message(s)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Anna,\n\nThank you for your patience while we investigated this.\n\nOur technical team has completed their review of Order #136281 and confirmed that all the required information, including the CPF number 025.474.405-20, is being sent to FedEx correctly from the app. Since the data on our end is accurate, the rejection is originating from FedEx's side, and we are now reaching out to FedEx support directly to resolve this.\n\nIn the meantime, if you need to ship this order urgently, creating the label manually on the FedEx website \u2014 as you did successfully the last time \u2014 remains a valid workaround.\n\nWe will update you as soon as we have a response from FedEx.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)<br>\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 8 message(s)<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Anna,</p>\n<p dir=\"auto\">Thank you for your patience while we investigated this.</p>\n<p dir=\"auto\">Our technical team has completed their review of Order <a href=\"/agent/tickets/136281\" target=\"_blank\" rel=\"ticket\">#136281</a> and confirmed that all the required information, including the CPF number 025.474.405-20, is being sent to FedEx correctly from the app. Since the data on our end is accurate, the rejection is originating from FedEx's side, and we are now reaching out to FedEx support directly to resolve this.</p>\n<p dir=\"auto\">In the meantime, if you need to ship this order urgently, creating the label manually on the FedEx website \u2014 as you did successfully the last time \u2014 remains a valid workaround.</p>\n<p dir=\"auto\">We will update you as soon as we have a response from FedEx.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+      "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\n\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 8 message(s)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Anna, \n Thank you for your patience while we investigated this. \n Our technical team has completed their review of Order #136281 and confirmed that all the required information, including the CPF number 025.474.405-20, is being sent to FedEx correctly from the app. Since the data on our end is accurate, the rejection is originating from FedEx's side, and we are now reaching out to FedEx support directly to resolve this. \n In the meantime, if you need to ship this order urgently, creating the label manually on the FedEx website \u2014 as you did successfully the last time \u2014 remains a valid workaround. \n We will update you as soon as we have a response from FedEx. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59049535181465,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T07:32:22Z",
+      "metadata": {
+        "system": {
+          "client": "node",
+          "ip_address": "206.189.72.35",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59049849651737,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Anna,\n\nGood day!\n\nOur technical team has completed their review of Order #136281 and confirmed that all the required information, including the CPF number 025.474.405-20, is being sent to FedEx correctly from the app. Since the data on our end is accurate, the rejection is originating from FedEx's side, and we are now reaching out to FedEx support directly to resolve this.\n\nIn the meantime, if you need to ship this order urgently, creating the label manually on the FedEx website, as you did successfully the last time, remains a valid workaround.\n\nWe will update you as soon as we have a response from FedEx.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Anna,<br>&nbsp;<br>Good day!<br><br>Our technical team has completed their review of Order <a rel=\"noopener noreferrer\" href=\"https://pluginhive.zendesk.com/agent/tickets/136281\">#136281</a> and confirmed that all the required information, including the CPF number 025.474.405-20, is being sent to FedEx correctly from the app. Since the data on our end is accurate, the rejection is originating from FedEx's side, and we are now reaching out to FedEx support directly to resolve this.<br>&nbsp;<br>In the meantime, if you need to ship this order urgently, creating the label manually on the FedEx website, as you did successfully the last time, remains a valid workaround.<br>&nbsp;<br>We will update you as soon as we have a response from FedEx.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Anna,\n&nbsp;\nGood day!\n\nOur technical team has completed their review of Order #136281 and confirmed that all the required information, including the CPF number 025.474.405-20, is being sent to FedEx correctly from the app. Since the data on our end is accurate, the rejection is originating from FedEx's side, and we are now reaching out to FedEx support directly to resolve this.\n&nbsp;\nIn the meantime, if you need to ship this order urgently, creating the label manually on the FedEx website, as you did successfully the last time, remains a valid workaround.\n&nbsp;\nWe will update you as soon as we have a response from FedEx.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59049849651609,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T07:40:20Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59061792825625,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+18312676349",
+        "to": "+18773392774",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAc61a69a53dc251f88f4b2bce8a751e2e/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 59061525347865,
+        "call_duration": 949,
+        "answered_by_id": 18854260804761,
+        "started_at": "2026-06-16T14:27:47Z",
+        "location": "",
+        "author_id": 18854260804761,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Touseef",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+1 (831) 267-6349",
+      "formatted_to": "+1 (877) 339-2774",
+      "transcription_visible": false,
+      "author_id": 18854260804761,
+      "body": "Outbound call to +1 (877) 339-2774\nCall Details:\n\nCall from: +1 (831) 267-6349\nCall to: +1 (877) 339-2774\nTime of call: 2026-06-16 14:27:47 UTC\nCalled by: Touseef\nLength of phone call: 15 minutes, 49 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAc61a69a53dc251f88f4b2bce8a751e2e/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +1 (877) 339-2774<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +1 (831) 267-6349<br>\nCall to: +1 (877) 339-2774<br>\nTime of call: 2026-06-16 14:27:47 UTC<br>\nCalled by: Touseef<br>\nLength of phone call: 15 minutes, 49 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAc61a69a53dc251f88f4b2bce8a751e2e/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAc61a69a53dc251f88f4b2bce8a751e2e/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-06-16T14:43:38Z",
+      "audit_id": 59061803835033,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+1 (831) 267-6349",
+            "phone": "+18312676349",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+1 (877) 339-2774",
+            "phone": "+18773392774",
+            "name": "+1 (877) 339-2774"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59061926984345,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781621462021549?thread_ts=1781528675.343239&cid=C02E15X8X0C\n\nCase ID - TR4188034\n\nInput from FedEx support on this case is as follows -\n- Request is correctly framed and the error in Response is correct as well.\n- Error is likely due to **tinType** being passed for recipient. Currently, for recipient, we are passing the **tinType** as **BUSINESS_NATIONAL**. We should check the case by changing it to one of the other values - \"PERSONAL_NATIONAL\", \"PERSONAL_STATE\", \"FEDERAL\", \"BUSINESS_NATIONAL\", \"BUSINESS_STATE\", \"BUSINESS_UNION\".\n\n\nNeed assistance from team in checking the case further based on this input as we are not able to change the same for recipient in the label request.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Back to L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1781621462021549?thread_ts=1781528675.343239&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1781621462021549?thread_ts=1781528675.343239&amp;cid=C02E15X8X0C</a><br>&nbsp;<br>Case ID - TR4188034<br>&nbsp;<br>Input from FedEx support on this case is as follows -<br><ul dir=\"auto\"><li>Request is correctly framed and the error in Response is correct as well.</li><li>Error is likely due to <strong>tinType</strong> being passed for recipient. Currently, for recipient, we are passing the <strong>tinType</strong> as <strong>BUSINESS_NATIONAL</strong>. We should check the case by changing it to one of the other values - \"PERSONAL_NATIONAL\", \"PERSONAL_STATE\", \"FEDERAL\", \"BUSINESS_NATIONAL\", \"BUSINESS_STATE\", \"BUSINESS_UNION\".</li></ul>&nbsp;<br>Need assistance from team in checking the case further based on this input as we are not able to change the same for recipient in the label request.<br></div>",
+      "plain_body": "Back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781621462021549?thread_ts=1781528675.343239&amp;cid=C02E15X8X0C\n&nbsp;\nCase ID - TR4188034\n&nbsp;\nInput from FedEx support on this case is as follows -\n  Request is correctly framed and the error in Response is correct as well.  Error is likely due to tinType being passed for recipient. Currently, for recipient, we are passing the tinType as BUSINESS_NATIONAL. We should check the case by changing it to one of the other values - \"PERSONAL_NATIONAL\", \"PERSONAL_STATE\", \"FEDERAL\", \"BUSINESS_NATIONAL\", \"BUSINESS_STATE\", \"BUSINESS_UNION\".  &nbsp;\nNeed assistance from team in checking the case further based on this input as we are not able to change the same for recipient in the label request.",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/59061909317145.json",
+          "id": 59061909317145,
+          "file_name": "Screenshot at Jun 16 20-14-22.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/kuqp7CkKmnrnooavSdZehHTuy/?name=Screenshot+at+Jun+16+20-14-22.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/kuqp7CkKmnrnooavSdZehHTuy/?name=Screenshot+at+Jun+16+20-14-22.png",
+          "content_type": "image/png",
+          "size": 748618,
+          "width": 2878,
+          "height": 1798,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/59061909325849.json",
+              "id": 59061909325849,
+              "file_name": "Screenshot_at_Jun_16_20-14-22_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/9STbXoqmopwvSIK4bYzk4FPtl/?name=Screenshot_at_Jun_16_20-14-22_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/9STbXoqmopwvSIK4bYzk4FPtl/?name=Screenshot_at_Jun_16_20-14-22_thumb.png",
+              "content_type": "image/png",
+              "size": 10798,
+              "width": 80,
+              "height": 50,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/59061935849241.json",
+          "id": 59061935849241,
+          "file_name": "Screenshot at Jun 16 20-14-46.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/sDrvnKfX8zBGaf9gQ4fNb3bqt/?name=Screenshot+at+Jun+16+20-14-46.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/sDrvnKfX8zBGaf9gQ4fNb3bqt/?name=Screenshot+at+Jun+16+20-14-46.png",
+          "content_type": "image/png",
+          "size": 841296,
+          "width": 2878,
+          "height": 1798,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/59061935863321.json",
+              "id": 59061935863321,
+              "file_name": "Screenshot_at_Jun_16_20-14-46_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/JIab1LjizHKE8ZeP5028A8DyF/?name=Screenshot_at_Jun_16_20-14-46_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/JIab1LjizHKE8ZeP5028A8DyF/?name=Screenshot_at_Jun_16_20-14-46_thumb.png",
+              "content_type": "image/png",
+              "size": 13184,
+              "width": 80,
+              "height": 50,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 59061926984217,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T14:52:18Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59093680071065,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We will enhance the app to pass the appropriate tinType for recipient taxid. will update on ETA. Kindly inform the merchant and move the ticket to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will enhance the app to pass the appropriate tinType for recipient taxid. will update on ETA. Kindly inform the merchant and move the ticket to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "We will enhance the app to pass the appropriate tinType for recipient taxid. will update on ETA. Kindly inform the merchant and move the ticket to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59093680070937,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T11:26:34Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59094696029849,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Anna Jo,\n\nThank you for your patience.\n\nWe have discussed your case with FedEx technical team and they have suggested some changes to handle this type of case by providing applicable tinType for the CNPJ/CPF provided for recipient.\n\nWe will be enhancing the app to provide additional options as suggested and will update you once the enhancement is made available.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Anna Jo,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We have discussed your case with FedEx technical team and they have suggested some changes to handle this type of case by providing applicable tinType for the CNPJ/CPF provided for recipient.<br>&nbsp;<br>We will be enhancing the app to provide additional options as suggested and will update you once the enhancement is made available.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Anna Jo,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe have discussed your case with FedEx technical team and they have suggested some changes to handle this type of case by providing applicable tinType for the CNPJ/CPF provided for recipient.\n&nbsp;\nWe will be enhancing the app to provide additional options as suggested and will update you once the enhancement is made available.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59094696029721,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T12:05:53Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59094697261337,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Veena to update ETA as soon as available.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Veena to update ETA as soon as available.<br></div>",
+      "plain_body": "Veena to update ETA as soon as available.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59094727260441,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T12:06:10Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59131113102617,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "ETA: on or before 7th July.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA: on or before 7th July.<br>[Veena]<br></div>",
+      "plain_body": "ETA: on or before 7th July.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59131113101849,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T12:20:08Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

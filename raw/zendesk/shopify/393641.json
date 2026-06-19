@@ -1,0 +1,816 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/393641.json",
+    "id": 393641,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "to": {},
+        "from": {
+          "ticket_id": 391963,
+          "subject": "Welcome to Shopify Partner PluginHive! We\u2019re here to help you save both time and money",
+          "channel": "api"
+        },
+        "rel": "follow_up"
+      }
+    },
+    "created_at": "2026-06-04T09:57:19Z",
+    "updated_at": "2026-06-18T13:21:24Z",
+    "generated_timestamp": 1781788884,
+    "type": "question",
+    "subject": "Re: Welcome to Shopify Partner PluginHive! We\u2019re here to help you save both time and money",
+    "raw_subject": "Re: Welcome to Shopify Partner PluginHive! We\u2019re here to help you save both time and money",
+    "description": "Hi Team,\n\nThe customer sells perfumes and would like to display the SKU code on the Amazon Shipping label instead of the full product name. Since the product name is currently visible on the label, delivery personnel can easily identify the contents of the package. The customer has reported that package thefts have already occurred and believes the visibility of the product name is contributing to the issue.\n\nTo help prevent further incidents, **they would like the label to display only the SKU and quantity instead of the Product name or description.**\n\nPlease provide this option ASAP.\n\n(Abhilash)",
+    "priority": "normal",
+    "status": "open",
+    "recipient": null,
+    "requester_id": 58233802762521,
+    "submitter_id": 8448825445657,
+    "assignee_id": 44512844768153,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      903409790923,
+      46102535176217
+    ],
+    "follower_ids": [
+      903409790923,
+      46102535176217
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "closed_by_merge",
+      "dev_needed",
+      "issues_with_setting_up_the_plugin",
+      "last_reply_agent",
+      "mcsl-installation",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "948165-59.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "4ZV0JM-XW23L",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "948165-59.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58629057768729,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Hi Team,\n\nThe customer sells perfumes and would like to display the SKU code on the Amazon Shipping label instead of the full product name. Since the product name is currently visible on the label, delivery personnel can easily identify the contents of the package. The customer has reported that package thefts have already occurred and believes the visibility of the product name is contributing to the issue.\n\nTo help prevent further incidents, **they would like the label to display only the SKU and quantity instead of the Product name or description.**\n\nPlease provide this option ASAP.\n\n(Abhilash)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br>The customer sells perfumes and would like to display the SKU code on the Amazon Shipping label instead of the full product name. Since the product name is currently visible on the label, delivery personnel can easily identify the contents of the package. The customer has reported that package thefts have already occurred and believes the visibility of the product name is contributing to the issue.&nbsp;<br>&nbsp;<br>To help prevent further incidents, <strong>they would like the label to display only the SKU and quantity instead of the Product name or description.</strong><br>&nbsp;<br>Please provide this option ASAP.&nbsp;<br>&nbsp;<br>(Abhilash)<br>&nbsp;<br></div>",
+      "plain_body": "Hi Team,\n&nbsp;\nThe customer sells perfumes and would like to display the SKU code on the Amazon Shipping label instead of the full product name. Since the product name is currently visible on the label, delivery personnel can easily identify the contents of the package. The customer has reported that package thefts have already occurred and believes the visibility of the product name is contributing to the issue.&nbsp;\n&nbsp;\nTo help prevent further incidents, they would like the label to display only the SKU and quantity instead of the Product name or description.\n&nbsp;\nPlease provide this option ASAP.&nbsp;\n&nbsp;\n(Abhilash)\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58629057768601,
+      "via": {
+        "channel": "web",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": 391963,
+            "subject": "Welcome to Shopify Partner PluginHive! We\u2019re here to help you save both time and money",
+            "channel": "api"
+          },
+          "rel": "follow_up"
+        }
+      },
+      "created_at": "2026-06-04T09:57:19Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/createTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58629257711385,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "L3 - Please enable the toggle feature to show the SKU and Quantity of the product on the Amazon Shipping labels for below mentioned store\n\nStore URL - 948165-59.myshopify.com\nAccount ID - 6bab6a3b-6770-4fbd-8d0f-35cb81352953",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3 - Please enable the toggle feature to show the SKU and Quantity of the product on the Amazon Shipping labels for below mentioned store<br>&nbsp;<br>Store URL - <a rel=\"noopener noreferrer\" href=\"http://948165-59.myshopify.com\">948165-59.myshopify.com</a>&nbsp;<br>Account ID - 6bab6a3b-6770-4fbd-8d0f-35cb81352953<br></div>",
+      "plain_body": "L3 - Please enable the toggle feature to show the SKU and Quantity of the product on the Amazon Shipping labels for below mentioned store\n&nbsp;\nStore URL - 948165-59.myshopify.com&nbsp;\nAccount ID - 6bab6a3b-6770-4fbd-8d0f-35cb81352953",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58629257711257,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-04T10:02:32Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58629516879513,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Enabled.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Enabled.<br>[Veena]<br></div>",
+      "plain_body": "Enabled.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58629516879385,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-04T10:09:38Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58629667476377,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Customer Requirement - To show SKU and Quantity instead of product name on the Amazon Shipping labels\n\nAbhilash will be check about this with Vimal sir",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer Requirement - To show SKU and Quantity instead of product name on the Amazon Shipping labels<br>&nbsp;<br>Abhilash will be check about this with Vimal sir<br></div>",
+      "plain_body": "Customer Requirement - To show SKU and Quantity instead of product name on the Amazon Shipping labels\n&nbsp;\nAbhilash will be check about this with Vimal sir",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58629653592857,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-04T10:13:53Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58630252968473,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Enabled.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Enabled.<br>[Veena]<br></div>",
+      "plain_body": "Enabled.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58630252967577,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-04T10:32:45Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58632441377305,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Abhilash has informed the customer from his end. Moving to Pending.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Abhilash has informed the customer from his end. Moving to Pending.<br></div>",
+      "plain_body": "Abhilash has informed the customer from his end. Moving to Pending.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58632441377177,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-04T11:47:27Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58655116159897,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Request #393749 \"Label updation\" was closed and merged into this request. Last comment in request #393749:\r\n\r\nDear Sir,\r\n\r\n\r\nSir sku and quantity is not showing on label\r\nPlease look into this asap and update this\r\n\r\n\r\nThis will now be difficult to pack orders\r\n\r\n\r\nPlease remember I only want Sku and quantity not full name or title.\r\n ![](https://support.pluginhive.com/attachments/token/nCQcHPbY7xNiKnEu1xRWqLGKF/?name=A84D7EB6-5B03-4246-B81C-20D3A0E5C396.jpeg)\r\n\r\n\r\n\r\nThanks and Regards\r\n\r\nLakshya Gandhi\r\n\r\nGandhi Sugandh Bhandar",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/393749\" target=\"_blank\" rel=\"ticket\">#393749</a> \"Label updation\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/393749\" target=\"_blank\" rel=\"ticket\">#393749</a>:</p>\n<p dir=\"auto\">Dear Sir,</p>\n<p dir=\"auto\">Sir sku and quantity is not showing on label<br>\nPlease look into this asap and update this</p>\n<p dir=\"auto\">This will now be difficult to pack orders</p>\n<p dir=\"auto\">Please remember I only want Sku and quantity not full name or title.<br>\n <img src=\"https://support.pluginhive.com/attachments/token/nCQcHPbY7xNiKnEu1xRWqLGKF/?name=A84D7EB6-5B03-4246-B81C-20D3A0E5C396.jpeg\" alt=\"\"></p>\n<p dir=\"auto\">Thanks and Regards</p>\n<p dir=\"auto\">Lakshya Gandhi</p>\n<p dir=\"auto\">Gandhi Sugandh Bhandar</p></div>",
+      "plain_body": "Request #393749 \"Label updation\" was closed and merged into this request. Last comment in request #393749: \n Dear Sir, \n Sir sku and quantity is not showing on label\n\nPlease look into this asap and update this \n This will now be difficult to pack orders \n Please remember I only want Sku and quantity not full name or title.\n\n  \n Thanks and Regards \n Lakshya Gandhi \n Gandhi Sugandh Bhandar",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58655161965337.json",
+          "id": 58655161965337,
+          "file_name": "A84D7EB6-5B03-4246-B81C-20D3A0E5C396.jpeg",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/mFrAJaO7mIdYIV5rhsgokxhR6/?name=A84D7EB6-5B03-4246-B81C-20D3A0E5C396.jpeg",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/mFrAJaO7mIdYIV5rhsgokxhR6/?name=A84D7EB6-5B03-4246-B81C-20D3A0E5C396.jpeg",
+          "content_type": "image/jpeg",
+          "size": 3529257,
+          "width": 3840,
+          "height": 2160,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58655116288281.json",
+              "id": 58655116288281,
+              "file_name": "A84D7EB6-5B03-4246-B81C-20D3A0E5C396_thumb.jpeg",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/SwrCnnVqCdrzlApee3vFQxeq0/?name=A84D7EB6-5B03-4246-B81C-20D3A0E5C396_thumb.jpeg",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/SwrCnnVqCdrzlApee3vFQxeq0/?name=A84D7EB6-5B03-4246-B81C-20D3A0E5C396_thumb.jpeg",
+              "content_type": "image/jpeg",
+              "size": 2219,
+              "width": 80,
+              "height": 45,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 58655116159641,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              393749
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-06-05T05:06:18Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58656491040921,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Lakshya,\n\nPlease allow me some time to check this with our technical team.\n\nIn the meantime, could you please share an order ID that we can use to generate a test label and verify the behavior on our end?\nIf you'd like, we can also cancel the label after the test is completed.\n\nOnce I hear back from our technical team, I will provide you with an update.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Lakshya,<br>&nbsp;<br>Please allow me some time to check this with our technical team.<br>&nbsp;<br>In the meantime, could you please share an order ID that we can use to generate a test label and verify the behavior on our end?<br>If you'd like, we can also cancel the label after the test is completed.<br>&nbsp;<br>Once I hear back from our technical team, I will provide you with an update.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Lakshya,\n&nbsp;\nPlease allow me some time to check this with our technical team.\n&nbsp;\nIn the meantime, could you please share an order ID that we can use to generate a test label and verify the behavior on our end?\nIf you'd like, we can also cancel the label after the test is completed.\n&nbsp;\nOnce I hear back from our technical team, I will provide you with an update.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58656491040793,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T05:44:59Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58656719194137,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "L3:\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1780638676452699\n\nSKU and Quantity Not Printing on Label\n\nThe customer reports that the SKU and Quantity are not being printed on the shipping label.\nAs per the discussion in Slack yesterday, the relevant toggle was enabled:\nhttps://pluginhive.slack.com/archives/C091B699936/p1780567473956969\n\nHowever, the customer generated a label today, and the Item Description field on the label appears blank, with neither the SKU nor Quantity being printed.\n\nCould you please investigate why the label is not displaying the item details despite the setting being enabled and advise on the next steps?\n\nOrder : 2212\nProduct: GSB Top 5 Best Seller Perfume Sample Combo Pack of 5 | Inspired Luxury Fragrances | Long Lasting\n[2 ml - each] SKU : Bestsellercombo\n\nStore URL: 948165-59.myshopify.com\nAC ID: 6bab6a3b-6770-4fbd-8d0f-35cb81352953",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3:&nbsp;<br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1780638676452699\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1780638676452699</a><br>&nbsp;<br>SKU and Quantity Not Printing on Label<br>&nbsp;<br>The customer reports that the SKU and Quantity are not being printed on the shipping label.<br>As per the discussion in Slack yesterday, the relevant toggle was enabled:<br>https://pluginhive.slack.com/archives/C091B699936/p1780567473956969<br>&nbsp;<br>However, the customer generated a label today, and the Item Description field on the label appears blank, with neither the SKU nor Quantity being printed.<br>&nbsp;<br>Could you please investigate why the label is not displaying the item details despite the setting being enabled and advise on the next steps?<br>&nbsp;<br>Order : 2212<br>Product: GSB Top 5 Best Seller Perfume Sample Combo Pack of 5 | Inspired Luxury Fragrances | Long Lasting<br>[ 2 ml - each] SKU : Bestsellercombo<br>&nbsp;<br>Store URL: <a rel=\"noopener noreferrer\" href=\"http://948165-59.myshopify.com\">948165-59.myshopify.com</a><br>AC ID: 6bab6a3b-6770-4fbd-8d0f-35cb81352953<br>&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "L3:&nbsp;\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1780638676452699\n&nbsp;\nSKU and Quantity Not Printing on Label\n&nbsp;\nThe customer reports that the SKU and Quantity are not being printed on the shipping label.\nAs per the discussion in Slack yesterday, the relevant toggle was enabled:\nhttps://pluginhive.slack.com/archives/C091B699936/p1780567473956969\n&nbsp;\nHowever, the customer generated a label today, and the Item Description field on the label appears blank, with neither the SKU nor Quantity being printed.\n&nbsp;\nCould you please investigate why the label is not displaying the item details despite the setting being enabled and advise on the next steps?\n&nbsp;\nOrder : 2212\nProduct: GSB Top 5 Best Seller Perfume Sample Combo Pack of 5 | Inspired Luxury Fragrances | Long Lasting\n[ 2 ml - each] SKU : Bestsellercombo\n&nbsp;\nStore URL: 948165-59.myshopify.com\nAC ID: 6bab6a3b-6770-4fbd-8d0f-35cb81352953\n&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58656719194009,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T05:52:14Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58687149363865,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "This needs development, will update the ETA.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This needs development, will update the ETA.<br>[Veena]<br></div>",
+      "plain_body": "This needs development, will update the ETA.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58687149363737,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-06T04:51:50Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58689139334937,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello LAKSHYA,\n\nGood day!\n\nOur team has checked about your requirement and we have found out a case where SKU and Product Quantity are not shown on the label.\n\nWe need sometime to rectify this. We will keep you posted on the updates.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello LAKSHYA,<br>&nbsp;<br>Good day!<br><br>Our team has checked about your requirement and we have found out a case where SKU and Product Quantity are not shown on the label.<br>&nbsp;<br>We need sometime to rectify this. We will keep you posted on the updates.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello LAKSHYA,\n&nbsp;\nGood day!\n\nOur team has checked about your requirement and we have found out a case where SKU and Product Quantity are not shown on the label.\n&nbsp;\nWe need sometime to rectify this. We will keep you posted on the updates.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58689139334809,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-06T06:08:09Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59051775152281,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "L3 raised for ETA:\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1781598498985949?thread_ts=1780638676.452699&cid=C02E15X8X0C\n\nCould you please provide an ETA for this ?\nCustomer states he is unable to generate labels because this is an imp requirement for him and his team.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3 raised for ETA:&nbsp;<br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1781598498985949?thread_ts=1780638676.452699&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1781598498985949?thread_ts=1780638676.452699&amp;cid=C02E15X8X0C</a><br>&nbsp;<br>Could you please provide an ETA for this ?<br>Customer states he is unable to generate labels because this is an imp requirement for him and his team.<br></div>",
+      "plain_body": "L3 raised for ETA:&nbsp;\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1781598498985949?thread_ts=1780638676.452699&amp;cid=C02E15X8X0C\n&nbsp;\nCould you please provide an ETA for this ?\nCustomer states he is unable to generate labels because this is an imp requirement for him and his team.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59051775152153,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T08:28:47Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59055950266137,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "ETA: On or before 24th June.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA: On or before 24th June.<br>[Veena]<br></div>",
+      "plain_body": "ETA: On or before 24th June.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59055950266009,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T10:31:48Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59056535275801,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Hi Team,\n\nAlso please provide 14 more days of free trial.\n\n(Abhilash)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br>Also please provide 14 more days of free trial.<br>&nbsp;<br>(Abhilash)<br></div>",
+      "plain_body": "Hi Team,\n&nbsp;\nAlso please provide 14 more days of free trial.\n&nbsp;\n(Abhilash)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59056547992089,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T10:52:15Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59058283044889,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Lakshya,\n\nThank you for your time on the call today.\n\nAs discussed, we have successfully exported and re-imported the products, and the SKU details have been updated in the product description section within the app. As a result, the shipping labels will now display the SKU and quantity information.\n\nThank you as well for confirming that the SKU and quantity are currently being printed on the labels. As discussed, this is currently being handled as a workaround. I would also like to update you that the enhancement to support this functionality natively is planned to be completed by 24th June, and we will keep you informed of the progress.\n\nI am also happy to inform you that we have extended the 14-day free trial for your store.\n\nYou can now access the app and accept the subscription charges to continue using the app while availing of the extended trial period.\nPlease feel free to reach out if you have any questions or require any further assistance.\n\nThank you for your patience and cooperation.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Lakshya,<br>&nbsp;<br>Thank you for your time on the call today.<br>&nbsp;<br>As discussed, we have successfully exported and re-imported the products, and the SKU details have been updated in the product description section within the app. As a result, the shipping labels will now display the SKU and quantity information.<br>&nbsp;<br>Thank you as well for confirming that the SKU and quantity are currently being printed on the labels. As discussed, this is currently being handled as a workaround. I would also like to update you that the enhancement to support this functionality natively is planned to be completed by 24th June, and we will keep you informed of the progress.<br>&nbsp;<br>I am also happy to inform you that we have extended the 14-day free trial for your store.<br>&nbsp;<br>You can now access the app and accept the subscription charges to continue using the app while availing of the extended trial period.<br>Please feel free to reach out if you have any questions or require any further assistance.<br>&nbsp;<br>Thank you for your patience and cooperation.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Lakshya,\n&nbsp;\nThank you for your time on the call today.\n&nbsp;\nAs discussed, we have successfully exported and re-imported the products, and the SKU details have been updated in the product description section within the app. As a result, the shipping labels will now display the SKU and quantity information.\n&nbsp;\nThank you as well for confirming that the SKU and quantity are currently being printed on the labels. As discussed, this is currently being handled as a workaround. I would also like to update you that the enhancement to support this functionality natively is planned to be completed by 24th June, and we will keep you informed of the progress.\n&nbsp;\nI am also happy to inform you that we have extended the 14-day free trial for your store.\n&nbsp;\nYou can now access the app and accept the subscription charges to continue using the app while availing of the extended trial period.\nPlease feel free to reach out if you have any questions or require any further assistance.\n&nbsp;\nThank you for your patience and cooperation.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59058283044761,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T11:56:05Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59058305557401,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "I discussed it with Veena, and as a workaround, we have updated the SKU in product description, and labels being printed now has sku and quantity. Informed ETA as well.\nMoved back to dev needed",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I discussed it with Veena, and as a workaround, we have updated the SKU in product description, and labels being printed now has sku and quantity. Informed ETA as well.<br>Moved back to dev needed<br></div>",
+      "plain_body": "I discussed it with Veena, and as a workaround, we have updated the SKU in product description, and labels being printed now has sku and quantity. Informed ETA as well.\nMoved back to dev needed",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59058328827033,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T11:57:32Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59131163078169,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "ETA: on or before 7th July.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA: on or before 7th July.<br>[Veena]<br></div>",
+      "plain_body": "ETA: on or before 7th July.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59131169104409,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T12:21:18Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59132551627289,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Lakshya,\n\nI would like to provide a quick update regarding the enhancement to support SKU and quantity printing on labels natively.\nOur development team has reviewed the request, and the updated ETA for completion is on or before 7th July.\n\nWe appreciate your patience and understanding. In the meantime, the current workaround will continue to function as expected.\n\nWe will keep you informed of any further updates.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Lakshya,<br>&nbsp;<br>I would like to provide a quick update regarding the enhancement to support SKU and quantity printing on labels natively.<br>Our development team has reviewed the request, and the updated ETA for completion is on or before 7th July.<br>&nbsp;<br>We appreciate your patience and understanding. In the meantime, the current workaround will continue to function as expected.<br>&nbsp;<br>We will keep you informed of any further updates.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Lakshya,\n&nbsp;\nI would like to provide a quick update regarding the enhancement to support SKU and quantity printing on labels natively.\nOur development team has reviewed the request, and the updated ETA for completion is on or before 7th July.\n&nbsp;\nWe appreciate your patience and understanding. In the meantime, the current workaround will continue to function as expected.\n&nbsp;\nWe will keep you informed of any further updates.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59132551627161,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T13:21:23Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/395619.json",
+    "id": 395619,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "sanoop@pluginhive.com",
+          "name": "sanoop"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-06-17T09:32:54Z",
+    "updated_at": "2026-06-18T12:16:09Z",
+    "generated_timestamp": 1781784969,
+    "type": null,
+    "subject": "Fwd: EU De Minimis Update \u2013 New Requirements Effective July 1, 2026",
+    "raw_subject": "Fwd: EU De Minimis Update \u2013 New Requirements Effective July 1, 2026",
+    "description": "> Begin forwarded message:\n> \n> From: <bvardehzadeh@ups.com>\n> Subject: EU De Minimis Update \u2013 New Requirements Effective July 1, 2026\n> Date: 17 June 2026 at 4:24:11\u202fAM IST\n> To: <vimal@pluginhive.com>, <sanoop@pluginhive.com>, <abhilash@pluginhive.com>\n> \n> Dear Pluginhive, \n>  \n> Effective July 1, 2026, the European Union will remove the current \u20ac150 de minimis threshold. As a result, all shipments\u2014regardless of value\u2014will require full customs clearance. To support compliance, UPS is introducing new data requirements and enhancements across shipping systems. Please review your current shipping setup to ensure the following data elements can be captured and transmitted.\n>  \n> B2B/B2C:\n> July 1 requirement by EU regulatory authorities. While the Ship API will not enforce this field as mandatory (to avoid shipment failures), the data is still required for customs clearance.  If this information is not provided, shipments will be held at customs and risk return to shipper (RTS), with any associated costs billed back to the partner.\n>  \n> This is an existing field listed as \u201cConsigneeTypeValue\u201d in the Developer Portal: ShipmentRequest/Shipment/GlobalTaxInformation/ConsigneeTypeValue\n> This update should be implemented as soon as possible, as the July 1 requirement applies based oncustoms arrival date, not label manifest date.\n>  \n> Product ID: \n> The Product ID fields have been postponed until November 1, 2026. Additional details will be shared once finalized in the Ship API.\n>  \n> IOSS: \n> IOSS data requirements have been updated. As of July1, the IOSS name and address fields are no longer required on the commercial invoice. Only the IOSS number is required to properly ship using IOSS.\n>  \n> What This Means for You\n> To ensure compliance and avoid disruption:\n> Review and update shipping workflows to support Business Indicators\n> Enable capture of Product IDs (in preparation for future enforcement)\n> Update systems to support expanded IOSS data fields\n>  \n> Important:\n> Incomplete or missing data may result in:\n> Customs clearance delays\n> Shipment holds or returns\n>  \n> We will follow up to assess your readiness and ensure a smooth transition and positive cross-border experience.\n>  \n> If you have any questions or would like to discuss next steps, please don\u2019t hesitate to contact me.\n>  \n> Sincerely, \n>  \n> Benita Vardehzadeh\n> UPS Digital Access Program (DAP)\n> International Marketing Senior Manager\n> Global Strategy and Expansion\n> bvardehzadeh@ups.com <mailto:bvardehzadeh@ups.com>\n> Remote in US PST\n> +1-657-3859640",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 369115090851,
+    "submitter_id": 369115090851,
+    "assignee_id": 44512844768153,
+    "organization_id": 360081186532,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "4Z1PY4-D7EZW",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 59090181248665,
+      "type": "Comment",
+      "author_id": 369115090851,
+      "body": "\n\n\n\n> Begin forwarded message:\n>\n>\n> **From:** <bvardehzadeh@ups.com>\n>\n> **Subject:** **EU De Minimis Update \u2013 New Requirements Effective July 1, 2026**\n>\n> **Date:** 17 June 2026 at 4:24:11\u202fAM IST\n>\n> **To:** <vimal@pluginhive.com>, <sanoop@pluginhive.com>, <abhilash@pluginhive.com>\n>\n>\n>\n> Dear Pluginhive,\n>\n>\n>\n> Effective July 1, 2026, the European Union will remove the current \u20ac150 de minimis threshold. As a result, all shipments\u2014regardless of value\u2014will require full customs clearance. To support compliance, UPS is introducing new data requirements and enhancements across shipping systems. Please review your current shipping setup to ensure the following data elements can be captured and transmitted.\n>\n> ** **\n>\n> **B2B/B2C**:\n>\n> **July 1 requirement by EU regulatory authorities. **While the Ship API will not enforce this field as mandatory (to avoid shipment failures), the data is still required for customs clearance.  If this information is not provided, shipments will be held at customs and risk return to shipper (RTS), with any associated costs billed back to the partner.\n>\n>\n>\n> - This is an existing field listed as **\u201cConsigneeTypeValue\u201d **in the Developer Portal: ShipmentRequest/Shipment/GlobalTaxInformation/ConsigneeTypeValue\n> - This update should be implemented as soon as possible, as the July 1 requirement applies based on**customs arrival date**, not label manifest date.\n>\n>\n>\n> **Product ID**:\n>\n> The Product ID fields have been postponed until November 1, 2026. Additional details will be shared once finalized in the Ship API.\n>\n>\n>\n> **IOSS**:\n>\n> IOSS data requirements have been updated. **As of July1, the IOSS name and address fields are no longer required on the commercial invoice. **Only the IOSS number is required to properly ship using IOSS.\n>\n>\n>\n> **What This Means for You**\n>\n> To ensure compliance and avoid disruption:\n>\n> - Review and update shipping workflows to support Business Indicators\n> - Enable capture of Product IDs (in preparation for future enforcement)\n> - Update systems to support expanded IOSS data fields\n>\n>\n>\n> **Important:**\n> Incomplete or missing data may result in:\n>\n> - Customs clearance delays\n> - Shipment holds or returns\n>\n>\n>\n> We will follow up to assess your readiness and ensure a smooth transition and positive cross-border experience.\n>\n>\n>\n> If you have any questions or would like to discuss next steps, please don\u2019t hesitate to contact me.\n>\n>\n>\n> Sincerely,\n>\n>\n>\n> Benita Vardehzadeh\n>\n> **UPS Digital Access Program (DAP)**\n>\n> **_International Marketing Senior Manager_**\n>\n> **_Global Strategy and Expansion_**\n>\n> bvardehzadeh@ups.com\n>\n> Remote in US PST\n>\n> +1-657-3859640",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><br><div><br><blockquote><div>Begin forwarded message:</div><br><div style=\"margin: 0px;\"><span style=\" color: rgba(0, 0, 0, 1.0);\"><b>From: </b></span><span>&lt;bvardehzadeh@ups.com&gt;<br></span></div><div style=\"margin: 0px;\"><span style=\" color: rgba(0, 0, 0, 1.0);\"><b>Subject: </b></span><span><b>EU De Minimis Update \u2013 New Requirements Effective July 1, 2026</b><br></span></div><div style=\"margin: 0px;\"><span style=\" color: rgba(0, 0, 0, 1.0);\"><b>Date: </b></span><span>17 June 2026 at 4:24:11\u202fAM IST<br></span></div><div style=\"margin: 0px;\"><span style=\" color: rgba(0, 0, 0, 1.0);\"><b>To: </b></span><span>&lt;vimal@pluginhive.com&gt;, &lt;sanoop@pluginhive.com&gt;, &lt;abhilash@pluginhive.com&gt;<br></span></div><br><div><div style=\"page: WordSection1; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; text-decoration-line: none; text-decoration-style: solid;\" align=\"start\"><div style=\"font-size: 12pt; margin: 0in;\">Dear Pluginhive,<span>&nbsp;</span></div><div style=\"font-size: 12pt; margin: 0in;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0in;\">Effective July 1, 2026, the European Union will remove the current \u20ac150 de minimis threshold. As a result, all shipments\u2014regardless of value\u2014will require full customs clearance. To support compliance, UPS is introducing new data requirements and enhancements across shipping systems. Please review your current shipping setup to ensure the following data elements can be captured and transmitted.</div><div style=\"font-size: 12pt; margin: 0in;\"><b>&nbsp;</b></div><div style=\"font-size: 12pt; margin: 0in;\"><b><span style=\"background-color: yellow;\">B2B/B2C</span></b>:</div><div style=\"font-size: 12pt; margin: 0in;\"><b><span style=\"background-color: yellow;\">July 1 requirement by EU regulatory authorities</span>.<span>&nbsp;</span></b>While the Ship API will not enforce this field as mandatory (to avoid shipment failures), the data is still required for customs clearance.&nbsp; If this information is not provided, shipments will be held at customs and risk return to shipper (RTS), with any associated costs billed back to the partner.</div><div style=\"font-size: 12pt; margin: 0in;\">&nbsp;</div><ul style=\"margin-bottom: 0in; margin-top: 0in;\" dir=\"auto\"><li style=\"font-size: 12pt; margin: 0in;\">This is an existing field listed as<span>&nbsp;</span><b>\u201cConsigneeTypeValue\u201d<span>&nbsp;</span></b>in the Developer Portal: ShipmentRequest/Shipment/GlobalTaxInformation/ConsigneeTypeValue</li><li style=\"font-size: 12pt; margin: 0in;\">This update should be implemented as soon as possible, as the July 1 requirement applies based on<b>customs arrival date</b>, not label manifest date.</li></ul><div style=\"font-size: 12pt; margin: 0in;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0in;\"><b>Product ID</b>:<span>&nbsp;</span></div><div style=\"font-size: 12pt; margin: 0in;\">The Product ID fields have been postponed until November 1, 2026. Additional details will be shared once finalized in the Ship API.</div><div style=\"font-size: 12pt; margin: 0in;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0in;\"><b>IOSS</b>:<span>&nbsp;</span></div><div style=\"font-size: 12pt; margin: 0in;\">IOSS data requirements have been updated.<span>&nbsp;</span><b>As of July1, the IOSS name and address fields are no longer required on the commercial invoice.<span>&nbsp;</span></b>Only the IOSS number is required to properly ship using IOSS.<b></b></div><div style=\"font-size: 12pt; margin: 0in;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0in;\"><b><span>What This Means for You</span></b><b><span style=\"font-size: 11pt; \"></span></b></div><div style=\"font-size: 12pt; margin: 0in;\">To ensure compliance and avoid disruption:</div><ul style=\"margin-bottom: 0in; margin-top: 0in;\" dir=\"auto\"><li style=\"font-size: 12pt; margin: 0in;\">Review and update shipping workflows to support Business Indicators</li><li style=\"font-size: 12pt; margin: 0in;\">Enable capture of Product IDs (in preparation for future enforcement)</li><li style=\"font-size: 12pt; margin: 0in;\">Update systems to support expanded IOSS data fields</li></ul><div style=\"font-size: 12pt; margin: 0in 0in 0in 0.5in;\"><span>&nbsp;</span></div><div style=\"font-size: 12pt; margin: 0in;\"><b><span>Important:</span></b><span><br></span>Incomplete or missing data may result in:</div><ul style=\"margin-bottom: 0in; margin-top: 0in;\" dir=\"auto\"><li style=\"font-size: 12pt; margin: 0in;\">Customs clearance delays</li><li style=\"font-size: 12pt; margin: 0in;\">Shipment holds or returns</li></ul><div style=\"font-size: 12pt; margin: 0in;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0in;\">We will follow up to assess your readiness and ensure a smooth transition and positive cross-border experience.</div><div style=\"font-size: 12pt; margin: 0in;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0in;\">If you have any questions or would like to discuss next steps, please don\u2019t hesitate to contact me.</div><div style=\"font-size: 12pt; margin: 0in;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0in;\">Sincerely,<span>&nbsp;</span></div><div style=\"font-size: 12pt; margin: 0in;\">&nbsp;</div><div style=\"font-size: 12pt; margin: 0in;\"><span style=\"font-size: 11pt;\">Benita Vardehzadeh</span></div><div style=\"font-size: 12pt; margin: 0in;\"><b><span style=\"font-size: 11pt;\">UPS Digital Access Program (DAP)</span></b></div><div style=\"font-size: 12pt; margin: 0in;\"><b><i><span style=\"font-size: 11pt;\">International Marketing Senior Manager</span></i></b></div><div style=\"font-size: 12pt; margin: 0in;\"><b><i><span style=\"font-size: 11pt;\">Global Strategy and Expansion</span></i></b></div><div style=\"font-size: 12pt; margin: 0in;\"><a href=\"mailto:bvardehzadeh@ups.com\" style=\"color: rgb(70, 120, 134); text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 11pt; color: rgb(5, 99, 193);\">bvardehzadeh@ups.com</span></a><span style=\"font-size: 11pt;\"></span></div><div style=\"font-size: 12pt; margin: 0in;\"><span style=\"font-size: 11pt;\">Remote in US PST</span></div><div style=\"font-size: 12pt; margin: 0in;\"><span style=\"font-size: 11pt;\">+1-657-3859640</span></div></div></div></blockquote></div><br></div>",
+      "plain_body": "Begin forwarded message: \n From: &lt;bvardehzadeh@ups.com&gt;\n  Subject: EU De Minimis Update \u2013 New Requirements Effective July 1, 2026\n  Date: 17 June 2026 at 4:24:11\u202fAM IST\n  To: &lt;vimal@pluginhive.com&gt;, &lt;sanoop@pluginhive.com&gt;, &lt;abhilash@pluginhive.com&gt;\n \n   Dear Pluginhive,&nbsp;  &nbsp;  Effective July 1, 2026, the European Union will remove the current \u20ac150 de minimis threshold. As a result, all shipments\u2014regardless of value\u2014will require full customs clearance. To support compliance, UPS is introducing new data requirements and enhancements across shipping systems. Please review your current shipping setup to ensure the following data elements can be captured and transmitted.  &nbsp;  B2B/B2C:  July 1 requirement by EU regulatory authorities.&nbsp;While the Ship API will not enforce this field as mandatory (to avoid shipment failures), the data is still required for customs clearance.&nbsp; If this information is not provided, shipments will be held at customs and risk return to shipper (RTS), with any associated costs billed back to the partner.  &nbsp;   This is an existing field listed as&nbsp;\u201cConsigneeTypeValue\u201d&nbsp;in the Developer Portal: ShipmentRequest/Shipment/GlobalTaxInformation/ConsigneeTypeValue  This update should be implemented as soon as possible, as the July 1 requirement applies based oncustoms arrival date, not label manifest date.   &nbsp;  Product ID:&nbsp;  The Product ID fields have been postponed until November 1, 2026. Additional details will be shared once finalized in the Ship API.  &nbsp;  IOSS:&nbsp;  IOSS data requirements have been updated.&nbsp;As of July1, the IOSS name and address fields are no longer required on the commercial invoice.&nbsp;Only the IOSS number is required to properly ship using IOSS.  &nbsp;  What This Means for You  To ensure compliance and avoid disruption:   Review and update shipping workflows to support Business Indicators  Enable capture of Product IDs (in preparation for future enforcement)  Update systems to support expanded IOSS data fields   &nbsp;  Important:\nIncomplete or missing data may result in:   Customs clearance delays  Shipment holds or returns   &nbsp;  We will follow up to assess your readiness and ensure a smooth transition and positive cross-border experience.  &nbsp;  If you have any questions or would like to discuss next steps, please don\u2019t hesitate to contact me.  &nbsp;  Sincerely,&nbsp;  &nbsp;  Benita Vardehzadeh  UPS Digital Access Program (DAP)  International Marketing Senior Manager  Global Strategy and Expansion  bvardehzadeh@ups.com  Remote in US PST  +1-657-3859640",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59090181248537,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "sanoop@pluginhive.com",
+            "name": "sanoop",
+            "original_recipients": [
+              "sanoop@pluginhive.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T09:32:54Z",
+      "metadata": {
+        "system": {
+          "message_id": "<40B8A201-B592-46A0-9A19-D2BC949F99CD@pluginhive.com>",
+          "client": "Apple Mail (2.3864.600.51.1.1)",
+          "email_id": "01KVAETA0G719D6EVZPZVRZQPY",
+          "raw_email_identifier": "2369120/2928e993-aa91-4e6f-a3e9-5d8f4621ed11.eml",
+          "json_email_identifier": "2369120/2928e993-aa91-4e6f-a3e9-5d8f4621ed11.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59090430553113,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Do not archive this ticket without consulting with veena/vimal",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Do not archive this ticket without consulting with veena/vimal<br></div>",
+      "plain_body": "Do not archive this ticket without consulting with veena/vimal",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59090430551961,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T09:39:47Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59094913311641,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Raised L3:\n\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1781698402961519\n\nUPS has shared an update regarding upcoming EU customs regulation changes effective July 1, 2026.\n\nKey points from the communication:\n\u2022 A B2B/B2C indicator (ConsigneeTypeValue) will be required for EU shipments. UPS mentioned that although the API will not make this field mandatory, missing data may result in customs delays, shipment holds, or returns.\n\u2022 Product ID requirements have been postponed until November 1, 2026.\n\u2022 For IOSS shipments, only the IOSS Number will be required going forward. IOSS Name and Address will no longer be required.\n\nCould you please review and confirm:\n\u2022 Whether any changes are required on our end to comply with these requirements.\n\u2022 If any action is needed before July 1, 2026.\n\nPlease find the UPS communication attached for reference.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Raised L3:&nbsp;<br>&nbsp;<br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1781698402961519\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1781698402961519</a><br>&nbsp;<br>UPS has shared an update regarding upcoming EU customs regulation changes effective July 1, 2026.<br>&nbsp;<br>Key points from the communication:<br>\u2022 A B2B/B2C indicator (ConsigneeTypeValue) will be required for EU shipments. UPS mentioned that although the API will not make this field mandatory, missing data may result in customs delays, shipment holds, or returns.<br>\u2022 Product ID requirements have been postponed until November 1, 2026.<br>\u2022 For IOSS shipments, only the IOSS Number will be required going forward. IOSS Name and Address will no longer be required.<br>&nbsp;<br>Could you please review and confirm:<br>\u2022 Whether any changes are required on our end to comply with these requirements.<br>\u2022 If any action is needed before July 1, 2026.<br>&nbsp;<br>Please find the UPS communication attached for reference.<br></div>",
+      "plain_body": "Raised L3:&nbsp;\n&nbsp;\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1781698402961519\n&nbsp;\nUPS has shared an update regarding upcoming EU customs regulation changes effective July 1, 2026.\n&nbsp;\nKey points from the communication:\n\u2022 A B2B/B2C indicator (ConsigneeTypeValue) will be required for EU shipments. UPS mentioned that although the API will not make this field mandatory, missing data may result in customs delays, shipment holds, or returns.\n\u2022 Product ID requirements have been postponed until November 1, 2026.\n\u2022 For IOSS shipments, only the IOSS Number will be required going forward. IOSS Name and Address will no longer be required.\n&nbsp;\nCould you please review and confirm:\n\u2022 Whether any changes are required on our end to comply with these requirements.\n\u2022 If any action is needed before July 1, 2026.\n&nbsp;\nPlease find the UPS communication attached for reference.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59094913311513,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T12:14:19Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59094898043033,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Did not reply as this was a forwarded message by sanoop",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Did not reply as this was a forwarded message by sanoop<br></div>",
+      "plain_body": "Did not reply as this was a forwarded message by sanoop",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59094898042777,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T12:14:50Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59095063617177,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Noted. And moved for immediate dev.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Noted. And moved for immediate dev.<br>[Veena]<br></div>",
+      "plain_body": "Noted. And moved for immediate dev.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59095063617049,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T12:19:59Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Manjeri, KL, India",
+          "latitude": 11.12,
+          "longitude": 76.1247
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59131064489369,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "ETA: on or before 7th July.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA: on or before 7th July.<br>[Veena]<br></div>",
+      "plain_body": "ETA: on or before 7th July.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59131064488729,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T12:16:09Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

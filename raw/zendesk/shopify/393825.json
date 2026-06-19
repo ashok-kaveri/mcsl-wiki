@@ -1,0 +1,542 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/393825.json",
+    "id": 393825,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "it.fi@postnord.com",
+          "name": "FI IT"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-06-05T11:53:24Z",
+    "updated_at": "2026-06-18T13:16:55Z",
+    "generated_timestamp": 1781788615,
+    "type": null,
+    "subject": "PostNord Delivery Options API",
+    "raw_subject": "PostNord Delivery Options API",
+    "description": "Hei,\r\n\r\noheinen viesti on t\u00e4n\u00e4\u00e4n l\u00e4hetetty asiakkaille. Jos haluatte jutella t\u00e4st\u00e4 lis\u00e4\u00e4 voimme sopia palaveria.\r\n\r\nHello,\r\n\r\nWe've sent following email to our customers today. If you wanna chat more about this, we can schedule a meeting.\r\n\r\n\r\n[Postnord]\r\n\r\nMik\u00e4 Delivery Options API ja kuinka se parantaa verkkokaupan kassakokemusta?\r\n\r\n[verkkokaupan kassa]\r\n\r\nPostNordin Delivery Options API-rajapinnan avulla verkkokauppa voi n\u00e4ytt\u00e4\u00e4 asiakkaalle kassalla tarkemmat toimitusvaihtoehdot ja toimitusajat PostNordin palveluille.\r\n\r\nDelivery Options API mahdollistaa sen, ett\u00e4 verkkokauppan kassalla voi n\u00e4ytt\u00e4\u00e4 tarkat ja ajantasaiset PostNordin toimitusvaihtoehdot sek\u00e4 toimitusajat.\r\n\r\nMit\u00e4 hy\u00f6ty\u00e4 DO API:sta on verkkokaupalle?\r\n\r\nDO API auttaa parantamaan asiakaskokemusta ja tukee myynti\u00e4:\r\n\r\n  *   N\u00e4ytt\u00e4\u00e4 toimitusp\u00e4iv\u00e4arvion kassalla (esim. \u201cToimitus torstaina\u201d)\r\n  *   N\u00e4ytt\u00e4\u00e4 toimituksen viimeisen ajankohdan (esim. \u201cviimeist\u00e4\u00e4n klo 16\u201d)\r\n  *   N\u00e4ytt\u00e4\u00e4 vain ne toimitusvaihtoehdot, jotka ovat oikeasti mahdollisia kyseiselle l\u00e4hetykselle\r\n  *   Tekee kassasta selke\u00e4mm\u00e4n ja l\u00e4pin\u00e4kyv\u00e4mm\u00e4n \u2013 ja parantaa n\u00e4in my\u00f6s ostokonversiota\r\n\r\nMiten DO APIN:n saa k\u00e4ytt\u00f6\u00f6n?\r\n\r\nK\u00e4ytt\u00f6\u00f6notto on verkkokaupalle suoraviivaista:\r\n\r\nTekniset edellytykset\r\n\r\n  *   Checkout-ratkaisun tulee tukea DO\u2011API-kutsuja\r\ntai\r\n  *   k\u00e4yt\u00f6ss\u00e4 voi olla alusta/kumppani, jossa DO\u2011API on jo valmiiksi tuettuna\r\n\r\n Jos tuki on olemassa, k\u00e4ytt\u00f6\u00f6notto onnistuu yleens\u00e4 pelk\u00e4ll\u00e4 aktivoinnilla. Muussa tapauksessa tarvitaan kevyt integraatio checkoutiin.\r\n\r\nTarvittavat tiedot\r\n\r\nJotta voimme laskea toimitusvaihtoehdot ja aikataulut, verkkokauppa antaa DO\u2011API:lle:\r\n\r\n  *   L\u00e4hetyksen l\u00e4ht\u00f6osoitteen\r\n  *   Ajankohdan, jolloin l\u00e4hetys on valmis noudettavaksi\r\n  *   Vastaanottajan tiedot\r\n\r\nN\u00e4iden tietojen perusteella pystymme m\u00e4\u00e4ritt\u00e4m\u00e4\u00e4n:\r\n\r\n  *   saatavilla olevat toimituspalvelut\r\n  *   toimitusp\u00e4iv\u00e4arvion sek\u00e4 viimeisen toimitusajankohdan\r\n\r\nLis\u00e4tietoja\r\n\r\nJos olet kiinnostunut Delivery Options API:n mahdollisuuksista verkkokauppasi kassakokemuksen kehitt\u00e4miseen, ota yhteytt\u00e4 omaan yhteysehenkil\u00f6\u00f6si tai osoitteseen sales.fi@postnord.com<mailto:sales.fi@postnord.com>.\r\n\r\nKatso Showroomistamme<https://www.postnord.fi/integraatiot/showroom/>, milt\u00e4 verkkokaupan kassa voi n\u00e4ytt\u00e4\u00e4 Delivery Options API:n avulla.\r\n\r\nLis\u00e4tietoja kehitt\u00e4jille l\u00f6yd\u00e4t t\u00e4\u00e4lt\u00e4<https://developer.postnord.com/apis/details?systemName=shipment-v1-deliveryoptions>.\r\n\r\n\u200b\u200b\u200bParhain terveisin\r\n\r\nPostNord\r\n\r\n\r\n\r\nPostNord Delivery Options API\r\n\r\n[home delivery]<http://www.postnord.fi/>\r\n\r\nWith PostNord\u2019s Delivery Options API, e-commerce businesses can display more accurate delivery options and delivery times for PostNord services at checkout.\r\n\r\nThe Delivery Options API enables e-commerce checkouts to present precise and up-to-date PostNord delivery options along with estimated delivery times.\r\n\r\nWhat are the benefits of the DO API for e-commerce?\r\n\r\nThe DO API helps improve the customer experience and supports sales by:\r\n\r\n  *   Displaying an estimated delivery day at checkout (e.g. \u201cDelivery on Thursday\u201d)\r\n  *   Showing the latest possible delivery time (e.g. \u201cno later than 4 PM\u201d)\r\n  *   Displaying only the delivery options that are actually available for the specific shipment\r\n  *   Making the checkout clearer and more transparent \u2014 which also improves conversion rates\r\n\r\nHow to get started with the DO API\r\n\r\nImplementation is straightforward for e-commerce businesses:\r\n\r\nTechnical requirements\r\n\r\n  *   The checkout solution must support DO API calls\r\nor\r\n  *   The business can use a platform or partner where the DO API is already supported\r\n\r\nIf support is already in place, activation is usually all that\u2019s needed. Otherwise, a lightweight checkout integration is required.\r\n\r\nRequired information\r\n\r\nTo calculate delivery options and schedules, the e-commerce platform provides the DO API with:\r\n\r\n  *   The shipment\u2019s origin address\r\n  *   The time when the shipment is ready for pickup\r\n  *   Receiver information\r\n\r\nBased on this information, we can determine:\r\n\r\n  *   Available delivery services\r\n  *   Estimated delivery day and the latest delivery time\r\n\r\nMore information\r\n\r\nIf you\u2019re interested in exploring how the Delivery Options API can enhance your checkout experience, please contact your own contact person or mail to sales.fi@postnord.com<mailto:sales.fi@postnord.com>\r\n\r\nSee in our Showroom how an e-commerce checkout can look with the Delivery Options API.\r\n\r\nYou will find f\u200b\u200b\u200b\u200b\u200burther information for developers here<https://developer.postnord.com/apis/details?systemName=shipment-v1-deliveryoptions>.\r\n\r\nKind Regards,\r\n\r\nPostNord Oy\r\n\r\n\r\n\r\n[https://storage.pardot.com/864462/1606294759vDvVI733/IMG_email_footer_arch_600x56.png]\r\n\r\n[https://storage.pardot.com/864462/1612431315zyBvv4dg/IMG_email_footer_arch_dark_600x56.png]\r\n\r\nPostNord Oy\r\nFirdonkatu 2 T 81\r\n00520 Helsinki\r\npostnord.fi<https://www.postnord.fi/>\r\n\r\nSeuraa meit\u00e4\r\n\r\n\r\n\r\n\r\n\r\n[Facebook]<https://sites.postnord.fi/l/864462/2021-02-12/mppsxd>\r\n\r\n\r\n\r\n[LinkedIn]<https://sites.postnord.fi/l/864462/2021-02-12/mppsxn>\r\n\r\n\r\n\r\n[Instagram]<https://sites.postnord.fi/l/864462/2021-06-14/mz2sp6>\r\n\r\nT\u00e4m\u00e4 s\u00e4hk\u00f6posti l\u00e4hetettiin osoitteeseen Recipient.Email\r\n\r\nJos et halua jatkossa postia meilt\u00e4, voit poistua postituslistaltamme t\u00e4st\u00e4.<https://sites.postnord.fi/unsubscribe/u/864462>",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 50170769210905,
+    "submitter_id": 50170769210905,
+    "assignee_id": 44512844768153,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      903409790923
+    ],
+    "follower_ids": [
+      903409790923
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_completed",
+      "dev_needed",
+      "last_reply_agent",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": ""
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "dev_completed"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "W14GMW-27WLX",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": ""
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": null
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": "dev_completed"
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58669674104473,
+      "type": "Comment",
+      "author_id": 50170769210905,
+      "body": "Hei,\n\n\n\noheinen viesti on t\u00e4n\u00e4\u00e4n l\u00e4hetetty asiakkaille. Jos haluatte jutella t\u00e4st\u00e4 lis\u00e4\u00e4 voimme sopia palaveria.\n\n\n\nHello,\n\n\n\nWe've sent following email to our customers today. If you wanna chat more about this, we can schedule a meeting.\n\n\n\n![Postnord](https://storage.pardot.com/864462/1612276592E0R26ZVk/PostNord_Logotype_blue.png)\n\n# Mik\u00e4 Delivery Options API ja kuinka se parantaa verkkokaupan kassakokemusta?\n\n**![verkkokaupan kassa](https://sites.postnord.fi/l/864462/2025-11-12/qnjklz/864462/1762956297dqcF80yF/Cart_computer_person_lightblue_580x300.jpg)**\n\n**PostNordin Delivery Options API-rajapinnan avulla verkkokauppa voi n\u00e4ytt\u00e4\u00e4 asiakkaalle kassalla tarkemmat toimitusvaihtoehdot ja toimitusajat PostNordin palveluille.**\n\nDelivery Options API mahdollistaa sen, ett\u00e4 verkkokauppan kassalla voi n\u00e4ytt\u00e4\u00e4 tarkat ja ajantasaiset PostNordin toimitusvaihtoehdot sek\u00e4 toimitusajat.\n\n### Mit\u00e4 hy\u00f6ty\u00e4 DO API:sta on verkkokaupalle?\n\nDO API auttaa parantamaan asiakaskokemusta ja tukee myynti\u00e4:\n- N\u00e4ytt\u00e4\u00e4 toimitusp\u00e4iv\u00e4arvion kassalla (esim. _\u201cToimitus torstaina\u201d_)\n- N\u00e4ytt\u00e4\u00e4 toimituksen viimeisen ajankohdan (esim. _\u201cviimeist\u00e4\u00e4n klo 16\u201d_)\n- N\u00e4ytt\u00e4\u00e4 vain ne toimitusvaihtoehdot, jotka ovat oikeasti mahdollisia kyseiselle l\u00e4hetykselle\n- Tekee kassasta selke\u00e4mm\u00e4n ja l\u00e4pin\u00e4kyv\u00e4mm\u00e4n \u2013 ja parantaa n\u00e4in my\u00f6s ostokonversiota\n\n### Miten DO APIN:n saa k\u00e4ytt\u00f6\u00f6n?\n\nK\u00e4ytt\u00f6\u00f6notto on verkkokaupalle suoraviivaista:\n\n**Tekniset edellytykset**\n- Checkout-ratkaisun tulee tukea DO\u2011API-kutsuja\ntai\n- k\u00e4yt\u00f6ss\u00e4 voi olla alusta/kumppani, jossa DO\u2011API on jo valmiiksi tuettuna\n\n Jos tuki on olemassa, k\u00e4ytt\u00f6\u00f6notto onnistuu yleens\u00e4 pelk\u00e4ll\u00e4 aktivoinnilla. Muussa tapauksessa tarvitaan kevyt integraatio checkoutiin.\n\n**Tarvittavat tiedot**\n\nJotta voimme laskea toimitusvaihtoehdot ja aikataulut, verkkokauppa antaa DO\u2011API:lle:\n- L\u00e4hetyksen l\u00e4ht\u00f6osoitteen\n- Ajankohdan, jolloin l\u00e4hetys on valmis noudettavaksi\n- Vastaanottajan tiedot\n\nN\u00e4iden tietojen perusteella pystymme m\u00e4\u00e4ritt\u00e4m\u00e4\u00e4n:\n- saatavilla olevat toimituspalvelut\n- toimitusp\u00e4iv\u00e4arvion sek\u00e4 viimeisen toimitusajankohdan\n\n### Lis\u00e4tietoja\n\nJos olet kiinnostunut Delivery Options API:n mahdollisuuksista verkkokauppasi kassakokemuksen kehitt\u00e4miseen, ota yhteytt\u00e4 omaan yhteysehenkil\u00f6\u00f6si tai osoitteseen sales.fi@postnord.com.\n\nKatso Showroomistamme, milt\u00e4 verkkokaupan kassa voi n\u00e4ytt\u00e4\u00e4 Delivery Options API:n avulla.\n\nLis\u00e4tietoja kehitt\u00e4jille l\u00f6yd\u00e4t t\u00e4\u00e4lt\u00e4.\n\n \u200b\u200b\u200bParhain terveisin\n\nPostNord\n\n\n\n# PostNord Delivery Options API\n\n**![home delivery](https://sites.postnord.fi/l/864462/2025-11-12/qnjklz/864462/1762956297dqcF80yF/Cart_computer_person_lightblue_580x300.jpg)**\n\n**With PostNord\u2019s Delivery Options API, e-commerce businesses can display more accurate delivery options and delivery times for PostNord services at checkout.**\n\nThe Delivery Options API enables e-commerce checkouts to present precise and up-to-date PostNord delivery options along with estimated delivery times.\n\n### What are the benefits of the DO API for e-commerce?\n\nThe DO API helps improve the customer experience and supports sales by:\n- Displaying an estimated delivery day at checkout (e.g. \u201cDelivery on Thursday\u201d)\n- Showing the latest possible delivery time (e.g. \u201cno later than 4 PM\u201d)\n- Displaying only the delivery options that are actually available for the specific shipment\n- Making the checkout clearer and more transparent \u2014 which also improves conversion rates\n\n### How to get started with the DO API\n\nImplementation is straightforward for e-commerce businesses:\n\n**Technical requirements**\n- The checkout solution must support DO API calls\nor\n- The business can use a platform or partner where the DO API is already supported\n\nIf support is already in place, activation is usually all that\u2019s needed. Otherwise, a lightweight checkout integration is required.\n\n**Required information**\n\nTo calculate delivery options and schedules, the e-commerce platform provides the DO API with:\n- The shipment\u2019s origin address\n- The time when the shipment is ready for pickup\n- Receiver information\n\nBased on this information, we can determine:\n- Available delivery services\n- Estimated delivery day and the latest delivery time\n\n### More information\n\nIf you\u2019re interested in exploring how the Delivery Options API can enhance your checkout experience, please contact your own contact person or mail to sales.fi@postnord.com\n\nSee in our Showroom how an e-commerce checkout can look with the Delivery Options API.\n\nYou will find f\u200b\u200b\u200b\u200b\u200burther information for developers here.\n\nKind Regards,\n\nPostNord Oy\n\n\n\n![](https://storage.pardot.com/864462/1606294759vDvVI733/IMG_email_footer_arch_600x56.png)\n\n![](https://storage.pardot.com/864462/1612431315zyBvv4dg/IMG_email_footer_arch_dark_600x56.png)\n\nPostNord Oy\nFirdonkatu 2 T 81\n00520 Helsinki\n postnord.fi\n\n**Seuraa meit\u00e4**\n\n\n\n\n\n![Facebook](https://storage.pardot.com/864462/1606294343qWtM3ede/IMG_Facebook2_40x40.png)\n\n\n\n![LinkedIn](https://storage.pardot.com/864462/1606294575bTlVaAsH/IMG_Linkedin_40x40.png)\n\n\n\n![Instagram](https://storage.pardot.com/864462/1606294462KeP4U9wz/IMG_Instagram_40x40.png)\n\nT\u00e4m\u00e4 s\u00e4hk\u00f6posti l\u00e4hetettiin osoitteeseen {{Recipient.Email}}\n\nJos et halua jatkossa postia meilt\u00e4, voit poistua postituslistaltamme t\u00e4st\u00e4.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background-color: rgb(255, 255, 255); width: 450pt; color: rgb(36, 36, 36); box-sizing: border-box; border-collapse: collapse; border-spacing: 0px; background-color: FFFFFF\">\n<tbody>\n<tr>\n<td style=\"padding-top: 15pt; padding-bottom: 15pt;\">\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHei,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\noheinen viesti on t\u00e4n\u00e4\u00e4n l\u00e4hetetty asiakkaille. Jos haluatte jutella t\u00e4st\u00e4 lis\u00e4\u00e4 voimme sopia palaveria.</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHello,</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nWe've sent following email to our customers today. If you wanna chat more about this, we can schedule a meeting.</div>\n<div style=\" font-size: 12pt; color: rgb(36, 36, 36);\">\n<br>\n</div>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"width: 601.984px; box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; width: 90pt; padding: 21.75pt 15pt;\" valign=\"top\">\n<p style=\"text-align: center; font-size: 12pt; margin: 0px;\" align=\"center\" dir=\"auto\">\n<span style=\" color: rgb(36, 36, 36);\"><img alt=\"Postnord\" width=\"120\" height=\"23\" style=\"width: 90pt; height: 17.49pt; margin: 0px;\" src=\"https://storage.pardot.com/864462/1612276592E0R26ZVk/PostNord_Logotype_blue.png\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"width: 601.984px; box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; padding: 7.5pt 7.5pt 30pt;\" valign=\"top\">\n<h1 style=\"text-align: center; line-height: 30pt; font-size: 27pt; color: rgb(30, 30, 30); margin: 0px;\" align=\"center\" dir=\"auto\">\n<span style=\"color: black;\">Mik\u00e4 Delivery Options API ja kuinka se parantaa verkkokaupan kassakokemusta?</span></h1>\n</td>\n</tr>\n</tbody>\n</table>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"width: 601.984px; box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"padding: 7.5pt 7.5pt 15pt;\">\n<p style=\"line-height: 21pt; font-size: 12pt; margin: 0px;\" dir=\"auto\">\n<span style=\" font-size: 18pt; color: rgb(36, 36, 36);\"><b><img alt=\"verkkokaupan kassa\" width=\"579\" height=\"300\" style=\"width: 434.99pt; height: 225pt; margin: 0px;\" src=\"https://sites.postnord.fi/l/864462/2025-11-12/qnjklz/864462/1762956297dqcF80yF/Cart_computer_person_lightblue_580x300.jpg\"></b></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"width: 601.984px; box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"padding-right: 15pt; padding-left: 15pt; vertical-align: top;\" valign=\"top\">\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\"><b>PostNordin Delivery Options API-rajapinnan avulla verkkokauppa voi n\u00e4ytt\u00e4\u00e4 asiakkaalle kassalla tarkemmat\n toimitusvaihtoehdot ja toimitusajat PostNordin palveluille.</b></span></p>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">Delivery\n Options API mahdollistaa sen, ett\u00e4 verkkokauppan kassalla voi n\u00e4ytt\u00e4\u00e4 tarkat ja ajantasaiset PostNordin toimitusvaihtoehdot sek\u00e4 toimitusajat.</span></p>\n<h3 style=\"line-height: 18pt; margin-right: 0px; margin-left: 0px; font-size: 13.5pt;\" dir=\"auto\">\n<span style=\"color: rgb(30, 30, 30);\">Mit\u00e4 hy\u00f6ty\u00e4 DO API:sta on verkkokaupalle?</span></h3>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">DO\n API auttaa parantamaan asiakaskokemusta ja tukee myynti\u00e4:</span></p>\n<ul style=\"margin-bottom: 0px;\" dir=\"auto\">\n<li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>N\u00e4ytt\u00e4\u00e4 toimitusp\u00e4iv\u00e4arvion kassalla (esim.\n<i>\u201cToimitus torstaina\u201d</i>)</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>N\u00e4ytt\u00e4\u00e4 toimituksen viimeisen ajankohdan (esim.\n<i>\u201cviimeist\u00e4\u00e4n klo 16\u201d</i>)</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>N\u00e4ytt\u00e4\u00e4 vain ne toimitusvaihtoehdot, jotka ovat oikeasti mahdollisia kyseiselle l\u00e4hetykselle</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>Tekee kassasta selke\u00e4mm\u00e4n ja l\u00e4pin\u00e4kyv\u00e4mm\u00e4n \u2013 ja parantaa n\u00e4in my\u00f6s ostokonversiota</span></li></ul>\n<h3 style=\"line-height: 18pt; margin-right: 0px; margin-left: 0px; font-size: 13.5pt;\" dir=\"auto\">\n<span style=\"color: rgb(30, 30, 30);\">Miten DO APIN:n saa k\u00e4ytt\u00f6\u00f6n?</span></h3>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">K\u00e4ytt\u00f6\u00f6notto\n on verkkokaupalle suoraviivaista:</span></p>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\"><b>Tekniset edellytykset</b></span></p>\n<ul style=\"margin-bottom: 0px;\" dir=\"auto\">\n<li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>Checkout-ratkaisun tulee tukea DO\u2011API-kutsuja<br>\ntai</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>k\u00e4yt\u00f6ss\u00e4 voi olla alusta/kumppani, jossa DO\u2011API on jo valmiiksi tuettuna</span></li></ul>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">&nbsp;Jos\n tuki on olemassa, k\u00e4ytt\u00f6\u00f6notto onnistuu yleens\u00e4 pelk\u00e4ll\u00e4 aktivoinnilla.&nbsp;Muussa tapauksessa tarvitaan kevyt integraatio checkoutiin.</span></p>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\"><b>Tarvittavat tiedot</b></span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\"><br>\n<br>\nJotta voimme laskea toimitusvaihtoehdot ja aikataulut, verkkokauppa antaa DO\u2011API:lle:</span></p>\n<ul style=\"margin-bottom: 0px;\" dir=\"auto\">\n<li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>L\u00e4hetyksen l\u00e4ht\u00f6osoitteen</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>Ajankohdan, jolloin l\u00e4hetys on valmis noudettavaksi</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>Vastaanottajan tiedot</span></li></ul>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">N\u00e4iden\n tietojen perusteella pystymme m\u00e4\u00e4ritt\u00e4m\u00e4\u00e4n:</span></p>\n<ul style=\"margin-bottom: 0px;\" dir=\"auto\">\n<li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>saatavilla olevat toimituspalvelut</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>toimitusp\u00e4iv\u00e4arvion sek\u00e4 viimeisen toimitusajankohdan</span></li></ul>\n<h3 style=\"line-height: 18pt; margin-right: 0px; margin-bottom: 12pt; margin-left: 0px; font-size: 13.5pt;\" dir=\"auto\">\n<span style=\"color: rgb(30, 30, 30);\">Lis\u00e4tietoja</span></h3>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">Jos\n olet kiinnostunut Delivery Options API:n mahdollisuuksista verkkokauppasi kassakokemuksen kehitt\u00e4miseen, ota yhteytt\u00e4 omaan yhteysehenkil\u00f6\u00f6si tai osoitteseen\n</span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\"><a href=\"mailto:sales.fi@postnord.com\" title=\"mailto:sales.fi@postnord.com\" style=\"margin: 0px;\" rel=\"noreferrer\">sales.fi@postnord.com</a></span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">.<br>\n<br>\nKatso </span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\"><a href=\"https://www.postnord.fi/integraatiot/showroom/\" title=\"Alkuper\u00e4inen URL-osoite: https://www.postnord.fi/integraatiot/showroom/. Napsauta tai napauta, jos luotat t\u00e4h\u00e4n linkkiin.\" style=\"margin: 0px;\" rel=\"noreferrer\">Showroomistamme</a></span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">,\n milt\u00e4 verkkokaupan kassa voi n\u00e4ytt\u00e4\u00e4 Delivery Options API:n avulla.<br>\n<br>\nLis\u00e4tietoja kehitt\u00e4jille l\u00f6yd\u00e4t</span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\"><a href=\"https://developer.postnord.com/apis/details?systemName=shipment-v1-deliveryoptions\" title=\"https://developer.postnord.com/apis/details?systemName=shipment-v1-deliveryoptions\" style=\"margin: 0px;\" rel=\"noreferrer\">&nbsp;t\u00e4\u00e4lt\u00e4</a></span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">.<br>\n<br>\n</span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">\u200b\u200b\u200b</span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">Parhain\n terveisin</span></p>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">PostNord</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"line-height: 19.5pt; font-size: 12pt; margin: 0px;\" dir=\"auto\">\n<span style=\" color: rgb(36, 36, 36);\">&nbsp;</span></p>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"width: 601.984px; box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; padding: 7.5pt 7.5pt 30pt; border: 1pt solid rgb(230,230,230);\" valign=\"top\">\n<h1 style=\"text-align: center; line-height: 30pt; font-size: 27pt; color: rgb(30, 30, 30); margin: 0px;\" align=\"center\" dir=\"auto\">\n<span style=\"color: black;\">PostNord Delivery Options API</span></h1>\n</td>\n</tr>\n</tbody>\n</table>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"width: 601.984px; box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"padding: 7.5pt 7.5pt 15pt; border: 1pt solid rgb(230,230,230);\">\n<p style=\"line-height: 21pt; font-size: 12pt; margin: 0px;\" dir=\"auto\">\n<span style=\" font-size: 18pt; color: rgb(36, 36, 36);\"><a href=\"http://www.postnord.fi/\" title=\"Alkuper\u00e4inen URL-osoite: http://www.postnord.fi/. Napsauta tai napauta, jos luotat t\u00e4h\u00e4n linkkiin.\" style=\"margin: 0px;\" rel=\"noreferrer\"><b><img alt=\"home delivery\" width=\"579\" height=\"300\" style=\"width: 434.99pt; height: 225pt; margin: 0px;\" src=\"https://sites.postnord.fi/l/864462/2025-11-12/qnjklz/864462/1762956297dqcF80yF/Cart_computer_person_lightblue_580x300.jpg\"></b></a></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"width: 601.984px; box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"padding-right: 15pt; padding-left: 15pt; vertical-align: top; border: 1pt solid rgb(230,230,230);\" valign=\"top\">\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\"><b>With PostNord\u2019s Delivery Options API, e-commerce businesses can display more accurate delivery options\n and delivery times for PostNord services at checkout.</b></span></p>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">The\n Delivery Options API enables e-commerce checkouts to present precise and up-to-date PostNord delivery options along with estimated delivery times.</span></p>\n<h3 style=\"line-height: 18pt; margin-right: 0px; margin-left: 0px; font-size: 13.5pt;\" dir=\"auto\">\n<span style=\"color: rgb(30, 30, 30);\">What are the benefits of the DO API for e-commerce?</span></h3>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">The\n DO API helps improve the customer experience and supports sales by:</span></p>\n<ul style=\"margin-bottom: 0px;\" dir=\"auto\">\n<li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>Displaying an estimated delivery day at checkout (e.g. \u201cDelivery on Thursday\u201d)</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>Showing the latest possible delivery time (e.g. \u201cno later than 4 PM\u201d)</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>Displaying only the delivery options that are actually available for the specific shipment</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>Making the checkout clearer and more transparent \u2014 which also improves conversion rates</span></li></ul>\n<h3 style=\"line-height: 18pt; margin-right: 0px; margin-left: 0px; font-size: 13.5pt;\" dir=\"auto\">\n<span style=\"color: rgb(30, 30, 30);\">How to get started with the DO API</span></h3>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">Implementation\n is straightforward for e-commerce businesses:</span></p>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\"><b>Technical requirements</b></span></p>\n<ul style=\"margin-bottom: 0px;\" dir=\"auto\">\n<li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>The checkout solution must support DO API calls<br>\nor</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>The business can use a platform or partner where the DO API is already supported</span></li></ul>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">If\n support is already in place, activation is usually all that\u2019s needed. Otherwise, a lightweight checkout integration is required.</span></p>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\"><b>Required information</b></span></p>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">To\n calculate delivery options and schedules, the e-commerce platform provides the DO API with:</span></p>\n<ul style=\"margin-bottom: 0px;\" dir=\"auto\">\n<li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>The shipment\u2019s origin address</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>The time when the shipment is ready for pickup</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>Receiver information</span></li></ul>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">Based\n on this information, we can determine:</span></p>\n<ul style=\"margin-bottom: 0px;\" dir=\"auto\">\n<li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>Available delivery services</span></li><li style=\" font-size: 12pt; color: rgb(30, 30, 30); line-height: 18pt; margin: 0px 0px 3.75pt;\">\n<span>Estimated delivery day and the latest delivery time</span></li></ul>\n<h3 style=\"line-height: 18pt; margin-right: 0px; margin-left: 0px; font-size: 13.5pt;\" dir=\"auto\">\n<span style=\"color: rgb(30, 30, 30);\">More information</span></h3>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">If\n you\u2019re interested in exploring how the Delivery Options API can enhance your checkout experience, please contact your own contact person or mail to\n</span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\"><a href=\"mailto:sales.fi@postnord.com\" title=\"mailto:sales.fi@postnord.com\" style=\"margin: 0px;\" rel=\"noreferrer\">sales.fi@postnord.com</a></span></p>\n<p style=\"margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">See\n in our Showroom how an e-commerce checkout can look with the Delivery Options API.<br>\n<br>\nYou will find f</span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">\u200b\u200b\u200b\u200b\u200b</span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">urther\n information for developers </span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\"><a href=\"https://developer.postnord.com/apis/details?systemName=shipment-v1-deliveryoptions\" title=\"https://developer.postnord.com/apis/details?systemName=shipment-v1-deliveryoptions\" style=\"margin: 0px;\" rel=\"noreferrer\">here</a></span><span style=\" font-size: 15px; color: rgb(36, 36, 36);\">.</span></p>\n<p style=\"margin-top: 1em; margin-bottom: 8.25pt;\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(36, 36, 36);\"><br>\nKind Regards,<br>\n<br>\nPostNord Oy</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"line-height: 19.5pt; font-size: 12pt; margin: 0px;\" dir=\"auto\">\n<span style=\" color: rgb(36, 36, 36);\">&nbsp;</span></p>\n<div style=\"margin: 0px;\">\n<p style=\"line-height: 0px; font-size: 12pt; margin: 0px;\" dir=\"auto\">\n<span style=\" font-size: 1pt; color: rgb(36, 36, 36);\"><img width=\"600\" height=\"55\" style=\"width: 450pt; height: 41.99pt; margin: 0px;\" src=\"https://storage.pardot.com/864462/1606294759vDvVI733/IMG_email_footer_arch_600x56.png\"></span></p>\n<p style=\"line-height: 0px; font-size: 12pt; margin: 0px;\" dir=\"auto\">\n<span style=\" font-size: 1pt; color: rgb(36, 36, 36);\"><img width=\"600\" height=\"55\" style=\"width: 450pt; height: 41.99pt; margin: 0px;\" src=\"https://storage.pardot.com/864462/1612431315zyBvv4dg/IMG_email_footer_arch_dark_600x56.png\"></span></p>\n</div>\n<div style=\"margin: 0px;\">\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"width: 583.922px; box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"background-color: rgb(243, 242, 242); width: 250.453px; padding: 15pt; border: 1pt solid rgb(230,230,230); background-color: F3F2F2\">\n<p style=\"line-height: 15pt; font-size: 12pt; color: rgb(38, 38, 38); margin: 0px;\" dir=\"auto\">\n<span style=\"font-size: 10.5pt;\">PostNord Oy<br>\nFirdonkatu 2 T 81<br>\n00520 Helsinki<br>\n<a href=\"https://www.postnord.fi/\" title=\"Alkuper\u00e4inen URL-osoite: https://www.postnord.fi/. Napsauta tai napauta, jos luotat t\u00e4h\u00e4n linkkiin.\" style=\"margin: 0px;\" rel=\"noreferrer\">postnord.fi</a></span></p>\n</td>\n<td style=\"background-color: rgb(243, 242, 242); width: 250.469px; padding: 15pt; border-color: rgb(230,230,230); border-style: solid solid solid none; border-width: 1pt; background-color: F3F2F2\">\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"width: 250.469px; box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td>\n<p style=\"line-height: 18pt; font-size: 12pt; margin: 0px 0px 9.75pt;\" dir=\"auto\">\n<span style=\" font-size: 15pt; color: black;\"><b>Seuraa meit\u00e4</b></span></p>\n</td>\n</tr>\n<tr>\n<td style=\"border: 1pt solid rgb(230,230,230);\">\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"width: 30pt; border: 1pt solid rgb(230,230,230);\">\n<p style=\"text-align: center; line-height: 7.5pt; font-size: 12pt; margin: 0px;\" align=\"center\" dir=\"auto\">\n<span style=\" font-size: 6pt; color: rgb(36, 36, 36);\">&nbsp;</span></p>\n</td>\n<td style=\"width: 7.5pt; border-color: rgb(230,230,230); border-style: solid solid solid none; border-width: 1pt;\">\n<p style=\" font-size: 12pt; margin: 0px;\" dir=\"auto\">\n<span style=\" font-size: 1pt; color: rgb(36, 36, 36);\">&nbsp;</span></p>\n</td>\n<td style=\"width: 30pt; border-color: rgb(230,230,230); border-style: solid solid solid none; border-width: 1pt;\">\n<p style=\"text-align: center; margin: 1em 0px 15pt;\" align=\"center\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(102, 102, 102);\"><a href=\"https://sites.postnord.fi/l/864462/2021-02-12/mppsxd\" title=\"Alkuper\u00e4inen URL-osoite: https://sites.postnord.fi/l/864462/2021-02-12/mppsxd. Napsauta tai napauta, jos luotat t\u00e4h\u00e4n linkkiin.\" style=\"color: rgb(102, 102, 102); margin: 0px;\" rel=\"noreferrer\"><img alt=\"Facebook\" width=\"39\" height=\"39\" style=\"width: 29.99pt; height: 29.99pt; margin: 0px;\" src=\"https://storage.pardot.com/864462/1606294343qWtM3ede/IMG_Facebook2_40x40.png\"></a></span></p>\n</td>\n<td style=\"width: 7.5pt; border-color: rgb(230,230,230); border-style: solid solid solid none; border-width: 1pt;\">\n<p style=\" font-size: 12pt; margin: 0px;\" dir=\"auto\">\n<span style=\" font-size: 1pt; color: rgb(36, 36, 36);\">&nbsp;</span></p>\n</td>\n<td style=\"width: 30pt; border-color: rgb(230,230,230); border-style: solid solid solid none; border-width: 1pt;\">\n<p style=\"text-align: center; margin: 1em 0px 15pt;\" align=\"center\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(102, 102, 102);\"><a href=\"https://sites.postnord.fi/l/864462/2021-02-12/mppsxn\" title=\"Alkuper\u00e4inen URL-osoite: https://sites.postnord.fi/l/864462/2021-02-12/mppsxn. Napsauta tai napauta, jos luotat t\u00e4h\u00e4n linkkiin.\" style=\"color: rgb(102, 102, 102); margin: 0px;\" rel=\"noreferrer\"><img alt=\"LinkedIn\" width=\"39\" height=\"39\" style=\"width: 29.99pt; height: 29.99pt; margin: 0px;\" src=\"https://storage.pardot.com/864462/1606294575bTlVaAsH/IMG_Linkedin_40x40.png\"></a></span></p>\n</td>\n<td style=\"width: 7.5pt; border-color: rgb(230,230,230); border-style: solid solid solid none; border-width: 1pt;\">\n<p style=\" font-size: 12pt; margin: 0px;\" dir=\"auto\">\n<span style=\" font-size: 1pt; color: rgb(36, 36, 36);\">&nbsp;</span></p>\n</td>\n<td style=\"width: 30pt; border-color: rgb(230,230,230); border-style: solid solid solid none; border-width: 1pt;\">\n<div style=\"margin: 0px;\">\n<p style=\"text-align: center; margin: 1em 0px 15pt;\" align=\"center\" dir=\"auto\"><span style=\" font-size: 15px; color: rgb(102, 102, 102);\"><a href=\"https://sites.postnord.fi/l/864462/2021-06-14/mz2sp6\" title=\"Alkuper\u00e4inen URL-osoite: https://sites.postnord.fi/l/864462/2021-06-14/mz2sp6. Napsauta tai napauta, jos luotat t\u00e4h\u00e4n linkkiin.\" style=\"color: rgb(102, 102, 102); margin: 0px;\" rel=\"noreferrer\"><img alt=\"Instagram\" width=\"39\" height=\"39\" style=\"width: 29.99pt; height: 29.99pt; margin: 0px;\" src=\"https://storage.pardot.com/864462/1606294462KeP4U9wz/IMG_Instagram_40x40.png\"></a></span></p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"width: 601.984px; box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td style=\"padding-right: 15pt; padding-bottom: 15pt; padding-left: 15pt; vertical-align: top; border: 1pt solid rgb(230,230,230);\" valign=\"top\">\n<p style=\"line-height: 15pt; margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\">\n<span style=\" font-size: 10.5pt; color: rgb(30, 30, 30);\">T\u00e4m\u00e4 s\u00e4hk\u00f6posti l\u00e4hetettiin osoitteeseen\n</span><span style=\" font-size: 10.5pt; color: rgb(0, 93, 146);\">{{Recipient.Email}}</span></p>\n<p style=\"line-height: 15pt; margin-top: 1em; margin-bottom: 1em;\" dir=\"auto\">\n<span style=\" font-size: 10.5pt; color: rgb(30, 30, 30);\">Jos et halua jatkossa postia meilt\u00e4, voit poistua postituslistaltamme\n</span><span style=\" font-size: 10.5pt; color: rgb(0, 93, 146);\"><a href=\"https://sites.postnord.fi/unsubscribe/u/864462\" title=\"Alkuper\u00e4inen URL-osoite: https://sites.postnord.fi/unsubscribe/u/864462. Napsauta tai napauta, jos luotat t\u00e4h\u00e4n linkkiin.\" style=\"color: rgb(0, 93, 146); margin: 0px;\" rel=\"noreferrer\">t\u00e4st\u00e4.</a></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div></div>",
+      "plain_body": "Hei, \n \n\n\n \n \noheinen viesti on t\u00e4n\u00e4\u00e4n l\u00e4hetetty asiakkaille. Jos haluatte jutella t\u00e4st\u00e4 lis\u00e4\u00e4 voimme sopia palaveria. \n \n\n\n \n \nHello, \n \n\n\n \n \nWe've sent following email to our customers today. If you wanna chat more about this, we can schedule a meeting. \n \n\n\n \n\n\n\n\n \n \n\n\n\n\n\n\n\n\n \nMik\u00e4 Delivery Options API ja kuinka se parantaa verkkokaupan kassakokemusta? \n\n\n\n\n\n\n\n\n \n \n\n\n\n\n\n\n\n\n PostNordin Delivery Options API-rajapinnan avulla verkkokauppa voi n\u00e4ytt\u00e4\u00e4 asiakkaalle kassalla tarkemmat\n toimitusvaihtoehdot ja toimitusajat PostNordin palveluille. \n Delivery\n Options API mahdollistaa sen, ett\u00e4 verkkokauppan kassalla voi n\u00e4ytt\u00e4\u00e4 tarkat ja ajantasaiset PostNordin toimitusvaihtoehdot sek\u00e4 toimitusajat. \n \nMit\u00e4 hy\u00f6ty\u00e4 DO API:sta on verkkokaupalle? \n DO\n API auttaa parantamaan asiakaskokemusta ja tukee myynti\u00e4: \n \n \nN\u00e4ytt\u00e4\u00e4 toimitusp\u00e4iv\u00e4arvion kassalla (esim.\n\u201cToimitus torstaina\u201d)  \nN\u00e4ytt\u00e4\u00e4 toimituksen viimeisen ajankohdan (esim.\n\u201cviimeist\u00e4\u00e4n klo 16\u201d)  \nN\u00e4ytt\u00e4\u00e4 vain ne toimitusvaihtoehdot, jotka ovat oikeasti mahdollisia kyseiselle l\u00e4hetykselle  \nTekee kassasta selke\u00e4mm\u00e4n ja l\u00e4pin\u00e4kyv\u00e4mm\u00e4n \u2013 ja parantaa n\u00e4in my\u00f6s ostokonversiota  \n \nMiten DO APIN:n saa k\u00e4ytt\u00f6\u00f6n? \n K\u00e4ytt\u00f6\u00f6notto\n on verkkokaupalle suoraviivaista: \n Tekniset edellytykset \n \n \nCheckout-ratkaisun tulee tukea DO\u2011API-kutsuja\n\ntai  \nk\u00e4yt\u00f6ss\u00e4 voi olla alusta/kumppani, jossa DO\u2011API on jo valmiiksi tuettuna  \n &nbsp;Jos\n tuki on olemassa, k\u00e4ytt\u00f6\u00f6notto onnistuu yleens\u00e4 pelk\u00e4ll\u00e4 aktivoinnilla.&nbsp;Muussa tapauksessa tarvitaan kevyt integraatio checkoutiin. \n Tarvittavat tiedot\n\n\n\nJotta voimme laskea toimitusvaihtoehdot ja aikataulut, verkkokauppa antaa DO\u2011API:lle: \n \n \nL\u00e4hetyksen l\u00e4ht\u00f6osoitteen  \nAjankohdan, jolloin l\u00e4hetys on valmis noudettavaksi  \nVastaanottajan tiedot  \n N\u00e4iden\n tietojen perusteella pystymme m\u00e4\u00e4ritt\u00e4m\u00e4\u00e4n: \n \n \nsaatavilla olevat toimituspalvelut  \ntoimitusp\u00e4iv\u00e4arvion sek\u00e4 viimeisen toimitusajankohdan  \n \nLis\u00e4tietoja \n Jos\n olet kiinnostunut Delivery Options API:n mahdollisuuksista verkkokauppasi kassakokemuksen kehitt\u00e4miseen, ota yhteytt\u00e4 omaan yhteysehenkil\u00f6\u00f6si tai osoitteseen\nsales.fi@postnord.com.\n\n\n\nKatso Showroomistamme,\n milt\u00e4 verkkokaupan kassa voi n\u00e4ytt\u00e4\u00e4 Delivery Options API:n avulla.\n\n\n\nLis\u00e4tietoja kehitt\u00e4jille l\u00f6yd\u00e4t&nbsp;t\u00e4\u00e4lt\u00e4.\n\n\n\n\u200b\u200b\u200bParhain\n terveisin \n PostNord \n\n\n\n\n \n&nbsp; \n\n\n\n\n \nPostNord Delivery Options API \n\n\n\n\n\n\n\n\n \n \n\n\n\n\n\n\n\n\n With PostNord\u2019s Delivery Options API, e-commerce businesses can display more accurate delivery options\n and delivery times for PostNord services at checkout. \n The\n Delivery Options API enables e-commerce checkouts to present precise and up-to-date PostNord delivery options along with estimated delivery times. \n \nWhat are the benefits of the DO API for e-commerce? \n The\n DO API helps improve the customer experience and supports sales by: \n \n \nDisplaying an estimated delivery day at checkout (e.g. \u201cDelivery on Thursday\u201d)  \nShowing the latest possible delivery time (e.g. \u201cno later than 4 PM\u201d)  \nDisplaying only the delivery options that are actually available for the specific shipment  \nMaking the checkout clearer and more transparent \u2014 which also improves conversion rates  \n \nHow to get started with the DO API \n Implementation\n is straightforward for e-commerce businesses: \n Technical requirements \n \n \nThe checkout solution must support DO API calls\n\nor  \nThe business can use a platform or partner where the DO API is already supported  \n If\n support is already in place, activation is usually all that\u2019s needed. Otherwise, a lightweight checkout integration is required. \n Required information \n To\n calculate delivery options and schedules, the e-commerce platform provides the DO API with: \n \n \nThe shipment\u2019s origin address  \nThe time when the shipment is ready for pickup  \nReceiver information  \n Based\n on this information, we can determine: \n \n \nAvailable delivery services  \nEstimated delivery day and the latest delivery time  \n \nMore information \n If\n you\u2019re interested in exploring how the Delivery Options API can enhance your checkout experience, please contact your own contact person or mail to\nsales.fi@postnord.com \n See\n in our Showroom how an e-commerce checkout can look with the Delivery Options API.\n\n\n\nYou will find f\u200b\u200b\u200b\u200b\u200burther\n information for developers here. \n \n\nKind Regards,\n\n\n\nPostNord Oy \n\n\n\n\n \n&nbsp; \n \n \n \n \n \n \n \n\n\n\n\n \nPostNord Oy\n\nFirdonkatu 2 T 81\n\n00520 Helsinki\n\npostnord.fi \n\n\n\n\n\n\n \nSeuraa meit\u00e4 \n\n\n\n\n\n\n\n\n \n&nbsp; \n\n\n \n&nbsp; \n\n\n  \n\n\n \n&nbsp; \n\n\n  \n\n\n \n&nbsp; \n\n\n \n  \n \n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n \nT\u00e4m\u00e4 s\u00e4hk\u00f6posti l\u00e4hetettiin osoitteeseen\n{{Recipient.Email}} \n \nJos et halua jatkossa postia meilt\u00e4, voit poistua postituslistaltamme\nt\u00e4st\u00e4.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58669674104345,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "it.fi@postnord.com",
+            "name": "FI IT",
+            "original_recipients": [
+              "it.fi@postnord.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T11:53:24Z",
+      "metadata": {
+        "system": {
+          "message_id": "<MRWPR02MB11680D69F32CC73B19C8BC1D6F6112@MRWPR02MB11680.eurprd02.prod.outlook.com>",
+          "email_id": "01KTBT2WXYVNP7MKN4448P7ABE",
+          "raw_email_identifier": "2369120/34f19f5e-b414-41ca-b2f5-15c86a3ecd50.eml",
+          "json_email_identifier": "2369120/34f19f5e-b414-41ca-b2f5-15c86a3ecd50.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58670680384281,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Raised L3 For team to check :\nPostNord has shared information regarding their Delivery Options API (DO API) and its capabilities for enhancing the checkout experience.\n\nCould you please check it?",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Raised L3 For team to check :&nbsp;<br>PostNord has shared information regarding their Delivery Options API (DO API) and its capabilities for enhancing the checkout experience.<br>&nbsp;<br>Could you please check it?<br></div>",
+      "plain_body": "Raised L3 For team to check :&nbsp;\nPostNord has shared information regarding their Delivery Options API (DO API) and its capabilities for enhancing the checkout experience.\n&nbsp;\nCould you please check it?",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58670680384153,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T12:32:09Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58670781034777,
+      "type": "Comment",
+      "author_id": 408652762191,
+      "body": "Hi Team,\n\nGreetings from PluginHive.!\n\nAbhilash, our Partnerships Manager has received the email from your side regarding this. We are interested, and he will take this forward.\n\nHave a good day.!\n\nRegards,\n\nShivani Shinde\nIT Analyst\nTeam PluginHive\nhttps://www.pluginhive.com",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br>Greetings from PluginHive.!<br>&nbsp;<br>Abhilash, our Partnerships Manager has received the email from your side regarding this. We are interested, and he will take this forward.<br>&nbsp;<br>Have a good day.!<br>\n\n<span class=\"collapse-signature\"></span><div class=\"signature\"><p dir=\"auto\">Regards,</p>\n<p dir=\"auto\">Shivani Shinde<br>\nIT Analyst<br>\nTeam PluginHive<br>\n<a href=\"https://www.pluginhive.com\" rel=\"noreferrer\">https://www.pluginhive.com</a></p></div></div>",
+      "plain_body": "Hi Team,\n&nbsp;\nGreetings from PluginHive.!\n&nbsp;\nAbhilash, our Partnerships Manager has received the email from your side regarding this. We are interested, and he will take this forward.\n&nbsp;\nHave a good day.!\n\n\n  Regards, \n Shivani Shinde\n\nIT Analyst\n\nTeam PluginHive\n\nhttps://www.pluginhive.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58670781034649,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T12:36:58Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "ip_address": "51.158.254.168",
+          "location": "Haarlem, NH, The Netherlands",
+          "latitude": 52.3803,
+          "longitude": 4.6422
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59083674575257,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "https://pluginhive.slack.com/archives/C02E15X8X0C/p1780662852591669\nFollowed up with team as this ticket is still in L3\nAddded MCSL tag as it's from carrier end",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1780662852591669\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1780662852591669</a><br>Followed up with team as this ticket is still in L3<br>Addded MCSL tag as it's from carrier end&nbsp;<br></div>",
+      "plain_body": "https://pluginhive.slack.com/archives/C02E15X8X0C/p1780662852591669\nFollowed up with team as this ticket is still in L3\nAddded MCSL tag as it's from carrier end&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59083674575129,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T06:44:29Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59095106250137,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "This would need development from our end. Added for next release cycle. Will update the ETA.\n [Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This would need development from our end. Added for next release cycle. Will update the ETA.<br>&nbsp;[Veena]<br></div>",
+      "plain_body": "This would need development from our end. Added for next release cycle. Will update the ETA.\n&nbsp;[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59095106250009,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T12:22:07Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Manjeri, KL, India",
+          "latitude": 11.12,
+          "longitude": 76.1247
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59096761929753,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Team,\n\nThank you for sharing the PostNord Delivery Options API details with us.\n\nOur development team has since reviewed the integration requirements and confirmed that supporting the DO API would require development work on our end. We have added this to our next release cycle.\n\nThanks and regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Thank you for sharing the PostNord Delivery Options API details with us.<br>&nbsp;<br>Our development team has since reviewed the integration requirements and confirmed that supporting the DO API would require development work on our end. We have added this to our next release cycle.<br>&nbsp;<br>Thanks and regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nThank you for sharing the PostNord Delivery Options API details with us.\n&nbsp;\nOur development team has since reviewed the integration requirements and confirmed that supporting the DO API would require development work on our end. We have added this to our next release cycle.\n&nbsp;\nThanks and regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59096761929625,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T13:35:40Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59096805019673,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Moved to dev needed\nand will follow up for eta",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moved to dev needed&nbsp;<br>and will follow up for eta<br></div>",
+      "plain_body": "Moved to dev needed&nbsp;\nand will follow up for eta",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59096805019161,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T13:37:06Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59096794714393,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "[Added dev completed by mistake, unable to remove and save] '\n\n\nCurrent status: dev needed",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">[Added dev completed by mistake, unable to remove and save] '<br>&nbsp;<br>&nbsp;<br>Current status: dev needed<br></div>",
+      "plain_body": "[Added dev completed by mistake, unable to remove and save] '\n&nbsp;\n&nbsp;\nCurrent status: dev needed",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59096794714009,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T13:39:03Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59131039566105,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "ETA: on or before 7th July.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA: on or before 7th July.<br>[Veena]<br></div>",
+      "plain_body": "ETA: on or before 7th July.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59131039565721,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T12:14:27Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59132451495065,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "No reply needed as the mail was from postnord\nticket in dev needed",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">No reply needed as the mail was from postnord&nbsp;<br>ticket in dev needed<br></div>",
+      "plain_body": "No reply needed as the mail was from postnord&nbsp;\nticket in dev needed",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59132435150617,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T13:16:55Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

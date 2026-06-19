@@ -1,0 +1,2429 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/389228.json",
+    "id": 389228,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-05-12T15:45:27Z",
+    "updated_at": "2026-05-27T11:26:57Z",
+    "generated_timestamp": 1779881246,
+    "type": null,
+    "subject": "1.\tThe orders are no longer auto importing into th...",
+    "raw_subject": "1.\tThe orders are no longer auto importing into th...",
+    "description": "1.\tThe orders are no longer auto importing into the shipping plugin. \n2.\tImport orders do not work the first time. User must click refresh twice. This happens often but not all the time. \n\n\n------------------\nSubmitted from: https://mcsl-w.pluginhive.io/home/views/orders/status/allorders",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 50144884638745,
+    "submitter_id": 50144884638745,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "high_agent_replies",
+      "last_reply_customer",
+      "web_widget",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "3cc202c0-d7c3-49bd-9a3d-69f240c68185"
+      },
+      {
+        "id": 6680360109081,
+        "value": "2487193842"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "6a0ad0f72d2a7c63e20857d7"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "444YZ3-YV5JJ",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "3cc202c0-d7c3-49bd-9a3d-69f240c68185"
+      },
+      {
+        "id": 6680360109081,
+        "value": "2487193842"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "6a0ad0f72d2a7c63e20857d7"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 57853450416665,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "1.\tThe orders are no longer auto importing into the shipping plugin. \n2.\tImport orders do not work the first time. User must click refresh twice. This happens often but not all the time. \n\n\n------------------\nSubmitted from: https://mcsl-w.pluginhive.io/home/views/orders/status/allorders",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">1.\tThe orders are no longer auto importing into the shipping plugin. \n<br>2.\tImport orders do not work the first time. User must click refresh twice. This happens often but not all the time. </p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-w.pluginhive.io/home/views/orders/status/allorders\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-w.pluginhive.io/home/views/orders/status/allorders</a></p></div>",
+      "plain_body": "1.\tThe orders are no longer auto importing into the shipping plugin. \n\n2.\tImport orders do not work the first time. User must click refresh twice. This happens often but not all the time.  \n\n ------------------\n\nSubmitted from: https://mcsl-w.pluginhive.io/home/views/orders/status/allorders",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57853450416537,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-05-12T15:45:27Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "ip_address": "202.49.186.55",
+          "location": "Chicago, IL, United States",
+          "latitude": 41.871,
+          "longitude": -87.6289
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 57854547084953,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "US Store.\nOrders - NA\nCarrier - UPS\nLabels - 87 in May\nRates - Yes\nPlan - $19\nActive from 2024-10-23",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">US Store.<br>Orders - NA<br>Carrier - UPS<br>Labels - 87 in May<br>Rates - Yes<br>Plan - $19<br>Active from 2024-10-23<br></div>",
+      "plain_body": "US Store.\nOrders - NA\nCarrier - UPS\nLabels - 87 in May\nRates - Yes\nPlan - $19\nActive from 2024-10-23",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57854547084825,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-12T17:08:43Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57854619276441,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello American Natural Premium,\n\nGood Day!\n\nTo answer your queries -\n1. Order 12081 is the latest order imported in the plugin on your store. Could you please let us know if you have any other recent order which is not imported in the plugin? If so, please share the status of the order in WooCommerce.\n2. When import is initiated, the import takes some time and the Refresh will appear at every new update. Please wait for some time before clicking on Refresh.\n\n\nFor the order import case, to check further, please share WP Admin Access (URL, Username and Password) for your store as well.\n\nLooking forward to your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello American Natural Premium,<br>&nbsp;<br>Good Day!<br>&nbsp;<br>To answer your queries -&nbsp;<br><ol dir=\"auto\"><li>Order 12081 is the latest order imported in the plugin on your store. Could you please let us know if you have any other recent order which is not imported in the plugin? If so, please share the status of the order in WooCommerce.</li><li>When import is initiated, the import takes some time and the Refresh will appear at every new update. Please wait for some time before clicking on Refresh.</li></ol>&nbsp;<br>For the order import case, to check further, please share WP Admin Access (URL, Username and Password) for your store as well.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello American Natural Premium,\n&nbsp;\nGood Day!\n&nbsp;\nTo answer your queries -&nbsp;\n  Order 12081 is the latest order imported in the plugin on your store. Could you please let us know if you have any other recent order which is not imported in the plugin? If so, please share the status of the order in WooCommerce.  When import is initiated, the import takes some time and the Refresh will appear at every new update. Please wait for some time before clicking on Refresh.  &nbsp;\nFor the order import case, to check further, please share WP Admin Access (URL, Username and Password) for your store as well.\n&nbsp;\nLooking forward to your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57854619276313,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-12T17:11:49Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57854617637529,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Hi,\n Username: dev\n\nPW: n)YAtwB(Eu(763WmeRhuvFGf\n\n\n\nThank you!",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi,<div>&nbsp;Username: dev</div><div>PW: n)YAtwB(Eu(763WmeRhuvFGf</div><div><br></div><div>Thank you!</div></div><br><div></div></div>",
+      "plain_body": "Hi, &nbsp;Username: dev  PW: n)YAtwB(Eu(763WmeRhuvFGf  \n  Thank you!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57854617637401,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-12T17:16:43Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+zZuo28Ta1X6tL2=F8B4Bn0JvarDfX4ekSL3aqSGzaZrQ@mail.gmail.com>",
+          "email_id": "01KREK1P1QJYA1ZESSW5E6176V",
+          "raw_email_identifier": "2369120/ca319c3b-606f-40b7-9148-a63d3d4f8082.eml",
+          "json_email_identifier": "2369120/ca319c3b-606f-40b7-9148-a63d3d4f8082.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57854767496857,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Also, I forgot to mention two others issues. 1. Some orders were not importing (manually) at all so we had to manually fullfill it. Order Numbers 12062 and 12082. 2. The client took a screenshot (see attached) relating to \"Unable to load woocommerce shipping rates, labels and tracking\" and suggest we contact PluginHive.\n\n\nThanks for your assistance.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Also, I forgot to mention two others issues. 1. Some orders were not importing (manually) at all so we had to manually&nbsp;fullfill it. Order Numbers 12062 and 12082. 2. The client took a screenshot (see attached) relating to \"Unable to load woocommerce shipping rates, labels and tracking\" and suggest we contact PluginHive.<div><br></div><div>Thanks for your assistance.&nbsp;</div></div><br><div></div></div>",
+      "plain_body": "Also, I forgot to mention two others issues. 1. Some orders were not importing (manually) at all so we had to manually&nbsp;fullfill it. Order Numbers 12062 and 12082. 2. The client took a screenshot (see attached) relating to \"Unable to load woocommerce shipping rates, labels and tracking\" and suggest we contact PluginHive. \n  Thanks for your assistance.&nbsp;",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57854767497113.json",
+          "id": 57854767497113,
+          "file_name": "image.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/YBBauKs94iQC8Iv8eSueUJOTZ/?name=image.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/YBBauKs94iQC8Iv8eSueUJOTZ/?name=image.png",
+          "content_type": "image/png",
+          "size": 52173,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/57854798735513.json",
+              "id": 57854798735513,
+              "file_name": "image_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/umi9Luzn6Eq17nwYVz3xWe4AD/?name=image_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/umi9Luzn6Eq17nwYVz3xWe4AD/?name=image_thumb.png",
+              "content_type": "image/png",
+              "size": 1460,
+              "width": 80,
+              "height": 23,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 57854783333273,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-12T17:26:14Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+y9EqsUhaAwLY=VrNi7yWL=jzp-CkqK2OjVNmo0DDV_vg@mail.gmail.com>",
+          "email_id": "01KREKK30ATVGQ3D0RPXZHHN6T",
+          "raw_email_identifier": "2369120/12ae56a9-ccd7-4854-b192-cd1d7450f0e1.eml",
+          "json_email_identifier": "2369120/12ae56a9-ccd7-4854-b192-cd1d7450f0e1.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57855354465945,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello American Natural Premium,\n\nThank you for the access.\n\nI have checked the cases on your store and the plugin loaded without any difficulty for us. There might have been some temporary case maybe due to network unavailability where the plugin did not load.\n\nFor the order import failures, I checked and could observe that some webhooks were disabled for the plugin. I have refreshed all the webhooks for the plugin on your store and made sure all the recent orders in Processing Status in WooCommerce are imported in the plugin (12083 and 12084).\n\nPlease monitor the case with new orders and let us know if the orders do not import automatically.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello American Natural Premium,<br>&nbsp;<br>Thank you for the access.<br>&nbsp;<br>I have checked the cases on your store and the plugin loaded without any difficulty for us. There might have been some temporary case maybe due to network unavailability where the plugin did not load.<br>&nbsp;<br>For the order import failures, I checked and could observe that some webhooks were disabled for the plugin. I have refreshed all the webhooks for the plugin on your store and made sure all the recent orders in Processing Status in WooCommerce are imported in the plugin (12083 and 12084).<br>&nbsp;<br>Please monitor the case with new orders and let us know if the orders do not import automatically.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello American Natural Premium,\n&nbsp;\nThank you for the access.\n&nbsp;\nI have checked the cases on your store and the plugin loaded without any difficulty for us. There might have been some temporary case maybe due to network unavailability where the plugin did not load.\n&nbsp;\nFor the order import failures, I checked and could observe that some webhooks were disabled for the plugin. I have refreshed all the webhooks for the plugin on your store and made sure all the recent orders in Processing Status in WooCommerce are imported in the plugin (12083 and 12084).\n&nbsp;\nPlease monitor the case with new orders and let us know if the orders do not import automatically.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57855354465817,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-12T18:15:19Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57855419089817,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Thank you!\n\n\n\nJason Ballantyne\n(248) 719-3842\nFounder / President\nSmart Site Services",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div>Thank you!</div><div><br></div><div>Jason Ballantyne<br>(248) 719-3842<br>Founder / President <br>Smart Site Services</div></div><br><div></div></div>",
+      "plain_body": "Thank you!  \n  Jason Ballantyne\n(248) 719-3842\nFounder / President \nSmart Site Services",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57855419089689,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-12T18:24:57Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+wC6nPt-kkomnR8HXWzy0wc3ypB6KVVYQAU-sAqC99=2w@mail.gmail.com>",
+          "email_id": "01KREPYMH0WCCTETZQ9ZRNB4ZS",
+          "raw_email_identifier": "2369120/52515cb0-0f7d-4aa5-abc2-63450aecb16e.eml",
+          "json_email_identifier": "2369120/52515cb0-0f7d-4aa5-abc2-63450aecb16e.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57855469378201,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Jason,\n\nThank you for your response and acknowledgement.\n\nFeel free to reach out if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Thank you for your response and acknowledgement.<br>&nbsp;<br>Feel free to reach out if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nThank you for your response and acknowledgement.\n&nbsp;\nFeel free to reach out if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57855469378073,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-12T18:27:29Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57887674313881,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Hey Touseef,\n\n\nThe client (American Natural Premium), is still saying the orders are not automatically appearing in PluginHive. Sorry for the delay, we are all in different time zones. We still have to click the import button.\n\n\n\nThanks,\n\nJason Ballantyne",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hey&nbsp;<span style=\"color: rgb(43,46,47); font-size: 12px;\">Touseef,</span><div><span style=\"color: rgb(43,46,47); font-size: 12px;\"><br></span></div><div><span style=\"color: rgb(43,46,47); font-size: 12px;\">The client (American Natural Premium), is still saying the orders are not automatically appearing in PluginHive. Sorry for the delay, we are all in different time zones. We still have to click the import button.&nbsp;</span></div><div><span style=\"color: rgb(43,46,47); font-size: 12px;\"><br></span></div><div><span style=\"color: rgb(43,46,47); font-size: 12px;\">Thanks,</span></div><div><span style=\"color: rgb(43,46,47); font-size: 12px;\">Jason Ballantyne</span></div><div><span style=\"color: rgb(43,46,47); font-size: 12px;\"><br></span></div></div><br><div></div></div>",
+      "plain_body": "Hey&nbsp;Touseef, \n  The client (American Natural Premium), is still saying the orders are not automatically appearing in PluginHive. Sorry for the delay, we are all in different time zones. We still have to click the import button.&nbsp;  \n  Thanks,  Jason Ballantyne",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57887674313753,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T14:26:53Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+xrjdOq-qgHGHOJfq0j6qrpqvzC-e-gTTTqFaoRRzJosQ@mail.gmail.com>",
+          "email_id": "01KRGVQE5GH9JFYRFCFR7NT7QT",
+          "raw_email_identifier": "2369120/2f75c022-9ead-4463-8810-7afa3d798029.eml",
+          "json_email_identifier": "2369120/2f75c022-9ead-4463-8810-7afa3d798029.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57888093067289,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "https://americannaturalpremium.com/wp-admin\nUsername: dev\nPW: n)YAtwB(Eu(763WmeRhuvFGf",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><a rel=\"noopener noreferrer\" href=\"https://americannaturalpremium.com/wp-admin\">https://americannaturalpremium.com/wp-admin</a>&nbsp;<br>Username: dev<br>PW: n)YAtwB(Eu(763WmeRhuvFGf<br></div>",
+      "plain_body": "https://americannaturalpremium.com/wp-admin&nbsp;\nUsername: dev\nPW: n)YAtwB(Eu(763WmeRhuvFGf",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57888093067033,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T14:51:50Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57888140572569,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Findings -\n- All Webhooks are active and no duplicates.\n- 12093 - latest order in Woo and in the plugin.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Findings -<br><ul dir=\"auto\"><li>All Webhooks are active and no duplicates.</li><li>12093 - latest order in Woo and in the plugin.</li></ul></div>",
+      "plain_body": "Findings -\n  All Webhooks are active and no duplicates.  12093 - latest order in Woo and in the plugin.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57888140568601,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T14:54:46Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57888182778905,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Jason,\n\nThank you for your response.\n\nAs of now, I can observe that Order 12093 is the latest order in WooCommerce and in the plugin as well.\n\nTo investigate this case further from our end, you will have to reach out to us once this case happens again. Additionally, please **DO NOT** use the Import Orders button to manually import the order.\n\nThis will help us in investigating the case further.\n\nLooking forward to your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>As of now, I can observe that Order 12093 is the latest order in WooCommerce and in the plugin as well.<br>&nbsp;<br>To investigate this case further from our end, you will have to reach out to us once this case happens again. Additionally, please <strong>DO NOT</strong> use the Import Orders button to manually import the order.<br>&nbsp;<br>This will help us in investigating the case further.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nThank you for your response.\n&nbsp;\nAs of now, I can observe that Order 12093 is the latest order in WooCommerce and in the plugin as well.\n&nbsp;\nTo investigate this case further from our end, you will have to reach out to us once this case happens again. Additionally, please DO NOT use the Import Orders button to manually import the order.\n&nbsp;\nThis will help us in investigating the case further.\n&nbsp;\nLooking forward to your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57888182778777,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T14:56:54Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57888346033945,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Okay sounds good. Yes, I manually imported that one. I will tell the office not to manually import the order so we can resolve. Thank you.\n\n\n\nJason Ballantyne\n(248) 719-3842\nFounder / President\nSmart Site Services",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div>Okay sounds good. Yes, I manually imported that one. I will tell the office not to manually import the order so we can resolve. Thank you.</div><div><br></div><div>Jason Ballantyne<br>(248) 719-3842<br>Founder / President <br>Smart Site Services</div></div><br><div></div></div>",
+      "plain_body": "Okay sounds good. Yes, I manually imported that one. I will tell the office not to manually import the order so we can resolve. Thank you.  \n  Jason Ballantyne\n(248) 719-3842\nFounder / President \nSmart Site Services",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57888346033817,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T15:06:16Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+wLkcxzCvAOYSfrBVPZeesUW1sDzup7f8XAP1a+YSausA@mail.gmail.com>",
+          "email_id": "01KRGXZHXCJMF0CD4PTHM6QFCH",
+          "raw_email_identifier": "2369120/a648ca0b-6a87-45ae-b7d0-21aa0f23f736.eml",
+          "json_email_identifier": "2369120/a648ca0b-6a87-45ae-b7d0-21aa0f23f736.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57888446923673,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Jason,\n\nThank you for your response and acknowledgement.\n\nPlease reach out once you have the same case.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Thank you for your response and acknowledgement.<br>&nbsp;<br>Please reach out once you have the same case.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nThank you for your response and acknowledgement.\n&nbsp;\nPlease reach out once you have the same case.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57888446923545,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T15:12:12Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57891786477977,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Hey,\n\n\n\nOk we had two more orders which did not automatically appear in pluginhive. See image below:\n\n\n\n\n ![](https://support.pluginhive.com/attachments/token/FIjbrbXV77c2XWVcbBddkLXRu/?name=1000024752.jpg)\n\n\n\n\nJason Ballantyne\n(248) 719-3842\nFounder / President\nSmart Site Services",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div>Hey,</div><div dir=\"auto\"><br></div><div dir=\"auto\">Ok we had two more orders which did not automatically appear in pluginhive. See image below:</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br><img src=\"https://support.pluginhive.com/attachments/token/FIjbrbXV77c2XWVcbBddkLXRu/?name=1000024752.jpg\" style=\"max-width: 100%; height: auto;\"><br><br></div><div><br></div><div>Jason Ballantyne<br>(248) 719-3842<br>Founder / President <br>Smart Site Services</div></div><br><div></div></div>",
+      "plain_body": "Hey,  \n  Ok we had two more orders which did not automatically appear in pluginhive. See image below:  \n  \n\n\n  \n  Jason Ballantyne\n(248) 719-3842\nFounder / President \nSmart Site Services",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57891786477849,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T19:41:22Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+xehho2Ex9w1ytd7Bgncsq0zg=up8meARup80GP3SKo-A@mail.gmail.com>",
+          "email_id": "01KRHDQ7TVZ0XMY9CQ6CC6R3TP",
+          "raw_email_identifier": "2369120/994417c5-3692-454c-af72-5bbfb13ae8de.eml",
+          "json_email_identifier": "2369120/994417c5-3692-454c-af72-5bbfb13ae8de.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57893969003801,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Jason,\n\nWe have taken care of this case, and orders are imported.\n\nPlease monitor the coming new orders and check how it goes. The WooCommerce processing orders should automatically import into the plugin.\n\nFeel free to reachout to us if you need any further assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>We have taken care of this case, and orders are imported.&nbsp;<br>&nbsp;<br>Please monitor the coming new orders and check how it goes. The WooCommerce processing orders should automatically import into the plugin.<br>&nbsp;<br>Feel free to reachout to us if you need any further assistance.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nWe have taken care of this case, and orders are imported.&nbsp;\n&nbsp;\nPlease monitor the coming new orders and check how it goes. The WooCommerce processing orders should automatically import into the plugin.\n&nbsp;\nFeel free to reachout to us if you need any further assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57893969003673,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T22:52:06Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57893994273433,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "When checked 2 orders not imported and both orders has products that were duplicated within the plugin.\n\nWe deleted all products and imported them freshly and orders are being imported",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">When checked 2 orders not imported and both orders has products that were duplicated within the plugin.<br>&nbsp;<br>We deleted all products and imported them freshly and orders are being imported<br></div>",
+      "plain_body": "When checked 2 orders not imported and both orders has products that were duplicated within the plugin.\n&nbsp;\nWe deleted all products and imported them freshly and orders are being imported",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57894015593881,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T22:53:08Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57894076650649,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Thanks. I'll keep an eye on it.\n\n\n\nJason Ballantyne\n(248) 719-3842\nFounder / President\nSmart Site Services",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div>Thanks. I'll keep an eye on it.</div><div><br></div><div>Jason Ballantyne<br>(248) 719-3842<br>Founder / President <br>Smart Site Services</div></div><br><div></div></div>",
+      "plain_body": "Thanks. I'll keep an eye on it.  \n  Jason Ballantyne\n(248) 719-3842\nFounder / President \nSmart Site Services",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57894076650521,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T22:57:08Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+zjhwrMMcy7jZ4Bg4GtF9RQ05E010Yx345p7TO+DnGA6A@mail.gmail.com>",
+          "email_id": "01KRHRXQ9GWMGTYT91MM0AH6GH",
+          "raw_email_identifier": "2369120/af7164c3-d3a1-4e9d-87ec-800d21103efa.eml",
+          "json_email_identifier": "2369120/af7164c3-d3a1-4e9d-87ec-800d21103efa.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57894061405465,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Jason,\n\nThank you for your response.\n\nDo let me know how it goes.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Do let me know how it goes.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nThank you for your response.\n&nbsp;\nDo let me know how it goes.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57894061405337,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-13T22:58:54Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57925094535321,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Hey team, 2 more orders did not automatically populate in the shipping plugin today. The issue is still ongoing.\n\n\nThanks for assistance,",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hey team, 2 more orders did not automatically populate in the shipping plugin today. The issue is still ongoing.&nbsp;<div><br></div><div>Thanks for assistance,</div><div><br></div></div><br><div></div></div>",
+      "plain_body": "Hey team, 2 more orders did not automatically populate in the shipping plugin today. The issue is still ongoing.&nbsp; \n  Thanks for assistance,",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57925094535193,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T16:24:09Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+w7_VLDaXGD03-q3unW1nwLJR2bwmP_QHAFUqd7V1LDsw@mail.gmail.com>",
+          "email_id": "01KRKMTVQR6K3RAYX13FD3WN0A",
+          "raw_email_identifier": "2369120/fde1251a-0ff0-45fd-9592-a683513ffdd9.eml",
+          "json_email_identifier": "2369120/fde1251a-0ff0-45fd-9592-a683513ffdd9.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57925294152089,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Jason,\n\nSorry for the inconvenience caused.\n\nI am forwarding this case to our technical team to investigate it in detail. We will get back to you with an update as soon as possible.\n\nI request you to please avoid force importing or completing the orders manually for now, as we would like to review the case and provide a fix.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Sorry for the inconvenience caused.<br>&nbsp;<br>I am forwarding this case to our technical team to investigate it in detail. We will get back to you with an update as soon as possible.<br>&nbsp;<br>I request you to please avoid force importing or completing the orders manually for now, as we would like to review the case and provide a fix.<br>&nbsp;<br>We appreciate your time and patience.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nSorry for the inconvenience caused.\n&nbsp;\nI am forwarding this case to our technical team to investigate it in detail. We will get back to you with an update as soon as possible.\n&nbsp;\nI request you to please avoid force importing or completing the orders manually for now, as we would like to review the case and provide a fix.\n&nbsp;\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57925294151961,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T16:40:33Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57925333786905,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "**Need Assistance from L3 Team**\n\n**Case:** Orders not importing into WSS automatically\n\n**Details:**\nThe customer is reporting that WooCommerce processing orders are not importing automatically into the WSS plugin. This issue has been reported multiple times.\n\nFor reference, when the customer clicks on Import Orders, all processing orders are imported successfully without any issues.\n\nCould you please investigate why orders are not importing into WSS automatically?\n\n**What we have checked:**\n\n- WP JSON: Working fine\n- Webhooks sync: Working fine, no duplicates found\n- Products: Successfully imported\n- Order status: Processing\n\n\n**Expected Behavior:**\nWooCommerce orders should automatically import into the plugin without requiring any manual action.\n\n**Store Details:**\n\n- Store URL: https://americannaturalpremium.com/\n- Account ID: 3cc202c0-d7c3-49bd-9a3d-69f240c68185\n\n\n**WP Admin Details:**\n\n- URL: https://americannaturalpremium.com/wp-admin\n- Username: dev\n- Password: n)YAtwB(Eu(763WmeRhuvFGf",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><strong>Need Assistance from L3 Team</strong><br>&nbsp;<br><strong>Case:</strong> Orders not importing into WSS automatically<br>&nbsp;<br><strong>Details:</strong><br>The customer is reporting that WooCommerce processing orders are not importing automatically into the WSS plugin. This issue has been reported multiple times.<br>&nbsp;<br>For reference, when the customer clicks on Import Orders, all processing orders are imported successfully without any issues.<br>&nbsp;<br>Could you please investigate why orders are not importing into WSS automatically?<br>&nbsp;<br><strong>What we have checked:</strong><br><ul dir=\"auto\"><li>WP JSON: Working fine</li><li>Webhooks sync: Working fine, no duplicates found</li><li>Products: Successfully imported</li><li>Order status: Processing</li></ul>&nbsp;<br><strong>Expected Behavior:</strong><br>WooCommerce orders should automatically import into the plugin without requiring any manual action.<br>&nbsp;<br><strong>Store Details:</strong><br><ul dir=\"auto\"><li>Store URL: <a rel=\"noopener noreferrer\" href=\"https://americannaturalpremium.com/\">https://americannaturalpremium.com/</a></li><li>Account ID: 3cc202c0-d7c3-49bd-9a3d-69f240c68185&nbsp;</li></ul>&nbsp;<br><strong>WP Admin Details:</strong><br><ul dir=\"auto\"><li>URL: <a rel=\"noopener noreferrer\" href=\"https://americannaturalpremium.com/wp-admin\">https://americannaturalpremium.com/wp-admin</a> &nbsp;</li><li>Username: dev</li><li>Password: n)YAtwB(Eu(763WmeRhuvFGf</li></ul></div>",
+      "plain_body": "Need Assistance from L3 Team\n&nbsp;\nCase: Orders not importing into WSS automatically\n&nbsp;\nDetails:\nThe customer is reporting that WooCommerce processing orders are not importing automatically into the WSS plugin. This issue has been reported multiple times.\n&nbsp;\nFor reference, when the customer clicks on Import Orders, all processing orders are imported successfully without any issues.\n&nbsp;\nCould you please investigate why orders are not importing into WSS automatically?\n&nbsp;\nWhat we have checked:\n  WP JSON: Working fine  Webhooks sync: Working fine, no duplicates found  Products: Successfully imported  Order status: Processing  &nbsp;\nExpected Behavior:\nWooCommerce orders should automatically import into the plugin without requiring any manual action.\n&nbsp;\nStore Details:\n  Store URL: https://americannaturalpremium.com/  Account ID: 3cc202c0-d7c3-49bd-9a3d-69f240c68185&nbsp;  &nbsp;\nWP Admin Details:\n  URL: https://americannaturalpremium.com/wp-admin &nbsp;  Username: dev  Password: n)YAtwB(Eu(763WmeRhuvFGf",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/57925324118809.json",
+          "id": 57925324118809,
+          "file_name": "Screen Recording 2026-05-14 at 10.06.34 PM.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/7Q4Pz3Uo1MqlZ1CzxG6mWABTH/?name=Screen+Recording+2026-05-14+at+10.06.34+PM.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/7Q4Pz3Uo1MqlZ1CzxG6mWABTH/?name=Screen+Recording+2026-05-14+at+10.06.34+PM.mov",
+          "content_type": "video/quicktime",
+          "size": 32896186,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 57925333786777,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-14T16:46:01Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57953753734169,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "I have enabled the app logs on store, we will be able to capture the issue, when a new order is place. Keep the ticket in L3.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I have enabled the app logs on store, we will be able to capture the issue, when a new order is place. Keep the ticket in L3.<br>[Veena]<br></div>",
+      "plain_body": "I have enabled the app logs on store, we will be able to capture the issue, when a new order is place. Keep the ticket in L3.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57953755869593,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T11:01:44Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57961230233753,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Hey Team,\n\n\nProblem is still occurring. Some orders have gone through, and some haven't. Thanks for your support on this. We have 30 minutes from now before they manually import before the weekend. They will not ship anything this weekend. Let me know if I'm able to help too.\n\n\n\nThank you,",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hey Team,<div><br></div><div>Problem is still occurring.&nbsp;Some orders have gone through, and some haven't. Thanks for your support on this. We have 30 minutes from now before they manually import before the weekend. They will not ship anything this weekend. Let me know if I'm able to help too.</div><div><br></div><div>Thank you,</div><div><br></div></div><br><div></div></div>",
+      "plain_body": "Hey Team, \n  Problem is still occurring.&nbsp;Some orders have gone through, and some haven't. Thanks for your support on this. We have 30 minutes from now before they manually import before the weekend. They will not ship anything this weekend. Let me know if I'm able to help too.  \n  Thank you,",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57961230233625,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T17:32:47Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+yJtBG7hm0bWLTXJTXsCYV6z+bGGr8xm80xfHS1hMTdVA@mail.gmail.com>",
+          "email_id": "01KRPB57P7PRR4P80G8V3C899R",
+          "raw_email_identifier": "2369120/e18d0beb-3efc-4466-a207-2da0b6dd3755.eml",
+          "json_email_identifier": "2369120/e18d0beb-3efc-4466-a207-2da0b6dd3755.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 57961613856153,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Jason,\n\nToday, we activated logs on the plugin to monitor the order import behavior. I can see that a few orders placed after order #12104 were not imported. We will review the logs further and work on providing a fix for this case. We will get back to you with an update by Monday.\n\nIn the meantime, you can proceed with processing the orders that have already been imported.\n\nThank you for your patience and understanding.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Today, we activated logs on the plugin to monitor the order import behavior. I can see that a few orders placed after order <a href=\"/agent/tickets/12104\" target=\"_blank\" rel=\"ticket\">#12104</a> were not imported. We will review the logs further and work on providing a fix for this case. We will get back to you with an update by Monday.<br>&nbsp;<br>In the meantime, you can proceed with processing the orders that have already been imported.<br>&nbsp;<br>Thank you for your patience and understanding.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nToday, we activated logs on the plugin to monitor the order import behavior. I can see that a few orders placed after order #12104 were not imported. We will review the logs further and work on providing a fix for this case. We will get back to you with an update by Monday.\n&nbsp;\nIn the meantime, you can proceed with processing the orders that have already been imported.\n&nbsp;\nThank you for your patience and understanding.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57961613856025,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T18:04:13Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Hyderabad, TS, India",
+          "latitude": 17.3843,
+          "longitude": 78.4583
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57961603460889,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Update:\n\nCustomer reported new orders not imported\n\n12105, 12108, 12110, these orders were placed 4 hours ago when I checked and have not been imported into the plugin.\n\nCould you please check and provide a permanent fix for this case?\n\n ![](https://pluginhive.zendesk.com/attachments/token/IUCike6WNGTyvtBDED9yvKY8S/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Update:<br>&nbsp;<br>Customer reported new orders not imported<br>&nbsp;<br>12105, 12108, 12110, these orders were placed 4 hours ago when I checked and have not been imported into the plugin.<br>&nbsp;<br>Could you please check and provide a permanent fix for this case?<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/IUCike6WNGTyvtBDED9yvKY8S/?name=image.png\"></span><br></div>",
+      "plain_body": "Update:\n&nbsp;\nCustomer reported new orders not imported\n&nbsp;\n12105, 12108, 12110, these orders were placed 4 hours ago when I checked and have not been imported into the plugin.\n&nbsp;\nCould you please check and provide a permanent fix for this case?\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 57961618306329,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T18:07:10Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Hyderabad, TS, India",
+          "latitude": 17.3843,
+          "longitude": 78.4583
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 57961745167897,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Thank you. I hope you enjoy your weekend.\n\n\n\nJason Ballantyne\n(248) 719-3842\nFounder / President\nSmart Site Services",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div>Thank you. I hope you enjoy your weekend.</div><div><br></div><div>Jason Ballantyne<br>(248) 719-3842<br>Founder / President <br>Smart Site Services</div></div><br><div></div></div>",
+      "plain_body": "Thank you. I hope you enjoy your weekend.  \n  Jason Ballantyne\n(248) 719-3842\nFounder / President \nSmart Site Services",
+      "public": true,
+      "attachments": [],
+      "audit_id": 57961745167769,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-15T18:16:58Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+zaS0oMRnXTh5LD1-jUenM-=-rLK0EPEVvXLgEXHGCkkQ@mail.gmail.com>",
+          "email_id": "01KRPDP4QEXR8AHW156ZZY03SZ",
+          "raw_email_identifier": "2369120/ac8afd4e-2809-47ea-8cda-d760e280844a.eml",
+          "json_email_identifier": "2369120/ac8afd4e-2809-47ea-8cda-d760e280844a.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58085447192857,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Kindly ask the merchant to provide a sample order, where we can update the order to trigger webhooks to investigate further.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Kindly ask the merchant to provide a sample order, where we can update the order to trigger webhooks to investigate further.<br>[Veena]<br></div>",
+      "plain_body": "Kindly ask the merchant to provide a sample order, where we can update the order to trigger webhooks to investigate further.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58085447192729,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-19T13:10:40Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58085476311065,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Also, request for FTP access.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Also, request for FTP access.<br>[Veena]<br></div>",
+      "plain_body": "Also, request for FTP access.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58085489530777,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-19T13:11:24Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58086010720921,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Jason,\n\nThank you for your continued patience while our team checks your case.\n\nWe would require additional information from your end to investigate your case further.\n\nCould you please share a sample order on your store, which we can edit to trigger the webhooks and check the case further?\nAdditionally, please share FTP Access for your WooCommerce store -\n- **FTP Host name:**\n- **Username:**\n- **Password:**\n- **Port:**\n\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Thank you for your continued patience while our team checks your case.<br>&nbsp;<br>We would require additional information from your end to investigate your case further.<br>&nbsp;<br>Could you please share a sample order on your store, which we can edit to trigger the webhooks and check the case further?<br>Additionally, please share FTP Access for your WooCommerce store -&nbsp;<br><ul dir=\"auto\"><li><strong>FTP Host name:</strong></li><li><strong>Username:</strong></li><li><strong>Password:</strong></li><li><strong>Port:</strong></li></ul>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nThank you for your continued patience while our team checks your case.\n&nbsp;\nWe would require additional information from your end to investigate your case further.\n&nbsp;\nCould you please share a sample order on your store, which we can edit to trigger the webhooks and check the case further?\nAdditionally, please share FTP Access for your WooCommerce store -&nbsp;\n  FTP Host name:  Username:  Password:  Port:  &nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58086010720793,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-19T13:37:10Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58090215786521,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Keep this ticket OPEN until you have provided a resolution.\n-Mirdas",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Keep this ticket OPEN until you have provided a resolution.&nbsp;<br>-Mirdas&nbsp;<br></div>",
+      "plain_body": "Keep this ticket OPEN until you have provided a resolution.&nbsp;\n-Mirdas&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58090215786393,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-19T18:24:45Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Cala Millor, IB, Spain",
+          "latitude": 39.6027,
+          "longitude": 3.3906
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58120002734105,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Hey Team, sorry for the delay.\n\n\nAre you able to use WP File Manager to access the files? It is a plugin in WP that provides file access.\n\n ![image.png](https://support.pluginhive.com/attachments/token/EnI3PJ6dcxNgaFoMxyUppxfE1/?name=image.png)\n\n\n\nFeel free to place orders with the admin user I provided.\n\nUsername: Dev\n\nEmail: hello@smartsiteservices.com\n\n\n\nI advised the team not to ship any test orders you submit.\n\n\n\nThe coupon code for test ordering free product and shipping is \"DEVFREE2026\".\n\n\n\nIf WP File Manager is a problem, I'll send FTP info.\n\n\n\nThanks,\n\nJason Ballantyne",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hey Team, sorry for the delay.<div><br></div><div>Are you able to use WP File Manager to access the files? It is a plugin in WP that provides file access.</div><div><img src=\"https://support.pluginhive.com/attachments/token/EnI3PJ6dcxNgaFoMxyUppxfE1/?name=image.png\" alt=\"image.png\" width=\"562\" height=\"131\"></div><div><br></div><div>Feel free to place orders with the admin user I provided.&nbsp;</div><div>Username: Dev&nbsp;</div><div>Email: <a href=\"mailto:hello@smartsiteservices.com\" rel=\"noreferrer\">hello@smartsiteservices.com</a></div><div><br></div><div>I advised the team not to ship any test orders you submit.</div><div><br></div><div>The coupon code for test ordering free product and shipping is \"DEVFREE2026\".</div><div><br></div><div>If WP File Manager is a problem, I'll send FTP info.</div><div><br></div><div>Thanks,<br></div><div>Jason Ballantyne</div></div><br><div></div></div>",
+      "plain_body": "Hey Team, sorry for the delay. \n  Are you able to use WP File Manager to access the files? It is a plugin in WP that provides file access.    \n  Feel free to place orders with the admin user I provided.&nbsp;  Username: Dev&nbsp;  Email: hello@smartsiteservices.com  \n  I advised the team not to ship any test orders you submit.  \n  The coupon code for test ordering free product and shipping is \"DEVFREE2026\".  \n  If WP File Manager is a problem, I'll send FTP info.  \n  Thanks,\n  Jason Ballantyne",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58120002733977,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T12:10:59Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+yJ=b-YGp4pATOgD67bBWdYJ6A6PxyS9FrZ984uSYBp=Q@mail.gmail.com>",
+          "email_id": "01KS2MQHXEVJ2GD1R84HN3SDBS",
+          "raw_email_identifier": "2369120/7103fc19-9542-4dab-b7ed-d83caa7c1a16.eml",
+          "json_email_identifier": "2369120/7103fc19-9542-4dab-b7ed-d83caa7c1a16.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58120337048729,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Informed team about customer resposne.\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1779279767528099?thread_ts=1778777232.400919&cid=C02E15X8X0C",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Informed team about customer resposne.<br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1779279767528099?thread_ts=1778777232.400919&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1779279767528099?thread_ts=1778777232.400919&amp;cid=C02E15X8X0C</a><br></div>",
+      "plain_body": "Informed team about customer resposne.\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1779279767528099?thread_ts=1778777232.400919&amp;cid=C02E15X8X0C",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58120337048601,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-20T12:23:10Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58188738559513,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We need FTP access for this store, and we had already requested it earlier.\nThe customer has provided access through WP File Manager, but we cannot proceed using WP File Manager because it carries a risk. If any mistake occurs and something breaks, we may not be able to recover it properly.\nPlease provide FTP access so we can safely investigate and fix the issue.\n-[Athul]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We need FTP access for this store, and we had already requested it earlier.<br>The customer has provided access through WP File Manager, but we cannot proceed using WP File Manager because it carries a risk. If any mistake occurs and something breaks, we may not be able to recover it properly.<br>Please provide FTP access so we can safely investigate and fix the issue.<br>-[Athul]<br></div>",
+      "plain_body": "We need FTP access for this store, and we had already requested it earlier.\nThe customer has provided access through WP File Manager, but we cannot proceed using WP File Manager because it carries a risk. If any mistake occurs and something breaks, we may not be able to recover it properly.\nPlease provide FTP access so we can safely investigate and fix the issue.\n-[Athul]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58188738559385,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T11:27:19Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58188966818073,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Jason,\n\nThank you for your patience.\n\nI have checked your case with my team about using WP File Manager to check your case further.\n\nIt can be done, however we will not be proceeding with using WP File Manager because it carries a risk. If any mistake occurs and something goes wrong, we may not be able to recover it properly.\n\nAs such, we request you to share the FTP Access for your store so that the case can be checked further.\n- **FTP Host name:**\n- **Username:**\n- **Password:**\n- **Port:**\n\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>I have checked your case with my team about using WP File Manager to check your case further.<br>&nbsp;<br>It can be done, however we will not be proceeding with using WP File Manager because it carries a risk. If any mistake occurs and something goes wrong, we may not be able to recover it properly.<br>&nbsp;<br>As such, we request you to share the FTP Access for your store so that the case can be checked further.<br><ul dir=\"auto\"><li><strong>FTP Host name:</strong></li><li><strong>Username:</strong></li><li><strong>Password:</strong></li><li><strong>Port:</strong></li></ul>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nThank you for your patience.\n&nbsp;\nI have checked your case with my team about using WP File Manager to check your case further.\n&nbsp;\nIt can be done, however we will not be proceeding with using WP File Manager because it carries a risk. If any mistake occurs and something goes wrong, we may not be able to recover it properly.\n&nbsp;\nAs such, we request you to share the FTP Access for your store so that the case can be checked further.\n  FTP Host name:  Username:  Password:  Port:  &nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58188966817945,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T11:37:11Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58188981936793,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Awaiting customer response.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Awaiting customer response.<br></div>",
+      "plain_body": "Awaiting customer response.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58188981931545,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T11:37:21Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58189777514777,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "\n\n- **FTP Host name: ** 216.137.178.20\n- **Username: **pluginhive@americannaturalpremium.com\n- **Password: ** }1pOdQs)106,YIf}\n- **Port: 21**",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><br><div><ul dir=\"auto\" style=\"color: rgb(43,46,47); font-size: 12px; padding-left: 15px; margin: 10px 0px 15px 30px;\"><li style=\"line-height: 22px; margin: 10px 0px;\"><strong>FTP Host name:&nbsp;</strong>&nbsp;216.137.178.20</li><li style=\"line-height: 22px; margin: 10px 0px;\"><strong>Username:&nbsp;</strong>\n\n<span style=\"color: rgb(51,51,51); font-size: 14px; background-color: rgb(249,249,249);\"><a href=\"mailto:pluginhive@americannaturalpremium.com\" rel=\"noreferrer\">pluginhive@americannaturalpremium.com</a></span></li><li style=\"line-height: 22px; margin: 10px 0px;\"><strong>Password:&nbsp;</strong>&nbsp;}1pOdQs)106,YIf}</li><li style=\"line-height: 22px; margin: 10px 0px;\"><strong>Port: 21</strong></li></ul></div></div><br><div></div></div>",
+      "plain_body": "FTP Host name:&nbsp;&nbsp;216.137.178.20  Username:&nbsp;\n\npluginhive@americannaturalpremium.com  Password:&nbsp;&nbsp;}1pOdQs)106,YIf}  Port: 21",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58189777514649,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T12:07:38Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+yTfhekCSTK+eNB3=6U4vtS8=DqhyjaHXMbP=tvUyQh9w@mail.gmail.com>",
+          "email_id": "01KS7SAX5RCGX60EMV0XKPZCFC",
+          "raw_email_identifier": "2369120/f57a75b6-5556-4eb7-8ef9-08b2b88074a2.eml",
+          "json_email_identifier": "2369120/f57a75b6-5556-4eb7-8ef9-08b2b88074a2.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58190391599897,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "verified the FTP details\n ![](https://pluginhive.zendesk.com/attachments/token/CHqmhvBrKsi857vx8COs6XRbG/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">verified the FTP details<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/CHqmhvBrKsi857vx8COs6XRbG/?name=image.png\"></span><br></div>",
+      "plain_body": "verified the FTP details",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58190391599257,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T12:34:48Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58190396307737,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1779453354357019?thread_ts=1778777232.400919&cid=C02E15X8X0C\n\nBelow are the FTP details provided by the customer.\n- **FTP Host name: ** 216.137.178.20\n- **Username: **pluginhive@americannaturalpremium.com\n- **Password: ** }1pOdQs)106,YIf}\n- **Port: 21**\n\n\nPlease check the case further.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Back to L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1779453354357019?thread_ts=1778777232.400919&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1779453354357019?thread_ts=1778777232.400919&amp;cid=C02E15X8X0C</a><br>&nbsp;<br>Below are the FTP details provided by the customer.<br><ul dir=\"auto\"><li><strong>FTP Host name:&nbsp;</strong>&nbsp;216.137.178.20</li><li><strong>Username:&nbsp;</strong><a href=\"mailto:pluginhive@americannaturalpremium.com\" rel=\"noreferrer\">pluginhive@americannaturalpremium.com</a></li><li><strong>Password:&nbsp;</strong>&nbsp;}1pOdQs)106,YIf}</li><li><strong>Port: 21</strong></li></ul>&nbsp;<br>Please check the case further.<br></div>",
+      "plain_body": "Back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1779453354357019?thread_ts=1778777232.400919&amp;cid=C02E15X8X0C\n&nbsp;\nBelow are the FTP details provided by the customer.\n  FTP Host name:&nbsp;&nbsp;216.137.178.20  Username:&nbsp;pluginhive@americannaturalpremium.com  Password:&nbsp;&nbsp;}1pOdQs)106,YIf}  Port: 21  &nbsp;\nPlease check the case further.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58190396307609,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T12:36:08Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58193696627609,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We checked the issue and found that the webhook was associated with a user account that may not have had the required permissions to access or update WooCommerce orders.\nBecause of this, the order update request was being blocked by the store and returning the following authorization error:\n\n    woocommerce_rest_cannot_view401 Unauthorized\n\nTo resolve this, we recommend recreating the webhook using an Administrator account or updating the webhook owner permissions appropriately.\nThe existing webhook has already been deleted from WooCommerce.\nPlease let us know once the new webhook is created, and we will help verify the functionality from our side as well.\n\n ![](https://pluginhive.zendesk.com/attachments/token/ITQUhqdBEJOuuZsRbts7wPSNl/?name=image.png)\n\n-[Athul]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We checked the issue and found that the webhook was associated with a user account that may not have had the required permissions to access or update WooCommerce orders.<br>Because of this, the order update request was being blocked by the store and returning the following authorization error:<br><pre><code>woocommerce_rest_cannot_view<br>401 Unauthorized</code></pre>To resolve this, we recommend recreating the webhook using an Administrator account or updating the webhook owner permissions appropriately.<br>The existing webhook has already been deleted from WooCommerce.<br>Please let us know once the new webhook is created, and we will help verify the functionality from our side as well.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 753px;\" src=\"https://pluginhive.zendesk.com/attachments/token/ITQUhqdBEJOuuZsRbts7wPSNl/?name=image.png\"></span><br>&nbsp;<br>-[Athul]<br></div>",
+      "plain_body": "We checked the issue and found that the webhook was associated with a user account that may not have had the required permissions to access or update WooCommerce orders.\nBecause of this, the order update request was being blocked by the store and returning the following authorization error:\n woocommerce_rest_cannot_view\n401 Unauthorized To resolve this, we recommend recreating the webhook using an Administrator account or updating the webhook owner permissions appropriately.\nThe existing webhook has already been deleted from WooCommerce.\nPlease let us know once the new webhook is created, and we will help verify the functionality from our side as well.\n&nbsp;\n\n&nbsp;\n-[Athul]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58193696627481,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T15:25:05Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58194178498201,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Jason,\n\nThank you for your patience.\n\nWe have checked your case and found that the current order import webhook was associated with a user account that may not have had the required permissions to access or update WooCommerce orders.\n\nBecause of this, the order update request was being blocked by the store and returning the following authorization error:\n\n    woocommerce_rest_cannot_view401 Unauthorized\n\n\nTo resolve this, we recommend recreating the webhook using an Administrator account or updating the webhook owner permissions appropriately.\n\nThe existing webhook has already been deleted from WooCommerce.\n\nPlease let us know once the new webhook is created, and we will help verify the functionality from our side as well.\n\n ![](https://pluginhive.zendesk.com/attachments/token/ITQUhqdBEJOuuZsRbts7wPSNl/?name=image.png)\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We have checked your case and found that the current order import webhook was associated with a user account that may not have had the required permissions to access or update WooCommerce orders.<br>&nbsp;<br>Because of this, the order update request was being blocked by the store and returning the following authorization error:<br><pre><code>woocommerce_rest_cannot_view<br>401 Unauthorized</code></pre>&nbsp;<br>To resolve this, we recommend recreating the webhook using an Administrator account or updating the webhook owner permissions appropriately.<br>&nbsp;<br>The existing webhook has already been deleted from WooCommerce.<br>&nbsp;<br>Please let us know once the new webhook is created, and we will help verify the functionality from our side as well.<br>&nbsp;<br><img style=\" width: 753px;\" src=\"https://pluginhive.zendesk.com/attachments/token/ITQUhqdBEJOuuZsRbts7wPSNl/?name=image.png\"><br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe have checked your case and found that the current order import webhook was associated with a user account that may not have had the required permissions to access or update WooCommerce orders.\n&nbsp;\nBecause of this, the order update request was being blocked by the store and returning the following authorization error:\n woocommerce_rest_cannot_view\n401 Unauthorized &nbsp;\nTo resolve this, we recommend recreating the webhook using an Administrator account or updating the webhook owner permissions appropriately.\n&nbsp;\nThe existing webhook has already been deleted from WooCommerce.\n&nbsp;\nPlease let us know once the new webhook is created, and we will help verify the functionality from our side as well.\n&nbsp;\n\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58194178498073,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T16:03:17Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58194462475673,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Hey,\n\n\nSounds like we've found the problem, great. I'm not sure I understand what I need to do - this might be outside my skill set. The user account you have has admin access are you able to create the new webhook? Feel free to add any necessary webhooks.\n\n\n\nThanks for taking the time to help.\n\n\n\n- Jason",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hey,<div><br></div><div>Sounds like we've found the problem, great. I'm not sure I understand what I need to do - this might be outside my skill set. The user account you have has admin access are you able to create the&nbsp;<span style=\"color: rgb(43,46,47); font-size: 12px;\">new webhook? Feel free to add any necessary webhooks.&nbsp;</span></div><div><span style=\"color: rgb(43,46,47); font-size: 12px;\"><br></span></div><div><span style=\"color: rgb(43,46,47); font-size: 12px;\">Thanks for taking the time to help.</span></div><div><span style=\"color: rgb(43,46,47); font-size: 12px;\"><br></span></div><div><span style=\"color: rgb(43,46,47); font-size: 12px;\">- Jason</span></div></div><br><div></div></div>",
+      "plain_body": "Hey, \n  Sounds like we've found the problem, great. I'm not sure I understand what I need to do - this might be outside my skill set. The user account you have has admin access are you able to create the&nbsp;new webhook? Feel free to add any necessary webhooks.&nbsp;  \n  Thanks for taking the time to help.  \n  - Jason",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58194462475545,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T16:21:43Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+x+EfzVDGLp+0p4-q9dFgJTwJi=mMGE9BQcvUhf2jUScQ@mail.gmail.com>",
+          "email_id": "01KS87W4NB42X163NBCH5NEX6T",
+          "raw_email_identifier": "2369120/73631e91-b17b-4bc6-90f7-e492d58699f0.eml",
+          "json_email_identifier": "2369120/73631e91-b17b-4bc6-90f7-e492d58699f0.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58195201178777,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Jason,\n\nCould you please share our response with your developer and check if they are able to recreate the webhook and confirm once done?\nIn the meantime, I will also review this internally with our team and get back to you with further updates.\n\nWe appreciate your understanding.\n\nDo let us know how it goes.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Could you please share our response with your developer and check if they are able to recreate the webhook and confirm once done?<br>In the meantime, I will also review this internally with our team and get back to you with further updates.<br>&nbsp;<br>We appreciate your understanding.<br>&nbsp;<br>Do let us know how it goes.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nCould you please share our response with your developer and check if they are able to recreate the webhook and confirm once done?\nIn the meantime, I will also review this internally with our team and get back to you with further updates.\n&nbsp;\nWe appreciate your understanding.\n&nbsp;\nDo let us know how it goes.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58195201178649,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T17:12:13Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58195227932313,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "**Need assistance from L3 team:**\nOur response to the customer (as per dev team internal notes):\n\n> To resolve this, we recommend recreating the webhook using an Administrator account or updating the webhook owner permissions appropriately.\n\n\nCould you please help us understand the exact steps to recreate the webhook or update webhook owner permissions in WooCommerce?\n\nSince we have admin access to the store, are we allowed to create or modify the webhook from our end? Or is this strictly required to be done by the customer?\n\nIf it needs to be done from the customer side, could you please share the exact step-by-step guide so we can pass it on to them?\n\nThanks in advance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><strong>Need assistance from L3 team:</strong><br>Our response to the customer (as per dev team internal notes):<br><blockquote><p dir=\"auto\">To resolve this, we recommend recreating the webhook using an Administrator account or updating the webhook owner permissions appropriately.</p></blockquote>&nbsp;<br>Could you please help us understand the exact steps to recreate the webhook or update webhook owner permissions in WooCommerce?<br>&nbsp;<br>Since we have admin access to the store, are we allowed to create or modify the webhook from our end? Or is this strictly required to be done by the customer?<br>&nbsp;<br>If it needs to be done from the customer side, could you please share the exact step-by-step guide so we can pass it on to them?<br>&nbsp;<br>Thanks in advance.<br></div>",
+      "plain_body": "Need assistance from L3 team:\nOur response to the customer (as per dev team internal notes):\n  To resolve this, we recommend recreating the webhook using an Administrator account or updating the webhook owner permissions appropriately.  &nbsp;\nCould you please help us understand the exact steps to recreate the webhook or update webhook owner permissions in WooCommerce?\n&nbsp;\nSince we have admin access to the store, are we allowed to create or modify the webhook from our end? Or is this strictly required to be done by the customer?\n&nbsp;\nIf it needs to be done from the customer side, could you please share the exact step-by-step guide so we can pass it on to them?\n&nbsp;\nThanks in advance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58195227932185,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T17:15:04Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58195684119321,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Yes, which ones need to be setup Ex: Order Created, Order Updated, and what\u2019s the delivery url...\n\n\n\nJason Ballantyne\n(248) 719-3842\nFounder / President\nSmart Site Services",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div>Yes, which ones need to be setup Ex: Order Created, Order Updated, and what\u2019s the delivery url...</div><div><br></div><div>Jason Ballantyne<br>(248) 719-3842<br>Founder / President <br>Smart Site Services</div></div><br><div></div></div>",
+      "plain_body": "Yes, which ones need to be setup Ex: Order Created, Order Updated, and what\u2019s the delivery url...  \n  Jason Ballantyne\n(248) 719-3842\nFounder / President \nSmart Site Services",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58195684119193,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T17:51:00Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+wmKk7HmKaNjW5zDbd=MnDY5JU-vv-+7aiW0FUkjjzYZw@mail.gmail.com>",
+          "email_id": "01KS8CZMEP293FRJ9M4N5GNPBN",
+          "raw_email_identifier": "2369120/a286d43d-ae16-45d2-b6cc-11a735d0833a.eml",
+          "json_email_identifier": "2369120/a286d43d-ae16-45d2-b6cc-11a735d0833a.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58195719445017,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Jason,\n\nPlease allow us some time to check this case. We will get back to you with an update.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Please allow us some time to check this case. We will get back to you with an update.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nPlease allow us some time to check this case. We will get back to you with an update.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58195719444889,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-22T17:55:33Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58263262206745,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "I have cleared all the webhooks for the merchant. Kindly ask them using admin login and do a resync. Added a video with steps.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I have cleared all the webhooks for the merchant. Kindly ask them using admin login and do a resync. Added a video with steps.<br>[Veena]<br></div>",
+      "plain_body": "I have cleared all the webhooks for the merchant. Kindly ask them using admin login and do a resync. Added a video with steps.\n[Veena]",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58263258074393.json",
+          "id": 58263258074393,
+          "file_name": "Screen Recording 2026-05-25 at 2.34.21\u202fPM.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/rIkoLmQqdcMUKKLriXouhLZJ7/?name=Screen+Recording+2026-05-25+at+2.34.21%E2%80%AFPM.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/rIkoLmQqdcMUKKLriXouhLZJ7/?name=Screen+Recording+2026-05-25+at+2.34.21%E2%80%AFPM.mov",
+          "content_type": "video/quicktime",
+          "size": 29220739,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58263262206617,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T09:05:49Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58263485603353,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Jason,\n\nThank you for your patience.\n\nWe have cleared all the webhooks from our end on your store.\n\nPlease login to your WooCommerce Dashboard using Admin Login details and perform a plugin ReSync.\n\nWe have added a video which you can follow to perform the ReSync. Once Resynced, please initiate the order import manually in the plugin once. Post this, the orders should be imported automatically.\n\nPlease try and keep us informed if the order import case happens again.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We have cleared all the webhooks from our end on your store.<br>&nbsp;<br>Please login to your WooCommerce Dashboard using Admin Login details and perform a plugin ReSync.<br>&nbsp;<br>We have added a video which you can follow to perform the ReSync. Once Resynced, please initiate the order import manually in the plugin once. Post this, the orders should be imported automatically.<br>&nbsp;<br>Please try and keep us informed if the order import case happens again.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe have cleared all the webhooks from our end on your store.\n&nbsp;\nPlease login to your WooCommerce Dashboard using Admin Login details and perform a plugin ReSync.\n&nbsp;\nWe have added a video which you can follow to perform the ReSync. Once Resynced, please initiate the order import manually in the plugin once. Post this, the orders should be imported automatically.\n&nbsp;\nPlease try and keep us informed if the order import case happens again.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58263451901977.json",
+          "id": 58263451901977,
+          "file_name": "Screen Recording 2026-05-25 at 2.34.21\u202fPM.mov",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/HLYXHBdSP8t7TdVBzJpSZtO2E/?name=Screen+Recording+2026-05-25+at+2.34.21%E2%80%AFPM.mov",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/HLYXHBdSP8t7TdVBzJpSZtO2E/?name=Screen+Recording+2026-05-25+at+2.34.21%E2%80%AFPM.mov",
+          "content_type": "video/quicktime",
+          "size": 29220739,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58263485603225,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T09:14:21Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Lucknow, UP, India",
+          "latitude": 26.8373,
+          "longitude": 80.9165
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58267714643865,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "I clicked resync like you instructed and then imported the orders manually.\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/hhqAKx4LMoFrpb2eZSuI5RziY/?name=image.png)\n\n\n\nPlease advise.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">I clicked resync like you instructed and then imported the orders manually.<div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/hhqAKx4LMoFrpb2eZSuI5RziY/?name=image.png\" alt=\"image.png\" width=\"562\" height=\"261\"></div><div><br></div><div>Please advise.<br></div></div><br><div></div></div>",
+      "plain_body": "I clicked resync like you instructed and then imported the orders manually. \n    \n  Please advise.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58267714643737,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T11:57:13Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+x2bwHDnYr-4_XtqA7Oe5DkwXejN2Haw5YsXR6GBzAXbQ@mail.gmail.com>",
+          "email_id": "01KSFFXYJ10G1ZR6H5C1VH55XJ",
+          "raw_email_identifier": "2369120/d9d1e934-2f1b-4c7f-8cd1-68c3050d23c3.eml",
+          "json_email_identifier": "2369120/d9d1e934-2f1b-4c7f-8cd1-68c3050d23c3.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58267869516953,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Jason,\n\nWhen there are multiple orders to be imported, the plugin may take some time to sync them and update them with the services as per the automation rules.\n\nI have checked the orders now in the plugin from my end and they are all in Processing Status.\n\nPlease check and let us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>When there are multiple orders to be imported, the plugin may take some time to sync them and update them with the services as per the automation rules.<br>&nbsp;<br>I have checked the orders now in the plugin from my end and they are all in Processing Status.<br>&nbsp;<br>Please check and let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nWhen there are multiple orders to be imported, the plugin may take some time to sync them and update them with the services as per the automation rules.\n&nbsp;\nI have checked the orders now in the plugin from my end and they are all in Processing Status.\n&nbsp;\nPlease check and let us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58267869516825,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T12:02:21Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Lucknow, UP, India",
+          "latitude": 26.8373,
+          "longitude": 80.9165
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58267904201369,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Thanks for your help! Just to clarify, future orders will automatically appear in the shipping plug-in moving forward?\n\n\n\nJason Ballantyne\n(248) 719-3842\nFounder / President\nSmart Site Services",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div>Thanks for your help! Just to clarify, future orders will automatically appear in the shipping plug-in moving forward?</div><div><br></div><div>Jason Ballantyne<br>(248) 719-3842<br>Founder / President <br>Smart Site Services</div></div><br><div></div></div>",
+      "plain_body": "Thanks for your help! Just to clarify, future orders will automatically appear in the shipping plug-in moving forward?  \n  Jason Ballantyne\n(248) 719-3842\nFounder / President \nSmart Site Services",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58267904201241,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T12:04:14Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+yd3w6AsjwU-DSZJbKTTQqWTX0FA_Sfq43YTUC3BtOp3Q@mail.gmail.com>",
+          "email_id": "01KSFGAV0GSD2PA1EK25QXYDHR",
+          "raw_email_identifier": "2369120/e6bbd261-3a19-44d4-8ebd-abeb8e0a7731.eml",
+          "json_email_identifier": "2369120/e6bbd261-3a19-44d4-8ebd-abeb8e0a7731.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58268017965081,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Jason,\n\nYes, with the ReSync as suggested by our team, the orders should import automatically withing a minute or two at max.\n\nIf the order import is failing, please let us know right away and do not manually import the order so that we can check the case further.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Yes, with the ReSync as suggested by our team, the orders should import automatically withing a minute or two at max.<br>&nbsp;<br>If the order import is failing, please let us know right away and do not manually import the order so that we can check the case further.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nYes, with the ReSync as suggested by our team, the orders should import automatically withing a minute or two at max.\n&nbsp;\nIf the order import is failing, please let us know right away and do not manually import the order so that we can check the case further.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58268017964953,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T12:07:36Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Lucknow, UP, India",
+          "latitude": 26.8373,
+          "longitude": 80.9165
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58285122277401,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Hey Touseef,\n\n\n\nThe orders are still not automatically appearing in the shipping plugin.\n\n\n\nThanks for your help,\n\n\n\nJason Ballantyne\n(248) 719-3842\nFounder / President\nSmart Site Services",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div><div>Hey Touseef,</div><div dir=\"auto\"><br></div><div dir=\"auto\">The orders are still not automatically appearing in the shipping plugin.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Thanks for your help,</div><div><br></div><div>Jason Ballantyne<br>(248) 719-3842<br>Founder / President <br>Smart Site Services</div><br><div></div></div></div></div>",
+      "plain_body": "Hey Touseef,  \n  The orders are still not automatically appearing in the shipping plugin.  \n  Thanks for your help,  \n  Jason Ballantyne\n(248) 719-3842\nFounder / President \nSmart Site Services",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58285122277273,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T02:09:20Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+x_DXtD=hkYy_6YO99Kmt10BGGde8UckkAwpqSOpQe_CQ@mail.gmail.com>",
+          "email_id": "01KSH0P7WSHPEPKC0QJ31DS3PM",
+          "raw_email_identifier": "2369120/6d880793-c0b8-44ea-9c69-e48e8e9b44fb.eml",
+          "json_email_identifier": "2369120/6d880793-c0b8-44ea-9c69-e48e8e9b44fb.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58286370754841,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Jason,\n\nPlease allow us sometime.\n\nWe will check about this and get back to you.\n\nMeanwhile, please do not import the orders manually, so our team can check further.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Please allow us sometime.&nbsp;<br>&nbsp;<br>We will check about this and get back to you.&nbsp;<br>&nbsp;<br>Meanwhile, please do not import the orders manually, so our team can check further.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nPlease allow us sometime.&nbsp;\n&nbsp;\nWe will check about this and get back to you.&nbsp;\n&nbsp;\nMeanwhile, please do not import the orders manually, so our team can check further.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58286370754713,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T02:37:51Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58286691283609,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "L3 - Orders from 1274-1277 not imported to the plugin. Checked in Not to Ship section and could not see these orders.\n\nChecked the debugger and the Webhooks are Active, Store JSON is fine and giving a success response, API response tester is working fine and is giving a successful response, but when checked the Website Data Access Test with an order ID and product ID, no details found\n\nI have not made any changes in the store so you can check for the reason of import failure\n\nLet us know of the updates\n\n**WP Admin Details:**\n\n- URL: https://americannaturalpremium.com/wp-admin\n- Username: dev\n- Password: n)YAtwB(Eu(763WmeRhuvFGf\n\n\nBelow are the FTP details provided by the customer.\n\n- **FTP Host name: ** 216.137.178.20\n- **Username: **pluginhive@americannaturalpremium.com\n- **Password: ** }1pOdQs)106,YIf}\n- **Port: 21**",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3 - Orders from 1274-1277 not imported to the plugin. Checked in Not to Ship section and could not see these orders.&nbsp;<br>&nbsp;<br>Checked the debugger and the Webhooks are Active, Store JSON is fine and giving a success response, API response tester is working fine and is giving a successful response, but when checked the Website Data Access Test with an order ID and product ID, no details found<br>&nbsp;<br>I have not made any changes in the store so you can check for the reason of import failure<br>&nbsp;<br>Let us know of the updates<br>&nbsp;<br><strong>WP Admin Details:</strong><br>&nbsp;<br><ul dir=\"auto\"><li>URL: <a rel=\"noopener noreferrer\" href=\"https://americannaturalpremium.com/wp-admin\">https://americannaturalpremium.com/wp-admin</a></li><li>Username: dev</li><li>Password: n)YAtwB(Eu(763WmeRhuvFGf</li></ul>&nbsp;<br>Below are the FTP details provided by the customer.<br><ul dir=\"auto\"><li><strong>FTP Host name:&nbsp;</strong>&nbsp;216.137.178.20</li><li><strong>Username:&nbsp;</strong><a href=\"mailto:pluginhive@americannaturalpremium.com\" rel=\"noreferrer\">pluginhive@americannaturalpremium.com</a></li><li><strong>Password:&nbsp;</strong>&nbsp;}1pOdQs)106,YIf}</li><li><strong>Port: 21</strong></li></ul></div>",
+      "plain_body": "L3 - Orders from 1274-1277 not imported to the plugin. Checked in Not to Ship section and could not see these orders.&nbsp;\n&nbsp;\nChecked the debugger and the Webhooks are Active, Store JSON is fine and giving a success response, API response tester is working fine and is giving a successful response, but when checked the Website Data Access Test with an order ID and product ID, no details found\n&nbsp;\nI have not made any changes in the store so you can check for the reason of import failure\n&nbsp;\nLet us know of the updates\n&nbsp;\nWP Admin Details:\n&nbsp;\n  URL: https://americannaturalpremium.com/wp-admin  Username: dev  Password: n)YAtwB(Eu(763WmeRhuvFGf  &nbsp;\nBelow are the FTP details provided by the customer.\n  FTP Host name:&nbsp;&nbsp;216.137.178.20  Username:&nbsp;pluginhive@americannaturalpremium.com  Password:&nbsp;&nbsp;}1pOdQs)106,YIf}  Port: 21",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58286691283481,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T02:45:42Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58333810860953,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We have identified the issue with orders not getting imported thorough webhooks. We are working on the fix, In the meantime advise merchant to manually import the orders. Kindly inform the merchant and move the ticket to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have identified the issue with orders not getting imported thorough webhooks. We are working on the fix, In the meantime advise merchant to manually import the orders. Kindly inform the merchant and move the ticket to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "We have identified the issue with orders not getting imported thorough webhooks. We are working on the fix, In the meantime advise merchant to manually import the orders. Kindly inform the merchant and move the ticket to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58333810860825,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T05:37:27Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58335569375385,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Jason,\n\nGood day!\n\nWe have identified the case related to order not getting imported to the plugin and our team is working on this to provide a resoution.\n\nUntil the resolution is provided, you can manually import the orders to the plugin.\n\nWe will keep you posted on the updtaes.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Good day!<br><br>We have identified the case related to order not getting imported to the plugin and our team is working on this to provide a resoution.&nbsp;<br>&nbsp;<br>Until the resolution is provided, you can manually import the orders to the plugin.&nbsp;<br>&nbsp;<br>We will keep you posted on the updtaes.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nGood day!\n\nWe have identified the case related to order not getting imported to the plugin and our team is working on this to provide a resoution.&nbsp;\n&nbsp;\nUntil the resolution is provided, you can manually import the orders to the plugin.&nbsp;\n&nbsp;\nWe will keep you posted on the updtaes.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58335569375257,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T06:22:17Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58346469309081,
+      "type": "Comment",
+      "author_id": 50144884638745,
+      "body": "Thanks for the update.\n\n\n\nJason Ballantyne\n(248) 719-3842\nFounder / President\nSmart Site Services",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div>Thanks for the update.</div><div><br></div><div>Jason Ballantyne<br>(248) 719-3842<br>Founder / President <br>Smart Site Services</div></div><br><div></div></div>",
+      "plain_body": "Thanks for the update.  \n  Jason Ballantyne\n(248) 719-3842\nFounder / President \nSmart Site Services",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58346469308953,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "jason@smartsiteservices.com",
+            "name": "American Natural Premium",
+            "original_recipients": [
+              "jason@smartsiteservices.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T11:17:46Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAF5JL+xbyygz5SLQJyx8nZtckzE_Z_9wW+-fZMWy=y-8FLNTHA@mail.gmail.com>",
+          "email_id": "01KSMJF6HRCSEPQTZMTY6FFY75",
+          "raw_email_identifier": "2369120/0fbfc165-da41-4d8c-aca9-62a739c087de.eml",
+          "json_email_identifier": "2369120/0fbfc165-da41-4d8c-aca9-62a739c087de.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58346740897433,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Already acknowledged\nMoving to dev needed",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Already acknowledged&nbsp;<br>Moving to dev needed<br></div>",
+      "plain_body": "Already acknowledged&nbsp;\nMoving to dev needed",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58346740897305,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T11:26:57Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

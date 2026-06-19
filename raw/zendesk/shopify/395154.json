@@ -1,0 +1,1444 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/395154.json",
+    "id": 395154,
+    "external_id": null,
+    "via": {
+      "channel": "api",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-06-15T00:15:34Z",
+    "updated_at": "2026-06-18T12:14:15Z",
+    "generated_timestamp": 1781784856,
+    "type": "question",
+    "subject": "TNT residential or commercial shipping selection",
+    "raw_subject": "TNT residential or commercial shipping selection",
+    "description": "I'm not getting acturate quoting on TNT because there is no selection of either commercial or residential for the customer to choose, TNT have told me this : Hi Jason,\r\n\r\n \r\n\r\nI understand what you are asking for, and it is something our API does, it can include residential surcharges. The problem lay with pluginhive, if they haven\u2019t included the option in their plugin then we can\u2019t do much for you unfortunately. I would suggest reaching out for support from Pluginhive, if they wish to add the option get them to contact me and I can work through the requirements with them for it.\r\n\r\n \r\n\r\nIf I can assist anymore, please let me know.\r\n\r\n \r\n\r\nKind Regards,\r\n\r\n \r\n\r\nNick Evans | Customer Solutions Specialist | FedEx Express / TNT Australasia | t: 0466 835 497\r\n\r\n \r\n\r\n48 Monash Road Redbank, QLD 4301, Australia",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 52291804049817,
+    "submitter_id": 52291804049817,
+    "assignee_id": 44512844768153,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      390739881171,
+      411667770352,
+      388269142331,
+      59049819289369
+    ],
+    "follower_ids": [
+      390739881171,
+      411667770352,
+      388269142331,
+      59049819289369
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "aibot_auto_reply",
+      "dev_needed",
+      "last_reply_customer",
+      "other",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "nautcases.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0438384418"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "L4P59N-5N6WN",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "nautcases.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0438384418"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58996370848537,
+      "type": "Comment",
+      "author_id": 52291804049817,
+      "body": "I'm not getting acturate quoting on TNT because there is no selection of either commercial or residential for the customer to choose, TNT have told me this : Hi Jason,\r\n\r\n \r\n\r\nI understand what you are asking for, and it is something our API does, it can include residential surcharges. The problem lay with pluginhive, if they haven\u2019t included the option in their plugin then we can\u2019t do much for you unfortunately. I would suggest reaching out for support from Pluginhive, if they wish to add the option get them to contact me and I can work through the requirements with them for it.\r\n\r\n \r\n\r\nIf I can assist anymore, please let me know.\r\n\r\n \r\n\r\nKind Regards,\r\n\r\n \r\n\r\nNick Evans | Customer Solutions Specialist | FedEx Express / TNT Australasia | t: 0466 835 497\r\n\r\n \r\n\r\n48 Monash Road Redbank, QLD 4301, Australia",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">I'm not getting acturate quoting on TNT because there is no selection of either commercial or residential for the customer to choose, TNT have told me this : Hi Jason,</p>\n\n<p dir=\"auto\"> </p>\n\n<p dir=\"auto\">I understand what you are asking for, and it is something our API does, it can include residential surcharges. The problem lay with pluginhive, if they haven\u2019t included the option in their plugin then we can\u2019t do much for you unfortunately. I would suggest reaching out for support from Pluginhive, if they wish to add the option get them to contact me and I can work through the requirements with them for it.</p>\n\n<p dir=\"auto\"> </p>\n\n<p dir=\"auto\">If I can assist anymore, please let me know.</p>\n\n<p dir=\"auto\"> </p>\n\n<p dir=\"auto\">Kind Regards,</p>\n\n<p dir=\"auto\"> </p>\n\n<p dir=\"auto\">Nick Evans | Customer Solutions Specialist | FedEx Express / TNT Australasia | t: 0466 835 497</p>\n\n<p dir=\"auto\"> </p>\n\n<p dir=\"auto\">48 Monash Road Redbank, QLD 4301, Australia</p></div>",
+      "plain_body": "I'm not getting acturate quoting on TNT because there is no selection of either commercial or residential for the customer to choose, TNT have told me this : Hi Jason, \n\n   \n\n I understand what you are asking for, and it is something our API does, it can include residential surcharges. The problem lay with pluginhive, if they haven\u2019t included the option in their plugin then we can\u2019t do much for you unfortunately. I would suggest reaching out for support from Pluginhive, if they wish to add the option get them to contact me and I can work through the requirements with them for it. \n\n   \n\n If I can assist anymore, please let me know. \n\n   \n\n Kind Regards, \n\n   \n\n Nick Evans | Customer Solutions Specialist | FedEx Express / TNT Australasia | t: 0466 835 497 \n\n   \n\n 48 Monash Road Redbank, QLD 4301, Australia",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58996370848409,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T00:15:34Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/6.8.5; https://www.pluginhive.com",
+          "ip_address": "159.65.74.253",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58996413340441,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "\ud83e\udd16 Auto-generated draft \u2014 probation mode (not sent to customer)\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Jason,\n\nThank you for reaching out and for sharing the details from your conversation with TNT \u2014 that context is very helpful.\n\nYou are correct that the MCSL app does not currently include a residential vs. commercial address type selector for TNT. This means the app is unable to request residential surcharges from TNT's API at the time of rate calculation, which leads to the underquoting you are experiencing for residential deliveries.\n\nAs an interim workaround, you can add a blanket rate adjustment to your TNT rule to account for the likely residential surcharge on applicable orders. To do this:\n\n1. Go to App Settings \u2192 Shipping Rates \u2192 Rate Automation\n2. Edit your TNT Australia rule\n3. Under Action Details, select \"Adjust Shipment Price\" and enter a percentage or flat amount that approximates the residential surcharge\n4. Save the rule\n\nWe understand this is not ideal \u2014 a flat adjustment applies to all orders regardless of whether the destination is residential or commercial, so it is a workaround rather than a proper solution.\n\nWe will pass your feedback along with the TNT contact details you have shared to our product team as a feature request. We appreciate Nick Evans' offer to work through the API requirements with us \u2014 that information will be included when we raise this internally.\n\nWe are unable to commit to a timeline for when this feature would be available, but your report and the direct TNT confirmation that the API supports it are valuable input.\n\nIf the rate adjustment workaround helps bridge the gap in the meantime, please let us know. If you have any other questions, feel free to reach out.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 probation mode (not sent to customer)<br>\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Jason,</p>\n<p dir=\"auto\">Thank you for reaching out and for sharing the details from your conversation with TNT \u2014 that context is very helpful.</p>\n<p dir=\"auto\">You are correct that the MCSL app does not currently include a residential vs. commercial address type selector for TNT. This means the app is unable to request residential surcharges from TNT's API at the time of rate calculation, which leads to the underquoting you are experiencing for residential deliveries.</p>\n<p dir=\"auto\">As an interim workaround, you can add a blanket rate adjustment to your TNT rule to account for the likely residential surcharge on applicable orders. To do this:</p>\n<ol type=\"1\" dir=\"auto\">\n<li>Go to App Settings \u2192 Shipping Rates \u2192 Rate Automation</li>\n<li>Edit your TNT Australia rule</li>\n<li>Under Action Details, select \"Adjust Shipment Price\" and enter a percentage or flat amount that approximates the residential surcharge</li>\n<li>Save the rule</li>\n</ol>\n<p dir=\"auto\">We understand this is not ideal \u2014 a flat adjustment applies to all orders regardless of whether the destination is residential or commercial, so it is a workaround rather than a proper solution.</p>\n<p dir=\"auto\">We will pass your feedback along with the TNT contact details you have shared to our product team as a feature request. We appreciate Nick Evans' offer to work through the API requirements with us \u2014 that information will be included when we raise this internally.</p>\n<p dir=\"auto\">We are unable to commit to a timeline for when this feature would be available, but your report and the direct TNT confirmation that the API supports it are valuable input.</p>\n<p dir=\"auto\">If the rate adjustment workaround helps bridge the gap in the meantime, please let us know. If you have any other questions, feel free to reach out.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+      "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 probation mode (not sent to customer)\n\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Jason, \n Thank you for reaching out and for sharing the details from your conversation with TNT \u2014 that context is very helpful. \n You are correct that the MCSL app does not currently include a residential vs. commercial address type selector for TNT. This means the app is unable to request residential surcharges from TNT's API at the time of rate calculation, which leads to the underquoting you are experiencing for residential deliveries. \n As an interim workaround, you can add a blanket rate adjustment to your TNT rule to account for the likely residential surcharge on applicable orders. To do this: \n \n Go to App Settings \u2192 Shipping Rates \u2192 Rate Automation \n Edit your TNT Australia rule \n Under Action Details, select \"Adjust Shipment Price\" and enter a percentage or flat amount that approximates the residential surcharge \n Save the rule \n \n We understand this is not ideal \u2014 a flat adjustment applies to all orders regardless of whether the destination is residential or commercial, so it is a workaround rather than a proper solution. \n We will pass your feedback along with the TNT contact details you have shared to our product team as a feature request. We appreciate Nick Evans' offer to work through the API requirements with us \u2014 that information will be included when we raise this internally. \n We are unable to commit to a timeline for when this feature would be available, but your report and the direct TNT confirmation that the API supports it are valuable input. \n If the rate adjustment workaround helps bridge the gap in the meantime, please let us know. If you have any other questions, feel free to reach out. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58996442642073,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T00:16:49Z",
+      "metadata": {
+        "system": {
+          "client": "node",
+          "ip_address": "206.189.72.35",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59009067640985,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "AU store\n$19 plan\nmpb, tnt  and fedex added\n$19 plan\nusing for rates and labels\n16 orders\nactive from : 2025-08-18",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">AU store&nbsp;<br>$19 plan&nbsp;<br>mpb, tnt &nbsp;and fedex added<br>$19 plan&nbsp;<br>using for rates and labels<br>16 orders&nbsp;<br>active from : 2025-08-18&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "AU store&nbsp;\n$19 plan&nbsp;\nmpb, tnt &nbsp;and fedex added\n$19 plan&nbsp;\nusing for rates and labels\n16 orders&nbsp;\nactive from : 2025-08-18&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59009067640857,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T05:46:18Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59009547383961,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "I discussed with keerthi and replied\n\nNext steps:\nOnce customer shares the tnt person's mail or cc's him, we need to send our app logs and ask him what changes need to be made or api documentation.\nkeeping it open",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I discussed with keerthi and replied&nbsp;<br>&nbsp;<br>Next steps:&nbsp;<br>Once customer shares the tnt person's mail or cc's him, we need to send our app logs and ask him what changes need to be made or api documentation.&nbsp;<br>keeping it open&nbsp;<br></div>",
+      "plain_body": "I discussed with keerthi and replied&nbsp;\n&nbsp;\nNext steps:&nbsp;\nOnce customer shares the tnt person's mail or cc's him, we need to send our app logs and ask him what changes need to be made or api documentation.&nbsp;\nkeeping it open&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59009554696345,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T06:00:14Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59009728464281,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Jason,\n\nThank you for reaching out and for sharing the information from TNT.\n\nCould you please include (CC) your TNT Australia point of contact in the email thread? This will allow us to discuss the API capabilities directly with them and review the implementation requirements with our development team.\n\nWe value your feedback and would like to make any necessary changes or improvements, where feasible, to provide you with the best possible experience using our app.\nOnce we have the relevant details, we'll be happy to evaluate the requirements and provide you with an update.\n\nWe look forward to hearing from you.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Jason,<br>&nbsp;<br>Thank you for reaching out and for sharing the information from TNT.<br>&nbsp;<br>Could you please include (CC) your TNT Australia point of contact in the email thread? This will allow us to discuss the API capabilities directly with them and review the implementation requirements with our development team.<br>&nbsp;<br>We value your feedback and would like to make any necessary changes or improvements, where feasible, to provide you with the best possible experience using our app.<br>Once we have the relevant details, we'll be happy to evaluate the requirements and provide you with an update.<br>&nbsp;<br>We look forward to hearing from you.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Jason,\n&nbsp;\nThank you for reaching out and for sharing the information from TNT.\n&nbsp;\nCould you please include (CC) your TNT Australia point of contact in the email thread? This will allow us to discuss the API capabilities directly with them and review the implementation requirements with our development team.\n&nbsp;\nWe value your feedback and would like to make any necessary changes or improvements, where feasible, to provide you with the best possible experience using our app.\nOnce we have the relevant details, we'll be happy to evaluate the requirements and provide you with an update.\n&nbsp;\nWe look forward to hearing from you.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59009728464153,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T06:04:03Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59009738033561,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "I discussed with keerthi and replied\n\nNext steps:\nOnce customer shares the tnt person's mail or cc's him, we need to send our app logs and ask him what changes need to be made or api documentation.\nawaiting customer response\nmoving on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I discussed with keerthi and replied&nbsp;<br>&nbsp;<br>Next steps:<br>Once customer shares the tnt person's mail or cc's him, we need to send our app logs and ask him what changes need to be made or api documentation.<br>awaiting customer response&nbsp;<br>moving on hold<br></div>",
+      "plain_body": "I discussed with keerthi and replied&nbsp;\n&nbsp;\nNext steps:\nOnce customer shares the tnt person's mail or cc's him, we need to send our app logs and ask him what changes need to be made or api documentation.\nawaiting customer response&nbsp;\nmoving on hold",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59009738033433,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T06:04:27Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59011026720921,
+      "type": "Comment",
+      "author_id": 52291804049817,
+      "body": "The contact details are in the email above.\n\n\nRegards\n\nJason 'naut' Gendrolius\n\n\n\n**NAUT CASES**\n\n**50 Annie St**\n\n**Rocklea, QLD, Australia 4106.**\n\n**04 3838 4418**\n\n\n\n**NEW **\n\n**WEB STORE **\n\n**OPEN NOW**\n\n**nautcases.com**",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div><div>The contact details are in the email above.</div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div style=\"text-align: left;\" align=\"left\"><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\">Regards</font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\">Jason 'naut' Gendrolius</font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><br></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#000000\"><b>NAUT CASES</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>50 Annie St</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>Rocklea, QLD, Australia 4106.</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>04 3838 4418</b></font></span></div><div><font color=\"#444444\"><b style=\"background-color: rgb(255,255,0);\"><br></b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">NEW&nbsp;</b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">WEB STORE&nbsp;</b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">OPEN NOW</b></font></div><div><font color=\"#ff0000\"><b><a href=\"http://nautcases.com\" style=\"background-color: rgb(255,255,0);\" rel=\"noreferrer\">nautcases.com</a></b></font></div><div><span></span><span></span></div><div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "The contact details are in the email above. \n                   Regards  Jason 'naut' Gendrolius  \n  NAUT CASES  50 Annie St  Rocklea, QLD, Australia 4106.  04 3838 4418  \n  NEW&nbsp;  WEB STORE&nbsp;  OPEN NOW  nautcases.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59011026720793,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nojobtoostupid@gmail.com",
+            "name": "Jason Gendrolius",
+            "original_recipients": [
+              "nojobtoostupid@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T06:36:33Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAD5LL4i0c_jL7=E2b_z1oHpwtEP7b6qeReq+1QfM12vFbMLP1w@mail.gmail.com>",
+          "email_id": "01KV4ZXY5Q6JRRDB54Z4FCJENQ",
+          "raw_email_identifier": "2369120/3b5341f4-5bd6-480a-aa33-19358004984f.eml",
+          "json_email_identifier": "2369120/3b5341f4-5bd6-480a-aa33-19358004984f.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59011089637529,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\nProduct: shopify-mcsl | Signal: form_field | Confidence: MEDIUM | Context: 6 message(s)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Jason,\n\nThank you for pointing that out. We can see Nick Evans' details from the email you shared \u2014 we have his phone number (0466 835 497) and address on file.\n\nTo connect with Nick directly about the TNT API requirements, could you please share his email address as well? It was not visible in the portion of the email pasted into this thread. Once we have that, our team will reach out to him to review the residential surcharge API documentation and assess what would be involved in adding a residential/commercial address selection option to the TNT integration.\n\nWe'll keep this ticket open and update you once we have more information from the TNT team on the requirements.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)<br>\nProduct: shopify-mcsl | Signal: form_field | Confidence: MEDIUM | Context: 6 message(s)<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Jason,</p>\n<p dir=\"auto\">Thank you for pointing that out. We can see Nick Evans' details from the email you shared \u2014 we have his phone number (0466 835 497) and address on file.</p>\n<p dir=\"auto\">To connect with Nick directly about the TNT API requirements, could you please share his email address as well? It was not visible in the portion of the email pasted into this thread. Once we have that, our team will reach out to him to review the residential surcharge API documentation and assess what would be involved in adding a residential/commercial address selection option to the TNT integration.</p>\n<p dir=\"auto\">We'll keep this ticket open and update you once we have more information from the TNT team on the requirements.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+      "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\n\nProduct: shopify-mcsl | Signal: form_field | Confidence: MEDIUM | Context: 6 message(s)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Jason, \n Thank you for pointing that out. We can see Nick Evans' details from the email you shared \u2014 we have his phone number (0466 835 497) and address on file. \n To connect with Nick directly about the TNT API requirements, could you please share his email address as well? It was not visible in the portion of the email pasted into this thread. Once we have that, our team will reach out to him to review the residential surcharge API documentation and assess what would be involved in adding a residential/commercial address selection option to the TNT integration. \n We'll keep this ticket open and update you once we have more information from the TNT team on the requirements. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59011089636889,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T06:37:45Z",
+      "metadata": {
+        "system": {
+          "client": "node",
+          "ip_address": "206.189.72.35",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59013274664985,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Jason,\n\nThank you for pointing that out. We can see Nick Evans' details from the email you shared \u2014 we have his phone number (0466 835 497) and address on file.\n\nTo connect with Nick directly about the TNT API requirements, could you please share his email address as well? It was not visible in the portion of the email pasted into this thread. Once we have that, our team will reach out to him to review the residential surcharge API documentation and assess what would be involved in adding a residential/commercial address selection option to the TNT integration.\n\nThanks & Regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Thank you for pointing that out. We can see Nick Evans' details from the email you shared \u2014 we have his phone number (0466 835 497) and address on file.<br>&nbsp;<br>To connect with Nick directly about the TNT API requirements, could you please share his email address as well? It was not visible in the portion of the email pasted into this thread. Once we have that, our team will reach out to him to review the residential surcharge API documentation and assess what would be involved in adding a residential/commercial address selection option to the TNT integration.<br>&nbsp;<br>Thanks &amp; Regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nThank you for pointing that out. We can see Nick Evans' details from the email you shared \u2014 we have his phone number (0466 835 497) and address on file.\n&nbsp;\nTo connect with Nick directly about the TNT API requirements, could you please share his email address as well? It was not visible in the portion of the email pasted into this thread. Once we have that, our team will reach out to him to review the residential surcharge API documentation and assess what would be involved in adding a residential/commercial address selection option to the TNT integration.\n&nbsp;\nThanks &amp; Regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59013274664857,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T07:28:43Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59013341172633,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "I discussed with keerthi and replied\n\nNext steps:\nOnce customer shares the tnt person's mail or cc's him, we need to send our app logs and ask him what changes need to be made or api documentation.\nawaiting customer response\nmoving on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I discussed with keerthi and replied&nbsp;<br>&nbsp;<br>Next steps:<br>Once customer shares the tnt person's mail or cc's him, we need to send our app logs and ask him what changes need to be made or api documentation.<br>awaiting customer response<br>moving on hold<br></div>",
+      "plain_body": "I discussed with keerthi and replied&nbsp;\n&nbsp;\nNext steps:\nOnce customer shares the tnt person's mail or cc's him, we need to send our app logs and ask him what changes need to be made or api documentation.\nawaiting customer response\nmoving on hold",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59013341171097,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T07:29:46Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59029334259609,
+      "type": "Comment",
+      "author_id": 52291804049817,
+      "body": "Here's Nicks\n\n                     email nicholas.evans@fedex.com\n\n\nRegards\n\nJason 'naut' Gendrolius\n\n\n\n**NAUT CASES**\n\n**50 Annie St**\n\n**Rocklea, QLD, Australia 4106.**\n\n**04 3838 4418**\n\n\n\n**NEW **\n\n**WEB STORE **\n\n**OPEN NOW**\n\n**nautcases.com**",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div><div>Here's Nicks&nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;email <span style=\" font-size: 14px; font-variant-ligatures: no-contextual;\"><a href=\"mailto:nicholas.evans@fedex.com\" rel=\"noreferrer\">nicholas.evans@fedex.com</a></span></div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div style=\"text-align: left;\" align=\"left\"><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\">Regards</font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\">Jason 'naut' Gendrolius</font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><br></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#000000\"><b>NAUT CASES</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>50 Annie St</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>Rocklea, QLD, Australia 4106.</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>04 3838 4418</b></font></span></div><div><font color=\"#444444\"><b style=\"background-color: rgb(255,255,0);\"><br></b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">NEW&nbsp;</b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">WEB STORE&nbsp;</b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">OPEN NOW</b></font></div><div><font color=\"#ff0000\"><b><a href=\"http://nautcases.com\" style=\"background-color: rgb(255,255,0);\" rel=\"noreferrer\">nautcases.com</a></b></font></div><div><span></span><span></span></div><div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Here's Nicks&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;email nicholas.evans@fedex.com \n                   Regards  Jason 'naut' Gendrolius  \n  NAUT CASES  50 Annie St  Rocklea, QLD, Australia 4106.  04 3838 4418  \n  NEW&nbsp;  WEB STORE&nbsp;  OPEN NOW  nautcases.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59029334259481,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nojobtoostupid@gmail.com",
+            "name": "Jason Gendrolius",
+            "original_recipients": [
+              "nojobtoostupid@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T19:07:46Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAD5LL4hi5GP+kpeT+A5jb=RYmT8k3Oejx23V+QyDfv70-ZUfeQ@mail.gmail.com>",
+          "email_id": "01KV6AXEW76D0Q1G706WHVQ46C",
+          "raw_email_identifier": "2369120/0dc5eead-5253-4fc3-a1cf-ab27313c225b.eml",
+          "json_email_identifier": "2369120/0dc5eead-5253-4fc3-a1cf-ab27313c225b.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59029361408025,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 9 message(s)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Jason,\n\nThank you for providing Nick's email address. We now have everything we need to get in touch with him directly.\n\nOur team will reach out to nicholas.evans@fedex.com to review the TNT API requirements for residential/commercial address selection and evaluate what would be involved in adding this option to the integration.\n\nWe will keep you updated once we have connected with Nick and assessed the implementation requirements.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)<br>\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 9 message(s)<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Jason,</p>\n<p dir=\"auto\">Thank you for providing Nick's email address. We now have everything we need to get in touch with him directly.</p>\n<p dir=\"auto\">Our team will reach out to <a href=\"mailto:nicholas.evans@fedex.com\" rel=\"noreferrer\">nicholas.evans@fedex.com</a> to review the TNT API requirements for residential/commercial address selection and evaluate what would be involved in adding this option to the integration.</p>\n<p dir=\"auto\">We will keep you updated once we have connected with Nick and assessed the implementation requirements.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+      "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\n\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 9 message(s)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Jason, \n Thank you for providing Nick's email address. We now have everything we need to get in touch with him directly. \n Our team will reach out to nicholas.evans@fedex.com to review the TNT API requirements for residential/commercial address selection and evaluate what would be involved in adding this option to the integration. \n We will keep you updated once we have connected with Nick and assessed the implementation requirements. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59029361406361,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T19:08:17Z",
+      "metadata": {
+        "system": {
+          "client": "node",
+          "ip_address": "206.189.72.35",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59029539310873,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Jason,\n\nThank you for your reply.\n\nPlease allow us some time we check and get back to you with an update.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>Please allow us some time we check and get back to you with an update.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nThank you for your reply.\n&nbsp;\nPlease allow us some time we check and get back to you with an update.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59029539310745,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-15T19:28:02Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59051370734745,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Nicholas,\n\nI hope you are doing well.\n\nMy name is Priyanka, and I am from the PH Multi Carrier Shipping Label app by PluginHive for Shopify.\n\nI am reaching out on behalf of our mutual customer who is using our solution for TNT Australia integration (Account Number: 50010959).\n\nThe customer reached out to us mentioning that they would like residential surcharges (if applicable) to be included in the shipping costs shown to their customers at checkout.\nThey were also advised by the TNT team that the residential surcharge may not currently be part of the shipment request being sent. We would like to better understand how residential surcharges are supported through the TNT API and whether any additional parameters or changes are required in our integration to ensure these charges are returned in the rate response.\n\nI have attached the relevant API logs for your reference. Could you please review them and let us know:\n\u2022 Whether residential surcharges are available through the API responses.\n\u2022 Any specific parameters that need to be passed in the rate request.\n\u2022 Any API documentation or implementation guidelines that would help us support this functionality.\n\nWe would greatly appreciate any guidance you can provide.\n\nThank you for your time and assistance. We look forward to hearing from you.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Nicholas,<br>&nbsp;<br>I hope you are doing well.<br>&nbsp;<br>My name is Priyanka, and I am from the PH Multi Carrier Shipping Label app by PluginHive for Shopify.<br>&nbsp;<br>I am reaching out on behalf of our mutual customer who is using our solution for TNT Australia integration (Account Number: 50010959).<br>&nbsp;<br>The customer reached out to us mentioning that they would like residential surcharges (if applicable) to be included in the shipping costs shown to their customers at checkout.<br>They were also advised by the TNT team that the residential surcharge may not currently be part of the shipment request being sent. We would like to better understand how residential surcharges are supported through the TNT API and whether any additional parameters or changes are required in our integration to ensure these charges are returned in the rate response.<br>&nbsp;<br>I have attached the relevant API logs for your reference. Could you please review them and let us know:<br>\u2022 Whether residential surcharges are available through the API responses.<br>\u2022 Any specific parameters that need to be passed in the rate request.<br>\u2022 Any API documentation or implementation guidelines that would help us support this functionality.<br>&nbsp;<br>We would greatly appreciate any guidance you can provide.<br>&nbsp;<br>Thank you for your time and assistance. We look forward to hearing from you.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Nicholas,\n&nbsp;\nI hope you are doing well.\n&nbsp;\nMy name is Priyanka, and I am from the PH Multi Carrier Shipping Label app by PluginHive for Shopify.\n&nbsp;\nI am reaching out on behalf of our mutual customer who is using our solution for TNT Australia integration (Account Number: 50010959).\n&nbsp;\nThe customer reached out to us mentioning that they would like residential surcharges (if applicable) to be included in the shipping costs shown to their customers at checkout.\nThey were also advised by the TNT team that the residential surcharge may not currently be part of the shipment request being sent. We would like to better understand how residential surcharges are supported through the TNT API and whether any additional parameters or changes are required in our integration to ensure these charges are returned in the rate response.\n&nbsp;\nI have attached the relevant API logs for your reference. Could you please review them and let us know:\n\u2022 Whether residential surcharges are available through the API responses.\n\u2022 Any specific parameters that need to be passed in the rate request.\n\u2022 Any API documentation or implementation guidelines that would help us support this functionality.\n&nbsp;\nWe would greatly appreciate any guidance you can provide.\n&nbsp;\nThank you for your time and assistance. We look forward to hearing from you.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/59051366587417.json",
+          "id": 59051366587417,
+          "file_name": "RequestResponse (42).zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/qPajHGtayo0rHjD19DkTPoslx/?name=RequestResponse+%2842%29.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/qPajHGtayo0rHjD19DkTPoslx/?name=RequestResponse+%2842%29.zip",
+          "content_type": "application/zip",
+          "size": 4266,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/59051382970649.json",
+          "id": 59051382970649,
+          "file_name": "RequestResponse (41).zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/YrdG9tRU2yvQ9Ood4cmUfvGG1/?name=RequestResponse+%2841%29.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/YrdG9tRU2yvQ9Ood4cmUfvGG1/?name=RequestResponse+%2841%29.zip",
+          "content_type": "application/zip",
+          "size": 4266,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 59051370734617,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T08:20:01Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59051476520089,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "I tested the rates for Request Id :846d3682465249a1193aa1902670c1af and send Logs to Nick and cc'd him\n\nReached out to TNT Aus , mail sent\nkeeping it open awaiting response\n\nI will handle it",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I tested the rates for Request Id :846d3682465249a1193aa1902670c1af and send Logs to Nick and cc'd him<br>&nbsp;<br>Reached out to TNT Aus , mail sent&nbsp;<br>keeping it open awaiting response&nbsp;<br>&nbsp;<br>I will handle it<br>&nbsp;<br></div>",
+      "plain_body": "I tested the rates for Request Id :846d3682465249a1193aa1902670c1af and send Logs to Nick and cc'd him\n&nbsp;\nReached out to TNT Aus , mail sent&nbsp;\nkeeping it open awaiting response&nbsp;\n&nbsp;\nI will handle it\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59051476519321,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T08:21:20Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59067550693913,
+      "type": "Comment",
+      "author_id": 59049819289369,
+      "body": "Hi Team,\n\n\n\nResidential surcharges are simple to implement; they require one line of code per receiver and sender address. The address is not validated so if you are including them in your platform, I suggest you create a toggle box for the customers to say whether it is residential.\n\n\n\nI have attached the RTT documentation to this email it shows the inclusion of the Residential surcharge, you\u2019ll be looking for the lines:\n\n<residential>RSD</residential> after the delivery or receiver and <residential>RSP</residential> for collection or sender.\n\n\n\nRSD= Delivery\n\nRSP = Pickup\n\n\n\nHave a look at the documentation and I am happy to advise as needed. I also modified one of the request examples you send me you\u2019ll be able to see the changes it isn\u2019t much to add.\n\nKind Regards,\n\n\n\n**Nick Evans** | Customer Solutions Specialist | FedEx Express / TNT Australasia | t: 0466 835 497\n\n\n\n48 Monash Road Redbank, QLD 4301, Australia",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Hi Team, </span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Residential surcharges are simple to implement; they require one line of code per receiver and sender address. The address is not validated so if you are including them in your platform, I suggest\n you create a toggle box for the customers to say whether it is residential. \n</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>I have attached the RTT documentation to this email it shows the inclusion of the Residential surcharge, you\u2019ll be looking for the lines:\n</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&lt;residential&gt;RSD&lt;/residential&gt; after the delivery or receiver and &lt;residential&gt;RSP&lt;/residential&gt; for collection or sender.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>RSD= Delivery</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>RSP = Pickup</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Have a look at the documentation and I am happy to advise as needed. I also modified one of the request examples you send me you\u2019ll be able to see the changes it isn\u2019t much to add.\n</span></p>\n<div>\n<div>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 10.0pt; color: black; \">Kind Regards,</span><span style=\"font-size: 10.0pt; \"></span></p>\n<p style=\" font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 10.0pt; color: black; \">&nbsp;</span><span style=\"font-size: 10.0pt; \"></span></p>\n<p style=\" font-size: 12.0pt; margin: 0cm 0cm 0cm .6pt;\" dir=\"auto\">\n<b><span style=\"font-size: 10.0pt; color: black; \">Nick Evans</span></b><span style=\"font-size: 10.0pt; color: black; \"> | Customer Solutions Specialist | FedEx Express / TNT Australasia |\n</span><span style=\"font-size: 10.0pt; \">t: 0466 835 497</span></p>\n<p style=\" font-size: 12.0pt; margin: 0cm 0cm 0cm .6pt;\" dir=\"auto\">\n<span style=\"font-size: 10.0pt; color: black; \">&nbsp;</span><span style=\"font-size: 10.0pt; \"></span></p>\n<p style=\" font-size: 12.0pt; margin: 0cm 0cm 0cm .6pt;\" dir=\"auto\">\n<span style=\"font-size: 10.0pt; color: black; \">48 Monash Road Redbank, QLD 4301, Australia</span><span style=\"font-size: 10.0pt; \"></span></p>\n</div>\n</div>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Hi Team,  \n &nbsp; \n Residential surcharges are simple to implement; they require one line of code per receiver and sender address. The address is not validated so if you are including them in your platform, I suggest\n you create a toggle box for the customers to say whether it is residential. \n \n &nbsp; \n I have attached the RTT documentation to this email it shows the inclusion of the Residential surcharge, you\u2019ll be looking for the lines:\n \n &lt;residential&gt;RSD&lt;/residential&gt; after the delivery or receiver and &lt;residential&gt;RSP&lt;/residential&gt; for collection or sender. \n &nbsp; \n RSD= Delivery \n RSP = Pickup \n &nbsp; \n Have a look at the documentation and I am happy to advise as needed. I also modified one of the request examples you send me you\u2019ll be able to see the changes it isn\u2019t much to add.\n \n \n \n Kind Regards, \n &nbsp; \n \nNick Evans | Customer Solutions Specialist | FedEx Express / TNT Australasia |\nt: 0466 835 497 \n \n&nbsp; \n \n48 Monash Road Redbank, QLD 4301, Australia \n \n \n &nbsp;",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/59067537367705.json",
+          "id": 59067537367705,
+          "file_name": "Current RTT.Net Customer Documentation_1.3.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/StBgtDfwTWWIMqIB2bKy82Lip/?name=Current+RTT.Net+Customer+Documentation_1.3.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/StBgtDfwTWWIMqIB2bKy82Lip/?name=Current+RTT.Net+Customer+Documentation_1.3.pdf",
+          "content_type": "application/pdf",
+          "size": 346641,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/59067537374617.json",
+          "id": 59067537374617,
+          "file_name": "request-for-Auto Rule For Tnt Australia.txt",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/KQQHOgMj1tztEbCjHGDxNXDwB/?name=request-for-Auto+Rule+For+Tnt+Australia.txt",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/KQQHOgMj1tztEbCjHGDxNXDwB/?name=request-for-Auto+Rule+For+Tnt+Australia.txt",
+          "content_type": "text/plain",
+          "size": 1953,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 59067550693785,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nojobtoostupid@gmail.com",
+            "name": "Jason Gendrolius",
+            "original_recipients": [
+              "nicholas.evans@fedex.com",
+              "support@pluginhive.com",
+              "veena@pluginhive.com",
+              "athul@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T22:49:49Z",
+      "metadata": {
+        "system": {
+          "message_id": "<SA3PR12MB7951A65712EFCCE884F712DB93E52@SA3PR12MB7951.namprd12.prod.outlook.com>",
+          "email_id": "01KV9A0JB5V5KSZQX7JFVWKBYH",
+          "raw_email_identifier": "2369120/39503e64-069e-4cf5-b950-9cbd24f96813.eml",
+          "json_email_identifier": "2369120/39503e64-069e-4cf5-b950-9cbd24f96813.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59068301345561,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Nick,\n\nThank you for your reply and for sharing the details.\n\nPlease allow us some time while we review this case internally and get back to you with an update.\n\nWe appreciate your patience and understanding.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick,<br>&nbsp;<br>Thank you for your reply and for sharing the details.<br>&nbsp;<br>Please allow us some time while we review this case internally and get back to you with an update.<br>&nbsp;<br>We appreciate your patience and understanding.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick,\n&nbsp;\nThank you for your reply and for sharing the details.\n&nbsp;\nPlease allow us some time while we review this case internally and get back to you with an update.\n&nbsp;\nWe appreciate your patience and understanding.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59068301345433,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T23:29:32Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59068297687961,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Requested Priyanka to review and take it forward.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Requested Priyanka to review and take it forward.<br></div>",
+      "plain_body": "Requested Priyanka to review and take it forward.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59068297687193,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-16T23:31:23Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59078201764761,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "L3:\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1781669361793909\n\nRequest \u2013 TNT Australia Residential Surcharge Support\n\nCustomer Requirement:\nMCSL customer using TNT Australia would like residential surcharges (if applicable) to be included in the shipping rates displayed at checkout.\n\nWe contacted the TNT Australia team regarding the implementation of residential surcharges through their API.\nTNT confirmed that residential surcharges can be implemented by including the following tags in the API request:\n\"<residential>RSD</residential> after the delivery or receiver and <residential>RSP</residential> for collection or sender.\nRSD= Delivery\nRSP = Pickup\"\n\nPlease review the TNT documentation and assess the feasibility of implementing support for residential surcharge in the TNT Australia integration.\n\nKindly check the attachment below.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3:&nbsp;<br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1781669361793909\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1781669361793909</a><br>&nbsp;<br>Request \u2013 TNT Australia Residential Surcharge Support<br>&nbsp;<br>Customer Requirement:<br>MCSL customer using TNT Australia would like residential surcharges (if applicable) to be included in the shipping rates displayed at checkout.<br>&nbsp;<br>We contacted the TNT Australia team regarding the implementation of residential surcharges through their API.<br>TNT confirmed that residential surcharges can be implemented by including the following tags in the API request:<br>\"&lt;residential&gt;RSD&lt;/residential&gt; after the delivery or receiver and &lt;residential&gt;RSP&lt;/residential&gt; for collection or sender.<br>RSD= Delivery<br>RSP = Pickup\"<br>&nbsp;<br>Please review the TNT documentation and assess the feasibility of implementing support for residential surcharge in the TNT Australia integration.<br>&nbsp;<br>Kindly check the attachment below.<br></div>",
+      "plain_body": "L3:&nbsp;\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1781669361793909\n&nbsp;\nRequest \u2013 TNT Australia Residential Surcharge Support\n&nbsp;\nCustomer Requirement:\nMCSL customer using TNT Australia would like residential surcharges (if applicable) to be included in the shipping rates displayed at checkout.\n&nbsp;\nWe contacted the TNT Australia team regarding the implementation of residential surcharges through their API.\nTNT confirmed that residential surcharges can be implemented by including the following tags in the API request:\n\"&lt;residential&gt;RSD&lt;/residential&gt; after the delivery or receiver and &lt;residential&gt;RSP&lt;/residential&gt; for collection or sender.\nRSD= Delivery\nRSP = Pickup\"\n&nbsp;\nPlease review the TNT documentation and assess the feasibility of implementing support for residential surcharge in the TNT Australia integration.\n&nbsp;\nKindly check the attachment below.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59078201764633,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T04:15:59Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59094812688793,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We will enhance the app to include residential surcharge for TNT Australia rates, will update on ETA by tomorrow. Inform the merchant and move the ticket to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will enhance the app to include residential surcharge for TNT Australia rates, will update on ETA by tomorrow. Inform the merchant and move the ticket to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "We will enhance the app to include residential surcharge for TNT Australia rates, will update on ETA by tomorrow. Inform the merchant and move the ticket to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59094812688665,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T12:10:03Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Manjeri, KL, India",
+          "latitude": 11.12,
+          "longitude": 76.1247
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59096004225817,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Nick and Jason,\n\nThank you for your patience.\n\nWe have reviewed the residential surcharge requirement with our development team and confirmed that we will be enhancing the app to support residential surcharges for TNT Australia rates.\nOur team is currently assessing the implementation effort and will provide an estimated timeline (ETA) by tomorrow.\n\nIf any questions come up during development, we may reach out for further guidance \u2014 and we appreciate your offer to assist.\n\nThanks and regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Nick and Jason,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>We have reviewed the residential surcharge requirement with our development team and confirmed that we will be enhancing the app to support residential surcharges for TNT Australia rates.<br>Our team is currently assessing the implementation effort and will provide an estimated timeline (ETA) by tomorrow.<br>&nbsp;<br>If any questions come up during development, we may reach out for further guidance \u2014 and we appreciate your offer to assist.<br>&nbsp;<br>Thanks and regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Nick and Jason,\n&nbsp;\nThank you for your patience.\n&nbsp;\nWe have reviewed the residential surcharge requirement with our development team and confirmed that we will be enhancing the app to support residential surcharges for TNT Australia rates.\nOur team is currently assessing the implementation effort and will provide an estimated timeline (ETA) by tomorrow.\n&nbsp;\nIf any questions come up during development, we may reach out for further guidance \u2014 and we appreciate your offer to assist.\n&nbsp;\nThanks and regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59096004225689,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T13:02:49Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59096033881113,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Replied and moved back to L3 for ETA",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Replied and moved back to L3 for ETA<br></div>",
+      "plain_body": "Replied and moved back to L3 for ETA",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59096033880345,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T13:03:06Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59102159224089,
+      "type": "Comment",
+      "author_id": 52291804049817,
+      "body": "Hi\n\n    I've just been testing my shipping after a customer from Chile made me aware if a error they where coming up with, no international shipping is being allowed at present please can you look at this ASAP?\n\n\nRegards\n\nJason 'naut' Gendrolius\n\n\n\n**NAUT CASES**\n\n**50 Annie St**\n\n**Rocklea, QLD, Australia 4106.**\n\n**04 3838 4418**\n\n\n\n**NEW **\n\n**WEB STORE **\n\n**OPEN NOW**\n\n**nautcases.com**",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div><div>Hi&nbsp;</div><div>&nbsp; &nbsp; I've just been testing my shipping after a customer from Chile made me aware if a error they where coming up with, no international shipping is being allowed at present please can you look at this ASAP?</div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div style=\"text-align: left;\" align=\"left\"><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\">Regards</font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\">Jason 'naut' Gendrolius</font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><br></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#000000\"><b>NAUT CASES</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>50 Annie St</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>Rocklea, QLD, Australia 4106.</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>04 3838 4418</b></font></span></div><div><font color=\"#444444\"><b style=\"background-color: rgb(255,255,0);\"><br></b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">NEW&nbsp;</b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">WEB STORE&nbsp;</b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">OPEN NOW</b></font></div><div><font color=\"#ff0000\"><b><a href=\"http://nautcases.com\" style=\"background-color: rgb(255,255,0);\" rel=\"noreferrer\">nautcases.com</a></b></font></div><div><span></span><span></span></div><div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi&nbsp;  &nbsp; &nbsp; I've just been testing my shipping after a customer from Chile made me aware if a error they where coming up with, no international shipping is being allowed at present please can you look at this ASAP? \n                   Regards  Jason 'naut' Gendrolius  \n  NAUT CASES  50 Annie St  Rocklea, QLD, Australia 4106.  04 3838 4418  \n  NEW&nbsp;  WEB STORE&nbsp;  OPEN NOW  nautcases.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59102159223961,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nojobtoostupid@gmail.com",
+            "name": "Jason Gendrolius",
+            "original_recipients": [
+              "nojobtoostupid@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T20:12:29Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAD5LL4hWnmOfqjujon7yteTqzSmoNFvk_+OL9uE0FR4ZhWsY5Q@mail.gmail.com>",
+          "email_id": "01KVBKDCN10KYSHF3A5M1V5AYP",
+          "raw_email_identifier": "2369120/e2415cdf-8865-4a12-b5af-c3ab4cb48c14.eml",
+          "json_email_identifier": "2369120/e2415cdf-8865-4a12-b5af-c3ab4cb48c14.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59103907326233,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Jason,\n\nThe shipping rate for Chile is failing with the message that the recipient's postal code or suburb/city information is invalid.\nCould you please try placing the order again using a valid Chilean shipping address and verify whether the rates are returned successfully?\n\nPlease let us know how it goes. If you need any assistance, we'll be happy to help.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>The shipping rate for Chile is failing with the message that the recipient's postal code or suburb/city information is invalid.<br>Could you please try placing the order again using a valid Chilean shipping address and verify whether the rates are returned successfully?<br>&nbsp;<br>Please let us know how it goes. If you need any assistance, we'll be happy to help.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nThe shipping rate for Chile is failing with the message that the recipient's postal code or suburb/city information is invalid.\nCould you please try placing the order again using a valid Chilean shipping address and verify whether the rates are returned successfully?\n&nbsp;\nPlease let us know how it goes. If you need any assistance, we'll be happy to help.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59103907326105,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T22:51:05Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59104275483033,
+      "type": "Comment",
+      "author_id": 52291804049817,
+      "body": "Hi PluginHive\n\n                      I've just tested all countries and none are working, I have been processing orders manually through email in Chile, UK and US this morning.\n\n\nRegards\n\nJason 'naut' Gendrolius\n\n\n\n**NAUT CASES**\n\n**50 Annie St**\n\n**Rocklea, QLD, Australia 4106.**\n\n**04 3838 4418**\n\n\n\n**NEW **\n\n**WEB STORE **\n\n**OPEN NOW**\n\n**nautcases.com**",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div><div>Hi&nbsp;PluginHive</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I've just tested all countries and none are working, I have been processing orders manually through email in Chile, UK and US this morning.</div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div style=\"text-align: left;\" align=\"left\"><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\">Regards</font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\">Jason 'naut' Gendrolius</font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><br></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#000000\"><b>NAUT CASES</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>50 Annie St</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>Rocklea, QLD, Australia 4106.</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>04 3838 4418</b></font></span></div><div><font color=\"#444444\"><b style=\"background-color: rgb(255,255,0);\"><br></b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">NEW&nbsp;</b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">WEB STORE&nbsp;</b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">OPEN NOW</b></font></div><div><font color=\"#ff0000\"><b><a href=\"http://nautcases.com\" style=\"background-color: rgb(255,255,0);\" rel=\"noreferrer\">nautcases.com</a></b></font></div><div><span></span><span></span></div><div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Hi&nbsp;PluginHive  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I've just tested all countries and none are working, I have been processing orders manually through email in Chile, UK and US this morning. \n                   Regards  Jason 'naut' Gendrolius  \n  NAUT CASES  50 Annie St  Rocklea, QLD, Australia 4106.  04 3838 4418  \n  NEW&nbsp;  WEB STORE&nbsp;  OPEN NOW  nautcases.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59104275482905,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nojobtoostupid@gmail.com",
+            "name": "Jason Gendrolius",
+            "original_recipients": [
+              "nojobtoostupid@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T23:10:19Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAD5LL4hs01pQuffqQfMNrQxa0iM5MYp4LXtRXv0+GFPJWc23cw@mail.gmail.com>",
+          "email_id": "01KVBXK0DVG227TDVDF6A7CN1V",
+          "raw_email_identifier": "2369120/af19d0ce-e6d4-4164-86c1-38bf90808d93.eml",
+          "json_email_identifier": "2369120/af19d0ce-e6d4-4164-86c1-38bf90808d93.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59104626280601,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+61343283339",
+        "to": "+61438384418",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA89808f8ece28797a45382a1d08f188f8/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 59104654802457,
+        "call_duration": 38,
+        "answered_by_id": 9977129389337,
+        "started_at": "2026-06-17T23:28:55Z",
+        "location": "",
+        "author_id": 9977129389337,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Manohar V",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+61 3 4328 3339",
+      "formatted_to": "+61 438 384 418",
+      "transcription_visible": false,
+      "author_id": 9977129389337,
+      "body": "Outbound call to +61 438 384 418\nCall Details:\n\nCall from: +61 3 4328 3339\nCall to: +61 438 384 418\nTime of call: 2026-06-17 23:28:55 UTC\nCalled by: Manohar V\nLength of phone call: 38 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA89808f8ece28797a45382a1d08f188f8/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +61 438 384 418<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +61 3 4328 3339<br>\nCall to: +61 438 384 418<br>\nTime of call: 2026-06-17 23:28:55 UTC<br>\nCalled by: Manohar V<br>\nLength of phone call: 38 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA89808f8ece28797a45382a1d08f188f8/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CA89808f8ece28797a45382a1d08f188f8/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-06-17T23:29:34Z",
+      "audit_id": 59104626277145,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+61 3 4328 3339",
+            "phone": "+61343283339",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+61 438 384 418",
+            "phone": "+61438384418",
+            "name": "Caller +61 438 384 418"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59104805018521,
+      "type": "VoiceComment",
+      "public": false,
+      "data": {
+        "from": "+61343283339",
+        "to": "+61438384418",
+        "recording_url": "https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAe6f551f5c309762089af2312b9957858/twilio/recording",
+        "recording_type": "call",
+        "recorded": true,
+        "recording_consent_action": null,
+        "call_id": 59104671556633,
+        "call_duration": 488,
+        "answered_by_id": 9977129389337,
+        "started_at": "2026-06-17T23:29:43Z",
+        "location": "",
+        "author_id": 9977129389337,
+        "public": false,
+        "brand_id": 360000890072,
+        "via_id": 35,
+        "line_type": "phone",
+        "answered_by_name": "Manohar V",
+        "transcription_status": "completed"
+      },
+      "formatted_from": "+61 3 4328 3339",
+      "formatted_to": "+61 438 384 418",
+      "transcription_visible": false,
+      "author_id": 9977129389337,
+      "body": "Outbound call to +61 438 384 418\nCall Details:\n\nCall from: +61 3 4328 3339\nCall to: +61 438 384 418\nTime of call: 2026-06-17 23:29:43 UTC\nCalled by: Manohar V\nLength of phone call: 8 minutes, 8 seconds\nListen to the recording: https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAe6f551f5c309762089af2312b9957858/twilio/recording\n",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Outbound call to +61 438 384 418<br>\nCall Details:</p>\n<p dir=\"auto\">Call from: +61 3 4328 3339<br>\nCall to: +61 438 384 418<br>\nTime of call: 2026-06-17 23:29:43 UTC<br>\nCalled by: Manohar V<br>\nLength of phone call: 8 minutes, 8 seconds<br>\nListen to the recording: <a href=\"https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAe6f551f5c309762089af2312b9957858/twilio/recording\" rel=\"noreferrer\">https://pluginhive.zendesk.com/api/v2/channels/voice/calls/CAe6f551f5c309762089af2312b9957858/twilio/recording</a></p></div>",
+      "trusted": true,
+      "attachments": [],
+      "created_at": "2026-06-17T23:37:53Z",
+      "audit_id": 59104805003929,
+      "via": {
+        "channel": "voice",
+        "source": {
+          "rel": "outbound",
+          "from": {
+            "formatted_phone": "+61 3 4328 3339",
+            "phone": "+61343283339",
+            "name": "PluginHive"
+          },
+          "to": {
+            "formatted_phone": "+61 438 384 418",
+            "phone": "+61438384418",
+            "name": "Caller +61 438 384 418"
+          }
+        }
+      },
+      "metadata": {
+        "system": {
+          "client": "",
+          "ip_address": "",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59104829245593,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Had a call with the customer and informed them that the rates are failing because the total girth exceeds the carrier's limit of 140 inches.\n\nThe customer mentioned that they recently updated the product dimensions, which is likely causing the issue. They will revert the dimension changes and perform further testing.\n\nThe customer appreciated the quick call and assistance provided.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Had a call with the customer and informed them that the rates are failing because the total girth exceeds the carrier's limit of 140 inches.<br>&nbsp;<br>The customer mentioned that they recently updated the product dimensions, which is likely causing the issue. They will revert the dimension changes and perform further testing.<br>&nbsp;<br>The customer appreciated the quick call and assistance provided.<br></div>",
+      "plain_body": "Had a call with the customer and informed them that the rates are failing because the total girth exceeds the carrier's limit of 140 inches.\n&nbsp;\nThe customer mentioned that they recently updated the product dimensions, which is likely causing the issue. They will revert the dimension changes and perform further testing.\n&nbsp;\nThe customer appreciated the quick call and assistance provided.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59104829245465,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T23:39:41Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59104908380825,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Jason,\n\nThank you for your valuable time over the call\n\nAs requested, please try placing the new order after making the necessary changes and check how it goes. Please keep us posted.\n\nDo let us know if you need any further assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jason,<br>&nbsp;<br>Thank you for your valuable time over the call<br>&nbsp;<br>As requested, please try placing the new order after making the necessary changes and check how it goes. Please keep us posted.<br>&nbsp;<br>Do let us know if you need any further assistance.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Jason,\n&nbsp;\nThank you for your valuable time over the call\n&nbsp;\nAs requested, please try placing the new order after making the necessary changes and check how it goes. Please keep us posted.\n&nbsp;\nDo let us know if you need any further assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59104908380697,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T23:41:20Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59104954789913,
+      "type": "Comment",
+      "author_id": 52291804049817,
+      "body": "Thanks\n\n\nRegards\n\nJason 'naut' Gendrolius\n\n\n\n**NAUT CASES**\n\n**50 Annie St**\n\n**Rocklea, QLD, Australia 4106.**\n\n**04 3838 4418**\n\n\n\n**NEW **\n\n**WEB STORE **\n\n**OPEN NOW**\n\n**nautcases.com**",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div><div>Thanks</div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div style=\"text-align: left;\" align=\"left\"><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\">Regards</font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\">Jason 'naut' Gendrolius</font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><br></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#000000\"><b>NAUT CASES</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>50 Annie St</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>Rocklea, QLD, Australia 4106.</b></font></span></div><div><span style=\"background-color: rgb(255,255,255);\"><font color=\"#444444\"><b>04 3838 4418</b></font></span></div><div><font color=\"#444444\"><b style=\"background-color: rgb(255,255,0);\"><br></b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">NEW&nbsp;</b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">WEB STORE&nbsp;</b></font></div><div><font color=\"#ff0000\"><b style=\"background-color: rgb(255,255,0);\">OPEN NOW</b></font></div><div><font color=\"#ff0000\"><b><a href=\"http://nautcases.com\" style=\"background-color: rgb(255,255,0);\" rel=\"noreferrer\">nautcases.com</a></b></font></div><div><span></span><span></span></div><div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><br></div><br><div></div></div>",
+      "plain_body": "Thanks \n                   Regards  Jason 'naut' Gendrolius  \n  NAUT CASES  50 Annie St  Rocklea, QLD, Australia 4106.  04 3838 4418  \n  NEW&nbsp;  WEB STORE&nbsp;  OPEN NOW  nautcases.com",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59104954789785,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "nojobtoostupid@gmail.com",
+            "name": "Jason Gendrolius",
+            "original_recipients": [
+              "nojobtoostupid@gmail.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T23:43:20Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAD5LL4hftD9UrB4uVcsXgB0ETorvud66Bm8hAYcTZ8+4WbHqdg@mail.gmail.com>",
+          "email_id": "01KVBZFE7YXJDGGCYXKDH45FHT",
+          "raw_email_identifier": "2369120/9b16d661-a2f6-4c8b-afc5-b9c397246c47.eml",
+          "json_email_identifier": "2369120/9b16d661-a2f6-4c8b-afc5-b9c397246c47.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59104983837977,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 27 message(s)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Jason,\n\nYou're welcome! We're glad we could get that sorted for you quickly. We'll also be in touch with an update on the TNT residential surcharge enhancement once our development team confirms the timeline. Please don't hesitate to reach out if anything else comes up.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)<br>\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 27 message(s)<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Jason,</p>\n<p dir=\"auto\">You're welcome! We're glad we could get that sorted for you quickly. We'll also be in touch with an update on the TNT residential surcharge enhancement once our development team confirms the timeline. Please don't hesitate to reach out if anything else comes up.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+      "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\n\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 27 message(s)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Jason, \n You're welcome! We're glad we could get that sorted for you quickly. We'll also be in touch with an update on the TNT residential surcharge enhancement once our development team confirms the timeline. Please don't hesitate to reach out if anything else comes up. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59104958741017,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T23:43:44Z",
+      "metadata": {
+        "system": {
+          "client": "node",
+          "ip_address": "206.189.72.35",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59130976241817,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "ETA: on or before 7th July.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA: on or before 7th July.<br>[Veena]<br></div>",
+      "plain_body": "ETA: on or before 7th July.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59130976241177,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T12:14:15Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

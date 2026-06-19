@@ -1,0 +1,493 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/393842.json",
+    "id": 393842,
+    "external_id": null,
+    "via": {
+      "channel": "native_messaging",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-06-05T13:32:15Z",
+    "updated_at": "2026-06-18T12:22:45Z",
+    "generated_timestamp": 1781785365,
+    "type": null,
+    "subject": "Conversation with Mark",
+    "raw_subject": "Conversation with Mark",
+    "description": "Conversation with Web User 6a22cf5e248bf734149e47b1",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 45795767339161,
+    "submitter_id": 58672046977433,
+    "assignee_id": 388269142331,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "other",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "dc2mmn-cm.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "9Y0WZ4-2X17L",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "dc2mmn-cm.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": true,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58672073515801,
+      "type": "Comment",
+      "author_id": 58672046977433,
+      "body": "Conversation with Web User 6a22cf5e248bf734149e47b1",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Conversation with Web User 6a22cf5e248bf734149e47b1</p></div>",
+      "plain_body": "Conversation with Web User 6a22cf5e248bf734149e47b1",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58672073515545,
+      "via": {
+        "channel": "native_messaging",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T13:32:15Z",
+      "metadata": {
+        "system": {},
+        "custom": {}
+      }
+    },
+    {
+      "id": 58672260581657,
+      "type": "Comment",
+      "author_id": -1,
+      "body": "(19:00:08) PluginHive: Hi there. How can I help you today?\n(19:02:12) Web User 6a22cf5e248bf734149e47b1: Name: Mark Beyerl\nEmail: sales@retailrems.com\n(19:02:14) PluginHive: Connecting you with someone now.\n(19:02:27) Mark Beyerl: Shipping time estimates shown at check out for USPS and so far, off.\nHow do I add handling time to get them closer to the truth?\n\n(19:04:00) Niranjan: Hello Mark,\n\u00a0\nNiranjan here.\n\u00a0\n\u00a0\n\u00a0\nBest regards,\nNiranjan\nTeam PluginHive\n(19:04:54) Niranjan: Sure, we'll definitely assist you with the query. May I know which solution you are referring to so that I can assist you better?\n(19:05:28) Mark Beyerl: \nPH MultiCarrier Shipping Label for Shopify\n(19:07:03) Niranjan: Thanks for letting us know.\n\u00a0\nOur concerned team will get back to you shortly and assist you. Please allow us some time.\n\u00a0\nI appreciate your patience",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">(19:00:08) PluginHive: Hi there. How can I help you today?\n<br>(19:02:12) Web User 6a22cf5e248bf734149e47b1: Name: Mark Beyerl\n<br>Email: <a href=\"mailto:sales@retailrems.com\" rel=\"noreferrer\">sales@retailrems.com</a>\n<br>(19:02:14) PluginHive: Connecting you with someone now.\n<br>(19:02:27) Mark Beyerl: Shipping time estimates shown at check out for USPS and so far, off.\n<br>How do I add handling time to get them closer to the truth?</p>\n\n<p dir=\"auto\">(19:04:00) Niranjan: Hello Mark,\n<br>&nbsp;\n<br>Niranjan here.\n<br>&nbsp;\n<br>&nbsp;\n<br>&nbsp;\n<br>Best regards,\n<br>Niranjan\n<br>Team PluginHive\n<br>(19:04:54) Niranjan: Sure, we'll definitely assist you with the query. May I know which solution you are referring to so that I can assist you better?\n<br>(19:05:28) Mark Beyerl: \n<br>PH MultiCarrier Shipping Label for Shopify\n<br>(19:07:03) Niranjan: Thanks for letting us know.\n<br>&nbsp;\n<br>Our concerned team will get back to you shortly and assist you. Please allow us some time.\n<br>&nbsp;\n<br>I appreciate your patience</p></div>",
+      "plain_body": "(19:00:08) PluginHive: Hi there. How can I help you today?\n\n(19:02:12) Web User 6a22cf5e248bf734149e47b1: Name: Mark Beyerl\n\nEmail: sales@retailrems.com\n\n(19:02:14) PluginHive: Connecting you with someone now.\n\n(19:02:27) Mark Beyerl: Shipping time estimates shown at check out for USPS and so far, off.\n\nHow do I add handling time to get them closer to the truth? \n\n (19:04:00) Niranjan: Hello Mark,\n\n&nbsp;\n\nNiranjan here.\n\n&nbsp;\n\n&nbsp;\n\n&nbsp;\n\nBest regards,\n\nNiranjan\n\nTeam PluginHive\n\n(19:04:54) Niranjan: Sure, we'll definitely assist you with the query. May I know which solution you are referring to so that I can assist you better?\n\n(19:05:28) Mark Beyerl: \n\nPH MultiCarrier Shipping Label for Shopify\n\n(19:07:03) Niranjan: Thanks for letting us know.\n\n&nbsp;\n\nOur concerned team will get back to you shortly and assist you. Please allow us some time.\n\n&nbsp;\n\nI appreciate your patience",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58672260581401,
+      "via": {
+        "channel": "chat_transcript",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T13:42:03Z",
+      "metadata": {
+        "system": {},
+        "custom": {}
+      }
+    },
+    {
+      "id": 58672282804377,
+      "type": "Comment",
+      "author_id": -1,
+      "body": "(19:12:04) PluginHive: Waiting on your response. If we don't hear from you within a few minutes, this ticket will be marked as solved.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">(19:12:04) PluginHive: Waiting on your response. If we don't hear from you within a few minutes, this ticket will be marked as solved.</p></div>",
+      "plain_body": "(19:12:04) PluginHive: Waiting on your response. If we don't hear from you within a few minutes, this ticket will be marked as solved.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58672307316889,
+      "via": {
+        "channel": "chat_transcript",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T13:42:39Z",
+      "metadata": {
+        "system": {},
+        "custom": {}
+      }
+    },
+    {
+      "id": 58673043953561,
+      "type": "Comment",
+      "author_id": -1,
+      "body": "(19:12:39) Mark Beyerl: I still need help dont mark it solved\n(19:13:03) Keerthi: Hello Mark,\n\u00a0\nGood day!\n(19:13:19) Keerthi: Please allow me a few minutes to look into your request.\n(19:13:35) Mark Beyerl: sure\n(19:19:49) Keerthi: Sorry for the delay Mark.\n(19:22:35) Keerthi: Regarding your query, currently, we do not have an option to manually add buffer days to the estimated delivery for the USPS carrier.\n\u00a0\nThat said, if this requirement is important for your use case, I\u2019d be happy to share it with our product team to check its feasibility and keep you updated on any possibilities.\n\u00a0\nIn addition, you also mentioned that the Estimated Delivery are not appropriate. Could you please provide an example, so I can review from my end and confirm?\n(19:26:32) Mark Beyerl uploaded: Attach0[1].jpg\nURL: https://pluginhive.zendesk.com/sc/attachments/v2/01KTC14ECM2J98WFFF8V98QX3H/Attach0%5B1%5D.jpg\nType: image/jpeg\nSize: 513635\n(19:27:21) Mark Beyerl: it has already been 3 days and it is charlotte NC \n(19:28:18) Mark Beyerl: You have this feature in your WooCommerce app. Yes I want this feature in the Shopify app.  \n(19:29:06) Mark Beyerl: WooCommerce Go to General Settings. Look for the Product & Handling or Processing Time section.\n(19:34:35) Keerthi: In case of Shopify,\u00a0\nShopify displays the estimated delivery date in business days, meaning weekends are excluded from the delivery timeline shown to customers.\n\u00a0\nFor example, if the carrier returns an estimated delivery of 4 days and that period includes a Saturday and Sunday, Shopify may display it as 1\u20132 business days since weekends are not counted as business days. I hope this helps clarify the behavior you are seeing.\n(19:34:48) Keerthi: Regarding your requirement, I would be happy to forward this request to our product team. Before I do that, could you please share a little more about your business use case?\n(19:36:02) Mark Beyerl: The example I sent. shows today 1-2 days to OK this will never happen never  \n(19:36:23) Keerthi: From what I can see on your website: https://www.retailrems.com/ , RetailREMS appears to offer custom-made products.\u00a0\n\u00a0\nCould you help me understand:\n\n * What kind of products do you ship?\n * What is the usual time required to manufacture/prepare your products before shipment?\n * Are there specific situations where the current estimated delivery dates create challenges for your customers?\n(19:36:35) Mark Beyerl: My customer picks this  fast and cheap it is only cheap\n(19:37:30) Keerthi: I completely understand, as I was saying, the actual estimated delivery provided by carrier is 4 days but shopify displays it as 1-2 business days excluding weekends.\n(19:37:54) Mark Beyerl: We have a rescue kit the person tractor is not usable until they install this product. So  they are very concerned when they will get it.. \n(19:38:09) Keerthi: I would like to know just a little more information about your business case, this will help us better understand the requirement and provide additional context when discussing it with our team for prioritization.\n(19:38:47) Mark Beyerl: I just did our Rescue kit\n(19:39:29) Mark Beyerl: If they had the real est they would not pick USPS.\n(19:40:09) Mark Beyerl: \nPH MultiCarrier Shipping Label\n(19:40:20) Mark Beyerl: https://www.retailrems.com/products/broken-hydraulic-filter-rescue-kit\n(19:44:49) Keerthi: Thanks for the details.\n\u00a0\nOne last question, what is the usual time required to manufacture/prepare your products before shipment?\n(19:45:44) Mark Beyerl: Rescue kits we try to ship same day. Always in stock \n(19:48:51) Mark Beyerl: I have to go back to work is that enough to request this feature \n(19:51:45) Keerthi: Thank you for the details, Mark.\n\u00a0\nYes, we can end the chat session now. I will share your request with our Product Team and get back to you with further updates via email on Monday.\n\u00a0\nYou will receive a transcript of this chat conversation. If you have any additional questions in the meantime, please feel free to reply to the email or follow up on this thread.\n\u00a0\nHave a great weekend, and thank you for contacting us!",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">(19:12:39) Mark Beyerl: I still need help dont mark it solved\n<br>(19:13:03) Keerthi: Hello Mark,\n<br>&nbsp;\n<br>Good day!\n<br>(19:13:19) Keerthi: Please allow me a few minutes to look into your request.\n<br>(19:13:35) Mark Beyerl: sure\n<br>(19:19:49) Keerthi: Sorry for the delay Mark.\n<br>(19:22:35) Keerthi: Regarding your query, currently, we do not have an option to manually add buffer days to the estimated delivery for the USPS carrier.\n<br>&nbsp;\n<br>That said, if this requirement is important for your use case, I\u2019d be happy to share it with our product team to check its feasibility and keep you updated on any possibilities.\n<br>&nbsp;\n<br>In addition, you also mentioned that the Estimated Delivery are not appropriate. Could you please provide an example, so I can review from my end and confirm?\n<br>(19:26:32) Mark Beyerl uploaded: Attach0[1].jpg\n<br>URL: <a href=\"https://pluginhive.zendesk.com/sc/attachments/v2/01KTC14ECM2J98WFFF8V98QX3H/Attach0%5B1%5D.jpg\" target=\"_blank\" rel=\"nofollow noreferrer\">https://pluginhive.zendesk.com/sc/attachments/v2/01KTC14ECM2J98WFFF8V98QX3H/Attach0%5B1%5D.jpg</a>\n<br>Type: image/jpeg\n<br>Size: 513635\n<br>(19:27:21) Mark Beyerl: it has already been 3 days and it is charlotte NC \n<br>(19:28:18) Mark Beyerl: You have this feature in your WooCommerce app. Yes I want this feature in the Shopify app.  \n<br>(19:29:06) Mark Beyerl: WooCommerce Go to General Settings. Look for the Product &amp; Handling or Processing Time section.\n<br>(19:34:35) Keerthi: In case of Shopify,&nbsp;\n<br>Shopify displays the estimated delivery date in business days, meaning weekends are excluded from the delivery timeline shown to customers.\n<br>&nbsp;\n<br>For example, if the carrier returns an estimated delivery of 4 days and that period includes a Saturday and Sunday, Shopify may display it as 1\u20132 business days since weekends are not counted as business days. I hope this helps clarify the behavior you are seeing.\n<br>(19:34:48) Keerthi: Regarding your requirement, I would be happy to forward this request to our product team. Before I do that, could you please share a little more about your business use case?\n<br>(19:36:02) Mark Beyerl: The example I sent. shows today 1-2 days to OK this will never happen never  \n<br>(19:36:23) Keerthi: From what I can see on your website: <a href=\"https://www.retailrems.com/\" target=\"_blank\" rel=\"nofollow noreferrer\">https://www.retailrems.com/</a> , RetailREMS appears to offer custom-made products.&nbsp;\n<br>&nbsp;\n<br>Could you help me understand:</p>\n\n<p dir=\"auto\"> * What kind of products do you ship?\n<br> * What is the usual time required to manufacture/prepare your products before shipment?\n<br> * Are there specific situations where the current estimated delivery dates create challenges for your customers?\n<br>(19:36:35) Mark Beyerl: My customer picks this  fast and cheap it is only cheap\n<br>(19:37:30) Keerthi: I completely understand, as I was saying, the actual estimated delivery provided by carrier is 4 days but shopify displays it as 1-2 business days excluding weekends.\n<br>(19:37:54) Mark Beyerl: We have a rescue kit the person tractor is not usable until they install this product. So  they are very concerned when they will get it.. \n<br>(19:38:09) Keerthi: I would like to know just a little more information about your business case, this will help us better understand the requirement and provide additional context when discussing it with our team for prioritization.\n<br>(19:38:47) Mark Beyerl: I just did our Rescue kit\n<br>(19:39:29) Mark Beyerl: If they had the real est they would not pick USPS.\n<br>(19:40:09) Mark Beyerl: \n<br>PH MultiCarrier Shipping Label\n<br>(19:40:20) Mark Beyerl: <a href=\"https://www.retailrems.com/products/broken-hydraulic-filter-rescue-kit\" target=\"_blank\" rel=\"nofollow noreferrer\">https://www.retailrems.com/products/broken-hydraulic-filter-rescue-kit</a>\n<br>(19:44:49) Keerthi: Thanks for the details.\n<br>&nbsp;\n<br>One last question, what is the usual time required to manufacture/prepare your products before shipment?\n<br>(19:45:44) Mark Beyerl: Rescue kits we try to ship same day. Always in stock \n<br>(19:48:51) Mark Beyerl: I have to go back to work is that enough to request this feature \n<br>(19:51:45) Keerthi: Thank you for the details, Mark.\n<br>&nbsp;\n<br>Yes, we can end the chat session now. I will share your request with our Product Team and get back to you with further updates via email on Monday.\n<br>&nbsp;\n<br>You will receive a transcript of this chat conversation. If you have any additional questions in the meantime, please feel free to reply to the email or follow up on this thread.\n<br>&nbsp;\n<br>Have a great weekend, and thank you for contacting us!</p></div>",
+      "plain_body": "(19:12:39) Mark Beyerl: I still need help dont mark it solved\n\n(19:13:03) Keerthi: Hello Mark,\n\n&nbsp;\n\nGood day!\n\n(19:13:19) Keerthi: Please allow me a few minutes to look into your request.\n\n(19:13:35) Mark Beyerl: sure\n\n(19:19:49) Keerthi: Sorry for the delay Mark.\n\n(19:22:35) Keerthi: Regarding your query, currently, we do not have an option to manually add buffer days to the estimated delivery for the USPS carrier.\n\n&nbsp;\n\nThat said, if this requirement is important for your use case, I\u2019d be happy to share it with our product team to check its feasibility and keep you updated on any possibilities.\n\n&nbsp;\n\nIn addition, you also mentioned that the Estimated Delivery are not appropriate. Could you please provide an example, so I can review from my end and confirm?\n\n(19:26:32) Mark Beyerl uploaded: Attach0[1].jpg\n\nURL: https://pluginhive.zendesk.com/sc/attachments/v2/01KTC14ECM2J98WFFF8V98QX3H/Attach0%5B1%5D.jpg\n\nType: image/jpeg\n\nSize: 513635\n\n(19:27:21) Mark Beyerl: it has already been 3 days and it is charlotte NC \n\n(19:28:18) Mark Beyerl: You have this feature in your WooCommerce app. Yes I want this feature in the Shopify app.  \n\n(19:29:06) Mark Beyerl: WooCommerce Go to General Settings. Look for the Product &amp; Handling or Processing Time section.\n\n(19:34:35) Keerthi: In case of Shopify,&nbsp;\n\nShopify displays the estimated delivery date in business days, meaning weekends are excluded from the delivery timeline shown to customers.\n\n&nbsp;\n\nFor example, if the carrier returns an estimated delivery of 4 days and that period includes a Saturday and Sunday, Shopify may display it as 1\u20132 business days since weekends are not counted as business days. I hope this helps clarify the behavior you are seeing.\n\n(19:34:48) Keerthi: Regarding your requirement, I would be happy to forward this request to our product team. Before I do that, could you please share a little more about your business use case?\n\n(19:36:02) Mark Beyerl: The example I sent. shows today 1-2 days to OK this will never happen never  \n\n(19:36:23) Keerthi: From what I can see on your website: https://www.retailrems.com/ , RetailREMS appears to offer custom-made products.&nbsp;\n\n&nbsp;\n\nCould you help me understand: \n\n  * What kind of products do you ship?\n\n * What is the usual time required to manufacture/prepare your products before shipment?\n\n * Are there specific situations where the current estimated delivery dates create challenges for your customers?\n\n(19:36:35) Mark Beyerl: My customer picks this  fast and cheap it is only cheap\n\n(19:37:30) Keerthi: I completely understand, as I was saying, the actual estimated delivery provided by carrier is 4 days but shopify displays it as 1-2 business days excluding weekends.\n\n(19:37:54) Mark Beyerl: We have a rescue kit the person tractor is not usable until they install this product. So  they are very concerned when they will get it.. \n\n(19:38:09) Keerthi: I would like to know just a little more information about your business case, this will help us better understand the requirement and provide additional context when discussing it with our team for prioritization.\n\n(19:38:47) Mark Beyerl: I just did our Rescue kit\n\n(19:39:29) Mark Beyerl: If they had the real est they would not pick USPS.\n\n(19:40:09) Mark Beyerl: \n\nPH MultiCarrier Shipping Label\n\n(19:40:20) Mark Beyerl: https://www.retailrems.com/products/broken-hydraulic-filter-rescue-kit\n\n(19:44:49) Keerthi: Thanks for the details.\n\n&nbsp;\n\nOne last question, what is the usual time required to manufacture/prepare your products before shipment?\n\n(19:45:44) Mark Beyerl: Rescue kits we try to ship same day. Always in stock \n\n(19:48:51) Mark Beyerl: I have to go back to work is that enough to request this feature \n\n(19:51:45) Keerthi: Thank you for the details, Mark.\n\n&nbsp;\n\nYes, we can end the chat session now. I will share your request with our Product Team and get back to you with further updates via email on Monday.\n\n&nbsp;\n\nYou will receive a transcript of this chat conversation. If you have any additional questions in the meantime, please feel free to reply to the email or follow up on this thread.\n\n&nbsp;\n\nHave a great weekend, and thank you for contacting us!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58673087762457,
+      "via": {
+        "channel": "chat_transcript",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T14:22:13Z",
+      "metadata": {
+        "system": {},
+        "custom": {}
+      }
+    },
+    {
+      "id": 58673139890201,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "L3: Feature Request\nUSPS - Add Buffer days to Estimated Delivery Days.\n\nStore details:\nUS store\nFedEx, UPS & USPS\nMainly using only for Rates\nInstalled : 2025-04-15\nUUID: c4b7a357-4592-46b4-9e6b-357ab9dcfbb6",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: Feature Request<br>USPS - Add Buffer days to Estimated Delivery Days.<br>&nbsp;<br>Store details:&nbsp;<br>US store<br>FedEx, UPS &amp; USPS<br>Mainly using only for Rates<br>Installed : 2025-04-15<br>UUID: c4b7a357-4592-46b4-9e6b-357ab9dcfbb6<br></div>",
+      "plain_body": "L3: Feature Request\nUSPS - Add Buffer days to Estimated Delivery Days.\n&nbsp;\nStore details:&nbsp;\nUS store\nFedEx, UPS &amp; USPS\nMainly using only for Rates\nInstalled : 2025-04-15\nUUID: c4b7a357-4592-46b4-9e6b-357ab9dcfbb6",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58673139890073,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T14:26:29Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "ip_address": "122.168.66.56",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58673141239193,
+      "type": "Comment",
+      "author_id": 388269142331,
+      "body": "$29 Plan",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">$29 Plan<br></div>",
+      "plain_body": "$29 Plan",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58673141238937,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T14:27:02Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "ip_address": "122.168.66.56",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58673267827993,
+      "type": "Comment",
+      "author_id": -1,
+      "body": "(19:52:11) Conversation ended by user",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">(19:52:11) Conversation ended by user</p></div>",
+      "plain_body": "(19:52:11) Conversation ended by user",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58673267825561,
+      "via": {
+        "channel": "chat_transcript",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T14:32:11Z",
+      "metadata": {
+        "system": {},
+        "custom": {}
+      }
+    },
+    {
+      "id": 58687533615641,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We will enhance the app to add buffer days for UPS. Kindly inform and move the ticket to dev_team. This will be a part of release 384.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will enhance the app to add buffer days for UPS. Kindly inform and move the ticket to dev_team. This will be a part of release 384.<br>[Veena]<br></div>",
+      "plain_body": "We will enhance the app to add buffer days for UPS. Kindly inform and move the ticket to dev_team. This will be a part of release 384.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58687533615513,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-06T05:06:32Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58689401270297,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Mark,\n\nGood day!\n\nWe will be enhancing the app to provide an option to add Buffer Days to Estimated Delivery Days shown at the checkout for USPS services.\n\nWe will keep you posted on the updates.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Mark,<br>&nbsp;<br>Good day!<br><br>We will be enhancing the app to provide an option to add Buffer Days to Estimated Delivery Days shown at the checkout for USPS services.<br>&nbsp;<br>We will keep you posted on the updates.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Mark,\n&nbsp;\nGood day!\n\nWe will be enhancing the app to provide an option to add Buffer Days to Estimated Delivery Days shown at the checkout for USPS services.\n&nbsp;\nWe will keep you posted on the updates.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58689401270169,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-06T06:19:54Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59131175683865,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "ETA: on or before 7th July.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA: on or before 7th July.<br>[Veena]<br></div>",
+      "plain_body": "ETA: on or before 7th July.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59131205125913,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T12:22:45Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

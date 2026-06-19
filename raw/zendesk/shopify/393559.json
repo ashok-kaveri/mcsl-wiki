@@ -1,0 +1,805 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/393559.json",
+    "id": 393559,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-06-03T18:11:14Z",
+    "updated_at": "2026-06-18T12:23:19Z",
+    "generated_timestamp": 1781785399,
+    "type": null,
+    "subject": "Why didn't shipping rates pull through for order 3...",
+    "raw_subject": "Why didn't shipping rates pull through for order 3...",
+    "description": "Why didn't shipping rates pull through for order 3680?\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/04852314-13fb-4813-a01e-37a26d166564/3e975c48-0708-490a-93ea-9adfd0e1a03d/new",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 44817224818585,
+    "submitter_id": 44817224818585,
+    "assignee_id": 9977129389337,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "2af7c3-29.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "3145289165"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "9YVX27-XN5G3",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "2af7c3-29.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "3145289165"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58599166538521,
+      "type": "Comment",
+      "author_id": 44817224818585,
+      "body": "Why didn't shipping rates pull through for order 3680?\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/04852314-13fb-4813-a01e-37a26d166564/3e975c48-0708-490a-93ea-9adfd0e1a03d/new",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Why didn't shipping rates pull through for order 3680?</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/summary/04852314-13fb-4813-a01e-37a26d166564/3e975c48-0708-490a-93ea-9adfd0e1a03d/new\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/summary/04852314-13fb-4813-a01e-37a26d166564/3e975c48-0708-490a-93ea-9adfd0e1a03d/new</a></p></div>",
+      "plain_body": "Why didn't shipping rates pull through for order 3680? \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/summary/04852314-13fb-4813-a01e-37a26d166564/3e975c48-0708-490a-93ea-9adfd0e1a03d/new",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58599166538393,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": "web_widget"
+        }
+      },
+      "created_at": "2026-06-03T18:11:14Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+          "ip_address": "97.87.153.186",
+          "location": "Olivette, MO, United States",
+          "latitude": 38.6706,
+          "longitude": -90.3705
+        },
+        "custom": {},
+        "flags": [
+          3
+        ],
+        "flags_options": {
+          "3": {
+            "trusted": false
+          }
+        },
+        "trusted": false
+      }
+    },
+    {
+      "id": 58599665648537,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "**Store:**_ US_\n**Carrier:**_ FedEx REST_\n**Orders:**_ 48_\n**Plan:**_ $29 Popular_\n**Active For/From:**_ 427 days_\n**Activity:** _Rates and Labels_",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><strong>Store:</strong><i>&nbsp;US</i><br><strong>Carrier:</strong><i>&nbsp;FedEx REST</i><br><strong>Orders:</strong><i>&nbsp;48</i><br><strong>Plan:</strong><i>&nbsp;$29 Popular</i><br><strong>Active For/From:</strong><i>&nbsp;427 days</i><br><strong>Activity:</strong><i> Rates and Labels</i><br></div>",
+      "plain_body": "Store:&nbsp;US\nCarrier:&nbsp;FedEx REST\nOrders:&nbsp;48\nPlan:&nbsp;$29 Popular\nActive For/From:&nbsp;427 days\nActivity: Rates and Labels",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58599665648409,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T18:44:45Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58599877412121,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Team,\n\nOrder 3680 has a package weight of 551.69 lbs, for which the FedEx Freight LTL services \u2014 FedEx Freight Economy and FedEx Freight Priority \u2014 are configured under the automation setup rule.\n\nHowever, the shipping rates for these two services are failing with the following error message: \u201cThe combination of freight line items and shipment special services exceeded limit. Please update and try again.\u201d\n\nSince the error message indicates that the shipment special services have exceeded the limit, I request that you please remove the special services and try processing the shipment again.\n\nIn this case, the special services enabled are Liftgate Delivery and Call Before Delivery, which are selected under: App > Settings > Carrier > FedEx 2\nAfter removing the special services, please go to: App > Orders Page > Select Order > More Actions > Reprocess Order\n\nPlease let us know how it goes or if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Order 3680 has a package weight of 551.69 lbs, for which the FedEx Freight LTL services \u2014 FedEx Freight Economy and FedEx Freight Priority \u2014 are configured under the automation setup rule.<br>&nbsp;<br>However, the shipping rates for these two services are failing with the following error message: \u201cThe combination of freight line items and shipment special services exceeded limit. Please update and try again.\u201d<br>&nbsp;<br>Since the error message indicates that the shipment special services have exceeded the limit, I request that you please remove the special services and try processing the shipment again.<br>&nbsp;<br>In this case, the special services enabled are Liftgate Delivery and Call Before Delivery, which are selected under: App &gt; Settings &gt; Carrier &gt; FedEx 2<br>After removing the special services, please go to: App &gt; Orders Page &gt; Select Order &gt; More Actions &gt; Reprocess Order<br>&nbsp;<br>Please let us know how it goes or if you need any assistance.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nOrder 3680 has a package weight of 551.69 lbs, for which the FedEx Freight LTL services \u2014 FedEx Freight Economy and FedEx Freight Priority \u2014 are configured under the automation setup rule.\n&nbsp;\nHowever, the shipping rates for these two services are failing with the following error message: \u201cThe combination of freight line items and shipment special services exceeded limit. Please update and try again.\u201d\n&nbsp;\nSince the error message indicates that the shipment special services have exceeded the limit, I request that you please remove the special services and try processing the shipment again.\n&nbsp;\nIn this case, the special services enabled are Liftgate Delivery and Call Before Delivery, which are selected under: App &gt; Settings &gt; Carrier &gt; FedEx 2\nAfter removing the special services, please go to: App &gt; Orders Page &gt; Select Order &gt; More Actions &gt; Reprocess Order\n&nbsp;\nPlease let us know how it goes or if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58599877411993,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T18:57:36Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58601763523097,
+      "type": "Comment",
+      "author_id": 44817224818585,
+      "body": "Hello-\nI removed the special instances, but I don't see \"more actions/reprocess order\" anywhere. Please help.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello-<div>I removed the special instances, but I don't see \"more actions/reprocess order\" anywhere. Please help.</div><div><br></div></div><br><div></div></div>",
+      "plain_body": "Hello- I removed the special instances, but I don't see \"more actions/reprocess order\" anywhere. Please help.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58601763522969,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "ecommerce@mybrandpromo.com",
+            "name": "E",
+            "original_recipients": [
+              "ecommerce@mybrandpromo.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T20:23:45Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANjBgEkKTE-ZWpyVNvyhmMhx4_LN26SLm6t+8qbkFcJT225LYg@mail.gmail.com>",
+          "email_id": "01KT7JFZJP5WE9HAG1R4MXA2YA",
+          "raw_email_identifier": "2369120/1c5a570a-4cf6-49b8-af81-26d51c947bee.eml",
+          "json_email_identifier": "2369120/1c5a570a-4cf6-49b8-af81-26d51c947bee.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58601981289625,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Team,\n\nThank you for your reply.\n\nI have attached a screenshot showing the option. Could you please try reprocessing the order and check how it goes?\n\nDo let us know if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive\n\n ![](https://pluginhive.zendesk.com/attachments/token/f0Qe0eelOOddi2GCJ08o5zIrB/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>I have attached a screenshot showing the option. Could you please try reprocessing the order and check how it goes?<br>&nbsp;<br>Do let us know if you need any assistance.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/f0Qe0eelOOddi2GCJ08o5zIrB/?name=image.png\"></span><br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nThank you for your reply.\n&nbsp;\nI have attached a screenshot showing the option. Could you please try reprocessing the order and check how it goes?\n&nbsp;\nDo let us know if you need any assistance.\n\nThanks and Regards,\nManohar V\nTeam PluginHive\n&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58601981289497,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T20:34:04Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58602249131545,
+      "type": "Comment",
+      "author_id": 44817224818585,
+      "body": "HEllo-\nNothing changed when I reprocessed. Please help. This is happening to multiple orders.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">HEllo-<div>Nothing changed when I reprocessed. Please help. This is happening to multiple orders.</div></div><br><div></div></div>",
+      "plain_body": "HEllo- Nothing changed when I reprocessed. Please help. This is happening to multiple orders.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58602249131417,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "ecommerce@mybrandpromo.com",
+            "name": "E",
+            "original_recipients": [
+              "ecommerce@mybrandpromo.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T20:48:22Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANjBgEm03ydLmGA8wd2O3xfxVp=mG17Vk8mTYzPLB1irkxkEPA@mail.gmail.com>",
+          "email_id": "01KT7KX26AWTF8MSMYP61THSQ5",
+          "raw_email_identifier": "2369120/25cb9c23-ab12-4970-950a-384702586815.eml",
+          "json_email_identifier": "2369120/25cb9c23-ab12-4970-950a-384702586815.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58602578575385,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Team,\n\nPlease allow us some time while we quickly check this and get back to you with an update.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Please allow us some time while we quickly check this and get back to you with an update.<br>&nbsp;<br>We appreciate your time and patience.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nPlease allow us some time while we quickly check this and get back to you with an update.\n&nbsp;\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58602578575257,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T21:03:32Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58602865672601,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Need assistance from the L3 team regarding the following case:\n\nCase: FedEx LTL Freight rates failure with the message:\nError: _\"Weight is missing for {0} line item. Please update and try again\"_\nCode: `LINEITEM.WEIGHT.REQUIRED`\n\nDetails:\nThis is a $29 Popular Plan CMSL customer using FedEx (REST) with Freight LTL configured for shipments over 150 lbs. However, shipping rates are failing for certain orders with the above error message.\n\nFor example, Order #3681 contains 129 quantities across 2 products, where the product weight is less than 0.5 lbs. I assume the issue is occurring because the minimum required weight is not being passed for individual line items in the rate request.\n\nWe had handled a similar case in the older Web Services API, but it appears this scenario is not currently handled in the new REST API implementation.\n\nThe customer sells both lightweight and heavyweight products, so there is a possibility of receiving mixed-product orders, making this an important scenario to support.\n\nI have attached the rate request and response files for reference.\n\nCould you please check and provide your input?\n\nStore Details:\nStore URL: 2af7c3-29.myshopify.com\nAccount ID: 9f128459-e8d5-45bf-bc7e-b18cf51d891c\n\n ![](https://pluginhive.zendesk.com/attachments/token/33M7cJJ5bPJJRdtNR5wDlkpU3/?name=image.png)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need assistance from the L3 team regarding the following case:<br>&nbsp;<br>Case: FedEx LTL Freight rates failure with the message:<br>Error: <i>\"Weight is missing for {0} line item. Please update and try again\"</i><br>Code: <code>LINEITEM.WEIGHT.REQUIRED</code><br>&nbsp;<br>Details:<br>This is a $29 Popular Plan CMSL customer using FedEx (REST) with Freight LTL configured for shipments over 150 lbs. However, shipping rates are failing for certain orders with the above error message.<br>&nbsp;<br>For example, Order <a href=\"/agent/tickets/3681\" target=\"_blank\" rel=\"ticket\">#3681</a> contains 129 quantities across 2 products, where the product weight is less than 0.5 lbs. I assume the issue is occurring because the minimum required weight is not being passed for individual line items in the rate request.<br>&nbsp;<br>We had handled a similar case in the older Web Services API, but it appears this scenario is not currently handled in the new REST API implementation.<br>&nbsp;<br>The customer sells both lightweight and heavyweight products, so there is a possibility of receiving mixed-product orders, making this an important scenario to support.<br>&nbsp;<br>I have attached the rate request and response files for reference.<br>&nbsp;<br>Could you please check and provide your input?<br>&nbsp;<br>Store Details:<br>Store URL: <a rel=\"noopener noreferrer\" href=\"http://2af7c3-29.myshopify.com\">2af7c3-29.myshopify.com</a>&nbsp;<br>Account ID: 9f128459-e8d5-45bf-bc7e-b18cf51d891c&nbsp;<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/33M7cJJ5bPJJRdtNR5wDlkpU3/?name=image.png\"></span><br></div>",
+      "plain_body": "Need assistance from the L3 team regarding the following case:\n&nbsp;\nCase: FedEx LTL Freight rates failure with the message:\nError: \"Weight is missing for {0} line item. Please update and try again\"\nCode: LINEITEM.WEIGHT.REQUIRED\n&nbsp;\nDetails:\nThis is a $29 Popular Plan CMSL customer using FedEx (REST) with Freight LTL configured for shipments over 150 lbs. However, shipping rates are failing for certain orders with the above error message.\n&nbsp;\nFor example, Order #3681 contains 129 quantities across 2 products, where the product weight is less than 0.5 lbs. I assume the issue is occurring because the minimum required weight is not being passed for individual line items in the rate request.\n&nbsp;\nWe had handled a similar case in the older Web Services API, but it appears this scenario is not currently handled in the new REST API implementation.\n&nbsp;\nThe customer sells both lightweight and heavyweight products, so there is a possibility of receiving mixed-product orders, making this an important scenario to support.\n&nbsp;\nI have attached the rate request and response files for reference.\n&nbsp;\nCould you please check and provide your input?\n&nbsp;\nStore Details:\nStore URL: 2af7c3-29.myshopify.com&nbsp;\nAccount ID: 9f128459-e8d5-45bf-bc7e-b18cf51d891c&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58602879661465.json",
+          "id": 58602879661465,
+          "file_name": "RequestResponse.zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/iAqmLRoqsMAN9h3rRDmJLiDDc/?name=RequestResponse.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/iAqmLRoqsMAN9h3rRDmJLiDDc/?name=RequestResponse.zip",
+          "content_type": "application/zip",
+          "size": 72564,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58602879912089,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T21:25:05Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58633582016409,
+      "type": "Comment",
+      "author_id": 44817224818585,
+      "body": "Hello - do you have any updates?",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello - do you have any updates?</div><br><div></div></div>",
+      "plain_body": "Hello - do you have any updates?",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58633582016281,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "ecommerce@mybrandpromo.com",
+            "name": "E",
+            "original_recipients": [
+              "ecommerce@mybrandpromo.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-04T12:31:04Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANjBgEn5xUaZDzb_SWms6-7KtSWn8GWv_S-ZpunNDQs2awgYDg@mail.gmail.com>",
+          "email_id": "01KT99V5BE0WZ6K7EJC95DF6AP",
+          "raw_email_identifier": "2369120/5eb9c09a-2c7d-49f3-9b52-96244c0a5690.eml",
+          "json_email_identifier": "2369120/5eb9c09a-2c7d-49f3-9b52-96244c0a5690.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58634598464409,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We have fixed the issue where freight rates were failing due to invalid weight value being passed, we have enhanced the app to pass minimum 0.5 lb weight, if product weight is less than minimum allowed value.\n\nAlso, FedEx has a limit of 15 line_items per Freight request, We will enhance this to split the order into multiple orders in such cases. This is a big change and will take some time.\n\nWorkaround:\n1. Fulfill the orders outside the app where more than 15 line_items are added. (15 unique line_items, not 15 quantity)\n2. For the time being they can mark few line_items as on hold and generate for 15 line_items and generate label for remaining product. -> If merchant is okay with this approach we can enable partial fulfillment.\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have fixed the issue where freight rates were failing due to invalid weight value being passed, we have enhanced the app to pass minimum 0.5 lb weight, if product weight is less than minimum allowed value.<br>&nbsp;<br>Also, FedEx has a limit of 15 line_items per Freight request, We will enhance this to split the order into multiple orders in such cases. This is a big change and will take some time.&nbsp;<br>&nbsp;<br>Workaround:<br><ol dir=\"auto\"><li>Fulfill the orders outside the app where more than 15 line_items are added. (15 unique line_items, not 15 quantity)</li><li>For the time being they can mark few line_items as on hold and generate for 15 line_items and generate label for remaining product. -&gt; If merchant is okay with this approach we can enable partial fulfillment.<br><br>[Veena]</li></ol></div>",
+      "plain_body": "We have fixed the issue where freight rates were failing due to invalid weight value being passed, we have enhanced the app to pass minimum 0.5 lb weight, if product weight is less than minimum allowed value.\n&nbsp;\nAlso, FedEx has a limit of 15 line_items per Freight request, We will enhance this to split the order into multiple orders in such cases. This is a big change and will take some time.&nbsp;\n&nbsp;\nWorkaround:\n  Fulfill the orders outside the app where more than 15 line_items are added. (15 unique line_items, not 15 quantity)  For the time being they can mark few line_items as on hold and generate for 15 line_items and generate label for remaining product. -&gt; If merchant is okay with this approach we can enable partial fulfillment.\n\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58634598464281,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-04T13:11:47Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58635399458585,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Team,\n\nThank you for your patience.\n\nOur team has checked the case and observed 2 reasons for the FedEx Freight rates failure for the order 3681 -\n1. Weight of some line items was less than 0.5 lbs, which was leading to error \"_Weight is missing for {0} line item. Please update and try again_\".\nThis error has now been resolved and the app will automatically pass the product weight as 0.5 lbs if it is less than this.\n\n2. FedEx has a limit of 15 line_items per Freight request (unique line items not total quantity). As the order contains more than 15 line items in a single shipment request, the rates are failing with error \"_The combination of freight line items and shipment special services exceeded limit. Please update and try again._\"\nTo address this, we will be enhancing the app to split the orders into multiple order requests. As this is a big change, it will take some time to be made available.\nTo address this, we can offer the following workaround -\n  - Fulfill the orders outside the app, where more than 15 line_items are added.\n  - Alternatively, we can enable the partial fulfillment feature in the app on your store. To use this, you will have to first set additional line items (exceeding 15) to OnHold in Shopify. The app will sync the remaining line items for which you can generate the labels as usual and fulfill the order.\nOnce done, release the OnHold items in Shopify order. The released line items will sync in the app and you will be able to process them as usual.\n\n\nLet us know if you would like to go with the 2nd workaround and we will enable the partial fulfillment feature for your store.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Our team has checked the case and observed 2 reasons for the FedEx Freight rates failure for the order 3681 -<br><ol dir=\"auto\"><li>Weight of some line items was less than 0.5 lbs, which was leading to error \"<i>Weight is missing for {0} line item. Please update and try again</i>\".<br>This error has now been resolved and the app will automatically pass the product weight as 0.5 lbs if it is less than this.<br>&nbsp;</li><li>FedEx has a limit of 15 line_items per Freight request (unique line items not total quantity). As the order contains more than 15 line items in a single shipment request, the rates are failing with error \"<i>The combination of freight line items and shipment special services exceeded limit. Please update and try again.</i>\"<br>To address this, we will be enhancing the app to split the orders into multiple order requests. As this is a big change, it will take some time to be made available.<br>To address this, we can offer the following workaround - <ul dir=\"auto\"><li>Fulfill the orders outside the app, where more than 15 line_items are added.</li><li>Alternatively, we can enable the partial fulfillment feature in the app on your store. To use this, you will have to first set additional line items (exceeding 15) to OnHold in Shopify. The app will sync the remaining line items for which you can generate the labels as usual and fulfill the order.<br>Once done, release the OnHold items in Shopify order. The released line items will sync in the app and you will be able to process them as usual.</li></ul></li></ol>&nbsp;<br>Let us know if you would like to go with the 2nd workaround and we will enable the partial fulfillment feature for your store.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Team,\n&nbsp;\nThank you for your patience.\n&nbsp;\nOur team has checked the case and observed 2 reasons for the FedEx Freight rates failure for the order 3681 -\n  Weight of some line items was less than 0.5 lbs, which was leading to error \"Weight is missing for {0} line item. Please update and try again\".\nThis error has now been resolved and the app will automatically pass the product weight as 0.5 lbs if it is less than this.\n&nbsp;  FedEx has a limit of 15 line_items per Freight request (unique line items not total quantity). As the order contains more than 15 line items in a single shipment request, the rates are failing with error \"The combination of freight line items and shipment special services exceeded limit. Please update and try again.\"\nTo address this, we will be enhancing the app to split the orders into multiple order requests. As this is a big change, it will take some time to be made available.\nTo address this, we can offer the following workaround -   Fulfill the orders outside the app, where more than 15 line_items are added.  Alternatively, we can enable the partial fulfillment feature in the app on your store. To use this, you will have to first set additional line items (exceeding 15) to OnHold in Shopify. The app will sync the remaining line items for which you can generate the labels as usual and fulfill the order.\nOnce done, release the OnHold items in Shopify order. The released line items will sync in the app and you will be able to process them as usual.    &nbsp;\nLet us know if you would like to go with the 2nd workaround and we will enable the partial fulfillment feature for your store.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58635399458457,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-04T13:46:46Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58635388204825,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Waiting for customer response.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Waiting for customer response.<br></div>",
+      "plain_body": "Waiting for customer response.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58635376528921,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-04T13:46:57Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58636315540505,
+      "type": "Comment",
+      "author_id": 44817224818585,
+      "body": "Hello-\nThe line item limit on freight orders has never been a problem before. Has something changed?\n\nI don't want to put anything on hold as our store integrates with DaVinci warehouse management system and I don't think orders will flow through.\n\n\n\nI think I will wait for the fix. Do you know how long it will take?\n\n\n\nThanks,\n\nAmy",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello-<div>The line item limit on freight orders has never been a problem before. Has something changed?&nbsp;</div><div>I don't want to put anything on hold as our store integrates with DaVinci warehouse management system and I don't think orders will flow through.</div><div><br></div><div>I think I will wait for the fix. Do you know how long it will take?</div><div><br></div><div>Thanks,</div><div>Amy</div></div><br><div></div></div>",
+      "plain_body": "Hello- The line item limit on freight orders has never been a problem before. Has something changed?&nbsp;  I don't want to put anything on hold as our store integrates with DaVinci warehouse management system and I don't think orders will flow through.  \n  I think I will wait for the fix. Do you know how long it will take?  \n  Thanks,  Amy",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58636315540377,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "ecommerce@mybrandpromo.com",
+            "name": "E",
+            "original_recipients": [
+              "ecommerce@mybrandpromo.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-04T14:26:56Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CANjBgEkiVTPvucgqQ9=KfkBfLo5QffoDT0=A8p2Cvzpis3nvww@mail.gmail.com>",
+          "email_id": "01KT9GFB6Z50SAP2KCA5A3MAK4",
+          "raw_email_identifier": "2369120/1d570c0e-6c64-4e84-be92-059c619c724d.eml",
+          "json_email_identifier": "2369120/1d570c0e-6c64-4e84-be92-059c619c724d.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58636821129369,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Amy,\n\nThank you for your response.\n\nIt seems like some things may have changed after the FedEx REST migration on FedEx end.\n\nAs of now, we do not have an exact ETA on the enhancement. However, as soon as we have an updated timeline, we will get back to you.\n\nYou can use the first workaround that we have suggested in the last response and process orders with 15+line items outside the app.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Amy,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>It seems like some things may have changed after the FedEx REST migration on FedEx end.<br>&nbsp;<br>As of now, we do not have an exact ETA on the enhancement. However, as soon as we have an updated timeline, we will get back to you.<br>&nbsp;<br>You can use the first workaround that we have suggested in the last response and process orders with 15+line items outside the app.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Amy,\n&nbsp;\nThank you for your response.\n&nbsp;\nIt seems like some things may have changed after the FedEx REST migration on FedEx end.\n&nbsp;\nAs of now, we do not have an exact ETA on the enhancement. However, as soon as we have an updated timeline, we will get back to you.\n&nbsp;\nYou can use the first workaround that we have suggested in the last response and process orders with 15+line items outside the app.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58636821129241,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-04T14:57:49Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58636857594137,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Veena to provide the release number in which this enhancement will be made available and also tentative timeline for the releases.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Veena to provide the release number in which this enhancement will be made available and also tentative timeline for the releases.<br></div>",
+      "plain_body": "Veena to provide the release number in which this enhancement will be made available and also tentative timeline for the releases.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58636857593241,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-04T14:58:27Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59131220666393,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "ETA: on or before 7th July.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA: on or before 7th July.<br>[Veena]<br></div>",
+      "plain_body": "ETA: on or before 7th July.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59131220666009,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T12:23:19Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

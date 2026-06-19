@@ -1,0 +1,832 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/393054.json",
+    "id": 393054,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "to": {},
+        "from": {
+          "ticket_id": 388243,
+          "subject": "FW: Delivery not available with online order",
+          "channel": "email"
+        },
+        "rel": "follow_up"
+      }
+    },
+    "created_at": "2026-06-01T05:09:47Z",
+    "updated_at": "2026-06-18T11:43:36Z",
+    "generated_timestamp": 1781783016,
+    "type": null,
+    "subject": "Re: [PluginHive] Re: FW: Delivery not available with online order",
+    "raw_subject": "Re: [PluginHive] Re: FW: Delivery not available with online order",
+    "description": "This is a follow-up to your previous request #388243 \"FW: Delivery not available ...\"\n\nSame issue again. Seems to happen ALL the time. Customer is fed up with this system.\n\n \n\n \n\nCheers\nDanielle\n\n \n\nNow booking projects for June/July 2026 and beyond.\nIf you\u2019d like a quote or to book a discovery session, visit www.robertsonweb.com.au \n\n \n\n \n\n \n\nCreative Director - Digital Designer & Developer\n\nwww.robertsonweb.com.au (https://www.robertsonweb.com.au/)\n\n \n\nDisclaimer: This email contains confidential information intended only for the recipient. Unauthorized use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please notify the sender immediately and delete the message. Let's preserve the environment by considering before printing this email.",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 36548591900185,
+    "submitter_id": 36548591900185,
+    "assignee_id": 18854260804761,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "https://www.sieves.net.au"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "L49XJ0-EY9JN",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "https://www.sieves.net.au"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58497599331097,
+      "type": "Comment",
+      "author_id": 36548591900185,
+      "body": "Same issue again. Seems to happen ALL the time. Customer is fed up with this system.\n\n\n\n\n\nCheers\nDanielle\n\n\n\n**Now booking projects for June/July 2026 and beyond.\nIf you\u2019d like a quote or to book a discovery session, visit www.robertsonweb.com.au_ _**\n\n\n\n_ _\n\n\n\n![RobertsonWeb - Digital Design & Development](https://support.pluginhive.com/attachments/token/c7ssOMPaa0JA7zVlAJQeXU08X/?name=image001.png)\n\n![DANIELLE ROBERTSON](https://support.pluginhive.com/attachments/token/muVcCWZQh69mkhmSQf2nAcmNT/?name=image002.png)\n\nCreative Director - Digital Designer & Developer\n\n**www.robertsonweb.com.au**\n\n![Facebook](https://support.pluginhive.com/attachments/token/XCrKISn28LEU6nhF2A8YolN3S/?name=image003.png)\n\n![Instagram](https://support.pluginhive.com/attachments/token/o0GNJN8txW6FfSCpdHJU24yyP/?name=image004.png)\n\n![Email](https://support.pluginhive.com/attachments/token/vOcgeJa2LmIeiNfELio6euKo0/?name=image005.png)\n\n\n\nDisclaimer: This email contains confidential information intended only for the recipient. Unauthorized use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please notify the sender immediately and delete the message. Let's preserve the environment by considering before printing this email.\n\n\n\n**From:**\"Devteam (PluginHive)\" <support@pluginhive.com>\n**Reply to:** PluginHive <support@pluginhive.com>\n**Date:** Friday, 8 May 2026 at 2:34 pm\n**To:** Danielle Robertson <danni@robertsonweb.com.au>\n**Subject:** [PluginHive] Re: FW: Delivery not available with online order\n\n\n\nYour request (388243) has been updated. To add additional comments, reply to this email.\n\n**Devteam** (PluginHive)\n\nMay 8, 2026, 10:04 GMT+5:30\n\nHello Danielle,\n\nHope you are doing well.\n\nFor TNT Australia, pickup time is a mandatory field to retrieve rates, and the pickup cut-off time varies based on the pickup location.\n\nFor your postal code, the current pickup cut-off time is **1:00 PM**. However, this may change depending on slot availability at the nearest pickup location. If all pickup slots are filled for the selected time, TNT will not return live rates. This process is entirely managed by TNT Australia.\n\nThat said, we are currently working on a solution to address this limitation, and it is expected to be released in the next couple of weeks.\n\nFor now, I have configured the pickup time and cut-off time on your account, and the rates are being returned successfully.\n\nPlease let us know if you need any further assistance.\n\nBest Regards,\nVeena\nTeam PluginHive\n\n\n\nAttachment(s)\nScreenshot 2026-05-08 at 9.56.25\u202fAM.png\n\n\n\n**Danielle Robertson**\n\nMay 8, 2026, 09:43 GMT+5:30\n\n**Same issue occurring week after week. This is not normal. Please advise permanent resolve.**\n\n\n\n\n\nCheers\nDanielle\n\n\n\n**Now booking projects for April/May 2026 and beyond.\nIf you\u2019d like a quote or to book a discovery session, visit www.robertsonweb.com.au_ _**\n\n\n\n_ _\n\n\n\nCreative Director - Digital Designer & Developer\n\n**www.robertsonweb.com.au**\n\n\n\nDisclaimer: This email contains confidential information intended only for the recipient. Unauthorized use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please notify the sender immediately and delete the message. Let's preserve the environment by considering before printing this email.\n\n\n\n**From:** Dave Dick <dave@cmtequipment.com.au>\n**Date:** Friday, 8 May 2026 at 2:07 pm\n**To:**'Danielle Robertson' <danni@robertsonweb.com.au>\n**Subject:** FW: Delivery not available with online order\n\n\n\nG\u2019day Dani, having the cart freight issue again by the looks of it.\n\n\n\nI had another client say the same thing.  Thanks.\n\n\n\nRegards,\n\n\n\nDave Dick | Director\n\n\n\nThe information contained in this email is intended solely for the person or entity to which it is addressed.\n\nThe email may contain confidential information: distributing, copying or disclosing any of the information contained herein is strictly forbidden.   If you have received this email in error, please notify the sender immediately and delete the email from your computer and servers.\n\n\n\n**From:** Leanne Farago <leanne.farago@deakin.edu.au>\n**Sent:** Friday, 8 May 2026 1:57 PM\n**To:** sales@sieves.net.au\n**Subject:** Delivery not available with online order\n\n\n\nHi team,\n\n\n\nI\u2019ve just tried to place the following order online and it won\u2019t give me a shipping option, this is weird as we have purchased from you heaps of times before!\n\n\n\nCan you send me a quote with shipping and I will raise a PO instead.\n\n\n\nRegards,\n\nLeanne\n\n\n\nBook time to meet with me\n\n** **\n\n**Leanne Farago**\n\nTechnical Coordinator, Civil and Environmental Engineering\n\nSchool of Engineering\n\nFaculty of Science, Engineering and Built Environment\n\n\n\n**Deakin University**\n\nLocked Bag 20000, Geelong, VIC 3220\n\n+61 3 52272289\n\n0417 571 684\n\nleanne.farago@deakin.edu.au\n\nwww.deakin.edu.au\n\nDeakin University CRICOS Provider Code 00113B\n\n\n\n**_Important Notice:_**_ The contents of this email are intended solely for the named addressee and are confidential; any unauthorised use, reproduction or storage of the contents is expressly prohibited. If you have received this email in error, please delete it and any attachments immediately and advise the sender by return email or telephone._\n\n_Deakin University does not warrant that this email and any attachments are error or virus free._\n\n\n\n**_Important Notice:_** _The contents of this email are intended solely for the named addressee and are confidential; any unauthorised use, reproduction or storage of the contents is expressly prohibited. If you have received this email in error, please delete it and any attachments immediately and advise the sender by return email or telephone._\n\n_Deakin University does not warrant that this email and any attachments are error or virus free._\n\n**Our Support is available 24/5.**\n\nPlease expect a delay during weekends & holidays due to partial coverage.\n\nDocumentation **|**\n\nVideos **|**\n\nWooCommerce Plugins **|**\n\nShopify Apps **|**\n\nMagento Extensions\n\n[VEY69J-JK344]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><div style=\"page: WordSection1;\"><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span>Same issue again. Seems to happen ALL the time. Customer is fed up with this system.</span></p><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span>&nbsp;</span></p><div><div><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Cheers<br>Danielle</span></p><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><b><span style=\"font-size: 11.0pt;  color: #006168;\">Now booking projects for June/July 2026 and beyond.<br>If you\u2019d like a quote or to book a discovery session, visit <a href=\"http://www.robertsonweb.com.au\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: #006168;\">www.robertsonweb.com.au</span></a><i>&nbsp;</i></span></b></p><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"color: #FFD966;\">&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><i><span style=\"font-size: 11.0pt; \">&nbsp;</span></i></p><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td width=\"230\" style=\"width: 172.5pt; padding: 0cm 22.5pt 0cm 0cm;\"><p align=\"center\" style=\"text-align: center; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><a href=\"https://www.robertsonweb.com.au/\" title=\"https://www.robertsonweb.com.au/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 11.0pt;  text-decoration: none;\"><img border=\"0\" width=\"200\" height=\"204\" style=\"width: 2.0833in; height: 2.125in;\" src=\"https://support.pluginhive.com/attachments/token/c7ssOMPaa0JA7zVlAJQeXU08X/?name=image001.png\" alt=\"RobertsonWeb - Digital Design &amp; Development\"></span></a><span style=\"font-size: 11.0pt; \"></span></p></td><td width=\"450\" style=\"width: 337.5pt; padding: 0cm;\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"430\" style=\"width: 322.5pt;\"><tbody><tr><td valign=\"top\" style=\"padding: 0cm;\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"450\" style=\"width: 337.5pt;\"><tbody><tr><td style=\"padding: 0cm 0cm 18.75pt;\"><p style=\"font-size: 12.0pt;  margin: 11.25pt 0cm 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \"><img border=\"0\" width=\"363\" height=\"37\" style=\"width: 3.7812in; height: .3854in;\" src=\"https://support.pluginhive.com/attachments/token/muVcCWZQh69mkhmSQf2nAcmNT/?name=image002.png\" alt=\"DANIELLE ROBERTSON\"></span></p></td></tr><tr><td style=\"padding: 0cm;\"><p style=\"font-size: 12.0pt;  margin: 11.25pt 0cm 0cm;\" dir=\"auto\"><span style=\"font-size: 11.5pt; \">Creative Director - Digital Designer &amp; Developer</span><span style=\"font-size: 11.0pt; \"></span></p></td></tr><tr><td style=\"padding: 0cm 0cm 18.75pt;\"><p style=\"font-size: 12.0pt;  margin: 11.25pt 0cm 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \"><a href=\"https://www.robertsonweb.com.au/\" title=\"https://www.robertsonweb.com.au/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><b><span style=\"color: #D29E0E;\">www.robertsonweb.com.au</span></b></a></span></p></td></tr><tr><td style=\"padding: 0cm 0cm 7.5pt;\"><table border=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"padding: .75pt;\"><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><a href=\"https://www.facebook.com/robertsonweb\" title=\"https://www.facebook.com/robertsonweb\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 11.0pt;  text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"35\" style=\"width: .25in; height: .3645in;\" src=\"https://support.pluginhive.com/attachments/token/XCrKISn28LEU6nhF2A8YolN3S/?name=image003.png\" alt=\"Facebook\"></span></a><span style=\"font-size: 11.0pt; \"></span></p></td><td style=\"padding: .75pt;\"><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><a href=\"https://www.instagram.com/robertsonweb_/\" title=\"https://www.instagram.com/robertsonweb_/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 11.0pt;  text-decoration: none;\"><img border=\"0\" width=\"50\" height=\"35\" style=\"width: .5208in; height: .3645in;\" src=\"https://support.pluginhive.com/attachments/token/o0GNJN8txW6FfSCpdHJU24yyP/?name=image004.png\" alt=\"Instagram\"></span></a><span style=\"font-size: 11.0pt; \"></span></p></td><td style=\"padding: .75pt;\"><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><a href=\"mailto:danni@robertsonweb.com.au\" title=\"mailto:danni@robertsonweb.com.au\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 11.0pt;  text-decoration: none;\"><img border=\"0\" width=\"51\" height=\"35\" style=\"width: .5312in; height: .3645in;\" src=\"https://support.pluginhive.com/attachments/token/vOcgeJa2LmIeiNfELio6euKo0/?name=image005.png\" alt=\"Email\"></span></a><span style=\"font-size: 11.0pt; \"></span></p></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"font-size: 11.0pt;  color: black;\">&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"font-size: 7.5pt; color: black; background-color: white; \">Disclaimer: This email contains confidential information intended only for the recipient. Unauthorized use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please notify the sender immediately and delete the message. Let's preserve the environment by considering before printing this email.</span><span></span></p></div></div><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span>&nbsp;</span></p><div style=\"border-top-width: 1.0pt; border-top-color: #B5C4DF; padding: 3.0pt 0cm 0cm; border-style: solid none none;\"><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><b><span style=\" color: black;\">From: </span></b><span style=\" color: black;\">\"Devteam (PluginHive)\" &lt;support@pluginhive.com&gt;<br><b>Reply to: </b>PluginHive &lt;support@pluginhive.com&gt;<br><b>Date: </b>Friday, 8 May 2026 at 2:34 pm<br><b>To: </b>Danielle Robertson &lt;danni@robertsonweb.com.au&gt;<br><b>Subject: </b>[PluginHive] Re: FW: Delivery not available with online order</span></p></div><div><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span>&nbsp;</span></p></div><div><p style=\"line-height: 13.5pt;\" dir=\"auto\"><span style=\"font-size: 9.0pt;  color: #444444;\">Your request (388243) has been updated. To add additional comments, reply to this email.</span></p><div style=\"margin-top: 18.75pt;\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\"><tbody><tr><td width=\"100%\" style=\"width: 100.0%; border-top-width: 1.0pt; border-top-color: #C5C5C5; padding: 11.25pt 0cm; border-style: dotted none none;\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\"><tbody><tr><td width=\"40\" valign=\"top\" style=\"width: 30.0pt; padding: 0cm 11.25pt;\"><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></p></td><td width=\"100%\" valign=\"top\" style=\"width: 100.0%; padding: 0cm;\"><p style=\"line-height: 13.5pt; margin: 0cm;\" dir=\"auto\"><strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\">Devteam</span></strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\"> (PluginHive) </span></p><p style=\" margin-right: 0cm; margin-bottom: 11.25pt; margin-left: 0cm; line-height: 18.75pt;\" dir=\"auto\"><span style=\"font-size: 10.0pt;  color: #BBBBBB;\">May 8, 2026, 10:04 GMT+5:30 </span></p><div style=\"margin-top: 11.25pt; margin-bottom: 11.25pt;\"><p style=\"line-height: 16.5pt; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: #2B2E2F;\">Hello Danielle,<br>&nbsp;<br>Hope you are doing well.<br>&nbsp;<br>For TNT Australia, pickup time is a mandatory field to retrieve rates, and the pickup cut-off time varies based on the pickup location.<br>&nbsp;<br>For your postal code, the current pickup cut-off time is <strong><span>1:00 PM</span></strong>. However, this may change depending on slot availability at the nearest pickup location. If all pickup slots are filled for the selected time, TNT will not return live rates. This process is entirely managed by TNT Australia.<br>&nbsp;<br>That said, we are currently working on a solution to address this limitation, and it is expected to be released in the next couple of weeks.<br>&nbsp;<br>For now, I have configured the pickup time and cut-off time on your account, and the rates are being returned successfully.<br>&nbsp;<br>Please let us know if you need any further assistance.<br>&nbsp;<br>Best Regards,<br>Veena<br>Team PluginHive<br>&nbsp;<br>&nbsp;</span></p></div><p style=\" margin-right: 0cm; margin-bottom: 11.25pt; margin-left: 0cm; line-height: 16.5pt;\" dir=\"auto\"><span style=\"font-size: 10.5pt;  color: #333333;\">Attachment(s)<br><a href=\"https://support.pluginhive.com/attachments/token/kwmgJY4j4jxglOj5m1la7P0Zp/?name=Screenshot+2026-05-08+at+9.56.25%E2%80%AFAM.png\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">Screenshot 2026-05-08 at 9.56.25\u202fAM.png</a></span></p></td></tr></tbody></table></td></tr></tbody></table><p style=\"line-height: 13.5pt; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 9.0pt;  color: #444444;\">&nbsp;</span></p><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\"><tbody><tr><td width=\"100%\" style=\"width: 100.0%; border-top-width: 1.0pt; border-top-color: #C5C5C5; padding: 11.25pt 0cm; border-style: dotted none none;\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width: 100.0%; border-collapse: collapse;\"><tbody><tr><td width=\"40\" valign=\"top\" style=\"width: 30.0pt; padding: 0cm 11.25pt;\"><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span style=\"padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></p></td><td width=\"100%\" valign=\"top\" style=\"width: 100.0%; padding: 0cm;\"><p style=\"line-height: 13.5pt; margin: 0cm;\" dir=\"auto\"><strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\">Danielle Robertson</span></strong><span style=\"font-size: 11.5pt;  color: #1B1D1E;\"> </span></p><p style=\" margin-right: 0cm; margin-bottom: 11.25pt; margin-left: 0cm; line-height: 18.75pt;\" dir=\"auto\"><span style=\"font-size: 10.0pt;  color: #BBBBBB;\">May 8, 2026, 09:43 GMT+5:30 </span></p><div><p style=\"margin: 0cm;\" dir=\"auto\"><b><span style=\"color: red;\">Same issue occurring week after week. This is not normal. Please advise permanent resolve. </span></b></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">&nbsp;</span></p><div><div><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">&nbsp;</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">Cheers<br>Danielle</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">&nbsp;</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 11.0pt; color: #006168;\">Now booking projects for April/May 2026 and beyond.<br>If you\u2019d like a quote or to book a discovery session, visit <a href=\"http://www.robertsonweb.com.au\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: #006168;\">www.robertsonweb.com.au</span></a><i>&nbsp;</i></span></b></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #FFD966;\">&nbsp;</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><i><span style=\"font-size: 11.0pt; color: black;\">&nbsp;</span></i></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">&nbsp;</span></p><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse: collapse;\"><tbody><tr><td width=\"230\" style=\"width: 172.5pt; padding: 0cm 22.5pt 0cm 0cm;\"><p align=\"center\" style=\"text-align: center; margin: 0cm;\" dir=\"auto\"><a href=\"https://www.robertsonweb.com.au/\" title=\"https://www.robertsonweb.com.au/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: windowtext; text-decoration: none;\"><span style=\"font-size: 11.0pt; color: blue; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></span></a></p></td><td width=\"450\" style=\"width: 337.5pt; padding: 0cm;\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"430\" style=\"width: 322.5pt; border-collapse: collapse;\"><tbody><tr><td valign=\"top\" style=\"padding: 0cm;\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"450\" style=\"width: 337.5pt; border-collapse: collapse;\"><tbody><tr><td style=\"padding: 0cm 0cm 18.75pt;\"><p style=\" margin-right: 0cm; margin-bottom: 0cm; margin-left: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></p></td></tr><tr><td style=\"padding: 0cm;\"><p style=\" margin-right: 0cm; margin-bottom: 0cm; margin-left: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.5pt; color: black;\">Creative Director - Digital Designer &amp; Developer</span></p></td></tr><tr><td style=\"padding: 0cm 0cm 18.75pt;\"><p style=\" margin-right: 0cm; margin-bottom: 0cm; margin-left: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\"><a href=\"https://www.robertsonweb.com.au/\" title=\"https://www.robertsonweb.com.au/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><b><span style=\"color: #D29E0E;\">www.robertsonweb.com.au</span></b></a></span></p></td></tr><tr><td style=\"padding: 0cm 0cm 7.5pt;\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse: collapse;\"><tbody><tr><td style=\"padding: .75pt;\"><p style=\"margin: 0cm;\" dir=\"auto\"><a href=\"https://www.facebook.com/robertsonweb\" title=\"https://www.facebook.com/robertsonweb\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: windowtext; text-decoration: none;\"><span style=\"font-size: 11.0pt; color: blue; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></span></a></p></td><td style=\"padding: .75pt;\"><p style=\"margin: 0cm;\" dir=\"auto\"><a href=\"https://www.instagram.com/robertsonweb_/\" title=\"https://www.instagram.com/robertsonweb_/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: windowtext; text-decoration: none;\"><span style=\"font-size: 11.0pt; color: blue; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></span></a></p></td><td style=\"padding: .75pt;\"><p style=\"margin: 0cm;\" dir=\"auto\"><a href=\"mailto:danni@robertsonweb.com.au\" title=\"mailto:danni@robertsonweb.com.au\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: windowtext; text-decoration: none;\"><span style=\"font-size: 11.0pt; color: blue; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></span></a></p></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">&nbsp;</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 7.5pt; color: black; background-color: white;\">Disclaimer: This email contains confidential information intended only for the recipient. Unauthorized use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please notify the sender immediately and delete the message. Let's preserve the environment by considering before printing this email.</span></p></div></div><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">&nbsp;</span></p><div style=\"border-top-width: 1.0pt; border-top-color: #B5C4DF; padding: 3.0pt 0cm 0cm; border-style: solid none none;\"><p style=\"margin: 0cm;\" dir=\"auto\"><b><span style=\"color: black;\">From: </span></b><span style=\"color: black;\">Dave Dick &lt;dave@cmtequipment.com.au&gt;<br><b>Date: </b>Friday, 8 May 2026 at 2:07 pm<br><b>To: </b>'Danielle Robertson' &lt;danni@robertsonweb.com.au&gt;<br><b>Subject: </b>FW: Delivery not available with online order</span></p></div><div><p style=\"margin: 0cm;\" dir=\"auto\">&nbsp;</p></div><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">G\u2019day Dani, having the cart freight issue again by the looks of it.</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">I had another client say the same thing.&nbsp; Thanks.</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p><div><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #1F497D;\">Regards,</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #1F497D;\">&nbsp;</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #1F497D;\">Dave Dick | Director </span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #1F497D;\">&nbsp;</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #1F497D; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></p><p style=\"margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 10.0pt; color: #1F497D; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></b></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 8.0pt; color: #404040;\">The information contained in this email is intended solely for the person or entity to which it is addressed. </span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 8.0pt; color: #404040;\">The email may contain confidential information: distributing, copying or disclosing any of the information contained herein is strictly forbidden.&nbsp; &nbsp;If you have received this email in error, please notify the sender immediately and delete the email from your computer and servers.</span></p></div><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p><div><div style=\"border-top-width: 1.0pt; border-top-color: #E1E1E1; padding: 3.0pt 0cm 0cm; border-style: solid none none;\"><p style=\"margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 11.0pt;\">From:</span></b><span style=\"font-size: 11.0pt;\"> Leanne Farago &lt;leanne.farago@deakin.edu.au&gt; <br><b>Sent:</b> Friday, 8 May 2026 1:57 PM<br><b>To:</b> sales@sieves.net.au<br><b>Subject:</b> Delivery not available with online order</span></p></div></div><p style=\"margin: 0cm;\" dir=\"auto\">&nbsp;</p><p style=\"margin: 0cm;\" dir=\"auto\">Hi team,</p><p style=\"margin: 0cm;\" dir=\"auto\">&nbsp;</p><p style=\"margin: 0cm;\" dir=\"auto\">I\u2019ve just tried to place the following order online and it won\u2019t give me a shipping option, this is weird as we have purchased from you heaps of times before!</p><p style=\"margin: 0cm;\" dir=\"auto\">&nbsp;</p><p style=\"margin: 0cm;\" dir=\"auto\">Can you send me a quote with shipping and I will raise a PO instead. </p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></p><p style=\"margin: 0cm;\" dir=\"auto\">&nbsp;</p><div><div><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #595959;\">Regards,</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #595959;\">Leanne</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #595959;\">&nbsp;</span></p><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse: collapse;\"><tbody><tr><td style=\"padding: .75pt;\"><p style=\"margin: 0cm;\" dir=\"auto\"><a href=\"https://outlook.office.com/bookwithme/user/a9fb0de336d248949f67bff6fb6c0a56@deakin.edu.au?anonymous&amp;ismsaljsauthenabled&amp;ep=bwmEmailSignature\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: windowtext; text-decoration: none;\"><span style=\"color: #0563C1; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></span></a></p></td><td style=\"padding: .75pt;\"></td><td style=\"padding: .75pt;\"><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #0078D4;\"><a href=\"https://outlook.office.com/bookwithme/user/a9fb0de336d248949f67bff6fb6c0a56@deakin.edu.au?anonymous&amp;ismsaljsauthenabled&amp;ep=bwmEmailSignature\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: #0078D4;\">Book time to meet with me</span></a></span></p></td><td style=\"padding: .75pt;\"></td></tr></tbody></table><p style=\"margin: 0cm;\" dir=\"auto\"><b><span style=\"color: #595959;\">&nbsp;</span></b></p><p style=\"margin: 0cm;\" dir=\"auto\"><b><span style=\"color: #595959;\">Leanne Farago</span></b></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #595959;\">Technical Coordinator, Civil and Environmental Engineering</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #595959;\">School of Engineering</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #595959;\">Faculty of Science, Engineering and Built Environment</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 5.0pt; color: #1F497D;\">&nbsp;</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #1F497D; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></p><p style=\"margin: 0cm;\" dir=\"auto\"><b><span style=\"color: #595959;\">Deakin University</span></b></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #424242;\">Locked Bag 20000, Geelong, VIC 3220</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #595959;\">+61 3 52272289</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: #595959;\">0417 571 684</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"mailto:leanne.farago@deakin.edu.au\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: #0563C1;\">leanne.farago@deakin.edu.au</span></a></span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"http://www.deakin.edu.au/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">www.deakin.edu.au</a></span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 8.0pt; color: #595959;\">Deakin University CRICOS Provider Code 00113B</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">&nbsp;</span></p><p style=\"margin: 0cm;\" dir=\"auto\"><b><i><span style=\"font-size: 9.0pt; color: black;\">Important Notice:</span></i></b><i><span style=\"font-size: 9.0pt; color: black;\">&nbsp;The contents of this email are intended solely for the named addressee and are confidential; any unauthorised use, reproduction or storage of the contents is expressly prohibited. If you have received this email in error, please delete it and any attachments immediately and advise the sender by return email or telephone.<br><br>Deakin University does not warrant that this email and any attachments are error or virus free.</span></i></p><p style=\"margin: 0cm;\" dir=\"auto\">&nbsp;</p></div></div><p style=\"margin: 0cm;\" dir=\"auto\"><b><i><span style=\"font-size: 9.0pt;\"><br><strong><span>Important Notice:</span></strong></span></i></b><em><span style=\"font-size: 9.0pt; \"> The contents of this email are intended solely for the named addressee and are confidential; any unauthorised use, reproduction or storage of the contents is expressly prohibited. If you have received this email in error, please delete it and any attachments immediately and advise the sender by return email or telephone.</span></em><i><span style=\"font-size: 9.0pt;\"><br><br><em><span>Deakin University does not warrant that this email and any attachments are error or virus free.</span></em></span></i> </p></div></td></tr></tbody></table></td></tr></tbody></table></div></div><div><div><p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.pluginhive.com/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: black; text-decoration: none;\"><span style=\"color: blue; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></span></a></span><span></span></p></div><p style=\"background-color: #F8F9F9;\" dir=\"auto\"><b><span style=\"font-size: 11.5pt; color: black;\">Our Support is available 24/5.</span></b></p><p style=\"background-color: #F8F9F9;\" dir=\"auto\"><span style=\"font-size: 10.0pt; color: black;\">Please expect a delay during weekends &amp; holidays due to partial coverage.</span><span style=\"font-size: 10.0pt;\"></span></p><div><div><p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.pluginhive.com/knowledge-base/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">Documentation</a> <b>|</b>&nbsp; </span><span></span></p></div><div><p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.youtube.com/channel/UC4J2IaD8yuWPI4r8qc7-3LQ/videos\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">Videos</a> <b>|</b>&nbsp; </span><span></span></p></div><div><p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.pluginhive.com/product-category/woocommerce-plugin/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">WooCommerce Plugins</a> <b>|</b>&nbsp; </span><span></span></p></div><div><p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.pluginhive.com/product-category/shopify-apps/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">Shopify Apps</a> <b>|</b>&nbsp; </span><span></span></p></div><div><p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.pluginhive.com/product-category/magento-extensions/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">Magento Extensions</a> </span><span></span></p></div></div><div><p style=\"background-color: #F8F9F9; font-size: 12.0pt;  margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.facebook.com/pluginhive\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: black; text-decoration: none;\"><span style=\"color: blue; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></span></a><a href=\"https://in.linkedin.com/company/pluginhive\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: black; text-decoration: none;\"><span style=\"color: blue; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></span></a><a href=\"https://twitter.com/PluginHive\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: black; text-decoration: none;\"><span style=\"color: blue; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></span></a><a href=\"https://www.youtube.com/channel/UC4J2IaD8yuWPI4r8qc7-3LQ\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: black; text-decoration: none;\"><span style=\"color: blue; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></span></a><a href=\"https://www.instagram.com/pluginhive_/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: black; text-decoration: none;\"><span style=\"color: blue; padding: 0cm; border-style: solid; border-width: 1.0pt;\"></span></span></a></span><span></span></p></div></div><p dir=\"auto\" style=\"font-size: 12.0pt;  margin: 0cm;\"><span><span style=\"color: white;\">[VEY69J-JK344]</span></span><span> </span></p></div></div>",
+      "plain_body": "Same issue again. Seems to happen ALL the time. Customer is fed up with this system.  &nbsp;    &nbsp;  Cheers\nDanielle  &nbsp;  Now booking projects for June/July 2026 and beyond.\nIf you\u2019d like a quote or to book a discovery session, visit www.robertsonweb.com.au&nbsp;  &nbsp;  &nbsp;  &nbsp;      Creative Director - Digital Designer &amp; Developer  www.robertsonweb.com.au        &nbsp;  Disclaimer: This email contains confidential information intended only for the recipient. Unauthorized use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please notify the sender immediately and delete the message. Let's preserve the environment by considering before printing this email.    &nbsp;   From: \"Devteam (PluginHive)\" &lt;support@pluginhive.com&gt;\nReply to: PluginHive &lt;support@pluginhive.com&gt;\nDate: Friday, 8 May 2026 at 2:34 pm\nTo: Danielle Robertson &lt;danni@robertsonweb.com.au&gt;\nSubject: [PluginHive] Re: FW: Delivery not available with online order    &nbsp;    Your request (388243) has been updated. To add additional comments, reply to this email.     Devteam (PluginHive)   May 8, 2026, 10:04 GMT+5:30    Hello Danielle,\n&nbsp;\nHope you are doing well.\n&nbsp;\nFor TNT Australia, pickup time is a mandatory field to retrieve rates, and the pickup cut-off time varies based on the pickup location.\n&nbsp;\nFor your postal code, the current pickup cut-off time is 1:00 PM. However, this may change depending on slot availability at the nearest pickup location. If all pickup slots are filled for the selected time, TNT will not return live rates. This process is entirely managed by TNT Australia.\n&nbsp;\nThat said, we are currently working on a solution to address this limitation, and it is expected to be released in the next couple of weeks.\n&nbsp;\nFor now, I have configured the pickup time and cut-off time on your account, and the rates are being returned successfully.\n&nbsp;\nPlease let us know if you need any further assistance.\n&nbsp;\nBest Regards,\nVeena\nTeam PluginHive\n&nbsp;\n&nbsp;   Attachment(s)\nScreenshot 2026-05-08 at 9.56.25\u202fAM.png  &nbsp;    Danielle Robertson   May 8, 2026, 09:43 GMT+5:30    Same issue occurring week after week. This is not normal. Please advise permanent resolve.   &nbsp;    &nbsp;  Cheers\nDanielle  &nbsp;  Now booking projects for April/May 2026 and beyond.\nIf you\u2019d like a quote or to book a discovery session, visit www.robertsonweb.com.au&nbsp;  &nbsp;  &nbsp;  &nbsp;      Creative Director - Digital Designer &amp; Developer  www.robertsonweb.com.au        &nbsp;  Disclaimer: This email contains confidential information intended only for the recipient. Unauthorized use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please notify the sender immediately and delete the message. Let's preserve the environment by considering before printing this email.    &nbsp;   From: Dave Dick &lt;dave@cmtequipment.com.au&gt;\nDate: Friday, 8 May 2026 at 2:07 pm\nTo: 'Danielle Robertson' &lt;danni@robertsonweb.com.au&gt;\nSubject: FW: Delivery not available with online order    &nbsp;   G\u2019day Dani, having the cart freight issue again by the looks of it.  &nbsp;  I had another client say the same thing.&nbsp; Thanks.  &nbsp;   Regards,  &nbsp;  Dave Dick | Director   &nbsp;      The information contained in this email is intended solely for the person or entity to which it is addressed.   The email may contain confidential information: distributing, copying or disclosing any of the information contained herein is strictly forbidden.&nbsp; &nbsp;If you have received this email in error, please notify the sender immediately and delete the email from your computer and servers.   &nbsp;    From: Leanne Farago &lt;leanne.farago@deakin.edu.au&gt; \nSent: Friday, 8 May 2026 1:57 PM\nTo: sales@sieves.net.au\nSubject: Delivery not available with online order    &nbsp;  Hi team,  &nbsp;  I\u2019ve just tried to place the following order online and it won\u2019t give me a shipping option, this is weird as we have purchased from you heaps of times before!  &nbsp;  Can you send me a quote with shipping and I will raise a PO instead.     &nbsp;    Regards,  Leanne  &nbsp;    Book time to meet with me  &nbsp;  Leanne Farago  Technical Coordinator, Civil and Environmental Engineering  School of Engineering  Faculty of Science, Engineering and Built Environment  &nbsp;    Deakin University  Locked Bag 20000, Geelong, VIC 3220  +61 3 52272289  0417 571 684  leanne.farago@deakin.edu.au  www.deakin.edu.au  Deakin University CRICOS Provider Code 00113B  &nbsp;  Important Notice:&nbsp;The contents of this email are intended solely for the named addressee and are confidential; any unauthorised use, reproduction or storage of the contents is expressly prohibited. If you have received this email in error, please delete it and any attachments immediately and advise the sender by return email or telephone.\n\nDeakin University does not warrant that this email and any attachments are error or virus free.  &nbsp;    \nImportant Notice: The contents of this email are intended solely for the named addressee and are confidential; any unauthorised use, reproduction or storage of the contents is expressly prohibited. If you have received this email in error, please delete it and any attachments immediately and advise the sender by return email or telephone.\n\nDeakin University does not warrant that this email and any attachments are error or virus free.           Our Support is available 24/5.  Please expect a delay during weekends &amp; holidays due to partial coverage.    Documentation |&nbsp;     Videos |&nbsp;     WooCommerce Plugins |&nbsp;     Shopify Apps |&nbsp;     Magento Extensions          [VEY69J-JK344]",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58497599330969,
+      "via": {
+        "channel": "web",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": 388243,
+            "subject": "FW: Delivery not available with online order",
+            "channel": "email"
+          },
+          "rel": "follow_up"
+        }
+      },
+      "created_at": "2026-06-01T05:09:48Z",
+      "metadata": {
+        "system": {
+          "message_id": "<84429B21-225C-41E4-9F9A-DE8F7B8995D1@robertsonweb.com.au>",
+          "email_id": "01KT0SCYPPBRTY8KAAAH5TBY4Y",
+          "ip_address": "192.168.15.54",
+          "raw_email_identifier": "2369120/1ba59adc-792f-44b7-a946-a85375236595.eml",
+          "json_email_identifier": "2369120/1ba59adc-792f-44b7-a946-a85375236595.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58509469418393,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Au Store\nOnly Rates\nOrders - NA\nCarrier - TNT Aus\nActive from 2024-07-08",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Au Store<br>Only Rates<br>Orders - NA<br>Carrier - TNT Aus<br>Active from 2024-07-08<br></div>",
+      "plain_body": "Au Store\nOnly Rates\nOrders - NA\nCarrier - TNT Aus\nActive from 2024-07-08",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58509469418265,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T10:29:39Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58509474761625,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Rates are available when checked now.\nWe are also working on providing a permanent solution for this case and we expect a resolution by end of this week.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Rates are available when checked now.<br>We are also working on providing a permanent solution for this case and we expect a resolution by end of this week.<br></div>",
+      "plain_body": "Rates are available when checked now.\nWe are also working on providing a permanent solution for this case and we expect a resolution by end of this week.",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58509462857625.json",
+          "id": 58509462857625,
+          "file_name": "Screenshot at Jun 01 15-58-06.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/7lPX7LGCJcIMnyZzv3EzO0NQl/?name=Screenshot+at+Jun+01+15-58-06.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/7lPX7LGCJcIMnyZzv3EzO0NQl/?name=Screenshot+at+Jun+01+15-58-06.png",
+          "content_type": "image/png",
+          "size": 436272,
+          "width": 2366,
+          "height": 1706,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58509462897433.json",
+              "id": 58509462897433,
+              "file_name": "Screenshot_at_Jun_01_15-58-06_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/zSdvTy7wXCOcWoklUXYoBJsPt/?name=Screenshot_at_Jun_01_15-58-06_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/zSdvTy7wXCOcWoklUXYoBJsPt/?name=Screenshot_at_Jun_01_15-58-06_thumb.png",
+              "content_type": "image/png",
+              "size": 7619,
+              "width": 80,
+              "height": 58,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 58509474760729,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T10:30:47Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58512280943001,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Danielle,\n\nWe understand this has been a recurring frustration for your client.\n\nOur team has confirmed that TNT rates are currently showing correctly at checkout \u2014 the screenshot attached here reflects this as well, with multiple TNT services visible for the Epping VIC 3076 address.\n\nThe underlying cause, as noted previously, is that TNT's API stops returning rates once the daily pickup cutoff is reached or pickup slots are fully booked. Until the permanent fix is deployed (our team is actively working on this), we strongly recommend adding a fallback shipping option to protect your client's checkout from being blocked:\n\n1. Go to WooCommerce > Settings > Shipping > Shipping Zones\n2. Click on the zone where TNT Australia is configured\n3. Click \"Add shipping method\" and add a Flat Rate method\n4. Set a reasonable flat rate as a backup (e.g., based on your client's typical TNT shipping cost)\n\nWith this in place, customers will still have a shipping option at checkout even during periods when TNT rates are temporarily unavailable \u2014 rather than seeing a blank shipping section.\n\nWe will follow up once the permanent fix has been deployed so this manual workaround is no longer needed.\n\nThanks and regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Danielle,<br>&nbsp;<br>We understand this has been a recurring frustration for your client.<br>&nbsp;<br>Our team has confirmed that TNT rates are currently showing correctly at checkout \u2014 the screenshot attached here reflects this as well, with multiple TNT services visible for the Epping VIC 3076 address.<br>&nbsp;<br>The underlying cause, as noted previously, is that TNT's API stops returning rates once the daily pickup cutoff is reached or pickup slots are fully booked. Until the permanent fix is deployed (our team is actively working on this), we strongly recommend adding a fallback shipping option to protect your client's checkout from being blocked:<br>&nbsp;<br>1. Go to WooCommerce &gt; Settings &gt; Shipping &gt; Shipping Zones<br>2. Click on the zone where TNT Australia is configured<br>3. Click \"Add shipping method\" and add a Flat Rate method<br>4. Set a reasonable flat rate as a backup (e.g., based on your client's typical TNT shipping cost)<br>&nbsp;<br>With this in place, customers will still have a shipping option at checkout even during periods when TNT rates are temporarily unavailable \u2014 rather than seeing a blank shipping section.<br>&nbsp;<br>We will follow up once the permanent fix has been deployed so this manual workaround is no longer needed.<br>&nbsp;<br>Thanks and regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Danielle,\n&nbsp;\nWe understand this has been a recurring frustration for your client.\n&nbsp;\nOur team has confirmed that TNT rates are currently showing correctly at checkout \u2014 the screenshot attached here reflects this as well, with multiple TNT services visible for the Epping VIC 3076 address.\n&nbsp;\nThe underlying cause, as noted previously, is that TNT's API stops returning rates once the daily pickup cutoff is reached or pickup slots are fully booked. Until the permanent fix is deployed (our team is actively working on this), we strongly recommend adding a fallback shipping option to protect your client's checkout from being blocked:\n&nbsp;\n1. Go to WooCommerce &gt; Settings &gt; Shipping &gt; Shipping Zones\n2. Click on the zone where TNT Australia is configured\n3. Click \"Add shipping method\" and add a Flat Rate method\n4. Set a reasonable flat rate as a backup (e.g., based on your client's typical TNT shipping cost)\n&nbsp;\nWith this in place, customers will still have a shipping option at checkout even during periods when TNT rates are temporarily unavailable \u2014 rather than seeing a blank shipping section.\n&nbsp;\nWe will follow up once the permanent fix has been deployed so this manual workaround is no longer needed.\n&nbsp;\nThanks and regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58512223260697.json",
+          "id": 58512223260697,
+          "file_name": "Screenshot at Jun 01 15-58-06.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/sFMeVDIYEhRNg311hQnJawLd0/?name=Screenshot+at+Jun+01+15-58-06.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/sFMeVDIYEhRNg311hQnJawLd0/?name=Screenshot+at+Jun+01+15-58-06.png",
+          "content_type": "image/png",
+          "size": 436272,
+          "width": 2366,
+          "height": 1706,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58512223269529.json",
+              "id": 58512223269529,
+              "file_name": "Screenshot_at_Jun_01_15-58-06_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/3gsEAeS0tR0ukMampdsRzpLRa/?name=Screenshot_at_Jun_01_15-58-06_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/3gsEAeS0tR0ukMampdsRzpLRa/?name=Screenshot_at_Jun_01_15-58-06_thumb.png",
+              "content_type": "image/png",
+              "size": 7619,
+              "width": 80,
+              "height": 58,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 58512280942873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T12:13:07Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58512346177945,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Same case as https://pluginhive.zendesk.com/agent/tickets/384139",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Same case as <a rel=\"noopener noreferrer\" href=\"https://pluginhive.zendesk.com/agent/tickets/384139\">https://pluginhive.zendesk.com/agent/tickets/384139</a><br></div>",
+      "plain_body": "Same case as https://pluginhive.zendesk.com/agent/tickets/384139",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58512336370585,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T12:15:01Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58524297727513,
+      "type": "Comment",
+      "author_id": 36548591900185,
+      "body": "Hi Touseef,\n\n\n\nThanks for that.\n\n\n\nFlat rate isnt going to work given the size of these products and the variety of methods. Clients feedback:\n\n\n\n**_Re FLAT RATE_**\n\n**_Unfortunately it\u2019s just too hard to have a flat rate. We\u2019d either end up losing money or really pissing people off with exorbitant fees.  Let\u2019s hope they get the solution through asap._**\n\n\n\n\n\n\n\nCheers\nDanielle\n\n\n\n**Now booking projects for June/July 2026 and beyond.\nIf you\u2019d like a quote or to book a discovery session, visit www.robertsonweb.com.au_ _**\n\n\n\n_ _\n\n\n\n![RobertsonWeb - Digital Design & Development](https://support.pluginhive.com/attachments/token/Tmar93ZeVqCjvwIifXWuetyau/?name=image001.png)\n\n![DANIELLE ROBERTSON](https://support.pluginhive.com/attachments/token/lJSthLBs4qK4YQevnMCIcJFSy/?name=image002.png)\n\nCreative Director - Digital Designer & Developer\n\n**www.robertsonweb.com.au**\n\n![Facebook](https://support.pluginhive.com/attachments/token/XUtmJ4N1ZBp1R5U9uFs1J1bbb/?name=image003.png)\n\n![Instagram](https://support.pluginhive.com/attachments/token/BrhmieRZuDL8ZgwxmQ3zd5oSi/?name=image004.png)\n\n![Email](https://support.pluginhive.com/attachments/token/i9mtrbQ8rNymbKAb46DLPm2mI/?name=image005.png)\n\n\n\nDisclaimer: This email contains confidential information intended only for the recipient. Unauthorized use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please notify the sender immediately and delete the message. Let's preserve the environment by considering before printing this email.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\"><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>Hi Touseef,</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>Thanks for that.</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>Flat rate isnt going to work given the size of these products and the variety of methods. Clients feedback:</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><b><i><span style=\"font-size: 11.0pt; color: black;\">Re FLAT RATE</span></i></b></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><b><i><span style=\"font-size: 11.0pt; color: black;\">Unfortunately it\u2019s just too hard to have a flat rate. We\u2019d either end up losing money or really pissing people off with exorbitant fees.&nbsp; Let\u2019s hope they get the solution through asap.</span></i></b><span style=\"font-size: 11.0pt; color: black;\"></span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p><div><div><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Cheers<br>Danielle</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><b><span style=\"font-size: 11.0pt; color: #006168;\">Now booking projects for June/July 2026 and beyond.<br>If you\u2019d like a quote or to book a discovery session, visit <a href=\"http://www.robertsonweb.com.au\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: #006168;\">www.robertsonweb.com.au</span></a><i>&nbsp;</i></span></b></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"color: #FFD966;\">&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><i><span style=\"font-size: 11.0pt; \">&nbsp;</span></i></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td width=\"230\" style=\"width: 172.5pt; padding: 0cm 22.5pt 0cm 0cm;\"><p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><a href=\"https://www.robertsonweb.com.au/\" title=\"https://www.robertsonweb.com.au/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 11.0pt; text-decoration: none;\"><img border=\"0\" width=\"200\" height=\"204\" style=\"width: 2.0833in; height: 2.125in;\" src=\"https://support.pluginhive.com/attachments/token/Tmar93ZeVqCjvwIifXWuetyau/?name=image001.png\" alt=\"RobertsonWeb - Digital Design &amp; Development\"></span></a><span style=\"font-size: 11.0pt; \"></span></p></td><td width=\"450\" style=\"width: 337.5pt; padding: 0cm;\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"430\" style=\"width: 322.5pt;\"><tbody><tr><td valign=\"top\" style=\"padding: 0cm;\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"450\" style=\"width: 337.5pt;\"><tbody><tr><td style=\"padding: 0cm 0cm 18.75pt;\"><p style=\"font-size: 12.0pt; margin: 11.25pt 0cm 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \"><img border=\"0\" width=\"363\" height=\"37\" style=\"width: 3.7812in; height: .3854in;\" src=\"https://support.pluginhive.com/attachments/token/lJSthLBs4qK4YQevnMCIcJFSy/?name=image002.png\" alt=\"DANIELLE ROBERTSON\"></span></p></td></tr><tr><td style=\"padding: 0cm;\"><p style=\"font-size: 12.0pt; margin: 11.25pt 0cm 0cm;\" dir=\"auto\"><span style=\"font-size: 11.5pt; \">Creative Director - Digital Designer &amp; Developer</span><span style=\"font-size: 11.0pt; \"></span></p></td></tr><tr><td style=\"padding: 0cm 0cm 18.75pt;\"><p style=\"font-size: 12.0pt; margin: 11.25pt 0cm 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \"><a href=\"https://www.robertsonweb.com.au/\" title=\"https://www.robertsonweb.com.au/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><b><span style=\"color: #D29E0E;\">www.robertsonweb.com.au</span></b></a></span></p></td></tr><tr><td style=\"padding: 0cm 0cm 7.5pt;\"><table border=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"padding: .75pt;\"><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><a href=\"https://www.facebook.com/robertsonweb\" title=\"https://www.facebook.com/robertsonweb\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 11.0pt; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"35\" style=\"width: .25in; height: .3645in;\" src=\"https://support.pluginhive.com/attachments/token/XUtmJ4N1ZBp1R5U9uFs1J1bbb/?name=image003.png\" alt=\"Facebook\"></span></a><span style=\"font-size: 11.0pt; \"></span></p></td><td style=\"padding: .75pt;\"><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><a href=\"https://www.instagram.com/robertsonweb_/\" title=\"https://www.instagram.com/robertsonweb_/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 11.0pt; text-decoration: none;\"><img border=\"0\" width=\"50\" height=\"35\" style=\"width: .5208in; height: .3645in;\" src=\"https://support.pluginhive.com/attachments/token/BrhmieRZuDL8ZgwxmQ3zd5oSi/?name=image004.png\" alt=\"Instagram\"></span></a><span style=\"font-size: 11.0pt; \"></span></p></td><td style=\"padding: .75pt;\"><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><a href=\"mailto:danni@robertsonweb.com.au\" title=\"mailto:danni@robertsonweb.com.au\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 11.0pt; text-decoration: none;\"><img border=\"0\" width=\"51\" height=\"35\" style=\"width: .5312in; height: .3645in;\" src=\"https://support.pluginhive.com/attachments/token/i9mtrbQ8rNymbKAb46DLPm2mI/?name=image005.png\" alt=\"Email\"></span></a><span style=\"font-size: 11.0pt; \"></span></p></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; color: black;\">&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 7.5pt; color: black; background-color: white; \">Disclaimer: This email contains confidential information intended only for the recipient. Unauthorized use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please notify the sender immediately and delete the message. Let's preserve the environment by considering before printing this email.</span><span></span></p></div></div><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p></div></div>",
+      "plain_body": "Hi Touseef,  &nbsp;  Thanks for that.  &nbsp;  Flat rate isnt going to work given the size of these products and the variety of methods. Clients feedback:  &nbsp;  Re FLAT RATE  Unfortunately it\u2019s just too hard to have a flat rate. We\u2019d either end up losing money or really pissing people off with exorbitant fees.&nbsp; Let\u2019s hope they get the solution through asap.  &nbsp;  &nbsp;    &nbsp;  Cheers\nDanielle  &nbsp;  Now booking projects for June/July 2026 and beyond.\nIf you\u2019d like a quote or to book a discovery session, visit www.robertsonweb.com.au&nbsp;  &nbsp;  &nbsp;  &nbsp;      Creative Director - Digital Designer &amp; Developer  www.robertsonweb.com.au        &nbsp;  Disclaimer: This email contains confidential information intended only for the recipient. Unauthorized use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please notify the sender immediately and delete the message. Let's preserve the environment by considering before printing this email.    &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58524297727385,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "danni@robertsonweb.com.au",
+            "name": "Danielle Robertson",
+            "original_recipients": [
+              "danni@robertsonweb.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T23:52:33Z",
+      "metadata": {
+        "system": {
+          "message_id": "<91F98687-C669-4903-853A-65BA89CE8A18@robertsonweb.com.au>",
+          "email_id": "01KT2SMRJ30JPR09CC61ZH4QGY",
+          "ip_address": "192.168.15.54",
+          "raw_email_identifier": "2369120/5196e529-8372-4a14-87f0-a13fd1fc2053.eml",
+          "json_email_identifier": "2369120/5196e529-8372-4a14-87f0-a13fd1fc2053.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58526969631001,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Danielle,\n\nThank you for your reply.\n\nWe are actively working on updating the app to handle this case. We will get back to you with an update as soon as it is ready.\n\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Danielle,<br>&nbsp;<br>Thank you for your reply.<br>&nbsp;<br>We are actively working on updating the app to handle this case. We will get back to you with an update as soon as it is ready.<br>&nbsp;<br>We appreciate your time and patience.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Danielle,\n&nbsp;\nThank you for your reply.\n&nbsp;\nWe are actively working on updating the app to handle this case. We will get back to you with an update as soon as it is ready.\n&nbsp;\nWe appreciate your time and patience.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58526969630873,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T01:07:54Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58628536120985,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We have introduced fallback rates option for TNT australia. Incase of rates failure due to service unavailability the fallback rates will be displayed at the checkout. Kindly verify and inform the merchant.\n[veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have introduced fallback rates option for TNT australia. Incase of rates failure due to service unavailability the fallback rates will be displayed at the checkout. Kindly verify and inform the merchant.<br>[veena]<br></div>",
+      "plain_body": "We have introduced fallback rates option for TNT australia. Incase of rates failure due to service unavailability the fallback rates will be displayed at the checkout. Kindly verify and inform the merchant.\n[veena]",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58628512978713.json",
+          "id": 58628512978713,
+          "file_name": "Screenshot 2026-06-04 at 3.10.01\u202fPM.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/GAE5krC3454iqUZNaytFcGTXh/?name=Screenshot+2026-06-04+at+3.10.01%E2%80%AFPM.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/GAE5krC3454iqUZNaytFcGTXh/?name=Screenshot+2026-06-04+at+3.10.01%E2%80%AFPM.png",
+          "content_type": "image/png",
+          "size": 91281,
+          "width": 2936,
+          "height": 534,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58628512995481.json",
+              "id": 58628512995481,
+              "file_name": "Screenshot_2026-06-04_at_3.10.01_PM_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/eIQsuFGraLLeyHouZuxZYEt2Y/?name=Screenshot_2026-06-04_at_3.10.01_PM_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/eIQsuFGraLLeyHouZuxZYEt2Y/?name=Screenshot_2026-06-04_at_3.10.01_PM_thumb.png",
+              "content_type": "image/png",
+              "size": 677,
+              "width": 80,
+              "height": 15,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        }
+      ],
+      "audit_id": 58628536120857,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-04T09:40:52Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58755795251737,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Danielle,\n\nHope you are doing well.\n\nI am following up regarding the recent enhancements for TNT Australia.\n\n**Quick context on what was happening:** We reviewed the TNT Australia rate failure behavior in detail and identified that TNT Australia temporarily blocks collection slots due to operational capacity constraints. If the requested collection window falls within one of these blocked periods, TNT may not return rates.\n\n**Safeguard solution:** To ensure that checkout remains available and customers can continue placing orders around the clock, we have now introduced a **Fallback Rate** option at the service level. This allows you to configure a fixed fallback rate for each TNT service. Whenever a live rate cannot be retrieved, the configured fallback rate will be displayed instead, ensuring that customers can still complete their purchases.\n\nPlease note that fallback rates may also be displayed in cases where a customer enters an incomplete or incorrect address.\n\n**What's coming next:** In addition to this safeguard, we are also working on a more comprehensive enhancement. The goal is to automatically advance the collection request to the next available pickup day or slot whenever there is a limitation from TNT's end, allowing the plugin to retrieve live TNT rates without any manual intervention.\n\nThe Fallback Rate enhancement is already available and ensures orders can be placed 24/7 today, while the automatic scheduling enhancement is currently in progress. We will keep you updated as soon as it becomes available.\n\n**NOTE:** The Fallback Rate option can be configured from App **Settings > Shipping Rates > Carrier Services >** select **\"TNT Australia\"** option from the drop-down **> Enable Fallback Rates > Add Service**, as shown in the attached screenshot.\n\nPlease review the checkout experience at different times of the day and let us know how it works on your end.\n\nThank you again for your patience and feedback.\n\n ![](https://pluginhive.zendesk.com/attachments/token/jdiydivylmnpP82IZgL0U7OL6/?name=Screenshot+2026-06-04+at+7.23.58+PM.png)\n\n ![](https://pluginhive.zendesk.com/attachments/token/hYWdBR5GQ8CF2uEp38zm1cpD6/?name=Screenshot+2026-06-04+at+7.26.44+PM.png)\n\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Danielle,<br>&nbsp;<br>Hope you are doing well.<br>&nbsp;<br>I am following up regarding the recent enhancements for TNT Australia.<br>&nbsp;<br><strong>Quick context on what was happening:</strong> We reviewed the TNT Australia rate failure behavior in detail and identified that TNT Australia temporarily blocks collection slots due to operational capacity constraints. If the requested collection window falls within one of these blocked periods, TNT may not return rates.<br>&nbsp;<br><strong>Safeguard solution:</strong> To ensure that checkout remains available and customers can continue placing orders around the clock, we have now introduced a <strong>Fallback Rate</strong> option at the service level. This allows you to configure a fixed fallback rate for each TNT service. Whenever a live rate cannot be retrieved, the configured fallback rate will be displayed instead, ensuring that customers can still complete their purchases.&nbsp;<br>&nbsp;<br>Please note that fallback rates may also be displayed in cases where a customer enters an incomplete or incorrect address.<br>&nbsp;<br><strong>What's coming next:</strong> In addition to this safeguard, we are also working on a more comprehensive enhancement. The goal is to automatically advance the collection request to the next available pickup day or slot whenever there is a limitation from TNT's end, allowing the plugin to retrieve live TNT rates without any manual intervention.<br>&nbsp;<br>The Fallback Rate enhancement is already available and ensures orders can be placed 24/7 today, while the automatic scheduling enhancement is currently in progress. We will keep you updated as soon as it becomes available.&nbsp;<br>&nbsp;<br><strong>NOTE: </strong>The Fallback Rate option can be configured from App<strong> Settings &gt; Shipping Rates &gt; Carrier Services &gt; </strong>select<strong> \"TNT Australia\" </strong>option from the drop-down <strong>&gt; Enable Fallback Rates &gt; Add Service</strong>, as shown in the attached screenshot.<br>&nbsp;<br>Please review the checkout experience at different times of the day and let us know how it works on your end.<br>&nbsp;<br>Thank you again for your patience and feedback.<br>&nbsp;<br><img style=\" width: 245px;\" src=\"https://pluginhive.zendesk.com/attachments/token/jdiydivylmnpP82IZgL0U7OL6/?name=Screenshot+2026-06-04+at+7.23.58+PM.png\"><br>&nbsp;<br><img style=\" width: 800px;\" src=\"https://pluginhive.zendesk.com/attachments/token/hYWdBR5GQ8CF2uEp38zm1cpD6/?name=Screenshot+2026-06-04+at+7.26.44+PM.png\"><br>&nbsp;<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Danielle,\n&nbsp;\nHope you are doing well.\n&nbsp;\nI am following up regarding the recent enhancements for TNT Australia.\n&nbsp;\nQuick context on what was happening: We reviewed the TNT Australia rate failure behavior in detail and identified that TNT Australia temporarily blocks collection slots due to operational capacity constraints. If the requested collection window falls within one of these blocked periods, TNT may not return rates.\n&nbsp;\nSafeguard solution: To ensure that checkout remains available and customers can continue placing orders around the clock, we have now introduced a Fallback Rate option at the service level. This allows you to configure a fixed fallback rate for each TNT service. Whenever a live rate cannot be retrieved, the configured fallback rate will be displayed instead, ensuring that customers can still complete their purchases.&nbsp;\n&nbsp;\nPlease note that fallback rates may also be displayed in cases where a customer enters an incomplete or incorrect address.\n&nbsp;\nWhat's coming next: In addition to this safeguard, we are also working on a more comprehensive enhancement. The goal is to automatically advance the collection request to the next available pickup day or slot whenever there is a limitation from TNT's end, allowing the plugin to retrieve live TNT rates without any manual intervention.\n&nbsp;\nThe Fallback Rate enhancement is already available and ensures orders can be placed 24/7 today, while the automatic scheduling enhancement is currently in progress. We will keep you updated as soon as it becomes available.&nbsp;\n&nbsp;\nNOTE: The Fallback Rate option can be configured from App Settings &gt; Shipping Rates &gt; Carrier Services &gt; select \"TNT Australia\" option from the drop-down &gt; Enable Fallback Rates &gt; Add Service, as shown in the attached screenshot.\n&nbsp;\nPlease review the checkout experience at different times of the day and let us know how it works on your end.\n&nbsp;\nThank you again for your patience and feedback.\n&nbsp;\n\n&nbsp;\n\n&nbsp;\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58755795251609,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-08T10:16:08Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59080874554009,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Danielle Robertson,\n\nHope you are doing well!\n\nI wanted to followup and check if were able to try the changes we have shared for your case in our last response and if everything is working as expected with the app on your store.\n\nIf you are facing any difficulties, please reach out. We will assist you further.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Danielle Robertson,<br>&nbsp;<br>Hope you are doing well!<br>&nbsp;<br>I wanted to followup and check if were able to try the changes we have shared for your case in our last response and if everything is working as expected with the app on your store.<br>&nbsp;<br>If you are facing any difficulties, please reach out. We will assist you further.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Danielle Robertson,\n&nbsp;\nHope you are doing well!\n&nbsp;\nI wanted to followup and check if were able to try the changes we have shared for your case in our last response and if everything is working as expected with the app on your store.\n&nbsp;\nIf you are facing any difficulties, please reach out. We will assist you further.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59080874553881,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T05:30:04Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59080991946521,
+      "type": "Comment",
+      "author_id": 36548591900185,
+      "body": "Hi Touseef\n\n\n\nYes I was able to update the fallback rates and no issues to date.\n\n\n\nIts not ideal as the rates can be a fair bit off \u2013 sooo will eagerly await the final resolution.\n\n\n\n\n\nCheers\nDanielle\n\n\n\n**Now booking projects for June/July 2026 and beyond.\nIf you\u2019d like a quote or to book a discovery session, visit www.robertsonweb.com.au_ _**\n\n\n\n_ _\n\n\n\n![RobertsonWeb - Digital Design & Development](https://support.pluginhive.com/attachments/token/P0b5laa55V6HfUH6fcB0XljcR/?name=image001.png)\n\n![DANIELLE ROBERTSON](https://support.pluginhive.com/attachments/token/ETB2wETvXQOmWRuayQVHWwd1p/?name=image002.png)\n\nCreative Director - Digital Designer & Developer\n\n**www.robertsonweb.com.au**\n\n![Facebook](https://support.pluginhive.com/attachments/token/lPPgoj1yKzCZ2ff4ndsjACqxd/?name=image003.png)\n\n![Instagram](https://support.pluginhive.com/attachments/token/pFMlG6td7qLnhrAMHoeUtj8qb/?name=image004.png)\n\n![Email](https://support.pluginhive.com/attachments/token/K1Np9GCjRhk1dUQnJzRWgYBBC/?name=image005.png)\n\n\n\nDisclaimer: This email contains confidential information intended only for the recipient. Unauthorized use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please notify the sender immediately and delete the message. Let's preserve the environment by considering before printing this email.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\"><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>Hi Touseef</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>Yes I was able to update the fallback rates and no issues to date.</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>Its not ideal as the rates can be a fair bit off \u2013 sooo will eagerly await the final resolution. </span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p><div><div><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">Cheers<br>Danielle</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><b><span style=\"font-size: 11.0pt; color: #006168;\">Now booking projects for June/July 2026 and beyond.<br>If you\u2019d like a quote or to book a discovery session, visit <a href=\"http://www.robertsonweb.com.au\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: #006168;\">www.robertsonweb.com.au</span></a><i>&nbsp;</i></span></b></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"color: #FFD966;\">&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><i><span style=\"font-size: 11.0pt; \">&nbsp;</span></i></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td width=\"230\" style=\"width: 172.5pt; padding: 0cm 22.5pt 0cm 0cm;\"><p align=\"center\" style=\"text-align: center; font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><a href=\"https://www.robertsonweb.com.au/\" title=\"https://www.robertsonweb.com.au/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 11.0pt; text-decoration: none;\"><img border=\"0\" width=\"200\" height=\"204\" style=\"width: 2.0833in; height: 2.125in;\" src=\"https://support.pluginhive.com/attachments/token/P0b5laa55V6HfUH6fcB0XljcR/?name=image001.png\" alt=\"RobertsonWeb - Digital Design &amp; Development\"></span></a><span style=\"font-size: 11.0pt; \"></span></p></td><td width=\"450\" style=\"width: 337.5pt; padding: 0cm;\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"430\" style=\"width: 322.5pt;\"><tbody><tr><td valign=\"top\" style=\"padding: 0cm;\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"450\" style=\"width: 337.5pt;\"><tbody><tr><td style=\"padding: 0cm 0cm 18.75pt;\"><p style=\"font-size: 12.0pt; margin: 11.25pt 0cm 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \"><img border=\"0\" width=\"363\" height=\"37\" style=\"width: 3.7812in; height: .3854in;\" src=\"https://support.pluginhive.com/attachments/token/ETB2wETvXQOmWRuayQVHWwd1p/?name=image002.png\" alt=\"DANIELLE ROBERTSON\"></span></p></td></tr><tr><td style=\"padding: 0cm;\"><p style=\"font-size: 12.0pt; margin: 11.25pt 0cm 0cm;\" dir=\"auto\"><span style=\"font-size: 11.5pt; \">Creative Director - Digital Designer &amp; Developer</span><span style=\"font-size: 11.0pt; \"></span></p></td></tr><tr><td style=\"padding: 0cm 0cm 18.75pt;\"><p style=\"font-size: 12.0pt; margin: 11.25pt 0cm 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; \"><a href=\"https://www.robertsonweb.com.au/\" title=\"https://www.robertsonweb.com.au/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><b><span style=\"color: #D29E0E;\">www.robertsonweb.com.au</span></b></a></span></p></td></tr><tr><td style=\"padding: 0cm 0cm 7.5pt;\"><table border=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"padding: .75pt;\"><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><a href=\"https://www.facebook.com/robertsonweb\" title=\"https://www.facebook.com/robertsonweb\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 11.0pt; text-decoration: none;\"><img border=\"0\" width=\"24\" height=\"35\" style=\"width: .25in; height: .3645in;\" src=\"https://support.pluginhive.com/attachments/token/lPPgoj1yKzCZ2ff4ndsjACqxd/?name=image003.png\" alt=\"Facebook\"></span></a><span style=\"font-size: 11.0pt; \"></span></p></td><td style=\"padding: .75pt;\"><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><a href=\"https://www.instagram.com/robertsonweb_/\" title=\"https://www.instagram.com/robertsonweb_/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 11.0pt; text-decoration: none;\"><img border=\"0\" width=\"50\" height=\"35\" style=\"width: .5208in; height: .3645in;\" src=\"https://support.pluginhive.com/attachments/token/pFMlG6td7qLnhrAMHoeUtj8qb/?name=image004.png\" alt=\"Instagram\"></span></a><span style=\"font-size: 11.0pt; \"></span></p></td><td style=\"padding: .75pt;\"><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><a href=\"mailto:danni@robertsonweb.com.au\" title=\"mailto:danni@robertsonweb.com.au\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 11.0pt; text-decoration: none;\"><img border=\"0\" width=\"51\" height=\"35\" style=\"width: .5312in; height: .3645in;\" src=\"https://support.pluginhive.com/attachments/token/K1Np9GCjRhk1dUQnJzRWgYBBC/?name=image005.png\" alt=\"Email\"></span></a><span style=\"font-size: 11.0pt; \"></span></p></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 11.0pt; color: black;\">&nbsp;</span></p><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span style=\"font-size: 7.5pt; color: black; background-color: white; \">Disclaimer: This email contains confidential information intended only for the recipient. Unauthorized use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please notify the sender immediately and delete the message. Let's preserve the environment by considering before printing this email.</span><span></span></p></div></div><p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0cm;\"><span>&nbsp;</span></p></div></div>",
+      "plain_body": "Hi Touseef  &nbsp;  Yes I was able to update the fallback rates and no issues to date.  &nbsp;  Its not ideal as the rates can be a fair bit off \u2013 sooo will eagerly await the final resolution.   &nbsp;    &nbsp;  Cheers\nDanielle  &nbsp;  Now booking projects for June/July 2026 and beyond.\nIf you\u2019d like a quote or to book a discovery session, visit www.robertsonweb.com.au&nbsp;  &nbsp;  &nbsp;  &nbsp;      Creative Director - Digital Designer &amp; Developer  www.robertsonweb.com.au        &nbsp;  Disclaimer: This email contains confidential information intended only for the recipient. Unauthorized use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please notify the sender immediately and delete the message. Let's preserve the environment by considering before printing this email.    &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59080991946393,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "danni@robertsonweb.com.au",
+            "name": "Danielle Robertson",
+            "original_recipients": [
+              "danni@robertsonweb.com.au",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T05:33:02Z",
+      "metadata": {
+        "system": {
+          "message_id": "<0D627385-A248-4EE3-A838-0B38FF98CB38@robertsonweb.com.au>",
+          "email_id": "01KVA12ZPD166HYCCY66952KN3",
+          "ip_address": "192.168.15.54",
+          "raw_email_identifier": "2369120/6b44c6dd-ecdb-417c-8d2d-a1dadba27f4e.eml",
+          "json_email_identifier": "2369120/6b44c6dd-ecdb-417c-8d2d-a1dadba27f4e.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59082443303577,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Touseef to check and reply to the customer",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Touseef to check and reply to the customer<br></div>",
+      "plain_body": "Touseef to check and reply to the customer",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59082443303065,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T06:11:41Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59093516450457,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Danielle Robertson,\n\nThank you for your response and sharing the update about the Fallback rates feature.\n\nWe will update you once a final resolution is available for the case.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Danielle Robertson,<br>&nbsp;<br>Thank you for your response and sharing the update about the Fallback rates feature.<br>&nbsp;<br>We will update you once a final resolution is available for the case.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Danielle Robertson,\n&nbsp;\nThank you for your response and sharing the update about the Fallback rates feature.\n&nbsp;\nWe will update you once a final resolution is available for the case.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59093516450329,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T11:20:10Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59093534836505,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Reference ticket - https://pluginhive.zendesk.com/agent/tickets/384139",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Reference ticket - <a rel=\"noopener noreferrer\" href=\"https://pluginhive.zendesk.com/agent/tickets/384139\">https://pluginhive.zendesk.com/agent/tickets/384139</a><br></div>",
+      "plain_body": "Reference ticket - https://pluginhive.zendesk.com/agent/tickets/384139",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59093534835481,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-17T11:20:37Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59130263185305,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "ETA: on or before 7th July.\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">ETA: on or before 7th July.<br>&nbsp;<br>[Veena]<br></div>",
+      "plain_body": "ETA: on or before 7th July.\n&nbsp;\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59130246455961,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-18T11:43:36Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

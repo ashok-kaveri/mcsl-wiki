@@ -1,0 +1,1266 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/391972.json",
+    "id": 391972,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "abhilash@pluginhive.com",
+          "name": "Abhilash"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-05-25T10:41:39Z",
+    "updated_at": "2026-06-12T08:00:09Z",
+    "generated_timestamp": 1781251209,
+    "type": null,
+    "subject": "Re: deen square integration - Emirates Post",
+    "raw_subject": "Re: deen square integration - Emirates Post",
+    "description": "Hi Arshad, \n\nThank you for looping me in. \n\nHi Ashitha, \n\nHope you are doing well. \n\nI\u2019m Abhilash, and I manage Partnerships at PluginHive. \n\nI would like to get in touch with you over a quick call to discuss the integration process, API documentation, API credentials, and the future scope in more detail, and also understand the next steps before taking this forward. \n\nPlease let me know a convenient time for a short discussion this week. \n\nLooking forward to connecting with you.\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn <https://www.linkedin.com/company/Pluginhive>\n\n> On 25 May 2026, at 3:22\u202fPM, Arshad Shaikh <arshad@deensquare.com> wrote:\n> \n> Hi Ashitha\n> \n> Abhilash from pluginhive will coordinate with you for integration\n> \n> Regards \n> \n> Arshad \n> \n> \n> \n> \n> ---- On Mon, 25 May 2026 12:53:55 +0400 Ashitha Kudumbathara <ashitha.kudumbathara@emx.ae <mailto:ashitha.kudumbathara@emx.ae>> wrote ----\n> \n> Dear @Arshad Shaikh <mailto:arshad@deensquare.com>\n>  \n> For the Calculate Rate API, please use Basic Authentication by passing the provided username and password in the request header for staging.\n> C177122\n> C177122\n>  \n> International\n> curl --location 'https://osbstg-new.epservices.ae/ebs/genericapi/ratecalculator/rest/CalculatePriceRate' \\\n> --header 'Content-Type: application/json' \\\n> --header 'AccountNo: C177122' \\\n> --header 'Password: C177122' \\\n> --data '{\n>     \"RateCalculationRequest\": {\n>         \"ShipmentType\": \"Premium\",\n>         \"ServiceType\": \"International\",\n>         \"OriginState\": \"\",\n>         \"OriginCity\": 3,\n>         \"DestinationCountry\": 176,\n>         \"DestinationState\": \"Lisboa\",\n>         \"DestinationCity\": \"Torres Vedras\",\n>         \"Length\": 1,\n>         \"Width\": 1,\n>         \"Height\": 1,\n>         \"Weight\": 1050,\n>         \"CalculationCurrencyCode\": \"AED\",\n>         \"ContentTypeCode\": \"NonDocument\",\n>         \"DimensionUnit\": \"Centimetre\",\n>         \"WeightUnit\": \"Grams\",\n>         \"IsRegistered\": \"No\",\n>         \"ProductCode\": \"PRO-26\"\n>     }\n> }\n> ' \n> Domestic\n> curl --location 'https://osbstg-new.epservices.ae/ebs/genericapi/ratecalculator/rest/CalculatePriceRate' \\\n> --header 'Content-Type: application/json' \\\n> --header 'AccountNo: C177122' \\\n> --header 'Password: C177122' \\\n> --data '{\n>     \"RateCalculationRequest\": {\n>         \"ShipmentType\": \"Express\",\n>         \"ServiceType\": \"Domestic\",\n>         \"ContentTypeCode\": \"Document\",\n>         \"OriginState\": null,\n>         \"OriginCity\": \"1\",\n>         \"DestinationCountry\": \"971\",\n>         \"DestinationState\": null,\n>         \"DestinationCity\": \"4\",\n>         \"Height\": 32,\n>         \"Width\": 24,\n>         \"Length\": 10,\n>         \"DimensionUnit\": \"Meter\",\n>         \"Weight\": \"500\",\n>         \"WeightUnit\": \"Grams\",\n>         \"CalculationCurrencyCode\": \"AED\",\n>         \"IsRegistered\": \"No\",\n>         \"ProductCode\": \"EPG-21\"\n>     }\n> }\n> '\n> We consider the origin and destination cities for calculating the rates of domestic shipments. The list of cities can be retrieved through the API mentioned below.\n> https://masters.epservices.ae/locations/api/Emirates\n>  \n> For international shipments, only the country ID is used for rate calculation, and this can also be retrieved from the API provided.\n> https://osb.epservices.ae/ebs/genericapi/lookups/rest/GetCountries\n>  \n> Regards,\n> Ashitha Kishore\n>  \n> From: Arshad Shaikh <arshad@deensquare.com <mailto:arshad@deensquare.com>> \n> Sent: Monday, 25 May 2026 12:35 PM\n> To: Risha Kumar <risha.kumar@emx.ae <mailto:risha.kumar@emx.ae>>; Ashitha Kudumbathara <ashitha.kudumbathara@emx.ae <mailto:ashitha.kudumbathara@emx.ae>>\n> Subject: Re:deen square integration\n>  \n> \n> Caution: [EXTERNAL] Do not click on links or open attachments unless you recognize the sender and know the content is safe.\n>  \n> Dear Ashitha\n>  \n> Please forward the API documentation for Integration\n>  \n> Regards\n> Arshad\n>  \n>  \n>  \n> From: Risha Kumar <risha.kumar@emx.ae <mailto:risha.kumar@emx.ae>>\n> To: \"Ashitha Kudumbathara\"<ashitha.kudumbathara@emx.ae <mailto:ashitha.kudumbathara@emx.ae>>, \"Arshad Shaikh\"<arshad@deensquare.com <mailto:arshad@deensquare.com>>\n> Date: Fri, 22 May 2026 09:35:22 +0400\n> Subject: deen square integration\n>  \n>  \n> ________________________________________________________________________________\n> Microsoft Teams meeting\n> Join: https://teams.microsoft.com/meet/375806385946660?p=Y3bW283KR4tznpZDvw\n> Meeting ID: 375 806 385 946 660\n> Passcode: ys94hG2y\n> \n>  \n> Need help? <https://aka.ms/JoinTeamsMeeting?omkt=en-AE> | System reference <https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmYyNmZhMmEtMzA3ZS00MTEyLWEzOTEtZDViNDA4ZTBlZjM1%40thread.v2/0?context=%7b%22Tid%22%3a%22c83314fa-75af-4236-8242-8305919cb91f%22%2c%22Oid%22%3a%22b1ba2cec-4f6e-4c6c-9e27-b0ea9d56916d%22%7d>\n> Dial in by phone\n> +971 600 575990,,285091468# United Arab Emirates, All locations\n> Find a local number <https://dialin.teams.microsoft.com/ec68045c-f694-415c-8346-4107873ab8ba?id=285091468>\n> Phone conference ID: 285 091 468#\n> For organizers: Meeting options <https://teams.microsoft.com/meetingOptions/?organizerId=b1ba2cec-4f6e-4c6c-9e27-b0ea9d56916d&tenantId=c83314fa-75af-4236-8242-8305919cb91f&threadId=19_meeting_YmYyNmZhMmEtMzA3ZS00MTEyLWEzOTEtZDViNDA4ZTBlZjM1@thread.v2&messageId=0&language=en-AE> | Reset dial-in PIN <https://dialin.teams.microsoft.com/usp/pstnconferencing>\n>  \n>  \n> ________________________________________________________________________________",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 903409790923,
+    "submitter_id": 903409790923,
+    "assignee_id": null,
+    "organization_id": 360081186532,
+    "group_id": null,
+    "collaborator_ids": [
+      58265912864921,
+      58265909506585,
+      58265909489433,
+      58265909498521,
+      410186940351,
+      390739881171
+    ],
+    "follower_ids": [
+      58265912864921,
+      58265909506585,
+      58265909489433,
+      58265909498521,
+      410186940351,
+      390739881171
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "aibot_auto_reply",
+      "dev_needed",
+      "last_reply_customer",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "thedeensquare.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "4ZJX5L-945ZW",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "thedeensquare.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58265909534617,
+      "type": "Comment",
+      "author_id": 903409790923,
+      "body": "Hi Arshad,\n\n\n\nThank you for looping me in.\n\n\n\nHi Ashitha,\n\n\n\nHope you are doing well.\n\n\n\nI\u2019m Abhilash, and I manage Partnerships at PluginHive.\n\n\n\nI would like to get in touch with you over a quick call to discuss the integration process, API documentation, API credentials, and the future scope in more detail, and also understand the next steps before taking this forward.\n\n\n\nPlease let me know a convenient time for a short discussion this week.\n\n\n\nLooking forward to connecting with you.\n\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn\n\n\n\n> On 25 May 2026, at 3:22\u202fPM, Arshad Shaikh <arshad@deensquare.com> wrote:\n>\n>\n> Hi Ashitha\n>\n>\n>\n> Abhilash from pluginhive will coordinate with you for integration\n>\n>\n>\n> Regards\n>\n>\n>\n> Arshad\n>\n>\n>\n>\n>\n>\n>\n>\n> ---- On Mon, 25 May 2026 12:53:55 +0400 **Ashitha Kudumbathara <ashitha.kudumbathara@emx.ae>** wrote ----\n>\n>\n>\n> > Dear @Arshad Shaikh\n> >\n> >\n> >\n> > For the Calculate Rate API, please use Basic Authentication by passing the provided username and password in the request header for staging.\n> >\n> > C177122\n> >\n> > C177122\n> >\n> >\n> >\n> > International\n> >\n> > curl --location 'https://osbstg-new.epservices.ae/ebs/genericapi/ratecalculator/rest/CalculatePriceRate' \\\n> >\n> > --header 'Content-Type: application/json' \\\n> >\n> > --header 'AccountNo: C177122' \\\n> >\n> > --header 'Password: C177122' \\\n> >\n> > --data '{\n> >\n> >     \"RateCalculationRequest\": {\n> >\n> >         \"ShipmentType\": \"Premium\",\n> >\n> >         \"ServiceType\": \"International\",\n> >\n> >         \"OriginState\": \"\",\n> >\n> >         \"OriginCity\": 3,\n> >\n> >         \"DestinationCountry\": 176,\n> >\n> >         \"DestinationState\": \"Lisboa\",\n> >\n> >         \"DestinationCity\": \"Torres Vedras\",\n> >\n> >         \"Length\": 1,\n> >\n> >         \"Width\": 1,\n> >\n> >         \"Height\": 1,\n> >\n> >         \"Weight\": 1050,\n> >\n> >         \"CalculationCurrencyCode\": \"AED\",\n> >\n> >         \"ContentTypeCode\": \"NonDocument\",\n> >\n> >         \"DimensionUnit\": \"Centimetre\",\n> >\n> >         \"WeightUnit\": \"Grams\",\n> >\n> >         \"IsRegistered\": \"No\",\n> >\n> >         \"ProductCode\": \"PRO-26\"\n> >\n> >     }\n> >\n> > }\n> >\n> > '\n> >\n> > Domestic\n> >\n> > curl --location 'https://osbstg-new.epservices.ae/ebs/genericapi/ratecalculator/rest/CalculatePriceRate' \\\n> >\n> > --header 'Content-Type: application/json' \\\n> >\n> > --header 'AccountNo: C177122' \\\n> >\n> > --header 'Password: C177122' \\\n> >\n> > --data '{\n> >\n> >     \"RateCalculationRequest\": {\n> >\n> >         \"ShipmentType\": \"Express\",\n> >\n> >         \"ServiceType\": \"Domestic\",\n> >\n> >         \"ContentTypeCode\": \"Document\",\n> >\n> >         \"OriginState\": null,\n> >\n> >         \"OriginCity\": \"1\",\n> >\n> >         \"DestinationCountry\": \"971\",\n> >\n> >         \"DestinationState\": null,\n> >\n> >         \"DestinationCity\": \"4\",\n> >\n> >         \"Height\": 32,\n> >\n> >         \"Width\": 24,\n> >\n> >         \"Length\": 10,\n> >\n> >         \"DimensionUnit\": \"Meter\",\n> >\n> >         \"Weight\": \"500\",\n> >\n> >         \"WeightUnit\": \"Grams\",\n> >\n> >         \"CalculationCurrencyCode\": \"AED\",\n> >\n> >         \"IsRegistered\": \"No\",\n> >\n> >         \"ProductCode\": \"EPG-21\"\n> >\n> >     }\n> >\n> > }\n> >\n> > '\n> >\n> > We consider the origin and destination cities for calculating the rates of domestic shipments. The list of cities can be retrieved through the API mentioned below.\n> >\n> > https://masters.epservices.ae/locations/api/Emirates\n> >\n> >\n> >\n> > For international shipments, only the country ID is used for rate calculation, and this can also be retrieved from the API provided.\n> >\n> > https://osb.epservices.ae/ebs/genericapi/lookups/rest/GetCountries\n> >\n> >\n> >\n> > Regards,\n> >\n> > Ashitha Kishore\n> >\n> >\n> >\n> > **From:** Arshad Shaikh <arshad@deensquare.com>\n> > **Sent:** Monday, 25 May 2026 12:35 PM\n> > **To:** Risha Kumar <risha.kumar@emx.ae>; Ashitha Kudumbathara <ashitha.kudumbathara@emx.ae>\n> > **Subject:** Re:deen square integration\n> >\n> >\n> >\n> > **Caution:** [EXTERNAL] Do not click on links or open attachments unless you recognize the sender and know the content is safe.\n> >\n> >\n> >\n> > Dear Ashitha\n> >\n> >\n> >\n> > Please forward the API documentation for Integration\n> >\n> >\n> >\n> > Regards\n> >\n> > Arshad\n> >\n> >\n> >\n> >\n> >\n> >\n> >\n> > From: Risha Kumar <risha.kumar@emx.ae>\n> > To: \"Ashitha Kudumbathara\"<ashitha.kudumbathara@emx.ae>, \"Arshad Shaikh\"<arshad@deensquare.com>\n> > Date: Fri, 22 May 2026 09:35:22 +0400\n> > Subject: deen square integration\n> >\n> >\n> >\n> > >\n> > >\n> > > ________________________________________________________________________________\n> > >\n> > > **Microsoft Teams meeting**\n> > >\n> > > **Join: **https://teams.microsoft.com/meet/375806385946660?p=Y3bW283KR4tznpZDvw\n> > >\n> > > Meeting ID: 375 806 385 946 660\n> > >\n> > > Passcode: ys94hG2y\n> > >\n> > > * * *\n> > >\n> > >\n> > >\n> > >\n> > > Need help? | System reference\n> > >\n> > > **Dial in by phone**\n> > >\n> > > +971 600 575990,,285091468# United Arab Emirates, All locations\n> > >\n> > > Find a local number\n> > >\n> > > Phone conference ID: 285 091 468#\n> > >\n> > > For organizers: Meeting options | Reset dial-in PIN\n> > >\n> > >\n> > >\n> > >\n> > >\n> > > ________________________________________________________________________________",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Arshad,&nbsp;<div><br></div><div>Thank you for looping me in.&nbsp;</div><div><br></div><div>Hi Ashitha,&nbsp;</div><div><br></div><div>Hope you are doing well.&nbsp;</div><div><br></div><div>I\u2019m Abhilash, and I manage Partnerships at PluginHive.&nbsp;</div><div><br></div><div>I would like to get in touch with you over a quick call to discuss the integration process, API documentation, API credentials, and the future scope in more detail, and also understand the next steps before taking this forward.&nbsp;</div><div><br></div><div>Please let me know a convenient time for a short discussion this week.&nbsp;</div><div><br></div><div>Looking forward to connecting with you.<div><br></div><div><div><div><div><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n<div><br><blockquote><div>On 25 May 2026, at 3:22\u202fPM, Arshad Shaikh &lt;arshad@deensquare.com&gt; wrote:</div><br><div><div style=\" font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; text-decoration-line: none; text-decoration-style: solid; font-size: 11pt;\" align=\"start\"><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\">Hi Ashitha</div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\"><br></div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\">Abhilash from pluginhive will coordinate with you for integration</div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\"><br></div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\">Regards&nbsp;</div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\"><br></div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\">Arshad&nbsp;</div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\"><br></div><div><br></div><div><div><br><br></div><div>---- On Mon, 25 May 2026 12:53:55 +0400<span>&nbsp;</span><b>Ashitha Kudumbathara &lt;<a href=\"mailto:ashitha.kudumbathara@emx.ae\" rel=\"noreferrer\">ashitha.kudumbathara@emx.ae</a>&gt;</b><span>&nbsp;</span>wrote ----<br></div><div><br></div><blockquote style=\"margin: 0px;\"><div><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>Dear<span>&nbsp;</span><a href=\"mailto:arshad@deensquare.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\" text-decoration: none;\">@Arshad Shaikh</span></a></span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>For the Calculate Rate API, please use Basic Authentication by passing the provided username and password in the request header for staging.</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>C177122</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>C177122</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>International</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>curl --location '<a href=\"https://osbstg-new.epservices.ae/ebs/genericapi/ratecalculator/rest/CalculatePriceRate'\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">https://osbstg-new.epservices.ae/ebs/genericapi/ratecalculator/rest/CalculatePriceRate'</a><span>&nbsp;</span>\\</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>--header 'Content-Type: application/json' \\</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>--header 'AccountNo: C177122' \\</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>--header 'Password: C177122' \\</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>--data '{</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp; \"RateCalculationRequest\": {</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ShipmentType\": \"Premium\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ServiceType\": \"International\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"OriginState\": \"\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"OriginCity\": 3,</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DestinationCountry\": 176,</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DestinationState\": \"Lisboa\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DestinationCity\": \"Torres Vedras\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Length\": 1,</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Width\": 1,</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Height\": 1,</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Weight\": 1050,</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"CalculationCurrencyCode\": \"AED\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ContentTypeCode\": \"NonDocument\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DimensionUnit\": \"Centimetre\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"WeightUnit\": \"Grams\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"IsRegistered\": \"No\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ProductCode\": \"PRO-26\"</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp; }</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>}</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>'&nbsp;</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>Domestic</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>curl --location '<a href=\"https://osbstg-new.epservices.ae/ebs/genericapi/ratecalculator/rest/CalculatePriceRate'\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">https://osbstg-new.epservices.ae/ebs/genericapi/ratecalculator/rest/CalculatePriceRate'</a><span>&nbsp;</span>\\</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>--header 'Content-Type: application/json' \\</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>--header 'AccountNo: C177122' \\</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>--header 'Password: C177122' \\</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>--data '{</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp; \"RateCalculationRequest\": {</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ShipmentType\": \"Express\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ServiceType\": \"Domestic\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ContentTypeCode\": \"Document\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"OriginState\": null,</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"OriginCity\": \"1\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DestinationCountry\": \"971\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DestinationState\": null,</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DestinationCity\": \"4\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Height\": 32,</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Width\": 24,</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Length\": 10,</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DimensionUnit\": \"Meter\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Weight\": \"500\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"WeightUnit\": \"Grams\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"CalculationCurrencyCode\": \"AED\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"IsRegistered\": \"No\",</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ProductCode\": \"EPG-21\"</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;&nbsp;&nbsp; }</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>}</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>'</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>We consider the origin and destination cities for calculating the rates of domestic shipments. The list of cities can be retrieved through the API mentioned below.</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><a href=\"https://masters.epservices.ae/locations/api/Emirates\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">https://masters.epservices.ae/locations/api/Emirates</a></span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>For international shipments, only the country ID is used for rate calculation, and this can also be retrieved from the API provided.</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><a href=\"https://osb.epservices.ae/ebs/genericapi/lookups/rest/GetCountries\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">https://osb.epservices.ae/ebs/genericapi/lookups/rest/GetCountries</a></span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;</span></span></span><br></div><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>Regards,</span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>Ashitha Kishore</span></span></span><br></div></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span>&nbsp;</span></span></span><br></div><div><div style=\"border-image: none; padding: 3pt 0cm 0cm; border-color: rgb(225,225,225) currentcolor currentcolor; border-style: solid none none; border-width: 1pt medium medium;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><b><span><span style=\"font-size: 11pt;\">From:</span></span></b><span><span style=\"font-size: 11pt;\"><span>&nbsp;</span>Arshad Shaikh &lt;<a href=\"mailto:arshad@deensquare.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">arshad@deensquare.com</a>&gt;<span>&nbsp;</span><br><b>Sent:</b><span>&nbsp;</span>Monday, 25 May 2026 12:35 PM<br><b>To:</b><span>&nbsp;</span>Risha Kumar &lt;<a href=\"mailto:risha.kumar@emx.ae\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">risha.kumar@emx.ae</a>&gt;; Ashitha Kudumbathara &lt;<a href=\"mailto:ashitha.kudumbathara@emx.ae\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">ashitha.kudumbathara@emx.ae</a>&gt;<br><b>Subject:</b><span>&nbsp;</span>Re:deen square integration</span></span></span></span></div></div></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</span></span><br></div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\" width=\"100%\" style=\"width: 672px;\"><tbody><tr><td style=\"background-color: rgb(255, 185, 0); padding: 5pt 2pt; background-color: FFB900\"><br></td><td width=\"100%\" style=\"width: 645.359375px; background-color: rgb(255, 248, 229); padding: 5pt 4pt 5pt 12pt; background-color: FFF8E5\"><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><b><span style=\"color: rgb(34, 34, 34);\">Caution:</span></b><span style=\"color: rgb(34, 34, 34);\"><span>&nbsp;</span>[EXTERNAL] Do not click on links or open attachments unless you recognize the sender and know the content is safe.</span></span></span><br></div></div></td></tr></tbody></table><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\">&nbsp;</span></span><br></div><div><div><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"font-size: 10pt;\">Dear Ashitha</span></span></span></span><br></div></div><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"font-size: 10pt;\">&nbsp;</span></span></span></span><br></div></div><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"font-size: 10pt;\">Please forward the API documentation for Integration</span></span></span></span><br></div></div><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"font-size: 10pt;\">&nbsp;</span></span></span></span><br></div></div><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"font-size: 10pt;\">Regards</span></span></span></span><br></div></div><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"font-size: 10pt;\">Arshad</span></span></span></span><br></div></div><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"font-size: 10pt;\">&nbsp;</span></span></span></span><br></div></div><div style=\"border-image: none; margin-top: 7.5pt; margin-bottom: 7.5pt; padding: 0cm; border-color: rgb(204,204,204) currentcolor currentcolor; border-style: solid none none; border-width: 1pt medium medium;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"font-size: 10pt;\">&nbsp;</span></span></span></span><br></div></div><div><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"font-size: 10pt;\">&nbsp;</span></span></span></span><br></div></div><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"font-size: 10pt;\">From: Risha Kumar &lt;<a href=\"mailto:risha.kumar@emx.ae\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">risha.kumar@emx.ae</a>&gt;<br>To: \"Ashitha Kudumbathara\"&lt;<a href=\"mailto:ashitha.kudumbathara@emx.ae\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">ashitha.kudumbathara@emx.ae</a>&gt;, \"Arshad Shaikh\"&lt;<a href=\"mailto:arshad@deensquare.com\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\">arshad@deensquare.com</a>&gt;<br>Date: Fri, 22 May 2026 09:35:22 +0400<br>Subject: deen square integration</span></span></span></span></div></div><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"font-size: 10pt;\">&nbsp;</span></span></span></span><br></div></div><blockquote><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"font-size: 10pt;\">&nbsp;</span></span></span></span><br></div><div><div style=\"margin-bottom: 18pt;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\">________________________________________________________________________________</span></span></span></span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"></span></span></span></span></span><br></div></div><div style=\"margin-bottom: 9pt;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><b><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 15pt;\">Microsoft Teams meeting</span></span></span></b></span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"></span></span></span></span></span><br></div></div><div style=\"margin-bottom: 4.5pt;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><b><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 15pt;\">Join:<span>&nbsp;</span></span></span></span></b></span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"><a href=\"https://teams.microsoft.com/meet/375806385946660?p=Y3bW283KR4tznpZDvw\" title=\"Meeting join\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: rgb(91, 95, 199);\"><span style=\"font-size: 15pt;\">https://teams.microsoft.com/meet/375806385946660?p=Y3bW283KR4tznpZDvw</span></span></a></span></span></span></span></span><br></div></div><div style=\"margin-bottom: 4.5pt;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"color: rgb(97, 97, 97);\"><span><span style=\"font-size: 10.5pt;\">Meeting ID:<span>&nbsp;</span></span></span></span></span><span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10.5pt;\">375 806 385 946 660</span></span></span></span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"></span></span></span></span></span><br></div></div><div style=\"margin-bottom: 24pt;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"color: rgb(97, 97, 97);\"><span><span style=\"font-size: 10.5pt;\">Passcode:<span>&nbsp;</span></span></span></span></span><span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10.5pt;\">ys94hG2y</span></span></span></span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"></span></span></span></span></span><br></div></div><div style=\"margin-bottom: 9pt;\"><div align=\"center\" style=\"font-size: 12pt; text-align: center; margin: 0cm;\"><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"><hr width=\"100%\" align=\"center\"></span></span></span><br></div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\">&nbsp;</span></span></span></span></span><br></div></div><div style=\"margin-bottom: 18pt;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"><a href=\"https://aka.ms/JoinTeamsMeeting?omkt=en-AE\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: rgb(91, 95, 199);\"><span style=\"font-size: 10.5pt;\">Need help?</span></span></a><span>&nbsp;</span></span></span></span><span><span style=\"color: rgb(97, 97, 97);\"><span><span style=\"font-size: 10pt;\">|</span></span></span></span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"><span>&nbsp;</span><a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmYyNmZhMmEtMzA3ZS00MTEyLWEzOTEtZDViNDA4ZTBlZjM1%40thread.v2/0?context=%7b%22Tid%22%3a%22c83314fa-75af-4236-8242-8305919cb91f%22%2c%22Oid%22%3a%22b1ba2cec-4f6e-4c6c-9e27-b0ea9d56916d%22%7d\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: rgb(91, 95, 199);\"><span style=\"font-size: 10.5pt;\">System reference</span></span></a></span></span></span></span></span><br></div></div><div><div style=\"margin-bottom: 4.5pt;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><b><span style=\"color: rgb(36, 36, 36);\"><span>Dial in by phone</span></span></b></span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"></span></span></span></span></span><br></div></div><div style=\"margin-bottom: 4.5pt;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\">+971 600 575990,,285091468#<span>&nbsp;</span></span></span></span><span><span style=\"color: rgb(97, 97, 97);\"><span><span style=\"font-size: 10.5pt;\">United Arab Emirates, All locations</span></span></span></span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"></span></span></span></span></span><br></div></div><div style=\"margin-bottom: 4.5pt;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"><a href=\"https://dialin.teams.microsoft.com/ec68045c-f694-415c-8346-4107873ab8ba?id=285091468\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: rgb(91, 95, 199);\"><span style=\"font-size: 10.5pt;\">Find a local number</span></span></a></span></span></span></span></span><br></div></div></div><div style=\"margin-bottom: 18pt;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"color: rgb(97, 97, 97);\"><span><span style=\"font-size: 10.5pt;\">Phone conference ID:<span>&nbsp;</span></span></span></span></span><span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10.5pt;\">285 091 468#</span></span></span></span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"></span></span></span></span></span><br></div></div><div><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"color: rgb(97, 97, 97);\"><span><span style=\"font-size: 10.5pt;\">For organizers:<span>&nbsp;</span></span></span></span></span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"><a href=\"https://teams.microsoft.com/meetingOptions/?organizerId=b1ba2cec-4f6e-4c6c-9e27-b0ea9d56916d&amp;tenantId=c83314fa-75af-4236-8242-8305919cb91f&amp;threadId=19_meeting_YmYyNmZhMmEtMzA3ZS00MTEyLWEzOTEtZDViNDA4ZTBlZjM1@thread.v2&amp;messageId=0&amp;language=en-AE\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: rgb(91, 95, 199);\"><span style=\"font-size: 10.5pt;\">Meeting options</span></span></a><span>&nbsp;</span></span></span></span><span><span style=\"color: rgb(97, 97, 97);\"><span><span style=\"font-size: 10pt;\">|</span></span></span></span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\"><span>&nbsp;</span><a href=\"https://dialin.teams.microsoft.com/usp/pstnconferencing\" style=\"color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: rgb(91, 95, 199);\"><span style=\"font-size: 10.5pt;\">Reset dial-in PIN</span></span></a></span></span></span></span></span><br></div></div><div style=\"margin-top: 18pt; margin-bottom: 4.5pt;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\">&nbsp;</span></span></span></span></span><br></div></div><div style=\"margin-bottom: 18pt;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\">&nbsp;</span></span></span></span></span><br></div></div><div style=\"margin-bottom: 18pt;\"><div style=\"margin: 0cm;\"><span><span style=\"font-size: 12pt; margin: 0cm;\"><span><span style=\"color: rgb(36, 36, 36);\"><span><span style=\"font-size: 10pt;\">________________________________________________________________________________</span></span></span></span></span></span></div></div></div></div></blockquote></div></div></div></div></div></blockquote></div></div></div></blockquote></div><br></div></div></div></div></div></div>",
+      "plain_body": "Hi Arshad,&nbsp; \n  Thank you for looping me in.&nbsp;  \n  Hi Ashitha,&nbsp;  \n  Hope you are doing well.&nbsp;  \n  I\u2019m Abhilash, and I manage Partnerships at PluginHive.&nbsp;  \n  I would like to get in touch with you over a quick call to discuss the integration process, API documentation, API credentials, and the future scope in more detail, and also understand the next steps before taking this forward.&nbsp;  \n  Please let me know a convenient time for a short discussion this week.&nbsp;  \n  Looking forward to connecting with you. \n      \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn \n \n \n  On 25 May 2026, at 3:22\u202fPM, Arshad Shaikh &lt;arshad@deensquare.com&gt; wrote: \n   Hi Ashitha  \n  Abhilash from pluginhive will coordinate with you for integration  \n  Regards&nbsp;  \n  Arshad&nbsp;  \n  \n   \n\n  ---- On Mon, 25 May 2026 12:53:55 +0400&nbsp;Ashitha Kudumbathara &lt;ashitha.kudumbathara@emx.ae&gt;&nbsp;wrote ----\n  \n     Dear&nbsp;@Arshad Shaikh\n  &nbsp;\n  For the Calculate Rate API, please use Basic Authentication by passing the provided username and password in the request header for staging.\n  C177122\n  C177122\n  &nbsp;\n  International\n  curl --location 'https://osbstg-new.epservices.ae/ebs/genericapi/ratecalculator/rest/CalculatePriceRate'&nbsp;\\\n  --header 'Content-Type: application/json' \\\n  --header 'AccountNo: C177122' \\\n  --header 'Password: C177122' \\\n  --data '{\n  &nbsp;&nbsp;&nbsp; \"RateCalculationRequest\": {\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ShipmentType\": \"Premium\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ServiceType\": \"International\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"OriginState\": \"\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"OriginCity\": 3,\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DestinationCountry\": 176,\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DestinationState\": \"Lisboa\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DestinationCity\": \"Torres Vedras\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Length\": 1,\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Width\": 1,\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Height\": 1,\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Weight\": 1050,\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"CalculationCurrencyCode\": \"AED\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ContentTypeCode\": \"NonDocument\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DimensionUnit\": \"Centimetre\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"WeightUnit\": \"Grams\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"IsRegistered\": \"No\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ProductCode\": \"PRO-26\"\n  &nbsp;&nbsp;&nbsp; }\n  }\n  '&nbsp;\n  Domestic\n  curl --location 'https://osbstg-new.epservices.ae/ebs/genericapi/ratecalculator/rest/CalculatePriceRate'&nbsp;\\\n  --header 'Content-Type: application/json' \\\n  --header 'AccountNo: C177122' \\\n  --header 'Password: C177122' \\\n  --data '{\n  &nbsp;&nbsp;&nbsp; \"RateCalculationRequest\": {\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ShipmentType\": \"Express\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ServiceType\": \"Domestic\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ContentTypeCode\": \"Document\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"OriginState\": null,\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"OriginCity\": \"1\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DestinationCountry\": \"971\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DestinationState\": null,\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DestinationCity\": \"4\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Height\": 32,\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Width\": 24,\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Length\": 10,\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"DimensionUnit\": \"Meter\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Weight\": \"500\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"WeightUnit\": \"Grams\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"CalculationCurrencyCode\": \"AED\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"IsRegistered\": \"No\",\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ProductCode\": \"EPG-21\"\n  &nbsp;&nbsp;&nbsp; }\n  }\n  '\n  We consider the origin and destination cities for calculating the rates of domestic shipments. The list of cities can be retrieved through the API mentioned below.\n  https://masters.epservices.ae/locations/api/Emirates\n  &nbsp;\n  For international shipments, only the country ID is used for rate calculation, and this can also be retrieved from the API provided.\n  https://osb.epservices.ae/ebs/genericapi/lookups/rest/GetCountries\n  &nbsp;\n   Regards,\n  Ashitha Kishore\n   &nbsp;\n    From:&nbsp;Arshad Shaikh &lt;arshad@deensquare.com&gt;&nbsp;\nSent:&nbsp;Monday, 25 May 2026 12:35 PM\nTo:&nbsp;Risha Kumar &lt;risha.kumar@emx.ae&gt;; Ashitha Kudumbathara &lt;ashitha.kudumbathara@emx.ae&gt;\nSubject:&nbsp;Re:deen square integration    &nbsp;\n \n  Caution:&nbsp;[EXTERNAL] Do not click on links or open attachments unless you recognize the sender and know the content is safe.\n   &nbsp;\n     Dear Ashitha\n    &nbsp;\n    Please forward the API documentation for Integration\n    &nbsp;\n    Regards\n    Arshad\n    &nbsp;\n    &nbsp;\n     &nbsp;\n    From: Risha Kumar &lt;risha.kumar@emx.ae&gt;\nTo: \"Ashitha Kudumbathara\"&lt;ashitha.kudumbathara@emx.ae&gt;, \"Arshad Shaikh\"&lt;arshad@deensquare.com&gt;\nDate: Fri, 22 May 2026 09:35:22 +0400\nSubject: deen square integration    &nbsp;\n     &nbsp;\n    ________________________________________________________________________________\n    Microsoft Teams meeting\n    Join:&nbsp;https://teams.microsoft.com/meet/375806385946660?p=Y3bW283KR4tznpZDvw\n    Meeting ID:&nbsp;375 806 385 946 660\n    Passcode:&nbsp;ys94hG2y\n     \n  &nbsp;\n    Need help?&nbsp;|&nbsp;System reference\n     Dial in by phone\n    +971 600 575990,,285091468#&nbsp;United Arab Emirates, All locations\n    Find a local number\n     Phone conference ID:&nbsp;285 091 468#\n    For organizers:&nbsp;Meeting options&nbsp;|&nbsp;Reset dial-in PIN\n    &nbsp;\n    &nbsp;\n    ________________________________________________________________________________",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58265909534489,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "abhilash@pluginhive.com",
+              "arshad@deensquare.com",
+              "ashitha.kudumbathara@emx.ae",
+              "risha.kumar@emx.ae",
+              "usman.hameed@emx.ae",
+              "vimal@pluginhive.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T10:41:39Z",
+      "metadata": {
+        "system": {
+          "message_id": "<58F3E9CD-9D43-406B-A1CC-C0DE4B2B91D9@pluginhive.com>",
+          "client": "Apple Mail (2.3864.600.51.1.1)",
+          "email_id": "01KSFBKKR8F6HBQCXQS80SSW2B",
+          "raw_email_identifier": "2369120/42bc7c14-4823-43f5-a655-1fdab10d2032.eml",
+          "json_email_identifier": "2369120/42bc7c14-4823-43f5-a655-1fdab10d2032.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58266036827289,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "NRN from support. Moving to OnHold for now.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">NRN from support. Moving to OnHold for now.<br></div>",
+      "plain_body": "NRN from support. Moving to OnHold for now.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58266036827161,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-25T10:48:04Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Lucknow, UP, India",
+          "latitude": 26.8373,
+          "longitude": 80.9165
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58389515532441,
+      "type": "Comment",
+      "author_id": 58265909489433,
+      "body": "Dear @Abhilash S\n\n\n\nPlease let me know your availability on Tueday for the meeting\n\n\n\nRegards,\n\nAshitha Kishore",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Dear <a href=\"mailto:abhilash@pluginhive.com\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">\n<span style=\" text-decoration: none;\">@Abhilash S</span></a></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Please let me know your availability on Tueday for the meeting</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<div>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Regards,</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Ashitha Kishore</span></p>\n</div>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Dear \n@Abhilash S \n &nbsp; \n Please let me know your availability on Tueday for the meeting \n &nbsp; \n \n Regards, \n Ashitha Kishore \n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58389515532313,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "ashitha.kudumbathara@emx.ae",
+              "abhilash@pluginhive.com",
+              "arshad@deensquare.com",
+              "risha.kumar@emx.ae",
+              "usman.hameed@emx.ae",
+              "vimal@pluginhive.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-28T12:19:35Z",
+      "metadata": {
+        "system": {
+          "message_id": "<AU1P273MB2032F4C5846E6A9B1870DCB8EF092@AU1P273MB2032.AREP273.PROD.OUTLOOK.COM>",
+          "email_id": "01KSQ8D285SVRK6BGN5GNGPQ75",
+          "raw_email_identifier": "2369120/4192b5c8-5d64-440c-b5d7-d523e7dc434e.eml",
+          "json_email_identifier": "2369120/4192b5c8-5d64-440c-b5d7-d523e7dc434e.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          903409790923
+        ]
+      }
+    },
+    {
+      "id": 58389960474905,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Informed abhilash on https://pluginhive.slack.com/archives/C09FMQNEV9P/p1779972008170449\nMoving to OnHold for now",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Informed abhilash on <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C09FMQNEV9P/p1779972008170449\">https://pluginhive.slack.com/archives/C09FMQNEV9P/p1779972008170449</a><br>Moving to OnHold for now<br></div>",
+      "plain_body": "Informed abhilash on https://pluginhive.slack.com/archives/C09FMQNEV9P/p1779972008170449\nMoving to OnHold for now",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58389960474777,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-28T12:40:34Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58498167930649,
+      "type": "Comment",
+      "author_id": 903409790923,
+      "body": "Hi Ashitha,\n\n\n\nThank you for your email.\n\n\n\n**9:****00 AM to 11:45 AM Dubai time on Tuesday works for us**. Please feel free to send over the meeting invite, and we'll be happy to join.\n\n\n\nAlternatively, if you prefer, I would be happy to send the meeting invite from my end. Please let me know what works best for you.\n\n\n\nWe look forward to speaking with you.\n\n\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Ashitha,&nbsp;<div><br></div><div>Thank you for your email.&nbsp;</div><div><b><br></b></div><div><b>9:</b><b>00 AM to 11:45 AM Dubai time on Tuesday works for us</b>. Please feel free to send over the meeting invite, and we'll be happy to join.&nbsp;</div><div><br></div><div>Alternatively, if you prefer, I would be happy to send the meeting invite from my end. Please let me know what works best for you.</div><div><br></div><div>We look forward to speaking with you.<div><div><div><br><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n<div><br></div></div></div></div></div></div>",
+      "plain_body": "Hi Ashitha,&nbsp; \n  Thank you for your email.&nbsp;  \n  9:00 AM to 11:45 AM Dubai time on Tuesday works for us. Please feel free to send over the meeting invite, and we'll be happy to join.&nbsp;  \n  Alternatively, if you prefer, I would be happy to send the meeting invite from my end. Please let me know what works best for you.  \n  We look forward to speaking with you.   \n \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58498167930521,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "abhilash@pluginhive.com",
+              "ashitha.kudumbathara@emx.ae",
+              "arshad@deensquare.com",
+              "risha.kumar@emx.ae",
+              "usman.hameed@emx.ae",
+              "vimal@pluginhive.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T05:24:19Z",
+      "metadata": {
+        "system": {
+          "message_id": "<8C9CE9E2-C447-452B-B938-659660B0A2FF@pluginhive.com>",
+          "client": "Apple Mail (2.3864.600.51.1.1)",
+          "email_id": "01KT0T7JE8N020NM4EK45ZA1FA",
+          "raw_email_identifier": "2369120/a4144e38-61b8-4584-83b8-2b2beeec3202.eml",
+          "json_email_identifier": "2369120/a4144e38-61b8-4584-83b8-2b2beeec3202.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58500718748825,
+      "type": "Comment",
+      "author_id": 58265909489433,
+      "body": "Hi Abhilash,\n\n\n\nI have scheduled the meeting at 10:00 AM on Tuesday.\n\n\n\nRegards,\n\nAshitha Kishore",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Hi Abhilash,</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>I have scheduled the meeting at 10:00 AM on Tuesday.</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<div>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Regards,</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Ashitha Kishore</span></p>\n</div>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Hi Abhilash, \n &nbsp; \n I have scheduled the meeting at 10:00 AM on Tuesday. \n &nbsp; \n \n Regards, \n Ashitha Kishore \n \n &nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58500730957465,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "ashitha.kudumbathara@emx.ae",
+              "abhilash@pluginhive.com",
+              "arshad@deensquare.com",
+              "risha.kumar@emx.ae",
+              "usman.hameed@emx.ae",
+              "vimal@pluginhive.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T06:30:05Z",
+      "metadata": {
+        "system": {
+          "message_id": "<AU1P273MB20326F662F4B544519EE440DEF152@AU1P273MB2032.AREP273.PROD.OUTLOOK.COM>",
+          "email_id": "01KT0Y00367WXAX1Z42RXBPV7K",
+          "raw_email_identifier": "2369120/680a488f-03fa-45cb-ad5a-d8b8d1211863.eml",
+          "json_email_identifier": "2369120/680a488f-03fa-45cb-ad5a-d8b8d1211863.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          903409790923
+        ]
+      }
+    },
+    {
+      "id": 58501020146585,
+      "type": "Comment",
+      "author_id": 903409790923,
+      "body": "Hi Ashitha,\n\n\n\nAccepted!\n\n\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Ashitha,&nbsp;<div><br></div><div>Accepted!&nbsp;</div><div><br></div><div><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n<div><br></div></div></div>",
+      "plain_body": "Hi Ashitha,&nbsp; \n  Accepted!&nbsp;  \n   \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58501017795865,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "abhilash@pluginhive.com",
+              "ashitha.kudumbathara@emx.ae",
+              "arshad@deensquare.com",
+              "risha.kumar@emx.ae",
+              "usman.hameed@emx.ae",
+              "vimal@pluginhive.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T06:37:50Z",
+      "metadata": {
+        "system": {
+          "message_id": "<9513CA24-482E-4334-8CF5-7F9281F8DC83@pluginhive.com>",
+          "client": "Apple Mail (2.3864.600.51.1.1)",
+          "email_id": "01KT0YE6S9H7Z5NEEZAE3DP713",
+          "raw_email_identifier": "2369120/7c0bcebb-a1e8-4865-8bae-4aeefafef221.eml",
+          "json_email_identifier": "2369120/7c0bcebb-a1e8-4865-8bae-4aeefafef221.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58538499024793,
+      "type": "Comment",
+      "author_id": 903409790923,
+      "body": "Hi Ashitha,\n\n\n\nI\u2019ve joined the call. Please let me in.\n\n\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Ashitha,&nbsp;<div><br></div><div>I\u2019ve joined the call. Please let me in.&nbsp;</div><div><br><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n<div><br></div></div></div>",
+      "plain_body": "Hi Ashitha,&nbsp; \n  I\u2019ve joined the call. Please let me in.&nbsp;  \n \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58538499023513,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "abhilash@pluginhive.com",
+              "ashitha.kudumbathara@emx.ae",
+              "arshad@deensquare.com",
+              "risha.kumar@emx.ae",
+              "usman.hameed@emx.ae",
+              "vimal@pluginhive.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T06:02:32Z",
+      "metadata": {
+        "system": {
+          "message_id": "<B10854B1-58DB-4605-9C7A-4EDFD873A011@pluginhive.com>",
+          "client": "Apple Mail (2.3864.600.51.1.1)",
+          "email_id": "01KT3ET952KFTVDP2MCPDKM35D",
+          "raw_email_identifier": "2369120/8085c202-28a5-49be-bcfc-bd4e5a579acb.eml",
+          "json_email_identifier": "2369120/8085c202-28a5-49be-bcfc-bd4e5a579acb.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58576869205401,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "NRN from support\n\nMain ticket is https://pluginhive.zendesk.com/agent/tickets/391833\n\nKeeping this ticket OnHold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">NRN from support<br>&nbsp;<br>Main ticket is <a rel=\"noopener noreferrer\" href=\"https://pluginhive.zendesk.com/agent/tickets/391833\">https://pluginhive.zendesk.com/agent/tickets/391833</a><br>&nbsp;<br>Keeping this ticket OnHold<br></div>",
+      "plain_body": "NRN from support\n&nbsp;\nMain ticket is https://pluginhive.zendesk.com/agent/tickets/391833\n&nbsp;\nKeeping this ticket OnHold",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58576869205273,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T05:01:01Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58577092272537,
+      "type": "Comment",
+      "author_id": 58265912864921,
+      "body": "Dear Ashitha\n\n\n\nPlease share the API documentation with test credentials\n\n\n\nThank you\n\n\n\n\n\nRegards\n\n\n\nArshad\n\n\n\n\n\n\n---- On Tue, 02 Jun 2026 10:02:11 +0400 **Abhilash S <abhilash@pluginhive.com>** wrote ----\n\n\n\n> Hi Ashitha,\n>\n>\n> I\u2019ve joined the call. Please let me in.\n>\n>\n>\n> Best Regards,\n>\n> Abhilash S | Digital Marketing & Partnerships\n> Connect with us on LinkedIn\n>\n>\n>\n> >",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 11pt;\"><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\">Dear Ashitha</div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\"><br></div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\">Please share the API documentation with test credentials&nbsp;</div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\"><br></div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\">Thank you&nbsp;</div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\"><br></div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\"><br></div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\">Regards</div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\"><br></div><div dir=\"ltr\" style=\"text-align: left;\" align=\"left\">Arshad&nbsp;</div><div><br></div><div><div><br><br></div><div>---- On Tue, 02 Jun 2026 10:02:11 +0400 <b>Abhilash S &lt;abhilash@pluginhive.com&gt;</b> wrote ----<br></div><div><br></div><blockquote style=\"margin: 0;\"><div>Hi Ashitha,&nbsp;<div><br></div><div>I\u2019ve joined the call. Please let me in.&nbsp;<br></div><div><br><div><div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div></div><div><br><blockquote></blockquote></div></div></div></blockquote></div></div></div>",
+      "plain_body": "Dear Ashitha  \n  Please share the API documentation with test credentials&nbsp;  \n  Thank you&nbsp;  \n  \n  Regards  \n  Arshad&nbsp;  \n   \n\n  ---- On Tue, 02 Jun 2026 10:02:11 +0400 Abhilash S &lt;abhilash@pluginhive.com&gt; wrote ----\n  \n   Hi Ashitha,&nbsp; \n  I\u2019ve joined the call. Please let me in.&nbsp;\n  \n  Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58577092272409,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "arshad@deensquare.com",
+              "ashitha.kudumbathara@emx.ae",
+              "risha.kumar@emx.ae",
+              "usman.hameed@emx.ae",
+              "vimal@pluginhive.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com",
+              "abhilash@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T05:07:02Z",
+      "metadata": {
+        "system": {
+          "message_id": "<19e8be0677d.10dd338e6286367.3300989700425051933@deensquare.com>",
+          "client": "Zoho Mail",
+          "email_id": "01KT5Y1CDJTST8YYA3E8BEQG95",
+          "raw_email_identifier": "2369120/634e62e0-da6e-444d-8403-33a35046b328.eml",
+          "json_email_identifier": "2369120/634e62e0-da6e-444d-8403-33a35046b328.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          903409790923
+        ]
+      }
+    },
+    {
+      "id": 58577675011481,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Customer to carrier team",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer to carrier team<br></div>",
+      "plain_body": "Customer to carrier team",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58577675011353,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T05:24:45Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58578064580761,
+      "type": "Comment",
+      "author_id": 58265909489433,
+      "body": "Dear @Arshad Shaikh\n\n\n\nPlease find the below details\n\nAPI Documentation :  EMX API\n\n\n\nCreate Shipment API\n\nURL : https://local-stg.epservices.ae/api/Shipments/create\n\nAPI Key : 23ba3fccc642a478c192e823f7c3d413:a51a45a8abf84994a19a1dfb0f044c4e\n\n Account Number : 177122\n\n\n\nTrack Shipment API\n\nURL : https://api-stg.emx.ae/tracking/api/Tracking?awbNumber= {AWB}\n\nAPI Key : N3uxt/FBguoTVtuW3QL70rwk8yUtmhM1WZXSiT5Y35HD588V0HAt4gtCkUGxlQUzHtg+1NVjaGd1X7M8abOld1EQfcFEUllKWEN1dSeRF7M=\n\n\n\nProduct Codes:\n\n**Product Code**\n\n**Product**\n\nDomestic\n\nDomestic\n\nEMX-International\n\nGCC Shipments\n\nInternational\n\nInternational\n\nEMXBRNDEXL\n\nStore and Bulky Delivery\n\nETOEPARCEL\n\nPostal\n\nPRO-32\n\nInternational Premium U Outbound\n\nPRO-37\n\nInternational Priority DG - DDP Export\n\nDG-26\n\nInternational Premium - DG Export\n\nEPG-71\n\nDomestic Next Day Pre-12\n\nEPG-24\n\nMail Room FOC  Fixed Run Shipments\n\nEPG-200\n\nDomestic Parcel Express Temp Control - Corp\n\nPRO-28\n\nInternational Premium - Inbound\n\nPRO-33\n\nInternational Premium U Import Corp\n\nSD-02\n\nDomestic Sameday Document\n\nEPG-71\n\nMail Room FOC  Fixed Run Shipments\n\nPRO-25\n\nInternational Document Premium - Corp\n\nEPG-800\n\nZero rate tariff - My home PO box\n\nPRO-274\n\nEMX GCC RoadLink DDU\n\nPRO-275\n\nEMX GCC RoadLink DDP\n\nPRO-38\n\nInternational Priority DG - DDU Export\n\n\n\n\n\nI have also attached updated postman collection for your reference\n\nKindly go through it and let us know if you have any doubts or need further assistance.\n\n\n\n\n\nRegards,\n\nAshitha Kishore",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Dear <a href=\"mailto:arshad@deensquare.com\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">\n<span style=\" text-decoration: none;\">@Arshad Shaikh</span></a></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Please find the below details</span><span></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>API Documentation :&nbsp;\n<a href=\"https://developers.emx.ae/local.html\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">EMX API</a></span><span></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span><span></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Create Shipment API</span><span></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>URL : <a href=\"https://local-stg.epservices.ae/api/Shipments/create\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">\nhttps://local-stg.epservices.ae/api/Shipments/create</a></span><span></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>API Key : 23ba3fccc642a478c192e823f7c3d413:a51a45a8abf84994a19a1dfb0f044c4e</span><span></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;Account Number : 177122</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Track Shipment API </span>\n<span></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>URL : <a href=\"https://api-stg.emx.ae/tracking/api/Tracking?awbNumber=\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">\nhttps://api-stg.emx.ae/tracking/api/Tracking?awbNumber=</a> {AWB}</span><span></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>API Key : N3uxt/FBguoTVtuW3QL70rwk8yUtmhM1WZXSiT5Y35HD588V0HAt4gtCkUGxlQUzHtg+1NVjaGd1X7M8abOld1EQfcFEUllKWEN1dSeRF7M=</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Product Codes:</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"489\" style=\"width: 366.55pt; border-collapse: collapse;\">\n<tbody>\n<tr style=\"height: 14.5pt;\">\n<td width=\"221\" valign=\"top\" style=\"width: 166.0pt; background-color: #DAE9F8; height: 14.5pt; padding: 0cm 5.4pt; border-style: solid; border-width: 1.0pt; background-color: #DAE9F8\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 11.0pt; color: black;\">Product Code</span></b></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; background-color: #DAE9F8; height: 14.5pt; padding: 0cm 5.4pt; border-style: solid solid solid none; border-width: 1.0pt; background-color: #DAE9F8\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><b><span style=\"font-size: 11.0pt; color: black;\">Product</span></b></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">Domestic</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">Domestic</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">EMX-International</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">GCC Shipments</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">International</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">International</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">EMXBRNDEXL</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">Store and Bulky Delivery</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">ETOEPARCEL</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">Postal</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">PRO-32</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">International Premium U Outbound</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">PRO-37</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">International Priority DG - DDP Export</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">DG-26</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">International Premium - DG Export</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">EPG-71</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">Domestic Next Day Pre-12</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">EPG-24</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">Mail Room FOC&nbsp; Fixed Run Shipments</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">EPG-200</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">Domestic Parcel Express Temp Control - Corp</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">PRO-28</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">International Premium - Inbound\n</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">PRO-33</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">International Premium U Import Corp</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">SD-02</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">Domestic Sameday Document\n</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">EPG-71</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">Mail Room FOC&nbsp; Fixed Run Shipments</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">PRO-25</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">International Document Premium - Corp</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">EPG-800</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">Zero rate tariff - My home PO box</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">PRO-274</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">EMX GCC RoadLink DDU</span></p>\n</td>\n</tr>\n<tr style=\"height: 16.0pt;\">\n<td width=\"221\" style=\"width: 166.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"color: black;\">PRO-275</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 16.0pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">EMX GCC RoadLink DDP</span></p>\n</td>\n</tr>\n<tr style=\"height: 14.5pt;\">\n<td width=\"221\" valign=\"top\" style=\"width: 166.0pt; height: 14.5pt; padding: 0cm 5.4pt; border-style: none solid solid; border-width: 1.0pt;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">PRO-38</span></p>\n</td>\n<td width=\"267\" valign=\"top\" style=\"width: 200.55pt; border-bottom-width: 1.0pt; border-right-width: 1.0pt; height: 14.5pt; padding: 0cm 5.4pt; border-style: none solid solid none;\">\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: black;\">International Priority DG - DDU Export</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span><span></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>I have also attached updated postman collection for your reference</span><span></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Kindly go through it and let us know if you have any doubts or need further assistance.</span><span></span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n<div>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Regards,</span></p>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>Ashitha Kishore</span></p>\n</div>\n<p style=\"font-size: 12.0pt; margin: 0cm;\" dir=\"auto\"><span>&nbsp;</span></p>\n\n</div></div>",
+      "plain_body": "Dear \n@Arshad Shaikh \n &nbsp; \n Please find the below details \n API Documentation :&nbsp;\nEMX API \n &nbsp; \n Create Shipment API \n URL : \nhttps://local-stg.epservices.ae/api/Shipments/create \n API Key : 23ba3fccc642a478c192e823f7c3d413:a51a45a8abf84994a19a1dfb0f044c4e \n &nbsp;Account Number : 177122 \n &nbsp; \n Track Shipment API \n \n URL : \nhttps://api-stg.emx.ae/tracking/api/Tracking?awbNumber= {AWB} \n API Key : N3uxt/FBguoTVtuW3QL70rwk8yUtmhM1WZXSiT5Y35HD588V0HAt4gtCkUGxlQUzHtg+1NVjaGd1X7M8abOld1EQfcFEUllKWEN1dSeRF7M= \n &nbsp; \n Product Codes: \n\n\n\n\n Product Code \n\n\n Product \n\n\n\n\n Domestic \n\n\n Domestic \n\n\n\n\n EMX-International \n\n\n GCC Shipments \n\n\n\n\n International \n\n\n International \n\n\n\n\n EMXBRNDEXL \n\n\n Store and Bulky Delivery \n\n\n\n\n ETOEPARCEL \n\n\n Postal \n\n\n\n\n PRO-32 \n\n\n International Premium U Outbound \n\n\n\n\n PRO-37 \n\n\n International Priority DG - DDP Export \n\n\n\n\n DG-26 \n\n\n International Premium - DG Export \n\n\n\n\n EPG-71 \n\n\n Domestic Next Day Pre-12 \n\n\n\n\n EPG-24 \n\n\n Mail Room FOC&nbsp; Fixed Run Shipments \n\n\n\n\n EPG-200 \n\n\n Domestic Parcel Express Temp Control - Corp \n\n\n\n\n PRO-28 \n\n\n International Premium - Inbound\n \n\n\n\n\n PRO-33 \n\n\n International Premium U Import Corp \n\n\n\n\n SD-02 \n\n\n Domestic Sameday Document\n \n\n\n\n\n EPG-71 \n\n\n Mail Room FOC&nbsp; Fixed Run Shipments \n\n\n\n\n PRO-25 \n\n\n International Document Premium - Corp \n\n\n\n\n EPG-800 \n\n\n Zero rate tariff - My home PO box \n\n\n\n\n PRO-274 \n\n\n EMX GCC RoadLink DDU \n\n\n\n\n PRO-275 \n\n\n EMX GCC RoadLink DDP \n\n\n\n\n PRO-38 \n\n\n International Priority DG - DDU Export \n\n\n\n\n &nbsp; \n &nbsp; \n I have also attached updated postman collection for your reference \n Kindly go through it and let us know if you have any doubts or need further assistance. \n &nbsp; \n &nbsp; \n \n Regards, \n Ashitha Kishore \n \n &nbsp;",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58578056628633.json",
+          "id": 58578056628633,
+          "file_name": "EMX API.postman_collection.json",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/R3aPnx34WaofCUsyTbVUlgWFg/?name=EMX+API.postman_collection.json",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/R3aPnx34WaofCUsyTbVUlgWFg/?name=EMX+API.postman_collection.json",
+          "content_type": "application/octet-stream",
+          "size": 10337,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58578064580633,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "ashitha.kudumbathara@emx.ae",
+              "arshad@deensquare.com",
+              "risha.kumar@emx.ae",
+              "usman.hameed@emx.ae",
+              "vimal@pluginhive.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com",
+              "abhilash@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T05:37:00Z",
+      "metadata": {
+        "system": {
+          "message_id": "<DX0P273MB20241AB67D79F9F6CA5164DAEF132@DX0P273MB2024.AREP273.PROD.OUTLOOK.COM>",
+          "email_id": "01KT5ZR74RHCNVVFHHRHJRE062",
+          "raw_email_identifier": "2369120/7aa339f4-8d7b-4841-9a5c-2e56fc9a9172.eml",
+          "json_email_identifier": "2369120/7aa339f4-8d7b-4841-9a5c-2e56fc9a9172.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          903409790923
+        ]
+      }
+    },
+    {
+      "id": 58580403334809,
+      "type": "Comment",
+      "author_id": 903409790923,
+      "body": "Hi Ashitha,\n\n\n\nThank you for sharing the detailed API documentation, credentials, product codes, and the Postman collection.\n\n\n\nI\u2019ll have my technical team review everything and get back to you if there are any questions or further clarifications needed.\n\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hi Ashitha,&nbsp;<div><br></div><div>Thank you for sharing the detailed API documentation, credentials, product codes, and the Postman collection.&nbsp;</div><div><br></div><div>I\u2019ll have my technical team review everything and get back to you if there are any questions or further clarifications needed.&nbsp;<div><br><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n<div><br></div></div></div></div>",
+      "plain_body": "Hi Ashitha,&nbsp; \n  Thank you for sharing the detailed API documentation, credentials, product codes, and the Postman collection.&nbsp;  \n  I\u2019ll have my technical team review everything and get back to you if there are any questions or further clarifications needed.&nbsp; \n \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58580403333017,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "abhilash@pluginhive.com",
+              "ashitha.kudumbathara@emx.ae",
+              "arshad@deensquare.com",
+              "risha.kumar@emx.ae",
+              "usman.hameed@emx.ae",
+              "vimal@pluginhive.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T06:45:06Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CD660B04-D423-4D03-BD3E-1751C8A9849C@pluginhive.com>",
+          "client": "Apple Mail (2.3864.600.51.1.1)",
+          "email_id": "01KT63MXFHMSSD333NZKSDA12K",
+          "raw_email_identifier": "2369120/b2c4df9d-6855-4555-8b95-20860d1ed7f7.eml",
+          "json_email_identifier": "2369120/b2c4df9d-6855-4555-8b95-20860d1ed7f7.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58580538739097,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Hi Team,\n\nEmirates Post team has shared the complete API documentation along with staging credentials, product codes, and the Postman collection for the integration.\n\nPlease share the ETA for completing this implementation.\n\n(Abhilash)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br>Emirates Post team has shared the complete API documentation along with staging credentials, product codes, and the Postman collection for the integration.<br>&nbsp;<br>Please share the ETA for completing this implementation.<br>&nbsp;<br>(Abhilash)<br></div>",
+      "plain_body": "Hi Team,\n&nbsp;\nEmirates Post team has shared the complete API documentation along with staging credentials, product codes, and the Postman collection for the integration.\n&nbsp;\nPlease share the ETA for completing this implementation.\n&nbsp;\n(Abhilash)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58580523669529,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T06:49:43Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58580583438489,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Hi Team,\n\nPlease move this to L3/Dev needed.\n\n(Abhilash)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,&nbsp;<br>&nbsp;<br>Please move this to L3/Dev needed.&nbsp;<br>&nbsp;<br>(Abhilash)<br>&nbsp;<br></div>",
+      "plain_body": "Hi Team,&nbsp;\n&nbsp;\nPlease move this to L3/Dev needed.&nbsp;\n&nbsp;\n(Abhilash)\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58580583437977,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T06:52:08Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58580755684121,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "L3 - Emirates post team has shared complete API documentation along with staging credentials, product codes, and the Postman collection for the integration. Please check and take further action\n\nAPI Documentation :  EMX API\n\nCreate Shipment API\nURL : https://local-stg.epservices.ae/api/Shipments/create\nAPI Key : 23ba3fccc642a478c192e823f7c3d413:a51a45a8abf84994a19a1dfb0f044c4e\nAccount Number : 177122\n\nTrack Shipment API\nURL : https://api-stg.emx.ae/tracking/api/Tracking?awbNumber= {AWB}\nAPI Key : N3uxt/FBguoTVtuW3QL70rwk8yUtmhM1WZXSiT5Y35HD588V0HAt4gtCkUGxlQUzHtg+1NVjaGd1X7M8abOld1EQfcFEUllKWEN1dSeRF7M=\n\nProduct Codes:\n\n**Product Code** **Product**\nDomestic Domestic\nEMX-International GCC Shipments\nInternational International\nEMXBRNDEXL Store and Bulky Delivery\nETOEPARCEL Postal\nPRO-32 International Premium U Outbound\nPRO-37 International Priority DG - DDP Export\nDG-26 International Premium - DG Export\nEPG-71 Domestic Next Day Pre-12\nEPG-24 Mail Room FOC  Fixed Run Shipments\nEPG-200 Domestic Parcel Express Temp Control - Corp\nPRO-28 International Premium - Inbound\nPRO-33 International Premium U Import Corp\nSD-02 Domestic Sameday Document\nEPG-71 Mail Room FOC  Fixed Run Shipments\nPRO-25 International Document Premium - Corp\nEPG-800 Zero rate tariff - My home PO box\nPRO-274 EMX GCC RoadLink DDU\nPRO-275 EMX GCC RoadLink DDP\nPRO-38 International Priority DG - DDU Export\n\n\nPosman Collection is attached for reference",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3 - Emirates post team has shared complete API documentation along with staging credentials, product codes, and the Postman collection for the integration. Please check and take further action<br>&nbsp;<br>API Documentation :&nbsp; <a rel=\"noopener noreferrer\" href=\"https://developers.emx.ae/local.html\"><u>EMX API</u></a><br>&nbsp;<br>Create Shipment API<br>URL : <a rel=\"noopener noreferrer\" href=\"https://local-stg.epservices.ae/api/Shipments/create\"><u>https://local-stg.epservices.ae/api/Shipments/create</u></a><br>API Key : 23ba3fccc642a478c192e823f7c3d413:a51a45a8abf84994a19a1dfb0f044c4e<br>Account Number : 177122<br>&nbsp;<br>Track Shipment API<br>URL : <a rel=\"noopener noreferrer\" href=\"https://api-stg.emx.ae/tracking/api/Tracking?awbNumber=\"><u>https://api-stg.emx.ae/tracking/api/Tracking?awbNumber=</u></a> {AWB}<br>API Key : N3uxt/FBguoTVtuW3QL70rwk8yUtmhM1WZXSiT5Y35HD588V0HAt4gtCkUGxlQUzHtg+1NVjaGd1X7M8abOld1EQfcFEUllKWEN1dSeRF7M=<br>&nbsp;<br>Product Codes:<br><table><tbody><tr><td><strong>Product Code</strong></td><td><strong>Product</strong></td></tr><tr><td>Domestic</td><td>Domestic</td></tr><tr><td>EMX-International</td><td>GCC Shipments</td></tr><tr><td>International</td><td>International</td></tr><tr><td>EMXBRNDEXL</td><td>Store and Bulky Delivery</td></tr><tr><td>ETOEPARCEL</td><td>Postal</td></tr><tr><td>PRO-32</td><td>International Premium U Outbound</td></tr><tr><td>PRO-37</td><td>International Priority DG - DDP Export</td></tr><tr><td>DG-26</td><td>International Premium - DG Export</td></tr><tr><td>EPG-71</td><td>Domestic Next Day Pre-12</td></tr><tr><td>EPG-24</td><td>Mail Room FOC&nbsp; Fixed Run Shipments</td></tr><tr><td>EPG-200</td><td>Domestic Parcel Express Temp Control - Corp</td></tr><tr><td>PRO-28</td><td>International Premium - Inbound</td></tr><tr><td>PRO-33</td><td>International Premium U Import Corp</td></tr><tr><td>SD-02</td><td>Domestic Sameday Document</td></tr><tr><td>EPG-71</td><td>Mail Room FOC&nbsp; Fixed Run Shipments</td></tr><tr><td>PRO-25</td><td>International Document Premium - Corp</td></tr><tr><td>EPG-800</td><td>Zero rate tariff - My home PO box</td></tr><tr><td>PRO-274</td><td>EMX GCC RoadLink DDU</td></tr><tr><td>PRO-275</td><td>EMX GCC RoadLink DDP</td></tr><tr><td>PRO-38</td><td>International Priority DG - DDU Export</td></tr></tbody></table>&nbsp;<br>Posman Collection is attached for reference<br></div>",
+      "plain_body": "L3 - Emirates post team has shared complete API documentation along with staging credentials, product codes, and the Postman collection for the integration. Please check and take further action\n&nbsp;\nAPI Documentation :&nbsp; EMX API\n&nbsp;\nCreate Shipment API\nURL : https://local-stg.epservices.ae/api/Shipments/create\nAPI Key : 23ba3fccc642a478c192e823f7c3d413:a51a45a8abf84994a19a1dfb0f044c4e\nAccount Number : 177122\n&nbsp;\nTrack Shipment API\nURL : https://api-stg.emx.ae/tracking/api/Tracking?awbNumber= {AWB}\nAPI Key : N3uxt/FBguoTVtuW3QL70rwk8yUtmhM1WZXSiT5Y35HD588V0HAt4gtCkUGxlQUzHtg+1NVjaGd1X7M8abOld1EQfcFEUllKWEN1dSeRF7M=\n&nbsp;\nProduct Codes:\nProduct CodeProductDomesticDomesticEMX-InternationalGCC ShipmentsInternationalInternationalEMXBRNDEXLStore and Bulky DeliveryETOEPARCELPostalPRO-32International Premium U OutboundPRO-37International Priority DG - DDP ExportDG-26International Premium - DG ExportEPG-71Domestic Next Day Pre-12EPG-24Mail Room FOC&nbsp; Fixed Run ShipmentsEPG-200Domestic Parcel Express Temp Control - CorpPRO-28International Premium - InboundPRO-33International Premium U Import CorpSD-02Domestic Sameday DocumentEPG-71Mail Room FOC&nbsp; Fixed Run ShipmentsPRO-25International Document Premium - CorpEPG-800Zero rate tariff - My home PO boxPRO-274EMX GCC RoadLink DDUPRO-275EMX GCC RoadLink DDPPRO-38International Priority DG - DDU Export&nbsp;\nPosman Collection is attached for reference",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58580740765593.json",
+          "id": 58580740765593,
+          "file_name": "EMX API.postman_collection.json",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/ZhlcWAfG6yUnqzkU8rt2JqWHh/?name=EMX+API.postman_collection.json",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/ZhlcWAfG6yUnqzkU8rt2JqWHh/?name=EMX+API.postman_collection.json",
+          "content_type": "application/json",
+          "size": 10337,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58580755683993,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T06:55:54Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58582259221401,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Adding the carrier integration for dev. Kindly move to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Adding the carrier integration for dev. Kindly move to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "Adding the carrier integration for dev. Kindly move to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58582259221273,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T07:39:51Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58588563590297,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "Hi Team,\n\nPlease add the ETA as well.  I need to inform the customer & the carrier team.\n\n(Abhilash)",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br>Please add the ETA as well. &nbsp;I need to inform the customer &amp; the carrier team.&nbsp;<br>&nbsp;<br>(Abhilash)<br></div>",
+      "plain_body": "Hi Team,\n&nbsp;\nPlease add the ETA as well. &nbsp;I need to inform the customer &amp; the carrier team.&nbsp;\n&nbsp;\n(Abhilash)",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58588563589657,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T10:58:56Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58909674999193,
+      "type": "Comment",
+      "author_id": 58265909498521,
+      "body": "\n\nHi @Ashitha Kudumbathara\n\n\n\nHope all is well,\n\n\n\nWith confirmation of Keerthi, all has been mapped for domestic again with the same Site ID and Product code!\n\n\n\n Best Regards,\n\n![A blue and white logo\n\nDescription automatically generated](https://support.pluginhive.com/attachments/token/QWAFVaOt0AjEmAMuRuQxHpL0t/?name=Outlook-A+blue+and.png)\n\n**Risha Kumar**\n\nSales Coordinator\n\nParcel & Express Business Unit\n\nP.O. Box 99999, Dubai, United Arab Emirates Post\n\n**T**\n\n +9714 604 9373\n\n |\n\n**E**\n\n risha.kumar@emx.ae\n\n |\n\n**  W**\n\n www.emx.ae",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHi <a href=\"mailto:ashitha.kudumbathara@emx.ae\" rel=\"noreferrer\">\n@Ashitha Kudumbathara</a></div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nHope all is well,&nbsp;</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\nWith confirmation of Keerthi, all has been mapped for domestic again with the same Site ID and Product code!</div>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<p style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 12pt; color: rgb(36, 36, 36);\">&nbsp;Best Regards,</span></p>\n<p style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\" font-size: 12pt; color: rgb(36, 36, 36);\"><br>\n</span></p>\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"text-align: left; background-color: rgb(255, 255, 255); width: 387pt; color: rgb(36, 36, 36); box-sizing: border-box; border-collapse: collapse; border-spacing: 0px; background-color: FFFFFF\">\n<tbody>\n<tr>\n<td style=\"text-align: left; vertical-align: top; width: 121.8pt; height: 114.32px;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: center; font-size: 12pt; margin: 0px;\" dir=\"auto\" align=\"center\">\n<span style=\"color: rgb(36, 36, 36); background-color: rgb(255, 255, 255);\"><img alt=\"A blue and white logo\n\nDescription automatically generated\" width=\"183\" height=\"94\" style=\"width: 183px; height: 94px; min-width: auto; min-height: auto; margin: 0px;\" src=\"https://support.pluginhive.com/attachments/token/QWAFVaOt0AjEmAMuRuQxHpL0t/?name=Outlook-A+blue+and.png\"></span></p>\n</td>\n<td style=\"text-align: left; padding-left: 15pt; vertical-align: top; width: 265.2pt; height: 114.32px;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; line-height: 10pt; font-size: 12pt; margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"letter-spacing: 0.75pt; font-size: 10pt; color: rgb(0, 74, 152); background-color: rgb(255, 255, 255);\"><b>Risha Kumar</b></span></p>\n<table cellspacing=\"0\" cellpadding=\"0\" style=\"text-align: left; width: 231.15pt; box-sizing: border-box; border-collapse: collapse; border-spacing: 0px;\">\n<tbody>\n<tr>\n<td colspan=\"5\" style=\"text-align: left; padding-top: 3pt; vertical-align: top; width: 231.15pt; height: 12.65pt;\" align=\"left\" valign=\"top\">\n<p style=\"text-align: left; font-size: 12pt; margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 10.5pt; color: rgb(33, 94, 153); background-color: rgb(255, 255, 255);\">Sales Coordinator</span></p>\n<p style=\"text-align: left; font-size: 12pt; margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"letter-spacing: 0.75pt; font-size: 10pt; color: rgb(0, 74, 152); background-color: rgb(255, 255, 255);\">Parcel &amp; Express Business Unit</span></p>\n</td>\n</tr>\n<tr>\n<td colspan=\"5\" style=\"text-align: left; width: 231.15pt; height: 12.75pt;\" align=\"left\">\n<p style=\"text-align: left; line-height: 10pt; margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 10pt; color: rgb(135, 137, 138); background-color: rgb(255, 255, 255);\">P.O. Box 99999, Dubai, United Arab Emirates Post</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"text-align: left; width: 6.35pt; height: 11.25pt;\" align=\"left\">\n<p style=\"text-align: left; margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 10pt; color: rgb(58, 61, 63); background-color: rgb(255, 255, 255);\"><b>T</b></span></p>\n</td>\n<td style=\"text-align: left; width: 126.55pt; height: 11.25pt;\" align=\"left\">\n<p style=\"text-align: left; margin: 0px;\" dir=\"auto\" align=\"left\"><span style=\" font-size: 10pt; color: rgb(135, 137, 138); background-color: rgb(255, 255, 255);\">&nbsp;</span><span style=\" font-size: 10pt; color: rgb(13, 13, 13); background-color: rgb(255, 255, 255);\">+97</span><span style=\" font-size: 10pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">1</span><span style=\" font-size: 10pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">4\n 604 9373</span></p>\n</td>\n<td style=\"text-align: left; width: 5.3pt; height: 11.25pt;\" align=\"left\">\n<p style=\"text-align: left; font-size: 12pt; margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 10pt; color: rgb(135, 137, 138); background-color: rgb(255, 255, 255);\">&nbsp;|</span></p>\n</td>\n<td colspan=\"2\" style=\"text-align: left; width: 92.95pt; height: 11.25pt;\" align=\"left\">\n<div style=\"text-align: left; font-size: 12pt; color: rgb(0, 0, 0);\" align=\"left\">\n<br>\n</div>\n</td>\n</tr>\n<tr>\n<td style=\"text-align: left; width: 6.35pt; height: 11.25pt;\" align=\"left\">\n<p style=\"text-align: left; font-size: 12pt; margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 10pt; color: rgb(58, 61, 63); background-color: rgb(255, 255, 255);\"><b>E</b></span></p>\n</td>\n<td style=\"text-align: left; width: 126.55pt; height: 11.25pt;\" align=\"left\">\n<p style=\"text-align: left; font-size: 12pt; margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 10pt; color: rgb(135, 137, 138); background-color: rgb(255, 255, 255);\">&nbsp;</span><span style=\"font-size: 10pt; color: rgb(12, 100, 192); background-color: rgb(255, 255, 255);\"><u>risha.kumar@emx.ae</u></span></p>\n</td>\n<td style=\"text-align: left; width: 5.3pt; height: 11.25pt;\" align=\"left\">\n<p style=\"text-align: left; font-size: 12pt; margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 10pt; color: rgb(135, 137, 138); background-color: rgb(255, 255, 255);\">&nbsp;|</span></p>\n</td>\n<td style=\"text-align: left; width: 13.5pt; height: 11.25pt;\" align=\"left\">\n<p style=\"text-align: left; font-size: 12pt; margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 10pt; color: rgb(58, 61, 63); background-color: rgb(255, 255, 255);\"><b>&nbsp;&nbsp;W</b></span></p>\n</td>\n<td style=\"text-align: left; width: 79.45pt; height: 11.25pt;\" align=\"left\">\n<p style=\"text-align: left; font-size: 12pt; margin: 0px;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 10pt; color: rgb(135, 137, 138); background-color: rgb(255, 255, 255);\">&nbsp;</span><span style=\"font-size: 10pt; color: rgb(5, 99, 193); background-color: rgb(255, 255, 255);\"><a href=\"http://www.emx.ae/\" title=\"Original URL: http://www.emx.ae/. Click or tap if you trust this link.\" style=\"color: rgb(5, 99, 193); margin: 0px;\" rel=\"noreferrer\"><u>www.emx.ae</u></a></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<div style=\" font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n</div>\n<div></div></div>",
+      "plain_body": "Hi \n@Ashitha Kudumbathara \n \n\n\n \n \nHope all is well,&nbsp; \n \n\n\n \n \nWith confirmation of Keerthi, all has been mapped for domestic again with the same Site ID and Product code! \n \n\n\n \n \n&nbsp;Best Regards, \n \n\n\n \n\n\n\n\n \n \n\n\n \nRisha Kumar \n\n\n\n\n \nSales Coordinator \n \nParcel &amp; Express Business Unit \n\n\n\n\n \nP.O. Box 99999, Dubai, United Arab Emirates Post \n\n\n\n\n \nT \n\n\n &nbsp;+9714\n 604 9373 \n\n\n \n&nbsp;| \n\n\n \n\n\n \n\n\n\n\n \nE \n\n\n \n&nbsp;risha.kumar@emx.ae \n\n\n \n&nbsp;| \n\n\n \n&nbsp;&nbsp;W \n\n\n \n&nbsp;www.emx.ae",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58909674999065,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "risha.kumar@emx.ae",
+              "abhilash@pluginhive.com",
+              "ashitha.kudumbathara@emx.ae",
+              "arshad@deensquare.com",
+              "usman.hameed@emx.ae",
+              "vimal@pluginhive.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-12T06:52:05Z",
+      "metadata": {
+        "system": {
+          "message_id": "<AU1P273MB236858DAEFC7F4B4C7A4EFAF8F182@AU1P273MB2368.AREP273.PROD.OUTLOOK.COM>",
+          "email_id": "01KTX9M3ABR2H04VX5R85TKVHM",
+          "raw_email_identifier": "2369120/3e5936ec-bdec-4c92-9fe4-22c12121cb12.eml",
+          "json_email_identifier": "2369120/3e5936ec-bdec-4c92-9fe4-22c12121cb12.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null,
+        "notifications_suppressed_for": [
+          903409790923
+        ]
+      }
+    },
+    {
+      "id": 58909695407897,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 19 message(s)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Risha,\n\nThank you for the update. We have noted that the domestic mapping has been re-confirmed with the same Site ID and Product code, with Keerthi's verification. This is helpful for our technical team as they proceed with the integration.\n\nOur development team has received the full API documentation, staging credentials, product codes, and the Postman collection shared by Ashitha (covering Domestic Shipment Creation, International Shipment Creation, Tracking, and the Countries lookup). The integration is currently in active development.\n\nWe are working on confirming an estimated timeline and will share it with you and the Emirates Post team as soon as it is available.\n\nPlease feel free to reach out if there are any further updates or changes on the carrier side in the meantime.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)<br>\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 19 message(s)<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Risha,</p>\n<p dir=\"auto\">Thank you for the update. We have noted that the domestic mapping has been re-confirmed with the same Site ID and Product code, with Keerthi's verification. This is helpful for our technical team as they proceed with the integration.</p>\n<p dir=\"auto\">Our development team has received the full API documentation, staging credentials, product codes, and the Postman collection shared by Ashitha (covering Domestic Shipment Creation, International Shipment Creation, Tracking, and the Countries lookup). The integration is currently in active development.</p>\n<p dir=\"auto\">We are working on confirming an estimated timeline and will share it with you and the Emirates Post team as soon as it is available.</p>\n<p dir=\"auto\">Please feel free to reach out if there are any further updates or changes on the carrier side in the meantime.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+      "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\n\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 19 message(s)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Risha, \n Thank you for the update. We have noted that the domestic mapping has been re-confirmed with the same Site ID and Product code, with Keerthi's verification. This is helpful for our technical team as they proceed with the integration. \n Our development team has received the full API documentation, staging credentials, product codes, and the Postman collection shared by Ashitha (covering Domestic Shipment Creation, International Shipment Creation, Tracking, and the Countries lookup). The integration is currently in active development. \n We are working on confirming an estimated timeline and will share it with you and the Emirates Post team as soon as it is available. \n Please feel free to reach out if there are any further updates or changes on the carrier side in the meantime. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58909722876569,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-12T06:53:32Z",
+      "metadata": {
+        "system": {
+          "client": "node",
+          "ip_address": "206.189.72.35",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58912070311193,
+      "type": "Comment",
+      "author_id": 903409790923,
+      "body": "Hello Arshad & Ashitha,\n\n\n\nI have some good news for you.\n\n\n\nWe have reviewed the integration requirements internally, and our development team has provided an **ETA of 30 June 2026** **(Tuesday)** **for completing the Emirates Post integration. **\n\n\n\nOur team has already begun the implementation based on the API documentation, staging credentials, product codes, and Postman collection shared by Ashitha. We will continue to keep you updated on the progress as we move forward.\n\n\n\nPlease feel free to reach out if there are any further updates or changes on the carrier side in the meantime.\n\n\nBest Regards,\n\nAbhilash S | Digital Marketing & Partnerships\nConnect with us on LinkedIn\n\n\n\n> On 3 Jun 2026, at 12:14\u202fPM, Abhilash S <abhilash@pluginhive.com> wrote:\n>\n>\n> Hi Ashitha,\n>\n>\n> Thank you for sharing the detailed API documentation, credentials, product codes, and the Postman collection.\n>\n>\n>\n> I\u2019ll have my technical team review everything and get back to you if there are any questions or further clarifications needed.\n>\n>\n> Best Regards,\n>\n> Abhilash S | Digital Marketing & Partnerships\n> Connect with us on LinkedIn",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">Hello Arshad &amp; Ashitha,&nbsp;<div><br></div><div>I have some good news for you.&nbsp;</div><div><br></div><div>We have reviewed the integration requirements internally, and our development team has provided an <b>ETA of 30 June 2026</b> <b>(Tuesday)</b> <b>for completing the Emirates Post integration.&nbsp;</b></div><div><br></div><div>Our team has already begun the implementation based on the API documentation, staging credentials, product codes, and Postman collection shared by Ashitha. We will continue to keep you updated on the progress as we move forward.&nbsp;</div><div><br></div><div>Please feel free to reach out if there are any further updates or changes on the carrier side in the meantime.<div><br><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n<div><br><blockquote><div>On 3 Jun 2026, at 12:14\u202fPM, Abhilash S &lt;abhilash@pluginhive.com&gt; wrote:</div><br><div><div style=\"overflow-wrap: break-word; line-break: after-white-space;\">Hi Ashitha,&nbsp;<div><br></div><div>Thank you for sharing the detailed API documentation, credentials, product codes, and the Postman collection.&nbsp;</div><div><br></div><div>I\u2019ll have my technical team review everything and get back to you if there are any questions or further clarifications needed.&nbsp;<div><br><div>\n<div>Best Regards,<br><br>Abhilash S | Digital Marketing &amp;<span>&nbsp;</span>Partnerships<br>Connect with us on&nbsp;<a href=\"https://www.linkedin.com/company/Pluginhive\" rel=\"noreferrer\">LinkedIn</a></div>\n</div>\n</div></div></div></div></blockquote></div></div></div></div>",
+      "plain_body": "Hello Arshad &amp; Ashitha,&nbsp; \n  I have some good news for you.&nbsp;  \n  We have reviewed the integration requirements internally, and our development team has provided an ETA of 30 June 2026 (Tuesday) for completing the Emirates Post integration.&nbsp;  \n  Our team has already begun the implementation based on the API documentation, staging credentials, product codes, and Postman collection shared by Ashitha. We will continue to keep you updated on the progress as we move forward.&nbsp;  \n  Please feel free to reach out if there are any further updates or changes on the carrier side in the meantime. \n \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn \n \n \n  On 3 Jun 2026, at 12:14\u202fPM, Abhilash S &lt;abhilash@pluginhive.com&gt; wrote: \n  Hi Ashitha,&nbsp; \n  Thank you for sharing the detailed API documentation, credentials, product codes, and the Postman collection.&nbsp;  \n  I\u2019ll have my technical team review everything and get back to you if there are any questions or further clarifications needed.&nbsp; \n \n Best Regards,\n\nAbhilash S | Digital Marketing &amp;&nbsp;Partnerships\nConnect with us on&nbsp;LinkedIn",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58912080565145,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "abhilash@pluginhive.com",
+            "name": "Abhilash",
+            "original_recipients": [
+              "abhilash@pluginhive.com",
+              "ashitha.kudumbathara@emx.ae",
+              "arshad@deensquare.com",
+              "usman.hameed@emx.ae",
+              "vimal@pluginhive.com",
+              "veena@pluginhive.com",
+              "support@pluginhive.com",
+              "risha.kumar@emx.ae"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-12T07:55:07Z",
+      "metadata": {
+        "system": {
+          "message_id": "<1A697293-7637-4DF2-9511-4F9D28C58079@pluginhive.com>",
+          "client": "Apple Mail (2.3864.600.51.1.1)",
+          "email_id": "01KTXD7JZ6KKH7J3KA5DY7XAB0",
+          "raw_email_identifier": "2369120/c6af187f-5a59-48b4-b492-b34b7547eb48.eml",
+          "json_email_identifier": "2369120/c6af187f-5a59-48b4-b492-b34b7547eb48.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58912125287577,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 20 message(s)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Abhilash,\n\nThank you for proactively sharing the June 30, 2026 ETA with the Emirates Post team \u2014 that is noted and appreciated.\n\nWe have also seen Risha's update from earlier today confirming that the domestic mapping has been set up again with the same Site ID and Product code. That is a positive step and aligns well with the integration work already in progress.\n\nFor reference, the Postman collection covers the three core integration areas our team is working with: domestic shipment creation, international shipment creation, and the tracking API \u2014 all against the staging environment. This gives the development team a solid foundation to complete the implementation by the target date.\n\nWe will continue to monitor progress and coordinate between the teams. Please do flag any changes on the carrier side before June 30 so we can factor them in without delay.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)<br>\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 20 message(s)<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Abhilash,</p>\n<p dir=\"auto\">Thank you for proactively sharing the June 30, 2026 ETA with the Emirates Post team \u2014 that is noted and appreciated.</p>\n<p dir=\"auto\">We have also seen Risha's update from earlier today confirming that the domestic mapping has been set up again with the same Site ID and Product code. That is a positive step and aligns well with the integration work already in progress.</p>\n<p dir=\"auto\">For reference, the Postman collection covers the three core integration areas our team is working with: domestic shipment creation, international shipment creation, and the tracking API \u2014 all against the staging environment. This gives the development team a solid foundation to complete the implementation by the target date.</p>\n<p dir=\"auto\">We will continue to monitor progress and coordinate between the teams. Please do flag any changes on the carrier side before June 30 so we can factor them in without delay.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+      "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\n\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 20 message(s)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Abhilash, \n Thank you for proactively sharing the June 30, 2026 ETA with the Emirates Post team \u2014 that is noted and appreciated. \n We have also seen Risha's update from earlier today confirming that the domestic mapping has been set up again with the same Site ID and Product code. That is a positive step and aligns well with the integration work already in progress. \n For reference, the Postman collection covers the three core integration areas our team is working with: domestic shipment creation, international shipment creation, and the tracking API \u2014 all against the staging environment. This gives the development team a solid foundation to complete the implementation by the target date. \n We will continue to monitor progress and coordinate between the teams. Please do flag any changes on the carrier side before June 30 so we can factor them in without delay. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58912125287193,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-12T07:56:47Z",
+      "metadata": {
+        "system": {
+          "client": "node",
+          "ip_address": "206.189.72.35",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58912210650393,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "no action needed from support , moving to dev needed",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">no action needed from support , moving to dev needed<br></div>",
+      "plain_body": "no action needed from support , moving to dev needed",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58912210650265,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-12T08:00:09Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}
