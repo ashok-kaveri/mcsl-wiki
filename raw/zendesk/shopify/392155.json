@@ -1,0 +1,2435 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/392155.json",
+    "id": 392155,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "squait@180drinks.ca",
+          "name": "Shawn Quait"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-05-26T11:31:01Z",
+    "updated_at": "2026-06-16T20:01:19Z",
+    "generated_timestamp": 1781640079,
+    "type": "question",
+    "subject": "New Website Migration",
+    "raw_subject": "New Website Migration",
+    "description": "Hello,\nWe currently implemented the PluginHive WooCommerce Shipping Services on our staging site https://staging180drinksca.bigscoots-staging.com/\n\nWe noticed that it expires in 14 days.\n\nWhat is the best way to complete this migration?\n\nIs there anyway we can get a longer to that since we are currently paying for this on our live site 180rinks.ca?\n\n\n\nThanks in advance,\nShawn\n\n\n--\n\nShawn Quait\n\nDirector, 180drinks.ca (https://180drinks.ca/)\n\nDirect: 905.537.8806",
+    "priority": "normal",
+    "status": "closed",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 7419484161049,
+    "submitter_id": 7419484161049,
+    "assignee_id": 44512844768153,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      58306022251033,
+      8377994058265
+    ],
+    "follower_ids": [
+      58306022251033,
+      8377994058265
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "high_agent_replies",
+      "last_reply_agent",
+      "other",
+      "system_email_notification_failure",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "https://staging180drinksca.bigscoots-staging.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "offered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850806,
+    "encoded_id": "V74WWD-MN9L4",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "https://staging180drinksca.bigscoots-staging.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 58306310790937,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hello,\nWe currently implemented the PluginHive WooCommerce Shipping Services on our staging site https://staging180drinksca.bigscoots-staging.com/\n\nWe noticed that it expires in 14 days.\n\nWhat is the best way to complete this migration?\n\nIs there anyway we can get a longer to that since we are currently paying for this on our live site 180rinks.ca?\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/MJ0bUDzYWIlaHcOwZp8LPdRRg/?name=image.png)\n\n\n\n\n\nThanks in advance,\nShawn\n\n\n\n\n--\n\n**Shawn Quait**\n\n_Director, __180drinks.ca_\n\n_Direct: _905.537.8806",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello,<br>We currently implemented the PluginHive WooCommerce Shipping Services on our staging site <a href=\"https://staging180drinksca.bigscoots-staging.com/\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com/</a> <br><br>We noticed that it expires in 14 days. <br><br>What is the best way to complete this migration?<br><br>Is there anyway we can get a longer to that since we are currently paying for this on our live site <a href=\"http://180rinks.ca\" rel=\"noreferrer\">180rinks.ca</a>?<div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/MJ0bUDzYWIlaHcOwZp8LPdRRg/?name=image.png\" alt=\"image.png\" style=\"margin-right: 25px;\"></div><div><br></div><div><br></div><div>Thanks in&nbsp;advance,<br>Shawn<br><br></div><div><br></div><span>-- </span><br><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><p style=\" margin-bottom: 10px; color: rgb(88,102,110); font-size: 14px;\" dir=\"auto\"><b>Shawn Quait</b></p><p style=\" margin-bottom: 10px; color: rgb(88,102,110); font-size: 14px;\" dir=\"auto\"><i>Director,&nbsp;</i><i><a href=\"https://180drinks.ca/\" style=\"background-color: transparent; color: rgb(54,63,68);\" rel=\"noreferrer\">180drinks.ca</a></i></p><p style=\" margin-bottom: 10px; color: rgb(88,102,110); font-size: 14px;\" dir=\"auto\"><i>Direct:&nbsp;</i><a style=\"background-color: transparent; color: rgb(54,63,68);\" rel=\"noreferrer\">905.537.8806</a></p></div></div></div></div></div>",
+      "plain_body": "Hello,\nWe currently implemented the PluginHive WooCommerce Shipping Services on our staging site https://staging180drinksca.bigscoots-staging.com/ \n\nWe noticed that it expires in 14 days. \n\nWhat is the best way to complete this migration?\n\nIs there anyway we can get a longer to that since we are currently paying for this on our live site 180rinks.ca? \n    \n  \n  Thanks in&nbsp;advance,\nShawn\n\n  \n -- \n    Shawn Quait  Director,&nbsp;180drinks.ca  Direct:&nbsp;905.537.8806",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58306310790809,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T11:31:01Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwtw4vjQeYbwrMbG1aeABDJV=4C8hZy1d+WSqt2_HPSWow@mail.gmail.com>",
+          "email_id": "01KSJ0TQ9A892CJCDNHZ3T2P95",
+          "raw_email_identifier": "2369120/e8507257-13bc-48f7-9767-979d022441d9.eml",
+          "json_email_identifier": "2369120/e8507257-13bc-48f7-9767-979d022441d9.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58308461573785,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Request #392154 \"Welcome to PluginHive! We\u2019re her...\" was closed and merged into this request. Last comment in request #392154:\r\n\r\nHello staging180drinksca.bigscoots-staging.com,\r\n\r\n Greeting from PluginHive!\r\n\r\n Thank you for installing **WooCommerce Shipping Services Plugin** on https://staging180drinksca.bigscoots-staging.com\r\n\r\n Our team would like to assist you with the complete plugin onboarding.\r\n\r\n We request you let us know a suitable time for the onboarding session, which will not take more than 10 mins. Feel free to reply to this email (or) share your contact number, we will get in touch with you.\r\n\r\n You can also refer our documentation to set up the app and start shipping - click here to know more\r\n\r\n Looking forward to hearing from you.\r\n\r\n Thanks and Regards,\r\n Team PluginHive\r\nhttps://www.pluginhive.com/about/#team",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/392154\" target=\"_blank\" rel=\"ticket\">#392154</a> \"Welcome to PluginHive! We\u2019re her...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/392154\" target=\"_blank\" rel=\"ticket\">#392154</a>:</p>\n<p dir=\"auto\">Hello staging180drinksca.bigscoots-staging.com,</p>\n<p dir=\"auto\">Greeting from PluginHive!</p>\n<p dir=\"auto\">Thank you for installing <strong>WooCommerce Shipping Services Plugin</strong> on <a href=\"https://staging180drinksca.bigscoots-staging.com\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com</a></p>\n<p dir=\"auto\">Our team would like to assist you with the complete plugin onboarding.</p>\n<p dir=\"auto\">We request you let us know a suitable time for the onboarding session, which will not take more than 10 mins. Feel free to reply to this email (or) share your contact number, we will get in touch with you.</p>\n<p dir=\"auto\">You can also refer our documentation to set up the app and start shipping - click here to know more</p>\n<p dir=\"auto\">Looking forward to hearing from you.</p>\n<p dir=\"auto\">Thanks and Regards,<br>\n Team PluginHive<br>\n<a href=\"https://www.pluginhive.com/about/#team\" rel=\"noreferrer\">https://www.pluginhive.com/about/#team</a></p></div>",
+      "plain_body": "Request #392154 \"Welcome to PluginHive! We\u2019re her...\" was closed and merged into this request. Last comment in request #392154: \n Hello staging180drinksca.bigscoots-staging.com, \n Greeting from PluginHive! \n Thank you for installing WooCommerce Shipping Services Plugin on https://staging180drinksca.bigscoots-staging.com \n Our team would like to assist you with the complete plugin onboarding. \n We request you let us know a suitable time for the onboarding session, which will not take more than 10 mins. Feel free to reply to this email (or) share your contact number, we will get in touch with you. \n You can also refer our documentation to set up the app and start shipping - click here to know more \n Looking forward to hearing from you. \n Thanks and Regards,\n\n Team PluginHive\n\nhttps://www.pluginhive.com/about/#team",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58308461573657,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              392154
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-05-26T12:42:03Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58309921239065,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Ca store\nfree trial\ncanada post added\n0 orders\ndiscussed with order and replied",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Ca store&nbsp;<br>free trial<br>canada post added<br>0 orders&nbsp;<br>discussed with order and replied<br></div>",
+      "plain_body": "Ca store&nbsp;\nfree trial\ncanada post added\n0 orders&nbsp;\ndiscussed with order and replied",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58309921238937,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T13:39:26Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58310037118361,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Shawn,\n\nThank you for reaching out.\n\nCould you please let us know the reason for installing the plugin on the staging site? Is there anything specific that you would like to test or verify?\n\nPlease share a few more details about your requirements so that we can better understand your use case and assist you accordingly.\n\nLooking forward to your response.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Shawn,<br>&nbsp;<br>Thank you for reaching out.<br>&nbsp;<br>Could you please let us know the reason for installing the plugin on the staging site? Is there anything specific that you would like to test or verify?<br>&nbsp;<br>Please share a few more details about your requirements so that we can better understand your use case and assist you accordingly.<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Shawn,\n&nbsp;\nThank you for reaching out.\n&nbsp;\nCould you please let us know the reason for installing the plugin on the staging site? Is there anything specific that you would like to test or verify?\n&nbsp;\nPlease share a few more details about your requirements so that we can better understand your use case and assist you accordingly.\n&nbsp;\nLooking forward to your response.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58310037118233,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T13:41:50Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58310034967961,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hi Priyanka,\n\nWe installed it on staging to test the shipping plugin before moving it live to 180drinks.ca.\n\nSince the staging license expires in 14 days, we need to know the best way to complete the migration and if we can get an extension on that staging license since we are already paying for the live one.\n\nShawn",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Priyanka,<br><br>We installed it on staging to test the shipping plugin before moving it live to <a href=\"http://180drinks.ca\" rel=\"noreferrer\">180drinks.ca</a>.<br><br>Since the staging license expires in 14 days, we need to know the best way to complete the migration and if we can get an extension on that staging license since we are already paying for the live one.<br><br>Shawn</div><br><div></div></div>",
+      "plain_body": "Hi Priyanka,\n\nWe installed it on staging to test the shipping plugin before moving it live to 180drinks.ca.\n\nSince the staging license expires in 14 days, we need to know the best way to complete the migration and if we can get an extension on that staging license since we are already paying for the live one.\n\nShawn",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58310034967833,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T13:43:18Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwtpcAjR-1AzYKZzuBLLVgfA15YyNkW99iAB269A96huzg@mail.gmail.com>",
+          "email_id": "01KSJ8CYXBEF844Q2GDAMQYEHA",
+          "raw_email_identifier": "2369120/7c880536-cc4c-471b-b66b-993a02781986.eml",
+          "json_email_identifier": "2369120/7c880536-cc4c-471b-b66b-993a02781986.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58311639384089,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Shawn,\n\nCould you please let us know what type of migration you are referring to? Are you migrating a specific carrier setup such as FedEx, or are you referring to something else related to the shipping configuration?\n\nLooking forward to your response.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Shawn,<br>&nbsp;<br>Could you please let us know what type of migration you are referring to? Are you migrating a specific carrier setup such as FedEx, or are you referring to something else related to the shipping configuration?<br>&nbsp;<br>Looking forward to your response.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Shawn,\n&nbsp;\nCould you please let us know what type of migration you are referring to? Are you migrating a specific carrier setup such as FedEx, or are you referring to something else related to the shipping configuration?\n&nbsp;\nLooking forward to your response.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58311639383961,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-26T14:51:21Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58347108699289,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hello Pryianka,\nWe are currently a customer of the PluginHive Woocommerce Shipping Services for the website 180drinks.ca. Paid invoice attached.\n\n\n\nWe have implemented the PluginHive WooCommerce Shipping Services on our staging site here: https://staging180drinksca.bigscoots-staging.com/\n\n\n\nUsername is: dev\n\nPassword is: dev\n\n\n\nThis staging site will be migrated to 180drinks.ca\n\n\n\nDoes that make sense?\n\n\n\nSince the staging license expires in 14 days, we need to know the best way to complete the migration and if we can get an extension on that staging license since we are already paying for the live one.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\">Hello Pryianka,&nbsp;<br>We are currently a customer of the PluginHive Woocommerce Shipping Services for the website&nbsp;<a href=\"http://180drinks.ca/\" rel=\"noreferrer\">180drinks.ca</a>. Paid invoice attached.</div><div dir=\"ltr\"><br><div>We have implemented the PluginHive WooCommerce Shipping Services on our staging site here:&nbsp;<a href=\"https://staging180drinksca.bigscoots-staging.com/\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com/</a></div><div><br></div><div>Username is: dev</div><div>Password is: dev</div><div><div><br></div><div>This&nbsp;staging site will&nbsp;be migrated to&nbsp;<a href=\"http://180drinks.ca/\" rel=\"noreferrer\">180drinks.ca</a></div></div><div><br></div><div>Does that&nbsp;make sense?</div><div><br></div><div><span style=\"color: rgb(68,68,68); font-size: 12px;\">Since the staging license expires in 14 days, we need to know the best way to complete the migration and if we can get an extension on that staging license since we are already paying for the live one.</span></div><div><br></div><br></div></div><br></div>",
+      "plain_body": "Hello Pryianka,&nbsp;\nWe are currently a customer of the PluginHive Woocommerce Shipping Services for the website&nbsp;180drinks.ca. Paid invoice attached.  \n We have implemented the PluginHive WooCommerce Shipping Services on our staging site here:&nbsp;https://staging180drinksca.bigscoots-staging.com/  \n  Username is: dev  Password is: dev   \n  This&nbsp;staging site will&nbsp;be migrated to&nbsp;180drinks.ca   \n  Does that&nbsp;make sense?  \n  Since the staging license expires in 14 days, we need to know the best way to complete the migration and if we can get an extension on that staging license since we are already paying for the live one.",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58347149056281.json",
+          "id": 58347149056281,
+          "file_name": "invoice_for_May _7_2026.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/Rw1xDQfiDFvzzT004jhDx82Cr/?name=invoice_for_May+_7_2026.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/Rw1xDQfiDFvzzT004jhDx82Cr/?name=invoice_for_May+_7_2026.pdf",
+          "content_type": "application/pdf",
+          "size": 157511,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58347108699161,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T11:39:00Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwtK2bp_uD3BEARLTBp=N5xO335+i-B_woc+Rz+3J38fWg@mail.gmail.com>",
+          "email_id": "01KSMKNP4CWQ7MFXXSG8AXM9DT",
+          "raw_email_identifier": "2369120/e0d63cc7-769d-4ef2-b506-cb48fd82a04d.eml",
+          "json_email_identifier": "2369120/e0d63cc7-769d-4ef2-b506-cb48fd82a04d.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58349250502553,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Request #392357 \"Rates are not coming For New Web...\" was closed and merged into this request. Last comment in request #392357:\r\n\r\nHello,\r\nWe are currently a customer of the PluginHive Woocommerce Shipping Services for the website 180drinks.ca. Paid invoice attached.\r\n\r\n\r\n\r\nWe have implemented the PluginHive WooCommerce Shipping Services on our staging site here: https://staging180drinksca.bigscoots-staging.com/\r\n\r\n\r\n\r\nUsername is: dev\r\n\r\nPassword is: dev\r\n\r\n\r\n\r\nThis staging site will be migrated to 180drinks.ca\r\n\r\n\r\n\r\nShipping rates are not appearing at checkout. We are getting the error below.\r\n\r\n\r\n\r\nCan you please help us troubleshoot?\r\n\r\n\r\n\r\nI provided you with admin access below.\r\n\r\n\r\n\r\n**Admin URL: **https://staging180drinksca.bigscoots-staging.com/my-account/\r\n**Username:** pluginhiveadmin\r\n**Password: **YRwYfcLzAAesJjZYpBndvcC!\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n ![image.png](https://support.pluginhive.com/attachments/token/P64a93KpXsP4to1SX0gNJyDiX/?name=image.png)\r\n\r\n\r\n\r\n ![image.png](https://support.pluginhive.com/attachments/token/Yy9SCywCbdFj8weSCZ9LeLn7r/?name=image.png)\r\n\r\n\r\n\r\n--\r\n\r\n**Shawn Quait**\r\n\r\n_Director, __180drinks.ca_\r\n\r\n_Direct: _905.537.8806",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/392357\" target=\"_blank\" rel=\"ticket\">#392357</a> \"Rates are not coming For New Web...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/392357\" target=\"_blank\" rel=\"ticket\">#392357</a>:</p>\n<p dir=\"auto\">Hello,<br>\nWe are currently a customer of the PluginHive Woocommerce Shipping Services for the website 180drinks.ca. Paid invoice attached.</p>\n<p dir=\"auto\">We have implemented the PluginHive WooCommerce Shipping Services on our staging site here: <a href=\"https://staging180drinksca.bigscoots-staging.com/\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com/</a></p>\n<p dir=\"auto\">Username is: dev</p>\n<p dir=\"auto\">Password is: dev</p>\n<p dir=\"auto\">This staging site will be migrated to 180drinks.ca</p>\n<p dir=\"auto\">Shipping rates are not appearing at checkout. We are getting the error below.</p>\n<p dir=\"auto\">Can you please help us troubleshoot?</p>\n<p dir=\"auto\">I provided you with admin access below.</p>\n<p dir=\"auto\"><strong>Admin URL: **<a href=\"https://staging180drinksca.bigscoots-staging.com/my-account/\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com/my-account/</a><br>\n**Username:</strong> pluginhiveadmin<br>\n**Password: **YRwYfcLzAAesJjZYpBndvcC!</p>\n<p dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/P64a93KpXsP4to1SX0gNJyDiX/?name=image.png\" alt=\"image.png\"></p>\n<p dir=\"auto\"><img src=\"https://support.pluginhive.com/attachments/token/Yy9SCywCbdFj8weSCZ9LeLn7r/?name=image.png\" alt=\"image.png\"></p>\n<p dir=\"auto\">--</p>\n<p dir=\"auto\"><strong>Shawn Quait</strong></p>\n<p dir=\"auto\"><em>Director, __180drinks.ca</em></p>\n<p dir=\"auto\">_Direct: _905.537.8806</p></div>",
+      "plain_body": "Request #392357 \"Rates are not coming For New Web...\" was closed and merged into this request. Last comment in request #392357: \n Hello,\n\nWe are currently a customer of the PluginHive Woocommerce Shipping Services for the website 180drinks.ca. Paid invoice attached. \n We have implemented the PluginHive WooCommerce Shipping Services on our staging site here: https://staging180drinksca.bigscoots-staging.com/ \n Username is: dev \n Password is: dev \n This staging site will be migrated to 180drinks.ca \n Shipping rates are not appearing at checkout. We are getting the error below. \n Can you please help us troubleshoot? \n I provided you with admin access below. \n Admin URL: **https://staging180drinksca.bigscoots-staging.com/my-account/\n\n**Username: pluginhiveadmin\n\n**Password: **YRwYfcLzAAesJjZYpBndvcC! \n  \n  \n -- \n Shawn Quait \n Director, __180drinks.ca \n _Direct: _905.537.8806",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58349250525593.json",
+          "id": 58349250525593,
+          "file_name": "image.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/5ZP4NCbkobY8H9wpq5jz8AlFO/?name=image.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/5ZP4NCbkobY8H9wpq5jz8AlFO/?name=image.png",
+          "content_type": "image/png",
+          "size": 137850,
+          "width": 2100,
+          "height": 666,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58349250542873.json",
+              "id": 58349250542873,
+              "file_name": "image_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/sIUaRB81IAgIpzQI9YZbi0Gfx/?name=image_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/sIUaRB81IAgIpzQI9YZbi0Gfx/?name=image_thumb.png",
+              "content_type": "image/png",
+              "size": 700,
+              "width": 80,
+              "height": 25,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58349250573209.json",
+          "id": 58349250573209,
+          "file_name": "image.png",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/vGQIh0xxyS4iaYE5cnUI7ys8r/?name=image.png",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/vGQIh0xxyS4iaYE5cnUI7ys8r/?name=image.png",
+          "content_type": "image/png",
+          "size": 147951,
+          "width": 2268,
+          "height": 970,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": [
+            {
+              "url": "https://pluginhive.zendesk.com/api/v2/attachments/58349263018265.json",
+              "id": 58349263018265,
+              "file_name": "image_thumb.png",
+              "content_url": "https://pluginhive.zendesk.com/attachments/token/eHPIwAb3wLleUpYk2fPKbfLFh/?name=image_thumb.png",
+              "mapped_content_url": "https://support.pluginhive.com/attachments/token/eHPIwAb3wLleUpYk2fPKbfLFh/?name=image_thumb.png",
+              "content_type": "image/png",
+              "size": 1227,
+              "width": 80,
+              "height": 34,
+              "inline": false,
+              "deleted": false,
+              "malware_access_override": false,
+              "malware_scan_result": "not_scanned"
+            }
+          ]
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58349250602009.json",
+          "id": 58349250602009,
+          "file_name": "invoice_for_May _7_2026.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/gICGIPKqHbybrjM419KDop344/?name=invoice_for_May+_7_2026.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/gICGIPKqHbybrjM419KDop344/?name=invoice_for_May+_7_2026.pdf",
+          "content_type": "application/pdf",
+          "size": 157511,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58349262953497,
+      "via": {
+        "channel": "system",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": null,
+            "subject": null,
+            "ticket_ids": [
+              392357
+            ]
+          },
+          "rel": "merge"
+        }
+      },
+      "created_at": "2026-05-27T12:54:43Z",
+      "metadata": {
+        "system": {
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58349341463833,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "I am unable to log in using the details\nthere's been back and forth mails\nsent mail with AL",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">I am unable to log in using the details&nbsp;<br>there's been back and forth mails&nbsp;<br>sent mail with AL<br></div>",
+      "plain_body": "I am unable to log in using the details&nbsp;\nthere's been back and forth mails&nbsp;\nsent mail with AL",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58349341463705,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T12:57:27Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58349477833497,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Shawn,\n\nThank you for sharing the details.\n\nWe would like to better understand your requirements and assist you with the setup, migration process, and the checkout rates behaviour.\nHowever, I am currently unable to access the staging site using the details provided. To help resolve this quickly and review the setup properly, I would strongly recommend booking a call with us using the link below.\n\nDuring the call, we can review the setup together.\n\nPlease book a call at your convenience using the link below:\n[Book a call]\n\nLooking forward to assisting you.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Shawn,<br>&nbsp;<br>Thank you for sharing the details.<br>&nbsp;<br>We would like to better understand your requirements and assist you with the setup, migration process, and the checkout rates behaviour.<br>However, I am currently unable to access the staging site using the details provided. To help resolve this quickly and review the setup properly, I would strongly recommend booking a call with us using the link below.<br>&nbsp;<br>During the call, we can review the setup together.<br>&nbsp;<br>Please book a call at your convenience using the link below:<br>[<a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=https://staging180drinksca.bigscoots-staging.com&amp;email=squait@180drinks.ca&amp;ticket=392155&amp;key=1779886890252\">Book a call</a>]<br>&nbsp;<br>Looking forward to assisting you.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Shawn,\n&nbsp;\nThank you for sharing the details.\n&nbsp;\nWe would like to better understand your requirements and assist you with the setup, migration process, and the checkout rates behaviour.\nHowever, I am currently unable to access the staging site using the details provided. To help resolve this quickly and review the setup properly, I would strongly recommend booking a call with us using the link below.\n&nbsp;\nDuring the call, we can review the setup together.\n&nbsp;\nPlease book a call at your convenience using the link below:\n[Book a call]\n&nbsp;\nLooking forward to assisting you.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58349477833369,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T13:02:52Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58349734805785,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: Shawn Quait\nEmail: squait@180drinks.ca\nPhone Number: 9055378806\nStore URL: https://staging180drinksca.bigscoots-staging.com\nDate & Time: May 29, 2026 07:15 am (America/Toronto -04:00)\n\nPluginHive Date & Time: May 29, 2026 4:45 pm",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Appointment Scheduled with PluginHive Support</p>\n<p dir=\"auto\">Customer Details:<br>\nName: Shawn Quait<br>\nEmail: <a href=\"mailto:squait@180drinks.ca\" rel=\"noreferrer\">squait@180drinks.ca</a><br>\nPhone Number: 9055378806<br>\nStore URL: <a href=\"https://staging180drinksca.bigscoots-staging.com\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com</a><br>\nDate &amp; Time: May 29, 2026 07:15 am (America/Toronto -04:00)</p>\n<p dir=\"auto\">PluginHive Date &amp; Time: May 29, 2026 4:45 pm</p></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support \n Customer Details:\n\nName: Shawn Quait\n\nEmail: squait@180drinks.ca\n\nPhone Number: 9055378806\n\nStore URL: https://staging180drinksca.bigscoots-staging.com\n\nDate &amp; Time: May 29, 2026 07:15 am (America/Toronto -04:00) \n PluginHive Date &amp; Time: May 29, 2026 4:45 pm",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58349734805657,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T13:11:54Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/7.0; https://appointments.pluginhive.com",
+          "ip_address": "159.89.131.157",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58349788528153,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hi  Priyanka,\nI booked a time on Friday.\n\n\nChat soon,\nShawn",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi&nbsp;\n\n<span style=\"color: rgb(43,46,47); font-size: 12px;\">Priyanka,</span><div><font color=\"#2b2e2f\"><span style=\"font-size: 12px;\">I booked a time on Friday.</span></font></div><div><font color=\"#2b2e2f\"><span style=\"font-size: 12px;\"><br>Chat soon,<br>Shawn</span></font></div><div><div style=\"box-sizing: inherit; clear: both; color: rgb(75,79,88); font-size: 15px;\"><div style=\"box-sizing: inherit; margin-bottom: 0px; max-width: 1200px; margin-left: auto; margin-right: auto;\"><div style=\"box-sizing: inherit;\"></div></div></div></div></div><br><div></div></div>",
+      "plain_body": "Hi&nbsp;\n\nPriyanka, I booked a time on Friday.  \nChat soon,\nShawn",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58349788528025,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-27T13:13:42Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxws-t9sB+hmUWgs0ruaZ1Jio6Mde4iiT4zk4-ukAyKwqyw@mail.gmail.com>",
+          "email_id": "01KSMS3G3D4J1M3MH0ANJX05ZB",
+          "raw_email_identifier": "2369120/91ccb302-bc62-45bd-ba1e-a1b9605af4ed.eml",
+          "json_email_identifier": "2369120/91ccb302-bc62-45bd-ba1e-a1b9605af4ed.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58424561233945,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Shawn,\n\nI am Priyanka from PluginHive, and we have a meeting scheduled at 07:15 am (America/Toronto -04:00) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n\nMeeting Link:\n\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/71782977656?pwd=0JTDzVC9ndgRzPsNvy94GlwTDzDjY0.1\n\nMeeting chat link\nhttps://us04web.zoom.us/launch/jc/71782977656\n\nMeeting ID: 717 8297 7656\nPasscode: 7UtKm2\n\nNOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.\n\nPrerequisites:\nEnsure that your system has a working microphone.\nPermissions to share the screen\n\nRegards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn,<br>&nbsp;<br>I am Priyanka from PluginHive, and we have a meeting scheduled at 07:15 am (America/Toronto -04:00) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.<br>&nbsp;<br>Meeting Link:<br>&nbsp;<br>Join Zoom Meeting<br><a rel=\"noopener noreferrer\" href=\"https://us04web.zoom.us/j/71782977656?pwd=0JTDzVC9ndgRzPsNvy94GlwTDzDjY0.1\">https://us04web.zoom.us/j/71782977656?pwd=0JTDzVC9ndgRzPsNvy94GlwTDzDjY0.1</a><br>&nbsp;<br>Meeting chat link<br><a rel=\"noopener noreferrer\" href=\"https://us04web.zoom.us/launch/jc/71782977656\">https://us04web.zoom.us/launch/jc/71782977656</a><br>&nbsp;<br>Meeting ID: 717 8297 7656<br>Passcode: 7UtKm2<br>&nbsp;<br>NOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.<br>&nbsp;<br>Prerequisites:<br>Ensure that your system has a working microphone.<br>Permissions to share the screen<br>&nbsp;<br>Regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn,\n&nbsp;\nI am Priyanka from PluginHive, and we have a meeting scheduled at 07:15 am (America/Toronto -04:00) today. I am sharing the Zoom Invite below. Kindly confirm once you have joined.\n&nbsp;\nMeeting Link:\n&nbsp;\nJoin Zoom Meeting\nhttps://us04web.zoom.us/j/71782977656?pwd=0JTDzVC9ndgRzPsNvy94GlwTDzDjY0.1\n&nbsp;\nMeeting chat link\nhttps://us04web.zoom.us/launch/jc/71782977656\n&nbsp;\nMeeting ID: 717 8297 7656\nPasscode: 7UtKm2\n&nbsp;\nNOTE: The meeting is scheduled for 30 minutes. Please be present on the call as scheduled; extending the call or making delayed calls is not encouraged due to prior commitments.\n&nbsp;\nPrerequisites:\nEnsure that your system has a working microphone.\nPermissions to share the screen\n&nbsp;\nRegards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58424561233817,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T11:10:13Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58424573350553,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hello Priyanka,\nWhere do I join for our meeting today at 7:15am?\n\nWill you be calling me?\n\n\n\nI also have a google meet here if its easier for you to join:\n\nAppointment With Pluginhive Re Checkout Rates\nFriday, May 29 \u00b7 7:15 \u2013 8:15am\nTime zone: America/Toronto\nGoogle Meet joining info\nVideo call link: https://meet.google.com/jqn-auss-cdh\nOr dial: \u202a(CA) +1 613-778-1443\u202c PIN: \u202a710 520 248\u202c#\nMore phone numbers: https://tel.meet/jqn-auss-cdh?pin=4583436728591\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/2V14veFaiL7gd8jjunxKCZ7rW/?name=image.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Hello Priyanka,&nbsp;<br>Where do I join for our meeting today at 7:15am?<br><br>Will you be calling me?</div><div><br></div><div>I also have a google meet here if its easier for you to join:&nbsp;</div><div>Appointment With Pluginhive Re Checkout Rates</div>Friday, May 29 \u00b7 7:15 \u2013 8:15am<br>Time zone: America/Toronto<br>Google Meet joining info<br>Video call link: <a href=\"https://meet.google.com/jqn-auss-cdh\" rel=\"noreferrer\">https://meet.google.com/jqn-auss-cdh</a><br>Or dial: \u202a(CA) +1 613-778-1443\u202c PIN: \u202a710 520 248\u202c#<br>More phone numbers: <a href=\"https://tel.meet/jqn-auss-cdh?pin=4583436728591\" rel=\"noreferrer\">https://tel.meet/jqn-auss-cdh?pin=4583436728591</a><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/2V14veFaiL7gd8jjunxKCZ7rW/?name=image.png\" alt=\"image.png\" style=\"margin-right: 0px;\"><br></div></div><br></div>",
+      "plain_body": "Hello Priyanka,&nbsp;\nWhere do I join for our meeting today at 7:15am?\n\nWill you be calling me?  \n  I also have a google meet here if its easier for you to join:&nbsp;  Appointment With Pluginhive Re Checkout Rates Friday, May 29 \u00b7 7:15 \u2013 8:15am\nTime zone: America/Toronto\nGoogle Meet joining info\nVideo call link: https://meet.google.com/jqn-auss-cdh\nOr dial: \u202a(CA) +1 613-778-1443\u202c PIN: \u202a710 520 248\u202c#\nMore phone numbers: https://tel.meet/jqn-auss-cdh?pin=4583436728591",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58424573350425,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T11:10:33Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwu0gwFx=K2fALvDF4aC4t1MT5Vu9+xYFgFNoXk4upBOqw@mail.gmail.com>",
+          "email_id": "01KSSPVDEE69GB93F8CW6ZDD1Y",
+          "raw_email_identifier": "2369120/7e75c6a1-e4e7-4b24-a8c4-c6a82e2ecc36.eml",
+          "json_email_identifier": "2369120/7e75c6a1-e4e7-4b24-a8c4-c6a82e2ecc36.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58424777692441,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hi Priyanka,\nI have joined the meeting.",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Priyanka,<br>I have joined the meeting.&nbsp;</div><br><div></div></div>",
+      "plain_body": "Hi Priyanka,\nI have joined the meeting.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58424774231961,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T11:18:01Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwsD8u-ejWj4FgQW+vAYgJ0hYuTvXZ6Kr=zbM64qnc4TNw@mail.gmail.com>",
+          "email_id": "01KSSQ935ZEGAH0ATJQT57MARK",
+          "raw_email_identifier": "2369120/71684d6f-bec3-40d1-939b-70a073d21480.eml",
+          "json_email_identifier": "2369120/71684d6f-bec3-40d1-939b-70a073d21480.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58425719723673,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "\n\nUsername is: dev\n\nPassword is: dev\n\n\n\n**Admin URL: **https://staging180drinksca.bigscoots-staging.com/my-account/\n**Username: **pluginhiveadmin\n**Password: **YRwYfcLzAAesJjZYpBndvcC!",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><br><div><div style=\"color: rgb(68,68,68); font-size: 12px;\">Username is: dev</div><div style=\"color: rgb(68,68,68); font-size: 12px;\">Password is: dev</div></div><div><br></div><div><div><strong style=\" font-size: 12px; color: rgb(43,46,47);\">Admin&nbsp;URL:&nbsp;</strong><a href=\"https://staging180drinksca.bigscoots-staging.com/my-account/\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com/my-account/</a><br style=\" font-size: 12px; color: rgb(43,46,47);\"><strong style=\" font-size: 12px; color: rgb(43,46,47);\">Username:&nbsp;</strong><span style=\" font-size: 12px; color: rgb(43,46,47);\">pluginhiveadmin</span><br style=\" font-size: 12px; color: rgb(43,46,47);\"><strong style=\" font-size: 12px; color: rgb(43,46,47);\">Password:&nbsp;</strong>YRwYfcLzAAesJjZYpBndvcC!<br></div><br></div></div><br></div>",
+      "plain_body": "Username is: dev  Password is: dev   \n   Admin&nbsp;URL:&nbsp;https://staging180drinksca.bigscoots-staging.com/my-account/ Username:&nbsp;pluginhiveadmin Password:&nbsp;YRwYfcLzAAesJjZYpBndvcC!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58425728759193,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T11:54:31Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwvJnS8r-etbK6rNjuayFXhvSuyebJji19HhG=wCZYozOQ@mail.gmail.com>",
+          "email_id": "01KSSSBYANR472W1NKM8H2DJE5",
+          "raw_email_identifier": "2369120/29cacf56-8443-46e7-9b28-d61c2c1ca881.eml",
+          "json_email_identifier": "2369120/29cacf56-8443-46e7-9b28-d61c2c1ca881.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58426092857625,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hello Shawn,\n\nThank you so much for your time over the call.\n\nPlease allow me sometime to check this with my team and update you.\n\nIf you have any questions or need further assistance, please feel free to reach out to us anytime \u2014we\u2019re happy to help.\n\nWishing you a great day ahead!\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn,<br>&nbsp;<br>Thank you so much for your time over the call.<br>&nbsp;<br>Please allow me sometime to check this with my team and update you.&nbsp;<br>&nbsp;<br>If you have any questions or need further assistance, please feel free to reach out to us anytime \u2014we\u2019re happy to help.<br>&nbsp;<br>Wishing you a great day ahead!<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn,\n&nbsp;\nThank you so much for your time over the call.\n&nbsp;\nPlease allow me sometime to check this with my team and update you.&nbsp;\n&nbsp;\nIf you have any questions or need further assistance, please feel free to reach out to us anytime \u2014we\u2019re happy to help.\n&nbsp;\nWishing you a great day ahead!\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58426092857497,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T12:06:37Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58426135882905,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Call summary : Customer has staging site and has set up shipping plugin so they can test everything before making the website live.\nCustomer ships within domestic and wants to show rates based on shipping class as well. Customer has added canada post. However the products are not getting imported in the app. We tried manually import and sync webhooks but webhooks are not synced\nRaisning l3 for this\nmail sent to customer\nOne more call might be needed once the product import issue is resolved",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Call summary : Customer has staging site and has set up shipping plugin so they can test everything before making the website live.&nbsp;<br>Customer ships within domestic and wants to show rates based on shipping class as well. Customer has added canada post. However the products are not getting imported in the app. We tried manually import and sync webhooks but webhooks are not synced&nbsp;<br>Raisning l3 for this&nbsp;<br>mail sent to customer<br>One more call might be needed once the product import issue is resolved<br></div>",
+      "plain_body": "Call summary : Customer has staging site and has set up shipping plugin so they can test everything before making the website live.&nbsp;\nCustomer ships within domestic and wants to show rates based on shipping class as well. Customer has added canada post. However the products are not getting imported in the app. We tried manually import and sync webhooks but webhooks are not synced&nbsp;\nRaisning l3 for this&nbsp;\nmail sent to customer\nOne more call might be needed once the product import issue is resolved",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58426135882649,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T12:08:50Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58426536497305,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1780057556989929\n\nWooCommerce products are not being imported into WSS, which is further causing failures in rate calculation. This is a staging site.\n\nTroubleshooting done from our end:\n- Checked the WSS Debugger and observed that the webhooks are deleted\n- Tried re-syncing/re-subscribing the webhooks, but the process failed\n- Manually imported the products for testing\n\n\n\nCould you please check and help identify the reason why the WooCommerce products are not getting imported into WSS?\nThe customer has already provided access details.\n\nRequesting your assistance in checking this further and helping restore the product import.\n\nStore URL : https://staging180drinksca.bigscoots-staging.com\nAcID: 9f18b55a-87e4-4d24-8474-5916eb8653d1\n\nFirst page:\nUsername is: dev\nPassword is: dev\n\nAdmin URL: https://staging180drinksca.bigscoots-staging.com/my-account/\nUsername: pluginhiveadmin\nPassword: YRwYfcLzAAesJjZYpBndvcC!",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1780057556989929\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1780057556989929</a><br><br>WooCommerce products are not being imported into WSS, which is further causing failures in rate calculation. This is a staging site.<br><br>Troubleshooting done from our end:<br><ul dir=\"auto\"><li>Checked the WSS Debugger and observed that the webhooks are deleted</li><li>Tried re-syncing/re-subscribing the webhooks, but the process failed</li><li>Manually imported the products for testing</li></ul><br><br>Could you please check and help identify the reason why the WooCommerce products are not getting imported into WSS?<br>The customer has already provided access details.<br><br>Requesting your assistance in checking this further and helping restore the product import.<br><br>Store URL : <a rel=\"noopener noreferrer\" href=\"https://staging180drinksca.bigscoots-staging.com\">https://staging180drinksca.bigscoots-staging.com</a><br>AcID: 9f18b55a-87e4-4d24-8474-5916eb8653d1<br>&nbsp;<br>First page:<br>Username is: dev<br>Password is: dev<br>&nbsp;<br>Admin URL: <a rel=\"noopener noreferrer\" href=\"https://staging180drinksca.bigscoots-staging.com/my-account/\">https://staging180drinksca.bigscoots-staging.com/my-account/</a><br>Username: pluginhiveadmin<br>Password: YRwYfcLzAAesJjZYpBndvcC!<br></div>",
+      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1780057556989929\n\nWooCommerce products are not being imported into WSS, which is further causing failures in rate calculation. This is a staging site.\n\nTroubleshooting done from our end:\n  Checked the WSS Debugger and observed that the webhooks are deleted  Tried re-syncing/re-subscribing the webhooks, but the process failed  Manually imported the products for testing  \n\nCould you please check and help identify the reason why the WooCommerce products are not getting imported into WSS?\nThe customer has already provided access details.\n\nRequesting your assistance in checking this further and helping restore the product import.\n\nStore URL : https://staging180drinksca.bigscoots-staging.com\nAcID: 9f18b55a-87e4-4d24-8474-5916eb8653d1\n&nbsp;\nFirst page:\nUsername is: dev\nPassword is: dev\n&nbsp;\nAdmin URL: https://staging180drinksca.bigscoots-staging.com/my-account/\nUsername: pluginhiveadmin\nPassword: YRwYfcLzAAesJjZYpBndvcC!",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58426536497177,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T12:27:10Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58426768906905,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "2 issues here:\n1. Merchant's site has basic authentication and the same was not added in app. Now I have updated it.\n2. Merchant needs to update the plugin to latest release. Kindly help them to register with latest version.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">2 issues here:<br><ol dir=\"auto\"><li>Merchant's site has basic authentication and the same was not added in app. Now I have updated it.</li><li>Merchant needs to update the plugin to latest release. Kindly help them to register with latest version.<br>[Veena]</li></ol></div>",
+      "plain_body": "2 issues here:\n  Merchant's site has basic authentication and the same was not added in app. Now I have updated it.  Merchant needs to update the plugin to latest release. Kindly help them to register with latest version.\n[Veena]",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58426783858585.json",
+          "id": 58426783858585,
+          "file_name": "pluginhive-woocommerce-shipping-services (10).zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/7YdJF8LBbGl7IriKqcdJHddN3/?name=pluginhive-woocommerce-shipping-services+%2810%29.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/7YdJF8LBbGl7IriKqcdJHddN3/?name=pluginhive-woocommerce-shipping-services+%2810%29.zip",
+          "content_type": "application/zip",
+          "size": 1270454,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "failed_to_scan",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58426768906777,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T12:37:10Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58430488507801,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Shawn Quait,\n\nThank you for your patience.\n\nUpon checking your case, we observed the following -\n- Your site is enabled with Basic Authentication and the same was added in the plugin. This has been updated now from our end.\n- You are currently using a outdated version of the plugin. Please update the plugin using the attached zip file to the latest version.\n\n\nOnce done, please try initiating the product import in the plugin manually and let us know how it goes.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn Quait,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Upon checking your case, we observed the following -&nbsp;<br><ul dir=\"auto\"><li>Your site is enabled with Basic Authentication and the same was added in the plugin. This has been updated now from our end.</li><li>You are currently using a outdated version of the plugin. Please update the plugin using the attached zip file to the latest version.</li></ul>&nbsp;<br>Once done, please try initiating the product import in the plugin manually and let us know how it goes.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn Quait,\n&nbsp;\nThank you for your patience.\n&nbsp;\nUpon checking your case, we observed the following -&nbsp;\n  Your site is enabled with Basic Authentication and the same was added in the plugin. This has been updated now from our end.  You are currently using a outdated version of the plugin. Please update the plugin using the attached zip file to the latest version.  &nbsp;\nOnce done, please try initiating the product import in the plugin manually and let us know how it goes.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58430434024217.json",
+          "id": 58430434024217,
+          "file_name": "pluginhive-woocommerce-shipping-services (10).zip",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/UpRFB49bVPaM7PU8ee1IKWABk/?name=pluginhive-woocommerce-shipping-services+%2810%29.zip",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/UpRFB49bVPaM7PU8ee1IKWABk/?name=pluginhive-woocommerce-shipping-services+%2810%29.zip",
+          "content_type": "application/zip",
+          "size": 1270454,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "failed_to_scan",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58430488507673,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T15:54:54Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Kanpur, UP, India",
+          "latitude": 26.4631,
+          "longitude": 80.3479
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58430718242969,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hi Touseef,\nThe products are still not coming after the import. We are also still getting a null WP-JSON response: Null. It says: \"Please check the Response and contact PluginHive Support Team in case the response is \"Failure\" Screenshot below.\n\n\n\nCan you please check this?\n\n\n\nLogin to site: https://staging180drinksca.bigscoots-staging.com\n\nUsername is: dev\n\nPassword is: dev\n\n\n\n**Admin URL: **https://staging180drinksca.bigscoots-staging.com/my-account/\n**Username: **pluginhiveadmin\n**Password: **YRwYfcLzAAesJjZYpBndvcC!\n\n\n\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/WD4edv72sXb37DmNvqKRbKVka/?name=image.png)\n\n ![image.png](https://support.pluginhive.com/attachments/token/xMuAzQBkw1dAkokWMkwc5cRvk/?name=image.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\">Hi&nbsp;Touseef,<div>The products are still not coming after the import. We are also still getting a null WP-JSON response: Null. It says: \"<span style=\"color: rgb(29,35,39); font-size: 15.4px;\">Please check the Response and contact PluginHive Support Team in case the response is \"Failure\" Screenshot below.&nbsp;</span></div><div><span style=\"color: rgb(29,35,39); font-size: 15.4px;\"><br></span></div><div><span style=\"color: rgb(29,35,39); font-size: 15.4px;\">Can you please check this?</span></div><div><br></div><div><font color=\"#1d2327\"><span style=\"font-size: 15.4px;\">Login to site:&nbsp;</span></font><a href=\"https://staging180drinksca.bigscoots-staging.com\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com</a></div><div><span><div><div style=\"color: rgb(68,68,68); font-size: 12px;\">Username is: dev</div><div style=\"color: rgb(68,68,68); font-size: 12px;\">Password is: dev</div></div><div><br></div></span><div><div><strong style=\" font-size: 12px; color: rgb(43,46,47);\">Admin&nbsp;URL:&nbsp;</strong><a href=\"https://staging180drinksca.bigscoots-staging.com/my-account/\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com/my-account/</a><br style=\" font-size: 12px; color: rgb(43,46,47);\"><strong style=\" font-size: 12px; color: rgb(43,46,47);\">Username:&nbsp;</strong><span style=\" font-size: 12px; color: rgb(43,46,47);\">pluginhiveadmin</span><br style=\" font-size: 12px; color: rgb(43,46,47);\"><strong style=\" font-size: 12px; color: rgb(43,46,47);\">Password:&nbsp;</strong>YRwYfcLzAAesJjZYpBndvcC!</div></div></div><div><span style=\"color: rgb(29,35,39); font-size: 15.4px;\"><br></span></div><div><br><div><img src=\"https://support.pluginhive.com/attachments/token/WD4edv72sXb37DmNvqKRbKVka/?name=image.png\" alt=\"image.png\" style=\"margin-right: 25px;\"><br></div><img src=\"https://support.pluginhive.com/attachments/token/xMuAzQBkw1dAkokWMkwc5cRvk/?name=image.png\" alt=\"image.png\" style=\"margin-right: 25px;\"><br></div></div><br>\n</div></div>",
+      "plain_body": "Hi&nbsp;Touseef, The products are still not coming after the import. We are also still getting a null WP-JSON response: Null. It says: \"Please check the Response and contact PluginHive Support Team in case the response is \"Failure\" Screenshot below.&nbsp;  \n  Can you please check this?  \n  Login to site:&nbsp;https://staging180drinksca.bigscoots-staging.com    Username is: dev  Password is: dev   \n   Admin&nbsp;URL:&nbsp;https://staging180drinksca.bigscoots-staging.com/my-account/ Username:&nbsp;pluginhiveadmin Password:&nbsp;YRwYfcLzAAesJjZYpBndvcC!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58430718242841,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com",
+              "monojitdas1987@gmail.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T16:11:32Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwufE75X2W4rTrcCqe8KpNwswmrcfyvxWF1PqwXVC15OvQ@mail.gmail.com>",
+          "email_id": "01KST82EWFQ2JK86X702YSYPBQ",
+          "raw_email_identifier": "2369120/5f7278de-1294-4f04-a7be-76663743ee2d.eml",
+          "json_email_identifier": "2369120/5f7278de-1294-4f04-a7be-76663743ee2d.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58431444811289,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Shawn Quait,\n\nThank you for your response.\n\nPlease allow us some time to check your case further.\n\nWe will update you as soon as possible.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn Quait,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Please allow us some time to check your case further.<br>&nbsp;<br>We will update you as soon as possible.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn Quait,\n&nbsp;\nThank you for your response.\n&nbsp;\nPlease allow us some time to check your case further.\n&nbsp;\nWe will update you as soon as possible.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58431444811161,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T17:05:07Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Kanpur, UP, India",
+          "latitude": 26.4631,
+          "longitude": 80.3479
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58431447099545,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Back to L3:\n\nCustomer has updated the plugin to the latest version 2.1.8\nHowever, the products are still not syncing.\nPlease check the case further.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Back to L3:<br>&nbsp;<br>Customer has updated the plugin to the latest version 2.1.8<br>However, the products are still not syncing.<br>Please check the case further.<br></div>",
+      "plain_body": "Back to L3:\n&nbsp;\nCustomer has updated the plugin to the latest version 2.1.8\nHowever, the products are still not syncing.\nPlease check the case further.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58431447099289,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T17:05:52Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Kanpur, UP, India",
+          "latitude": 26.4631,
+          "longitude": 80.3479
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58431491281561,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "https://pluginhive.slack.com/archives/C02E15X8X0C/p1780074454607829?thread_ts=1780057556.989929&cid=C02E15X8X0C",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1780074454607829?thread_ts=1780057556.989929&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1780074454607829?thread_ts=1780057556.989929&amp;cid=C02E15X8X0C</a><br></div>",
+      "plain_body": "https://pluginhive.slack.com/archives/C02E15X8X0C/p1780074454607829?thread_ts=1780057556.989929&amp;cid=C02E15X8X0C",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58431491281433,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-05-29T17:07:43Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Kanpur, UP, India",
+          "latitude": 26.4631,
+          "longitude": 80.3479
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58498242812185,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "The API requests are getting blocked, kindly ask the merchant to whitelist the below Ip addresses.\n\n- 159.89.150.142\n- 165.227.28.252\n- 138.68.13.182\n- 165.227.48.244\n- 157.245.169.250\n\n\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">The API requests are getting blocked, kindly ask the merchant to whitelist the below Ip addresses.<br>&nbsp;<br><ul dir=\"auto\"><li>159.89.150.142</li><li>165.227.28.252</li><li>138.68.13.182</li><li>165.227.48.244</li><li>157.245.169.250<br><br><br>[Veena]<br><br>&nbsp;</li></ul></div>",
+      "plain_body": "The API requests are getting blocked, kindly ask the merchant to whitelist the below Ip addresses.\n&nbsp;\n  159.89.150.142  165.227.28.252  138.68.13.182  165.227.48.244  157.245.169.250\n\n\n[Veena]\n\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58498242812057,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T05:27:26Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58501911351449,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Shawn,\n\nGood day!\n\nOur team could not proceed to check the case further as the API requests sent by the plugin are getting blocked. So, could you whitelist the below shared IP Addresses and let us know once done?\n\n- 159.89.150.142\n- 165.227.28.252\n- 138.68.13.182\n- 165.227.48.244\n- 157.245.169.250\n\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn,<br>&nbsp;<br>Good day!<br><br>Our team could not proceed to check the case further as the API requests sent by the plugin are getting blocked. So, could you whitelist the below shared IP Addresses and let us know once done?<br>&nbsp;<br><ul dir=\"auto\"><li>159.89.150.142</li><li>165.227.28.252</li><li>138.68.13.182</li><li>165.227.48.244</li><li>157.245.169.250<br>&nbsp;</li></ul>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Shawn,\n&nbsp;\nGood day!\n\nOur team could not proceed to check the case further as the API requests sent by the plugin are getting blocked. So, could you whitelist the below shared IP Addresses and let us know once done?\n&nbsp;\n  159.89.150.142  165.227.28.252  138.68.13.182  165.227.48.244  157.245.169.250\n&nbsp;  Best regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58501911351321,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T07:01:52Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58511560363417,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hi Sagar,\n\nMt hosting company is asking the below.\n\nCan you please let me know the answer to their questions?\n\n\n\nHi there Shawn,\n\nCan you please let me know what is the error message they were seeing for the requests? Just wanted to check if this was a WAF error that you were seeing, as I am not able to locate these IP\u2019s on the WAF logs so far.\n\nAlso can you check with them if these IP\u2019s are static IP\u2019s that the service does use?\n\n\n- Prasul\n\n\n\n\n\n\n\n**Shawn Quait**\n\n_Director, __180drinks.ca_\n\n_Direct: _905.537.8806\n\n**Want to have a call?** **Schedule a call now**\n\nFollow us on Instagram",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\"><div>Hi Sagar,</div><div dir=\"auto\">Mt hosting company is asking the below.</div><div dir=\"auto\">Can you please let me know the answer to their questions?</div><div dir=\"auto\"><br></div><div dir=\"auto\"><span style=\"font-size: 12.8px; background-color: rgb(19,13,11);\">Hi there Shawn,</span><br style=\"font-size: 12.8px; background-color: rgb(19,13,11);\"><br style=\"font-size: 12.8px; background-color: rgb(19,13,11);\"><span style=\"font-size: 12.8px; background-color: rgb(19,13,11);\">Can you please let me know what is the error message they were seeing for the requests? Just wanted to check if this was a WAF error that you were seeing, as I am not able to locate these IP\u2019s on the WAF logs so far.</span><br style=\"font-size: 12.8px; background-color: rgb(19,13,11);\"><br style=\"font-size: 12.8px; background-color: rgb(19,13,11);\"><span style=\"font-size: 12.8px; background-color: rgb(19,13,11);\">Also can you check with them if these IP\u2019s are static IP\u2019s that the service does use?</span><div style=\"font-size: 12.8px; background-color: rgb(19,13,11);\" dir=\"auto\"><br><br>- Prasul</div></div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div><br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><p style=\" margin-bottom: 10px; color: rgb(88,102,110); font-size: 14px;\" dir=\"auto\"><b>Shawn Quait</b></p><p style=\" margin-bottom: 10px; color: rgb(88,102,110); font-size: 14px;\" dir=\"auto\"><i>Director,&nbsp;</i><i><a href=\"https://180drinks.ca/\" style=\"background-color: transparent; color: rgb(54,63,68);\" rel=\"noreferrer\">180drinks.ca</a></i></p><p style=\" margin-bottom: 10px; color: rgb(88,102,110); font-size: 14px;\" dir=\"auto\"><i>Direct:&nbsp;</i><a style=\"background-color: transparent; color: rgb(54,63,68);\" rel=\"noreferrer\">905.537.8806</a></p><strong style=\" color: rgb(88,102,110); font-size: 14px;\">Want to have a call? </strong><strong style=\" font-size: 14px;\"><font color=\"#0000ff\"><u><a href=\"https://booknow.180drinks.ca\" rel=\"noreferrer\">Schedule a call now</a></u></font></strong><p style=\" color: rgb(88,102,110); font-size: 14px; margin: 0px 0px 10px;\" dir=\"auto\"></p><p style=\" color: rgb(88,102,110); font-size: 14px; margin: 0px 0px 10px;\" dir=\"auto\"><a href=\"https://www.instagram.com/180drinks\" style=\"background-color: transparent; color: rgb(54,63,68);\" rel=\"noreferrer\"><font color=\"#0000ff\" style=\"background-color: inherit;\"><u>Follow us on Instagram</u></font></a>&nbsp;</p></div></div></div></div><br><div></div></div>",
+      "plain_body": "Hi Sagar,  Mt hosting company is asking the below.  Can you please let me know the answer to their questions?  \n  Hi there Shawn,  Can you please let me know what is the error message they were seeing for the requests? Just wanted to check if this was a WAF error that you were seeing, as I am not able to locate these IP\u2019s on the WAF logs so far.  Also can you check with them if these IP\u2019s are static IP\u2019s that the service does use? \n\n- Prasul   \n  \n  \n     Shawn Quait  Director,&nbsp;180drinks.ca  Direct:&nbsp;905.537.8806 Want to have a call? Schedule a call now  Follow us on Instagram&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58511560363289,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T11:43:52Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwtdi=oZKjOUT+CW=icrCNwxY0Y_dEZSsXCRTt-VWJiFsw@mail.gmail.com>",
+          "email_id": "01KT1FYJGMW1C92RVY44AWRRB5",
+          "raw_email_identifier": "2369120/fc895374-a572-4f82-ad6b-81fc3b7b7b87.eml",
+          "json_email_identifier": "2369120/fc895374-a572-4f82-ad6b-81fc3b7b7b87.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58514261085593,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hi there Shawn,\n\nCan you please let me know what is the error message they were seeing for the requests? Just wanted to check if this was a WAF error that you were seeing, as I am not able to locate these IP\u2019s on the WAF logs so far.\n\nAlso can you check with them if these IP\u2019s are static IP\u2019s that the service does use?\n\n- Prasul",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi there Shawn,<br>&nbsp;<br>Can you please let me know what is the error message they were seeing for the requests? Just wanted to check if this was a WAF error that you were seeing, as I am not able to locate these IP\u2019s on the WAF logs so far.<br>&nbsp;<br>Also can you check with them if these IP\u2019s are static IP\u2019s that the service does use?<br>&nbsp;<br>- Prasul<br></div>",
+      "plain_body": "Hi there Shawn,\n&nbsp;\nCan you please let me know what is the error message they were seeing for the requests? Just wanted to check if this was a WAF error that you were seeing, as I am not able to locate these IP\u2019s on the WAF logs so far.\n&nbsp;\nAlso can you check with them if these IP\u2019s are static IP\u2019s that the service does use?\n&nbsp;\n- Prasul",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58514269865113,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T13:42:09Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58514263093657,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Shawn Quait,\n\nThank you for your response.\n\nPlease allow us some time to forward your query to our techincal team for feedback.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn Quait,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Please allow us some time to forward your query to our techincal team for feedback.<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn Quait,\n&nbsp;\nThank you for your response.\n&nbsp;\nPlease allow us some time to forward your query to our techincal team for feedback.\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58514263093529,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T13:42:47Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58514350285977,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1780321474255569?thread_ts=1780057556.989929&cid=C02E15X8X0C\n\nCustomer has replied with the following question from his hosting company. Please check and let us know what can be responded.\n\n_Can you please let me know what is the error message they were seeing for the requests? Just wanted to check if this was a WAF error that you were seeing, as I am not able to locate these IP\u2019s on the WAF logs so far._\n_Also can you check with them if these IP\u2019s are static IP\u2019s that the service does use?_",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Back to L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1780321474255569?thread_ts=1780057556.989929&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1780321474255569?thread_ts=1780057556.989929&amp;cid=C02E15X8X0C</a><br>&nbsp;<br>Customer has replied with the following question from his hosting company. Please check and let us know what can be responded.<br><br><i>Can you please let me know what is the error message they were seeing for the requests? Just wanted to check if this was a WAF error that you were seeing, as I am not able to locate these IP\u2019s on the WAF logs so far.</i><br><i>Also can you check with them if these IP\u2019s are static IP\u2019s that the service does use?</i><br>&nbsp;<br>&nbsp;<br></div>",
+      "plain_body": "Back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1780321474255569?thread_ts=1780057556.989929&amp;cid=C02E15X8X0C\n&nbsp;\nCustomer has replied with the following question from his hosting company. Please check and let us know what can be responded.\n\nCan you please let me know what is the error message they were seeing for the requests? Just wanted to check if this was a WAF error that you were seeing, as I am not able to locate these IP\u2019s on the WAF logs so far.\nAlso can you check with them if these IP\u2019s are static IP\u2019s that the service does use?\n&nbsp;\n&nbsp;",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58514350285849,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T13:44:41Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58514395874969,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hi Sagar,\nThanks. I see the text was blacked out for some reason in the last email.\n\n\n\nBelow is the query from the hosting company.\n\nHi there Shawn,\n\nCan you please let me know what is the error message they were seeing for the requests? Just wanted to check if this was a WAF error that you were seeing, as I am not able to locate these IP\u2019s on the WAF logs so far.\n\nAlso can you check with them if these IP\u2019s are static IP\u2019s that the service does use?\n\n\n- Prasul",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Sagar,<div>Thanks. I see the text was blacked out for some reason in the last email.&nbsp;</div><div><br></div><div>Below is the query from the hosting company.&nbsp; &nbsp;<br><br>Hi there Shawn,<br><br>Can you please let me know what is the error message they were seeing for the requests? Just wanted to check if this was a WAF error that you were seeing, as I am not able to locate these IP\u2019s on the WAF logs so far.<br><br>Also can you check with them if these IP\u2019s are static IP\u2019s that the service does use?<br><br><br>- Prasul<br></div></div><br><div></div></div>",
+      "plain_body": "Hi Sagar, Thanks. I see the text was blacked out for some reason in the last email.&nbsp;  \n  Below is the query from the hosting company.&nbsp; &nbsp;\n\nHi there Shawn,\n\nCan you please let me know what is the error message they were seeing for the requests? Just wanted to check if this was a WAF error that you were seeing, as I am not able to locate these IP\u2019s on the WAF logs so far.\n\nAlso can you check with them if these IP\u2019s are static IP\u2019s that the service does use?\n\n\n- Prasul",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58514395874841,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T13:48:50Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwvTODnDxDeXMbZ0THYE=+kVePj_xyv4XXS=nuQaFdS+Yw@mail.gmail.com>",
+          "email_id": "01KT1Q3DMABY9MC5M27AS1V7WH",
+          "raw_email_identifier": "2369120/bfedc74f-3347-4eaa-a4f7-17b01de8985f.eml",
+          "json_email_identifier": "2369120/bfedc74f-3347-4eaa-a4f7-17b01de8985f.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58517694141849,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Shawn,\n\nThank you for your response.\n\nThe response shared earlier was readable. I have already shared the query with our technical team.\n\nWe will update you once we hear back from them.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>The response shared earlier was readable. I have already shared the query with our technical team.<br>&nbsp;<br>We will update you once we hear back from them.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn,\n&nbsp;\nThank you for your response.\n&nbsp;\nThe response shared earlier was readable. I have already shared the query with our technical team.\n&nbsp;\nWe will update you once we hear back from them.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58517694141721,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-01T17:15:52Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58538011356313,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "There are no errors. However, all API responses are blank., when we are trying to fetch data from postman, all the data is returned correctly.  So, we need to check if the site has any additional security that is blocking the API responses.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">There are no errors. However, all API responses are blank., when we are trying to fetch data from postman, all the data is returned correctly. &nbsp;So, we need to check if the site has any additional security that is blocking the API responses.<br>[Veena]<br></div>",
+      "plain_body": "There are no errors. However, all API responses are blank., when we are trying to fetch data from postman, all the data is returned correctly. &nbsp;So, we need to check if the site has any additional security that is blocking the API responses.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58538011356185,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T05:50:35Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "India",
+          "latitude": 21.9974,
+          "longitude": 79.0011
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58538519307033,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Shawn,\n\nGood day!\n\nWe are not seeing any error message and the API responses are blank.\n\nWhen we tried to fetch the data from Postman, we could see all the data returned correctly.\n\nSo, we need to check if any additional security in your store is blocking the API response.\n\nSo, if you can get the IP addresses shared whitelisted and let us know, we can check further.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn,<br>&nbsp;<br>Good day!<br><br>We are not seeing any error message and the API responses are blank.&nbsp;<br>&nbsp;<br>When we tried to fetch the data from Postman, we could see all the data returned correctly.&nbsp;<br>&nbsp;<br>So, we need to check if any additional security in your store is blocking the API response.&nbsp;<br>&nbsp;<br>So, if you can get the IP addresses shared whitelisted and let us know, we can check further.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Shawn,\n&nbsp;\nGood day!\n\nWe are not seeing any error message and the API responses are blank.&nbsp;\n&nbsp;\nWhen we tried to fetch the data from Postman, we could see all the data returned correctly.&nbsp;\n&nbsp;\nSo, we need to check if any additional security in your store is blocking the API response.&nbsp;\n&nbsp;\nSo, if you can get the IP addresses shared whitelisted and let us know, we can check further.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58538519306905,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T06:02:52Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58549639902489,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hi Sagar,\nI sent the hosting company your message saying there is no error message, however I don't understand what you mean by not seeing any error message. I sent this error message below previously, and I can clearly see an error message in the XML from the request log.\n\n\n\nBelow is the error message and a recommendation on how to fix.\n\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/2SukfdoEilLDTaQK9Gi4F8UBH/?name=image.png)\n\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/EFz7CmYp1aiFMmWCDm5UiIJTd/?name=image.png)\n\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/kk8CS2YVE4jvCBnGGpTLnaRsy/?name=image.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Sagar,<div>I sent the hosting company&nbsp;your message saying there is no error message, however I don't understand what you mean by not seeing any error message. I sent this error message below previously, and I can clearly see an error message in the XML from the request log.&nbsp;</div><div><br></div><div>Below is the error message and a recommendation&nbsp;on how to fix.&nbsp;</div><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/2SukfdoEilLDTaQK9Gi4F8UBH/?name=image.png\" alt=\"image.png\" style=\"margin-right: 0px;\"><br></div><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/EFz7CmYp1aiFMmWCDm5UiIJTd/?name=image.png\" alt=\"image.png\" style=\"margin-right: 25px;\"><br></div><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/kk8CS2YVE4jvCBnGGpTLnaRsy/?name=image.png\" alt=\"image.png\" style=\"margin-right: 25px;\"><br></div></div><br><div></div></div>",
+      "plain_body": "Hi Sagar, I sent the hosting company&nbsp;your message saying there is no error message, however I don't understand what you mean by not seeing any error message. I sent this error message below previously, and I can clearly see an error message in the XML from the request log.&nbsp;  \n  Below is the error message and a recommendation&nbsp;on how to fix.&nbsp;",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58549639902361,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T10:48:24Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwtqLK3Br47_Q=Z9GYy=LecopF3_caA3izp7xXKgGGoYQg@mail.gmail.com>",
+          "email_id": "01KT3Z5KMR4Q0MZW9BNJP34DX6",
+          "raw_email_identifier": "2369120/c1b54e13-4667-4bde-97fb-5d95b1b9b13c.eml",
+          "json_email_identifier": "2369120/c1b54e13-4667-4bde-97fb-5d95b1b9b13c.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58552229956121,
+      "type": "Comment",
+      "author_id": 18854260804761,
+      "body": "Hello Shawn Quait,\n\nThank you for your response.\n\nThe error you are highlighting is different from the product import error.\n\nThe error screenshot you have shared is because at the time this log was created, the Ship From Address details were not configured in the plugin. So, the rates were failing due to this.\n\nFor the product import, the error (if available) will not be visible anywhere in the plugin.\n\nRequest you to let us know when the IP Addresses are whitelisted by the hosting team.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn Quait,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>The error you are highlighting is different from the product import error.<br>&nbsp;<br>The error screenshot you have shared is because at the time this log was created, the Ship From Address details were not configured in the plugin. So, the rates were failing due to this.<br>&nbsp;<br>For the product import, the error (if available) will not be visible anywhere in the plugin.<br>&nbsp;<br>Request you to let us know when the IP Addresses are whitelisted by the hosting team.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn Quait,\n&nbsp;\nThank you for your response.\n&nbsp;\nThe error you are highlighting is different from the product import error.\n&nbsp;\nThe error screenshot you have shared is because at the time this log was created, the Ship From Address details were not configured in the plugin. So, the rates were failing due to this.\n&nbsp;\nFor the product import, the error (if available) will not be visible anywhere in the plugin.\n&nbsp;\nRequest you to let us know when the IP Addresses are whitelisted by the hosting team.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58552229955993,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T12:17:45Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58552927779097,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hi Sagar,\nI just checked and the rates are coming now.\n\n\n\nSo I guess the issue is resolved?\n\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/cfCUhHDIMZvibuThd3UnDE9YU/?name=image.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Sagar,<div>I just checked and the rates are coming now.</div><div><br></div><div>So I guess the issue is resolved?</div><div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/cfCUhHDIMZvibuThd3UnDE9YU/?name=image.png\" alt=\"image.png\" width=\"562\" height=\"531\"><br></div></div><br><div></div></div>",
+      "plain_body": "Hi Sagar, I just checked and the rates are coming now.  \n  So I guess the issue is resolved?",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58552927778969,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T12:45:57Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwtwZ91hy7Rjbyz7yzBzCTCLzuiV+YXnB92CigZCxdNHPw@mail.gmail.com>",
+          "email_id": "01KT45WY26D3TF3X0CC7AWHTDV",
+          "raw_email_identifier": "2369120/07a23fe8-4bf7-46fb-bf84-3613c3a17c1d.eml",
+          "json_email_identifier": "2369120/07a23fe8-4bf7-46fb-bf84-3613c3a17c1d.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58554247728025,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Shawn,\n\nThank you for your response.\n\nWe can confirm that the rates at checkout is working as expected.\n\nHowever, regarding the order and product import, the case is not resolved yet and as requested by my colleague, Touseef, let us know once when your hosting team has whitelisted the IP addresses.\n\nLooking forward to hearing from you.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>We can confirm that the rates at checkout is working as expected.<br>&nbsp;<br>However, regarding the order and product import, the case is not resolved yet and as requested by my colleague, Touseef, let us know once when your hosting team has whitelisted the IP addresses.<br>&nbsp;<br>Looking forward to hearing from you.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn,\n&nbsp;\nThank you for your response.\n&nbsp;\nWe can confirm that the rates at checkout is working as expected.\n&nbsp;\nHowever, regarding the order and product import, the case is not resolved yet and as requested by my colleague, Touseef, let us know once when your hosting team has whitelisted the IP addresses.\n&nbsp;\nLooking forward to hearing from you.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58554247727897,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T13:35:14Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58555192848025,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hi Sibi,\nThe ips below are now whitelisted.\n\n\n159.89.150.142\n165.227.28.252\n138.68.13.182\n165.227.48.244\n157.245.169.250",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Sibi,<div>The ips below are now whitelisted.&nbsp;<div><div style=\"min-width: 0px; width: auto; font-size: medium; margin: 0px; padding: 0px 0px 20px;\"><div style=\"direction: ltr; font-size: 0.875rem; overflow-x: hidden; margin: 8px 0px 0px; padding: 0px;\"><div style=\"direction: ltr; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-stretch: normal; font-size: small; line-height: 1.5; overflow: auto hidden;\"><div><br>159.89.150.142<br>165.227.28.252<br>138.68.13.182<br>165.227.48.244<br>157.245.169.250</div></div></div><div style=\"clear: both;\"></div></div><br></div></div></div><br></div>",
+      "plain_body": "Hi Sibi, The ips below are now whitelisted.&nbsp;     \n159.89.150.142\n165.227.28.252\n138.68.13.182\n165.227.48.244\n157.245.169.250",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58555192847897,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T14:11:23Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwsTyWsYBjYpVAv3R0Ke6UY2qrej9Wk_p6wkG8UuMN9=LA@mail.gmail.com>",
+          "email_id": "01KT4ASCCR4K5CR32RARAWPPN0",
+          "raw_email_identifier": "2369120/f556bf55-953e-40c3-ab60-cb2792df18db.eml",
+          "json_email_identifier": "2369120/f556bf55-953e-40c3-ab60-cb2792df18db.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58555349906457,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hi Sibi,\nAlso in follow up to the last email the hosting company said this:\n\n\n\nThere are no restrictions applied in general to the staging site, the only thing if its related to external service, that might stop them is the HTTP auth in place, but if we can't get an actual error message to diagnose the issue, then we wouldn't know what's blocking it",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Sibi,<div>Also in follow up to the last email the hosting company said this:</div><div><br></div><div><div style=\"min-width: 0px; width: auto; font-size: medium; margin: 0px; padding: 0px 0px 20px;\"><div><div style=\"direction: ltr; font-size: 0.875rem; overflow-x: hidden; margin: 8px 0px 0px; padding: 0px;\"><div style=\"direction: ltr; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-stretch: normal; font-size: small; line-height: 1.5; overflow: auto hidden;\"><div>There are no restrictions applied in general to the staging site, the only thing if its related to external service, that might stop them is the HTTP auth in place, but if we can't get an actual error message to diagnose the issue, then we wouldn't know what's blocking it</div></div></div><div style=\"clear: both;\"></div></div></div><br></div></div><br></div>",
+      "plain_body": "Hi Sibi, Also in follow up to the last email the hosting company said this:  \n       There are no restrictions applied in general to the staging site, the only thing if its related to external service, that might stop them is the HTTP auth in place, but if we can't get an actual error message to diagnose the issue, then we wouldn't know what's blocking it",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58555349905689,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T14:16:23Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwuvK4BHWHh7CML5vRp9mZp9FRFH_mjVCXQXsU7585jtKg@mail.gmail.com>",
+          "email_id": "01KT4B2HHX4YCP2V2DXJW5C4F6",
+          "raw_email_identifier": "2369120/f3b02786-b64f-49a1-b83e-0276aa1cd8bb.eml",
+          "json_email_identifier": "2369120/f3b02786-b64f-49a1-b83e-0276aa1cd8bb.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58564898314393,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Shawn,\n\nThank you for your response.\n\nDo allow me sometime to check and get back to you with an update.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Do allow me sometime to check and get back to you with an update.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn,\n&nbsp;\nThank you for your response.\n&nbsp;\nDo allow me sometime to check and get back to you with an update.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58564898314265,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T22:12:47Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58565107427225,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Moving back to L3:\n\nThe customer informed that they have whitelisted the below IP addresses.\n\n- 159.89.150.142\n- 165.227.28.252\n- 138.68.13.182\n- 165.227.48.244\n- 157.245.169.250\n\n\nEven after whitelisting, we tried importing the products and there is no update.\n\n ![](https://pluginhive.zendesk.com/attachments/token/jyRLCYEzgsFD4EUcVk1SKwasi/?name=image.png)\n\nAlso, the developer of the customer had informed that:\n\"_**There are no restrictions applied in general to the staging site, the only thing if its related to external service, that might stop them is the HTTP auth in place, but if we can't get an actual error message to diagnose the issue, then we wouldn't know what's blocking it**_\"\n\nPlease check and let us know how to proceed.\n\nStore Details:\n\nStore URL : https://staging180drinksca.bigscoots-staging.com\nAcID: 9f18b55a-87e4-4d24-8474-5916eb8653d1\n\nFirst page:\nUsername is: dev\nPassword is: dev\n\nAdmin URL: https://staging180drinksca.bigscoots-staging.com/my-account/\nUsername: pluginhiveadmin\nPassword: YRwYfcLzAAesJjZYpBndvcC!\n\nSlack Thread: https://pluginhive.slack.com/archives/C02E15X8X0C/p1780438705950829?thread_ts=1780057556.989929&cid=C02E15X8X0C",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving back to L3:<br>&nbsp;<br>The customer informed that they have whitelisted the below IP addresses.<br>&nbsp;<br><ul dir=\"auto\"><li>159.89.150.142</li><li>165.227.28.252</li><li>138.68.13.182</li><li>165.227.48.244</li><li>157.245.169.250</li></ul>&nbsp;<br>Even after whitelisting, we tried importing the products and there is no update.<br>&nbsp;<br><span style=\"opacity: 1;\"><img src=\"https://pluginhive.zendesk.com/attachments/token/jyRLCYEzgsFD4EUcVk1SKwasi/?name=image.png\"></span><br>&nbsp;<br>Also, the developer of the customer had informed that:<br>\"<i><strong>There are no restrictions applied in general to the staging site, the only thing if its related to external service, that might stop them is the HTTP auth in place, but if we can't get an actual error message to diagnose the issue, then we wouldn't know what's blocking it</strong></i>\"<br>&nbsp;<br>Please check and let us know how to proceed.<br>&nbsp;<br>Store Details:<br>&nbsp;<br>Store URL : <a rel=\"noopener noreferrer\" href=\"https://staging180drinksca.bigscoots-staging.com/\">https://staging180drinksca.bigscoots-staging.com</a><br>AcID: 9f18b55a-87e4-4d24-8474-5916eb8653d1<br>&nbsp;<br>First page:<br>Username is: dev<br>Password is: dev<br>&nbsp;<br>Admin URL: <a rel=\"noopener noreferrer\" href=\"https://staging180drinksca.bigscoots-staging.com/my-account/\">https://staging180drinksca.bigscoots-staging.com/my-account/</a><br>Username: pluginhiveadmin<br>Password: YRwYfcLzAAesJjZYpBndvcC!<br>&nbsp;<br>Slack Thread: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1780438705950829?thread_ts=1780057556.989929&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1780438705950829?thread_ts=1780057556.989929&amp;cid=C02E15X8X0C</a><br></div>",
+      "plain_body": "Moving back to L3:\n&nbsp;\nThe customer informed that they have whitelisted the below IP addresses.\n&nbsp;\n  159.89.150.142  165.227.28.252  138.68.13.182  165.227.48.244  157.245.169.250  &nbsp;\nEven after whitelisting, we tried importing the products and there is no update.\n&nbsp;\n\n&nbsp;\nAlso, the developer of the customer had informed that:\n\"There are no restrictions applied in general to the staging site, the only thing if its related to external service, that might stop them is the HTTP auth in place, but if we can't get an actual error message to diagnose the issue, then we wouldn't know what's blocking it\"\n&nbsp;\nPlease check and let us know how to proceed.\n&nbsp;\nStore Details:\n&nbsp;\nStore URL : https://staging180drinksca.bigscoots-staging.com\nAcID: 9f18b55a-87e4-4d24-8474-5916eb8653d1\n&nbsp;\nFirst page:\nUsername is: dev\nPassword is: dev\n&nbsp;\nAdmin URL: https://staging180drinksca.bigscoots-staging.com/my-account/\nUsername: pluginhiveadmin\nPassword: YRwYfcLzAAesJjZYpBndvcC!\n&nbsp;\nSlack Thread: https://pluginhive.slack.com/archives/C02E15X8X0C/p1780438705950829?thread_ts=1780057556.989929&amp;cid=C02E15X8X0C",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58565107427097,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-02T22:19:16Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58593790107929,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "We have fixed the issue and imported all products, kindly verify and inform the merchant.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have fixed the issue and imported all products, kindly verify and inform the merchant.<br>[Veena]<br></div>",
+      "plain_body": "We have fixed the issue and imported all products, kindly verify and inform the merchant.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58593790107801,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T13:53:50Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58594069206169,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Shawn,\n\nHope you are doing good!\n\nWe have fixed the case with the product import and could see that the products are imported successfully.\n\n ![](https://pluginhive.zendesk.com/attachments/token/jMY8hreD9F11GbTx96rKpyrAr/?name=image.png)\n\nI do request you to check once and let me know if you need any further assistance.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn,<br>&nbsp;<br>Hope you are doing good!<br>&nbsp;<br>We have fixed the case with the product import and could see that the products are imported successfully.<br>&nbsp;<br><span style=\"opacity: 1;\"><img style=\" width: 413px;\" src=\"https://pluginhive.zendesk.com/attachments/token/jMY8hreD9F11GbTx96rKpyrAr/?name=image.png\"></span><br>&nbsp;<br>I do request you to check once and let me know if you need any further assistance.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn,\n&nbsp;\nHope you are doing good!\n&nbsp;\nWe have fixed the case with the product import and could see that the products are imported successfully.\n&nbsp;\n\n&nbsp;\nI do request you to check once and let me know if you need any further assistance.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58594069206041,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T14:01:47Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58594136245401,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hi Sibi,\nThank you!\n\nShawn",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Sibi,&nbsp;<div>Thank you!</div><div>Shawn</div></div><br><div></div></div>",
+      "plain_body": "Hi Sibi,&nbsp; Thank you!  Shawn",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58594136245273,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T14:03:16Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwuZaG4p38yu01dF9K63Yq7jquVo+DLkxG1kWO4AQNY4=w@mail.gmail.com>",
+          "email_id": "01KT6WQ8BBSHMNEKVCHPXVC3EQ",
+          "raw_email_identifier": "2369120/cb278083-bfc4-40cc-a989-bf786312b08b.eml",
+          "json_email_identifier": "2369120/cb278083-bfc4-40cc-a989-bf786312b08b.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58594353714201,
+      "type": "Comment",
+      "author_id": 6932179641113,
+      "body": "Hello Shawn,\n\nThank you for your response.\n\nIf you are happy with the support provided, I request you to provide your valuable feedback in the link below:\nhttps://www.trustpilot.com/review/pluginhive.com\n\nLooking forward to hearing from you.\n\nRegards,\n\nSibi\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>If you are happy with the support provided, I request you to provide your valuable feedback in the link below:<br><a rel=\"noopener noreferrer\" href=\"https://www.trustpilot.com/review/pluginhive.com\">https://www.trustpilot.com/review/pluginhive.com</a><br>&nbsp;<br>Looking forward to hearing from you.<br>&nbsp;<br>Regards,<br>&nbsp;<br>Sibi<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn,\n&nbsp;\nThank you for your response.\n&nbsp;\nIf you are happy with the support provided, I request you to provide your valuable feedback in the link below:\nhttps://www.trustpilot.com/review/pluginhive.com\n&nbsp;\nLooking forward to hearing from you.\n&nbsp;\nRegards,\n&nbsp;\nSibi\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58594353714073,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-03T14:09:55Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58669983367833,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Hello,\n\nCurrently we can't ship alcohol outside Ontario, so I wondering why in the staging site https://staging180drinksca.bigscoots-staging.com/ its letting us ship alcohol outside Ontario. It seems to be configured the same as our live site 180drinks.ca\n\n\n\nScreenshot below. How do we prevent the site from displaying rates for alcohol products if they are in this shipping class?\n\nFor example here is the alcoholic product we only want to be able to ship in Ontario: https://staging180drinksca.bigscoots-staging.com/rum-tasting-kit/\n\n\n\nWe want to be able to still ship non-alcoholic products outside Ontario for products in these urls:  https://staging180drinksca.bigscoots-staging.com/bartender-tools/ and https://staging180drinksca.bigscoots-staging.com/non-alcoholic-drink-gifts/\n\n ![image.png](https://support.pluginhive.com/attachments/token/kGhHsMTbeierc92VhQCNpMpk0/?name=image.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div><div>Hello,</div><div>Currently we can't ship alcohol&nbsp;outside Ontario, so I wondering why in the staging site <a href=\"https://staging180drinksca.bigscoots-staging.com/\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com/</a> its letting us ship alcohol outside Ontario. It seems to be configured the same as our live site <a href=\"http://180drinks.ca\" rel=\"noreferrer\">180drinks.ca</a></div></div><div><br></div><div>Screenshot below. How do we prevent the site from displaying rates for alcohol products if they are in this shipping class?</div><div>For example here is the alcoholic product we only want to be able to ship in Ontario:&nbsp;<a href=\"https://staging180drinksca.bigscoots-staging.com/rum-tasting-kit/\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com/rum-tasting-kit/</a></div><div><br></div><div>We want to be able to still ship non-alcoholic products outside Ontario for products in these urls:&nbsp;&nbsp;<a href=\"https://staging180drinksca.bigscoots-staging.com/bartender-tools/\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com/bartender-tools/</a> and <a href=\"https://staging180drinksca.bigscoots-staging.com/non-alcoholic-drink-gifts/\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com/non-alcoholic-drink-gifts/</a></div><div><img src=\"https://support.pluginhive.com/attachments/token/kGhHsMTbeierc92VhQCNpMpk0/?name=image.png\" alt=\"image.png\" style=\"margin-right: 25px;\"></div><div><br></div></div><br><div></div></div>",
+      "plain_body": "Hello,  Currently we can't ship alcohol&nbsp;outside Ontario, so I wondering why in the staging site https://staging180drinksca.bigscoots-staging.com/ its letting us ship alcohol outside Ontario. It seems to be configured the same as our live site 180drinks.ca   \n  Screenshot below. How do we prevent the site from displaying rates for alcohol products if they are in this shipping class?  For example here is the alcoholic product we only want to be able to ship in Ontario:&nbsp;https://staging180drinksca.bigscoots-staging.com/rum-tasting-kit/  \n  We want to be able to still ship non-alcoholic products outside Ontario for products in these urls:&nbsp;&nbsp;https://staging180drinksca.bigscoots-staging.com/bartender-tools/ and https://staging180drinksca.bigscoots-staging.com/non-alcoholic-drink-gifts/",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58669983367705,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T12:04:50Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwvY_0igbBTQw-obkjm7-+L6icKhdvkZJXVRui7VdZPwNg@mail.gmail.com>",
+          "email_id": "01KTBTQS4AKXTJGXWN17DP0JZN",
+          "raw_email_identifier": "2369120/cd34a582-397b-49b1-acc7-2255ecc3495b.eml",
+          "json_email_identifier": "2369120/cd34a582-397b-49b1-acc7-2255ecc3495b.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58670896222489,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "As customer needs rules based on shippoing class, we'd also need to understand mxed shipping scenario hence send mail with AL\nmoving on hold",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">As customer needs rules based on shippoing class, we'd also need to understand mxed shipping scenario hence send mail with AL&nbsp;<br>moving on hold<br></div>",
+      "plain_body": "As customer needs rules based on shippoing class, we'd also need to understand mxed shipping scenario hence send mail with AL&nbsp;\nmoving on hold",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58670896222361,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T12:43:44Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58670950172569,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Team,\n\nThank you for reaching out.\n\nWe'd be happy to help you configure the shipping rules so that alcohol products can only be shipped within Ontario.\n\nTo ensure we understand your requirements correctly and assist with the setup, could you please book a call using the link below at a time convenient for you?\n[Book a call]\n\nDuring the call, we'll review your current configuration and help you set up the appropriate shipping restrictions.\n\nWe look forward to assisting you.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br>Thank you for reaching out.<br>&nbsp;<br>We'd be happy to help you configure the shipping rules so that alcohol products can only be shipped within Ontario.<br>&nbsp;<br>To ensure we understand your requirements correctly and assist with the setup, could you please book a call using the link below at a time convenient for you?<br>[<a rel=\"noopener noreferrer\" href=\"https://appointments.pluginhive.com/appointment/book-a-slot/?storeUrl=https://staging180drinksca.bigscoots-staging.com&amp;email=squait@180drinks.ca&amp;ticket=392155&amp;key=1780663457093\">Book a call</a>]<br>&nbsp;<br>During the call, we'll review your current configuration and help you set up the appropriate shipping restrictions.<br>&nbsp;<br>We look forward to assisting you.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Team,\n&nbsp;\nThank you for reaching out.\n&nbsp;\nWe'd be happy to help you configure the shipping rules so that alcohol products can only be shipped within Ontario.\n&nbsp;\nTo ensure we understand your requirements correctly and assist with the setup, could you please book a call using the link below at a time convenient for you?\n[Book a call]\n&nbsp;\nDuring the call, we'll review your current configuration and help you set up the appropriate shipping restrictions.\n&nbsp;\nWe look forward to assisting you.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58670950172441,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T12:44:58Z",
+      "metadata": {
+        "system": {
+          "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "ip_address": "106.51.91.51",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58671454384537,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Appointment Scheduled with PluginHive Support\n\nCustomer Details:\nName: Shawn QUait\nEmail: squait@180drinks.ca\nPhone Number: 9055378806\nStore URL: https://staging180drinksca.bigscoots-staging.com\nDate & Time: June 5, 2026 05:15 pm (America/Toronto -04:00)\n\nPluginHive Date & Time: June 6, 2026 2:45 am",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Appointment Scheduled with PluginHive Support</p>\n<p dir=\"auto\">Customer Details:<br>\nName: Shawn QUait<br>\nEmail: <a href=\"mailto:squait@180drinks.ca\" rel=\"noreferrer\">squait@180drinks.ca</a><br>\nPhone Number: 9055378806<br>\nStore URL: <a href=\"https://staging180drinksca.bigscoots-staging.com\" rel=\"noreferrer\">https://staging180drinksca.bigscoots-staging.com</a><br>\nDate &amp; Time: June 5, 2026 05:15 pm (America/Toronto -04:00)</p>\n<p dir=\"auto\">PluginHive Date &amp; Time: June 6, 2026 2:45 am</p></div>",
+      "plain_body": "Appointment Scheduled with PluginHive Support \n Customer Details:\n\nName: Shawn QUait\n\nEmail: squait@180drinks.ca\n\nPhone Number: 9055378806\n\nStore URL: https://staging180drinksca.bigscoots-staging.com\n\nDate &amp; Time: June 5, 2026 05:15 pm (America/Toronto -04:00) \n PluginHive Date &amp; Time: June 6, 2026 2:45 am",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58671454384409,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T13:06:26Z",
+      "metadata": {
+        "system": {
+          "client": "WordPress/7.0; https://appointments.pluginhive.com",
+          "ip_address": "159.89.131.157",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58677746677913,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Shawn,\n\nThank you for booking the slot.\n\nPlease join the meeting at the scheduled time i.e. today at 5:15 PM Toronto time - https://us05web.zoom.us/j/85936040802?pwd=OB4orSlKO9uVS1TtmbJJWVHNByStEI.1\n\nMeeting ID: 859 3604 0802\nPasscode: 8PV0wN\n\nLooking forward to talking to you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn,<br>&nbsp;<br>Thank you for booking the slot.<br>&nbsp;<br>Please join the meeting at the scheduled time i.e. today at 5:15 PM Toronto time - <a rel=\"noopener noreferrer\" href=\"https://us05web.zoom.us/j/85936040802?pwd=OB4orSlKO9uVS1TtmbJJWVHNByStEI.1\">https://us05web.zoom.us/j/85936040802?pwd=OB4orSlKO9uVS1TtmbJJWVHNByStEI.1</a>&nbsp;<br>&nbsp;<br>Meeting ID: 859 3604 0802<br>Passcode: 8PV0wN<br>&nbsp;<br>Looking forward to talking to you.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn,\n&nbsp;\nThank you for booking the slot.\n&nbsp;\nPlease join the meeting at the scheduled time i.e. today at 5:15 PM Toronto time - https://us05web.zoom.us/j/85936040802?pwd=OB4orSlKO9uVS1TtmbJJWVHNByStEI.1&nbsp;\n&nbsp;\nMeeting ID: 859 3604 0802\nPasscode: 8PV0wN\n&nbsp;\nLooking forward to talking to you.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58677746677401,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T20:24:44Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58678361599641,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Shawn,\n\nThank you for your time over the call.\n\nYour honest feedback means a lot to us! Please take a minute to leave us a review on Trustpilot - https://www.trustpilot.com/evaluate/pluginhive.com\n\nIf you have any suggestions to help us improve, we would really appreciate it!\n\nThis will keep our team motivated.\n\nFeel free to reachout to us anytime you need assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn,<br>&nbsp;<br>Thank you for your time over the call.<br>&nbsp;<br>Your honest feedback means a lot to us! Please take a minute to leave us a review on Trustpilot - <a rel=\"noopener noreferrer\" href=\"https://www.trustpilot.com/evaluate/pluginhive.com\">https://www.trustpilot.com/evaluate/pluginhive.com</a><br>&nbsp;<br>If you have any suggestions to help us improve, we would really appreciate it!<br>&nbsp;<br>This will keep our team motivated.<br>&nbsp;<br>Feel free to reachout to us anytime you need assistance from our end.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn,\n&nbsp;\nThank you for your time over the call.\n&nbsp;\nYour honest feedback means a lot to us! Please take a minute to leave us a review on Trustpilot - https://www.trustpilot.com/evaluate/pluginhive.com\n&nbsp;\nIf you have any suggestions to help us improve, we would really appreciate it!\n&nbsp;\nThis will keep our team motivated.\n&nbsp;\nFeel free to reachout to us anytime you need assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58678361599513,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T21:43:15Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58678398301465,
+      "type": "Comment",
+      "author_id": 7419484161049,
+      "body": "Thank you!\n\n\n ![image.png](https://support.pluginhive.com/attachments/token/j4ft7ZcpmyqpczAr1DWe0MkNt/?name=image.png)",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Thank you!<div><br></div><div><img src=\"https://support.pluginhive.com/attachments/token/j4ft7ZcpmyqpczAr1DWe0MkNt/?name=image.png\" alt=\"image.png\" width=\"562\" height=\"372\"><br></div></div><br><div></div></div>",
+      "plain_body": "Thank you!",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58678398301337,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "squait@180drinks.ca",
+            "name": "Shawn Quait",
+            "original_recipients": [
+              "squait@180drinks.ca",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T21:45:20Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAJWMxwvr8NN+bGXAAL9XMwkSm6yY67r=W-YfiUUG3AOTeb1Mbw@mail.gmail.com>",
+          "email_id": "01KTCVYPRGRR7JHW5SKB55G74T",
+          "raw_email_identifier": "2369120/c9700be1-1fef-4555-91d6-6ba11e7df455.eml",
+          "json_email_identifier": "2369120/c9700be1-1fef-4555-91d6-6ba11e7df455.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 58678471105433,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Call Summary:\nCustomer is selling both alcohol and non-alcohol accessories. The customer has a license to ship alcohol only within Ontario (ON) and cannot ship alcohol to other provinces/states. They needed help setting up shipping rules based on the following conditions:\n1. When the cart contains alcohol or a mixed cart (alcohol + accessories) and the shipping destination is Ontario (ON):\n  - Show Canada Post services\n  - Offer Free Shipping for orders above CAD 175\n\n2. When the cart contains alcohol or a mixed cart and the shipping destination is outside Ontario (ON):\n  - No shipping options should be displayed from the plugin, including Free Shipping\n\n3. When the cart contains only non-alcohol products:\n  - Show shipping options and free shipping as they are allowed to ship anywhere\n\nThe shipping class was already configured before the call. We updated the shipping rules accordingly and tested checkout using different cart combinations and destinations. We confirmed that all scenarios are working as expected.\n\nCustomer was happy with the setup and also provided a review.\n\nCall recording -",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Call Summary:<br>Customer is selling both alcohol and non-alcohol accessories. The customer has a license to ship alcohol only within Ontario (ON) and cannot ship alcohol to other provinces/states. They needed help setting up shipping rules based on the following conditions:<br><ol dir=\"auto\"><li>When the cart contains alcohol or a mixed cart (alcohol + accessories) and the shipping destination is Ontario (ON):<ul dir=\"auto\"><li>Show Canada Post services</li><li>Offer Free Shipping for orders above CAD 175</li></ul></li><li>When the cart contains alcohol or a mixed cart and the shipping destination is outside Ontario (ON):<ul dir=\"auto\"><li>No shipping options should be displayed from the plugin, including Free Shipping</li></ul></li><li>When the cart contains only non-alcohol products:<ul dir=\"auto\"><li>Show shipping options and free shipping as they are allowed to ship anywhere</li></ul></li></ol>The shipping class was already configured before the call. We updated the shipping rules accordingly and tested checkout using different cart combinations and destinations. We confirmed that all scenarios are working as expected.<br>&nbsp;<br>Customer was happy with the setup and also provided a review.<br>&nbsp;<br>Call recording -<br></div>",
+      "plain_body": "Call Summary:\nCustomer is selling both alcohol and non-alcohol accessories. The customer has a license to ship alcohol only within Ontario (ON) and cannot ship alcohol to other provinces/states. They needed help setting up shipping rules based on the following conditions:\n  When the cart contains alcohol or a mixed cart (alcohol + accessories) and the shipping destination is Ontario (ON):  Show Canada Post services  Offer Free Shipping for orders above CAD 175    When the cart contains alcohol or a mixed cart and the shipping destination is outside Ontario (ON):  No shipping options should be displayed from the plugin, including Free Shipping    When the cart contains only non-alcohol products:  Show shipping options and free shipping as they are allowed to ship anywhere    The shipping class was already configured before the call. We updated the shipping rules accordingly and tested checkout using different cart combinations and destinations. We confirmed that all scenarios are working as expected.\n&nbsp;\nCustomer was happy with the setup and also provided a review.\n&nbsp;\nCall recording -",
+      "public": false,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/58678454664089.json",
+          "id": 58678454664089,
+          "file_name": "video1217927125.mp4",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/uOrNhIIWi4GMBEUjjCI4s2rvG/?name=video1217927125.mp4",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/uOrNhIIWi4GMBEUjjCI4s2rvG/?name=video1217927125.mp4",
+          "content_type": "video/mp4",
+          "size": 38139322,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 58678471105305,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T21:52:44Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58678461508761,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "**Review Details:**\n**From:** Canada\n**To:** Within Canada\n**Products Sold:** Alcohol and other bar accessories\n**Carrier:** Canada Post\n**Requirement:** Customer wanted to display calculated shipping rates and free shipping while restricting alcohol shipments to a specific zone (Ontario). Shipping for alcohol products should only be allowed within the permitted zone, while non-alcohol products can be shipped across Canada.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><strong>Review Details:</strong><br><strong>From:</strong> Canada<br><strong>To:</strong> Within Canada<br><strong>Products Sold:</strong> Alcohol and other bar accessories<br><strong>Carrier:</strong> Canada Post<br><strong>Requirement: </strong>Customer wanted to display calculated shipping rates and free shipping while restricting alcohol shipments to a specific zone (Ontario). Shipping for alcohol products should only be allowed within the permitted zone, while non-alcohol products can be shipped across Canada.<br></div>",
+      "plain_body": "Review Details:\nFrom: Canada\nTo: Within Canada\nProducts Sold: Alcohol and other bar accessories\nCarrier: Canada Post\nRequirement: Customer wanted to display calculated shipping rates and free shipping while restricting alcohol shipments to a specific zone (Ontario). Shipping for alcohol products should only be allowed within the permitted zone, while non-alcohol products can be shipped across Canada.",
+      "public": false,
+      "attachments": [],
+      "audit_id": 58678523419161,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T21:54:47Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 58678444763673,
+      "type": "Comment",
+      "author_id": 9977129389337,
+      "body": "Hello Shawn,\n\nThank you for your reply and for the feedback.\n\nFeel free to reachout to us anytime you need assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Shawn,<br>&nbsp;<br>Thank you for your reply and for the feedback.<br>&nbsp;<br>Feel free to reachout to us anytime you need assistance from our end.<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+      "plain_body": "Hello Shawn,\n&nbsp;\nThank you for your reply and for the feedback.\n&nbsp;\nFeel free to reachout to us anytime you need assistance from our end.\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 58678444763545,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-05T21:55:34Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    }
+  ]
+}
