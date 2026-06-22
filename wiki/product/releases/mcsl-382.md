@@ -6,18 +6,18 @@ tag_slug: mcsl-382
 board_id: 63e1e0414b6026c45be1087c
 lane_filter: "SL MCSL 382: Iteration backlog"
 status: draft
-last_synced: 2026-06-18 02:49:17 UTC
+last_synced: 2026-06-22 15:22:21 UTC
 shipped_at: null
 git_reference: d74c967ff04c2c7841722af1a872248abcd04e74
 tickets_delta_on_last_sync: 0
-cards_total: 22
+cards_total: 23
 cards_shipped: 0
-cards_ready_to_ship: 0
+cards_ready_to_ship: 7
 cards_high_risk: 0
 cards_support_closed: 3
 cards_unsupported_partnership: 0
-cards_carrier_platform_issues: 0
-cards_bug_reported: 0
+cards_carrier_platform_issues: 1
+cards_bug_reported: 2
 cards_open: 0
 cards_spill_over: 0
 cards_traded_off: 2
@@ -25,27 +25,27 @@ cards_traded_off: 2
 
 # Release MCSL 382
 
-> **Status**: draft · **Last synced**: 2026-06-18 02:49 UTC · **Board**: [ph-WIP](https://trello.com/b/63e1e0414b6026c45be1087c)
+> **Status**: draft · **Last synced**: 2026-06-22 15:22 UTC · **Board**: [ph-WIP](https://trello.com/b/63e1e0414b6026c45be1087c)
 
 ## Summary
 
 | State | Count |
 |-------|-------|
 | Shipped | 0 |
-| Ready To Ship | 0 |
+| Ready To Ship | 7 |
 | ⚠️ High Risk | 0 |
 | Support Closed | 3 |
 | Unsupported Partnership | 0 |
-| Carrier Platform Issues | 0 |
-| BUG REPORTED | 0 |
-| QA READY | 17 |
+| Carrier Platform Issues | 1 |
+| BUG REPORTED | 2 |
+| QA READY | 8 |
 | DEV | 0 |
 | Open (not started) | 0 |
 | Spill Over | 0 |
 | Traded Off | 2 |
-| **Total** | **22** |
+| **Total** | **23** |
 
-**Note:** 22 unique cards. 5 additional cards in this lane were shipped with MCSL 381p and are excluded from this release.
+**Note:** The following 1 card(s) appear in multiple sections: . Total unique cards: 23.
 
 ## Legend
 
@@ -68,7 +68,7 @@ cards_traded_off: 2
 
 ### PostNord UK (Direct Link) Integration
 
-**State:** QA READY  ·  **Card:** [https://trello.com/c/y8vhOmoA](https://trello.com/c/y8vhOmoA)
+**State:** BUG REPORTED  ·  **Card:** [https://trello.com/c/y8vhOmoA](https://trello.com/c/y8vhOmoA)
 
 PR: [https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/3102](https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/3102 "smartCard-inline")
 
@@ -89,9 +89,17 @@ As part of the **FedEx REST DG Close Manifest** enhancement, a confirmation moda
 ## Shipped (0)
 
 *No cards in this state*
-## Ready To Ship (0)
+## Ready To Ship (7)
 
-*No cards in this state*
+| ZI | Ticket | Card |
+|----|--------|------|
+| ZI-564 | [#277997](../../zendesk/summaries/277997.md) | [Link](https://trello.com/c/LAMSPjle) |
+| ZI-565 | [#277997](../../zendesk/summaries/277997.md) | [Link](https://trello.com/c/Ru0KCBpe) |
+| ZI-567 | [#392107](../../zendesk/summaries/392107.md) | [Link](https://trello.com/c/Tq9glgfV) |
+| ZI-568 | [#389508](../../zendesk/summaries/389508.md) | [Link](https://trello.com/c/gao3uv58) |
+| ZI-570 | [#391779](../../zendesk/summaries/391779.md) | [Link](https://trello.com/c/y7WZOyyq) |
+| ZI-577 | [#390510](../../zendesk/summaries/390510.md) | [Link](https://trello.com/c/orILX1VP) |
+| ZI-583 | [#381046](../../zendesk/summaries/381046.md) | [Link](https://trello.com/c/I8eVHiKr) |
 ## Support Closed (3)
 
 | ZI | Ticket | Reason | Card |
@@ -102,12 +110,17 @@ As part of the **FedEx REST DG Close Manifest** enhancement, a confirmation moda
 ## Unsupported Partnership (0)
 
 *No cards in this state*
-## Carrier Platform Issues (0)
+## Carrier Platform Issues (1)
 
-*No cards in this state*
-## BUG REPORTED (0)
+| ZI | Ticket | Carriers | Card |
+|----|--------|----------|------|
+| ZI-578 | [#388157](../../zendesk/summaries/388157.md) | UPS, DHL | [Link](https://trello.com/c/wKY8tIdq) |
+## BUG REPORTED (2)
 
-*No cards in this state*
+| ZI | Ticket | Card |
+|----|--------|------|
+| None | N/A | [Link](https://trello.com/c/y8vhOmoA) |
+| ZI-575 | [#368959](../../zendesk/summaries/368959.md) | [Link](https://trello.com/c/edxRPQIk) |
 
 ## Spill Over (0)
 
@@ -120,27 +133,18 @@ As part of the **FedEx REST DG Close Manifest** enhancement, a confirmation moda
 | ZI-581 | [#391159](../../zendesk/summaries/391159.md) | [Link](https://trello.com/c/dJYpGyep) |
 | ZI-582 | [#375738](../../zendesk/summaries/375738.md) | [Link](https://trello.com/c/8MoVg84b) |
 
-## Still Open (17)
+## Still Open (8)
 
-### QA READY (17)
+### QA READY (8)
 
 | ZI | Ticket | Card |
 |----|--------|------|
-| None | N/A | [Link](https://trello.com/c/y8vhOmoA) |
 | None | N/A | [Link](https://trello.com/c/U02MSYJq) |
 | None | N/A | [Link](https://trello.com/c/cPWaVpoL) |
-| ZI-564 | [#277997](../../zendesk/summaries/277997.md) | [Link](https://trello.com/c/LAMSPjle) |
-| ZI-565 | [#277997](../../zendesk/summaries/277997.md) | [Link](https://trello.com/c/Ru0KCBpe) |
 | ZI-566 | [#389467](../../zendesk/summaries/389467.md) | [Link](https://trello.com/c/QjX9VGza) |
-| ZI-567 | [#392107](../../zendesk/summaries/392107.md) | [Link](https://trello.com/c/Tq9glgfV) |
-| ZI-568 | [#389508](../../zendesk/summaries/389508.md) | [Link](https://trello.com/c/gao3uv58) |
-| ZI-570 | [#391779](../../zendesk/summaries/391779.md) | [Link](https://trello.com/c/y7WZOyyq) |
 | ZI-571 | [#389228](../../zendesk/summaries/389228.md) | [Link](https://trello.com/c/4C0YrEax) |
 | ZI-574 | [#391952](../../zendesk/summaries/391952.md) | [Link](https://trello.com/c/ku0XyzRY) |
-| ZI-575 | [#368959](../../zendesk/summaries/368959.md) | [Link](https://trello.com/c/edxRPQIk) |
 | ZI-576 | [#391628](../../zendesk/summaries/391628.md) | [Link](https://trello.com/c/NpGp3YGF) |
-| ZI-577 | [#390510](../../zendesk/summaries/390510.md) | [Link](https://trello.com/c/orILX1VP) |
-| ZI-578 | [#388157](../../zendesk/summaries/388157.md) | [Link](https://trello.com/c/wKY8tIdq) |
 | ZI-579 | [#389953](../../zendesk/summaries/389953.md) | [Link](https://trello.com/c/vUBfAgZv) |
 | ZI-580 | [#379796](../../zendesk/summaries/379796.md) | [Link](https://trello.com/c/jrUM4aUB) |
 
