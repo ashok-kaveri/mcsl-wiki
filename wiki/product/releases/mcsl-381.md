@@ -10,9 +10,9 @@ last_synced: 2026-06-18 02:35:06 UTC
 shipped_at: 2026-06-16
 git_reference: 09a6ae74c525274493b48801fb2832ca41335f48
 tickets_delta_on_last_sync: 0
-cards_total: 21
+cards_total: 23
 cards_shipped: 0
-cards_ready_to_ship: 17
+cards_ready_to_ship: 19
 cards_high_risk: 0
 cards_support_closed: 2
 cards_unsupported_partnership: 0
@@ -32,7 +32,7 @@ cards_traded_off: 0
 | State | Count |
 |-------|-------|
 | Shipped | 0 |
-| Ready To Ship | 17 |
+| Ready To Ship | 19 |
 | ⚠️ High Risk | 0 |
 | Support Closed | 2 |
 | Unsupported Partnership | 0 |
@@ -43,9 +43,9 @@ cards_traded_off: 0
 | Open (not started) | 0 |
 | Spill Over | 0 |
 | Traded Off | 0 |
-| **Total** | **21** |
+| **Total** | **23** |
 
-**Note:** 21 unique cards (16 from MCSL 381 lane + 5 from MCSL 381p patch).
+**Note:** 23 unique cards (16 from MCSL 381 lane + 7 from MCSL 381p patch).
 
 ## Legend
 
@@ -94,7 +94,7 @@ PR - [https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/3115](http
 PR(proxy) - [https://bitbucket.org/xadapter-cyd/ship-rate-track/pull-requests/7](https://bitbucket.org/xadapter-cyd/ship-rate-track/pull-requests/7 "s…
 
 
-## MCSL 381p — Patch Cards (5)
+## MCSL 381p — Patch Cards (7)
 
 *Patch cards tagged `SL: MCSL 381p`, living in the MCSL 382 lane. Included as part of the 381 release.*
 
@@ -114,12 +114,20 @@ PR(proxy) - [https://bitbucket.org/xadapter-cyd/ship-rate-track/pull-requests/7]
 
 **State:** Ready To Ship  ·  **Card:** [https://trello.com/c/FSugx3SX](https://trello.com/c/FSugx3SX)
 
+### Create Label Batch for Failed Orders
+
+**State:** Ready To Ship  ·  **Card:** [https://trello.com/c/1v1iwRDS](https://trello.com/c/1v1iwRDS)
+
+### SLGP: Order status in Processing status
+
+**State:** Ready To Ship  ·  **Card:** [https://trello.com/c/2VADptWP](https://trello.com/c/2VADptWP)
+
 ---
 
 ## Shipped (0)
 
 *No cards in this state*
-## Ready To Ship (17)
+## Ready To Ship (19)
 
 | ZI | Ticket | Card | Source |
 |----|--------|------|--------|
@@ -140,6 +148,8 @@ PR(proxy) - [https://bitbucket.org/xadapter-cyd/ship-rate-track/pull-requests/7]
 | — | Delivro: BOITE fallback | [Link](https://trello.com/c/TuoIk6Ik) | 381p (ZI-583) |
 | ZI-583 | Delivro post-integration [#381046](../../zendesk/summaries/381046.md) | [Link](https://trello.com/c/I8eVHiKr) | 381p |
 | — | Release Label Batches | [Link](https://trello.com/c/FSugx3SX) | 381p |
+| — | Create Label Batch for Failed Orders | [Link](https://trello.com/c/1v1iwRDS) | 381p |
+| — | SLGP: Order status in Processing status | [Link](https://trello.com/c/2VADptWP) | 381p |
 ## Support Closed (2)
 
 | ZI | Ticket | Reason | Card |
