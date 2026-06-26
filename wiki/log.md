@@ -1,5 +1,16 @@
 # StorePep KB Activity Log
 
+## [2026-06-26 12:55] ship | Release MCSL 382
+- Release: `wiki/product/releases/mcsl-382.md` (status: shipped, shipped_at: 2026-06-26)
+- Cards total: 23 (15 ZI + 3 ad-hoc + 3 support-closed + 2 traded-off)
+- Ready To Ship: 18
+- Support Closed: 3 (ZI-569, ZI-572, ZI-573)
+- Traded Off: 2 (ZI-581 GLS, ZI-582 TGE — spilled to 383)
+- Non-terminal at ship: 0
+- backlog.md: not updated (no active backlog changes)
+- Trello writes: 0 (ship is pure wiki write)
+- Summary: Shipped MCSL 382 with 18 QA-verified cards. PostNord UK, FedEx DG C2→C39, TForce, PostNL 6942, Canada Post manifest all cleared QA since Jun 22.
+
 ## [2026-06-18 02:45] ship | Release MCSL 381
 - Release: `wiki/product/releases/mcsl-381.md` (status: shipped, shipped_at: 2026-06-16)
 - Cards total: 21 (12 ZI from 381 + 4 ad-hoc from 381 + 5 patch from 381p)
