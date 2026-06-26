@@ -10,7 +10,7 @@ last_synced: 2026-06-22 15:04:10 UTC
 shipped_at: null
 git_reference: 462f9d50b42e95e8f348175103924904f5d5599a
 tickets_delta_on_last_sync: 0
-cards_total: 30
+cards_total: 31
 cards_shipped: 0
 cards_ready_to_ship: 0
 cards_high_risk: 0
@@ -39,11 +39,11 @@ cards_traded_off: 0
 | Carrier Platform Issues | 0 |
 | BUG REPORTED | 0 |
 | QA READY | 2 |
-| DEV | 0 |
+| DEV | 1 |
 | Open (not started) | 28 |
 | Spill Over | 0 |
 | Traded Off | 0 |
-| **Total** | **30** |
+| **Total** | **31** |
 
 ## Legend
 
@@ -61,6 +61,18 @@ cards_traded_off: 0
 - **Traded Off** — cards intentionally dropped from this iteration to make room for new cards brought in (ph-WIP `Traded Off` label)
 
 
+
+## Ad-hoc Cards (1)
+
+*Cards tagged for this release but not mirrored from a ZI issue — typically dev-initiated work (refactors, infra, platform changes).*
+
+### Amazon Shipping India — 30% Partner Discount Plans
+
+**State:** DEV  ·  **Card:** [https://trello.com/c/VCSQGRaP](https://trello.com/c/VCSQGRaP)
+
+Apply 30% discount on $29/$49/$99 plans for Amazon-referred partner stores. Discount applied at Shopify charge layer in `shopify-multicarrier-app` — no storepep-react changes. Partner store allowlist via env var.
+
+**Slack source:** [Requirement](https://pluginhive.slack.com/archives/C0AREH9HNFQ/p1782289838018159) · **Trigger:** [Refund — ticket #396499](https://pluginhive.slack.com/archives/C02E15X8X0C/p1782298655255439)
 
 ## Shipped (0)
 
@@ -89,7 +101,7 @@ cards_traded_off: 0
 
 *No cards in this state*
 
-## Still Open (30)
+## Still Open (31)
 
 ### QA READY (2)
 
@@ -98,9 +110,11 @@ cards_traded_off: 0
 | ZI-605 | [#393641](../../zendesk/summaries/393641.md) | [Link](https://trello.com/c/PCE4H6mc) |
 | ZI-637 | [#377795](../../zendesk/summaries/377795.md) | [Link](https://trello.com/c/AwCaVHOq) |
 
-### DEV (0)
+### DEV (1)
 
-*No cards in this state*
+| Card | Link |
+|------|------|
+| Amazon Shipping India — 30% Partner Discount Plans | [Link](https://trello.com/c/VCSQGRaP) |
 
 ### Open / not started (28)
 
