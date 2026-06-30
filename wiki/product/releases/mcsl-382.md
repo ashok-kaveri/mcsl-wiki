@@ -10,7 +10,7 @@ last_synced: 2026-06-26 12:51:35 UTC
 shipped_at: 2026-06-26
 git_reference: d74c967ff04c2c7841722af1a872248abcd04e74
 tickets_delta_on_last_sync: 0
-cards_total: 23
+cards_total: 25
 cards_shipped: 0
 cards_ready_to_ship: 18
 cards_high_risk: 0
@@ -39,13 +39,13 @@ cards_traded_off: 2
 | Carrier Platform Issues | 0 |
 | BUG REPORTED | 0 |
 | QA READY | 0 |
-| DEV | 0 |
+| DEV | 2 |
 | Open (not started) | 0 |
 | Spill Over | 0 |
 | Traded Off | 2 |
-| **Total** | **23** |
+| **Total** | **25** |
 
-**Note:** The following 1 card(s) appear in multiple sections: . Total unique cards: 23.
+**Note:** 25 unique cards (23 from the MCSL 382 lane + 2 from the MCSL 382p patch). The 2 patch cards are in-flight (DEV) hotfixes deployed on top of the shipped 382 release — tracked under *MCSL 382p — Patch Cards* and folded into the DEV bucket below (Source = `382p`).
 
 ## Legend
 
@@ -84,6 +84,26 @@ PR - [https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/3133](http
 
 ‌
 
+
+## MCSL 382p — Patch Cards (2)
+
+*Patch cards tagged `SL: MCSL 382p`, living in the MCSL 383 lane. Post-382 hotfixes deployed on top of the 382 release; folded into the DEV bucket below with Source = `382p`.*
+
+### ZI-640 — FedEx REST: EU de minimis product identifiers [#396854]
+
+**State:** DEV  ·  **Card:** [https://trello.com/c/yYU2DWPl](https://trello.com/c/yYU2DWPl)
+
+EU de minimis exemption ends **2026-07-01**. FedEx REST now requires, per-commodity for EU B2C shipments (regardless of value): Merchant Product Identifier, Non-standardized Manufacturer Product Identifier, and Standardized Manufacturer Product Identifier (only if it exists). Lands in `storepepSAAS/server/src/shared/API/carriers/fedExRest/requestBuilder.js` → `commoditiesFor()` (L518-547), gated to EU ship-to; flows into `getCustomsClearanceDetailFor{Rates,Label}`. **Blocker:** exact FedEx REST field keys pending FedEx (Veena).
+
+**Sources:** [Zendesk #396854](../../zendesk/summaries/396854.md) (ZI-640) · [Slack requirement](https://pluginhive.slack.com/archives/C0AREH9HNFQ/p1782713740039489)
+
+### Amazon Shipping India — 30% Partner Discount Plans
+
+**State:** DEV  ·  **Card:** [https://trello.com/c/VCSQGRaP](https://trello.com/c/VCSQGRaP)
+
+Apply 30% discount on $29/$49/$99 plans for Amazon-referred partner stores. Discount applied at the Shopify charge layer in `shopify-multicarrier-app` — no storepep-react changes. Partner store allowlist via env var. *(Reassigned from MCSL 383 to the 382p patch.)*
+
+**Sources:** [Requirement](https://pluginhive.slack.com/archives/C0AREH9HNFQ/p1782289838018159) · [Refund trigger — #396499](https://pluginhive.slack.com/archives/C02E15X8X0C/p1782298655255439)
 
 ## Shipped (0)
 
@@ -138,15 +158,18 @@ PR - [https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/3133](http
 | ZI-581 | [#391159](../../zendesk/summaries/391159.md) | [Link](https://trello.com/c/dJYpGyep) |
 | ZI-582 | [#375738](../../zendesk/summaries/375738.md) | [Link](https://trello.com/c/8MoVg84b) |
 
-## Still Open (0)
+## Still Open (2)
 
 ### QA READY (0)
 
 *No cards in this state*
 
-### DEV (0)
+### DEV (2)
 
-*No cards in this state*
+| ZI | Ticket | Card | Source |
+|----|--------|------|--------|
+| ZI-640 | [#396854](../../zendesk/summaries/396854.md) | [Link](https://trello.com/c/yYU2DWPl) | 382p |
+| — | Amazon Shipping India — 30% Partner Discount Plans | [Link](https://trello.com/c/VCSQGRaP) | 382p |
 
 ### Open / not started (0)
 

@@ -10,7 +10,7 @@ last_synced: 2026-06-26 18:30:00 UTC
 shipped_at: null
 git_reference: 462f9d50b42e95e8f348175103924904f5d5599a
 tickets_delta_on_last_sync: 0
-cards_total: 31
+cards_total: 30
 cards_shipped: 0
 cards_ready_to_ship: 0
 cards_high_risk: 0
@@ -39,11 +39,11 @@ cards_traded_off: 0
 | Carrier Platform Issues | 0 |
 | BUG REPORTED | 0 |
 | QA READY | 17 |
-| DEV | 4 |
+| DEV | 3 |
 | Open (not started) | 10 |
 | Spill Over | 0 |
 | Traded Off | 0 |
-| **Total** | **31** |
+| **Total** | **30** |
 
 ## Legend
 
@@ -62,17 +62,9 @@ cards_traded_off: 0
 
 
 
-## Ad-hoc Cards (1)
+## Ad-hoc Cards (0)
 
-*Cards tagged for this release but not mirrored from a ZI issue — typically dev-initiated work (refactors, infra, platform changes).*
-
-### Amazon Shipping India — 30% Partner Discount Plans
-
-**State:** DEV  ·  **Card:** [https://trello.com/c/VCSQGRaP](https://trello.com/c/VCSQGRaP)
-
-Apply 30% discount on $29/$49/$99 plans for Amazon-referred partner stores. Discount applied at Shopify charge layer in `shopify-multicarrier-app` — no storepep-react changes. Partner store allowlist via env var.
-
-**Slack source:** [Requirement](https://pluginhive.slack.com/archives/C0AREH9HNFQ/p1782289838018159) · **Trigger:** [Refund — ticket #396499](https://pluginhive.slack.com/archives/C02E15X8X0C/p1782298655255439)
+*The Amazon Shipping India 30% partner-discount card was reassigned to the **MCSL 382p** patch — see [mcsl-382.md](mcsl-382.md).*
 
 ## Shipped (0)
 
@@ -101,7 +93,7 @@ Apply 30% discount on $29/$49/$99 plans for Amazon-referred partner stores. Disc
 
 *No cards in this state*
 
-## Still Open (31)
+## Still Open (30)
 
 ### QA READY (17)
 
@@ -125,14 +117,13 @@ Apply 30% discount on $29/$49/$99 plans for Amazon-referred partner stores. Disc
 | ZI-637 | [#377795](../../zendesk/summaries/377795.md) | [Link](https://trello.com/c/AwCaVHOq) |
 | ZI-639 | [#392155](../../zendesk/summaries/392155.md) | [Link](https://trello.com/c/GI8M5IqJ) |
 
-### DEV (4)
+### DEV (3)
 
 | ZI | Ticket | Card |
 |----|--------|------|
 | ZI-588 | [#384856](../../zendesk/summaries/384856.md) | [Link](https://trello.com/c/nGXs8NR5) |
 | ZI-604 | [#395170](../../zendesk/summaries/395170.md) | [Link](https://trello.com/c/e8ZIAdA7) |
 | ZI-638 | [#382961](../../zendesk/summaries/382961.md) | [Link](https://trello.com/c/BpMsHvMk) |
-| None | Ad-hoc: Amazon Partner Discounts | [Link](https://trello.com/c/VCSQGRaP) |
 
 ### Open / not started (10)
 

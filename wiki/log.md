@@ -502,3 +502,18 @@
 - Updated: `wiki/index.md`
 - Git reference: 01898b83a15a8ca9495bf890bcdb47a745792c0d
 - Summary: Feature story for ZD #394571 (Biomatik, 78k products) — sync export endpoint is O(n^2) and unbounded, never completes for large catalogs and blocks the imports server event loop. Stories: async export job + notification, streaming linear CSV build, support script `supportScripts/exportProductsToCSV.js` (written, Node v10 compatible), product-count guardrail. Root cause at `routes/products.js:498` / `productsHelperFunctions.js:354`; ops evidence in ops-wiki incident page.
+
+## [2026-06-30 13:15] zendesk-summarize | ZI-640 — FedEx REST EU de minimis (MCSL 382p patch)
+- Fetched: `raw/zendesk/shopify/396854.json` (FedEx regulatory bulletin, requester=FedEx)
+- Created: `wiki/zendesk/summaries/396854.md`, `wiki/zendesk/2026-06-30.md` (assigns ZI-640)
+- Updated: `wiki/product/releases/mcsl-382.md` (new "MCSL 382p — Patch Cards" section + count note), `wiki/index.md`
+- Trello: ph-WIP card [yYU2DWPl](https://trello.com/c/yYU2DWPl) in SL MCSL 383 lane, labels `SL: MCSL 382p` + `DEV` (created earlier this session)
+- Git reference: fe76d484aea2d575dc6bab86469e71a80962223a
+- Summary: EU de minimis exemption ends 2026-07-01; FedEx REST must send 3 product identifiers per EU B2C commodity. Lands in fedExRest/requestBuilder.js commoditiesFor() (L518). Tracked as the MCSL 382p patch, physically in the 383 lane. Blocker: exact FedEx field keys pending FedEx.
+
+## [2026-06-30 13:40] release | MCSL 382p fold + Amazon card reassignment
+- Updated: `wiki/product/releases/mcsl-382.md` — folded 382p patch cards into the DEV bucket with a `Source` column (381p pattern, Option A); cards_total 23→25; patch section now (2): ZI-640 + Amazon Shipping India
+- Updated: `wiki/product/releases/mcsl-383.md` — removed Amazon ad-hoc card (reassigned to 382p); cards_total 31→30; DEV 4→3; Ad-hoc (1)→(0); dropped-since-snapshot note
+- Trello: Amazon card VCSQGRaP already retagged `SL: MCSL 382p` (383 label removed) by user; no write needed
+- Git reference: fe76d484aea2d575dc6bab86469e71a80962223a
+- Summary: 382p patch now holds 2 in-flight DEV cards (FedEx EU de minimis ZI-640 + Amazon partner discounts), physically in the 383 lane, folded into 382's release record per the 381p precedent.
