@@ -517,3 +517,7 @@
 - Trello: Amazon card VCSQGRaP already retagged `SL: MCSL 382p` (383 label removed) by user; no write needed
 - Git reference: fe76d484aea2d575dc6bab86469e71a80962223a
 - Summary: 382p patch now holds 2 in-flight DEV cards (FedEx EU de minimis ZI-640 + Amazon partner discounts), physically in the 383 lane, folded into 382's release record per the 381p precedent.
+## [2026-06-30 14:10] feature-story | FedEx REST recipient street line duplicated on label + CI
+- Created: `wiki/product/stories/ZI-640.md`
+- Git reference: 6f2addc1f (storepep-react) · b67429f (mcsl-wiki)
+- Summary: Story ZI-640 for ZD #387062 (eurosec) + #396998 (dermahealer-uk, L3). Root cause CONFIRMED from UK3945 package-view as-sent FedEx request: recipient.address.streetLines = ["18 Hazel Grove Silsoe","18 Hazel Grove Silsoe"] — Line 1+Line 2 merged then duplicated by buildStreetLinesArray (fedExRest/requestBuilder.js:193 passes both addressLineN+address_N; recipient carried merged value under both after FedEx address validation/correction). Fix: coalesce addressLine1||address_1, addressLine2||address_2, addressLine3||address_3. Secondary follow-up: stop validation/correction merging L1+L2. Prior "fixes" PR #3051 (May 25) and c93c4adb7 (Jun 1) were different code paths.
