@@ -521,3 +521,9 @@
 - Created: `wiki/product/stories/ZI-640.md`
 - Git reference: 6f2addc1f (storepep-react) · b67429f (mcsl-wiki)
 - Summary: Story ZI-640 for ZD #387062 (eurosec) + #396998 (dermahealer-uk, L3). Root cause CONFIRMED from UK3945 package-view as-sent FedEx request: recipient.address.streetLines = ["18 Hazel Grove Silsoe","18 Hazel Grove Silsoe"] — Line 1+Line 2 merged then duplicated by buildStreetLinesArray (fedExRest/requestBuilder.js:193 passes both addressLineN+address_N; recipient carried merged value under both after FedEx address validation/correction). Fix: coalesce addressLine1||address_1, addressLine2||address_2, addressLine3||address_3. Secondary follow-up: stop validation/correction merging L1+L2. Prior "fixes" PR #3051 (May 25) and c93c4adb7 (Jun 1) were different code paths.
+
+## [2026-06-30 14:30] release | Add ZI-641 to MCSL 383 (post-snapshot reconciliation)
+- Updated: `wiki/product/releases/mcsl-383.md` — added ZI-641 (FedEx street-line dup, #387062/#396998) to QA READY; cards_total 30→31; QA READY 17→18
+- Context: ZI-641 was tagged `SL: MCSL 383` on ph-WIP after the 2026-06-26 snapshot (merged from origin); #387062 is split between ZI-615 (DHL freight) and ZI-641 (street-line dup)
+- Flagged: ZI-641 release card g5wjqFGa has no state label; not in any daily index
+- Git reference: fe76d484aea2d575dc6bab86469e71a80962223a

@@ -10,7 +10,7 @@ last_synced: 2026-06-26 18:30:00 UTC
 shipped_at: null
 git_reference: 462f9d50b42e95e8f348175103924904f5d5599a
 tickets_delta_on_last_sync: 0
-cards_total: 30
+cards_total: 31
 cards_shipped: 0
 cards_ready_to_ship: 0
 cards_high_risk: 0
@@ -38,12 +38,12 @@ cards_traded_off: 0
 | Unsupported Partnership | 0 |
 | Carrier Platform Issues | 0 |
 | BUG REPORTED | 0 |
-| QA READY | 17 |
+| QA READY | 18 |
 | DEV | 3 |
 | Open (not started) | 10 |
 | Spill Over | 0 |
 | Traded Off | 0 |
-| **Total** | **30** |
+| **Total** | **31** |
 
 ## Legend
 
@@ -93,9 +93,9 @@ cards_traded_off: 0
 
 *No cards in this state*
 
-## Still Open (30)
+## Still Open (31)
 
-### QA READY (17)
+### QA READY (18)
 
 | ZI | Ticket | Card |
 |----|--------|------|
@@ -116,6 +116,7 @@ cards_traded_off: 0
 | ZI-634 | [#394541](../../zendesk/summaries/394541.md) | [Link](https://trello.com/c/RjDgpI5E) |
 | ZI-637 | [#377795](../../zendesk/summaries/377795.md) | [Link](https://trello.com/c/AwCaVHOq) |
 | ZI-639 | [#392155](../../zendesk/summaries/392155.md) | [Link](https://trello.com/c/GI8M5IqJ) |
+| ZI-641 | [#387062](../../zendesk/summaries/387062.md) · #396998 | [Link](https://trello.com/c/g5wjqFGa) |
 
 ### DEV (3)
 
@@ -145,7 +146,7 @@ cards_traded_off: 0
 - Cards missing `[close-reason: ...]` comment: TBD
 - Cards with no ph-WIP correlation: 0 (all cards are on ph-WIP board)
 - Cards dropped since last snapshot: 0
-- Warnings: None
+- Warnings: ZI-641 (FedEx street-line dup, [#387062]/#396998) added to 383 after the 2026-06-26 snapshot; placed in QA READY per its active QA work, but its release-tagged ph-WIP card [g5wjqFGa](https://trello.com/c/g5wjqFGa) has **no state label** — a future `snapshot` will bucket it as Open until a Dev Done/QA label is added. Also not yet in any daily index.
 
 ## Cross-Links
 
