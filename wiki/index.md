@@ -155,7 +155,7 @@ Other sources:
 
 ### Zendesk Issue Extraction
 
-- [Issue Extraction — 2026-06-30](zendesk/2026-06-30.md) - Single-ticket ingest; ZI-640 (FedEx REST EU de minimis product identifiers, eff. 2026-07-01) — drives the MCSL 382p patch
+- [Issue Extraction — 2026-06-30](zendesk/2026-06-30.md) - ZI-640 (FedEx REST EU de minimis, eff. 2026-07-01 → MCSL 382p patch) and ZI-641 (FedEx REST recipient street-line duplication, L3 → MCSL 383)
 - [Issue Extraction — 2026-05-20](zendesk/2026-05-20.md) - 11-ticket delta; 37 new issues (ZI-520 → ZI-556) across MCSL, FedEx app, AusPost & NZ Post roadmaps
 - [Issue Extraction — 2026-05-11](zendesk/2026-05-11.md) - 17-ticket delta; ZI-496 → ZI-519
 - [Issue Extraction — 2026-04-20](zendesk/2026-04-20.md) - Latest ZI issues extracted from Shopify MCSL tickets, grouped by feature area

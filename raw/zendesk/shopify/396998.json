@@ -1,0 +1,565 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/396998.json",
+    "id": 396998,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "to": {},
+        "from": {
+          "ticket_id": 389508,
+          "subject": "Re: Reminder: FedEx REST API Migration for PH Multi Carrier Shipping Label App",
+          "channel": "email"
+        },
+        "rel": "follow_up"
+      }
+    },
+    "created_at": "2026-06-28T13:06:16Z",
+    "updated_at": "2026-06-30T13:13:54Z",
+    "generated_timestamp": 1782825234,
+    "type": null,
+    "subject": "Re: [PluginHive] Re: Re: Reminder: FedEx REST API Migration for PH Multi Carrier Shipping Label App",
+    "raw_subject": "Re: [PluginHive] Re: Re: Reminder: FedEx REST API Migration for PH Multi Carrier Shipping Label App",
+    "description": "This is a follow-up to your previous request #389508 \"Re: Reminder: FedEx REST AP...\"\n\nHello,\n\nsorry for delay.\nWe have tested UK store dermahealer.co.uk (http://dermahealer.co.uk/)  using FedEx REST.\nTEST ORDER: UK3945\n\n1) OK - tested FedEx REST and looks like it is working OK (the same way as old FedEx API), meaning that I can decide which Fedex service the app should assigning as default to my orders. I can move the Fedex service up or down in \"Automation Rules\" menu setup.\n\n2) Problem (2 PDF attached):\n- Fedex International Priority ->  duplicated name and streetline shown on the label and invoice (same issue was on .com store, later fixed)\n- FedEx Regional Economy -> duplicated name and streetline shown on the label and invoice (same issue was on .com store, later fixed)\nPlease discuss with your team (they fixed it in .com store)\n\nThanks\nArunas\n\nWhen will old Fedex API stop working, any deadlines?",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 15564246995609,
+    "submitter_id": 15564246995609,
+    "assignee_id": 10478126723609,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "aibot_auto_reply",
+      "dev_needed",
+      "high_agent_replies",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "dermahealer-uk.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "6a0a8998f321479c9a28d727"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "4ZDV41-32WKL",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "dermahealer-uk.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": "6a0a8998f321479c9a28d727"
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  "comments": [
+    {
+      "id": 59463066355993,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "This is a follow-up to your previous request #389508 \"Re: Reminder: FedEx REST AP...\"\n\nHello,\n\n\n\nsorry for delay.\n\nWe have tested UK store dermahealer.co.uk using FedEx REST.\n\nTEST ORDER: UK3945\n\n\n\n1) OK - tested FedEx REST and looks like it is working OK (the same way as old FedEx API), meaning that I can decide which Fedex service the app should assigning as default to my orders. I can move the Fedex service up or down in \"Automation Rules\" menu setup.\n\n\n\n2) Problem (2 PDF attached):\n- Fedex International Priority ->  duplicated name and streetline shown on the label and invoice (same issue was on .com store, later fixed)\n- FedEx Regional Economy -> duplicated name and streetline shown on the label and invoice (same issue was on .com store, later fixed)\n\nPlease discuss with your team (they fixed it in .com store)\n\n\n\nThanks\n\nArunas\n\n\n\nWhen will old Fedex API stop working, any deadlines?",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><div>This is a follow-up to your previous request <a href=\"/agent/tickets/389508\" target=\"_blank\" rel=\"ticket\">#389508</a> \"Re: Reminder: FedEx REST AP...\"</div><div dir=\"ltr\"><div dir=\"ltr\"><div>Hello,</div><div><br></div><div>sorry for delay.</div><div>We have tested UK store&nbsp;<a href=\"http://dermahealer.co.uk/\" rel=\"noreferrer\">dermahealer.co.uk</a>&nbsp;using FedEx REST.</div><div>\nTEST ORDER:&nbsp;UK3945</div><div><br></div><div>1) OK - tested FedEx REST and looks like it is working OK (the same way as \nold FedEx API), meaning that I can decide which Fedex service the app \nshould assigning as default to my orders. I can move the Fedex service \nup or down in \"Automation Rules\" menu setup.</div><div><br></div><div>2) Problem (2 PDF attached):<br>- Fedex International Priority -&gt;&nbsp; duplicated name and streetline shown on the label and invoice (same issue was on .com store, later fixed)\n\n<br>- FedEx Regional Economy -&gt; duplicated name and streetline shown on the label and invoice (same issue was on .com store, later fixed)</div><div>Please discuss with your team (they fixed it in .com store)</div><div><br></div><div>Thanks</div><div>Arunas</div><div>\n\n</div><div><br></div></div><div>\nWhen will old Fedex API stop working, any deadlines?\n\n</div><div><br></div><div><br></div>\n</div></div>",
+      "plain_body": "This is a follow-up to your previous request #389508 \"Re: Reminder: FedEx REST AP...\"    Hello,  \n  sorry for delay.  We have tested UK store&nbsp;dermahealer.co.uk&nbsp;using FedEx REST.  \nTEST ORDER:&nbsp;UK3945  \n  1) OK - tested FedEx REST and looks like it is working OK (the same way as \nold FedEx API), meaning that I can decide which Fedex service the app \nshould assigning as default to my orders. I can move the Fedex service \nup or down in \"Automation Rules\" menu setup.  \n  2) Problem (2 PDF attached):\n- Fedex International Priority -&gt;&nbsp; duplicated name and streetline shown on the label and invoice (same issue was on .com store, later fixed)\n\n\n- FedEx Regional Economy -&gt; duplicated name and streetline shown on the label and invoice (same issue was on .com store, later fixed)  Please discuss with your team (they fixed it in .com store)  \n  Thanks  Arunas  \n\n  \n   \nWhen will old Fedex API stop working, any deadlines?",
+      "public": true,
+      "attachments": [
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/59463096142617.json",
+          "id": 59463096142617,
+          "file_name": "Label_priority.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/b2SXoqqLIIQIWLiW0gK3na66x/?name=Label_priority.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/b2SXoqqLIIQIWLiW0gK3na66x/?name=Label_priority.pdf",
+          "content_type": "application/pdf",
+          "size": 139308,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        },
+        {
+          "url": "https://pluginhive.zendesk.com/api/v2/attachments/59463096150425.json",
+          "id": 59463096150425,
+          "file_name": "Label_economy.pdf",
+          "content_url": "https://pluginhive.zendesk.com/attachments/token/EtmciH4GpTU4YOmh2ctkqnXq2/?name=Label_economy.pdf",
+          "mapped_content_url": "https://support.pluginhive.com/attachments/token/EtmciH4GpTU4YOmh2ctkqnXq2/?name=Label_economy.pdf",
+          "content_type": "application/pdf",
+          "size": 139321,
+          "width": null,
+          "height": null,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found",
+          "thumbnails": []
+        }
+      ],
+      "audit_id": 59463066355865,
+      "via": {
+        "channel": "web",
+        "source": {
+          "to": {},
+          "from": {
+            "ticket_id": 389508,
+            "subject": "Re: Reminder: FedEx REST API Migration for PH Multi Carrier Shipping Label App",
+            "channel": "email"
+          },
+          "rel": "follow_up"
+        }
+      },
+      "created_at": "2026-06-28T13:06:16Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=Lkbv--mh0qcoCKSi24R=OsoiAXDyeerTc8jaQiECv_g035w@mail.gmail.com>",
+          "email_id": "01KW75CRFPPEX32MVT2BW99NS7",
+          "raw_email_identifier": "2369120/ce007db3-5e74-4a7d-a420-1cac35ecabcb.eml",
+          "json_email_identifier": "2369120/ce007db3-5e74-4a7d-a420-1cac35ecabcb.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59476333715353,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Lithuania store\n15 orders\nFedEx account added\n29 labels in June\nActive from Feb 2023 and $9 plan selected",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Lithuania store<br>15 orders<br>FedEx account added<br>29 labels in June<br>Active from Feb 2023 and $9 plan selected<br></div>",
+      "plain_body": "Lithuania store\n15 orders\nFedEx account added\n29 labels in June\nActive from Feb 2023 and $9 plan selected",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59476333715225,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-29T02:17:11Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59476525133721,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "Hello Arunas,\n\nThank you for testing the UK store and sharing the label samples, that is very helpful.\n\nRegarding the duplicated address issue: we have reviewed both attached PDFs and can confirm that \"18 Hazel Grove Silsoe\" does appear twice in the recipient address block on both the FedEx International Priority and FedEx Regional Economy labels for test order UK3945. We have noted that this was resolved for your .com store and will raise this with our team to apply the same fix to the UK store (dermahealer.co.uk). We will update you here once it has been addressed.\n\nRegarding the FedEx legacy API deadline: FedEx officially retired its legacy SOAP/Web Services API on June 1, 2026, that deadline has already passed. Since you have already completed the migration to FedEx REST on the UK store, you are not affected and your labels and rates will continue to work normally.\n\nWe will be in touch once the duplicate address fix has been applied to the UK store. If you have any questions in the meantime, please do not hesitate to reach out.\n\nBest regards,\nSagar K S\nPluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Arunas,<br>&nbsp;<br>Thank you for testing the UK store and sharing the label samples, that is very helpful.<br>&nbsp;<br>Regarding the duplicated address issue: we have reviewed both attached PDFs and can confirm that \"18 Hazel Grove Silsoe\" does appear twice in the recipient address block on both the FedEx International Priority and FedEx Regional Economy labels for test order UK3945. We have noted that this was resolved for your .com store and will raise this with our team to apply the same fix to the UK store (dermahealer.co.uk). We will update you here once it has been addressed.<br>&nbsp;<br>Regarding the FedEx legacy API deadline: FedEx officially retired its legacy SOAP/Web Services API on June 1, 2026, that deadline has already passed. Since you have already completed the migration to FedEx REST on the UK store, you are not affected and your labels and rates will continue to work normally.<br>&nbsp;<br>We will be in touch once the duplicate address fix has been applied to the UK store. If you have any questions in the meantime, please do not hesitate to reach out.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+      "plain_body": "Hello Arunas,\n&nbsp;\nThank you for testing the UK store and sharing the label samples, that is very helpful.\n&nbsp;\nRegarding the duplicated address issue: we have reviewed both attached PDFs and can confirm that \"18 Hazel Grove Silsoe\" does appear twice in the recipient address block on both the FedEx International Priority and FedEx Regional Economy labels for test order UK3945. We have noted that this was resolved for your .com store and will raise this with our team to apply the same fix to the UK store (dermahealer.co.uk). We will update you here once it has been addressed.\n&nbsp;\nRegarding the FedEx legacy API deadline: FedEx officially retired its legacy SOAP/Web Services API on June 1, 2026, that deadline has already passed. Since you have already completed the migration to FedEx REST on the UK store, you are not affected and your labels and rates will continue to work normally.\n&nbsp;\nWe will be in touch once the duplicate address fix has been applied to the UK store. If you have any questions in the meantime, please do not hesitate to reach out.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59476525133593,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-29T02:21:26Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59476681607961,
+      "type": "Comment",
+      "author_id": 10478126723609,
+      "body": "L3 - To resolve following case in the store dermahealer-uk.myshopify.com that has been already resolved in the store dermahealer-com.myshopify.com\n\nCase - Duplicated Recipient Name and Address Line on the FedEx International Priority and Regional Economy labels in the Rest API integration\n\nSample Order to check - UK3945\n\nAction to be Taken - To apply the same fix for this case that was applied for the store dermahealer-com.myshopify.com\n\nPlease resolve this and let us know once done\n\nStore URL - dermahealer-uk.myshopify.com\nApp - Shopify MCSL\nAccount ID - 2ec92218-e5ba-4300-a9c8-99b863c1e820",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3 - To resolve following case in the store <a rel=\"noopener noreferrer\" href=\"http://dermahealer-uk.myshopify.com\">dermahealer-uk.myshopify.com</a> that has been already resolved in the store <a rel=\"noopener noreferrer\" href=\"http://dermahealer-com.myshopify.com\">dermahealer-com.myshopify.com</a>&nbsp;<br>&nbsp;<br>Case - Duplicated Recipient Name and Address Line on the FedEx International Priority and Regional Economy labels in the Rest API integration<br>&nbsp;<br>Sample Order to check - UK3945<br>&nbsp;<br>Action to be Taken - To apply the same fix for this case that was applied for the store <a rel=\"noopener noreferrer\" href=\"http://dermahealer-com.myshopify.com\">dermahealer-com.myshopify.com</a> &nbsp;<br>&nbsp;<br>Please resolve this and let us know once done<br>&nbsp;<br>Store URL - <a rel=\"noopener noreferrer\" href=\"http://dermahealer-uk.myshopify.com\">dermahealer-uk.myshopify.com</a>&nbsp;<br>App - Shopify MCSL<br>Account ID - 2ec92218-e5ba-4300-a9c8-99b863c1e820<br></div>",
+      "plain_body": "L3 - To resolve following case in the store dermahealer-uk.myshopify.com that has been already resolved in the store dermahealer-com.myshopify.com&nbsp;\n&nbsp;\nCase - Duplicated Recipient Name and Address Line on the FedEx International Priority and Regional Economy labels in the Rest API integration\n&nbsp;\nSample Order to check - UK3945\n&nbsp;\nAction to be Taken - To apply the same fix for this case that was applied for the store dermahealer-com.myshopify.com &nbsp;\n&nbsp;\nPlease resolve this and let us know once done\n&nbsp;\nStore URL - dermahealer-uk.myshopify.com&nbsp;\nApp - Shopify MCSL\nAccount ID - 2ec92218-e5ba-4300-a9c8-99b863c1e820",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59476681607833,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-29T02:25:53Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59499946666009,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "This is not a toggle feature. We are checking why the address is getting duplicated again.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This is not a toggle feature. We are checking why the address is getting duplicated again.<br>[Veena]<br></div>",
+      "plain_body": "This is not a toggle feature. We are checking why the address is getting duplicated again.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59499946665369,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-29T13:29:35Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Pathan\u0101mthitta, KL, India",
+          "latitude": 9.2612,
+          "longitude": 76.7833
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59535003133721,
+      "type": "Comment",
+      "author_id": 8448825445657,
+      "body": "This needs a fix and will update on the same. Kindly inform the same to the merchant and move to dev_needed.\n[Veena]",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">This needs a fix and will update on the same. Kindly inform the same to the merchant and move to dev_needed.<br>[Veena]<br></div>",
+      "plain_body": "This needs a fix and will update on the same. Kindly inform the same to the merchant and move to dev_needed.\n[Veena]",
+      "public": false,
+      "attachments": [],
+      "audit_id": 59535003133593,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-30T12:16:54Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59535985271961,
+      "type": "Comment",
+      "author_id": 44512844768153,
+      "body": "Hi Arunas,\n\nOur development team has reviewed the reported behavior and confirmed that it requires a code update for the UK store.\nThe required update has been logged, and the team is currently working on it. We will keep you informed and update you as soon as it has been deployed to your Dermahealer UK store.\n\nThank you for your patience. We will keep you posted as soon as we have an update.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Arunas,<br>&nbsp;<br>Our development team has reviewed the reported behavior and confirmed that it requires a code update for the UK store.&nbsp;<br>The required update has been logged, and the team is currently working on it. We will keep you informed and update you as soon as it has been deployed to your Dermahealer UK store.<br>&nbsp;<br>Thank you for your patience. We will keep you posted as soon as we have an update.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+      "plain_body": "Hi Arunas,\n&nbsp;\nOur development team has reviewed the reported behavior and confirmed that it requires a code update for the UK store.&nbsp;\nThe required update has been logged, and the team is currently working on it. We will keep you informed and update you as soon as it has been deployed to your Dermahealer UK store.\n&nbsp;\nThank you for your patience. We will keep you posted as soon as we have an update.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59535985271833,
+      "via": {
+        "channel": "web",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-30T13:01:28Z",
+      "metadata": {
+        "system": {
+          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+          "ip_address": "127.0.0.6",
+          "location": "Bengaluru, KA, India",
+          "latitude": 12.9753,
+          "longitude": 77.591
+        },
+        "custom": {}
+      }
+    },
+    {
+      "id": 59536236863641,
+      "type": "Comment",
+      "author_id": 15564246995609,
+      "body": "Thanks for the update.\n\n\n\nRegards,\n\nArunas",
+      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div>Thanks for the update.</div><div><br></div><div>Regards,</div><div>Arunas</div></div><br><div></div></div>",
+      "plain_body": "Thanks for the update.  \n  Regards,  Arunas",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59536236863513,
+      "via": {
+        "channel": "email",
+        "source": {
+          "from": {
+            "address": "info@dermahealer.com",
+            "name": "Arunas",
+            "original_recipients": [
+              "info@dermahealer.com",
+              "support@pluginhive.com"
+            ]
+          },
+          "to": {
+            "name": "PluginHive",
+            "address": "support@pluginhive.com"
+          },
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-30T13:10:29Z",
+      "metadata": {
+        "system": {
+          "message_id": "<CAL=LkbuM0o_WYdLhZKdh12EvHzatiywTT8eTLvxOCUFfg1KAMg@mail.gmail.com>",
+          "email_id": "01KWCAE1KV2ASD94KF80SA9DTR",
+          "raw_email_identifier": "2369120/02aa1420-fc69-469c-a734-e87795627fe1.eml",
+          "json_email_identifier": "2369120/02aa1420-fc69-469c-a734-e87795627fe1.json",
+          "eml_redacted": false
+        },
+        "custom": {},
+        "flags": [
+          15
+        ],
+        "flags_options": {
+          "15": {
+            "trusted": true
+          }
+        },
+        "trusted": true,
+        "suspension_type_id": null
+      }
+    },
+    {
+      "id": 59536269149721,
+      "type": "Comment",
+      "author_id": 366759418072,
+      "body": "Hello Arunas,\n\nThank you for your patience. We will notify you as soon as the fix has been deployed to your Dermahealer UK store. Feel free to reach out anytime if you need anything in the meantime.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 To help you faster, this reply was drafted automatically by PluginHive's AI assistant. Our team reviews every AI reply and will follow up to confirm it's fully resolved.",
+      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hello Arunas,</p>\n<p dir=\"auto\">Thank you for your patience. We will notify you as soon as the fix has been deployed to your Dermahealer UK store. Feel free to reach out anytime if you need anything in the meantime.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 To help you faster, this reply was drafted automatically by PluginHive's AI assistant. Our team reviews every AI reply and will follow up to confirm it's fully resolved.</p></div>",
+      "plain_body": "Hello Arunas, \n Thank you for your patience. We will notify you as soon as the fix has been deployed to your Dermahealer UK store. Feel free to reach out anytime if you need anything in the meantime. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 To help you faster, this reply was drafted automatically by PluginHive's AI assistant. Our team reviews every AI reply and will follow up to confirm it's fully resolved.",
+      "public": true,
+      "attachments": [],
+      "audit_id": 59536269149593,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-06-30T13:10:46Z",
+      "metadata": {
+        "system": {
+          "client": "node",
+          "ip_address": "206.189.72.35",
+          "location": "Santa Clara, CA, United States",
+          "latitude": 37.3486,
+          "longitude": -121.9732
+        },
+        "custom": {}
+      }
+    }
+  ]
+}

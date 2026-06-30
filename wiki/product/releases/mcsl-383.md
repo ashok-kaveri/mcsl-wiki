@@ -116,7 +116,7 @@ cards_traded_off: 0
 | ZI-634 | [#394541](../../zendesk/summaries/394541.md) | [Link](https://trello.com/c/RjDgpI5E) |
 | ZI-637 | [#377795](../../zendesk/summaries/377795.md) | [Link](https://trello.com/c/AwCaVHOq) |
 | ZI-639 | [#392155](../../zendesk/summaries/392155.md) | [Link](https://trello.com/c/GI8M5IqJ) |
-| ZI-641 | [#387062](../../zendesk/summaries/387062.md) · #396998 | [Link](https://trello.com/c/g5wjqFGa) |
+| ZI-641 | [#396998](../../zendesk/summaries/396998.md) | [Link](https://trello.com/c/g5wjqFGa) |
 
 ### DEV (3)
 
@@ -146,7 +146,7 @@ cards_traded_off: 0
 - Cards missing `[close-reason: ...]` comment: TBD
 - Cards with no ph-WIP correlation: 0 (all cards are on ph-WIP board)
 - Cards dropped since last snapshot: 0
-- Warnings: ZI-641 (FedEx street-line dup, [#387062]/#396998) added to 383 after the 2026-06-26 snapshot; placed in QA READY per its active QA work, but its release-tagged ph-WIP card [g5wjqFGa](https://trello.com/c/g5wjqFGa) has **no state label** — a future `snapshot` will bucket it as Open until a Dev Done/QA label is added. Also not yet in any daily index.
+- Warnings: ZI-641 (FedEx street-line dup, [#387062]/#396998) added to 383 after the 2026-06-26 snapshot; placed in QA READY per its active QA work, but its release-tagged ph-WIP card [g5wjqFGa](https://trello.com/c/g5wjqFGa) has **no state label** — a future `snapshot` will bucket it as Open until a Dev Done/QA label is added. (Now registered in `../../zendesk/2026-06-30.md`; #396998 summarized.)
 
 ## Cross-Links
 

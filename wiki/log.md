@@ -527,3 +527,11 @@
 - Context: ZI-641 was tagged `SL: MCSL 383` on ph-WIP after the 2026-06-26 snapshot (merged from origin); #387062 is split between ZI-615 (DHL freight) and ZI-641 (street-line dup)
 - Flagged: ZI-641 release card g5wjqFGa has no state label; not in any daily index
 - Git reference: fe76d484aea2d575dc6bab86469e71a80962223a
+
+## [2026-06-30 16:05] zendesk-summarize | Backfill ZI-641 pipeline (summary + daily index)
+- Fetched: `raw/zendesk/shopify/396998.json` (Arunas / dermahealer-uk, L3)
+- Created: `wiki/zendesk/summaries/396998.md`
+- Updated: `wiki/zendesk/2026-06-30.md` — registered ZI-641 alongside ZI-640 (tickets/issues 1→2)
+- Updated: `wiki/product/releases/mcsl-383.md` (ZI-641 row now links #396998; cleared daily-index warning), `wiki/index.md`
+- Context: closes the two gaps left by Deepak's story-first commits (f4fe6bb/52720d6) — he created stories/ZI-641.md + log only, no summary/index. Numbering preserved (ZI-641 = street line).
+- Git reference: fe76d484aea2d575dc6bab86469e71a80962223a
