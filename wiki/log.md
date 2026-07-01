@@ -1,5 +1,11 @@
 # StorePep KB Activity Log
 
+## [2026-06-30 15:00] feature-story | ZI-642 — Shopify cancellation flips label-created orders to Cancelled
+- Created: `wiki/product/stories/ZI-642.md`
+- Updated: `wiki/zendesk/summaries/390510.md` (added issue 5 + ZI-642 link)
+- Git reference: storepep-react `6f2addc1f` · mcsl-wiki `52720d6`
+- Summary: New story for ticket #390510 item 5 (loveofindia, L3, reported 2026-06-30). Shopify order cancellation overwrites StorePep status to CANCELLED even for `LABEL_CREATED`/`SHIPPED` orders. Root cause confirmed against live code: the cancel branch (`processCanceledOrders.js:53-59`) writes CANCELLED with no status check and bypasses the normal path's `checkIfAllSubOrdersAreInProcessing` guard (`internalOrderWebhook.js:51,70-79` → `processOrderHelper.js:152`); not gated by `orderStatusUpdateEnabled`, so blast radius = all MCSL Shopify stores. Old bug (2019) newly exposed by the mid-2025 order-status auto-update feature (PR #2524). Fix: guard the flip on `storePepStatus ∈ {PROCESSING, INITIAL}` at `processCanceledOrders.js:52`. Decisive verification via stored `lastOrderStatus`. Mirrors ops-wiki incident `Incident - 2026-06-30 - MCSL Label-Created Orders Cancelled on Shopify Cancel`.
+
 ## [2026-06-26 12:55] ship | Release MCSL 382
 - Release: `wiki/product/releases/mcsl-382.md` (status: shipped, shipped_at: 2026-06-26)
 - Cards total: 23 (15 ZI + 3 ad-hoc + 3 support-closed + 2 traded-off)
