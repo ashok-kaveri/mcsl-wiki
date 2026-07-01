@@ -1,5 +1,10 @@
 # StorePep KB Activity Log
 
+## [2026-07-01 11:30] triage | Backfill ZI-642 into 2026-06-30 daily index
+- Updated: `wiki/zendesk/2026-06-30.md` (registered ZI-642 under order-management; tickets/issues 2 → 3)
+- Git reference: mcsl-wiki `9928b4a`
+- Summary: Deepak's story commit created `stories/ZI-642.md` + summary #390510 issue 5 but never registered the ZI in a daily index (highest was ZI-641). Backfilled the canonical ID entry so the story's ZI-642 reference resolves. **Not added to any release** and not added to backlog — index registration only. Confirmed no prior ZI-642 entry existed elsewhere.
+
 ## [2026-06-30 15:00] feature-story | ZI-642 — Shopify cancellation flips label-created orders to Cancelled
 - Created: `wiki/product/stories/ZI-642.md`
 - Updated: `wiki/zendesk/summaries/390510.md` (added issue 5 + ZI-642 link)
