@@ -62,9 +62,13 @@ cards_traded_off: 0
 
 
 
-## Ad-hoc Cards (0)
+## Ad-hoc Cards (1)
 
 *The Amazon Shipping India 30% partner-discount card was reassigned to the **MCSL 382p** patch — see [mcsl-382.md](mcsl-382.md).*
+
+| ZI | Issue | Card | Area | Status |
+|----|-------|------|------|--------|
+| ZI-643 | [India Post: Math.random() barcode collisions](../stories/ZI-643.md) | [Link](https://trello.com/c/K8w290sE) | label-generation | Open |
 
 ## Shipped (0)
 
