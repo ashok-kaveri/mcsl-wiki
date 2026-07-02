@@ -546,3 +546,11 @@
 - Updated: `wiki/product/releases/mcsl-383.md` (ZI-641 row now links #396998; cleared daily-index warning), `wiki/index.md`
 - Context: closes the two gaps left by Deepak's story-first commits (f4fe6bb/52720d6) — he created stories/ZI-641.md + log only, no summary/index. Numbering preserved (ZI-641 = street line).
 - Git reference: fe76d484aea2d575dc6bab86469e71a80962223a
+
+## [2026-07-03 00:35] feature-story | ZI-643 India Post Math.random() barcode collisions
+- Created: `wiki/product/stories/ZI-643.md`
+- Updated: `wiki/product/releases/mcsl-383.md` — ad-hoc card (tabular format)
+- Updated: `wiki/zendesk/2026-06-30.md` — ZI-643 registered under label-generation
+- Trello: https://trello.com/c/K8w290sE (ph-WIP, SL MCSL 383 lane)
+- Git reference: e01ae82
+- Summary: Internally discovered bug — generateBarcode() uses Math.random() for India Post barcode_no. Non-unique, non-S10-compliant, collides across PM2 workers. Sandbox masks it (accepts junk); production will reject. Fix: atomic $inc counter + S10 check-digit helper. Ad-hoc card added to MCSL 383.
