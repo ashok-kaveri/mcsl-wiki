@@ -1,5 +1,21 @@
 # StorePep KB Activity Log
 
+## [2026-07-03 12:00] feature-story | ZI-644 ad-hoc card — FedEx REST registration fails for countries without zip codes
+- Created: `wiki/product/stories/ZI-644.md`
+- Updated: `wiki/product/releases/mcsl-383.md` — ad-hoc card (2); ZI-644 added
+- Trello: https://trello.com/c/cxuQOXYr (ph-WIP, SL MCSL 383 lane)
+- Summary: Kuwait merchant FedEx registration blocked by two issues: (1) `DEFAULT_POST_CODE = 99999` is number, carrier-registration-api requires string — coerce with `String(zipCode)` in `carrierRegistrationService.js:142`; (2) Kuwait incorrectly marked `post: 'NONE'` in `countries.js` — hides zip code field. Ad-hoc card added to MCSL 383.
+
+## [2026-07-03 11:00] zendesk-summarize | FedEx REST registration — Kuwait postal code type mismatch
+- Source: Slack escalation (Veena, 2026-07-03) + Zendesk #396159
+- Created: `raw/zendesk/shopify/396159.json` (pulled from Zendesk API, 49 comments)
+- Created: `wiki/zendesk/summaries/396159.md`
+- Created: `wiki/zendesk/2026-07-03.md` (ZI-644)
+- Updated: `wiki/product/backlog.md` (ZI-644 added to cluster #3 Carrier config, 11→12 issues)
+- Updated: `wiki/index.md`
+- Git reference: current
+- Summary: Kuwait merchant (That Al Salasil) FedEx REST registration failing. Root cause: `Country.js:12` — `DEFAULT_POST_CODE = 99999` is a number literal; carrier-registration-api JSON schema requires `postalCode` to be a string. Affects ~65 countries with `post: 'NONE'`. One-line fix: change to string `'99999'`.
+
 ## [2026-07-01 11:30] triage | Backfill ZI-642 into 2026-06-30 daily index
 - Updated: `wiki/zendesk/2026-06-30.md` (registered ZI-642 under order-management; tickets/issues 2 → 3)
 - Git reference: mcsl-wiki `9928b4a`

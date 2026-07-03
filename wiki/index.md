@@ -155,6 +155,7 @@ Other sources:
 
 ### Zendesk Issue Extraction
 
+- [Issue Extraction — 2026-07-03](zendesk/2026-07-03.md) - ZI-644 (FedEx REST registration fails for countries without zip codes)
 - [Issue Extraction — 2026-06-30](zendesk/2026-06-30.md) - ZI-640 (FedEx REST EU de minimis, eff. 2026-07-01 → MCSL 382p patch) and ZI-641 (FedEx REST recipient street-line duplication, L3 → MCSL 383)
 - [Issue Extraction — 2026-05-20](zendesk/2026-05-20.md) - 11-ticket delta; 37 new issues (ZI-520 → ZI-556) across MCSL, FedEx app, AusPost & NZ Post roadmaps
 - [Issue Extraction — 2026-05-11](zendesk/2026-05-11.md) - 17-ticket delta; ZI-496 → ZI-519
