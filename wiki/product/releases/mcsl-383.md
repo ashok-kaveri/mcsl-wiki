@@ -10,7 +10,7 @@ last_synced: 2026-06-26 18:30:00 UTC
 shipped_at: null
 git_reference: 462f9d50b42e95e8f348175103924904f5d5599a
 tickets_delta_on_last_sync: 0
-cards_total: 31
+cards_total: 30
 cards_shipped: 0
 cards_ready_to_ship: 0
 cards_high_risk: 0
@@ -43,7 +43,7 @@ cards_traded_off: 0
 | Open (not started) | 10 |
 | Spill Over | 0 |
 | Traded Off | 0 |
-| **Total** | **31** |
+| **Total** | **30** |
 
 ## Legend
 
@@ -62,14 +62,14 @@ cards_traded_off: 0
 
 
 
-## Ad-hoc Cards (2)
+## Ad-hoc Cards (1)
 
 *The Amazon Shipping India 30% partner-discount card was reassigned to the **MCSL 382p** patch — see [mcsl-382.md](mcsl-382.md).*
+*The FedEx REST registration card was reassigned to the **MCSL 382p** patch — see [mcsl-382.md](mcsl-382.md).*
 
 | ZI | Issue | Card | Area | Status |
 |----|-------|------|------|--------|
 | ZI-643 | [India Post: Math.random() barcode collisions](../stories/ZI-643.md) | [Link](https://trello.com/c/K8w290sE) | label-generation | Open |
-| ZI-644 | [FedEx REST registration fails for countries without zip codes](../stories/ZI-644.md) | [Link](https://trello.com/c/cxuQOXYr) | carrier-config | Open |
 
 ## Shipped (0)
 

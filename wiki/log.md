@@ -1,5 +1,10 @@
 # StorePep KB Activity Log
 
+## [2026-07-06 12:00] reassign | ZI-644 moved from MCSL 383 to MCSL 382p
+- Updated: `wiki/product/releases/mcsl-383.md` — removed ZI-644 from ad-hoc cards (2→1), total 31→30
+- Updated: `wiki/product/releases/mcsl-382.md` — added ZI-644 to 382p patch cards (2→3), DEV (2→3), total 25→26
+- Summary: FedEx REST registration fix reassigned to 382p patch for hotfix deployment on top of shipped 382 release
+
 ## [2026-07-03 12:00] feature-story | ZI-644 ad-hoc card — FedEx REST registration fails for countries without zip codes
 - Created: `wiki/product/stories/ZI-644.md`
 - Updated: `wiki/product/releases/mcsl-383.md` — ad-hoc card (2); ZI-644 added

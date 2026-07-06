@@ -10,7 +10,7 @@ last_synced: 2026-06-26 12:51:35 UTC
 shipped_at: 2026-06-26
 git_reference: d74c967ff04c2c7841722af1a872248abcd04e74
 tickets_delta_on_last_sync: 0
-cards_total: 25
+cards_total: 26
 cards_shipped: 0
 cards_ready_to_ship: 18
 cards_high_risk: 0
@@ -39,13 +39,13 @@ cards_traded_off: 2
 | Carrier Platform Issues | 0 |
 | BUG REPORTED | 0 |
 | QA READY | 0 |
-| DEV | 2 |
+| DEV | 3 |
 | Open (not started) | 0 |
 | Spill Over | 0 |
 | Traded Off | 2 |
-| **Total** | **25** |
+| **Total** | **26** |
 
-**Note:** 25 unique cards (23 from the MCSL 382 lane + 2 from the MCSL 382p patch). The 2 patch cards are in-flight (DEV) hotfixes deployed on top of the shipped 382 release — tracked under *MCSL 382p — Patch Cards* and folded into the DEV bucket below (Source = `382p`).
+**Note:** 26 unique cards (23 from the MCSL 382 lane + 3 from the MCSL 382p patch). The 3 patch cards are in-flight (DEV) hotfixes deployed on top of the shipped 382 release — tracked under *MCSL 382p — Patch Cards* and folded into the DEV bucket below (Source = `382p`).
 
 ## Legend
 
@@ -85,7 +85,7 @@ PR - [https://bitbucket.org/xadapter-cyd/storepep-react/pull-requests/3133](http
 ‌
 
 
-## MCSL 382p — Patch Cards (2)
+## MCSL 382p — Patch Cards (3)
 
 *Patch cards tagged `SL: MCSL 382p`, living in the MCSL 383 lane. Post-382 hotfixes deployed on top of the 382 release; folded into the DEV bucket below with Source = `382p`.*
 
@@ -104,6 +104,14 @@ EU de minimis exemption ends **2026-07-01**. FedEx REST now requires, per-commod
 Apply 30% discount on $29/$49/$99 plans for Amazon-referred partner stores. Discount applied at the Shopify charge layer in `shopify-multicarrier-app` — no storepep-react changes. Partner store allowlist via env var. *(Reassigned from MCSL 383 to the 382p patch.)*
 
 **Sources:** [Requirement](https://pluginhive.slack.com/archives/C0AREH9HNFQ/p1782289838018159) · [Refund trigger — #396499](https://pluginhive.slack.com/archives/C02E15X8X0C/p1782298655255439)
+
+### ZI-644 — FedEx REST registration fails for countries without zip codes [#396159]
+
+**State:** DEV  ·  **Card:** [https://trello.com/c/cxuQOXYr](https://trello.com/c/cxuQOXYr)
+
+FedEx REST carrier registration fails for ~65 countries where postal code is suppressed (`post: 'NONE'`). Two issues: (1) `Country.js:12` defines `DEFAULT_POST_CODE = 99999` as a number literal — carrier-registration-api JSON schema requires string, causing validation error; (2) Kuwait incorrectly marked as no-postal-code country. Fix: `String(zipCode)` coercion in `carrierRegistrationService.js:142` + remove `post: 'NONE'` from Kuwait in `countries.js:141`. *(Reassigned from MCSL 383 to the 382p patch.)*
+
+**Sources:** [Zendesk #396159](../../zendesk/summaries/396159.md) (ZI-644) · [Story card](../stories/ZI-644.md)
 
 ## Shipped (0)
 
@@ -158,17 +166,18 @@ Apply 30% discount on $29/$49/$99 plans for Amazon-referred partner stores. Disc
 | ZI-581 | [#391159](../../zendesk/summaries/391159.md) | [Link](https://trello.com/c/dJYpGyep) |
 | ZI-582 | [#375738](../../zendesk/summaries/375738.md) | [Link](https://trello.com/c/8MoVg84b) |
 
-## Still Open (2)
+## Still Open (3)
 
 ### QA READY (0)
 
 *No cards in this state*
 
-### DEV (2)
+### DEV (3)
 
 | ZI | Ticket | Card | Source |
 |----|--------|------|--------|
 | ZI-640 | [#396854](../../zendesk/summaries/396854.md) | [Link](https://trello.com/c/yYU2DWPl) | 382p |
+| ZI-644 | [#396159](../../zendesk/summaries/396159.md) | [Link](https://trello.com/c/cxuQOXYr) | 382p |
 | — | Amazon Shipping India — 30% Partner Discount Plans | [Link](https://trello.com/c/VCSQGRaP) | 382p |
 
 ### Open / not started (0)
