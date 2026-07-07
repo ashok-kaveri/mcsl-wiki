@@ -1,5 +1,19 @@
 # StorePep KB Activity Log
 
+## [2026-07-07 06:01] zendesk-summarize | MCSL 384 iteration planning batch
+- Created: `wiki/zendesk/2026-07-07.md` — daily index with 18 new ZIs (ZI-645 through ZI-662) + 9 carried forward
+- Created: `wiki/zendesk/summaries/397045.md`, `396604.md`, `396557.md`, `395199.md`, `396457.md`, `395887.md`, `396298.md`, `394908.md`, `395822.md`
+- Updated: `wiki/zendesk/summaries/381046.md`, `375662.md`, `375738.md`, `392759.md`, `391972.md`, `391852.md`, `394243.md`, `390108.md`, `390510.md` (re-fetched stale raw JSONs + re-summarized)
+- Raw JSONs: 9 new fetched, 9 stale re-fetched, 4 confirmed current
+- Git reference: 2efbe6e
+- Summary: 22 tickets processed for MCSL 384 scope — 8 carrier-config, 3 order-management, 3 label-generation, 2 rate-shopping, 4 feature-request, 2 product-management, 5 other
+
+## [2026-07-07 06:01] release-snapshot | MCSL 382 and 383 sync
+- Updated: `wiki/product/releases/mcsl-382.md` — all 26 cards shipped (including 3 382p patch cards)
+- Updated: `wiki/product/releases/mcsl-383.md` — snapshot from Trello: 5 ready to ship, 4 bug reported, 12 QA ready, 2 DEV, 1 support closed, 7 spill over, 1 open
+- Git reference: 2efbe6e
+- Summary: 382 fully closed. 383 snapshot refreshed from live Trello state (was 11 days stale)
+
 ## [2026-07-06 12:00] reassign | ZI-644 moved from MCSL 383 to MCSL 382p
 - Updated: `wiki/product/releases/mcsl-383.md` — removed ZI-644 from ad-hoc cards (2→1), total 31→30
 - Updated: `wiki/product/releases/mcsl-382.md` — added ZI-644 to 382p patch cards (2→3), DEV (2→3), total 25→26

@@ -12,8 +12,8 @@
       }
     },
     "created_at": "2026-05-29T09:58:42Z",
-    "updated_at": "2026-06-16T04:06:09Z",
-    "generated_timestamp": 1781582769,
+    "updated_at": "2026-07-03T11:13:01Z",
+    "generated_timestamp": 1783077181,
     "type": null,
     "subject": "Need to add another logistics service to your port...",
     "raw_subject": "Need to add another logistics service to your port...",
@@ -39,7 +39,10 @@
     "is_public": true,
     "due_at": null,
     "tags": [
+      "aibot_auto_reply",
+      "aibot_off",
       "dev_needed",
+      "high_agent_replies",
       "last_reply_agent",
       "shopify",
       "shopify_multi_carrier_shipping_label_app",
@@ -220,1092 +223,1516 @@
     "allow_channelback": false,
     "allow_attachments": true,
     "from_messaging_channel": false,
-    "support_type": "agent"
-  },
-  "comments": [
-    {
-      "id": 58422413777049,
-      "type": "Comment",
-      "author_id": 29071581279257,
-      "body": "Need to add another logistics service to your portal. Blitz\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Need to add another logistics service to your portal. Blitz</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/status/allorders\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/status/allorders</a></p></div>",
-      "plain_body": "Need to add another logistics service to your portal. Blitz \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58422413776921,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": "web_widget"
-        }
-      },
-      "created_at": "2026-05-29T09:58:42Z",
-      "metadata": {
-        "system": {
-          "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-          "ip_address": "139.5.251.227",
-          "location": "New Delhi, DL, India",
-          "latitude": 28.6327,
-          "longitude": 77.2198
-        },
-        "custom": {},
-        "flags": [
-          3
-        ],
-        "flags_options": {
-          "3": {
-            "trusted": false
+    "support_type": "agent",
+    "comments": [
+      {
+        "id": 58422413777049,
+        "type": "Comment",
+        "author_id": 29071581279257,
+        "body": "Need to add another logistics service to your portal. Blitz\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Need to add another logistics service to your portal. Blitz</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/views/orders/status/allorders\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/views/orders/status/allorders</a></p></div>",
+        "plain_body": "Need to add another logistics service to your portal. Blitz \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/views/orders/status/allorders",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58422413776921,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": "web_widget"
           }
         },
-        "trusted": false
-      }
-    },
-    {
-      "id": 58424080275993,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "India Store\n1429 orders\nBlueDart and Delhivery account connected\n2864 labels generated in May\n$49 Premium plan\nActive from 2024-02-22",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">India Store<br>1429 orders<br>BlueDart and Delhivery account connected<br>2864 labels generated in May<br>$49 Premium plan<br>Active from 2024-02-22<br></div>",
-      "plain_body": "India Store\n1429 orders\nBlueDart and Delhivery account connected\n2864 labels generated in May\n$49 Premium plan\nActive from 2024-02-22",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58424080275865,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-05-29T10:53:01Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Kanpur, UP, India",
-          "latitude": 26.4631,
-          "longitude": 80.3479
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58424200743321,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Hello Belvish,\n\nThank you for reaching out with your query.\n\nAs of now, integration of Blitz Logistics services is not available with the app.\n\nWe will be happy to check the integration feasibility for this logistics service. For this, could you please share the following details -\n- Online URL of the logistics provider.\n- Direct contact with the logistics team (email and/or phone number)\n- API documents which can help with feasibility testing.\n- Expected volume of shipments you will be shipping with this logistics service.\n\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Belvish,<br>&nbsp;<br>Thank you for reaching out with your query.<br>&nbsp;<br>As of now, integration of Blitz Logistics services is not available with the app.<br>&nbsp;<br>We will be happy to check the integration feasibility for this logistics service. For this, could you please share the following details -&nbsp;<br><ul dir=\"auto\"><li>Online URL of the logistics provider.</li><li>Direct contact with the logistics team (email and/or phone number)</li><li>API documents which can help with feasibility testing.</li><li>Expected volume of shipments you will be shipping with this logistics service.</li></ul>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
-      "plain_body": "Hello Belvish,\n&nbsp;\nThank you for reaching out with your query.\n&nbsp;\nAs of now, integration of Blitz Logistics services is not available with the app.\n&nbsp;\nWe will be happy to check the integration feasibility for this logistics service. For this, could you please share the following details -&nbsp;\n  Online URL of the logistics provider.  Direct contact with the logistics team (email and/or phone number)  API documents which can help with feasibility testing.  Expected volume of shipments you will be shipping with this logistics service.  &nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58424200743193,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-05-29T10:58:22Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Kanpur, UP, India",
-          "latitude": 26.4631,
-          "longitude": 80.3479
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58424178621209,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Google search is providing multiple options for Blitz logistics",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Google search is providing multiple options for Blitz logistics<br></div>",
-      "plain_body": "Google search is providing multiple options for Blitz logistics",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58424202991385,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-05-29T10:58:57Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Kanpur, UP, India",
-          "latitude": 26.4631,
-          "longitude": 80.3479
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58593346646041,
-      "type": "Comment",
-      "author_id": 29071581279257,
-      "body": "Hello Touseef,\n\n\n\nKindly find the below details.\n\n\n\n**1. Website:**\nhttps://www.blitznow.in/\n\n**2. Contacts:**\nFor technical queries, please reach out to:\n- Deepak Singh \u2013 deepak.singh@blitznow.in | +91 74065 82007\n- Arushi Bhusri \u2013 arushi.bhusri@blitznow.in | +91 62808 34014\n\nFor any other queries, @Sumanth MN  will be able to assist you.\n\n**3. API Documentation:**\nhttps://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783\n\n\n\nKindest\n\nJaspreet Singh",
-      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Hello Touseef,</div><div dir=\"auto\"><br></div><div dir=\"auto\">Kindly find the below details.</div><div dir=\"auto\"><br></div><div dir=\"auto\"><div style=\"font-size: inherit;\"><p style=\"color: rgb(0,0,0); font-size: inherit; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px;\" dir=\"auto\"><strong style=\"font-size: 1rem;\">1. Website:</strong><br><a href=\"https://www.blitznow.in/\" style=\"color: rgb(66,133,244); font-size: 1rem;\" rel=\"noreferrer\">https://www.blitznow.in/</a></p><p style=\"color: rgb(0,0,0); font-size: inherit; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px;\" dir=\"auto\"><strong style=\"font-size: 1rem;\">2. Contacts:</strong><br>For technical queries, please reach out to:</p><ul style=\"color: rgb(0,0,0); font-size: inherit; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px;\" dir=\"auto\"><li style=\"font-size: 1rem;\">Deepak Singh \u2013&nbsp;<a style=\"font-size: 1rem;\" rel=\"noreferrer\">deepak.singh@blitznow.in</a>&nbsp;| +91 74065 82007</li><li style=\"font-size: 1rem;\">Arushi Bhusri \u2013&nbsp;<a style=\"font-size: 1rem;\" rel=\"noreferrer\">arushi.bhusri@blitznow.in</a>&nbsp;| +91 62808 34014</li></ul><p style=\"color: rgb(0,0,0); font-size: inherit; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px;\" dir=\"auto\">For any other queries,&nbsp;<a href=\"mailto:sumanth@blitznow.in\" style=\"color: rgb(66,133,244); font-size: 1rem;\" rel=\"noreferrer\">@Sumanth MN</a>&nbsp; will be able to assist you.</p><p style=\"color: rgb(0,0,0); font-size: inherit; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px;\" dir=\"auto\"><strong style=\"font-size: 1rem;\">3. API Documentation:</strong><a href=\"https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783\" style=\"color: rgb(66,133,244); font-size: 1rem;\" rel=\"noreferrer\"><br>https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783</a></p></div><div dir=\"auto\"><br></div>Kindest</div><div dir=\"auto\">Jaspreet Singh&nbsp;</div><div dir=\"auto\"><br><div dir=\"auto\"></div></div></div>",
-      "plain_body": "Hello Touseef,  \n  Kindly find the below details.  \n    1. Website:\nhttps://www.blitznow.in/  2. Contacts:\nFor technical queries, please reach out to:   Deepak Singh \u2013&nbsp;deepak.singh@blitznow.in&nbsp;| +91 74065 82007  Arushi Bhusri \u2013&nbsp;arushi.bhusri@blitznow.in&nbsp;| +91 62808 34014   For any other queries,&nbsp;@Sumanth MN&nbsp; will be able to assist you.  3. API Documentation:\nhttps://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783   \n Kindest  Jaspreet Singh&nbsp;",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58593346645913,
-      "via": {
-        "channel": "email",
-        "source": {
-          "from": {
-            "address": "belvish69@gmail.com",
-            "name": "belvish69@gmail.com",
-            "original_recipients": [
-              "belvish69@gmail.com",
-              "support@pluginhive.com"
-            ]
+        "created_at": "2026-05-29T09:58:42Z",
+        "metadata": {
+          "system": {
+            "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+            "ip_address": "139.5.251.227",
+            "location": "New Delhi, DL, India",
+            "latitude": 28.6327,
+            "longitude": 77.2198
           },
-          "to": {
-            "name": "PluginHive"
+          "custom": {},
+          "flags": [
+            3
+          ],
+          "flags_options": {
+            "3": {
+              "trusted": false
+            }
           },
-          "rel": null
+          "trusted": false
         }
       },
-      "created_at": "2026-06-03T13:38:11Z",
-      "metadata": {
-        "system": {
-          "message_id": "<CALDu_oeFFgWdVUPdNJRAfmBKiC+WLjamBsTP_i4dsYExhF926g@mail.gmail.com>",
-          "email_id": "01KT6V9C8VNFGZDSQ5TQ55XH3B",
-          "raw_email_identifier": "2369120/38f1ef8c-ca07-4257-9d14-7e36d35ab8ca.eml",
-          "json_email_identifier": "2369120/38f1ef8c-ca07-4257-9d14-7e36d35ab8ca.json",
-          "eml_redacted": false
-        },
-        "custom": {},
-        "flags": [
-          15
-        ],
-        "flags_options": {
-          "15": {
-            "trusted": true
+      {
+        "id": 58424080275993,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "India Store\n1429 orders\nBlueDart and Delhivery account connected\n2864 labels generated in May\n$49 Premium plan\nActive from 2024-02-22",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">India Store<br>1429 orders<br>BlueDart and Delhivery account connected<br>2864 labels generated in May<br>$49 Premium plan<br>Active from 2024-02-22<br></div>",
+        "plain_body": "India Store\n1429 orders\nBlueDart and Delhivery account connected\n2864 labels generated in May\n$49 Premium plan\nActive from 2024-02-22",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58424080275865,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
           }
         },
-        "trusted": true,
-        "suspension_type_id": null
-      }
-    },
-    {
-      "id": 58594011941657,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Hello Jaspreet Singh,\n\nThank you for your response and sharing the details.\n\nPlease allow us some time to discuss your request with our team internally.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jaspreet Singh,<br>&nbsp;<br>Thank you for your response and sharing the details.<br>&nbsp;<br>Please allow us some time to discuss your request with our team internally.<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
-      "plain_body": "Hello Jaspreet Singh,\n&nbsp;\nThank you for your response and sharing the details.\n&nbsp;\nPlease allow us some time to discuss your request with our team internally.\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58594011941529,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-03T14:01:11Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58594023888025,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Need to discuss with Abhilash/Keerthi/Vimal before taking next action.",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need to discuss with Abhilash/Keerthi/Vimal before taking next action.<br></div>",
-      "plain_body": "Need to discuss with Abhilash/Keerthi/Vimal before taking next action.",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58594023887257,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-03T14:01:34Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58622614679449,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Shared with Abhilash. He will reach out to carrier team contacts for more information.",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Shared with Abhilash. He will reach out to carrier team contacts for more information.<br></div>",
-      "plain_body": "Shared with Abhilash. He will reach out to carrier team contacts for more information.",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58622614678553,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-04T07:12:24Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58636266016921,
-      "type": "Comment",
-      "author_id": 29071581279257,
-      "body": "Hello Touseef,\n\n\n\nAny updates on below request? we need this to be implemented asap.\n\n\n\nThanks",
-      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Hello Touseef,</div><div dir=\"auto\"><br></div><div dir=\"auto\">Any updates on below request? we need this to be implemented asap.&nbsp;</div><div dir=\"auto\"><br></div><div dir=\"auto\">Thanks&nbsp;</div><div><br><div></div></div></div>",
-      "plain_body": "Hello Touseef,  \n  Any updates on below request? we need this to be implemented asap.&nbsp;  \n  Thanks&nbsp;",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58636266016793,
-      "via": {
-        "channel": "email",
-        "source": {
-          "from": {
-            "address": "belvish69@gmail.com",
-            "name": "belvish69@gmail.com",
-            "original_recipients": [
-              "belvish69@gmail.com",
-              "support@pluginhive.com"
-            ]
+        "created_at": "2026-05-29T10:53:01Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Kanpur, UP, India",
+            "latitude": 26.4631,
+            "longitude": 80.3479
           },
-          "to": {
-            "name": "PluginHive"
-          },
-          "rel": null
+          "custom": {}
         }
       },
-      "created_at": "2026-06-04T14:26:09Z",
-      "metadata": {
-        "system": {
-          "message_id": "<CALDu_occauN5Jhs=RaCthJBGGfoc0w27tB2jrABKjdrZnx2i-A@mail.gmail.com>",
-          "email_id": "01KT9GDX9QC88YJKN9JTE2A48G",
-          "raw_email_identifier": "2369120/c95ad811-daa1-474b-8f75-d972623c4405.eml",
-          "json_email_identifier": "2369120/c95ad811-daa1-474b-8f75-d972623c4405.json",
-          "eml_redacted": false
-        },
-        "custom": {},
-        "flags": [
-          15
-        ],
-        "flags_options": {
-          "15": {
-            "trusted": true
+      {
+        "id": 58424200743321,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Belvish,\n\nThank you for reaching out with your query.\n\nAs of now, integration of Blitz Logistics services is not available with the app.\n\nWe will be happy to check the integration feasibility for this logistics service. For this, could you please share the following details -\n- Online URL of the logistics provider.\n- Direct contact with the logistics team (email and/or phone number)\n- API documents which can help with feasibility testing.\n- Expected volume of shipments you will be shipping with this logistics service.\n\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Belvish,<br>&nbsp;<br>Thank you for reaching out with your query.<br>&nbsp;<br>As of now, integration of Blitz Logistics services is not available with the app.<br>&nbsp;<br>We will be happy to check the integration feasibility for this logistics service. For this, could you please share the following details -&nbsp;<br><ul dir=\"auto\"><li>Online URL of the logistics provider.</li><li>Direct contact with the logistics team (email and/or phone number)</li><li>API documents which can help with feasibility testing.</li><li>Expected volume of shipments you will be shipping with this logistics service.</li></ul>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Belvish,\n&nbsp;\nThank you for reaching out with your query.\n&nbsp;\nAs of now, integration of Blitz Logistics services is not available with the app.\n&nbsp;\nWe will be happy to check the integration feasibility for this logistics service. For this, could you please share the following details -&nbsp;\n  Online URL of the logistics provider.  Direct contact with the logistics team (email and/or phone number)  API documents which can help with feasibility testing.  Expected volume of shipments you will be shipping with this logistics service.  &nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58424200743193,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
           }
         },
-        "trusted": true,
-        "suspension_type_id": null
-      }
-    },
-    {
-      "id": 58636407180057,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Hello Belvish,\n\nI have forwarded your request to our Partnership Team so that they can reach out to the carrier team for more information.\n\nOnce we receive an update from them, we will get back to you with more information.\n\nThank you for your patience and understanding.\n\nRegards,\nTouseef\nTeam PluginHive",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Belvish,<br>&nbsp;<br>I have forwarded your request to our Partnership Team so that they can reach out to the carrier team for more information.<br>&nbsp;<br>Once we receive an update from them, we will get back to you with more information.<br>&nbsp;<br>Thank you for your patience and understanding.<br>&nbsp;<br>Regards,<br>Touseef<br>Team PluginHive<br></div>",
-      "plain_body": "Hello Belvish,\n&nbsp;\nI have forwarded your request to our Partnership Team so that they can reach out to the carrier team for more information.\n&nbsp;\nOnce we receive an update from them, we will get back to you with more information.\n&nbsp;\nThank you for your patience and understanding.\n&nbsp;\nRegards,\nTouseef\nTeam PluginHive",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58636407179929,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-04T14:32:46Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58636421600281,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": " ![](https://pluginhive.zendesk.com/attachments/token/3KqrAadLthf0usvBpgMeZ12dG/?name=image.png)",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><span style=\"opacity: 1;\"><img style=\" width: 469px;\" src=\"https://pluginhive.zendesk.com/attachments/token/3KqrAadLthf0usvBpgMeZ12dG/?name=image.png\"></span><br></div>",
-      "plain_body": "",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58636421600153,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-04T14:33:01Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58693598317209,
-      "type": "Comment",
-      "author_id": 29071581279257,
-      "body": "Hello Touseef,\n\n\nHave you checked with your team? Is there any update on this? Actually we need this to be implemented as early as possible.\n\n\n\nKindest",
-      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello Touseef,<div><br></div><div>Have you checked with your team? Is there any update&nbsp;on this? Actually we need this to be implemented&nbsp;as early as possible.</div><div><br></div><div>Kindest</div><div>&nbsp;</div></div><br><div></div></div>",
-      "plain_body": "Hello Touseef, \n  Have you checked with your team? Is there any update&nbsp;on this? Actually we need this to be implemented&nbsp;as early as possible.  \n  Kindest  &nbsp;",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58693598317081,
-      "via": {
-        "channel": "email",
-        "source": {
-          "from": {
-            "address": "belvish69@gmail.com",
-            "name": "belvish69@gmail.com",
-            "original_recipients": [
-              "belvish69@gmail.com",
-              "support@pluginhive.com"
-            ]
+        "created_at": "2026-05-29T10:58:22Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Kanpur, UP, India",
+            "latitude": 26.4631,
+            "longitude": 80.3479
           },
-          "to": {
-            "name": "PluginHive"
-          },
-          "rel": null
+          "custom": {}
         }
       },
-      "created_at": "2026-06-06T08:51:04Z",
-      "metadata": {
-        "system": {
-          "message_id": "<CALDu_od99n1RzgAG3YSP992fxigzrSoEzGiwqGuOoGe5kxYF7A@mail.gmail.com>",
-          "email_id": "01KTE21SMSTTGNHH3PK4H4T07T",
-          "raw_email_identifier": "2369120/bae6e980-8749-455d-8dc4-bc270a144807.eml",
-          "json_email_identifier": "2369120/bae6e980-8749-455d-8dc4-bc270a144807.json",
-          "eml_redacted": false
-        },
-        "custom": {},
-        "flags": [
-          15
-        ],
-        "flags_options": {
-          "15": {
-            "trusted": true
+      {
+        "id": 58424178621209,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Google search is providing multiple options for Blitz logistics",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Google search is providing multiple options for Blitz logistics<br></div>",
+        "plain_body": "Google search is providing multiple options for Blitz logistics",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58424202991385,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
           }
         },
-        "trusted": true,
-        "suspension_type_id": null
-      }
-    },
-    {
-      "id": 58696917667609,
-      "type": "Comment",
-      "author_id": 10478126723609,
-      "body": "Hello,\n\nTouseef is currently not available.\n\nWe have not received any update on the requirement.\n\nOnce we have an update, will reach out to you.\n\nBest regards,\nSagar K S\nPluginHive",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello,<br>&nbsp;<br>Touseef is currently not available.&nbsp;<br>&nbsp;<br>We have not received any update on the requirement.&nbsp;<br>&nbsp;<br>Once we have an update, will reach out to you.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
-      "plain_body": "Hello,\n&nbsp;\nTouseef is currently not available.&nbsp;\n&nbsp;\nWe have not received any update on the requirement.&nbsp;\n&nbsp;\nOnce we have an update, will reach out to you.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58696917667481,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-06T11:03:52Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58754963190041,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Hello Belvish,\n\nI have an update on your case.\n\nOur partnership team has tried reaching out to Deepak and Arushi a couple of times but have not been able to get in touch with them.\n\nAs such, I would request you to introduce Abhilash, Partnership Manager at PluginHive to the carrier team in a new email. This will enable our team to establish a communication channel with them for quicker resolution of the case.\n\nLet us know if you have any other queries in the meantime.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Belvish,<br>&nbsp;<br>I have an update on your case.<br>&nbsp;<br>Our partnership team has tried reaching out to Deepak and Arushi a couple of times but have not been able to get in touch with them.<br>&nbsp;<br>As such, I would request you to introduce Abhilash, Partnership Manager at PluginHive to the carrier team in a new email. This will enable our team to establish a communication channel with them for quicker resolution of the case.<br>&nbsp;<br>Let us know if you have any other queries in the meantime.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
-      "plain_body": "Hello Belvish,\n&nbsp;\nI have an update on your case.\n&nbsp;\nOur partnership team has tried reaching out to Deepak and Arushi a couple of times but have not been able to get in touch with them.\n&nbsp;\nAs such, I would request you to introduce Abhilash, Partnership Manager at PluginHive to the carrier team in a new email. This will enable our team to establish a communication channel with them for quicker resolution of the case.\n&nbsp;\nLet us know if you have any other queries in the meantime.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58754963189913,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-08T09:52:13Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58782119229337,
-      "type": "Comment",
-      "author_id": 29071581279257,
-      "body": "Hello Deepak and Arushi,\n\n\nGreetings.\n\nCould you please connect with Touseef to get Blitz activated in our PluginHive application? This is required so that we can start using their services for our future shipments.\n\nThe API credentials and relevant documentation have already been shared earlier. As I understand, the Blitz team had also tried reaching out previously, but the discussion could not be taken forward.\n\nI would suggest using this email thread as a common platform to coordinate and assist each other with the activation process. Please let us know if any additional information or support is required from our end.\n\nLooking forward to your assistance in getting this completed at the earliest.\n\n\n\nKindest\n\nJaspreet Singh\n\nBelvish.com",
-      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello Deepak and Arushi,<div><br></div><div>Greetings.</div><div><p dir=\"auto\">Could you please connect with Touseef to get Blitz activated in our PluginHive application? This is required so that we can start using their services for our future shipments.</p><p dir=\"auto\">The API credentials and relevant documentation have already been shared earlier. As I understand, the Blitz team had also tried reaching out previously, but the discussion could not be taken forward.</p><p dir=\"auto\">I would suggest using this email thread as a common platform to coordinate and assist each other with the activation process. Please let us know if any additional information or support is required from our end.</p><p dir=\"auto\">Looking forward to your assistance in getting this completed at the earliest.</p></div><div><br></div><div>Kindest</div><div>Jaspreet Singh</div><div>Belvish.com</div></div><br><div></div></div>",
-      "plain_body": "Hello Deepak and Arushi, \n  Greetings.   Could you please connect with Touseef to get Blitz activated in our PluginHive application? This is required so that we can start using their services for our future shipments.  The API credentials and relevant documentation have already been shared earlier. As I understand, the Blitz team had also tried reaching out previously, but the discussion could not be taken forward.  I would suggest using this email thread as a common platform to coordinate and assist each other with the activation process. Please let us know if any additional information or support is required from our end.  Looking forward to your assistance in getting this completed at the earliest.   \n  Kindest  Jaspreet Singh  Belvish.com",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58782119229209,
-      "via": {
-        "channel": "email",
-        "source": {
-          "from": {
-            "address": "belvish69@gmail.com",
-            "name": "belvish69@gmail.com",
-            "original_recipients": [
-              "belvish69@gmail.com",
-              "support@pluginhive.com",
-              "deepak.singh@blitznow.in",
-              "arushi.bhusri@blitznow.in",
-              "sumanth@blitznow.in"
-            ]
+        "created_at": "2026-05-29T10:58:57Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Kanpur, UP, India",
+            "latitude": 26.4631,
+            "longitude": 80.3479
           },
-          "to": {
-            "name": "PluginHive"
-          },
-          "rel": null
+          "custom": {}
         }
       },
-      "created_at": "2026-06-09T05:42:03Z",
-      "metadata": {
-        "system": {
-          "message_id": "<CALDu_od7ghbjrj_BZc04GJ0xPnK42Fe6+vGZvYPaGT04BdhK9Q@mail.gmail.com>",
-          "email_id": "01KTNEDT0EVCHK5Q4QWX877EFK",
-          "raw_email_identifier": "2369120/f2a550d1-4c32-40b7-9d93-6e1057ac7dcb.eml",
-          "json_email_identifier": "2369120/f2a550d1-4c32-40b7-9d93-6e1057ac7dcb.json",
-          "eml_redacted": false
-        },
-        "custom": {},
-        "flags": [
-          15
-        ],
-        "flags_options": {
-          "15": {
-            "trusted": true
+      {
+        "id": 58593346646041,
+        "type": "Comment",
+        "author_id": 29071581279257,
+        "body": "Hello Touseef,\n\n\n\nKindly find the below details.\n\n\n\n**1. Website:**\nhttps://www.blitznow.in/\n\n**2. Contacts:**\nFor technical queries, please reach out to:\n- Deepak Singh \u2013 deepak.singh@blitznow.in | +91 74065 82007\n- Arushi Bhusri \u2013 arushi.bhusri@blitznow.in | +91 62808 34014\n\nFor any other queries, @Sumanth MN  will be able to assist you.\n\n**3. API Documentation:**\nhttps://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783\n\n\n\nKindest\n\nJaspreet Singh",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Hello Touseef,</div><div dir=\"auto\"><br></div><div dir=\"auto\">Kindly find the below details.</div><div dir=\"auto\"><br></div><div dir=\"auto\"><div style=\"font-size: inherit;\"><p style=\"color: rgb(0,0,0); font-size: inherit; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px;\" dir=\"auto\"><strong style=\"font-size: 1rem;\">1. Website:</strong><br><a href=\"https://www.blitznow.in/\" style=\"color: rgb(66,133,244); font-size: 1rem;\" rel=\"noreferrer\">https://www.blitznow.in/</a></p><p style=\"color: rgb(0,0,0); font-size: inherit; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px;\" dir=\"auto\"><strong style=\"font-size: 1rem;\">2. Contacts:</strong><br>For technical queries, please reach out to:</p><ul style=\"color: rgb(0,0,0); font-size: inherit; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px;\" dir=\"auto\"><li style=\"font-size: 1rem;\">Deepak Singh \u2013&nbsp;<a style=\"font-size: 1rem;\" rel=\"noreferrer\">deepak.singh@blitznow.in</a>&nbsp;| +91 74065 82007</li><li style=\"font-size: 1rem;\">Arushi Bhusri \u2013&nbsp;<a style=\"font-size: 1rem;\" rel=\"noreferrer\">arushi.bhusri@blitznow.in</a>&nbsp;| +91 62808 34014</li></ul><p style=\"color: rgb(0,0,0); font-size: inherit; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px;\" dir=\"auto\">For any other queries,&nbsp;<a href=\"mailto:sumanth@blitznow.in\" style=\"color: rgb(66,133,244); font-size: 1rem;\" rel=\"noreferrer\">@Sumanth MN</a>&nbsp; will be able to assist you.</p><p style=\"color: rgb(0,0,0); font-size: inherit; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px;\" dir=\"auto\"><strong style=\"font-size: 1rem;\">3. API Documentation:</strong><a href=\"https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783\" style=\"color: rgb(66,133,244); font-size: 1rem;\" rel=\"noreferrer\"><br>https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783</a></p></div><div dir=\"auto\"><br></div>Kindest</div><div dir=\"auto\">Jaspreet Singh&nbsp;</div><div dir=\"auto\"><br><div dir=\"auto\"></div></div></div>",
+        "plain_body": "Hello Touseef,  \n  Kindly find the below details.  \n    1. Website:\nhttps://www.blitznow.in/  2. Contacts:\nFor technical queries, please reach out to:   Deepak Singh \u2013&nbsp;deepak.singh@blitznow.in&nbsp;| +91 74065 82007  Arushi Bhusri \u2013&nbsp;arushi.bhusri@blitznow.in&nbsp;| +91 62808 34014   For any other queries,&nbsp;@Sumanth MN&nbsp; will be able to assist you.  3. API Documentation:\nhttps://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783   \n Kindest  Jaspreet Singh&nbsp;",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58593346645913,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "belvish69@gmail.com",
+              "name": "belvish69@gmail.com",
+              "original_recipients": [
+                "belvish69@gmail.com",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive"
+            },
+            "rel": null
           }
         },
-        "trusted": true,
-        "suspension_type_id": null
-      }
-    },
-    {
-      "id": 58783207579033,
-      "type": "Comment",
-      "author_id": 10478126723609,
-      "body": "Customer to carrier team",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer to carrier team<br></div>",
-      "plain_body": "Customer to carrier team",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58783168526617,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
+        "created_at": "2026-06-03T13:38:11Z",
+        "metadata": {
+          "system": {
+            "message_id": "<CALDu_oeFFgWdVUPdNJRAfmBKiC+WLjamBsTP_i4dsYExhF926g@mail.gmail.com>",
+            "email_id": "01KT6V9C8VNFGZDSQ5TQ55XH3B",
+            "raw_email_identifier": "2369120/38f1ef8c-ca07-4257-9d14-7e36d35ab8ca.eml",
+            "json_email_identifier": "2369120/38f1ef8c-ca07-4257-9d14-7e36d35ab8ca.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
         }
       },
-      "created_at": "2026-06-09T06:10:00Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58783893116313,
-      "type": "Comment",
-      "author_id": 58782119199513,
-      "body": "Hi Akshay,\n\n\n\nThanks for introducing.\n\n\n\n@Touseef can you please share your phone co-ordinates to connect.\n\n\n\n@Deepak Singh @Arushi\n\n\n\n\n\nRegards,\n\n![](https://ci3.googleusercontent.com/mail-sig/AIorK4yurVVFvk_0GmU4gEDkRo76FDjjgPERALJpXs9F9nICNRYjEgHCLkb482Gahcjb4SsxQNSQ2FE)\n\nSumanth\nSenior Sales Manager\nBlitz\n\nM: 9741434225\n\nW: www.blitznow.in E: sumanth@blitznow.in",
-      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\"><div>Hi Akshay,</div><div><br></div><div>Thanks for introducing.</div><div><br></div><div>@Touseef can you please share your phone <span style=\"background-image: none; border-style: none;\">co-ordinates to</span> connect.<br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div style=\"text-align: left;\" align=\"left\"><br></div><div style=\"text-align: left;\" align=\"left\"><a href=\"mailto:deepak.singh@blitznow.in\" rel=\"noreferrer\">@Deepak Singh</a>&nbsp;<a href=\"mailto:arushi.bhusri@blitznow.in\" rel=\"noreferrer\">@Arushi</a>&nbsp;<br></div><div style=\"text-align: left;\" align=\"left\"><br></div><div style=\"text-align: left;\" align=\"left\"><br></div><div style=\"text-align: left;\" align=\"left\">Regards,</div><div style=\"color: rgb(34,34,34);\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"text-align: left; border-spacing: 0px; border-collapse: collapse; background-repeat: repeat; width: 640px; color: rgb(51,51,51); margin: 0px; padding: 0px; border-width: 0px;\"><tbody><tr><td border=\"0\" valign=\"middle\" width=\"90\" style=\"width: 90px; padding: 0px 10px 0px 1px; border-color: rgb(108,113,145); border-style: none solid none none; border-width: medium 3px medium medium;\"><table style=\"color: rgb(34,34,34); border-collapse: collapse; border: medium none currentcolor;\"><tbody><tr style=\"height: 67.5pt;\"><td style=\"vertical-align: top; overflow: hidden; padding: 5pt; border: 1pt solid rgb(255,255,255);\" valign=\"top\"></td><td style=\"vertical-align: top; overflow: hidden; padding: 5pt; border: 1pt solid rgb(255,255,255);\" valign=\"top\"><p dir=\"auto\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; color: rgb(0,0,0); background-color: transparent; vertical-align: baseline;\"><span style=\"display: inline-block; overflow: hidden; width: 87px; height: 91px; border: medium none currentcolor;\"><img width=\"88\" height=\"96\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4yurVVFvk_0GmU4gEDkRo76FDjjgPERALJpXs9F9nICNRYjEgHCLkb482Gahcjb4SsxQNSQ2FE\"></span></span></p></td><td style=\"vertical-align: top; overflow: hidden; padding: 5pt; border: 1pt solid rgb(255,255,255);\" valign=\"top\"><br></td></tr></tbody></table></td><td border=\"0\" valign=\"middle\" style=\"padding: 0px 0px 0px 7px;\"><table style=\"border-spacing: 0px; border-collapse: collapse; background-color: transparent; background-color: transparent\"><tbody><tr><td colspan=\"2\" style=\"padding: 0px;\"><font style=\" background-color: rgb(255,255,255);\" color=\"#000000\">Sumanth</font></td></tr><tr><td colspan=\"2\" style=\"line-height: 1.6; padding: 0px;\"><font color=\"#000000\">Senior Sales Manager</font></td></tr><tr><td colspan=\"2\" style=\"line-height: 1.6; padding: 0px;\"><span style=\"display: inline-block; font-weight: bold;\"><font color=\"#000000\">Blitz</font></span></td></tr><tr><td colspan=\"2\" style=\"line-height: 1.6; padding: 0px;\"><table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"border-spacing: 0px; border-collapse: collapse; background-color: transparent; background-color: transparent\"><tbody><tr><td style=\"padding: 0px 10px 0px 0px;\"><font color=\"#000000\">M: 9741434225</font></td></tr></tbody></table></td></tr><tr><td colspan=\"2\" style=\"line-height: 1.6; padding: 0px;\"><table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"border-spacing: 0px; border-collapse: collapse; background-color: transparent; background-color: transparent\"><tbody><tr><td style=\"padding: 0px 10px 0px 0px;\"><font color=\"#000000\">W:&nbsp;<a href=\"https://www.blitznow.in/\" style=\"outline: 0px; background-color: transparent;\" rel=\"noreferrer\">www.blitznow.in</a></font></td><td style=\"padding: 0px 10px 0px 0px;\"><font color=\"#000000\">E:&nbsp;<a href=\"mailto:sumanth@blitznow.in\" style=\"outline: 0px; background-color: transparent;\" rel=\"noreferrer\"><span>sumanth@blitznow.in</span></a></font></td></tr></tbody></table></td></tr></tbody></table><font size=\"1\"><br></font></td></tr></tbody></table></div></div></div></div><br></div><br><div></div></div></div>",
-      "plain_body": "Hi Akshay,  \n  Thanks for introducing.  \n  @Touseef can you please share your phone co-ordinates to connect.\n     \n  @Deepak Singh&nbsp;@Arushi&nbsp;\n  \n  \n  Regards,    \nSumanthSenior Sales ManagerBlitzM: 9741434225W:&nbsp;www.blitznow.inE:&nbsp;sumanth@blitznow.in",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58783881174041,
-      "via": {
-        "channel": "email",
-        "source": {
-          "from": {
-            "address": "belvish69@gmail.com",
-            "name": "belvish69@gmail.com",
-            "original_recipients": [
-              "sumanth@blitznow.in",
-              "belvish69@gmail.com",
-              "support@pluginhive.com",
-              "deepak.singh@blitznow.in",
-              "arushi.bhusri@blitznow.in"
-            ]
-          },
-          "to": {
-            "name": "PluginHive"
-          },
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-09T06:27:23Z",
-      "metadata": {
-        "system": {
-          "message_id": "<CAOEU99nC_xtxKds0X5PRc902Vw5SQEumOKTcX+xkMhJ1zhk--g@mail.gmail.com>",
-          "email_id": "01KTNH0TX8SHCA2XFSW0QCN5BT",
-          "raw_email_identifier": "2369120/40d8fcad-2c8d-4e4e-9127-a8bba51a2612.eml",
-          "json_email_identifier": "2369120/40d8fcad-2c8d-4e4e-9127-a8bba51a2612.json",
-          "eml_redacted": false
-        },
-        "custom": {},
-        "flags": [
-          15
-        ],
-        "flags_options": {
-          "15": {
-            "trusted": true
+      {
+        "id": 58594011941657,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Jaspreet Singh,\n\nThank you for your response and sharing the details.\n\nPlease allow us some time to discuss your request with our team internally.\n\nWe will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jaspreet Singh,<br>&nbsp;<br>Thank you for your response and sharing the details.<br>&nbsp;<br>Please allow us some time to discuss your request with our team internally.<br>&nbsp;<br>We will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Jaspreet Singh,\n&nbsp;\nThank you for your response and sharing the details.\n&nbsp;\nPlease allow us some time to discuss your request with our team internally.\n&nbsp;\nWe will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58594011941529,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
           }
         },
-        "trusted": true,
-        "suspension_type_id": null,
-        "notifications_suppressed_for": [
-          29071581279257
-        ]
-      }
-    },
-    {
-      "id": 58788110070937,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Hello Sumanth,\n\nThank you for your response.\n\nAbhilash, Partnership Manager at PluginHive will be your point of contact from our end. Please find below his contact details -\nPhone - +91 9036588031\nEmail - abhilash@pluginhive.com\n\nYou can contact him directly for further correspondence.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sumanth,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Abhilash, Partnership Manager at PluginHive will be your point of contact from our end. Please find below his contact details -&nbsp;<br>Phone - +91 9036588031<br>Email - <a href=\"mailto:abhilash@pluginhive.com\" rel=\"noreferrer\">abhilash@pluginhive.com</a><br>&nbsp;<br>You can contact him directly for further correspondence.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
-      "plain_body": "Hello Sumanth,\n&nbsp;\nThank you for your response.\n&nbsp;\nAbhilash, Partnership Manager at PluginHive will be your point of contact from our end. Please find below his contact details -&nbsp;\nPhone - +91 9036588031\nEmail - abhilash@pluginhive.com\n&nbsp;\nYou can contact him directly for further correspondence.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58788110070809,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-09T08:10:55Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58795494932889,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Discussed with Abhilash. Need to followup with customer.",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with Abhilash. Need to followup with customer.<br></div>",
-      "plain_body": "Discussed with Abhilash. Need to followup with customer.",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58795494932633,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-09T11:52:47Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58820676427801,
-      "type": "Comment",
-      "author_id": 29071581279257,
-      "body": "Hello guys,\n\n\nIs there any progress to this? We need Blitz to be working onto our Pluginhive application for shipments at the earliest.\n\n\n\nKindest\n\nJaspreet Singh",
-      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello guys,<div><br></div><div>Is there any progress to this? We need Blitz to be working onto our Pluginhive application for shipments at the earliest.&nbsp;</div><div><br></div><div>Kindest</div><div>Jaspreet Singh</div></div><br><div></div></div>",
-      "plain_body": "Hello guys, \n  Is there any progress to this? We need Blitz to be working onto our Pluginhive application for shipments at the earliest.&nbsp;  \n  Kindest  Jaspreet Singh",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58820676427673,
-      "via": {
-        "channel": "email",
-        "source": {
-          "from": {
-            "address": "belvish69@gmail.com",
-            "name": "belvish69@gmail.com",
-            "original_recipients": [
-              "belvish69@gmail.com",
-              "sumanth@blitznow.in",
-              "support@pluginhive.com",
-              "deepak.singh@blitznow.in",
-              "arushi.bhusri@blitznow.in"
-            ]
+        "created_at": "2026-06-03T14:01:11Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
           },
-          "to": {
-            "name": "PluginHive"
-          },
-          "rel": null
+          "custom": {}
         }
       },
-      "created_at": "2026-06-10T05:12:21Z",
-      "metadata": {
-        "system": {
-          "message_id": "<CALDu_ofOFYdCh-mYdrhd=fnR25akuE37+6dCxCTYDRWm=OMSFA@mail.gmail.com>",
-          "email_id": "01KTQZ4533JFK33XBHNQ0WSTWS",
-          "raw_email_identifier": "2369120/c08dcd34-7d95-4a72-bac1-c19ac04f24d1.eml",
-          "json_email_identifier": "2369120/c08dcd34-7d95-4a72-bac1-c19ac04f24d1.json",
-          "eml_redacted": false
-        },
-        "custom": {},
-        "flags": [
-          15
-        ],
-        "flags_options": {
-          "15": {
-            "trusted": true
+      {
+        "id": 58594023888025,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Need to discuss with Abhilash/Keerthi/Vimal before taking next action.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need to discuss with Abhilash/Keerthi/Vimal before taking next action.<br></div>",
+        "plain_body": "Need to discuss with Abhilash/Keerthi/Vimal before taking next action.",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58594023887257,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
           }
         },
-        "trusted": true,
-        "suspension_type_id": null
-      }
-    },
-    {
-      "id": 58821631516313,
-      "type": "Comment",
-      "author_id": 44512844768153,
-      "body": "Informed abhilash on slack\nhttps://pluginhive.slack.com/archives/C09FMQNEV9P/p1781069926812299",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Informed abhilash on slack&nbsp;<br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C09FMQNEV9P/p1781069926812299\">https://pluginhive.slack.com/archives/C09FMQNEV9P/p1781069926812299</a><br></div>",
-      "plain_body": "Informed abhilash on slack&nbsp;\nhttps://pluginhive.slack.com/archives/C09FMQNEV9P/p1781069926812299",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58821631515545,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-10T05:39:16Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58833694742681,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Hello Jaspreet Singh,\n\nThank you for your time on the call.\n\nAs discussed, we are willing to add **Blitznow integration** to our app to support your requirements.\n\nSince this integration is being requested specifically for your use case and has not been requested by other merchants so far, we would require your commitment to continue using the app for at least the next 12 months before we proceed with the development.\n\nPlease confirm if this works for you. Upon receiving your confirmation, we will initiate the process for the integration.\n\nWe look forward to your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jaspreet Singh,<br>&nbsp;<br>Thank you for your time on the call.<br>&nbsp;<br>As discussed, we are willing to add <strong>Blitznow integration</strong> to our app to support your requirements.<br>&nbsp;<br>Since this integration is being requested specifically for your use case and has not been requested by other merchants so far, we would require your commitment to continue using the app for at least the next 12 months before we proceed with the development.<br>&nbsp;<br>Please confirm if this works for you. Upon receiving your confirmation, we will initiate the process for the integration.<br>&nbsp;<br>We look forward to your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
-      "plain_body": "Hello Jaspreet Singh,\n&nbsp;\nThank you for your time on the call.\n&nbsp;\nAs discussed, we are willing to add Blitznow integration to our app to support your requirements.\n&nbsp;\nSince this integration is being requested specifically for your use case and has not been requested by other merchants so far, we would require your commitment to continue using the app for at least the next 12 months before we proceed with the development.\n&nbsp;\nPlease confirm if this works for you. Upon receiving your confirmation, we will initiate the process for the integration.\n&nbsp;\nWe look forward to your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58833694742553,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-10T10:54:21Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58833775046041,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Discussed with Abhilash ans followed up with customer as per his instructions.",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with Abhilash ans followed up with customer as per his instructions.<br></div>",
-      "plain_body": "Discussed with Abhilash ans followed up with customer as per his instructions.",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58833775042073,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-10T10:55:21Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58833761243929,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Email id of Blitznow team -\nsumanth@blitznow.in\ndeepak.singh@blitznow.in\narushi.bhusri@blitznow.in",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Email id of Blitznow team -<br>sumanth@blitznow.in<br>deepak.singh@blitznow.in<br>arushi.bhusri@blitznow.in&nbsp;<br></div>",
-      "plain_body": "Email id of Blitznow team -\nsumanth@blitznow.in\ndeepak.singh@blitznow.in\narushi.bhusri@blitznow.in&nbsp;",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58833775352601,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
-        }
-      },
-      "created_at": "2026-06-10T10:55:25Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
-        },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58834071393561,
-      "type": "Comment",
-      "author_id": 29071581279257,
-      "body": "Hello Touseef,\n\n\n\nThank you so much for your support in facilitating the integration of Blitz with your systems. We truly appreciate the assistance provided throughout the process.\n\nWe are pleased to continue our association with you for the next 12 months and look forward to a successful partnership ahead.\n\nAdditionally, we would recommend promoting Blitz\u2019s services to your other clients as well. Based on our experience so far, we believe many of them would find Blitz to be a valuable delivery partner and would be keen to explore the solution for their shipping requirements.\n\nOnce again, thank you for your support, and we look forward to working together in the coming months.\n\nThanks again.\n\n\n\nKindest\n\nJaspreet Singh",
-      "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Hello Touseef,</div><div dir=\"auto\"><span style=\"font-size: inherit;\"><br></span></div><div dir=\"auto\"><span style=\"font-size: inherit;\">Thank you so much for your support in facilitating the integration of Blitz with your systems. We truly appreciate the assistance provided throughout the process.</span><br></div><div dir=\"auto\"><div style=\"font-size: inherit;\"><div style=\"font-size: inherit;\">\n<p dir=\"auto\">We are pleased to continue our association with you for the next 12 months and look forward to a successful partnership ahead.</p>\n<p dir=\"auto\">Additionally, we would recommend promoting Blitz\u2019s services to your other clients as well. Based on our experience so far, we believe many of them would find Blitz to be a valuable delivery partner and would be keen to explore the solution for their shipping requirements.</p>\n<p dir=\"auto\">Once again, thank you for your support, and we look forward to working together in the coming months.</p></div></div></div><div dir=\"auto\">Thanks again.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Kindest</div><div dir=\"auto\">Jaspreet Singh</div><div><br><div></div></div></div>",
-      "plain_body": "Hello Touseef,  \n  Thank you so much for your support in facilitating the integration of Blitz with your systems. We truly appreciate the assistance provided throughout the process.\n    \n We are pleased to continue our association with you for the next 12 months and look forward to a successful partnership ahead. \n Additionally, we would recommend promoting Blitz\u2019s services to your other clients as well. Based on our experience so far, we believe many of them would find Blitz to be a valuable delivery partner and would be keen to explore the solution for their shipping requirements. \n Once again, thank you for your support, and we look forward to working together in the coming months.     Thanks again.  \n  Kindest  Jaspreet Singh",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58834071393433,
-      "via": {
-        "channel": "email",
-        "source": {
-          "from": {
-            "address": "belvish69@gmail.com",
-            "name": "belvish69@gmail.com",
-            "original_recipients": [
-              "belvish69@gmail.com",
-              "support@pluginhive.com"
-            ]
+        "created_at": "2026-06-03T14:01:34Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
           },
-          "to": {
-            "name": "PluginHive"
-          },
-          "rel": null
+          "custom": {}
         }
       },
-      "created_at": "2026-06-10T11:05:31Z",
-      "metadata": {
-        "system": {
-          "message_id": "<CALDu_oejvHw0dJtz2-AcmUi+bE7BdCnb+py_kE5BWbXAPfVgng@mail.gmail.com>",
-          "email_id": "01KTRKATNT13Q75CSN0DCF73PC",
-          "raw_email_identifier": "2369120/20e938aa-60c8-4279-a993-7dd95c7e2114.eml",
-          "json_email_identifier": "2369120/20e938aa-60c8-4279-a993-7dd95c7e2114.json",
-          "eml_redacted": false
-        },
-        "custom": {},
-        "flags": [
-          15
-        ],
-        "flags_options": {
-          "15": {
-            "trusted": true
+      {
+        "id": 58622614679449,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Shared with Abhilash. He will reach out to carrier team contacts for more information.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Shared with Abhilash. He will reach out to carrier team contacts for more information.<br></div>",
+        "plain_body": "Shared with Abhilash. He will reach out to carrier team contacts for more information.",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58622614678553,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
           }
         },
-        "trusted": true,
-        "suspension_type_id": null
-      }
-    },
-    {
-      "id": 58835082554009,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Hello Jaspreet Singh,\n\nThank you for your acknowledgement.\n\nWe will soon share the next steps from end with you about the integration process.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jaspreet Singh,<br>&nbsp;<br>Thank you for your acknowledgement.<br>&nbsp;<br>We will soon share the next steps from end with you about the integration process.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
-      "plain_body": "Hello Jaspreet Singh,\n&nbsp;\nThank you for your acknowledgement.\n&nbsp;\nWe will soon share the next steps from end with you about the integration process.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
-      "public": true,
-      "attachments": [],
-      "audit_id": 58835082553881,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
+        "created_at": "2026-06-04T07:12:24Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
         }
       },
-      "created_at": "2026-06-10T11:43:00Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
+      {
+        "id": 58636266016921,
+        "type": "Comment",
+        "author_id": 29071581279257,
+        "body": "Hello Touseef,\n\n\n\nAny updates on below request? we need this to be implemented asap.\n\n\n\nThanks",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Hello Touseef,</div><div dir=\"auto\"><br></div><div dir=\"auto\">Any updates on below request? we need this to be implemented asap.&nbsp;</div><div dir=\"auto\"><br></div><div dir=\"auto\">Thanks&nbsp;</div><div><br><div></div></div></div>",
+        "plain_body": "Hello Touseef,  \n  Any updates on below request? we need this to be implemented asap.&nbsp;  \n  Thanks&nbsp;",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58636266016793,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "belvish69@gmail.com",
+              "name": "belvish69@gmail.com",
+              "original_recipients": [
+                "belvish69@gmail.com",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive"
+            },
+            "rel": null
+          }
         },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58835099220761,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "Abhilash to discuss with team and provide an update on next steps.",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Abhilash to discuss with team and provide an update on next steps.<br></div>",
-      "plain_body": "Abhilash to discuss with team and provide an update on next steps.",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58835099219993,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
+        "created_at": "2026-06-04T14:26:09Z",
+        "metadata": {
+          "system": {
+            "message_id": "<CALDu_occauN5Jhs=RaCthJBGGfoc0w27tB2jrABKjdrZnx2i-A@mail.gmail.com>",
+            "email_id": "01KT9GDX9QC88YJKN9JTE2A48G",
+            "raw_email_identifier": "2369120/c95ad811-daa1-474b-8f75-d972623c4405.eml",
+            "json_email_identifier": "2369120/c95ad811-daa1-474b-8f75-d972623c4405.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
         }
       },
-      "created_at": "2026-06-10T11:43:19Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
+      {
+        "id": 58636407180057,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Belvish,\n\nI have forwarded your request to our Partnership Team so that they can reach out to the carrier team for more information.\n\nOnce we receive an update from them, we will get back to you with more information.\n\nThank you for your patience and understanding.\n\nRegards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Belvish,<br>&nbsp;<br>I have forwarded your request to our Partnership Team so that they can reach out to the carrier team for more information.<br>&nbsp;<br>Once we receive an update from them, we will get back to you with more information.<br>&nbsp;<br>Thank you for your patience and understanding.<br>&nbsp;<br>Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Belvish,\n&nbsp;\nI have forwarded your request to our Partnership Team so that they can reach out to the carrier team for more information.\n&nbsp;\nOnce we receive an update from them, we will get back to you with more information.\n&nbsp;\nThank you for your patience and understanding.\n&nbsp;\nRegards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58636407179929,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
         },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58919919154841,
-      "type": "Comment",
-      "author_id": 8448825445657,
-      "body": "Hi Team,\n\nWe have received a new carrier integration request from our customer belvish.myshopify.com. The customer is currently on our $49 plan and has been with us for the past 2 years.\n\nThe requested carrier is BlitzNow, a last-mile logistics provider that enables D2C brands to offer 30\u201360 minute, same-day, and next-day deliveries through its dark store and delivery network across metro cities. BlitzNow is already integrated with platforms such as eShipz, ClickPost, Shiprocket, and Unicommerce.\n\nI have completed the initial discussions with the BlitzNow team and collected the required API documentation and test credentials for evaluation. Please find the details below:\n\n- **API Documention** - https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783\n- **Username** - YYyqOnG0g9Nc\n- **Password** - pb=$+:.?y0*Lg\n\n\n**Login URL:** https://app.blitznow.in/login\n**username:** abhilash@pluginhive.com\n**password:** PH@Blitz@2026 - please check PluginHive phone to get the auth code\n\nCould we please review this integration request and let me know if we are willing to take this up? Please share this with the L3 team for review.\n\n(Abhilash)",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br>We have received a new carrier integration request from our customer <a rel=\"noopener noreferrer\" href=\"http://belvish.myshopify.com\">belvish.myshopify.com</a>. The customer is currently on our $49 plan and has been with us for the past 2 years.<br>&nbsp;<br>The requested carrier is BlitzNow, a last-mile logistics provider that enables D2C brands to offer 30\u201360 minute, same-day, and next-day deliveries through its dark store and delivery network across metro cities. BlitzNow is already integrated with platforms such as eShipz, ClickPost, Shiprocket, and Unicommerce.<br>&nbsp;<br>I have completed the initial discussions with the BlitzNow team and collected the required API documentation and test credentials for evaluation. Please find the details below:&nbsp;<br>&nbsp;<br><ul dir=\"auto\"><li><strong>API Documention</strong> - <a rel=\"noopener noreferrer\" href=\"https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783\">https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783</a></li><li><strong>Username</strong> - YYyqOnG0g9Nc</li><li><strong>Password</strong> - pb=$+:.?y0*Lg</li></ul>&nbsp;<br><strong>Login URL:</strong> <a rel=\"noopener noreferrer\" href=\"https://app.blitznow.in/login\">https://app.blitznow.in/login</a><br><strong>username:</strong> <a href=\"mailto:abhilash@pluginhive.com\" rel=\"noreferrer\">abhilash@pluginhive.com</a><br><strong>password:</strong> PH@Blitz@2026 - please check PluginHive phone to get the auth code<br>&nbsp;<br>Could we please review this integration request and let me know if we are willing to take this up? Please share this with the L3 team for review.<br>&nbsp;<br>(Abhilash)<br></div>",
-      "plain_body": "Hi Team,\n&nbsp;\nWe have received a new carrier integration request from our customer belvish.myshopify.com. The customer is currently on our $49 plan and has been with us for the past 2 years.\n&nbsp;\nThe requested carrier is BlitzNow, a last-mile logistics provider that enables D2C brands to offer 30\u201360 minute, same-day, and next-day deliveries through its dark store and delivery network across metro cities. BlitzNow is already integrated with platforms such as eShipz, ClickPost, Shiprocket, and Unicommerce.\n&nbsp;\nI have completed the initial discussions with the BlitzNow team and collected the required API documentation and test credentials for evaluation. Please find the details below:&nbsp;\n&nbsp;\n  API Documention - https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783  Username - YYyqOnG0g9Nc  Password - pb=$+:.?y0*Lg  &nbsp;\nLogin URL: https://app.blitznow.in/login\nusername: abhilash@pluginhive.com\npassword: PH@Blitz@2026 - please check PluginHive phone to get the auth code\n&nbsp;\nCould we please review this integration request and let me know if we are willing to take this up? Please share this with the L3 team for review.\n&nbsp;\n(Abhilash)",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58919919154201,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
+        "created_at": "2026-06-04T14:32:46Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
         }
       },
-      "created_at": "2026-06-12T12:02:26Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
+      {
+        "id": 58636421600281,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": " ![](https://pluginhive.zendesk.com/attachments/token/3KqrAadLthf0usvBpgMeZ12dG/?name=image.png)",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><span style=\"opacity: 1;\"><img style=\" width: 469px;\" src=\"https://pluginhive.zendesk.com/attachments/token/3KqrAadLthf0usvBpgMeZ12dG/?name=image.png\"></span><br></div>",
+        "plain_body": "",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58636421600153,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
         },
-        "custom": {}
-      }
-    },
-    {
-      "id": 58920346973337,
-      "type": "Comment",
-      "author_id": 18854260804761,
-      "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781266585481409\n\nIndia MCSL-S customer had reached out to us and requested a new integration for **BLITZNOW**.\nThe contacts provided by customer for the carrier were forwarded to Abhilash. He has had discussions with the carrier team and below is his input -\n\n\n* * *\nWe have received a new carrier integration request from our customer belvish.myshopify.com. The customer is currently on our $49 plan and has been with us for the past 2 years.\n\nThe requested carrier is BlitzNow, a last-mile logistics provider that enables D2C brands to offer 30\u201360 minute, same-day, and next-day deliveries through its dark store and delivery network across metro cities. BlitzNow is already integrated with platforms such as eShipz, ClickPost, Shiprocket, and Unicommerce.\n\nI have completed the initial discussions with the BlitzNow team and collected the required API documentation and test credentials for evaluation. Please find the details below:\n\n\n- **API Documention** - https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783\n- **Username** - YYyqOnG0g9Nc\n- **Password** - pb=$+:.?y0*Lg\n\n\n**Login URL:** https://app.blitznow.in/login\n**username:** abhilash@pluginhive.com\n**password:** PH@Blitz@2026 - please check PluginHive phone to get the auth code\n\nCould we please review this integration request and let me know if we are willing to take this up? Please share this with the L3 team for review.\n\n* * *\n\nURL - belvish.myshopify.com\nAccount ID - 8e687ee2-cbaa-41d2-b734-316af174a875",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1781266585481409\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1781266585481409</a><br>&nbsp;<br>India MCSL-S customer had reached out to us and requested a new integration for <a rel=\"noopener noreferrer\" href=\"https://www.blitznow.in/\"><strong>BLITZNOW</strong></a>.<br>The contacts provided by customer for the carrier were forwarded to Abhilash. He has had discussions with the carrier team and below is his input -&nbsp;<br>&nbsp;<br><hr>We have received a new carrier integration request from our customer <a rel=\"noopener noreferrer\" href=\"http://belvish.myshopify.com/\">belvish.myshopify.com</a>. The customer is currently on our $49 plan and has been with us for the past 2 years.<br>&nbsp;<br>The requested carrier is BlitzNow, a last-mile logistics provider that enables D2C brands to offer 30\u201360 minute, same-day, and next-day deliveries through its dark store and delivery network across metro cities. BlitzNow is already integrated with platforms such as eShipz, ClickPost, Shiprocket, and Unicommerce.<br>&nbsp;<br>I have completed the initial discussions with the BlitzNow team and collected the required API documentation and test credentials for evaluation. Please find the details below:&nbsp;<br>&nbsp;<br><ul dir=\"auto\"><li><strong>API Documention</strong> - <a rel=\"noopener noreferrer\" href=\"https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783\">https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783</a></li><li><strong>Username</strong> - YYyqOnG0g9Nc</li><li><strong>Password</strong> - pb=$+:.?y0*Lg</li></ul>&nbsp;<br><strong>Login URL:</strong> <a rel=\"noopener noreferrer\" href=\"https://app.blitznow.in/login\">https://app.blitznow.in/login</a><br><strong>username:</strong> <a href=\"mailto:abhilash@pluginhive.com\" rel=\"noreferrer\">abhilash@pluginhive.com</a><br><strong>password:</strong> PH@Blitz@2026 - please check PluginHive phone to get the auth code<br>&nbsp;<br>Could we please review this integration request and let me know if we are willing to take this up? Please share this with the L3 team for review.<br><hr>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://belvish.myshopify.com\">belvish.myshopify.com</a><br>Account ID - 8e687ee2-cbaa-41d2-b734-316af174a875<br></div>",
-      "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781266585481409\n&nbsp;\nIndia MCSL-S customer had reached out to us and requested a new integration for BLITZNOW.\nThe contacts provided by customer for the carrier were forwarded to Abhilash. He has had discussions with the carrier team and below is his input -&nbsp;\n&nbsp;\n We have received a new carrier integration request from our customer belvish.myshopify.com. The customer is currently on our $49 plan and has been with us for the past 2 years.\n&nbsp;\nThe requested carrier is BlitzNow, a last-mile logistics provider that enables D2C brands to offer 30\u201360 minute, same-day, and next-day deliveries through its dark store and delivery network across metro cities. BlitzNow is already integrated with platforms such as eShipz, ClickPost, Shiprocket, and Unicommerce.\n&nbsp;\nI have completed the initial discussions with the BlitzNow team and collected the required API documentation and test credentials for evaluation. Please find the details below:&nbsp;\n&nbsp;\n  API Documention - https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783  Username - YYyqOnG0g9Nc  Password - pb=$+:.?y0*Lg  &nbsp;\nLogin URL: https://app.blitznow.in/login\nusername: abhilash@pluginhive.com\npassword: PH@Blitz@2026 - please check PluginHive phone to get the auth code\n&nbsp;\nCould we please review this integration request and let me know if we are willing to take this up? Please share this with the L3 team for review.\n &nbsp;\nURL - belvish.myshopify.com\nAccount ID - 8e687ee2-cbaa-41d2-b734-316af174a875",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58920346973209,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
+        "created_at": "2026-06-04T14:33:01Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
         }
       },
-      "created_at": "2026-06-12T12:17:09Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
+      {
+        "id": 58693598317209,
+        "type": "Comment",
+        "author_id": 29071581279257,
+        "body": "Hello Touseef,\n\n\nHave you checked with your team? Is there any update on this? Actually we need this to be implemented as early as possible.\n\n\n\nKindest",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello Touseef,<div><br></div><div>Have you checked with your team? Is there any update&nbsp;on this? Actually we need this to be implemented&nbsp;as early as possible.</div><div><br></div><div>Kindest</div><div>&nbsp;</div></div><br><div></div></div>",
+        "plain_body": "Hello Touseef, \n  Have you checked with your team? Is there any update&nbsp;on this? Actually we need this to be implemented&nbsp;as early as possible.  \n  Kindest  &nbsp;",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58693598317081,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "belvish69@gmail.com",
+              "name": "belvish69@gmail.com",
+              "original_recipients": [
+                "belvish69@gmail.com",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive"
+            },
+            "rel": null
+          }
         },
-        "custom": {}
-      }
-    },
-    {
-      "id": 59023510519577,
-      "type": "Comment",
-      "author_id": 8448825445657,
-      "body": "We will provide an update on this integration tomorrow.\n-[Athul]",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will provide an update on this integration tomorrow.<br>-[Athul]<br></div>",
-      "plain_body": "We will provide an update on this integration tomorrow.\n-[Athul]",
-      "public": false,
-      "attachments": [],
-      "audit_id": 59023523928089,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
+        "created_at": "2026-06-06T08:51:04Z",
+        "metadata": {
+          "system": {
+            "message_id": "<CALDu_od99n1RzgAG3YSP992fxigzrSoEzGiwqGuOoGe5kxYF7A@mail.gmail.com>",
+            "email_id": "01KTE21SMSTTGNHH3PK4H4T07T",
+            "raw_email_identifier": "2369120/bae6e980-8749-455d-8dc4-bc270a144807.eml",
+            "json_email_identifier": "2369120/bae6e980-8749-455d-8dc4-bc270a144807.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
         }
       },
-      "created_at": "2026-06-15T12:51:25Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
+      {
+        "id": 58696917667609,
+        "type": "Comment",
+        "author_id": 10478126723609,
+        "body": "Hello,\n\nTouseef is currently not available.\n\nWe have not received any update on the requirement.\n\nOnce we have an update, will reach out to you.\n\nBest regards,\nSagar K S\nPluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello,<br>&nbsp;<br>Touseef is currently not available.&nbsp;<br>&nbsp;<br>We have not received any update on the requirement.&nbsp;<br>&nbsp;<br>Once we have an update, will reach out to you.<br>&nbsp;<br>Best regards,<br>Sagar K S<br>PluginHive<br></div>",
+        "plain_body": "Hello,\n&nbsp;\nTouseef is currently not available.&nbsp;\n&nbsp;\nWe have not received any update on the requirement.&nbsp;\n&nbsp;\nOnce we have an update, will reach out to you.\n&nbsp;\nBest regards,\nSagar K S\nPluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58696917667481,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
         },
-        "custom": {}
-      }
-    },
-    {
-      "id": 59041953202201,
-      "type": "Comment",
-      "author_id": 8448825445657,
-      "body": "Moving to dev_needed.\n[Veena]",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving to dev_needed.<br>[Veena]<br></div>",
-      "plain_body": "Moving to dev_needed.\n[Veena]",
-      "public": false,
-      "attachments": [],
-      "audit_id": 59041953202073,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
+        "created_at": "2026-06-06T11:03:52Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
         }
       },
-      "created_at": "2026-06-16T04:06:09Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
-          "ip_address": "127.0.0.6",
-          "location": "Bengaluru, KA, India",
-          "latitude": 12.9753,
-          "longitude": 77.591
+      {
+        "id": 58754963190041,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Belvish,\n\nI have an update on your case.\n\nOur partnership team has tried reaching out to Deepak and Arushi a couple of times but have not been able to get in touch with them.\n\nAs such, I would request you to introduce Abhilash, Partnership Manager at PluginHive to the carrier team in a new email. This will enable our team to establish a communication channel with them for quicker resolution of the case.\n\nLet us know if you have any other queries in the meantime.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Belvish,<br>&nbsp;<br>I have an update on your case.<br>&nbsp;<br>Our partnership team has tried reaching out to Deepak and Arushi a couple of times but have not been able to get in touch with them.<br>&nbsp;<br>As such, I would request you to introduce Abhilash, Partnership Manager at PluginHive to the carrier team in a new email. This will enable our team to establish a communication channel with them for quicker resolution of the case.<br>&nbsp;<br>Let us know if you have any other queries in the meantime.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Belvish,\n&nbsp;\nI have an update on your case.\n&nbsp;\nOur partnership team has tried reaching out to Deepak and Arushi a couple of times but have not been able to get in touch with them.\n&nbsp;\nAs such, I would request you to introduce Abhilash, Partnership Manager at PluginHive to the carrier team in a new email. This will enable our team to establish a communication channel with them for quicker resolution of the case.\n&nbsp;\nLet us know if you have any other queries in the meantime.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58754963189913,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
         },
-        "custom": {}
+        "created_at": "2026-06-08T09:52:13Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58782119229337,
+        "type": "Comment",
+        "author_id": 29071581279257,
+        "body": "Hello Deepak and Arushi,\n\n\nGreetings.\n\nCould you please connect with Touseef to get Blitz activated in our PluginHive application? This is required so that we can start using their services for our future shipments.\n\nThe API credentials and relevant documentation have already been shared earlier. As I understand, the Blitz team had also tried reaching out previously, but the discussion could not be taken forward.\n\nI would suggest using this email thread as a common platform to coordinate and assist each other with the activation process. Please let us know if any additional information or support is required from our end.\n\nLooking forward to your assistance in getting this completed at the earliest.\n\n\n\nKindest\n\nJaspreet Singh\n\nBelvish.com",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello Deepak and Arushi,<div><br></div><div>Greetings.</div><div><p dir=\"auto\">Could you please connect with Touseef to get Blitz activated in our PluginHive application? This is required so that we can start using their services for our future shipments.</p><p dir=\"auto\">The API credentials and relevant documentation have already been shared earlier. As I understand, the Blitz team had also tried reaching out previously, but the discussion could not be taken forward.</p><p dir=\"auto\">I would suggest using this email thread as a common platform to coordinate and assist each other with the activation process. Please let us know if any additional information or support is required from our end.</p><p dir=\"auto\">Looking forward to your assistance in getting this completed at the earliest.</p></div><div><br></div><div>Kindest</div><div>Jaspreet Singh</div><div>Belvish.com</div></div><br><div></div></div>",
+        "plain_body": "Hello Deepak and Arushi, \n  Greetings.   Could you please connect with Touseef to get Blitz activated in our PluginHive application? This is required so that we can start using their services for our future shipments.  The API credentials and relevant documentation have already been shared earlier. As I understand, the Blitz team had also tried reaching out previously, but the discussion could not be taken forward.  I would suggest using this email thread as a common platform to coordinate and assist each other with the activation process. Please let us know if any additional information or support is required from our end.  Looking forward to your assistance in getting this completed at the earliest.   \n  Kindest  Jaspreet Singh  Belvish.com",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58782119229209,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "belvish69@gmail.com",
+              "name": "belvish69@gmail.com",
+              "original_recipients": [
+                "belvish69@gmail.com",
+                "support@pluginhive.com",
+                "deepak.singh@blitznow.in",
+                "arushi.bhusri@blitznow.in",
+                "sumanth@blitznow.in"
+              ]
+            },
+            "to": {
+              "name": "PluginHive"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-09T05:42:03Z",
+        "metadata": {
+          "system": {
+            "message_id": "<CALDu_od7ghbjrj_BZc04GJ0xPnK42Fe6+vGZvYPaGT04BdhK9Q@mail.gmail.com>",
+            "email_id": "01KTNEDT0EVCHK5Q4QWX877EFK",
+            "raw_email_identifier": "2369120/f2a550d1-4c32-40b7-9d93-6e1057ac7dcb.eml",
+            "json_email_identifier": "2369120/f2a550d1-4c32-40b7-9d93-6e1057ac7dcb.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 58783207579033,
+        "type": "Comment",
+        "author_id": 10478126723609,
+        "body": "Customer to carrier team",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer to carrier team<br></div>",
+        "plain_body": "Customer to carrier team",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58783168526617,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-09T06:10:00Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58783893116313,
+        "type": "Comment",
+        "author_id": 58782119199513,
+        "body": "Hi Akshay,\n\n\n\nThanks for introducing.\n\n\n\n@Touseef can you please share your phone co-ordinates to connect.\n\n\n\n@Deepak Singh @Arushi\n\n\n\n\n\nRegards,\n\n![](https://ci3.googleusercontent.com/mail-sig/AIorK4yurVVFvk_0GmU4gEDkRo76FDjjgPERALJpXs9F9nICNRYjEgHCLkb482Gahcjb4SsxQNSQ2FE)\n\nSumanth\nSenior Sales Manager\nBlitz\n\nM: 9741434225\n\nW: www.blitznow.in E: sumanth@blitznow.in",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div dir=\"ltr\"><div>Hi Akshay,</div><div><br></div><div>Thanks for introducing.</div><div><br></div><div>@Touseef can you please share your phone <span style=\"background-image: none; border-style: none;\">co-ordinates to</span> connect.<br></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div style=\"text-align: left;\" align=\"left\"><br></div><div style=\"text-align: left;\" align=\"left\"><a href=\"mailto:deepak.singh@blitznow.in\" rel=\"noreferrer\">@Deepak Singh</a>&nbsp;<a href=\"mailto:arushi.bhusri@blitznow.in\" rel=\"noreferrer\">@Arushi</a>&nbsp;<br></div><div style=\"text-align: left;\" align=\"left\"><br></div><div style=\"text-align: left;\" align=\"left\"><br></div><div style=\"text-align: left;\" align=\"left\">Regards,</div><div style=\"color: rgb(34,34,34);\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"text-align: left; border-spacing: 0px; border-collapse: collapse; background-repeat: repeat; width: 640px; color: rgb(51,51,51); margin: 0px; padding: 0px; border-width: 0px;\"><tbody><tr><td border=\"0\" valign=\"middle\" width=\"90\" style=\"width: 90px; padding: 0px 10px 0px 1px; border-color: rgb(108,113,145); border-style: none solid none none; border-width: medium 3px medium medium;\"><table style=\"color: rgb(34,34,34); border-collapse: collapse; border: medium none currentcolor;\"><tbody><tr style=\"height: 67.5pt;\"><td style=\"vertical-align: top; overflow: hidden; padding: 5pt; border: 1pt solid rgb(255,255,255);\" valign=\"top\"></td><td style=\"vertical-align: top; overflow: hidden; padding: 5pt; border: 1pt solid rgb(255,255,255);\" valign=\"top\"><p dir=\"auto\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; color: rgb(0,0,0); background-color: transparent; vertical-align: baseline;\"><span style=\"display: inline-block; overflow: hidden; width: 87px; height: 91px; border: medium none currentcolor;\"><img width=\"88\" height=\"96\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4yurVVFvk_0GmU4gEDkRo76FDjjgPERALJpXs9F9nICNRYjEgHCLkb482Gahcjb4SsxQNSQ2FE\"></span></span></p></td><td style=\"vertical-align: top; overflow: hidden; padding: 5pt; border: 1pt solid rgb(255,255,255);\" valign=\"top\"><br></td></tr></tbody></table></td><td border=\"0\" valign=\"middle\" style=\"padding: 0px 0px 0px 7px;\"><table style=\"border-spacing: 0px; border-collapse: collapse; background-color: transparent; background-color: transparent\"><tbody><tr><td colspan=\"2\" style=\"padding: 0px;\"><font style=\" background-color: rgb(255,255,255);\" color=\"#000000\">Sumanth</font></td></tr><tr><td colspan=\"2\" style=\"line-height: 1.6; padding: 0px;\"><font color=\"#000000\">Senior Sales Manager</font></td></tr><tr><td colspan=\"2\" style=\"line-height: 1.6; padding: 0px;\"><span style=\"display: inline-block; font-weight: bold;\"><font color=\"#000000\">Blitz</font></span></td></tr><tr><td colspan=\"2\" style=\"line-height: 1.6; padding: 0px;\"><table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"border-spacing: 0px; border-collapse: collapse; background-color: transparent; background-color: transparent\"><tbody><tr><td style=\"padding: 0px 10px 0px 0px;\"><font color=\"#000000\">M: 9741434225</font></td></tr></tbody></table></td></tr><tr><td colspan=\"2\" style=\"line-height: 1.6; padding: 0px;\"><table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"border-spacing: 0px; border-collapse: collapse; background-color: transparent; background-color: transparent\"><tbody><tr><td style=\"padding: 0px 10px 0px 0px;\"><font color=\"#000000\">W:&nbsp;<a href=\"https://www.blitznow.in/\" style=\"outline: 0px; background-color: transparent;\" rel=\"noreferrer\">www.blitznow.in</a></font></td><td style=\"padding: 0px 10px 0px 0px;\"><font color=\"#000000\">E:&nbsp;<a href=\"mailto:sumanth@blitznow.in\" style=\"outline: 0px; background-color: transparent;\" rel=\"noreferrer\"><span>sumanth@blitznow.in</span></a></font></td></tr></tbody></table></td></tr></tbody></table><font size=\"1\"><br></font></td></tr></tbody></table></div></div></div></div><br></div><br><div></div></div></div>",
+        "plain_body": "Hi Akshay,  \n  Thanks for introducing.  \n  @Touseef can you please share your phone co-ordinates to connect.\n     \n  @Deepak Singh&nbsp;@Arushi&nbsp;\n  \n  \n  Regards,    \nSumanthSenior Sales ManagerBlitzM: 9741434225W:&nbsp;www.blitznow.inE:&nbsp;sumanth@blitznow.in",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58783881174041,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "belvish69@gmail.com",
+              "name": "belvish69@gmail.com",
+              "original_recipients": [
+                "sumanth@blitznow.in",
+                "belvish69@gmail.com",
+                "support@pluginhive.com",
+                "deepak.singh@blitznow.in",
+                "arushi.bhusri@blitznow.in"
+              ]
+            },
+            "to": {
+              "name": "PluginHive"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-09T06:27:23Z",
+        "metadata": {
+          "system": {
+            "message_id": "<CAOEU99nC_xtxKds0X5PRc902Vw5SQEumOKTcX+xkMhJ1zhk--g@mail.gmail.com>",
+            "email_id": "01KTNH0TX8SHCA2XFSW0QCN5BT",
+            "raw_email_identifier": "2369120/40d8fcad-2c8d-4e4e-9127-a8bba51a2612.eml",
+            "json_email_identifier": "2369120/40d8fcad-2c8d-4e4e-9127-a8bba51a2612.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null,
+          "notifications_suppressed_for": [
+            29071581279257
+          ]
+        }
+      },
+      {
+        "id": 58788110070937,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Sumanth,\n\nThank you for your response.\n\nAbhilash, Partnership Manager at PluginHive will be your point of contact from our end. Please find below his contact details -\nPhone - +91 9036588031\nEmail - abhilash@pluginhive.com\n\nYou can contact him directly for further correspondence.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Sumanth,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>Abhilash, Partnership Manager at PluginHive will be your point of contact from our end. Please find below his contact details -&nbsp;<br>Phone - +91 9036588031<br>Email - <a href=\"mailto:abhilash@pluginhive.com\" rel=\"noreferrer\">abhilash@pluginhive.com</a><br>&nbsp;<br>You can contact him directly for further correspondence.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Sumanth,\n&nbsp;\nThank you for your response.\n&nbsp;\nAbhilash, Partnership Manager at PluginHive will be your point of contact from our end. Please find below his contact details -&nbsp;\nPhone - +91 9036588031\nEmail - abhilash@pluginhive.com\n&nbsp;\nYou can contact him directly for further correspondence.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58788110070809,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-09T08:10:55Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58795494932889,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Discussed with Abhilash. Need to followup with customer.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with Abhilash. Need to followup with customer.<br></div>",
+        "plain_body": "Discussed with Abhilash. Need to followup with customer.",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58795494932633,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-09T11:52:47Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58820676427801,
+        "type": "Comment",
+        "author_id": 29071581279257,
+        "body": "Hello guys,\n\n\nIs there any progress to this? We need Blitz to be working onto our Pluginhive application for shipments at the earliest.\n\n\n\nKindest\n\nJaspreet Singh",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hello guys,<div><br></div><div>Is there any progress to this? We need Blitz to be working onto our Pluginhive application for shipments at the earliest.&nbsp;</div><div><br></div><div>Kindest</div><div>Jaspreet Singh</div></div><br><div></div></div>",
+        "plain_body": "Hello guys, \n  Is there any progress to this? We need Blitz to be working onto our Pluginhive application for shipments at the earliest.&nbsp;  \n  Kindest  Jaspreet Singh",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58820676427673,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "belvish69@gmail.com",
+              "name": "belvish69@gmail.com",
+              "original_recipients": [
+                "belvish69@gmail.com",
+                "sumanth@blitznow.in",
+                "support@pluginhive.com",
+                "deepak.singh@blitznow.in",
+                "arushi.bhusri@blitznow.in"
+              ]
+            },
+            "to": {
+              "name": "PluginHive"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-10T05:12:21Z",
+        "metadata": {
+          "system": {
+            "message_id": "<CALDu_ofOFYdCh-mYdrhd=fnR25akuE37+6dCxCTYDRWm=OMSFA@mail.gmail.com>",
+            "email_id": "01KTQZ4533JFK33XBHNQ0WSTWS",
+            "raw_email_identifier": "2369120/c08dcd34-7d95-4a72-bac1-c19ac04f24d1.eml",
+            "json_email_identifier": "2369120/c08dcd34-7d95-4a72-bac1-c19ac04f24d1.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 58821631516313,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "Informed abhilash on slack\nhttps://pluginhive.slack.com/archives/C09FMQNEV9P/p1781069926812299",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Informed abhilash on slack&nbsp;<br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C09FMQNEV9P/p1781069926812299\">https://pluginhive.slack.com/archives/C09FMQNEV9P/p1781069926812299</a><br></div>",
+        "plain_body": "Informed abhilash on slack&nbsp;\nhttps://pluginhive.slack.com/archives/C09FMQNEV9P/p1781069926812299",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58821631515545,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-10T05:39:16Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58833694742681,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Jaspreet Singh,\n\nThank you for your time on the call.\n\nAs discussed, we are willing to add **Blitznow integration** to our app to support your requirements.\n\nSince this integration is being requested specifically for your use case and has not been requested by other merchants so far, we would require your commitment to continue using the app for at least the next 12 months before we proceed with the development.\n\nPlease confirm if this works for you. Upon receiving your confirmation, we will initiate the process for the integration.\n\nWe look forward to your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jaspreet Singh,<br>&nbsp;<br>Thank you for your time on the call.<br>&nbsp;<br>As discussed, we are willing to add <strong>Blitznow integration</strong> to our app to support your requirements.<br>&nbsp;<br>Since this integration is being requested specifically for your use case and has not been requested by other merchants so far, we would require your commitment to continue using the app for at least the next 12 months before we proceed with the development.<br>&nbsp;<br>Please confirm if this works for you. Upon receiving your confirmation, we will initiate the process for the integration.<br>&nbsp;<br>We look forward to your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Jaspreet Singh,\n&nbsp;\nThank you for your time on the call.\n&nbsp;\nAs discussed, we are willing to add Blitznow integration to our app to support your requirements.\n&nbsp;\nSince this integration is being requested specifically for your use case and has not been requested by other merchants so far, we would require your commitment to continue using the app for at least the next 12 months before we proceed with the development.\n&nbsp;\nPlease confirm if this works for you. Upon receiving your confirmation, we will initiate the process for the integration.\n&nbsp;\nWe look forward to your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58833694742553,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-10T10:54:21Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58833775046041,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Discussed with Abhilash ans followed up with customer as per his instructions.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with Abhilash ans followed up with customer as per his instructions.<br></div>",
+        "plain_body": "Discussed with Abhilash ans followed up with customer as per his instructions.",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58833775042073,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-10T10:55:21Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58833761243929,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Email id of Blitznow team -\nsumanth@blitznow.in\ndeepak.singh@blitznow.in\narushi.bhusri@blitznow.in",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Email id of Blitznow team -<br>sumanth@blitznow.in<br>deepak.singh@blitznow.in<br>arushi.bhusri@blitznow.in&nbsp;<br></div>",
+        "plain_body": "Email id of Blitznow team -\nsumanth@blitznow.in\ndeepak.singh@blitznow.in\narushi.bhusri@blitznow.in&nbsp;",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58833775352601,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-10T10:55:25Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58834071393561,
+        "type": "Comment",
+        "author_id": 29071581279257,
+        "body": "Hello Touseef,\n\n\n\nThank you so much for your support in facilitating the integration of Blitz with your systems. We truly appreciate the assistance provided throughout the process.\n\nWe are pleased to continue our association with you for the next 12 months and look forward to a successful partnership ahead.\n\nAdditionally, we would recommend promoting Blitz\u2019s services to your other clients as well. Based on our experience so far, we believe many of them would find Blitz to be a valuable delivery partner and would be keen to explore the solution for their shipping requirements.\n\nOnce again, thank you for your support, and we look forward to working together in the coming months.\n\nThanks again.\n\n\n\nKindest\n\nJaspreet Singh",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Hello Touseef,</div><div dir=\"auto\"><span style=\"font-size: inherit;\"><br></span></div><div dir=\"auto\"><span style=\"font-size: inherit;\">Thank you so much for your support in facilitating the integration of Blitz with your systems. We truly appreciate the assistance provided throughout the process.</span><br></div><div dir=\"auto\"><div style=\"font-size: inherit;\"><div style=\"font-size: inherit;\">\n<p dir=\"auto\">We are pleased to continue our association with you for the next 12 months and look forward to a successful partnership ahead.</p>\n<p dir=\"auto\">Additionally, we would recommend promoting Blitz\u2019s services to your other clients as well. Based on our experience so far, we believe many of them would find Blitz to be a valuable delivery partner and would be keen to explore the solution for their shipping requirements.</p>\n<p dir=\"auto\">Once again, thank you for your support, and we look forward to working together in the coming months.</p></div></div></div><div dir=\"auto\">Thanks again.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Kindest</div><div dir=\"auto\">Jaspreet Singh</div><div><br><div></div></div></div>",
+        "plain_body": "Hello Touseef,  \n  Thank you so much for your support in facilitating the integration of Blitz with your systems. We truly appreciate the assistance provided throughout the process.\n    \n We are pleased to continue our association with you for the next 12 months and look forward to a successful partnership ahead. \n Additionally, we would recommend promoting Blitz\u2019s services to your other clients as well. Based on our experience so far, we believe many of them would find Blitz to be a valuable delivery partner and would be keen to explore the solution for their shipping requirements. \n Once again, thank you for your support, and we look forward to working together in the coming months.     Thanks again.  \n  Kindest  Jaspreet Singh",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58834071393433,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "belvish69@gmail.com",
+              "name": "belvish69@gmail.com",
+              "original_recipients": [
+                "belvish69@gmail.com",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-10T11:05:31Z",
+        "metadata": {
+          "system": {
+            "message_id": "<CALDu_oejvHw0dJtz2-AcmUi+bE7BdCnb+py_kE5BWbXAPfVgng@mail.gmail.com>",
+            "email_id": "01KTRKATNT13Q75CSN0DCF73PC",
+            "raw_email_identifier": "2369120/20e938aa-60c8-4279-a993-7dd95c7e2114.eml",
+            "json_email_identifier": "2369120/20e938aa-60c8-4279-a993-7dd95c7e2114.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 58835082554009,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Jaspreet Singh,\n\nThank you for your acknowledgement.\n\nWe will soon share the next steps from end with you about the integration process.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jaspreet Singh,<br>&nbsp;<br>Thank you for your acknowledgement.<br>&nbsp;<br>We will soon share the next steps from end with you about the integration process.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Jaspreet Singh,\n&nbsp;\nThank you for your acknowledgement.\n&nbsp;\nWe will soon share the next steps from end with you about the integration process.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58835082553881,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-10T11:43:00Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58835099220761,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Abhilash to discuss with team and provide an update on next steps.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Abhilash to discuss with team and provide an update on next steps.<br></div>",
+        "plain_body": "Abhilash to discuss with team and provide an update on next steps.",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58835099219993,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-10T11:43:19Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58919919154841,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "Hi Team,\n\nWe have received a new carrier integration request from our customer belvish.myshopify.com. The customer is currently on our $49 plan and has been with us for the past 2 years.\n\nThe requested carrier is BlitzNow, a last-mile logistics provider that enables D2C brands to offer 30\u201360 minute, same-day, and next-day deliveries through its dark store and delivery network across metro cities. BlitzNow is already integrated with platforms such as eShipz, ClickPost, Shiprocket, and Unicommerce.\n\nI have completed the initial discussions with the BlitzNow team and collected the required API documentation and test credentials for evaluation. Please find the details below:\n\n- **API Documention** - https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783\n- **Username** - YYyqOnG0g9Nc\n- **Password** - pb=$+:.?y0*Lg\n\n\n**Login URL:** https://app.blitznow.in/login\n**username:** abhilash@pluginhive.com\n**password:** PH@Blitz@2026 - please check PluginHive phone to get the auth code\n\nCould we please review this integration request and let me know if we are willing to take this up? Please share this with the L3 team for review.\n\n(Abhilash)",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br>We have received a new carrier integration request from our customer <a rel=\"noopener noreferrer\" href=\"http://belvish.myshopify.com\">belvish.myshopify.com</a>. The customer is currently on our $49 plan and has been with us for the past 2 years.<br>&nbsp;<br>The requested carrier is BlitzNow, a last-mile logistics provider that enables D2C brands to offer 30\u201360 minute, same-day, and next-day deliveries through its dark store and delivery network across metro cities. BlitzNow is already integrated with platforms such as eShipz, ClickPost, Shiprocket, and Unicommerce.<br>&nbsp;<br>I have completed the initial discussions with the BlitzNow team and collected the required API documentation and test credentials for evaluation. Please find the details below:&nbsp;<br>&nbsp;<br><ul dir=\"auto\"><li><strong>API Documention</strong> - <a rel=\"noopener noreferrer\" href=\"https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783\">https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783</a></li><li><strong>Username</strong> - YYyqOnG0g9Nc</li><li><strong>Password</strong> - pb=$+:.?y0*Lg</li></ul>&nbsp;<br><strong>Login URL:</strong> <a rel=\"noopener noreferrer\" href=\"https://app.blitznow.in/login\">https://app.blitznow.in/login</a><br><strong>username:</strong> <a href=\"mailto:abhilash@pluginhive.com\" rel=\"noreferrer\">abhilash@pluginhive.com</a><br><strong>password:</strong> PH@Blitz@2026 - please check PluginHive phone to get the auth code<br>&nbsp;<br>Could we please review this integration request and let me know if we are willing to take this up? Please share this with the L3 team for review.<br>&nbsp;<br>(Abhilash)<br></div>",
+        "plain_body": "Hi Team,\n&nbsp;\nWe have received a new carrier integration request from our customer belvish.myshopify.com. The customer is currently on our $49 plan and has been with us for the past 2 years.\n&nbsp;\nThe requested carrier is BlitzNow, a last-mile logistics provider that enables D2C brands to offer 30\u201360 minute, same-day, and next-day deliveries through its dark store and delivery network across metro cities. BlitzNow is already integrated with platforms such as eShipz, ClickPost, Shiprocket, and Unicommerce.\n&nbsp;\nI have completed the initial discussions with the BlitzNow team and collected the required API documentation and test credentials for evaluation. Please find the details below:&nbsp;\n&nbsp;\n  API Documention - https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783  Username - YYyqOnG0g9Nc  Password - pb=$+:.?y0*Lg  &nbsp;\nLogin URL: https://app.blitznow.in/login\nusername: abhilash@pluginhive.com\npassword: PH@Blitz@2026 - please check PluginHive phone to get the auth code\n&nbsp;\nCould we please review this integration request and let me know if we are willing to take this up? Please share this with the L3 team for review.\n&nbsp;\n(Abhilash)",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58919919154201,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T12:02:26Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58920346973337,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781266585481409\n\nIndia MCSL-S customer had reached out to us and requested a new integration for **BLITZNOW**.\nThe contacts provided by customer for the carrier were forwarded to Abhilash. He has had discussions with the carrier team and below is his input -\n\n\n* * *\nWe have received a new carrier integration request from our customer belvish.myshopify.com. The customer is currently on our $49 plan and has been with us for the past 2 years.\n\nThe requested carrier is BlitzNow, a last-mile logistics provider that enables D2C brands to offer 30\u201360 minute, same-day, and next-day deliveries through its dark store and delivery network across metro cities. BlitzNow is already integrated with platforms such as eShipz, ClickPost, Shiprocket, and Unicommerce.\n\nI have completed the initial discussions with the BlitzNow team and collected the required API documentation and test credentials for evaluation. Please find the details below:\n\n\n- **API Documention** - https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783\n- **Username** - YYyqOnG0g9Nc\n- **Password** - pb=$+:.?y0*Lg\n\n\n**Login URL:** https://app.blitznow.in/login\n**username:** abhilash@pluginhive.com\n**password:** PH@Blitz@2026 - please check PluginHive phone to get the auth code\n\nCould we please review this integration request and let me know if we are willing to take this up? Please share this with the L3 team for review.\n\n* * *\n\nURL - belvish.myshopify.com\nAccount ID - 8e687ee2-cbaa-41d2-b734-316af174a875",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1781266585481409\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1781266585481409</a><br>&nbsp;<br>India MCSL-S customer had reached out to us and requested a new integration for <a rel=\"noopener noreferrer\" href=\"https://www.blitznow.in/\"><strong>BLITZNOW</strong></a>.<br>The contacts provided by customer for the carrier were forwarded to Abhilash. He has had discussions with the carrier team and below is his input -&nbsp;<br>&nbsp;<br><hr>We have received a new carrier integration request from our customer <a rel=\"noopener noreferrer\" href=\"http://belvish.myshopify.com/\">belvish.myshopify.com</a>. The customer is currently on our $49 plan and has been with us for the past 2 years.<br>&nbsp;<br>The requested carrier is BlitzNow, a last-mile logistics provider that enables D2C brands to offer 30\u201360 minute, same-day, and next-day deliveries through its dark store and delivery network across metro cities. BlitzNow is already integrated with platforms such as eShipz, ClickPost, Shiprocket, and Unicommerce.<br>&nbsp;<br>I have completed the initial discussions with the BlitzNow team and collected the required API documentation and test credentials for evaluation. Please find the details below:&nbsp;<br>&nbsp;<br><ul dir=\"auto\"><li><strong>API Documention</strong> - <a rel=\"noopener noreferrer\" href=\"https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783\">https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783</a></li><li><strong>Username</strong> - YYyqOnG0g9Nc</li><li><strong>Password</strong> - pb=$+:.?y0*Lg</li></ul>&nbsp;<br><strong>Login URL:</strong> <a rel=\"noopener noreferrer\" href=\"https://app.blitznow.in/login\">https://app.blitznow.in/login</a><br><strong>username:</strong> <a href=\"mailto:abhilash@pluginhive.com\" rel=\"noreferrer\">abhilash@pluginhive.com</a><br><strong>password:</strong> PH@Blitz@2026 - please check PluginHive phone to get the auth code<br>&nbsp;<br>Could we please review this integration request and let me know if we are willing to take this up? Please share this with the L3 team for review.<br><hr>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"http://belvish.myshopify.com\">belvish.myshopify.com</a><br>Account ID - 8e687ee2-cbaa-41d2-b734-316af174a875<br></div>",
+        "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781266585481409\n&nbsp;\nIndia MCSL-S customer had reached out to us and requested a new integration for BLITZNOW.\nThe contacts provided by customer for the carrier were forwarded to Abhilash. He has had discussions with the carrier team and below is his input -&nbsp;\n&nbsp;\n We have received a new carrier integration request from our customer belvish.myshopify.com. The customer is currently on our $49 plan and has been with us for the past 2 years.\n&nbsp;\nThe requested carrier is BlitzNow, a last-mile logistics provider that enables D2C brands to offer 30\u201360 minute, same-day, and next-day deliveries through its dark store and delivery network across metro cities. BlitzNow is already integrated with platforms such as eShipz, ClickPost, Shiprocket, and Unicommerce.\n&nbsp;\nI have completed the initial discussions with the BlitzNow team and collected the required API documentation and test credentials for evaluation. Please find the details below:&nbsp;\n&nbsp;\n  API Documention - https://documenter.getpostman.com/view/34429304/2sB34eKhYC#ec5df567-1dce-43ed-9e45-e837afcf2783  Username - YYyqOnG0g9Nc  Password - pb=$+:.?y0*Lg  &nbsp;\nLogin URL: https://app.blitznow.in/login\nusername: abhilash@pluginhive.com\npassword: PH@Blitz@2026 - please check PluginHive phone to get the auth code\n&nbsp;\nCould we please review this integration request and let me know if we are willing to take this up? Please share this with the L3 team for review.\n &nbsp;\nURL - belvish.myshopify.com\nAccount ID - 8e687ee2-cbaa-41d2-b734-316af174a875",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58920346973209,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T12:17:09Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59023510519577,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "We will provide an update on this integration tomorrow.\n-[Athul]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">We will provide an update on this integration tomorrow.<br>-[Athul]<br></div>",
+        "plain_body": "We will provide an update on this integration tomorrow.\n-[Athul]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59023523928089,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-15T12:51:25Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59041953202201,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "Moving to dev_needed.\n[Veena]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving to dev_needed.<br>[Veena]<br></div>",
+        "plain_body": "Moving to dev_needed.\n[Veena]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59041953202073,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-16T04:06:09Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59367749131417,
+        "type": "Comment",
+        "author_id": 29071581279257,
+        "body": "Hello Touseef,\n\n\n\nIt\u2019s been quite a while now that we have not received any updates from you. Could you pls share the latest findings on how the integration is going and how much more time is needed to make it fully functional.\n\n\n\nKindest\n\nJaspreet Singh",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Hello Touseef,</div><div dir=\"auto\"><br></div><div dir=\"auto\">It\u2019s been quite a while now that we have not received any updates&nbsp;from you. Could you pls share the latest findings on how the integration is going and how much more time is needed to make it fully functional.&nbsp;</div><div dir=\"auto\"><br></div><div dir=\"auto\">Kindest</div><div dir=\"auto\">Jaspreet Singh&nbsp;</div><div dir=\"auto\"><br><div dir=\"auto\"></div></div></div>",
+        "plain_body": "Hello Touseef,  \n  It\u2019s been quite a while now that we have not received any updates&nbsp;from you. Could you pls share the latest findings on how the integration is going and how much more time is needed to make it fully functional.&nbsp;  \n  Kindest  Jaspreet Singh&nbsp;",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59367749131289,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "belvish69@gmail.com",
+              "name": "belvish69@gmail.com",
+              "original_recipients": [
+                "belvish69@gmail.com",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-25T11:20:39Z",
+        "metadata": {
+          "system": {
+            "message_id": "<CALDu_of1usRW0-PZ7LNVupvXVuBpKnaMxfgLfz5xoj_xjTXq0Q@mail.gmail.com>",
+            "email_id": "01KVZ85B60ZCR27M4GH2DAGDZH",
+            "raw_email_identifier": "2369120/14219ae0-c589-4f89-af8d-bd4e3b28473f.eml",
+            "json_email_identifier": "2369120/14219ae0-c589-4f89-af8d-bd4e3b28473f.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 59367743638425,
+        "type": "Comment",
+        "author_id": 366759418072,
+        "body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 32 message(s)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Jaspreet Singh,\n\nThank you for following up, and we appreciate your patience through this process.\n\nHere is the latest status: our development team has reviewed the BlitzNow API documentation and test credentials, and the integration has been formally added to our development queue as of June 16. The team has everything they need from the BlitzNow side to proceed with the build.\n\nWe do not have a confirmed go-live date to share at this time. Our team will reach out to you as soon as there is a concrete update on the development timeline.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)<br>\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 32 message(s)<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Jaspreet Singh,</p>\n<p dir=\"auto\">Thank you for following up, and we appreciate your patience through this process.</p>\n<p dir=\"auto\">Here is the latest status: our development team has reviewed the BlitzNow API documentation and test credentials, and the integration has been formally added to our development queue as of June 16. The team has everything they need from the BlitzNow side to proceed with the build.</p>\n<p dir=\"auto\">We do not have a confirmed go-live date to share at this time. Our team will reach out to you as soon as there is a concrete update on the development timeline.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+        "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\n\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 32 message(s)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Jaspreet Singh, \n Thank you for following up, and we appreciate your patience through this process. \n Here is the latest status: our development team has reviewed the BlitzNow API documentation and test credentials, and the integration has been formally added to our development queue as of June 16. The team has everything they need from the BlitzNow side to proceed with the build. \n We do not have a confirmed go-live date to share at this time. Our team will reach out to you as soon as there is a concrete update on the development timeline. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59367769043993,
+        "via": {
+          "channel": "api",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-25T11:21:25Z",
+        "metadata": {
+          "system": {
+            "client": "node",
+            "ip_address": "206.189.72.35",
+            "location": "Santa Clara, CA, United States",
+            "latitude": 37.3486,
+            "longitude": -121.9732
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59368238829721,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Jaspreet,\n\nThank you for the followup.\n\nWe will be able to provide you an exact timeline on the enhancement by Monday EOD.\n\nWe appreciate your patience and understanding.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jaspreet,<br>&nbsp;<br>Thank you for the followup.<br>&nbsp;<br>We will be able to provide you an exact timeline on the enhancement by Monday EOD.<br>&nbsp;<br>We appreciate your patience and understanding.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Jaspreet,\n&nbsp;\nThank you for the followup.\n&nbsp;\nWe will be able to provide you an exact timeline on the enhancement by Monday EOD.\n&nbsp;\nWe appreciate your patience and understanding.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59368238829593,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-25T11:38:47Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59372592807833,
+        "type": "Comment",
+        "author_id": 58782104383129,
+        "body": "Hi Team\n\nGreetings!\n\nCan we have an update on the integration or if there are any blockers?",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Hi Team<br><br>Greetings!<br><br>Can we have an update on the integration or if there are any blockers?</div><br><div></div></div>",
+        "plain_body": "Hi Team\n\nGreetings!\n\nCan we have an update on the integration or if there are any blockers?",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59372592807705,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "belvish69@gmail.com",
+              "name": "belvish69@gmail.com",
+              "original_recipients": [
+                "deepak.singh@blitznow.in",
+                "belvish69@gmail.com",
+                "sumanth@blitznow.in",
+                "support@pluginhive.com",
+                "arushi.bhusri@blitznow.in"
+              ]
+            },
+            "to": {
+              "name": "PluginHive"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-25T14:12:26Z",
+        "metadata": {
+          "system": {
+            "message_id": "<CACgsoH-_7gEdVH4PeZTgNGGQ8sh8POtdkciR2SLvjbVBa0v1cA@mail.gmail.com>",
+            "email_id": "01KVZHZW59KFFVMBTCA1B63KJF",
+            "raw_email_identifier": "2369120/c4fe9c5d-0cd8-45fe-be8c-5f5499d9ce09.eml",
+            "json_email_identifier": "2369120/c4fe9c5d-0cd8-45fe-be8c-5f5499d9ce09.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15,
+            2
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            },
+            "2": {
+              "trusted": false
+            }
+          },
+          "trusted": false,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 59372838693145,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Jaspreet and Deepak,\n\nThank you for the followup.\n\nOur team will be providing the integration of Blitznow in the app. As of now, there are no blockers on our end for the integration.\n\nHowerver, we will be able to provide you an exact timeline on the enhancement by Monday EOD.\n\nWe appreciate your patience and understanding.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Jaspreet and Deepak,<br>&nbsp;<br>Thank you for the followup.<br>&nbsp;<br>Our team will be providing the integration of Blitznow in the app. As of now, there are no blockers on our end for the integration.<br>&nbsp;<br>Howerver, we will be able to provide you an exact timeline on the enhancement by Monday EOD.<br>&nbsp;<br>We appreciate your patience and understanding.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Jaspreet and Deepak,\n&nbsp;\nThank you for the followup.\n&nbsp;\nOur team will be providing the integration of Blitznow in the app. As of now, there are no blockers on our end for the integration.\n&nbsp;\nHowerver, we will be able to provide you an exact timeline on the enhancement by Monday EOD.\n&nbsp;\nWe appreciate your patience and understanding.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59372838693017,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-25T14:22:16Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59410007537561,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "Hello Deepak,\n\nHope you are doing well.\n\nWe are in the process of integrating BlitzNow carrier, However, we are running into some complications with test credentials. I am attching request and response below for your reference. Kindly assist us on how to proceed.\n\nRequest\n\ncurl --location 'https://xenc2tehd4.execute-api.us-east-2.amazonaws.com/v1/auth' \\\n--header 'Content-Type: application/json' \\\n--data '{\n\"request_type\": \"authenticate\",\n\"payload\": {\n\"username\": \"YYyqOnG0g9Nc\",\n\"password\": \"pb=$+:.?y0*Lg\"\n}\n}'\n\n\nresponse:\n\n    { \"code\": 401, \"message\": \"Incorrect username or password\"}\n\n\n\nBest Regards,\nVeena\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Deepak,<br>&nbsp;<br>Hope you are doing well.<br>&nbsp;<br>We are in the process of integrating BlitzNow carrier, However, we are running into some complications with test credentials. I am attching request and response below for your reference. Kindly assist us on how to proceed.<br>&nbsp;<br>Request<br>&nbsp;<br>curl --location 'https://xenc2tehd4.execute-api.us-east-2.amazonaws.com/v1/auth' \\<br>--header 'Content-Type: application/json' \\<br>--data '{<br>\"request_type\": \"authenticate\",<br>\"payload\": {<br>\"username\": \"YYyqOnG0g9Nc\",<br>\"password\": \"pb=$+:.?y0*Lg\"<br>}<br>}'<br>&nbsp;<br>&nbsp;<br>response:<br><pre><code>{<br>    \"code\": 401,<br>    \"message\": \"Incorrect username or password\"<br>}</code></pre>&nbsp;<br>&nbsp;<br>Best Regards,<br>Veena<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Deepak,\n&nbsp;\nHope you are doing well.\n&nbsp;\nWe are in the process of integrating BlitzNow carrier, However, we are running into some complications with test credentials. I am attching request and response below for your reference. Kindly assist us on how to proceed.\n&nbsp;\nRequest\n&nbsp;\ncurl --location 'https://xenc2tehd4.execute-api.us-east-2.amazonaws.com/v1/auth' \\\n--header 'Content-Type: application/json' \\\n--data '{\n\"request_type\": \"authenticate\",\n\"payload\": {\n\"username\": \"YYyqOnG0g9Nc\",\n\"password\": \"pb=$+:.?y0*Lg\"\n}\n}'\n&nbsp;\n&nbsp;\nresponse:\n {\n    \"code\": 401,\n    \"message\": \"Incorrect username or password\"\n} &nbsp;\n&nbsp;\nBest Regards,\nVeena\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59410035139609,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-26T12:16:34Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "India",
+            "latitude": 21.9974,
+            "longitude": 79.0011
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59577698003481,
+        "type": "Comment",
+        "author_id": 29071581279257,
+        "body": "Hi team,\n\n\n\nIt has been quite a while now that we are waiting for the fully integrated blitz services with the current system however not sure how much more time is needed. I need this to be activated asap or let us know if this can\u2019t be done so that I can look for the alternatives.\n\n\n\nKindly understand this is very pivotal to us to get our system integrated with Blitz services. Kindly update me asap with the exact timelines.\n\n\n\nThanks\n\n\n\nKindest\n\nJaspreet Singh",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"auto\">Hi team,</div><div dir=\"auto\"><br></div><div dir=\"auto\">It has been quite a while now that we are waiting for the fully integrated blitz services with the current system however not sure how much more time is needed. I need this to be activated asap or let us know if this can\u2019t be done so that I can look for the alternatives.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Kindly understand this is very pivotal to us to get our system integrated with Blitz services. Kindly update me asap with the exact timelines.&nbsp;</div><div dir=\"auto\"><br></div><div dir=\"auto\">Thanks</div><div dir=\"auto\"><br></div><div dir=\"auto\">Kindest</div><div dir=\"auto\">Jaspreet Singh&nbsp;</div><div><br><div></div></div></div>",
+        "plain_body": "Hi team,  \n  It has been quite a while now that we are waiting for the fully integrated blitz services with the current system however not sure how much more time is needed. I need this to be activated asap or let us know if this can\u2019t be done so that I can look for the alternatives.  \n  Kindly understand this is very pivotal to us to get our system integrated with Blitz services. Kindly update me asap with the exact timelines.&nbsp;  \n  Thanks  \n  Kindest  Jaspreet Singh&nbsp;",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59577698003353,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "belvish69@gmail.com",
+              "name": "belvish69@gmail.com",
+              "original_recipients": [
+                "belvish69@gmail.com",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-07-01T16:21:46Z",
+        "metadata": {
+          "system": {
+            "message_id": "<CALDu_odw3EbT7SqDnLwr6XMCAdWgRNr2ehhKGpy4KjrwGmdBkA@mail.gmail.com>",
+            "email_id": "01KWF7RZK0R23FSGHFRZS23G81",
+            "raw_email_identifier": "2369120/b2285b80-6ed7-4853-a0d5-4bce92f06619.eml",
+            "json_email_identifier": "2369120/b2285b80-6ed7-4853-a0d5-4bce92f06619.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 59577700722969,
+        "type": "Comment",
+        "author_id": 366759418072,
+        "body": "Hello Jaspreet,\n\nWe apologize for missing the Monday timeline we committed to \u2014 that was not acceptable and we understand the impact this delay is having on your operations.\n\nHere is the current status: the BlitzNow integration is actively in development. However, on June 26, our engineering team ran into a blocker with the test credentials provided by BlitzNow \u2014 the authentication is returning an error, and our team has already reached out to the BlitzNow team (Deepak) directly to get this resolved. The integration timeline depends on how quickly this credential issue is unblocked on BlitzNow's end.\n\nWe are escalating this internally to get a firm timeline to you as soon as the credential issue is cleared. If you are able to follow up with Deepak or Sumanth at BlitzNow to expedite their response on the test credentials, that would help us move faster on our end as well.\n\nWe will come back to you with an update by end of this week.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 To help you faster, this reply was drafted automatically by PluginHive's AI assistant. Our team reviews every AI reply and will follow up to confirm it's fully resolved.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hello Jaspreet,</p>\n<p dir=\"auto\">We apologize for missing the Monday timeline we committed to \u2014 that was not acceptable and we understand the impact this delay is having on your operations.</p>\n<p dir=\"auto\">Here is the current status: the BlitzNow integration is actively in development. However, on June 26, our engineering team ran into a blocker with the test credentials provided by BlitzNow \u2014 the authentication is returning an error, and our team has already reached out to the BlitzNow team (Deepak) directly to get this resolved. The integration timeline depends on how quickly this credential issue is unblocked on BlitzNow's end.</p>\n<p dir=\"auto\">We are escalating this internally to get a firm timeline to you as soon as the credential issue is cleared. If you are able to follow up with Deepak or Sumanth at BlitzNow to expedite their response on the test credentials, that would help us move faster on our end as well.</p>\n<p dir=\"auto\">We will come back to you with an update by end of this week.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 To help you faster, this reply was drafted automatically by PluginHive's AI assistant. Our team reviews every AI reply and will follow up to confirm it's fully resolved.</p></div>",
+        "plain_body": "Hello Jaspreet, \n We apologize for missing the Monday timeline we committed to \u2014 that was not acceptable and we understand the impact this delay is having on your operations. \n Here is the current status: the BlitzNow integration is actively in development. However, on June 26, our engineering team ran into a blocker with the test credentials provided by BlitzNow \u2014 the authentication is returning an error, and our team has already reached out to the BlitzNow team (Deepak) directly to get this resolved. The integration timeline depends on how quickly this credential issue is unblocked on BlitzNow's end. \n We are escalating this internally to get a firm timeline to you as soon as the credential issue is cleared. If you are able to follow up with Deepak or Sumanth at BlitzNow to expedite their response on the test credentials, that would help us move faster on our end as well. \n We will come back to you with an update by end of this week. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 To help you faster, this reply was drafted automatically by PluginHive's AI assistant. Our team reviews every AI reply and will follow up to confirm it's fully resolved.",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59577700722841,
+        "via": {
+          "channel": "api",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-07-01T16:22:50Z",
+        "metadata": {
+          "system": {
+            "client": "node",
+            "ip_address": "206.189.72.35",
+            "location": "Santa Clara, CA, United States",
+            "latitude": 37.3486,
+            "longitude": -121.9732
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59577979429273,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "https://pluginhive.slack.com/archives/C02E15X8X0C/p1782924354966899?thread_ts=1781266585.481409&cid=C02E15X8X0C\nNeed ETA for the Blitznow integration.\nCustomer response regarding this -\n\n_It has been quite a while now that we are waiting for the fully integrated blitz services with the current system however not sure how much more time is needed. I need this to be activated asap or let us know if this can\u2019t be done so that I can look for the alternatives._\n_Kindly understand this is very pivotal to us to get our system integrated with Blitz services. Kindly update me asap with the exact timelines. _",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1782924354966899?thread_ts=1781266585.481409&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1782924354966899?thread_ts=1781266585.481409&amp;cid=C02E15X8X0C</a><br>Need ETA for the Blitznow integration.<br>Customer response regarding this -&nbsp;<br>&nbsp;<br><i>It has been quite a while now that we are waiting for the fully integrated blitz services with the current system however not sure how much more time is needed. I need this to be activated asap or let us know if this can\u2019t be done so that I can look for the alternatives.</i><br><i>Kindly understand this is very pivotal to us to get our system integrated with Blitz services. Kindly update me asap with the exact timelines.&nbsp;</i><br></div>",
+        "plain_body": "https://pluginhive.slack.com/archives/C02E15X8X0C/p1782924354966899?thread_ts=1781266585.481409&amp;cid=C02E15X8X0C\nNeed ETA for the Blitznow integration.\nCustomer response regarding this -&nbsp;\n&nbsp;\nIt has been quite a while now that we are waiting for the fully integrated blitz services with the current system however not sure how much more time is needed. I need this to be activated asap or let us know if this can\u2019t be done so that I can look for the alternatives.\nKindly understand this is very pivotal to us to get our system integrated with Blitz services. Kindly update me asap with the exact timelines.&nbsp;",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59577979429145,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-07-01T16:46:12Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59590929000473,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "We are running into some issues with BlitzNow, we were in contact with the Blitz Now and they have not provided a set of test credentials yet. We will start testing the integration once we receive a set of test credentials. This carrier integration will be released in 384.\n[Veena]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">We are running into some issues with BlitzNow, we were in contact with the Blitz Now and they have not provided a set of test credentials yet. We will start testing the integration once we receive a set of test credentials. This carrier integration will be released in 384.<br>[Veena]<br></div>",
+        "plain_body": "We are running into some issues with BlitzNow, we were in contact with the Blitz Now and they have not provided a set of test credentials yet. We will start testing the integration once we receive a set of test credentials. This carrier integration will be released in 384.\n[Veena]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59590929000345,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-07-02T03:16:25Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59610464068249,
+        "type": "Comment",
+        "author_id": 388269142331,
+        "body": "Veena has followed-up with Blitz team, waiting for the response.\n[Keerthi]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Veena has followed-up with Blitz team, waiting for the response.<br>[Keerthi]<br></div>",
+        "plain_body": "Veena has followed-up with Blitz team, waiting for the response.\n[Keerthi]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59610448585113,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-07-02T12:26:37Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59646496694553,
+        "type": "Comment",
+        "author_id": 388269142331,
+        "body": "https://pluginhive.zendesk.com/agent/tickets/397051 - Conversation with Blitz team.\nThey have asked to continue testing in the Production environment.\n\n[Keerthi]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><a rel=\"noopener noreferrer\" href=\"https://pluginhive.zendesk.com/agent/tickets/397051\">https://pluginhive.zendesk.com/agent/tickets/397051</a> - Conversation with Blitz team.<br>They have asked to continue testing in the Production environment.<br>&nbsp;<br>[Keerthi]<br></div>",
+        "plain_body": "https://pluginhive.zendesk.com/agent/tickets/397051 - Conversation with Blitz team.\nThey have asked to continue testing in the Production environment.\n&nbsp;\n[Keerthi]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59646496693657,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-07-03T11:13:00Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
       }
-    }
-  ]
+    ]
+  }
 }

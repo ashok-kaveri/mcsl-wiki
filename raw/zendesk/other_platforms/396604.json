@@ -1,0 +1,631 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/396604.json",
+    "id": 396604,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "christian@enfig.com",
+          "name": "Christian Rodriguez"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-06-24T21:39:21Z",
+    "updated_at": "2026-06-26T07:25:50Z",
+    "generated_timestamp": 1782458751,
+    "type": null,
+    "subject": "USPS Priority to Puerto Rico",
+    "raw_subject": "USPS Priority to Puerto Rico",
+    "description": "Hello.\n\n \n\nI\u2019m having a hard time shipping USPS to Puerto Rico.   Puerto Rico is considered a country but USPS priority ships there.\n\nChristian \nEnfigCarStereo\n\n727 Commercial Ave Building G (https://www.google.com/maps/search/727+Commercial+Ave+Building+G+%0D%0ACarlstadt+NJ+07072+USA?entry=gmail&source=g)\nCarlstadt NJ 07072 USA (https://www.google.com/maps/search/727+Commercial+Ave+Building+G+%0D%0ACarlstadt+NJ+07072+USA?entry=gmail&source=g)\nenfigcarstereo.com (http://enfigcarstereo.com/)\n\nt: +1-201-490-5015",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 8843978189977,
+    "submitter_id": 8843978189977,
+    "assignee_id": 6932179641113,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "aibot_auto_reply",
+      "dev_needed",
+      "issues_with_setting_up_the_plugin",
+      "last_reply_agent",
+      "woocommerce",
+      "woocommerce_shipping_services"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "9b82d09f-dacf-4e47-8b2d-e11700a134bb"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "W1WK3D-0MDYX",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "woocommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "woocommerce_shipping_services"
+      },
+      {
+        "id": 360008106052,
+        "value": "issues_with_setting_up_the_plugin"
+      },
+      {
+        "id": 360030770052,
+        "value": "9b82d09f-dacf-4e47-8b2d-e11700a134bb"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent",
+    "comments": [
+      {
+        "id": 59340038639001,
+        "type": "Comment",
+        "author_id": 8843978189977,
+        "body": "Hello.\n\n\n\nI\u2019m having a hard time shipping USPS to Puerto Rico.   Puerto Rico is considered a country but USPS priority ships there.\n\n**Christian **\n EnfigCarStereo\n\n727 Commercial Ave Building G\n Carlstadt NJ 07072 USA\n enfigcarstereo.com\n\n**t:** +1-201-490-5015\n\n![enfig-email-yt-logo](https://support.pluginhive.com/attachments/token/thSRlVT7oc7XUzI8a6Lgwuxx2/?name=image001.jpg)  ![enfig-email-ig-logo](https://support.pluginhive.com/attachments/token/G4Qk2xurubx3BXpwAKrQ5pv8B/?name=image002.jpg)\n\n![enfig-email-banner](https://support.pluginhive.com/attachments/token/DarYck6GgUwzuueHx0CV2QxRZ/?name=image003.jpg)",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\">\n<div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">Hello.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">I\u2019m having a hard time shipping USPS to Puerto Rico. &nbsp;&nbsp;Puerto Rico is considered a country but USPS priority ships there.</span></p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"179\" style=\"width: 134.0pt; background-color: white; border-collapse: collapse; background-color: white\">\n<tbody>\n<tr style=\"height: 21.85pt;\">\n<td width=\"179\" colspan=\"2\" valign=\"top\" style=\"width: 134.0pt; border-top-width: 1.0pt; border-top-color: white; height: 21.85pt; padding: 7.5pt 0in; border-style: solid none none;\">\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><b><span style=\"font-size: 11.0pt; color: #0678AE; \">Christian&nbsp;</span></b><span style=\"font-size: 10.0pt; color: black; \"><br>\n</span><span style=\"font-size: 10.0pt; color: #6F6D6D; \">EnfigCarStereo</span><span style=\"font-size: 11.0pt; \"></span></p>\n</td>\n</tr>\n<tr style=\"height: 31.5pt;\">\n<td colspan=\"2\" valign=\"top\" style=\"height: 31.5pt; padding: 7.5pt 0in;\">\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 10.0pt; color: #6F6D6D; \"><a href=\"https://www.google.com/maps/search/727+Commercial+Ave+Building+G+%0D%0ACarlstadt+NJ+07072+USA?entry=gmail&amp;source=g\" rel=\"noreferrer\"><span style=\"color: blue;\">727\n Commercial Ave Building G</span></a><br>\n<a href=\"https://www.google.com/maps/search/727+Commercial+Ave+Building+G+%0D%0ACarlstadt+NJ+07072+USA?entry=gmail&amp;source=g\" rel=\"noreferrer\"><span style=\"color: blue;\">Carlstadt NJ 07072 USA</span></a><br>\n</span><span style=\"font-size: 10.0pt; color: black; \"><a href=\"http://enfigcarstereo.com/\" rel=\"noreferrer\"><span style=\"color: #6F6D6D;\">enfigcarstereo.com</span></a></span><span style=\"font-size: 11.0pt; \"></span></p>\n</td>\n</tr>\n<tr style=\"height: 21.35pt;\">\n<td valign=\"top\" style=\"height: 21.35pt; padding: 7.5pt 0in;\">\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><b><span style=\"font-size: 10.0pt; color: #6F6D6D; \">t:</span></b><span style=\"font-size: 10.0pt; color: #6F6D6D; \">&nbsp;+1-201-490-5015</span><span style=\"font-size: 11.0pt; \"></span></p>\n</td>\n<td valign=\"bottom\" style=\"height: 21.35pt; padding: 0in 0in 7.5pt;\">\n<p align=\"right\" style=\" text-align: right; font-size: 12.0pt; margin: 0in;\" dir=\"auto\">\n<span style=\"color: black;\"><a href=\"https://www.youtube.com/user/Enfig\" rel=\"noreferrer\"><span style=\"font-size: 10.0pt; color: #337AB7; text-decoration: none;\"><img border=\"0\" width=\"22\" height=\"22\" style=\"width: .2333in; height: .2333in;\" src=\"https://support.pluginhive.com/attachments/token/thSRlVT7oc7XUzI8a6Lgwuxx2/?name=image001.jpg\" alt=\"enfig-email-yt-logo\"></span></a></span><span style=\"font-size: 10.0pt; color: #444444; \">&nbsp;</span><span style=\"color: black;\"><a href=\"https://www.instagram.com/enfigcarstereo/\" rel=\"noreferrer\"><span style=\"font-size: 10.0pt; color: #337AB7; text-decoration: none;\"><img border=\"0\" width=\"22\" height=\"22\" style=\"width: .2333in; height: .2333in;\" src=\"https://support.pluginhive.com/attachments/token/G4Qk2xurubx3BXpwAKrQ5pv8B/?name=image002.jpg\" alt=\"enfig-email-ig-logo\"></span></a></span><span style=\"font-size: 10.0pt; color: #444444; \">&nbsp;</span><span style=\"font-size: 11.0pt; \"></span></p>\n</td>\n</tr>\n<tr style=\"height: 58.7pt;\">\n<td colspan=\"2\" valign=\"top\" style=\"border-top-width: 1.0pt; border-top-color: white; height: 58.7pt; padding: 3.75pt 0in 0in; border-style: solid none none;\">\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://enfigcarstereo.com/\" rel=\"noreferrer\"><span style=\"font-size: 10.0pt; color: #337AB7; text-decoration: none;\"><img border=\"0\" width=\"212\" height=\"88\" style=\"width: 2.2083in; height: .9166in;\" src=\"https://support.pluginhive.com/attachments/token/DarYck6GgUwzuueHx0CV2QxRZ/?name=image003.jpg\" alt=\"enfig-email-banner\"></span></a></span><span style=\"font-size: 11.0pt; \"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt; \">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\">&nbsp;</p>\n</div></div>",
+        "plain_body": "Hello. \n &nbsp; \n I\u2019m having a hard time shipping USPS to Puerto Rico. &nbsp;&nbsp;Puerto Rico is considered a country but USPS priority ships there. \n\n\n\n\n Christian&nbsp;\n\nEnfigCarStereo \n\n\n\n\n 727\n Commercial Ave Building G\n\nCarlstadt NJ 07072 USA\n\nenfigcarstereo.com \n\n\n\n\n t:&nbsp;+1-201-490-5015 \n\n\n \n&nbsp;&nbsp; \n\n\n\n\n  \n\n\n\n\n &nbsp; \n &nbsp;",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59340038638873,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "christian@enfig.com",
+              "name": "Christian Rodriguez",
+              "original_recipients": [
+                "christian@enfig.com",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive",
+              "address": "support@pluginhive.com"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-24T21:39:21Z",
+        "metadata": {
+          "system": {
+            "message_id": "<MN6PR17MB69961EA5275AF80C0C0C9F41A7ED2@MN6PR17MB6996.namprd17.prod.outlook.com>",
+            "email_id": "01KVXS5EJ6C0PE4TA4T35WEJS9",
+            "raw_email_identifier": "2369120/3dba0f05-9f1e-4daf-b919-6e8f34d164ce.eml",
+            "json_email_identifier": "2369120/3dba0f05-9f1e-4daf-b919-6e8f34d164ce.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 59341244954777,
+        "type": "Comment",
+        "author_id": 6932179641113,
+        "body": "Store: US\nCarrier: UPS, USPS, DHL\nActive for rates and labels",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Store: US<br>Carrier: UPS, USPS, DHL<br>Active for rates and labels<br>&nbsp;<br></div>",
+        "plain_body": "Store: US\nCarrier: UPS, USPS, DHL\nActive for rates and labels\n&nbsp;",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59341269669017,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-24T22:41:42Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59341289914905,
+        "type": "Comment",
+        "author_id": 6932179641113,
+        "body": "Hello Christian,\n\nThis is a very common scenario \u2014 WooCommerce treats Puerto Rico as a separate country (country code \"PR\"), so it won't automatically fall under your domestic US shipping zone even though USPS ships there at domestic rates.\n\nBefore we dig in, could you let us know what specifically is happening? For example:\n- Are USPS Priority Mail rates not showing at checkout for Puerto Rico orders?\n- Are rates showing but you're hitting an error when generating a label?\n\n\nIn the meantime, the most likely fix is to check your shipping zone setup:\n\n\n1. Go to WooCommerce > Settings > Shipping > Shipping Zones.\n2. Check whether Puerto Rico (PR) is included in any of your existing zones. Since WooCommerce lists it as a separate country, it will not be covered by a generic \"United States\" zone unless you explicitly add it.\n3. If there's no zone covering PR, either add Puerto Rico to your existing US domestic zone or create a new zone for it.\n4. Make sure the WooCommerce Shipping Services (WSS) shipping method is enabled for that zone, and that USPS Priority Mail is selected as an active service within the WSS app for that zone.\n\n\nPlease share what you're seeing (a screenshot or the specific error message would be very helpful) and we'll get this resolved for you.\n\nThanks and regards,\nSibi\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Christian,<br>&nbsp;<br>This is a very common scenario \u2014 WooCommerce treats Puerto Rico as a separate country (country code \"PR\"), so it won't automatically fall under your domestic US shipping zone even though USPS ships there at domestic rates.<br>&nbsp;<br>Before we dig in, could you let us know what specifically is happening? For example:<br><ul dir=\"auto\"><li>Are USPS Priority Mail rates not showing at checkout for Puerto Rico orders?</li><li>Are rates showing but you're hitting an error when generating a label?</li></ul>&nbsp;<br>In the meantime, the most likely fix is to check your shipping zone setup:<br>&nbsp;<br><ol dir=\"auto\"><li>Go to WooCommerce &gt; Settings &gt; Shipping &gt; Shipping Zones.</li><li>Check whether Puerto Rico (PR) is included in any of your existing zones. Since WooCommerce lists it as a separate country, it will not be covered by a generic \"United States\" zone unless you explicitly add it.</li><li>If there's no zone covering PR, either add Puerto Rico to your existing US domestic zone or create a new zone for it.</li><li>Make sure the WooCommerce Shipping Services (WSS) shipping method is enabled for that zone, and that USPS Priority Mail is selected as an active service within the WSS app for that zone.</li></ol>&nbsp;<br>Please share what you're seeing (a screenshot or the specific error message would be very helpful) and we'll get this resolved for you.<br>&nbsp;<br>Thanks and regards,<br>Sibi<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Christian,\n&nbsp;\nThis is a very common scenario \u2014 WooCommerce treats Puerto Rico as a separate country (country code \"PR\"), so it won't automatically fall under your domestic US shipping zone even though USPS ships there at domestic rates.\n&nbsp;\nBefore we dig in, could you let us know what specifically is happening? For example:\n  Are USPS Priority Mail rates not showing at checkout for Puerto Rico orders?  Are rates showing but you're hitting an error when generating a label?  &nbsp;\nIn the meantime, the most likely fix is to check your shipping zone setup:\n&nbsp;\n  Go to WooCommerce &gt; Settings &gt; Shipping &gt; Shipping Zones.  Check whether Puerto Rico (PR) is included in any of your existing zones. Since WooCommerce lists it as a separate country, it will not be covered by a generic \"United States\" zone unless you explicitly add it.  If there's no zone covering PR, either add Puerto Rico to your existing US domestic zone or create a new zone for it.  Make sure the WooCommerce Shipping Services (WSS) shipping method is enabled for that zone, and that USPS Priority Mail is selected as an active service within the WSS app for that zone.  &nbsp;\nPlease share what you're seeing (a screenshot or the specific error message would be very helpful) and we'll get this resolved for you.\n&nbsp;\nThanks and regards,\nSibi\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59341289914777,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-24T22:42:29Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59342472919449,
+        "type": "Comment",
+        "author_id": 8843978189977,
+        "body": "USPS is not showing.\n\n\n\nI added Puerto Rico as a shipping zone in Woo and plugin hive.  I set up the free and $5 shipping to work but USPS is not showing up.\n\n\n\n![](https://support.pluginhive.com/attachments/token/btY5GLoOTvTFGeqNcGxNykUeb/?name=image006.png)\n\n\n\n\n\n\n\n**Christian **\n EnfigCarStereo\n\n727 Commercial Ave Building G\n Carlstadt NJ 07072 USA\n enfigcarstereo.com\n\n**t:** +1-201-490-5015\n\n![enfig-email-yt-logo](https://support.pluginhive.com/attachments/token/L9bUTDfAzS0BUujItNVCZYrCA/?name=image001.jpg)  ![enfig-email-ig-logo](https://support.pluginhive.com/attachments/token/QdiZIp6idkE1gAisXWkEsiItw/?name=image002.jpg)\n\n![enfig-email-banner](https://support.pluginhive.com/attachments/token/wyyU1GzHh09PqIBzs0EDVT6L8/?name=image003.jpg)",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">USPS is not showing.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">I added Puerto Rico as a shipping zone in Woo and plugin hive.&nbsp; I set up the free and $5 shipping to work but USPS is not showing up.</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\"><img width=\"702\" height=\"1230\" style=\"width: 7.3083in; height: 12.8166in;\" src=\"https://support.pluginhive.com/attachments/token/btY5GLoOTvTFGeqNcGxNykUeb/?name=image006.png\"></span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">&nbsp;</span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">&nbsp;</span></p>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"179\" style=\"width: 134.0pt; background-color: white; border-collapse: collapse; background-color: white\">\n<tbody>\n<tr style=\"height: 21.85pt;\">\n<td width=\"179\" colspan=\"2\" valign=\"top\" style=\"width: 134.0pt; border-top-width: 1.0pt; border-top-color: white; height: 21.85pt; padding: 7.5pt 0in; border-style: solid none none;\">\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><b><span style=\"font-size: 11.0pt; color: #0678AE;\">Christian&nbsp;</span></b><span style=\"font-size: 10.0pt; color: black;\"><br>\n</span><span style=\"font-size: 10.0pt; color: #6F6D6D;\">EnfigCarStereo</span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 31.5pt;\">\n<td colspan=\"2\" valign=\"top\" style=\"height: 31.5pt; padding: 7.5pt 0in;\">\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://www.google.com/maps/search/727+Commercial+Ave+Building+G+%0D%0ACarlstadt+NJ+07072+USA?entry=gmail&amp;source=g\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 10.0pt; \">727\n Commercial Ave Building G</span></a></span><span style=\"font-size: 10.0pt; color: #6F6D6D;\"><br>\n</span><span style=\"color: black;\"><a href=\"https://www.google.com/maps/search/727+Commercial+Ave+Building+G+%0D%0ACarlstadt+NJ+07072+USA?entry=gmail&amp;source=g\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 10.0pt; \">Carlstadt NJ 07072 USA</span></a></span><span style=\"font-size: 10.0pt; color: #6F6D6D;\"><br>\n</span><span style=\"color: black;\"><a href=\"http://enfigcarstereo.com/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 10.0pt; color: #6F6D6D;\">enfigcarstereo.com</span></a></span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 21.35pt;\">\n<td valign=\"top\" style=\"height: 21.35pt; padding: 7.5pt 0in;\">\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><b><span style=\"font-size: 10.0pt; color: #6F6D6D;\">t:</span></b><span style=\"font-size: 10.0pt; color: #6F6D6D;\">&nbsp;+1-201-490-5015</span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n<td valign=\"bottom\" style=\"height: 21.35pt; padding: 0in 0in 7.5pt;\">\n<p align=\"right\" style=\" text-align: right; font-size: 12.0pt; margin: 0in;\" dir=\"auto\">\n<span style=\"color: black;\"><a href=\"https://www.youtube.com/user/Enfig\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 10.0pt; color: #337AB7; text-decoration: none;\"><img border=\"0\" width=\"22\" height=\"22\" style=\"width: .225in; height: .225in;\" src=\"https://support.pluginhive.com/attachments/token/L9bUTDfAzS0BUujItNVCZYrCA/?name=image001.jpg\" alt=\"enfig-email-yt-logo\"></span></a></span><span style=\"font-size: 10.0pt; color: #444444;\">&nbsp;</span><span style=\"color: black;\"><a href=\"https://www.instagram.com/enfigcarstereo/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 10.0pt; color: #337AB7; text-decoration: none;\"><img border=\"0\" width=\"22\" height=\"22\" style=\"width: .225in; height: .225in;\" src=\"https://support.pluginhive.com/attachments/token/QdiZIp6idkE1gAisXWkEsiItw/?name=image002.jpg\" alt=\"enfig-email-ig-logo\"></span></a></span><span style=\"font-size: 10.0pt; color: #444444;\">&nbsp;</span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 58.7pt;\">\n<td colspan=\"2\" valign=\"top\" style=\"border-top-width: 1.0pt; border-top-color: white; height: 58.7pt; padding: 3.75pt 0in 0in; border-style: solid none none;\">\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://enfigcarstereo.com/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 10.0pt; color: #337AB7; text-decoration: none;\"><img border=\"0\" width=\"212\" height=\"88\" style=\"width: 2.2083in; height: .9166in;\" src=\"https://support.pluginhive.com/attachments/token/wyyU1GzHh09PqIBzs0EDVT6L8/?name=image003.jpg\" alt=\"enfig-email-banner\"></span></a></span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">&nbsp;</span></p>\n\n</div></div>",
+        "plain_body": "USPS is not showing. \n &nbsp; \n I added Puerto Rico as a shipping zone in Woo and plugin hive.&nbsp; I set up the free and $5 shipping to work but USPS is not showing up. \n &nbsp; \n  \n &nbsp; \n &nbsp; \n &nbsp; \n \n\n\n\n\n Christian&nbsp;\n\nEnfigCarStereo \n\n\n\n\n 727\n Commercial Ave Building G\n\nCarlstadt NJ 07072 USA\n\nenfigcarstereo.com \n\n\n\n\n t:&nbsp;+1-201-490-5015 \n\n\n \n&nbsp;&nbsp; \n\n\n\n\n  \n\n\n\n\n &nbsp; \n \n &nbsp;",
+        "public": true,
+        "attachments": [
+          {
+            "url": "https://pluginhive.zendesk.com/api/v2/attachments/59342472948633.json",
+            "id": 59342472948633,
+            "file_name": "image004.emz",
+            "content_url": "https://pluginhive.zendesk.com/attachments/token/8L4aLQmVZhPUKIK4vp6muDJF7/?name=image004.emz",
+            "mapped_content_url": "https://support.pluginhive.com/attachments/token/8L4aLQmVZhPUKIK4vp6muDJF7/?name=image004.emz",
+            "content_type": "application/octet-stream",
+            "size": 68017,
+            "width": null,
+            "height": null,
+            "inline": false,
+            "deleted": false,
+            "malware_access_override": false,
+            "malware_scan_result": "malware_not_found",
+            "thumbnails": []
+          },
+          {
+            "url": "https://pluginhive.zendesk.com/api/v2/attachments/59342472951577.json",
+            "id": 59342472951577,
+            "file_name": "oledata.mso",
+            "content_url": "https://pluginhive.zendesk.com/attachments/token/n23477uLPs48OUUyqapbwAHN8/?name=oledata.mso",
+            "mapped_content_url": "https://support.pluginhive.com/attachments/token/n23477uLPs48OUUyqapbwAHN8/?name=oledata.mso",
+            "content_type": "application/octet-stream",
+            "size": 67846,
+            "width": null,
+            "height": null,
+            "inline": false,
+            "deleted": false,
+            "malware_access_override": false,
+            "malware_scan_result": "malware_not_found",
+            "thumbnails": []
+          }
+        ],
+        "audit_id": 59342472919321,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "christian@enfig.com",
+              "name": "Christian Rodriguez",
+              "original_recipients": [
+                "christian@enfig.com",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive",
+              "address": "support@pluginhive.com"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-24T23:30:50Z",
+        "metadata": {
+          "system": {
+            "message_id": "<MN6PR17MB6996D712469C2C351A507C78A7ED2@MN6PR17MB6996.namprd17.prod.outlook.com>",
+            "email_id": "01KVXZHFV0220RZKE5H6HEYEQZ",
+            "raw_email_identifier": "2369120/de34b138-206a-4f28-bc11-f095e8daa580.eml",
+            "json_email_identifier": "2369120/de34b138-206a-4f28-bc11-f095e8daa580.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 59343238480665,
+        "type": "Comment",
+        "author_id": 9977129389337,
+        "body": "Hello Christian,\n\nThe USPS rates are failing for Puerto Rico. Please allow us some time we quickly check and get back to you with an update.\n\nWe appricate your time and patience\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Christian,<br>&nbsp;<br>The USPS rates are failing for Puerto Rico. Please allow us some time we quickly check and get back to you with an update.<br>&nbsp;<br>We appricate your time and patience<br><br>Thanks and Regards,<br>Manohar V<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Christian,\n&nbsp;\nThe USPS rates are failing for Puerto Rico. Please allow us some time we quickly check and get back to you with an update.\n&nbsp;\nWe appricate your time and patience\n\nThanks and Regards,\nManohar V\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59343238480537,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-25T00:04:17Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59345084960793,
+        "type": "Comment",
+        "author_id": 9977129389337,
+        "body": "Need assistance from the L3 team.\n\nCase: USPS Rates Failure for Puerto Rico\n\nDetails: A WSS customer on the $29 Popular plan has reported that USPS rates are failing for Puerto Rico. The rate request returns a \"Bad Request\" error.\n\nFrom the initial investigation, it appears to be related to the country code being passed as \"PR\". We handled a similar issue previously for a Stamps.com account under ticket ID: https://pluginhive.zendesk.com/agent/tickets/393254\n\nIn this case, the customer is using a USPS Ship account.\n\nPlease refer to the following rate log for further investigation:\nRate Log ID: b27de6ec-9b7b-4346-ab04-0a6879f59fb3\nI have also attached the request and response ZIP files for your review.\n\nCould you please check and provide your input\n\nStore Details:\nStore URL: https://shop.enfigcarstereo.com\nAccount ID: 9b82d09f-dacf-4e47-8b2d-e11700a134bb",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Need assistance from the L3 team.<br>&nbsp;<br>Case: USPS Rates Failure for Puerto Rico<br>&nbsp;<br>Details: A WSS customer on the $29 Popular plan has reported that USPS rates are failing for Puerto Rico. The rate request returns a \"Bad Request\" error.<br>&nbsp;<br>From the initial investigation, it appears to be related to the country code being passed as \"PR\". We handled a similar issue previously for a Stamps.com account under ticket ID: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.zendesk.com/agent/tickets/393254\">https://pluginhive.zendesk.com/agent/tickets/393254</a><br>&nbsp;<br>In this case, the customer is using a USPS Ship account.<br>&nbsp;<br>Please refer to the following rate log for further investigation:<br>Rate Log ID: b27de6ec-9b7b-4346-ab04-0a6879f59fb3<br>I have also attached the request and response ZIP files for your review.<br>&nbsp;<br>Could you please check and provide your input<br>&nbsp;<br>Store Details:<br>Store URL: <a rel=\"noopener noreferrer\" href=\"https://shop.enfigcarstereo.com\">https://shop.enfigcarstereo.com</a>&nbsp;<br>Account ID: 9b82d09f-dacf-4e47-8b2d-e11700a134bb<br></div>",
+        "plain_body": "Need assistance from the L3 team.\n&nbsp;\nCase: USPS Rates Failure for Puerto Rico\n&nbsp;\nDetails: A WSS customer on the $29 Popular plan has reported that USPS rates are failing for Puerto Rico. The rate request returns a \"Bad Request\" error.\n&nbsp;\nFrom the initial investigation, it appears to be related to the country code being passed as \"PR\". We handled a similar issue previously for a Stamps.com account under ticket ID: https://pluginhive.zendesk.com/agent/tickets/393254\n&nbsp;\nIn this case, the customer is using a USPS Ship account.\n&nbsp;\nPlease refer to the following rate log for further investigation:\nRate Log ID: b27de6ec-9b7b-4346-ab04-0a6879f59fb3\nI have also attached the request and response ZIP files for your review.\n&nbsp;\nCould you please check and provide your input\n&nbsp;\nStore Details:\nStore URL: https://shop.enfigcarstereo.com&nbsp;\nAccount ID: 9b82d09f-dacf-4e47-8b2d-e11700a134bb",
+        "public": false,
+        "attachments": [
+          {
+            "url": "https://pluginhive.zendesk.com/api/v2/attachments/59345066920089.json",
+            "id": 59345066920089,
+            "file_name": "USPS Rates failure logs for PR.zip",
+            "content_url": "https://pluginhive.zendesk.com/attachments/token/GXodxLdOLDPhuUJYxfAgxBW7P/?name=USPS+Rates+failure+logs+for+PR.zip",
+            "mapped_content_url": "https://support.pluginhive.com/attachments/token/GXodxLdOLDPhuUJYxfAgxBW7P/?name=USPS+Rates+failure+logs+for+PR.zip",
+            "content_type": "application/zip",
+            "size": 1406,
+            "width": null,
+            "height": null,
+            "inline": false,
+            "deleted": false,
+            "malware_access_override": false,
+            "malware_scan_result": "malware_not_found",
+            "thumbnails": []
+          }
+        ],
+        "audit_id": 59345084960665,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-25T00:57:28Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59373817218457,
+        "type": "Comment",
+        "author_id": 8843978189977,
+        "body": "Thank you\n\n\n\n**Christian **\n EnfigCarStereo\n\n727 Commercial Ave Building G\n Carlstadt NJ 07072 USA\n enfigcarstereo.com\n\n**t:** +1-201-490-5015\n\n![enfig-email-yt-logo](https://support.pluginhive.com/attachments/token/PLKhhechES8vhoAEaTB8vSdNn/?name=image001.jpg)  ![enfig-email-ig-logo](https://support.pluginhive.com/attachments/token/ttS5cUX5VqijyYrMqDHDoNavI/?name=image002.jpg)\n\n![enfig-email-banner](https://support.pluginhive.com/attachments/token/AXTUkeA4ahQE8rW1ghNrVWEbs/?name=image003.jpg)",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\">\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">Thank you&nbsp;&nbsp; </span></p>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">&nbsp;</span></p>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"179\" style=\"width: 134.0pt; background-color: white; border-collapse: collapse; background-color: white\">\n<tbody>\n<tr style=\"height: 21.85pt;\">\n<td width=\"179\" colspan=\"2\" valign=\"top\" style=\"width: 134.0pt; border-top-width: 1.0pt; border-top-color: white; height: 21.85pt; padding: 7.5pt 0in; border-style: solid none none;\">\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><b><span style=\"font-size: 11.0pt; color: #0678AE;\">Christian&nbsp;</span></b><span style=\"font-size: 10.0pt; color: black;\"><br>\n</span><span style=\"font-size: 10.0pt; color: #6F6D6D;\">EnfigCarStereo</span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 31.5pt;\">\n<td colspan=\"2\" valign=\"top\" style=\"height: 31.5pt; padding: 7.5pt 0in;\">\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"font-size: 10.0pt; color: #6F6D6D;\"><a href=\"https://www.google.com/maps/search/727+Commercial+Ave+Building+G+%0D%0ACarlstadt+NJ+07072+USA?entry=gmail&amp;source=g\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">727\n Commercial Ave Building G</a><br>\n<a href=\"https://www.google.com/maps/search/727+Commercial+Ave+Building+G+%0D%0ACarlstadt+NJ+07072+USA?entry=gmail&amp;source=g\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">Carlstadt NJ 07072 USA</a><br>\n</span><span style=\"font-size: 10.0pt; color: black;\"><a href=\"http://enfigcarstereo.com/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"color: #6F6D6D;\">enfigcarstereo.com</span></a></span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 21.35pt;\">\n<td valign=\"top\" style=\"height: 21.35pt; padding: 7.5pt 0in;\">\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><b><span style=\"font-size: 10.0pt; color: #6F6D6D;\">t:</span></b><span style=\"font-size: 10.0pt; color: #6F6D6D;\">&nbsp;+1-201-490-5015</span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n<td valign=\"bottom\" style=\"height: 21.35pt; padding: 0in 0in 7.5pt;\">\n<p align=\"right\" style=\" text-align: right; font-size: 12.0pt; margin: 0in;\" dir=\"auto\">\n<span style=\"color: black;\"><a href=\"https://www.youtube.com/user/Enfig\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 10.0pt; color: #337AB7; text-decoration: none;\"><img border=\"0\" width=\"22\" height=\"22\" style=\"width: .2333in; height: .2333in;\" src=\"https://support.pluginhive.com/attachments/token/PLKhhechES8vhoAEaTB8vSdNn/?name=image001.jpg\" alt=\"enfig-email-yt-logo\"></span></a></span><span style=\"font-size: 10.0pt; color: #444444;\">&nbsp;</span><span style=\"color: black;\"><a href=\"https://www.instagram.com/enfigcarstereo/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 10.0pt; color: #337AB7; text-decoration: none;\"><img border=\"0\" width=\"22\" height=\"22\" style=\"width: .2333in; height: .2333in;\" src=\"https://support.pluginhive.com/attachments/token/ttS5cUX5VqijyYrMqDHDoNavI/?name=image002.jpg\" alt=\"enfig-email-ig-logo\"></span></a></span><span style=\"font-size: 10.0pt; color: #444444;\">&nbsp;</span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n<tr style=\"height: 58.7pt;\">\n<td colspan=\"2\" valign=\"top\" style=\"border-top-width: 1.0pt; border-top-color: white; height: 58.7pt; padding: 3.75pt 0in 0in; border-style: solid none none;\">\n<p style=\" font-size: 12.0pt; margin: 0in;\" dir=\"auto\"><span style=\"color: black;\"><a href=\"https://enfigcarstereo.com/\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\"><span style=\"font-size: 10.0pt; color: #337AB7; text-decoration: none;\"><img border=\"0\" width=\"212\" height=\"88\" style=\"width: 2.2083in; height: .9166in;\" src=\"https://support.pluginhive.com/attachments/token/AXTUkeA4ahQE8rW1ghNrVWEbs/?name=image003.jpg\" alt=\"enfig-email-banner\"></span></a></span><span style=\"font-size: 11.0pt;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 11.0pt;\">&nbsp;</span></p>\n</div>\n<p dir=\"auto\" style=\"font-size: 12.0pt; margin: 0in;\"><span style=\"font-size: 14.0pt;\">&nbsp;</span></p>\n\n</div></div>",
+        "plain_body": "Thank you&nbsp;&nbsp;  \n &nbsp; \n \n\n\n\n\n Christian&nbsp;\n\nEnfigCarStereo \n\n\n\n\n 727\n Commercial Ave Building G\n\nCarlstadt NJ 07072 USA\n\nenfigcarstereo.com \n\n\n\n\n t:&nbsp;+1-201-490-5015 \n\n\n \n&nbsp;&nbsp; \n\n\n\n\n  \n\n\n\n\n &nbsp; \n \n &nbsp;",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59373817218329,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "christian@enfig.com",
+              "name": "Christian Rodriguez",
+              "original_recipients": [
+                "christian@enfig.com",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive",
+              "address": "support@pluginhive.com"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-25T14:58:40Z",
+        "metadata": {
+          "system": {
+            "message_id": "<MN6PR17MB69960473C1B9223E1E17A782A7EC2@MN6PR17MB6996.namprd17.prod.outlook.com>",
+            "email_id": "01KVZMMF5VKJGBVK715QWH1C4K",
+            "raw_email_identifier": "2369120/f209d584-3421-43a4-a681-0b91e80253ef.eml",
+            "json_email_identifier": "2369120/f209d584-3421-43a4-a681-0b91e80253ef.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 59373777171353,
+        "type": "Comment",
+        "author_id": 366759418072,
+        "body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\nProduct: woocommerce-wss | Signal: form_field | Confidence: HIGH | Context: 7 message(s)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Christian,\n\nThank you for your patience. Our team is actively investigating the USPS rates issue for Puerto Rico and will follow up with an update as soon as we have a resolution.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)<br>\nProduct: woocommerce-wss | Signal: form_field | Confidence: HIGH | Context: 7 message(s)<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Christian,</p>\n<p dir=\"auto\">Thank you for your patience. Our team is actively investigating the USPS rates issue for Puerto Rico and will follow up with an update as soon as we have a resolution.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+        "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\n\nProduct: woocommerce-wss | Signal: form_field | Confidence: HIGH | Context: 7 message(s)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Christian, \n Thank you for your patience. Our team is actively investigating the USPS rates issue for Puerto Rico and will follow up with an update as soon as we have a resolution. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59373777170713,
+        "via": {
+          "channel": "api",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-25T14:59:20Z",
+        "metadata": {
+          "system": {
+            "client": "node",
+            "ip_address": "206.189.72.35",
+            "location": "Santa Clara, CA, United States",
+            "latitude": 37.3486,
+            "longitude": -121.9732
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59395769457689,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "We have identified the issue with incorrect country code being passed, this will be enhanced in the upcoming release. Kindly inform the merchant and move the ticket to dev_needed.\n[Veena]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have identified the issue with incorrect country code being passed, this will be enhanced in the upcoming release. Kindly inform the merchant and move the ticket to dev_needed.<br>[Veena]<br></div>",
+        "plain_body": "We have identified the issue with incorrect country code being passed, this will be enhanced in the upcoming release. Kindly inform the merchant and move the ticket to dev_needed.\n[Veena]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59395769457561,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-26T05:15:41Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59400545006105,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Christian,\n\nThank you for your patience.\n\nOur team has checked your case further and the reason for the rates failure has been identified.\n\nThis will be corrected in the app in the upcoming release. As of now, we do not have any exact timeline of the enhancement, however, we will update you as soon as we have clarity on the same.\n\nFeel free to reach out if you have any further queries in the meantime.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Christian,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Our team has checked your case further and the reason for the rates failure has been identified.<br>&nbsp;<br>This will be corrected in the app in the upcoming release. As of now, we do not have any exact timeline of the enhancement, however, we will update you as soon as we have clarity on the same.<br>&nbsp;<br>Feel free to reach out if you have any further queries in the meantime.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Christian,\n&nbsp;\nThank you for your patience.\n&nbsp;\nOur team has checked your case further and the reason for the rates failure has been identified.\n&nbsp;\nThis will be corrected in the app in the upcoming release. As of now, we do not have any exact timeline of the enhancement, however, we will update you as soon as we have clarity on the same.\n&nbsp;\nFeel free to reach out if you have any further queries in the meantime.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59400545005977,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-26T07:25:50Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      }
+    ]
+  }
+}

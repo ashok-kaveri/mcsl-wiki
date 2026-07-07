@@ -1,0 +1,1185 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/394908.json",
+    "id": 394908,
+    "external_id": null,
+    "via": {
+      "channel": "api",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-06-12T07:53:07Z",
+    "updated_at": "2026-06-23T11:08:02Z",
+    "generated_timestamp": 1782212882,
+    "type": "question",
+    "subject": "Can't use/select Postnord Mypack Collect anymore",
+    "raw_subject": "Can't use/select Postnord Mypack Collect anymore",
+    "description": "Hi,\r\n\r\nWe can't use/select Postnord Mypack Collect anymore. For new orders e.g., order #172 just says: \"FAILURE Contact support\", the request body is empty (NA). Have you changed the mapping for it? Is it called something else now?\r\n\r\nBest,\r\n\r\nOscar",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 42378210119065,
+    "submitter_id": 42378210119065,
+    "assignee_id": 44512844768153,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      56951406131737,
+      410590808391
+    ],
+    "follower_ids": [
+      56951406131737,
+      410590808391
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "bigcommerce",
+      "bigcommerce_multi_carrier_shipping_label_app",
+      "dev_needed",
+      "last_reply_customer",
+      "other"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "bigcommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "bigcommerce_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "https://store-5yrznpmrvr.mybigcommerce.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+46768800195"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "L4P7W2-71JJN",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "bigcommerce"
+      },
+      {
+        "id": 360008205591,
+        "value": "bigcommerce_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "https://store-5yrznpmrvr.mybigcommerce.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "+46768800195"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent",
+    "comments": [
+      {
+        "id": 58911974357913,
+        "type": "Comment",
+        "author_id": 42378210119065,
+        "body": "Hi,\r\n\r\nWe can't use/select Postnord Mypack Collect anymore. For new orders e.g., order #172 just says: \"FAILURE Contact support\", the request body is empty (NA). Have you changed the mapping for it? Is it called something else now?\r\n\r\nBest,\r\n\r\nOscar",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Hi,</p>\n\n<p dir=\"auto\">We can't use/select Postnord Mypack Collect anymore. For new orders e.g., order <a href=\"/agent/tickets/172\" target=\"_blank\" rel=\"ticket\">#172</a> just says: \"FAILURE Contact support\", the request body is empty (NA). Have you changed the mapping for it? Is it called something else now?</p>\n\n<p dir=\"auto\">Best,</p>\n\n<p dir=\"auto\">Oscar</p></div>",
+        "plain_body": "Hi, \n\n We can't use/select Postnord Mypack Collect anymore. For new orders e.g., order #172 just says: \"FAILURE Contact support\", the request body is empty (NA). Have you changed the mapping for it? Is it called something else now? \n\n Best, \n\n Oscar",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58911974357785,
+        "via": {
+          "channel": "api",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T07:53:07Z",
+        "metadata": {
+          "system": {
+            "client": "WordPress/6.8.5; https://www.pluginhive.com",
+            "ip_address": "159.65.74.253",
+            "location": "Santa Clara, CA, United States",
+            "latitude": 37.3486,
+            "longitude": -121.9732
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58912635406489,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "No country available,\npostnord added\nsweden store\nyearly premium plan selected\nrequested permissin to generate label '\nmail sent\nusing for labels",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">No country available,&nbsp;<br>postnord added<br>sweden store&nbsp;<br>yearly premium plan selected<br>requested permissin to generate label '<br>mail sent&nbsp;<br>using for labels<br>&nbsp;<br></div>",
+        "plain_body": "No country available,&nbsp;\npostnord added\nsweden store&nbsp;\nyearly premium plan selected\nrequested permissin to generate label '\nmail sent&nbsp;\nusing for labels\n&nbsp;",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58912635406361,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T08:08:51Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58913336856729,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "Hi Oscar,\n\nTo help us investigate this further, could you please let us know if we can generate the label from our end for order 172 and check the error? This will allow us to review the request and identify the cause of the failure.\n\nOnce we have your confirmation, we'll be happy to take a closer look and update you with our findings.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Oscar,<br>&nbsp;<br>To help us investigate this further, could you please let us know if we can generate the label from our end for order 172 and check the error? This will allow us to review the request and identify the cause of the failure.<br>&nbsp;<br>Once we have your confirmation, we'll be happy to take a closer look and update you with our findings.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+        "plain_body": "Hi Oscar,\n&nbsp;\nTo help us investigate this further, could you please let us know if we can generate the label from our end for order 172 and check the error? This will allow us to review the request and identify the cause of the failure.\n&nbsp;\nOnce we have your confirmation, we'll be happy to take a closer look and update you with our findings.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58913336856601,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T08:27:16Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58913672258841,
+        "type": "Comment",
+        "author_id": 42378210119065,
+        "body": "Sure, go ahead!\n\n\n\nOscar Goldring\n\n![](https://support.pluginhive.com/attachments/token/jU0mwcFBvJro9Xiy9OKyEawBB/?name=image001.png)\n\nProduct Owner\n\n+46 (0)768 800 195",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nSure, go ahead!</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 12pt; color: black;\">Oscar Goldring</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11pt; color: rgb(33, 33, 33);\"><img src=\"https://support.pluginhive.com/attachments/token/jU0mwcFBvJro9Xiy9OKyEawBB/?name=image001.png\" width=\"122\" height=\"30\" style=\"width: 1.2812in; height: 0.3125in; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 9pt; color: rgb(33, 33, 33);\">Product Owner</span></p>\n<p style=\"text-align: left; background-color: white; margin: 0cm;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 9pt; color: rgb(0, 120, 215);\"><a href=\"tel:+46768800195\" style=\"color: rgb(0, 120, 215); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><u>+46&nbsp;(0)768&nbsp;800&nbsp;195</u></a></span></p>\n</div></div>",
+        "plain_body": "Sure, go ahead! \n \n\n\n \n \n Oscar Goldring \n  \n Product Owner \n \n+46&nbsp;(0)768&nbsp;800&nbsp;195",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58913672258713,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "oscar.goldring@bitvis.se",
+              "name": "Oscar Goldring",
+              "original_recipients": [
+                "oscar.goldring@bitvis.se",
+                "support@pluginhive.com",
+                "tove.winddotter@bitvis.se"
+              ]
+            },
+            "to": {
+              "name": "PluginHive",
+              "address": "support@pluginhive.com"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T08:35:17Z",
+        "metadata": {
+          "system": {
+            "message_id": "<GV5P280MB2074BE825056AFAB0D4DCEBE81182@GV5P280MB2074.SWEP280.PROD.OUTLOOK.COM>",
+            "email_id": "01KTXFH3E0F5S2EC21SEWNTDAV",
+            "raw_email_identifier": "2369120/fe063be8-8492-4efe-90d2-77ed95ee8503.eml",
+            "json_email_identifier": "2369120/fe063be8-8492-4efe-90d2-77ed95ee8503.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 58915263736601,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "Hi Oscar,\n\nPlease allow me sometime to check and update you.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Oscar,<br>&nbsp;<br>Please allow me sometime to check and update you.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+        "plain_body": "Hi Oscar,\n&nbsp;\nPlease allow me sometime to check and update you.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58915263736473,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T09:20:16Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58918713493401,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "Hi Oscar,\n\nThank you for your patience.\n\nCould you please check whether you are able to generate the label directly through the PostNord portal using the same shipment details, including the service, weight, order value, and recipient address?\n\nIf the label can be generated successfully on the PostNord portal with the exact same details, please let us know. This information will help us narrow down the cause and investigate it further from our end.\n\nWe look forward to your update.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Oscar,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Could you please check whether you are able to generate the label directly through the PostNord portal using the same shipment details, including the service, weight, order value, and recipient address?<br>&nbsp;<br>If the label can be generated successfully on the PostNord portal with the exact same details, please let us know. This information will help us narrow down the cause and investigate it further from our end.<br>&nbsp;<br>We look forward to your update.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+        "plain_body": "Hi Oscar,\n&nbsp;\nThank you for your patience.\n&nbsp;\nCould you please check whether you are able to generate the label directly through the PostNord portal using the same shipment details, including the service, weight, order value, and recipient address?\n&nbsp;\nIf the label can be generated successfully on the PostNord portal with the exact same details, please let us know. This information will help us narrow down the cause and investigate it further from our end.\n&nbsp;\nWe look forward to your update.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58918713493273,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T11:15:29Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58918752194841,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "Discussed with veena and replied\nmoved on hold\nNote to team :\nRaise l3 accordingly once customer replies",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Discussed with veena and replied&nbsp;<br>moved on hold&nbsp;<br>Note to team :&nbsp;<br>Raise l3 accordingly once customer replies<br></div>",
+        "plain_body": "Discussed with veena and replied&nbsp;\nmoved on hold&nbsp;\nNote to team :&nbsp;\nRaise l3 accordingly once customer replies",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58918752194713,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T11:16:26Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58919294808857,
+        "type": "Comment",
+        "author_id": 42378210119065,
+        "body": "Hi,\n\n\n\nIt works fine, I selected the service \u201cParcel Locker\u201d (as I understand it this is the new branding for \"Mypack Collect\"), see screenshots below ![Screenshot 2026-06-12 at 13.34.05.png](https://support.pluginhive.com/attachments/token/bNxxM3f8fUC9WoXFLvPXTD8KY/?name=Screenshot+2026-06-12+at+13.34.05.png) ![Screenshot 2026-06-12 at 13.34.16.png](https://support.pluginhive.com/attachments/token/sxtqvTxnfORdmSZqIsfOXS42p/?name=Screenshot+2026-06-12+at+13.34.16.png) ![Screenshot 2026-06-12 at 13.34.27.png](https://support.pluginhive.com/attachments/token/H72d2vTiQ5UJW0OP00kZndA3n/?name=Screenshot+2026-06-12+at+13.34.27.png) ![Screenshot 2026-06-12 at 13.34.39.png](https://support.pluginhive.com/attachments/token/cgp6m9x454l1MI57LJW5BVdQZ/?name=Screenshot+2026-06-12+at+13.34.39.png)\n\n\n\nBest,\n\n\n\nOscar Goldring\n\n![](https://support.pluginhive.com/attachments/token/XL81arXu0mKC69xknVn110tk5/?name=image001.png)\n\nProduct Owner\n\n+46 (0)768 800 195",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nHi,</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nIt works fine, I selected the service \u201cParcel Locker\u201d (as I understand it this is the new branding for \"Mypack Collect\"), see screenshots below<img src=\"https://support.pluginhive.com/attachments/token/bNxxM3f8fUC9WoXFLvPXTD8KY/?name=Screenshot+2026-06-12+at+13.34.05.png\" alt=\"Screenshot 2026-06-12 at 13.34.05.png\" width=\"1173\" style=\"width: 1173px; max-width: 100%;\"><img src=\"https://support.pluginhive.com/attachments/token/sxtqvTxnfORdmSZqIsfOXS42p/?name=Screenshot+2026-06-12+at+13.34.16.png\" alt=\"Screenshot 2026-06-12 at 13.34.16.png\" width=\"1174\" style=\"width: 1174px; max-width: 100%;\"><img src=\"https://support.pluginhive.com/attachments/token/H72d2vTiQ5UJW0OP00kZndA3n/?name=Screenshot+2026-06-12+at+13.34.27.png\" alt=\"Screenshot 2026-06-12 at 13.34.27.png\" width=\"1011\" style=\"width: 1011px; max-width: 100%;\"><img src=\"https://support.pluginhive.com/attachments/token/cgp6m9x454l1MI57LJW5BVdQZ/?name=Screenshot+2026-06-12+at+13.34.39.png\" alt=\"Screenshot 2026-06-12 at 13.34.39.png\" width=\"960\" style=\"width: 960px; max-width: 100%;\"></div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nBest,</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 12pt; color: black;\">Oscar Goldring</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11pt; color: rgb(33, 33, 33);\"><img src=\"https://support.pluginhive.com/attachments/token/XL81arXu0mKC69xknVn110tk5/?name=image001.png\" width=\"122\" height=\"30\" style=\"width: 1.2812in; height: 0.3125in; max-width: 100%; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 9pt; color: rgb(33, 33, 33);\">Product Owner</span></p>\n<p style=\"text-align: left; background-color: white; margin: 0cm;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 9pt; color: rgb(0, 120, 215);\"><a href=\"tel:+46768800195\" style=\"color: rgb(0, 120, 215); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><u>+46&nbsp;(0)768&nbsp;800&nbsp;195</u></a></span></p>\n</div></div>",
+        "plain_body": "Hi, \n \n\n\n \n \nIt works fine, I selected the service \u201cParcel Locker\u201d (as I understand it this is the new branding for \"Mypack Collect\"), see screenshots below \n \n\n\n \n \nBest, \n \n\n\n \n \n Oscar Goldring \n  \n Product Owner \n \n+46&nbsp;(0)768&nbsp;800&nbsp;195",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58919294808729,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "oscar.goldring@bitvis.se",
+              "name": "Oscar Goldring",
+              "original_recipients": [
+                "oscar.goldring@bitvis.se",
+                "support@pluginhive.com",
+                "tove.winddotter@bitvis.se"
+              ]
+            },
+            "to": {
+              "name": "PluginHive",
+              "address": "support@pluginhive.com"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T11:37:28Z",
+        "metadata": {
+          "system": {
+            "message_id": "<GV5P280MB207427C904DB8E8F6F2ECA0D81182@GV5P280MB2074.SWEP280.PROD.OUTLOOK.COM>",
+            "email_id": "01KTXSYN8CAFVK4MJ1SC1JYWJY",
+            "raw_email_identifier": "2369120/1eaa0034-df73-4b27-8eb4-59187b8f61ce.eml",
+            "json_email_identifier": "2369120/1eaa0034-df73-4b27-8eb4-59187b8f61ce.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 58921104963737,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "Hi Oscar,\n\nThank you for the update and for sharing the screenshots.\n\nPlease allow me some time to review this with our technical team. I will investigate the behaviour and get back to you with an update as soon as possible.\n\nThank you for your patience and understanding.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Oscar,<br>&nbsp;<br>Thank you for the update and for sharing the screenshots.<br>&nbsp;<br>Please allow me some time to review this with our technical team. I will investigate the behaviour and get back to you with an update as soon as possible.<br>&nbsp;<br>Thank you for your patience and understanding.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+        "plain_body": "Hi Oscar,\n&nbsp;\nThank you for the update and for sharing the screenshots.\n&nbsp;\nPlease allow me some time to review this with our technical team. I will investigate the behaviour and get back to you with an update as soon as possible.\n&nbsp;\nThank you for your patience and understanding.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 58921104963609,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T12:41:30Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58921245691289,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781268364905649\n\nBigCommerce MCSL customer from Sweden using PostNord is unable to generate a label for Order #172.\n\n- The rates are not displayed on the Order Summary page, and as a result, the customer is unable to generate the label.\n- The customer is currently using the old UI.\n- We asked the customer to verify the shipment directly in the PostNord portal using the same shipment details, and they confirmed that they are able to see the service and generate the shipment there.\n\nTroubleshooting performed:\n\n- Updated automation rules.\n- Modified package dimensions\n- Attempted label generation multiple times, but the issue persists.\n\nThe customer has explicitly provided permission for us to test and generate labels for Order #172.\n\nCould you please investigate why the rates are not being returned in the Order Summary page and why the label generation is failing for this order?\n\nStore URL: https://store-5yrznpmrvr.mybigcommerce.com\nAC ID: adf8f225-b8fd-4d51-965d-da7d73cab95b",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1781268364905649\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1781268364905649</a><br>&nbsp;<br>BigCommerce MCSL customer from Sweden using PostNord is unable to generate a label for Order <a href=\"/agent/tickets/172\" target=\"_blank\" rel=\"ticket\">#172</a>.<br>&nbsp;<br><ul dir=\"auto\"><li>The rates are not displayed on the Order Summary page, and as a result, the customer is unable to generate the label.</li><li>The customer is currently using the old UI.</li><li><p dir=\"auto\">We asked the customer to verify the shipment directly in the PostNord portal using the same shipment details, and they confirmed that they are able to see the service and generate the shipment there.</p><p dir=\"auto\">&nbsp;</p></li></ul>Troubleshooting performed:<br><ul dir=\"auto\"><li>Updated automation rules.</li><li>Modified package dimensions</li><li>Attempted label generation multiple times, but the issue persists.</li></ul>The customer has explicitly provided permission for us to test and generate labels for Order <a href=\"/agent/tickets/172\" target=\"_blank\" rel=\"ticket\">#172</a>.<br>&nbsp;<br>Could you please investigate why the rates are not being returned in the Order Summary page and why the label generation is failing for this order?<br>&nbsp;<br>Store URL: <a rel=\"noopener noreferrer\" href=\"https://store-5yrznpmrvr.mybigcommerce.com\">https://store-5yrznpmrvr.mybigcommerce.com</a><br>AC ID: adf8f225-b8fd-4d51-965d-da7d73cab95b<br>&nbsp;<br></div>",
+        "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781268364905649\n&nbsp;\nBigCommerce MCSL customer from Sweden using PostNord is unable to generate a label for Order #172.\n&nbsp;\n  The rates are not displayed on the Order Summary page, and as a result, the customer is unable to generate the label.  The customer is currently using the old UI.   We asked the customer to verify the shipment directly in the PostNord portal using the same shipment details, and they confirmed that they are able to see the service and generate the shipment there.  &nbsp;   Troubleshooting performed:\n  Updated automation rules.  Modified package dimensions  Attempted label generation multiple times, but the issue persists.  The customer has explicitly provided permission for us to test and generate labels for Order #172.\n&nbsp;\nCould you please investigate why the rates are not being returned in the Order Summary page and why the label generation is failing for this order?\n&nbsp;\nStore URL: https://store-5yrznpmrvr.mybigcommerce.com\nAC ID: adf8f225-b8fd-4d51-965d-da7d73cab95b\n&nbsp;",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58921245689753,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T12:46:31Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59017420405913,
+        "type": "Comment",
+        "author_id": 42378210119065,
+        "body": "Hi Priyanka,\n\n\n\nAny updates  with respect to this?\n\n\n\nBest,\n\n\n\nOscar Goldring\n\n![](https://support.pluginhive.com/attachments/token/EwAK3qH6J5ftgGKDCJEtbBMU2/?name=image001.png)\n\nProduct Owner\n\n+46 (0)768 800 195",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nHi Priyanka,</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nAny updates &nbsp;with respect to this?</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nBest,</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 12pt; color: black;\">Oscar Goldring</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11pt; color: rgb(33, 33, 33);\"><img src=\"https://support.pluginhive.com/attachments/token/EwAK3qH6J5ftgGKDCJEtbBMU2/?name=image001.png\" width=\"122\" height=\"30\" style=\"width: 1.2812in; height: 0.3125in; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 9pt; color: rgb(33, 33, 33);\">Product Owner</span></p>\n<p style=\"text-align: left; background-color: white; margin: 0cm;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 9pt; color: rgb(0, 120, 215);\"><a href=\"tel:+46768800195\" style=\"color: rgb(0, 120, 215); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><u>+46&nbsp;(0)768&nbsp;800&nbsp;195</u></a></span></p>\n</div></div>",
+        "plain_body": "Hi Priyanka, \n \n\n\n \n \nAny updates &nbsp;with respect to this? \n \n\n\n \n \nBest, \n \n\n\n \n \n Oscar Goldring \n  \n Product Owner \n \n+46&nbsp;(0)768&nbsp;800&nbsp;195",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59017420405785,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "oscar.goldring@bitvis.se",
+              "name": "Oscar Goldring",
+              "original_recipients": [
+                "oscar.goldring@bitvis.se",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive",
+              "address": "support@pluginhive.com"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-15T09:13:40Z",
+        "metadata": {
+          "system": {
+            "message_id": "<GV5P280MB2074E402EE2E8DAE6849C2E381E62@GV5P280MB2074.SWEP280.PROD.OUTLOOK.COM>",
+            "email_id": "01KV58XJEX2RXQ87HBWMGYPKDK",
+            "raw_email_identifier": "2369120/6142efed-3388-4b0f-a2c4-60876ecacab8.eml",
+            "json_email_identifier": "2369120/6142efed-3388-4b0f-a2c4-60876ecacab8.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 59020395280153,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "I can see that **Order #172**, as well as all other international orders in the app, has an `order.total` value of **0**.\nWe would like to understand why the total amount is being returned as `0`. Could you please check whether any discounts or adjustments have been applied to these orders?\nIf needed, please ask the customer to provide live store access so we can investigate further. Alternatively, please check with the customer to understand why the `order.total` value is `0` for all of these orders.\n-[Athul]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">I can see that <strong>Order <a href=\"/agent/tickets/172\" target=\"_blank\" rel=\"ticket\">#172</a></strong>, as well as all other international orders in the app, has an <code>order.total</code> value of <strong>0</strong>.<br>We would like to understand why the total amount is being returned as <code>0</code>. Could you please check whether any discounts or adjustments have been applied to these orders?&nbsp;<br>If needed, please ask the customer to provide live store access so we can investigate further. Alternatively, please check with the customer to understand why the <code>order.total</code> value is <code>0</code> for all of these orders.<br>-[Athul]<br></div>",
+        "plain_body": "I can see that Order #172, as well as all other international orders in the app, has an order.total value of 0.\nWe would like to understand why the total amount is being returned as 0. Could you please check whether any discounts or adjustments have been applied to these orders?&nbsp;\nIf needed, please ask the customer to provide live store access so we can investigate further. Alternatively, please check with the customer to understand why the order.total value is 0 for all of these orders.\n-[Athul]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59020395280025,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-15T10:46:41Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Badaganhatti, KA, India",
+            "latitude": 13.8006,
+            "longitude": 76.6029
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59021462903321,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "Hi Oscar,\n\nThank you for your patience while we investigated this with our technical team.\n\nUpon reviewing the order data, we noticed that Order #172, as well as several other international orders, has an order total value of 0 being returned to our app.\n\nCould you please help us understand why the order total is showing as 0? For example, have any discounts, adjustments, customizations, or other modifications been applied to these orders that could be affecting the order value?\n\nAdditionally, if you are comfortable doing so, could you provide us with access to the live store so that we can investigate this further? This may help us identify the root cause more quickly.\nWe look forward to your response and will continue investigating as soon as we have this information.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Oscar,<br>&nbsp;<br>Thank you for your patience while we investigated this with our technical team.<br>&nbsp;<br>Upon reviewing the order data, we noticed that Order <a href=\"/agent/tickets/172\" target=\"_blank\" rel=\"ticket\">#172</a>, as well as several other international orders, has an order total value of 0 being returned to our app.<br>&nbsp;<br>Could you please help us understand why the order total is showing as 0? For example, have any discounts, adjustments, customizations, or other modifications been applied to these orders that could be affecting the order value?<br>&nbsp;<br>Additionally, if you are comfortable doing so, could you provide us with access to the live store so that we can investigate this further? This may help us identify the root cause more quickly.<br>We look forward to your response and will continue investigating as soon as we have this information.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+        "plain_body": "Hi Oscar,\n&nbsp;\nThank you for your patience while we investigated this with our technical team.\n&nbsp;\nUpon reviewing the order data, we noticed that Order #172, as well as several other international orders, has an order total value of 0 being returned to our app.\n&nbsp;\nCould you please help us understand why the order total is showing as 0? For example, have any discounts, adjustments, customizations, or other modifications been applied to these orders that could be affecting the order value?\n&nbsp;\nAdditionally, if you are comfortable doing so, could you provide us with access to the live store so that we can investigate this further? This may help us identify the root cause more quickly.\nWe look forward to your response and will continue investigating as soon as we have this information.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59021462903193,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-15T11:25:57Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59021486833561,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "awaiting customer response\nmoving on hold",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">awaiting customer response<br>moving on hold<br></div>",
+        "plain_body": "awaiting customer response\nmoving on hold",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59021448570521,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-15T11:26:31Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59025725981209,
+        "type": "Comment",
+        "author_id": 42378210119065,
+        "body": "Hi,\n\n\n\nThat\u2019s because we offer B2B services where the invoicing is handled separately.\n\n\n\nWhat access level do you need?\n\n\n\nBest,\n\n\n\nOscar Goldring\n\n![](https://support.pluginhive.com/attachments/token/exPqQkVpvqSEwnXqqtUnC9HiK/?name=image001.png)\n\nProduct Owner\n\n+46 (0)768 800 195",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nHi,</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nThat\u2019s because we offer B2B services where the invoicing is handled separately.</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nWhat access level do you need?</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nBest,</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 12pt; color: black;\">Oscar Goldring</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11pt; color: rgb(33, 33, 33);\"><img src=\"https://support.pluginhive.com/attachments/token/exPqQkVpvqSEwnXqqtUnC9HiK/?name=image001.png\" width=\"122\" height=\"30\" style=\"width: 1.2812in; height: 0.3125in; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 9pt; color: rgb(33, 33, 33);\">Product Owner</span></p>\n<p style=\"text-align: left; background-color: white; margin: 0cm;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 9pt; color: rgb(0, 120, 215);\"><a href=\"tel:+46768800195\" style=\"color: rgb(0, 120, 215); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><u>+46&nbsp;(0)768&nbsp;800&nbsp;195</u></a></span></p>\n</div></div>",
+        "plain_body": "Hi, \n \n\n\n \n \nThat\u2019s because we offer B2B services where the invoicing is handled separately. \n \n\n\n \n \nWhat access level do you need? \n \n\n\n \n \nBest, \n \n\n\n \n \n Oscar Goldring \n  \n Product Owner \n \n+46&nbsp;(0)768&nbsp;800&nbsp;195",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59025725981081,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "oscar.goldring@bitvis.se",
+              "name": "Oscar Goldring",
+              "original_recipients": [
+                "oscar.goldring@bitvis.se",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive",
+              "address": "support@pluginhive.com"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-15T14:36:53Z",
+        "metadata": {
+          "system": {
+            "message_id": "<GV5P280MB2074146A7E65CE80CBC67C7E81E62@GV5P280MB2074.SWEP280.PROD.OUTLOOK.COM>",
+            "email_id": "01KV5VDC3PJKE668SSM4DZMMWP",
+            "raw_email_identifier": "2369120/49856708-2129-486d-ae60-3fe3c75c0de1.eml",
+            "json_email_identifier": "2369120/49856708-2129-486d-ae60-3fe3c75c0de1.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 59026787393177,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Oscar Goldring,\n\nThank you for your response.\n\nWe require Admin Access to your store to check the case further.\n\nPlease provide admin login details for your store by creating a user account for support@pluginhive.com and let us know.\n\nWe will check your case further.\n\nAwaiting your response.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Oscar Goldring,<br>&nbsp;<br>Thank you for your response.<br>&nbsp;<br>We require Admin Access to your store to check the case further.<br>&nbsp;<br>Please provide admin login details for your store by creating a user account for <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a> and let us know.<br>&nbsp;<br>We will check your case further.<br>&nbsp;<br>Awaiting your response.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Oscar Goldring,\n&nbsp;\nThank you for your response.\n&nbsp;\nWe require Admin Access to your store to check the case further.\n&nbsp;\nPlease provide admin login details for your store by creating a user account for support@pluginhive.com and let us know.\n&nbsp;\nWe will check your case further.\n&nbsp;\nAwaiting your response.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59026787393049,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-15T15:41:26Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59091255451033,
+        "type": "Comment",
+        "author_id": 42378210119065,
+        "body": "Hi Touseef,\n\n\n\nNow I\u2019vs created a user with mail: support@pluginhive.com\n\n\n\nwith admin privileges. Let me when you have investigated.\n\n\n\nBest,\n\n\n\nOscar Goldring\n\n![](https://support.pluginhive.com/attachments/token/yAFBnmcmpaPW9Y0g0yM1lfqaq/?name=image001.png)\n\nProduct Owner\n\n+46 (0)768 800 195",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nHi Touseef,</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nNow I\u2019vs created a user with mail: <span style=\"color: rgb(0, 120, 212); text-transform: none;\">\n<a href=\"mailto:support@pluginhive.com\" title=\"mailto:support@pluginhive.com\" style=\"color: rgb(0, 120, 212); text-align: left;\" rel=\"noreferrer\">support@pluginhive.com</a></span></div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nwith admin privileges. Let me when you have investigated.</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nBest,</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 12pt; color: black;\">Oscar Goldring</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11pt; color: rgb(33, 33, 33);\"><img src=\"https://support.pluginhive.com/attachments/token/yAFBnmcmpaPW9Y0g0yM1lfqaq/?name=image001.png\" width=\"122\" height=\"30\" style=\"width: 1.2812in; height: 0.3125in; max-width: 100%; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 9pt; color: rgb(33, 33, 33);\">Product Owner</span></p>\n<p style=\"text-align: left; background-color: white; margin: 0cm;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 9pt; color: rgb(0, 120, 215);\"><a href=\"tel:+46768800195\" style=\"color: rgb(0, 120, 215); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><u>+46&nbsp;(0)768&nbsp;800&nbsp;195</u></a></span></p>\n</div></div>",
+        "plain_body": "Hi Touseef, \n \n\n\n \n \nNow I\u2019vs created a user with mail: \nsupport@pluginhive.com \n \n\n\n \n \nwith admin privileges. Let me when you have investigated. \n \n\n\n \n \nBest, \n \n\n\n \n \n Oscar Goldring \n  \n Product Owner \n \n+46&nbsp;(0)768&nbsp;800&nbsp;195",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59091255450905,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "oscar.goldring@bitvis.se",
+              "name": "Oscar Goldring",
+              "original_recipients": [
+                "oscar.goldring@bitvis.se",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive",
+              "address": "support@pluginhive.com"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-17T10:04:21Z",
+        "metadata": {
+          "system": {
+            "message_id": "<GV5P280MB207472CC600CEBF8CD15715081E42@GV5P280MB2074.SWEP280.PROD.OUTLOOK.COM>",
+            "email_id": "01KVAGKTA2XQ52ZJA9H17Z7FPD",
+            "raw_email_identifier": "2369120/81810214-0d2d-42e6-8eb9-fbe8dc901d9b.eml",
+            "json_email_identifier": "2369120/81810214-0d2d-42e6-8eb9-fbe8dc901d9b.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 59094349164313,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Request #395621 \"You have been added to a BigComm...\" was closed and merged into this request. Last comment in request #395621:\r\n\r\n  ![BigCommerce Logo](https://cdn.bigcommerce.com/login/assets/bc-logo-black-01c30a35c854501c1fd95db79560f71c94c8a7c133fdc93567f3f3d813d87137.png \"BigCommerce logo\")\r\n\r\nStore Access\r\n\r\nHello,\r\n\r\nYou have been granted access to the BigCommerce store Bitvis. Please log in using your existing BigCommerce account to access it.\r\n\r\nLog in\r\n\r\nForgot your password? You can reset your password if needed.\r\n\r\nThanks!\r\n The BigCommerce team\r\n\r\n ![BigCommerce Logo](https://cdn.bigcommerce.com/login/assets/bc-logo-small-white-d7b25e85573a8e339f2ce3d3fedeade8f3a4dbab024faeb877aee80389611a84.png \"BigCommerce logo\") Facebook Twitter",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/395621\" target=\"_blank\" rel=\"ticket\">#395621</a> \"You have been added to a BigComm...\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/395621\" target=\"_blank\" rel=\"ticket\">#395621</a>:</p>\n<p dir=\"auto\"><img src=\"https://cdn.bigcommerce.com/login/assets/bc-logo-black-01c30a35c854501c1fd95db79560f71c94c8a7c133fdc93567f3f3d813d87137.png\" alt=\"BigCommerce Logo\"></p>\n<p dir=\"auto\">Store Access</p>\n<p dir=\"auto\">Hello,</p>\n<p dir=\"auto\">You have been granted access to the BigCommerce store Bitvis. Please log in using your existing BigCommerce account to access it.</p>\n<p dir=\"auto\">Log in</p>\n<p dir=\"auto\">Forgot your password? You can reset your password if needed.</p>\n<p dir=\"auto\">Thanks!<br>\n The BigCommerce team</p>\n<p dir=\"auto\"><img src=\"https://cdn.bigcommerce.com/login/assets/bc-logo-small-white-d7b25e85573a8e339f2ce3d3fedeade8f3a4dbab024faeb877aee80389611a84.png\" alt=\"BigCommerce Logo\"> Facebook Twitter</p></div>",
+        "plain_body": "Request #395621 \"You have been added to a BigComm...\" was closed and merged into this request. Last comment in request #395621: \n  \n Store Access \n Hello, \n You have been granted access to the BigCommerce store Bitvis. Please log in using your existing BigCommerce account to access it. \n Log in \n Forgot your password? You can reset your password if needed. \n Thanks!\n\n The BigCommerce team \n  Facebook Twitter",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59094349164185,
+        "via": {
+          "channel": "system",
+          "source": {
+            "to": {},
+            "from": {
+              "ticket_id": null,
+              "subject": null,
+              "ticket_ids": [
+                395621
+              ]
+            },
+            "rel": "merge"
+          }
+        },
+        "created_at": "2026-06-17T11:52:35Z",
+        "metadata": {
+          "system": {
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59094614625433,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781697643893029?thread_ts=1781268364.905649&cid=C02E15X8X0C\n\nCustomer has provided admin access for his store as per request from L3 team.\nPlease check the case further.\n\n**BigCommerce Login -**\nhttps://login.bigcommerce.com/login\nUsername - support@pluginhive.com\nPassword - v8gU9F=3VW)wW4H\nAccount - Bitvis\nStore - Bitvis\n\nURL - https://store-5yrznpmrvr.mybigcommerce.com",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Back to L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1781697643893029?thread_ts=1781268364.905649&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1781697643893029?thread_ts=1781268364.905649&amp;cid=C02E15X8X0C</a><br>&nbsp;<br>Customer has provided admin access for his store as per request from L3 team.<br>Please check the case further.<br>&nbsp;<br><strong>BigCommerce Login -</strong><br><a rel=\"noopener noreferrer\" href=\"https://login.bigcommerce.com/login\">https://login.bigcommerce.com/login</a><br>Username - <a href=\"mailto:support@pluginhive.com\" rel=\"noreferrer\">support@pluginhive.com</a><br>Password - v8gU9F=3VW)wW4H<br>Account - Bitvis<br>Store - Bitvis<br>&nbsp;<br>URL - <a rel=\"noopener noreferrer\" href=\"https://store-5yrznpmrvr.mybigcommerce.com\">https://store-5yrznpmrvr.mybigcommerce.com</a><br></div>",
+        "plain_body": "Back to L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781697643893029?thread_ts=1781268364.905649&amp;cid=C02E15X8X0C\n&nbsp;\nCustomer has provided admin access for his store as per request from L3 team.\nPlease check the case further.\n&nbsp;\nBigCommerce Login -\nhttps://login.bigcommerce.com/login\nUsername - support@pluginhive.com\nPassword - v8gU9F=3VW)wW4H\nAccount - Bitvis\nStore - Bitvis\n&nbsp;\nURL - https://store-5yrznpmrvr.mybigcommerce.com",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59094614625305,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-17T12:00:56Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59094585507737,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Oscar Goldring,\n\nThank you for your response and access.\n\nWe will check your case further and update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Oscar Goldring,<br>&nbsp;<br>Thank you for your response and access.<br>&nbsp;<br>We will check your case further and update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Oscar Goldring,\n&nbsp;\nThank you for your response and access.\n&nbsp;\nWe will check your case further and update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59094585507609,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-17T12:02:03Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59132436385305,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "This needs sometime to investigate, will update.\n[Veena]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">This needs sometime to investigate, will update.<br>[Veena]<br></div>",
+        "plain_body": "This needs sometime to investigate, will update.\n[Veena]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59132436385177,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-18T13:17:16Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59283764378393,
+        "type": "Comment",
+        "author_id": 42378210119065,
+        "body": "Hi Touseef,\n\n\n\nAny updated on this?\n\n\n\nBest,\n\n\n\nOscar Goldring\n\n![](https://support.pluginhive.com/attachments/token/khx9DQRIpk0nxEiQUgNsb9qCl/?name=image001.png)\n\nProduct Owner\n\n+46 (0)768 800 195",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nHi Touseef,</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nAny updated on this?</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nBest,</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 12pt; color: black;\">Oscar Goldring</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11pt; color: rgb(33, 33, 33);\"><img src=\"https://support.pluginhive.com/attachments/token/khx9DQRIpk0nxEiQUgNsb9qCl/?name=image001.png\" width=\"122\" height=\"30\" style=\"width: 1.2812in; height: 0.3125in; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 9pt; color: rgb(33, 33, 33);\">Product Owner</span></p>\n<p style=\"text-align: left; background-color: white; margin: 0cm;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 9pt; color: rgb(0, 120, 215);\"><a href=\"tel:+46768800195\" style=\"color: rgb(0, 120, 215); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><u>+46&nbsp;(0)768&nbsp;800&nbsp;195</u></a></span></p>\n</div></div>",
+        "plain_body": "Hi Touseef, \n \n\n\n \n \nAny updated on this? \n \n\n\n \n \nBest, \n \n\n\n \n \n Oscar Goldring \n  \n Product Owner \n \n+46&nbsp;(0)768&nbsp;800&nbsp;195",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59283764378265,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "oscar.goldring@bitvis.se",
+              "name": "Oscar Goldring",
+              "original_recipients": [
+                "oscar.goldring@bitvis.se",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive",
+              "address": "support@pluginhive.com"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T06:32:01Z",
+        "metadata": {
+          "system": {
+            "message_id": "<GV5P280MB2074429ECAA5D4B9063DE63881EE2@GV5P280MB2074.SWEP280.PROD.OUTLOOK.COM>",
+            "email_id": "01KVSJVAESAY16B6VH706G7JQ6",
+            "raw_email_identifier": "2369120/dbb16b10-33c6-4cfa-b0ed-32a911f5e69d.eml",
+            "json_email_identifier": "2369120/dbb16b10-33c6-4cfa-b0ed-32a911f5e69d.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 59289397615769,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "We have identified the root cause of the issue. There is a currency conversion problem occurring while processing rates from SEK to EUR when the order total is 0.\nWe are working on a fix and plan to include it in an upcoming release.\nAs a temporary workaround, could you please ask the customer to change the currency setting in General Settings to **Order Currency**? This should prevent the issue from occurring until the fix is deployed.(Please verify once this case before communicating it to the customer.)\n-[Athul]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">We have identified the root cause of the issue. There is a currency conversion problem occurring while processing rates from SEK to EUR when the order total is 0.<br>We are working on a fix and plan to include it in an upcoming release.<br>As a temporary workaround, could you please ask the customer to change the currency setting in General Settings to <strong>Order Currency</strong>? This should prevent the issue from occurring until the fix is deployed.(Please verify once this case before communicating it to the customer.)<br>-[Athul]<br></div>",
+        "plain_body": "We have identified the root cause of the issue. There is a currency conversion problem occurring while processing rates from SEK to EUR when the order total is 0.\nWe are working on a fix and plan to include it in an upcoming release.\nAs a temporary workaround, could you please ask the customer to change the currency setting in General Settings to Order Currency? This should prevent the issue from occurring until the fix is deployed.(Please verify once this case before communicating it to the customer.)\n-[Athul]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59289397615641,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T08:57:53Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59290515361817,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "Kindly inform the merchant and move the ticket to dev_needed.\n[Veena]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Kindly inform the merchant and move the ticket to dev_needed.<br>[Veena]<br></div>",
+        "plain_body": "Kindly inform the merchant and move the ticket to dev_needed.\n[Veena]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59290479151385,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T09:26:01Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59293092892057,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Oscar Goldring,\n\nThank you for your patience.\n\nOur team has checked your case and they have identified the root cause of the case. There is a currency conversion problem occurring while processing rates from SEK to EUR when the order total is 0.\n\nWe will be providing a fix for this case and tentatively it will be made available in the next release.\n\nAs a temporary workaround, you can update the **Preferred Shipment Currency** as **Order Currency** in App Settings > General Settings > Shipping. This will prevent the case from occuring and you should be able to generate the label for the orders with the app as usual.\n\nFor now, I have updated the setting in the app on your store and now the orders 171 and 172 are in Processing Status in the app.\n\nPlease check and let us know if you have any further queries.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Oscar Goldring,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>Our team has checked your case and they have identified the root cause of the case. There is a currency conversion problem occurring while processing rates from SEK to EUR when the order total is 0.<br>&nbsp;<br>We will be providing a fix for this case and tentatively it will be made available in the next release.<br>&nbsp;<br>As a temporary workaround, you can update the <strong>Preferred Shipment Currency</strong> as <strong>Order Currency </strong>in App Settings &gt; General Settings &gt; Shipping. This will prevent the case from occuring and you should be able to generate the label for the orders with the app as usual.<br>&nbsp;<br>For now, I have updated the setting in the app on your store and now the orders 171 and 172 are in Processing Status in the app.<br>&nbsp;<br>Please check and let us know if you have any further queries.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Oscar Goldring,\n&nbsp;\nThank you for your patience.\n&nbsp;\nOur team has checked your case and they have identified the root cause of the case. There is a currency conversion problem occurring while processing rates from SEK to EUR when the order total is 0.\n&nbsp;\nWe will be providing a fix for this case and tentatively it will be made available in the next release.\n&nbsp;\nAs a temporary workaround, you can update the Preferred Shipment Currency as Order Currency in App Settings &gt; General Settings &gt; Shipping. This will prevent the case from occuring and you should be able to generate the label for the orders with the app as usual.\n&nbsp;\nFor now, I have updated the setting in the app on your store and now the orders 171 and 172 are in Processing Status in the app.\n&nbsp;\nPlease check and let us know if you have any further queries.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59293092891929,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T10:47:32Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59293684209049,
+        "type": "Comment",
+        "author_id": 42378210119065,
+        "body": "Hi Touseef,\n\n\n\nThanks for the update! Sounds good that you have identified the issue and that there is a workaround for the moment.\n\n\n\nBest,\n\n\n\nOscar Goldring\n\n![](https://support.pluginhive.com/attachments/token/6JRqicsWJSFlYL0VT6Qlz7aKA/?name=image001.png)\n\nProduct Owner\n\n+46 (0)768 800 195",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nHi Touseef,</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nThanks for the update! Sounds good that you have identified the issue and that there is a workaround for the moment.</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\nBest,</div>\n<div style=\"direction: ltr; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 12pt; color: black;\">Oscar Goldring</span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 11pt; color: rgb(33, 33, 33);\"><img src=\"https://support.pluginhive.com/attachments/token/6JRqicsWJSFlYL0VT6Qlz7aKA/?name=image001.png\" width=\"122\" height=\"30\" style=\"width: 1.2812in; height: 0.3125in; margin-top: 0px; margin-bottom: 0px;\"></span></p>\n<p style=\"background-color: white; margin: 0cm;\" dir=\"auto\"><span style=\"font-size: 9pt; color: rgb(33, 33, 33);\">Product Owner</span></p>\n<p style=\"text-align: left; background-color: white; margin: 0cm;\" dir=\"auto\" align=\"left\">\n<span style=\"font-size: 9pt; color: rgb(0, 120, 215);\"><a href=\"tel:+46768800195\" style=\"color: rgb(0, 120, 215); margin-top: 0px; margin-bottom: 0px;\" rel=\"noreferrer\"><u>+46&nbsp;(0)768&nbsp;800&nbsp;195</u></a></span></p>\n</div></div>",
+        "plain_body": "Hi Touseef, \n \n\n\n \n \nThanks for the update! Sounds good that you have identified the issue and that there is a workaround for the moment. \n \n\n\n \n \nBest, \n \n\n\n \n \n Oscar Goldring \n  \n Product Owner \n \n+46&nbsp;(0)768&nbsp;800&nbsp;195",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59293684208921,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "oscar.goldring@bitvis.se",
+              "name": "Oscar Goldring",
+              "original_recipients": [
+                "oscar.goldring@bitvis.se",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive",
+              "address": "support@pluginhive.com"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T11:06:06Z",
+        "metadata": {
+          "system": {
+            "message_id": "<GV5P280MB2074BC70B376A8790A4AB79D81EE2@GV5P280MB2074.SWEP280.PROD.OUTLOOK.COM>",
+            "email_id": "01KVT2H5A9E81TTYF158PEJ2VY",
+            "raw_email_identifier": "2369120/aeffed3a-0a41-458f-acce-b7665c9e7348.eml",
+            "json_email_identifier": "2369120/aeffed3a-0a41-458f-acce-b7665c9e7348.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 59293753832729,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "Already acknowledged by touseef\nmoved to dev needed",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Already acknowledged by touseef&nbsp;<br>moved to dev needed<br></div>",
+        "plain_body": "Already acknowledged by touseef&nbsp;\nmoved to dev needed",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59293753832601,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T11:08:02Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      }
+    ]
+  }
+}

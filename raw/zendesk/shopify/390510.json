@@ -12,12 +12,12 @@
       }
     },
     "created_at": "2026-05-18T09:22:18Z",
-    "updated_at": "2026-05-18T09:22:30Z",
-    "generated_timestamp": 1779096150,
+    "updated_at": "2026-07-06T09:26:01Z",
+    "generated_timestamp": 1783329961,
     "type": null,
     "subject": "Love of india existing issues",
     "raw_subject": "Love of india existing issues",
-    "description": "_**EXISTING ISSUES THAT NEED CORRECTION**_\n_**━━━━━━━━━━━━━━━━━━━━━━━**_\n**1. Batch Creation Issues for Large Volumes**\n\n\n- When creating very large batches (example: 1000+ orders), **batch creation takes a long time**.\n- During this delay, the **system does not redirect automatically to the Label Batch page.** _(For smaller batches, the redirect works correctly. This issue is also captured in the __**video**_ _shared earlier)_\n- During batch creation, the app displays **“Error in Batch Creation” message**, which is misleading. This confuses the customer even though the batch may still be processing successfully.\n\n\n**2. Failed Labels Appearing as Processing in Multiple Batches**\n\n\n**Part of their Workflow**\n\n- Suppose: Out of 100 orders, 2 labels fail.\n- Customer retries those failed orders with another carrier.\n\n\n**Issue:**\n\n- Those same orders continue to appear as “Processing” in the original failed batch as well.\n- At the same time, they also appear in the new retry batch.\n- The retried carrier name also gets updated in the Original batch, leading to confusion.\n\nThere may also be printing-related inconsistencies connected to this behavior, as mentioned earlier by the Dev team.\n\n**3. Printing Mismatch / “Not in Ship” Case**\n\nObserved today:\n\n- Order #45279880 was not part of the Label Print\n- Deepak reviewed and informed that the **order was in “Not in Ship” status**\n- However, the **label was generated & Order was fulfille**d in Shopify for this order. That tracking ID is still valid : https://track.amazon.in/tracking/369348516162\n\n\nThis is the first time this particular case has been observed, and the root cause is currently unclear.\n\n**4. Setup the carriers based on priority**\n\n\n- Create all Amazon labels\n- Switch Delhivery carrier to Amazon and try label creation, some may fail and some success.\n- Retry all failed labels with Amazon once again.\n- Remaining failed orders are then attempted with Delhivery.\n- If still failed, they retry with XpressBees.\n\n\n\n\n[Veena]",
+    "description": "_**EXISTING ISSUES THAT NEED CORRECTION**_\n_**\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501**_\n**1. Batch Creation Issues for Large Volumes**\n\n\n- When creating very large batches (example: 1000+ orders), **batch creation takes a long time**.\n- During this delay, the **system does not redirect automatically to the Label Batch page.** _(For smaller batches, the redirect works correctly. This issue is also captured in the __**video**_ _shared earlier)_\n- During batch creation, the app displays **\u201cError in Batch Creation\u201d message**, which is misleading. This confuses the customer even though the batch may still be processing successfully.\n\n\n**2. Failed Labels Appearing as Processing in Multiple Batches**\n\n\n**Part of their Workflow**\n\n- Suppose: Out of 100 orders, 2 labels fail.\n- Customer retries those failed orders with another carrier.\n\n\n**Issue:**\n\n- Those same orders continue to appear as \u201cProcessing\u201d in the original failed batch as well.\n- At the same time, they also appear in the new retry batch.\n- The retried carrier name also gets updated in the Original batch, leading to confusion.\n\nThere may also be printing-related inconsistencies connected to this behavior, as mentioned earlier by the Dev team.\n\n**3. Printing Mismatch / \u201cNot in Ship\u201d Case**\n\nObserved today:\n\n- Order #45279880 was not part of the Label Print\n- Deepak reviewed and informed that the **order was in \u201cNot in Ship\u201d status**\n- However, the **label was generated & Order was fulfille**d in Shopify for this order. That tracking ID is still valid : https://track.amazon.in/tracking/369348516162\n\n\nThis is the first time this particular case has been observed, and the root cause is currently unclear.\n\n**4. Setup the carriers based on priority**\n\n\n- Create all Amazon labels\n- Switch Delhivery carrier to Amazon and try label creation, some may fail and some success.\n- Retry all failed labels with Amazon once again.\n- Remaining failed orders are then attempted with Delhivery.\n- If still failed, they retry with XpressBees.\n\n\n\n\n[Veena]",
     "priority": null,
     "status": "open",
     "recipient": null,
@@ -26,8 +26,12 @@
     "assignee_id": null,
     "organization_id": 360081186532,
     "group_id": null,
-    "collaborator_ids": [],
-    "follower_ids": [],
+    "collaborator_ids": [
+      18854260804761
+    ],
+    "follower_ids": [
+      18854260804761
+    ],
     "email_cc_ids": [],
     "forum_topic_id": null,
     "problem_id": null,
@@ -35,7 +39,7 @@
     "is_public": false,
     "due_at": null,
     "tags": [
-      "dev_needed",
+      "l3",
       "q4_dec_end",
       "shopify",
       "shopify_multi_carrier_shipping_label_app"
@@ -111,6 +115,14 @@
       },
       {
         "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
         "value": null
       }
     ],
@@ -192,6 +204,14 @@
       {
         "id": 57821243552025,
         "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
       }
     ],
     "followup_ids": [],
@@ -199,38 +219,621 @@
     "allow_channelback": false,
     "allow_attachments": true,
     "from_messaging_channel": false,
-    "support_type": "agent"
-  },
-  "comments": [
-    {
-      "id": 58043847395993,
-      "type": "Comment",
-      "author_id": 8448825445657,
-      "body": "_**EXISTING ISSUES THAT NEED CORRECTION**_\n_**━━━━━━━━━━━━━━━━━━━━━━━**_\n**1. Batch Creation Issues for Large Volumes**\n\n\n- When creating very large batches (example: 1000+ orders), **batch creation takes a long time**.\n- During this delay, the **system does not redirect automatically to the Label Batch page.** _(For smaller batches, the redirect works correctly. This issue is also captured in the __**video**_ _shared earlier)_\n- During batch creation, the app displays **“Error in Batch Creation” message**, which is misleading. This confuses the customer even though the batch may still be processing successfully.\n\n\n**2. Failed Labels Appearing as Processing in Multiple Batches**\n\n\n**Part of their Workflow**\n\n- Suppose: Out of 100 orders, 2 labels fail.\n- Customer retries those failed orders with another carrier.\n\n\n**Issue:**\n\n- Those same orders continue to appear as “Processing” in the original failed batch as well.\n- At the same time, they also appear in the new retry batch.\n- The retried carrier name also gets updated in the Original batch, leading to confusion.\n\nThere may also be printing-related inconsistencies connected to this behavior, as mentioned earlier by the Dev team.\n\n**3. Printing Mismatch / “Not in Ship” Case**\n\nObserved today:\n\n- Order #45279880 was not part of the Label Print\n- Deepak reviewed and informed that the **order was in “Not in Ship” status**\n- However, the **label was generated & Order was fulfille**d in Shopify for this order. That tracking ID is still valid : https://track.amazon.in/tracking/369348516162\n\n\nThis is the first time this particular case has been observed, and the root cause is currently unclear.\n\n**4. Setup the carriers based on priority**\n\n\n- Create all Amazon labels\n- Switch Delhivery carrier to Amazon and try label creation, some may fail and some success.\n- Retry all failed labels with Amazon once again.\n- Remaining failed orders are then attempted with Delhivery.\n- If still failed, they retry with XpressBees.\n\n\n\n\n[Veena]",
-      "html_body": "<div class=\"zd-comment\" dir=\"auto\"><i><strong>EXISTING ISSUES THAT NEED CORRECTION</strong></i><br><i><strong>━━━━━━━━━━━━━━━━━━━━━━━</strong></i><br><strong>1. Batch Creation Issues for Large Volumes</strong><br>&nbsp;<br><ul dir=\"auto\"><li>When creating very large batches (example: 1000+ orders),<strong> batch creation takes a long time</strong>.</li><li>During this delay, the&nbsp;<strong>system does not redirect automatically to the Label Batch page.</strong>&nbsp;<i>(For smaller batches, the redirect works correctly. This issue is also captured in the&nbsp;</i><a rel=\"noopener noreferrer\" href=\"https://drive.google.com/file/d/1xijq4emSTHUCjVVKE4oOQBgjou9I8aK6/view\"><i><strong><u>video</u></strong></i></a><i> shared earlier)</i></li><li>During batch creation, the app displays&nbsp;<strong>“Error in Batch Creation” message</strong>, which is misleading. This confuses the customer even though the batch may still be processing successfully.</li></ul>&nbsp;<br><strong>2. Failed Labels Appearing as Processing in Multiple Batches</strong><br><br>&nbsp;<br><strong>Part of their Workflow</strong><br><ul dir=\"auto\"><li>Suppose: Out of 100 orders, 2 labels fail.</li><li>Customer retries those failed orders with another carrier.</li></ul>&nbsp;<br><strong>Issue:</strong><br><ul dir=\"auto\"><li>Those same orders continue to appear as “Processing” in the original failed batch as well.</li><li>At the same time, they also appear in the new retry batch.</li><li>The retried carrier name also gets updated in the Original batch, leading to confusion.</li></ul>There may also be printing-related inconsistencies connected to this behavior, as mentioned earlier by the Dev team.<br>&nbsp;<br><strong>3. Printing Mismatch / “Not in Ship” Case</strong><br><br>Observed today:<br><ul dir=\"auto\"><li>Order <a href=\"/agent/tickets/45279880\" target=\"_blank\" rel=\"ticket\">#45279880</a> was not part of the Label Print</li><li>Deepak reviewed and informed that the<strong> order was in “Not in Ship” status</strong></li><li>However, the<strong> label was generated &amp; Order was fulfille</strong>d in Shopify for this order. That tracking ID is still valid :&nbsp;<a rel=\"noopener noreferrer\" href=\"https://track.amazon.in/tracking/369348516162\"><u>https://track.amazon.in/tracking/369348516162</u></a>&nbsp;</li></ul>&nbsp;<br>This is the first time this particular case has been observed, and the root cause is currently unclear.<br>&nbsp;<br><strong>4. Setup the carriers based on priority</strong><br>&nbsp;<br><ul dir=\"auto\"><li>Create all Amazon labels</li><li>Switch Delhivery carrier to Amazon and try label creation, some may fail and some success.</li><li>Retry all failed labels with Amazon once again.</li><li>Remaining failed orders are then attempted with Delhivery.</li><li>If still failed, they retry with XpressBees.<br><br><br><br><br>[Veena]</li></ul></div>",
-      "plain_body": "EXISTING ISSUES THAT NEED CORRECTION\n━━━━━━━━━━━━━━━━━━━━━━━\n1. Batch Creation Issues for Large Volumes\n&nbsp;\n  When creating very large batches (example: 1000+ orders), batch creation takes a long time.  During this delay, the&nbsp;system does not redirect automatically to the Label Batch page.&nbsp;(For smaller batches, the redirect works correctly. This issue is also captured in the&nbsp;video shared earlier)  During batch creation, the app displays&nbsp;“Error in Batch Creation” message, which is misleading. This confuses the customer even though the batch may still be processing successfully.  &nbsp;\n2. Failed Labels Appearing as Processing in Multiple Batches\n\n&nbsp;\nPart of their Workflow\n  Suppose: Out of 100 orders, 2 labels fail.  Customer retries those failed orders with another carrier.  &nbsp;\nIssue:\n  Those same orders continue to appear as “Processing” in the original failed batch as well.  At the same time, they also appear in the new retry batch.  The retried carrier name also gets updated in the Original batch, leading to confusion.  There may also be printing-related inconsistencies connected to this behavior, as mentioned earlier by the Dev team.\n&nbsp;\n3. Printing Mismatch / “Not in Ship” Case\n\nObserved today:\n  Order #45279880 was not part of the Label Print  Deepak reviewed and informed that the order was in “Not in Ship” status  However, the label was generated &amp; Order was fulfilled in Shopify for this order. That tracking ID is still valid :&nbsp;https://track.amazon.in/tracking/369348516162&nbsp;  &nbsp;\nThis is the first time this particular case has been observed, and the root cause is currently unclear.\n&nbsp;\n4. Setup the carriers based on priority\n&nbsp;\n  Create all Amazon labels  Switch Delhivery carrier to Amazon and try label creation, some may fail and some success.  Retry all failed labels with Amazon once again.  Remaining failed orders are then attempted with Delhivery.  If still failed, they retry with XpressBees.\n\n\n\n\n[Veena]",
-      "public": false,
-      "attachments": [],
-      "audit_id": 58043847395737,
-      "via": {
-        "channel": "web",
-        "source": {
-          "from": {},
-          "to": {},
-          "rel": null
+    "support_type": "agent",
+    "comments": [
+      {
+        "id": 58043847395993,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "_**EXISTING ISSUES THAT NEED CORRECTION**_\n_**\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501**_\n**1. Batch Creation Issues for Large Volumes**\n\n\n- When creating very large batches (example: 1000+ orders), **batch creation takes a long time**.\n- During this delay, the **system does not redirect automatically to the Label Batch page.** _(For smaller batches, the redirect works correctly. This issue is also captured in the __**video**_ _shared earlier)_\n- During batch creation, the app displays **\u201cError in Batch Creation\u201d message**, which is misleading. This confuses the customer even though the batch may still be processing successfully.\n\n\n**2. Failed Labels Appearing as Processing in Multiple Batches**\n\n\n**Part of their Workflow**\n\n- Suppose: Out of 100 orders, 2 labels fail.\n- Customer retries those failed orders with another carrier.\n\n\n**Issue:**\n\n- Those same orders continue to appear as \u201cProcessing\u201d in the original failed batch as well.\n- At the same time, they also appear in the new retry batch.\n- The retried carrier name also gets updated in the Original batch, leading to confusion.\n\nThere may also be printing-related inconsistencies connected to this behavior, as mentioned earlier by the Dev team.\n\n**3. Printing Mismatch / \u201cNot in Ship\u201d Case**\n\nObserved today:\n\n- Order #45279880 was not part of the Label Print\n- Deepak reviewed and informed that the **order was in \u201cNot in Ship\u201d status**\n- However, the **label was generated & Order was fulfille**d in Shopify for this order. That tracking ID is still valid : https://track.amazon.in/tracking/369348516162\n\n\nThis is the first time this particular case has been observed, and the root cause is currently unclear.\n\n**4. Setup the carriers based on priority**\n\n\n- Create all Amazon labels\n- Switch Delhivery carrier to Amazon and try label creation, some may fail and some success.\n- Retry all failed labels with Amazon once again.\n- Remaining failed orders are then attempted with Delhivery.\n- If still failed, they retry with XpressBees.\n\n\n\n\n[Veena]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><i><strong>EXISTING ISSUES THAT NEED CORRECTION</strong></i><br><i><strong>\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501</strong></i><br><strong>1. Batch Creation Issues for Large Volumes</strong><br>&nbsp;<br><ul dir=\"auto\"><li>When creating very large batches (example: 1000+ orders),<strong> batch creation takes a long time</strong>.</li><li>During this delay, the&nbsp;<strong>system does not redirect automatically to the Label Batch page.</strong>&nbsp;<i>(For smaller batches, the redirect works correctly. This issue is also captured in the&nbsp;</i><a rel=\"noopener noreferrer\" href=\"https://drive.google.com/file/d/1xijq4emSTHUCjVVKE4oOQBgjou9I8aK6/view\"><i><strong><u>video</u></strong></i></a><i> shared earlier)</i></li><li>During batch creation, the app displays&nbsp;<strong>\u201cError in Batch Creation\u201d message</strong>, which is misleading. This confuses the customer even though the batch may still be processing successfully.</li></ul>&nbsp;<br><strong>2. Failed Labels Appearing as Processing in Multiple Batches</strong><br><br>&nbsp;<br><strong>Part of their Workflow</strong><br><ul dir=\"auto\"><li>Suppose: Out of 100 orders, 2 labels fail.</li><li>Customer retries those failed orders with another carrier.</li></ul>&nbsp;<br><strong>Issue:</strong><br><ul dir=\"auto\"><li>Those same orders continue to appear as \u201cProcessing\u201d in the original failed batch as well.</li><li>At the same time, they also appear in the new retry batch.</li><li>The retried carrier name also gets updated in the Original batch, leading to confusion.</li></ul>There may also be printing-related inconsistencies connected to this behavior, as mentioned earlier by the Dev team.<br>&nbsp;<br><strong>3. Printing Mismatch / \u201cNot in Ship\u201d Case</strong><br><br>Observed today:<br><ul dir=\"auto\"><li>Order <a href=\"/agent/tickets/45279880\" target=\"_blank\" rel=\"ticket\">#45279880</a> was not part of the Label Print</li><li>Deepak reviewed and informed that the<strong> order was in \u201cNot in Ship\u201d status</strong></li><li>However, the<strong> label was generated &amp; Order was fulfille</strong>d in Shopify for this order. That tracking ID is still valid :&nbsp;<a rel=\"noopener noreferrer\" href=\"https://track.amazon.in/tracking/369348516162\"><u>https://track.amazon.in/tracking/369348516162</u></a>&nbsp;</li></ul>&nbsp;<br>This is the first time this particular case has been observed, and the root cause is currently unclear.<br>&nbsp;<br><strong>4. Setup the carriers based on priority</strong><br>&nbsp;<br><ul dir=\"auto\"><li>Create all Amazon labels</li><li>Switch Delhivery carrier to Amazon and try label creation, some may fail and some success.</li><li>Retry all failed labels with Amazon once again.</li><li>Remaining failed orders are then attempted with Delhivery.</li><li>If still failed, they retry with XpressBees.<br><br><br><br><br>[Veena]</li></ul></div>",
+        "plain_body": "EXISTING ISSUES THAT NEED CORRECTION\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n1. Batch Creation Issues for Large Volumes\n&nbsp;\n  When creating very large batches (example: 1000+ orders), batch creation takes a long time.  During this delay, the&nbsp;system does not redirect automatically to the Label Batch page.&nbsp;(For smaller batches, the redirect works correctly. This issue is also captured in the&nbsp;video shared earlier)  During batch creation, the app displays&nbsp;\u201cError in Batch Creation\u201d message, which is misleading. This confuses the customer even though the batch may still be processing successfully.  &nbsp;\n2. Failed Labels Appearing as Processing in Multiple Batches\n\n&nbsp;\nPart of their Workflow\n  Suppose: Out of 100 orders, 2 labels fail.  Customer retries those failed orders with another carrier.  &nbsp;\nIssue:\n  Those same orders continue to appear as \u201cProcessing\u201d in the original failed batch as well.  At the same time, they also appear in the new retry batch.  The retried carrier name also gets updated in the Original batch, leading to confusion.  There may also be printing-related inconsistencies connected to this behavior, as mentioned earlier by the Dev team.\n&nbsp;\n3. Printing Mismatch / \u201cNot in Ship\u201d Case\n\nObserved today:\n  Order #45279880 was not part of the Label Print  Deepak reviewed and informed that the order was in \u201cNot in Ship\u201d status  However, the label was generated &amp; Order was fulfilled in Shopify for this order. That tracking ID is still valid :&nbsp;https://track.amazon.in/tracking/369348516162&nbsp;  &nbsp;\nThis is the first time this particular case has been observed, and the root cause is currently unclear.\n&nbsp;\n4. Setup the carriers based on priority\n&nbsp;\n  Create all Amazon labels  Switch Delhivery carrier to Amazon and try label creation, some may fail and some success.  Retry all failed labels with Amazon once again.  Remaining failed orders are then attempted with Delhivery.  If still failed, they retry with XpressBees.\n\n\n\n\n[Veena]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58043847395737,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-05-18T09:22:18Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/createTicket JavaStarter/4.67.0",
+            "ip_address": "127.0.0.6",
+            "location": "India",
+            "latitude": 21.9974,
+            "longitude": 79.0011
+          },
+          "custom": {}
         }
       },
-      "created_at": "2026-05-18T09:22:18Z",
-      "metadata": {
-        "system": {
-          "client": "Agent-Graph/latest TicketsMutationService/createTicket JavaStarter/4.67.0",
-          "ip_address": "127.0.0.6",
-          "location": "India",
-          "latitude": 21.9974,
-          "longitude": 79.0011
+      {
+        "id": 58156453480985,
+        "type": "Comment",
+        "author_id": 388269142331,
+        "body": "L3: LOI - **URGENT** : There seems to be an issue related to order imports.\n\nHere's a video I recorded this morning showing the steps I followed for processing 20th May (yesterday\u2019s) orders. Please take a look.\nhttps://drive.google.com/file/d/1nPWmWLR3SR4OqOTHKP1jXX9mVMZ2o7U6/view?usp=drive_link\n\nBest example, Order #**45283422** was placed **20 May 2026 at 5:27am,** so ideally, it should have been part of the Orders I processed this morning but it was not.\n\n*****************************\n**Case Summary:**\n**Video reference -** **https://pluginhive.slack.com/files/UBWCCCA2Z/F0B57P2Q1QV/screen_recording_2026-05-21_at_5.18.31_pm.mov**\n\n\u2022 In the Open View \u2192 Processing status (1st May - 20th May), around 115 orders are currently visible. Out of these, around 114 orders are from 11th May\u201320th May.\n\n\u2022 However, since 11th May, we have been continuously processing all open orders (I was present on all the calls), so ideally there should not be any pending orders from these dates.\n\n\u2022 This morning, I processed all orders placed on 20th May from my end, and there were no orders in Processing status at that time. However, if we check now, 3 orders are showing up. _(**NOTE**: No action was performed on those orders in Shopify. Refer Shopify order timeline for order #45283422)_\n\n\u2022 These newly appearing orders seem to be regular orders with no cancellation/hold conditions, which makes it seem like there may be a delay or inconsistency in order importing.\n\u2022 Similar behavior is being noticed across other dates as well.\n\n**Additional context:**\n\u2022 From 16th May until around Monday, some orders containing SKU \"DCG-C-1000\" were temporarily moved to \u201cNot to Ship\u201d due to stock unavailability.\n\u2022 Those orders were later marked for shipping and fulfilled this week.\n\u2022 Also, some of the newly appearing orders in Processing status are unrelated to this SKU as well.\n\n**Another observation:**\n\u2022 In the Not to Ship View, two orders placed on May 15 and May 19 are still appearing even though they should have already been moved out of the view.\n\u2022 The order count in this view also seems inconsistent and keeps changing intermittently.\n\nCould you please check this on priority and verify if there is any issue with delayed order importing and ensure all unfulfilled are imported into the app?",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: LOI - <strong>URGENT</strong> : There seems to be an issue related to order imports.<br>&nbsp;<br>Here's a video I recorded this morning showing the steps I followed for processing 20th May (yesterday\u2019s) orders. Please take a look.<br><a rel=\"noopener noreferrer\" href=\"https://drive.google.com/file/d/1nPWmWLR3SR4OqOTHKP1jXX9mVMZ2o7U6/view?usp=drive_link\">https://drive.google.com/file/d/1nPWmWLR3SR4OqOTHKP1jXX9mVMZ2o7U6/view?usp=drive_link</a><br>&nbsp;<br>Best example, Order #<strong>45283422</strong> was placed <strong>20 May 2026 at 5:27am, </strong>so ideally, it should have been part of the Orders I processed this morning but it was not.<br>&nbsp;<br>*****************************<br><strong>Case Summary:</strong><br><strong>Video reference - </strong><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/files/UBWCCCA2Z/F0B57P2Q1QV/screen_recording_2026-05-21_at_5.18.31_pm.mov\"><strong>https://pluginhive.slack.com/files/UBWCCCA2Z/F0B57P2Q1QV/screen_recording_2026-05-21_at_5.18.31_pm.mov</strong></a><br>&nbsp;<br>\u2022 In the Open View \u2192 Processing status (1st May - 20th May), around 115 orders are currently visible. Out of these, around 114 orders are from 11th May\u201320th May.<br>&nbsp;<br>\u2022 However, since 11th May, we have been continuously processing all open orders (I was present on all the calls), so ideally there should not be any pending orders from these dates.<br>&nbsp;<br>\u2022 This morning, I processed all orders placed on 20th May from my end, and there were no orders in Processing status at that time. However, if we check now, 3 orders are showing up. <i>(<strong>NOTE</strong>: No action was performed on those orders in Shopify. Refer Shopify order timeline for order <a href=\"/agent/tickets/45283422\" target=\"_blank\" rel=\"ticket\">#45283422</a>)</i><br>&nbsp;<br>\u2022 These newly appearing orders seem to be regular orders with no cancellation/hold conditions, which makes it seem like there may be a delay or inconsistency in order importing.<br>\u2022 Similar behavior is being noticed across other dates as well.<br>&nbsp;<br><strong>Additional context:</strong><br>\u2022 From 16th May until around Monday, some orders containing SKU \"DCG-C-1000\" were temporarily moved to \u201cNot to Ship\u201d due to stock unavailability.<br>\u2022 Those orders were later marked for shipping and fulfilled this week.<br>\u2022 Also, some of the newly appearing orders in Processing status are unrelated to this SKU as well.<br>&nbsp;<br><strong>Another observation:</strong><br>\u2022 In the Not to Ship View, two orders placed on May 15 and May 19 are still appearing even though they should have already been moved out of the view.<br>\u2022 The order count in this view also seems inconsistent and keeps changing intermittently.<br>&nbsp;<br>Could you please check this on priority and verify if there is any issue with delayed order importing and ensure all unfulfilled are imported into the app?<br></div>",
+        "plain_body": "L3: LOI - URGENT : There seems to be an issue related to order imports.\n&nbsp;\nHere's a video I recorded this morning showing the steps I followed for processing 20th May (yesterday\u2019s) orders. Please take a look.\nhttps://drive.google.com/file/d/1nPWmWLR3SR4OqOTHKP1jXX9mVMZ2o7U6/view?usp=drive_link\n&nbsp;\nBest example, Order #45283422 was placed 20 May 2026 at 5:27am, so ideally, it should have been part of the Orders I processed this morning but it was not.\n&nbsp;\n*****************************\nCase Summary:\nVideo reference - https://pluginhive.slack.com/files/UBWCCCA2Z/F0B57P2Q1QV/screen_recording_2026-05-21_at_5.18.31_pm.mov\n&nbsp;\n\u2022 In the Open View \u2192 Processing status (1st May - 20th May), around 115 orders are currently visible. Out of these, around 114 orders are from 11th May\u201320th May.\n&nbsp;\n\u2022 However, since 11th May, we have been continuously processing all open orders (I was present on all the calls), so ideally there should not be any pending orders from these dates.\n&nbsp;\n\u2022 This morning, I processed all orders placed on 20th May from my end, and there were no orders in Processing status at that time. However, if we check now, 3 orders are showing up. (NOTE: No action was performed on those orders in Shopify. Refer Shopify order timeline for order #45283422)\n&nbsp;\n\u2022 These newly appearing orders seem to be regular orders with no cancellation/hold conditions, which makes it seem like there may be a delay or inconsistency in order importing.\n\u2022 Similar behavior is being noticed across other dates as well.\n&nbsp;\nAdditional context:\n\u2022 From 16th May until around Monday, some orders containing SKU \"DCG-C-1000\" were temporarily moved to \u201cNot to Ship\u201d due to stock unavailability.\n\u2022 Those orders were later marked for shipping and fulfilled this week.\n\u2022 Also, some of the newly appearing orders in Processing status are unrelated to this SKU as well.\n&nbsp;\nAnother observation:\n\u2022 In the Not to Ship View, two orders placed on May 15 and May 19 are still appearing even though they should have already been moved out of the view.\n\u2022 The order count in this view also seems inconsistent and keeps changing intermittently.\n&nbsp;\nCould you please check this on priority and verify if there is any issue with delayed order importing and ensure all unfulfilled are imported into the app?",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58156453480857,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
         },
-        "custom": {}
+        "created_at": "2026-05-21T13:00:39Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58264813544345,
+        "type": "Comment",
+        "author_id": 388269142331,
+        "body": "L3: LOI Open Issues\n- **Duplicate Packages / Labels Created**\nFor orders that originally had only 1 package, the app randomly created 2 packages and 2 labels during label generation.\nThis issue was observed both in:\n  - Large batches (100+ labels)\n  - Small batches (as low as 3 labels)\n\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1779381468624649?thread_ts=1777737532.661549&cid=C02E15X8X0C\n\n ![](https://pluginhive.zendesk.com/attachments/token/gHO9wbLlUH7WGujv5wRbFG1Us/?name=Screenshot+2026-05-25+at+3.26.07+PM.png)\n\n- **Archived Orders Imported as Processing Orders**\nOrders that are archived in Shopify should not appear under the **Processing** status in the app.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: LOI Open Issues<br><ul dir=\"auto\"><li><strong>Duplicate Packages / Labels Created</strong><br>For orders that originally had only 1 package, the app randomly created 2 packages and 2 labels during label generation.<br>This issue was observed both in:<ul dir=\"auto\"><li>Large batches (100+ labels)</li><li>Small batches (as low as 3 labels)<br><br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1779381468624649?thread_ts=1777737532.661549&amp;cid=C02E15X8X0C\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1779381468624649?thread_ts=1777737532.661549&amp;cid=C02E15X8X0C</a><br><br><span style=\"opacity: 1;\"><img style=\" width: 299px;\" src=\"https://pluginhive.zendesk.com/attachments/token/gHO9wbLlUH7WGujv5wRbFG1Us/?name=Screenshot+2026-05-25+at+3.26.07+PM.png\"></span></li></ul></li><li><strong>Archived Orders Imported as Processing Orders</strong><br>Orders that are archived in Shopify should not appear under the <strong>Processing</strong> status in the app.</li></ul></div>",
+        "plain_body": "L3: LOI Open Issues\n  Duplicate Packages / Labels Created\nFor orders that originally had only 1 package, the app randomly created 2 packages and 2 labels during label generation.\nThis issue was observed both in:  Large batches (100+ labels)  Small batches (as low as 3 labels)\n\nhttps://pluginhive.slack.com/archives/C02E15X8X0C/p1779381468624649?thread_ts=1777737532.661549&amp;cid=C02E15X8X0C\n\n    Archived Orders Imported as Processing Orders\nOrders that are archived in Shopify should not appear under the Processing status in the app.",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58264782820505,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-05-25T09:59:41Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58346274695577,
+        "type": "Comment",
+        "author_id": 388269142331,
+        "body": "L3:\n- **Fulfilled orders in \"Not to Ship\" view.** Please check and clear them from this view.\n\n1st May to 25th May and **there are around 14 orders between 26th to 27th, please check that also.**\n#45282561\n#45286583\n\n\n- Another update related to two of the previous cases:\n\n**1. Label Failed Orders Tags** : As informed in the Slack channel, customer agreed to proceed with the approach where the app adds tags to Shopify orders when label creation fails with all 3 carriers.\nhttps://pluginhive.slack.com/archives/C0AREH9HNFQ/p1779702948048259?thread_ts=1778607509.470829&cid=C0AREH9HNFQ\n\n**2. Archived Orders Imported as Processing Orders**\nThis needs further investigation from the tech team. We observed that some archived orders are already fulfilled.\n\n- Orders with `Order Status = Archived` and `Payment Status = Voided` probably should not be imported.\n- However, if the order is paid, then label creation should still happen even if the order is archived. Let us know if you need any order reference to these cases in Shopify.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3:&nbsp;<br><ul dir=\"auto\"><li><strong>Fulfilled orders in \"Not to Ship\" view. </strong>Please check and clear them from this view.</li></ul>1st May to 25th May and <strong>there are around 14 orders between 26th to 27th, please check that also.</strong><br><a rel=\"noopener noreferrer\" href=\"https://mcsl-s.pluginhive.io/home/views/orders/summary/3b4d245c-e975-4ba3-a280-8d93ae223b50/c558b3f6-ec14-404c-b130-2db160768f57/new\">#45282561</a><br><a rel=\"noopener noreferrer\" href=\"https://mcsl-s.pluginhive.io/home/views/orders/summary/c13611ba-0943-4c18-a6b7-01f3e836a742/c558b3f6-ec14-404c-b130-2db160768f57/new\">#45286583</a><br>&nbsp;<br><ul dir=\"auto\"><li><p dir=\"auto\">Another update related to two of the previous cases:<br><br><strong>1. Label Failed Orders Tags </strong>: As informed in the Slack channel, customer agreed to proceed with the approach where the app adds tags to Shopify orders when label creation fails with all 3 carriers.<br><a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C0AREH9HNFQ/p1779702948048259?thread_ts=1778607509.470829&amp;cid=C0AREH9HNFQ\">https://pluginhive.slack.com/archives/C0AREH9HNFQ/p1779702948048259?thread_ts=1778607509.470829&amp;cid=C0AREH9HNFQ</a><br><br><strong>2. Archived Orders Imported as Processing Orders</strong><br>This needs further investigation from the tech team. We observed that some archived orders are already fulfilled.</p><p dir=\"auto\">Based on my observation:</p></li><li>Orders with <code>Order Status = Archived</code> and <code>Payment Status = Voided</code> probably should not be imported.</li><li>However, if the order is paid, then label creation should still happen even if the order is archived. Let us know if you need any order reference to these cases in Shopify.<br>&nbsp;</li></ul>&nbsp;<br>&nbsp;<br></div>",
+        "plain_body": "L3:&nbsp;\n  Fulfilled orders in \"Not to Ship\" view. Please check and clear them from this view.  1st May to 25th May and there are around 14 orders between 26th to 27th, please check that also.\n#45282561\n#45286583\n&nbsp;\n   Another update related to two of the previous cases:\n\n1. Label Failed Orders Tags : As informed in the Slack channel, customer agreed to proceed with the approach where the app adds tags to Shopify orders when label creation fails with all 3 carriers.\nhttps://pluginhive.slack.com/archives/C0AREH9HNFQ/p1779702948048259?thread_ts=1778607509.470829&amp;cid=C0AREH9HNFQ\n\n2. Archived Orders Imported as Processing Orders\nThis needs further investigation from the tech team. We observed that some archived orders are already fulfilled.  Based on my observation:   Orders with Order Status = Archived and Payment Status = Voided probably should not be imported.  However, if the order is paid, then label creation should still happen even if the order is archived. Let us know if you need any order reference to these cases in Shopify.\n&nbsp;  &nbsp;\n&nbsp;",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58346274695449,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-05-27T11:13:01Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58387803260441,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "1. Leading and trailing spaces in Filter is not giving expected result -> Handled.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><ol dir=\"auto\"><li><p dir=\"auto\">Leading and trailing spaces in Filter is not giving expected result -&gt; Handled.</p><p dir=\"auto\">[Veena]</p></li></ol></div>",
+        "plain_body": "Leading and trailing spaces in Filter is not giving expected result -&gt; Handled.  [Veena]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58387818566681,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-05-28T11:11:31Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.67.0",
+            "ip_address": "127.0.0.6",
+            "location": "India",
+            "latitude": 21.9974,
+            "longitude": 79.0011
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58917699156377,
+        "type": "Comment",
+        "author_id": 388269142331,
+        "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781258431807349\n\nNew Case: Issue with fulfillments\n\n**Order #45296293:** Label was created and a fulfillment attempt was made on June 10. However, the fulfillment failed with the error: **\"Order is already fulfilled.\"**\nHowever, when I checked the Shopify order timeline, the order was never fulfilled neither by them nor our app. I am not sure what is happening here.\n\nCould you please check this on priority? @Vimal FYI\n\n**NOTE:** They escalated this case stating that they had to refund this order because it was not fulfilled by our app but the product is already shipped, causing losses.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1781258431807349\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1781258431807349</a><br>&nbsp;<br>New Case: Issue with fulfillments<br>&nbsp;<br><strong>Order <a href=\"/agent/tickets/45296293\" target=\"_blank\" rel=\"ticket\">#45296293</a>: </strong>Label was created and a fulfillment attempt was made on June 10. However, the fulfillment failed with the error: <strong>\"Order is already fulfilled.\"</strong><br>However, when I checked the Shopify order timeline, the order was never fulfilled neither by them nor our app. I am not sure what is happening here.<br>&nbsp;<br>Could you please check this on priority? <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/team/U01KM3TRLRK\">@Vimal</a> FYI<br>&nbsp;<br><strong>NOTE:</strong> They escalated this case stating that they had to refund this order because it was not fulfilled by our app but the product is already shipped, causing losses.<br></div>",
+        "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781258431807349\n&nbsp;\nNew Case: Issue with fulfillments\n&nbsp;\nOrder #45296293: Label was created and a fulfillment attempt was made on June 10. However, the fulfillment failed with the error: \"Order is already fulfilled.\"\nHowever, when I checked the Shopify order timeline, the order was never fulfilled neither by them nor our app. I am not sure what is happening here.\n&nbsp;\nCould you please check this on priority? @Vimal FYI\n&nbsp;\nNOTE: They escalated this case stating that they had to refund this order because it was not fulfilled by our app but the product is already shipped, causing losses.",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58917699156249,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T10:37:26Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58918816628377,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "the fulfilment was attempted at `2026-06-11T15:52:17.140+0000` which is   `11/06/2026, 21:22:17 pm IST`  by that time the  order was already refunded. Since there was nothing to fullfill the app assumed that the order was already fulfilled.\n\nAlso the label was generated at `2026-06-11T04:42:44.303+0000` which is `10:12:17 IST`",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">the fulfilment was attempted at <code>2026-06-11T15:52:17.140+0000</code> which is&nbsp;&nbsp; <code>11/06/2026, 21:22:17 pm IST</code>&nbsp; by that time the&nbsp; order was already refunded. Since there was nothing to fullfill the app assumed that the order was already fulfilled.<br>&nbsp;<br>Also the label was generated at <code>2026-06-11T04:42:44.303+0000</code> which is <code>10:12:17 IST</code><br></div>",
+        "plain_body": "the fulfilment was attempted at 2026-06-11T15:52:17.140+0000 which is&nbsp;&nbsp; 11/06/2026, 21:22:17 pm IST&nbsp; by that time the&nbsp; order was already refunded. Since there was nothing to fullfill the app assumed that the order was already fulfilled.\n&nbsp;\nAlso the label was generated at 2026-06-11T04:42:44.303+0000 which is 10:12:17 IST",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58918816628249,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-12T11:17:20Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 58946604225305,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "1. Print Mismatch case handled.\n2. Fulfilled orders in Not To Ship view handled.\n3. Large batch giving Error in batch Creation fixed.\n\nNone of the above features are active and toggles are not enabled yet.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><ol dir=\"auto\"><li>Print Mismatch case handled. </li><li>Fulfilled orders in Not To Ship view handled.</li><li>Large batch giving Error in batch Creation fixed.<br><br>None of the above features are active and toggles are not enabled yet.&nbsp;<br>&nbsp;</li></ol></div>",
+        "plain_body": "Print Mismatch case handled.   Fulfilled orders in Not To Ship view handled.  Large batch giving Error in batch Creation fixed.\n\nNone of the above features are active and toggles are not enabled yet.&nbsp;\n&nbsp;",
+        "public": false,
+        "attachments": [],
+        "audit_id": 58946604225177,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-13T05:34:24Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Mysuru, KA, India",
+            "latitude": 12.2989,
+            "longitude": 76.6394
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59091975047833,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "1. **Print Mismatch: **\nThe cases were few of the labels from batch were not part print document is handled. This is the technical change. All the labels in the batch should be included in the document.\n2. **Fulfilled orders in Not To Ship view:**\nThe cases where fulfilled orders were displayed under Not To Ship view is handled. This is a technical change. The orders will be displayed in the appropriate view going forward.\n3. **Large batch giving Error in batch Creation fixed: **\nIntermittent create batch failed error was being displayed while creating batches -> handled. This is a technical change. Batches should be created without any problem.\n\n[Veena]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><ol dir=\"auto\"><li><strong>Print Mismatch:&nbsp;</strong><br>The cases were few of the labels from batch were not part print document is handled. This is the technical change. All the labels in the batch should be included in the document.</li><li><strong>Fulfilled orders in Not To Ship view:</strong><br>The cases where fulfilled orders were displayed under Not To Ship view is handled. This is a technical change. The orders will be displayed in the appropriate view going forward.</li><li><strong>Large batch giving Error in batch Creation fixed:&nbsp;</strong><br>Intermittent create batch failed error was being displayed while creating batches -&gt; handled. This is a technical change. Batches should be created without any problem.</li></ol>[Veena]<br></div>",
+        "plain_body": "Print Mismatch:&nbsp;\nThe cases were few of the labels from batch were not part print document is handled. This is the technical change. All the labels in the batch should be included in the document.  Fulfilled orders in Not To Ship view:\nThe cases where fulfilled orders were displayed under Not To Ship view is handled. This is a technical change. The orders will be displayed in the appropriate view going forward.  Large batch giving Error in batch Creation fixed:&nbsp;\nIntermittent create batch failed error was being displayed while creating batches -&gt; handled. This is a technical change. Batches should be created without any problem.  [Veena]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59091975047705,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-17T10:26:43Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59130193170585,
+        "type": "Comment",
+        "author_id": 388269142331,
+        "body": "**Devteam** According to the Support Guide, \u201cNot To Ship\u201d does not appear to be fixed (or at least that\u2019s my understanding based on the documentation shared in the image below).\n\nFixed ones are shared below.\n\n1. **Error in Batch Creation**\n2. **Print Mismatch.**\n3. **Assigning Tag to a Batch**\n\n\n**Back to L3:**\nHowever, the Tag assigning logic appears to be incorrect. A batch can contain both Label Success and Label Failed orders.\nThe original requirement was to assign a tag for orders that require cancellation in Shopify, mainly for cases where label creation fails across all three carriers. As of now, this implementation does not fully align with the customer's requirement.\n\n ![](https://pluginhive.zendesk.com/attachments/token/mTtuHHN1iWZ0vbxqR2WQDxDV7/?name=Screenshot+2026-06-18+at+5.04.04+PM.png)",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><a href=\"/users/8448825445657\" class=\"atmention\">Devteam</a> According to the Support Guide, \u201cNot To Ship\u201d does not appear to be fixed (or at least that\u2019s my understanding based on the documentation shared in the image below).<br>&nbsp;<br>Fixed ones are shared below.<br><ol dir=\"auto\"><li><strong>Error in Batch Creation</strong></li><li><strong>Print Mismatch.</strong></li><li><strong>Assigning Tag to a Batch</strong></li></ol>&nbsp;<br><strong>Back to L3:</strong><br>However, the Tag assigning logic appears to be incorrect. A batch can contain both Label Success and Label Failed orders.<br>The original requirement was to assign a tag for orders that require cancellation in Shopify, mainly for cases where label creation fails across all three carriers. As of now, this implementation does not fully align with the customer's requirement.<br>&nbsp;<br><img style=\" width: 618px;\" src=\"https://pluginhive.zendesk.com/attachments/token/mTtuHHN1iWZ0vbxqR2WQDxDV7/?name=Screenshot+2026-06-18+at+5.04.04+PM.png\"><br><br>&nbsp;<br></div>",
+        "plain_body": "Devteam According to the Support Guide, \u201cNot To Ship\u201d does not appear to be fixed (or at least that\u2019s my understanding based on the documentation shared in the image below).\n&nbsp;\nFixed ones are shared below.\n  Error in Batch Creation  Print Mismatch.  Assigning Tag to a Batch  &nbsp;\nBack to L3:\nHowever, the Tag assigning logic appears to be incorrect. A batch can contain both Label Success and Label Failed orders.\nThe original requirement was to assign a tag for orders that require cancellation in Shopify, mainly for cases where label creation fails across all three carriers. As of now, this implementation does not fully align with the customer's requirement.\n&nbsp;\n\n\n&nbsp;",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59130193170457,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-18T11:39:29Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59289893833753,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "Pending cases:\n1. Fulfilled orders in Not To Ship view.\n2. Batch Creation Issues for Large Volumes\n3. Archived Orders Imported as Processing Orders\n4. Duplicate Packages / Labels Created",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Pending cases:&nbsp;<br><ol dir=\"auto\"><li>Fulfilled orders in Not To Ship view.</li><li>Batch Creation Issues for Large Volumes</li><li>Archived Orders Imported as Processing Orders</li><li><p dir=\"auto\">Duplicate Packages / Labels Created<br>&nbsp;</p><p dir=\"auto\">[Veena]</p></li></ol></div>",
+        "plain_body": "Pending cases:&nbsp;\n  Fulfilled orders in Not To Ship view.  Batch Creation Issues for Large Volumes  Archived Orders Imported as Processing Orders   Duplicate Packages / Labels Created\n&nbsp;  [Veena]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59289893833625,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T09:09:01Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59535169728281,
+        "type": "Comment",
+        "author_id": 388269142331,
+        "body": "L3: 5. As discussed, the app is currently updating the status of **\"Label Created\"** orders to **Cancelled** whenever the corresponding order is cancelled in Shopify, even though a shipping label has already been created. This is incorrect.\n\n**Expected behavior:**\nOnce a shipping label has been created, the app should not update the order status to **Cancelled**, even if the corresponding Shopify order is later cancelled. The order should retain its post-label status (for example, **Label Created**).",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: 5. As discussed, the app is currently updating the status of <strong>\"Label Created\"</strong> orders to <strong>Cancelled</strong> whenever the corresponding order is cancelled in Shopify, even though a shipping label has already been created. This is incorrect.<br>&nbsp;<br><strong>Expected behavior:</strong><br>Once a shipping label has been created, the app should not update the order status to <strong>Cancelled</strong>, even if the corresponding Shopify order is later cancelled. The order should retain its post-label status (for example, <strong>Label Created</strong>).<br></div>",
+        "plain_body": "L3: 5. As discussed, the app is currently updating the status of \"Label Created\" orders to Cancelled whenever the corresponding order is cancelled in Shopify, even though a shipping label has already been created. This is incorrect.\n&nbsp;\nExpected behavior:\nOnce a shipping label has been created, the app should not update the order status to Cancelled, even if the corresponding Shopify order is later cancelled. The order should retain its post-label status (for example, Label Created).",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59535169728153,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-30T12:23:22Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59537849860121,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "Request #385274 \"LoveofIndia\" was closed and merged into this request. Last comment in request #385274:",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Request <a href=\"/agent/tickets/385274\" target=\"_blank\" rel=\"ticket\">#385274</a> \"LoveofIndia\" was closed and merged into this request. Last comment in request <a href=\"/agent/tickets/385274\" target=\"_blank\" rel=\"ticket\">#385274</a>:</p></div>",
+        "plain_body": "Request #385274 \"LoveofIndia\" was closed and merged into this request. Last comment in request #385274:",
+        "public": false,
+        "attachments": [
+          {
+            "url": "https://pluginhive.zendesk.com/api/v2/attachments/59537849882905.json",
+            "id": 59537849882905,
+            "file_name": "Screenshot at Apr 22 12-26-09.png",
+            "content_url": "https://pluginhive.zendesk.com/attachments/token/t6SvH9uX7PSXN9VPcSc0ziH9b/?name=Screenshot+at+Apr+22+12-26-09.png",
+            "mapped_content_url": "https://support.pluginhive.com/attachments/token/t6SvH9uX7PSXN9VPcSc0ziH9b/?name=Screenshot+at+Apr+22+12-26-09.png",
+            "content_type": "image/png",
+            "size": 663814,
+            "width": 2874,
+            "height": 1510,
+            "inline": false,
+            "deleted": false,
+            "malware_access_override": false,
+            "malware_scan_result": "malware_not_found",
+            "thumbnails": [
+              {
+                "url": "https://pluginhive.zendesk.com/api/v2/attachments/59537833779481.json",
+                "id": 59537833779481,
+                "file_name": "Screenshot_at_Apr_22_12-26-09_thumb.png",
+                "content_url": "https://pluginhive.zendesk.com/attachments/token/6Am8NgJojFCuX2cmklC6ePSP2/?name=Screenshot_at_Apr_22_12-26-09_thumb.png",
+                "mapped_content_url": "https://support.pluginhive.com/attachments/token/6Am8NgJojFCuX2cmklC6ePSP2/?name=Screenshot_at_Apr_22_12-26-09_thumb.png",
+                "content_type": "image/png",
+                "size": 14232,
+                "width": 80,
+                "height": 42,
+                "inline": false,
+                "deleted": false,
+                "malware_access_override": false,
+                "malware_scan_result": "malware_not_found"
+              }
+            ]
+          },
+          {
+            "url": "https://pluginhive.zendesk.com/api/v2/attachments/59537850062873.json",
+            "id": 59537850062873,
+            "file_name": "Screen Recording 2026-04-22 at 8.20.01\u202fPM.mov",
+            "content_url": "https://pluginhive.zendesk.com/attachments/token/EAkbEZE05PR6vGPuFO1S0hFhX/?name=Screen+Recording+2026-04-22+at+8.20.01%E2%80%AFPM.mov",
+            "mapped_content_url": "https://support.pluginhive.com/attachments/token/EAkbEZE05PR6vGPuFO1S0hFhX/?name=Screen+Recording+2026-04-22+at+8.20.01%E2%80%AFPM.mov",
+            "content_type": "video/quicktime",
+            "size": 38600861,
+            "width": null,
+            "height": null,
+            "inline": false,
+            "deleted": false,
+            "malware_access_override": false,
+            "malware_scan_result": "malware_not_found",
+            "thumbnails": []
+          },
+          {
+            "url": "https://pluginhive.zendesk.com/api/v2/attachments/59537834005401.json",
+            "id": 59537834005401,
+            "file_name": "Screen Recording 2026-04-23 at 7.09.54\u202fPM.mov",
+            "content_url": "https://pluginhive.zendesk.com/attachments/token/SSstWG98SxykL5KAQvdwKNL9j/?name=Screen+Recording+2026-04-23+at+7.09.54%E2%80%AFPM.mov",
+            "mapped_content_url": "https://support.pluginhive.com/attachments/token/SSstWG98SxykL5KAQvdwKNL9j/?name=Screen+Recording+2026-04-23+at+7.09.54%E2%80%AFPM.mov",
+            "content_type": "video/quicktime",
+            "size": 16111439,
+            "width": null,
+            "height": null,
+            "inline": false,
+            "deleted": false,
+            "malware_access_override": false,
+            "malware_scan_result": "malware_not_found",
+            "thumbnails": []
+          },
+          {
+            "url": "https://pluginhive.zendesk.com/api/v2/attachments/59537834191769.json",
+            "id": 59537834191769,
+            "file_name": "Screen Recording 2026-04-29 at 12.14.18\u202fPM.mov",
+            "content_url": "https://pluginhive.zendesk.com/attachments/token/41TCLARuPvse9wVOWuhTUN3l5/?name=Screen+Recording+2026-04-29+at+12.14.18%E2%80%AFPM.mov",
+            "mapped_content_url": "https://support.pluginhive.com/attachments/token/41TCLARuPvse9wVOWuhTUN3l5/?name=Screen+Recording+2026-04-29+at+12.14.18%E2%80%AFPM.mov",
+            "content_type": "video/quicktime",
+            "size": 39695440,
+            "width": null,
+            "height": null,
+            "inline": false,
+            "deleted": false,
+            "malware_access_override": false,
+            "malware_scan_result": "malware_not_found",
+            "thumbnails": []
+          },
+          {
+            "url": "https://pluginhive.zendesk.com/api/v2/attachments/59537834415001.json",
+            "id": 59537834415001,
+            "file_name": "Screen Recording 2026-04-29 at 4.47.18\u202fPM.mov",
+            "content_url": "https://pluginhive.zendesk.com/attachments/token/KsczdMsHFGdy1Gap19h1RbKwq/?name=Screen+Recording+2026-04-29+at+4.47.18%E2%80%AFPM.mov",
+            "mapped_content_url": "https://support.pluginhive.com/attachments/token/KsczdMsHFGdy1Gap19h1RbKwq/?name=Screen+Recording+2026-04-29+at+4.47.18%E2%80%AFPM.mov",
+            "content_type": "video/quicktime",
+            "size": 43138569,
+            "width": null,
+            "height": null,
+            "inline": false,
+            "deleted": false,
+            "malware_access_override": false,
+            "malware_scan_result": "malware_not_found",
+            "thumbnails": []
+          },
+          {
+            "url": "https://pluginhive.zendesk.com/api/v2/attachments/59537834469657.json",
+            "id": 59537834469657,
+            "file_name": "Screen Recording 2026-05-04 at 5.39.47 PM.mov",
+            "content_url": "https://pluginhive.zendesk.com/attachments/token/ITFSLBnjL8z79KhvbntLZIUEm/?name=Screen+Recording+2026-05-04+at+5.39.47+PM.mov",
+            "mapped_content_url": "https://support.pluginhive.com/attachments/token/ITFSLBnjL8z79KhvbntLZIUEm/?name=Screen+Recording+2026-05-04+at+5.39.47+PM.mov",
+            "content_type": "video/quicktime",
+            "size": 13218104,
+            "width": null,
+            "height": null,
+            "inline": false,
+            "deleted": false,
+            "malware_access_override": false,
+            "malware_scan_result": "malware_not_found",
+            "thumbnails": []
+          },
+          {
+            "url": "https://pluginhive.zendesk.com/api/v2/attachments/59537850638489.json",
+            "id": 59537850638489,
+            "file_name": "Screen Recording 2026-05-05 at 7.18.08\u202fPM.mov",
+            "content_url": "https://pluginhive.zendesk.com/attachments/token/CntYMslEOGg7Gtj14UKahPGtB/?name=Screen+Recording+2026-05-05+at+7.18.08%E2%80%AFPM.mov",
+            "mapped_content_url": "https://support.pluginhive.com/attachments/token/CntYMslEOGg7Gtj14UKahPGtB/?name=Screen+Recording+2026-05-05+at+7.18.08%E2%80%AFPM.mov",
+            "content_type": "video/quicktime",
+            "size": 22424791,
+            "width": null,
+            "height": null,
+            "inline": false,
+            "deleted": false,
+            "malware_access_override": false,
+            "malware_scan_result": "malware_not_found",
+            "thumbnails": []
+          }
+        ],
+        "audit_id": 59537849859993,
+        "via": {
+          "channel": "system",
+          "source": {
+            "to": {},
+            "from": {
+              "ticket_id": null,
+              "subject": null,
+              "ticket_ids": [
+                385274
+              ]
+            },
+            "rel": "merge"
+          }
+        },
+        "created_at": "2026-06-30T14:26:25Z",
+        "metadata": {
+          "system": {
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59566169729433,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "Case 1: Cancelled status should not update when the order is in Label Created state -> Will be fixed in 384.\nCase 2: Billing address postal code is checked against shipping zone postal code instead of Shipping address -> We are not able to replicate this, Would need an processing order to check this further.\n\n[Veena]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Case 1: Cancelled status should not update when the order is in Label Created state -&gt; Will be fixed in 384.<br>Case 2: Billing address postal code is checked against shipping zone postal code instead of Shipping address -&gt; We are not able to replicate this, Would need an processing order to check this further.<br>&nbsp;<br>[Veena]<br></div>",
+        "plain_body": "Case 1: Cancelled status should not update when the order is in Label Created state -&gt; Will be fixed in 384.\nCase 2: Billing address postal code is checked against shipping zone postal code instead of Shipping address -&gt; We are not able to replicate this, Would need an processing order to check this further.\n&nbsp;\n[Veena]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59566169729305,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-07-01T08:48:52Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59568009421209,
+        "type": "Comment",
+        "author_id": 388269142331,
+        "body": "Back to L3 for Case 2 -  **Shipping Zone \u2013 Postcode Based **\nOrder **#45307249 -** _**HERE THE MAIN QUESTION IS WHY AMAZON IS NOT ASSIGNED FOR THIS ORDER?**_\n********************************\nIt looks like the app is checking the **postcode condition using the Billing Address instead of the Shipping Address.**\n**Example:** Order **#45307249 - MAIN QUESTION IS WHY AMAZON IS NOT ASSIGNED FOR THIS ORDER?**\n- **Shipping Address Postcode:** 452005\n- **Billing Address Postcode:** 411015\n\nThe shipping zone is configured with postcode **452005**, so **Amazon should have been available** for this order. However, Amazon was skipped.\nFrom my observation, it appears that the app is using the **billing postcode (411015)** instead of the **shipping postcode (452005)** while matching the shipping zone.\n\n ![](https://pluginhive.zendesk.com/attachments/token/cdrPy5LeGH8gJKU2gPcMk2Nm7/?name=Screenshot+2026-07-01+at+3.02.54+PM.png)",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Back to L3 for Case 2 - &nbsp;<strong>Shipping Zone \u2013 Postcode Based&nbsp;</strong><br>Order <strong><a href=\"/agent/tickets/45307249\" target=\"_blank\" rel=\"ticket\">#45307249</a> - </strong><i><strong>HERE THE MAIN QUESTION IS WHY AMAZON IS NOT ASSIGNED FOR THIS ORDER?</strong></i><br>********************************<br>It looks like the app is checking the <strong>postcode condition using the Billing Address instead of the Shipping Address.</strong><br><strong>Example:</strong> Order <strong><a href=\"/agent/tickets/45307249\" target=\"_blank\" rel=\"ticket\">#45307249</a> - MAIN QUESTION IS WHY AMAZON IS NOT ASSIGNED FOR THIS ORDER?</strong><br><ul dir=\"auto\"><li><strong>Shipping Address Postcode:</strong> 452005</li><li><strong>Billing Address Postcode:</strong> 411015</li></ul>The shipping zone is configured with postcode <strong>452005</strong>, so <strong>Amazon should have been available</strong> for this order. However, Amazon was skipped.<br>From my observation, it appears that the app is using the <strong>billing postcode (411015)</strong> instead of the <strong>shipping postcode (452005)</strong> while matching the shipping zone.<br>&nbsp;<br><img style=\" width: 716px;\" src=\"https://pluginhive.zendesk.com/attachments/token/cdrPy5LeGH8gJKU2gPcMk2Nm7/?name=Screenshot+2026-07-01+at+3.02.54+PM.png\"><br></div>",
+        "plain_body": "Back to L3 for Case 2 - &nbsp;Shipping Zone \u2013 Postcode Based&nbsp;\nOrder #45307249 - HERE THE MAIN QUESTION IS WHY AMAZON IS NOT ASSIGNED FOR THIS ORDER?\n********************************\nIt looks like the app is checking the postcode condition using the Billing Address instead of the Shipping Address.\nExample: Order #45307249 - MAIN QUESTION IS WHY AMAZON IS NOT ASSIGNED FOR THIS ORDER?\n  Shipping Address Postcode: 452005  Billing Address Postcode: 411015  The shipping zone is configured with postcode 452005, so Amazon should have been available for this order. However, Amazon was skipped.\nFrom my observation, it appears that the app is using the billing postcode (411015) instead of the shipping postcode (452005) while matching the shipping zone.\n&nbsp;",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59568009421081,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-07-01T09:35:33Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59744462577561,
+        "type": "Comment",
+        "author_id": 388269142331,
+        "body": "**L3: **\n\n**LOI \u2013 Pending/Open Cases**\n\n**Previously Reported Issues :**\n**********************************\n**1. Delay/Inconsistency in Order Import (Date Filter Issue)**\n\n- When filtering orders for a specific date, not all orders placed on that date are displayed in the app. Some missing orders only appear when the date range is adjusted with +/- 1 day. (i.e; filtering from the previous day to the next day).\n\n**2. Fulfilled Orders Showing Under \"Not to Ship\"**\n\n- Orders that have already been fulfilled are appearing in the **Not to Ship** section or their status is being changed to **Not to Ship**.\n\n**3. Duplicate Packages / Labels Created**\n\n- Duplicate packages and shipping labels are being generated for certain orders.\n\n**4. Archived & Voided Orders Being Imported**\n\n- Orders with: **Order Status = Archived & Payment Status = Voided,** should ideally not be imported into the app. However, these orders are currently being imported and remain in the **Processing** status.\n\n**5. Fulfillment Failed with \"Order is already fulfilled\" error but the order was never Fulfilled.**\n\n- **Order:** #45296293 A shipping label was created and a fulfillment attempt was made on **June 10**. The fulfillment failed with the error: \"Order is already fulfilled.\" However, after reviewing the Shopify order timeline, the order was never fulfilled\u2014neither manually nor by our app.\n\n**Impact:** The merchant had to refund the customer because the order was never fulfilled in Shopify, even though the product had already been shipped, resulting in financial loss.\n\n**6. Label Created Orders Updated as Cancelled in the app.**\n\n- Our app is currently updating the status of **\"Label Created\"** orders to **Cancelled** whenever the corresponding order is cancelled in Shopify, even though a shipping label has already been created. This is incorrect.\n\n**Expected behavior:**\nOnce a shipping label has been created, the app should not update the order status to **Cancelled**, even if the corresponding Shopify order is later cancelled. The order should retain its post-label status (for example, **Label Created**).\n\n**7. Shipping Zone (Postcode-Based) Using Billing Address Instead of Shipping Address**\n\n- **Order:** #45307249\n\n**Issue:** Amazon Shipping was not assigned even though the shipping postcode matches the configured shipping zone.\n\n- Shipping Postcode: **452005**\n- Billing Postcode: **411015**\n\nThe shipping zone is configured for **452005**, so Amazon Shipping should have been assigned.\nFrom our observation, it appears that the app is validating the **Billing Address postcode** instead of the **Shipping Address postcode** while matching shipping zones.\n\n\n**New requests/issues :**\n**********************************\n\n**8. Duplicate Label Generation Across Multiple Carriers**\n\n- Order #45306773, both Delhivery and Xpressbees labels were generated at the same time for this order. Customer mentioned that they have not made any changes from their end, please check why 2 labels with 2 different carriers were created for this order.\n\n\n**9. Labels Created for Cancelled orders**\n\n- The following 9 orders were cancelled on July 4th in Shopify but the customer was able to create the labels for these orders this morning. There could be more but we found these 9 as of now.\n #45310766, #45310758, #45310752, #45310653, #45310641, #45310610, #45310577, #45310566, #45310558\n\n\n**10. Order Report for last 6 months - including the \"Package Weight\" column for all the orders.**\n\n**11.  Order** **#45290681** **is missing in the Order Report.**\n\n**12.  Issue with Fulfillments :** Multiple fulfillment-related inconsistencies are being observed.\n **Case 1. Fulfilled Orders Showing as \"Fulfillment Failed\"**\n\n- Some orders that have already been fulfilled are appearing under **Fulfillment Failed** without any valid reason or clear explanation. Ex: order #45308148.\n\n**Case 2.  Excessive Number of Fulfillment Failures**\n\n- We are seeing **2635 orders in \"Fulfillment Failed\" view** for the last 1 month **from June 6 to July 6 in the ap**p. Please check, those many failures are alarming and don't seem accurate.\nEx: 45308148 is fulfilled by the app and is in Fulfilled status in Shopify but why is it in Fulfillment Failed status in the app and why does Fulfillment summary say \"Order is already Fulfilled\"?\n\n**Case 3.  Incorrect Fulfillment Status & incorrect Failure error messages**\n\n- Currently, orders where fulfillment has failed are also updated as **Fulfilled** in the app, ideally the status for such orders must be **Fulfillment Failed.** This is making it impossible for the Fulfillment team to identify these Fulfillment failed orders to take the necessary actions from their end.\n- The app displays a generic error **\"Order is already fulfilled\"** for multiple fulfillment failures, even when the actual reason is different.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><strong>L3:&nbsp;</strong><br>&nbsp;<br><strong>LOI \u2013 Pending/Open Cases</strong><br>&nbsp;<br><strong>Previously Reported Issues :</strong><br><strong>******************************</strong><br><strong>1. Delay/Inconsistency in Order Import (Date Filter Issue)</strong><br><ul dir=\"auto\"><li>When filtering orders for a specific date, not all orders placed on that date are displayed in the app. Some missing orders only appear when the date range is adjusted with +/- 1 day. (i.e; filtering from the previous day to the next day).</li></ul><strong>2. Fulfilled Orders Showing Under \"Not to Ship\"</strong><br><ul dir=\"auto\"><li>Orders that have already been fulfilled are appearing in the <strong>Not to Ship</strong> section or their status is being changed to <strong>Not to Ship</strong>.</li></ul><strong>3. Duplicate Packages / Labels Created</strong><br><ul dir=\"auto\"><li>Duplicate packages and shipping labels are being generated for certain orders.</li></ul><strong>4. Archived &amp; Voided Orders Being Imported</strong><br><ul dir=\"auto\"><li>Orders with: <strong>Order Status = Archived &amp; Payment Status = Voided, </strong>should ideally not be imported into the app. However, these orders are currently being imported and remain in the <strong>Processing</strong> status.</li></ul><strong>5. Fulfillment Failed with \"Order is already fulfilled\" error but the order was never Fulfilled.</strong><br><ul dir=\"auto\"><li><strong>Order:</strong> <a href=\"/agent/tickets/45296293\" target=\"_blank\" rel=\"ticket\">#45296293</a> A shipping label was created and a fulfillment attempt was made on <strong>June 10</strong>. The fulfillment failed with the error: \"Order is already fulfilled.\" However, after reviewing the Shopify order timeline, the order was never fulfilled\u2014neither manually nor by our app.</li></ul><strong>Impact:</strong> The merchant had to refund the customer because the order was never fulfilled in Shopify, even though the product had already been shipped, resulting in financial loss.<br>&nbsp;<br><strong>6. Label Created Orders Updated as Cancelled in the app.</strong><br><ul dir=\"auto\"><li>Our app is currently updating the status of <strong>\"Label Created\"</strong> orders to <strong>Cancelled</strong> whenever the corresponding order is cancelled in Shopify, even though a shipping label has already been created. This is incorrect.<br><br><strong>Expected behavior:</strong><br>Once a shipping label has been created, the app should not update the order status to <strong>Cancelled</strong>, even if the corresponding Shopify order is later cancelled. The order should retain its post-label status (for example, <strong>Label Created</strong>).</li></ul><strong>7. Shipping Zone (Postcode-Based) Using Billing Address Instead of Shipping Address</strong><br><ul dir=\"auto\"><li><strong>Order:</strong> <a href=\"/agent/tickets/45307249\" target=\"_blank\" rel=\"ticket\">#45307249</a></li></ul><strong>Issue: </strong>Amazon Shipping was not assigned even though the shipping postcode matches the configured shipping zone.<br><ul dir=\"auto\"><li>Shipping Postcode: <strong>452005</strong></li><li>Billing Postcode: <strong>411015</strong></li></ul>The shipping zone is configured for <strong>452005</strong>, so Amazon Shipping should have been assigned.<br>From our observation, it appears that the app is validating the <strong>Billing Address postcode</strong> instead of the <strong>Shipping Address postcode</strong> while matching shipping zones.<br>&nbsp;<br>&nbsp;<br><strong>New requests/issues :</strong><br><strong>******************************</strong><br>&nbsp;<br><strong>8. Duplicate Label Generation Across Multiple Carriers</strong><br><ul dir=\"auto\"><li>Order <a href=\"/agent/tickets/45306773\" target=\"_blank\" rel=\"ticket\">#45306773</a>, both Delhivery and Xpressbees labels were generated at the same time for this order. Customer mentioned that they have not made any changes from their end, please check why 2 labels with 2 different carriers were created for this order.</li></ul>&nbsp;<br><strong>9. Labels Created for Cancelled orders</strong><br><ul dir=\"auto\"><li>The following 9 orders were cancelled on July 4th in Shopify but the customer was able to create the labels for these orders this morning. There could be more but we found these 9 as of now.<br>&nbsp;<a href=\"/agent/tickets/45310766\" target=\"_blank\" rel=\"ticket\">#45310766</a>, <a href=\"/agent/tickets/45310758\" target=\"_blank\" rel=\"ticket\">#45310758</a>, <a href=\"/agent/tickets/45310752\" target=\"_blank\" rel=\"ticket\">#45310752</a>, <a href=\"/agent/tickets/45310653\" target=\"_blank\" rel=\"ticket\">#45310653</a>, <a href=\"/agent/tickets/45310641\" target=\"_blank\" rel=\"ticket\">#45310641</a>, <a href=\"/agent/tickets/45310610\" target=\"_blank\" rel=\"ticket\">#45310610</a>, <a href=\"/agent/tickets/45310577\" target=\"_blank\" rel=\"ticket\">#45310577</a>, <a href=\"/agent/tickets/45310566\" target=\"_blank\" rel=\"ticket\">#45310566</a>, <a href=\"/agent/tickets/45310558\" target=\"_blank\" rel=\"ticket\">#45310558</a></li></ul>&nbsp;<br><strong>10. Order Report for last 6 months - including the \"Package Weight\" column for all the orders.</strong><br>&nbsp;<br><strong>11. &nbsp;Order </strong><a rel=\"noopener noreferrer\" href=\"https://pluginhive.zendesk.com/agent/tickets/45290681\"><strong>#45290681</strong></a><strong> is missing in the Order Report.</strong><br>&nbsp;<br><strong>12. &nbsp;Issue with Fulfillments :</strong> Multiple fulfillment-related inconsistencies are being observed.<br>&nbsp;<strong>Case 1. Fulfilled Orders Showing as \"Fulfillment Failed\"</strong><br><ul dir=\"auto\"><li>Some orders that have already been fulfilled are appearing under <strong>Fulfillment Failed</strong> without any valid reason or clear explanation. Ex: order <a href=\"/agent/tickets/45308148\" target=\"_blank\" rel=\"ticket\">#45308148</a>.</li></ul><strong>Case 2. &nbsp;Excessive Number of Fulfillment Failures</strong><br><ul dir=\"auto\"><li>We are seeing <strong>2635 orders in \"Fulfillment Failed\" view</strong> for the last 1 month<strong> from June 6 to July 6 in the ap</strong>p. Please check, those many failures are alarming and don't seem accurate.<br>Ex: 45308148 is fulfilled by the app and is in Fulfilled status in Shopify but why is it in Fulfillment Failed status in the app and why does Fulfillment summary say \"Order is already Fulfilled\"?</li></ul><strong>Case 3. &nbsp;Incorrect Fulfillment Status &amp; incorrect Failure error messages</strong><br><ul dir=\"auto\"><li>Currently, orders where fulfillment has failed are also updated as <strong>Fulfilled</strong> in the app, ideally the status for such orders must be <strong>Fulfillment Failed.</strong> This is making it impossible for the Fulfillment team to identify these Fulfillment failed orders to take the necessary actions from their end.</li><li><p dir=\"auto\">The app displays a generic error <strong>\"Order is already fulfilled\"</strong> for multiple fulfillment failures, even when the actual reason is different.</p><p dir=\"auto\">For example, if a Shopify order is cancelled after a shipping label has been created, the fulfillment fails because the order was <strong>cancelled</strong>, not because it was already fulfilled. The failure summary should reflect the actual reason to help merchants troubleshoot the issue accurately.</p></li></ul>&nbsp;<br></div>",
+        "plain_body": "L3:&nbsp;\n&nbsp;\nLOI \u2013 Pending/Open Cases\n&nbsp;\nPreviously Reported Issues :\n******************************\n1. Delay/Inconsistency in Order Import (Date Filter Issue)\n  When filtering orders for a specific date, not all orders placed on that date are displayed in the app. Some missing orders only appear when the date range is adjusted with +/- 1 day. (i.e; filtering from the previous day to the next day).  2. Fulfilled Orders Showing Under \"Not to Ship\"\n  Orders that have already been fulfilled are appearing in the Not to Ship section or their status is being changed to Not to Ship.  3. Duplicate Packages / Labels Created\n  Duplicate packages and shipping labels are being generated for certain orders.  4. Archived &amp; Voided Orders Being Imported\n  Orders with: Order Status = Archived &amp; Payment Status = Voided, should ideally not be imported into the app. However, these orders are currently being imported and remain in the Processing status.  5. Fulfillment Failed with \"Order is already fulfilled\" error but the order was never Fulfilled.\n  Order: #45296293 A shipping label was created and a fulfillment attempt was made on June 10. The fulfillment failed with the error: \"Order is already fulfilled.\" However, after reviewing the Shopify order timeline, the order was never fulfilled\u2014neither manually nor by our app.  Impact: The merchant had to refund the customer because the order was never fulfilled in Shopify, even though the product had already been shipped, resulting in financial loss.\n&nbsp;\n6. Label Created Orders Updated as Cancelled in the app.\n  Our app is currently updating the status of \"Label Created\" orders to Cancelled whenever the corresponding order is cancelled in Shopify, even though a shipping label has already been created. This is incorrect.\n\nExpected behavior:\nOnce a shipping label has been created, the app should not update the order status to Cancelled, even if the corresponding Shopify order is later cancelled. The order should retain its post-label status (for example, Label Created).  7. Shipping Zone (Postcode-Based) Using Billing Address Instead of Shipping Address\n  Order: #45307249  Issue: Amazon Shipping was not assigned even though the shipping postcode matches the configured shipping zone.\n  Shipping Postcode: 452005  Billing Postcode: 411015  The shipping zone is configured for 452005, so Amazon Shipping should have been assigned.\nFrom our observation, it appears that the app is validating the Billing Address postcode instead of the Shipping Address postcode while matching shipping zones.\n&nbsp;\n&nbsp;\nNew requests/issues :\n******************************\n&nbsp;\n8. Duplicate Label Generation Across Multiple Carriers\n  Order #45306773, both Delhivery and Xpressbees labels were generated at the same time for this order. Customer mentioned that they have not made any changes from their end, please check why 2 labels with 2 different carriers were created for this order.  &nbsp;\n9. Labels Created for Cancelled orders\n  The following 9 orders were cancelled on July 4th in Shopify but the customer was able to create the labels for these orders this morning. There could be more but we found these 9 as of now.\n&nbsp;#45310766, #45310758, #45310752, #45310653, #45310641, #45310610, #45310577, #45310566, #45310558  &nbsp;\n10. Order Report for last 6 months - including the \"Package Weight\" column for all the orders.\n&nbsp;\n11. &nbsp;Order #45290681 is missing in the Order Report.\n&nbsp;\n12. &nbsp;Issue with Fulfillments : Multiple fulfillment-related inconsistencies are being observed.\n&nbsp;Case 1. Fulfilled Orders Showing as \"Fulfillment Failed\"\n  Some orders that have already been fulfilled are appearing under Fulfillment Failed without any valid reason or clear explanation. Ex: order #45308148.  Case 2. &nbsp;Excessive Number of Fulfillment Failures\n  We are seeing 2635 orders in \"Fulfillment Failed\" view for the last 1 month from June 6 to July 6 in the app. Please check, those many failures are alarming and don't seem accurate.\nEx: 45308148 is fulfilled by the app and is in Fulfilled status in Shopify but why is it in Fulfillment Failed status in the app and why does Fulfillment summary say \"Order is already Fulfilled\"?  Case 3. &nbsp;Incorrect Fulfillment Status &amp; incorrect Failure error messages\n  Currently, orders where fulfillment has failed are also updated as Fulfilled in the app, ideally the status for such orders must be Fulfillment Failed. This is making it impossible for the Fulfillment team to identify these Fulfillment failed orders to take the necessary actions from their end.   The app displays a generic error \"Order is already fulfilled\" for multiple fulfillment failures, even when the actual reason is different.  For example, if a Shopify order is cancelled after a shipping label has been created, the fulfillment fails because the order was cancelled, not because it was already fulfilled. The failure summary should reflect the actual reason to help merchants troubleshoot the issue accurately.   &nbsp;",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59744467722265,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-07-06T09:26:01Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
       }
-    }
-  ]
+    ]
+  }
 }

@@ -1,0 +1,473 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/395887.json",
+    "id": 395887,
+    "external_id": null,
+    "via": {
+      "channel": "web",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": "web_widget"
+      }
+    },
+    "created_at": "2026-06-19T03:00:56Z",
+    "updated_at": "2026-06-23T11:40:47Z",
+    "generated_timestamp": 1782214847,
+    "type": "question",
+    "subject": "We have issues where if an order has ever gone int...",
+    "raw_subject": "We have issues where if an order has ever gone int...",
+    "description": "We have issues where if an order has ever gone into fulfilled stated, even if by another system - we cannot undo that fulfillment to process shipping. This limits our ability to redo shipping or if issues occur and we reset an order we cannot ship it. How can we fix this? We currently have 2 order 7770 7773 that this is occuring for.\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/help",
+    "priority": "normal",
+    "status": "open",
+    "recipient": null,
+    "requester_id": 53579265638297,
+    "submitter_id": 53579265638297,
+    "assignee_id": 44512844768153,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "dev_needed",
+      "last_reply_agent",
+      "other",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app",
+      "web_widget"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "balanced-beings-collective.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0428320111"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "4ZW1RD-D4NKL",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": "other"
+      },
+      {
+        "id": 360030770052,
+        "value": "balanced-beings-collective.myshopify.com"
+      },
+      {
+        "id": 6680360109081,
+        "value": "0428320111"
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent",
+    "comments": [
+      {
+        "id": 59147617517465,
+        "type": "Comment",
+        "author_id": 53579265638297,
+        "body": "We have issues where if an order has ever gone into fulfilled stated, even if by another system - we cannot undo that fulfillment to process shipping. This limits our ability to redo shipping or if issues occur and we reset an order we cannot ship it. How can we fix this? We currently have 2 order 7770 7773 that this is occuring for.\n\n------------------\nSubmitted from: https://mcsl-s.pluginhive.io/home/help",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">We have issues where if an order has ever gone into fulfilled stated, even if by another system - we cannot undo that fulfillment to process shipping. This limits our ability to redo shipping or if issues occur and we reset an order we cannot ship it. How can we fix this? We currently have 2 order 7770 7773 that this is occuring for.</p>\n\n<p dir=\"auto\">------------------\n<br>Submitted from: <a href=\"https://mcsl-s.pluginhive.io/home/help\" target=\"_blank\" rel=\"nofollow noreferrer\">https://mcsl-s.pluginhive.io/home/help</a></p></div>",
+        "plain_body": "We have issues where if an order has ever gone into fulfilled stated, even if by another system - we cannot undo that fulfillment to process shipping. This limits our ability to redo shipping or if issues occur and we reset an order we cannot ship it. How can we fix this? We currently have 2 order 7770 7773 that this is occuring for. \n\n ------------------\n\nSubmitted from: https://mcsl-s.pluginhive.io/home/help",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59147617517337,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": "web_widget"
+          }
+        },
+        "created_at": "2026-06-19T03:00:56Z",
+        "metadata": {
+          "system": {
+            "client": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+            "ip_address": "1.128.108.102",
+            "location": "QLD, Australia",
+            "latitude": -27.4683,
+            "longitude": 153.0322
+          },
+          "custom": {},
+          "flags": [
+            3
+          ],
+          "flags_options": {
+            "3": {
+              "trusted": false
+            }
+          },
+          "trusted": false
+        }
+      },
+      {
+        "id": 59152015252761,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "AU store\n$29\nE-parcel added\n$29 plan\ncustomer is using the app for labels\nactive from : 2026-01-20 07\nI discussed with keerthi and poste din L3",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">AU store&nbsp;<br>$29<br>E-parcel added<br>$29 plan&nbsp;<br>customer is using the app for labels&nbsp;<br>active from : 2026-01-20 07<br>I discussed with keerthi and poste din L3<br></div>",
+        "plain_body": "AU store&nbsp;\n$29\nE-parcel added\n$29 plan&nbsp;\ncustomer is using the app for labels&nbsp;\nactive from : 2026-01-20 07\nI discussed with keerthi and poste din L3",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59152015252633,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-19T05:08:08Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59152169914265,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "Hi Team,\n\nThank you for reaching out.\n\nCurrently, if an order is fulfilled in Shopify outside of our app (either manually or by another system), it will be marked as Externally Fulfilled within our app. At this time, this status cannot be reverted from our end, which is why you are unable to process shipping for those orders through the app.\n\nThat said, please allow me some time to discuss your use case with our development team.\n\nI will get back to you with an update as soon as I hear from the team.\n\nThank you for your patience and understanding.\n\nBest regards,\nPriyanka\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hi Team,<br>&nbsp;<br>Thank you for reaching out.<br>&nbsp;<br>Currently, if an order is fulfilled in Shopify outside of our app (either manually or by another system), it will be marked as Externally Fulfilled within our app. At this time, this status cannot be reverted from our end, which is why you are unable to process shipping for those orders through the app.<br>&nbsp;<br>That said, please allow me some time to discuss your use case with our development team.<br>&nbsp;<br>I will get back to you with an update as soon as I hear from the team.<br>&nbsp;<br>Thank you for your patience and understanding.<br>&nbsp;<br>Best regards,<br>Priyanka<br>Team PluginHive<br></div>",
+        "plain_body": "Hi Team,\n&nbsp;\nThank you for reaching out.\n&nbsp;\nCurrently, if an order is fulfilled in Shopify outside of our app (either manually or by another system), it will be marked as Externally Fulfilled within our app. At this time, this status cannot be reverted from our end, which is why you are unable to process shipping for those orders through the app.\n&nbsp;\nThat said, please allow me some time to discuss your use case with our development team.\n&nbsp;\nI will get back to you with an update as soon as I hear from the team.\n&nbsp;\nThank you for your patience and understanding.\n&nbsp;\nBest regards,\nPriyanka\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59152169914137,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-19T05:12:07Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59152571405721,
+        "type": "Comment",
+        "author_id": 44512844768153,
+        "body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781846579784789\n\nMCSL customer reported that if an order has entered a fulfilled state in Shopify (including fulfillment by another system), they are unable to undo the fulfillment and process shipping through our app. They mentioned that this prevents them from redoing shipping or shipping an order after it has been reset.\n\nAffected Orders:\n- 7770\n- 7773\n\n\n\n**Our Current process**\nWhen an order is fulfilled outside of our app, it is marked as Externally Fulfilled in the app. The customer is unable to revert this status and therefore cannot generate shipping labels for these orders.\n\n**Customer Requirement:**\nThe customer has stated that this functionality is important for their workflow. There are situations where shipping needs to be redone or orders need to be reset and processed again, but the current behavior prevents this. Could you please confirm whether this can be considered as a feature/enhancement request?\n\nPlease advise.\n\nStore Details : balanced-beings-collective.myshopify.com\nAc ID : e172f52f-4920-4eab-ba54-d93b76d02fe7\nPlan: $29",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/archives/C02E15X8X0C/p1781846579784789\">https://pluginhive.slack.com/archives/C02E15X8X0C/p1781846579784789</a><br>&nbsp;<br>MCSL customer reported that if an order has entered a fulfilled state in Shopify (including fulfillment by another system), they are unable to undo the fulfillment and process shipping through our app. They mentioned that this prevents them from redoing shipping or shipping an order after it has been reset.<br><br>Affected Orders:<br><ul dir=\"auto\"><li>7770</li><li>7773</li></ul><br><br><strong>Our Current process</strong><br>When an order is fulfilled outside of our app, it is marked as Externally Fulfilled in the app. The customer is unable to revert this status and therefore cannot generate shipping labels for these orders.<br><br><strong>Customer Requirement:</strong><br>The customer has stated that this functionality is important for their workflow. There are situations where shipping needs to be redone or orders need to be reset and processed again, but the current behavior prevents this. Could you please confirm whether this can be considered as a feature/enhancement request?<br><br>Please advise.<br><br>Store Details : <a rel=\"noopener noreferrer\" href=\"http://balanced-beings-collective.myshopify.com\">balanced-beings-collective.myshopify.com</a><br>Ac ID : e172f52f-4920-4eab-ba54-d93b76d02fe7<br>Plan: $29<br></div>",
+        "plain_body": "L3: https://pluginhive.slack.com/archives/C02E15X8X0C/p1781846579784789\n&nbsp;\nMCSL customer reported that if an order has entered a fulfilled state in Shopify (including fulfillment by another system), they are unable to undo the fulfillment and process shipping through our app. They mentioned that this prevents them from redoing shipping or shipping an order after it has been reset.\n\nAffected Orders:\n  7770  7773  \n\nOur Current process\nWhen an order is fulfilled outside of our app, it is marked as Externally Fulfilled in the app. The customer is unable to revert this status and therefore cannot generate shipping labels for these orders.\n\nCustomer Requirement:\nThe customer has stated that this functionality is important for their workflow. There are situations where shipping needs to be redone or orders need to be reset and processed again, but the current behavior prevents this. Could you please confirm whether this can be considered as a feature/enhancement request?\n\nPlease advise.\n\nStore Details : balanced-beings-collective.myshopify.com\nAc ID : e172f52f-4920-4eab-ba54-d93b76d02fe7\nPlan: $29",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59152571405593,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-19T05:23:15Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59168703526169,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "Will update on feature request,\n\nOrders 7770 and 7773 are marked as Processing.\n\n[Veena]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Will update on feature request,<br>&nbsp;<br>Orders 7770 and 7773 are marked as Processing.<br>&nbsp;<br>[Veena]<br></div>",
+        "plain_body": "Will update on feature request,\n&nbsp;\nOrders 7770 and 7773 are marked as Processing.\n&nbsp;\n[Veena]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59168703526041,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-19T14:10:07Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Kochi, KL, India",
+            "latitude": 9.9406,
+            "longitude": 76.2653
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59169162320921,
+        "type": "Comment",
+        "author_id": 18854260804761,
+        "body": "Hello Team,\n\nThank you for your patience.\n\nAs per your request, we have updated the order status of orders 7770 and 7773 in the app back to Processing. You can use the app to generate shipping labels for these 2 orders.\n\nRegarding providing a functionality to update the order status of such orders directly on your end, we are checking internally and will update you soon.\n\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Team,<br>&nbsp;<br>Thank you for your patience.<br>&nbsp;<br>As per your request, we have updated the order status of orders 7770 and 7773 in the app back to Processing. You can use the app to generate shipping labels for these 2 orders.<br>&nbsp;<br>Regarding providing a functionality to update the order status of such orders directly on your end, we are checking internally and will update you soon.<br>&nbsp;<br>Thanks and Regards,<br>Touseef<br>Team PluginHive<br></div>",
+        "plain_body": "Hello Team,\n&nbsp;\nThank you for your patience.\n&nbsp;\nAs per your request, we have updated the order status of orders 7770 and 7773 in the app back to Processing. You can use the app to generate shipping labels for these 2 orders.\n&nbsp;\nRegarding providing a functionality to update the order status of such orders directly on your end, we are checking internally and will update you soon.\n&nbsp;\nThanks and Regards,\nTouseef\nTeam PluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59169162320793,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-19T14:35:58Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59244935922713,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "Our senior team members are on leave for two days. We need to discuss this feature request with them before proceeding. Please keep this ticket in L3 for now.\n-[Athul]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Our senior team members are on leave for two days. We need to discuss this feature request with them before proceeding. Please keep this ticket in L3 for now.<br>-[Athul]<br></div>",
+        "plain_body": "Our senior team members are on leave for two days. We need to discuss this feature request with them before proceeding. Please keep this ticket in L3 for now.\n-[Athul]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59244965982361,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-22T08:00:52Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59294700170009,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "Will update on ETA/\n[Veena]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Will update on ETA/<br>[Veena]<br></div>",
+        "plain_body": "Will update on ETA/\n[Veena]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59294700169881,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T11:40:47Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      }
+    ]
+  }
+}

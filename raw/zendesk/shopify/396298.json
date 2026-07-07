@@ -1,0 +1,551 @@
+{
+  "ticket": {
+    "url": "https://pluginhive.zendesk.com/api/v2/tickets/396298.json",
+    "id": 396298,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "online@instore.co.in",
+          "name": "Vishal"
+        },
+        "to": {
+          "name": "PluginHive",
+          "address": "support@pluginhive.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-06-23T04:54:13Z",
+    "updated_at": "2026-06-23T11:34:41Z",
+    "generated_timestamp": 1782214481,
+    "type": null,
+    "subject": "Request for API Integration Details \u2013 Professional Couriers",
+    "raw_subject": "Request for API Integration Details \u2013 Professional Couriers",
+    "description": "Hi\nGreetings of the day\n\n\nWe are currently working with PluginHive to integrate Professional Couriers with their PH Multi-Carrier Shipping Label application.\n\nTo proceed with the integration, PluginHive has requested the following details from your side:\n\n1. API Documentation\n2. Sandbox/Test Credentials (if available)\n3. Technical or Integration-related Information\n4. Contact Details of the Concerned Technical/Support Representative (Email ID and Phone Number)\n\nKindly share the above details at your earliest convenience so that the integration process can move forward smoothly.\n\nIf there is a dedicated account manager or technical contact for API integrations, please introduce us to the concerned person for further coordination.\n\n\nThanks for your continued support.\n\nRegards,\n\nInstore\nOnline Team\n\n926 926 1919\n044 4950 8783",
+    "priority": null,
+    "status": "open",
+    "recipient": "support@pluginhive.com",
+    "requester_id": 59242611772953,
+    "submitter_id": 59242611772953,
+    "assignee_id": 388269142331,
+    "organization_id": null,
+    "group_id": 360001506052,
+    "collaborator_ids": [
+      59280149463193,
+      903409790923,
+      390739881171
+    ],
+    "follower_ids": [
+      59280149463193,
+      903409790923,
+      390739881171
+    ],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "aibot_auto_reply",
+      "dev_needed",
+      "last_reply_agent",
+      "shopify",
+      "shopify_multi_carrier_shipping_label_app"
+    ],
+    "custom_fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "https://instore.co.in/"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 4850746,
+    "encoded_id": "GN0JRR-046N3",
+    "fields": [
+      {
+        "id": 6676588406937,
+        "value": "shopify"
+      },
+      {
+        "id": 360008205591,
+        "value": "shopify_multi_carrier_shipping_label_app"
+      },
+      {
+        "id": 360008106052,
+        "value": null
+      },
+      {
+        "id": 360030770052,
+        "value": "https://instore.co.in/"
+      },
+      {
+        "id": 6680360109081,
+        "value": null
+      },
+      {
+        "id": 360040910992,
+        "value": null
+      },
+      {
+        "id": 360010893011,
+        "value": null
+      },
+      {
+        "id": 10442683151001,
+        "value": null
+      },
+      {
+        "id": 11120226386585,
+        "value": null
+      },
+      {
+        "id": 11144851505177,
+        "value": null
+      },
+      {
+        "id": 11647557879065,
+        "value": null
+      },
+      {
+        "id": 31692311802649,
+        "value": null
+      },
+      {
+        "id": 31692404517529,
+        "value": null
+      },
+      {
+        "id": 51345249545241,
+        "value": null
+      },
+      {
+        "id": 51345261094681,
+        "value": null
+      },
+      {
+        "id": 52177950830489,
+        "value": null
+      },
+      {
+        "id": 57821243551641,
+        "value": null
+      },
+      {
+        "id": 57821243552025,
+        "value": null
+      },
+      {
+        "id": 58546981197465,
+        "value": null
+      },
+      {
+        "id": 58805141949337,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "brand_id": 360000890072,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent",
+    "comments": [
+      {
+        "id": 59280149491737,
+        "type": "Comment",
+        "author_id": 59242611772953,
+        "body": "Hi\n\nGreetings of the day\n\n\n\n\n\n**We are currently working with PluginHive to integrate Professional Couriers with their PH Multi-Carrier Shipping Label application.**\n\n**To proceed with the integration, PluginHive has requested the following details from your side:\n1. API Documentation\n2. Sandbox/Test Credentials (if available)\n3. Technical or Integration-related Information\n4. Contact Details of the Concerned Technical/Support Representative (Email ID and Phone Number)**\n\n**Kindly share the above details at your earliest convenience so that the integration process can move forward smoothly.**\n\n**If there is a dedicated account manager or technical contact for API integrations, please introduce us to the concerned person for further coordination.**\n\n\n\n**Thanks for your continued support.**\n\n\n\nRegards,\n\n\nInstore\n\nOnline Team\n\n\n\n926 926 1919\n\n 044 4950 8783",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\"><div><div dir=\"ltr\"><div dir=\"ltr\"><div><div dir=\"ltr\"><div><div dir=\"ltr\"><div><div dir=\"ltr\"><div><div dir=\"ltr\"><div>Hi</div><div>Greetings of the day</div><b><div><b><br></b></div><div><b><br></b></div><div>\n<p dir=\"auto\"><span style=\"font-weight: normal;\">We are currently working with PluginHive to integrate Professional Couriers with their PH Multi-Carrier Shipping Label application.</span></p><p dir=\"auto\"><span style=\"font-weight: normal;\">To proceed with the integration, PluginHive has requested the following details from your side:</span></p><ol start=\"1\" dir=\"auto\"><li><span style=\"font-weight: normal;\">API Documentation</span></li><li><span style=\"font-weight: normal;\">Sandbox/Test Credentials (if available)</span></li><li><span style=\"font-weight: normal;\">Technical or Integration-related Information</span></li><li><span style=\"font-weight: normal;\">Contact Details of the Concerned Technical/Support Representative (Email ID and Phone Number)</span></li></ol><p dir=\"auto\"><span style=\"font-weight: normal;\">Kindly share the above details at your earliest convenience so that the integration process can move forward smoothly.</span></p><p dir=\"auto\"><span style=\"font-weight: normal;\">If there is a dedicated account manager or technical contact for API integrations, please introduce us to the concerned person for further coordination.</span></p></div></b><b><div><b><br></b></div></b><b><div>Thanks for your continued support.<b><br></b></div><div><b><br></b></div></b>Regards,<div><br></div><div>Instore</div><div>Online Team</div><div><br></div><div>926 926 1919</div><div> 044 4950 8783<br></div><div><br></div><div><br></div><div><br></div><div><div><br></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>",
+        "plain_body": "Hi  Greetings of the day  \n  \n  \n We are currently working with PluginHive to integrate Professional Couriers with their PH Multi-Carrier Shipping Label application.  To proceed with the integration, PluginHive has requested the following details from your side:   API Documentation  Sandbox/Test Credentials (if available)  Technical or Integration-related Information  Contact Details of the Concerned Technical/Support Representative (Email ID and Phone Number)   Kindly share the above details at your earliest convenience so that the integration process can move forward smoothly.  If there is a dedicated account manager or technical contact for API integrations, please introduce us to the concerned person for further coordination.   \n  Thanks for your continued support.\n  \n Regards, \n  Instore  Online Team  \n  926 926 1919   044 4950 8783",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59280149491609,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "online@instore.co.in",
+              "name": "Vishal",
+              "original_recipients": [
+                "online@instore.co.in",
+                "rahmath@tpcmaa.in",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive",
+              "address": "support@pluginhive.com"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T04:54:13Z",
+        "metadata": {
+          "system": {
+            "message_id": "<CA+xqdmX2KHXPoSr8D8j6MdfCmbSsCt7xbKAkW=PVD0=pb_k0tg@mail.gmail.com>",
+            "email_id": "01KVSD8A4RBP3C1G464T9DQYAB",
+            "raw_email_identifier": "2369120/b87ed15a-ad0b-4a91-87b9-ed4a1176b483.eml",
+            "json_email_identifier": "2369120/b87ed15a-ad0b-4a91-87b9-ed4a1176b483.json",
+            "eml_redacted": false
+          },
+          "custom": {},
+          "suspension_type_id": null
+        }
+      },
+      {
+        "id": 59280653129369,
+        "type": "Comment",
+        "author_id": 10478126723609,
+        "body": "Customer to carrier team. Main ticket - https://pluginhive.zendesk.com/agent/tickets/396151\n\nKeeping this OnHold for now",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Customer to carrier team. Main ticket - <a rel=\"noopener noreferrer\" href=\"https://pluginhive.zendesk.com/agent/tickets/396151\">https://pluginhive.zendesk.com/agent/tickets/396151</a><br>&nbsp;<br>Keeping this OnHold for now<br></div>",
+        "plain_body": "Customer to carrier team. Main ticket - https://pluginhive.zendesk.com/agent/tickets/396151\n&nbsp;\nKeeping this OnHold for now",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59280653129241,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T05:07:46Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59289896863769,
+        "type": "Comment",
+        "author_id": 59280149463193,
+        "body": "Hi\n\nGood Evening.\n\nPlease find the attachement for API document and the test credentials are below\n\n\n\nurl         :             www.tpcglobe.com\n\nlogin id :             MAAROY0001\n\npwssword :        TTS24\n\n\n\nThanks and Regards\n\n\n\nA. Mohamed Rahmathullah\n\nAGM - IT\n\nThe Professional Couriers Chennai LLP\n\nRegional Head Office, Royapettah, Chennai\n\n+91 9884055419",
+        "html_body": "<div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div style=\"page: WordSection1;\"><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">Hi</span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">Good Evening. </span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">Please find the attachement for API document and the test credentials are below</span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">&nbsp;</span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">url &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=\"http://www.tpcglobe.com\" style=\" color: blue; text-decoration: underline;\" rel=\"noreferrer\">www.tpcglobe.com</a></span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">login id :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MAAROY0001</span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">pwssword :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TTS24&nbsp;&nbsp;&nbsp; </span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">&nbsp;</span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">Thanks and Regards</span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">&nbsp;</span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">A. Mohamed Rahmathullah</span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">AGM - IT</span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">The Professional Couriers Chennai LLP</span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">Regional Head Office, Royapettah, Chennai</span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">+91 9884055419</span></p><p style=\"font-size: 12.0pt; margin: 0cm 0cm .0001pt;\" dir=\"auto\"><span style=\"font-size: 11.0pt; color: #1F497D;\">&nbsp;</span></p></div></div>",
+        "plain_body": "Hi  Good Evening.   Please find the attachement for API document and the test credentials are below  &nbsp;  url &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; www.tpcglobe.com  login id :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MAAROY0001  pwssword :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TTS24&nbsp;&nbsp;&nbsp;   &nbsp;  Thanks and Regards  &nbsp;  A. Mohamed Rahmathullah  AGM - IT  The Professional Couriers Chennai LLP  Regional Head Office, Royapettah, Chennai  +91 9884055419  &nbsp;",
+        "public": true,
+        "attachments": [
+          {
+            "url": "https://pluginhive.zendesk.com/api/v2/attachments/59289896867865.json",
+            "id": 59289896867865,
+            "file_name": "API Manua1_Delivery_Push.pdf",
+            "content_url": "https://pluginhive.zendesk.com/attachments/token/8TNYUAfZ3jYvWDPzPvTGL1imJ/?name=API+Manua1_Delivery_Push.pdf",
+            "mapped_content_url": "https://support.pluginhive.com/attachments/token/8TNYUAfZ3jYvWDPzPvTGL1imJ/?name=API+Manua1_Delivery_Push.pdf",
+            "content_type": "application/pdf",
+            "size": 351888,
+            "width": null,
+            "height": null,
+            "inline": false,
+            "deleted": false,
+            "malware_access_override": false,
+            "malware_scan_result": "malware_not_found",
+            "thumbnails": []
+          },
+          {
+            "url": "https://pluginhive.zendesk.com/api/v2/attachments/59289896881689.json",
+            "id": 59289896881689,
+            "file_name": "API Manual_Demo_25_Updated.ppt",
+            "content_url": "https://pluginhive.zendesk.com/attachments/token/Lglf9BPwvOARXaWJQjRtPPhco/?name=API+Manual_Demo_25_Updated.ppt",
+            "mapped_content_url": "https://support.pluginhive.com/attachments/token/Lglf9BPwvOARXaWJQjRtPPhco/?name=API+Manual_Demo_25_Updated.ppt",
+            "content_type": "application/vnd.ms-powerpoint",
+            "size": 1361408,
+            "width": null,
+            "height": null,
+            "inline": false,
+            "deleted": false,
+            "malware_access_override": false,
+            "malware_scan_result": "malware_not_found",
+            "thumbnails": []
+          }
+        ],
+        "audit_id": 59289896863641,
+        "via": {
+          "channel": "email",
+          "source": {
+            "from": {
+              "address": "online@instore.co.in",
+              "name": "Vishal",
+              "original_recipients": [
+                "rahmath@tpcmaa.in",
+                "online@instore.co.in",
+                "support@pluginhive.com"
+              ]
+            },
+            "to": {
+              "name": "PluginHive",
+              "address": "support@pluginhive.com"
+            },
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T09:09:32Z",
+        "metadata": {
+          "system": {
+            "message_id": "<038f01dd02ef$f195ab60$d4c10220$@tpcmaa.in>",
+            "client": "Microsoft Outlook 14.0",
+            "email_id": "01KVSVVP9C6SQ7BGPRPCPEEB2V",
+            "ip_address": "202.83.25.221",
+            "raw_email_identifier": "2369120/d3a6c4c6-3519-4053-a304-0e66bb8d8a15.eml",
+            "json_email_identifier": "2369120/d3a6c4c6-3519-4053-a304-0e66bb8d8a15.json",
+            "eml_redacted": false,
+            "location": "Chennai, TN, India",
+            "latitude": 13.0895,
+            "longitude": 80.2739
+          },
+          "custom": {},
+          "flags": [
+            15
+          ],
+          "flags_options": {
+            "15": {
+              "trusted": true
+            }
+          },
+          "trusted": true,
+          "suspension_type_id": null,
+          "notifications_suppressed_for": [
+            59242611772953
+          ]
+        }
+      },
+      {
+        "id": 59289945835929,
+        "type": "Comment",
+        "author_id": 366759418072,
+        "body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 3 message(s)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nHello Rahmath,\n\nThank you for sharing the API documentation and test credentials. We have received the attached files (API Manual - Delivery Push and API Manual Demo) along with the sandbox details.\n\nOur technical team will review the documentation and test credentials and reach out if any clarifications are needed. All further coordination will be handled through our main integration ticket to ensure nothing falls through.\n\nWe appreciate your prompt response and look forward to getting this integration underway.\n\nThanks & Regards,\nTeam PluginHive\n\n\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)<br>\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 3 message(s)<br>\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</p>\n<p dir=\"auto\">Hello Rahmath,</p>\n<p dir=\"auto\">Thank you for sharing the API documentation and test credentials. We have received the attached files (API Manual - Delivery Push and API Manual Demo) along with the sandbox details.</p>\n<p dir=\"auto\">Our technical team will review the documentation and test credentials and reach out if any clarifications are needed. All further coordination will be handled through our main integration ticket to ensure nothing falls through.</p>\n<p dir=\"auto\">We appreciate your prompt response and look forward to getting this integration underway.</p>\n<p dir=\"auto\">Thanks &amp; Regards,<br>\nTeam PluginHive</p>\n<p dir=\"auto\">\u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.</p></div>",
+        "plain_body": "\ud83e\udd16 Auto-generated draft \u2014 customer reply (probation mode)\n\nProduct: shopify-mcsl | Signal: form_field | Confidence: HIGH | Context: 3 message(s)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \n Hello Rahmath, \n Thank you for sharing the API documentation and test credentials. We have received the attached files (API Manual - Delivery Push and API Manual Demo) along with the sandbox details. \n Our technical team will review the documentation and test credentials and reach out if any clarifications are needed. All further coordination will be handled through our main integration ticket to ensure nothing falls through. \n We appreciate your prompt response and look forward to getting this integration underway. \n Thanks &amp; Regards,\n\nTeam PluginHive \n \u26a1 This response was generated automatically by PluginHive AI Support. A team member will follow up if you need further assistance.",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59289945835161,
+        "via": {
+          "channel": "api",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T09:10:09Z",
+        "metadata": {
+          "system": {
+            "client": "node",
+            "ip_address": "206.189.72.35",
+            "location": "Santa Clara, CA, United States",
+            "latitude": 37.3486,
+            "longitude": -121.9732
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59290691839001,
+        "type": "Comment",
+        "author_id": 388269142331,
+        "body": "Hello Rahmathullah,\n\nGood day!\n\nI am Keerthi, Customer Success Manager at PluginHive.\n\nInstore team is currently evaluating our **PH Multi-Carrier Shipping Label** app and has expressed interest in integrating Professional Couriers.\n\nThank you for sharing the API documentation and test credentials. We will share these details with our technical team for review and feasibility assessment.\n\nShould we have any questions or require any additional information during the evaluation process, we will get in touch with you.\n\nThank you for your support and cooperation.\n\nBest regards,\nKeerthi\nCustomer Success Manager\nPluginHive",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Hello Rahmathullah,<br>&nbsp;<br>Good day!<br>&nbsp;<br>I am Keerthi, Customer Success Manager at PluginHive.<br>&nbsp;<br>Instore team is currently evaluating our <a rel=\"noopener noreferrer\" href=\"https://apps.shopify.com/multi-carrier-shipping-label\"><strong><u>PH Multi-Carrier Shipping Label</u></strong></a> app and has expressed interest in integrating Professional Couriers.<br>&nbsp;<br>Thank you for sharing the API documentation and test credentials. We will share these details with our technical team for review and feasibility assessment.<br>&nbsp;<br>Should we have any questions or require any additional information during the evaluation process, we will get in touch with you.<br>&nbsp;<br>Thank you for your support and cooperation.<br>&nbsp;<br>Best regards,<br>Keerthi<br>Customer Success Manager<br>PluginHive<br></div>",
+        "plain_body": "Hello Rahmathullah,\n&nbsp;\nGood day!\n&nbsp;\nI am Keerthi, Customer Success Manager at PluginHive.\n&nbsp;\nInstore team is currently evaluating our PH Multi-Carrier Shipping Label app and has expressed interest in integrating Professional Couriers.\n&nbsp;\nThank you for sharing the API documentation and test credentials. We will share these details with our technical team for review and feasibility assessment.\n&nbsp;\nShould we have any questions or require any additional information during the evaluation process, we will get in touch with you.\n&nbsp;\nThank you for your support and cooperation.\n&nbsp;\nBest regards,\nKeerthi\nCustomer Success Manager\nPluginHive",
+        "public": true,
+        "attachments": [],
+        "audit_id": 59290691838873,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T09:31:27Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59293664625945,
+        "type": "Comment",
+        "author_id": 388269142331,
+        "body": "L3: **Carrier Integration Request - Professional Couriers.** Shared the API Docs, Tech contact and Test Creds in thread, please check the feasibility. @Vimal FYI\n\n**App:** MCSL (Pre-sale)\n**Carriers:** BlueDart, IndiaPost, DTDC and Professional Couriers (they'll connect us with DTDC as well)\n**Labels:** Expected to process 4,500/month\n**Proposed plan:** $49/month\n**URL:** https://instore.co.in/\n**Location:** Chennai based store\n\n\n**Test Creds:**\nurl       :             www.tpcglobe.com\nlogin id :            MAAROY0001\npwssword :       TTS24\n\n**Tech Contact Details**\n**Name: ** A. Mohamed Rahmathullah\n**Email ID:** rahmath@tpcmaa.in\n**Phone No.:** +91 9884055419",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">L3: <strong>Carrier Integration Request - Professional Couriers. </strong>Shared the API Docs, Tech contact and Test Creds in thread, please check the feasibility. <a rel=\"noopener noreferrer\" href=\"https://pluginhive.slack.com/team/U01KM3TRLRK\">@Vimal</a> FYI<br>&nbsp;<br><strong>App:</strong> MCSL (Pre-sale)<br><strong>Carriers: </strong>BlueDart, IndiaPost, DTDC and Professional Couriers (they'll connect us with DTDC as well)<br><strong>Labels: </strong>Expected to process 4,500/month<br><strong>Proposed plan: </strong>$49/month<br><strong>URL:</strong> <a rel=\"noopener noreferrer\" href=\"https://instore.co.in/\">https://instore.co.in/</a><br><strong>Location: </strong>Chennai based store<br>&nbsp;<br>&nbsp;<br><strong>Test Creds:</strong><br>url&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a rel=\"noopener noreferrer\" href=\"http://www.tpcglobe.com\">www.tpcglobe.com</a><br>login id :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MAAROY0001<br>pwssword :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TTS24<br>&nbsp;<br><strong>Tech Contact Details</strong><br><strong>Name:&nbsp; </strong>A. Mohamed Rahmathullah<br><strong>Email ID: </strong><a href=\"mailto:rahmath@tpcmaa.in\" rel=\"noreferrer\">rahmath@tpcmaa.in</a><br><strong>Phone No.:</strong> <a href=\"tel:+919884055419\" rel=\"noreferrer\">+91 9884055419</a>&nbsp;<br></div>",
+        "plain_body": "L3: Carrier Integration Request - Professional Couriers. Shared the API Docs, Tech contact and Test Creds in thread, please check the feasibility. @Vimal FYI\n&nbsp;\nApp: MCSL (Pre-sale)\nCarriers: BlueDart, IndiaPost, DTDC and Professional Couriers (they'll connect us with DTDC as well)\nLabels: Expected to process 4,500/month\nProposed plan: $49/month\nURL: https://instore.co.in/\nLocation: Chennai based store\n&nbsp;\n&nbsp;\nTest Creds:\nurl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; www.tpcglobe.com\nlogin id :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MAAROY0001\npwssword :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TTS24\n&nbsp;\nTech Contact Details\nName:&nbsp; A. Mohamed Rahmathullah\nEmail ID: rahmath@tpcmaa.in\nPhone No.: +91 9884055419&nbsp;",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59293664625561,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T11:06:15Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59293778085273,
+        "type": "Comment",
+        "author_id": 388269142331,
+        "body": "FYI: Onboarding for BlueDart & IndiaPost scheduled for Monday (as the respective person will be travelling for the rest of the week). However, we have provided a demo.\n[Keerthi]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">FYI: Onboarding for BlueDart &amp; IndiaPost scheduled for Monday (as the respective person will be travelling for the rest of the week). However, we have provided a demo.<br>[Keerthi]<br></div>",
+        "plain_body": "FYI: Onboarding for BlueDart &amp; IndiaPost scheduled for Monday (as the respective person will be travelling for the rest of the week). However, we have provided a demo.\n[Keerthi]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59293731126297,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T11:09:06Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      },
+      {
+        "id": 59294550586905,
+        "type": "Comment",
+        "author_id": 8448825445657,
+        "body": "Moving to dev_needed.\n[Veena]",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\">Moving to dev_needed.<br>[Veena]<br></div>",
+        "plain_body": "Moving to dev_needed.\n[Veena]",
+        "public": false,
+        "attachments": [],
+        "audit_id": 59294550586777,
+        "via": {
+          "channel": "web",
+          "source": {
+            "from": {},
+            "to": {},
+            "rel": null
+          }
+        },
+        "created_at": "2026-06-23T11:34:41Z",
+        "metadata": {
+          "system": {
+            "client": "Agent-Graph/latest TicketsMutationService/updateTicket JavaStarter/4.71.0",
+            "ip_address": "127.0.0.6",
+            "location": "Bengaluru, KA, India",
+            "latitude": 12.9753,
+            "longitude": 77.591
+          },
+          "custom": {}
+        }
+      }
+    ]
+  }
+}
